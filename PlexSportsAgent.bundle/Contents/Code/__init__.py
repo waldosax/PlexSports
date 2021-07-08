@@ -4,8 +4,9 @@ def Start():
     pass
 
 
-class PlexSportAgent(Agent.TV_Shows):
+class PlexSportsAgent(Agent.TV_Shows):
     def __init__(self, **kwargs):
         super().__init__()
-        self.name = 'PlexSportAgent'
+        self.name = 'PlexSportsAgent'
         self.languages = ['en']
+    
