@@ -1,8 +1,9 @@
-import urllib2
 import certifi
 import requests
+from requests.utils import requote_uri
+from threading import Lock
 
-netLock = Thread.Lock()
+netLock = Lock()
 
 # Keep track of success/failures in a row.
 successCount = 0
@@ -14,9 +15,10 @@ TOTAL_TRIES = 1
 BACKUP_TRIES = -1
 
 def GetResultFromNetwork(url, headers: dict=None, fetchContent=True):
-    global successCount, failureCount, RETRY_TIMEOUT # I don't know what this does
+    global successCount, failureCount, RETRY_TIMEOUT # I don't know what this does yet
 
-    url = url.replace(' ', '%20') # TODO: implement a REAL urlencode
+    url = requote_uri(url)
+    print(">>GET %s" % url)
 
     try:
         netLock.acquire()
@@ -40,14 +42,16 @@ def GetResultFromNetwork(url, headers: dict=None, fetchContent=True):
                 # DONE!
                 return result
 
-            except Exception, e:
+            except Exception as e:
+
+                print(e) # TODO: Take a harder look at exception handling
 
                 # Fast fail a not found.
-                if e.code == 404:
-                    return None
+                # if e.code == 404:
+                #     return None
 
                 failureCount += 1
-                Log("Failure (%d in a row)" % failureCount)
+                print("Failure (%d in a row)" % failureCount)
                 successCount = 0
                 time.sleep(RETRY_TIMEOUT)
 

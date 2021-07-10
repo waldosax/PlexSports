@@ -1,12 +1,10 @@
-import VideoCodec
-
 known_video_codec_expressions = [ 
-  ("[hH]\\.264", VideoCodec.H264),
-  ("[hH]264", VideoCodec.H264),
-  ("[hH]\\.265", VideoCodec.H264),
-  ("[hH]265", VideoCodec.H264),
-  ("[xX]\\.265", VideoCodec.H264),
-  ("[xX]265", VideoCodec.H264)
+  ("[hH]\\.264", "H.264"),
+  ("[hH]264", "H.264"),
+  ("[hH]\\.265", "H.264"),
+  ("[hH]265", "H.264"),
+  ("[xX]\\.265", "H.264"),
+  ("[xX]265", "H.264")
 ]
 
 known_video_resolution_expressions = [ 
@@ -54,29 +52,32 @@ known_leagues_expressions = [
 
 
 air_date_expressions = [
-  "(?P<year>(\\d{4}))[\\.- ]?(?P<month>(\\d{2}))[\\.- ]?(?P<day>(\\d{2}))",
-  "(?P<month>(\\d{1,2}))-(?P<day>(\\d{1,2}))-(?P<year>(\\d{2,4}))"
+  r"(?P<year>(\d{4}))[\.]?(?P<month>(\d{2}))[\.]?(?P<day>(\d{2}))", # 2021.01.30
+  r"(?P<year>(\d{4}))[-]?(?P<month>(\d{2}))[-]?(?P<day>(\d{2}))",   # 2021-01-30
+  r"(?P<year>(\d{4}))[ ]?(?P<month>(\d{2}))[ ]?(?P<day>(\d{2}))",   # 2021 01 30
+  r"(?P<year>(\d{4}))(?P<month>(\d{2}))(?P<day>(\d{2}))",           # 20210130
+  r"(?P<month>(\d{1,2}))-(?P<day>(\d{1,2}))-(?P<year>(\d{2,4}))"    # 1-30-2021 or 1-30-21
 ]
 
 
 versus_expressions = [
-  "versus",
-  "vs\.",
-  "v\.",
-  "v",
-  "@"
+  r"versus",
+  r"vs\.",
+  r"v\.",
+  r"v",
+  r"\@"
 ]
 
 
 double_header_expressions = [
-  "Game\\s+(?P<game_number>(\d+))",
-  "game[\\.-]?(?P<game_number>(\d+))"
+  r"Game\s+(?P<game_number>(\d+))",
+  r"game[\.-]?(?P<game_number>(\d+))"
 ]
 
 
 week_expressions = [
-  "Week\\s+(?P<game_number>(\d+))",
-  "week[\\.-]?(?P<game_number>(\d+))"
+  r"Week\s+(?P<game_number>(\d+))",
+  r"week[\.-]?(?P<game_number>(\d+))"
 ]
 
 
@@ -98,3 +99,6 @@ METADATA_AUDIO_RESOLUTION_KEY = "audio resolution"
 
 
 USER_AGENT = "Plex/PlexSportsScanner"
+
+DATA_PATH = r"Data/"
+DATA_PATH_LEAGUES = DATA_PATH + r"Leagues/"

@@ -1,9 +1,12 @@
-import importlib
+# Boostrap necessary modules for debugging Plex Metadata agent
+
+#import importlib
 import os
 import sys
 
-bundlePath = "PlexSportsAgent.bundle"
-sharedLibraryPath = os.path.join(bundlePath, "Contents/Libraries/Shared")
+sys.path.append(os.path.abspath("PlexSportsAgent.bundle/Contents/Libraries/Shared"))
+sys.path.append(os.path.abspath("Debug\\Plex"))
+sys.path.append(os.path.abspath("Backups"))
 
 PlexAgent = importlib.import_module("Debug.Plex.Agent")
 PlexAudioCodec = importlib.import_module("Debug.Plex.AudioCodec")
@@ -11,17 +14,6 @@ PlexVideoCodec = importlib.import_module("Debug.Plex.VideoCodec")
 PlexContainer = importlib.import_module("Debug.Plex.Container")
 
 agentSpec = importlib.util.spec_from_file_location("PlexSportsAgent", "PlexSportsAgent.bundle/Contents/Code/__init__.py")
-sharedLibraries = os.listdir(sharedLibraryPath)
-sharedLibrarySpecs = list(
-    map(
-        lambda lib: 
-            (lib, importlib.util.spec_from_file_location(lib, os.path.join(sharedLibraryPath, lib, "__init__.py"))),
-        sharedLibraries
-    )
-)
-for shared in sharedLibrarySpecs:
-    sys.modules[shared[0]] = shared[1]
-
 PlexSportsAgent = importlib.util.module_from_spec(agentSpec)
 
 sys.modules["AudioCodec"] = PlexAudioCodec
