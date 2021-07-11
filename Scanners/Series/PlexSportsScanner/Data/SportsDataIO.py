@@ -24,7 +24,7 @@ sports_data_io_api_keys = {
     LEAGUE_NHL: SPORTS_DATA_IO_NHL_API_KEY
 }
 
-def __sports_data_io_download_all_teams_for_league(league: str):
+def __sports_data_io_download_all_teams_for_league(league):
     if (league in known_leagues.keys() == False):
         return None # TODO: Throw
     key = sports_data_io_api_keys[league]

@@ -1,9 +1,11 @@
 import certifi
 import requests
+import urllib2
 from requests.utils import requote_uri
 from threading import Lock
 
 netLock = Lock()
+#netLock = Thread.Lock()
 
 # Keep track of success/failures in a row.
 successCount = 0
@@ -14,7 +16,7 @@ RETRY_TIMEOUT = MIN_RETRY_TIMEOUT
 TOTAL_TRIES = 1
 BACKUP_TRIES = -1
 
-def GetResultFromNetwork(url, headers: dict=None, fetchContent=True):
+def GetResultFromNetwork(url, headers=None, fetchContent=True):
     global successCount, failureCount, RETRY_TIMEOUT # I don't know what this does yet
 
     url = requote_uri(url)
@@ -42,7 +44,7 @@ def GetResultFromNetwork(url, headers: dict=None, fetchContent=True):
                 # DONE!
                 return result
 
-            except Exception as e:
+            except Exception, e:
 
                 print(e) # TODO: Take a harder look at exception handling
 

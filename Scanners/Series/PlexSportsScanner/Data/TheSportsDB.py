@@ -13,7 +13,7 @@ the_sports_db_headers = {
 
 
 
-def __the_sports_db_download_all_teams_for_league(league: str):
+def __the_sports_db_download_all_teams_for_league(league):
     if (league in known_leagues.keys() == False):
         return None # TODO: Throw
     print("Getting %s teams data from The SportsDB ..." % league)

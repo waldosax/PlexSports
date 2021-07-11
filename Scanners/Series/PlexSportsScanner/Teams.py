@@ -1,7 +1,12 @@
-import json, os
-from Constants import *
-from PlexSportsScanner import *
+# Python framework
+import sys, os, json
+
+# Plex native
 import Utils
+
+# Local package
+from Constants import *
+from Data import TheSportsDB, SportsDataIO
 
 cached_teams = dict()
 
@@ -45,13 +50,13 @@ def GetTeams(league, download=False):
         teams = __get_teams_from_cache(league)
     else:
         # Retrieve data from TheSportsDB.com
-        downloadedJson = Data.TheSportsDB.__the_sports_db_download_all_teams_for_league(league)
+        downloadedJson = TheSportsDB.__the_sports_db_download_all_teams_for_league(league)
         sportsDbTeams = json.loads(downloadedJson)
         for team in sportsDbTeams["teams"]:
             __add_or_override_team(teams, League=league, Abbreviation=team["strTeamShort"], Name=team["strTeam"], FullName=team["strTeam"], SportsDBID=team["idTeam"])
         
         # Augment/replace with data from SportsData.io
-        downloadedJson = Data.SportsDataIO.__sports_data_io_download_all_teams_for_league(league)
+        downloadedJson = SportsDataIO.__sports_data_io_download_all_teams_for_league(league)
         sportsDataIoTeams = json.loads(downloadedJson)
         for team in sportsDataIoTeams:
             __add_or_override_team(teams, League=league, Abbreviation=team["Key"], Name=team["Name"], FullName=team.get("FullName") or "%s %s" % (team["City"], team["Name"]), City=team["City"], SportsDataIOID=team["TeamID"])
@@ -123,9 +128,12 @@ def __write_team_cache_file(league, json):
     path = __get_team_cache_file_path(league)
     dir = os.path.dirname(path)
     if os.path.exists(dir) == False:
-        paths = Utils.SplitPath(dir)
-        print(paths)
-        os.mkdir(dir)
+        nodes = Utils.SplitPath(dir)
+        agg = None
+        for node in nodes:
+            agg = os.path.join(agg, node) if agg else node
+            if os.path.exists(agg) == False:
+                os.mkdir(agg)
     f = open(path, "w")
     f.write(json)
     f.close()
