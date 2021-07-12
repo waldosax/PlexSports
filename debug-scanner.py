@@ -19,27 +19,14 @@ if __name__ == "__main__":
     #path = argv[1]
     #path = "Z:\\Staging\\Sports" # argv[0]
     path = "L:\\Staging\\Sports" # argv[0]
-    print (path)
-    mediaList = []
-
-    #paths = dict()
-    #walk = [os.path.join(dirPath, fileName) for dirPath, dirNames, fileNames in os.walk(root) for fileName in fileNames]
-    #for f in walk:
-    #    relpath = os.path.relpath(os.path.dirname(f), root)
-    #    file = os.path.basename(f)
-    #    paths.setdefault(relpath, [])
-    #    paths[relpath].append(file)
-
-    #for path in paths.keys():
-    #    files = paths[path]
-    #    print("Scanning: %s\n\t%s" % (path, files)) 
-    #    PlexSportsScanner.Scan(path, files, mediaList, [], root)
-
-    #print(mediaList)
+    mdeia = []
 
     files = [os.path.join(path, file) for file in os.listdir(path)]
     if sys.platform != "win32": path = path[1:]
     
+    print (path)
     print(files)
 
-    PlexSportsScanner.Scan(path, files, mediaList, [], root=root)
+    PlexSportsScanner.Scan(path, files, mdeia, [], root=root)
+    
+    print(media)

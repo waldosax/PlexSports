@@ -14,14 +14,14 @@ from Matching import *
 
 
 
-def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
+def Scan(path, files, media, subdirs, language=None, root=None, **kwargs):
     """"""
     print("Scanning for files at " + path + " ...")
     Touchdown()
 
     # Scan for video files.
-    VideoFiles.Scan(path, files, mediaList, subdirs, root)
-    #print(files)
+    VideoFiles.Scan(path, files, media, subdirs, root)
+    print(files)
 
     # Iterate over all the files
     #for file in files:
@@ -37,4 +37,6 @@ def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
     GetAllTeams()
 
     if files:
-        Stack.Scan(path, files, media, dirs)
+        Stack.Scan(path, files, media, subdirs)
+
+    print(files)
