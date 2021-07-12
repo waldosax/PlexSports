@@ -14,19 +14,80 @@ sys.modules["PlexSportsScanner"] = PlexSportsScanner = __import__("PlexSportsSca
 
 # Load up search results
 if __name__ == "__main__":
-    root = None # Plex Root
+	# argv1 = argv[1]
+	# argv1 = "Z:\\Staging\\Sports"
+	argv1 = "L:\\Staging\\Sports"
 
-    #path = argv[1]
-    #path = "Z:\\Staging\\Sports" # argv[0]
-    path = "L:\\Staging\\Sports" # argv[0]
-    mdeia = []
+	# argv2 = len(argv) > 2 and argv[2].lower in ["--fullscan"]
+	argv2 = True
+	# argv2 = False
 
-    files = [os.path.join(path, file) for file in os.listdir(path)]
-    if sys.platform != "win32": path = path[1:]
-    
-    print (path)
-    print(files)
+	fullscan = argv2
+	root = None # Library Location Root
+	path = argv1 # 
+	mediaList = []
 
-    PlexSportsScanner.Scan(path, files, mdeia, [], root=root)
-    
-    print(media)
+
+	# /
+	#	mnt/Media/
+	# 		Video/
+	# 			Sports/		<-- Sports library
+	# 				Boxing/
+	# 				MLB/
+	# 					2021/
+	# 				NBA/
+	#				NFL/
+	#					2004-2005/
+	#						NFL.Super Bowl.XXXIX.Patriots.vs.Eagles.720p.HD.TYT.mp4
+	#						NFL.Super Bowl.XXXIX.Patriots.vs.Eagles.720p.HD.TYT.ts
+	#					Super.Bowl.LII.2018.02.04.Eagles.vs.Patriots.1080p.HDTV.x264.Merrill-Hybrid-5.1-PHillySPECIAL.mkv
+	#				NHL/
+	#				UFC/
+	#				.plexignore
+	#				Phillies vs. Red Sox Game Highlights (7_10_21) _ MLB Highlights.mp4
+	#				yt1s.com - Phillies vs Cubs Game Highlights 70821  MLB Highlights.mp4
+	#				yt1s.com - Phillies vs Red Sox Game Highlights 7921  MLB Highlights.mp4
+
+	#files = [os.path.join(path, file) for file in os.listdir(path)]
+	#if sys.platform != "win32": path = path[1:]
+	
+	root = "F:\\Code\\Plex\PlexSportsLibrary"
+	paths = [
+		("", [
+			"F:\\Code\\Plex\\PlexSportsLibrary\\.plexignore",
+			"F:\\Code\\Plex\\PlexSportsLibrary\\Phillies vs. Red Sox Game Highlights (7_10_21) _ MLB Highlights.mp4",
+			"F:\\Code\\Plex\\PlexSportsLibrary\\yt1s.com - Phillies vs Cubs Game Highlights 70821  MLB Highlights.mp4",
+			"F:\\Code\\Plex\\PlexSportsLibrary\\yt1s.com - Phillies vs Red Sox Game Highlights 7921  MLB Highlights.mp4"
+			], [
+				"F:\\Code\\Plex\\PlexSportsLibrary\\.git",
+				"F:\\Code\\Plex\\PlexSportsLibrary\\Boxing",
+				"F:\\Code\\Plex\\PlexSportsLibrary\\MLB",
+				"F:\\Code\\Plex\\PlexSportsLibrary\\NBA",
+				"F:\\Code\\Plex\\PlexSportsLibrary\\NFL",
+				"F:\\Code\\Plex\\PlexSportsLibrary\\NHL",
+				"F:\\Code\\Plex\\PlexSportsLibrary\\UFC",
+			], root),
+		("F:\\Code\\Plex\\PlexSportsLibrary\\Boxing", [], [], root),
+		("F:\\Code\\Plex\\PlexSportsLibrary\\MLB", [], ["F:\\Code\\Plex\\PlexSportsLibrary\\2021"], root),
+		("NBA", [], [], root),
+		("NFL", [
+			"F:\\Code\\Plex\\PlexSportsLibrary\\NFL\\Super.Bowl.LII.2018.02.04.Eagles.vs.Patriots.1080p.HDTV.x264.Merrill-Hybrid-5.1-PHillySPECIAL.mkv"
+			], [], root),
+		("NFL\\2004-2005", [
+			"F:\\Code\\Plex\\PlexSportsLibrary\\NFL\\2004-2005\\NFL.Super Bowl.XXXIX.Patriots.vs.Eagles.720p.HD.TYT.mp4",
+			"F:\\Code\\Plex\\PlexSportsLibrary\\NFL\\2004-2005\\NFL.Super Bowl.XXXIX.Patriots.vs.Eagles.720p.HD.TYT.ts"
+			], [], root),
+		("NHL", [], [], root),
+		("UFC", [], [], root)
+		]
+
+	mediaList = []
+	for p in paths:
+		(path, files, subdirs, root) = p
+
+		#print (path)
+		#print(files)
+
+		PlexSportsScanner.Scan(path, files, mediaList, subdirs, root=root)
+	
+	print(mediaList)
