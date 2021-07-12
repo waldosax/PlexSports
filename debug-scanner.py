@@ -69,21 +69,22 @@ if __name__ == "__main__":
 			], root),
 		("F:\\Code\\Plex\\PlexSportsLibrary\\Boxing", [], [], root),
 		("F:\\Code\\Plex\\PlexSportsLibrary\\MLB", [], ["F:\\Code\\Plex\\PlexSportsLibrary\\2021"], root),
-		("NBA", [], [], root),
-		("NFL", [
+		("F:\\Code\\Plex\\PlexSportsLibrary\\NBA", [], [], root),
+		("F:\\Code\\Plex\\PlexSportsLibrary\\NFL", [
 			"F:\\Code\\Plex\\PlexSportsLibrary\\NFL\\Super.Bowl.LII.2018.02.04.Eagles.vs.Patriots.1080p.HDTV.x264.Merrill-Hybrid-5.1-PHillySPECIAL.mkv"
-			], [], root),
-		("NFL\\2004-2005", [
+			], [
+				"F:\\Code\\Plex\\PlexSportsLibrary\\NFL\\2004-2005",
+				], root),
+		("F:\\Code\\Plex\\PlexSportsLibrary\\NFL\\2004-2005", [
 			"F:\\Code\\Plex\\PlexSportsLibrary\\NFL\\2004-2005\\NFL.Super Bowl.XXXIX.Patriots.vs.Eagles.720p.HD.TYT.mp4",
 			"F:\\Code\\Plex\\PlexSportsLibrary\\NFL\\2004-2005\\NFL.Super Bowl.XXXIX.Patriots.vs.Eagles.720p.HD.TYT.ts"
 			], [], root),
-		("NHL", [], [], root),
-		("UFC", [], [], root)
+		("F:\\Code\\Plex\\PlexSportsLibrary\\NHL", [], [], root),
+		("F:\\Code\\Plex\\PlexSportsLibrary\\UFC", [], [], root)
 		]
 
 	mediaList = []
-	for p in paths:
-		(path, files, subdirs, root) = p
+	for (path, files, subdirs, root) in paths:
 
 		#print (path)
 		#print(files)

@@ -15,7 +15,7 @@ from Matching import *
 
 def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
     """"""
-    print("Scanning for files at " + path + " ...")
+    print("Scanning for files at '" + path + "' ...")
 
     # Scan for video files.
     VideoFiles.Scan(path, files, mediaList, subdirs, root)
