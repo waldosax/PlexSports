@@ -1,0 +1,55 @@
+import re, os, os.path, random
+import Media, VideoFiles, Stack, Utils
+from pprint import pprint
+from PlexSportsScanner.Constants import *
+from PlexSportsScanner.NFL import *
+from PlexSportsScanner.Teams import *
+from PlexSportsScanner.Matching import *
+
+
+
+
+def Scan(path, files, mediaList, subdirs, root=None):
+    """"""
+    print("Scanning for files at " + path + " ...")
+    Touchdown()
+
+    # Scan for video files.
+    VideoFiles.Scan(path, files, mediaList, subdirs, root)
+    #print(files)
+
+    # Iterate over all the files
+    for file in files:
+        done = False
+        folders = os.path.dirname(file)
+        fileName = os.path.basename(file)
+        (fileNameWithoutExtension, ext) = os.path.splitext(fileName)
+        #print("%s | %s | %s" % (folders, fileNameWithoutExtension, ext))
+
+        meta = dict()
+        #Extract all the metadata possible from the folder structure/file name
+
+        GetAllTeams()
+
+
+
+# Load up search results
+if __name__ == "__main__":
+    root = "Z:\\Staging\\Sports" # argv[0]
+    print (root)
+    mediaList = []
+
+    paths = dict()
+    walk = [os.path.join(dirPath, fileName) for dirPath, dirNames, fileNames in os.walk(root) for fileName in fileNames]
+    for f in walk:
+        relpath = os.path.relpath(os.path.dirname(f), root)
+        file = os.path.basename(f)
+        paths.setdefault(relpath, [])
+        paths[relpath].append(file)
+
+    for path in paths.keys():
+        files = paths[path]
+        print("Scanning: %s\n\t%s" % (path, files)) 
+        Scan(path, files, mediaList, [])
+
+    print(mediaList)

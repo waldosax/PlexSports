@@ -35,3 +35,4 @@ def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
 
     if files:
         Stack.Scan(path, files, mediaList, subdirs)
+        print(files)

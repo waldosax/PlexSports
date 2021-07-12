@@ -1,6 +1,6 @@
 # Boostrap necessary modules for debugging Plex scanner
 
-import os, sys, types
+import os, sys, types, functools
 
 # Anywhere I might resolve an import directive from
 sys.path.append(os.path.abspath("Backups\\Scanners.bundle\\Contents\\Resources\\Common"))
@@ -11,6 +11,48 @@ sys.path.append(os.path.abspath("C:\\Python27\\Lib\\site-packages"))
 
 sys.path.append(os.path.abspath("Scanners\\Series"))
 sys.modules["PlexSportsScanner"] = PlexSportsScanner = __import__("PlexSportsScanner")
+
+
+
+
+
+def BeginScan(root):
+	root = root
+	path = root
+	mediaList = []
+
+	(path, files, subdirs) = GetFilesAndSubdirs(path)
+		
+	ScanRecursive(path, files, mediaList, subdirs, root)
+	return mediaList
+
+def GetFilesAndSubdirs(path, relsubdir = None):
+	x = path
+	if (relsubdir):
+		x = os.path.join(x, relsubdir)
+	files = []
+	subdirs = []
+	mediaList = []
+	l = os.listdir(x)
+	for i in l:
+		p = os.path.join(x, i)
+		if os.path.isfile(p):
+			files.append(p)
+		elif os.path.isdir(p):
+			subdirs.append(p)
+	return (x, files, subdirs)
+
+def ScanRecursive(path, files, mediaList, subdirs, root):
+	PlexSportsScanner.Scan(path, files, mediaList, subdirs, root=root)
+	for s in subdirs:
+		relsubdir = os.path.relpath(s, path or root)
+		(newpath, newfiles, newsubdirs) = GetFilesAndSubdirs(path or root, relsubdir)
+		ScanRecursive(newpath, newfiles, mediaList, newsubdirs, root)
+
+
+
+
+
 
 # Load up search results
 if __name__ == "__main__":
@@ -67,28 +109,23 @@ if __name__ == "__main__":
 				"F:\\Code\\Plex\\PlexSportsLibrary\\NHL",
 				"F:\\Code\\Plex\\PlexSportsLibrary\\UFC",
 			], root),
-		("F:\\Code\\Plex\\PlexSportsLibrary\\Boxing", [], [], root),
-		("F:\\Code\\Plex\\PlexSportsLibrary\\MLB", [], ["F:\\Code\\Plex\\PlexSportsLibrary\\2021"], root),
-		("F:\\Code\\Plex\\PlexSportsLibrary\\NBA", [], [], root),
-		("F:\\Code\\Plex\\PlexSportsLibrary\\NFL", [
+		("Boxing", [], [], root),
+		("MLB", [], ["F:\\Code\\Plex\\PlexSportsLibrary\\2021"], root),
+		("NBA", [], [], root),
+		("NFL", [
 			"F:\\Code\\Plex\\PlexSportsLibrary\\NFL\\Super.Bowl.LII.2018.02.04.Eagles.vs.Patriots.1080p.HDTV.x264.Merrill-Hybrid-5.1-PHillySPECIAL.mkv"
 			], [
 				"F:\\Code\\Plex\\PlexSportsLibrary\\NFL\\2004-2005",
 				], root),
-		("F:\\Code\\Plex\\PlexSportsLibrary\\NFL\\2004-2005", [
+		("NFL\\2004-2005", [
 			"F:\\Code\\Plex\\PlexSportsLibrary\\NFL\\2004-2005\\NFL.Super Bowl.XXXIX.Patriots.vs.Eagles.720p.HD.TYT.mp4",
 			"F:\\Code\\Plex\\PlexSportsLibrary\\NFL\\2004-2005\\NFL.Super Bowl.XXXIX.Patriots.vs.Eagles.720p.HD.TYT.ts"
 			], [], root),
-		("F:\\Code\\Plex\\PlexSportsLibrary\\NHL", [], [], root),
-		("F:\\Code\\Plex\\PlexSportsLibrary\\UFC", [], [], root)
+		("NHL", [], [], root),
+		("UFC", [], [], root)
 		]
 
-	mediaList = []
-	for (path, files, subdirs, root) in paths:
+	mediaList = BeginScan(root)
 
-		#print (path)
-		#print(files)
-
-		PlexSportsScanner.Scan(path, files, mediaList, subdirs, root=root)
-	
+			
 	print(mediaList)
