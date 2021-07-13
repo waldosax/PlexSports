@@ -488,7 +488,13 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\SportsDataIO.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\TheSportsDB.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Matching.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Metadata.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Scanners\Series\PlexSportsScanner\NFL.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\RomanNumerals.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\__init__.py" />
     <Compile Include="__init__.py" />

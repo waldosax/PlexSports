@@ -125,7 +125,9 @@ if __name__ == "__main__":
 		("UFC", [], [], root)
 		]
 
-	mediaList = BeginScan(root)
+	#for (p, fs, sfs, r) in paths:
+	#	for f in fs:
+	#		assert PlexSportsScanner.__get_relative_path(p, f, r) == f[len(root)+1:]
 
-			
+	mediaList = BeginScan(root)
 	print(mediaList)

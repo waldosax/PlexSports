@@ -34,15 +34,22 @@ LEAGUE_NAME_NBA = "National Basketball Association"
 LEAGUE_NAME_NFL = "National Football League"
 LEAGUE_NAME_NHL = "National Hockey League"
 
-#(League, Name, Sport)
+supported_sports = [
+	SPORT_BASEBALL,
+	SPORT_BASKETBALL,
+	SPORT_FOOTBALL,
+	SPORT_HOCKEY
+	]
+
+#(Name, Sport)
 known_leagues = {
-  LEAGUE_MLB: (LEAGUE_MLB, LEAGUE_NAME_MLB, SPORT_BASEBALL),
-  LEAGUE_NBA: (LEAGUE_NBA, LEAGUE_NAME_NBA, SPORT_BASKETBALL),
-  LEAGUE_NFL: (LEAGUE_NFL, LEAGUE_NAME_NFL, SPORT_FOOTBALL),
-  LEAGUE_NHL: (LEAGUE_NHL, LEAGUE_NAME_NHL, SPORT_HOCKEY)
+  LEAGUE_MLB: (LEAGUE_NAME_MLB, SPORT_BASEBALL),
+  LEAGUE_NBA: (LEAGUE_NAME_NBA, SPORT_BASKETBALL),
+  LEAGUE_NFL: (LEAGUE_NAME_NFL, SPORT_FOOTBALL),
+  LEAGUE_NHL: (LEAGUE_NAME_NHL, SPORT_HOCKEY)
 }
 
-#(League, Search, Sport, Name)
+#(League, Search)
 known_leagues_expressions = [ 
   (LEAGUE_MLB, LEAGUE_MLB),
   (LEAGUE_NBA, LEAGUE_NBA),
@@ -69,21 +76,33 @@ versus_expressions = [
 ]
 
 
+season_expressions = [
+  r"(?P<season_year_begin>(\d{2,4}))(([\s-]+)(?P<season_year_end>(\d{2,4})))?"
+]
+
+
+week_expressions = [
+  r"Week\s+(?P<week_number>(\d+))",
+  r"week[\.-]?(?P<week_number>(\d+))"
+]
+
+
 double_header_expressions = [
   r"Game\s+(?P<game_number>(\d+))",
   r"game[\.-]?(?P<game_number>(\d+))"
 ]
 
 
-week_expressions = [
-  r"Week\s+(?P<game_number>(\d+))",
-  r"week[\.-]?(?P<game_number>(\d+))"
-]
-
-
+METADATA_PATH_KEY = "path"
+METADATA_FILENAME_KEY = "filename"
+METADATA_FOLDER_KEY = "folder"
 METADATA_SPORT_KEY = "sport"
 METADATA_LEAGUE_KEY = "league"
+METADATA_LEAGUE_NAME_KEY = "league name"
 METADATA_SEASON_KEY = "season"
+METADATA_SEASON_BEGIN_YEAR_KEY = "season begin year"
+METADATA_SEASON_END_YEAR_KEY = "season_end year"
+METADATA_SUBSEASON_KEY = "subseason"
 METADATA_WEEK_KEY = "week"
 METADATA_EVENT_NAME_KEY = "event name"
 METADATA_AIRDATE_KEY = "air date"
