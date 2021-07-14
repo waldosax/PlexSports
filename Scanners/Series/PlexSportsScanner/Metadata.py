@@ -1,10 +1,11 @@
 # Python framework
-import re, os
+import re, os, datetime
 from pprint import pprint
 
 # Local package
 from Constants import *
 from Teams import *
+from . import Matching
 from . import NFL
 
 
@@ -25,6 +26,13 @@ def Infer(relPath, meta):
         __infer_season_from_folders(fileName, folders, meta)
         __infer_subseason_from_folders(fileName, folders, meta)
         # Anything else is your own organizational structure
+
+    # Infer all we can from the file name
+    (food, ext) = os.path.splitext(fileName)
+    food = __infer_league_from_filename(fileName, food, meta)
+    food = __infer_airdate_from_filename(fileName, food, meta)
+    food = __infer_season_from_filename(fileName, food, meta)
+
 
 def __infer_sport_from_folders(fileName, folders, meta):
     if folders:
@@ -51,7 +59,10 @@ def __infer_league_from_folders(fileName, folders, meta):
         for (league, expr) in known_leagues_expressions:
             if foundLeague == True:
                 break
-            for pattern in [r"^%s$" % re.escape(league), r"^%s$" % expr, r"\b%s\b" % expr]:
+            for pattern in [
+                r"^%s$" % re.escape(league),
+                r"^%s$" % expr
+                ]:
                 if re.match(pattern, folder, re.IGNORECASE):
                     foundLeague = True
                     (leagueName, sport) = known_leagues[league]
@@ -76,8 +87,8 @@ def __infer_season_from_folders(fileName, folders, meta):
                 m = re.match(pattern, folder, re.IGNORECASE)
                 if m:
                     foundSeason = True
-                    seasonBeginYear = __expand_year(m.group("season_year_begin") or m.string)
-                    seasonEndYear = __expand_year(m.group("season_year_end"))
+                    seasonBeginYear = int(__expand_year(m.group("season_year_begin") or m.string))
+                    seasonEndYear = int(__expand_year(m.group("season_year_end"))) if m.group("season_year_end") else None
                     
                     if (seasonEndYear and seasonEndYear != seasonBeginYear):
                         season = "%s-%s" % (seasonBeginYear, seasonEndYear)
@@ -101,6 +112,82 @@ def __infer_subseason_from_folders(fileName, folders, meta):
             NFL.InferWeekFromFolders(fileName, folders, meta)
             NFL.InferPostseasonConferenceFromFolders(fileName, folders, meta)
             NFL.InferPlayoffRoundFromFolders(fileName, folders, meta)
+
+
+def __infer_league_from_filename(fileName, food, meta):
+    if food:
+        foundLeague = False
+
+        # Test to see if food contains known league
+        for (league, expr) in known_leagues_expressions:
+            if foundLeague == True:
+                break
+            for pattern in [r"\b%s\b" % expr]:
+                (bites, chewed) = Matching.Eat(food, pattern)
+                if bites:
+                    foundLeague = True
+                    (leagueName, sport) = known_leagues[league]
+
+                    meta.setdefault(METADATA_SPORT_KEY, sport)
+                    meta.setdefault(METADATA_LEAGUE_KEY, league)
+                    meta.setdefault(METADATA_LEAGUE_NAME_KEY, leagueName)
+                    food = chewed
+                    break
+    return food
+
+def __infer_airdate_from_filename(fileName, food, meta):
+    if food:
+        foundAirDate = False
+
+        # Test to see if food contains an air date
+        for expr in air_date_expressions:
+            if foundAirDate == True:
+                break
+            for pattern in [r"\b%s\b" % expr]:
+                (bites, chewed) = Matching.Eat(food, pattern)
+                if bites:
+                    foundAirDate = True
+                    
+                    (m, value) = bites[0]
+                    year = int(__expand_year(m.group("year")))
+                    month = int(m.group("month"))
+                    day = int(m.group("day"))
+
+                    airdate = datetime.date(year, month, day)
+
+                    meta.setdefault(METADATA_AIRDATE_KEY, airdate)
+                    food = chewed
+                    break
+    return food
+
+def __infer_season_from_filename(fileName, food, meta):
+    if food:
+        foundSeason = False
+
+        # Test to see if food contains season
+        for expr in season_expressions:
+            if foundSeason == True:
+                break
+            for pattern in [r"\b%s\b" % expr]:
+                (bites, chewed) = Matching.Eat(food, pattern)
+                if bites:
+                    foundSeason = True
+
+                    (m, value) = bites[0]
+                    seasonBeginYear = int(__expand_year(m.group("season_year_begin") or m.string))
+                    seasonEndYear = int(__expand_year(m.group("season_year_end"))) if m.group("season_year_end") else None
+                    
+                    if (seasonEndYear and seasonEndYear != seasonBeginYear):
+                        season = "%s-%s" % (seasonBeginYear, seasonEndYear)
+                    else:
+                        season = str(seasonBeginYear)
+
+                    meta.setdefault(METADATA_SEASON_KEY, season)
+                    meta.setdefault(METADATA_SEASON_BEGIN_YEAR_KEY, seasonBeginYear)
+                    meta.setdefault(METADATA_SEASON_END_YEAR_KEY, seasonEndYear)
+                    food = chewed
+                    break
+    return food
 
 
 def __expand_year(year):
