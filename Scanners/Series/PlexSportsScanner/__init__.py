@@ -8,7 +8,6 @@ import Media, VideoFiles, Stack, Utils
 # Local package
 from Constants import *
 from Teams import *
-from Matching import *
 from Metadata import *
 
 

@@ -1,11 +1,10 @@
 # Python framework
-import re, os, os.path, random
+import re, os
 from pprint import pprint
 
 # Local package
 from Constants import *
 from Teams import *
-from Matching import *
 from . import NFL
 
 
@@ -26,7 +25,6 @@ def Infer(relPath, meta):
         __infer_season_from_folders(fileName, folders, meta)
         __infer_subseason_from_folders(fileName, folders, meta)
         # Anything else is your own organizational structure
-
 
 def __infer_sport_from_folders(fileName, folders, meta):
     if folders:
@@ -98,12 +96,11 @@ def __infer_subseason_from_folders(fileName, folders, meta):
     if folders and league and season:
 
         # Test to see if next-level folder is subseason
-        folder = folders[0]
         if league == LEAGUE_NFL:
-            NFL.InferSubseasonFromFolder(fileName, folder, meta)
-        
-        #if meta.get(METADATA_SUBSEASON_KEY):
-        #    del(folders[0])
+            NFL.InferSubseasonFromFolders(fileName, folders, meta)
+            NFL.InferWeekFromFolders(fileName, folders, meta)
+            NFL.InferPostseasonConferenceFromFolders(fileName, folders, meta)
+            NFL.InferPlayoffRoundFromFolders(fileName, folders, meta)
 
 
 def __expand_year(year):
