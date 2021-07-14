@@ -57,29 +57,36 @@ known_leagues_expressions = [
   (LEAGUE_NHL, LEAGUE_NHL)
 ]
 
+EXPRESSION_VALID_FULL_YEAR_NON_CAPTURING = r"(?:(19\d{2})|(20\d{2}))"
+EXPRESSION_VALID_FULL_YEAR = r"(?P<year>%s)" % EXPRESSION_VALID_FULL_YEAR_NON_CAPTURING
+EXPRESSION_YEAR = r"(?P<year>\d{2}|%s)" % EXPRESSION_VALID_FULL_YEAR_NON_CAPTURING
+EXPRESSION_VALID_DAY = r"(?P<day>(?:(0?[0-9])|([12][0-9])|(3[01])))"
+EXPRESSION_VALID_MONTH = r"(?P<month>(?:(0?[0-9])|(1[0-2])))"
+EXPRESSION_VALID_FULL_DAY = r"(?P<day>(?:(0[0-9])|([12][0-9])|(3[01])))"
+EXPRESSION_VALID_FULL_MONTH = r"(?P<month>(?:(0[0-9])|(1[0-2])))"
 
 air_date_expressions = [
-  r"(?P<year>(\d{4}))[\.]?(?P<month>(\d{2}))[\.]?(?P<day>(\d{2}))", # 2021.01.30
-  r"(?P<year>(\d{4}))[-]?(?P<month>(\d{2}))[-]?(?P<day>(\d{2}))",   # 2021-01-30
-  r"(?P<year>(\d{4}))[_]?(?P<month>(\d{2}))[_]?(?P<day>(\d{2}))",   # 2021_01_30
-  r"(?P<year>(\d{4}))[ ]?(?P<month>(\d{2}))[ ]?(?P<day>(\d{2}))",   # 2021 01 30
-  r"(?P<year>(\d{4}))(?P<month>(\d{2}))(?P<day>(\d{2}))",           # 20210130
-  r"(?P<month>(\d{1,2}))-(?P<day>(\d{1,2}))-(?P<year>(\d{2,4}))",   # 1-30-2021 or 1-30-21
-  r"(?P<month>(\d{1,2}))_(?P<day>(\d{1,2}))_(?P<year>(\d{2,4}))"    # 1_30_2021 or 1_30_21
+  r"%s\.%s\.%s" % (EXPRESSION_VALID_FULL_YEAR, EXPRESSION_VALID_FULL_MONTH, EXPRESSION_VALID_FULL_DAY), # 2021.01.30
+  r"%s-%s-%s" % (EXPRESSION_VALID_FULL_YEAR, EXPRESSION_VALID_FULL_MONTH, EXPRESSION_VALID_FULL_DAY), # 2021-01-30
+  r"%s_%s_%s" % (EXPRESSION_VALID_FULL_YEAR, EXPRESSION_VALID_FULL_MONTH, EXPRESSION_VALID_FULL_DAY), # 2021_01_30
+  r"%s %s %s" % (EXPRESSION_VALID_FULL_YEAR, EXPRESSION_VALID_FULL_MONTH, EXPRESSION_VALID_FULL_DAY), # 2021 01 30
+  r"%s%s%s" % (EXPRESSION_VALID_FULL_YEAR, EXPRESSION_VALID_FULL_MONTH, EXPRESSION_VALID_FULL_DAY), # 20210130
+  r"%s-%s-%s" % (EXPRESSION_VALID_MONTH, EXPRESSION_VALID_DAY, EXPRESSION_YEAR),   # 1-30-2021 or 1-30-21
+  r"%s_%s_%s" % (EXPRESSION_VALID_MONTH, EXPRESSION_VALID_DAY, EXPRESSION_YEAR),   # 1_30_2021 or 1_30_21
+  r"(%s)|(%s%s%s)" % (EXPRESSION_VALID_FULL_YEAR_NON_CAPTURING, EXPRESSION_VALID_MONTH, EXPRESSION_VALID_DAY, EXPRESSION_YEAR), # 7821 or 70821 or 7082021
 ]
 
 
 versus_expressions = [
+  r"\@",
   r"versus",
-  r"vs\.",
-  r"v\.",
-  r"v",
-  r"\@"
+  r"vs\.?",
+  r"v\.?"
 ]
 
 
 season_expressions = [
-  r"(?P<season_year_begin>(\d{2,4}))(([\s-]+)(?P<season_year_end>(\d{2,4})))?"
+  r"(?P<season_year_begin>%s)(([\s-]+)(?P<season_year_end>%s))?" % (EXPRESSION_VALID_FULL_YEAR_NON_CAPTURING, EXPRESSION_VALID_FULL_YEAR_NON_CAPTURING)
 ]
 
 

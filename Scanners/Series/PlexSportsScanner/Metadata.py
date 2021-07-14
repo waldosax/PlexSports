@@ -149,15 +149,16 @@ def __infer_airdate_from_filename(fileName, food, meta):
                     foundAirDate = True
                     
                     (m, value) = bites[0]
-                    year = int(__expand_year(m.group("year")))
-                    month = int(m.group("month"))
-                    day = int(m.group("day"))
+                    year = __expand_year(m.group("year"))
+                    month = m.group("month")
+                    day = m.group("day")
 
-                    airdate = datetime.date(year, month, day)
+                    if month and day:
+                        airdate = datetime.date(int(year), int(month), int(day))
 
-                    meta.setdefault(METADATA_AIRDATE_KEY, airdate)
-                    food = chewed
-                    break
+                        meta.setdefault(METADATA_AIRDATE_KEY, airdate)
+                        food = chewed
+                        break
     return food
 
 def __infer_season_from_filename(fileName, food, meta):

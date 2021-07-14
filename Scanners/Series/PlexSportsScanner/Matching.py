@@ -9,7 +9,7 @@ def __strip_parentheticals(s):
 def __trim_word_separators(s):
     if not s:
         return s
-    return re.sub("(?:^[\s\.\-]+)|(?:[\s\.\-]+$)", "", s)
+    return re.sub("(?:^[\s\.\-_]+)|(?:[\s\.\-_]+$)", "", s)
 
 def CloseEnough(s1, s2):
     return Util.LevenshteinDistance(s1, s2) == 0
@@ -18,8 +18,8 @@ def CloseEnough(s1, s2):
 def __expressions_from_literal(literal, escape=True):
     expressions = []
 
-    pieces = re.split(r"[\s\.\-]+", literal)
-    for separator in [" ", r"\.", r"\-"]:
+    pieces = re.split(r"[\s\.\-_]+", literal)
+    for separator in [" ", r"\.", r"\-", "_"]:
         expr = ""
         for i in range(0, len(pieces)):
             if escape:
