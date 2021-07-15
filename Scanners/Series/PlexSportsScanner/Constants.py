@@ -41,6 +41,8 @@ supported_sports = [
 	SPORT_HOCKEY
 	]
 
+supported_team_sports = supported_sports
+
 #(Name, Sport)
 known_leagues = {
   LEAGUE_MLB: (LEAGUE_NAME_MLB, SPORT_BASEBALL),
@@ -80,8 +82,7 @@ air_date_expressions = [
 versus_expressions = [
   r"\@",
   r"versus",
-  r"vs\.?",
-  r"v\.?"
+  r"vs?\.?"
 ]
 
 
@@ -134,3 +135,6 @@ USER_AGENT = "Plex/PlexSportsScanner"
 
 DATA_PATH = r"Data/"
 DATA_PATH_LEAGUES = DATA_PATH + r"Leagues/"
+
+ALPHANUMERIC_CHARACTERS = "abcdefghijklmnopqrstuvwxyz0123456789"
+ALPHANUMERIC_CHARACTERS_AND_AT = ALPHANUMERIC_CHARACTERS + "@"

@@ -1,10 +1,47 @@
 import re, time, unicodedata, hashlib, types
 
+from Constants import *
+
+def __sort_by_len(x):
+    return len(x)
+def __sort_by_len_key(x):
+    return len(x[0])
+def __sort_by_len_value(x):
+    return len(x[1])
+
 def __strip_punctuation(s):
     return s
 
 def __strip_parentheticals(s):
     return s
+
+def __index_of(s, sub, start=0, end=None):
+    try:
+        return s.index(sub, start, end)
+    except ValueError:
+        return -1
+
+def __strip_to_alphanumeric_and_at(s):
+    if not s:
+        return s
+
+    ret = ""
+    for i in range(0, len(s)):
+        c = s[i].lower()
+        if __index_of(ALPHANUMERIC_CHARACTERS_AND_AT, c) >= 0:
+            ret += c
+    return ret
+
+def __strip_to_alphanumeric(s):
+    if not s:
+        return s
+
+    ret = ""
+    for i in range(0, len(s)):
+        c = s[i].lower()
+        if __index_of(ALPHANUMERIC_CHARACTERS, c) >= 0:
+            ret += c
+    return ret
 
 def __trim_word_separators(s):
     if not s:
@@ -31,7 +68,7 @@ def __expressions_from_literal(literal, escape=True):
                 expr += separator
         expressions.append(expr)
 
-    return expressions
+    return list(set(expressions))
 
 def Eat(s, exp, eat_once=True):
     if not s:

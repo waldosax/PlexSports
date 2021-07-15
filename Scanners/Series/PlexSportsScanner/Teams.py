@@ -1,24 +1,39 @@
 # Python framework
-import sys, os, json
+import sys, os, json, re
 
 # Plex native
 import Utils
 
 # Local package
 from Constants import *
+from Matching import __expressions_from_literal
+from Matching import __index_of
+from Matching import __strip_to_alphanumeric
+from Matching import __strip_to_alphanumeric_and_at
+from Matching import __sort_by_len
+from Matching import __sort_by_len_key
+from Matching import __sort_by_len_value
+from Matching import Eat
 from Data import TheSportsDB, SportsDataIO
 
 cached_teams = dict()
+cities_with_multiple_teams = dict()
+cached_team_keys = dict()
 
 class TeamInfo:
     def __init__(self, **kwargs):
-        self.League = str(kwargs.get("League"))
-        self.Abbreviation = str(kwargs.get("Abbreviation"))
-        self.Name = str(kwargs.get("Name"))
-        self.FullName = str(kwargs.get("FullName"))
-        self.City = str(kwargs.get("City"))
-        self.SportsDBID = str(kwargs.get("SportsDBID"))
-        self.SportsDataIOID = str(kwargs.get("SportsDataIO"))
+        self.League = str(kwargs.get("League") or "")
+        self.Abbreviation = str(kwargs.get("Abbreviation") or "")
+        self.Name = str(kwargs.get("Name") or "")
+        self.FullName = str(kwargs.get("FullName") or "")
+        self.City = str(kwargs.get("City") or "")
+        self.SportsDBID = str(kwargs.get("SportsDBID") or "")
+        self.SportsDataIOID = str(kwargs.get("SportsDataIO") or "")
+
+        self.AlternateName = str(kwargs.get("AlternateName") or "")
+        # Hard code until I can get teams as they existed in a given year, not just the current one.
+        if self.League == LEAGUE_NFL and self.Abbreviation == "WAS":
+            self.AlternateName = "Redskins"
 
 def __add_or_override_team(teams, **kwargs):
     key = kwargs["Abbreviation"]
@@ -37,8 +52,6 @@ def __add_or_override_team(teams, **kwargs):
             team.SportsDBID = str(kwargs["SportsDBID"])
         if (kwargs.get("SportsDataIOID")):
             team.SportsDataIOID = str(kwargs["SportsDataIOID"])
-
-
 
 def GetTeams(league, download=False):
     if (league in known_leagues.keys() == False):
@@ -88,10 +101,16 @@ def __get_teams_from_cache(league):
             else:
                 teams = dict()
                 for jsonTeam in jsonTeams:
-                    team = TeamInfo(kwargs = jsonTeam)
+                    team = TeamInfo(**jsonTeam)
                     teams.setdefault(team.Abbreviation, team)
                 cached_teams.setdefault(league, teams)
                 cached_teams[league] = teams
+            cwmt = __get_cities_with_multiple_teams(teams)
+            cities_with_multiple_teams.setdefault(league, cwmt)
+            cities_with_multiple_teams[league] = cwmt
+            teamKeys = __get_teams_keys(teams, cwmt)
+            cached_team_keys.setdefault(league, teamKeys)
+            cached_team_keys[league] = teamKeys
     return cached_teams[league]
 
 def __refresh_team_cache(league):
@@ -99,6 +118,12 @@ def __refresh_team_cache(league):
     teams = GetTeams(league, download=True)
     cached_teams.setdefault(league, teams)
     cached_teams[league] = teams
+    cwmt = __get_cities_with_multiple_teams(teams)
+    cities_with_multiple_teams.setdefault(league, cwmt)
+    cities_with_multiple_teams[league] = cwmt
+    teamKeys = __get_teams_keys(teams, cwmt)
+    cached_team_keys.setdefault(league, teamKeys)
+    cached_team_keys[league] = teamKeys
     jsonTeams = []
     for teamInfo in teams.values():
         jsonTeams.append(teamInfo.__dict__)
@@ -141,3 +166,94 @@ def __write_team_cache_file(league, json):
 def __get_team_cache_file_path(league):
     path = os.path.abspath(r"%s/%s%s/Teams.json" % (os.path.dirname(__file__), DATA_PATH_LEAGUES, league))
     return path
+
+def InferFromFileName(fileName, food, meta):
+    league = meta.get(METADATA_LEAGUE_KEY)
+    teams = dict()
+    if league:
+        teams.setdefault(league, __get_teams_from_cache(league))
+    else:
+        for league in known_leagues:
+            teams.setdefault(league, __get_teams_from_cache(league))
+
+    #(team1, team2, vs, chewed) = 
+    __find_teams(teams, food)
+    #if team1 and team2:
+    #    pass
+
+    pass
+
+def __find_teams(teams, food):
+    # This search is going to be linear as HELL
+    # A trie would be the solution here, but I'm not doing all that work
+    #  when I'm just learning Python
+    
+    indexTeam1 = -1
+    indexTeam2 = -1
+    lenTeam1 = -1
+    lenTeam2 = -1
+    team1 = None
+    team2 = None
+    grit = __strip_to_alphanumeric_and_at(food)
+    for league in teams.keys():
+        for (teamKey, abbrev) in sorted(cached_team_keys[league].items(), key=__sort_by_len_key, reverse=True):
+            index = __index_of(grit, teamKey)
+            if (index >= 0):
+                indexLen1 = index
+                lenTeam1 = len(teamKey)
+                team1 = cached_teams[league][abbrev]
+                break
+
+
+
+
+
+
+
+
+
+        #for team1 in teams[league].itervalues():
+        #    (bites1, value1) = Eat(food, r"\b%s\b" % team1)
+        #for team2 in teams[league].itervalues():
+        #    if team2 is team1:
+        #        continue
+
+# New York, LA
+def __get_cities_with_multiple_teams(teams):
+    cities = dict()
+    for team in teams.values():
+        city = team.City
+        cityKey = __strip_to_alphanumeric(city)
+        if cities.has_key(cityKey):
+            cities[cityKey] = True
+        else:
+            cities.setdefault(cityKey, False)
+    ret = list()
+    for cityKey in cities.keys():
+        if cities[cityKey]:
+            ret.append(cityKey)
+    return ret
+
+def __get_teams_keys(teams, multi_team_city_keys):
+    keys = dict()
+
+    for team in teams.values():
+        abbrev = team.Abbreviation
+        fullName = __strip_to_alphanumeric(team.FullName)
+        name = __strip_to_alphanumeric(team.Name)
+        city = __strip_to_alphanumeric(team.City)
+        alt = __strip_to_alphanumeric(team.AlternateName)
+
+        if fullName:
+            keys.setdefault(fullName, abbrev)
+        if name:
+            keys.setdefault(name, abbrev)
+        if city:
+            if city not in multi_team_city_keys:
+                keys.setdefault(city, abbrev)
+        if alt:
+            keys.setdefault(alt, abbrev)
+        if abbrev:
+            keys.setdefault(abbrev.lower(), abbrev)
+
+    return keys

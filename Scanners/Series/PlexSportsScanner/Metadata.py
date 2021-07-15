@@ -5,6 +5,7 @@ from pprint import pprint
 # Local package
 from Constants import *
 from Teams import *
+from . import Teams
 from . import Matching
 from . import NFL
 
@@ -32,6 +33,10 @@ def Infer(relPath, meta):
     food = __infer_league_from_filename(fileName, food, meta)
     food = __infer_airdate_from_filename(fileName, food, meta)
     food = __infer_season_from_filename(fileName, food, meta)
+
+    sport = meta.get(METADATA_SPORT_KEY)
+    if sport in supported_team_sports:
+        Teams.InferFromFileName(fileName, food, meta)
 
 
 def __infer_sport_from_folders(fileName, folders, meta):
