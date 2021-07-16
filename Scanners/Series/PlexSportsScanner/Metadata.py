@@ -125,7 +125,8 @@ def __infer_subseason_from_folders(fileName, folders, meta):
             NFL.InferPlayoffRoundFromFolders(fileName, folders, meta)
         elif league == LEAGUE_MLB:
             MLB.InferSubseasonFromFolders(fileName, folders, meta)
-            MLB.InferPostseasonDivisionFromFolders(fileName, folders, meta)
+            MLB.InferSpringTrainingLeagueFromFolders(fileName, folders, meta)
+            MLB.InferPostseasonLeagueFromFolders(fileName, folders, meta)
             MLB.InferPlayoffRoundFromFolders(fileName, folders, meta)
 
 
