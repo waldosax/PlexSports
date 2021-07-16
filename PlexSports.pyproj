@@ -498,6 +498,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Scanners\Series\PlexSportsScanner\NFL.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\NHL.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Scanners\Series\PlexSportsScanner\RomanNumerals.py">
       <SubType>Code</SubType>
     </Compile>

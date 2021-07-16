@@ -10,6 +10,7 @@ from . import Matching
 from . import MLB
 from . import NBA
 from . import NFL
+from . import NHL
 
 
 
@@ -34,9 +35,9 @@ def Infer(relPath, file, meta):
     # Infer all we can from the file name
     (food, ext) = os.path.splitext(fileName)
     food = __infer_league_from_filename(fileName, food, meta)
+    food = __infer_game_number_from_filename(fileName, food, meta)
     food = __infer_airdate_from_filename(fileName, food, meta)
     food = __infer_season_from_filename(fileName, food, meta)
-    food = __infer_game_number_from_filename(fileName, food, meta)
 
 
     # Attempt to infer single events.
@@ -133,6 +134,10 @@ def __infer_subseason_from_folders(fileName, folders, meta):
             NBA.InferSubseasonFromFolders(fileName, folders, meta)
             NBA.InferPostseasonConferenceFromFolders(fileName, folders, meta)
             NBA.InferPlayoffRoundFromFolders(fileName, folders, meta)
+        elif league == LEAGUE_NHL:
+            NHL.InferSubseasonFromFolders(fileName, folders, meta)
+            NHL.InferPostseasonConferenceFromFolders(fileName, folders, meta)
+            NHL.InferPlayoffRoundFromFolders(fileName, folders, meta)
 
 
 # Could be Game in a series, or game in a double-header
@@ -165,7 +170,7 @@ def __infer_event_from_filename(fileName, food, meta):
         food = MLB.InferSingleEventFromFileName(fileName, food, meta)
         food = NBA.InferSingleEventFromFileName(fileName, food, meta)
         food = NFL.InferSingleEventFromFileName(fileName, food, meta)
-        #food = NHL.InferSingleEventFromFileName(fileName, food, meta)
+        food = NHL.InferSingleEventFromFileName(fileName, food, meta)
     
     return food
 
