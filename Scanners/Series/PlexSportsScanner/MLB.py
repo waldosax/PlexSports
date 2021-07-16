@@ -37,7 +37,6 @@ mlb_subseason_indicator_expressions = [
     (MLB_SUBSEASON_FLAG_REGULAR_SEASON, __expressions_from_literal(MLB_SUBSEASON_REGULAR_SEASON))
     ]
 
-# TODO: Spring Training leagues
 MLB_SPRING_TRAINING_CACTUS_LEAGUE = "Cactus League"
 MLB_SPRING_TRAINING_GRAPEFRUIT_LEAGUE = "Grapefruit League"
 
@@ -47,42 +46,50 @@ mlb_spring_trainging_league_expressions = [
     (MLB_SPRING_TRAINING_GRAPEFRUIT_LEAGUE, __expressions_from_literal(MLB_SPRING_TRAINING_GRAPEFRUIT_LEAGUE))
     ]
 
+
+MLB_PLAYOFF_ROUND_WILDCARD = 1
+MLB_PLAYOFF_ROUND_DIVISION = 2
+MLB_PLAYOFF_ROUND_CONFERENCE = 3
+MLB_PLAYOFF_ROUND_WORLD_SERIES = 4
+
 # (expressions, conference, round)
 # Ordered by more specific to less
 mlb_playoff_round_expressions = [
-    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, 1),
-    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, 1),
-    (__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, 1),
-    (__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, 1),
-    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, 1),
-    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, 1),
-    (__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, 1),
-    (__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, 1),
-    (__expressions_from_literal("Wildcard Round") +__expressions_from_literal("Wildcard Series") + __expressions_from_literal("Wildcard"), None, 1),
+    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("Wildcard Round") +__expressions_from_literal("Wildcard Series") + __expressions_from_literal("Wildcard"), None, MLB_PLAYOFF_ROUND_WILDCARD),
 
-    (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, 2),
-    (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, 2),
-    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, 2),
-    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, 2),
-    (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, 2),
-    (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, 2),
-    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, 2),
-    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, 2),
-    (__expressions_from_literal("Divisional Round") + __expressions_from_literal("Division Round") + __expressions_from_literal("Division Series") + __expressions_from_literal("Division Playoffs"), None, 2),
-    (__expressions_from_literal("%sDS" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, 2),
-    (__expressions_from_literal("%sDS" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, 2),
+    (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("Divisional Round") + __expressions_from_literal("Division Round") + __expressions_from_literal("Division Series") + __expressions_from_literal("Division Playoffs"), None, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%sDS" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%sDS" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
 
-    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, 3),
-    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, 3),
-    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, 3),
-    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, 3),
-    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, 3),
-    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, 3),
-    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, 3),
-    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, 3),
-    (__expressions_from_literal("Championship Round") + __expressions_from_literal("Championship Series") + __expressions_from_literal("Championship Playoffs"), None, 3),
-    (__expressions_from_literal("%sCS" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, 3),
-    (__expressions_from_literal("%sCS" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, 3)
+    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CONFERENCE),
+    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CONFERENCE),
+    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CONFERENCE),
+    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CONFERENCE),
+    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CONFERENCE),
+    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CONFERENCE),
+    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CONFERENCE),
+    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CONFERENCE),
+    (__expressions_from_literal("Championship Round") + __expressions_from_literal("Championship Series") + __expressions_from_literal("Championship Playoffs"), None, MLB_PLAYOFF_ROUND_CONFERENCE),
+    (__expressions_from_literal("%sCS" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CONFERENCE),
+    (__expressions_from_literal("%sCS" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CONFERENCE),
+    
+    (__expressions_from_literal("World Series"), None, MLB_PLAYOFF_ROUND_WORLD_SERIES)
     ]
 
 MLB_EVENT_FLAG_HALL_OF_FAME = -1
@@ -101,9 +108,6 @@ mlb_event_expressions = [
     (__expressions_from_literal("All-Star Game"), MLB_EVENT_FLAG_ALL_STAR_GAME)
     ]
 
-world_series_expressions = [
-    __expressions_from_literal("World Series")
-]
 
 
 
