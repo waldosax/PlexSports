@@ -37,6 +37,12 @@ mlb_subseason_indicator_expressions = [
     (MLB_SUBSEASON_FLAG_REGULAR_SEASON, __expressions_from_literal(MLB_SUBSEASON_REGULAR_SEASON))
     ]
 
+# TODO: Spring Training leagues
+MLB_SPRING_TRAINING_CACTUS_LEAGUE = "Cactus League"
+MLB_SPRING_TRAINING_GRAPEFRUIT_LEAGUE = "Grapefruit League"
+
+mlb_spring_trainging_leagues = [MLB_SPRING_TRAINING_CACTUS_LEAGUE, MLB_SPRING_TRAINING_GRAPEFRUIT_LEAGUE]
+
 # (expressions, conference, round)
 # Ordered by more specific to less
 mlb_playoff_round_expressions = [
@@ -129,7 +135,7 @@ def InferPostseasonDivisionFromFolders(filename, folders, meta):
     league = meta.get(METADATA_LEAGUE_KEY)
     season = meta.get(METADATA_SEASON_KEY)
     ind = meta.get(METADATA_SUBSEASON_INDICATOR_KEY)
-    if folders and league and season and ind == MLB_SEASON_FLAG_POSTSEASON:
+    if folders and league and season and ind == MLB_SUBSEASON_FLAG_POSTSEASON:
         foundDivision = False
 
         # Test to see if next-level folder is a division (postseason)
