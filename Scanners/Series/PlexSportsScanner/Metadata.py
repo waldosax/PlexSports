@@ -8,6 +8,7 @@ from Teams import *
 from . import Teams
 from . import Matching
 from . import MLB
+from . import NBA
 from . import NFL
 
 
@@ -128,6 +129,10 @@ def __infer_subseason_from_folders(fileName, folders, meta):
             MLB.InferSpringTrainingLeagueFromFolders(fileName, folders, meta)
             MLB.InferPostseasonLeagueFromFolders(fileName, folders, meta)
             MLB.InferPlayoffRoundFromFolders(fileName, folders, meta)
+        elif league == LEAGUE_NBA:
+            NBA.InferSubseasonFromFolders(fileName, folders, meta)
+            NBA.InferPostseasonConferenceFromFolders(fileName, folders, meta)
+            NBA.InferPlayoffRoundFromFolders(fileName, folders, meta)
 
 
 # Could be Game in a series, or game in a double-header
@@ -158,7 +163,7 @@ def __infer_event_from_filename(fileName, food, meta):
     event = meta.get(METADATA_EVENT_INDICATOR_KEY)
     if not event:
         food = MLB.InferSingleEventFromFileName(fileName, food, meta)
-        #food = NBA.InferSingleEventFromFileName(fileName, food, meta)
+        food = NBA.InferSingleEventFromFileName(fileName, food, meta)
         food = NFL.InferSingleEventFromFileName(fileName, food, meta)
         #food = NHL.InferSingleEventFromFileName(fileName, food, meta)
     
