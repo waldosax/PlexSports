@@ -11,7 +11,7 @@ from . import NFL
 
 
 
-def Infer(relPath, meta):
+def Infer(relPath, file, meta):
     # Set base information
     fileName = os.path.basename(relPath)
     subfolder = os.path.dirname(relPath)
@@ -34,9 +34,13 @@ def Infer(relPath, meta):
     food = __infer_airdate_from_filename(fileName, food, meta)
     food = __infer_season_from_filename(fileName, food, meta)
 
+
+    # Attempt to infer single events.
+    food = __infer_event_from_filename(fileName, food, meta)
+
     sport = meta.get(METADATA_SPORT_KEY)
-    if sport in supported_team_sports:
-        Teams.InferFromFileName(fileName, food, meta)
+    if not sport or sport in supported_team_sports:
+        food = Teams.InferFromFileName(fileName, food, meta)
 
 
 def __infer_sport_from_folders(fileName, folders, meta):
@@ -74,7 +78,6 @@ def __infer_league_from_folders(fileName, folders, meta):
 
                     meta.setdefault(METADATA_SPORT_KEY, sport)
                     meta.setdefault(METADATA_LEAGUE_KEY, league)
-                    meta.setdefault(METADATA_LEAGUE_NAME_KEY, leagueName)
                     del(folders[0])
                     break
 
@@ -119,6 +122,17 @@ def __infer_subseason_from_folders(fileName, folders, meta):
             NFL.InferPlayoffRoundFromFolders(fileName, folders, meta)
 
 
+def __infer_event_from_filename(fileName, food, meta):
+    
+    event = meta.get(METADATA_EVENT_INDICATOR_KEY)
+    if not event:
+        #food = MLB.InferSingleEventFromFileName(fileName, food, meta)
+        #food = NBA.InferSingleEventFromFileName(fileName, food, meta)
+        food = NFL.InferSingleEventFromFileName(fileName, food, meta)
+        #food = NHL.InferSingleEventFromFileName(fileName, food, meta)
+    
+    return food
+
 def __infer_league_from_filename(fileName, food, meta):
     if food:
         foundLeague = False
@@ -128,14 +142,13 @@ def __infer_league_from_filename(fileName, food, meta):
             if foundLeague == True:
                 break
             for pattern in [r"\b%s\b" % expr]:
-                (bites, chewed) = Matching.Eat(food, pattern)
+                (bites, chewed, ms) = Matching.Eat(food, pattern)
                 if bites:
                     foundLeague = True
                     (leagueName, sport) = known_leagues[league]
 
                     meta.setdefault(METADATA_SPORT_KEY, sport)
                     meta.setdefault(METADATA_LEAGUE_KEY, league)
-                    meta.setdefault(METADATA_LEAGUE_NAME_KEY, leagueName)
                     food = chewed
                     break
     return food
@@ -149,7 +162,7 @@ def __infer_airdate_from_filename(fileName, food, meta):
             if foundAirDate == True:
                 break
             for pattern in [r"\b%s\b" % expr]:
-                (bites, chewed) = Matching.Eat(food, pattern)
+                (bites, chewed, ms) = Matching.Eat(food, pattern)
                 if bites:
                     foundAirDate = True
                     
@@ -175,7 +188,7 @@ def __infer_season_from_filename(fileName, food, meta):
             if foundSeason == True:
                 break
             for pattern in [r"\b%s\b" % expr]:
-                (bites, chewed) = Matching.Eat(food, pattern)
+                (bites, chewed, ms) = Matching.Eat(food, pattern)
                 if bites:
                     foundSeason = True
 

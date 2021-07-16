@@ -3,7 +3,7 @@ import re
 
 # Local package
 from Constants import *
-from Matching import __expressions_from_literal
+from Matching import __expressions_from_literal, Eat
 from . import RomanNumerals
 
 NFL_CONFERENCE_AFC = "AFC"
@@ -53,14 +53,20 @@ nfl_playoff_round_expressions = [
     (__expressions_from_literal("Championship Round"), None, 3),
     ]
 
-def Touchdown():
-    print("Six points!")
-    for roman in [
-        "I", "II", "III", "IV", "V", "VI", "VII", "viii", "IX", "X",
-        "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX",
-        "MCMLXXXIV"
-        ]:
-        print("\t%s: %s" % (roman, RomanNumerals.Parse(roman)))
+NFL_EVENT_FLAG_HALL_OF_FAME = -1
+NFL_EVENT_FLAG_SUPERBOWL = 1
+NFL_EVENT_FLAG_PRO_BOWL = 2
+
+# (expressions, event, flag)
+# Ordered by more specific to less
+nfl_event_expressions = [
+    (["Super[\s\.\-_]?bowl([\s\.\-_]+(?P<game_number>(\d+)|([MDCLXVI]+))?)"], NFL_EVENT_FLAG_SUPERBOWL),
+    (__expressions_from_literal("Hall of Fame Game"), NFL_EVENT_FLAG_HALL_OF_FAME),
+    (__expressions_from_literal("Hall of Fame"), NFL_EVENT_FLAG_HALL_OF_FAME),
+    (__expressions_from_literal("HOF Game"), NFL_EVENT_FLAG_HALL_OF_FAME),
+    (["HOF"], NFL_EVENT_FLAG_HALL_OF_FAME),
+    (__expressions_from_literal("Pro Bowl"), NFL_EVENT_FLAG_PRO_BOWL)
+    ]
 
 
 
@@ -163,3 +169,22 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
                         meta.setdefault(METADATA_EVENT_NAME_KEY, folder)
                         del(folders[0])
                         break
+
+def InferSingleEventFromFileName(filename, food, meta):
+    # Test to see if filename contains a single event, like Super Bowl, or Pro Bowl
+    foundEvent = False
+    for (exprs, ind) in nfl_event_expressions:
+        if foundEvent == True:
+            break
+        for expr in exprs:
+            for pattern in [r"^%s$" % expr, r"\b%s\b" % expr]:
+                (bites, chewed, ms) = Eat(food, pattern)
+                if bites:
+                    foundEvent = True
+                    meta.setdefault(METADATA_SPORT_KEY, SPORT_FOOTBALL)
+                    meta.setdefault(METADATA_LEAGUE_KEY, LEAGUE_NFL)
+                    meta.setdefault(METADATA_EVENT_INDICATOR_KEY, ind)
+                    meta.setdefault(METADATA_EVENT_NAME_KEY, bites[0])
+                    if "game_number" in ms[0].groupdict().keys():
+                        meta.setdefault(METADATA_GAME_NUMBER_KEY, ms[0].group("game_number"))
+                    return chewed

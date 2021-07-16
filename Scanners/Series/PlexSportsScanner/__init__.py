@@ -18,18 +18,13 @@ from Metadata import *
 def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
     """"""
     print("Scanning for files at '" + path + "' ...")
-    NFL.Touchdown()
+    #NFL.Touchdown()
 
     # Scan for video files.
     VideoFiles.Scan(path, files, mediaList, subdirs, root)
 
     # Iterate over all the files
     for file in files:
-    #    done = False
-    #    folders = os.path.dirname(file)
-    #    fileName = os.path.basename(file)
-    #    (fileNameWithoutExtension, ext) = os.path.splitext(fileName)
-    #    #print("%s | %s | %s" % (folders, fileNameWithoutExtension, ext))
 
         # Extract all the metadata possible from the folder structure/file name
         meta = __discover_metadata(path, file, root)
@@ -48,7 +43,7 @@ def __discover_metadata(path, file, root):
     meta = dict()
     relPath = __get_relative_path(path, file, root)
 
-    Metadata.Infer(relPath, meta)
+    Metadata.Infer(relPath, file, meta)
 
 
 

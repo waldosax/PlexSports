@@ -80,9 +80,9 @@ air_date_expressions = [
 
 
 versus_expressions = [
-  r"\@",
-  r"versus",
-  r"vs?\.?"
+  r"\b\@\b",
+  r"\bversus\b",
+  r"\bvs?(\.|\b)"
 ]
 
 
@@ -108,7 +108,6 @@ METADATA_FILENAME_KEY = "filename"
 METADATA_FOLDER_KEY = "folder"
 METADATA_SPORT_KEY = "sport"
 METADATA_LEAGUE_KEY = "league"
-METADATA_LEAGUE_NAME_KEY = "league name"
 METADATA_SEASON_KEY = "season"
 METADATA_SEASON_BEGIN_YEAR_KEY = "season begin year"
 METADATA_SEASON_END_YEAR_KEY = "season_end year"
@@ -118,6 +117,7 @@ METADATA_CONFERENCE_KEY = "conference"
 METADATA_WEEK_KEY = "week"
 METADATA_WEEK_NUMBER_KEY = "week number"
 METADATA_PLAYOFF_ROUND_KEY = "playoff round"
+METADATA_EVENT_INDICATOR_KEY = "event name"
 METADATA_EVENT_NAME_KEY = "event name"
 METADATA_AIRDATE_KEY = "air date"
 METADATA_HOME_TEAM_KEY = "home team"
