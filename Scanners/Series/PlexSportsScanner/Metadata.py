@@ -7,6 +7,7 @@ from Constants import *
 from Teams import *
 from . import Teams
 from . import Matching
+from . import MLB
 from . import NFL
 
 
@@ -26,6 +27,7 @@ def Infer(relPath, file, meta):
         __infer_league_from_folders(fileName, folders, meta)
         __infer_season_from_folders(fileName, folders, meta)
         __infer_subseason_from_folders(fileName, folders, meta)
+        __infer_game_number_from_folders(fileName, folders, meta)
         # Anything else is your own organizational structure
 
     # Infer all we can from the file name
@@ -33,6 +35,7 @@ def Infer(relPath, file, meta):
     food = __infer_league_from_filename(fileName, food, meta)
     food = __infer_airdate_from_filename(fileName, food, meta)
     food = __infer_season_from_filename(fileName, food, meta)
+    food = __infer_game_number_from_filename(fileName, food, meta)
 
 
     # Attempt to infer single events.
@@ -120,13 +123,40 @@ def __infer_subseason_from_folders(fileName, folders, meta):
             NFL.InferWeekFromFolders(fileName, folders, meta)
             NFL.InferPostseasonConferenceFromFolders(fileName, folders, meta)
             NFL.InferPlayoffRoundFromFolders(fileName, folders, meta)
+        elif league == LEAGUE_MLB:
+            MLB.InferSubseasonFromFolders(fileName, folders, meta)
+            MLB.InferPostseasonDivisionFromFolders(fileName, folders, meta)
+            MLB.InferPlayoffRoundFromFolders(fileName, folders, meta)
+
+
+# Could be Game in a series, or game in a double-header
+# TODO: MLB schedule is a little more fluid. Games can be rescheduled. That's why double-headers exist.
+def __infer_game_number_from_folders(filename, folders, meta):
+    sport = meta.get(METADATA_SPORT_KEY)
+    league = meta.get(METADATA_LEAGUE_KEY)
+    season = meta.get(METADATA_SEASON_KEY)
+    if folders and (not sport or (sport and league and season and sport in supported_series_sports)):
+        foundGameNumber = False
+
+        # Test to see if next-level folder contains game number
+        folder = folders[0]
+        for expr in game_number_expressions:
+            if foundGameNumber == True:
+                break
+            for pattern in [r"^%s$" % expr, r"\b%s\b" % expr]:
+                m = re.match(pattern, folder, re.IGNORECASE)
+                if m:
+                    foundGameNumber = True
+
+                    meta.setdefault(METADATA_GAME_NUMBER_KEY, m.group("game_number"))
+                    del(folders[0])
+                    break
 
 
 def __infer_event_from_filename(fileName, food, meta):
-    
     event = meta.get(METADATA_EVENT_INDICATOR_KEY)
     if not event:
-        #food = MLB.InferSingleEventFromFileName(fileName, food, meta)
+        food = MLB.InferSingleEventFromFileName(fileName, food, meta)
         #food = NBA.InferSingleEventFromFileName(fileName, food, meta)
         food = NFL.InferSingleEventFromFileName(fileName, food, meta)
         #food = NHL.InferSingleEventFromFileName(fileName, food, meta)
@@ -207,6 +237,27 @@ def __infer_season_from_filename(fileName, food, meta):
                     food = chewed
                     break
     return food
+
+
+# Could be Game in a series, or game in a double-header
+# TODO: MLB schedule is a little more fluid. Games can be rescheduled. That's why double-headers exist.
+def __infer_game_number_from_filename(fileName, food, meta):
+    sport = meta.get(METADATA_SPORT_KEY)
+    league = meta.get(METADATA_LEAGUE_KEY)
+    season = meta.get(METADATA_SEASON_KEY)
+    if food and (not sport or (sport and league and season and sport in supported_series_sports)):
+        foundGameNumber = False
+
+        # Test to see if filename contains game number
+        foundGameNumber = False
+        for expr in game_number_expressions:
+            if foundGameNumber == True:
+                break
+            for pattern in [r"^%s$" % expr, r"\b%s\b" % expr]:
+                (bites, chewed, ms) = Eat(food, pattern)
+                if bites:
+                    meta.setdefault(METADATA_GAME_NUMBER_KEY, ms[0].group("game_number"))
+                    return chewed
 
 
 def __expand_year(year):

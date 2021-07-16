@@ -22,9 +22,9 @@ nfl_conference_expressions = [
     (NFL_CONFERENCE_NFC, [NFL_CONFERENCE_NFC]+__expressions_from_literal(NFL_CONFERENCE_NAME_NFC))
     ]
 
-NFL_SEASON_FLAG_PRESEASON = -1
-NFL_SEASON_FLAG_REGULAR_SEASON = 0
-NFL_SEASON_FLAG_POSTSEASON = 1
+NFL_SUBSEASON_FLAG_PRESEASON = -1
+NFL_SUBSEASON_FLAG_REGULAR_SEASON = 0
+NFL_SUBSEASON_FLAG_POSTSEASON = 1
 
 NFL_SUBSEASON_PRESEASON = "Preseason"
 NFL_SUBSEASON_POSTSEASON = "Postseason"
@@ -33,9 +33,9 @@ NFL_SUBSEASON_REGULAR_SEASON = "Regular Season"
 
 
 nfl_subseason_indicator_expressions = [
-    (NFL_SEASON_FLAG_PRESEASON, __expressions_from_literal(NFL_SUBSEASON_PRESEASON)),
-    (NFL_SEASON_FLAG_POSTSEASON, __expressions_from_literal(NFL_SUBSEASON_POSTSEASON) + __expressions_from_literal(NFL_SUBSEASON_PLAYOFFS)),
-    (NFL_SEASON_FLAG_REGULAR_SEASON, __expressions_from_literal(NFL_SUBSEASON_REGULAR_SEASON))
+    (NFL_SUBSEASON_FLAG_PRESEASON, __expressions_from_literal(NFL_SUBSEASON_PRESEASON)),
+    (NFL_SUBSEASON_FLAG_POSTSEASON, __expressions_from_literal(NFL_SUBSEASON_POSTSEASON) + __expressions_from_literal(NFL_SUBSEASON_PLAYOFFS)),
+    (NFL_SUBSEASON_FLAG_REGULAR_SEASON, __expressions_from_literal(NFL_SUBSEASON_REGULAR_SEASON))
     ]
 
 # (expressions, conference, round)
@@ -101,7 +101,7 @@ def InferWeekFromFolders(filename, folders, meta):
     league = meta.get(METADATA_LEAGUE_KEY)
     season = meta.get(METADATA_SEASON_KEY)
     ind = meta.get(METADATA_SUBSEASON_INDICATOR_KEY)
-    if folders and league and season and ((not ind) or (ind == NFL_SEASON_FLAG_PRESEASON or ind == NFL_SEASON_FLAG_REGULAR_SEASON)):
+    if folders and league and season and ((not ind) or (ind == NFL_SUBSEASON_FLAG_PRESEASON or ind == NFL_SUBSEASON_FLAG_REGULAR_SEASON)):
         foundWeek = False
 
         # Test to see if next-level folder is a week indicator (preseason and regular season)
@@ -124,7 +124,7 @@ def InferPostseasonConferenceFromFolders(filename, folders, meta):
     league = meta.get(METADATA_LEAGUE_KEY)
     season = meta.get(METADATA_SEASON_KEY)
     ind = meta.get(METADATA_SUBSEASON_INDICATOR_KEY)
-    if folders and league and season and ind == NFL_SEASON_FLAG_POSTSEASON:
+    if folders and league and season and ind == NFL_SUBSEASON_FLAG_POSTSEASON:
         foundConference = False
 
         # Test to see if next-level folder is a conference (postseason)
@@ -171,20 +171,21 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
                         break
 
 def InferSingleEventFromFileName(filename, food, meta):
-    # Test to see if filename contains a single event, like Super Bowl, or Pro Bowl
-    foundEvent = False
-    for (exprs, ind) in nfl_event_expressions:
-        if foundEvent == True:
-            break
-        for expr in exprs:
-            for pattern in [r"^%s$" % expr, r"\b%s\b" % expr]:
-                (bites, chewed, ms) = Eat(food, pattern)
-                if bites:
-                    foundEvent = True
-                    meta.setdefault(METADATA_SPORT_KEY, SPORT_FOOTBALL)
-                    meta.setdefault(METADATA_LEAGUE_KEY, LEAGUE_NFL)
-                    meta.setdefault(METADATA_EVENT_INDICATOR_KEY, ind)
-                    meta.setdefault(METADATA_EVENT_NAME_KEY, bites[0])
-                    if "game_number" in ms[0].groupdict().keys():
-                        meta.setdefault(METADATA_GAME_NUMBER_KEY, ms[0].group("game_number"))
-                    return chewed
+    if food:
+        # Test to see if filename contains a single event, like Super Bowl, or Pro Bowl
+        foundEvent = False
+        for (exprs, ind) in nfl_event_expressions:
+            if foundEvent == True:
+                break
+            for expr in exprs:
+                for pattern in [r"^%s$" % expr, r"\b%s\b" % expr]:
+                    (bites, chewed, ms) = Eat(food, pattern)
+                    if bites:
+                        foundEvent = True
+                        meta.setdefault(METADATA_SPORT_KEY, SPORT_FOOTBALL)
+                        meta.setdefault(METADATA_LEAGUE_KEY, LEAGUE_NFL)
+                        meta.setdefault(METADATA_EVENT_INDICATOR_KEY, ind)
+                        meta.setdefault(METADATA_EVENT_NAME_KEY, bites[0])
+                        if "game_number" in ms[0].groupdict().keys():
+                            meta.setdefault(METADATA_GAME_NUMBER_KEY, ms[0].group("game_number"))
+                        return chewed

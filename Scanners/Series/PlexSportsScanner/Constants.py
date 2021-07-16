@@ -42,6 +42,11 @@ supported_sports = [
 	]
 
 supported_team_sports = supported_sports
+supported_series_sports = [
+	SPORT_BASEBALL,
+	SPORT_BASKETBALL,
+	SPORT_HOCKEY
+	]
 
 #(Name, Sport)
 known_leagues = {
@@ -97,11 +102,9 @@ week_expressions = [
 ]
 
 
-double_header_expressions = [
-  r"Game\s+(?P<game_number>(\d+))",
-  r"game[\.-]?(?P<game_number>(\d+))"
+game_number_expressions = [
+    "Game[\s\.\-_]?(?P<game_number>\d+)"
 ]
-
 
 METADATA_PATH_KEY = "path"
 METADATA_FILENAME_KEY = "filename"
@@ -113,6 +116,7 @@ METADATA_SEASON_BEGIN_YEAR_KEY = "season begin year"
 METADATA_SEASON_END_YEAR_KEY = "season_end year"
 METADATA_SUBSEASON_INDICATOR_KEY = "subseason"
 METADATA_SUBSEASON_KEY = "subseason name"
+METADATA_DIVISION_KEY = "division"
 METADATA_CONFERENCE_KEY = "conference"
 METADATA_WEEK_KEY = "week"
 METADATA_WEEK_NUMBER_KEY = "week number"
