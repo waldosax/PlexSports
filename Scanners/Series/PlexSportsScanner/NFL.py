@@ -31,6 +31,7 @@ NFL_SUBSEASON_POSTSEASON = "Postseason"
 NFL_SUBSEASON_PLAYOFFS = "Playoffs"
 NFL_SUBSEASON_REGULAR_SEASON = "Regular Season"
 
+nfl_superbowl_expressions = ["Super[\s\.\-_]?bowl([\s\.\-_]+(?P<game_number>(\d+)|([MDCLXVI]+))?)"]
 
 nfl_subseason_indicator_expressions = [
     (NFL_SUBSEASON_FLAG_PRESEASON, __expressions_from_literal(NFL_SUBSEASON_PRESEASON)),
@@ -38,19 +39,26 @@ nfl_subseason_indicator_expressions = [
     (NFL_SUBSEASON_FLAG_REGULAR_SEASON, __expressions_from_literal(NFL_SUBSEASON_REGULAR_SEASON))
     ]
 
+NFL_PLAYOFF_ROUND_WILDCARD = 1
+NFL_PLAYOFF_ROUND_DIVISION = 2
+NFL_PLAYOFF_ROUND_CHAMPIONSHIP = 3
+NFL_PLAYOFF_ROUND_SUPERBOWL = 4
+
+
 # (expressions, conference, round)
 # Ordered by more specific to less
 nfl_playoff_round_expressions = [
-    (__expressions_from_literal("%s Wildcard Round" % NFL_CONFERENCE_AFC) + __expressions_from_literal("%s Wildcard" % NFL_CONFERENCE_AFC), NFL_CONFERENCE_AFC, 1),
-    (__expressions_from_literal("%s Wildcard Round" % NFL_CONFERENCE_NFC) + __expressions_from_literal("%s Wildcard" % NFL_CONFERENCE_NFC), NFL_CONFERENCE_NFC, 1),
-    (__expressions_from_literal("Wildcard Round") + __expressions_from_literal("Wildcard"), None, 1),
-    (__expressions_from_literal("%s Divisional Round" % NFL_CONFERENCE_AFC) + __expressions_from_literal("%s Division Playoffs" % NFL_CONFERENCE_AFC), NFL_CONFERENCE_AFC, 2),
-    (__expressions_from_literal("%s Divisional Round" % NFL_CONFERENCE_NFC) + __expressions_from_literal("%s Division Playoffs" % NFL_CONFERENCE_NFC), NFL_CONFERENCE_NFC, 2),
-    (__expressions_from_literal("Divisional Round") + __expressions_from_literal("Division Playoffs"), None, 2),
-    (__expressions_from_literal("%s Championship Round" % NFL_CONFERENCE_AFC) + __expressions_from_literal("%s Championship" % NFL_CONFERENCE_AFC), NFL_CONFERENCE_AFC, 3),
-    (__expressions_from_literal("%s Championship Round" % NFL_CONFERENCE_NFC) + __expressions_from_literal("%s Championship" % NFL_CONFERENCE_NFC), NFL_CONFERENCE_NFC, 3),
-    (__expressions_from_literal("Conference Championship Round") + __expressions_from_literal("Conference Championship"), None, 3),
-    (__expressions_from_literal("Championship Round"), None, 3),
+    (__expressions_from_literal("%s Wildcard Round" % NFL_CONFERENCE_AFC) + __expressions_from_literal("%s Wildcard" % NFL_CONFERENCE_AFC), NFL_CONFERENCE_AFC, NFL_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("%s Wildcard Round" % NFL_CONFERENCE_NFC) + __expressions_from_literal("%s Wildcard" % NFL_CONFERENCE_NFC), NFL_CONFERENCE_NFC, NFL_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("Wildcard Round") + __expressions_from_literal("Wildcard"), None, NFL_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("%s Divisional Round" % NFL_CONFERENCE_AFC) + __expressions_from_literal("%s Division Playoffs" % NFL_CONFERENCE_AFC), NFL_CONFERENCE_AFC, NFL_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Divisional Round" % NFL_CONFERENCE_NFC) + __expressions_from_literal("%s Division Playoffs" % NFL_CONFERENCE_NFC), NFL_CONFERENCE_NFC, NFL_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("Divisional Round") + __expressions_from_literal("Division Playoffs"), None, NFL_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Championship Round" % NFL_CONFERENCE_AFC) + __expressions_from_literal("%s Championship" % NFL_CONFERENCE_AFC), NFL_CONFERENCE_AFC, NFL_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("%s Championship Round" % NFL_CONFERENCE_NFC) + __expressions_from_literal("%s Championship" % NFL_CONFERENCE_NFC), NFL_CONFERENCE_NFC, NFL_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("Conference Championship Round") + __expressions_from_literal("Conference Championship"), None, NFL_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("Championship Round"), None, NFL_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (nfl_superbowl_expressions, None, NFL_PLAYOFF_ROUND_SUPERBOWL),
     ]
 
 NFL_EVENT_FLAG_HALL_OF_FAME = -1
@@ -60,7 +68,7 @@ NFL_EVENT_FLAG_PRO_BOWL = 2
 # (expressions, event, flag)
 # Ordered by more specific to less
 nfl_event_expressions = [
-    (["Super[\s\.\-_]?bowl([\s\.\-_]+(?P<game_number>(\d+)|([MDCLXVI]+))?)"], NFL_EVENT_FLAG_SUPERBOWL),
+    (nfl_superbowl_expressions, NFL_EVENT_FLAG_SUPERBOWL),
     (__expressions_from_literal("Hall of Fame Game"), NFL_EVENT_FLAG_HALL_OF_FAME),
     (__expressions_from_literal("Hall of Fame"), NFL_EVENT_FLAG_HALL_OF_FAME),
     (__expressions_from_literal("HOF Game"), NFL_EVENT_FLAG_HALL_OF_FAME),
@@ -163,7 +171,8 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
                     if m:
                         foundRound = True
 
-                        meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, 1)
+                        meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, NFL_SUBSEASON_FLAG_POSTSEASON)
+                        meta.setdefault(METADATA_SUBSEASON_KEY, folder)
                         meta.setdefault(METADATA_CONFERENCE_KEY, conf)
                         meta.setdefault(METADATA_PLAYOFF_ROUND_KEY, round)
                         meta.setdefault(METADATA_EVENT_NAME_KEY, folder)

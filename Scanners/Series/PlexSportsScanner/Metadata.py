@@ -128,6 +128,9 @@ def __infer_subseason_from_folders(fileName, folders, meta):
             # We're calling week here again because it can exist at the
             #   preseason/regular season subfolder level.
             NFL.InferWeekFromFolders(fileName, folders, meta)
+            # We're calling Playoff round here first because values from postseason league could match prematurely on playoff round values
+            #   'AFC' could match when folder is 'AFC Championship'
+            NFL.InferPlayoffRoundFromFolders(fileName, folders, meta)
             NFL.InferPostseasonConferenceFromFolders(fileName, folders, meta)
             NFL.InferPlayoffRoundFromFolders(fileName, folders, meta)
         elif league == LEAGUE_MLB:
@@ -141,7 +144,7 @@ def __infer_subseason_from_folders(fileName, folders, meta):
         elif league == LEAGUE_NBA:
             NBA.InferSubseasonFromFolders(fileName, folders, meta)
             # We're calling Playoff round here first because values from postseason conference could match prematurely on playoff round values
-            #   'NFC' could match when folder is 'NFC Wildcard'
+            #   'East' could match when folder is 'Eastern Conference Finals'
             NBA.InferPlayoffRoundFromFolders(fileName, folders, meta)
             NBA.InferPostseasonConferenceFromFolders(fileName, folders, meta)
             NBA.InferPlayoffRoundFromFolders(fileName, folders, meta)

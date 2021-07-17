@@ -37,23 +37,29 @@ nba_subseason_indicator_expressions = [
     (NBA_SUBSEASON_FLAG_REGULAR_SEASON, __expressions_from_literal(NBA_SUBSEASON_REGULAR_SEASON))
     ]
 
+NBA_PLAYOFF_ROUND_QUARTERFINALS = 1
+NBA_PLAYOFF_ROUND_SEMIFINALS = 2
+NBA_PLAYOFF_ROUND_FINALS = 3
+
 # (expressions, conference, round)
 # Ordered by more specific to less
 nba_playoff_round_expressions = [
-    (__expressions_from_literal("%s Quarterfinals" % NBA_CONFERENCE_NAME_EAST), NBA_CONFERENCE_EAST, 1),
-    (__expressions_from_literal("%s Quarterfinals" % NBA_CONFERENCE_NAME_WEST), NBA_CONFERENCE_WEST, 1),
-    (__expressions_from_literal("%s Quarterfinals" % NBA_CONFERENCE_EAST), NBA_CONFERENCE_EAST, 1),
-    (__expressions_from_literal("%s Quarterfinals" % NBA_CONFERENCE_WEST), NBA_CONFERENCE_WEST, 1),
-    (__expressions_from_literal("Quarterfinals"), None, 1),
+    (__expressions_from_literal("%s Quarterfinals" % NBA_CONFERENCE_NAME_EAST), NBA_CONFERENCE_EAST, NBA_PLAYOFF_ROUND_QUARTERFINALS),
+    (__expressions_from_literal("%s Quarterfinals" % NBA_CONFERENCE_NAME_WEST), NBA_CONFERENCE_WEST, NBA_PLAYOFF_ROUND_QUARTERFINALS),
+    (__expressions_from_literal("%s Quarterfinals" % NBA_CONFERENCE_EAST), NBA_CONFERENCE_EAST, NBA_PLAYOFF_ROUND_QUARTERFINALS),
+    (__expressions_from_literal("%s Quarterfinals" % NBA_CONFERENCE_WEST), NBA_CONFERENCE_WEST, NBA_PLAYOFF_ROUND_QUARTERFINALS),
+    (__expressions_from_literal("Quarterfinals"), None, NBA_PLAYOFF_ROUND_QUARTERFINALS),
 
-    (__expressions_from_literal("%s Semifinals" % NBA_CONFERENCE_NAME_EAST), NBA_CONFERENCE_EAST, 2),
-    (__expressions_from_literal("%s Semifinals" % NBA_CONFERENCE_NAME_WEST), NBA_CONFERENCE_WEST, 2),
-    (__expressions_from_literal("%s Semifinals" % NBA_CONFERENCE_EAST), NBA_CONFERENCE_EAST, 2),
-    (__expressions_from_literal("%s Semifinals" % NBA_CONFERENCE_WEST), NBA_CONFERENCE_WEST, 2),
-    (__expressions_from_literal("Semifinals"), None, 2),
+    (__expressions_from_literal("%s Semifinals" % NBA_CONFERENCE_NAME_EAST), NBA_CONFERENCE_EAST, NBA_PLAYOFF_ROUND_SEMIFINALS),
+    (__expressions_from_literal("%s Semifinals" % NBA_CONFERENCE_NAME_WEST), NBA_CONFERENCE_WEST, NBA_PLAYOFF_ROUND_SEMIFINALS),
+    (__expressions_from_literal("%s Semifinals" % NBA_CONFERENCE_EAST), NBA_CONFERENCE_EAST, NBA_PLAYOFF_ROUND_SEMIFINALS),
+    (__expressions_from_literal("%s Semifinals" % NBA_CONFERENCE_WEST), NBA_CONFERENCE_WEST, NBA_PLAYOFF_ROUND_SEMIFINALS),
+    (__expressions_from_literal("%s Finals" % NBA_CONFERENCE_NAME_EAST), NBA_CONFERENCE_EAST, NBA_PLAYOFF_ROUND_SEMIFINALS),
+    (__expressions_from_literal("%s Finals" % NBA_CONFERENCE_NAME_WEST), NBA_CONFERENCE_WEST, NBA_PLAYOFF_ROUND_SEMIFINALS),
+    (__expressions_from_literal("Semifinals"), None, NBA_PLAYOFF_ROUND_SEMIFINALS),
 
-    (__expressions_from_literal("Championship"), None, 3),
-    (__expressions_from_literal("Finals"), None, 3)
+    (__expressions_from_literal("Championship"), None, NBA_PLAYOFF_ROUND_FINALS),
+    (__expressions_from_literal("Finals"), None, NBA_PLAYOFF_ROUND_FINALS)
     ]
 
 NBA_EVENT_FLAG_ALL_STAR_GAME = 1
@@ -109,7 +115,7 @@ def InferPostseasonConferenceFromFolders(filename, folders, meta):
 
         # Test to see if next-level folder is a league (postseason)
         folder = folders[0]
-        for (league, exprs) in nba_conference_expressions:
+        for (conference, exprs) in nba_conference_expressions:
             if foundLeague == True:
                 break
             for expr in exprs:
@@ -120,7 +126,7 @@ def InferPostseasonConferenceFromFolders(filename, folders, meta):
                     if m:
                         foundLeague = True
 
-                        meta.setdefault(METADATA_CONFERENCE_KEY, league)
+                        meta.setdefault(METADATA_CONFERENCE_KEY, conference)
                         del(folders[0])
                         break
 
@@ -135,7 +141,7 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
 
         # Test to see if next-level folder is a subseason indicator
         folder = folders[0]
-        for (exprs, league, round) in nba_playoff_round_expressions:
+        for (exprs, conference, round) in nba_playoff_round_expressions:
             if foundRound == True:
                 break
             for expr in exprs:
@@ -146,8 +152,8 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
                     if m:
                         foundRound = True
 
-                        meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, 1)
-                        meta.setdefault(METADATA_LEAGUE_KEY, league)
+                        meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, NBA_SUBSEASON_FLAG_POSTSEASON)
+                        meta.setdefault(METADATA_LEAGUE_KEY, conference)
                         meta.setdefault(METADATA_PLAYOFF_ROUND_KEY, round)
                         meta.setdefault(METADATA_EVENT_NAME_KEY, folder)
                         del(folders[0])
@@ -165,8 +171,8 @@ def InferSingleEventFromFileName(filename, food, meta):
                     (bites, chewed, ms) = Eat(food, pattern)
                     if bites:
                         foundEvent = True
-                        meta.setdefault(METADATA_SPORT_KEY, SPORT_BASEBALL)
-                        meta.setdefault(METADATA_LEAGUE_KEY, LEAGUE_MLB)
+                        meta.setdefault(METADATA_SPORT_KEY, SPORT_BASKETBALL)
+                        meta.setdefault(METADATA_LEAGUE_KEY, LEAGUE_NBA)
                         meta.setdefault(METADATA_EVENT_INDICATOR_KEY, ind)
                         meta.setdefault(METADATA_EVENT_NAME_KEY, bites[0])
                         return chewed

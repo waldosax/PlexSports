@@ -162,6 +162,15 @@ class WhenReadingSubseasonFromFolderStructure(WhenReadingFolderStructure):
 
 
 
+
+
+
+
+
+
+
+
+
 # NFL-Specific Tests
 
 class WhenReadingNFLSubseasonFromFolderStructure(WhenReadingFolderStructure):
@@ -186,6 +195,62 @@ class WhenReadingNFLSubseasonFromFolderStructure(WhenReadingFolderStructure):
                 # Assert
                 assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_INDICATOR_KEY, ind)
                 assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_KEY, expected)
+            except Exception, e:
+                self.fail(e.message)
+
+    # TODO: Answer cache
+    def test_IfSubseasonIsPlayoffRound_ShouldHavePlayoffRoundFilledOut(self):
+        for (prefix, expected, round, ind) in [
+            ("AFC Wildcard Round", "AFC Wildcard Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_WILDCARD, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("NFC Wildcard Round", "NFC Wildcard Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_WILDCARD, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("AFC Wildcard", "AFC Wildcard", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_WILDCARD, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("NFC Wildcard", "NFC Wildcard", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_WILDCARD, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            
+            ("Wildcard Round", "Wildcard Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_WILDCARD, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("Wildcard", "Wildcard", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_WILDCARD, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            
+
+            ("AFC Divisional Round", "AFC Divisional Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_DIVISION, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("NFC Divisional Round", "NFC Divisional Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_DIVISION, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("AFC Division Playoffs", "AFC Division Playoffs", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_DIVISION, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("NFC Division Playoffs", "NFC Division Playoffs", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_DIVISION, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+
+            ("Divisional Round", "Divisional Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_DIVISION, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("Division Playoffs", "Division Playoffs", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_DIVISION, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            
+
+            ("AFC Championship Round", "AFC Championship Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_CHAMPIONSHIP, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("NFC Championship Round", "NFC Championship Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_CHAMPIONSHIP, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("AFC Championship", "AFC Championship", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_CHAMPIONSHIP, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("NFC Championship", "NFC Championship", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_CHAMPIONSHIP, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+
+            ("Championship Round", "Championship Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_CHAMPIONSHIP, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            
+            ("Superbowl XXXIX", "Superbowl XXXIX", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_SUPERBOWL, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("Superbowl LII", "Superbowl LII", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_SUPERBOWL, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("Superbowl 40", "Superbowl 40", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_SUPERBOWL, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            ("Superbowl 23", "Superbowl 23", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_SUPERBOWL, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            
+            # TODO: Fix expression for superbowl without number
+            #("Superbowl", "Superbowl", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_SUPERBOWL, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            #("Super bowl", "Super bowl", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_SUPERBOWL, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON),
+            
+            ("AnythingElse", None, None, None)
+            ]:
+            try:
+                # Arrange
+                relPath = r"NFL\2018\%s\foo@bar.mp4" % prefix
+                file = r"%s\%s" % (rootDir, relPath)
+                meta = dict()
+
+                # Act
+                PlexSportsScanner.Metadata.Infer(relPath, file, meta)
+            
+                # Assert
+                assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_KEY, expected)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_INDICATOR_KEY, ind)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_PLAYOFF_ROUND_KEY, round)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_EVENT_NAME_KEY, expected)
             except Exception, e:
                 self.fail(e.message)
 
@@ -272,6 +337,70 @@ class WhenReadingNFLPostseasonConferenceFromFolderStructure(WhenReadingFolderStr
             except Exception, e:
                 self.fail(e.message)
 
+class WhenReadingNFLPlayoffRoundFromFolderStructure(WhenReadingFolderStructure):
+    # TODO: Answer cache
+    def test_IfSubseasonIsNotPlayoffRound_ShouldHavePlayoffRoundFilledOut(self):
+        for (prefix, expected, round) in [
+            ("AFC Wildcard Round", "AFC Wildcard Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_WILDCARD),
+            ("NFC Wildcard Round", "NFC Wildcard Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_WILDCARD),
+            ("AFC Wildcard", "AFC Wildcard", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_WILDCARD),
+            ("NFC Wildcard", "NFC Wildcard", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_WILDCARD),
+            
+            ("Wildcard Round", "Wildcard Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_WILDCARD),
+            ("Wildcard", "Wildcard", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_WILDCARD),
+            
+
+            ("AFC Divisional Round", "AFC Divisional Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_DIVISION),
+            ("NFC Divisional Round", "NFC Divisional Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_DIVISION),
+            ("AFC Division Playoffs", "AFC Division Playoffs", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_DIVISION),
+            ("NFC Division Playoffs", "NFC Division Playoffs", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_DIVISION),
+
+            ("Divisional Round", "Divisional Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_DIVISION),
+            ("Division Playoffs", "Division Playoffs", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_DIVISION),
+            
+
+            ("AFC Championship Round", "AFC Championship Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_CHAMPIONSHIP),
+            ("NFC Championship Round", "NFC Championship Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_CHAMPIONSHIP),
+            ("AFC Championship", "AFC Championship", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_CHAMPIONSHIP),
+            ("NFC Championship", "NFC Championship", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_CHAMPIONSHIP),
+
+            ("Championship Round", "Championship Round", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_CHAMPIONSHIP),
+            
+            ("Superbowl XXXIX", "Superbowl XXXIX", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_SUPERBOWL),
+            ("Superbowl LII", "Superbowl LII", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_SUPERBOWL),
+            ("Superbowl 40", "Superbowl 40", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_SUPERBOWL),
+            ("Superbowl 23", "Superbowl 23", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_SUPERBOWL),
+            
+            # TODO: Fix expression for superbowl without number
+            #("Superbowl", "Superbowl", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_SUPERBOWL),
+            #("Super bowl", "Super bowl", PlexSportsScanner.NFL.NFL_PLAYOFF_ROUND_SUPERBOWL),
+            
+            ("AnythingElse", None, None)
+            ]:
+            try:
+                # Arrange
+                relPath = r"NFL\2018\Postseason\%s\foo@bar.mp4" % prefix
+                file = r"%s\%s" % (rootDir, relPath)
+                meta = dict()
+
+                # Act
+                PlexSportsScanner.Metadata.Infer(relPath, file, meta)
+            
+                # Assert
+                assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_KEY, "Postseason")
+                assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_INDICATOR_KEY, PlexSportsScanner.NFL.NFL_SUBSEASON_FLAG_POSTSEASON)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_PLAYOFF_ROUND_KEY, round)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_EVENT_NAME_KEY, expected)
+            except Exception, e:
+                self.fail(e.message)
+
+
+
+
+
+
+
+
 
 
 # NBA-Specific Tests
@@ -300,6 +429,10 @@ class WhenReadingNBASubseasonFromFolderStructure(WhenReadingFolderStructure):
                 assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_KEY, expected)
             except Exception, e:
                 self.fail(e.message)
+
+
+
+
 
 
 
@@ -332,6 +465,13 @@ class WhenReadingNHLSubseasonFromFolderStructure(WhenReadingFolderStructure):
                 assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_KEY, expected)
             except Exception, e:
                 self.fail(e.message)
+
+
+
+
+
+
+
 
 
 
