@@ -1,18 +1,9 @@
 # Boostrap necessary modules for debugging Plex scanner
 
 import os, sys, types, functools
+import bootstrapper
 
-# Anywhere I might resolve an import directive from
-sys.path.append(os.path.abspath("Backups\\Scanners.bundle\\Contents\\Resources\\Common"))
-
-# Run C:\Python27\Scripts\pip install requests to install relevant packages
-# sys.path.append(os.path.abspath("PlexSportsAgent.bundle\\Contents\\Libraries\\Shared"))
-sys.path.append(os.path.abspath("C:\\Python27\\Lib\\site-packages"))
-
-sys.path.append(os.path.abspath("Scanners\\Series"))
-sys.modules["PlexSportsScanner"] = PlexSportsScanner = __import__("PlexSportsScanner")
-
-
+PlexSportsScanner = bootstrapper.BootstrapScanner()
 
 
 

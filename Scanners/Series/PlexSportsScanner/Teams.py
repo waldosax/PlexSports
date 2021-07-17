@@ -215,9 +215,9 @@ def __find_teams(teams, food):
     vs = None
 
     if not food:
-        return (team1League, team1, team2, vs, food)
+        return (None, None, None, None, food)
 
-    origFood = food[0:]
+    origFood = food[0:] # Make a copy of food, just in case we need to reference the original
 
     (boiled, grit) = Boil(food)
     if not boiled:
@@ -269,6 +269,10 @@ def __find_teams(teams, food):
 
                     vsChunk = (boiledIndex, foodIndex, boiledLength, nextFoodIndex)
                     break
+
+
+    # TODO: munge if unrecognized teams, but vs. found 
+
 
     food = Chew([team1Chunk, vsChunk, team2Chunk], grit, food)
     return (team1League, team1, team2, vs, food)

@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{f216b525-ee0a-4921-960d-102021d785a7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>debug-scanner.py</StartupFile>
+    <StartupFile>UnitTests\Scanner\Metadata\Infer\InferTests.py</StartupFile>
     <SearchPath>Backups;Debug;Scanners\Series;Scanners\Series\PlexSportsScanner</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -443,6 +443,9 @@
     <Compile Include="Backups\System.bundle\Contents\Code\__init__.py" />
     <Compile Include="Backups\TheMovieDB.bundle\Contents\Code\__init__.py" />
     <Compile Include="Backups\TheTVDB.bundle\Contents\Code\__init__.py" />
+    <Compile Include="bootstrapper.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="debug-agent.py" />
     <Compile Include="debug-scanner.py" />
     <Compile Include="Debug\Plex\Agent.py" />
@@ -479,7 +482,6 @@
     <Compile Include="Debug\Plex\__init__.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\__init__.py" />
     <Compile Include="python-tests.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner.orig" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\GetResultFromNetwork.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\__init__.py">
@@ -506,6 +508,18 @@
     </Compile>
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\__init__.py" />
+    <Compile Include="unit-test-scanner.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\AssertionException.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Scanner\Metadata\Infer\InferTests.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="__init__.py" />
   </ItemGroup>
   <ItemGroup>
@@ -1825,6 +1839,7 @@
     <Folder Include="Debug\Plex" />
     <Folder Include="Debug\Plex\Model" />
     <Folder Include="Debug\Plex\Objects" />
+    <Folder Include="UnitTests\" />
     <Folder Include="PlexSportsAgent.bundle\" />
     <Folder Include="PlexSportsAgent.bundle\Contents\" />
     <Folder Include="PlexSportsAgent.bundle\Contents\Code" />
@@ -1832,6 +1847,9 @@
     <Folder Include="Scanners\Series" />
     <Folder Include="Scanners\Series\PlexSportsScanner" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Data" />
+    <Folder Include="UnitTests\Scanner\" />
+    <Folder Include="UnitTests\Scanner\Metadata\" />
+    <Folder Include="UnitTests\Scanner\Metadata\Infer\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">

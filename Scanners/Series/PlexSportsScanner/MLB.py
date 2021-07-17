@@ -49,46 +49,68 @@ mlb_spring_trainging_league_expressions = [
 
 MLB_PLAYOFF_ROUND_WILDCARD = 1
 MLB_PLAYOFF_ROUND_DIVISION = 2
-MLB_PLAYOFF_ROUND_CONFERENCE = 3
+MLB_PLAYOFF_ROUND_CHAMPIONSHIP = 3
 MLB_PLAYOFF_ROUND_WORLD_SERIES = 4
 
 # (expressions, conference, round)
 # Ordered by more specific to less
 mlb_playoff_round_expressions = [
-    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
-    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
     (__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
     (__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
-    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
-    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
+    (__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
     (__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
     (__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
     (__expressions_from_literal("Wildcard Round") +__expressions_from_literal("Wildcard Series") + __expressions_from_literal("Wildcard"), None, MLB_PLAYOFF_ROUND_WILDCARD),
 
-    (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
-    (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
-    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
-    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
+
+    (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
+    
     (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
     (__expressions_from_literal("%s Divisional Round" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Division Round" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
-    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
-    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
-    (__expressions_from_literal("Divisional Round") + __expressions_from_literal("Division Round") + __expressions_from_literal("Division Series") + __expressions_from_literal("Division Playoffs"), None, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Divisional Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Division Series" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("%s Division Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
+
     (__expressions_from_literal("%sDS" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_DIVISION),
     (__expressions_from_literal("%sDS" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_DIVISION),
 
-    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CONFERENCE),
-    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CONFERENCE),
-    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CONFERENCE),
-    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CONFERENCE),
-    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CONFERENCE),
-    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CONFERENCE),
-    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CONFERENCE),
-    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CONFERENCE),
-    (__expressions_from_literal("Championship Round") + __expressions_from_literal("Championship Series") + __expressions_from_literal("Championship Playoffs"), None, MLB_PLAYOFF_ROUND_CONFERENCE),
-    (__expressions_from_literal("%sCS" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CONFERENCE),
-    (__expressions_from_literal("%sCS" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CONFERENCE),
+    (__expressions_from_literal("Divisional Round"), None, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("Division Round"), None, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("Divisional Series"), None, MLB_PLAYOFF_ROUND_DIVISION),
+    (__expressions_from_literal("Division Series"), None, MLB_PLAYOFF_ROUND_DIVISION),
+
+
+    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
     
+    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("%s Championship Round" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("%s Championship Series" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("%s Championship Playoffs" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    
+    (__expressions_from_literal("%sCS" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("%sCS" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    
+    (__expressions_from_literal("Championship Round"), None, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("Championship Series"), None, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    (__expressions_from_literal("Championship Playoffs"), None, MLB_PLAYOFF_ROUND_CHAMPIONSHIP),
+    
+
     (__expressions_from_literal("World Series"), None, MLB_PLAYOFF_ROUND_WORLD_SERIES)
     ]
 
@@ -136,8 +158,13 @@ def InferSubseasonFromFolders(filename, folders, meta):
 
                         meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, ind)
                         meta.setdefault(METADATA_SUBSEASON_KEY, folder)
+
                         del(folders[0])
                         break
+
+
+        if not foundSubseason:
+            InferPlayoffRoundFromFolders(filename, folders, meta)
 
 def InferPostseasonLeagueFromFolders(filename, folders, meta):
     league = meta.get(METADATA_LEAGUE_KEY)
@@ -148,7 +175,7 @@ def InferPostseasonLeagueFromFolders(filename, folders, meta):
 
         # Test to see if next-level folder is a league (postseason)
         folder = folders[0]
-        for (league, exprs) in mlb_league_expressions:
+        for (conference, exprs) in mlb_league_expressions:
             if foundLeague == True:
                 break
             for expr in exprs:
@@ -159,7 +186,7 @@ def InferPostseasonLeagueFromFolders(filename, folders, meta):
                     if m:
                         foundLeague = True
 
-                        meta.setdefault(METADATA_CONFERENCE_KEY, league)
+                        meta.setdefault(METADATA_CONFERENCE_KEY, conference)
                         del(folders[0])
                         break
 
@@ -172,9 +199,9 @@ def InferSpringTrainingLeagueFromFolders(filename, folders, meta):
     if folders and league and season and ind == MLB_SUBSEASON_FLAG_PRESEASON:
         foundLeague = False
 
-        # Test to see if next-level folder is a league (postseason)
+        # Test to see if next-level folder is a league (spring training)
         folder = folders[0]
-        for (league, exprs) in mlb_spring_trainging_league_expressions:
+        for (conference, exprs) in mlb_spring_trainging_league_expressions:
             if foundLeague == True:
                 break
             for expr in exprs:
@@ -185,7 +212,7 @@ def InferSpringTrainingLeagueFromFolders(filename, folders, meta):
                     if m:
                         foundLeague = True
 
-                        meta.setdefault(METADATA_CONFERENCE_KEY, league)
+                        meta.setdefault(METADATA_CONFERENCE_KEY, conference)
                         del(folders[0])
                         break
 
@@ -197,9 +224,9 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
     if folders and league and season:
         foundRound = False
 
-        # Test to see if next-level folder is a subseason indicator
+        # Test to see if next-level folder is a playoff round indicator
         folder = folders[0]
-        for (exprs, league, round) in mlb_playoff_round_expressions:
+        for (exprs, conference, round) in mlb_playoff_round_expressions:
             if foundRound == True:
                 break
             for expr in exprs:
@@ -210,8 +237,9 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
                     if m:
                         foundRound = True
 
-                        meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, 1)
-                        meta.setdefault(METADATA_LEAGUE_KEY, league)
+                        meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, MLB_SUBSEASON_FLAG_POSTSEASON)
+                        meta.setdefault(METADATA_SUBSEASON_KEY, folder)
+                        meta.setdefault(METADATA_CONFERENCE_KEY, conference)
                         meta.setdefault(METADATA_PLAYOFF_ROUND_KEY, round)
                         meta.setdefault(METADATA_EVENT_NAME_KEY, folder)
                         del(folders[0])
