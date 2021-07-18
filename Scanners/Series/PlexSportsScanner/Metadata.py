@@ -150,6 +150,9 @@ def __infer_subseason_from_folders(fileName, folders, meta):
             NBA.InferPlayoffRoundFromFolders(fileName, folders, meta)
         elif league == LEAGUE_NHL:
             NHL.InferSubseasonFromFolders(fileName, folders, meta)
+            # We're calling Playoff round here first because values from postseason conference could match prematurely on playoff round values
+            #   'East' could match when folder is 'Eastern Conference Finals'
+            NHL.InferPlayoffRoundFromFolders(fileName, folders, meta)
             NHL.InferPostseasonConferenceFromFolders(fileName, folders, meta)
             NHL.InferPlayoffRoundFromFolders(fileName, folders, meta)
 

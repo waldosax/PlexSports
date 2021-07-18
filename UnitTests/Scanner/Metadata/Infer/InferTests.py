@@ -431,6 +431,115 @@ class WhenReadingNBASubseasonFromFolderStructure(WhenReadingFolderStructure):
                 self.fail(e.message)
 
 
+    # TODO: Answer cache
+    def test_IfSubseasonIsPlayoffRound_ShouldHavePlayoffRoundFilledOut(self):
+        for (prefix, expected, ind, round) in [
+            ("Eastern Conference Quarterfinals", "Eastern Conference Quarterfinals", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_QUARTERFINALS),
+            ("Western Conference Quarterfinals", "Western Conference Quarterfinals", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_QUARTERFINALS),
+            ("East Quarterfinals", "East Quarterfinals", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_QUARTERFINALS),
+            ("West Quarterfinals", "West Quarterfinals", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_QUARTERFINALS),
+            ("Quarterfinals", "Quarterfinals", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_QUARTERFINALS),
+            
+
+            ("Eastern Conference Finals", "Eastern Conference Finals", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            ("Western Conference Finals", "Western Conference Finals", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            ("Eastern Conference Semifinals", "Eastern Conference Semifinals", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            ("Western Conference Semifinals", "Western Conference Semifinals", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            ("East Semifinals", "East Semifinals", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            ("West Semifinals", "West Semifinals", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            ("Semifinals", "Semifinals", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            
+
+            ("Championship", "Championship", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_FINALS),
+            ("Finals", "Finals", PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_FINALS),
+            
+            ("AnythingElse", None, None, None)
+            ]:
+            try:
+                # Arrange
+                relPath = r"NBA\2018\%s\foo@bar.mp4" % prefix
+                file = r"%s\%s" % (rootDir, relPath)
+                meta = dict()
+
+                # Act
+                PlexSportsScanner.Metadata.Infer(relPath, file, meta)
+            
+                # Assert
+                assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_KEY, expected)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_INDICATOR_KEY, ind)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_PLAYOFF_ROUND_KEY, round)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_EVENT_NAME_KEY, expected)
+            except Exception, e:
+                self.fail(e.message)
+
+
+
+
+class WhenReadingNBAPlayoffRoundFromFolderStructure(WhenReadingFolderStructure):
+    # TODO: Answer cache
+    def test_IfSubseasonIsNotPlayoffRound_ShouldHavePlayoffRoundFilledOut(self):
+        for (prefix, expected, round) in [
+            ("Eastern Conference Quarterfinals", "Eastern Conference Quarterfinals", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_QUARTERFINALS),
+            ("Western Conference Quarterfinals", "Western Conference Quarterfinals", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_QUARTERFINALS),
+            ("East Quarterfinals", "East Quarterfinals", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_QUARTERFINALS),
+            ("West Quarterfinals", "West Quarterfinals", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_QUARTERFINALS),
+            ("Quarterfinals", "Quarterfinals", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_QUARTERFINALS),
+            
+
+            ("Eastern Conference Finals", "Eastern Conference Finals", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            ("Western Conference Finals", "Western Conference Finals", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            ("Eastern Conference Semifinals", "Eastern Conference Semifinals", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            ("Western Conference Semifinals", "Western Conference Semifinals", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            ("East Semifinals", "East Semifinals", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            ("West Semifinals", "West Semifinals", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            ("Semifinals", "Semifinals", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_SEMIFINALS),
+            
+
+            ("Championship", "Championship", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_FINALS),
+            ("Finals", "Finals", PlexSportsScanner.NBA.NBA_PLAYOFF_ROUND_FINALS),
+            
+            ("AnythingElse", None, None)
+            ]:
+            try:
+                # Arrange
+                relPath = r"NBA\2018\Playoffs\%s\foo@bar.mp4" % prefix
+                file = r"%s\%s" % (rootDir, relPath)
+                meta = dict()
+
+                # Act
+                PlexSportsScanner.Metadata.Infer(relPath, file, meta)
+            
+                # Assert
+                assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_KEY, "Playoffs")
+                assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_INDICATOR_KEY, PlexSportsScanner.NBA.NBA_SUBSEASON_FLAG_POSTSEASON)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_PLAYOFF_ROUND_KEY, round)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_EVENT_NAME_KEY, expected)
+            except Exception, e:
+                self.fail(e.message)
+
+class WhenReadingNBAPostseasonConferenceFromFolderStructure(WhenReadingFolderStructure):
+    def test_IfLeagueAndSeasonArePresent_ShouldHaveConferenceInfoFilledOut(self):
+        for (prefix, expected) in [
+            ("Eastern Conference", PlexSportsScanner.NBA.NBA_CONFERENCE_EAST),
+            ("Western Conference", PlexSportsScanner.NBA.NBA_CONFERENCE_WEST),
+            ("East", PlexSportsScanner.NBA.NBA_CONFERENCE_EAST),
+            ("West", PlexSportsScanner.NBA.NBA_CONFERENCE_WEST),
+            ("AnythingElse", None)
+            ]:
+            try:
+                # Arrange
+                relPath = r"NBA\2018\Postseason\%s\foo@bar.mp4" % prefix
+                file = r"%s\%s" % (rootDir, relPath)
+                meta = dict()
+
+                # Act
+                PlexSportsScanner.Metadata.Infer(relPath, file, meta)
+            
+                # Assert
+                assert_meta_value(meta, PlexSportsScanner.METADATA_CONFERENCE_KEY, expected)
+            except Exception, e:
+                self.fail(e.message)
+
 
 
 
@@ -463,6 +572,92 @@ class WhenReadingNHLSubseasonFromFolderStructure(WhenReadingFolderStructure):
                 # Assert
                 assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_INDICATOR_KEY, ind)
                 assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_KEY, expected)
+            except Exception, e:
+                self.fail(e.message)
+
+
+    # TODO: Answer cache
+    def test_IfSubseasonIsPlayoffRound_ShouldHavePlayoffRoundFilledOut(self):
+        for (prefix, expected, ind, round) in [
+            ("1st Round", "1st Round", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_1),
+            ("First Round", "First Round", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_1),
+            ("Round 1", "Round 1", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_1),
+            
+            ("2nd Round", "2nd Round", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_2),
+            ("Second Round", "Second Round", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_2),
+            ("Round 2", "Round 2", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_2),
+            
+            ("3rd Round", "3rd Round", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_3),
+            ("Third Round", "Third Round", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_3),
+            ("Round 3", "Round 3", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_3),
+            ("Conference Finals", "Conference Finals", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_3),
+            
+            ("4th Round", "4th Round", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_STANLEY_CUP),
+            ("Fourth Round", "Fourth Round", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_STANLEY_CUP),
+            ("Round 4", "Round 4", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_STANLEY_CUP),
+            ("Stanley Cup Finals", "Stanley Cup Finals", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_STANLEY_CUP),
+            ("Stanley Cup Playoffs", "Stanley Cup Playoffs", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_STANLEY_CUP),
+            ("Stanley Cup", "Stanley Cup", PlexSportsScanner.NHL.NHL_SUBSEASON_FLAG_POSTSEASON, PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_STANLEY_CUP),
+            
+            ("AnythingElse", None, None, None)
+            ]:
+            try:
+                # Arrange
+                relPath = r"NHL\2018\%s\foo@bar.mp4" % prefix
+                file = r"%s\%s" % (rootDir, relPath)
+                meta = dict()
+
+                # Act
+                PlexSportsScanner.Metadata.Infer(relPath, file, meta)
+            
+                # Assert
+                assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_KEY, expected)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_INDICATOR_KEY, ind)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_PLAYOFF_ROUND_KEY, round)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_EVENT_NAME_KEY, expected)
+            except Exception, e:
+                self.fail(e.message)
+
+class WhenReadingNHLPlayoffRoundFromFolderStructure(WhenReadingFolderStructure):
+    # TODO: Answer cache
+    def test_IfSubseasonIsNotPlayoffRound_ShouldHavePlayoffRoundFilledOut(self):
+        for (prefix, expected, round) in [
+            ("1st Round", "1st Round", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_1),
+            ("First Round", "First Round", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_1),
+            ("Round 1", "Round 1", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_1),
+            
+            ("2nd Round", "2nd Round", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_2),
+            ("Second Round", "Second Round", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_2),
+            ("Round 2", "Round 2", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_2),
+            
+            ("3rd Round", "3rd Round", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_3),
+            ("Third Round", "Third Round", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_3),
+            ("Round 3", "Round 3", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_3),
+            ("Conference Finals", "Conference Finals", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_3),
+            
+            ("4th Round", "4th Round", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_STANLEY_CUP),
+            ("Fourth Round", "Fourth Round", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_STANLEY_CUP),
+            ("Round 4", "Round 4", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_STANLEY_CUP),
+            ("Stanley Cup Finals", "Stanley Cup Finals", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_STANLEY_CUP),
+            ("Stanley Cup Playoffs", "Stanley Cup Playoffs", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_STANLEY_CUP),
+            ("Stanley Cup", "Stanley Cup", PlexSportsScanner.NHL.NHL_PLAYOFF_ROUND_STANLEY_CUP),
+            
+            ("AnythingElse", None, None)
+            ]:
+            try:
+                # Arrange
+                relPath = r"NHL\2018\Playoffs\%s\foo@bar.mp4" % prefix
+                file = r"%s\%s" % (rootDir, relPath)
+                meta = dict()
+
+                # Act
+                PlexSportsScanner.Metadata.Infer(relPath, file, meta)
+            
+                # Assert
+                assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_KEY, "Playoffs")
+                assert_meta_value(meta, PlexSportsScanner.METADATA_SUBSEASON_INDICATOR_KEY, PlexSportsScanner.MLB.MLB_SUBSEASON_FLAG_POSTSEASON)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_PLAYOFF_ROUND_KEY, round)
+                assert_meta_value(meta, PlexSportsScanner.METADATA_EVENT_NAME_KEY, expected)
             except Exception, e:
                 self.fail(e.message)
 

@@ -219,6 +219,9 @@ def InferSpringTrainingLeagueFromFolders(filename, folders, meta):
 
 
 def InferPlayoffRoundFromFolders(filename, folders, meta):
+    playoffRound = meta.get(METADATA_PLAYOFF_ROUND_KEY)
+    if playoffRound:
+        pass
     league = meta.get(METADATA_LEAGUE_KEY)
     season = meta.get(METADATA_SEASON_KEY)
     if folders and league and season:

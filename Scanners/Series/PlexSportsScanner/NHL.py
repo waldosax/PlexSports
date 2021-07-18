@@ -56,36 +56,44 @@ NHL_SUBSEASON_PLAYOFFS = "Playoffs"
 NHL_SUBSEASON_REGULAR_SEASON = "Regular Season"
 NHL_SUBSEASON_STANLEY_CUP = "Stanley Cup"
 
+nhl_stanley_cup_expressions = __expressions_from_literal(NHL_SUBSEASON_STANLEY_CUP) + __expressions_from_literal(NHL_SUBSEASON_STANLEY_CUP + " " + NHL_SUBSEASON_PLAYOFFS)
+
 # TODO: Remove all '__expressions_from_literal' calls  from values that are a single word
 nhl_subseason_indicator_expressions = [
     (NHL_SUBSEASON_FLAG_PRESEASON, __expressions_from_literal(NHL_SUBSEASON_PRESEASON)),
-    (NHL_SUBSEASON_FLAG_POSTSEASON, __expressions_from_literal(NHL_SUBSEASON_POSTSEASON) + __expressions_from_literal(NHL_SUBSEASON_PLAYOFFS) + __expressions_from_literal(NHL_SUBSEASON_STANLEY_CUP) + __expressions_from_literal(NHL_SUBSEASON_STANLEY_CUP + " " + NHL_SUBSEASON_PLAYOFFS)),
+    (NHL_SUBSEASON_FLAG_POSTSEASON, __expressions_from_literal(NHL_SUBSEASON_POSTSEASON) + __expressions_from_literal(NHL_SUBSEASON_PLAYOFFS) + nhl_stanley_cup_expressions),
     (NHL_SUBSEASON_FLAG_REGULAR_SEASON, __expressions_from_literal(NHL_SUBSEASON_REGULAR_SEASON))
     ]
+
+NHL_PLAYOFF_ROUND_1 = 1
+NHL_PLAYOFF_ROUND_2 = 2
+NHL_PLAYOFF_ROUND_3 = 3
+NHL_PLAYOFF_ROUND_STANLEY_CUP = 4
+
+nhl_stanley_cup_playoff_round_expressions = __expressions_from_literal(NHL_SUBSEASON_STANLEY_CUP + " Finals") + nhl_stanley_cup_expressions
+    
 
 # (expressions, round)
 nhl_playoff_round_expressions = [
     (
         __expressions_from_literal("1st Round") +
         __expressions_from_literal("First Round") +
-        __expressions_from_literal("Round 1"), 1),
+        __expressions_from_literal("Round 1"), NHL_PLAYOFF_ROUND_1),
     (
         __expressions_from_literal("2nd Round") + 
         __expressions_from_literal("Second Round") + 
-        __expressions_from_literal("Round 2"), 2),
+        __expressions_from_literal("Round 2"), NHL_PLAYOFF_ROUND_2),
     (
         __expressions_from_literal("3rd Round") + 
         __expressions_from_literal("Third Round") + 
         __expressions_from_literal("Round 3") + 
-        __expressions_from_literal("Conference Finals"), 3),
+        __expressions_from_literal("Conference Finals"), NHL_PLAYOFF_ROUND_3),
     (
         __expressions_from_literal("4th Round") +
         __expressions_from_literal("Fourth Round") +
         __expressions_from_literal("Round 4") +
-        __expressions_from_literal(NHL_SUBSEASON_STANLEY_CUP + " Finals") +
-        __expressions_from_literal(NHL_SUBSEASON_STANLEY_CUP + " " + NHL_SUBSEASON_PLAYOFFS) +
-        __expressions_from_literal(NHL_SUBSEASON_STANLEY_CUP) +
-        __expressions_from_literal("Finals"), 4)
+        nhl_stanley_cup_playoff_round_expressions +
+        __expressions_from_literal("Finals"), NHL_PLAYOFF_ROUND_STANLEY_CUP)
     ]
 
 NHL_EVENT_FLAG_HALL_OF_FAME = -1
@@ -130,8 +138,27 @@ def InferSubseasonFromFolders(filename, folders, meta):
 
                         meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, ind)
                         meta.setdefault(METADATA_SUBSEASON_KEY, folder)
+
+                        # Stanley Cup can mean the playoff finals or THE ENTIRE playoffs
+                        #   so if folder matches, short circuit the playoff round
+                        if ind == NHL_SUBSEASON_FLAG_POSTSEASON:
+                            isStanleyCup = False
+                            for scexpr in nhl_stanley_cup_expressions:
+                                if isStanleyCup == True:
+                                    break
+                                for scpattern in [r"^%s$" % scexpr, r"\b%s\b" % scexpr]:
+                                    scm = re.match(scpattern, folder, re.IGNORECASE)
+                                    if scm:
+                                        isStanleyCup = True
+                                        meta.setdefault(METADATA_PLAYOFF_ROUND_KEY, NHL_PLAYOFF_ROUND_STANLEY_CUP)
+                                        meta.setdefault(METADATA_EVENT_NAME_KEY, folder)
+                                        break
+
                         del(folders[0])
                         break
+
+        if not foundSubseason:
+            InferPlayoffRoundFromFolders(filename, folders, meta)
 
 def InferPostseasonConferenceFromFolders(filename, folders, meta):
     league = meta.get(METADATA_LEAGUE_KEY)
@@ -159,6 +186,9 @@ def InferPostseasonConferenceFromFolders(filename, folders, meta):
 
 
 def InferPlayoffRoundFromFolders(filename, folders, meta):
+    playoffRound = meta.get(METADATA_PLAYOFF_ROUND_KEY)
+    if playoffRound:
+        pass
     league = meta.get(METADATA_LEAGUE_KEY)
     season = meta.get(METADATA_SEASON_KEY)
     if folders and league and season:
@@ -177,7 +207,8 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
                     if m:
                         foundRound = True
 
-                        meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, 1)
+                        meta.setdefault(METADATA_SUBSEASON_KEY, folder)
+                        meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, NHL_SUBSEASON_FLAG_POSTSEASON)
                         meta.setdefault(METADATA_PLAYOFF_ROUND_KEY, round)
                         meta.setdefault(METADATA_EVENT_NAME_KEY, folder)
                         del(folders[0])

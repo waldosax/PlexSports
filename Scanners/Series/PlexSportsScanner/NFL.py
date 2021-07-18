@@ -105,6 +105,9 @@ def InferSubseasonFromFolders(filename, folders, meta):
                         del(folders[0])
                         break
 
+        if not foundSubseason:
+            InferPlayoffRoundFromFolders(filename, folders, meta)
+
 def InferWeekFromFolders(filename, folders, meta):
     league = meta.get(METADATA_LEAGUE_KEY)
     season = meta.get(METADATA_SEASON_KEY)
@@ -153,6 +156,9 @@ def InferPostseasonConferenceFromFolders(filename, folders, meta):
                         break
 
 def InferPlayoffRoundFromFolders(filename, folders, meta):
+    playoffRound = meta.get(METADATA_PLAYOFF_ROUND_KEY)
+    if playoffRound:
+        pass
     league = meta.get(METADATA_LEAGUE_KEY)
     season = meta.get(METADATA_SEASON_KEY)
     if folders and league and season:
