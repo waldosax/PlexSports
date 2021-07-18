@@ -29,7 +29,7 @@ def __strip_to_alphanumeric(s):
 def __trim_word_separators(s):
     if not s:
         return s
-    return re.sub("(?:^[\s\.\-_]+)|(?:[\s\.\-_]+$)", "", s)
+    return re.sub("(?:^%s+)|(?:%s+$)" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR), "", s)
 
 def CloseEnough(s1, s2):
     return Util.LevenshteinDistance(s1, s2) == 0
@@ -38,7 +38,7 @@ def CloseEnough(s1, s2):
 def __expressions_from_literal(literal, escape=True):
     expressions = []
 
-    pieces = re.split(r"[\s\.\-_]+", literal)
+    pieces = re.split(r"%s+" % EXPRESSION_SEPARATOR, literal)
 
     expr = ""
     expr2 = ""
@@ -54,7 +54,7 @@ def __expressions_from_literal(literal, escape=True):
         # (?P=sp)+
         if i < len(pieces) - 1:
             if i == 0:
-                expr += "(?P<sp>[\s\.\-_])+"
+                expr += "(?P<sp>%s)+" % EXPRESSION_SEPARATOR
             else:
                 expr += "(?P=sp)+"
 

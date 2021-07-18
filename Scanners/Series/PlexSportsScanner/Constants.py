@@ -64,6 +64,7 @@ known_leagues_expressions = [
   (LEAGUE_NHL, LEAGUE_NHL)
 ]
 
+EXPRESSION_SEPARATOR = r"[\s\.\-+]"
 EXPRESSION_VALID_FULL_YEAR_NON_CAPTURING = r"(?:(19\d{2})|(20\d{2}))"
 EXPRESSION_VALID_FULL_YEAR = r"(?P<year>%s)" % EXPRESSION_VALID_FULL_YEAR_NON_CAPTURING
 EXPRESSION_YEAR = r"(?P<year>\d{2}|%s)" % EXPRESSION_VALID_FULL_YEAR_NON_CAPTURING
@@ -103,7 +104,7 @@ week_expressions = [
 
 
 game_number_expressions = [
-    "Game[\s\.\-_]?(?P<game_number>\d+)"
+    "Game%s?(?P<game_number>\d+)" % EXPRESSION_SEPARATOR
 ]
 
 METADATA_PATH_KEY = "path"

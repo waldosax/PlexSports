@@ -31,7 +31,10 @@ NFL_SUBSEASON_POSTSEASON = "Postseason"
 NFL_SUBSEASON_PLAYOFFS = "Playoffs"
 NFL_SUBSEASON_REGULAR_SEASON = "Regular Season"
 
-nfl_superbowl_expressions = ["Super[\s\.\-_]?bowl([\s\.\-_]+(?P<game_number>(\d+)|([MDCLXVI]+))?)"]
+nfl_superbowl_expressions = [
+    "Superbowl((?P<sp>%s)+(?P<game_number>(\d+)|([MDCLXVI]+))?)" % EXPRESSION_SEPARATOR,
+    "Super(?P<sp>%s)+bowl((?P=sp)+(?P<game_number>(\d+)|([MDCLXVI]+))?)" % EXPRESSION_SEPARATOR
+    ]
 
 nfl_subseason_indicator_expressions = [
     (NFL_SUBSEASON_FLAG_PRESEASON, __expressions_from_literal(NFL_SUBSEASON_PRESEASON)),
