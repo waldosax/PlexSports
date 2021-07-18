@@ -103,7 +103,7 @@ week_expressions = [
 
 
 game_number_expressions = [
-    "Game%s?(?P<game_number>\d+)" % EXPRESSION_SEPARATOR
+    r"Game%s?(?P<game_number>(\d+))" % EXPRESSION_SEPARATOR
 ]
 
 METADATA_PATH_KEY = "path"
