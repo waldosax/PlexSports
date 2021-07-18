@@ -98,8 +98,7 @@ season_expressions = [
 
 
 week_expressions = [
-  r"Week\s+(?P<week_number>(\d+))",
-  r"week[\.-]?(?P<week_number>(\d+))"
+  r"Week%s+(?P<week_number>(\d+))" % EXPRESSION_SEPARATOR
 ]
 
 
