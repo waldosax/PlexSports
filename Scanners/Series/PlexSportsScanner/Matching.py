@@ -39,17 +39,27 @@ def __expressions_from_literal(literal, escape=True):
     expressions = []
 
     pieces = re.split(r"[\s\.\-_]+", literal)
-    for separator in [" ", r"\.", r"\-", "_", ""]:
-        expr = ""
-        for i in range(0, len(pieces)):
-            if escape:
-                expr += re.escape(pieces[i])
-            else:
-                expr += pieces[i]
 
-            if i < len(pieces) - 1:
-                expr += separator
-        expressions.append(expr)
+    expr = ""
+    expr2 = ""
+    for i in range(0, len(pieces)):
+        if escape:
+            expr += re.escape(pieces[i])
+            expr2 += re.escape(pieces[i])
+        else:
+            expr += pieces[i]
+            expr2 += pieces[i]
+
+        # (?P<sp>[\s\.\-_])+
+        # (?P=sp)+
+        if i < len(pieces) - 1:
+            if i == 0:
+                expr += "(?P<sp>[\s\.\-_])+"
+            else:
+                expr += "(?P=sp)+"
+
+    expressions.append(expr)
+    expressions.append(expr2)
 
     return list(set(expressions))
 
