@@ -6,7 +6,7 @@ from pprint import pprint
 import bootstrapper
 import localscanner
 
-PlexSportsAgent = bootstrapper.BootstrapAgent()
+Agent = bootstrapper.BootstrapAgent()
 
 
 
@@ -16,12 +16,13 @@ if __name__ == "__main__":
 	# argv1 = "L:\\Staging\\Sports"
 	argv1 = "F:\\Code\\Plex\\PlexSportsLibrary"
 
-	root = argv1
-	mediaList = localscanner.BeginScan(root)
-	#pprint(mediaList)
+	#root = argv1
+	#mediaList = localscanner.BeginScan(root)
+	##pprint(mediaList)
 
-	PlexSportsAgent.Start()
-	agent = PlexSportsAgent.PlexSportsAgent()
-	for media in mediaList:
-		results = []
-		agent.search(results, media, None, False)
+	#PlexSportsAgent.Start()
+	agent = Agent.PlexSportsAgent()
+	#for media in mediaList:
+	media = None
+	results = []
+	agent.search(results, media, None, False)

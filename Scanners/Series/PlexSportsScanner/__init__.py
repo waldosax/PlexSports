@@ -16,7 +16,6 @@ from Metadata import *
 def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
     """"""
     print("Scanning for files at '" + path + "' ...")
-    #NFL.Touchdown()
 
     # Scan for video files.
     VideoFiles.Scan(path, files, mediaList, subdirs, root)
@@ -26,11 +25,11 @@ def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
 
         # Extract all the metadata possible from the folder structure/file name
         meta = __discover_metadata(path, file, root)
-        pprint(meta)
 
         if not __is_supported(meta):
             continue
 
+        pprint(meta)
         #show, season, episode, title, year
 
         # When we introduce event-driven sports like boxing/mma, league becomes irrelevant in favor of sport

@@ -3,10 +3,7 @@
 import os, sys, types, functools
 from pprint import pprint
 
-import bootstrapper
 import localscanner
-
-PlexSportsScanner = bootstrapper.BootstrapScanner()
 
 
 
