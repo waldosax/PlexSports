@@ -1,23 +1,3 @@
-known_video_codec_expressions = [ 
-  ("[hH]\\.264", "H.264"),
-  ("[hH]264", "H.264"),
-  ("[hH]\\.265", "H.264"),
-  ("[hH]265", "H.264"),
-  ("[xX]\\.265", "H.264"),
-  ("[xX]265", "H.264")
-]
-
-known_video_resolution_expressions = [ 
-  ("480[iI]", "480i"),
-  ("480[pP]", "480p"),
-  ("720[iI]", "720i"),
-  ("720[pP]", "720p"),
-  ("1080[iI]", "1080i"),
-  ("1080[pP]", "1080p"),
-  ("2160[iI]", "2160i"),
-  ("2160[pP]", "2160p")
-]
-
 
 SPORT_BASEBALL = "Baseball"
 SPORT_BASKETBALL = "Basketball"
@@ -127,10 +107,6 @@ METADATA_AIRDATE_KEY = "air date"
 METADATA_HOME_TEAM_KEY = "home team"
 METADATA_AWAY_TEAM_KEY = "away team"
 METADATA_GAME_NUMBER_KEY = "game number"
-METADATA_VIDEO_CODEC_KEY = "video codec"
-METADATA_VIDEO_RESOLUTION_KEY = "video resolution"
-METADATA_AUDIO_CODEC_KEY = "audio codec"
-METADATA_AUDIO_RESOLUTION_KEY = "audio resolution"
 
 
 

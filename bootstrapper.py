@@ -1,4 +1,5 @@
 import os, sys
+from pprint import pprint
 
 # Run C:\Python27\Scripts\pip install requests to install relevant packages
 # sys.path.append(os.path.abspath("PlexSportsAgent.bundle\\Contents\\Libraries\\Shared"))
@@ -14,6 +15,26 @@ def BootstrapScanner():
 	PlexSportsScanner = __import_module("PlexSportsScanner")
 
 	return PlexSportsScanner
+
+def BootstrapAgent():
+
+	# Dependencies: Anywhere I might resolve an import directive from
+	__add_to_sys_path("Backups\\Scanners.bundle\\Contents\\Resources\\Common")
+
+	# Simulated dependencies (builtins)
+	__add_to_sys_path("Debug\\Plex")
+	Agent = __import_module("Agent")
+	AudioCodec = __import_module("AudioCodec")
+	VideoCodec = __import_module("VideoCodec")
+	Container = __import_module("Container")
+	MetadataSearchResult = __import_module("MetadataSearchResult")
+
+	# Import the actual module
+	#__add_to_sys_path("PlexSportsAgent.bundle/Contents/Libraries/Shared")
+	__add_to_sys_path("PlexSportsAgent.bundle/Contents")
+	PlexSportsAgent = __import_module("Code", "PlexSportsAgent")
+
+	return PlexSportsAgent
 
 def BootstrapScannerAndUnitTests():
 
@@ -31,9 +52,27 @@ def __add_to_sys_path(relPath):
 	if not abspath in sys.path:
 		sys.path.append(abspath)
 
-def __import_module(moduleName):
+def __import_module(moduleName, alias=None):
 	if moduleName not in sys.modules.keys():
-		sys.modules[moduleName] = module = __import__(moduleName)
+		module = __add_to_builtins(__add_to_sys_modules(__import__(moduleName), alias))
+		if alias:
+			module.__name__ = alias
 		return module
 	else:
 		return sys.modules[moduleName]
+
+def __add_to_sys_modules(module, alias=None):
+	moduleName = alias or module.__name__
+	if moduleName not in sys.modules.keys():
+		sys.modules[moduleName] = module
+		return module
+	else:
+		return sys.modules[moduleName]
+
+def __add_to_builtins(module, alias=None):
+	moduleName = alias or module.__name__
+	if moduleName not in __builtins__.keys():
+		__builtins__[moduleName] = module
+		return module
+	else:
+		return __builtins__[moduleName]
