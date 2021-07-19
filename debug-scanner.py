@@ -1,44 +1,14 @@
 # Boostrap necessary modules for debugging Plex scanner
 
 import os, sys, types, functools
+from pprint import pprint
+
 import bootstrapper
+import localscanner
 
 PlexSportsScanner = bootstrapper.BootstrapScanner()
 
 
-
-def BeginScan(root):
-	root = root
-	path = root
-	mediaList = []
-
-	(path, files, subdirs) = GetFilesAndSubdirs(path)
-		
-	ScanRecursive(path, files, mediaList, subdirs, root)
-	return mediaList
-
-def GetFilesAndSubdirs(path, relsubdir = None):
-	x = path
-	if (relsubdir):
-		x = os.path.join(x, relsubdir)
-	files = []
-	subdirs = []
-	mediaList = []
-	l = os.listdir(x)
-	for i in l:
-		p = os.path.join(x, i)
-		if os.path.isfile(p):
-			files.append(p)
-		elif os.path.isdir(p):
-			subdirs.append(p)
-	return (x, files, subdirs)
-
-def ScanRecursive(path, files, mediaList, subdirs, root):
-	PlexSportsScanner.Scan(path, files, mediaList, subdirs, root=root)
-	for s in subdirs:
-		relsubdir = os.path.relpath(s, path or root)
-		(newpath, newfiles, newsubdirs) = GetFilesAndSubdirs(path or root, relsubdir)
-		ScanRecursive(newpath, newfiles, mediaList, newsubdirs, root)
 
 
 
@@ -75,5 +45,5 @@ if __name__ == "__main__":
 	#				yt1s.com - Phillies vs Red Sox Game Highlights 7921  MLB Highlights.mp4
 
 
-	mediaList = BeginScan(root)
-	print(mediaList)
+	mediaList = localscanner.BeginScan(root)
+	#pprint(mediaList)

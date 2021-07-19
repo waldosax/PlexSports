@@ -26,7 +26,7 @@ def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
 
         # Extract all the metadata possible from the folder structure/file name
         meta = __discover_metadata(path, file, root)
-        #print(meta)
+        pprint(meta)
 
         if not __is_supported(meta):
             continue
@@ -36,9 +36,10 @@ def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
         # When we introduce event-driven sports like boxing/mma, league becomes irrelevant in favor of sport
         show = meta[METADATA_LEAGUE_KEY]
 
-        if meta[METADATA_SEASON_BEGIN_YEAR_KEY]:
+        season = 0
+        if meta.get(METADATA_SEASON_BEGIN_YEAR_KEY):
             season = meta[METADATA_SEASON_BEGIN_YEAR_KEY]
-        elif meta[METADATA_AIRDATE_KEY]:
+        elif meta.get(METADATA_AIRDATE_KEY):
             season = meta[METADATA_AIRDATE_KEY].year
 
         # We'll see how episode and display_offset is affected by organization
@@ -51,17 +52,17 @@ def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
         # Year is used as a disambiguator between shows (in this case leagues, so unnecessary)
         year = None
 
-        sporting_event = SportingEvent(show, season, episode title, year, meta)
+        sporting_event = SportingEvent(show, season, episode, title, year, meta)
         sporting_event.display_offset = display_offset
         sporting_event.parts.append(file)
         mediaList.append(sporting_event)
-
+        #pprint(mediaList)
 
 
     # See if we need to tie any parted video files (.part1.mp4, .part2.mp4, etc) to a single file
     if files:
         Stack.Scan(path, files, mediaList, subdirs)
-        print(files)
+        pprint(files)
 
 def __get_relative_path(path, file, root):
     relPath = os.path.relpath(file, root) if root else path + os.path.basename(file) if os.path.isabs(path) == False else os.path.relPath(file, path)
@@ -103,7 +104,7 @@ def __synthesize_episode_title(meta):
 
 class SportingEvent(Media.MediaRoot):
     def __init__(self, show, season, episode, title=None, year=None, meta=None):
-        MediaRoot.__init__(self, 'SportingEvent') # Episode
+        Media.MediaRoot.__init__(self, 'SportingEvent') # Episode
         self.show = show
         self.season = season
         self.episode = episode

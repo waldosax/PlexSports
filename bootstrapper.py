@@ -9,6 +9,7 @@ def BootstrapScanner():
 
 	# Dependencies: Anywhere I might resolve an import directive from
 	__add_to_sys_path("Backups\\Scanners.bundle\\Contents\\Resources\\Common")
+	Media = __import_module("Media")
 
 	# Import the actual module
 	__add_to_sys_path("Scanners\\Series")

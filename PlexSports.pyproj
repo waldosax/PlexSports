@@ -479,6 +479,9 @@
     <Compile Include="Debug\Plex\Objects\TVShowObject.py" />
     <Compile Include="Debug\Plex\Objects\VideoClipObject.py" />
     <Compile Include="Debug\Plex\VideoCodec.py" />
+    <Compile Include="localscanner.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\__init__.py" />
     <Compile Include="python-tests.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants.py" />
