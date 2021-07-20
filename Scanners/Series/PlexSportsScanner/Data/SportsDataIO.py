@@ -8,7 +8,7 @@ SPORTS_DATA_IO_NHL_API_KEY = "e6b62fe4b3b041dcba7c51c41f6affe7" # TODO: Read fro
 
 SPORTS_DATA_IO_BASE_URL = "https://fly.sportsdata.io/v3/%s/" # (League)
 
-SPORTS_DATA_IO_GET_ALL_TEAMS_FOR_LEAGUE = SPORTS_DATA_IO_BASE_URL + "scores/json/Teams?key=%s" # (League, ApiKey)
+SPORTS_DATA_IO_GET_ALL_TEAMS_FOR_LEAGUE = SPORTS_DATA_IO_BASE_URL + "scores/json/AllTeams?key=%s" # (League, ApiKey)
 
 SPORTS_DATA_IO_SUBSCRIPTION_KEY_NAME = "Ocp-Apim-Subscription-Key"
 

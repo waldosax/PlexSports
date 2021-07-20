@@ -8,7 +8,7 @@ SPORTS_DATA_IO_NHL_API_KEY = "e6b62fe4b3b041dcba7c51c41f6affe7" # TODO: Read fro
 
 SPORTS_DATA_IO_BASE_URL = "https://fly.sportsdata.io/v3/%s/" # (League)
 
-SPORTS_DATA_IO_GET_ALL_TEAMS_FOR_LEAGUE = SPORTS_DATA_IO_BASE_URL + "scores/json/Teams?key=%s" # (League, ApiKey)
+SPORTS_DATA_IO_GET_ALL_TEAMS_FOR_LEAGUE = SPORTS_DATA_IO_BASE_URL + "scores/json/AllTeams?key=%s" # (League, ApiKey)
 SPORTS_DATA_IO_GET_MLB_GAMES_FOR_SEASON = SPORTS_DATA_IO_BASE_URL + "scores/json/Games/%s?key=%s" # (Season, ApiKey)
 SPORTS_DATA_IO_GET_NBA_GAMES_FOR_SEASON = SPORTS_DATA_IO_BASE_URL + "scores/json/Games/%s?key=%s" # (Season, ApiKey)
 SPORTS_DATA_IO_GET_NFL_SCHEDULE_FOR_SEASON = SPORTS_DATA_IO_BASE_URL + "scores/json/Schedules/%s?key=%s" # (Season, ApiKey)
@@ -56,7 +56,7 @@ def __sports_data_io_download_schedule_for_league_and_season(league, season, sub
     key = sports_data_io_api_keys[league]
     headers = sports_data_io_headers.copy()
     headers[SPORTS_DATA_IO_SUBSCRIPTION_KEY_NAME] = key
-    allSubseasons = [SPORTS_DATA_IO_SUBSEASON_PRESEASON, SPORTS_DATA_IO_SUBSEASON_REGULARSEASON, SPORTS_DATA_IO_SUBSEASON_POSTSEASON]#, SPORTS_DATA_IO_SUBSEASON_ALLSTAR]
+    allSubseasons = [SPORTS_DATA_IO_SUBSEASON_PRESEASON, SPORTS_DATA_IO_SUBSEASON_REGULARSEASON, SPORTS_DATA_IO_SUBSEASON_POSTSEASON, SPORTS_DATA_IO_SUBSEASON_ALLSTAR]
     subseasons = []
     if not subseason:
         subseasons = allSubseasons[0:]

@@ -95,7 +95,6 @@ def GetAllTeams():
             allTeams.setdefault(league, teams)
     return allTeams
 
-
 def __get_teams_from_cache(league):
     if (league in known_leagues.keys() == False):
         return None
@@ -251,10 +250,10 @@ def InferFromFileName(fileName, food, meta):
     league = meta.get(METADATA_LEAGUE_KEY)
     teams = dict()
     if league:
-        teams.setdefault(league, __get_teams_from_cache(league))
+        teams.setdefault(league, GetTeams(league))
     else:
         for league in known_leagues:
-            teams.setdefault(league, __get_teams_from_cache(league))
+            teams.setdefault(league, GetTeams(league))
 
     (foundLeague, team1, team2, vs, chewed) = __find_teams(teams, food)
     if vs == "@":

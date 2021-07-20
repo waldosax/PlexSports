@@ -88,7 +88,7 @@ def foo():
 	league = LEAGUE_MLB
 	season = 2021
 	(leagueName, sport) = known_leagues[league]
-	Teams.__get_teams_from_cache(league)
+	teams = Teams.GetTeams(league)
 
 	temp = dict()
 
