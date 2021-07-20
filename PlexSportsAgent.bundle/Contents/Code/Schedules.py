@@ -99,15 +99,15 @@ def GetSchedule(sport, league, season, download=False):
 	if not league in known_leagues.keys():
 		return None
 
-    sched = dict()
-    
-    if download == False: # Nab from cache
-        sched = __get_schedule_from_cache(sport, league, season)
+	sched = dict()
+	
+	if download == False: # Nab from cache
+		sched = __get_schedule_from_cache(sport, league, season)
    
-    else: # Download from APIs
-        sched = __download_all_schedule_data(sport, league, season)
+	else: # Download from APIs
+		sched = __download_all_schedule_data(sport, league, season)
 
-    return sched
+	return sched
 
 def __download_all_schedule_data(sport, league, season):
 	sched = dict()

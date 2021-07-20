@@ -4,8 +4,9 @@ from pprint import pprint
 # Run C:\Python27\Scripts\pip install requests to install relevant packages
 # pip install requests
 # pip install python-dateutil
-# sys.path.append(os.path.abspath("PlexSportsAgent.bundle\\Contents\\Libraries\\Shared"))
+sys.path.append(os.path.abspath("Backups\\Framework.bundle\\Contents\\Resources\\Platforms\\Shared\\Libraries"))
 sys.path.append(os.path.abspath("C:\\Python27\\Lib\\site-packages"))
+# sys.path.append(os.path.abspath("PlexSportsAgent.bundle\\Contents\\Libraries\\Shared"))
 
 def BootstrapScanner():
 
