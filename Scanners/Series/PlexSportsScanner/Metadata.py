@@ -4,6 +4,7 @@ from pprint import pprint
 
 # Local package
 from Constants import *
+from StringUtils import *
 from Teams import *
 from . import Teams
 from . import Matching
@@ -287,21 +288,3 @@ def __infer_game_number_from_filename(fileName, food, meta):
                     meta.setdefault(METADATA_GAME_NUMBER_KEY, ms[0].group("game_number"))
                     return chewed
 
-
-def __expand_year(year):
-    if not year:
-        return None
-
-    intYear = 0
-    if type(year) is str:
-        intYear = int(year)
-    elif type(year) is int:
-        intYear = year
-
-    if intYear < 100:
-        if intYear < 40:
-            intYear = 2000 + intYear
-        else:
-            intYear = 1900 + intYear
-
-    return str(intYear)

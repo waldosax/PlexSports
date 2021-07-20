@@ -7,6 +7,7 @@ import Media, VideoFiles, Stack, Utils
 
 # Local package
 from Constants import *
+from StringUtils import *
 from Teams import *
 from Metadata import *
 

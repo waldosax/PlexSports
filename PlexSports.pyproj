@@ -487,11 +487,15 @@
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\SportsDataIO.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\TheSportsDB.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\__init__.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\DateTimeUtils.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Matching.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Teams.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\StringUtils.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\__init__.py" />
     <Compile Include="python-tests.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants.py" />
@@ -519,6 +523,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\StringUtils.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Scanners\Series\PlexSportsScanner\__init__.py" />
     <Compile Include="UnitTests\AssertionException.py">
       <SubType>Code</SubType>
