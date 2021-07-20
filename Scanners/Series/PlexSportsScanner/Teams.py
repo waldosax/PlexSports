@@ -68,24 +68,13 @@ def GetTeams(league, download=False):
         return None # TODO: Throw
     teams = dict()
     
-    # Nab from cache first
-    if download == False:
+    if download == False: # Nab from cache
         teams = __get_teams_from_cache(league)
-    else:
-        # Retrieve data from TheSportsDB.com
-        downloadedJson = TheSportsDB.__the_sports_db_download_all_teams_for_league(league)
-        sportsDbTeams = json.loads(downloadedJson)
-        for team in sportsDbTeams["teams"]:
-            __add_or_override_team(teams, League=league, Abbreviation=team["strTeamShort"], Name=team["strTeam"], FullName=team["strTeam"], SportsDBID=team["idTeam"])
-        
-        # Augment/replace with data from SportsData.io
-        downloadedJson = SportsDataIO.__sports_data_io_download_all_teams_for_league(league)
-        sportsDataIoTeams = json.loads(downloadedJson)
-        for team in sportsDataIoTeams:
-            __add_or_override_team(teams, League=league, Abbreviation=team["Key"], Name=team["Name"], FullName=team.get("FullName") or "%s %s" % (team["City"], team["Name"]), City=team["City"], SportsDataIOID=team["TeamID"])
+   
+    else: # Download from APIs
+        teams = __download_all_team_data(league)
 
     return teams
-
 
 def GetAllTeams():
     allTeams = dict()
@@ -94,6 +83,24 @@ def GetAllTeams():
         if (teams):
             allTeams.setdefault(league, teams)
     return allTeams
+
+
+def __download_all_team_data(league):
+    teams = dict()
+
+    # Retrieve data from TheSportsDB.com
+    downloadedJson = TheSportsDB.__the_sports_db_download_all_teams_for_league(league)
+    sportsDbTeams = json.loads(downloadedJson)
+    for team in sportsDbTeams["teams"]:
+        __add_or_override_team(teams, League=league, Abbreviation=team["strTeamShort"], Name=team["strTeam"], FullName=team["strTeam"], SportsDBID=team["idTeam"])
+        
+    # Augment/replace with data from SportsData.io
+    downloadedJson = SportsDataIO.__sports_data_io_download_all_teams_for_league(league)
+    sportsDataIoTeams = json.loads(downloadedJson)
+    for team in sportsDataIoTeams:
+        __add_or_override_team(teams, League=league, Abbreviation=team["Key"], Name=team["Name"], FullName=team.get("FullName") or "%s %s" % (team["City"], team["Name"]), City=team["City"], SportsDataIOID=team["TeamID"])
+
+    return teams
 
 def __get_teams_from_cache(league):
     if (league in known_leagues.keys() == False):
@@ -124,7 +131,7 @@ def __get_teams_from_cache(league):
 
 def __refresh_team_cache(league):
     print("Refreshing %s teams cache ..." % league)
-    teams = GetTeams(league, download=True)
+    teams = __download_all_team_data(league)
     cached_teams.setdefault(league, teams)
     cached_teams[league] = teams
     cwmt = __get_cities_with_multiple_teams(teams)

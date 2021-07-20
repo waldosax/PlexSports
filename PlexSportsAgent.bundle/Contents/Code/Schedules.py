@@ -19,6 +19,7 @@ WEIGHT_GAME = 1
 WEIGHT_TEAM = 25
 WEIGHT_VS = 30
 
+cached_schedules = dict() # cached_schedules[sport][league][eventHash][subHash]
 
 class event_cache_dict(dict):
 	def __init__(self, weight, *args, **kwargs):
@@ -88,10 +89,31 @@ def foo():
 	league = LEAGUE_MLB
 	season = 2021
 	(leagueName, sport) = known_leagues[league]
+
+	sched = GetSchedule(sport, league, season)
+	pass
+
+def GetSchedule(sport, league, season, download=False):
+	if not sport in supported_sports:
+		return None
+	if not league in known_leagues.keys():
+		return None
+
+    sched = dict()
+    
+    if download == False: # Nab from cache
+        sched = __get_schedule_from_cache(sport, league, season)
+   
+    else: # Download from APIs
+        sched = __download_all_schedule_data(sport, league, season)
+
+    return sched
+
+def __download_all_schedule_data(sport, league, season):
+	sched = dict()
 	teams = Teams.GetTeams(league)
 
-	temp = dict()
-
+	# Retrieve data from TheSportsDB.com
 	downloadedJson = TheSportsDB.__the_sports_db_download_schedule_for_league_and_season(league, season)
 	sportsDbSchedule = json.loads(downloadedJson)
 	for schedEvent in sportsDbSchedule["events"]:
@@ -138,16 +160,17 @@ def foo():
 		hash = __sched_compute_hash(ev)
 		subhash = __sched_compute_time_hash(ev.date)
 		print("%s|%s" % (hash, subhash))
-		if not hash in temp.keys():
-			temp.setdefault(hash, {subhash:ev})
+		if not hash in sched.keys():
+			sched.setdefault(hash, {subhash:ev})
 		else:
-			evdict = temp[hash]
+			evdict = sched[hash]
 			if (not subhash in evdict.keys()):
-				temp[hash].setdefault(subhash, ev)
+				sched[hash].setdefault(subhash, ev)
 			else:
-				temp[hash][subhash].augment(**ev.__dict__)
+				sched[hash][subhash].augment(**ev.__dict__)
 
 
+	# Augment/replace with data from SportsData.io
 	downloadedJsons = SportsDataIO.__sports_data_io_download_schedule_for_league_and_season(league, season)
 	for downloadedJson in downloadedJsons:
 		sportsDataIOSchedule = json.loads(downloadedJson)
@@ -190,15 +213,137 @@ def foo():
 
 			hash = __sched_compute_hash(ev)
 			subhash = __sched_compute_time_hash(ev.date)
-			print("%s|%s" % (hash, subhash))
-			if not hash in temp.keys():
-				temp.setdefault(hash, {subhash:ev})
+			#print("%s|%s" % (hash, subhash))
+			if not hash in sched.keys():
+				sched.setdefault(hash, {subhash:ev})
 			else:
-				evdict = temp[hash]
+				evdict = sched[hash]
 				if (not subhash in evdict.keys()):
 					evdict.setdefault(subhash, ev)
 				else:
 					evdict[subhash].augment(**ev.__dict__)
+	
+	return sched
+
+
+
+
+
+
+
+def __get_schedule_from_cache(sport, league, season):
+	if not sport in supported_sports:
+		return None
+	if not league in known_leagues.keys():
+		return None
+	if not __schedule_cache_has_schedule(sport, league, season):
+		if not __schedule_cache_file_exists(sport, league, season):
+			__refresh_schedule_cache(sport, league, season)
+		else:
+			jsonEvents = []
+			cachedJson = __read_schedule_cache_file(sport, league, season) #TODO: Try/Catch
+			jsonEvents = json.loads(cachedJson)
+			if (len(jsonEvents) == 0):
+				__refresh_schedule_cache(sport, league, season)
+			else:
+				cached_schedules.setdefault(sport, dict())
+				cached_schedules[sport].setdefault(league, dict())
+				cached_schedules[sport][league].setdefault(season, dict())
+				schedules = dict()
+				for jsonTeam in jsonEvents:
+					eventDict = dict(jsonTeam)
+					dateStr = eventDict["date"]
+					date = ParseIso8861Date(dateStr)
+					eventDict["date"] = date
+					schedule = event(**eventDict)
+					hash = __sched_compute_hash(schedule)
+					subhash = __sched_compute_time_hash(schedule.date)
+
+					schedules.setdefault(hash, dict())
+					schedules[hash].setdefault(subhash, event)
+				cached_schedules[sport][league][season] = schedules
+	return cached_schedules[sport][league][season]
+
+def __refresh_schedule_cache(sport, league, season):
+	print("Refreshing %s %s schedules cache ..." % (league, season))
+	cached_schedules.setdefault(sport, dict())
+	cached_schedules[sport].setdefault(league, dict())
+	cached_schedules[sport][league].setdefault(season, dict())
+	schedules = __download_all_schedule_data(sport, league, season)
+	cached_schedules[sport][league][season] = schedules
+	jsonEvents = []
+	for daysEvents in schedules.values():
+		for event in daysEvents.values():
+			eventDict = dict(event.__dict__)
+			date = eventDict["date"]
+			dateStr = date.strftime("%Y-%m-%dT%H:%M:%S%z")
+			eventDict["date"] = dateStr
+			jsonEvents.append(eventDict)
+	__write_schedule_cache_file(sport, league, season, json.dumps(jsonEvents, sort_keys=True, indent=4))
+
+
+
+def __schedule_cache_has_schedule(sport, league, season):
+	if len(cached_schedules) == 0:
+		return False
+	if not sport in cached_schedules.keys():
+		return False
+	if not league in cached_schedules[sport].keys():
+		return False
+	if not cached_schedules[sport][league].get(season):
+		return False
+	return len(cached_schedules[sport][league][season]) > 0
+
+def __schedule_cache_file_exists(sport, league, season):
+	path = __get_schedule_cache_file_path(sport, league, season)
+	return os.path.exists(path)
+
+def __read_schedule_cache_file(sport, league, season):
+	path = __get_schedule_cache_file_path(sport, league, season)
+	return open(path, "r").read() # TODO: Invalidate cache
+
+def __write_schedule_cache_file(sport, league, season, json):
+	print("Writing %s %s schedules cache to disk ..." % (league, season))
+	path = __get_schedule_cache_file_path(sport, league, season)
+	dir = os.path.dirname(path)
+	if os.path.exists(dir) == False:
+		nodes = Utils.SplitPath(dir)
+		agg = None
+		for node in nodes:
+			agg = os.path.join(agg, node) if agg else node
+			if os.path.exists(agg) == False:
+				os.mkdir(agg)
+	f = open(path, "w")
+	f.write(json)
+	f.close()
+
+def __get_schedule_cache_file_path(sport, league, season):
+	# TODO: Modify filename when non-seasonal sport, like Boxing
+	path = os.path.abspath(r"%s/%s%s/%s-Schedule.json" % (os.path.dirname(__file__), DATA_PATH_LEAGUES, league, season))
+	return path
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
