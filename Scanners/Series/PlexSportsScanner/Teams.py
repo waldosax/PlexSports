@@ -92,13 +92,28 @@ def __download_all_team_data(league):
     downloadedJson = TheSportsDB.__the_sports_db_download_all_teams_for_league(league)
     sportsDbTeams = json.loads(downloadedJson)
     for team in sportsDbTeams["teams"]:
-        __add_or_override_team(teams, League=league, Abbreviation=team["strTeamShort"], Name=team["strTeam"], FullName=team["strTeam"], SportsDBID=team["idTeam"])
+        kwargs = {
+            "League": league,
+            "Abbreviation": deunicode(team["strTeamShort"]),
+            "Name": deunicode(team["strTeam"]),
+            "FullName": deunicode(team["strTeam"]),
+            "SportsDBID": str(team["idTeam"])
+            }
+        __add_or_override_team(teams, **kwargs)
         
     # Augment/replace with data from SportsData.io
     downloadedJson = SportsDataIO.__sports_data_io_download_all_teams_for_league(league)
     sportsDataIoTeams = json.loads(downloadedJson)
     for team in sportsDataIoTeams:
-        __add_or_override_team(teams, League=league, Abbreviation=team["Key"], Name=team["Name"], FullName=team.get("FullName") or "%s %s" % (team["City"], team["Name"]), City=team["City"], SportsDataIOID=team["TeamID"])
+        kwargs = {
+            "League": league,
+            "Abbreviation": deunicode(team["Key"]),
+            "Name": deunicode(team["Name"]),
+            "FullName": deunicode(team.get("FullName")) or "%s %s" % (deunicode(team["City"]), deunicode(team["Name"])),
+            "City": deunicode(team["City"]),
+            "SportsDataIOID": str(team["TeamID"])
+            }
+        __add_or_override_team(teams, **kwargs)
 
     return teams
 

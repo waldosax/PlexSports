@@ -1,24 +1,25 @@
-import os
+import re
 
-#root = "Z:\\Staging\\Sports"
-#print (root)
+lgexpr = r"(?:(?P<league>lg\:\w+)(?:\||$))?"
+sznexpr = r"(?:(?P<season>s\:\d+)(?:\||$))?"
+wkexpr = r"(?:(?P<week>wk\:\w+)(?:\||$))?"
+dtexpr = r"(?:(?P<date>dt\:\d+)(?:\||$))?"
+tm1expr = r"(?:(?P<team1>tm\:\w+)(?:\||$))?"
+tm2expr = r"(?:(?P<team2>tm\:\w+)(?:\||$))?"
 
-#paths = dict()
-#walk = [os.path.join(dirPath, fileName) for dirPath, dirNames, fileNames in os.walk(root) for fileName in fileNames]
-#for f in walk:
-#    relpath = os.path.relpath(os.path.dirname(f), root)
-#    file = os.path.basename(f)
-#    paths.setdefault(relpath, [])
-#    paths[relpath].append(file)
+test = "lg:mlb|s:2021|dt:20210903|tm:PHI|tm:MIA"
 
-#for path in paths.keys():
-#    files = paths[path]
-#    print("Scanning: %s\n\t%s" % (path, files)) 
+expr = r"".join([lgexpr, sznexpr, wkexpr, dtexpr, tm1expr, tm2expr])
+print(expr)
+p = re.compile(expr, re.IGNORECASE)
+m = p.search(test)
 
-
-#nodes = Utils.SplitPath(dir)
-nodes = ["C:\\", "Code", "Plex", "PlexSports", "Scanners", "Series", "PlexSportsScanner", "Data", "Leagues", "MLB"]
-agg = None
-for node in nodes:
-    agg = os.path.join(agg, node) if agg else node
-    print (agg)
+if m:
+	print(m.string[m.start():m.end()])
+	gd = m.groupdict()
+	for key in gd.keys():
+		g = gd[key]
+		val = m.group(key)
+		sliced = m.string[m.start(key):m.end(key)]
+		print("val\t%s: %s" % (key, val))
+		print("sliced\t%s: %s" % (key, sliced))

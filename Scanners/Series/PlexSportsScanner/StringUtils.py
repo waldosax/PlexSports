@@ -16,3 +16,10 @@ def __expand_year(year):
             intYear = 1900 + intYear
 
     return str(intYear)
+
+
+
+def deunicode(s):
+	if not s:
+		return s
+	return str(s).decode('utf-8', 'ignore')
