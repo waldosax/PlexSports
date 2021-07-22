@@ -101,8 +101,8 @@ def __infer_season_from_folders(fileName, folders, meta):
                 m = re.match(pattern, folder, re.IGNORECASE)
                 if m:
                     foundSeason = True
-                    seasonBeginYear = int(__expand_year(m.group("season_year_begin") or m.string))
-                    seasonEndYear = int(__expand_year(m.group("season_year_end"))) if m.group("season_year_end") else None
+                    seasonBeginYear = int(expandYear(m.group("season_year_begin") or m.string))
+                    seasonEndYear = int(expandYear(m.group("season_year_end"))) if m.group("season_year_end") else None
                     
                     if (seasonEndYear and seasonEndYear != seasonBeginYear):
                         season = "%s-%s" % (seasonBeginYear, seasonEndYear)
@@ -226,7 +226,7 @@ def __infer_airdate_from_filename(fileName, food, meta):
                     foundAirDate = True
                     
                     (m, value) = bites[0]
-                    year = __expand_year(m.group("year"))
+                    year = expandYear(m.group("year"))
                     month = m.group("month")
                     day = m.group("day")
 
@@ -252,8 +252,8 @@ def __infer_season_from_filename(fileName, food, meta):
                     foundSeason = True
 
                     (m, value) = bites[0]
-                    seasonBeginYear = int(__expand_year(m.group("season_year_begin") or m.string))
-                    seasonEndYear = int(__expand_year(m.group("season_year_end"))) if m.group("season_year_end") else None
+                    seasonBeginYear = int(expandYear(m.group("season_year_begin") or m.string))
+                    seasonEndYear = int(expandYear(m.group("season_year_end"))) if m.group("season_year_end") else None
                     
                     if (seasonEndYear and seasonEndYear != seasonBeginYear):
                         season = "%s-%s" % (seasonBeginYear, seasonEndYear)

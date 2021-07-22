@@ -672,7 +672,7 @@ def sched_compute_season_hash(season):
 		p = re.compile(expr, re.IGNORECASE)
 		m = p.search(s)
 		if m:
-			return __expand_year(m.group("season_begin_year")).lower()
+			return expandYear(m.group("season_begin_year")).lower()
 	
 	return None
 

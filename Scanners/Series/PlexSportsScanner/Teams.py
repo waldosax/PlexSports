@@ -1,9 +1,6 @@
 # Python framework
 import sys, os, json, re
 
-# Plex native
-#import Utils
-
 # Local package
 from Constants import *
 from Matching import *
@@ -15,7 +12,12 @@ from Matching import __sort_by_len
 from Matching import __sort_by_len_key
 from Matching import __sort_by_len_value
 from Matching import Eat, Boil, Taste, Chew
+from StringUtils import *
 from Data import TheSportsDB, SportsDataIO
+from Data.CacheContainer import *
+
+CACHE_DURATION = 135
+CACHE_VERSION = "1"
 
 known_city_aliases = [
 	("NY", "New York"),
@@ -126,9 +128,15 @@ def __get_teams_from_cache(league):
 		else:
 			jsonTeams = []
 			cachedJson = __read_team_cache_file(league) #TODO: Try/Catch
-			jsonTeams = json.loads(cachedJson)
-			if (len(jsonTeams) == 0):
-				__refresh_team_cache(league)
+			cacheContainer = CacheContainer.Deserialize(cachedJson)
+
+			if not cacheContainer or cacheContainer.IsInvalid(CACHE_VERSION):
+				jsonTeams = __refresh_team_cache(league)
+			else:
+				jsonTeams = cacheContainer.Items
+
+			if not jsonTeams:
+				jsonTeams = __refresh_team_cache(league)
 			else:
 				teams = dict()
 				for jsonTeam in jsonTeams:
@@ -146,7 +154,7 @@ def __get_teams_from_cache(league):
 
 def __refresh_team_cache(league):
 	print("Refreshing %s teams cache ..." % league)
-	teams = __download_all_team_data(league)
+	teams = GetTeams(league, download=True)
 	cached_teams.setdefault(league, teams)
 	cached_teams[league] = teams
 	cwmt = __get_cities_with_multiple_teams(teams)
@@ -155,12 +163,13 @@ def __refresh_team_cache(league):
 	teamKeys = __get_teams_keys(teams, cwmt)
 	cached_team_keys.setdefault(league, teamKeys)
 	cached_team_keys[league] = teamKeys
-	jsonTeams = []
-	for teamInfo in teams.values():
-		jsonTeams.append(teamInfo.__dict__)
-	__write_team_cache_file(league, json.dumps(jsonTeams, sort_keys=True, indent=4))
+	jsonTeams = list(teams.values())
+	#for teamInfo in teams.values():
+	#    jsonTeams.append(teamInfo.__dict__)
+	cacheContainer = CacheContainer(jsonTeams, CacheType="%sTEAMS" % league, Version=CACHE_VERSION, Duration=CACHE_DURATION)
+	__write_team_cache_file(league, cacheContainer.Serialize())
 
-
+	return jsonTeams
 
 def __team_cache_has_teams(league):
 	if len(cached_teams) == 0:
@@ -197,6 +206,8 @@ def __write_team_cache_file(league, json):
 def __get_team_cache_file_path(league):
 	path = os.path.abspath(r"%s/%s%s/Teams.json" % (os.path.dirname(__file__), DATA_PATH_LEAGUES, league))
 	return path
+
+
 
 
 # New York, LA
@@ -254,7 +265,6 @@ def __get_teams_keys(teams, multi_team_city_keys):
 			keys.setdefault(abbrev.lower(), abbrev)
 
 	return keys
-
 
 
 

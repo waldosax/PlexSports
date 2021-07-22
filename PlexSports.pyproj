@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{f216b525-ee0a-4921-960d-102021d785a7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>debug-agent.py</StartupFile>
+    <StartupFile>debug-scanner.py</StartupFile>
     <SearchPath>Backups;Debug;Scanners\Series;Scanners\Series\PlexSportsScanner</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -502,6 +502,7 @@
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\__init__.py" />
     <Compile Include="python-tests.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Data\CacheContainer.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\GetResultFromNetwork.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\__init__.py">
       <SubType>Code</SubType>
@@ -529,6 +530,7 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\StringUtils.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Scanners\Series\PlexSportsScanner\TimeZoneUtils.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\__init__.py" />
     <Compile Include="UnitTests\AssertionException.py">
       <SubType>Code</SubType>

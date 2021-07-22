@@ -9,7 +9,7 @@ RE_UNICODE_CONTROL =  u'([\u0000-\u0008\u000b-\u000c\u000e-\u001f\ufffe-\uffff])
 						unichr(0xd800),unichr(0xdbff),unichr(0xdc00),unichr(0xdfff)
 					  )
 
-def __expand_year(year):
+def expandYear(year):
 	if not year:
 		return None
 
