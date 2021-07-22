@@ -483,6 +483,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Constants.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\CacheContainer.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\GetResultFromNetwork.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\SportsDataIO.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\TheSportsDB.py" />

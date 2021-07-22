@@ -1,3 +1,4 @@
+# Python framework
 import sys, os, json, re
 import datetime
 from pprint import pprint
@@ -8,6 +9,10 @@ from StringUtils import *
 from Matching import __strip_to_alphanumeric
 import Teams
 from Data import TheSportsDB, SportsDataIO
+from Data.CacheContainer import *
+
+CACHE_DURATION = 7
+CACHE_VERSION = "2"
 
 WEIGHT_SPORT = 1
 WEIGHT_LEAGUE = 5
@@ -116,8 +121,8 @@ def foo():
 		}
 
 	# Warm up cache
-	Teams.GetTeams(league)
 	GetSchedule(sport, league, "2020")
+	Teams.GetTeams(league)
 	Teams.GetTeams(LEAGUE_NFL)
 	GetSchedule(SPORT_FOOTBALL, LEAGUE_NFL, str(season))
 
@@ -418,11 +423,18 @@ def __get_schedule_from_cache(sport, league, season):
 		if not __schedule_cache_file_exists(sport, league, season):
 			__refresh_schedule_cache(sport, league, season)
 		else:
+
 			jsonEvents = []
 			cachedJson = __read_schedule_cache_file(sport, league, season) #TODO: Try/Catch
-			jsonEvents = json.loads(cachedJson)
-			if (len(jsonEvents) == 0):
-				__refresh_schedule_cache(sport, league, season)
+			cacheContainer = CacheContainer.Deserialize(cachedJson)
+
+			if not cacheContainer or cacheContainer.IsInvalid(CACHE_VERSION):
+				jsonEvents = __refresh_schedule_cache(sport, league, season)
+			else:
+				jsonEvents = cacheContainer.Items
+
+			if not jsonEvents:
+				jsonEvents = __refresh_schedule_cache(sport, league, season)
 			else:
 				cached_schedules.setdefault(sport, dict())
 				cached_schedules[sport].setdefault(league, dict())
@@ -430,9 +442,6 @@ def __get_schedule_from_cache(sport, league, season):
 				schedule = dict()
 				for jsonTeam in jsonEvents:
 					eventDict = dict(jsonTeam)
-					dateStr = eventDict["date"]
-					date = ParseIso8861Date(dateStr)
-					eventDict["date"] = date
 					ev = event(**eventDict)
 					hash = sched_compute_hash(ev)
 					subhash = sched_compute_time_hash(ev.date)
@@ -455,23 +464,15 @@ def __refresh_schedule_cache(sport, league, season):
 	jsonEvents = []
 	for daysEvents in schedule.values():
 		for event in daysEvents.values():
-			eventDict = dict(event.__dict__)
-			eventDict.pop("__key__", None)
-			for key in eventDict.keys()[0:]:
-				if not eventDict[key]:
-					eventDict.pop(key, None)
-			if "date" in eventDict.keys():
-				date = eventDict["date"]
-				dateStr = date.strftime("%Y-%m-%dT%H:%M:%S%z")
-				eventDict["date"] = dateStr
-			jsonEvents.append(eventDict)
-	__write_schedule_cache_file(sport, league, season, json.dumps(jsonEvents, sort_keys=True, indent=4))
+			jsonEvents.append(event)
+	cacheContainer = CacheContainer(jsonEvents, CacheType="%s%sSCHEDULE" % (league, season), Version=CACHE_VERSION, Duration=CACHE_DURATION)
+	__write_schedule_cache_file(sport, league, season, cacheContainer.Serialize())
 	
 	# Insert into the scan dict
 	__refresh_scan_dict(sport, league, season, schedule)
 	
 	print("Done refreshing %s %s schedule cache." % (league, season))
-
+	return jsonEvents
 
 
 def __schedule_cache_has_schedule(sport, league, season):
@@ -498,7 +499,7 @@ def __write_schedule_cache_file(sport, league, season, json):
 	print("Writing %s %s schedules cache to disk ..." % (league, season))
 	path = __get_schedule_cache_file_path(sport, league, season)
 	dir = os.path.dirname(path)
-	if os.path.exists(dir) == False:
+	if not os.path.exists(dir):
 		nodes = Utils.SplitPath(dir)
 		agg = None
 		for node in nodes:

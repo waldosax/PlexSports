@@ -1,9 +1,6 @@
 # Python framework
 import sys, os, json, re
 
-# Plex native
-import Utils
-
 # Local package
 from Constants import *
 from Matching import *
@@ -184,7 +181,7 @@ def __write_team_cache_file(league, json):
     print("Writing %s teams cache to disk ..." % league)
     path = __get_team_cache_file_path(league)
     dir = os.path.dirname(path)
-    if os.path.exists(dir) == False:
+    if not os.path.exists(dir):
         nodes = Utils.SplitPath(dir)
         agg = None
         for node in nodes:

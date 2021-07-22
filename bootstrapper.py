@@ -13,6 +13,7 @@ def BootstrapScanner():
 	# Dependencies: Anywhere I might resolve an import directive from
 	__add_to_sys_path("Backups\\Scanners.bundle\\Contents\\Resources\\Common")
 	Media = __import_module("Media")
+	Utils = __add_to_builtins(__import_module("Utils"))
 
 	# Import the actual module
 	__add_to_sys_path("Scanners\\Series")
@@ -31,6 +32,7 @@ def BootstrapAgent():
 	AudioCodec = __import_module("AudioCodec")
 	VideoCodec = __import_module("VideoCodec")
 	Container = __import_module("Container")
+	Utils = __add_to_builtins(__import_module("Utils"))
 	MetadataSearchResult = __import_module("MetadataSearchResult")
 
 	# Import the actual module
