@@ -693,6 +693,10 @@ def sched_compute_date_hash(eventDate):
 	if not isinstance(eventDate, (datetime.datetime, datetime.date)):
 		return None
 
+	if isinstance(eventDate, datetime.datetime):
+		if eventDate.tzinfo != None:
+			eventDate = eventDate.astimezone(tz=EasternTime)
+
 	return eventDate.strftime("%Y%m%d")
 
 def sched_compute_time_hash(eventDate):
@@ -701,6 +705,9 @@ def sched_compute_time_hash(eventDate):
 
 	if not isinstance(eventDate, (datetime.datetime, datetime.time)):
 		return None
+
+	if eventDate.tzinfo != None:
+		eventDate = eventDate.astimezone(tz=EasternTime)
 
 	return eventDate.strftime("%H")
 
