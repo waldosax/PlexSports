@@ -4,14 +4,7 @@ import sys, os, json, re
 # Local package
 from Constants import *
 from Matching import *
-from Matching import __expressions_from_literal
-from Matching import __index_of
 from Matching import __strip_to_alphanumeric
-from Matching import __strip_to_alphanumeric_and_at
-from Matching import __sort_by_len
-from Matching import __sort_by_len_key
-from Matching import __sort_by_len_value
-from Matching import Eat, Boil, Taste, Chew
 from StringUtils import *
 from Data import TheSportsDB, SportsDataIO
 from Data.CacheContainer import *

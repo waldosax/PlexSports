@@ -6,6 +6,9 @@ from pprint import pprint
 from Constants import *
 from StringUtils import *
 from Teams import *
+from Matching import __sort_by_len
+from Matching import __sort_by_len_key
+from Matching import __sort_by_len_value
 from . import Teams
 from . import Matching
 from . import MLB
@@ -46,7 +49,7 @@ def Infer(relPath, file, meta):
 
     sport = meta.get(METADATA_SPORT_KEY)
     if not sport or sport in supported_team_sports:
-        food = Teams.InferFromFileName(fileName, food, meta)
+        food = __infer_teams_from_filename(fileName, food, meta)
 
 
 def __infer_sport_from_folders(fileName, folders, meta):
@@ -287,4 +290,111 @@ def __infer_game_number_from_filename(fileName, food, meta):
                 if bites:
                     meta.setdefault(METADATA_GAME_NUMBER_KEY, ms[0].group("game_number"))
                     return chewed
+
+
+
+
+def __infer_teams_from_filename(fileName, food, meta):
+	league = meta.get(METADATA_LEAGUE_KEY)
+	teams = dict()
+	if league:
+		teams.setdefault(league, GetTeams(league))
+	else:
+		for league in known_leagues:
+			teams.setdefault(league, GetTeams(league))
+
+	(foundLeague, team1, team2, vs, chewed) = __find_teams(teams, food)
+	if vs == "@":   # TODO: fix why vs = coming back as None
+		if team1:
+			meta.setdefault(METADATA_AWAY_TEAM_KEY, team1.Key)
+		if team2:
+			meta.setdefault(METADATA_HOME_TEAM_KEY, team2.Key)
+	else:
+		if team1:
+			meta.setdefault(METADATA_HOME_TEAM_KEY, team1.Key)
+		if team2:
+			meta.setdefault(METADATA_AWAY_TEAM_KEY, team2.Key)
+	
+	if foundLeague:
+		(leagueName, sport) = known_leagues[foundLeague]
+		meta.setdefault(METADATA_SPORT_KEY, sport)
+		meta.setdefault(METADATA_LEAGUE_KEY, foundLeague)
+
+	return chewed
+
+def __find_teams(teams, food):
+	# A trie would be the right solution here, but I'm not doing all
+	#   that work when I'm just learning Python
+	
+	team1League = None
+	team1 = None
+	team2 = None
+	vs = None
+
+	if not food:
+		return (None, None, None, None, food)
+
+	origFood = food[0:] # Make a copy of food, just in case we need to reference the original
+
+	(boiled, grit) = Boil(food)
+	if not boiled:
+		return (None, None, None, None, food)
+
+	# (boiledIndex, foodIndex, boiledLength, nextFoodIndex)
+	
+	team1Chunk = None
+	team2Chunk = None
+	vsChunk = None
+
+	# Phillies| vs. |Red Sox| Game Highlights () _  Highlights
+	# 01234567| 89  |012 345| 6789 0123456789       0123456789
+	# 01234567|89012|3456789|012345678901234567890123456789012
+	# 8-------| 2-  |6------|                                 
+	# 8-------| 3-- |7------|                                 
+
+
+	for league in teams.keys():
+		scanKeys = sorted(cached_team_keys[league].items(), key=__sort_by_len_key, reverse=True)
+		if team1:
+			break
+		for (scanKey, key) in scanKeys:
+			team1Chunk = Taste(boiled, grit, scanKey, 0)
+			if team1Chunk:
+				team1 = teams[league][key]
+				team1League = league
+				break
+
+	if not team1:
+		return (team1League, team1, team2, vs, food)
+
+	if team1Chunk[CHUNK_NEXT_FOOD_INDEX] >= 0:
+		scanKeys = sorted(cached_team_keys[team1League].items(), key=__sort_by_len_key, reverse=True)
+		for (scanKey, key) in scanKeys:
+			team2Chunk = Taste(boiled, grit, scanKey, team1Chunk[CHUNK_BOILED_INDEX] + team1Chunk[CHUNK_BOILED_LENGTH])
+			if team2Chunk:
+				team2 = teams[league][key]
+				break
+
+	if team1 and team2:
+		btw = food[team1Chunk[CHUNK_NEXT_FOOD_INDEX]:team2Chunk[CHUNK_FOOD_INDEX]]
+		if btw:
+			for expr in versus_expressions:
+				m = re.search(expr, btw, re.IGNORECASE)
+				if m:
+					vs = m.string[m.start(): m.end()]   # "vs. " (0,3)
+					boiledIndex = team1Chunk[CHUNK_BOILED_INDEX] + team1Chunk[CHUNK_BOILED_LENGTH] + m.start()
+					foodIndex = grit[boiledIndex]
+					boiledLength = len(Boil(vs))
+					nextFoodIndex = grit[boiledIndex + boiledLength] if (boiledIndex + boiledLength) <len(grit) else -1
+
+					vsChunk = (boiledIndex, foodIndex, boiledLength, nextFoodIndex)
+					break
+
+
+	# TODO: munge if unrecognized teams, but vs. found 
+
+
+	food = Chew([team1Chunk, vsChunk, team2Chunk], grit, food)
+	return (team1League, team1, team2, vs, food)
+
 
