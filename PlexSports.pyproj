@@ -530,6 +530,7 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\RomanNumerals.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\StringUtils.py">
       <SubType>Code</SubType>
@@ -1689,6 +1690,8 @@
     <Content Include="Backups\WebClient.bundle\Contents\Resources\static\startup-iphone-portrait%402x.png" />
     <Content Include="Backups\WebClient.bundle\Contents\Resources\static\startup-iphone-portrait.png" />
     <Content Include="Backups\WebClient.bundle\Contents\Resources\static\startup-iphone5-portrait%402x.png" />
+    <Content Include="PlexSportsAgent.bundle\Contents\DefaultPrefs.json" />
+    <Content Include="PlexSportsAgent.bundle\Contents\info.plist" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include=".vscode\" />

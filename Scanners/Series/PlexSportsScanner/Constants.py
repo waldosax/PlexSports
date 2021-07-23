@@ -111,7 +111,6 @@ METADATA_GAME_NUMBER_KEY = "game number"
 
 
 
-
 DATA_PATH = r"Data/"
 DATA_PATH_LEAGUES = DATA_PATH + r"Leagues/"
 
