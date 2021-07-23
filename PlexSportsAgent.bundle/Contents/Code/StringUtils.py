@@ -32,9 +32,9 @@ def expandYear(year):
 def deunicode(s):
 	if not s:
 		return s
-	return str(s).decode('utf-8', 'ignore')
+	return str(s).decode('utf-8', 'ignore').encode('ascii')
 
-# Safely return Unicode.
+# Safely return vanilla ascii.
 def normalize(s):
 	if not s:
 		return s
@@ -56,4 +56,17 @@ def normalize(s):
 	if s:
 		s = re.sub(RE_UNICODE_CONTROL, '', s)
 
-	return deunicode(s)
+	# Decompose.
+	try: s = unicodedata.normalize('NFKC', s.decode('utf-8'))
+	except:
+		try: s = unicodedata.normalize('NFKC', s.decode(sys.getdefaultencoding()))
+		except:
+			try: s = unicodedata.normalize('NFKC', s.decode(sys.getfilesystemencoding()))
+			except:
+				try: s = unicodedata.normalize('NFKC', s.decode('ISO-8859-1'))
+				except:
+					try: s = unicodedata.normalize('NFKC', s)
+					except Exception, e:
+						pass
+
+	return s

@@ -48,7 +48,7 @@ class event:
 		self.week = kwargs.get("week")
 		self.title = deunicode(kwargs.get("title"))
 		self.altTitle = deunicode(kwargs.get("altTitle"))
-		self.description = deunicode(kwargs.get("description"))
+		self.description = kwargs.get("description")
 		self.homeTeam = deunicode(kwargs.get("homeTeam"))
 		self.awayTeam = deunicode(kwargs.get("awayTeam"))
 		# TODO: fields for non team-based sports, like Boxing
@@ -103,40 +103,28 @@ class event:
 	def __repr__(self):
 		return self.key
 
-def foo():
-	league = LEAGUE_MLB
-	season = 2021
-	(leagueName, sport) = known_leagues[league]
-
-	#sched = GetSchedule(sport, league, season)
-	meta = {
-		METADATA_SPORT_KEY: sport,
-		METADATA_LEAGUE_KEY: league,
-		METADATA_SEASON_KEY: season,
-		METADATA_SEASON_BEGIN_YEAR_KEY: season,
-		METADATA_SUBSEASON_INDICATOR_KEY: 0,
-		METADATA_AIRDATE_KEY: datetime.datetime(2021, 9, 3, 23, 10, tzinfo=tzoffset(None, 0)),
-		METADATA_HOME_TEAM_KEY: "MIA",
-		METADATA_AWAY_TEAM_KEY: "PHI"
-		}
-
-	# Warm up cache
-	GetSchedule(sport, league, "2020")
-	Teams.GetTeams(league)
-	Teams.GetTeams(LEAGUE_NFL)
-	GetSchedule(SPORT_FOOTBALL, LEAGUE_NFL, str(season))
-
-	print("Searching for this phils game ...")
-	results = Find(meta)
-	print("Found.")
-
-	pass
 
 def Find(meta):
 	results = []
 
+	sport = meta.get(METADATA_SPORT_KEY)
+	league = meta.get(METADATA_LEAGUE_KEY)
+	season = meta.get(METADATA_SEASON_BEGIN_YEAR_KEY)
+
+	# ensure minimally-viable
+	if not league in known_leagues.keys():
+		print("Not enough information for a minimally-viable match; Invalid League, '%s'." % league)
+		return results
+	(ln, sp) = known_leagues[league]
+	if sport and not sport == sp:
+		print("Not enough information for a minimally-viable match; Invalid Sport, '%s'." % sport)
+		return results
+	if not season:
+		print("Not enough information for a minimally-viable match; Invalid Season.")
+		return results
+
 	# Warm up cache if not already
-	GetSchedule(meta[METADATA_SPORT_KEY], meta[METADATA_LEAGUE_KEY], str(meta[METADATA_SEASON_BEGIN_YEAR_KEY]))
+	GetSchedule(sport, league, str(season))
 	
 	# Construct an expression
 	def construct_expression_fragment(key, molecule, value):
@@ -296,102 +284,50 @@ def __download_all_schedule_data(sport, league, season):
 
 	# Retrieve data from TheSportsDB.com
 	downloadedJson = TheSportsDB.__the_sports_db_download_schedule_for_league_and_season(league, season)
-	sportsDbSchedule = json.loads(downloadedJson)
-	for schedEvent in sportsDbSchedule["events"]:
-		homeTeamStripped = __strip_to_alphanumeric(schedEvent["strHomeTeam"])
-		awayTeamStripped = __strip_to_alphanumeric(schedEvent["strAwayTeam"])
-		homeTeamAbbrev = Teams.cached_team_keys[league][homeTeamStripped]
-		awayTeamAbbrev = Teams.cached_team_keys[league][awayTeamStripped]
-		
-		# TODO: Relate all date/times to UTC (currently presented as E[S|D]T (local))
-		date = None
-		if schedEvent.get("dateEventLocal") and schedEvent.get("strTimeLocal"):
-			# Relative to East Coast
-			# TODO: Account for Daylight Savings Time/Summer Time? What about Arizona?
-			date = datetime.datetime.strptime("%sT%s" % (schedEvent["dateEventLocal"], schedEvent["strTimeLocal"]), "%Y-%m-%dT%H:%M:%S")
-			date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
-		elif schedEvent.get("dateEvent") and schedEvent.get("strTime"):
-			# Zulu Time
-			date = datetime.datetime.strptime("%sT%s" % (schedEvent["dateEvent"], schedEvent["strTime"]), "%Y-%m-%dT%H:%M:%S")
-			date = date.replace(tzinfo=UTC)
-		elif schedEvent.get("strTimestamp"):
-			# Zulu Time
-			date = datetime.datetime.strptime(schedEvent["strTimestamp"], "%Y-%m-%dT%H:%M:%S")
-			date = date.replace(tzinfo=UTC)
-
-		kwargs = {
-			"sport": sport,
-			"league": league,
-			"season": season,
-			"date": date,
-			"TheSportsDBID": schedEvent["idEvent"],
-			"title": schedEvent["strEvent"],
-			"altTitle": schedEvent["strEventAlternate"],
-			"description": normalize(schedEvent["strDescriptionEN"]),
-			"homeTeam": homeTeamAbbrev,
-			"awayTeam": awayTeamAbbrev,
-			"network": schedEvent["strTVStation"],
-			"poster": schedEvent["strPoster"],
-			"fanArt": schedEvent["strFanart"],
-			"thumbnail": schedEvent["strThumb"],
-			"banner": schedEvent["strBanner"],
-			"preview": schedEvent["strVideo"]}
-		ev = event(**kwargs)
-
-		hash = sched_compute_hash(ev)
-		subhash = sched_compute_time_hash(ev.date)
-		#print("%s|%s" % (hash, subhash))
-		if not hash in sched.keys():
-			sched.setdefault(hash, {subhash:ev})
-		else:
-			evdict = sched[hash]
-			if (not subhash in evdict.keys()):
-				sched[hash].setdefault(subhash, ev)
-			else:
-				sched[hash][subhash].augment(**ev.__dict__)
-
-
-	# Augment/replace with data from SportsData.io
-	downloadedJsons = SportsDataIO.__sports_data_io_download_schedule_for_league_and_season(league, season)
-	for downloadedJson in downloadedJsons:
-		sportsDataIOSchedule = json.loads(downloadedJson)
-		for schedEvent in sportsDataIOSchedule:
-			homeTeamAbbrev = schedEvent["HomeTeam"]
-			awayTeamAbbrev = schedEvent["AwayTeam"]
-			if awayTeamAbbrev == "BYE":
-				continue
-			homeTeam = Teams.cached_teams[league][homeTeamAbbrev]
-			awayTeam = Teams.cached_teams[league][awayTeamAbbrev]
-
-			date = None
-			if schedEvent.get("Date"):
-				date = datetime.datetime.strptime(schedEvent["Date"], "%Y-%m-%dT%H:%M:%S")
-				date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
-			elif schedEvent.get("DateTime"):
-				date = datetime.datetime.strptime(schedEvent["DateTime"], "%Y-%m-%dT%H:%M:%S")
-				date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
-			elif schedEvent.get("Day"):
-				date = datetime.datetime.strptime(schedEvent["Day"], "%Y-%m-%dT%H:%M:%S")
-				date = date.replace(tzinfo=UTC)
 	
-			gameID = None
-			if schedEvent.get("GameKey"):
-				gameID = str(schedEvent["GameKey"])
-			if schedEvent.get("GameID"):
-				gameID = str(schedEvent["GameID"])
+	if downloadedJson:
+		try: sportsDbSchedule = json.loads(downloadedJson)
+		except ValueError: pass
+
+	if sportsDbSchedule and sportsDbSchedule["events"]:
+		for schedEvent in sportsDbSchedule["events"]:
+			homeTeamStripped = __strip_to_alphanumeric(deunicode(schedEvent["strHomeTeam"]))
+			awayTeamStripped = __strip_to_alphanumeric(deunicode(schedEvent["strAwayTeam"]))
+			homeTeamKey = Teams.cached_team_keys[league][homeTeamStripped]
+			awayTeamKey = Teams.cached_team_keys[league][awayTeamStripped]
+		
+			date = None
+			if schedEvent.get("dateEventLocal") and schedEvent.get("strTimeLocal"):
+				# Relative to East Coast
+				# TODO: Account for Daylight Savings Time/Summer Time? What about Arizona?
+				date = ParseISO8601Date("%sT%s" % (schedEvent["dateEventLocal"], schedEvent["strTimeLocal"]))
+				date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
+			elif schedEvent.get("dateEvent") and schedEvent.get("strTime"):
+				# Zulu Time
+				date = ParseISO8601Date("%sT%s" % (schedEvent["dateEvent"], schedEvent["strTime"]))
+				date = date.replace(tzinfo=UTC)
+			elif schedEvent.get("strTimestamp"):
+				# Zulu Time
+				date = ParseISO8601Date(schedEvent["strTimestamp"])
+				date = date.replace(tzinfo=UTC)
 
 			kwargs = {
 				"sport": sport,
 				"league": league,
 				"season": season,
 				"date": date,
-				"week": schedEvent.get("Week"),
-				"SportsDataIOID": gameID,
-				"title": "%s vs %s" % (homeTeam.FullName, awayTeam.FullName),
-				"altTitle": "%s @ %s" % (awayTeam.FullName, homeTeam.FullName),
-				"homeTeam": homeTeamAbbrev,
-				"awayTeam": awayTeamAbbrev,
-				"network": schedEvent.get("Channel")}
+				"TheSportsDBID": schedEvent["idEvent"],
+				"title": schedEvent["strEvent"],
+				"altTitle": schedEvent["strEventAlternate"],
+				"description": normalize(schedEvent["strDescriptionEN"]),
+				"homeTeam": homeTeamKey,
+				"awayTeam": awayTeamKey,
+				"network": deunicode(schedEvent["strTVStation"]),
+				"poster": deunicode(schedEvent["strPoster"]),
+				"fanArt": deunicode(schedEvent["strFanart"]),
+				"thumbnail": deunicode(schedEvent["strThumb"]),
+				"banner": deunicode(schedEvent["strBanner"]),
+				"preview": deunicode(schedEvent["strVideo"])}
 			ev = event(**kwargs)
 
 			hash = sched_compute_hash(ev)
@@ -402,9 +338,72 @@ def __download_all_schedule_data(sport, league, season):
 			else:
 				evdict = sched[hash]
 				if (not subhash in evdict.keys()):
-					evdict.setdefault(subhash, ev)
+					sched[hash].setdefault(subhash, ev)
 				else:
-					evdict[subhash].augment(**ev.__dict__)
+					sched[hash][subhash].augment(**ev.__dict__)
+
+
+	# Augment/replace with data from SportsData.io
+	downloadedJsons = SportsDataIO.__sports_data_io_download_schedule_for_league_and_season(league, season)
+	for downloadedJson in downloadedJsons:
+		if not downloadedJson: continue
+		try: sportsDataIOSchedule = json.loads(downloadedJson)
+		except ValueError: continue
+
+		# If sportsdata.io returns an unauthorized message, log and bail
+		if not isinstance(sportsDataIOSchedule, list) and "Code" in sportsDataIOSchedule.keys():
+			print("%s: %s" % (sportsDataIOSchedule["Code"], sportsDataIOSchedule["Description"]))
+		elif isinstance(sportsDataIOSchedule, list):
+			for schedEvent in sportsDataIOSchedule:
+				homeTeamKey = deunicode(schedEvent["HomeTeam"])
+				awayTeamKey = deunicode(schedEvent["AwayTeam"])
+				if awayTeamKey == "BYE":
+					continue
+				homeTeam = Teams.cached_teams[league][homeTeamKey]
+				awayTeam = Teams.cached_teams[league][awayTeamKey]
+
+				date = None
+				if schedEvent.get("Date"):
+					date = datetime.datetime.strptime(schedEvent["Date"], "%Y-%m-%dT%H:%M:%S")
+					date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
+				elif schedEvent.get("DateTime"):
+					date = datetime.datetime.strptime(schedEvent["DateTime"], "%Y-%m-%dT%H:%M:%S")
+					date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
+				elif schedEvent.get("Day"):
+					date = datetime.datetime.strptime(schedEvent["Day"], "%Y-%m-%dT%H:%M:%S")
+					date = date.replace(tzinfo=UTC)
+	
+				gameID = None
+				if schedEvent.get("GameKey"):
+					gameID = deunicode(schedEvent["GameKey"])
+				if schedEvent.get("GameID"):
+					gameID = deunicode(schedEvent["GameID"])
+
+				kwargs = {
+					"sport": sport,
+					"league": league,
+					"season": season,
+					"date": date,
+					"week": schedEvent.get("Week"),
+					"SportsDataIOID": gameID,
+					"title": "%s vs %s" % (homeTeam.FullName, awayTeam.FullName),
+					"altTitle": "%s @ %s" % (awayTeam.FullName, homeTeam.FullName),
+					"homeTeam": homeTeamKey,
+					"awayTeam": awayTeamKey,
+					"network": deunicode(schedEvent.get("Channel"))}
+				ev = event(**kwargs)
+
+				hash = sched_compute_hash(ev)
+				subhash = sched_compute_time_hash(ev.date)
+				#print("%s|%s" % (hash, subhash))
+				if not hash in sched.keys():
+					sched.setdefault(hash, {subhash:ev})
+				else:
+					evdict = sched[hash]
+					if (not subhash in evdict.keys()):
+						evdict.setdefault(subhash, ev)
+					else:
+						evdict[subhash].augment(**ev.__dict__)
 	
 	return sched
 

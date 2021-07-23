@@ -20,8 +20,24 @@ class PlexSportsAgent(Agent.TV_Shows):
     
     def search(self, results, media, lang, manual):
 
-        Schedules.foo()
+        meta = media.meta   # This is really the divining test. To see if meta persists from Scanner to Agent
+        pprint(meta)
+        internalSearchResults = Schedules.Find(meta)
+        for result in internalSearchResults:
+            results.Append(
+                MetadataSearchResult(
+                    id=result[1].key,
+                    name=result.league, #name=known_leagues[result[1].league][0]
+                    year=int(result[1].season),
+                    lang='en',
+                    score=result[0]
+                )
+            )
+
         pass
 
     def update(self, metadata, media, lang):
+
+
+
         pass
