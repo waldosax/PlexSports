@@ -90,7 +90,7 @@ class TeamInfo:
 		self.FullName = str(kwargs.get("FullName") or "")
 		self.City = str(kwargs.get("City") or "")
 		self.SportsDBID = str(kwargs.get("SportsDBID") or "")
-		self.SportsDataIOID = str(kwargs.get("SportsDataIO") or "")
+		self.SportsDataIOID = str(kwargs.get("SportsDataIOID") or "")
 
 
 def __add_or_override_team(teams, **kwargs):
@@ -110,7 +110,9 @@ def __add_or_override_team(teams, **kwargs):
 			team.SportsDBID = str(kwargs["SportsDBID"])
 		if (kwargs.get("SportsDataIOID")):
 			team.SportsDataIOID = str(kwargs["SportsDataIOID"])
-		teams[key] = team
+		#teams.pop(key, None)
+		#teams[key] = team
+		## TODO: Find out why not updating
 
 def GetTeams(league, download=False):
 	if (league in known_leagues.keys() == False):
