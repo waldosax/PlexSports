@@ -183,3 +183,5 @@ def InferSingleEventFromFileName(filename, food, meta):
                         meta.setdefault(METADATA_EVENT_INDICATOR_KEY, ind)
                         meta.setdefault(METADATA_EVENT_NAME_KEY, bites[0])
                         return chewed
+
+    return food

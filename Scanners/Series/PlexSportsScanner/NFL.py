@@ -207,3 +207,5 @@ def InferSingleEventFromFileName(filename, food, meta):
                         if "game_number" in ms[0].groupdict().keys():
                             meta.setdefault(METADATA_GAME_NUMBER_KEY, ms[0].group("game_number"))
                         return chewed
+
+    return food

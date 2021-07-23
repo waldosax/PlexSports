@@ -42,5 +42,5 @@ if __name__ == "__main__":
 	#				yt1s.com - Phillies vs Red Sox Game Highlights 7921  MLB Highlights.mp4
 
 
-	mediaList = localscanner.BeginScan(root)
+	mediaList = localscanner.BeginScanRecursive(root)
 	#pprint(mediaList)
