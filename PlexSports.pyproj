@@ -489,6 +489,7 @@
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\GetResultFromNetwork.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\SportsDataIO.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\TheSportsDB.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\UserAgent.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\__init__.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\TimeZoneUtils.py">
       <SubType>Code</SubType>
@@ -504,6 +505,9 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\CacheContainer.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\GetResultFromNetwork.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Data\UserAgent.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\__init__.py">
       <SubType>Code</SubType>
     </Compile>

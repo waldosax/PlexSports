@@ -1,4 +1,5 @@
 from Constants import *
+from UserAgent import *
 from Data.GetResultFromNetwork import *
 
 THE_SPORTS_DB_API_KEY = "1" # TODO: Read from settings file?
