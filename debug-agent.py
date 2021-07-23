@@ -17,8 +17,8 @@ if __name__ == "__main__":
 	argv1 = "F:\\Code\\Plex\\PlexSportsLibrary"
 
 	root = argv1
-	#mediaList = localscanner.BeginScanRecursive(root)
-	mediaList = localscanner.BeginScanFile(os.path.join(root, "Phillies vs. Red Sox Game Highlights (7_10_21) _ MLB Highlights.mp4"), root)
+	mediaList = localscanner.BeginScanRecursive(root)
+	#mediaList = localscanner.BeginScanFile(os.path.join(root, "Phillies vs. Red Sox Game Highlights (7_10_21) _ MLB Highlights.mp4"), root)
 	#pprint(mediaList)
 
 	PlexSportsAgent.Start()
