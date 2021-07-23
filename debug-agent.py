@@ -31,4 +31,3 @@ if __name__ == "__main__":
 			print("  No results found.")
 		else:
 			print("  Found %s result(s)." % len(results))
-			pprint(results)

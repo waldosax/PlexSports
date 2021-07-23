@@ -110,6 +110,7 @@ def Find(meta):
 	sport = meta.get(METADATA_SPORT_KEY)
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_BEGIN_YEAR_KEY)
+	airdate = meta.get(METADATA_AIRDATE_KEY)
 
 	# ensure minimally-viable
 	if not league in known_leagues.keys():
@@ -119,9 +120,15 @@ def Find(meta):
 	if sport and not sport == sp:
 		print("Not enough information for a minimally-viable match; Invalid Sport, '%s'." % sport)
 		return results
-	if not season:
-		print("Not enough information for a minimally-viable match; Invalid Season.")
+	if not season and not airdate:
+		print("Not enough information for a minimally-viable match; Invalid Season/Date.")
 		return results
+	elif not season and airdate:
+		# TODO: For now, let's assume that season is the same year as airdate.
+		#	We know for a fact it's not when season bleeds over a year boundary.
+		#	Ex: Superbowl is in February
+		season = airdate.year
+
 
 	# Warm up cache if not already
 	GetSchedule(sport, league, str(season))
@@ -165,25 +172,13 @@ def Find(meta):
 		if "team1" in gd.keys() and m.group("team1") and "team2" in gd.keys() and m.group("team2"):
 			weight += WEIGHT_VS
 
-		#required_match_keys = [
-		#	["league", "season", "date", "team1", "team2"],
-		#	["league", "season", "date", "team1"],
-		#	["league", "season", "subseason", "week", "team1", "team2", "game"],
-		#	["league", "season", "subseason", "week", "team1", "team2"],
-		#	["league", "season", "subseason", "week", "team1"]
-		#	]
-		#has_any_required = False
-		#for required in required_match_keys:
-		#	has_all_required = True
-		#	for key in required:
-		#		has_all_required = has_all_required and (key in gd.keys() and not (m.group(key) or "") == "")
-		#	has_any_required = has_any_required or has_all_required
-		#if not has_any_required:
-		#	return -1
-
 		if flags & (FLAGS_LEAGUE | FLAGS_SEASON | FLAGS_EVENT_DATE | FLAGS_TEAM1 | FLAGS_TEAM2) == (FLAGS_LEAGUE | FLAGS_SEASON | FLAGS_EVENT_DATE | FLAGS_TEAM1 | FLAGS_TEAM2):
 			return weight
+		if flags & (FLAGS_LEAGUE | FLAGS_EVENT_DATE | FLAGS_TEAM1 | FLAGS_TEAM2) == (FLAGS_LEAGUE | FLAGS_EVENT_DATE | FLAGS_TEAM1 | FLAGS_TEAM2):
+			return weight
 		if flags & (FLAGS_LEAGUE | FLAGS_SEASON | FLAGS_EVENT_DATE | FLAGS_TEAM1) == (FLAGS_LEAGUE | FLAGS_SEASON | FLAGS_EVENT_DATE | FLAGS_TEAM1):
+			return weight
+		if flags & (FLAGS_LEAGUE | FLAGS_EVENT_DATE | FLAGS_TEAM1) == (FLAGS_LEAGUE | FLAGS_EVENT_DATE | FLAGS_TEAM1):
 			return weight
 		if flags & (FLAGS_LEAGUE | FLAGS_SEASON | FLAGS_SUBSEASON | FLAGS_WEEK | FLAGS_TEAM1 | FLAGS_TEAM2 | FLAGS_GAME) == (FLAGS_LEAGUE | FLAGS_SEASON | FLAGS_SUBSEASON | FLAGS_WEEK | FLAGS_TEAM1 | FLAGS_TEAM2 | FLAGS_GAME):
 			return weight
@@ -200,47 +195,63 @@ def Find(meta):
 
 	def filter(results):
 		filtered = []
-		maxes = dict()	# dict<guid, maxweight>
-		events = dict()	# dict<guid, event>
+		maxes = dict()	# dict<eventKey, (maxweight, howItMatched)>
+		events = dict()	# dict<eventKey, event>
 
-		for (weight, result, guid) in results:
+		for (weight, result, howItMatched) in results:
 			for ev in result:
-				key = guid
+				key = ev.key
 				if not key in events.keys():
 					events.setdefault(key, ev)
 				if not key in maxes.keys():
-					maxes.setdefault(key, weight)
+					maxes.setdefault(key, (weight, howItMatched))
 				else:
-					maxweight = maxes[key]
+					maxweight = maxes[key][0]
 					if weight > maxweight:
-						maxes[key] = weight
+						maxes[key] = (weight, howItMatched)
 
 		for key in maxes.keys():
-			maxweight = maxes[key]
+			maxweight = maxes[key][0]
 			ev = events[key]
-			filtered.append((maxweight, ev, key))
+			filtered.append((maxweight, ev, maxes[key][1]))
 
 		filtered.sort(reverse=True, key=results_sort_key)
 		return filtered
 
 	molecules = []
+	atoms = []
 	molecules.append(construct_expression_fragment("sport", "sp", meta[METADATA_SPORT_KEY]))
 	molecules.append(construct_expression_fragment("league", "lg", meta[METADATA_LEAGUE_KEY]))
 	if meta.get(METADATA_SEASON_BEGIN_YEAR_KEY):
-		molecules.append(construct_expression_fragment("season", "s", meta[METADATA_SEASON_BEGIN_YEAR_KEY]))
+		atom = meta[METADATA_SEASON_BEGIN_YEAR_KEY]
+		atoms.append("s:%s" % atom)
+		molecules.append(construct_expression_fragment("season", "s", atom))
 	if meta.get(METADATA_SUBSEASON_INDICATOR_KEY):
-		molecules.append(construct_expression_fragment("subseason", "ss", meta[METADATA_SUBSEASON_INDICATOR_KEY]))
+		atom = meta[METADATA_SUBSEASON_INDICATOR_KEY]
+		atoms.append("ss:%s" % atom)
+		molecules.append(construct_expression_fragment("subseason", "ss", atom))
 	if meta.get(METADATA_WEEK_KEY):
-		molecules.append(construct_expression_fragment("week", "wk", meta[METADATA_WEEK_KEY]))
+		atom = meta[METADATA_WEEK_KEY] # TODO: Convert to integer?
+		atoms.append("wk:%s" % atom)
+		molecules.append(construct_expression_fragment("week", "wk",atom))
 	if meta.get(METADATA_AIRDATE_KEY):
-		molecules.append(construct_expression_fragment("date", "dt", sched_compute_date_hash(meta[METADATA_AIRDATE_KEY])))
+		atom = sched_compute_date_hash(meta[METADATA_AIRDATE_KEY])
+		atoms.append("dt:%s" % atom)
+		molecules.append(construct_expression_fragment("date", "dt", atom))
 	if meta.get(METADATA_HOME_TEAM_KEY):
-		molecules.append(construct_expression_fragment("team1", "tm", meta[METADATA_HOME_TEAM_KEY]))
+		atom = meta[METADATA_HOME_TEAM_KEY]
+		atoms.append("tm:%s" % atom)
+		molecules.append(construct_expression_fragment("team1", "tm", atom))
 	if meta.get(METADATA_AWAY_TEAM_KEY):
-		molecules.append(construct_expression_fragment("team2", "tm", meta[METADATA_AWAY_TEAM_KEY]))
+		atom = meta[METADATA_AWAY_TEAM_KEY]
+		atoms.append("tm:%s" % atom)
+		molecules.append(construct_expression_fragment("team2", "tm", atom))
 	if meta.get(METADATA_GAME_NUMBER_KEY):
-		molecules.append(construct_expression_fragment("game", "g", meta[METADATA_GAME_NUMBER_KEY]))
+		atom = meta[METADATA_GAME_NUMBER_KEY] # TODO: Convert to integer?
+		atoms.append("g:%s" % atom)
+		molecules.append(construct_expression_fragment("game", "g", atom))
 
+	print("|".join(atoms))
 	expr = "".join(molecules)
 
 	for scanKey in event_scan.keys():
@@ -679,7 +690,7 @@ def sched_compute_date_hash(eventDate):
 	if not eventDate:
 		return None
 
-	if not isinstance(eventDate, datetime.datetime):
+	if not isinstance(eventDate, (datetime.datetime, datetime.date)):
 		return None
 
 	return eventDate.strftime("%Y%m%d")
@@ -688,7 +699,7 @@ def sched_compute_time_hash(eventDate):
 	if not eventDate:
 		return None
 
-	if not isinstance(eventDate, datetime.datetime):
+	if not isinstance(eventDate, (datetime.datetime, datetime.time)):
 		return None
 
 	return eventDate.strftime("%H")

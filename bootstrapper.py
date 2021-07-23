@@ -33,7 +33,8 @@ def BootstrapAgent():
 	VideoCodec = __import_module("VideoCodec")
 	Container = __import_module("Container")
 	Utils = __add_to_builtins(__import_module("Utils"))
-	MetadataSearchResult = __import_module("MetadataSearchResult")
+	MetadataSearchResult = __import__("MetadataSearchResult")
+	__add_to_builtins(MetadataSearchResult.MetadataSearchResult)
 
 	# Import the actual module
 	#__add_to_sys_path("PlexSportsAgent.bundle/Contents/Libraries/Shared")
