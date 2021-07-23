@@ -66,7 +66,8 @@ defunct_teams = {	#[League][RetroKey](City, Name, ThenAbbrev, NowAbbrev)
 		"~QUE": ("Quebec", "Nordiques", "QUE", "COL"), # TODO: Strip diacritics
 		"~WIN": ("Winnipeg", "Jets", "WIN", "ARI"),
 		"~HFD": ("Hartford", "Whalers", "HFD", "CAR"),
-		"~ATL": ("Atlanta", "Thrashers", "ATL", "WP")
+		"~ATL": ("Atlanta", "Thrashers", "ATL", "WP"),
+		"~ANA": ("Anaheim", "Mighty Ducks", "ANA", "ANA")
 		}
 	}
 
@@ -82,6 +83,8 @@ class TeamInfo:
 		self.Name = str(kwargs.get("Name") or "")
 		self.FullName = str(kwargs.get("FullName") or "")
 		self.City = str(kwargs.get("City") or "")
+		self.Conference = str(kwargs.get("Conference") or "")
+		self.Division = str(kwargs.get("Division") or "")
 		self.SportsDBID = str(kwargs.get("SportsDBID") or "")
 		self.SportsDataIOID = str(kwargs.get("SportsDataIOID") or "")
 
@@ -99,6 +102,10 @@ def __add_or_override_team(teams, **kwargs):
 			team.FullName = str(kwargs["FullName"])
 		if (kwargs.get("City")):
 			team.City = str(kwargs["City"])
+		if (kwargs.get("Conference")):
+			team.Conference = str(kwargs["Conference"])
+		if (kwargs.get("Division")):
+			team.Division = str(kwargs["Division"])
 		if (kwargs.get("SportsDBID")):
 			team.SportsDBID = str(kwargs["SportsDBID"])
 		if (kwargs.get("SportsDataIOID")):
@@ -163,6 +170,8 @@ def __download_all_team_data(league):
 				"Name": deunicode(team["Name"]),
 				"FullName": deunicode(team.get("FullName")) or "%s %s" % (deunicode(team["City"]), deunicode(team["Name"])),
 				"City": deunicode(team["City"]),
+				"Conference": deunicode(team.get("Conference") or team.get("League")),
+				"Division": deunicode(team["Division"]),
 				"SportsDataIOID": str(team["TeamID"])
 				}
 			__add_or_override_team(teams, **kwargs)
