@@ -540,10 +540,23 @@
     <Compile Include="Shared\Constants.py" />
     <Compile Include="Shared\Data\CacheContainer.py" />
     <Compile Include="Shared\Data\GetResultFromNetwork.py" />
+    <Compile Include="Shared\Data\NFL\ProFootballReference.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Data\NFL\__init__.py" />
     <Compile Include="Shared\Data\SportsDataIO.py" />
     <Compile Include="Shared\Data\TheSportsDB.py" />
     <Compile Include="Shared\Data\__init__.py" />
     <Compile Include="Shared\Matching.py" />
+    <Compile Include="Shared\Serialization.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\PathUtils.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\PluginSupport.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Shared\Schedules.py" />
     <Compile Include="Shared\StringUtils.py" />
     <Compile Include="Shared\Teams.py" />
@@ -1881,6 +1894,7 @@
     <Folder Include="PlexSportsAgent.bundle\Contents\Code\Data\" />
     <Folder Include="Shared\" />
     <Folder Include="Shared\Data\" />
+    <Folder Include="Shared\Data\NFL\" />
     <Folder Include="UnitTests\" />
     <Folder Include="PlexSportsAgent.bundle\" />
     <Folder Include="PlexSportsAgent.bundle\Contents\" />

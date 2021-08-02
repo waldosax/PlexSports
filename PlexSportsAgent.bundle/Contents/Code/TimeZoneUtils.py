@@ -8,11 +8,21 @@ EasternTime = gettz("America/New_York")
 
 
 
+
 def ParseISO8601Date(dateStr):
 	return parse(dateStr)
 
+def ParseISO8601Time(dateStr):
+	return parse(dateStr).time()
+
 def FormatISO8601(dt):
-	return dt.strftime("%Y-%m-%dT%H:%M:%S%z")
+	return dt.isoformat()
+
+def FormatISO8601(dt):
+	return dt.strftime("%H:%M:%S%z")
 
 def IsISO8601Date(s):
-	return not re.match("\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:[+\-]\d{2,4})?", s) == None
+	return not re.match("^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:[+\-]\d{2,4})?$", s) == None
+
+def IsISO8601Time(s):
+	return not re.match("^\d{2}:\d{2}:\d{2}(?:[+\-]\d{2,4})?$", s) == None

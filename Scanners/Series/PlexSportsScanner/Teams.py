@@ -8,6 +8,7 @@ from Matching import __strip_to_alphanumeric
 from StringUtils import *
 from Data import TheSportsDB, SportsDataIO
 from Data.CacheContainer import *
+from Data.NFL.ProFootballReference import ProFootballReference
 
 CACHE_DURATION = 135
 CACHE_VERSION = "1"
