@@ -5,6 +5,9 @@ import sys, os, json, re
 from Constants import *
 from Matching import *
 from Matching import __strip_to_alphanumeric
+from PathUtils import *
+from PluginSupport import *
+from Serialization import *
 from StringUtils import *
 from Data import TheSportsDB, SportsDataIO
 from Data.CacheContainer import *
@@ -267,19 +270,15 @@ def __write_team_cache_file(league, json):
 	print("Writing %s teams cache to disk ..." % league)
 	path = __get_team_cache_file_path(league)
 	dir = os.path.dirname(path)
-	if not os.path.exists(dir):
-		nodes = Utils.SplitPath(dir)
-		agg = None
-		for node in nodes:
-			agg = os.path.join(agg, node) if agg else node
-			if os.path.exists(agg) == False:
-				os.mkdir(agg)
+	EnsureDirectory(dir)
 	f = open(path, "w")
 	f.write(json)
 	f.close()
 
+
+TEAMS_FILE_NAME = "Teams.json"
 def __get_team_cache_file_path(league):
-	path = os.path.abspath(r"%s/%s%s/Teams.json" % (os.path.dirname(__file__), DATA_PATH_LEAGUES, league))
+	path = os.path.join(GetDataPathForLeague(league), TEAMS_FILE_NAME)
 	return path
 
 

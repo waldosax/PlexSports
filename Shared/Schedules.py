@@ -4,10 +4,13 @@ import datetime
 from pprint import pprint
 
 from Constants import *
-from TimeZoneUtils import *
-from StringUtils import *
 from Matching import __strip_to_alphanumeric
+from PathUtils import *
+from PluginSupport import *
+from Serialization import *
+from StringUtils import *
 import Teams
+from TimeZoneUtils import *
 from Data import TheSportsDB, SportsDataIO
 from Data.CacheContainer import *
 
@@ -509,20 +512,15 @@ def __write_schedule_cache_file(sport, league, season, json):
 	print("Writing %s %s schedules cache to disk ..." % (league, season))
 	path = __get_schedule_cache_file_path(sport, league, season)
 	dir = os.path.dirname(path)
-	if not os.path.exists(dir):
-		nodes = Utils.SplitPath(dir)
-		agg = None
-		for node in nodes:
-			agg = os.path.join(agg, node) if agg else node
-			if os.path.exists(agg) == False:
-				os.mkdir(agg)
+	EnsureDirectory(path)
 	f = open(path, "w")
 	f.write(json)
 	f.close()
 
+SCHEDULE_FILE_NAME = "%s-Schedule.json"
 def __get_schedule_cache_file_path(sport, league, season):
 	# TODO: Modify filename when non-seasonal sport, like Boxing
-	path = os.path.abspath(r"%s/%s%s/%s-Schedule.json" % (os.path.dirname(__file__), DATA_PATH_LEAGUES, league, season))
+	path = os.path.join(GetDataPathForLeague(league), SCHEDULE_FILE_NAME) % season
 	return path
 
 
