@@ -137,6 +137,7 @@ mlb_event_expressions = [
 	(__expressions_from_literal("HOF Game"), MLB_EVENT_FLAG_HALL_OF_FAME),
 	(["HOF"], MLB_EVENT_FLAG_HALL_OF_FAME),
 	(__expressions_from_literal("Home Run Derby"), MLB_EVENT_FLAG_HOME_RUN_DERBY),
+	([r"All%sStar%sGame" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR)], MLB_EVENT_FLAG_ALL_STAR_GAME),
 	(__expressions_from_literal("All Star Game"), MLB_EVENT_FLAG_ALL_STAR_GAME),
 	(__expressions_from_literal("All-Star Game"), MLB_EVENT_FLAG_ALL_STAR_GAME)
 	]

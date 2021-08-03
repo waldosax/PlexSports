@@ -71,9 +71,12 @@ NBA_EVENT_FLAG_SKILLS_CHALLENGE = 4
 # Ordered by more specific to less
 nba_event_expressions = [
 	(__expressions_from_literal("All Star Game"), NBA_EVENT_FLAG_ALL_STAR_GAME),
+	([r"All%sStar%sGame" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR)], NBA_EVENT_FLAG_ALL_STAR_GAME),
 	(__expressions_from_literal("All-Star Game"), NBA_EVENT_FLAG_ALL_STAR_GAME),
 	(__expressions_from_literal("3 Point Shootout"), NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
 	(__expressions_from_literal("3 Point Competition"), NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
+	([r"3%sPoint%sShootout" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR)], NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
+	([r"3%sPoint%sCompetition" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR)], NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
 	(__expressions_from_literal("Slam Dunk Competition"), NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION),
 	(__expressions_from_literal("Slam Dunk Contest"), NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION),
 	(__expressions_from_literal("AT&T Slam Dunk"), NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION),
@@ -311,7 +314,7 @@ def InferSingleEventFromFileName(fileName, food, meta):
 
 					eventName = ""
 					if ind == NBA_EVENT_FLAG_ALL_STAR_GAME: eventName = "All-Star Game"
-					elif ind == NBA_EVENT_FLAG_3_POINT_SHOOTOUT: eventName = "3 Point Shootout"
+					elif ind == NBA_EVENT_FLAG_3_POINT_SHOOTOUT: eventName = "3-Point Shootout"
 					elif ind == NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION: eventName = "Slam Dunk Competition"
 					elif ind == NBA_EVENT_FLAG_SKILLS_CHALLENGE: eventName = "Skills Challenge"
 					else: eventName = bites[0][1]

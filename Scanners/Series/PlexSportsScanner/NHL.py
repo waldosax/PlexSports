@@ -111,6 +111,7 @@ nhl_event_expressions = [
 	(__expressions_from_literal("HOF Game"), NHL_EVENT_FLAG_HALL_OF_FAME),
 	(["HOF"], NHL_EVENT_FLAG_HALL_OF_FAME),
 	(__expressions_from_literal("All Star Game"), NHL_EVENT_FLAG_ALL_STAR_GAME),
+	([r"All%sStar%sGame" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR)], NHL_EVENT_FLAG_ALL_STAR_GAME),
 	(__expressions_from_literal("All-Star Game"), NHL_EVENT_FLAG_ALL_STAR_GAME),
 	(__expressions_from_literal("Winter Classic"), NHL_EVENT_FLAG_WINTER_CLASSIC)
 	]
