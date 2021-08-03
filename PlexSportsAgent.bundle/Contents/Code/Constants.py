@@ -66,9 +66,9 @@ air_date_expressions = [
 
 
 versus_expressions = [
-  r"\b\@\b",
-  r"\bversus\b",
-  r"\bvs?(\.|\b)"
+  r"(?:^|\b)@(?:\b|$)",
+  r"(?:^|\b)versus(?:\b|$)",
+  r"(?:^|\b)vs?(?:\.|(?:\b|$))"
 ]
 
 
@@ -101,7 +101,7 @@ METADATA_DIVISION_KEY = "division"
 METADATA_WEEK_KEY = "week"
 METADATA_WEEK_NUMBER_KEY = "week number"
 METADATA_PLAYOFF_ROUND_KEY = "playoff round"
-METADATA_EVENT_INDICATOR_KEY = "event name"
+METADATA_EVENT_INDICATOR_KEY = "event"
 METADATA_EVENT_NAME_KEY = "event name"
 METADATA_AIRDATE_KEY = "air date"
 METADATA_HOME_TEAM_KEY = "home team"

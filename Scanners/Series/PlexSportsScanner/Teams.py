@@ -11,7 +11,7 @@ from Serialization import *
 from StringUtils import *
 from Data import TheSportsDB, SportsDataIO
 from Data.CacheContainer import *
-from Data.NFL.ProFootballReference import ProFootballReference
+from Data.NFL.ProFootballReference import *
 
 CACHE_DURATION = 135
 CACHE_VERSION = "1"
@@ -53,7 +53,7 @@ defunct_teams = {	#[League][RetroKey](City, Name, ThenAbbrev, NowAbbrev)
 		"~WAS": ("Washington", "Redskins", "WAS", "WAS")
 		},
 	LEAGUE_MLB: {
-		"~MTL": ("Montreal", "Expos", "MTL", "WSH")
+		"~MTL": ("Montreal", "Expos", "MTL", "WSH") #NOTEAM, Unknown Team, Retired, Minor League
 		},
 	LEAGUE_NBA: {
 		"~WAS": ("Washington", "Bullets", "WAS", "WAS"),
@@ -92,6 +92,8 @@ class TeamInfo:
 		self.SportsDBID = str(kwargs.get("SportsDBID") or "")
 		self.SportsDataIOID = str(kwargs.get("SportsDataIOID") or "")
 
+	def __repr__(self):
+		return self.FullName
 
 def __add_or_override_team(teams, **kwargs):
 	key = kwargs["Key"]

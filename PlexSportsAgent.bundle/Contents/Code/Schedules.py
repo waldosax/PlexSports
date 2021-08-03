@@ -453,9 +453,11 @@ def __get_schedule_from_cache(sport, league, season):
 				cached_schedules[sport].setdefault(league, dict())
 				cached_schedules[sport][league].setdefault(season, dict())
 				schedule = dict()
-				for jsonTeam in jsonEvents:
-					eventDict = dict(jsonTeam)
-					ev = event(**eventDict)
+				for jsonEvent in jsonEvents:
+					if isinstance(jsonEvent, event):
+						ev = jsonEvent
+					else:
+						ev = event(**jsonEvent)
 					hash = sched_compute_hash(ev)
 					subhash = sched_compute_time_hash(ev.date)
 

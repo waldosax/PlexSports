@@ -21,13 +21,13 @@ if __name__ == "__main__":
 	#mediaList = localscanner.BeginScanFile(os.path.join(root, "Phillies vs. Red Sox Game Highlights (7_10_21) _ MLB Highlights.mp4"), root)
 	#pprint(mediaList)
 
-	PlexSportsAgent.Start()
-	agent = PlexSportsAgent.PlexSportsAgent()
-	for media in mediaList:
-		results = []
-		print("Trying to find metadata for %s ..." % media.meta["path"])
-		agent.search(results, media, None, False)
-		if len(results) == 0:
-			print("  No results found.")
-		else:
-			print("  Found %s result(s)." % len(results))
+	#PlexSportsAgent.Start()
+	#agent = PlexSportsAgent.PlexSportsAgent()
+	#for media in mediaList:
+	#	results = []
+	#	print("Trying to find metadata for %s ..." % media.meta["path"])
+	#	agent.search(results, media, None, False)
+	#	if len(results) == 0:
+	#		print("  No results found.")
+	#	else:
+	#		print("  Found %s result(s)." % len(results))

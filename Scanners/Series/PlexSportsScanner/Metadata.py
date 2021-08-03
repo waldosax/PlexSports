@@ -39,10 +39,10 @@ def Infer(relPath, file, meta):
 	# Infer all we can from the file name
 	(food, ext) = os.path.splitext(fileName)
 	food = __infer_league_from_filename(fileName, food, meta)
-	food = __infer_game_number_from_filename(fileName, food, meta)
 	food = __infer_airdate_from_filename(fileName, food, meta)
 	food = __infer_season_from_filename(fileName, food, meta)
-
+	food = __infer_subseason_from_filename(fileName, food, meta)
+	food = __infer_game_number_from_filename(fileName, food, meta)
 
 	# Attempt to infer single events.
 	food = __infer_event_from_filename(fileName, food, meta)
@@ -185,99 +185,154 @@ def __infer_game_number_from_folders(filename, folders, meta):
 					break
 
 
+def __infer_subseason_from_filename(fileName, food, meta):
+	if not food: return food
+
+	league = meta.get(METADATA_LEAGUE_KEY)
+	season = meta.get(METADATA_SEASON_KEY)
+	if league and season:
+
+		# Test to see if filename contains subseason
+		if league == LEAGUE_NFL:
+			# We're calling week here first because it can exist at the season level,
+			#   or the preseason/regular season subfolder level.
+			food = NFL.InferWeekFromFileName(fileName, food, meta)
+			food = NFL.InferSubseasonFromFileName(fileName, food, meta)
+			# We're calling week here again because it can exist at the
+			#   preseason/regular season subfolder level.
+			food = NFL.InferWeekFromFileName(fileName, food, meta)
+			# We're calling Playoff round here first because values from postseason league could match prematurely on playoff round values
+			#   'AFC' could match when folder is 'AFC Championship'
+			food = NFL.InferPlayoffRoundFromFileName(fileName, food, meta)
+			food = NFL.InferPostseasonConferenceFromFileName(fileName, food, meta)
+			food = NFL.InferPlayoffRoundFromFileName(fileName, food, meta)
+		elif league == LEAGUE_MLB:
+			food = MLB.InferSubseasonFromFileName(fileName, food, meta)
+			food = MLB.InferSpringTrainingLeagueFromFileName(fileName, food, meta)
+			# We're calling Playoff round here first because values from postseason league could match prematurely on playoff round values
+			#   'American League' could match when folder is 'American League Division Series'
+			food = MLB.InferPlayoffRoundFromFileName(fileName, food, meta)
+			food = MLB.InferPostseasonLeagueFromFileName(fileName, food, meta)
+			food = MLB.InferPlayoffRoundFromFileName(fileName, food, meta)
+		elif league == LEAGUE_NBA:
+			food = NBA.InferSubseasonFromFileName(fileName, food, meta)
+			# We're calling Playoff round here first because values from postseason conference could match prematurely on playoff round values
+			#   'East' could match when folder is 'Eastern Conference Finals'
+			food = NBA.InferPlayoffRoundFromFileName(fileName, food, meta)
+			food = NBA.InferPostseasonConferenceFromFileName(fileName, food, meta)
+			food = NBA.InferPlayoffRoundFromFileName(fileName, food, meta)
+		elif league == LEAGUE_NHL:
+			food = NHL.InferSubseasonFromFileName(fileName, food, meta)
+			# We're calling Playoff round here first because values from postseason conference could match prematurely on playoff round values
+			#   'East' could match when folder is 'Eastern Conference Finals'
+			food = NHL.InferPlayoffRoundFromFileName(fileName, food, meta)
+			food = NHL.InferPostseasonConferenceFromFileName(fileName, food, meta)
+			food = NHL.InferPlayoffRoundFromFileName(fileName, food, meta)
+	
+	return food
+
 def __infer_event_from_filename(fileName, food, meta):
 	event = meta.get(METADATA_EVENT_INDICATOR_KEY)
 	if not event:
-		food = MLB.InferSingleEventFromFileName(fileName, food, meta)
-		food = NBA.InferSingleEventFromFileName(fileName, food, meta)
-		food = NFL.InferSingleEventFromFileName(fileName, food, meta)
-		food = NHL.InferSingleEventFromFileName(fileName, food, meta)
+		league = meta.get(METADATA_LEAGUE_KEY)
+		if league == LEAGUE_MLB: food = MLB.InferSingleEventFromFileName(fileName, food, meta)
+		if league == LEAGUE_NBA: food = NBA.InferSingleEventFromFileName(fileName, food, meta)
+		if league == LEAGUE_NFL: food = NFL.InferSingleEventFromFileName(fileName, food, meta)
+		if league == LEAGUE_NHL: food = NHL.InferSingleEventFromFileName(fileName, food, meta)
 	
 	return food
 
 def __infer_league_from_filename(fileName, food, meta):
-	if food:
-		foundLeague = False
+	if not food: return food
 
-		# Test to see if food contains known league
-		for (league, expr) in known_leagues_expressions:
-			if foundLeague == True:
+	foundLeague = False
+
+	# Test to see if food contains known league
+	for (league, expr) in known_leagues_expressions:
+		if foundLeague == True:
+			break
+		for pattern in [r"\b%s\b" % expr]:
+			(bites, chewed, ms) = Matching.Eat(food, pattern)
+			if bites:
+				foundLeague = True
+				(leagueName, sport) = known_leagues[league]
+
+				meta.setdefault(METADATA_SPORT_KEY, sport)
+				meta.setdefault(METADATA_LEAGUE_KEY, league)
+				food = chewed
 				break
-			for pattern in [r"\b%s\b" % expr]:
-				(bites, chewed, ms) = Matching.Eat(food, pattern)
-				if bites:
-					foundLeague = True
-					(leagueName, sport) = known_leagues[league]
-
-					meta.setdefault(METADATA_SPORT_KEY, sport)
-					meta.setdefault(METADATA_LEAGUE_KEY, league)
-					food = chewed
-					break
+	
 	return food
 
 def __infer_airdate_from_filename(fileName, food, meta):
-	if food:
-		foundAirDate = False
+	if not food: return food
 
-		# Test to see if food contains an air date
-		for expr in air_date_expressions:
-			if foundAirDate == True:
-				break
-			for pattern in [r"\b%s\b" % expr]:
-				(bites, chewed, ms) = Matching.Eat(food, pattern)
-				if bites:
-					foundAirDate = True
+	foundAirDate = False
+
+	# Test to see if food contains an air date
+	for expr in air_date_expressions:
+		if foundAirDate == True:
+			break
+		for pattern in [r"\b%s\b" % expr]:
+			(bites, chewed, ms) = Matching.Eat(food, pattern)
+			if bites:
+				foundAirDate = True
 					
-					(m, value) = bites[0]
-					year = expandYear(m.group("year"))
-					month = m.group("month")
-					day = m.group("day")
+				(m, value) = bites[0]
+				year = expandYear(m.group("year"))
+				month = m.group("month")
+				day = m.group("day")
 
-					if month and day:
-						airdate = datetime.date(int(year), int(month), int(day))
+				if month and day:
+					airdate = datetime.date(int(year), int(month), int(day))
 
-						meta.setdefault(METADATA_AIRDATE_KEY, airdate)
-						food = chewed
-						break
+					meta.setdefault(METADATA_AIRDATE_KEY, airdate)
+					food = chewed
+					break
+
 	return food
 
 def __infer_season_from_filename(fileName, food, meta):
-	if food:
-		foundSeason = False
+	if not food: return food
 
-		# Test to see if food contains season
-		for expr in season_expressions:
-			if foundSeason == True:
-				break
-			for pattern in [r"\b%s\b" % expr]:
-				(bites, chewed, ms) = Matching.Eat(food, pattern)
-				if bites:
-					foundSeason = True
+	foundSeason = False
 
-					(m, value) = bites[0]
-					seasonBeginYear = int(expandYear(m.group("season_year_begin") or m.string))
-					seasonEndYear = int(expandYear(m.group("season_year_end"))) if m.group("season_year_end") else None
+	# Test to see if food contains season
+	for expr in season_expressions:
+		if foundSeason == True:
+			break
+		for pattern in [r"\b%s\b" % expr]:
+			(bites, chewed, ms) = Matching.Eat(food, pattern)
+			if bites:
+				foundSeason = True
+
+				(m, value) = bites[0]
+				seasonBeginYear = int(expandYear(m.group("season_year_begin") or m.string))
+				seasonEndYear = int(expandYear(m.group("season_year_end"))) if m.group("season_year_end") else None
 					
-					if (seasonEndYear and seasonEndYear != seasonBeginYear):
-						season = "%s-%s" % (seasonBeginYear, seasonEndYear)
-					else:
-						season = str(seasonBeginYear)
+				if (seasonEndYear and seasonEndYear != seasonBeginYear):
+					season = "%s-%s" % (seasonBeginYear, seasonEndYear)
+				else:
+					season = str(seasonBeginYear)
 
-					meta.setdefault(METADATA_SEASON_KEY, season)
-					meta.setdefault(METADATA_SEASON_BEGIN_YEAR_KEY, seasonBeginYear)
-					meta.setdefault(METADATA_SEASON_END_YEAR_KEY, seasonEndYear)
-					food = chewed
-					break
+				meta.setdefault(METADATA_SEASON_KEY, season)
+				meta.setdefault(METADATA_SEASON_BEGIN_YEAR_KEY, seasonBeginYear)
+				meta.setdefault(METADATA_SEASON_END_YEAR_KEY, seasonEndYear)
+				food = chewed
+				break
+	
 	return food
 
 
 # Could be Game in a series, or game in a double-header
 # TODO: MLB schedule is a little more fluid. Games can be rescheduled. That's why double-headers exist.
 def __infer_game_number_from_filename(fileName, food, meta):
+	if not food: return food
+
 	sport = meta.get(METADATA_SPORT_KEY)
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
-	if food and (not sport or (sport and league and season and sport in supported_series_sports)):
+	if (not sport or (sport and league and season and sport in supported_series_sports)):
 		foundGameNumber = False
 
 		# Test to see if filename contains game number
@@ -295,6 +350,8 @@ def __infer_game_number_from_filename(fileName, food, meta):
 
 
 def __infer_teams_from_filename(fileName, food, meta):
+	if not food: return food
+
 	league = meta.get(METADATA_LEAGUE_KEY)
 	teams = dict()
 	if league:
@@ -303,8 +360,8 @@ def __infer_teams_from_filename(fileName, food, meta):
 		for league in known_leagues:
 			teams.setdefault(league, GetTeams(league))
 
-	(foundLeague, team1, team2, vs, chewed) = __find_teams(teams, food)
-	if vs == "@":   # TODO: fix why vs = coming back as None
+	(foundLeague, team1, team2, vs, chewed) = __find_teams(fileName, teams, food, meta)
+	if vs == "@":
 		if team1:
 			meta.setdefault(METADATA_AWAY_TEAM_KEY, team1.Key)
 		if team2:
@@ -322,17 +379,17 @@ def __infer_teams_from_filename(fileName, food, meta):
 
 	return chewed
 
-def __find_teams(teams, food):
+def __find_teams(fileName, teams, food, meta):
+	if not food:
+		return (None, None, None, None, food)
+
 	# A trie would be the right solution here, but I'm not doing all
 	#   that work when I'm just learning Python
 	
-	team1League = None
+	team1League = meta.get(METADATA_LEAGUE_KEY)
 	team1 = None
 	team2 = None
 	vs = None
-
-	if not food:
-		return (None, None, None, None, food)
 
 	origFood = food[0:] # Make a copy of food, just in case we need to reference the original
 
@@ -353,7 +410,14 @@ def __find_teams(teams, food):
 	# 8-------| 3-- |7------|                                 
 
 
-	for league in teams.keys():
+	# World.Series..10.19.1993.|Toronto.Blue.Jays|@|Philadelphia.Phillies|
+	# 01234 567890  12 34 5678 |9012345 6789 0123|4|567890123456 78901234|
+	# 0123456789012345678901234|56789012345678901|2|345678901234567890123|
+	#                          |15---------------|1|20-------------------|
+	#                          |17---------------|1|21-------------------|
+
+	leagues = [team1League] if team1League else teams.keys()
+	for league in leagues:
 		scanKeys = sorted(cached_team_keys[league].items(), key=__sort_by_len_key, reverse=True)
 		if team1:
 			break
@@ -367,27 +431,54 @@ def __find_teams(teams, food):
 	if not team1:
 		return (team1League, team1, team2, vs, food)
 
-	if team1Chunk[CHUNK_NEXT_FOOD_INDEX] >= 0:
-		scanKeys = sorted(cached_team_keys[team1League].items(), key=__sort_by_len_key, reverse=True)
-		for (scanKey, key) in scanKeys:
-			team2Chunk = Taste(boiled, grit, scanKey, team1Chunk[CHUNK_BOILED_INDEX] + team1Chunk[CHUNK_BOILED_LENGTH])
-			if team2Chunk:
-				team2 = teams[league][key]
-				break
+	def chunks_overlap(chunk1, chunk2):
+		chunk1Start = chunk1[CHUNK_BOILED_INDEX]
+		chunk1Length = chunk1[CHUNK_BOILED_LENGTH]
+		chunk2Start = chunk2[CHUNK_BOILED_INDEX]
+		chunk2Length = chunk2[CHUNK_BOILED_LENGTH]
+
+		if chunk2Start >= chunk1Start and chunk2Start < chunk1Start + chunk1Length:
+			return True
+		if chunk1Start >= chunk2Start and chunk1Start < chunk2Start + chunk2Length:
+			return True
+
+		return False
+
+	nextBoiledIndex = team1Chunk[CHUNK_NEXT_BOILED_INDEX]
+	if nextBoiledIndex < 0: nextBoiledIndex = 0
+	scanKeys = sorted(cached_team_keys[team1League].items(), key=__sort_by_len_key, reverse=True)
+	for (scanKey, key) in scanKeys:
+		team2Chunk = Taste(boiled, grit, scanKey, nextBoiledIndex)
+		if team2Chunk and not chunks_overlap(team1Chunk, team2Chunk):
+			team2 = teams[league][key]
+			break
 
 	if team1 and team2:
+		if team2Chunk[CHUNK_BOILED_INDEX] < team1Chunk[CHUNK_BOILED_INDEX]:
+			# Swap them so that teams are in the order they appear in food
+			tmpChunk = team1Chunk
+			tmpTeam = team1
+			team1Chunk = team2Chunk
+			team1 = team2
+			team2Chunk = tmpChunk
+			team2 = tmpTeam
+
+
 		btw = food[team1Chunk[CHUNK_NEXT_FOOD_INDEX]:team2Chunk[CHUNK_FOOD_INDEX]]
 		if btw:
 			for expr in versus_expressions:
 				m = re.search(expr, btw, re.IGNORECASE)
 				if m:
 					vs = m.string[m.start(): m.end()]   # "vs. " (0,3)
+
+					# Simulate a taste
 					boiledIndex = team1Chunk[CHUNK_BOILED_INDEX] + team1Chunk[CHUNK_BOILED_LENGTH] + m.start()
 					foodIndex = grit[boiledIndex]
-					boiledLength = len(Boil(vs))
-					nextFoodIndex = grit[boiledIndex + boiledLength] if (boiledIndex + boiledLength) <len(grit) else -1
+					boiledLength = len(vs)
+					nextBoiledIndex = boiledIndex + boiledLength if (boiledIndex + boiledLength) < len(btw) else -1
+					nextFoodIndex = grit[boiledIndex + boiledLength] if (boiledIndex + boiledLength) < len(grit) else -1
 
-					vsChunk = (boiledIndex, foodIndex, boiledLength, nextFoodIndex)
+					vsChunk = (boiledIndex, foodIndex, boiledLength, nextBoiledIndex, nextFoodIndex)
 					break
 
 

@@ -95,19 +95,20 @@ def Boil(food, charset=ALPHANUMERIC_CHARACTERS_AND_AT):
         return (food, [])
 
     boiled = ""
-    map = []
+    grit = [] # grit[index_in_boiled_string] = index_in_original_string
     for i in range(0, len(food)):
         c = food[i].lower()
         if __index_of(charset, c) >= 0:
             boiled += c
-            map.append(i)
-    return (boiled, map)
+            grit.append(i)
+    return (boiled, grit)
 
 
 CHUNK_BOILED_INDEX = 0
 CHUNK_FOOD_INDEX = 1
 CHUNK_BOILED_LENGTH = 2
-CHUNK_NEXT_FOOD_INDEX = 3
+CHUNK_NEXT_BOILED_INDEX = 3
+CHUNK_NEXT_FOOD_INDEX = 4
 
 
 def Taste(boiled, grit, search, startBoiledIndex=0):
@@ -116,9 +117,10 @@ def Taste(boiled, grit, search, startBoiledIndex=0):
     if (boiledIndex >= 0):
         foodIndex = grit[boiledIndex]
         boiledLength = len(search)
+        nextBoiledIndex = boiledIndex + boiledLength if (boiledIndex + boiledLength) < len(boiled) else -1
         nextFoodIndex = grit[boiledIndex + boiledLength] if (boiledIndex + boiledLength) < len(grit) else -1
 
-        chunk = (boiledIndex, foodIndex, boiledLength, nextFoodIndex)
+        chunk = (boiledIndex, foodIndex, boiledLength, nextBoiledIndex, nextFoodIndex)
         return chunk
     return None
 
@@ -129,51 +131,8 @@ def Chew(chunks, grit, food):
     foodIndex = 0
     for chunk in chunks:
         if chunk:
-            bites.append(food[foodIndex:grit[chunk[CHUNK_BOILED_INDEX]]])
+            bites.append(food[foodIndex:chunk[CHUNK_NEXT_FOOD_INDEX]])
             foodIndex = chunk[CHUNK_NEXT_FOOD_INDEX]
     bites.append(food[foodIndex:])
 
     return "".join(bites)
-
-#def __trim_chars(s, chars=[' ']):
-#    return __ltrim_chars(__rtrim_chars(s, chars), chars)
-
-#def __ltrim_chars(s, chars=[' ']):
-#    if not s:
-#        return s
-
-#    startIndex = 0
-#    current = 0
-#    while True:
-#        foundLeadingChar = False
-#        for c in chars:
-#            if foundLeadingChar:
-#                break
-#            if s[current:len(c)] == c:
-#                startIndex = current + len(c)
-#                current = startIndex
-#                foundLeadingChar = True
-#        if not foundLeadingChar:
-#            break
-
-#    retun s[startIndex:]
-
-#def __rtrim_chars(s, chars=[' ']):
-#    if not s:
-#        return s
-
-#    endPosition = len(s)
-#    current = len(s)
-#    while True:
-#        foundTrailingChar = False
-#        for c in chars:
-#            if foundTrailingChar:
-#                break
-#            if s[current-len(c)-1:current:] == c:
-#                endPosition = current - len(c)
-#                current = endPosition
-#                foundTrailingChar = True
-#        if not foundTrailingChar:
-#            break
-
-#    retun s[:endPosition]
