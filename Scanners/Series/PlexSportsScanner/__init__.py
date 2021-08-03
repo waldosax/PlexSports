@@ -140,12 +140,12 @@ def __synthesize_episode_title(meta):
         hasAirdate = True
 
     if meta.get(METADATA_SUBSEASON_INDICATOR_KEY):
+        ind = meta.get(METADATA_SUBSEASON_INDICATOR_KEY)
         if meta.get(METADATA_EVENT_INDICATOR_KEY): # Single-game, named events
             if title: title += " - "
-            title += metadata[METADATA_EVENT_NAME_KEY]
+            title += meta[METADATA_EVENT_NAME_KEY]
             hasPrefix = True
         else:
-            ind = meta.get(METADATA_SUBSEASON_INDICATOR_KEY)
             if ind == -1:
                 if title: title += " - "
                 title += "Preseason"
@@ -197,7 +197,7 @@ def __synthesize_episode_title(meta):
 
     if not hasGameIndicator and meta.get(METADATA_GAME_NUMBER_KEY):
         if title: title += ", "
-        title += "Game " + meta[METADATA_GAME_NUMBER_KEY]
+        title += "Game " + str(meta[METADATA_GAME_NUMBER_KEY])
         hasGameIndicator = True
 
     return title

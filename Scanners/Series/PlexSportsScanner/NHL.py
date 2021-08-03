@@ -120,7 +120,7 @@ nhl_event_expressions = [
 
 
 
-def InferSubseasonFromFolders(filename, folders, meta):
+def InferSubseasonFromFolders(fileName, folders, meta):
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
 	if folders and league and season:
@@ -161,9 +161,9 @@ def InferSubseasonFromFolders(filename, folders, meta):
 						break
 
 		if not foundSubseason:
-			InferPlayoffRoundFromFolders(filename, folders, meta)
+			InferPlayoffRoundFromFolders(fileName, folders, meta)
 
-def InferPostseasonConferenceFromFolders(filename, folders, meta):
+def InferPostseasonConferenceFromFolders(fileName, folders, meta):
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
 	ind = meta.get(METADATA_SUBSEASON_INDICATOR_KEY)
@@ -188,7 +188,7 @@ def InferPostseasonConferenceFromFolders(filename, folders, meta):
 						break
 
 
-def InferPlayoffRoundFromFolders(filename, folders, meta):
+def InferPlayoffRoundFromFolders(fileName, folders, meta):
 	playoffRound = meta.get(METADATA_PLAYOFF_ROUND_KEY)
 	if playoffRound:
 		pass
@@ -216,11 +216,11 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
 
 						eventName = ""
 						if round == 1:
-							eventName = "Round 1"
+							eventName = "Playoffs, Round 1"
 						elif round == 2:
-							eventName = "Round 2"
+							eventName = "Playoffs, Round 2"
 						elif round == 3:
-							eventName = "Round 3"
+							eventName = "Playoffs, Round 3"
 						elif round == 4:
 							eventName = "Stanley Cup Finals"
 						meta.setdefault(METADATA_EVENT_NAME_KEY, eventName)
@@ -229,7 +229,7 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
 						break
 
 
-def InferSubseasonFromFileName(filename, food, meta):
+def InferSubseasonFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_SUBSEASON_INDICATOR_KEY): return food
 
@@ -272,11 +272,11 @@ def InferSubseasonFromFileName(filename, food, meta):
 						break
 
 		if not foundSubseason:
-			food = InferPlayoffRoundFromFileName(filename, food, meta)
+			food = InferPlayoffRoundFromFileName(fileName, food, meta)
 	
 	return food
 
-def InferPlayoffRoundFromFileName(filename, food, meta):
+def InferPlayoffRoundFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_PLAYOFF_ROUND_KEY): return food
 	
@@ -303,11 +303,11 @@ def InferPlayoffRoundFromFileName(filename, food, meta):
 
 						eventName = ""
 						if round == 1:
-							eventName = "Round 1"
+							eventName = "Playoffs, Round 1"
 						elif round == 2:
-							eventName = "Round 2"
+							eventName = "Playoffs, Round 2"
 						elif round == 3:
-							eventName = "Round 3"
+							eventName = "Playoffs, Round 3"
 						elif round == 4:
 							eventName = "Stanley Cup Finals"
 						meta.setdefault(METADATA_EVENT_NAME_KEY, eventName)
@@ -316,7 +316,7 @@ def InferPlayoffRoundFromFileName(filename, food, meta):
 
 	return food
 
-def InferPostseasonConferenceFromFileName(filename, food, meta):
+def InferPostseasonConferenceFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_CONFERENCE_KEY): return food
 
@@ -344,10 +344,10 @@ def InferPostseasonConferenceFromFileName(filename, food, meta):
 	return food
 
 
-def InferSingleEventFromFileName(filename, food, meta):
+def InferSingleEventFromFileName(fileName, food, meta):
 	if not food: return food
 
-	# Test to see if filename contains a single event, like Winter Classic or All-Star Game
+	# Test to see if fileName contains a single event, like Winter Classic or All-Star Game
 	foundEvent = False
 	for (exprs, ind) in nhl_event_expressions:
 		if foundEvent == True:

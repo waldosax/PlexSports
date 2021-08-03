@@ -131,8 +131,9 @@ def Chew(chunks, grit, food):
     foodIndex = 0
     for chunk in chunks:
         if chunk:
-            bites.append(food[foodIndex:chunk[CHUNK_NEXT_FOOD_INDEX]])
+            bites.append(food[foodIndex:chunk[CHUNK_FOOD_INDEX]])
             foodIndex = chunk[CHUNK_NEXT_FOOD_INDEX]
-    bites.append(food[foodIndex:])
+            if foodIndex < 0: break
+    if foodIndex >= 0: bites.append(food[foodIndex:])
 
     return "".join(bites)

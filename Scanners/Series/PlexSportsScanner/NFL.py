@@ -32,8 +32,11 @@ NFL_SUBSEASON_PLAYOFFS = "Playoffs"
 NFL_SUBSEASON_REGULAR_SEASON = "Regular Season"
 
 nfl_superbowl_expressions = [
-	"Superbowl((?P<sp>%s)+(?P<game_number>(\d+)|([MDCLXVI]+))?)" % EXPRESSION_SEPARATOR,
-	"Super(?P<sp>%s)+bowl((?P=sp)+(?P<game_number>(\d+)|([MDCLXVI]+))?)" % EXPRESSION_SEPARATOR
+	"Super(?:%s)+bowl((?:%s)+(?P<game_number>(\d+)|([MDCLXVI]+))?)" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR),
+	"Superbowl((?:%s)+(?P<game_number>(\d+)|([MDCLXVI]+))?)" % EXPRESSION_SEPARATOR,
+	"Super(?P<sp>%s)+bowl((?P=sp)+(?P<game_number>(\d+)|([MDCLXVI]+))?)" % EXPRESSION_SEPARATOR,
+	"Superbowl((?:%s)+(?P<game_number>(\d+)|([MDCLXVI]+))?)" % EXPRESSION_SEPARATOR,
+	"Superbowl((?P<game_number>(\d+)|([MDCLXVI]+))?)"
 	]
 
 nfl_subseason_indicator_expressions = [
@@ -51,8 +54,11 @@ NFL_PLAYOFF_ROUND_SUPERBOWL = 4
 # (expressions, conference, round)
 # Ordered by more specific to less
 nfl_playoff_round_expressions = [
+	(__expressions_from_literal("%s Wild card Round" % NFL_CONFERENCE_AFC) + __expressions_from_literal("%s Wild card" % NFL_CONFERENCE_AFC), NFL_CONFERENCE_AFC, NFL_PLAYOFF_ROUND_WILDCARD),
+	(__expressions_from_literal("%s Wild card Round" % NFL_CONFERENCE_NFC) + __expressions_from_literal("%s Wild card" % NFL_CONFERENCE_NFC), NFL_CONFERENCE_NFC, NFL_PLAYOFF_ROUND_WILDCARD),
 	(__expressions_from_literal("%s Wildcard Round" % NFL_CONFERENCE_AFC) + __expressions_from_literal("%s Wildcard" % NFL_CONFERENCE_AFC), NFL_CONFERENCE_AFC, NFL_PLAYOFF_ROUND_WILDCARD),
 	(__expressions_from_literal("%s Wildcard Round" % NFL_CONFERENCE_NFC) + __expressions_from_literal("%s Wildcard" % NFL_CONFERENCE_NFC), NFL_CONFERENCE_NFC, NFL_PLAYOFF_ROUND_WILDCARD),
+	(__expressions_from_literal("Wild card Round") + __expressions_from_literal("Wild card"), None, NFL_PLAYOFF_ROUND_WILDCARD),
 	(__expressions_from_literal("Wildcard Round") + __expressions_from_literal("Wildcard"), None, NFL_PLAYOFF_ROUND_WILDCARD),
 	(__expressions_from_literal("%s Divisional Round" % NFL_CONFERENCE_AFC) + __expressions_from_literal("%s Division Playoffs" % NFL_CONFERENCE_AFC), NFL_CONFERENCE_AFC, NFL_PLAYOFF_ROUND_DIVISION),
 	(__expressions_from_literal("%s Divisional Round" % NFL_CONFERENCE_NFC) + __expressions_from_literal("%s Division Playoffs" % NFL_CONFERENCE_NFC), NFL_CONFERENCE_NFC, NFL_PLAYOFF_ROUND_DIVISION),
@@ -84,7 +90,9 @@ nfl_event_expressions = [
 
 
 
-def InferSubseasonFromFolders(filename, folders, meta):
+def InferSubseasonFromFolders(fileName, folders, meta):
+	if meta.get(METADATA_SUBSEASON_INDICATOR_KEY): return
+
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
 	if folders and league and season:
@@ -109,9 +117,11 @@ def InferSubseasonFromFolders(filename, folders, meta):
 						break
 
 		if not foundSubseason:
-			InferPlayoffRoundFromFolders(filename, folders, meta)
+			InferPlayoffRoundFromFolders(fileName, folders, meta)
 
-def InferWeekFromFolders(filename, folders, meta):
+def InferWeekFromFolders(fileName, folders, meta):
+	if meta.get(METADATA_WEEK_NUMBER_KEY): return
+
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
 	ind = meta.get(METADATA_SUBSEASON_INDICATOR_KEY)
@@ -134,7 +144,9 @@ def InferWeekFromFolders(filename, folders, meta):
 					break
 
 
-def InferPostseasonConferenceFromFolders(filename, folders, meta):
+def InferPostseasonConferenceFromFolders(fileName, folders, meta):
+	if meta.get(METADATA_CONFERENCE_KEY): return
+
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
 	ind = meta.get(METADATA_SUBSEASON_INDICATOR_KEY)
@@ -158,10 +170,9 @@ def InferPostseasonConferenceFromFolders(filename, folders, meta):
 						del(folders[0])
 						break
 
-def InferPlayoffRoundFromFolders(filename, folders, meta):
-	playoffRound = meta.get(METADATA_PLAYOFF_ROUND_KEY)
-	if playoffRound:
-		pass
+def InferPlayoffRoundFromFolders(fileName, folders, meta):
+	if meta.get(METADATA_PLAYOFF_ROUND_KEY): return
+
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
 	if folders and league and season:
@@ -182,10 +193,11 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
 
 						meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, NFL_SUBSEASON_FLAG_POSTSEASON)
 						meta.setdefault(METADATA_SUBSEASON_KEY, folder)
-						meta.setdefault(METADATA_CONFERENCE_KEY, conference)
+						if conference: meta.setdefault(METADATA_CONFERENCE_KEY, conference)
 						meta.setdefault(METADATA_PLAYOFF_ROUND_KEY, round)
 
 						eventName = ""
+						if not conference: conference = meta.get(METADATA_CONFERENCE_KEY)
 						if conference:
 							eventName += conference
 						if round == 1:
@@ -198,13 +210,20 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
 							if eventName: eventName += " "
 							eventName += "Conference" + (" Championship" if not conference else "Round")
 						elif round == 4:
-							eventName = folder
+							gameNumber = None
+							if "game_number" in m.groupdict().keys():
+								gameNumber = RomanNumerals.Parse(m.group("game_number"))
+								#meta.setdefault(METADATA_GAME_NUMBER_KEY, gameNumber)
+							eventName = "Superbowl"
+							if gameNumber: eventName += " " + RomanNumerals.Format(gameNumber)
+							meta.setdefault(METADATA_EVENT_INDICATOR_KEY, NFL_EVENT_FLAG_SUPERBOWL)
+						else: eventName = folder
 						meta.setdefault(METADATA_EVENT_NAME_KEY, eventName)
 						
 						del(folders[0])
 						break
 
-def InferSubseasonFromFileName(filename, food, meta):
+def InferSubseasonFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_SUBSEASON_INDICATOR_KEY): return food
 
@@ -226,15 +245,15 @@ def InferSubseasonFromFileName(filename, food, meta):
 						foundSubseason = True
 
 						meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, ind)
-						meta.setdefault(METADATA_SUBSEASON_KEY, folder)
+						meta.setdefault(METADATA_SUBSEASON_KEY, bites[0][1])
 						food = chewed
 						break
 
 		if not foundSubseason:
-			food = InferPlayoffRoundFromFileName(filename, food, meta)
+			food = InferPlayoffRoundFromFileName(fileName, food, meta)
 	return food
 
-def InferWeekFromFileName(filename, food, meta):
+def InferWeekFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_WEEK_NUMBER_KEY): return food
 
@@ -258,7 +277,7 @@ def InferWeekFromFileName(filename, food, meta):
 					return chewed
 	return food
 
-def InferPostseasonConferenceFromFileName(filename, food, meta):
+def InferPostseasonConferenceFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_CONFERENCE_KEY) : return food
 
@@ -284,7 +303,7 @@ def InferPostseasonConferenceFromFileName(filename, food, meta):
 						return chewed
 	return food
 
-def InferPlayoffRoundFromFileName(filename, food, meta):
+def InferPlayoffRoundFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_PLAYOFF_ROUND_KEY) : return food
 	
@@ -307,10 +326,11 @@ def InferPlayoffRoundFromFileName(filename, food, meta):
 
 						meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, NFL_SUBSEASON_FLAG_POSTSEASON)
 						meta.setdefault(METADATA_SUBSEASON_KEY, bites[0][1])
-						meta.setdefault(METADATA_CONFERENCE_KEY, conference)
+						if conference: meta.setdefault(METADATA_CONFERENCE_KEY, conference)
 						meta.setdefault(METADATA_PLAYOFF_ROUND_KEY, round)
 
 						eventName = ""
+						if not conference: conference = meta.get(METADATA_CONFERENCE_KEY)
 						if conference:
 							eventName += conference
 						if round == 1:
@@ -323,7 +343,14 @@ def InferPlayoffRoundFromFileName(filename, food, meta):
 							if eventName: eventName += " "
 							eventName += "Conference" + (" Championship" if not conference else "Round")
 						elif round == 4:
-							eventName = folder
+							gameNumber = None
+							if "game_number" in ms[0].groupdict().keys():
+								gameNumber = RomanNumerals.Parse(ms[0].group("game_number"))
+								#meta.setdefault(METADATA_GAME_NUMBER_KEY, gameNumber)
+							eventName = "Superbowl"
+							if gameNumber: eventName += " " + RomanNumerals.Format(gameNumber)
+							meta.setdefault(METADATA_EVENT_INDICATOR_KEY, NFL_EVENT_FLAG_SUPERBOWL)
+						else: eventName = bites[0][1]
 						meta.setdefault(METADATA_EVENT_NAME_KEY, eventName)
 
 						return chewed
@@ -331,11 +358,11 @@ def InferPlayoffRoundFromFileName(filename, food, meta):
 	return food
 
 
-def InferSingleEventFromFileName(filename, food, meta):
+def InferSingleEventFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_EVENT_INDICATOR_KEY) : return food
 
-	# Test to see if filename contains a single event, like Super Bowl, or Pro Bowl
+	# Test to see if fileName contains a single event, like Super Bowl, or Pro Bowl
 	foundEvent = False
 	for (exprs, ind) in nfl_event_expressions:
 		if foundEvent == True:
@@ -348,9 +375,20 @@ def InferSingleEventFromFileName(filename, food, meta):
 					meta.setdefault(METADATA_SPORT_KEY, SPORT_FOOTBALL)
 					meta.setdefault(METADATA_LEAGUE_KEY, LEAGUE_NFL)
 					meta.setdefault(METADATA_EVENT_INDICATOR_KEY, ind)
-					meta.setdefault(METADATA_EVENT_NAME_KEY, bites[0][1])
-					if "game_number" in ms[0].groupdict().keys():
-						meta.setdefault(METADATA_GAME_NUMBER_KEY, ms[0].group("game_number"))
+
+					eventName = ""
+					if ind == NFL_EVENT_FLAG_HALL_OF_FAME: eventName = "Hall of Fame Game"
+					elif ind == NFL_EVENT_FLAG_PRO_BOWL: eventName = "Pro Bowl"
+					elif ind == NFL_EVENT_FLAG_SUPERBOWL:
+						gameNumber = None
+						if "game_number" in ms[0].groupdict().keys():
+							gameNumber = RomanNumerals.Parse(ms[0].group("game_number"))
+							#meta.setdefault(METADATA_GAME_NUMBER_KEY, gameNumber)
+						eventName = "Superbowl"
+						if gameNumber: eventName += " " + RomanNumerals.Format(gameNumber)
+					else: eventName = bites[0][1]
+
+					meta.setdefault(METADATA_EVENT_NAME_KEY, eventName)
 					return chewed
 
 	return food

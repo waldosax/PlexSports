@@ -9,6 +9,7 @@ from Teams import *
 from Matching import __sort_by_len
 from Matching import __sort_by_len_key
 from Matching import __sort_by_len_value
+from Matching import __strip_to_alphanumeric_and_at
 from . import Teams
 from . import Matching
 from . import MLB
@@ -416,6 +417,14 @@ def __find_teams(fileName, teams, food, meta):
 	#                          |15---------------|1|20-------------------|
 	#                          |17---------------|1|21-------------------|
 
+
+	# tennessee-titans|-|@|-|new-england-patriots|
+	# 012345678 901234| |5| |678 9012345 67890123|
+	# 0123456789012345|6|7|8|90123456789012345678|
+	# 15--------------| |1| |18------------------|
+	# 16--------------| |2  |20------------------|
+
+
 	leagues = [team1League] if team1League else teams.keys()
 	for league in leagues:
 		scanKeys = sorted(cached_team_keys[league].items(), key=__sort_by_len_key, reverse=True)
@@ -444,11 +453,18 @@ def __find_teams(fileName, teams, food, meta):
 
 		return False
 
+	def find_boiled_index(foodIndex, grit):
+		i = 0
+		for idx in grit:
+			if idx == foodIndex: # This will do for now
+				return i
+			i += 1
+
 	nextBoiledIndex = team1Chunk[CHUNK_NEXT_BOILED_INDEX]
 	if nextBoiledIndex < 0: nextBoiledIndex = 0
 	scanKeys = sorted(cached_team_keys[team1League].items(), key=__sort_by_len_key, reverse=True)
 	for (scanKey, key) in scanKeys:
-		team2Chunk = Taste(boiled, grit, scanKey, nextBoiledIndex)
+		team2Chunk = Taste(boiled, grit, scanKey, 0)
 		if team2Chunk and not chunks_overlap(team1Chunk, team2Chunk):
 			team2 = teams[league][key]
 			break
@@ -464,18 +480,22 @@ def __find_teams(fileName, teams, food, meta):
 			team2 = tmpTeam
 
 
-		btw = food[team1Chunk[CHUNK_NEXT_FOOD_INDEX]:team2Chunk[CHUNK_FOOD_INDEX]]
+		# This is a food piece because we want it in its raw form so we can match on the punctuation. 
+		# Must reverse-engineer a boil, and a taste (chunk)
+		foodIndex = team1Chunk[CHUNK_NEXT_FOOD_INDEX]
+		btw = food[foodIndex:team2Chunk[CHUNK_FOOD_INDEX]]
+		foodLength = len(btw)
 		if btw:
 			for expr in versus_expressions:
 				m = re.search(expr, btw, re.IGNORECASE)
 				if m:
-					vs = m.string[m.start(): m.end()]   # "vs. " (0,3)
+					boiledVs = __strip_to_alphanumeric_and_at(btw)
+					vs = boiledVs #m.string[m.start(): m.end()]   # "vs. " (0,3)
 
 					# Simulate a taste
-					boiledIndex = team1Chunk[CHUNK_BOILED_INDEX] + team1Chunk[CHUNK_BOILED_LENGTH] + m.start()
-					foodIndex = grit[boiledIndex]
-					boiledLength = len(vs)
-					nextBoiledIndex = boiledIndex + boiledLength if (boiledIndex + boiledLength) < len(btw) else -1
+					boiledIndex = find_boiled_index(foodIndex, grit)
+					boiledLength = len(boiledVs)
+					nextBoiledIndex = boiledIndex + boiledLength if (boiledIndex + boiledLength) < len(boiled) else -1
 					nextFoodIndex = grit[boiledIndex + boiledLength] if (boiledIndex + boiledLength) < len(grit) else -1
 
 					vsChunk = (boiledIndex, foodIndex, boiledLength, nextBoiledIndex, nextFoodIndex)

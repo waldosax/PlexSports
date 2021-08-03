@@ -55,6 +55,15 @@ MLB_PLAYOFF_ROUND_WORLD_SERIES = 4
 # (expressions, conference, round)
 # Ordered by more specific to less
 mlb_playoff_round_expressions = [
+	(__expressions_from_literal("%s Wild card Round" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
+	(__expressions_from_literal("%s Wild card Round" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
+	(__expressions_from_literal("%s Wild card Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Wild card" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
+	(__expressions_from_literal("%s Wild card Series" % MLB_LEAGUE_NAME_NL) + __expressions_from_literal("%s Wild card" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
+	(__expressions_from_literal("%s Wild card Round" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
+	(__expressions_from_literal("%s Wild card Round" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
+	(__expressions_from_literal("%s Wild card Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Wild card" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
+	(__expressions_from_literal("%s Wild card Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Wild card" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
+
 	(__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
 	(__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NAME_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
 	(__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_NAME_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NAME_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
@@ -63,6 +72,8 @@ mlb_playoff_round_expressions = [
 	(__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
 	(__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
 	(__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
+
+	(__expressions_from_literal("Wild card Round") +__expressions_from_literal("Wild card Series") + __expressions_from_literal("Wild card"), None, MLB_PLAYOFF_ROUND_WILDCARD),
 	(__expressions_from_literal("Wildcard Round") +__expressions_from_literal("Wildcard Series") + __expressions_from_literal("Wildcard"), None, MLB_PLAYOFF_ROUND_WILDCARD),
 
 
@@ -118,7 +129,7 @@ MLB_EVENT_FLAG_HALL_OF_FAME = -1
 MLB_EVENT_FLAG_HOME_RUN_DERBY = 1
 MLB_EVENT_FLAG_ALL_STAR_GAME = 2
 
-# (expressions, event, flag)
+# (expressions, event flag)
 # Ordered by more specific to less
 mlb_event_expressions = [
 	(__expressions_from_literal("Hall of Fame Game"), MLB_EVENT_FLAG_HALL_OF_FAME),
@@ -137,7 +148,9 @@ mlb_event_expressions = [
 
 
 
-def InferSubseasonFromFolders(filename, folders, meta):
+def InferSubseasonFromFolders(fileName, folders, meta):
+	if meta.get(METADATA_SUBSEASON_INDICATOR_KEY): return
+
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
 	if folders and league and season:
@@ -164,9 +177,11 @@ def InferSubseasonFromFolders(filename, folders, meta):
 
 
 		if not foundSubseason:
-			InferPlayoffRoundFromFolders(filename, folders, meta)
+			InferPlayoffRoundFromFolders(fileName, folders, meta)
 
-def InferPostseasonLeagueFromFolders(filename, folders, meta):
+def InferPostseasonLeagueFromFolders(fileName, folders, meta):
+	if meta.get(METADATA_CONFERENCE_KEY): return
+
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
 	ind = meta.get(METADATA_SUBSEASON_INDICATOR_KEY)
@@ -192,7 +207,9 @@ def InferPostseasonLeagueFromFolders(filename, folders, meta):
 
 
 
-def InferSpringTrainingLeagueFromFolders(filename, folders, meta):
+def InferSpringTrainingLeagueFromFolders(fileName, folders, meta):
+	if meta.get(METADATA_CONFERENCE_KEY): return
+
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
 	ind = meta.get(METADATA_SUBSEASON_INDICATOR_KEY)
@@ -218,10 +235,9 @@ def InferSpringTrainingLeagueFromFolders(filename, folders, meta):
 
 
 
-def InferPlayoffRoundFromFolders(filename, folders, meta):
-	playoffRound = meta.get(METADATA_PLAYOFF_ROUND_KEY)
-	if playoffRound:
-		pass
+def InferPlayoffRoundFromFolders(fileName, folders, meta):
+	if meta.get(METADATA_PLAYOFF_ROUND_KEY): return
+
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
 	if folders and league and season:
@@ -242,10 +258,11 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
 
 						meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, MLB_SUBSEASON_FLAG_POSTSEASON)
 						meta.setdefault(METADATA_SUBSEASON_KEY, folder)
-						meta.setdefault(METADATA_CONFERENCE_KEY, conference)
+						if conference: meta.setdefault(METADATA_CONFERENCE_KEY, conference)
 						meta.setdefault(METADATA_PLAYOFF_ROUND_KEY, round)
 
 						eventName = ""
+						if not conference: conference = meta.get(METADATA_CONFERENCE_KEY)
 						if conference:
 							eventName += conference
 						if round == 1:
@@ -262,7 +279,7 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
 						del(folders[0])
 						break
 
-def InferSubseasonFromFileName(filename, food, meta):
+def InferSubseasonFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_SUBSEASON_INDICATOR_KEY): return food
 
@@ -290,11 +307,11 @@ def InferSubseasonFromFileName(filename, food, meta):
 						break
 
 		if not foundSubseason:
-			food = InferPlayoffRoundFromFileName(filename, food, meta)
+			food = InferPlayoffRoundFromFileName(fileName, food, meta)
 
 	return food
 
-def InferSpringTrainingLeagueFromFileName(filename, food, meta):
+def InferSpringTrainingLeagueFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_CONFERENCE_KEY): return food
 
@@ -320,7 +337,7 @@ def InferSpringTrainingLeagueFromFileName(filename, food, meta):
 						return chewed
 	return food
 
-def InferPlayoffRoundFromFileName(filename, food, meta):
+def InferPlayoffRoundFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_PLAYOFF_ROUND_KEY): return food
 	
@@ -343,10 +360,11 @@ def InferPlayoffRoundFromFileName(filename, food, meta):
 
 						meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, MLB_SUBSEASON_FLAG_POSTSEASON)
 						meta.setdefault(METADATA_SUBSEASON_KEY, bites[0][1])
-						meta.setdefault(METADATA_CONFERENCE_KEY, conference)
+						if conference: meta.setdefault(METADATA_CONFERENCE_KEY, conference)
 						meta.setdefault(METADATA_PLAYOFF_ROUND_KEY, round)
 
 						eventName = ""
+						if not conference: conference = meta.get(METADATA_CONFERENCE_KEY)
 						if conference:
 							eventName += conference
 						if round == 1:
@@ -364,7 +382,7 @@ def InferPlayoffRoundFromFileName(filename, food, meta):
 
 	return food
 
-def InferPostseasonLeagueFromFileName(filename, food, meta):
+def InferPostseasonLeagueFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_CONFERENCE_KEY): return food
 
@@ -391,11 +409,11 @@ def InferPostseasonLeagueFromFileName(filename, food, meta):
 	return food
 
 
-def InferSingleEventFromFileName(filename, food, meta):
+def InferSingleEventFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_EVENT_INDICATOR_KEY): return food
 
-	# Test to see if filename contains a single event, like Super Bowl, or Pro Bowl
+	# Test to see if fileName contains a single event, like Super Bowl, or Pro Bowl
 	foundEvent = False
 	for (exprs, ind) in mlb_event_expressions:
 		if foundEvent == True:
@@ -408,7 +426,14 @@ def InferSingleEventFromFileName(filename, food, meta):
 					meta.setdefault(METADATA_SPORT_KEY, SPORT_BASEBALL)
 					meta.setdefault(METADATA_LEAGUE_KEY, LEAGUE_MLB)
 					meta.setdefault(METADATA_EVENT_INDICATOR_KEY, ind)
-					meta.setdefault(METADATA_EVENT_NAME_KEY, bites[0][1])
+
+					eventName = ""
+					if ind == MLB_EVENT_FLAG_HALL_OF_FAME: eventName = "Hall of Fame Game"
+					elif ind == MLB_EVENT_FLAG_HOME_RUN_DERBY: eventName = "Home Run Derby"
+					elif ind == MLB_EVENT_FLAG_ALL_STAR_GAME: eventName = "All-Star Game"
+					else: eventName = bites[0][1]
+
+					meta.setdefault(METADATA_EVENT_NAME_KEY, eventName)
 					return chewed
 
 	return food

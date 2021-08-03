@@ -65,15 +65,20 @@ nba_playoff_round_expressions = [
 NBA_EVENT_FLAG_ALL_STAR_GAME = 1
 NBA_EVENT_FLAG_3_POINT_SHOOTOUT = 2
 NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION = 3
+NBA_EVENT_FLAG_SKILLS_CHALLENGE = 4
 
-# (expressions, event, flag)
+# (expressions, event flag)
 # Ordered by more specific to less
 nba_event_expressions = [
 	(__expressions_from_literal("All Star Game"), NBA_EVENT_FLAG_ALL_STAR_GAME),
 	(__expressions_from_literal("All-Star Game"), NBA_EVENT_FLAG_ALL_STAR_GAME),
 	(__expressions_from_literal("3 Point Shootout"), NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
+	(__expressions_from_literal("3 Point Competition"), NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
 	(__expressions_from_literal("Slam Dunk Competition"), NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION),
-	(__expressions_from_literal("Slam Dunk Contest"), NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION)
+	(__expressions_from_literal("Slam Dunk Contest"), NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION),
+	(__expressions_from_literal("AT&T Slam Dunk"), NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION),
+	(__expressions_from_literal("Skills Challenge"), NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION),
+	(__expressions_from_literal("Skill Challenge"), NBA_EVENT_FLAG_SKILLS_CHALLENGE)
 	]
 # TODO: more variations on all-star weekend event names
 
@@ -82,7 +87,9 @@ nba_event_expressions = [
 
 
 
-def InferSubseasonFromFolders(filename, folders, meta):
+def InferSubseasonFromFolders(fileName, folders, meta):
+	if meta.get(METADATA_SUBSEASON_INDICATOR_KEY): return
+
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
 	if folders and league and season:
@@ -107,9 +114,11 @@ def InferSubseasonFromFolders(filename, folders, meta):
 						break
 
 		if not foundSubseason:
-			InferPlayoffRoundFromFolders(filename, folders, meta)
+			InferPlayoffRoundFromFolders(fileName, folders, meta)
 
-def InferPostseasonConferenceFromFolders(filename, folders, meta):
+def InferPostseasonConferenceFromFolders(fileName, folders, meta):
+	if meta.get(METADATA_CONFERENCE_KEY): return
+
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
 	ind = meta.get(METADATA_SUBSEASON_INDICATOR_KEY)
@@ -136,10 +145,9 @@ def InferPostseasonConferenceFromFolders(filename, folders, meta):
 
 
 
-def InferPlayoffRoundFromFolders(filename, folders, meta):
-	playoffRound = meta.get(METADATA_PLAYOFF_ROUND_KEY)
-	if playoffRound:
-		pass
+def InferPlayoffRoundFromFolders(fileName, folders, meta):
+	if meta.get(METADATA_PLAYOFF_ROUND_KEY): return
+	
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
 	if folders and league and season:
@@ -160,10 +168,11 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
 
 						meta.setdefault(METADATA_SUBSEASON_KEY, folder)
 						meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, NBA_SUBSEASON_FLAG_POSTSEASON)
-						meta.setdefault(METADATA_LEAGUE_KEY, conference)
+						if conference: meta.setdefault(METADATA_CONFERENCE_KEY, conference)
 						meta.setdefault(METADATA_PLAYOFF_ROUND_KEY, round)
 
 						eventName = ""
+						if not conference: conference = meta.get(METADATA_CONFERENCE_KEY)
 						if conference:
 							eventName += nba_conferences[conference]
 						elif round == 1:
@@ -180,7 +189,7 @@ def InferPlayoffRoundFromFolders(filename, folders, meta):
 						break
 
 
-def InferSubseasonFromFileName(filename, food, meta):
+def InferSubseasonFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_SUBSEASON_INDICATOR_KEY): return food
 
@@ -207,11 +216,11 @@ def InferSubseasonFromFileName(filename, food, meta):
 						break
 
 		if not foundSubseason:
-			food = InferPlayoffRoundFromFileName(filename, food, meta)
+			food = InferPlayoffRoundFromFileName(fileName, food, meta)
 
 	return food
 
-def InferPlayoffRoundFromFileName(filename, food, meta):
+def InferPlayoffRoundFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_PLAYOFF_ROUND_KEY): return food
 	
@@ -234,10 +243,11 @@ def InferPlayoffRoundFromFileName(filename, food, meta):
 
 						meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, NBA_SUBSEASON_FLAG_POSTSEASON)
 						meta.setdefault(METADATA_SUBSEASON_KEY, bites[0][1])
-						meta.setdefault(METADATA_CONFERENCE_KEY, conference)
+						if conference: meta.setdefault(METADATA_CONFERENCE_KEY, conference)
 						meta.setdefault(METADATA_PLAYOFF_ROUND_KEY, round)
 
 						eventName = ""
+						if not conference: conference = meta.get(METADATA_CONFERENCE_KEY)
 						if conference:
 							eventName += nba_conferences[conference]
 						elif round == 1:
@@ -254,7 +264,7 @@ def InferPlayoffRoundFromFileName(filename, food, meta):
 
 	return food
 
-def InferPostseasonConferenceFromFileName(filename, food, meta):
+def InferPostseasonConferenceFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_CONFERENCE_KEY): return food
 
@@ -281,11 +291,11 @@ def InferPostseasonConferenceFromFileName(filename, food, meta):
 	return food
 
 
-def InferSingleEventFromFileName(filename, food, meta):
+def InferSingleEventFromFileName(fileName, food, meta):
 	if not food: return food
 	if meta.get(METADATA_EVENT_INDICATOR_KEY): return food
 
-	# Test to see if filename contains a single event, like Super Bowl, or Pro Bowl
+	# Test to see if fileName contains a single event, like All-Star Game or 3-Point Shootout
 	foundEvent = False
 	for (exprs, ind) in nba_event_expressions:
 		if foundEvent == True:
@@ -298,7 +308,15 @@ def InferSingleEventFromFileName(filename, food, meta):
 					meta.setdefault(METADATA_SPORT_KEY, SPORT_BASKETBALL)
 					meta.setdefault(METADATA_LEAGUE_KEY, LEAGUE_NBA)
 					meta.setdefault(METADATA_EVENT_INDICATOR_KEY, ind)
-					meta.setdefault(METADATA_EVENT_NAME_KEY, bites[0][1])
+
+					eventName = ""
+					if ind == NBA_EVENT_FLAG_ALL_STAR_GAME: eventName = "All-Star Game"
+					elif ind == NBA_EVENT_FLAG_3_POINT_SHOOTOUT: eventName = "3 Point Shootout"
+					elif ind == NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION: eventName = "Slam Dunk Competition"
+					elif ind == NBA_EVENT_FLAG_SKILLS_CHALLENGE: eventName = "Skills Challenge"
+					else: eventName = bites[0][1]
+
+					meta.setdefault(METADATA_EVENT_NAME_KEY, eventName)
 					return chewed
 
 	return food
