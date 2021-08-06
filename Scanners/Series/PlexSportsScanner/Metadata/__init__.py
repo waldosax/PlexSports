@@ -1,3 +1,4 @@
+
 # Python framework
 import re, os, datetime
 from pprint import pprint
@@ -10,14 +11,12 @@ from Matching import __sort_by_len
 from Matching import __sort_by_len_key
 from Matching import __sort_by_len_value
 from Matching import __strip_to_alphanumeric_and_at
-from . import Teams
-from . import Matching
-from . import MLB
-from . import NBA
-from . import NFL
-from . import NHL
-
-
+import Teams
+import Matching
+import MLB
+import NBA
+import NFL
+import NHL
 
 def Infer(relPath, file, meta):
 	# Set base information

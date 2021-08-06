@@ -1,16 +1,9 @@
-
 # Python framework
 import re
 
 # Local package
 from Constants import *
 from Matching import __expressions_from_literal, Eat
-
-NBA_CONFERENCE_EAST = "East"
-NBA_CONFERENCE_WEST = "West"
-
-NBA_CONFERENCE_NAME_EAST = "Eastern Conference"
-NBA_CONFERENCE_NAME_WEST = "Western Conference"
 
 nba_conferences = {
 	NBA_CONFERENCE_EAST: NBA_CONFERENCE_NAME_EAST,
@@ -22,24 +15,11 @@ nba_conference_expressions = [
 	(NBA_CONFERENCE_WEST, [NBA_CONFERENCE_WEST]+__expressions_from_literal(NBA_CONFERENCE_NAME_WEST))
 	]
 
-NBA_SUBSEASON_FLAG_PRESEASON = -1
-NBA_SUBSEASON_FLAG_REGULAR_SEASON = 0
-NBA_SUBSEASON_FLAG_POSTSEASON = 1
-
-NBA_SUBSEASON_PRESEASON = "Preseason"
-NBA_SUBSEASON_POSTSEASON = "Postseason"
-NBA_SUBSEASON_PLAYOFFS = "Playoffs"
-NBA_SUBSEASON_REGULAR_SEASON = "Regular Season"
-
 nba_subseason_indicator_expressions = [
 	(NBA_SUBSEASON_FLAG_PRESEASON, __expressions_from_literal(NBA_SUBSEASON_PRESEASON)),
 	(NBA_SUBSEASON_FLAG_POSTSEASON, __expressions_from_literal(NBA_SUBSEASON_POSTSEASON) + __expressions_from_literal(NBA_SUBSEASON_PLAYOFFS)),
 	(NBA_SUBSEASON_FLAG_REGULAR_SEASON, __expressions_from_literal(NBA_SUBSEASON_REGULAR_SEASON))
 	]
-
-NBA_PLAYOFF_ROUND_QUARTERFINALS = 1
-NBA_PLAYOFF_ROUND_SEMIFINALS = 2
-NBA_PLAYOFF_ROUND_FINALS = 3
 
 # (expressions, conference, round)
 # Ordered by more specific to less
@@ -61,11 +41,6 @@ nba_playoff_round_expressions = [
 	(__expressions_from_literal("Championship"), None, NBA_PLAYOFF_ROUND_FINALS),
 	(__expressions_from_literal("Finals"), None, NBA_PLAYOFF_ROUND_FINALS)
 	]
-
-NBA_EVENT_FLAG_ALL_STAR_GAME = 1
-NBA_EVENT_FLAG_3_POINT_SHOOTOUT = 2
-NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION = 3
-NBA_EVENT_FLAG_SKILLS_CHALLENGE = 4
 
 # (expressions, event flag)
 # Ordered by more specific to less

@@ -5,31 +5,12 @@ import re
 from Constants import *
 from Matching import __expressions_from_literal, Eat
 
-MLB_LEAGUE_AL = "AL"
-MLB_LEAGUE_NL = "NL"
-
-MLB_LEAGUE_NAME_AL = "American League"
-MLB_LEAGUE_NAME_NL = "National League"
-
-mlb_leagues = {
-	MLB_LEAGUE_AL: MLB_LEAGUE_NAME_AL,
-	MLB_LEAGUE_NL: MLB_LEAGUE_NAME_NL
-	}
 
 mlb_league_expressions = [
 	(MLB_LEAGUE_AL, [MLB_LEAGUE_AL]+__expressions_from_literal(MLB_LEAGUE_NAME_AL)),
 	(MLB_LEAGUE_NL, [MLB_LEAGUE_NL]+__expressions_from_literal(MLB_LEAGUE_NAME_NL))
 	]
 
-MLB_SUBSEASON_FLAG_PRESEASON = -1
-MLB_SUBSEASON_FLAG_REGULAR_SEASON = 0
-MLB_SUBSEASON_FLAG_POSTSEASON = 1
-
-MLB_SUBSEASON_PRESEASON = "Preseason"
-MLB_SUBSEASON_SPRING_TRAINING = "Spring Training"
-MLB_SUBSEASON_POSTSEASON = "Postseason"
-MLB_SUBSEASON_PLAYOFFS = "Playoffs"
-MLB_SUBSEASON_REGULAR_SEASON = "Regular Season"
 
 mlb_subseason_indicator_expressions = [
 	(MLB_SUBSEASON_FLAG_PRESEASON, __expressions_from_literal(MLB_SUBSEASON_PRESEASON) + __expressions_from_literal(MLB_SUBSEASON_SPRING_TRAINING)),
@@ -37,20 +18,11 @@ mlb_subseason_indicator_expressions = [
 	(MLB_SUBSEASON_FLAG_REGULAR_SEASON, __expressions_from_literal(MLB_SUBSEASON_REGULAR_SEASON))
 	]
 
-MLB_SPRING_TRAINING_CACTUS_LEAGUE = "Cactus League"
-MLB_SPRING_TRAINING_GRAPEFRUIT_LEAGUE = "Grapefruit League"
-
 mlb_spring_trainging_leagues = [MLB_SPRING_TRAINING_CACTUS_LEAGUE, MLB_SPRING_TRAINING_GRAPEFRUIT_LEAGUE]
 mlb_spring_trainging_league_expressions = [
 	(MLB_SPRING_TRAINING_CACTUS_LEAGUE, __expressions_from_literal(MLB_SPRING_TRAINING_CACTUS_LEAGUE)),
 	(MLB_SPRING_TRAINING_GRAPEFRUIT_LEAGUE, __expressions_from_literal(MLB_SPRING_TRAINING_GRAPEFRUIT_LEAGUE))
 	]
-
-
-MLB_PLAYOFF_ROUND_WILDCARD = 1
-MLB_PLAYOFF_ROUND_DIVISION = 2
-MLB_PLAYOFF_ROUND_CHAMPIONSHIP = 3
-MLB_PLAYOFF_ROUND_WORLD_SERIES = 4
 
 # (expressions, conference, round)
 # Ordered by more specific to less

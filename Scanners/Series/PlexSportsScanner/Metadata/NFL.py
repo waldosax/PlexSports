@@ -4,13 +4,7 @@ import re
 # Local package
 from Constants import *
 from Matching import __expressions_from_literal, Eat
-from . import RomanNumerals
-
-NFL_CONFERENCE_AFC = "AFC"
-NFL_CONFERENCE_NFC = "NFC"
-
-NFL_CONFERENCE_NAME_AFC = "American Football Conference"
-NFL_CONFERENCE_NAME_NFC = "National Football Conference"
+import RomanNumerals
 
 nfl_conferences = {
 	NFL_CONFERENCE_AFC: NFL_CONFERENCE_NAME_AFC,
@@ -21,15 +15,6 @@ nfl_conference_expressions = [
 	(NFL_CONFERENCE_AFC, [NFL_CONFERENCE_AFC]+__expressions_from_literal(NFL_CONFERENCE_NAME_AFC)),
 	(NFL_CONFERENCE_NFC, [NFL_CONFERENCE_NFC]+__expressions_from_literal(NFL_CONFERENCE_NAME_NFC))
 	]
-
-NFL_SUBSEASON_FLAG_PRESEASON = -1
-NFL_SUBSEASON_FLAG_REGULAR_SEASON = 0
-NFL_SUBSEASON_FLAG_POSTSEASON = 1
-
-NFL_SUBSEASON_PRESEASON = "Preseason"
-NFL_SUBSEASON_POSTSEASON = "Postseason"
-NFL_SUBSEASON_PLAYOFFS = "Playoffs"
-NFL_SUBSEASON_REGULAR_SEASON = "Regular Season"
 
 nfl_superbowl_expressions = [
 	"Super(?:%s)+bowl((?:%s)+(?P<game_number>(\d+)|([MDCLXVI]+))?)" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR),
@@ -44,11 +29,6 @@ nfl_subseason_indicator_expressions = [
 	(NFL_SUBSEASON_FLAG_POSTSEASON, __expressions_from_literal(NFL_SUBSEASON_POSTSEASON) + __expressions_from_literal(NFL_SUBSEASON_PLAYOFFS)),
 	(NFL_SUBSEASON_FLAG_REGULAR_SEASON, __expressions_from_literal(NFL_SUBSEASON_REGULAR_SEASON))
 	]
-
-NFL_PLAYOFF_ROUND_WILDCARD = 1
-NFL_PLAYOFF_ROUND_DIVISION = 2
-NFL_PLAYOFF_ROUND_CHAMPIONSHIP = 3
-NFL_PLAYOFF_ROUND_SUPERBOWL = 4
 
 
 # (expressions, conference, round)
@@ -69,10 +49,6 @@ nfl_playoff_round_expressions = [
 	(__expressions_from_literal("Championship Round"), None, NFL_PLAYOFF_ROUND_CHAMPIONSHIP),
 	(nfl_superbowl_expressions, None, NFL_PLAYOFF_ROUND_SUPERBOWL),
 	]
-
-NFL_EVENT_FLAG_HALL_OF_FAME = -1
-NFL_EVENT_FLAG_SUPERBOWL = 1
-NFL_EVENT_FLAG_PRO_BOWL = 2
 
 # (expressions, event, flag)
 # Ordered by more specific to less

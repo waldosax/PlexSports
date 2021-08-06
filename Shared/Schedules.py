@@ -19,8 +19,9 @@ CACHE_VERSION = "2"
 
 WEIGHT_SPORT = 1
 WEIGHT_LEAGUE = 5
-WEIGHT_SEASON = 10
+WEIGHT_SEASON = 12
 WEIGHT_SUBSEASON = 6
+WEIGHT_PLAYOFF_ROUND = 10
 WEIGHT_WEEK = 4
 WEIGHT_EVENT_DATE = 20
 WEIGHT_GAME = 1
@@ -31,27 +32,34 @@ FLAGS_SPORT = 1
 FLAGS_LEAGUE = 2
 FLAGS_SEASON = 4
 FLAGS_SUBSEASON = 8
-FLAGS_WEEK = 16
-FLAGS_EVENT_DATE = 32
-FLAGS_GAME = 64
-FLAGS_TEAM1 = 128
-FLAGS_TEAM2 = 256
+FLAGS_PLAYOFF_ROUND = 16
+FLAGS_WEEK = 32
+FLAGS_EVENT_DATE = 64
+FLAGS_GAME = 128
+FLAGS_TEAM1 = 256
+FLAGS_TEAM2 = 512
 
 
 cached_schedules = dict() # cached_schedules[sport][league][eventHash][subHash]
 
 event_scan = dict()
 
-class event:
+class ScheduleEvent:
 	def __init__(self, **kwargs):
 		self.sport = deunicode(kwargs.get("sport"))
 		self.league = deunicode(kwargs.get("league"))
 		self.season = deunicode(str(kwargs.get("season")))
 		self.date = kwargs.get("date")
+		self.subseason = kwargs.get("subseason")
+
+		# Event metadata
+		self.playoffround = kwargs.get("playoffround")
 		self.week = kwargs.get("week")
+		self.game = kwargs.get("game")
 		self.title = deunicode(kwargs.get("title"))
 		self.altTitle = deunicode(kwargs.get("altTitle"))
 		self.description = kwargs.get("description")
+
 		self.homeTeam = deunicode(kwargs.get("homeTeam"))
 		self.awayTeam = deunicode(kwargs.get("awayTeam"))
 		# TODO: fields for non team-based sports, like Boxing
@@ -74,15 +82,20 @@ class event:
 		if not self.sport and kwargs.get("sport"): self.sport = deunicode(kwargs.get("sport"))
 		if not self.league and kwargs.get("league"): self.league = deunicode(kwargs.get("league"))
 		if not self.season and kwargs.get("season"): self.season = deunicode(str(kwargs.get("season")))
-		if not self.date and kwargs.get("date"): self.date = kwargs.get("date")
-		if not self.week and kwargs.get("week"): self.week = kwargs.get("week")
+		if not self.date and kwargs.get("date"):
+			if isinstance(kwargs["date"], (datetime.datetime, datetime.date)): self.date = kwargs["date"]
+			elif isinstance(kwargs["date"], basestring) and IsISO8601Date(kwargs["date"]): self.date = ParseISO8601Date(kwargs["date"]).replace(tzinfo=UTC)
+		if self.subseason == None and kwargs.get("subseason"): self.subseason = kwargs.get("subseason")
+		if self.week == None and kwargs.get("week"): self.week = kwargs.get("week")
+		if self.playoffround == None and kwargs.get("playoffround"): self.week = kwargs.get("playoffround")
+		if not self.game and kwargs.get("game"): self.week = kwargs.get("game")
 
 		if not kwargs.get("title"): self.title = deunicode(kwargs.get("title"))
 		if not kwargs.get("altTitle"): self.altTitle = deunicode(kwargs.get("altTitle"))
 		if not kwargs.get("description"): self.description = deunicode(kwargs.get("description"))
 		
 		if not self.homeTeam: self.homeTeam = deunicode(kwargs.get("homeTeam"))
-		if not self.homeTeam: self.awayTeam = deunicode(kwargs.get("awayTeam"))
+		if not self.awayTeam: self.awayTeam = deunicode(kwargs.get("awayTeam"))
 		# TODO: fields for non team-based sports, like Boxing
 
 		# Additional metadata items (if provided)
@@ -104,7 +117,33 @@ class event:
 		return self.__key__
 
 	def __repr__(self):
-		return self.key
+		output = ""
+		
+		if self.league:
+			output += self.league
+		elif self.sport:
+			output += self.sport
+
+		if self.title:
+			if output: output += " "
+			if self.season: output += self.season + " "
+			output += self.title
+		elif self.altTitle:
+			if output: output += " "
+			if self.season: output += self.season + " "
+			output += self.altTitle
+
+		if self.date:
+			if output: output += " "
+			output += "%s/%s/%s" % (self.date.month, self.date.day, self.date.year)
+
+		if not self.title and self.homeTeam and self.awayTeam:
+			if output: output += " "
+			output += "%s vs. %s" % (self.homeTeam, self.awayTeam)
+
+
+		return output
+
 
 
 def Find(meta):
@@ -150,25 +189,28 @@ def Find(meta):
 			if key == "league" and m.group(key):
 				weight += WEIGHT_LEAGUE
 				flags += FLAGS_LEAGUE
-			if key == "season" and m.group(key):
+			elif key == "season" and m.group(key):
 				weight += WEIGHT_SEASON
 				flags += FLAGS_SEASON
-			if key == "subseason" and m.group(key):
+			elif key == "subseason" and m.group(key):
 				weight += WEIGHT_SUBSEASON
 				flags += FLAGS_SUBSEASON
-			if key == "week" and m.group(key):
+			elif key == "playoffround" and m.group(key):
+				weight += WEIGHT_PLAYOFF_ROUND
+				flags += FLAGS_PLAYOFF_ROUND
+			elif key == "week" and m.group(key):
 				weight += WEIGHT_WEEK
 				flags += FLAGS_WEEK
-			if key == "date" and m.group(key):
+			elif key == "date" and m.group(key):
 				weight += WEIGHT_EVENT_DATE
 				flags += FLAGS_EVENT_DATE
-			if key == "game" and m.group(key):
+			elif key == "game" and m.group(key):
 				weight += WEIGHT_GAME
 				flags += FLAGS_GAME
-			if key == "team1" and m.group(key):
+			elif key == "team1" and m.group(key):
 				weight += WEIGHT_TEAM
 				flags += FLAGS_TEAM1
-			if key == "team2" and m.group(key):
+			elif key == "team2" and m.group(key):
 				weight += WEIGHT_TEAM
 				flags += FLAGS_TEAM2
 
@@ -202,10 +244,10 @@ def Find(meta):
 		events = dict()	# dict<eventKey, event>
 
 		for (weight, result, howItMatched) in results:
-			for ev in result:
-				key = ev.key
+			for event in result:
+				key = event.key
 				if not key in events.keys():
-					events.setdefault(key, ev)
+					events.setdefault(key, event)
 				if not key in maxes.keys():
 					maxes.setdefault(key, (weight, howItMatched))
 				else:
@@ -215,8 +257,8 @@ def Find(meta):
 
 		for key in maxes.keys():
 			maxweight = maxes[key][0]
-			ev = events[key]
-			filtered.append((maxweight, ev, maxes[key][1]))
+			event = events[key]
+			filtered.append((maxweight, event, maxes[key][1]))
 
 		filtered.sort(reverse=True, key=results_sort_key)
 		return filtered
@@ -233,10 +275,14 @@ def Find(meta):
 		atom = meta[METADATA_SUBSEASON_INDICATOR_KEY]
 		atoms.append("ss:%s" % atom)
 		molecules.append(construct_expression_fragment("subseason", "ss", atom))
+	if meta.get(METADATA_PLAYOFF_ROUND_KEY):
+		atom = meta[METADATA_PLAYOFF_ROUND_KEY]
+		atoms.append("pr:%s" % atom)
+		molecules.append(construct_expression_fragment("playoffround", "pr", atom))
 	if meta.get(METADATA_WEEK_KEY):
-		atom = meta[METADATA_WEEK_KEY] # TODO: Convert to integer?
+		atom = meta[METADATA_WEEK_KEY]
 		atoms.append("wk:%s" % atom)
-		molecules.append(construct_expression_fragment("week", "wk",atom))
+		molecules.append(construct_expression_fragment("week", "wk", atom))
 	if meta.get(METADATA_AIRDATE_KEY):
 		atom = sched_compute_date_hash(meta[METADATA_AIRDATE_KEY])
 		atoms.append("dt:%s" % atom)
@@ -297,7 +343,7 @@ def __download_all_schedule_data(sport, league, season):
 	teams = Teams.GetTeams(league)
 
 	# Retrieve data from TheSportsDB.com
-	downloadedJson = TheSportsDB.__the_sports_db_download_schedule_for_league_and_season(league, season)
+	downloadedJson = TheSportsDB.DownloadScheduleForLeagueAndSeason(league, season)
 	
 	if downloadedJson:
 		try: sportsDbSchedule = json.loads(downloadedJson)
@@ -312,17 +358,20 @@ def __download_all_schedule_data(sport, league, season):
 		
 			date = None
 			if schedEvent.get("dateEventLocal") and schedEvent.get("strTimeLocal"):
-				# Relative to East Coast
-				# TODO: Account for Daylight Savings Time/Summer Time? What about Arizona?
 				date = ParseISO8601Date("%sT%s" % (schedEvent["dateEventLocal"], schedEvent["strTimeLocal"]))
+				# Relative to East Coast
 				date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
 			elif schedEvent.get("dateEvent") and schedEvent.get("strTime"):
-				# Zulu Time
 				date = ParseISO8601Date("%sT%s" % (schedEvent["dateEvent"], schedEvent["strTime"]))
-				date = date.replace(tzinfo=UTC)
+				## Zulu Time
+				#date = date.replace(tzinfo=UTC)
+				# Relative to East Coast
+				date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
+			elif schedEvent.get("dateEvent") and not schedEvent.get("strTime"):
+				date = ParseISO8601Date(schedEvent["dateEvent"])
 			elif schedEvent.get("strTimestamp"):
-				# Zulu Time
 				date = ParseISO8601Date(schedEvent["strTimestamp"])
+				# Zulu Time
 				date = date.replace(tzinfo=UTC)
 
 			kwargs = {
@@ -342,19 +391,22 @@ def __download_all_schedule_data(sport, league, season):
 				"thumbnail": deunicode(schedEvent["strThumb"]),
 				"banner": deunicode(schedEvent["strBanner"]),
 				"preview": deunicode(schedEvent["strVideo"])}
-			ev = event(**kwargs)
 
-			hash = sched_compute_hash(ev)
-			subhash = sched_compute_time_hash(ev.date)
+
+
+			event = ScheduleEvent(**kwargs)
+
+			hash = sched_compute_hash(event)
+			subhash = sched_compute_time_hash(event.date)
 			#print("%s|%s" % (hash, subhash))
 			if not hash in sched.keys():
-				sched.setdefault(hash, {subhash:ev})
+				sched.setdefault(hash, {subhash:event})
 			else:
 				evdict = sched[hash]
 				if (not subhash in evdict.keys()):
-					sched[hash].setdefault(subhash, ev)
+					sched[hash].setdefault(subhash, event)
 				else:
-					sched[hash][subhash].augment(**ev.__dict__)
+					sched[hash][subhash].augment(**event.__dict__)
 
 
 	# Augment/replace with data from SportsData.io
@@ -405,19 +457,19 @@ def __download_all_schedule_data(sport, league, season):
 					"homeTeam": homeTeamKey,
 					"awayTeam": awayTeamKey,
 					"network": deunicode(schedEvent.get("Channel"))}
-				ev = event(**kwargs)
+				event = ScheduleEvent(**kwargs)
 
-				hash = sched_compute_hash(ev)
-				subhash = sched_compute_time_hash(ev.date)
+				hash = sched_compute_hash(event)
+				subhash = sched_compute_time_hash(event.date)
 				#print("%s|%s" % (hash, subhash))
 				if not hash in sched.keys():
-					sched.setdefault(hash, {subhash:ev})
+					sched.setdefault(hash, {subhash:event})
 				else:
 					evdict = sched[hash]
 					if (not subhash in evdict.keys()):
-						evdict.setdefault(subhash, ev)
+						evdict.setdefault(subhash, event)
 					else:
-						evdict[subhash].augment(**ev.__dict__)
+						evdict[subhash].augment(**event.__dict__)
 	
 	return sched
 
@@ -439,33 +491,34 @@ def __get_schedule_from_cache(sport, league, season):
 
 			jsonEvents = []
 			cachedJson = __read_schedule_cache_file(sport, league, season) #TODO: Try/Catch
-			cacheContainer = CacheContainer.Deserialize(cachedJson)
+			cacheContainer = CacheContainer.Deserialize(cachedJson, itemTransform=event_deserialization_item_transform)
 
 			if not cacheContainer or cacheContainer.IsInvalid(CACHE_VERSION):
-				jsonEvents = __refresh_schedule_cache(sport, league, season)
+				events = __refresh_schedule_cache(sport, league, season)
 			else:
-				jsonEvents = cacheContainer.Items
+				events = cacheContainer.Items
 
 			if not jsonEvents:
-				jsonEvents = __refresh_schedule_cache(sport, league, season)
+				events = __refresh_schedule_cache(sport, league, season)
 			else:
 				cached_schedules.setdefault(sport, dict())
 				cached_schedules[sport].setdefault(league, dict())
 				cached_schedules[sport][league].setdefault(season, dict())
 				schedule = dict()
-				for jsonEvent in jsonEvents:
-					if isinstance(jsonEvent, event):
-						ev = jsonEvent
-					else:
-						ev = event(**jsonEvent)
-					hash = sched_compute_hash(ev)
-					subhash = sched_compute_time_hash(ev.date)
+				for event in events:
+					hash = sched_compute_hash(event)
+					subhash = sched_compute_time_hash(event.date)
 
 					schedule.setdefault(hash, dict())
-					schedule[hash].setdefault(subhash, ev)
+					schedule[hash].setdefault(subhash, event)
 				cached_schedules[sport][league][season] = schedule
 				__refresh_scan_dict(sport, league, season, schedule)
 	return cached_schedules[sport][league][season]
+
+def event_deserialization_item_transform(jsonEvents):
+	events = []
+	for jsonEvent in jsonEvents: events.append(ScheduleEvent(**jsonEvent))
+	return events
 
 def __refresh_schedule_cache(sport, league, season):
 	print("Refreshing %s %s schedule cache ..." % (league, season))
@@ -514,7 +567,7 @@ def __write_schedule_cache_file(sport, league, season, json):
 	print("Writing %s %s schedules cache to disk ..." % (league, season))
 	path = __get_schedule_cache_file_path(sport, league, season)
 	dir = os.path.dirname(path)
-	EnsureDirectory(path)
+	EnsureDirectory(dir)
 	f = open(path, "w")
 	f.write(json)
 	f.close()
@@ -548,12 +601,12 @@ def __refresh_scan_dict(sport, league, season, schedule):
 
 		numberOfGames = len(events)
 		gameNumber = 1
-		for ev in events.values():	# dict<HOUR, event>().values()
+		for event in events.values():	# dict<HOUR, event>().values()
 			possible_keys = []
 			gameKey = "g:%s" % gameNumber
 			weekKey = None
-			if ev.week:
-				weekKey = "wk:%s" % ev.week
+			if event.week:
+				weekKey = "wk:%s" % event.week
 			#elif sport in week_scheduled_sports
 			#	weekKey = __get_week_from_season_and_date(sport, league, season, date)
 
@@ -602,7 +655,7 @@ def __refresh_scan_dict(sport, league, season, schedule):
 			possible_keys = list(set(possible_keys))
 			for scanKey in possible_keys:
 				event_scan.setdefault(scanKey, [])
-				event_scan[scanKey].append(ev)
+				event_scan[scanKey].append(event)
 
 			gameNumber += 1
 
@@ -633,28 +686,42 @@ def __refresh_scan_dict(sport, league, season, schedule):
 
 
 
-def sched_compute_hash(ev):
+def sched_compute_hash(event):
 	molecules = []
 	
-	sport = sched_compute_sport_hash(ev.sport) or ""
+	sport = sched_compute_sport_hash(event.sport) or ""
 	molecules.append(sport)
 
 	# TODO: Omit when taking on non-league sports, like Boxing
-	league = sched_compute_league_hash(ev.league) or ""
+	league = sched_compute_league_hash(event.league) or ""
 	molecules.append(league)
 
 	# TODO: Omit when taking on non-seasonal sports, like Boxing
-	season = sched_compute_league_hash(ev.season) or ""
+	season = sched_compute_league_hash(event.season) or ""
 	molecules.append(season)
 
-	date = sched_compute_date_hash(ev.date) or ""
-	molecules.append(date)
+	subseason = sched_compute_subseason_hash(event.subseason) or ""
+	molecules.append(subseason)
 
+	playoffRound = sched_compute_playoff_round_hash(event.playoffround) or ""
+	molecules.append(playoffRound)
+
+	week = sched_compute_week_hash(event.week) or ""
+	molecules.append(week)
+
+	game = sched_compute_game_hash(event.game) or ""
+	molecules.append(game)
+
+	date = sched_compute_date_hash(event.date) or ""
+	molecules.append(date)
+	
 	# TODO: Modify when taking on non-team sports, like Boxing
-	home = sched_compute_team_hash(ev.homeTeam) or ""
-	away = sched_compute_team_hash(ev.awayTeam) or ""
+	home = sched_compute_team_hash(event.homeTeam) or ""
+	away = sched_compute_team_hash(event.awayTeam) or ""
 	molecules.append(home)
 	molecules.append(away)
+
+	if event.week: 	molecules.append(away)
 
 	return "|".join(molecules)
 
@@ -675,16 +742,35 @@ def sched_compute_season_hash(season):
 	s = ""
 	if (isinstance(season, basestring)):
 		s = season
-	if (isinstance(season, int)):
+		for expr in season_expressions:
+			p = re.compile(expr, re.IGNORECASE)
+			m = p.search(s)
+			if m:
+				return expandYear(m.group("season_begin_year")).lower()
+	elif (isinstance(season, int)):
 		s = str(season)
-
-	for expr in season_expressions:
-		p = re.compile(expr, re.IGNORECASE)
-		m = p.search(s)
-		if m:
-			return expandYear(m.group("season_begin_year")).lower()
 	
 	return None
+
+def sched_compute_week_hash(week):
+	if week == None: return None
+	if isinstance(week, int): week = str(week)
+	return week.lower()
+
+def sched_compute_subseason_hash(subseason):
+	if subseason == None: return None
+	if isinstance(subseason, int): subseason = str(subseason)
+	return week.lower()
+
+def sched_compute_playoff_round_hash(playoffRound):
+	if playoffRound == None: return None
+	if isinstance(playoffRound, int): playoffRound = str(playoffRound)
+	return playoffRound.lower()
+
+def sched_compute_game_hash(game):
+	if not game: return None
+	if isinstance(game, int): game = str(game)
+	return game.lower()
 
 def sched_compute_date_hash(eventDate):
 	if not eventDate:

@@ -15,10 +15,10 @@ def ParseISO8601Date(dateStr):
 def ParseISO8601Time(dateStr):
 	return parse(dateStr).time()
 
-def FormatISO8601(dt):
+def FormatISO8601Date(dt):
 	return dt.isoformat()
 
-def FormatISO8601(dt):
+def FormatISO8601Time(dt):
 	return dt.strftime("%H:%M:%S%z")
 
 def IsISO8601Date(s):

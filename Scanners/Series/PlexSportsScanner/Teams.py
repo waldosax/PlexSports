@@ -143,7 +143,7 @@ def __download_all_team_data(league):
 	teams = dict()
 
 	# Retrieve data from TheSportsDB.com
-	downloadedJson = TheSportsDB.__the_sports_db_download_all_teams_for_league(league)
+	downloadedJson = TheSportsDB.DownloadAllTeamsForLeague(league)
 	sportsDbTeams = json.loads(downloadedJson)
 	for team in sportsDbTeams["teams"]:
 		abbrev = deunicode(team["strTeamShort"])

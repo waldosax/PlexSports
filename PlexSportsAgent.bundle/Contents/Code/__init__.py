@@ -32,7 +32,7 @@ class PlexSportsAgent(Agent.TV_Shows):
 				score=internalSearchResult[0]
 				)
 			results.append(result)
-			pprint(result.__dict__)
+			#pprint(result.__dict__)
 		pass
 
 	def update(self, metadata, media, lang):

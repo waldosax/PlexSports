@@ -31,7 +31,7 @@ def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
         if not __is_supported(meta):
             continue
 
-        print(file)
+        #print(file)
         #pprint(meta)
         #show, season, episode, title, year
 
@@ -60,8 +60,8 @@ def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
         mediaList.append(sporting_event)
         #pprint(mediaList)
         #print(show)
-        print(title)
-        print("")
+        #print(title)
+        #print("")
 
 
     # See if we need to tie any parted video files (.part1.mp4, .part2.mp4, etc) to a single file

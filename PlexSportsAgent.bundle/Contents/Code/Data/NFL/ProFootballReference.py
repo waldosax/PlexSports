@@ -7,11 +7,11 @@ import bs4
 from pprint import pprint
 import threading, Queue
 
-from ...Constants import *
-from ...TimeZoneUtils import *
-from ...PathUtils import *
-from ...PluginSupport import *
-from ...Serialization import *
+from Constants import *
+from TimeZoneUtils import *
+from PathUtils import *
+from PluginSupport import *
+from Serialization import *
 from ..GetResultFromNetwork import *
 
 

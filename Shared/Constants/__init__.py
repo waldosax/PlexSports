@@ -1,3 +1,8 @@
+from MetadataKeys import *
+from MLB import *
+from NBA import *
+from NFL import *
+from NHL import *
 
 SPORT_BASEBALL = "Baseball"
 SPORT_BASKETBALL = "Basketball"
@@ -85,28 +90,6 @@ week_expressions = [
 game_number_expressions = [
     r"Game%s?(?P<game_number>(\d+))" % EXPRESSION_SEPARATOR
 ]
-
-METADATA_PATH_KEY = "path"
-METADATA_FILENAME_KEY = "filename"
-METADATA_FOLDER_KEY = "folder"
-METADATA_SPORT_KEY = "sport"
-METADATA_LEAGUE_KEY = "league"
-METADATA_SEASON_KEY = "season"
-METADATA_SEASON_BEGIN_YEAR_KEY = "season begin year"
-METADATA_SEASON_END_YEAR_KEY = "season end year"
-METADATA_SUBSEASON_INDICATOR_KEY = "subseason"
-METADATA_SUBSEASON_KEY = "subseason name"
-METADATA_CONFERENCE_KEY = "conference"
-METADATA_DIVISION_KEY = "division"
-METADATA_WEEK_KEY = "week"
-METADATA_WEEK_NUMBER_KEY = "week number"
-METADATA_PLAYOFF_ROUND_KEY = "playoff round"
-METADATA_EVENT_INDICATOR_KEY = "event"
-METADATA_EVENT_NAME_KEY = "event name"
-METADATA_AIRDATE_KEY = "air date"
-METADATA_HOME_TEAM_KEY = "home team"
-METADATA_AWAY_TEAM_KEY = "away team"
-METADATA_GAME_NUMBER_KEY = "game number"
 
 
 
