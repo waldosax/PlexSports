@@ -2,7 +2,7 @@ import os
 
 APP_IDENTIFIER = "com.mayosolutions.plexsports"
 
-PLEX_HOME = "F:\\Code\\Plex\\" #TODO: Try to figure out how to gonsistently get this without hard-coding
+PLEX_HOME = "F:\\Code\\Plex\\" #TODO: Try to figure out how to consistently get this without hard-coding
 #* '%LOCALAPPDATA%\Plex Media Server\'                                        # Windows Vista/7/8
 #* '%USERPROFILE%\Local Settings\Application Data\Plex Media Server\'         # Windows XP, 2003, Home Server
 #* '$HOME/Library/Application Support/Plex Media Server/'                     # Mac OS
@@ -18,9 +18,12 @@ PLEX_HOME = "F:\\Code\\Plex\\" #TODO: Try to figure out how to gonsistently get 
 #* '/raid0/data/PLEX_CONFIG/Plex Media Server/'                               # Thecus Plex community
 
 PLUGINS_PATH = "Plug-ins/"
+
 PLUGINS_SUPPORT_PATH = "Plug-in Support/"
 PLUGINS_SUPPORT_DATA_PATH = "Data/"
 PLUGINS_SUPPORT_CACHES_PATH = r"Caches/"
+PLUGINS_SUPPORT_HTTP_CACHES_PATH = r"HTTP.system/"
+PLUGINS_SUPPORT_HTTP_LOCAL_CACHES_PATH = r"HTTP.local/"
 
 # TODO: Rename
 DATA_PATH = r"DataItems/"
@@ -34,3 +37,8 @@ def GetDataPathForLeague(league):
 def GetCachesPathForLeague(league):
 	return os.path.abspath("%s%s%s%s/%s%s" % (PLEX_HOME, PLUGINS_SUPPORT_PATH, PLUGINS_SUPPORT_CACHES_PATH, APP_IDENTIFIER, CACHES_PATH_LEAGUES, league))
 
+def GetHTTPCachesPath():
+	return os.path.abspath("%s%s%s%s/%s" % (PLEX_HOME, PLUGINS_SUPPORT_PATH, PLUGINS_SUPPORT_CACHES_PATH, APP_IDENTIFIER, PLUGINS_SUPPORT_HTTP_CACHES_PATH))
+
+def GetHTTPLocalCachesPath():
+	return os.path.abspath("%s%s%s%s/%s" % (PLEX_HOME, PLUGINS_SUPPORT_PATH, PLUGINS_SUPPORT_CACHES_PATH, APP_IDENTIFIER, PLUGINS_SUPPORT_HTTP_LOCAL_CACHES_PATH))

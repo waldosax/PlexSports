@@ -1,9 +1,13 @@
+import os
 import time
 import certifi
 import requests
 import urllib2
 from requests.utils import requote_uri
 from threading import Lock
+
+import Caching
+import PathUtils
 
 netLock = Lock()
 #netLock = Thread.Lock()
@@ -17,52 +21,66 @@ RETRY_TIMEOUT = MIN_RETRY_TIMEOUT
 TOTAL_TRIES = 1
 BACKUP_TRIES = -1
 
-def GetResultFromNetwork(url, headers=None, fetchContent=True):
-    global successCount, failureCount, RETRY_TIMEOUT # I don't know what this does yet
+def GetResultFromNetwork(url, headers=None, autoResolveResponseBody=True, cache=True):
+	global successCount, failureCount, RETRY_TIMEOUT
 
-    url = requote_uri(url)
-    print(">>GET %s" % url)
+	url = requote_uri(url)
 
-    try:
-        netLock.acquire()
-        #Log("SS: Retrieving URL: " + url)
+	responseBody = None
+	cacheKey = None
+	httpCachePath = None
+	httpCacheFilePath = None
+	if autoResolveResponseBody and cache:
+		responseBody = Caching.GetResponseFromCache(url)
+		if responseBody: return responseBody
 
-        tries = TOTAL_TRIES
-        while tries > 0:
 
-            try:
-                result = requests.get(url, headers=headers, verify=certifi.where())
-                if fetchContent:
-                    result = result.text
 
-                failureCount = 0
-                successCount += 1
+	print(">>GET %s" % url)
 
-                if successCount > 20:
-                    RETRY_TIMEOUT = max(MIN_RETRY_TIMEOUT, RETRY_TIMEOUT / 2)
-                    successCount = 0
+	try:
+		netLock.acquire()
+		#Log("SS: Retrieving URL: " + url)
 
-                # DONE!
-                return result
+		tries = TOTAL_TRIES
+		while tries > 0:
 
-            except Exception, e:
+			try:
+				response = requests.get(url, headers=headers, verify=certifi.where())
+				if autoResolveResponseBody:
+					responseBody = response.text
+					if cache and response.status_code == 200: # TODO: Account for ALL the 200 range status codes
+						Caching.CacheResponse(url, responseBody)
 
-                print(e) # TODO: Take a harder look at exception handling
+				failureCount = 0
+				successCount += 1
 
-                # Fast fail a not found.
-                # if e.code == 404:
-                #     return None
+				if successCount > 20:
+					RETRY_TIMEOUT = max(MIN_RETRY_TIMEOUT, RETRY_TIMEOUT / 2)
+					successCount = 0
 
-                failureCount += 1
-                print("Failure (%d in a row)" % failureCount)
-                successCount = 0
-                time.sleep(RETRY_TIMEOUT)
+				# DONE!
+				if autoResolveResponseBody: return responseBody
+				return response
 
-                if failureCount > 5:
-                    RETRY_TIMEOUT = min(10, RETRY_TIMEOUT * 1.5)
-                    failureCount = 0
+			except Exception, e:
 
-    finally:
-        netLock.release()
+				print(e) # TODO: Take a harder look at exception handling
 
-    return None
+				# Fast fail a not found.
+				# if e.code == 404:
+				#     return None
+
+				failureCount += 1
+				print("Failure (%d in a row)" % failureCount)
+				successCount = 0
+				time.sleep(RETRY_TIMEOUT)
+
+				if failureCount > 5:
+					RETRY_TIMEOUT = min(10, RETRY_TIMEOUT * 1.5)
+					failureCount = 0
+
+	finally:
+		netLock.release()
+
+	return None

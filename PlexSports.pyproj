@@ -497,7 +497,6 @@
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\SportsDataIO.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\TheSportsDB.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\UserAgent.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\__init__.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\PathUtils.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\PluginSupport.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Serialization.py" />
@@ -533,9 +532,6 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\NFL\ProFootballReference.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\NFL\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\UserAgent.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\SportsDataIO.py" />
@@ -574,6 +570,9 @@
     <Compile Include="Shared\Constants\NHL.py" />
     <Compile Include="Shared\Constants\__init__.py" />
     <Compile Include="Shared\Data\CacheContainer.py" />
+    <Compile Include="Shared\Data\Caching.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Shared\Data\GetResultFromNetwork.py" />
     <Compile Include="Shared\Data\NFL\ProFootballReference.py">
       <SubType>Code</SubType>
