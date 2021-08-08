@@ -574,6 +574,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Shared\Data\GetResultFromNetwork.py" />
+    <Compile Include="Shared\Data\MLB\MLBAPI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Data\MLB\__init__.py" />
     <Compile Include="Shared\Data\NFL\ProFootballReference.py">
       <SubType>Code</SubType>
     </Compile>
@@ -1935,6 +1939,7 @@
     <Folder Include="Shared\Constants\" />
     <Folder Include="Shared\Data\" />
     <Folder Include="Shared\Data\NFL\" />
+    <Folder Include="Shared\Data\MLB\" />
     <Folder Include="UnitTests\" />
     <Folder Include="PlexSportsAgent.bundle\" />
     <Folder Include="PlexSportsAgent.bundle\Contents\" />
