@@ -26,6 +26,13 @@ supported_sports = [
 	SPORT_HOCKEY
 	]
 
+supported_league_sports = supported_sports
+supported_seasonal_leagues = [
+	LEAGUE_MLB,
+	LEAGUE_NBA,
+	LEAGUE_NFL,
+	LEAGUE_NHL
+	]
 supported_team_sports = supported_sports
 supported_series_sports = [
 	SPORT_BASEBALL,
@@ -88,7 +95,7 @@ week_expressions = [
 
 
 game_number_expressions = [
-    r"Game%s?(?P<game_number>(\d+))" % EXPRESSION_SEPARATOR
+	r"Game%s?(?P<game_number>(\d+))" % EXPRESSION_SEPARATOR
 ]
 
 
