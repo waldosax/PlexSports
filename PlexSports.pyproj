@@ -491,22 +491,27 @@
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\CacheContainer.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\Caching.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\GetResultFromNetwork.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\NFL\ProFootballReference.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\NFL\__init__.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\PathUtils.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\PlugInSupport.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\SportsDataIO.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\TheSportsDB.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\UserAgent.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\PathUtils.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\PluginSupport.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\Hashes.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\ScheduleEvent.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\SportsDataIO.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\TheSportsDB.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\__init__.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Serialization.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\TimeZoneUtils.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Matching.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Teams.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\StringUtils.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\__init__.py" />
@@ -555,7 +560,7 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\RomanNumerals.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Serialization.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\StringUtils.py">
@@ -586,6 +591,15 @@
     <Compile Include="Shared\Data\TheSportsDB.py" />
     <Compile Include="Shared\Data\__init__.py" />
     <Compile Include="Shared\Matching.py" />
+    <Compile Include="Shared\Schedules\Hashes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Schedules\ScheduleEvent.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Schedules\SportsDataIO.py" />
+    <Compile Include="Shared\Schedules\TheSportsDB.py" />
+    <Compile Include="Shared\Schedules\__init__.py" />
     <Compile Include="Shared\Serialization.py">
       <SubType>Code</SubType>
     </Compile>
@@ -595,7 +609,6 @@
     <Compile Include="Shared\PluginSupport.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Shared\Schedules.py" />
     <Compile Include="Shared\StringUtils.py" />
     <Compile Include="Shared\Teams.py" />
     <Compile Include="Shared\TimeZoneUtils.py" />
@@ -1932,14 +1945,17 @@
     <Folder Include="PlexSportsAgent.bundle\Contents\Code\Constants\" />
     <Folder Include="PlexSportsAgent.bundle\Contents\Code\Data\" />
     <Folder Include="PlexSportsAgent.bundle\Contents\Code\Data\NFL\" />
+    <Folder Include="PlexSportsAgent.bundle\Contents\Code\Schedules\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Data\NFL\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Constants\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Metadata\" />
+    <Folder Include="Scanners\Series\PlexSportsScanner\Schedules\" />
     <Folder Include="Shared\" />
     <Folder Include="Shared\Constants\" />
     <Folder Include="Shared\Data\" />
     <Folder Include="Shared\Data\NFL\" />
     <Folder Include="Shared\Data\MLB\" />
+    <Folder Include="Shared\Schedules\" />
     <Folder Include="UnitTests\" />
     <Folder Include="PlexSportsAgent.bundle\" />
     <Folder Include="PlexSportsAgent.bundle\Contents\" />

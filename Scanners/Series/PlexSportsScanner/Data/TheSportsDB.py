@@ -21,15 +21,6 @@ sportsdb_team_ids = {
 	LEAGUE_NHL: "4388"
 	}
 
-THESPORTSDB_ROUND_QUARTERFINAL = 125
-THESPORTSDB_ROUND_SEMIFINAL = 150
-THESPORTSDB_ROUND_PLAYOFF = 160
-THESPORTSDB_ROUND_PLAYOFF_SEMIFINAL = 170
-THESPORTSDB_ROUND_PLAYOFF_FINAL = 180
-THESPORTSDB_ROUND_FINAL = 200
-THESPORTSDB_ROUND_PRESEASON = 500
-
-
 
 def DownloadAllTeamsForLeague(league):
 	if (league in known_leagues.keys() == False):
@@ -49,20 +40,3 @@ def DownloadScheduleForLeagueAndSeason(league, season):
 		urlTemplate % (THE_SPORTS_DB_API_KEY, sportsdb_team_ids[league], season),
 		the_sports_db_headers, True)
 
-
-
-
-
-
-
-def SupplementScheduleEvent(league, schedEvent, kwargs):
-	# I wish thesportsdb were more comprehensive when it comes to playoff round/preseason
-	if league == LEAGUE_MLB:
-		if schedEvent.get("intRound") == THESPORTSDB_ROUND_FINAL:
-			kwargs.setdefault("subseason", MLB_SUBSEASON_POSTSEASON)
-			kwargs.setdefault("playoffround", MLB_PLAYOFF_ROUND_WORLD_SERIES)
-	elif league == LEAGUE_NFL:
-		if schedEvent.get("intRound") == THESPORTSDB_ROUND_FINAL:
-			kwargs.setdefault("subseason", NFL_SUBSEASON_POSTSEASON)
-			kwargs.setdefault("playoffround", NFL_PLAYOFF_ROUND_SUPERBOWL)
-			kwargs.setdefault("eventindicator", NFL_EVENT_FLAG_SUPERBOWL)

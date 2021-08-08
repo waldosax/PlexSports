@@ -52,7 +52,7 @@ def __sports_data_io_download_all_teams_for_league(league):
 	return GetResultFromNetwork(SPORTS_DATA_IO_GET_ALL_TEAMS_FOR_LEAGUE % (league, sports_data_io_api_keys[league]), headers, True)
 
 
-def __sports_data_io_download_schedule_for_league_and_season(league, season, subseason=None):
+def DownloadScheduleForLeagueAndSeason(league, season, subseason=None):
 	if (league in known_leagues.keys() == False):
 		return None # TODO: Throw
 	key = sports_data_io_api_keys[league]
@@ -75,7 +75,7 @@ def __sports_data_io_download_schedule_for_league_and_season(league, season, sub
 
 
 	def get_and_append_data(suffix, results):
-		print("Getting %s, %s%s schedule data from The SportsDB ..." % (league, season, suffix))
+		print("Getting %s, %s%s schedule data from SportsData.io ..." % (league, season, suffix))
 		json = GetResultFromNetwork(sports_data_io_schedule_url_fragments[league] % (league, str(season) + suffix, sports_data_io_api_keys[league]), headers, True)
 		results.append (json)
 		pass
@@ -91,40 +91,3 @@ def __sports_data_io_download_schedule_for_league_and_season(league, season, sub
 		t.join()
 
 	return results
-
-SPORTS_DATA_IO_SEASON_TYPE_REGULAR_SEASON = 1
-SPORTS_DATA_IO_SEASON_TYPE_PRESEASON = 2
-SPORTS_DATA_IO_SEASON_TYPE_POSTSEASON = 3
-SPORTS_DATA_IO_SEASON_TYPE_OFFSEASON = 4
-SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR = 5
-
-def SupplementScheduleEvent(league, schedEvent, kwargs):
-	if schedEvent.get("SeasonType"):
-		if league == LEAGUE_MLB:
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_PRESEASON: kwargs["subseason"] = MLB_SUBSEASON_FLAG_PRESEASON
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_REGULAR_SEASON: kwargs["subseason"] = MLB_SUBSEASON_FLAG_REGULAR_SEASON
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_POSTSEASON:
-				kwargs["subseason"] = MLB_SUBSEASON_FLAG_POSTSEASON
-				# TODO: Identify Playoff Round/World Series
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR: kwargs["eventindicator"] = MLB_EVENT_FLAG_ALL_STAR_GAME
-		if league == LEAGUE_NBA:
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_PRESEASON: kwargs["subseason"] = NBA_SUBSEASON_FLAG_PRESEASON
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_REGULAR_SEASON: kwargs["subseason"] = NBA_SUBSEASON_FLAG_REGULAR_SEASON
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_POSTSEASON:
-				kwargs["subseason"] = NBA_SUBSEASON_FLAG_POSTSEASON
-				# TODO: Identify Playoff Round
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR: kwargs["eventindicator"] = NBA_EVENT_FLAG_ALL_STAR_GAME
-		if league == LEAGUE_NFL:
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_PRESEASON: kwargs["subseason"] = NFL_SUBSEASON_FLAG_PRESEASON
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_REGULAR_SEASON: kwargs["subseason"] = NFL_SUBSEASON_FLAG_REGULAR_SEASON
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_POSTSEASON:
-				kwargs["subseason"] = NFL_SUBSEASON_FLAG_POSTSEASON
-				# TODO: Identify Playoff Round/Superbowl
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR: kwargs["eventindicator"] = NFL_EVENT_FLAG_PRO_BOWL
-		if league == LEAGUE_NHL:
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_PRESEASON: kwargs["subseason"] = NHL_SUBSEASON_FLAG_PRESEASON
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_REGULAR_SEASON: kwargs["subseason"] = NHL_SUBSEASON_FLAG_REGULAR_SEASON
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_POSTSEASON:
-				kwargs["subseason"] = NHL_SUBSEASON_FLAG_POSTSEASON
-				# TODO: Identify Playoff Round/Stanley Cup
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR: kwargs["eventindicator"] = NHL_EVENT_FLAG_ALL_STAR_GAME
