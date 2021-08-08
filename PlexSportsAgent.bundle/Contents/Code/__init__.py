@@ -1,5 +1,7 @@
 # Python framework
 import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 from pprint import pprint
 
 from Constants import *

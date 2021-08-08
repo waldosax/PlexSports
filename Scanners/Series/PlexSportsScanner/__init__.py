@@ -1,4 +1,7 @@
 # Python framework
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 import re, os, os.path, random
 from pprint import pprint
 
