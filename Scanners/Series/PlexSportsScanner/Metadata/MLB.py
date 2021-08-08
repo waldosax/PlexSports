@@ -97,10 +97,6 @@ mlb_playoff_round_expressions = [
 	(__expressions_from_literal("World Series"), None, MLB_PLAYOFF_ROUND_WORLD_SERIES)
 	]
 
-MLB_EVENT_FLAG_HALL_OF_FAME = -1
-MLB_EVENT_FLAG_HOME_RUN_DERBY = 1
-MLB_EVENT_FLAG_ALL_STAR_GAME = 2
-
 # (expressions, event flag)
 # Ordered by more specific to less
 mlb_event_expressions = [
