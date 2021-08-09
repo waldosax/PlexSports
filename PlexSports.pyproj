@@ -493,6 +493,8 @@
     </Compile>
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\Caching.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\GetResultFromNetwork.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\MLB\MLBAPI.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\MLB\__init__.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\NFL\ProFootballReference.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\NFL\__init__.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\PathUtils.py" />
@@ -500,9 +502,11 @@
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\SportsDataIO.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\TheSportsDB.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\UserAgent.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\__init__.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\PathUtils.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\PluginSupport.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\Hashes.py" />
+    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\MLBAPI.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\ScheduleEvent.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\SportsDataIO.py" />
     <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\TheSportsDB.py" />
@@ -560,6 +564,11 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\RomanNumerals.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\Hashes.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\MLBAPI.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\ScheduleEvent.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\SportsDataIO.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\TheSportsDB.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Serialization.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams.py" />
@@ -592,6 +601,9 @@
     <Compile Include="Shared\Data\__init__.py" />
     <Compile Include="Shared\Matching.py" />
     <Compile Include="Shared\Schedules\Hashes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Schedules\MLBAPI.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Shared\Schedules\ScheduleEvent.py">
@@ -1944,6 +1956,7 @@
     <Folder Include="Debug\Plex\Objects" />
     <Folder Include="PlexSportsAgent.bundle\Contents\Code\Constants\" />
     <Folder Include="PlexSportsAgent.bundle\Contents\Code\Data\" />
+    <Folder Include="PlexSportsAgent.bundle\Contents\Code\Data\MLB\" />
     <Folder Include="PlexSportsAgent.bundle\Contents\Code\Data\NFL\" />
     <Folder Include="PlexSportsAgent.bundle\Contents\Code\Schedules\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Data\NFL\" />

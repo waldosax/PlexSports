@@ -2,6 +2,10 @@ import json
 import datetime
 from dateutil.parser import parse
 
+from Constants import *
+from ..UserAgent import *
+from ..GetResultFromNetwork import *
+
 MLBAPI_BASE_URL = "http://statsapi.mlb.com/api/v1/"
 
 MLBAPI_GET_ALL_TEAMS = "teams?sportId=1"
@@ -15,15 +19,6 @@ MLBAPI_GET_SCHEDULE = "schedule/games/?sportId=1&startDate=%s&endDate=%s" # (sea
 mlb_api_headers = {
 	"User-Agent": USER_AGENT
 }
-
-#TODO: Move to Schedules.py
-MLBAPI_GAMETYPE_SPRING_TRAINING = "S"
-MLBAPI_GAMETYPE_REGULAR_SEASON = "R"
-MLBAPI_GAMETYPE_WILDCARD_GAME = "F"
-MLBAPI_GAMETYPE_DIVISION_SERIES = "D"
-MLBAPI_GAMETYPE_LEAGUE_CHAMPIONSHIP_SERIES = "L"
-MLBAPI_GAMETYPE_WORLD_SERIES = "W"
-MLBAPI_GAMETYPE_CHAMPIONSHIP = "C"
 
 
 def DownloadAllTeams():
@@ -61,10 +56,10 @@ def DownloadScheduleForSeason(season):
 	seasonInfoJson = DownloadSeasonInfo(season)
 	seasonInfo = json.loads(seasonInfoJson)
 
-	startDate = seasonInfo["preSeasonStartDate"] if seasonInfo.get("preSeasonStartDate") else seasonInfo.get("regularSeasonStartDate")
-	endDate = seasonInfo["postSeasonEndDate"] if seasonInfo.get("postSeasonEndDate") else seasonInfo.get("regularSeasonEndDate")
+	startDate = seasonInfo["seasons"][0]["preSeasonStartDate"] if seasonInfo["seasons"][0].get("preSeasonStartDate") else seasonInfo["seasons"][0].get("regularSeasonStartDate")
+	endDate = seasonInfo["seasons"][0]["postSeasonEndDate"] if seasonInfo["seasons"][0].get("postSeasonEndDate") else seasonInfo["seasons"][0].get("regularSeasonEndDate")
 
-	now = datetime.now()
+	now = datetime.datetime.now()
 	if int(season) >= now.year:
 		shouldCache = False
 	elif parse(endDate) > now:

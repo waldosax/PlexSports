@@ -1,6 +1,6 @@
 import json
 
-#from Constants import *
+from Constants import *
 from Hashes import *
 from Matching import __strip_to_alphanumeric
 from StringUtils import *

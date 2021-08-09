@@ -37,8 +37,10 @@ class ScheduleEvent:
 		self.__key__ = None
 		self.TheSportsDBID = None
 		self.SportsDataIOID = None
+		self.MLBAPIID = None
 		if kwargs.get("TheSportsDBID"): self.TheSportsDBID = str(kwargs.get("TheSportsDBID")) 
 		if kwargs.get("SportsDataIOID"): self.SportsDataIOID = str(kwargs.get("SportsDataIOID")) 
+		if kwargs.get("MLBAPIID"): self.SportsDataIOID = str(kwargs.get("MLBAPIID")) 
 
 	def augment(self, **kwargs):
 		if not self.sport and kwargs.get("sport"): self.sport = deunicode(kwargs.get("sport"))
@@ -71,6 +73,7 @@ class ScheduleEvent:
 		
 		if not self.TheSportsDBID and kwargs.get("TheSportsDBID"): self.TheSportsDBID = str(kwargs.get("TheSportsDBID"))
 		if not self.SportsDataIOID and kwargs.get("SportsDataIOID"): self.SportsDataIOID = str(kwargs.get("SportsDataIOID"))
+		if not self.MLBAPIID and kwargs.get("MLBAPIID"): self.SportsDataIOID = str(kwargs.get("MLBAPIID"))
 		self.__augmentationkey__ = None
 		self.__key__ = None
 
