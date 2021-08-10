@@ -1,6 +1,7 @@
-import re, time, unicodedata, hashlib, types
+import re #, time, unicodedata, hashlib, types
 
 from Constants import *
+from StringUtils import *
 
 def __sort_by_len(x):
     return len(x)
@@ -9,22 +10,6 @@ def __sort_by_len_key(x):
 def __sort_by_len_value(x):
     return len(x[1])
 
-def __strip_parentheticals(s):
-    return s
-
-def __index_of(s, sub, start=0, end=None):
-    try:
-        return s.index(sub, start, end)
-    except ValueError:
-        return -1
-
-def __strip_to_alphanumeric_and_at(s):
-    (ret, grit) = Boil(s, ALPHANUMERIC_CHARACTERS_AND_AT)
-    return ret
-
-def __strip_to_alphanumeric(s):
-    (ret, grit) = Boil(s, ALPHANUMERIC_CHARACTERS)
-    return ret
 
 def __trim_word_separators(s):
     if not s:
@@ -98,7 +83,7 @@ def Boil(food, charset=ALPHANUMERIC_CHARACTERS_AND_AT):
     grit = [] # grit[index_in_boiled_string] = index_in_original_string
     for i in range(0, len(food)):
         c = food[i].lower()
-        if __index_of(charset, c) >= 0:
+        if indexOf(charset, c) >= 0:
             boiled += c
             grit.append(i)
     return (boiled, grit)
@@ -113,7 +98,7 @@ CHUNK_NEXT_FOOD_INDEX = 4
 
 def Taste(boiled, grit, search, startBoiledIndex=0):
     """Returns a chunk tuple with relevant indeces and lengths if search is found within the given boiled string."""
-    boiledIndex = __index_of(boiled, search, startBoiledIndex)
+    boiledIndex = indexOf(boiled, search, startBoiledIndex)
     if (boiledIndex >= 0):
         foodIndex = grit[boiledIndex]
         boiledLength = len(search)

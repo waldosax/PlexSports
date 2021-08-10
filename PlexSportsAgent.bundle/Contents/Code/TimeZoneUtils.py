@@ -10,9 +10,11 @@ EasternTime = gettz("America/New_York")
 
 
 def ParseISO8601Date(dateStr):
+	if isinstance(dateStr, (datetime.datetime, datetime.date)): return dateStr
 	return parse(dateStr)
 
 def ParseISO8601Time(dateStr):
+	if isinstance(dateStr, (datetime.datetime, datetime.date, datetime.time)): return dateStr
 	return parse(dateStr).time()
 
 def FormatISO8601Date(dt):

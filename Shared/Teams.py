@@ -4,11 +4,11 @@ import sys, os, json, re
 # Local package
 from Constants import *
 from Matching import *
-from Matching import __strip_to_alphanumeric
 from PathUtils import *
 from PluginSupport import *
 from Serialization import *
 from StringUtils import *
+from Vectors import *
 from Data import TheSportsDB, SportsDataIO
 from Data.CacheContainer import *
 from Data.NFL.ProFootballReference import *
@@ -34,6 +34,9 @@ data_corrections = {	# [League][OldAbbrev] = CurrentAbbrev
 		},
 	LEAGUE_MLB: {
 		"WAS": "WSH"
+		},
+	LEAGUE_NHL: {
+		"TB": "TBL"
 		}
 	}
 
@@ -146,18 +149,35 @@ def __download_all_team_data(league):
 	downloadedJson = TheSportsDB.DownloadAllTeamsForLeague(league)
 	sportsDbTeams = json.loads(downloadedJson)
 	for team in sportsDbTeams["teams"]:
-		abbrev = deunicode(team["strTeamShort"])
+		abbrev = deunicode(team.get("strTeamShort"))
+		key = str(abbrev)
+		name = deunicode(team["strTeam"])
+		fullName = deunicode(team["strTeam"])
+		city = None
+		if not abbrev:
+			if league == LEAGUE_NHL and deunicode(team.get("strAlternate")) == "Kraken ":
+				# Correcting a known data issue
+				print("Correcting data error in TheSportsDB.com data. Missing abbreviation for %s -> SEA" % (team.get("strTeam")))
+				abbrev = key = "SEA"
+				name = deunicode(team["strAlternate"].strip())
+				fullName = deunicode(team["strTeam"])
+				city = "Seattle"
+			else:
+				print("No abbbreviation for %s team %s (TheSportsDb.com)" % (team["strLeague"], team["strTeam"]))
+				continue
+		else: abbrev = abbrev.upper()
 		if league in data_corrections.keys():
-			if abbrev in data_corrections[league]:
-				newAbbrev = data_corrections[league][abbrev]
-				print("Correcting data error in TheSportsDB.com data. %s -> %s" % (abbrev, newAbbrev))
-				abbrev = newAbbrev
+			if key in data_corrections[league]:
+				newKey = data_corrections[league][key]
+				print("Correcting data error in TheSportsDB.com data. %s -> %s" % (key, newKey))
+				key = newKey
 		kwargs = {
 			"League": league,
-			"Key": abbrev,
+			"Key": key,
 			"Abbreviation": abbrev,
-			"Name": deunicode(team["strTeam"]),
-			"FullName": deunicode(team["strTeam"]),
+			"Name": name,
+			"FullName": fullName,
+			"City": city,
 			"SportsDBID": str(team["idTeam"])
 			}
 		__add_or_override_team(teams, **kwargs)
@@ -169,13 +189,22 @@ def __download_all_team_data(league):
 		print("%s: %s" % (sportsDataIoTeams["Code"], sportsDataIoTeams["Description"]))
 	elif isinstance(sportsDataIoTeams, list):
 		for team in sportsDataIoTeams:
+			key = abbrev = deunicode(team["Key"]).upper()
+			city = deunicode(team["City"])
+			name = deunicode(team["Name"])
+			fullName = deunicode(team.get("FullName")) or "%s %s" % (deunicode(city), deunicode(name))
+			if league in data_corrections.keys():
+				if key in data_corrections[league]:
+					newKey = data_corrections[league][key]
+					print("Correcting data error in TheSportsDB.com data. %s -> %s" % (key, newKey))
+					key = newKey
 			kwargs = {
 				"League": league,
-				"Key": deunicode(team["Key"]),
-				"Abbreviation": deunicode(team["Key"]),
-				"Name": deunicode(team["Name"]),
-				"FullName": deunicode(team.get("FullName")) or "%s %s" % (deunicode(team["City"]), deunicode(team["Name"])),
-				"City": deunicode(team["City"]),
+				"Key": key,
+				"Abbreviation": abbrev,
+				"Name": name,
+				"FullName": fullName,
+				"City": city,
 				"Conference": deunicode(team.get("Conference") or team.get("League")),
 				"Division": deunicode(team["Division"]),
 				"SportsDataIOID": str(team["TeamID"])
@@ -189,7 +218,7 @@ def __download_all_team_data(league):
 			(city, name, defunctAbbrev, mapAbbrev) = defunct_teams[league][key]
 			kwargs = {
 				"League": league,
-				"Key": key,
+				"Key": key.lower(),
 				"Abbreviation": defunctAbbrev,
 				"Name": name,
 				"FullName": "%s %s" % (city, name),
@@ -291,7 +320,7 @@ def __get_cities_with_multiple_teams(league, teams):
 	cities = dict()
 	for team in teams.values():
 		city = team.City
-		cityKey = __strip_to_alphanumeric(city)
+		cityKey = strip_to_alphanumeric(city)
 		if not team.Key[:1] == "~":
 			if cities.has_key(cityKey):
 				cities[cityKey] = True
@@ -308,9 +337,9 @@ def __get_city_variants(cityKey):
 
 	for c in known_city_aliases:
 		for i in range(len(c)):
-			if __strip_to_alphanumeric(c[i]) == cityKey:
+			if create_scannable_key(c[i]) == cityKey:
 				for j in range(len(c)):
-					variants.append(__strip_to_alphanumeric(c[j]))
+					variants.append(create_scannable_key(c[j]))
 				return variants
 
 	return variants
@@ -321,9 +350,9 @@ def __get_teams_keys(league, teams, multi_team_city_keys):
 	for team in teams.values():
 		key = team.Key
 		abbrev = team.Abbreviation
-		fullName = __strip_to_alphanumeric(team.FullName)
-		name = __strip_to_alphanumeric(team.Name)
-		city = __strip_to_alphanumeric(team.City)
+		fullName = create_scannable_key(team.FullName)
+		name = create_scannable_key(team.Name)
+		city = create_scannable_key(team.City)
 
 		if fullName:
 			keys.setdefault(fullName, key)
@@ -337,12 +366,15 @@ def __get_teams_keys(league, teams, multi_team_city_keys):
 						keys.setdefault(v, key)
 			if city not in multi_team_city_keys:
 				keys.setdefault(city, key)
-		
-		if key[0:1] == "~":
-			keys.setdefault(key.lower(), key)
 
-		keys.setdefault(abbrev.lower(), key)
+		if key[:1] == "~":
+			keys.setdefault("~" + create_scannable_key(key), key)
 
+		keys.setdefault(create_scannable_key(abbrev), key)
+
+	if league in data_corrections.keys():
+		for key in data_corrections[league].keys():
+			keys.setdefault(create_scannable_key(key), data_corrections[league][key])
 
 
 	return keys

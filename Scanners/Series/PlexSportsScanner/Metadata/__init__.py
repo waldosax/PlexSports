@@ -10,7 +10,6 @@ from Teams import *
 from Matching import __sort_by_len
 from Matching import __sort_by_len_key
 from Matching import __sort_by_len_value
-from Matching import __strip_to_alphanumeric_and_at
 import Teams
 import Matching
 import MLB
@@ -488,7 +487,7 @@ def __find_teams(fileName, teams, food, meta):
 			for expr in versus_expressions:
 				m = re.search(expr, btw, re.IGNORECASE)
 				if m:
-					boiledVs = __strip_to_alphanumeric_and_at(btw)
+					boiledVs = strip_to_alphanumeric_and_at(btw)
 					vs = boiledVs #m.string[m.start(): m.end()]   # "vs. " (0,3)
 
 					# Simulate a taste

@@ -31,33 +31,6 @@ class CacheContainer:
 			return self.__expiresOn <= datetime.datetime.utcnow()
 		return False
 
-	#@staticmethod
-	#def DefaultSerializationTransform(item):
-	#	"""Returns a JSON-serializable value/dictionary from a given item."""
-	#	if item == None: return None
-
-	#	if isinstance(item, (basestring, float, int, bool)):
-	#		return item
-
-	#	if isinstance(item, datetime.datetime):
-	#		return FormatISO8601Date(item)
-
-	#	if isinstance(item, list):
-	#		l = []
-	#		for li in val:
-	#			l.append(CacheContainer.DefaultSerializationTransform(li))
-	#		return l
-
-	#	serializable = dict()
-	#	if isinstance(item, dict): itemDict = item
-	#	else: itemDict = item.__dict__
-
-	#	for key in itemDict.keys()[0:]:
-	#		if not key[:2] == "__":
-	#			val = itemDict[key]
-	#			if not val == None:
-	#				serializable[key] = CacheContainer.DefaultSerializationTransform(val)
-	#	return serializable
 
 	
 

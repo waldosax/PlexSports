@@ -2,6 +2,7 @@ import datetime
 
 from Constants import *
 from TimeZoneUtils import *
+from Vectors import *
 
 
 SCHEDULE_HASH_INDEX_SPORT = 0
@@ -200,14 +201,10 @@ def sched_compute_hash(event):
 	return "|".join(molecules)
 
 def sched_compute_sport_hash(sport):
-	if not sport:
-		return None
-	return sport.lower()
+	return create_scannable_key(sport)
 
 def sched_compute_league_hash(league):
-	if not league:
-		return None
-	return league.lower()
+	return create_scannable_key(league)
 
 def sched_compute_season_hash(season):
 	if not season:
@@ -272,8 +269,6 @@ def sched_compute_time_hash(eventDate):
 	return eventDate.strftime("%H")
 
 def sched_compute_team_hash(abbrev):
-	if not abbrev:
-		return None
-	return abbrev.lower()
+	return create_scannable_key(abbrev)
 
 

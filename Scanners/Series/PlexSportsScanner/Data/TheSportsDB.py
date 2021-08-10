@@ -18,7 +18,7 @@ sportsdb_team_ids = {
 	LEAGUE_MLB: "4424",
 	LEAGUE_NBA: "4387",
 	LEAGUE_NFL: "4391",
-	LEAGUE_NHL: "4388"
+	LEAGUE_NHL: "4380"
 	}
 
 
@@ -36,7 +36,13 @@ def DownloadScheduleForLeagueAndSeason(league, season):
 		return None # TODO: Throw
 	print("Getting %s, %s schedule data from The SportsDB ..." % (league, season))
 	urlTemplate = THE_SPORTS_DB_BASE_URL + THE_SPORTS_DB_GET_SCHEDULE_FOR_SEASON
+	season_display = season
+	if league in [LEAGUE_NHL]:
+		seasonBegin = season
+		seasonEnd = str(int(season) + 1)
+		season_display = "%s-%s" % (seasonBegin, seasonEnd)
+
 	return GetResultFromNetwork(
-		urlTemplate % (THE_SPORTS_DB_API_KEY, sportsdb_team_ids[league], season),
+		urlTemplate % (THE_SPORTS_DB_API_KEY, sportsdb_team_ids[league], season_display),
 		the_sports_db_headers, True)
 

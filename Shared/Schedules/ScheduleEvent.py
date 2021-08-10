@@ -34,13 +34,18 @@ class ScheduleEvent:
 		self.banner = deunicode(kwargs.get("banner"))
 		self.preview = deunicode(kwargs.get("preview"))
 
+		self.__augmentationkey__ = None
 		self.__key__ = None
+
+		# TODO: May make this into its own separate shape, rather than continually extending ScheduleEvent
 		self.TheSportsDBID = None
 		self.SportsDataIOID = None
 		self.MLBAPIID = None
+		self.NHLAPIID = None
 		if kwargs.get("TheSportsDBID"): self.TheSportsDBID = str(kwargs.get("TheSportsDBID")) 
 		if kwargs.get("SportsDataIOID"): self.SportsDataIOID = str(kwargs.get("SportsDataIOID")) 
-		if kwargs.get("MLBAPIID"): self.SportsDataIOID = str(kwargs.get("MLBAPIID")) 
+		if kwargs.get("MLBAPIID"): self.MLBAPIID = str(kwargs.get("MLBAPIID")) 
+		if kwargs.get("NHLAPIID"): self.NHLAPIID = str(kwargs.get("NHLAPIID")) 
 
 	def augment(self, **kwargs):
 		if not self.sport and kwargs.get("sport"): self.sport = deunicode(kwargs.get("sport"))
@@ -73,7 +78,8 @@ class ScheduleEvent:
 		
 		if not self.TheSportsDBID and kwargs.get("TheSportsDBID"): self.TheSportsDBID = str(kwargs.get("TheSportsDBID"))
 		if not self.SportsDataIOID and kwargs.get("SportsDataIOID"): self.SportsDataIOID = str(kwargs.get("SportsDataIOID"))
-		if not self.MLBAPIID and kwargs.get("MLBAPIID"): self.SportsDataIOID = str(kwargs.get("MLBAPIID"))
+		if not self.MLBAPIID and kwargs.get("MLBAPIID"): self.MLBAPIID = str(kwargs.get("MLBAPIID"))
+		if not self.NHLAPIID and kwargs.get("NHLAPIID"): self.NHLAPIID = str(kwargs.get("NHLAPIID"))
 		self.__augmentationkey__ = None
 		self.__key__ = None
 

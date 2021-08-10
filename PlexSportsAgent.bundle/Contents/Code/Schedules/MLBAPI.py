@@ -2,9 +2,9 @@ import json
 
 from Constants import *
 from Hashes import *
-from Matching import __strip_to_alphanumeric
 from StringUtils import *
 from TimeZoneUtils import *
+from Vectors import *
 from ..Data.MLB.MLBAPI import *
 from ScheduleEvent import *
 
@@ -28,7 +28,7 @@ def GetSchedule(sched, teams, sport, league, season):
 		try: mlbApiSchedule = json.loads(downloadedJson)
 		except ValueError: pass
 
-	if mlbApiSchedule and mlbApiSchedule["dates"]:
+	if mlbApiSchedule and mlbApiSchedule.get("dates"):
 		for eventDate in mlbApiSchedule["dates"]:
 			dateGroup = eventDate["date"]
 			for schedEvent in eventDate["games"]:
@@ -43,8 +43,9 @@ def GetSchedule(sched, teams, sport, league, season):
 				else:
 					date = ParseISO8601Date(dateGroup)
 
-				homeTeamStripped = __strip_to_alphanumeric(deunicode(schedEvent["teams"]["home"]["team"]["name"]))
-				awayTeamStripped = __strip_to_alphanumeric(deunicode(schedEvent["teams"]["away"]["team"]["name"]))
+				# Teams from this API are full names, so teams dictionary is scanKeys
+				homeTeamStripped = create_scannable_key(schedEvent["teams"]["home"]["team"]["name"])
+				awayTeamStripped = create_scannable_key(schedEvent["teams"]["away"]["team"]["name"])
 				homeTeamKey = teams[homeTeamStripped] if teams.get(homeTeamStripped) else homeTeamStripped
 				awayTeamKey = teams[awayTeamStripped] if teams.get(awayTeamStripped) else awayTeamStripped
 

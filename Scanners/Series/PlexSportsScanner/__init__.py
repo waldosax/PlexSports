@@ -180,8 +180,8 @@ def __synthesize_episode_title(meta):
     if sport in supported_team_sports and league in known_leagues:
         homeTeam = meta.get(METADATA_HOME_TEAM_KEY)
         awayTeam = meta.get(METADATA_AWAY_TEAM_KEY)
-        homeTeamKey = Matching.__strip_to_alphanumeric(meta.get(METADATA_HOME_TEAM_KEY))
-        awayTeamKey = Matching.__strip_to_alphanumeric(meta.get(METADATA_AWAY_TEAM_KEY))
+        homeTeamKey = strip_to_alphanumeric(meta.get(METADATA_HOME_TEAM_KEY))
+        awayTeamKey = strip_to_alphanumeric(meta.get(METADATA_AWAY_TEAM_KEY))
 
         teams = Teams.GetTeams(league)
         keys = Teams.cached_team_keys[league]

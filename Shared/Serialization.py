@@ -8,12 +8,12 @@ def SerializationDefaults(item):
 	if isinstance(item, (basestring, float, int, bool)):
 		return item
 
+	if (isinstance(item, datetime.datetime)):
+		return FormatISO8601Date(item)
 	if (isinstance(item, datetime.date)):
 		return item.strftime("%Y-%m-%d")
 	if (isinstance(item, datetime.time)):
 		return FormatISO8601Time(item)
-	if (isinstance(item, datetime.datetime)):
-		return FormatISO8601Date(item)
 
 	if isinstance(item, list):
 		l = []

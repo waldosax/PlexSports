@@ -4,6 +4,7 @@ from Constants import *
 from Hashes import *
 from StringUtils import *
 from TimeZoneUtils import *
+from Vectors import *
 from ..Data.SportsDataIO import *
 from ScheduleEvent import *
 
@@ -27,8 +28,9 @@ def GetSchedule(sched, teams, sport, league, season):
 			print("%s: %s" % (sportsDataIOSchedule["Code"], sportsDataIOSchedule["Description"]))
 		elif isinstance(sportsDataIOSchedule, list):
 			for schedEvent in sportsDataIOSchedule:
-				homeTeamKey = deunicode(schedEvent["HomeTeam"])
-				awayTeamKey = deunicode(schedEvent["AwayTeam"])
+				# Teams from this API are abbreviations, so take as-is
+				homeTeamKey = create_scannable_key(schedEvent["HomeTeam"]).upper()
+				awayTeamKey = create_scannable_key(schedEvent["AwayTeam"]).upper()
 				if awayTeamKey == "BYE":
 					continue
 				homeTeam = teams[homeTeamKey]
@@ -47,9 +49,9 @@ def GetSchedule(sched, teams, sport, league, season):
 	
 				gameID = None
 				if schedEvent.get("GameKey"):
-					gameID = deunicode(schedEvent["GameKey"])
+					gameID = str(schedEvent["GameKey"])
 				if schedEvent.get("GameID"):
-					gameID = deunicode(schedEvent["GameID"])
+					gameID = str(schedEvent["GameID"])
 
 				kwargs = {
 					"sport": sport,

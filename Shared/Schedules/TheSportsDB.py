@@ -2,9 +2,9 @@ import json
 
 from Constants import *
 from Hashes import *
-from Matching import __strip_to_alphanumeric
 from StringUtils import *
 from TimeZoneUtils import *
+from Vectors import *
 from ..Data.TheSportsDB import *
 from ScheduleEvent import *
 
@@ -31,8 +31,9 @@ def GetSchedule(sched, teams, sport, league, season):
 
 	if sportsDbSchedule and sportsDbSchedule["events"]:
 		for schedEvent in sportsDbSchedule["events"]:
-			homeTeamStripped = __strip_to_alphanumeric(deunicode(schedEvent["strHomeTeam"]))
-			awayTeamStripped = __strip_to_alphanumeric(deunicode(schedEvent["strAwayTeam"]))
+			# Teams from this API are full names, so teams dictionary is scanKeys
+			homeTeamStripped = create_scannable_key(schedEvent["strHomeTeam"])
+			awayTeamStripped = create_scannable_key(schedEvent["strAwayTeam"])
 			homeTeamKey = teams[homeTeamStripped]
 			awayTeamKey = teams[awayTeamStripped]
 		

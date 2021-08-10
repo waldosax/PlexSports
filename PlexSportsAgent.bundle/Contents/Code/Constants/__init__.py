@@ -103,6 +103,3 @@ game_number_expressions = [
 
 DATA_PATH = r"Data/"
 DATA_PATH_LEAGUES = DATA_PATH + r"Leagues/"
-
-ALPHANUMERIC_CHARACTERS = "abcdefghijklmnopqrstuvwxyz0123456789"
-ALPHANUMERIC_CHARACTERS_AND_AT = ALPHANUMERIC_CHARACTERS + "@"

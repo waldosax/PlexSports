@@ -14,6 +14,7 @@ from ..Data.CacheContainer import *
 import Teams
 import TheSportsDB, SportsDataIO
 import MLBAPI
+import NHLAPI
 from ScheduleEvent import *
 
 CACHE_DURATION = 7
@@ -191,7 +192,7 @@ def Find(meta):
 
 	scan_hashes = event_scan[sport][league][season]
 	for scanKey in sorted(scan_hashes.keys()):
-		if indexOf(scanKey, "19931016") >= 0: print scanKey
+		#if indexOf(scanKey, "19931016") >= 0: print scanKey
 		m = re.search(expr, scanKey, re.IGNORECASE)
 		if m:
 			print(scanKey)
@@ -225,9 +226,17 @@ def GetSchedule(sport, league, season, download=False):
 	
 	if download == False: # Nab from cache
 		sched = __get_schedule_from_cache(sport, league, season)
+		if league == LEAGUE_NHL: # May need to do this for NFL as well (crosses year boundary)
+			retroSched = __get_schedule_from_cache(sport, league, str(int(season)-1))
+			for key in retroSched.keys():
+				sched.setdefault(key, retroSched[key])
    
 	else: # Download from APIs
 		sched = __download_all_schedule_data(sport, league, season)
+		if league == LEAGUE_NHL: # May need to do this for NFL as well (crosses year boundary)
+			retroSched = __download_all_schedule_data(sport, league, str(int(season)-1))
+			for key in retroSched.keys():
+				sched.setdefault(key, retroSched[key])
 
 	return sched
 
@@ -237,6 +246,8 @@ def __download_all_schedule_data(sport, league, season):
 
 	if league == LEAGUE_MLB:
 		MLBAPI.GetSchedule(sched, Teams.cached_team_keys[league], sport, league, season)
+	elif league == LEAGUE_NHL:
+		NHLAPI.GetSchedule(sched, Teams.cached_team_keys[league], sport, league, season)
 
 	TheSportsDB.GetSchedule(sched, Teams.cached_team_keys[league], sport, league, season)
 	SportsDataIO.GetSchedule(sched, teams, sport, league, season)
@@ -303,10 +314,15 @@ def __refresh_schedule_cache(sport, league, season):
 	schedule = __download_all_schedule_data(sport, league, season)
 	cached_schedules[sport][league][season] = schedule
 
+	def get_sortable_days_event_key(daysEvents):
+		return get_sortable_event_key(sorted(daysEvents.values())[0])
+	def get_sortable_event_key(event):
+		return FormatISO8601Date(event.date)
+
 	# Persist Cache
 	jsonEvents = []
-	for daysEvents in schedule.values():
-		for event in daysEvents.values():
+	for daysEvents in sorted(schedule.values(), key=get_sortable_days_event_key):
+		for event in sorted(daysEvents.values(), key=get_sortable_event_key):
 			jsonEvents.append(event)
 	cacheContainer = CacheContainer(jsonEvents, CacheType="%s%sSCHEDULE" % (league, season), Version=CACHE_VERSION, Duration=CACHE_DURATION)
 	__write_schedule_cache_file(sport, league, season, cacheContainer.Serialize())
