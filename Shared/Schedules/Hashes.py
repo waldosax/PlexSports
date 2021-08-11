@@ -266,6 +266,9 @@ def sched_compute_time_hash(eventDate):
 	if eventDate.tzinfo != None:
 		eventDate = eventDate.astimezone(tz=EasternTime)
 
+	if isinstance(eventDate, (datetime.datetime)) and not eventDate.time():
+		return None
+
 	return eventDate.strftime("%H")
 
 def sched_compute_team_hash(abbrev):

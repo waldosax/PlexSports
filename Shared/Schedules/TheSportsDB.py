@@ -1,3 +1,4 @@
+import re
 import json
 
 from Constants import *
@@ -43,13 +44,15 @@ def GetSchedule(sched, teams, sport, league, season):
 				# Relative to East Coast
 				date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
 			elif schedEvent.get("dateEvent") and schedEvent.get("strTime"):
-				date = ParseISO8601Date("%sT%s" % (schedEvent["dateEvent"], schedEvent["strTime"]))
-				## Zulu Time
-				#date = date.replace(tzinfo=UTC)
-				# Relative to East Coast
-				date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
+				timeStr = schedEvent["strTime"]
+				date = ParseISO8601Date("%sT%s" % (schedEvent["dateEvent"], timeStr))
+				if re.match(r"\d{2}:\d{2}:\d{2}", timeStr): # Already expressed in Zulu Time
+					date = date.replace(tzinfo=UTC)
+				else: # Relative to East Coast
+					date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
 			elif schedEvent.get("dateEvent") and not schedEvent.get("strTime"):
 				date = ParseISO8601Date(schedEvent["dateEvent"])
+				# Time-naive
 			elif schedEvent.get("strTimestamp"):
 				date = ParseISO8601Date(schedEvent["strTimestamp"])
 				# Zulu Time
@@ -77,18 +80,7 @@ def GetSchedule(sched, teams, sport, league, season):
 
 			event = ScheduleEvent(**kwargs)
 
-			hash = sched_compute_augmentation_hash(event)
-			subhash = sched_compute_time_hash(event.date)
-			#print("%s|%s" % (hash, subhash))
-			if not hash in sched.keys():
-				sched.setdefault(hash, {subhash:event})
-			else:
-				evdict = sched[hash]
-				if (not subhash in evdict.keys()):
-					sched[hash].setdefault(subhash, event)
-				else:
-					sched[hash][subhash].augment(**event.__dict__)
-
+			AddOrAugmentEvent(sched, event)
 
 
 

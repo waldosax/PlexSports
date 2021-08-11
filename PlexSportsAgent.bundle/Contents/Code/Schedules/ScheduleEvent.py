@@ -51,9 +51,16 @@ class ScheduleEvent:
 		if not self.sport and kwargs.get("sport"): self.sport = deunicode(kwargs.get("sport"))
 		if not self.league and kwargs.get("league"): self.league = deunicode(kwargs.get("league"))
 		if not self.season and kwargs.get("season"): self.season = deunicode(str(kwargs.get("season")))
-		if not self.date and kwargs.get("date"):
-			if isinstance(kwargs["date"], (datetime.datetime, datetime.date)): self.date = kwargs["date"]
-			elif isinstance(kwargs["date"], basestring) and IsISO8601Date(kwargs["date"]): self.date = ParseISO8601Date(kwargs["date"]).replace(tzinfo=UTC)
+
+		date = kwargs.get("date")
+		if isinstance(kwargs["date"], basestring) and IsISO8601Date(kwargs["date"]):
+			date = ParseISO8601Date(kwargs["date"]).replace(tzinfo=UTC)
+
+		# Augment date if missing or missing time
+		if not self.date and date:
+			self.date = date
+		elif self.date and not self.date.time() and date and date.time():
+			self.date = date
 		
 		if self.subseason == None and kwargs.get("subseason"): self.subseason = kwargs.get("subseason")
 		if self.playoffround == None and kwargs.get("playoffround"): self.playoffround = kwargs.get("playoffround")
@@ -66,9 +73,9 @@ class ScheduleEvent:
 		# TODO: fields for non team-based sports, like Boxing
 
 		# Additional metadata items (if provided)
-		if not kwargs.get("title"): self.title = deunicode(kwargs.get("title"))
-		if not kwargs.get("altTitle"): self.altTitle = deunicode(kwargs.get("altTitle"))
-		if not kwargs.get("description"): self.description = deunicode(kwargs.get("description"))
+		if not self.title: self.title = deunicode(kwargs.get("title"))
+		if not self.altTitle: self.altTitle = deunicode(kwargs.get("altTitle"))
+		if not self.description: self.description = deunicode(kwargs.get("description"))
 		if not self.network: self.network = deunicode(kwargs.get("network"))
 		if not self.poster: self.poster = deunicode(kwargs.get("poster"))
 		if not self.fanArt: self.fanArt = deunicode(kwargs.get("fanArt"))
@@ -123,3 +130,36 @@ class ScheduleEvent:
 
 		return output
 
+def AddOrAugmentEvent(sched, event):
+	hash = sched_compute_augmentation_hash(event)
+	subhash = sched_compute_time_hash(event.date)
+
+	#print("%s|%s" % (hash, subhash))
+	
+	evdict = None
+	if hash in sched.keys():
+		evdict = sched[hash]
+	else:
+		evdict = dict()
+		sched[hash] = evdict
+
+	if not subhash: # Time-naive
+		if evdict.keys() and not None in evdict.keys(): # If any time-aware, augment the 1st
+			for subhash in evdict.keys():
+				repl = evdict[subhash]
+				repl.augment(**event.__dict__)
+				break;
+		else: # Otherwise, add the time-naive
+			evdict[None] = event
+	else: # Time-aware
+		if subhash in evdict.keys(): # Times agree
+			evdict[subhash].augment(**event.__dict__)
+		elif None in evdict.keys(): # Augment and replace time-naive
+			repl = evdict[None]
+			repl.augment(**event.__dict__)
+			del(evdict[None])
+			evdict[subhash] = repl
+		else: # Must be a double-header. Append
+			evdict.setdefault(subhash, event)
+
+	pass

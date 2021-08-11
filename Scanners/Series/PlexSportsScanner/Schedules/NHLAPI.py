@@ -77,17 +77,7 @@ def GetSchedule(sched, teams, sport, league, season):
 
 				event = ScheduleEvent(**kwargs)
 
-				hash = sched_compute_augmentation_hash(event)
-				subhash = sched_compute_time_hash(event.date)
-				#print("%s|%s" % (hash, subhash))
-				if not hash in sched.keys():
-					sched.setdefault(hash, {subhash:event})
-				else:
-					evdict = sched[hash]
-					if (not subhash in evdict.keys()):
-						sched[hash].setdefault(subhash, event)
-					else:
-						sched[hash][subhash].augment(**event.__dict__)
+				AddOrAugmentEvent(sched, event)
 
 
 

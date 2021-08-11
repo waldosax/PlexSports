@@ -1,72 +1,99 @@
-import sys
-reload(sys)
-sys.setdefaultencoding("utf-8")
-import re, unicodedata
+import re
+import datetime
+from dateutil.parser import parse
+from dateutil.tz import *
 from pprint import pprint
 
-RE_UNICODE_CONTROL =  u'([\u0000-\u0008\u000b-\u000c\u000e-\u001f\ufffe-\uffff])' + \
-					  u'|' + \
-					  u'([%s-%s][^%s-%s])|([^%s-%s][%s-%s])|([%s-%s]$)|(^[%s-%s])' % \
-					  (
-						unichr(0xd800),unichr(0xdbff),unichr(0xdc00),unichr(0xdfff),
-						unichr(0xd800),unichr(0xdbff),unichr(0xdc00),unichr(0xdfff),
-						unichr(0xd800),unichr(0xdbff),unichr(0xdc00),unichr(0xdfff)
-					  )
+UTC = gettz("Etc/UTC")
+EasternTime = gettz("America/New_York")
 
 
-def deunicode(s):
-	if not s:
-		return s
-	return str(s).decode('utf-8', 'ignore').encode('utf-8')
-
-# Safely return vanilla text.
-def normalize(s):
-	if not s:
-		return s
-
-	# Precompose.
-	try: s = unicodedata.normalize('NFKD', s.decode('utf-8'))
-	except:
-		try: s = unicodedata.normalize('NFKD', s.decode(sys.getdefaultencoding()))
-		except:
-			try: s = unicodedata.normalize('NFKD', s.decode(sys.getfilesystemencoding()))
-			except:
-				try: s = unicodedata.normalize('NFKD', s.decode('ISO-8859-1'))
-				except:
-					try: s = unicodedata.normalize('NFKD', s)
-					except Exception, e:
-						pass
-
-	# Strip control characters.
-	if s:
-		s = re.sub(RE_UNICODE_CONTROL, '', s)
-
-	return s
-
-def stripdiacritics(s):
-	s = normalize(s)
-	return ''.join([c for c in s if not unicodedata.combining(c)])
-
-def strip_to_alphanumeric_and_at(s):
-	s = normalize(s).lower()
-	return ''.join([c for c in s if "L" in unicodedata.category(c) or "Nd" in unicodedata.category(c) or c == '@'])
-
-def strip_to_alphanumeric(s):
-	s = normalize(s).lower()
-	return ''.join([c for c in s if "L" in unicodedata.category(c) or "Nd" in unicodedata.category(c)])
 
 
-s = "@Montréal Canadiens"
-pprint(s)
-pprint(normalize(s))
-pprint(stripdiacritics(s))
-pprint(deunicode(stripdiacritics(s)))
-pprint(strip_to_alphanumeric_and_at(s))
-pprint(strip_to_alphanumeric(s))
-pprint(deunicode(strip_to_alphanumeric_and_at(s)))
+def ParseISO8601Date(dateStr):
+	if isinstance(dateStr, (datetime.datetime, datetime.date)): return dateStr
+	return parse(dateStr)
 
-pprint(unicodedata.category(u'a'))
-pprint(unicodedata.category(u'A'))
-pprint(unicodedata.category(u'8'))
-pprint(unicodedata.category(u'@'))
-pprint("L" in "Lu")
+def ParseISO8601Time(dateStr):
+	if isinstance(dateStr, (datetime.datetime, datetime.date, datetime.time)): return dateStr
+	return parse(dateStr).time()
+
+
+# Naive
+dt1 = ParseISO8601Date("2021-06-25T16:45:13")
+pprint(dt1)
+tm1 = dt1.time()
+pprint(tm1)
+if not tm1: print("Time is not truthy.")
+print
+
+dt2 = ParseISO8601Date("2021-06-25T00:00:00")
+pprint(dt2)
+tm2 = dt2.time()
+pprint(tm2)
+if not tm2: print("Time is not truthy.")
+print
+
+dt3 = ParseISO8601Date("2021-06-25")
+pprint(dt3)
+tm3 = dt3.time()
+pprint(tm3)
+if not tm3: print("Time is not truthy.")
+print
+
+
+# Aware
+dt4 = ParseISO8601Date("2021-06-25T16:45:13Z")
+pprint(dt4)
+tm4 = dt4.time()
+pprint(tm4)
+if not tm4: print("Time is not truthy.")
+print
+
+dt5 = ParseISO8601Date("2021-06-25T00:00:00Z")
+pprint(dt5)
+tm5 = dt5.time()
+pprint(tm5)
+if not tm5: print("Time is not truthy.")
+print
+
+dt6 = ParseISO8601Date("2021-06-25T00:00:00+0000")
+pprint(dt6)
+tm6 = dt6.time()
+pprint(tm6)
+if not tm6: print("Time is not truthy.")
+print
+
+
+# Aware (Explicitly UTC)
+dt7 = ParseISO8601Date("2021-06-25T16:45:13Z")
+dt7 = dt7.replace(tzinfo=UTC)
+pprint(dt7)
+tm7 = dt7.time()
+pprint(tm7)
+if not tm7: print("Time is not truthy.")
+print
+
+dt8 = ParseISO8601Date("2021-06-25")
+dt8 = dt8.replace(tzinfo=UTC)
+pprint(dt8)
+tm8 = dt8.time()
+pprint(tm8)
+if not tm8: print("Time is not truthy.")
+print
+
+dt9 = ParseISO8601Date("2021-06-25T00:00:00")
+dt9 = dt9.replace(tzinfo=UTC)
+pprint(dt9)
+tm9 = dt9.time()
+pprint(tm9)
+if not tm9: print("Time is not truthy.")
+print
+
+dt10 = ParseISO8601Date("2021-06-25T00:00:00Z")
+dt10 = dt10.replace(tzinfo=UTC)
+pprint(dt10)
+tm10 = dt10.time()
+pprint(tm10)
+if not tm10: print("Time is not truthy.")
+print
