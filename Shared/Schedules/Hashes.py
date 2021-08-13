@@ -29,7 +29,7 @@ def sched_compute_meta_scan_hash2(meta):
 	EXPRESSION_INDEX_EVENT_INDICATOR = 7
 	EXPRESSION_INDEX_GAME = 8
 
-	ANYTHING_EXPR = "(?:.*)"
+	ANYTHING_EXPR = "(.*?)"
 	PIPE_EXPR = r"\|"
 	OPTIONAL_EXPR = "?"
 
@@ -198,7 +198,8 @@ def sched_compute_meta_scan_hash2(meta):
 		else:
 			molecule = ""
 			atomOptional = False
-			if previousAtomUsed == True and groupName in optional_groups: atomOptional = True
+			#if previousAtomUsed == True and groupName in optional_groups: atomOptional = True
+			if groupName in optional_groups: atomOptional = True
 			if not index == EXPRESSION_INDEX_SEASON: molecule = molecule +  PIPE_EXPR
 			molecule = molecule + atom
 			molecule = "(?:" + molecule + ")" + (OPTIONAL_EXPR if atomOptional else "")
@@ -223,6 +224,7 @@ def sched_compute_meta_scan_hash2(meta):
 			previousAtomUsed = True
 			pass
 
+	expr = expr + "$"
 	repr = "|".join(elements)
 
 

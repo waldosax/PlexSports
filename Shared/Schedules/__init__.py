@@ -196,6 +196,10 @@ def Find(meta):
 	scan_hashes = dict()
 	for season in sorted(list(set(seasons)), reverse=True):
 		if not season: continue
+		if not event_scan: continue
+		if not event_scan.get(sport): continue
+		if not event_scan[sport].get(league): continue
+		if not event_scan[sport][league].get(season): continue
 		season_scan_hashes = event_scan[sport][league][season]
 		for key in sorted(season_scan_hashes.keys()):
 			scan_hashes.setdefault(key, season_scan_hashes[key])
@@ -268,26 +272,32 @@ def __get_schedule_from_cache(sport, league, season):
 		return None
 	if not league in known_leagues.keys():
 		return None
+
 	if not __schedule_cache_has_schedule(sport, league, season):
+
+		cached_schedules.setdefault(sport, dict())
+		cached_schedules[sport].setdefault(league, dict())
+		cached_schedules[sport][league].setdefault(season, dict())
+
 		if not __schedule_cache_file_exists(sport, league, season):
 			__refresh_schedule_cache(sport, league, season)
+			pass
 		else:
 
-			jsonEvents = []
+			events = []
 			cachedJson = __read_schedule_cache_file(sport, league, season) #TODO: Try/Catch
 			cacheContainer = CacheContainer.Deserialize(cachedJson, itemTransform=event_deserialization_item_transform)
 
 			if not cacheContainer or cacheContainer.IsInvalid(CACHE_VERSION):
 				events = __refresh_schedule_cache(sport, league, season)
+				pass
 			else:
 				events = cacheContainer.Items
 
 			if not events:
 				events = __refresh_schedule_cache(sport, league, season)
+				pass
 			else:
-				cached_schedules.setdefault(sport, dict())
-				cached_schedules[sport].setdefault(league, dict())
-				cached_schedules[sport][league].setdefault(season, dict())
 				schedule = dict()
 				for event in events:
 					hash = sched_compute_augmentation_hash(event)

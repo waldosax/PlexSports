@@ -1,8 +1,13 @@
+import datetime
 from MetadataKeys import *
 from MLB import *
 from NBA import *
 from NFL import *
 from NHL import *
+
+THIS_YEAR = datetime.datetime.now().year
+LAST_YEAR = THIS_YEAR - 1
+NEXT_YEAR = THIS_YEAR + 1
 
 SPORT_BASEBALL = "Baseball"
 SPORT_BASKETBALL = "Basketball"
