@@ -40,6 +40,9 @@ supported_series_sports = [
 	SPORT_HOCKEY
 	]
 
+# Leagues whose seasons cross over the new year's boundary
+year_boundary_leagues = [LEAGUE_NBA, LEAGUE_NFL, LEAGUE_NHL]
+
 #(Name, Sport)
 known_leagues = {
   LEAGUE_MLB: (LEAGUE_NAME_MLB, SPORT_BASEBALL),

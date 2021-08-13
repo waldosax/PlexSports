@@ -17,59 +17,223 @@ SCHEDULE_HASH_INDEX_DATE = 8
 SCHEDULE_HASH_INDEX_HOMETEAM = 9
 SCHEDULE_HASH_INDEX_AWAYTEAM = 10
 
-def sched_compute_meta_scan_hash(meta):
+def sched_compute_meta_scan_hash2(meta):
 
-	# Construct an expression
-	def construct_expression_fragment(key, molecule, value):
-		return r"(?P<%s>%s\:%s)(?:.*?)(?:\||$)?" % (key, molecule, re.escape(str(value)))
+	EXPRESSION_INDEX_SEASON = 0
+	EXPRESSION_INDEX_SUBSEASON = 1
+	EXPRESSION_INDEX_PLAYOFFROUND = 2
+	EXPRESSION_INDEX_WEEK = 3
+	EXPRESSION_INDEX_DATE = 4
+	EXPRESSION_INDEX_TEAM1 = 5
+	EXPRESSION_INDEX_TEAM2 = 6
+	EXPRESSION_INDEX_EVENT_INDICATOR = 7
+	EXPRESSION_INDEX_GAME = 8
 
-	molecules = []
-	atoms = []
+	ANYTHING_EXPR = "(?:.*)"
+	PIPE_EXPR = r"\|"
+	OPTIONAL_EXPR = "?"
+
+	atom_defs = [
+		("s", "season"),
+		("ss", "subseason"),
+		("pr", "playoffround"),
+		("wk", "week"),
+		("dt", "date"),
+		("tm", "team1"),
+		("tm", "team2"),
+		("ei", "eventindicator"),
+		("gm", "game")
+		]
+
+	#atom_group_name_defs = {
+	#	"season": "s",
+	#	"subseason": "ss",
+	#	"playoffround": "pr",
+	#	"week": "wk",
+	#	"date": "dt",
+	#	"team1": "tm",
+	#	"team2": "tm",
+	#	"eventindicator": "ei",
+	#	"game": "gm"
+	#	}
+
+	optional_groups = [
+		"subseason",
+		"playoffround",
+		"week",
+		"eventindicator",
+		"game"
+		]
+
+	# ss depends on s
+	# pr depends on ss
+	# wk depends on s+ss
+	# tm depends on dt
+	# gm depends on s+ss|s+pr|dt+tm+tm
+	dependencies = {
+		"subseason": [["season"]],
+		"playoffround": [["subseason"]],
+		"week": [["season", "subseason"]],
+		"team1": [["date"]],
+		"team2": [["team1"]],
+		"game": [["season", "subseason"], ["season", "playoffround"], ["date", "team1", "team2"], ["eventindicator"]],
+		}
+
+	# Construct a value expression
+	def construct_expression_fragment(groupName, atomName, value):
+		if isinstance(value, (list)):
+			if len(value) > 1:
+				escaped = []
+				for raw in value:
+					escaped.append("(?:%s)" % re.escape(raw))
+				valueExpression = "(?:%s)" % "|".join(escaped)
+			else:
+				valueExpression = re.escape(str(value[0]))
+		else:
+			valueExpression = re.escape(str(value))
+
+		return r"(?P<%s>%s\:%s)" % (groupName, atomName, valueExpression)
+
+	atoms = dict()
+	elements = []
 	
-	#molecules.append(construct_expression_fragment("sport", "sp", meta[METADATA_SPORT_KEY]))
-	#molecules.append(construct_expression_fragment("league", "lg", meta[METADATA_LEAGUE_KEY]))
-	
-	if meta.get(METADATA_SEASON_BEGIN_YEAR_KEY):
-		atom = meta[METADATA_SEASON_BEGIN_YEAR_KEY]
-		atoms.append("s:%s" % atom)
-		molecules.append(construct_expression_fragment("season", "s", atom))
+	league = meta.get(METADATA_LEAGUE_KEY)
+	season = str(meta[METADATA_SEASON_BEGIN_YEAR_KEY]) if meta.get(METADATA_SEASON_BEGIN_YEAR_KEY) else meta.get(METADATA_SEASON_KEY)
+	airdate = meta.get(METADATA_AIRDATE_KEY)
+	seasons = [season]
+
+	if not season and airdate:
+		season = str(airdate.year)
+		seasons = [season]
+
+	if league in year_boundary_leagues:
+		seasons += [str(int(season)-1)]
+
+	#(atomName, groupName) = atom_defs[EXPRESSION_INDEX_SPORT]
+	#elements.append(meta[METADATA_SPORT_KEY])
+	#atoms[groupName] = construct_expression_fragment(groupName, atomName, meta[METADATA_SPORT_KEY])
+	#(atomName, groupName) = atom_defs[EXPRESSION_INDEX_LEAGUE]
+	#elements.append(league)
+	#atoms[groupName] = construct_expression_fragment(groupName, atomName, league)
+
+	(atomName, groupName) = atom_defs[EXPRESSION_INDEX_SEASON]
+	atom = season
+	elements.append("%s:%s" % (atomName, atom))
+	atoms[groupName] = construct_expression_fragment(groupName, atomName, seasons)
+
+
+	(atomName, groupName) = atom_defs[EXPRESSION_INDEX_SUBSEASON]
 	if meta.get(METADATA_SUBSEASON_INDICATOR_KEY) != None:
 		atom = meta[METADATA_SUBSEASON_INDICATOR_KEY]
-		atoms.append("ss:%s" % atom)
-		molecules.append(construct_expression_fragment("subseason", "ss", atom))
+		elements.append("%s:%s" % (atomName, atom))
+		atoms[groupName] = construct_expression_fragment(groupName, atomName, atom)
+	else:
+		atoms[groupName] = None
+
+	(atomName, groupName) = atom_defs[EXPRESSION_INDEX_PLAYOFFROUND]
 	if meta.get(METADATA_PLAYOFF_ROUND_KEY):
 		atom = meta[METADATA_PLAYOFF_ROUND_KEY]
-		atoms.append("pr:%s" % atom)
-		molecules.append(construct_expression_fragment("playoffround", "pr", atom))
+		elements.append("%s:%s" % (atomName, atom))
+		atoms[groupName] = construct_expression_fragment(groupName, atomName, atom)
+	else:
+		atoms[groupName] = None
+
+	(atomName, groupName) = atom_defs[EXPRESSION_INDEX_WEEK]
 	if meta.get(METADATA_WEEK_KEY) != None:
 		atom = meta[METADATA_WEEK_KEY]
-		atoms.append("wk:%s" % atom)
-		molecules.append(construct_expression_fragment("week", "wk", atom))
+		elements.append("%s:%s" % (atomName, atom))
+		atoms[groupName] = construct_expression_fragment(groupName, atomName, atom)
+	else:
+		atoms[groupName] = None
+
+	(atomName, groupName) = atom_defs[EXPRESSION_INDEX_DATE]
 	if meta.get(METADATA_AIRDATE_KEY):
 		atom = sched_compute_date_hash(meta[METADATA_AIRDATE_KEY])
-		atoms.append("dt:%s" % atom)
-		molecules.append(construct_expression_fragment("date", "dt", atom))
+		elements.append("%s:%s" % (atomName, atom))
+		atoms[groupName] = construct_expression_fragment(groupName, atomName, atom)
+	else:
+		atoms[groupName] = None
+
+	(atomName, groupName) = atom_defs[EXPRESSION_INDEX_TEAM1]
 	if meta.get(METADATA_HOME_TEAM_KEY):
 		atom = meta[METADATA_HOME_TEAM_KEY]
-		atoms.append("tm:%s" % atom)
-		molecules.append(construct_expression_fragment("team1", "tm", atom))
+		elements.append("%s:%s" % (atomName, atom))
+		atoms[groupName] = construct_expression_fragment(groupName, atomName, atom)
+	else:
+		atoms[groupName] = None
+
+	(atomName, groupName) = atom_defs[EXPRESSION_INDEX_TEAM2]
 	if meta.get(METADATA_AWAY_TEAM_KEY):
 		atom = meta[METADATA_AWAY_TEAM_KEY]
-		atoms.append("tm:%s" % atom)
-		molecules.append(construct_expression_fragment("team2", "tm", atom))
+		elements.append("%s:%s" % (atomName, atom))
+		atoms[groupName] = construct_expression_fragment(groupName, atomName, atom)
+	else:
+		atoms[groupName] = None
+
+	(atomName, groupName) = atom_defs[EXPRESSION_INDEX_EVENT_INDICATOR]
 	if meta.get(METADATA_EVENT_INDICATOR_KEY) != None:
 		atom = meta[METADATA_EVENT_INDICATOR_KEY]
-		atoms.append("ei:%s" % atom)
-		molecules.append(construct_expression_fragment("eventindicator", "ei", atom))
+		elements.append("%s:%s" % (atomName, atom))
+		atoms[groupName] = construct_expression_fragment(groupName, atomName, atom)
+	else:
+		atoms[groupName] = None
+
+	(atomName, groupName) = atom_defs[EXPRESSION_INDEX_GAME]
 	if meta.get(METADATA_GAME_NUMBER_KEY):
 		atom = meta[METADATA_GAME_NUMBER_KEY]
-		atoms.append("gm:%s" % atom)
-		molecules.append(construct_expression_fragment("game", "gm", atom))
+		elements.append("%s:%s" % (atomName, atom))
+		atoms[groupName] = construct_expression_fragment(groupName, atomName, atom)
+	else:
+		atoms[groupName] = None
 
-	repr = "|".join(atoms)
-	expr = "".join(molecules)
+	expr = ""
+	previousAtomUsed = True
+	for index in range(EXPRESSION_INDEX_SEASON, EXPRESSION_INDEX_GAME+1):
+		(atomName, groupName) = atom_defs[index]
+		atom = atoms[groupName]
+		atomOptional = False
+		if atom == None:
+			if previousAtomUsed: expr = expr + ANYTHING_EXPR
+			previousAtomUsed = False
+		else:
+			molecule = ""
+			atomOptional = False
+			if previousAtomUsed == True and groupName in optional_groups: atomOptional = True
+			if not index == EXPRESSION_INDEX_SEASON: molecule = molecule +  PIPE_EXPR
+			molecule = molecule + atom
+			molecule = "(?:" + molecule + ")" + (OPTIONAL_EXPR if atomOptional else "")
+			if groupName in dependencies.keys():
+				b = []
+				for dependency in dependencies[groupName]:
+					a = ""
+					containsAllGroups = True
+					for backref in dependency:
+						if atoms[backref] == None:
+							containsAllGroups = False
+							break
+					if not containsAllGroups: continue
+					backrefs = dependency
+					backrefs.reverse()
+					for backref in backrefs:
+						a = "(?(%s)%s)" % (backref, a)
+					b.append(a)
+				molecule = "(?:" + "|".join(b) + ")" + molecule
+			
+			expr = expr + molecule
+			previousAtomUsed = True
+			pass
+
+	repr = "|".join(elements)
+
+
 
 	return (repr, expr)
+
+
+
+
+
+
 
 def sched_compute_scan_hashes(event):
 	molecules = []
@@ -131,9 +295,6 @@ def sched_compute_scan_hashes(event):
 
 	return molecules
 
-def sched_compute_scan_hash(event):
-	scanHashes = sched_compute_scan_hashes(event)
-	return scanHashes[0]
 
 def sched_compute_augmentation_hash(event):
 	molecules = []

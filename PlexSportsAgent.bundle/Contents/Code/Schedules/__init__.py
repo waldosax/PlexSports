@@ -59,6 +59,7 @@ def Find(meta):
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = str(meta[METADATA_SEASON_BEGIN_YEAR_KEY]) if meta.get(METADATA_SEASON_BEGIN_YEAR_KEY) else meta.get(METADATA_SEASON_KEY)
 	airdate = meta.get(METADATA_AIRDATE_KEY)
+	seasons = [season]
 
 	# ensure minimally-viable
 	if not league in known_leagues.keys():
@@ -72,14 +73,16 @@ def Find(meta):
 		print("Not enough information for a minimally-viable match; Invalid Season/Date.")
 		return results
 	elif not season and airdate:
-		# TODO: For now, let's assume that season is the same year as airdate.
-		#	We know for a fact it's not when season bleeds over a year boundary.
-		#	Ex: Superbowl is in February
-		season = airdate.year
+		season = str(airdate.year)
+		seasons = [season]
 
+	if league in year_boundary_leagues:
+		seasons += [str(int(season)-1)]
 
-	# Warm up cache if not already
-	GetSchedule(sport, league, season)
+	# Warm up cache(s) if not already
+	for season in sorted(list(set(seasons))):
+		if not season: continue
+		GetSchedule(sport, league, season)
 	
 
 	def compute_weight(league, m):
@@ -186,20 +189,28 @@ def Find(meta):
 		filtered.sort(reverse=True, key=results_sort_key)
 		return filtered
 
-	(repr, expr) = sched_compute_meta_scan_hash(meta)
+	(repr, expr) = sched_compute_meta_scan_hash2(meta)
 	print(repr)
 	print(expr)
 
-	scan_hashes = event_scan[sport][league][season]
-	for scanKey in sorted(scan_hashes.keys()):
+	scan_hashes = dict()
+	for season in sorted(list(set(seasons)), reverse=True):
+		if not season: continue
+		season_scan_hashes = event_scan[sport][league][season]
+		for key in sorted(season_scan_hashes.keys()):
+			scan_hashes.setdefault(key, season_scan_hashes[key])
+
+	for scanKey in sorted(scan_hashes.keys(), reverse=True):
 		#if indexOf(scanKey, "19931016") >= 0: print scanKey
 		m = re.search(expr, scanKey, re.IGNORECASE)
 		if m:
-			print(scanKey)
+
+
 			weight = compute_weight(league, m)
 			if weight <= 0: continue
 			else:
 				if weight > WEIGHT_SPORT + WEIGHT_LEAGUE + WEIGHT_SEASON:
+					print(scanKey)
 					results.append((weight, scan_hashes[scanKey], scanKey))
 
 	if results:
@@ -226,17 +237,9 @@ def GetSchedule(sport, league, season, download=False):
 	
 	if download == False: # Nab from cache
 		sched = __get_schedule_from_cache(sport, league, season)
-		if league == LEAGUE_NHL: # May need to do this for NFL as well (crosses year boundary)
-			retroSched = __get_schedule_from_cache(sport, league, str(int(season)-1))
-			for key in retroSched.keys():
-				sched.setdefault(key, retroSched[key])
-   
+
 	else: # Download from APIs
 		sched = __download_all_schedule_data(sport, league, season)
-		if league == LEAGUE_NHL: # May need to do this for NFL as well (crosses year boundary)
-			retroSched = __download_all_schedule_data(sport, league, str(int(season)-1))
-			for key in retroSched.keys():
-				sched.setdefault(key, retroSched[key])
 
 	return sched
 
