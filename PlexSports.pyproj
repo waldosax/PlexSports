@@ -6,7 +6,7 @@
     <ProjectGuid>{f216b525-ee0a-4921-960d-102021d785a7}</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>debug-agent.py</StartupFile>
-    <SearchPath>Backups;Debug;Scanners\Series;Scanners\Series\PlexSportsScanner;PlexSportsAgent.bundle\Contents\Code</SearchPath>
+    <SearchPath>Backups;Debug;Scanners\Series;Scanners\Series\PlexSportsScanner;Plug-ins\PlexSportsAgent.bundle\Contents\Code</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PlexSports</Name>
@@ -33,46 +33,46 @@
     <Compile Include="debug-agent.py" />
     <Compile Include="debug-scanner.py" />
     <Compile Include="localscanner.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Constants\Extensions.py">
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\Extensions.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Constants\MetadataKeys.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Constants\MLB.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Constants\NBA.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Constants\NFL.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Constants\NHL.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Constants\__init__.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\CacheContainer.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\Caching.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\GetResultFromNetwork.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\MLB\MLBAPI.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\MLB\__init__.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\NFL\ProFootballReference.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\NFL\__init__.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\NHL\NHLAPI.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\NHL\__init__.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\PathUtils.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\PlugInSupport.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\SportsDataIO.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\TheSportsDB.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\UserAgent.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Data\__init__.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Matching.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\PathUtils.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\PluginSupport.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\Hashes.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\MLBAPI.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\NHLAPI.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\ScheduleEvent.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\SportsDataIO.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\TheSportsDB.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Schedules\__init__.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Serialization.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\StringUtils.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Teams.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\TimeZoneUtils.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\Vectors.py" />
-    <Compile Include="PlexSportsAgent.bundle\Contents\Code\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\MetadataKeys.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\MLB.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\NBA.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\NFL.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\NHL.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\CacheContainer.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\Caching.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\GetResultFromNetwork.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\MLBAPI.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\ProFootballReference.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NHL\NHLAPI.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NHL\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\PathUtils.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\PlugInSupport.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\SportsDataIO.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\TheSportsDB.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\UserAgent.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Matching.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\PathUtils.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\PluginSupport.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\Hashes.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\MLBAPI.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\NHLAPI.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ScheduleEvent.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\SportsDataIO.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\TheSportsDB.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Serialization.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\StringUtils.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\TimeZoneUtils.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Vectors.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\__init__.py" />
     <Compile Include="python-tests.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\Extensions.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\MetadataKeys.py" />
@@ -148,16 +148,17 @@
   <ItemGroup>
     <Folder Remove="Backups\" />
     <Folder Remove="Debug\" />
-    <Folder Include="PlexSportsAgent.bundle\" />
-    <Folder Include="PlexSportsAgent.bundle\Contents\" />
-    <Folder Include="PlexSportsAgent.bundle\Contents\Code\" />
-    <Folder Include="PlexSportsAgent.bundle\Contents\Code\Constants\" />
-    <Folder Include="PlexSportsAgent.bundle\Contents\Code\Data\" />
-    <Folder Include="PlexSportsAgent.bundle\Contents\Code\Data\MLB\" />
-    <Folder Include="PlexSportsAgent.bundle\Contents\Code\Data\NFL\" />
-    <Folder Include="PlexSportsAgent.bundle\Contents\Code\Data\NHL\" />
-    <Folder Include="PlexSportsAgent.bundle\Contents\Code\Schedules\" />
-    <Folder Include="PlexSportsAgent.bundle\Contents\Code\__pycache__\" />
+    <Folder Include="Plug-ins\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NHL\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\__pycache__\" />
     <Folder Include="Scanners\" />
     <Folder Include="Scanners\Series\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\" />

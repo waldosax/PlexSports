@@ -9,7 +9,7 @@ set /A shareddirLength=%ERRORLEVEL%-5
 SET /A subdirStart=!shareddirLength!+1
 set curdir=
 
-SET agentcodepath=PlexSportsAgent.bundle\Contents\Code
+SET agentcodepath=Plug-ins\PlexSportsAgent.bundle\Contents\Code
 SET scannercodepath=Scanners\Series\PlexSportsScanner
 
 REM ECHO %shareddirLength%

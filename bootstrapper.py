@@ -39,8 +39,8 @@ def BootstrapAgent():
 	__add_to_builtins(MetadataSearchResult.MetadataSearchResult)
 
 	# Import the actual module
-	#__add_to_sys_path("PlexSportsAgent.bundle/Contents/Libraries/Shared")
-	__add_to_sys_path("PlexSportsAgent.bundle/Contents")
+	#__add_to_sys_path("Plug-ins/PlexSportsAgent.bundle/Contents/Libraries/Shared")
+	__add_to_sys_path("Plug-ins/PlexSportsAgent.bundle/Contents")
 	PlexSportsAgent = __import_module("Code", "PlexSportsAgent")
 
 	return PlexSportsAgent
