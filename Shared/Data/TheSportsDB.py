@@ -29,7 +29,7 @@ def DownloadAllTeamsForLeague(league):
 	urlTemplate = THE_SPORTS_DB_BASE_URL + THE_SPORTS_DB_GET_ALL_TEAMS_FOR_LEAGUE
 	return GetResultFromNetwork(
 		urlTemplate % (THE_SPORTS_DB_API_KEY, league),
-		the_sports_db_headers, True, cacheExtension=".json")
+		the_sports_db_headers, True, cacheExtension=EXTENSION_JSON)
 
 def DownloadScheduleForLeagueAndSeason(league, season):
 	if (league in known_leagues.keys() == False):
@@ -44,5 +44,5 @@ def DownloadScheduleForLeagueAndSeason(league, season):
 
 	return GetResultFromNetwork(
 		urlTemplate % (THE_SPORTS_DB_API_KEY, sportsdb_team_ids[league], season_display),
-		the_sports_db_headers, True, cacheExtension=".json")
+		the_sports_db_headers, True, cacheExtension=EXTENSION_JSON)
 

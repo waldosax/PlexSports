@@ -255,7 +255,7 @@ def __process_years_index_page():
 	print("Collecting all seasons/leagues ...")
 	selectors = pfr_years_index_selectors
 	url = PFR_BASE_URL + PFR_YEARS_INDEX
-	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=".html"), "html5lib")
+	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=EXTENSION_HTML), "html5lib")
 
 	lds = soup.select("%s %s" % (selectors["year-table"], selectors["league-defs"]))
 	foundLeagueDefs = False
@@ -323,7 +323,7 @@ def __process_nfl_season_page(year):
 	print("    Collecting all season information for %s season ..." % year)
 	selectors = pfr_year_index_selectors
 	url = PFR_BASE_URL + prf_year_hrefs[LEAGUE_NFL][year]
-	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=".html"), "html5lib")
+	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=EXTENSION_HTML), "html5lib")
 
 	pfr_schedule_weeks.setdefault(LEAGUE_NFL, dict())
 	pfr_schedule_weeks[LEAGUE_NFL].setdefault(year, dict())
@@ -439,7 +439,7 @@ def __process_nfl_schedule_page(year):
 	selectors = pfr_year_schedule_selectors
 	yearDict = pfr_schedule_weeks[LEAGUE_NFL][year]
 	url = PFR_BASE_URL + yearDict["href"]
-	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=".html"), "html5lib")
+	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=EXTENSION_HTML), "html5lib")
 
 	yearDict.setdefault("subseasons", dict())
 	pfr_teams.setdefault(LEAGUE_NFL, dict())
@@ -574,7 +574,7 @@ def __process_nfl_week_page(year, subseason, week):
 	selectors = pfr_week_index_selectors
 	weekDict = pfr_schedule_weeks[LEAGUE_NFL][year]["subseasons"][subseason][week]
 	url = PFR_BASE_URL + weekDict["href"]
-	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=".html"), "html5lib")
+	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=EXTENSION_HTML), "html5lib")
 
 	pfr_teams.setdefault(LEAGUE_NFL, dict())
 	weekDict.setdefault("events", dict())
@@ -655,7 +655,7 @@ def __process_nfl_game_page(event):
 	print("            Collecting game details for %s %s vs %s ..." % (event["date"].strftime("%m/%d/%Y"), event["homeTeam"], event["awayTeam"]))
 	selectors = pfr_game_selectors
 	url = PFR_BASE_URL + event["href"]
-	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=".html"), "html5lib")
+	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=EXTENSION_HTML), "html5lib")
 
 	metaItems = soup.select("%s %s %s" % (selectors["scorebox"], selectors["scorebox-meta"], selectors["scorebox-meta-item"]))
 	for metaItem in metaItems:
@@ -709,7 +709,7 @@ def __process_nfl_year_team_page(franchise, team):
 	print("    Collecting team info for the %s %s ..." % (team["year"], team["name"]))
 	selectors = pfr_team_selectors
 	url = PFR_BASE_URL + team["href"]
-	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=".html"), "html5lib")
+	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=EXTENSION_HTML), "html5lib")
 
 	if "logo" not in team.keys():
 		teamLogoSrc = soup.select(selectors["team-logo"])[0].attrs["src"]
@@ -748,7 +748,7 @@ def __get_franchise_current_logo(franchise):
 	if not franchise.get("logo"):
 		print("    Collecting franchise info for %s ..." % franchise["name"])
 		url = PFR_BASE_URL + franchise["href"]
-		soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=".html"), "html5lib")
+		soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=EXTENSION_HTML), "html5lib")
 
 		franchiseLogo = soup.select(pfr_franchise_selectors["franchise-logo"])
 		if franchiseLogo:
@@ -761,7 +761,7 @@ def __process_franchise_index_page():
 	print("Collecting all franchises/teams ...")
 	selectors = pfr_franchise_selectors
 	url = PFR_BASE_URL + PFR_TEAMS_INDEX
-	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=".html"), "html5lib")
+	soup = BeautifulSoup(GetResultFromNetwork(url, cacheExtension=EXTENSION_HTML), "html5lib")
 
 	pfr_teams.setdefault(LEAGUE_NFL, dict())
 

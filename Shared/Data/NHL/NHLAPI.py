@@ -28,7 +28,7 @@ def DownloadAllTeams():
 	urlTemplate = NHLAPI_BASE_URL + NHLAPI_GET_ALL_TEAMS
 	return GetResultFromNetwork(
 		urlTemplate,
-		nhl_api_headers, cacheExtension=".json")
+		nhl_api_headers, cacheExtension=EXTENSION_JSON)
 
 def DownloadTeamsForSeason(season):
 	print("Getting teams state for %s season from NHL API ..." % (season))
@@ -36,14 +36,14 @@ def DownloadTeamsForSeason(season):
 	urlTemplate = NHLAPI_BASE_URL + NHLAPI_GET_TEAMS_FOR_SEASON
 	return GetResultFromNetwork(
 		urlTemplate % (seasonBegin, seasonEnd),
-		nhl_api_headers, cacheExtension=".json")
+		nhl_api_headers, cacheExtension=EXTENSION_JSON)
 
 def DownloadTeamHistories(teamIds):
 	print("Getting team histories from NHL API ...")
 	urlTemplate = NHLAPI_BASE_URL + NHLAPI_GET_TEAMS_FOR_SEASON
 	return GetResultFromNetwork(
 		urlTemplate % (",".join(teamIds)),
-		nhl_api_headers, cacheExtension=".json")
+		nhl_api_headers, cacheExtension=EXTENSION_JSON)
 
 def DownloadSeasonInfo(season):
 	print("Getting %s season info from NHL API ..." % (season))
@@ -51,7 +51,7 @@ def DownloadSeasonInfo(season):
 	urlTemplate = NHLAPI_BASE_URL + NHLAPI_GET_SEASON
 	return GetResultFromNetwork(
 		urlTemplate % (seasonBegin, seasonEnd),
-		nhl_api_headers, cacheExtension=".json")
+		nhl_api_headers, cacheExtension=EXTENSION_JSON)
 
 def DownloadScheduleForSeason(season):
 	print("Getting schedule info for %s season from NHL API ..." % (season))
@@ -78,14 +78,14 @@ def DownloadScheduleForSeason(season):
 	urlTemplate = NHLAPI_BASE_URL + NHLAPI_GET_SCHEDULE
 	return GetResultFromNetwork(
 		urlTemplate % (startDate, endDate),
-		nhl_api_headers, cache=shouldCache, cacheExtension=".json")
+		nhl_api_headers, cache=shouldCache, cacheExtension=EXTENSION_JSON)
 
 def DownloadGameContentData(gameId):
 	print("Getting game content from NHL API ...")
 	urlTemplate = NHLAPI_BASE_URL + NHLAPI_GET_GAME_CONTENT
 	return GetResultFromNetwork(
 		urlTemplate % (gameId),
-		nhl_api_headers, cacheExtension=".json")
+		nhl_api_headers, cacheExtension=EXTENSION_JSON)
 
 
 def __nhlapi_expand_season(season):
