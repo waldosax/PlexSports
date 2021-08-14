@@ -21,7 +21,7 @@ RETRY_TIMEOUT = MIN_RETRY_TIMEOUT
 TOTAL_TRIES = 1
 BACKUP_TRIES = -1
 
-def GetResultFromNetwork(url, headers=None, autoResolveResponseBody=True, cache=True):
+def GetResultFromNetwork(url, headers=None, autoResolveResponseBody=True, cache=True, cacheExtension=None):
 	global successCount, failureCount, RETRY_TIMEOUT
 
 	url = requote_uri(url)
@@ -31,7 +31,7 @@ def GetResultFromNetwork(url, headers=None, autoResolveResponseBody=True, cache=
 	httpCachePath = None
 	httpCacheFilePath = None
 	if autoResolveResponseBody and cache:
-		responseBody = Caching.GetResponseFromCache(url)
+		responseBody = Caching.GetResponseFromCache(url, cacheExtension)
 		if responseBody: return responseBody
 
 
@@ -50,7 +50,7 @@ def GetResultFromNetwork(url, headers=None, autoResolveResponseBody=True, cache=
 				if autoResolveResponseBody:
 					responseBody = response.text
 					if cache and response.status_code == 200: # TODO: Account for ALL the 200 range status codes
-						Caching.CacheResponse(url, responseBody)
+						Caching.CacheResponse(url, responseBody, cacheExtension)
 
 				failureCount = 0
 				successCount += 1

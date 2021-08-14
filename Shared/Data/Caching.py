@@ -20,13 +20,13 @@ def __get_domain(url):
 	uri = urlparse(url)
 	return uri.netloc.lower()
 
-def GetHTTPLocalCachesPathForUrl(url):
+def GetHTTPLocalCachesPathForUrl(url, extension=None):
 	domain = __get_domain(url)
 	cacheKey = __get_cache_key(url)
 	localCachesPath = PluginSupport.GetHTTPLocalCachesPath()
-	return os.path.join(localCachesPath, domain, cacheKey[:2], cacheKey)
+	return os.path.join(localCachesPath, domain, cacheKey[:2], cacheKey) + extension
 
-def GetResponseFromCache(url):
+def GetResponseFromCache(url, extension=None):
 	httpCacheFilePath = GetHTTPLocalCachesPathForUrl(url)
 	#httpCachePath = os.path.dirname(httpCacheFilePath)
 	#PathUtils.EnsureDirectory(httpCachePath)
@@ -36,7 +36,7 @@ def GetResponseFromCache(url):
 		f.close()
 		if response: return response
 
-def CacheResponse(url, response):
+def CacheResponse(url, response, extension=None):
 	httpCacheFilePath = GetHTTPLocalCachesPathForUrl(url)
 	httpCachePath = os.path.dirname(httpCacheFilePath)
 	PathUtils.EnsureDirectory(httpCachePath)

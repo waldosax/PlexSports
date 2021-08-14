@@ -49,7 +49,7 @@ def __sports_data_io_download_all_teams_for_league(league):
 	headers = sports_data_io_headers.copy()
 	headers[SPORTS_DATA_IO_SUBSCRIPTION_KEY_NAME] = key
 	print("Getting %s teams data from SportsData.io ..." % league)
-	return GetResultFromNetwork(SPORTS_DATA_IO_GET_ALL_TEAMS_FOR_LEAGUE % (league, sports_data_io_api_keys[league]), headers, True)
+	return GetResultFromNetwork(SPORTS_DATA_IO_GET_ALL_TEAMS_FOR_LEAGUE % (league, sports_data_io_api_keys[league]), headers, True, cacheExtension=".json")
 
 
 def DownloadScheduleForLeagueAndSeason(league, season, subseason=None):
@@ -76,7 +76,7 @@ def DownloadScheduleForLeagueAndSeason(league, season, subseason=None):
 
 	def get_and_append_data(suffix, results):
 		print("Getting %s, %s%s schedule data from SportsData.io ..." % (league, season, suffix))
-		json = GetResultFromNetwork(sports_data_io_schedule_url_fragments[league] % (league, str(season) + suffix, sports_data_io_api_keys[league]), headers, True)
+		json = GetResultFromNetwork(sports_data_io_schedule_url_fragments[league] % (league, str(season) + suffix, sports_data_io_api_keys[league]), headers, True, cacheExtension=".json")
 		results.append (json)
 		pass
 
