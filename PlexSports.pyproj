@@ -100,13 +100,6 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\PathUtils.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\PluginSupport.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\RomanNumerals.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\Hashes.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\MLBAPI.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\NHLAPI.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\ScheduleEvent.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\SportsDataIO.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\TheSportsDB.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Schedules\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Serialization.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\StringUtils.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams.py" />
@@ -136,13 +129,6 @@
     <Compile Include="Shared\Matching.py" />
     <Compile Include="Shared\PathUtils.py" />
     <Compile Include="Shared\PluginSupport.py" />
-    <Compile Include="Shared\Schedules\Hashes.py" />
-    <Compile Include="Shared\Schedules\MLBAPI.py" />
-    <Compile Include="Shared\Schedules\NHLAPI.py" />
-    <Compile Include="Shared\Schedules\ScheduleEvent.py" />
-    <Compile Include="Shared\Schedules\SportsDataIO.py" />
-    <Compile Include="Shared\Schedules\TheSportsDB.py" />
-    <Compile Include="Shared\Schedules\__init__.py" />
     <Compile Include="Shared\Serialization.py" />
     <Compile Include="Shared\StringUtils.py" />
     <Compile Include="Shared\Teams.py" />
@@ -175,7 +161,6 @@
     <Folder Include="Scanners\Series\PlexSportsScanner\Data\NFL\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Data\NHL\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Metadata\" />
-    <Folder Include="Scanners\Series\PlexSportsScanner\Schedules\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\__pycache__\" />
     <Folder Include="Scanners\Series\__pycache__\" />
     <Folder Include="Shared\" />
@@ -184,7 +169,6 @@
     <Folder Include="Shared\Data\MLB\" />
     <Folder Include="Shared\Data\NFL\" />
     <Folder Include="Shared\Data\NHL\" />
-    <Folder Include="Shared\Schedules\" />
     <Folder Include="UnitTests\" />
     <Folder Include="UnitTests\Scanner\" />
     <Folder Include="UnitTests\Scanner\Metadata\" />
