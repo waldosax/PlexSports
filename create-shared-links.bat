@@ -19,9 +19,9 @@ REM ECHO %subdirStart%
 
 REM Push Plugin Support everywhere before recursing
 if not exist "%shareddir%\Data" mkdir "%shareddir%\Data" >nul
-if exist "%shareddir%\Data\PlugInSupport.py" del /F /Q "%shareddir%\Data\PlugInSupport.py" >nul
-if exist "%shareddir%\Data\PlugInSupport.pyc" del /F /Q "%shareddir%\Data\PlugInSupport.pyc" >nul
-mklink /H "%shareddir%\Data\PlugInSupport.py" "%shareddir%\PlugInSupport.py" >nul
+if exist "%shareddir%\Data\PluginSupport.py" del /F /Q "%shareddir%\Data\PluginSupport.py" >nul
+if exist "%shareddir%\Data\PluginSupport.pyc" del /F /Q "%shareddir%\Data\PluginSupport.pyc" >nul
+mklink /H "%shareddir%\Data\PluginSupport.py" "%shareddir%\PluginSupport.py" >nul
 
 REM Push Plugin Support everywhere before recursing
 if not exist "%shareddir%\Data" mkdir "%shareddir%\Data" >nul
