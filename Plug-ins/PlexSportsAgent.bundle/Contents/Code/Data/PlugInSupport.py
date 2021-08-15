@@ -2,7 +2,10 @@ import os
 
 APP_IDENTIFIER = "com.mayosolutions.plexsports"
 
-PLEX_HOME = "F:\\Code\\Plex\\" #TODO: Try to figure out how to consistently get this without hard-coding
+PLEX_HOME = "F:\\Code\\Plex\\PlexSports"
+#TODO: Try to figure out how to consistently get this without hard-coding
+#PLEX_HOME = os.path.expandvars("%PLEX_HOME%")
+
 #* '%LOCALAPPDATA%\Plex Media Server\'                                        # Windows Vista/7/8
 #* '%USERPROFILE%\Local Settings\Application Data\Plex Media Server\'         # Windows XP, 2003, Home Server
 #* '$HOME/Library/Application Support/Plex Media Server/'                     # Mac OS

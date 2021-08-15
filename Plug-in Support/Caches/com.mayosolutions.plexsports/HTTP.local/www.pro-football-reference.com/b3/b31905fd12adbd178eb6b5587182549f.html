@@ -1,0 +1,954 @@
+
+<!DOCTYPE html>
+<html data-version="klecko-" data-root="/home/pfr/build" itemscope itemtype="https://schema.org/WebSite" lang="en" class="no-js" >
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0" />
+    <link rel="dns-prefetch" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041" />
+<!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script type="text/javascript" async=true>
+    (function() {
+	var host = window.location.hostname;
+	var element = document.createElement('script');
+	var firstScript = document.getElementsByTagName('script')[0];
+	var url = 'https://quantcast.mgr.consensu.org'
+	    .concat('/choice/', 'XwNYEpNeFfhfr', '/', host, '/choice.js')
+	var uspTries = 0;
+	var uspTriesLimit = 3;
+	element.async = true;
+	element.type = 'text/javascript';
+	element.src = url;
+	
+	firstScript.parentNode.insertBefore(element, firstScript);
+	
+	function makeStub() {
+	    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+	    var queue = [];
+	    var win = window;
+	    var cmpFrame;
+	    
+	    function addFrame() {
+		var doc = win.document;
+		var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+		
+		if (!otherCMP) {
+		    if (doc.body) {
+			var iframe = doc.createElement('iframe');
+			
+			iframe.style.cssText = 'display:none';
+			iframe.name = TCF_LOCATOR_NAME;
+			doc.body.appendChild(iframe);
+		    } else {
+			setTimeout(addFrame, 5);
+		    }
+		}
+		return !otherCMP;
+	    }
+	    
+	    function tcfAPIHandler() {
+		var gdprApplies;
+		var args = arguments;
+		
+		if (!args.length) {
+		    return queue;
+		} else if (args[0] === 'setGdprApplies') {
+		    if (
+			args.length > 3 &&
+			    args[2] === 2 &&
+			    typeof args[3] === 'boolean'
+		    ) {
+			gdprApplies = args[3];
+			if (typeof args[2] === 'function') {
+			    args[2]('set', true);
+			}
+		    }
+		} else if (args[0] === 'ping') {
+		    var retr = {
+			gdprApplies: gdprApplies,
+			cmpLoaded: false,
+			cmpStatus: 'stub'
+		    };
+		    
+		    if (typeof args[2] === 'function') {
+			args[2](retr);
+		    }
+		} else {
+		    queue.push(args);
+		}
+	    }
+	    
+	    function postMessageEventHandler(event) {
+		var msgIsString = typeof event.data === 'string';
+		var json = {};
+		
+		try {
+		    if (msgIsString) {
+			json = JSON.parse(event.data);
+		    } else {
+			json = event.data;
+		    }
+		} catch (ignore) {}
+		
+		var payload = json.__tcfapiCall;
+		
+		if (payload) {
+		    window.__tcfapi(
+			payload.command,
+			payload.version,
+			function(retValue, success) {
+			    var returnMsg = {
+				__tcfapiReturn: {
+				    returnValue: retValue,
+				    success: success,
+				    callId: payload.callId
+				}
+			    };
+			    if (msgIsString) {
+				returnMsg = JSON.stringify(returnMsg);
+			    }
+			    event.source.postMessage(returnMsg, '*');
+			},
+			payload.parameter
+		    );
+		}
+	    }
+	    
+	    while (win) {
+		try {
+		    if (win.frames[TCF_LOCATOR_NAME]) {
+			cmpFrame = win;
+			break;
+		    }
+		} catch (ignore) {}
+		
+		if (win === window.top) {
+		    break;
+		}
+		win = win.parent;
+	    }
+	    if (!cmpFrame) {
+		addFrame();
+		win.__tcfapi = tcfAPIHandler;
+		win.addEventListener('message', postMessageEventHandler, false);
+	    }
+	};
+	
+	makeStub();
+	
+	var uspStubFunction = function() {
+	    var arg = arguments;
+	    if (typeof window.__uspapi !== uspStubFunction) {
+		setTimeout(function() {
+		    if (typeof window.__uspapi !== 'undefined') {
+			window.__uspapi.apply(window.__uspapi, arg);
+		    }
+		}, 500);
+	    }
+	};
+	
+	var checkIfUspIsReady = function() {
+	    uspTries++;
+	    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+		console.warn('USP is not accessible');
+	    } else {
+		clearInterval(uspInterval);
+	    }
+	};
+	
+	if (typeof window.__uspapi === 'undefined') {
+	    window.__uspapi = uspStubFunction;
+	    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+	}
+    })();
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+
+
+    <title>Pro Football &amp; NFL History | Pro-Football-Reference.com</title>
+
+    
+    
+    <meta name="Description" content="Pro Football &amp; NFL History">
+    <link rel="canonical" href="https://www.pro-football-reference.com/years/" />
+
+<!-- include:start ="/inc/klecko_header_pfr.html_f" -->
+<!-- no:cookie fast load the css.           -->
+<script>function gup(n) {n = n.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]'); var r = new RegExp('[\\?&]'+n+'=([^&#]*)'); var re = r.exec(location.search);   return re === null?'':decodeURIComponent(re[1].replace(/\+/g,' '));}; document.srdev = gup('srdev')</script>
+<link rel="preconnect" href="https://d2p3bygnnzw9w3.cloudfront.net" crossorigin>
+<link rel="preconnect" href="https://www.google-analytics.com"  crossorigin>
+<link rel="preconnect" href="https://www.googletagservices.com" crossorigin>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108132/js/pfr/sr-min.js" as="script" crossorigin>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108132/icons/sr_icons-min.svg?pfr" as="fetch" crossorigin>
+<link rel="preload"    href="https://www.pro-football-reference.com/short/inc/main_nav_menu.json" as="fetch" crossorigin>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/201604190/images/chosen-sprite.png" as="image" crossorigin>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108132/css/pfr/sr-min.css" as="style"    crossorigin>
+
+<!-- CSS start -->
+ <style>body{--use:20px;--doNotUse:0;--fsAncillary:var(--doNotUse)}[data-freestar-ad]{display:inline-flex;align-items:center;justify-content:center;width:100%;overflow:hidden;position:relative}[data-freestar-ad*="__fsAncillary"]{--fsAncillary:var(--use)}[data-freestar-ad*="__728x90"],[data-freestar-ad*="__970x90"]{--height:90px;height:90px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__300x250"],[data-freestar-ad*="__970x250"]{--height:250px;height:250px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__336x280"]{--height:280px;height:280px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__160x600"],[data-freestar-ad*="__300x600"]{--height:600px;height:600px;height:calc(var(--height)+var(--fsAncillary))!important}@media only screen and (min-device-width :320px) and (max-device-width :768px){[data-freestar-ad*="__300x50"],[data-freestar-ad*="__320x50"]{--height:50px;height:50px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__468x60"]{--height:60px;height:60px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__300x100"],[data-freestar-ad*="__320x100"]{--height:100px;height:100px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__300x250"]{--height:250px;height:250px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__336x280"]{--height:280px;height:280px;height:calc(var(--height)+var(--fsAncillary))!important}}html,body{margin:0;padding:0;font:14px/1.25 "Helvetica Neue",helvetica,arial,sans-serif;color:#000}html:not(.backstop){scroll-behavior:smooth}html:not(.backstop) div,html:not(.backstop) span{scroll-margin:2.5em 0 0 0;scroll-snap-margin:2.5em 0 0 0}body{position:relative;background:#c9cbcd;z-index:0;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none}a img{border:0}ul,li,ol{margin:0;padding:0;list-style-type:none}table th,table td{border:0}iframe{max-width:100%}code{background:#eee}a,button,input,select,textarea,label,summary{touch-action:manipulation;-ms-touch-action:manipulation}::selection{background:#ff0;text-shadow:none}html.no-js .hasmore,html.no-js .js,html.js .no-js,html.no-js button,html.is_build .hide_build,html.is_dev .hide_dev,html.is_live .hide_live{display:none!important}.js-select{visibility:hidden}a[href]{color:#34d}a[href]:visited{color:#848}a[href]:hover{color:#5e44b3}a[href]:active{color:#b12}a[href^="tel:"]::before{content:"\260E";display:inline-block;margin-right:0}a[href^="mailto:"]::before{content:"\2709";display:inline-block;margin-right:0}.icon_group a[href^="tel:"]:before,.icon_group a[href^="mailto:"]:before{content:""}.screen_only{display:initial}.user_logged_in .not_logged_in,.logged_in,.sr_cpi_control,.print_only{display:none}#perflog,#modernizr,.user_logged_in .logged_in{display:block}h2{color:#000;margin-bottom:5px;font-size:1.5em}img.right{float:right;margin:0 0 5px 5px}img.left{float:left;margin:0 15px 15px 0}sup{font-size:.75em;position:relative;top:-0.4em;vertical-align:baseline}#wrap{width:100%;background:#fff;position:relative}#wrap>div,#wrap>ul{width:100%;position:relative;clear:both}.hidden-iso,.hidden,#content .hidden,.gutterad,.more,.print_only,#warnings.hide,#nag_devs{display:none}#inner_nav.hidden{visibility:hidden}.float_wrap{overflow:hidden}.grid2{display:grid;grid-column-gap:10px;grid-template-columns:1fr 1fr}.grid2 img{max-width:100%}.grid2.heavyleft{grid-template-columns:2fr 1fr}.grid2.heavyright{grid-template-columns:1fr 2fr}#header{overflow:visible;background:#edefee;border-bottom:3px solid #008445;min-height:50px}#header img{height:25px;float:left;padding:8px 0 8px 2%;max-width:71%;max-width:calc(95% - 80px)}#header #nav_trigger{display:block;cursor:pointer;float:right;padding:7px 2% 7px 1%;height:30px}#header #nav_trigger a{color:#005228;font-size:20px;font-weight:bold;text-decoration:none;display:inline-block}#header #nav_trigger a:before{color:#005228;content:"\2630 ";font-weight:normal}#header #nav{display:none;clear:both;width:88%;background:#fff;padding:7px 6% 0;border-bottom:3px solid #005228;border-top:3px solid #005228;overflow:hidden;font-size:12px}#header #nav .usertools{font-weight:bold;font-size:12px;margin:0 0 4px;padding:7px 6% 0;border-top:1px solid #c9cbcd}#header #nav .breadcrumbs{font-size:12px;padding:7px 6%;border-top:1px solid #c9cbcd}#header #nav_trigger.open{background:#005228}#header #nav_trigger.open a{color:#fff}#header #nav_trigger.open a:before{color:#fff}#header #nav.open{display:block}#header .social{margin:15px 0;display:none}#header.open_search{margin-bottom:50px}#header #subnav{display:none}#translations{background-color:#ffa;padding:4px 0;text-align:center;display:none}#translations.show{display:block}#translations .closer{top:4px}#translations .langs{display:inline-block}#translations .links{margin:0 35px 0 0}#translations .links>div{display:inline-block}#translations .links .welcome{font-weight:bold}#header .search{margin-top:10px;clear:both;padding:0 2% 6px}#header .search input,#header .search input:active,#header .search input:focus{height:32px;font-size:20px}.search input[type="search"]{padding:4px 5px;border:#747678 1px solid;width:73%;margin-right:2%}.search input[type="search"].prefilled{background-color:#ffa}.search input[type="submit"]{float:right;background:#005228;color:white;border:1px solid #747678;padding:0;border-radius:5px;height:24px;width:25%;width:calc(25% - 2px)}.search input[type="submit"]:hover{text-decoration:underline}.search input[type="submit"]:active{background-color:#404542}.search .ac-outline{width:73%;margin-right:2%}.search .ac-outline input[type="search"]{width:100%;margin:0}@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width:400px){#header .search input,#header .search input:active,#header .search input:focus{height:32px;font-size:20px}}#wrap>#info{width:96%;margin:0 auto;padding-bottom:10px}#info .opener,#info .opener:active,#inner_nav div .opener{color:#900;font-weight:bold;clear:both;width:100%;text-align:left;padding:10px 0;border:0;background:transparent}#info button#meta_more_button{border:1px solid #c9cbcd;background-color:#edefee;padding:.5em;margin:.5em 0;text-align:center;width:100%;max-width:400px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display:none}#info button#meta_more_button.show{display:inline-block}#info #meta>div>p:nth-child(n+6){display:none}#info.open #meta>div>p:nth-child(n+6){display:block}#info #meta .opener{display:none}#info #meta{margin-top:10px;overflow:hidden}#info #meta p{font-size:.93em;margin:3px 0}#info #meta>div.media-item{float:right;margin-left:10px;width:70px}#info #meta>div.media-item.country{width:100px;height:75px}#info #meta>div.media-item.country .flag{width:100%;height:100%;background-size:100%}#info .media-item img{width:100%;height:auto;border:1px solid black;box-sizing:border-box}#info .media-item img.additional{display:none}#info .media-item.logo img,.bbr #info .media-item img,.cbb #info .media-item img{border:0}#info #meta .media-item p{margin:3px 0;font-size:.785em;font-style:italic}#info #meta .media-item.loader p{visibility:hidden}#info h1{margin-top:0;margin-bottom:5px;line-height:1.1em;font-size:1.5em}#info h1+p{margin-top:5px}#info #bling{margin:6px 1% 6px 0;color:#fff;height:24px;overflow:hidden;float:left;width:88%;display:grid;grid-gap:5px 4px;grid-template-columns:repeat(auto-fill,minmax(100px,1fr))}#info.teams #bling{width:100%}#info #bling li{padding:4px 1.25%;text-align:center;position:relative;height:15px;background:#005228;font-size:.85em;word-spacing:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:5px;display:inline-block;width:27%;margin-bottom:5px}#info.teams #bling li{width:45%}#bling li a{color:inherit}#info #bling li.bling_hof{background-color:#ffdb1c;color:#000}#info #bling li.bling_all_star{background-color:#c9cbcd;color:#404542}#info #bling li.bling_hof,#info.teams #bling li.bling_all_star,#info.teams #bling li.bling_champ{grid-column-end:span 2}#info #bling li.important{grid-column-end:span 2}#info #bling li.special{background-color:#ffdb1c;color:#000}#info #bling li.all_star{background-color:#c9cbcd;color:#404542}#info.open #bling{height:auto;width:100%;margin-right:0;float:none;overflow:visible}@supports(display:grid){#info #bling li,#info.open #bling li,#info.teams #bling li{width:auto!important;margin-bottom:0!important}}.uni_holder{margin:3px 0;float:none;width:100%;position:relative}#info .uni_holder{float:left}#bling+.uni_holder{width:11%}#info.open #bling+.uni_holder{width:100%;overflow:visible;float:none;margin-bottom:5px}.uni_holder>a{display:inline-block;position:relative;height:auto;width:28px;margin-bottom:3px;margin-right:.3em;text-decoration:none;overflow:hidden}.uni_holder svg{height:28px;width:28px}.uni_holder svg.jersey{height:35px}.uni_holder svg text{font-size:1.8em;font-weight:bold}.uni_holder svg text.string{font-size:1.3em}.uni_holder svg.jersey text{font-size:1.5em}.uni_holder svg.jersey text.string{font-size:.7em}#info #bling+.uni_holder>a{display:none}#info .uni_holder>a.default,#info.open .uni_holder>a,#info #bling+.uni_holder>a.default{display:inline-block}#info .uni_holder .counter{display:none;position:absolute;height:14px;width:18px;border-radius:50%;color:#fff;font-weight:bold;font-size:10px;top:-4px;left:18px;background:black;text-align:center;border:0;padding:4px 0 0;cursor:pointer;text-overflow:inherit}#info .uni_holder .counter:after{content:'';padding:0;font-size:0}#info #bling+.uni_holder .counter{display:block}#info.open #bling+.uni_holder .counter{display:none}#info.open #bling+.uni_holder>a{display:inline-block}#info.open .uni_holder>a{display:inline-block;width:33px}#info.open .uni_holder svg{height:33px;width:33px}#info.open .uni_holder svg.jersey{height:41px}.stats_pullout{overflow:hidden;text-align:center;width:96%;margin:0 auto 15px 0;padding-top:6px}.stats_pullout>div{float:left}.stats_pullout>div:first-child{text-align:left}.stats_pullout>div.p2,.stats_pullout>div.p3{display:none}.stats_pullout>div>div{float:left;margin-left:15px}.stats_pullout>div>div.p2{display:none}.stats_pullout>div:first-child>div{margin-left:0}.stats_pullout span,.stats_pullout h4{color:#900;margin:2px 0;font-size:.785714286em;text-align:center}.stats_pullout p{margin:2px 0;font-size:1.1em}.stats_pullout .caption{clear:both;text-align:left}@media screen and (min-width:520px){.stats_pullout>div.p2{display:block}}@media screen and (min-width:600px){.stats_pullout>div{border-left:1px solid #c9cbcd;margin-left:10px}.stats_pullout>div:first-child{border-left:none;margin-left:0}}@media screen and (min-width:736px){.stats_pullout>div.p2{display:none}}@media screen and (min-width:800px){.stats_pullout>div.p2{display:block}.stats_pullout>div>div.p2{display:block}}.opener{cursor:pointer;position:relative;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.opener:after{content:"\25BC";font-size:.75em;padding-left:5px;display:inline-block;text-decoration:none}.opener.open:after{content:"\25B2"}.note .opener{white-space:normal}.toggleable{display:none}.toggleable.open{display:block}tr.toggleable.open{display:table-row}table.toggleable.open{display:table}span.toggleable.open{display:inline}.hoverer{cursor:pointer}.hoverer:after{content:"\25BC";position:absolute;top:7px;right:0}html.no-touchevents .hoverer:hover:after{content:"\25B2"}ul.news_stories>li{margin:5px 10px 0 0;float:none}ul.news_stories.more{display:none}ul.news_stories.more.open{display:block}.bullets{padding-left:20px}.bullets>li{margin-left:0;margin-bottom:6px}ul.bullets>li{list-style-type:disc}ol.bullets>li{list-style-type:decimal}.bullets-inline>li{display:inline-block;margin-right:9px;margin-bottom:10px}.bullets-inline>li:after{content:"\00B7";margin-left:9px}.bullets-inline>li:last-child:after{content:"";margin-left:0}.bullets-inline>li.logged_in{display:none}.user_logged_in .bullets-inline>li.logged_in{display:inline-block}.desc{font-style:italic;font-size:.93em}.hilite{background-color:#ffa}.modified,.modified *{background-color:#f5f5f5}tr.hilite th,tr.hilite td{background-color:#ffa}.callout{margin:10px 0;padding:10px 15px;border:1px solid #aaa;background:#404542;color:#c9cbcd;font-size:1.1em}.callout a{color:#b3beff}.callout a:visited,.callout a:active{color:#a4adff}.callout a:hover,.callout a:visited:hover,.callout a:active:hover{color:#c4cfff}.callout.light{border-color:#747678;background:#eee;color:#404452}.callout.light a{color:#34d}.callout.light a.button,.callout.light a.button:hover{color:white}.callout.light a:hover{color:#5e44b3}.callout.light h3{background-color:transparent}#content>.notables{background-color:#ffa;border:1px dotted #747678;margin:0 auto;padding:6px;text-align:center;width:auto;max-width:500px;font-size:.93em;display:table}.notables li{margin-top:8px}.notables li:first-child{margin-top:0}.note{color:#444;font-size:.92em}.header{font-weight:bold;font-size:1.16em}.pagelog{width:90%;overflow:scroll}.preformatted-desc{width:90%;overflow:auto}.callout.stathead_player_highlight{background:#fff;border:1px solid #7e3e89;text-align:center}.stathead_player_highlight .cta{font-size:90%}.stathead_player_highlight .button.stathead_button{background-color:#7e3e89;display:none}.stathead_player_highlight img{max-width:300px}.stathead_player_highlight .stathead_player_highlight_content>div:first-child{margin-bottom:.25em}@media screen and (min-width:736px){.callout.stathead_player_highlight{display:grid;grid-template-columns:minmax(205px,1fr) 4fr minmax(175px,1fr);grid-column-gap:10px;align-items:center}.stathead_player_highlight .button.stathead_button{display:block}.stathead_player_highlight img{width:100%}}#info .adblock{display:none}.adblock{overflow:hidden}.adblock>p{font-size:.93em;margin:2px 0}.adblock img{display:block;margin:0 auto}.adblock{background-color:white;text-align:center}.adblock.ad728{display:none}body.hr #srcom .adblock.ad728{display:block}.adblock.ad300{padding:10px}.adblock.grouped{float:left;padding:0}.adblock.ad300.grouped{float:none;padding:10px}.adblock.rails{display:none}#div-gpt-ad-728x90-BTF-1{max-height:340px}@media screen and (min-width:481px){.adblock.ad300{padding:10px 0}}@media screen and (min-width:800px){.adblock.ad728{display:block;float:none;margin-bottom:10px}.adblock.ad300{display:none}.adblock.grouped.ad728{display:none}.adblock.grouped.ad300{float:left;width:320px;background:0;padding:0;display:block}}@media screen and (min-width:1810px){.adblock.rails{display:block;height:600px;width:160px;background-color:transparent;position:absolute;top:96px}.adblock.rails.left{left:0}.adblock.rails.right{right:0}}@media screen and (max-width:330px){.adblock{padding:0}.adblock.grouped{padding:0}.adblock.ad300.grouped{padding:0}}.button{background-color:#005228;padding:10px 15px;color:white;text-decoration:none;display:inline-block;text-align:center;font-size:1.1em;margin:10px 0;border-radius:5px;cursor:pointer}.button.stathead_button{background-color:#7e3e89}.button:active,.button:visited,a.button,a.button:visited,a.button:hover{color:white}.button.alt{background:#008445;border:#747678 1px solid;display:block}.button.mini{font-size:.8em;padding:4px 8px;cursor:auto}button.tooltip,button.modal{background:transparent;border:0;text-align:left;padding:0;color:#900}.button2{display:inline-block;border:1px solid #c9cbcd;border-radius:3px;background-color:#edefee;font-size:.93em;font-weight:normal;margin:0 8px 0 0;padding:8px 12px;width:auto;text-align:center}#meta .button2{font-size:.785714286em;margin:0 6px 0 0;padding:8px 7px}.button2[href]{text-decoration:none}.button2.next{text-align:right}.button2.prev{text-align:left}.button2.index,.button2.index:hover,.button2.index:active,.button2.index:visited{background-color:#404542;color:#fff}.button2.index:hover{color:#ccc}.button2.current{text-align:left;background-color:#fff;border:0;font-weight:bold;padding-left:0;padding-right:0;margin-left:-8px;margin-right:0}.button2:last-child{margin-right:0}.button2.next:after{content:"\203A\203A";padding-left:6px;color:black}.button2.prev:before{content:"\2039\2039";padding-right:6px;color:black}#info_box div.prevnext{margin-left:1em}.prevnext{margin:10px 0 15px 0}#content .prevnext>*{margin:.25em}#header #main_nav{color:#404542;overflow:hidden}#header #main_nav>li{border-top:1px solid #c9cbcd}#header #main_nav>li:first-child{border-top:0}#header #main_nav>li>a{display:block;padding:8px 0 8px 6%;font-weight:bold;text-decoration:none;font-size:1.4em}html.no-touchevents #header #main_nav>li:active{background-color:#404542}#header #main_nav>li:active>a{color:#edefee}#header #main_nav li.current{background-color:#005228}#header #main_nav li.current>a{color:#edefee}#header #main_nav h4{margin:4px 0}#header #main_nav h4:first-child{margin-top:0}#header #main_nav .nm{display:none}#header #main_nav>li>div{display:none;width:98%;position:absolute;top:100%;left:0;z-index:200;border-top:1px solid #404542;padding:1%;background:#fff;font-size:14px;font-weight:normal;box-shadow:0 6px 12px -3px #404542;color:black}#header #main_nav>li.drophover>div{display:block;line-height:initial}#main_nav td{padding:3px}#main_nav .end_links{clear:both}#main_nav .list{margin:0 0 8px;padding:3px;overflow-x:hidden;text-overflow:ellipsis}#main_nav div.list span{font-weight:bold;display:inline-block}#header_leaders div.list span{min-width:70px}#main_nav .game_summary td{padding:1px}@media screen and (max-width:1019px){#header #main_nav>li>div.mobile_list{display:block;position:relative;top:auto;box-shadow:none;border:0;padding:0 0 0 12%}#header #main_nav>li>div.mobile_list strong.desc{display:none}#header #main_nav>li>div.mobile_list div.list{width:90%;line-height:2em}}.ac-outline{display:inline-block}.ac-wrapper{position:relative}.ac-prompt{position:absolute;font-size:16px;color:#404542;top:0;left:0;overflow:hidden;background:transparent}.ac-input:focus,.ac-input:active,.ac-hint:focus,.ac-input,.ac-hint{font-size:16px;background-color:#fff;width:100%;outline:0;border:0;margin:0;padding:0}.ac-input:focus,.ac-input:active,.ac-input{background-color:transparent}.ac-input{vertical-align:top;position:relative;color:#404542}.ac-hint{position:absolute;top:0;left:0;border-color:transparent;box-shadow:none;color:#747678}.ac-dropdown{position:absolute;visibility:hidden;padding:.5em 0;font-size:16px;background-color:#fff;z-index:100;cursor:default;overflow-x:hidden;overflow-y:scroll;width:calc(100% - 2px);border:#aaa 1px solid;border-top:0}.ac-dropdown>div:first-of-type>.ac-results-header{padding-top:0}.ac-results-header{font-size:1em;padding:.35em .5em;font-weight:700}.ac-suggestion{cursor:pointer;padding:.35em 1em;font-size:1em;line-height:1em;border-top:1px solid #fff;border-bottom:1px solid #fff}.ac-suggestion p{margin:0}.ac-suggestion.active,.ac-suggestion.active .search-results-item{color:#b12;font-weight:bold}.search-results-item em{font-style:normal;border-bottom:1px dotted}.ac-suggestion.ac-is-under-cursor,html.no-touchevents .ac-suggestion:hover{border-top:1px solid #aaa!important;border-bottom:1px solid #aaa!important;background-color:#ffa!important}.ac-suggestion .subhead{margin-left:.5em;padding-top:.25em;display:block;font-size:.75em}.ac-suggestion-other-search{font-size:1em;line-height:1.2em;padding-left:.5em;color:#34d}.player_select_name{font-size:16px}.player_select_name button{font-size:2em;margin-left:10px;vertical-align:middle}.player_select_name strong{display:inline-block}.pi_forms .group input[type="search"]{max-width:none;height:auto;font-size:16px;padding-bottom:3px}.pi_forms .ac-outline{width:100%;max-width:520px}@media screen and (max-width:480px){.ac-dropdown{min-width:310px}#desc_container{font-size:12px}}@media screen and (min-width:400px){#info h1 span{display:inline-block}#info h1 span.header_end{display:inline}}@media screen and (min-width:481px){#header #nav_trigger a{font-size:24px}#header img{height:28px}#info #meta>div.media-item{width:92px}#info #meta>div.media-item.logo{width:118px}#info #meta>div.media-item.country{width:140px;height:105px}#info #meta>div>p:nth-child(6){display:block}#info #meta>div>p:nth-child(7){display:block}#info h1{font-size:1.7em}.button2,.button2.current{padding:8px 12px;margin:0 20px 0 0}}@media screen and (min-width:600px){#info #bling{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}#info.open #bling li{width:19.5%}#meta .button2{font-size:.93em;margin:0 20px 0 0;padding:8px 12px}}@media screen and (max-width:735px){.no_mobile{display:none}}@media screen and (min-width:736px){.mobile_only{display:none}#wrap>#header{width:100%;padding-left:0;padding-right:0;border-bottom:0}#wrap>#srcom{width:99%;margin:0 auto}#wrap>#info{width:65%;width:calc(99% - 322px);margin:0 auto;padding-right:320px;min-height:270px}#info .adblock{display:block;position:absolute;top:0;right:0;height:270px;width:300px;padding:0}h2{font-size:1.8em;line-height:1.2em}#info h1{font-size:2em;line-height:1.1em}#info #meta{min-height:auto}#info#general #meta{min-height:auto}#info.open #bling li{width:28%}}@media screen and (min-width:800px){#info #meta>div{float:left;width:100%}#info #meta>div.media-item{float:left;margin-left:0;margin-right:10px}#info #meta>div.media-item+div{width:85%;width:calc(100% - 102px)}#info #meta>div.media-item.logo+div{width:calc(100% - 128px)}#info #meta>div.media-item.country+div{width:calc(100% - 160px)}#info #meta>div>p.opener{max-width:75%}#info.open.teams #bling li{width:45%}}@media screen and (min-width:1020px){#header #nav_trigger{display:none}#wrap>#header{border-bottom:2px solid #005228;overflow:visible;height:126px;background:#fff}#header img{position:absolute;top:22px;height:auto;max-height:55px;max-width:35%}#header #nav{display:block;width:100%;padding:0;margin:0;clear:none;background:#edefee;border-top:1px solid #c9cbcd;border-bottom:0;overflow:visible;height:30px;position:absolute;bottom:0}#header #nav>*{display:none}#header #nav>#main_nav{display:block;color:#404542;text-align:left;margin-bottom:0;border:0;overflow:visible}#header #main_nav ul{border:0;position:relative}#header #main_nav>li{border:0;width:auto;white-space:nowrap;float:left;color:#404542;font-size:1.16666667em;font-weight:bold;height:14px;padding:8px 1.7%;line-height:12px}#header #main_nav>li>a{color:#404542;padding:0;position:relative;font-size:1em}#header #main_nav>li.current>a{color:#fff}#header #main_nav>li.nm{display:block}#header #main_nav>li.m{display:none}#header #main_nav>li.hasmore>a:after{content:"";display:none}#header #main_nav>li.hasmore.drophover>a:after{content:"";display:none}#header #main_nav li:nth-child(even){border:0}#header #main_nav>li.drophover,#header #main_nav>li:not(.hasmore):hover,#inner_nav>ul>li.drophover{background:#404542}#header #main_nav>li.drophover>a,#header #main_nav>li:not(.hasmore):hover>a,#inner_nav>ul>li.drophover>a{color:#fff}#header #main_nav>li.drophover>span,#header #main_nav>li:not(.hasmore):hover>span,#inner_nav>ul>li.drophover>span{color:#fff}#header #main_nav>li>div>ul{overflow:hidden;margin-top:10px;margin-bottom:10px}#header #main_nav>li>div>ul>li{width:18%;margin-right:2%;margin-bottom:8px;float:left}html.no-touchevents .hasmore>div{position:absolute;left:-999em}html.no-touchevents .hasmore.drophover>div{z-index:69;left:0;box-shadow:0 6px 12px -3px #404542}#header #subnav{display:block;color:#c9cbcd;background-color:#404542;width:100%;padding:0;height:22px}#header #subnav>li{font-size:.785714286em;float:left;padding:2px 10px 2px;margin-top:3px;position:relative;border-left:1px solid #747678;height:12px}#header #subnav>li.user .username{display:inline-block;max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:12px;vertical-align:text-bottom;padding-left:3px;margin-top:-7px}#header #subnav>li:first-child{display:block;border-left:none}#header #subnav>li:nth-child(9){display:none}#header #subnav>li:nth-child(n+10){float:right;border-left:none;border-right:1px solid #747678}#header #subnav>li:last-child{display:none}#header #subnav>li:last-child(2){border-right:0}#header #subnav>li.current a{color:#fff}#header #subnav li a{color:#c9cbcd;text-decoration:none}#header #subnav li a:hover{color:#fff;text-decoration:underline}#header #subnav li svg{vertical-align:top;margin-top:-2px}#header .search{position:relative;float:right;padding:0;width:60%;max-width:700px;clear:none;margin-right:12px;margin-top:17px}#wrap #info{overflow:hidden;margin-bottom:8px}#info #meta{margin-top:0;margin-bottom:10px;padding-top:15px;float:left;width:70%;width:calc(100% - 265px)}#info #bling,#info.open #bling,#info.teams #bling{float:right;width:250px;height:auto;margin-top:10px;margin-right:0;grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}#info #bling li,#info.open #bling li{width:45%}#info.teams #bling li,#info.open.teams #bling li{width:92%}#info #meta>div>p.opener{display:none}#info #meta>div>p:nth-child(6){display:none}#info #meta>div>p:nth-child(7){display:none}#info.teams #meta>div>p:nth-child(n+6){display:block}#info.teams #meta>div>p:nth-child(n+11){display:none}#info.teams.open #meta>div>p:nth-child(n+11){display:block}#info.leagues #meta>div>p:nth-child(n+6){display:block}#info.leagues #meta>div>p:nth-child(n+11){display:none}#info.leagues.open #meta>div>p:nth-child(n+11){display:block}#info .adblock>div{margin-top:2px}.uni_holder{float:right;clear:right;width:250px;margin-top:10px}.uni_holder>a{width:42px}.uni_holder svg{height:42px;width:42px}.uni_holder svg.jersey{height:52px}#info .uni_holder{float:right}#info .uni_holder>a,#info #bling+.uni_holder>a{display:inline-block}#bling+.uni_holder,#info.open #bling+.uni_holder{margin-top:0;width:250px;float:right}#info #bling+.uni_holder .counter{display:none}#info.open .uni_holder>a{width:42px}#info.open .uni_holder svg{height:42px;width:42px}#info.open .uni_holder svg.jersey{height:52px}.stats_pullout>div.p3{display:block}#bling li:after{content:"";position:absolute;top:-110%;left:-210%;width:150%;height:200%;opacity:0;transform:rotate(10deg);background:rgba(255,255,255,0.13);background:linear-gradient(to right,rgba(255,255,255,0.13) 0,rgba(255,255,255,0.13) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0.0) 100%)}#bling li:hover:after{opacity:1;top:-63%;left:-26%;transition-property:left,top,opacity;transition-duration:.7s,0.7s,0.15s;transition-timing-function:ease}#bling li:active:after{opacity:0}.adblock.ad728{display:block;float:left}.adblock.grouped.ad300{display:none}}@media screen and (min-width:1160px){#header #main_nav>li{padding:8px 2.2%}#info #meta>div.media-item{margin-right:20px;width:92px}#info #meta>div.media-item.logo{margin-right:10px;width:125px}#info #meta>div.media-item.country{width:160px;height:120px}#info #meta>div.media-item.logo>img{height:125px;width:125px}#info #meta>div.media-item+div{width:calc(100% - 112px)}#info #meta>div.media-item.logo+div{width:calc(100% - 135px)}#info #meta>div.media-item.country+div{width:calc(100% - 180px)}#info #meta>div.media-item.multiple:hover img.additional{display:block}#info #meta>div.media-item.multiple:hover{position:fixed;z-index:200;width:auto;background-color:rgba(200,200,200,0.8);padding:5px;border:1px solid black}#info #meta>div.media-item.multiple:hover+div{margin-left:112px}#info #meta>div.media-item.multiple:hover img{width:92px;float:left;margin-right:10px}#info #meta>div.media-item.multiple:hover img:last-child{margin-right:0}#info #meta>div.media-item.multiple:hover:after{content:'Order may not be chronological';display:block;background:rgba(200,200,200,1);float:right;clear:left;padding:2px 5px;font-size:.83em}.stats_pullout>div>div{margin-left:21px}.stats_pullout p{font-size:1em}:lang(en) #info #meta>div.media-item.multiple:hover:after{content:"Order may not be chronological"}:lang(es) #info #meta>div.media-item.multiple:hover:after{content:"El orden no puede ser cronológico"}:lang(fr) #info #meta>div.media-item.multiple:hover:after{content:"L'ordre peut ne pas être chronologique"}:lang(pt) #info #meta>div.media-item.multiple:hover:after{content:"A ordem pode não ser cronológica"}:lang(de) #info #meta>div.media-item.multiple:hover:after{content:"Reihenfolge darf nicht chronologisch sein"}#header #subnav>li:nth-child(9){display:block}#header #subnav>li.user .username{max-width:160px}}@media screen and (min-width:1478px){#wrap{width:1450px;border-left:1px solid #747678;border-right:1px solid #747678;box-shadow:0 0 27px #404542;margin:0 auto}.sr_expanded>#wrap{width:100%;border:0;box-shadow:none}#header #subnav>li:last-child{display:block}.user_logged_in #header #subnav>li:last-child.not_logged_in{display:none}#info #meta>div>p:nth-child(6){display:block}#info #meta>div>p:nth-child(7){display:block}}.f-i,#footer,#content,#inner_nav,#srcom{display:none}</style>
+<link rel="stylesheet" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108132/css/pfr/sr-min.css" media="print" crossorigin
+      onload="if (document.srdev) { this.href = 'https://d2p3bygnnzw9w3.cloudfront.net/nocdn/dev/'.concat(document.srdev.substr(0,2),'/css/pfr/sr.css'); }; this.media='all'">
+<noscript><link href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108132/css/pfr/sr-min.css"  rel="stylesheet" type="text/css" /></noscript>
+<!-- CSS END -->
+
+<!-- JS START -->
+<script class="allowed">var sr_is_production = true;
+function vjs_getUrlParameter(e){e=e.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var t=new RegExp("[\\?&]"+e+"=([^&#]*)").exec(location.search);return null===t?"":decodeURIComponent(t[1].replace(/\+/g," "))}document.lang="","/es/"===window.location.pathname.substr(0,4)?document.lang="es":"/pt/"===window.location.pathname.substr(0,4)?document.lang="pt":"/fr/"===window.location.pathname.substr(0,4)?document.lang="fr":"/it/"===window.location.pathname.substr(0,4)?document.lang="it":"/de/"===window.location.pathname.substr(0,4)?document.lang="de":(window.location.pathname.substr(0,4),document.lang="en"),vjs_getUrlParameter("lang")&&(document.lang=vjs_getUrlParameter("lang")),document.srdev=null,vjs_getUrlParameter("srdev")&&(document.srdev=vjs_getUrlParameter("srdev"));var log_performance=!0,is_new_jscss_version=!1,sr_detect_operaMini=-1<navigator.userAgent.indexOf("Opera Mini");sr_detect_operaMini&&((el=document.querySelector("html")).className=el.className.concat(" operamini"));var sr_detect_firefox=-1<navigator.userAgent.indexOf("Firefox");sr_detect_firefox&&((el=document.querySelector("html")).className=el.className.concat(" firefox"));var sr_detect_firefoxMobile=-1<navigator.userAgent.indexOf("Firefox")&&(-1<navigator.userAgent.indexOf("Mobile")||-1<navigator.userAgent.indexOf("Tablet"));sr_detect_firefoxMobile&&((el=document.querySelector("html")).className=el.className.concat(" firefox-mobile"));var el,sr_detect_ie=function(){var e=window.navigator.userAgent;if(0<e.indexOf("Trident/7.0"))return 11;if(0<e.indexOf("Trident/6.0"))return 10;if(0<e.indexOf("Trident/5.0"))return 9;for(var t=3,n=document.createElement("div"),r=n.getElementsByTagName("i");n.innerHTML="\x3c!--[if gt IE "+ ++t+"]><i></i><![endif]--\x3e",r[0];);return 4<t&&t}(),sr_detect_edge=!sr_detect_ie&&!!window.StyleMedia,sr_detect_safari=/Safari/.test(navigator.userAgent)&&/Apple Computer/.test(navigator.vendor),className="no-js";(el=document.querySelector("html")).classList?el.classList.remove(className):el.className=el.className.replace(new RegExp("(^|\\b)"+className.split(" ").join("|")+"(\\b|)","gi")," "),el.className=el.className.concat(" js"),function(a,u,f){function m(e,t){return typeof e===t}function p(e){return"function"!=typeof u.createElement?u.createElement(e):y?u.createElementNS.call(u,"http://www.w3.org/2000/svg",e):u.createElement.apply(u,arguments)}function o(e,t,n,r){var o,i,a,s,l="modernizr",c=p("div"),d=function(){var e=u.body;return e||((e=p(y?"svg":"body")).fake=!0),e}();if(parseInt(n,10))for(;n--;)(a=p("div")).id=r?r[n]:l+(n+1),c.appendChild(a);return(o=p("style")).type="text/css",o.id="s"+l,(d.fake?d:c).appendChild(o),d.appendChild(c),o.styleSheet?o.styleSheet.cssText=e:o.appendChild(u.createTextNode(e)),c.id=l,d.fake&&(d.style.background="",d.style.overflow="hidden",s=_.style.overflow,_.style.overflow="hidden",_.appendChild(d)),i=t(c,e),d.fake?(d.parentNode.removeChild(d),_.style.overflow=s,_.offsetHeight):c.parentNode.removeChild(c),!!i}function h(e){return e.replace(/([a-z])-([a-z])/g,function(e,t,n){return t+n.toUpperCase()}).replace(/^-/,"")}function s(e,t){return function(){return e.apply(t,arguments)}}function i(e){return e.replace(/([A-Z])/g,function(e,t){return"-"+t.toLowerCase()}).replace(/^ms-/,"-ms-")}function v(e,t){var n=e.length;if("CSS"in a&&"supports"in a.CSS){for(;n--;)if(a.CSS.supports(i(e[n]),t))return!0;return!1}if("CSSSupportsRule"in a){for(var r=[];n--;)r.push("("+i(e[n])+":"+t+")");return o("@supports ("+(r=r.join(" or "))+") { #modernizr { position: absolute; } }",function(e){return"absolute"==function(e,t,n){var r;if("getComputedStyle"in a){r=getComputedStyle.call(a,e,t);var o=a.console;if(null!==r)n&&(r=r.getPropertyValue(n));else if(o){o[o.error?"error":"log"].call(o,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else r=!t&&e.currentStyle&&e.currentStyle[n];return r}(e,null,"position")})}return f}function r(e,t,n,r,o){var i=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+z.join(i+" ")+i).split(" ");return m(t,"string")||m(t,"undefined")?function(e,t,n,r){function o(){a&&(delete T.style,delete T.modElem)}if(r=!m(r,"undefined")&&r,!m(n,"undefined")){var i=v(e,n);if(!m(i,"undefined"))return i}for(var a,s,l,c,d,u=["modernizr","tspan","samp"];!T.style&&u.length;)a=!0,T.modElem=p(u.shift()),T.style=T.modElem.style;for(l=e.length,s=0;s<l;s++)if(c=e[s],d=T.style[c],!~(""+c).indexOf("-")||(c=h(c)),T.style[c]!==f){if(r||m(n,"undefined"))return o(),"pfx"!=t||c;try{T.style[c]=n}catch(e){}if(T.style[c]!=d)return o(),"pfx"!=t||c}return o(),!1}(a,t,r,o):function(e,t,n){var r;for(var o in e)if(e[o]in t)return!1===n?e[o]:m(r=t[e[o]],"function")?s(r,n||t):r;return!1}(a=(e+" "+M.join(i+" ")+i).split(" "),t,n)}function e(e,t,n){return r(e,f,f,t,n)}var l=[],c=[],t={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){c.push({name:e,fn:t,options:n})},addAsyncTest:function(e){c.push({name:null,fn:e})}},d=function(){};d.prototype=t,(d=new d).addTest("cookies",function(){try{u.cookie="cookietest=1";var e=-1!=u.cookie.indexOf("cookietest=");return u.cookie="cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT",e}catch(e){return!1}}),d.addTest("localstorage",function(){var e="modernizr";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(e){return!1}}),d.addTest("sessionstorage",function(){var e="modernizr";try{return sessionStorage.setItem(e,e),sessionStorage.removeItem(e),!0}catch(e){return!1}}),d.addTest("cors","XMLHttpRequest"in a&&"withCredentials"in new XMLHttpRequest),d.addTest("history",function(){var e=navigator.userAgent;return(-1===e.indexOf("Android 2.")&&-1===e.indexOf("Android 4.0")||-1===e.indexOf("Mobile Safari")||-1!==e.indexOf("Chrome")||-1!==e.indexOf("Windows Phone")||"file:"===location.protocol)&&(a.history&&"pushState"in a.history)});var g=t._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];t._prefixes=g;var _=u.documentElement,y="svg"===_.nodeName.toLowerCase();y||function(e,a){function u(e,t){var n=e.createElement("p"),r=e.getElementsByTagName("head")[0]||e.documentElement;return n.innerHTML="x<style>"+t+"</style>",r.insertBefore(n.lastChild,r.firstChild)}function f(){var e=g.elements;return"string"==typeof e?e.split(" "):e}function m(e){var t=v[e[d]];return t||(t={},h++,e[d]=h,v[h]=t),t}function r(e,t,n){return t=t||a,s?t.createElement(e):!(r=(n=n||m(t)).cache[e]?n.cache[e].cloneNode():c.test(e)?(n.cache[e]=n.createElem(e)).cloneNode():n.createElem(e)).canHaveChildren||l.test(e)||r.tagUrn?r:n.frag.appendChild(r);var r}function o(e){var t=m(e=e||a);return!g.shivCSS||n||t.hasCSS||(t.hasCSS=!!u(e,"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}")),s||function(t,n){n.cache||(n.cache={},n.createElem=t.createElement,n.createFrag=t.createDocumentFragment,n.frag=n.createFrag()),t.createElement=function(e){return g.shivMethods?r(e,t,n):n.createElem(e)},t.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+f().join().replace(/[\w\-:]+/g,function(e){return n.createElem(e),n.frag.createElement(e),'c("'+e+'")'})+");return n}")(g,n.frag)}(e,t),e}function p(e){for(var t,n=e.attributes,r=n.length,o=e.ownerDocument.createElement(w+":"+e.nodeName);r--;)(t=n[r]).specified&&o.setAttribute(t.nodeName,t.nodeValue);return o.style.cssText=e.style.cssText,o}function t(s){function l(){clearTimeout(e._removeSheetTimer),c&&c.removeNode(!0),c=null}var c,d,e=m(s),t=s.namespaces,n=s.parentWindow;return!x||s.printShived||(void 0===t[w]&&t.add(w),n.attachEvent("onbeforeprint",function(){l();for(var e,t,n,r=s.styleSheets,o=[],i=r.length,a=Array(i);i--;)a[i]=r[i];for(;n=a.pop();)if(!n.disabled&&y.test(n.media)){try{t=(e=n.imports).length}catch(e){t=0}for(i=0;i<t;i++)a.push(e[i]);try{o.push(n.cssText)}catch(e){}}o=function(e){for(var t,n=e.split("{"),r=n.length,o=RegExp("(^|[\\s,>+~])("+f().join("|")+")(?=[[\\s,>+~#.:]|)","gi"),i="1"+w+"\\:2";r--;)(t=n[r]=n[r].split("}"))[t.length-1]=t[t.length-1].replace(o,i),n[r]=t.join("}");return n.join("{")}(o.reverse().join("")),d=function(e){for(var t,n=e.getElementsByTagName("*"),r=n.length,o=RegExp("^(?:"+f().join("|")+")","i"),i=[];r--;)t=n[r],o.test(t.nodeName)&&i.push(t.applyElement(p(t)));return i}(s),c=u(s,o)}),n.attachEvent("onafterprint",function(){(function(e){for(var t=e.length;t--;)e[t].removeNode()})(d),clearTimeout(e._removeSheetTimer),e._removeSheetTimer=setTimeout(l,500)}),s.printShived=!0),s}var n,s,i=e.html5||{},l=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)/i,c=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)/i,d="_html5shiv",h=0,v={};!function(){try{var e=a.createElement("a");e.innerHTML="<xyz></xyz>",n="hidden"in e,s=1==e.childNodes.length||function(){a.createElement("a");var e=a.createDocumentFragment();return void 0===e.cloneNode||void 0===e.createDocumentFragment||void 0===e.createElement}()}catch(e){s=n=!0}}();var g={elements:i.elements||"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output picture progress section summary template time video",version:"3.7.3",shivCSS:!1!==i.shivCSS,supportsUnknownElements:s,shivMethods:!1!==i.shivMethods,type:"default",shivDocument:o,createElement:r,createDocumentFragment:function(e,t){if(e=e||a,s)return e.createDocumentFragment();for(var n=(t=t||m(e)).frag.cloneNode(),r=0,o=f(),i=o.length;r<i;r++)n.createElement(o[r]);return n},addElements:function(e,t){var n=g.elements;"string"!=typeof n&&(n=n.join(" ")),"string"!=typeof e&&(e=e.join(" ")),g.elements=n+" "+e,o(t)}};e.html5=g,o(a);var _,y=/^|\b(?:all|print)\b/,w="html5shiv",x=!(s||(_=a.documentElement,void 0===a.namespaces||void 0===a.parentWindow||void 0===_.applyElement||void 0===_.removeNode||void 0===e.attachEvent));g.type+=" print",(g.shivPrint=t)(a),"object"==typeof module&&module.exports&&(module.exports=g)}(void 0!==a?a:this,u),d.addTest("csspositionsticky",function(){var e="position:",t=p("a").style;return t.cssText=e+g.join("sticky;"+e).slice(0,-e.length),-1!==t.position.indexOf("sticky")});var w,n=(w=!("onblur"in u.documentElement),function(e,t){var n;return!!e&&(t&&"string"!=typeof t||(t=p(t||"div")),!(n=(e="on"+e)in t)&&w&&(t.setAttribute||(t=p("div")),t.setAttribute(e,""),n="function"==typeof t[e],t[e]!==f&&(t[e]=f),t.removeAttribute(e)),n)});t.hasEvent=n;var x=t.testStyles=o;d.addTest("touchevents",function(){var t;if("ontouchstart"in a||a.DocumentTouch&&u instanceof DocumentTouch)t=!0;else{var e=["@media (",g.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");x(e,function(e){t=9===e.offsetTop})}return t});var b="Moz O ms Webkit",M=t._config.usePrefixes?b.toLowerCase().split(" "):[];t._domPrefixes=M,d.addTest("pointerevents",function(){var e=!1,t=M.length;for(e=d.hasEvent("pointerdown");t--&&!e;)n(M[t]+"pointerdown")&&(e=!0);return e});var z=t._config.usePrefixes?b.split(" "):[];t._cssomPrefixes=z;function S(e){var t,n=g.length,r=a.CSSRule;if(void 0===r)return f;if(!e)return!1;if((t=(e=e.replace(/^@/,"")).replace(/-/g,"_").toUpperCase()+"_RULE")in r)return"@"+e;for(var o=0;o<n;o++){var i=g[o];if(i.toUpperCase()+"_"+t in r)return"@-"+i.toLowerCase()+"-"+e}return!1}t.atRule=S;var E={elem:p("modernizr")};d._q.push(function(){delete E.elem});var T={style:E.elem.style};d._q.unshift(function(){delete T.style}),t.testAllProps=r;var C=t.prefixed=function(e,t,n){return 0===e.indexOf("@")?S(e):(-1!=e.indexOf("-")&&(e=h(e)),t?r(e,t,n):r(e,"pfx"))};d.addTest("matchmedia",!!C("matchMedia",a)),t.testAllProps=e,d.addTest("flexwrap",e("flexWrap","wrap",!0)),function(){var e,t,n,r,o,i;for(var a in c)if(c.hasOwnProperty(a)){if(e=[],(t=c[a]).name&&(e.push(t.name.toLowerCase()),t.options&&t.options.aliases&&t.options.aliases.length))for(n=0;n<t.options.aliases.length;n++)e.push(t.options.aliases[n].toLowerCase());for(r=m(t.fn,"function")?t.fn():t.fn,o=0;o<e.length;o++)1===(i=e[o].split(".")).length?d[i[0]]=r:(!d[i[0]]||d[i[0]]instanceof Boolean||(d[i[0]]=new Boolean(d[i[0]])),d[i[0]][i[1]]=r),l.push((r?"":"no-")+i.join("-"))}}(),function(e){var t=_.className,n=d._config.classPrefix||"";if(y&&(t=t.baseVal),d._config.enableJSClass){var r=new RegExp("(^|\\s)"+n+"no-js(\\s|)");t=t.replace(r,"1"+n+"js2")}d._config.enableClasses&&(t+=" "+n+e.join(" "+n),y?_.className.baseVal=t:_.className=t)}(l),delete t.addTest,delete t.addAsyncTest;for(var N=0;N<d._q.length;N++)d._q[N]();a.Modernizr=d}(window,document),Modernizr.viewport_width=Math.max(document.documentElement.clientWidth,window.innerWidth||0),Modernizr.viewport_height=Math.max(document.documentElement.clientHeight,window.innerHeight||0),Modernizr.narrow=Modernizr.viewport_width<=704,Modernizr.constrained=Modernizr.viewport_width<=1200,Modernizr.site_menu=Modernizr.viewport_width<=1020?"button":"nav_bar",Modernizr.touch=Modernizr.touchevents||Modernizr.pointerevents&&(0<navigator.MaxTouchPoints||0<navigator.msMaxTouchPoints),Modernizr.phone=Modernizr.narrow&&Modernizr.touch,Modernizr.tablet=Modernizr.viewport_width<1075&&Modernizr.touch,Modernizr.desktop=!Modernizr.constrained&&!Modernizr.touch,Modernizr.laptop=!(Modernizr.desktop||Modernizr.tablet||Modernizr.phone);var patt=new RegExp("hideallads");Modernizr.adfree=patt.test(window.location.href);var sr_html=document.querySelector("html"),cn=sr_html.className;Modernizr.phone?sr_html.className=cn.concat(" phone"):Modernizr.tablet?sr_html.className=cn.concat(" tablet"):(Modernizr.desktop||Modernizr.laptop)&&(sr_html.className=cn.concat(" desktop"));var sr_host_parts=window.location.hostname.split(".");cn=sr_html.className;Modernizr.is_build=Modernizr.is_live=Modernizr.is_dev=!1,"www"===sr_host_parts[0]||"fbref"===sr_host_parts[0]?(Modernizr.is_live=!0,sr_html.className=cn.concat(" is_live")):sr_host_parts[0].startsWith("b")?(Modernizr.is_build=!0,sr_html.className=cn.concat(" is_build")):(sr_host_parts[0].startsWith("d")||sr_host_parts[0].startsWith("r"))&&(Modernizr.is_dev=!0,sr_html.className=cn.concat(" is_dev")),Modernizr.is_stathead=!1,("stathead"===sr_host_parts[1]&&"srdevel"===sr_host_parts[2]||"stathead"===sr_host_parts[0]||"www"===sr_host_parts[0]&&"stathead"===sr_host_parts[1])&&(cn=sr_html.className,sr_html.className=cn.concat(" is_stathead"),Modernizr.is_stathead=!0);var sr_logger=function(){var e=null,t={enableLogger:function(){null!=e&&(window.console.log=e)},disableLogger:function(){e=console.log,window.console.log=function(){}}};return t}();!document.srdev&&sr_is_production&&sr_logger.disableLogger(),Modernizr.is_modern=1,Modernizr.lang=document.lang||"",Modernizr.srdev=document.srdev;var sr_utilities_js_loader=[];function vjs_readCookie(e){for(var t=e+"=",n=document.cookie.split(";"),r=0;r<n.length;r++){for(var o=n[r];" "===o.charAt(0);)o=o.substring(1,o.length);if(0===o.indexOf(t))return decodeURIComponent(o.substring(t.length,o.length))}return null}function vjs_createCookie(e,t,n){var r="";if(n){var o=new Date;o.setTime(o.getTime()+24*n*60*60*1e3),r="; expires="+o.toGMTString()}else r="";var i=encodeURIComponent(e)+"="+encodeURIComponent(t)+r+"; path=/";document.cookie=i}!function(o){function e(e,t){"use strict";var n=o.document.getElementsByTagName("script")[0],r=o.document.createElement("script");return r.src=e,r.async=!0,n.parentNode.insertBefore(r,n),t&&"function"==typeof t&&(r.onload=t),r}"undefined"!=typeof module?module.exports=e:o.loadJS=e}("undefined"!=typeof global?global:this),String.prototype.vjs_isMatch=function(e){return null!==this.match(e)};var sr_time_begin=new Date,sr_perf_startTime=new Date,sr_perf_log="<strong>Performance:</strong>",sr_perf_lastTime=new Date;function vjs_ready(e){"loading"!=document.readyState?e():document.addEventListener("DOMContentLoaded",e)}
+</script>
+<script>
+var _sr_modern_url = ''.concat(document.srdev?'https://d2p3bygnnzw9w3.cloudfront.net/nocdn/dev/'.concat(document.srdev.substring(0, 2)):"https://d2p3bygnnzw9w3.cloudfront.net/req/202108132",
+                               "/js/pfr", "/sr",document.srdev?"":"-min",   			       ".js");
+loadJS( _sr_modern_url, function() { vjs_ready(sr_fire_js); });
+</script>
+<!-- JS END -->
+
+
+<!-- include:end ="/inc/klecko_header_pfr.html_f" -->
+<script>sr_utilities_js_loader.push(function() { vjs_createCookie('srcssfull', 'yes', 0.5 )});</script>
+
+
+
+    <meta name="revised" content="05:16:22 13-Aug-2021" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="generated-by"     content="build_year_main_index.pl" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="no" />
+    <meta name="theme-color" content="#384d42" />
+    <meta name="msapplication-navbutton-color" content="#384d42" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#384d42" />
+    
+
+    <!-- HeaderSeoSocial -->
+    <meta name="keywords" content="">
+    <meta itemprop="url"           content="https://www.pro-football-reference.com">
+    <meta itemprop="name"          content="Pro Football Reference">
+    <meta itemprop="alternateName" content="PFRef">
+    <meta property="fb:app_id"     content="">
+    <meta property="og:url"          content="https://www.pro-football-reference.com/years/">
+    <meta property="og:title"        content="Pro Football &amp; NFL History | Pro-Football-Reference.com">
+    <meta property="og:site_name"    content="Pro-Football-Reference.com">
+    <meta property="og:type"         content="    article" />
+    <meta property="og:description"  content="Pro Football &amp; NFL History">
+    <meta property="og:image"        content="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-228x228-precomposed.png">
+    <meta name="twitter:card"         content="summary">
+    <meta name="twitter:site"         content="@pfref">
+    <meta name="twitter:creator"      content="@pfref">
+    <meta property="twitter:image"    content="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-228x228-precomposed.png">
+    <meta name="twitter:domain"       content="Pro-Football-Reference.com">
+    <meta name="referrer" content="unsafe-url">
+    <!-- HeaderSeoSocial:END -->
+
+    <!-- tiles, touch, favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-180x180-precomposed.png">
+    <link rel="icon"                         sizes="48x48"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/favicon-48.png">
+    <link rel="shortcut icon"                sizes="228x228" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-228x228-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="228x228" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-228x228-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="195x195" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-195x195-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="180x180" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-180x180-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="152x152" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-152x152-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="144x144" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="128x128" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-128x128-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="120x120" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="114x114" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="76x76"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="72x72"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="57x57"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/apple-touch-icon-57x57-precomposed.png">
+    <link rel="icon"                         sizes="32x32"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/favicon-32.png">
+    <!--[if IE]>
+    <link rel="shortcut icon"                                href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/favicon.ico"><![endif]-->
+    <meta name="msapplication-TileColor" content="#005629" />
+    <meta name="msapplication-TileImage" content="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/favicons/pfr/ms-tile-144.png" />
+    <link rel=search        type="application/opensearchdescription+xml" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/opensearch/opensearch-pfr.xml" title=" Player and Team Search">
+    <!-- tiles, touch, favicons:end -->
+
+<!-- ad code: begin -->
+
+
+<script data-ad-client="ca-pub-5319453360923253" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    var freestar = freestar || {};
+    freestar.config = freestar.config || {};
+    freestar.config.enabled_slots = [ "div-gpt-ad-728x90-GeneralHeader","div-gpt-ad-728x90-Footer" ];
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree || document.getElementById('sr_suppress_ads') || Modernizr.viewport_width < 1810) {
+    // do not include the rails
+    }
+    else {
+         freestar.config.enabled_slots.push('div-gpt-ad-160x600-1');
+         freestar.config.enabled_slots.push('div-gpt-ad-160x600-2');
+    } 
+
+</script>
+<script data-cfasync="false" type="text/javascript">
+    var fs_debug = window.location.search.indexOf('fsdebug') == -1 ? false : true;
+    freestar.hitTime = Date.now();
+    freestar.queue = freestar.queue || [];
+    freestar.config = freestar.config || {};
+    freestar.queue.push(function() {
+      // Include the line reflecting the area/section of the site you are on
+      googletag.pubads().setTargeting('sr_site_id', 'pfr');
+    });
+!function(a,b){
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+        return;
+    }  
+    var c=b.getElementsByTagName("script")[0],
+    d=b.createElement("script"),
+    e="https://a.pub.network/pro-football-reference";
+    e+=fs_debug?"/qa/pubfig.min.js":"/pubfig.min.js",
+    d.async=!0,
+    d.src=e,
+    c.parentNode.insertBefore(d,c)
+}(window,document);
+</script>
+
+
+<!-- ad code:end -->
+
+
+
+</head>
+<body class="pfr">
+<div id="wrap">
+  
+  <div id="header" role="banner">
+  <ul id="subnav" class="notranslate">
+	<li><a href="https://www.sports-reference.com/"><svg height="15px" width="20px"><use xlink:href="#ic-sr-pennant"></use></svg> Sports Reference</a></li>
+	<li><a href="https://www.baseball-reference.com/">Baseball</a></li>
+	<li class="current"><a href="https://www.pro-football-reference.com/">Football</a> <a href="https://www.sports-reference.com/cfb/">(college)</a></li>
+	<li><a href="https://www.basketball-reference.com/">Basketball</a> <a href="https://www.sports-reference.com/cbb/">(college)</a></li>
+	<li><a href="https://www.hockey-reference.com/">Hockey</a></li>
+
+
+	
+	
+	
+	<li><a href="https://fbref.com/en/">Soccer</a></li>
+
+	<li><a href="https://www.sports-reference.com/blog/">Blog</a></li>
+
+    <li><a href="https://stathead.com/?utm_source=web&amp;utm_medium=pfr&amp;utm_campaign=sr-nav-bar-top-link">Stathead</a></li>
+    <li><a href="https://widgets.sports-reference.com/">Widgets</a></li>
+
+	<li><a href="#" onclick="FreshworksWidget('open'); return false;">Questions or Comments?</a></li>
+	<li class="user logged_in">Welcome <span class="username"></span>&nbsp;&#183;&nbsp;<a href="https://stathead.com/profile/?utm_source=web&amp;utm_medium=pfr&amp;utm_campaign=sr-nav-bar-top-account">Your Account</a></li>
+<li class="user logged_in"><a class="logout" onclick="sr_auth_logout_page_elements();if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/profile/?do=logout">Logout</a></li>
+<li class="user not_logged_in"><a class="login" onclick="if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/users/login.cgi?token=1">Login</a></li>
+<li class="user not_logged_in"><a href="https://stathead.com/users/signup.cgi">Create Account</a></li>
+
+</ul>
+
+  <a href="/"><img src="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/logos/pfr-logo.svg" onerror="this.src='https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/logos/pfr-logo.png'; this.onerror = null;" alt="Pro-Football-Reference.com Logo &amp; Link to home page" /></a>
+<div id="nav_trigger" role="button"><a href="#site_menu_link">MENU</a></div>
+<div id="nav" role="navigation" aria-label="Pro-Football-Reference.com sections">
+	<ul id="main_nav" class="hoversmooth nohover">	        <li id="header_players" ><a href="/players">Players</a></li>
+		<li id="header_teams" ><a href="/teams/">Teams</a></li>
+		<li id="header_years" class="current"><a href="/years/">Seasons</a></li>
+		<li id="header_leaders" ><a href="/leaders/">Leaders</a></li>
+		<li id="header_scores" ><a href="/boxscores/">NFL Scores</a></li>
+		
+		<li id="header_draft" class=""><a href="/draft/">Draft</a></li>	
+		
+		<li id="header_playindex" class=""><a href="https://stathead.com/football/">Stathead</a></li>
+		<li><a href="https://stathead.com/newsletter.cgi?site_sub=pfr">Newsletter</a></li>
+		
+		<li><a data-scroll href="#site_menu_link" class="opener">Full Site Menu Below</a></li>
+	</ul>
+	<div class="breadcrumbs">You are here: <div class="crumbs"><span><a href="/"><span>PFR Home Page</span></a> </span> &gt; <strong>All Years</strong></div></div>
+	<ul class="usertools bullets-inline"><li class="user logged_in">Welcome <span class="username"></span>&nbsp;&#183;&nbsp;<a href="https://stathead.com/profile/?utm_source=web&amp;utm_medium=pfr&amp;utm_campaign=sr-nav-bar-top-account">Your Account</a></li>
+<li class="user logged_in"><a class="logout" onclick="sr_auth_logout_page_elements();if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/profile/?do=logout">Logout</a></li>
+<li class="user not_logged_in"><a class="login" onclick="if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/users/login.cgi?token=1">Login</a></li>
+<li class="user not_logged_in"><a href="https://stathead.com/users/signup.cgi">Create Account</a></li>
+	</ul><!-- ul.user -->
+</div><!-- div#nav -->
+<script>
+function sr_menus_setupMainNav_button_inline () {
+    if (sr_detect_operaMini || !("classList" in document.createElement("_"))) {
+	return false;
+    }
+    var nav_trigger = document.getElementById('nav_trigger');
+    if(!nav_trigger || nav_trigger.triggered) {
+	return false;
+    }
+    nav_trigger.triggered = true;
+    var nav = document.getElementById('nav');
+    var nav_trigger_a = nav_trigger.querySelector('a');
+    if (nav_trigger_a) {
+	nav_trigger_a.setAttribute('href','javascript:void(0)');
+	nav_trigger.onclick = function (event) {
+	    nav.classList.toggle('open');
+	    var is_open = nav.classList.contains('open');
+	    if (is_open) {
+		nav_trigger.classList.add('open');
+	    }
+	    else {
+		nav_trigger.classList.remove('open');
+	    }
+	    event.preventDefault();
+	    try { sr_record_analytics_event('MainNavButtonClick_inline',sr_record_directory(),sr_record_page());}
+	    catch(err) {}
+	};
+    }
+    return true;
+}
+sr_menus_setupMainNav_button_inline();
+</script><div class="search" role="search" aria-label="Site Search for players, teams and sections">
+<form method="get" name="f_big"  action="/search/search.fcgi">
+<div class="ac-outline">
+  <div class="ac-wrapper"><input type="search" tabindex="-1" class="ac-hint" name="hint" placeholder="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" dir="auto" aria-label="Search suggestions based on user search input">
+
+<input tabindex="1" type="search" class="ac-input completely" name="search" placeholder="Enter Person, Team, Section, etc" aria-label="Enter a player, team or section name" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" dir="auto" />
+    <div class="ac-dropdown"></div>
+  </div>
+</div>
+
+<input type="submit" value="Search" tabindex="2" />
+<input type="hidden" name="pid" value="" data-search-id>
+<input type="hidden" name="idx" value="" data-search-idx>
+
+</form>
+</div><!-- div.search -->
+
+</div><!-- div#header -->
+
+
+
+<div id="srcom">
+
+<!-- fs_general_header -->
+<div class="adblock">
+<!-- div#fs_fs_general_header  -->
+<div align="center" id="div-gpt-ad-728x90-GeneralHeader">
+    <script data-cfasync="false" type='text/javascript'>
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+    }
+    else {
+        console.log('push ad:div-gpt-ad-728x90-GeneralHeader');
+        freestar.queue.push(function() { googletag.display('div-gpt-ad-728x90-GeneralHeader'); });
+    }
+    </script>
+</div>
+<!-- /div.#fs_fs_general_header -->
+
+
+</div>
+
+</div>
+
+<div id="inner_nav" role="navigation" aria-label="Sections on this page and/or other pages related to this page" class=" inactive">
+	<ul class="hoversmooth">
+		<li		   class="current index "><a href="/years/">Pro Football History</a>		</li>
+		<li		   class="full "><a href="/years/NFL/index.htm">NFL</a>		</li>
+		<li		   class="full "><a href="/years/AFL/index.htm">AFL</a>		</li>
+		<li		   class="full "><a href="/years/APFA/index.htm">APFA</a>		</li>
+		<li		   class="full "><a href="/years/AAFC/index.htm">AAFC</a>		</li>
+		<li		   class="full "><a href="/years/AFLNFL/index.htm">NFL & AFL</a>		</li>
+		<li		   class="full "><a href="/years/ALL/index.htm">All Leagues</a>		</li>
+		<li data-fade-selector="#inpage_nav"		   class="condensed hasmore "><a href="#">More Leagues</a>
+			<div>
+
+					<ul class="">
+						<li><a href="/years/" >Pro Football History</a></li>
+						<li><a href="/years/NFL/index.htm" >NFL</a></li>
+						<li><a href="/years/AFL/index.htm" >AFL</a></li>
+						<li><a href="/years/APFA/index.htm" >APFA</a></li>
+						<li><a href="/years/AAFC/index.htm" >AAFC</a></li>
+						<li><a href="/years/AFLNFL/index.htm" >NFL & AFL</a></li>
+						<li><a href="/years/ALL/index.htm" >All Leagues</a></li>
+						<li><a href="#" >More Leagues</a></li>
+					</ul>
+
+			</div>		</li>
+	</ul>
+	    
+    
+        
+        
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+    
+    
+    
+    
+    
+    
+    
+</div><!-- div#inner_nav -->
+
+<div id="content" role="main" class="index">
+	<h1>Pro Football &amp; NFL History</h1>
+        
+
+
+          
+      
+      
+      
+      
+      
+         
+            
+<div id="all_years" class="table_wrapper setup_long long">
+
+<div class="section_heading assoc_years" id="years_sh">
+  <span class="section_anchor" id="years_link" data-label="Yearly Results"></span><h2>Yearly Results</h2>    <div class="section_heading_text">
+      <ul>
+      </ul>
+    </div>
+    		
+</div>
+<div class="table_container" id="div_years">
+    
+    <table class="sortable stats_table" id="years" data-cols-to-freeze="1,2">
+    <caption>Yearly Results Table</caption>
+    
+   <colgroup><col><col><col></colgroup>
+   <thead>      
+      <tr>
+         <th aria-label="Year" data-stat="year_id" scope="col" class=" poptip sort_default_asc left" >Year</th>
+         <th aria-label="LeagueNFL - National Football LeagueAFL - American Football LeagueAAFC - All-American Football ConferenceAPFA - American Professional Football Association" data-stat="league_id" scope="col" class=" poptip sort_default_asc center" data-tip="<b>League</b><br><b>NFL</b> - National Football League<br><b>AFL</b> - American Football League<br><b>AAFC</b> - All-American Football Conference<br><b>APFA</b> - American Professional Football Association" >Lg</th>
+         <th aria-label="summary" data-stat="summary" scope="col" class=" poptip center" ></th>
+      </tr>
+      </thead>
+<tbody><tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2021/">2021</a></th><td class="left " data-stat="league_id" ><a href="/years/2021/">NFL</a></td><td class="right iz" data-stat="summary" ></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2020/">2020</a></th><td class="left " data-stat="league_id" ><a href="/years/2020/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl LV:</b> <a href="/teams/tam/2020.htm">Tampa Bay Buccaneers</a> <small>(NFC,11-5)</small> defeated <a href="/teams/kan/2020.htm">Kansas City Chiefs</a> <small>(AFC,14-2)</small>, <strong>Score</strong>: <a href="/super-bowl/lv.htm">31-9</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2019/">2019</a></th><td class="left " data-stat="league_id" ><a href="/years/2019/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl LIV:</b> <a href="/teams/kan/2019.htm">Kansas City Chiefs</a> <small>(AFC,12-4)</small> defeated <a href="/teams/sfo/2019.htm">San Francisco 49ers</a> <small>(NFC,13-3)</small>, <strong>Score</strong>: <a href="/super-bowl/liv.htm">31-20</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2018/">2018</a></th><td class="left " data-stat="league_id" ><a href="/years/2018/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl LIII:</b> <a href="/teams/nwe/2018.htm">New England Patriots</a> <small>(AFC,11-5)</small> defeated <a href="/teams/ram/2018.htm">Los Angeles Rams</a> <small>(NFC,13-3)</small>, <strong>Score</strong>: <a href="/super-bowl/liii.htm">13-3</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2017/">2017</a></th><td class="left " data-stat="league_id" ><a href="/years/2017/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl LII:</b> <a href="/teams/phi/2017.htm">Philadelphia Eagles</a> <small>(NFC,13-3)</small> defeated <a href="/teams/nwe/2017.htm">New England Patriots</a> <small>(AFC,13-3)</small>, <strong>Score</strong>: <a href="/super-bowl/lii.htm">41-33</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2016/">2016</a></th><td class="left " data-stat="league_id" ><a href="/years/2016/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl LI:</b> <a href="/teams/nwe/2016.htm">New England Patriots</a> <small>(AFC,14-2)</small> defeated <a href="/teams/atl/2016.htm">Atlanta Falcons</a> <small>(NFC,11-5)</small>, <strong>Score</strong>: <a href="/super-bowl/li.htm">34-28</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2015/">2015</a></th><td class="left " data-stat="league_id" ><a href="/years/2015/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl 50:</b> <a href="/teams/den/2015.htm">Denver Broncos</a> <small>(AFC,12-4)</small> defeated <a href="/teams/car/2015.htm">Carolina Panthers</a> <small>(NFC,15-1)</small>, <strong>Score</strong>: <a href="/super-bowl/l.htm">24-10</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2014/">2014</a></th><td class="left " data-stat="league_id" ><a href="/years/2014/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XLIX:</b> <a href="/teams/nwe/2014.htm">New England Patriots</a> <small>(AFC,12-4)</small> defeated <a href="/teams/sea/2014.htm">Seattle Seahawks</a> <small>(NFC,12-4)</small>, <strong>Score</strong>: <a href="/super-bowl/xlix.htm">28-24</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2013/">2013</a></th><td class="left " data-stat="league_id" ><a href="/years/2013/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XLVIII:</b> <a href="/teams/sea/2013.htm">Seattle Seahawks</a> <small>(NFC,13-3)</small> defeated <a href="/teams/den/2013.htm">Denver Broncos</a> <small>(AFC,13-3)</small>, <strong>Score</strong>: <a href="/super-bowl/xlviii.htm">43-8</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2012/">2012</a></th><td class="left " data-stat="league_id" ><a href="/years/2012/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XLVII:</b> <a href="/teams/rav/2012.htm">Baltimore Ravens</a> <small>(AFC,10-6)</small> defeated <a href="/teams/sfo/2012.htm">San Francisco 49ers</a> <small>(NFC,11-4-1)</small>, <strong>Score</strong>: <a href="/super-bowl/xlvii.htm">34-31</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2011/">2011</a></th><td class="left " data-stat="league_id" ><a href="/years/2011/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XLVI:</b> <a href="/teams/nyg/2011.htm">New York Giants</a> <small>(NFC,9-7)</small> defeated <a href="/teams/nwe/2011.htm">New England Patriots</a> <small>(AFC,13-3)</small>, <strong>Score</strong>: <a href="/super-bowl/xlvi.htm">21-17</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2010/">2010</a></th><td class="left " data-stat="league_id" ><a href="/years/2010/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XLV:</b> <a href="/teams/gnb/2010.htm">Green Bay Packers</a> <small>(NFC,10-6)</small> defeated <a href="/teams/pit/2010.htm">Pittsburgh Steelers</a> <small>(AFC,12-4)</small>, <strong>Score</strong>: <a href="/super-bowl/xlv.htm">31-25</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2009/">2009</a></th><td class="left " data-stat="league_id" ><a href="/years/2009/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XLIV:</b> <a href="/teams/nor/2009.htm">New Orleans Saints</a> <small>(NFC,13-3)</small> defeated <a href="/teams/clt/2009.htm">Indianapolis Colts</a> <small>(AFC,14-2)</small>, <strong>Score</strong>: <a href="/super-bowl/xliv.htm">31-17</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2008/">2008</a></th><td class="left " data-stat="league_id" ><a href="/years/2008/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XLIII:</b> <a href="/teams/pit/2008.htm">Pittsburgh Steelers</a> <small>(AFC,12-4)</small> defeated <a href="/teams/crd/2008.htm">Arizona Cardinals</a> <small>(NFC,9-7)</small>, <strong>Score</strong>: <a href="/super-bowl/xliii.htm">27-23</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2007/">2007</a></th><td class="left " data-stat="league_id" ><a href="/years/2007/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XLII:</b> <a href="/teams/nyg/2007.htm">New York Giants</a> <small>(NFC,10-6)</small> defeated <a href="/teams/nwe/2007.htm">New England Patriots</a> <small>(AFC,16-0)</small>, <strong>Score</strong>: <a href="/super-bowl/xlii.htm">17-14</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2006/">2006</a></th><td class="left " data-stat="league_id" ><a href="/years/2006/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XLI:</b> <a href="/teams/clt/2006.htm">Indianapolis Colts</a> <small>(AFC,12-4)</small> defeated <a href="/teams/chi/2006.htm">Chicago Bears</a> <small>(NFC,13-3)</small>, <strong>Score</strong>: <a href="/super-bowl/xli.htm">29-17</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2005/">2005</a></th><td class="left " data-stat="league_id" ><a href="/years/2005/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XL:</b> <a href="/teams/pit/2005.htm">Pittsburgh Steelers</a> <small>(AFC,11-5)</small> defeated <a href="/teams/sea/2005.htm">Seattle Seahawks</a> <small>(NFC,13-3)</small>, <strong>Score</strong>: <a href="/super-bowl/xl.htm">21-10</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2004/">2004</a></th><td class="left " data-stat="league_id" ><a href="/years/2004/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXXIX:</b> <a href="/teams/nwe/2004.htm">New England Patriots</a> <small>(AFC,14-2)</small> defeated <a href="/teams/phi/2004.htm">Philadelphia Eagles</a> <small>(NFC,13-3)</small>, <strong>Score</strong>: <a href="/super-bowl/xxxix.htm">24-21</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2003/">2003</a></th><td class="left " data-stat="league_id" ><a href="/years/2003/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXXVIII:</b> <a href="/teams/nwe/2003.htm">New England Patriots</a> <small>(AFC,14-2)</small> defeated <a href="/teams/car/2003.htm">Carolina Panthers</a> <small>(NFC,11-5)</small>, <strong>Score</strong>: <a href="/super-bowl/xxxviii.htm">32-29</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2002/">2002</a></th><td class="left " data-stat="league_id" ><a href="/years/2002/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXXVII:</b> <a href="/teams/tam/2002.htm">Tampa Bay Buccaneers</a> <small>(NFC,12-4)</small> defeated <a href="/teams/rai/2002.htm">Oakland Raiders</a> <small>(AFC,11-5)</small>, <strong>Score</strong>: <a href="/super-bowl/xxxvii.htm">48-21</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2001/">2001</a></th><td class="left " data-stat="league_id" ><a href="/years/2001/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXXVI:</b> <a href="/teams/nwe/2001.htm">New England Patriots</a> <small>(AFC,11-5)</small> defeated <a href="/teams/ram/2001.htm">St. Louis Rams</a> <small>(NFC,14-2)</small>, <strong>Score</strong>: <a href="/super-bowl/xxxvi.htm">20-17</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/2000/">2000</a></th><td class="left " data-stat="league_id" ><a href="/years/2000/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXXV:</b> <a href="/teams/rav/2000.htm">Baltimore Ravens</a> <small>(AFC,12-4)</small> defeated <a href="/teams/nyg/2000.htm">New York Giants</a> <small>(NFC,12-4)</small>, <strong>Score</strong>: <a href="/super-bowl/xxxv.htm">34-7</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1999/">1999</a></th><td class="left " data-stat="league_id" ><a href="/years/1999/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXXIV:</b> <a href="/teams/ram/1999.htm">St. Louis Rams</a> <small>(NFC,13-3)</small> defeated <a href="/teams/oti/1999.htm">Tennessee Titans</a> <small>(AFC,13-3)</small>, <strong>Score</strong>: <a href="/super-bowl/xxxiv.htm">23-16</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1998/">1998</a></th><td class="left " data-stat="league_id" ><a href="/years/1998/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXXIII:</b> <a href="/teams/den/1998.htm">Denver Broncos</a> <small>(AFC,14-2)</small> defeated <a href="/teams/atl/1998.htm">Atlanta Falcons</a> <small>(NFC,14-2)</small>, <strong>Score</strong>: <a href="/super-bowl/xxxiii.htm">34-19</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1997/">1997</a></th><td class="left " data-stat="league_id" ><a href="/years/1997/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXXII:</b> <a href="/teams/den/1997.htm">Denver Broncos</a> <small>(AFC,12-4)</small> defeated <a href="/teams/gnb/1997.htm">Green Bay Packers</a> <small>(NFC,13-3)</small>, <strong>Score</strong>: <a href="/super-bowl/xxxii.htm">31-24</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1996/">1996</a></th><td class="left " data-stat="league_id" ><a href="/years/1996/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXXI:</b> <a href="/teams/gnb/1996.htm">Green Bay Packers</a> <small>(NFC,13-3)</small> defeated <a href="/teams/nwe/1996.htm">New England Patriots</a> <small>(AFC,11-5)</small>, <strong>Score</strong>: <a href="/super-bowl/xxxi.htm">35-21</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1995/">1995</a></th><td class="left " data-stat="league_id" ><a href="/years/1995/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXX:</b> <a href="/teams/dal/1995.htm">Dallas Cowboys</a> <small>(NFC,12-4)</small> defeated <a href="/teams/pit/1995.htm">Pittsburgh Steelers</a> <small>(AFC,11-5)</small>, <strong>Score</strong>: <a href="/super-bowl/xxx.htm">27-17</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1994/">1994</a></th><td class="left " data-stat="league_id" ><a href="/years/1994/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXIX:</b> <a href="/teams/sfo/1994.htm">San Francisco 49ers</a> <small>(NFC,13-3)</small> defeated <a href="/teams/sdg/1994.htm">San Diego Chargers</a> <small>(AFC,11-5)</small>, <strong>Score</strong>: <a href="/super-bowl/xxix.htm">49-26</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1993/">1993</a></th><td class="left " data-stat="league_id" ><a href="/years/1993/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXVIII:</b> <a href="/teams/dal/1993.htm">Dallas Cowboys</a> <small>(NFC,12-4)</small> defeated <a href="/teams/buf/1993.htm">Buffalo Bills</a> <small>(AFC,12-4)</small>, <strong>Score</strong>: <a href="/super-bowl/xxviii.htm">30-13</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1992/">1992</a></th><td class="left " data-stat="league_id" ><a href="/years/1992/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXVII:</b> <a href="/teams/dal/1992.htm">Dallas Cowboys</a> <small>(NFC,13-3)</small> defeated <a href="/teams/buf/1992.htm">Buffalo Bills</a> <small>(AFC,11-5)</small>, <strong>Score</strong>: <a href="/super-bowl/xxvii.htm">52-17</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1991/">1991</a></th><td class="left " data-stat="league_id" ><a href="/years/1991/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXVI:</b> <a href="/teams/was/1991.htm">Washington Redskins</a> <small>(NFC,14-2)</small> defeated <a href="/teams/buf/1991.htm">Buffalo Bills</a> <small>(AFC,13-3)</small>, <strong>Score</strong>: <a href="/super-bowl/xxvi.htm">37-24</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1990/">1990</a></th><td class="left " data-stat="league_id" ><a href="/years/1990/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXV:</b> <a href="/teams/nyg/1990.htm">New York Giants</a> <small>(NFC,13-3)</small> defeated <a href="/teams/buf/1990.htm">Buffalo Bills</a> <small>(AFC,13-3)</small>, <strong>Score</strong>: <a href="/super-bowl/xxv.htm">20-19</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1989/">1989</a></th><td class="left " data-stat="league_id" ><a href="/years/1989/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXIV:</b> <a href="/teams/sfo/1989.htm">San Francisco 49ers</a> <small>(NFC,14-2)</small> defeated <a href="/teams/den/1989.htm">Denver Broncos</a> <small>(AFC,11-5)</small>, <strong>Score</strong>: <a href="/super-bowl/xxiv.htm">55-10</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1988/">1988</a></th><td class="left " data-stat="league_id" ><a href="/years/1988/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXIII:</b> <a href="/teams/sfo/1988.htm">San Francisco 49ers</a> <small>(NFC,10-6)</small> defeated <a href="/teams/cin/1988.htm">Cincinnati Bengals</a> <small>(AFC,12-4)</small>, <strong>Score</strong>: <a href="/super-bowl/xxiii.htm">20-16</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1987/">1987</a></th><td class="left " data-stat="league_id" ><a href="/years/1987/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXII:</b> <a href="/teams/was/1987.htm">Washington Redskins</a> <small>(NFC,11-4)</small> defeated <a href="/teams/den/1987.htm">Denver Broncos</a> <small>(AFC,10-4-1)</small>, <strong>Score</strong>: <a href="/super-bowl/xxii.htm">42-10</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1986/">1986</a></th><td class="left " data-stat="league_id" ><a href="/years/1986/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XXI:</b> <a href="/teams/nyg/1986.htm">New York Giants</a> <small>(NFC,14-2)</small> defeated <a href="/teams/den/1986.htm">Denver Broncos</a> <small>(AFC,11-5)</small>, <strong>Score</strong>: <a href="/super-bowl/xxi.htm">39-20</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1985/">1985</a></th><td class="left " data-stat="league_id" ><a href="/years/1985/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XX:</b> <a href="/teams/chi/1985.htm">Chicago Bears</a> <small>(NFC,15-1)</small> defeated <a href="/teams/nwe/1985.htm">New England Patriots</a> <small>(AFC,11-5)</small>, <strong>Score</strong>: <a href="/super-bowl/xx.htm">46-10</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1984/">1984</a></th><td class="left " data-stat="league_id" ><a href="/years/1984/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XIX:</b> <a href="/teams/sfo/1984.htm">San Francisco 49ers</a> <small>(NFC,15-1)</small> defeated <a href="/teams/mia/1984.htm">Miami Dolphins</a> <small>(AFC,14-2)</small>, <strong>Score</strong>: <a href="/super-bowl/xix.htm">38-16</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1983/">1983</a></th><td class="left " data-stat="league_id" ><a href="/years/1983/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XVIII:</b> <a href="/teams/rai/1983.htm">Los Angeles Raiders</a> <small>(AFC,12-4)</small> defeated <a href="/teams/was/1983.htm">Washington Redskins</a> <small>(NFC,14-2)</small>, <strong>Score</strong>: <a href="/super-bowl/xviii.htm">38-9</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1982/">1982</a></th><td class="left " data-stat="league_id" ><a href="/years/1982/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XVII:</b> <a href="/teams/was/1982.htm">Washington Redskins</a> <small>(NFC,8-1)</small> defeated <a href="/teams/mia/1982.htm">Miami Dolphins</a> <small>(AFC,7-2)</small>, <strong>Score</strong>: <a href="/super-bowl/xvii.htm">27-17</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1981/">1981</a></th><td class="left " data-stat="league_id" ><a href="/years/1981/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XVI:</b> <a href="/teams/sfo/1981.htm">San Francisco 49ers</a> <small>(NFC,13-3)</small> defeated <a href="/teams/cin/1981.htm">Cincinnati Bengals</a> <small>(AFC,12-4)</small>, <strong>Score</strong>: <a href="/super-bowl/xvi.htm">26-21</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1980/">1980</a></th><td class="left " data-stat="league_id" ><a href="/years/1980/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XV:</b> <a href="/teams/rai/1980.htm">Oakland Raiders</a> <small>(AFC,11-5)</small> defeated <a href="/teams/phi/1980.htm">Philadelphia Eagles</a> <small>(NFC,12-4)</small>, <strong>Score</strong>: <a href="/super-bowl/xv.htm">27-10</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1979/">1979</a></th><td class="left " data-stat="league_id" ><a href="/years/1979/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XIV:</b> <a href="/teams/pit/1979.htm">Pittsburgh Steelers</a> <small>(AFC,12-4)</small> defeated <a href="/teams/ram/1979.htm">Los Angeles Rams</a> <small>(NFC,9-7)</small>, <strong>Score</strong>: <a href="/super-bowl/xiv.htm">31-19</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1978/">1978</a></th><td class="left " data-stat="league_id" ><a href="/years/1978/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XIII:</b> <a href="/teams/pit/1978.htm">Pittsburgh Steelers</a> <small>(AFC,14-2)</small> defeated <a href="/teams/dal/1978.htm">Dallas Cowboys</a> <small>(NFC,12-4)</small>, <strong>Score</strong>: <a href="/super-bowl/xiii.htm">35-31</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1977/">1977</a></th><td class="left " data-stat="league_id" ><a href="/years/1977/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XII:</b> <a href="/teams/dal/1977.htm">Dallas Cowboys</a> <small>(NFC,12-2)</small> defeated <a href="/teams/den/1977.htm">Denver Broncos</a> <small>(AFC,12-2)</small>, <strong>Score</strong>: <a href="/super-bowl/xii.htm">27-10</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1976/">1976</a></th><td class="left " data-stat="league_id" ><a href="/years/1976/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl XI:</b> <a href="/teams/rai/1976.htm">Oakland Raiders</a> <small>(AFC,13-1)</small> defeated <a href="/teams/min/1976.htm">Minnesota Vikings</a> <small>(NFC,11-2-1)</small>, <strong>Score</strong>: <a href="/super-bowl/xi.htm">32-14</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1975/">1975</a></th><td class="left " data-stat="league_id" ><a href="/years/1975/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl X:</b> <a href="/teams/pit/1975.htm">Pittsburgh Steelers</a> <small>(AFC,12-2)</small> defeated <a href="/teams/dal/1975.htm">Dallas Cowboys</a> <small>(NFC,10-4)</small>, <strong>Score</strong>: <a href="/super-bowl/x.htm">21-17</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1974/">1974</a></th><td class="left " data-stat="league_id" ><a href="/years/1974/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl IX:</b> <a href="/teams/pit/1974.htm">Pittsburgh Steelers</a> <small>(AFC,10-3-1)</small> defeated <a href="/teams/min/1974.htm">Minnesota Vikings</a> <small>(NFC,10-4)</small>, <strong>Score</strong>: <a href="/super-bowl/ix.htm">16-6</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1973/">1973</a></th><td class="left " data-stat="league_id" ><a href="/years/1973/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl VIII:</b> <a href="/teams/mia/1973.htm">Miami Dolphins</a> <small>(AFC,12-2)</small> defeated <a href="/teams/min/1973.htm">Minnesota Vikings</a> <small>(NFC,12-2)</small>, <strong>Score</strong>: <a href="/super-bowl/viii.htm">24-7</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1972/">1972</a></th><td class="left " data-stat="league_id" ><a href="/years/1972/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl VII:</b> <a href="/teams/mia/1972.htm">Miami Dolphins</a> <small>(AFC,14-0)</small> defeated <a href="/teams/was/1972.htm">Washington Redskins</a> <small>(NFC,11-3)</small>, <strong>Score</strong>: <a href="/super-bowl/vii.htm">14-7</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1971/">1971</a></th><td class="left " data-stat="league_id" ><a href="/years/1971/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl VI:</b> <a href="/teams/dal/1971.htm">Dallas Cowboys</a> <small>(NFC,11-3)</small> defeated <a href="/teams/mia/1971.htm">Miami Dolphins</a> <small>(AFC,10-3-1)</small>, <strong>Score</strong>: <a href="/super-bowl/vi.htm">24-3</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1970/">1970</a></th><td class="left " data-stat="league_id" ><a href="/years/1970/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl V:</b> <a href="/teams/clt/1970.htm">Baltimore Colts</a> <small>(AFC,11-2-1)</small> defeated <a href="/teams/dal/1970.htm">Dallas Cowboys</a> <small>(NFC,10-4)</small>, <strong>Score</strong>: <a href="/super-bowl/v.htm">16-13</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1969/">1969</a></th><td class="left " data-stat="league_id" ><a href="/years/1969_AFL/">AFL</a>, <a href="/years/1969/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl IV:</b> <a href="/teams/kan/1969.htm">Kansas City Chiefs</a> <small>(AFL,11-3)</small> defeated <a href="/teams/min/1969.htm">Minnesota Vikings</a> <small>(NFL,12-2)</small>, <strong>Score</strong>: <a href="/super-bowl/iv.htm">23-7</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1968/">1968</a></th><td class="left " data-stat="league_id" ><a href="/years/1968_AFL/">AFL</a>, <a href="/years/1968/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl III:</b> <a href="/teams/nyj/1968.htm">New York Jets</a> <small>(AFL,11-3)</small> defeated <a href="/teams/clt/1968.htm">Baltimore Colts</a> <small>(NFL,13-1)</small>, <strong>Score</strong>: <a href="/super-bowl/iii.htm">16-7</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1967/">1967</a></th><td class="left " data-stat="league_id" ><a href="/years/1967_AFL/">AFL</a>, <a href="/years/1967/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl II:</b> <a href="/teams/gnb/1967.htm">Green Bay Packers</a> <small>(NFL,9-4-1)</small> defeated <a href="/teams/rai/1967.htm">Oakland Raiders</a> <small>(AFL,13-1)</small>, <strong>Score</strong>: <a href="/super-bowl/ii.htm">33-14</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1966/">1966</a></th><td class="left " data-stat="league_id" ><a href="/years/1966_AFL/">AFL</a>, <a href="/years/1966/">NFL</a></td><td class="right " data-stat="summary" ><b>Super Bowl I:</b> <a href="/teams/gnb/1966.htm">Green Bay Packers</a> <small>(NFL,12-2)</small> defeated <a href="/teams/kan/1966.htm">Kansas City Chiefs</a> <small>(AFL,11-2-1)</small>, <strong>Score</strong>: <a href="/super-bowl/i.htm">35-10</a></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1965/">1965</a></th><td class="left " data-stat="league_id" ><a href="/years/1965_AFL/">AFL</a>, <a href="/years/1965/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/gnb/1965.htm">Green Bay Packers</a> <small>(NFL,10-3-1)</small>, <a href="/teams/buf/1965.htm">Buffalo Bills</a> <small>(AFL,10-3-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1964/">1964</a></th><td class="left " data-stat="league_id" ><a href="/years/1964_AFL/">AFL</a>, <a href="/years/1964/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/cle/1964.htm">Cleveland Browns</a> <small>(NFL,10-3-1)</small>, <a href="/teams/buf/1964.htm">Buffalo Bills</a> <small>(AFL,12-2)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1963/">1963</a></th><td class="left " data-stat="league_id" ><a href="/years/1963_AFL/">AFL</a>, <a href="/years/1963/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/chi/1963.htm">Chicago Bears</a> <small>(NFL,11-1-2)</small>, <a href="/teams/sdg/1963.htm">San Diego Chargers</a> <small>(AFL,11-3)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1962/">1962</a></th><td class="left " data-stat="league_id" ><a href="/years/1962_AFL/">AFL</a>, <a href="/years/1962/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/gnb/1962.htm">Green Bay Packers</a> <small>(NFL,13-1)</small>, <a href="/teams/kan/1962.htm">Dallas Texans</a> <small>(AFL,11-3)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1961/">1961</a></th><td class="left " data-stat="league_id" ><a href="/years/1961_AFL/">AFL</a>, <a href="/years/1961/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/gnb/1961.htm">Green Bay Packers</a> <small>(NFL,11-3)</small>, <a href="/teams/oti/1961.htm">Houston Oilers</a> <small>(AFL,10-3-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1960/">1960</a></th><td class="left " data-stat="league_id" ><a href="/years/1960_AFL/">AFL</a>, <a href="/years/1960/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/phi/1960.htm">Philadelphia Eagles</a> <small>(NFL,10-2)</small>, <a href="/teams/oti/1960.htm">Houston Oilers</a> <small>(AFL,10-4)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1959/">1959</a></th><td class="left " data-stat="league_id" ><a href="/years/1959/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/clt/1959.htm">Baltimore Colts</a> <small>(NFL,9-3)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1958/">1958</a></th><td class="left " data-stat="league_id" ><a href="/years/1958/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/clt/1958.htm">Baltimore Colts</a> <small>(NFL,9-3)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1957/">1957</a></th><td class="left " data-stat="league_id" ><a href="/years/1957/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/det/1957.htm">Detroit Lions</a> <small>(NFL,8-4)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1956/">1956</a></th><td class="left " data-stat="league_id" ><a href="/years/1956/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/nyg/1956.htm">New York Giants</a> <small>(NFL,8-3-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1955/">1955</a></th><td class="left " data-stat="league_id" ><a href="/years/1955/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/cle/1955.htm">Cleveland Browns</a> <small>(NFL,9-2-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1954/">1954</a></th><td class="left " data-stat="league_id" ><a href="/years/1954/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/cle/1954.htm">Cleveland Browns</a> <small>(NFL,9-3)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1953/">1953</a></th><td class="left " data-stat="league_id" ><a href="/years/1953/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/det/1953.htm">Detroit Lions</a> <small>(NFL,10-2)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1952/">1952</a></th><td class="left " data-stat="league_id" ><a href="/years/1952/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/det/1952.htm">Detroit Lions</a> <small>(NFL,9-3)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1951/">1951</a></th><td class="left " data-stat="league_id" ><a href="/years/1951/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/ram/1951.htm">Los Angeles Rams</a> <small>(NFL,8-4)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1950/">1950</a></th><td class="left " data-stat="league_id" ><a href="/years/1950/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/cle/1950.htm">Cleveland Browns</a> <small>(NFL,10-2)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1949/">1949</a></th><td class="left " data-stat="league_id" ><a href="/years/1949_AAFC/">AAFC</a>, <a href="/years/1949/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/phi/1949.htm">Philadelphia Eagles</a> <small>(NFL,11-1)</small>, <a href="/teams/cle/1949.htm">Cleveland Browns</a> <small>(AAFC,9-1-2)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1948/">1948</a></th><td class="left " data-stat="league_id" ><a href="/years/1948_AAFC/">AAFC</a>, <a href="/years/1948/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/phi/1948.htm">Philadelphia Eagles</a> <small>(NFL,9-2-1)</small>, <a href="/teams/cle/1948.htm">Cleveland Browns</a> <small>(AAFC,14-0)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1947/">1947</a></th><td class="left " data-stat="league_id" ><a href="/years/1947_AAFC/">AAFC</a>, <a href="/years/1947/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/crd/1947.htm">Chicago Cardinals</a> <small>(NFL,9-3)</small>, <a href="/teams/cle/1947.htm">Cleveland Browns</a> <small>(AAFC,12-1-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1946/">1946</a></th><td class="left " data-stat="league_id" ><a href="/years/1946_AAFC/">AAFC</a>, <a href="/years/1946/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/chi/1946.htm">Chicago Bears</a> <small>(NFL,8-2-1)</small>, <a href="/teams/cle/1946.htm">Cleveland Browns</a> <small>(AAFC,12-2)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1945/">1945</a></th><td class="left " data-stat="league_id" ><a href="/years/1945/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/ram/1945.htm">Cleveland Rams</a> <small>(NFL,9-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1944/">1944</a></th><td class="left " data-stat="league_id" ><a href="/years/1944/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/gnb/1944.htm">Green Bay Packers</a> <small>(NFL,8-2)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1943/">1943</a></th><td class="left " data-stat="league_id" ><a href="/years/1943/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/chi/1943.htm">Chicago Bears</a> <small>(NFL,8-1-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1942/">1942</a></th><td class="left " data-stat="league_id" ><a href="/years/1942/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/was/1942.htm">Washington Redskins</a> <small>(NFL,10-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1941/">1941</a></th><td class="left " data-stat="league_id" ><a href="/years/1941/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/chi/1941.htm">Chicago Bears</a> <small>(NFL,10-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1940/">1940</a></th><td class="left " data-stat="league_id" ><a href="/years/1940/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/chi/1940.htm">Chicago Bears</a> <small>(NFL,8-3)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1939/">1939</a></th><td class="left " data-stat="league_id" ><a href="/years/1939/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/gnb/1939.htm">Green Bay Packers</a> <small>(NFL,9-2)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1938/">1938</a></th><td class="left " data-stat="league_id" ><a href="/years/1938/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/nyg/1938.htm">New York Giants</a> <small>(NFL,8-2-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1937/">1937</a></th><td class="left " data-stat="league_id" ><a href="/years/1937/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/was/1937.htm">Washington Redskins</a> <small>(NFL,8-3)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1936/">1936</a></th><td class="left " data-stat="league_id" ><a href="/years/1936/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/gnb/1936.htm">Green Bay Packers</a> <small>(NFL,10-1-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1935/">1935</a></th><td class="left " data-stat="league_id" ><a href="/years/1935/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/det/1935.htm">Detroit Lions</a> <small>(NFL,7-3-2)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1934/">1934</a></th><td class="left " data-stat="league_id" ><a href="/years/1934/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/nyg/1934.htm">New York Giants</a> <small>(NFL,8-5)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1933/">1933</a></th><td class="left " data-stat="league_id" ><a href="/years/1933/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/chi/1933.htm">Chicago Bears</a> <small>(NFL,10-2-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1932/">1932</a></th><td class="left " data-stat="league_id" ><a href="/years/1932/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/chi/1932.htm">Chicago Bears</a> <small>(NFL,7-1-6)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1931/">1931</a></th><td class="left " data-stat="league_id" ><a href="/years/1931/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/gnb/1931.htm">Green Bay Packers</a> <small>(NFL,12-2)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1930/">1930</a></th><td class="left " data-stat="league_id" ><a href="/years/1930/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/gnb/1930.htm">Green Bay Packers</a> <small>(NFL,10-3-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1929/">1929</a></th><td class="left " data-stat="league_id" ><a href="/years/1929/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/gnb/1929.htm">Green Bay Packers</a> <small>(NFL,12-0-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1928/">1928</a></th><td class="left " data-stat="league_id" ><a href="/years/1928/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/prv/1928.htm">Providence Steam Roller</a> <small>(NFL,8-1-2)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1927/">1927</a></th><td class="left " data-stat="league_id" ><a href="/years/1927/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/nyg/1927.htm">New York Giants</a> <small>(NFL,11-1-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1926/">1926</a></th><td class="left " data-stat="league_id" ><a href="/years/1926/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/fyj/1926.htm">Frankford Yellow Jackets</a> <small>(NFL,14-1-2)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1925/">1925</a></th><td class="left " data-stat="league_id" ><a href="/years/1925/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/crd/1925.htm">Chicago Cardinals</a> <small>(NFL,11-2-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1924/">1924</a></th><td class="left " data-stat="league_id" ><a href="/years/1924/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/cib/1924.htm">Cleveland Bulldogs</a> <small>(NFL,7-1-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1923/">1923</a></th><td class="left " data-stat="league_id" ><a href="/years/1923/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/cbd/1923.htm">Canton Bulldogs</a> <small>(NFL,11-0-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1922/">1922</a></th><td class="left " data-stat="league_id" ><a href="/years/1922/">NFL</a></td><td class="right " data-stat="summary" ><a href="/teams/cbd/1922.htm">Canton Bulldogs</a> <small>(NFL,10-0-2)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1921_APFA/">1921</a></th><td class="left " data-stat="league_id" ><a href="/years/1921_APFA/">APFA</a></td><td class="right " data-stat="summary" ><a href="/teams/chi/1921.htm">Chicago Staleys</a> <small>(APFA,9-1-1)</small></td></tr>
+<tr ><th scope="row" class="left " data-stat="year_id" ><a href="/years/1920_APFA/">1920</a></th><td class="left " data-stat="league_id" ><a href="/years/1920_APFA/">APFA</a></td><td class="right " data-stat="summary" ><a href="/teams/akr/1920.htm">Akron Pros</a> <small>(APFA,8-0-3)</small></td></tr>
+
+</table>
+
+
+</div>
+
+<div class="placeholder"></div>
+
+</div>
+
+            
+            
+            
+         
+      
+
+<!-- global.nonempty_tables_num: 1, table_count: 1 -->
+   <!-- no Local/Partials/NoteBottom.tt2 -->
+<div id="bottom_nav" class="section_wrapper">
+<div class="section_heading"><span data-no-inpage="1" class="section_anchor" id="inner_nav_bottom_link" data-label="More Leagues"></span><h2>More Leagues</h2></div>
+<div class="section_content" id="bottom_nav_container">
+
+  <p><a href="/years/">Pro Football History</a></p>
+  <p><a href="#">More Leagues</a></p>
+        <ul class="">
+          <li><a href="/years/">Pro Football History</a></li>
+          <li><a href="/years/NFL/index.htm">NFL</a></li>
+          <li><a href="/years/AFL/index.htm">AFL</a></li>
+          <li><a href="/years/APFA/index.htm">APFA</a></li>
+          <li><a href="/years/AAFC/index.htm">AAFC</a></li>
+          <li><a href="/years/AFLNFL/index.htm">NFL & AFL</a></li>
+          <li><a href="/years/ALL/index.htm">All Leagues</a></li>
+          <li><a href="#">More Leagues</a></li>
+        </ul></div></div>
+
+   
+
+
+<!-- fs_footer -->
+<div class="adblock">
+<!-- div#fs_fs_footer  -->
+<div align="center" id="div-gpt-ad-728x90-Footer">
+    <script data-cfasync="false" type='text/javascript'>
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+    }
+    else {
+        console.log('push ad:div-gpt-ad-728x90-Footer');
+        freestar.queue.push(function() { googletag.display('div-gpt-ad-728x90-Footer'); });
+    }
+    </script>
+</div>
+<!-- /div.#fs_fs_footer -->
+
+</div>
+
+
+
+
+</div><!-- div#content -->
+
+
+<div id="footer" role="contentinfo">
+	<div id="footer_header">
+		 <ul class="bullets-inline"><li class="user logged_in">Welcome <span class="username"></span>&nbsp;&#183;&nbsp;<a href="https://stathead.com/profile/?utm_source=web&amp;utm_medium=pfr&amp;utm_campaign=sr-nav-bar-top-account">Your Account</a></li>
+<li class="user logged_in"><a class="logout" onclick="sr_auth_logout_page_elements();if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/profile/?do=logout">Logout</a></li>
+<li class="user not_logged_in"><a class="login" onclick="if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/users/login.cgi?token=1">Login</a></li>
+<li class="user not_logged_in"><a href="https://stathead.com/users/signup.cgi">Create Account</a></li>
+</ul>
+		 <div class="breadcrumbs">You are here: <span><a href="/"><span>PFR Home Page</span></a> </span> &gt; <strong>All Years</strong></div>
+	</div><!-- div#footer_header -->
+
+	<div id="footer_general">
+		<div id="site_menu" role="navigation" aria-label="complete site index">
+			
+			
+<div class="section_heading assoc_site_menu" id="site_menu_sh">
+  <span class="section_anchor" id="site_menu_link" data-label="Full Site Menu"></span><h2>Full Site Menu</h2>    <div class="section_heading_text">
+      <ul><li><a data-scroll href="#header">Return to Top</a></li>
+      </ul>
+    </div>
+    		
+</div>
+			
+				    <ul>
+	<li><a href="/players">Players</a>
+	    <div>In the News: <a title="Jimmy Garoppolo" href="/players/G/GaroJi00.htm">Jimmy Garoppolo</a>, <a title="Trey Lance" href="/players/L/LancTr00.htm">Trey Lance</a>, <a title="Carson Wentz" href="/players/W/WentCa00.htm">Carson Wentz</a>, <a title="Aaron Rodgers" href="/players/R/RodgAa00.htm">Aaron Rodgers</a>, <a title="Josh Allen" href="/players/A/AlleJo02.htm">Josh Allen</a>, <a title="Tom Brady" href="/players/B/BradTo00.htm">Tom Brady</a> <a href="/players/">...</a></div>
+	<div>Popular: <a title="Tom Brady" href="/players/B/BradTo00.htm">Tom Brady</a>, <a title="Cam Newton" href="/players/N/NewtCa00.htm">Cam Newton</a>, <a title="Aaron Donald" href="/players/D/DonaAa00.htm">Aaron Donald</a>, <a title="Russell Wilson" href="/players/W/WilsRu00.htm">Russell Wilson</a>, <a title="Aaron Rodgers" href="/players/R/RodgAa00.htm">Aaron Rodgers</a>, <a title="Odell Beckham" href="/players/B/BeckOd00.htm">Odell Beckham Jr.</a>, <a title="J.J. Watt" href="/players/W/WattJ.00.htm">J.J. Watt</a>, <a title="Peyton Manning" href="/players/M/MannPe00.htm">Peyton Manning</a>, <a title="Patrick Mahomes" href="/players/M/MahoPa00.htm">Patrick Mahomes</a>, <a title="Julio Jones" href="/players/J/JoneJu02.htm">Julio Jones</a>, <a title="Antonio Brown" href="/players/B/BrowAn04.htm">Antonio Brown</a>, <a title="Ben Roethlisberger" href="/players/R/RoetBe00.htm">Ben Roethlisberger</a>, <a title="Drew Brees" href="/players/B/BreeDr00.htm">Drew Brees</a>, <a title="Todd Gurley" href="/players/G/GurlTo01.htm">Todd Gurley</a> <a href="/players/">...</a></div>
+
+	<div><a href="/hof/">Hall of Famers</a>, <a href="/probowl/">Pro Bowlers</a>, <a href="/awards/ap-nfl-mvp-award.htm">MVPs</a>, <a href="/friv/linkify.cgi">Player Linker Tool</a> ...</div>
+	</li>
+
+	<li><a href="/teams/">Teams</a>
+	<div>AFC East: <a href="/teams/buf/2020.htm">Bills</a>, <a href="/teams/mia/2020.htm">Dolphins</a>, <a href="/teams/nwe/2020.htm">Patriots</a>, <a href="/teams/nyj/2020.htm">Jets</a></div>
+<div>AFC North: <a href="/teams/pit/2020.htm">Steelers</a>, <a href="/teams/rav/2020.htm">Ravens</a>, <a href="/teams/cle/2020.htm">Browns</a>, <a href="/teams/cin/2020.htm">Bengals</a></div>
+<div>AFC South: <a href="/teams/oti/2020.htm">Titans</a>, <a href="/teams/clt/2020.htm">Colts</a>, <a href="/teams/htx/2020.htm">Texans</a>, <a href="/teams/jax/2020.htm">Jaguars</a></div>
+<div>AFC West: <a href="/teams/kan/2020.htm">Chiefs</a>, <a href="/teams/rai/2020.htm">Raiders</a>, <a href="/teams/sdg/2020.htm">Chargers</a>, <a href="/teams/den/2020.htm">Broncos</a></div>
+<div>NFC East: <a href="/teams/was/2020.htm">Football Team</a>, <a href="/teams/nyg/2020.htm">Giants</a>, <a href="/teams/dal/2020.htm">Cowboys</a>, <a href="/teams/phi/2020.htm">Eagles</a></div>
+<div>NFC North: <a href="/teams/gnb/2020.htm">Packers</a>, <a href="/teams/chi/2020.htm">Bears</a>, <a href="/teams/min/2020.htm">Vikings</a>, <a href="/teams/det/2020.htm">Lions</a></div>
+<div>NFC South: <a href="/teams/nor/2020.htm">Saints</a>, <a href="/teams/tam/2020.htm">Buccaneers</a>, <a href="/teams/car/2020.htm">Panthers</a>, <a href="/teams/atl/2020.htm">Falcons</a></div>
+<div>NFC West: <a href="/teams/sea/2020.htm">Seahawks</a>, <a href="/teams/ram/2020.htm">Rams</a>, <a href="/teams/crd/2020.htm">Cardinals</a>, <a href="/teams/sfo/2020.htm">49ers</a></div>
+
+	</li>
+
+	<li><a href="/years/">Seasons</a>
+	<div><a href="/years/2021/">Current Season</a>, <a href="/years/2021/games.htm">Current Season Schedule</a></div><div><a href="/years/2020/">2020</a>, <a href="/years/2019/">2019</a>, <a href="/years/2018/">2018</a>, <a href="/years/2017/">2017</a>, <a href="/years/2016/">2016</a>, <a href="/years/">...</a></div>
+	</li>
+
+	<li><a href="/leaders/">NFL Leaders</a>
+	<div><a href="/leaders/pass_yds_career.htm">Career Passing Yards</a>, <a href="/leaders/rush_td_single_season.htm">Single Season Rush TD</a>, <a href="/leaders/sacks_single_game.htm">Single Game Sacks</a> ...</div>
+	</li>
+
+	<li><a href="/boxscores/">NFL Scores</a>
+	<div><a href="/boxscores/game-scores.htm">All-time Scores</a>, <a href="/boxscores/game_scores_find.cgi">Find a Score</a> ...</div>
+	</li>
+
+	<li><a href="/draft/">NFL Draft</a>
+	<div><a href="/years/2021/draft.htm">2021 Draft</a>, <a href="https://stathead.com/football/draft-finder.cgi">Draft Finder</a>, <a href="/draft/">Draft History</a> ...</div>
+	</li>
+
+	<li><a href="https://stathead.com/football/">Stathead Football</a>
+	<div><a href="https://stathead.com/football/psl_finder.cgi">Player Season Finder</a>, <a href="https://stathead.com/football/pgl_finder.cgi">Player Game Finder</a>, <a href="https://stathead.com/football/tgl_finder.cgi">Team Game Finder</a>, <a href="https://stathead.com/football/team_streak_finder.cgi">Team Streak Finder</a> ...</div>
+	</li>
+
+	<li><a href="/super-bowl/">Super Bowl Winners</a>
+	<div><a href="https://stathead.com/football/play_finder.cgi?sb=1">Super Bowl Play Finder</a>, <a href="/super-bowl/leaders.htm">Super Bowl Leaders</a>, <a href="/super-bowl/standings.htm">Super Bowl Standings</a> ...</div>
+	</li>
+
+	<li><a href="/schools/">Schools</a>
+	<div><a href="/schools/">All Player Colleges</a>, <a href="/schools/high_schools.cgi">High Schools</a> ...</div>
+	</li>
+
+	<li><a href="/coaches/">NFL Coaches</a>
+	<div>Active Coaches: <a href="/coaches/BeliBi0.htm">Bill Belichick</a>, <a href="/coaches/ReidAn0.htm">Andy Reid</a>, <a href="/coaches/TomlMi0.htm">Mike Tomlin</a>, <a href="/coaches/CarrPe0.htm">Pete Carroll</a> ...</div><div>Historical Coaches: <a href="/coaches/ShulDo0.htm">Don Shula</a>, <a href="/coaches/HalaGe0.htm">George Halas</a>, <a href="/coaches/LandTo0.htm">Tom Landry</a>, <a href="/coaches/LambCu0.htm">Curly Lambeau</a> ...</div>
+	</li>
+
+	<li><a href="/executives/">Executives</a>
+	<div><a href="/executives/AdamBu0.htm">Bud Adams</a>, <a href="/executives/PiolSc0.htm">Scott Pioli</a>, <a href="/executives/HalaGe0.htm">George Halas</a> ...</div>
+	</li>
+
+	<li><a href="/officials/">NFL Officials</a>
+	<div><a href="/officials/HochEd0r.htm">Ed Hochuli</a>, <a href="/officials/SterTo0r.htm">Tony Steratore</a>, <a href="/officials/McAuTe0r.htm">Terry McAulay</a> ...</div>
+	</li>
+
+	<li><a href="/fantasy/">Fantasy Football Stats</a>
+	<div><a href="/fantasy/QB-fantasy-matchups.htm">Current Fantasy Matchups</a>, <a href="/years/2020/fantasy-points-against-QB.htm">Fantasy Points Allowed</a> ...</div>
+	</li>
+	<li><a href="/stadiums/">Stadiums</a>
+	<div><a href="/stadiums/GNB00.htm">Lambeau Field</a>, <a href="/stadiums/NOR00.htm">Superdome</a>, <a href="/stadiums/SFO00.htm">Candlestick Park</a> ...</div>
+	</li>
+
+	<li><a href="/awards/">NFL Awards</a>
+	<div><a href="/hof/">Pro Football Hall of Fame</a>, <a href="/awards/ap-nfl-mvp-award.htm">AP NFL MVP</a>, <a href="/probowl/">Pro Bowl</a> ...</div>
+	</li>
+
+	<li><a href="/friv/">Frivolities</a>
+	<div><a href="/linker">Player Linker Tool</a>, <a href="/friv/birthdays.cgi">Birthdays</a>, <a href="/players/uniform.cgi">Uniform Numbers</a> ...</div>
+	</li>
+
+  <li><a href="/about/">About</a>
+    <div><a href="/about/glossary.htm">Glossary</a>, <a href="/about/minimums.htm">Stat Minimums</a> ...</div>
+  </li>
+  <li><a href="/articles/">Articles</a>
+    <div><a href="/articles/iron.htm">Injury Risks</a>, <a href="/articles/corrgaus.htm">The Bell Curve & Fantasy Football</a> ...</div>
+  </li>
+	</ul>
+
+			
+		</div><!-- div#site_menu -->
+		<div>
+			<div id="social" class="icon_group noload">
+	
+<div class="section_heading assoc_" id="_sh">
+  <span class="section_anchor" id="_link" data-label="We're Social...for Statheads" data-no-inpage="1"></span><h2>We're Social...for Statheads</h2>		
+</div>
+	<a href="tel://888-512-8907" data-tip="Call us on Telephone" data-label="Telephone" aria-label="Telephone" class="poptip"><svg class="icon phone"><use xlink:href="#ic-phone"></use></svg></a>
+	<a href="//www.sports-reference.com/blog/" data-tip="The Sports Reference Blog" data-label="Our Blog" aria-label="Our Blog" class="poptip"><svg class="icon wordpress"><use xlink:href="#ic-wordpress"></use></svg></a>
+	<a href="https://www.sports-reference.com/blog/feed/" data-tip="Our Blog's RSS Feed" data-label="RSS Feed" aria-label="RSS Feed" class="poptip"><svg class="icon rss"><use xlink:href="#ic-rss"></use></svg></a>
+		<a href="https://www.facebook.com/Pro.Football.Reference" data-tip="Pro-Football-Reference.com at Facebook" data-label="Facebook" aria-label="Facebook" class="poptip"><svg class="icon facebook"><use xlink:href="#ic-facebook"></use></svg></a>
+		<a href="https://twitter.com/pfref" data-tip="Pro-Football-Reference.com at Twitter" data-label="Twitter" aria-label="Twitter" class="poptip"><svg class="icon twitter"><use xlink:href="#ic-twitter"></use></svg></a>
+	
+	<a href="https://reddit.com/r/SportsReference" data-tip="Reddit/r/SportsReference" data-label="Reddit/r/SR" aria-label="Reddit/r/SR" class="poptip"><svg class="icon reddit"><use xlink:href="#ic-reddit"></use></svg></a>
+	<a href="https://www.youtube.com/user/sportsreference" data-tip="YouTube/SportsReference" data-label="YouTube" aria-label="YouTube" class="poptip"><svg class="icon youtube"><use xlink:href="#ic-youtube"></use></svg></a>
+	<a href="https://www.linkedin.com/company/sports-reference-llc" data-tip="Follow SR on LinkedIn" data-label="LinkedIn" aria-label="LinkedIn" class="poptip"><svg class="icon linkedin"><use xlink:href="#ic-linkedin"></use></svg></a>
+	<a href="https://www.paypal.me/sportsref" data-tip="Send us money via PayPal" data-label="PayPal" aria-label="PayPal" class="poptip"><svg class="icon paypal"><use xlink:href="#ic-paypal"></use></svg></a>
+
+<p>Every <a href="https://www.sports-reference.com/blog/sports-reference-social-media/">Sports Reference Social Media Account</a></p>
+<p><strong>Site Last Updated:</strong> Friday, August 13,  5:29AM
+</p>
+<p><a href="#" onclick="FreshworksWidget('open'); return false;" class="button" style="display: block">Question, Comment, Feedback, or Correction?</a></p>
+
+<p><a style="background-color:#8e4496; color: #fff;" href="https://stathead.com/?&utm_medium=sr&utm_source=pfr&utm_campaign=site-footer" class="button">Are you a Stathead, too? Subscribe to our Free Newsletter</a></p>
+
+<p><a style="background-color:#155ca9; color: #fff;" href="https://www.sports-reference.com/this-month.html?&utm_medium=sr&utm_source=pfr&utm_campaign=site-footer-twisr" class="button alt">This Month in Sports Reference<br><em>Find out when we add a feature or make a change</em></a></p>
+
+<p><a href="https://www.sports-reference.com/blog/ways-sports-reference-can-help-your-website/?utm_medium=sr&utm_source=pfr&utm_campaign=site-footer-ways-help">Do you have a sports website? Or write about sports? We have tools and resources that can help you use sports data.  Find out more.</a></p>
+
+
+</div><!-- div#social -->
+
+			<div id="tips_tricks">
+   
+<div class="section_heading assoc_tips" id="tips_sh">
+  <span class="section_anchor" id="tips_link" data-label="FAQs, Tip &amp; Tricks" data-no-inpage="1"></span><h2>FAQs, Tip &amp; Tricks</h2>		
+</div>
+   <ul>
+<li>Learn about the <a href="https://www.pro-football-reference.com/blog/index37a8.html">Approximate Value Formula</a></li>
+<li>Details on the Pro Football Reference <a href="https://www.pro-football-reference.com/about/win_prob.htm">Win Probability</a></li>
+
+
+           <li><a href="//www.sports-reference.com/blog/category/tips-and-tricks/">Tips and Tricks from our Blog.</a></li>
+           <li><a href="/linker/">Do you have a blog? Join our linker program.</a></li>
+	   <li><a href="https://www.sports-reference.com/blog/category/stathead-tutorial-series/">Watch our How-To Videos to Become a Stathead</a></li>
+	   <li><a href="//stathead.com/">Subscribe to Stathead and get access to more data than you can imagine</a></li>
+   </ul>
+</div><!-- div#tips_tricks -->
+
+			<div id="credits">
+				<p>All logos are the trademark &amp; property of their owners and not Sports Reference LLC.  We present them here for purely educational purposes.
+				<a href="https://www.sports-reference.com/blog/2016/06/redesign-team-and-league-logos-courtesy-sportslogos-net/">Our reasoning for presenting offensive logos.</a></p>
+				<p>
+					
+					Logos were compiled by the amazing <a href="http://sportslogos.net/">SportsLogos.net.</a>
+				</p>
+				
+<div class="notice">
+<p>Data Provided By
+	<a href="https://www.sportradar.com/" rel="nofollow"><img alt="SportRadar" border=0 width=275 src="https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/images/klecko/sportradar.png"  style="background-color:#666; padding:.5em; border-radius:.25em"></a>
+	the official stats partner of the NFL.</p>
+	
+	<p>Pro-Football-Reference utilizes <strong>Official NFL data</strong> for current NFL seasons.</p>
+	
+</div>
+
+     <p>Copyright &copy; 2000-2021 <a href="//www.sports-reference.com/">Sports Reference LLC</a>. All rights reserved.</p>
+
+<p>Most data provided by <a href="http://www.247baseball.com/">24-7 Baseball, creators of the <a href="https://www.amazon.com/dp/1402752504/">ESPN Pro Football Encyclopedia</a>.</p>
+
+			</div><!-- div#credits -->
+		</div>
+	</div>
+
+	<ul id="site_dirs" class="notranslate bullets-inline">
+	<li><a href="https://www.sports-reference.com/"><svg height="15px" width="20px"><use xlink:href="#ic-sr-pennant"></use></svg> Sports Reference</a></li>
+	<li><a href="https://www.baseball-reference.com/">Baseball</a></li>
+	<li class="current"><a href="https://www.pro-football-reference.com/">Football</a> <a href="https://www.sports-reference.com/cfb/">(college)</a></li>
+	<li><a href="https://www.basketball-reference.com/">Basketball</a> <a href="https://www.sports-reference.com/cbb/">(college)</a></li>
+	<li><a href="https://www.hockey-reference.com/">Hockey</a></li>
+
+
+	
+	
+	
+	<li><a href="https://fbref.com/es/">F�tbol</a></li>
+
+	<li><a href="https://www.sports-reference.com/blog/">Blog</a></li>
+
+    <li><a href="https://stathead.com/?utm_source=web&amp;utm_medium=pfr&amp;utm_campaign=sr-nav-bar-top-link">Stathead</a></li>
+    <li><a href="https://widgets.sports-reference.com/">Widgets</a></li>
+
+
+</ul>
+
+	<div id="about"><a href="//www.sports-reference.com/about.html">About</a> &bull; <a href="//www.sports-reference.com/privacy.html">Privacy Statement</a> &bull; <a href="//www.sports-reference.com/termsofuse.html">Conditions &amp; Terms of Service</a> &bull; <a href="//www.sports-reference.com/advertise.html">Advertise With Us</a> &bull; <a href="//www.sports-reference.com/data_use.html">Use of Data</a></div><!-- div#about -->
+</div><!-- div#footer -->
+
+</div><!-- div#wrap -->
+<!-- yes sticky url:  https://www.pro-football-reference.com/years/ -->
+<div id="fs-select-footer"></div>
+      
+
+
+
+<!-- rails -->
+
+<div class="adblock rails  left"><!-- div#fs_fs_rails_left  -->
+<div align="center" id="div-gpt-ad-160x600-1">
+    <script data-cfasync="false" type='text/javascript'>
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+    }
+    else {
+        console.log('push ad:div-gpt-ad-160x600-1');
+        freestar.queue.push(function() { googletag.display('div-gpt-ad-160x600-1'); });
+    }
+    </script>
+</div>
+<!-- /div.#fs_fs_rails_left -->
+</div>
+<div class="adblock rails right"><!-- div#fs_fs_rails_right  -->
+<div align="center" id="div-gpt-ad-160x600-2">
+    <script data-cfasync="false" type='text/javascript'>
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+    }
+    else {
+        console.log('push ad:div-gpt-ad-160x600-2');
+        freestar.queue.push(function() { googletag.display('div-gpt-ad-160x600-2'); });
+    }
+    </script>
+</div>
+<!-- /div.#fs_fs_rails_right -->
+</div>
+
+
+<!-- Google Analytics --><script> var sr_cookie = vjs_readCookie('stathead_user') || ''; var sr_cookie_split = sr_cookie.split("::"); var sr_session_key = (sr_cookie_split.length > 1)?sr_cookie_split[2]:''; var sr_ad_free_key = "3"; var sr_site_id = "pfr"; var sr_is_subscriber = (sr_ad_free_key && sr_session_key.vjs_isMatch(new RegExp(sr_ad_free_key + "$"))) || sr_session_key.vjs_isMatch(/1$/) || (sr_site_id === 'stathead' && sr_session_key.vjs_isMatch(/[0-7]$/)); var sr_is_user = sr_cookie !== null && sr_cookie !== ''; var sr_seen_modal = vjs_readCookie('modal_ad') !== null; var sr_device = 'unk'; if (Modernizr.phone) { sr_device = 'phone'; } else if (Modernizr.tablet) { sr_device = 'tablet'; } else if (Modernizr.laptop) { sr_device = 'laptop'; } else if (Modernizr.desktop) { sr_device = 'desktop'; } var sr_stathead_site = vjs_readCookie('stathead_site') || ''; var sr_stathead_type = vjs_readCookie('stathead_type') || ''; (function(i,s,o,g,r,a,m){ i['GoogleAnalyticsObject']=r; i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date(); a=s.createElement(o),m=s.getElementsByTagName(o)[0]; a.async=1; a.src=g; m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-1890630-3', 'auto'); ga('require', 'linkid', 'linkid.js'); ga('require', 'ecommerce', 'ecommerce.js'); ga('require', 'displayfeatures'); ga('set', 'dimension1', sr_is_subscriber); ga('set', 'dimension2', sr_is_user); /* no longer collecting is_modern */ ga('set', 'dimension3', 'null'); ga('set', 'dimension4', sr_stathead_type); ga('set', 'dimension5', sr_stathead_site); ga('set', 'metric1', Modernizr.viewport_width); ga('send', 'pageview'); /* all sr-sites together */ ga('create', 'UA-1890630-9', 'auto', {'name': 'sr_tracker', 'allowLinker': true }); ga('sr_tracker.require', 'displayfeatures'); ga('sr_tracker.set', 'dimension1',sr_site_id); ga('sr_tracker.set', 'dimension2',sr_is_subscriber); ga('sr_tracker.set', 'dimension3',sr_is_user); ga('sr_tracker.set', 'dimension4',sr_seen_modal); ga('sr_tracker.set', 'dimension5',sr_device); /* no longer collecting is_modern */ ga('sr_tracker.set', 'dimension6','null'); ga('sr_tracker.set', 'metric1',Modernizr.viewport_width); /* note that this requires the Assets/AdBlockTest.tt2 to be included above. ga('sr_tracker.set', 'dimension8',(typeof sr_test == 'undefined')?'no-test':( sr_test ? 'non-blocking':'blocking')); */ ga('sr_tracker.send', 'pageview'); /* cribbed from: http://www.axllent.org/docs/view/track-outbound-links-with-analytics-js/ */ function _gaLt(event) { if (!ga.hasOwnProperty("loaded") || ga.loaded != true) { return; } var el = event.srcElement || event.target; /* if a link has been clicked */ if (el && el.href) { var link = el.href; /* Only if it is an external link */ if (link.indexOf(location.host) == -1 && !link.match(/^javascript\:/i)) { /* Is target set and not _(self|parent|top)? */ var target = (el.target && !el.target.match(/^_(self|parent|top)/i)) ? el.target : false; /* If target opens a new window then just track */ if (el.target && !el.target.match(/^_(self|parent|top)/i)) { ga("send", "event", "Outgoing Links", link, document.location.pathname + document.location.search); } }; } } window.addEventListener ? window.addEventListener("load", function() { document.body.addEventListener("click", _gaLt, !1)}, !1) : window.attachEvent && window.attachEvent("onload", function() { document.body.attachEvent("onclick", _gaLt) }); </script><!-- End Google Analytics -->
+
+
+<script>
+var fd_sr_site_id="pfr";window.fwSettings={widget_id:66000002075},function(){if("function"!=typeof window.FreshworksWidget){var e=function(){e.q.push(arguments)};e.q=[],window.FreshworksWidget=e}}();var script=document.createElement("script");switch(script.src="https://widget.freshworks.com/widgets/66000002075.js",script.type="text/javascript",script.async=!0,script.defer=!0,document.head.appendChild(script),fd_sr_site_id){case"br":fd_site_name="Baseball Reference";break;case"bbr":fd_site_name="Basketball Reference";break;case"pfr":fd_site_name="Pro Football Reference";break;case"hr":fd_site_name="Hockey Reference";break;case"fbref":fd_site_name="FBRef";break;case"cfb":fd_site_name="College Football Reference";break;case"cbb":fd_site_name="College Basketball Reference";break;case"sr":fd_site_name="Sports Reference";break;case"blog":fd_site_name="Blog";break;case"stathead":fd_site_name="Stathead";break;default:fd_site_name="Other"}var stathead_user="";try{stathead_user=vjs_readCookie("stathead_user").split("::").shift()}catch{}if(FreshworksWidget("hide","ticketForm",["custom_fields.cf_long_url"]),long_url="",window.location.href.length>255)var page_url="(URL too long to include)",long_url=window.location.href;else page_url=window.location.href;FreshworksWidget("prefill","ticketForm",{custom_fields:{cf_site_external:fd_site_name,cf_page:page_url,cf_stathead_user_id:stathead_user,cf_long_url:long_url}}),FreshworksWidget("hide","launcher"),(Modernizr.desktop||Modernizr.laptop)&&"stathead"===fd_sr_site_id&&FreshworksWidget("show","launcher");
+</script>
+
+
+</body>
+<!-- SR -->
+</html>
+
+
