@@ -17,7 +17,7 @@ from ..GetResultFromNetwork import *
 
 
 EXPORT_NFL_TEAMS_FILENAME = "pro-football-reference.Teams.json"
-EXPORT_NFL_SCHEDULE_FILENAME = "pro-football-reference.Schedule-%s.json"
+EXPORT_NFL_SCHEDULE_FILENAME = "pro-football-reference.Schedule-%s%s.json"
 
 
 PFR_BASE_URL = "http://www.pro-football-reference.com"
@@ -941,7 +941,7 @@ def __export_nfl_season(year, raw = False):
 	outputPath = GetDataPathForLeague(LEAGUE_NFL) if not raw else GetCachesPathForLeague(LEAGUE_NFL)
 	EnsureDirectory(outputPath)
 	
-	fileName = EXPORT_NFL_SCHEDULE_FILENAME % year
+	fileName = EXPORT_NFL_SCHEDULE_FILENAME % (year, ("" if not raw else"-DEBUG"))
 	path = os.path.join(outputPath, fileName)
 	
 	obj = pfr_schedule_weeks[LEAGUE_NFL][year]
@@ -973,7 +973,7 @@ def RestoreFromCaches():
 	print("    Restoring NFL Schedules from cache ...")
 	for y in range(1920, datetime.datetime.utcnow().year + 1):
 		year = str(y)
-		nflSchedulePath = os.path.join(nflCachesPath, EXPORT_NFL_SCHEDULE_FILENAME % year)
+		nflSchedulePath = os.path.join(nflCachesPath, EXPORT_NFL_SCHEDULE_FILENAME % (year, ""))
 		if os.path.exists(nflSchedulePath):
 			print("        Restoring NFL %s Schedule from cache ...")
 			f = open(nflSchedulePath, "r")
