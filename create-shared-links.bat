@@ -23,7 +23,7 @@ if exist "%shareddir%\Data\PluginSupport.py" del /F /Q "%shareddir%\Data\PluginS
 if exist "%shareddir%\Data\PluginSupport.pyc" del /F /Q "%shareddir%\Data\PluginSupport.pyc" >nul
 mklink /H "%shareddir%\Data\PluginSupport.py" "%shareddir%\PluginSupport.py" >nul
 
-REM Push Plugin Support everywhere before recursing
+REM Push Path Utils everywhere before recursing
 if not exist "%shareddir%\Data" mkdir "%shareddir%\Data" >nul
 if exist "%shareddir%\Data\PathUtils.py" del /F /Q "%shareddir%\Data\PathUtils.py" >nul
 if exist "%shareddir%\Data\PathUtils.pyc" del /F /Q "%shareddir%\Data\PathUtils.pyc" >nul

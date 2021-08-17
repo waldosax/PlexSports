@@ -5,7 +5,7 @@ from Hashes import *
 from StringUtils import *
 from TimeZoneUtils import *
 from Vectors import *
-from ..Data.SportsDataIO import *
+from ..Data.SportsDataIODownloader import *
 from ScheduleEvent import *
 
 SPORTS_DATA_IO_SEASON_TYPE_REGULAR_SEASON = 1

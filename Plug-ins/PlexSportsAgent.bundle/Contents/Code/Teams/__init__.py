@@ -11,9 +11,9 @@ from StringUtils import *
 from Vectors import *
 from Franchise import *
 from Team import *
-import TheSportsDB, SportsDataIO
+import TheSportsDBFranchiseAdapter, SportsDataIOFranchiseAdapter
 from Data.CacheContainer import *
-from NFL import ProFootballReference
+from NFL import ProFootballReferenceFranchiseAdapter
 
 CACHE_DURATION = 135
 CACHE_VERSION = "1"
@@ -119,7 +119,7 @@ def __download_all_team_data(league):
 
 	if league == LEAGUE_NFL:
 		# Retrieve data from pro-football-reference.com
-		pfrFranchises = ProFootballReference.DownloadAllFranchises(league)
+		pfrFranchises = ProFootballReferenceFranchiseAdapter.DownloadAllFranchises(league)
 		for f in pfrFranchises.values():
 			franchiseName = f["name"]
 			(franchise, fteam) = __find_team(franchises, franchiseName, None)
@@ -132,14 +132,14 @@ def __download_all_team_data(league):
 
 
 	# Retrieve data from TheSportsDB.com
-	sportsDbTeams = TheSportsDB.DownloadAllTeams(league)
+	sportsDbTeams = TheSportsDBFranchiseAdapter.DownloadAllTeams(league)
 	for tm in sportsDbTeams.values():
 		teamName = tm["FullName"]
 		(franchise, team) = __find_team(franchises, None, teamName)
 		team.Augment(**tm)
 		
 	# Augment/replace with data from SportsData.io
-	sportsDataIoTeams = SportsDataIO.DownloadAllTeams(league)
+	sportsDataIoTeams = SportsDataIOFranchiseAdapter.DownloadAllTeams(league)
 	for tm in sportsDataIoTeams.values():
 		teamName = tm["FullName"]
 		(franchise, team) = __find_team(franchises, None, teamName)

@@ -12,9 +12,9 @@ from StringUtils import *
 from TimeZoneUtils import *
 from ..Data.CacheContainer import *
 import Teams
-import TheSportsDB, SportsDataIO
-import MLBAPI
-import NHLAPI
+import TheSportsDBScheduleAdapter, SportsDataIOScheduleAdapter
+import MLBAPIScheduleAdapter
+import NHLAPIScheduleAdapter
 from ScheduleEvent import *
 
 CACHE_DURATION = 7
@@ -253,12 +253,12 @@ def __download_all_schedule_data(sport, league, season):
 	teamKeys = Teams.cached_team_keys[league]
 
 	if league == LEAGUE_MLB:
-		MLBAPI.GetSchedule(sched, teamKeys, teams, sport, league, season)
+		MLBAPIScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
 	elif league == LEAGUE_NHL:
-		NHLAPI.GetSchedule(sched, teamKeys, teams, sport, league, season)
+		NHLAPIScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
 
-	TheSportsDB.GetSchedule(sched, teamKeys, teams, sport, league, season)
-	SportsDataIO.GetSchedule(sched, teamKeys, teams, sport, league, season)
+	TheSportsDBScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
+	SportsDataIOScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
 		
 	return sched
 

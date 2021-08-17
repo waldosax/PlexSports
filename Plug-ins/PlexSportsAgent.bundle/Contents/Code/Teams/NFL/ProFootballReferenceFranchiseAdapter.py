@@ -13,7 +13,7 @@ from PathUtils import *
 from PluginSupport import *
 from Serialization import *
 from StringUtils import *
-from Data.NFL.ProFootballReference import *
+from Data.NFL.ProFootballReferenceDownloader import *
 
 EXPORT_NFL_FRANCHISES_FILENAME = "pro-football-reference.Franchises" + EXTENSION_JSON
 

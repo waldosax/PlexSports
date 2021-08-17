@@ -45,40 +45,41 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\CacheContainer.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\Caching.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\GetResultFromNetwork.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\MLBAPI.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\MLBAPIDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\__init__.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\ProFootballReference.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\ProFootballReferenceDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NHL\NHLAPI.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NHL\NHLAPIDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NHL\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\PathUtils.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\PlugInSupport.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\SportsDataIO.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\TheSportsDB.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\SportsDataIODownloader.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\TheSportsDBDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\UserAgent.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Matching.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\PathUtils.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\PluginSupport.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\Hashes.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\MLBAPI.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\NHLAPI.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\MLBAPIScheduleAdapter.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\NHLAPIScheduleAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ScheduleEvent.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\SportsDataIO.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\TheSportsDB.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\SportsDataIOScheduleAdapter.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\TheSportsDBScheduleAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Serialization.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\StringUtils.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\Franchise.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NFL\ProFootballReference.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NFL\ProFootballReferenceFranchiseAdapter.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NFL\ProFootballReferenceFranchiseScraper.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NFL\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\SportsDataIO.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\SportsDataIOFranchiseAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\Team.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\TheSportsDB.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\TheSportsDBFranchiseAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\__init__.py">
       <SubType>Code</SubType>
     </Compile>
@@ -96,16 +97,16 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\CacheContainer.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\Caching.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\GetResultFromNetwork.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\MLB\MLBAPI.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Data\MLB\MLBAPIDownloader.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\MLB\__init__.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\NFL\ProFootballReference.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Data\NFL\ProFootballReferenceDownloader.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\NFL\__init__.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\NHL\NHLAPI.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Data\NHL\NHLAPIDownloader.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\NHL\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\PathUtils.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\PlugInSupport.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\SportsDataIO.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\TheSportsDB.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Data\SportsDataIODownloader.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Data\TheSportsDBDownloader.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\UserAgent.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Matching.py" />
@@ -120,11 +121,12 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\Serialization.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\StringUtils.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\Franchise.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NFL\ProFootballReference.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NFL\ProFootballReferenceFranchiseAdapter.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NFL\ProFootballReferenceFranchiseScraper.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NFL\__init__.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\SportsDataIO.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\SportsDataIOFranchiseAdapter.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\Team.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\TheSportsDB.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\TheSportsDBFranchiseAdapter.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\TimeZoneUtils.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Vectors.py" />
@@ -139,17 +141,17 @@
     <Compile Include="Shared\Data\CacheContainer.py" />
     <Compile Include="Shared\Data\Caching.py" />
     <Compile Include="Shared\Data\GetResultFromNetwork.py" />
-    <Compile Include="Shared\Data\MLB\MLBAPI.py" />
+    <Compile Include="Shared\Data\MLB\MLBAPIDownloader.py" />
     <Compile Include="Shared\Data\MLB\__init__.py" />
-    <Compile Include="Shared\Data\NFL\ProFootballReference.py" />
+    <Compile Include="Shared\Data\NFL\ProFootballReferenceDownloader.py" />
     <Compile Include="Shared\Data\NFL\ProFootballReference_old.py" />
     <Compile Include="Shared\Data\NFL\__init__.py" />
-    <Compile Include="Shared\Data\NHL\NHLAPI.py" />
+    <Compile Include="Shared\Data\NHL\NHLAPIDownloader.py" />
     <Compile Include="Shared\Data\NHL\__init__.py" />
     <Compile Include="Shared\Data\PathUtils.py" />
     <Compile Include="Shared\Data\PlugInSupport.py" />
-    <Compile Include="Shared\Data\SportsDataIO.py" />
-    <Compile Include="Shared\Data\TheSportsDB.py" />
+    <Compile Include="Shared\Data\SportsDataIODownloader.py" />
+    <Compile Include="Shared\Data\TheSportsDBDownloader.py" />
     <Compile Include="Shared\Data\__init__.py" />
     <Compile Include="Shared\Matching.py" />
     <Compile Include="Shared\PathUtils.py" />
@@ -159,19 +161,22 @@
     <Compile Include="Shared\Teams\Franchise.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Shared\Teams\NFL\ProFootballReference.py">
+    <Compile Include="Shared\Teams\NFL\ProFootballReferenceFranchiseAdapter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Teams\NFL\ProFootballReferenceFranchiseScraper.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Shared\Teams\NFL\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Shared\Teams\SportsDataIO.py">
+    <Compile Include="Shared\Teams\SportsDataIOFranchiseAdapter.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Shared\Teams\Team.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Shared\Teams\TheSportsDB.py">
+    <Compile Include="Shared\Teams\TheSportsDBFranchiseAdapter.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Shared\Teams\__init__.py" />

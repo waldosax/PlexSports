@@ -5,7 +5,7 @@ from Hashes import *
 from StringUtils import *
 from TimeZoneUtils import *
 from Vectors import *
-from ..Data.NHL.NHLAPI import *
+from ..Data.NHL.NHLAPIDownloader import *
 from ScheduleEvent import *
 
 

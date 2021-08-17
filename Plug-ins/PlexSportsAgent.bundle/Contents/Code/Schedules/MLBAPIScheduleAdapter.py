@@ -5,7 +5,7 @@ from Hashes import *
 from StringUtils import *
 from TimeZoneUtils import *
 from Vectors import *
-from ..Data.MLB.MLBAPI import *
+from ..Data.MLB.MLBAPIDownloader import *
 from ScheduleEvent import *
 
 

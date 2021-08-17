@@ -6,7 +6,7 @@ from datetime import datetime, date, time
 
 from Constants import *
 from StringUtils import *
-from Data.TheSportsDB import *
+from Data.TheSportsDBDownloader import *
 
 spdb_abbreviation_corrections = {
 	LEAGUE_MLB: {

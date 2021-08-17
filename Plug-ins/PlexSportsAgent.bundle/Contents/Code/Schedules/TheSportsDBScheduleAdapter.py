@@ -6,7 +6,7 @@ from Hashes import *
 from StringUtils import *
 from TimeZoneUtils import *
 from Vectors import *
-from ..Data.TheSportsDB import *
+from ..Data.TheSportsDBDownloader import *
 from ScheduleEvent import *
 
 THESPORTSDB_ROUND_QUARTERFINAL = 125
