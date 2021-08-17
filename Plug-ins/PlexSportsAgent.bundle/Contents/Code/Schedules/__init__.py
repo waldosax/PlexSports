@@ -249,15 +249,16 @@ def GetSchedule(sport, league, season, download=False):
 
 def __download_all_schedule_data(sport, league, season):
 	sched = dict()
-	teams = Teams.GetTeams(league)
+	teams = Teams.GetFranchises(league)
+	teamKeys = Teams.cached_team_keys[league]
 
 	if league == LEAGUE_MLB:
-		MLBAPI.GetSchedule(sched, Teams.cached_team_keys[league], sport, league, season)
+		MLBAPI.GetSchedule(sched, teamKeys, teams, sport, league, season)
 	elif league == LEAGUE_NHL:
-		NHLAPI.GetSchedule(sched, Teams.cached_team_keys[league], sport, league, season)
+		NHLAPI.GetSchedule(sched, teamKeys, teams, sport, league, season)
 
-	TheSportsDB.GetSchedule(sched, Teams.cached_team_keys[league], sport, league, season)
-	SportsDataIO.GetSchedule(sched, teams, sport, league, season)
+	TheSportsDB.GetSchedule(sched, teamKeys, teams, sport, league, season)
+	SportsDataIO.GetSchedule(sched, teamKeys, teams, sport, league, season)
 		
 	return sched
 

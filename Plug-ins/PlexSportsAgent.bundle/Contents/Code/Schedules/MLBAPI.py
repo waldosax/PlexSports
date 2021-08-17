@@ -20,7 +20,7 @@ MLBAPI_GAMETYPE_CHAMPIONSHIP = "C"
 MLBAPI_GAMETYPE_ALL_STAR_GAME = "A"
 
 
-def GetSchedule(sched, teams, sport, league, season):
+def GetSchedule(sched, teamKeys, teams, sport, league, season):
 	# Retrieve data from MLB API
 	downloadedJson = DownloadScheduleForSeason(season)
 	
@@ -46,8 +46,8 @@ def GetSchedule(sched, teams, sport, league, season):
 				# Teams from this API are full names, so teams dictionary is scanKeys
 				homeTeamStripped = create_scannable_key(schedEvent["teams"]["home"]["team"]["name"])
 				awayTeamStripped = create_scannable_key(schedEvent["teams"]["away"]["team"]["name"])
-				homeTeamKey = teams[homeTeamStripped] if teams.get(homeTeamStripped) else homeTeamStripped
-				awayTeamKey = teams[awayTeamStripped] if teams.get(awayTeamStripped) else awayTeamStripped
+				homeTeamKey = teamKeys[homeTeamStripped] if teamKeys.get(homeTeamStripped) else homeTeamStripped
+				awayTeamKey = teamKeys[awayTeamStripped] if teamKeys.get(awayTeamStripped) else awayTeamStripped
 
 				subseason = None
 				playoffRound = None

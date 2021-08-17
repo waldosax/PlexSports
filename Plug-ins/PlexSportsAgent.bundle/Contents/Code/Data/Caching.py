@@ -24,10 +24,10 @@ def GetHTTPLocalCachesPathForUrl(url, extension=None):
 	domain = __get_domain(url)
 	cacheKey = __get_cache_key(url)
 	localCachesPath = PluginSupport.GetHTTPLocalCachesPath()
-	return os.path.join(localCachesPath, domain, cacheKey[:2], cacheKey) + extension
+	return os.path.join(localCachesPath, domain, cacheKey[:2], cacheKey) + (extension or "")
 
 def GetResponseFromCache(url, extension=None):
-	httpCacheFilePath = GetHTTPLocalCachesPathForUrl(url)
+	httpCacheFilePath = GetHTTPLocalCachesPathForUrl(url, extension)
 	#httpCachePath = os.path.dirname(httpCacheFilePath)
 	#PathUtils.EnsureDirectory(httpCachePath)
 	if os.path.exists(httpCacheFilePath):
@@ -37,7 +37,7 @@ def GetResponseFromCache(url, extension=None):
 		if response: return response
 
 def CacheResponse(url, response, extension=None):
-	httpCacheFilePath = GetHTTPLocalCachesPathForUrl(url)
+	httpCacheFilePath = GetHTTPLocalCachesPathForUrl(url, extension)
 	httpCachePath = os.path.dirname(httpCacheFilePath)
 	PathUtils.EnsureDirectory(httpCachePath)
 	f = open(httpCacheFilePath, "wb")

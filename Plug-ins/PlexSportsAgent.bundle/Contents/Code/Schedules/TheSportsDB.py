@@ -22,7 +22,7 @@ THESPORTSDB_ROUND_PRESEASON = 500
 
 
 
-def GetSchedule(sched, teams, sport, league, season):
+def GetSchedule(sched, teamKeys, teams, sport, league, season):
 	# Retrieve data from TheSportsDB.com
 	downloadedJson = DownloadScheduleForLeagueAndSeason(league, season)
 	
@@ -35,8 +35,8 @@ def GetSchedule(sched, teams, sport, league, season):
 			# Teams from this API are full names, so teams dictionary is scanKeys
 			homeTeamStripped = create_scannable_key(schedEvent["strHomeTeam"])
 			awayTeamStripped = create_scannable_key(schedEvent["strAwayTeam"])
-			homeTeamKey = teams[homeTeamStripped]
-			awayTeamKey = teams[awayTeamStripped]
+			homeTeamKey = teamKeys[homeTeamStripped]
+			awayTeamKey = teamKeys[awayTeamStripped]
 		
 			date = None
 			if schedEvent.get("dateEventLocal") and schedEvent.get("strTimeLocal"):

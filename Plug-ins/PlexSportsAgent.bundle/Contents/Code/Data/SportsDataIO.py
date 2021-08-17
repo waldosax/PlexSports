@@ -42,7 +42,7 @@ SPORTS_DATA_IO_SUBSEASON_REGULARSEASON = ""
 SPORTS_DATA_IO_SUBSEASON_POSTSEASON = "POST"
 SPORTS_DATA_IO_SUBSEASON_ALLSTAR = "STAR"
 
-def __sports_data_io_download_all_teams_for_league(league):
+def DownloadAllTeamsForLeague(league):
 	if (league in known_leagues.keys() == False):
 		return None # TODO: Throw
 	key = sports_data_io_api_keys[league]

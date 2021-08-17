@@ -15,7 +15,7 @@ SPORTS_DATA_IO_SEASON_TYPE_OFFSEASON = 4
 SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR = 5
 
 
-def GetSchedule(sched, teams, sport, league, season):
+def GetSchedule(sched, teamKeys, teams, sport, league, season):
 	# Augment/replace with data from SportsData.io
 	downloadedJsons = DownloadScheduleForLeagueAndSeason(league, season) #TODO: Rename this
 	for downloadedJson in downloadedJsons:
@@ -29,12 +29,15 @@ def GetSchedule(sched, teams, sport, league, season):
 		elif isinstance(sportsDataIOSchedule, list):
 			for schedEvent in sportsDataIOSchedule:
 				# Teams from this API are abbreviations, so take as-is
-				homeTeamKey = create_scannable_key(schedEvent["HomeTeam"]).upper()
-				awayTeamKey = create_scannable_key(schedEvent["AwayTeam"]).upper()
-				if awayTeamKey == "BYE":
+				homeTeamKeyStripped = create_scannable_key(schedEvent["HomeTeam"])
+				awayTeamKeyStripped = create_scannable_key(schedEvent["AwayTeam"])
+				if awayTeamKeyStripped == "bye":
 					continue
-				homeTeam = teams[homeTeamKey]
-				awayTeam = teams[awayTeamKey]
+				homeTeamKey = teamKeys[homeTeamKeyStripped]
+				awayTeamKey = teamKeys[awayTeamKeyStripped]
+
+				homeTeamName = teams[homeTeamKey].fullName if teams.get(homeTeamKey) else deunicode(schedEvent["HomeTeam"]) or ""
+				awayTeamName = teams[awayTeamKey].fullName if teams.get(awayTeamKey) else deunicode(schedEvent["HomeTeam"]) or ""
 
 				date = None
 				if schedEvent.get("DateTime"):
@@ -60,8 +63,8 @@ def GetSchedule(sched, teams, sport, league, season):
 					"date": date,
 					"week": schedEvent.get("Week"),
 					"SportsDataIOID": gameID,
-					"title": "%s vs %s" % (homeTeam.FullName, awayTeam.FullName),
-					"altTitle": "%s @ %s" % (awayTeam.FullName, homeTeam.FullName),
+					"title": "%s vs %s" % (homeTeamName, awayTeamName),
+					"altTitle": "%s @ %s" % (awayTeamName, homeTeamName),
 					"homeTeam": homeTeamKey,
 					"awayTeam": awayTeamKey,
 					"network": deunicode(schedEvent.get("Channel"))}

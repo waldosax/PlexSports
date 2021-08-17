@@ -48,7 +48,9 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\MLBAPI.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\ProFootballReference.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NHL\NHLAPI.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NHL\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\PathUtils.py" />
@@ -69,6 +71,14 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Serialization.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\StringUtils.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\Franchise.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NFL\ProFootballReference.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NFL\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\SportsDataIO.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\Team.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\TheSportsDB.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\__init__.py">
       <SubType>Code</SubType>
     </Compile>
@@ -109,6 +119,12 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\RomanNumerals.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Serialization.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\StringUtils.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\Franchise.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NFL\ProFootballReference.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NFL\__init__.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\SportsDataIO.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\Team.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\TheSportsDB.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\TimeZoneUtils.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Vectors.py" />
@@ -126,6 +142,7 @@
     <Compile Include="Shared\Data\MLB\MLBAPI.py" />
     <Compile Include="Shared\Data\MLB\__init__.py" />
     <Compile Include="Shared\Data\NFL\ProFootballReference.py" />
+    <Compile Include="Shared\Data\NFL\ProFootballReference_old.py" />
     <Compile Include="Shared\Data\NFL\__init__.py" />
     <Compile Include="Shared\Data\NHL\NHLAPI.py" />
     <Compile Include="Shared\Data\NHL\__init__.py" />
@@ -139,6 +156,24 @@
     <Compile Include="Shared\PluginSupport.py" />
     <Compile Include="Shared\Serialization.py" />
     <Compile Include="Shared\StringUtils.py" />
+    <Compile Include="Shared\Teams\Franchise.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Teams\NFL\ProFootballReference.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Teams\NFL\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Teams\SportsDataIO.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Teams\Team.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Teams\TheSportsDB.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Shared\Teams\__init__.py" />
     <Compile Include="Shared\TimeZoneUtils.py" />
     <Compile Include="Shared\Vectors.py" />
@@ -161,7 +196,7 @@
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NHL\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\" />
-    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\__pycache__\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NFL\" />
     <Folder Include="Scanners\" />
     <Folder Include="Scanners\Series\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\" />
@@ -172,8 +207,7 @@
     <Folder Include="Scanners\Series\PlexSportsScanner\Data\NHL\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Metadata\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Teams\" />
-    <Folder Include="Scanners\Series\PlexSportsScanner\__pycache__\" />
-    <Folder Include="Scanners\Series\__pycache__\" />
+    <Folder Include="Scanners\Series\PlexSportsScanner\Teams\NFL\" />
     <Folder Include="Shared\" />
     <Folder Include="Shared\Constants\" />
     <Folder Include="Shared\Data\" />
@@ -181,6 +215,7 @@
     <Folder Include="Shared\Data\NFL\" />
     <Folder Include="Shared\Data\NHL\" />
     <Folder Include="Shared\Teams\" />
+    <Folder Include="Shared\Teams\NFL\" />
     <Folder Include="UnitTests\" />
     <Folder Include="UnitTests\Scanner\" />
     <Folder Include="UnitTests\Scanner\Metadata\" />

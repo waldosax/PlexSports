@@ -354,22 +354,22 @@ def __infer_teams_from_filename(fileName, food, meta):
 	league = meta.get(METADATA_LEAGUE_KEY)
 	teams = dict()
 	if league:
-		teams.setdefault(league, GetTeams(league))
+		teams.setdefault(league, GetFranchises(league))
 	else:
 		for league in known_leagues:
-			teams.setdefault(league, GetTeams(league))
+			teams.setdefault(league, GetFranchises(league))
 
 	(foundLeague, team1, team2, vs, chewed) = __find_teams(fileName, teams, food, meta)
 	if vs == "@":
 		if team1:
-			meta.setdefault(METADATA_AWAY_TEAM_KEY, team1.Key)
+			meta.setdefault(METADATA_AWAY_TEAM_KEY, team1.key)
 		if team2:
-			meta.setdefault(METADATA_HOME_TEAM_KEY, team2.Key)
+			meta.setdefault(METADATA_HOME_TEAM_KEY, team2.key)
 	else:
 		if team1:
-			meta.setdefault(METADATA_HOME_TEAM_KEY, team1.Key)
+			meta.setdefault(METADATA_HOME_TEAM_KEY, team1.key)
 		if team2:
-			meta.setdefault(METADATA_AWAY_TEAM_KEY, team2.Key)
+			meta.setdefault(METADATA_AWAY_TEAM_KEY, team2.key)
 	
 	if foundLeague:
 		(leagueName, sport) = known_leagues[foundLeague]

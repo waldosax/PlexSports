@@ -18,5 +18,8 @@ if __name__ == "__main__":
 
 	root = argv1
 
-	PlexSportsAgent.Data.NFL.ProFootballReference.Scrape()
-	PlexSportsAgent.Data.NFL.ProFootballReference.Export()
+	#franchises = PlexSportsAgent.Teams.GetFranchises("MLB")
+	#franchises = PlexSportsAgent.Teams.GetFranchises("NBA")
+	#franchises = PlexSportsAgent.Teams.GetFranchises("NFL")
+	franchises = PlexSportsAgent.Teams.GetFranchises("NHL")
+	pass

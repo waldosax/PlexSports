@@ -183,11 +183,11 @@ def __synthesize_episode_title(meta):
         homeTeamKey = strip_to_alphanumeric(meta.get(METADATA_HOME_TEAM_KEY))
         awayTeamKey = strip_to_alphanumeric(meta.get(METADATA_AWAY_TEAM_KEY))
 
-        teams = Teams.GetTeams(league)
+        teams = Teams.GetFranchises(league)
         keys = Teams.cached_team_keys[league]
         if teams:
-            if homeTeamKey in keys: homeTeam = teams[keys[homeTeamKey]].FullName
-            if awayTeamKey in keys: awayTeam = teams[keys[awayTeamKey]].FullName
+            if homeTeamKey in keys: homeTeam = teams[keys[homeTeamKey]].fullName
+            if awayTeamKey in keys: awayTeam = teams[keys[awayTeamKey]].fullName
 
             if homeTeam:
                 if title: title += ", " if hasPrefix else " - " if hasAirdate else ""
