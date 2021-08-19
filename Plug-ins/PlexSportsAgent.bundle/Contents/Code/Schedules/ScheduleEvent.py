@@ -10,7 +10,10 @@ class ScheduleEvent:
 		self.sport = deunicode(kwargs.get("sport"))
 		self.league = deunicode(kwargs.get("league"))
 		self.season = deunicode(str(kwargs.get("season")))
-		self.date = kwargs.get("date")
+		date = kwargs.get("date")
+		if isinstance(kwargs["date"], basestring) and IsISO8601Date(kwargs["date"]):
+			date = ParseISO8601Date(kwargs["date"]).replace(tzinfo=UTC)
+		self.date = date
 
 		# Event metadata
 		self.subseason = kwargs.get("subseason")
@@ -42,10 +45,12 @@ class ScheduleEvent:
 		self.SportsDataIOID = None
 		self.MLBAPIID = None
 		self.NHLAPIID = None
+		self.ProFootballReferenceID = None
 		if kwargs.get("TheSportsDBID"): self.TheSportsDBID = str(kwargs.get("TheSportsDBID")) 
 		if kwargs.get("SportsDataIOID"): self.SportsDataIOID = str(kwargs.get("SportsDataIOID")) 
 		if kwargs.get("MLBAPIID"): self.MLBAPIID = str(kwargs.get("MLBAPIID")) 
 		if kwargs.get("NHLAPIID"): self.NHLAPIID = str(kwargs.get("NHLAPIID")) 
+		if kwargs.get("ProFootballReferenceID"): self.ProFootballReferenceID = str(kwargs.get("ProFootballReferenceID")) 
 
 	def augment(self, **kwargs):
 		if not self.sport and kwargs.get("sport"): self.sport = deunicode(kwargs.get("sport"))
@@ -87,6 +92,7 @@ class ScheduleEvent:
 		if not self.SportsDataIOID and kwargs.get("SportsDataIOID"): self.SportsDataIOID = str(kwargs.get("SportsDataIOID"))
 		if not self.MLBAPIID and kwargs.get("MLBAPIID"): self.MLBAPIID = str(kwargs.get("MLBAPIID"))
 		if not self.NHLAPIID and kwargs.get("NHLAPIID"): self.NHLAPIID = str(kwargs.get("NHLAPIID"))
+		if not self.ProFootballReferenceID and kwargs.get("ProFootballReferenceID"): self.ProFootballReferenceID = str(kwargs.get("ProFootballReferenceID"))
 		self.__augmentationkey__ = None
 		self.__key__ = None
 

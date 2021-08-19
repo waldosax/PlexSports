@@ -130,17 +130,17 @@ def __download_all_team_data(league):
 				(franchise, team) = __find_team(franchises, franchiseName, teamName)
 				team.Augment(**tm)
 
-
-	# Retrieve data from TheSportsDB.com
-	sportsDbTeams = TheSportsDBFranchiseAdapter.DownloadAllTeams(league)
-	for tm in sportsDbTeams.values():
-		teamName = tm["FullName"]
-		(franchise, team) = __find_team(franchises, None, teamName)
-		team.Augment(**tm)
 		
 	# Augment/replace with data from SportsData.io
 	sportsDataIoTeams = SportsDataIOFranchiseAdapter.DownloadAllTeams(league)
 	for tm in sportsDataIoTeams.values():
+		teamName = tm["FullName"]
+		(franchise, team) = __find_team(franchises, None, teamName)
+		team.Augment(**tm)
+
+	# Retrieve data from TheSportsDB.com
+	sportsDbTeams = TheSportsDBFranchiseAdapter.DownloadAllTeams(league)
+	for tm in sportsDbTeams.values():
 		teamName = tm["FullName"]
 		(franchise, team) = __find_team(franchises, None, teamName)
 		team.Augment(**tm)

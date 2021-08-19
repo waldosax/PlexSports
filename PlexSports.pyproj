@@ -62,9 +62,16 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Matching.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\PathUtils.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\PluginSupport.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\RomanNumerals.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\Hashes.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\MLBAPIScheduleAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\NHLAPIScheduleAdapter.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ProFootballReferenceScheduleAdapter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ProFootballReferenceScheduleScraper.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ScheduleEvent.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\SportsDataIOScheduleAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\TheSportsDBScheduleAdapter.py" />
@@ -156,6 +163,7 @@
     <Compile Include="Shared\Matching.py" />
     <Compile Include="Shared\PathUtils.py" />
     <Compile Include="Shared\PluginSupport.py" />
+    <Compile Include="Shared\RomanNumerals.py" />
     <Compile Include="Shared\Serialization.py" />
     <Compile Include="Shared\StringUtils.py" />
     <Compile Include="Shared\Teams\Franchise.py">

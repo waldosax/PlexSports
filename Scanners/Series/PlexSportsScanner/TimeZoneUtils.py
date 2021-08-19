@@ -5,8 +5,9 @@ from dateutil.tz import *
 
 UTC = gettz("Etc/UTC")
 EasternTime = gettz("America/New_York")
-
-
+CentralTime = gettz("CST")
+MountainTime = gettz("MST")
+PacificTime = gettz("PST")
 
 
 def ParseISO8601Date(dateStr):

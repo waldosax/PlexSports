@@ -13,6 +13,7 @@ from TimeZoneUtils import *
 from ..Data.CacheContainer import *
 import Teams
 import TheSportsDBScheduleAdapter, SportsDataIOScheduleAdapter
+import ProFootballReferenceScheduleAdapter
 import MLBAPIScheduleAdapter
 import NHLAPIScheduleAdapter
 from ScheduleEvent import *
@@ -75,12 +76,16 @@ def Find(meta):
 	elif not season and airdate:
 		season = str(airdate.year)
 		seasons = [season]
+		if league in year_boundary_leagues:
+			seasons += [str(int(season)-1)]
 
-	if league in year_boundary_leagues:
-		seasons += [str(int(season)-1)]
+	if meta.get(METADATA_SEASON_END_YEAR_KEY):
+		for seasonend in range(int(season), int(meta[METADATA_SEASON_END_YEAR_KEY]) + 1):
+			seasons += [seasonend]
+	seasons = list(sorted(set(seasons)))
 
 	# Warm up cache(s) if not already
-	for season in sorted(list(set(seasons))):
+	for season in sorted(list(set(seasons))): # TODO: thread
 		if not season: continue
 		GetSchedule(sport, league, season)
 	
@@ -254,10 +259,16 @@ def __download_all_schedule_data(sport, league, season):
 
 	if league == LEAGUE_MLB:
 		MLBAPIScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
+	elif league == LEAGUE_NFL:
+		ProFootballReferenceScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
 	elif league == LEAGUE_NHL:
 		NHLAPIScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
 
+
+	# The only reason I'm continuing to use this trashbucket API is for the free imagery.
 	TheSportsDBScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
+	
+	
 	SportsDataIOScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
 		
 	return sched

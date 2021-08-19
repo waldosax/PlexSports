@@ -54,7 +54,9 @@ class Team():
 
 		if not self.fullName: self.fullName = deunicode(kwargs.get("fullName") or kwargs.get("FullName"))
 		if not self.city: self.city = deunicode(kwargs.get("city") or kwargs.get("City"))
-		if not self.name: self.name = deunicode(kwargs.get("name") or kwargs.get("Name"))
+		if not self.name or self.name == self.fullName:
+			if kwargs.get("name") or kwargs.get("Name"):
+				self.name = deunicode(kwargs.get("name") or kwargs.get("Name"))
 		
 		if not self.active: self.active = (kwargs.get("active") or kwargs.get("Active")) == True
 		if not self.description: self.description = deunicode(kwargs.get("description") or kwargs.get("Description") or "") or None
