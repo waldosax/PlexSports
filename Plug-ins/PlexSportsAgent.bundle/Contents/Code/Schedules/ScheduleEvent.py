@@ -40,17 +40,15 @@ class ScheduleEvent:
 		self.__augmentationkey__ = None
 		self.__key__ = None
 
-		# TODO: May make this into its own separate shape, rather than continually extending ScheduleEvent
-		self.TheSportsDBID = None
-		self.SportsDataIOID = None
-		self.MLBAPIID = None
-		self.NHLAPIID = None
-		self.ProFootballReferenceID = None
-		if kwargs.get("TheSportsDBID"): self.TheSportsDBID = str(kwargs.get("TheSportsDBID")) 
-		if kwargs.get("SportsDataIOID"): self.SportsDataIOID = str(kwargs.get("SportsDataIOID")) 
-		if kwargs.get("MLBAPIID"): self.MLBAPIID = str(kwargs.get("MLBAPIID")) 
-		if kwargs.get("NHLAPIID"): self.NHLAPIID = str(kwargs.get("NHLAPIID")) 
-		if kwargs.get("ProFootballReferenceID"): self.ProFootballReferenceID = str(kwargs.get("ProFootballReferenceID")) 
+		self.identity = ScheduleEventIdentity(**kwargs)
+		self.identity.Augment(**kwargs)
+		if kwargs.get("identity"):
+			identity = kwargs["identity"]
+			if isinstance(identity, (ScheduleEventIdentity)): self.identity.Augment(**identity.__dict__)
+			elif isinstance(identity, (dict)): self.identity.Augment(**identity)
+
+		pass
+
 
 	def augment(self, **kwargs):
 		if not self.sport and kwargs.get("sport"): self.sport = deunicode(kwargs.get("sport"))
@@ -88,11 +86,12 @@ class ScheduleEvent:
 		if not self.banner: self.banner = deunicode(kwargs.get("banner"))
 		if not self.preview: self.preview = deunicode(kwargs.get("preview"))
 		
-		if not self.TheSportsDBID and kwargs.get("TheSportsDBID"): self.TheSportsDBID = str(kwargs.get("TheSportsDBID"))
-		if not self.SportsDataIOID and kwargs.get("SportsDataIOID"): self.SportsDataIOID = str(kwargs.get("SportsDataIOID"))
-		if not self.MLBAPIID and kwargs.get("MLBAPIID"): self.MLBAPIID = str(kwargs.get("MLBAPIID"))
-		if not self.NHLAPIID and kwargs.get("NHLAPIID"): self.NHLAPIID = str(kwargs.get("NHLAPIID"))
-		if not self.ProFootballReferenceID and kwargs.get("ProFootballReferenceID"): self.ProFootballReferenceID = str(kwargs.get("ProFootballReferenceID"))
+		self.identity.Augment(**kwargs)
+		if kwargs.get("identity"):
+			identity = kwargs["identity"]
+			if isinstance(identity, (ScheduleEventIdentity)): self.identity.Augment(**identity.__dict__)
+			elif isinstance(identity, (dict)): self.identity.Augment(**identity)
+
 		self.__augmentationkey__ = None
 		self.__key__ = None
 
@@ -169,3 +168,20 @@ def AddOrAugmentEvent(sched, event):
 			evdict.setdefault(subhash, event)
 
 	pass
+
+class ScheduleEventIdentity:
+	def __init__(self, **kwargs):
+		self.TheSportsDBID = kwargs.get("TheSportsDBID")
+		self.SportsDataIOID = kwargs.get("SportsDataIOID")
+		self.MLBAPIID = kwargs.get("MLBAPIID")
+		self.NHLAPIID = kwargs.get("NHLAPIID")
+		self.ProFootballReferenceID = kwargs.get("ProFootballReferenceID")
+		pass
+
+	def Augment(self, **kwargs):
+		if kwargs.get("TheSportsDBID"): self.TheSportsDBID = kwargs["TheSportsDBID"]
+		if kwargs.get("SportsDataIOID"): self.SportsDataIOID = kwargs["SportsDataIOID"]
+		if kwargs.get("MLBAPIID"): self.MLBAPIID = kwargs["MLBAPIID"]
+		if kwargs.get("NHLAPIID"): self.NHLAPIID = kwargs["NHLAPIID"]
+		if kwargs.get("ProFootballReferenceID"): self.ProFootballReferenceID = kwargs["ProFootballReferenceID"]
+		pass
