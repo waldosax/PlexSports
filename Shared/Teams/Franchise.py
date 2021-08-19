@@ -29,7 +29,7 @@ class Franchise():
 		if not self.toYear: self.toYear = int(kwargs.get("toYear") or 0) or None
 
 		if kwargs.get("teams"):
-			for tm in kwargs["teams"].values():
+			for tm in kwargs["teams"]:
 				if isinstance(tm, (Team)):
 					tmn = tm.fullName
 					tmdct = tm.__dict__

@@ -248,6 +248,7 @@ class TeamAsset():
 
 class TeamIdentity:
 	def __init__(self, **kwargs):
+		self.MLBAPIID = kwargs.get("MLBAPIID")
 		self.ProBaseballReferenceID = kwargs.get("ProBaseballReferenceID")
 		self.ProBasketballReferenceID = kwargs.get("ProBasketballReferenceID")
 		self.ProFootballReferenceID = kwargs.get("ProFootballReferenceID")
@@ -257,6 +258,7 @@ class TeamIdentity:
 		pass
 
 	def Augment(self, **kwargs):
+		if kwargs.get("MLBAPIID"): self.MLBAPIID = kwargs["MLBAPIID"]
 		if kwargs.get("ProBaseballReferenceID"): self.ProBaseballReferenceID = kwargs["ProBaseballReferenceID"]
 		if kwargs.get("ProBasketballReferenceID"): self.ProBasketballReferenceID = kwargs["ProBasketballReferenceID"]
 		if kwargs.get("ProFootballReferenceID"): self.ProFootballReferenceID = kwargs["ProFootballReferenceID"]

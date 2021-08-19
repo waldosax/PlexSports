@@ -14,6 +14,7 @@ from Team import *
 import TheSportsDBFranchiseAdapter, SportsDataIOFranchiseAdapter
 from Data.CacheContainer import *
 from NFL import ProFootballReferenceFranchiseAdapter
+from MLB import MLBAPIFranchiseAdapter
 
 CACHE_DURATION = 135
 CACHE_VERSION = "1"
@@ -117,7 +118,19 @@ def __get_franchises(league, download=False):
 def __download_all_team_data(league):
 	franchises = FranchiseDict()
 
-	if league == LEAGUE_NFL:
+	if league == LEAGUE_MLB:
+		# Retrieve data from MLB stats API
+		mlbapiFranchises = MLBAPIFranchiseAdapter.DownloadAllFranchises(league)
+		for f in mlbapiFranchises.values():
+			franchiseName = f["name"]
+			(franchise, fteam) = __find_team(franchises, franchiseName, None)
+			franchise.Augment(**f)
+
+			for tm in f["teams"]:
+				teamName = tm["fullName"]
+				(franchise, team) = __find_team(franchises, franchiseName, teamName)
+				team.Augment(**tm)
+	elif league == LEAGUE_NFL:
 		# Retrieve data from pro-football-reference.com
 		pfrFranchises = ProFootballReferenceFranchiseAdapter.DownloadAllFranchises(league)
 		for f in pfrFranchises.values():

@@ -1,0 +1,23 @@
+MLBAPI for franchises team/club
+NFL HOF Game
+ESPNAPI for teams
+Match solely by season & event ind (Wrong date for superbowl)
+scrape nfl.com (for assets)
+more assets/colors
+Onboard NBA "API" for Franchises
+Scrape NBA.com for assets
+Scrape lazy-loaded NBA.com for schedule
+Query trashbucket thesportsdb for season listings. If not, bail
+Steal Thumb images from trashbucket
+Cache 401's from sportsdataio. Also put in "dont even try it" limits.
+SVG Logos from NFL.com
+Grafx generation
+Generate Franchise report
+Generate schedule report
+Figure out how to execute command via a single py file (Warm Cache, Generate Report, Clear Caches, Expire Caches)
+Threading in warming caches in Schedules.Find
+Maybe flatten API/Scraper file structure
+See if we can trick plex into executing commands, like warm cache on refresh metadata/Analyze
+SQLite instead of json files? Indexing is probably faster.
+Known aliases: Milwaukee Win Twins, Phightin Phillies
+Scrape Pro Baseball/Basketball/Hockey Reference

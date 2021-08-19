@@ -16,7 +16,7 @@ sdio_abbreviation_corrections = {
 
 def DownloadAllTeams(league):
 	downloadedJson = DownloadAllTeamsForLeague(league)
-	sportsDataIoTeams = json.loads(downloadedJson)
+	sportsDataIoTeams = json.loads(downloadedJson) # TODO: try/catch
 	teams = dict()
 	if not isinstance(sportsDataIoTeams, list) and "Code" in sportsDataIoTeams.keys():
 		print("%s: %s" % (sportsDataIoTeams["Code"], sportsDataIoTeams["Description"]))
