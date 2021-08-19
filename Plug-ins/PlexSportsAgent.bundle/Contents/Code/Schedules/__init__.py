@@ -1,5 +1,6 @@
 # Python framework
 import sys, os, json, re
+import threading
 import datetime
 from pprint import pprint
 
@@ -85,10 +86,14 @@ def Find(meta):
 	seasons = list(sorted(set(seasons)))
 
 	# Warm up cache(s) if not already
+	threadpool = []
 	for season in sorted(list(set(seasons))): # TODO: thread
 		if not season: continue
-		GetSchedule(sport, league, season)
-	
+		t = threading.Thread(target=GetSchedule, kwargs={"sport": sport, "league": league, "season": season})
+		threadpool.append(t)
+		t.start()
+	for t in threadpool:
+		t.join()
 
 	def compute_weight(league, m):
 		if not m: return 0
