@@ -11,13 +11,13 @@ class Franchise():
 		self.description = deunicode(kwargs.get("description") or "") or None
 		self.fromYear = int(kwargs.get("fromYear") or 0) or None
 		self.toYear = int(kwargs.get("toYear") or 0) or None
-		self.teams = []
+		self.teams = dict()
 		if kwargs.get("teams"):
-			for team in kwargs.get("teams"):
+			for team in kwargs["teams"].values():
 				if isinstance(team, (Team)):
-					self.teams.append(team)
+					self.teams.setdefault(team.fullName, team)
 				else:
-					self.teams.append(Team(**team))
+					self.teams.setdefault(team["fullName"] if team.get("fullName") else team.get("name"), Team(**team))
 
 		pass
 
@@ -29,7 +29,7 @@ class Franchise():
 		if not self.toYear: self.toYear = int(kwargs.get("toYear") or 0) or None
 
 		if kwargs.get("teams"):
-			for tm in kwargs["teams"]:
+			for tm in kwargs["teams"].values():
 				if isinstance(tm, (Team)):
 					tmn = tm.fullName
 					tmdct = tm.__dict__
@@ -41,15 +41,15 @@ class Franchise():
 				team = self.FindTeam(tmn)
 				if team: team.Augment(**tmdct)
 				else:
-					if isinstance(tm, (Team)): self.teams.append(tm)
+					if isinstance(tm, (Team)): self.teams.setdefault(tmn, tm)
 					else:
 						team = Team(**tmdct)
-						self.teams.append(team)
+						self.teams.setdefault(tmn, team)
 		pass
 
 	def FindTeam(self, fullName):
 		if not fullName: return None
-		for team in self.teams:
+		for team in self.teams.values():
 			if team.fullName == fullName: # TODO: Strip diacritics
 				return team
 
@@ -64,7 +64,7 @@ class FranchiseDict(dict):
 
 	def __hydrate_abbreviations(self):
 		for franchise in dict.values(self):
-			for team in franchise.teams:
+			for team in franchise.teams.values():
 				key = team.key
 				if not key: continue
 				self.__abbrevlookup.setdefault(key, team)

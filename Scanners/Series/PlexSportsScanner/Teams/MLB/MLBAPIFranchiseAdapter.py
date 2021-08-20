@@ -136,7 +136,7 @@ def DownloadAllFranchises(league):
 		franchise["toYear"] = maxSeason
 
 
-		franchise["teams"] = teams.values()
+		franchise["teams"] = teams
 		franchises[name] = franchise
 
 

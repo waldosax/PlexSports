@@ -33,6 +33,7 @@
     <Compile Include="debug-agent.py" />
     <Compile Include="debug-scanner.py" />
     <Compile Include="localscanner.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\Assets.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\Extensions.py">
       <SubType>Code</SubType>
     </Compile>
@@ -96,6 +97,7 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Vectors.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\__init__.py" />
     <Compile Include="python-tests.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Constants\Assets.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\Extensions.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\MetadataKeys.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\MLB.py" />
@@ -142,6 +144,9 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\TimeZoneUtils.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Vectors.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\__init__.py" />
+    <Compile Include="Shared\Constants\Assets.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Shared\Constants\Extensions.py" />
     <Compile Include="Shared\Constants\MetadataKeys.py" />
     <Compile Include="Shared\Constants\MLB.py" />

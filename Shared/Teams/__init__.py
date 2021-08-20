@@ -126,7 +126,7 @@ def __download_all_team_data(league):
 			(franchise, fteam) = __find_team(franchises, franchiseName, None)
 			franchise.Augment(**f)
 
-			for tm in f["teams"]:
+			for tm in f["teams"].values():
 				teamName = tm["fullName"]
 				(franchise, team) = __find_team(franchises, franchiseName, teamName)
 				team.Augment(**tm)
@@ -177,7 +177,7 @@ def __download_all_team_data(league):
 	for franchise in franchises.values():
 		if not franchise.active:
 			anyActiveTeams = False
-			for team in franchise.teams:
+			for team in franchise.teams.values():
 				if team.active:
 					anyActiveTeams = True
 					break
@@ -187,7 +187,7 @@ def __download_all_team_data(league):
 		if not franchise.fromYear or not franchise.toYear:
 			minYear = None
 			maxYear = None
-			for team in franchise.teams:
+			for team in franchise.teams.values():
 				for span in team.years:
 					if span.fromYear:
 						if not minYear or span.fromYear < minYear: minYear = span.fromYear
@@ -225,7 +225,7 @@ def __find_team(franchises, franchiseName, teamName):
 
 	if teamName and not team:
 		team = Team(teamName)
-		franchise.teams.append(team)
+		franchise.teams.setdefault(teamName, team)
 
 
 	return (franchise, team)
@@ -340,7 +340,7 @@ def __get_team_cache_file_path(league):
 def __get_cities_with_multiple_teams(league, franchises):
 	cities = dict()
 	for franchise in franchises.values():
-		for team in franchise.teams:
+		for team in franchise.teams.values():
 			if not team.active: continue
 			city = team.city
 			cityKey = strip_to_alphanumeric(city)
@@ -372,7 +372,7 @@ def __get_teams_keys(league, franchises, multi_team_city_keys):
 	keys = dict()
 
 	for franchise in franchises.values():
-		for team in franchise.teams:
+		for team in franchise.teams.values():
 			key = team.key
 			if not key: continue
 			abbrev = team.abbreviation

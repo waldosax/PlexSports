@@ -1,4 +1,4 @@
-
+from Constants.Assets import *
 from StringUtils import *
 
 class Team():
@@ -136,21 +136,7 @@ class YearSpan():
 		return s
 
 
-ASSET_SOURCE_THESPORTSDB = "thesportsdb"
-ASSET_SOURCE_SPORTSDATAIO = "sportsdataio"
-ASSET_SOURCE_PROBASEBALLRFERENCE = "probaseballreference"
-ASSET_SOURCE_PROBASKETBALLRFERENCE = "probasketballreference"
-ASSET_SOURCE_PROFOOTBALLRFERENCE = "profootballreference"
-ASSET_SOURCE_PROHOCKEYRFERENCE = "prohockeyreference"
-ASSET_SOURCE_NFLDOTCOM = "nfldotcom"
-ASSET_SOURCE_WIKIPEDIA = "wikipedia"
 
-ASSET_TYPE_BANNERS = "banner"
-ASSET_TYPE_BADGES = "badge"
-ASSET_TYPE_FANART = "fanArt"
-ASSET_TYPE_JERSEYS = "jersey"
-ASSET_TYPE_LOGOS = "logo"
-ASSET_TYPE_WORDMARKS = "wordmark"
 
 class TeamAssets():
 	def __init__(self, **kwargs):
@@ -160,10 +146,11 @@ class TeamAssets():
 		self.jersey = []
 		self.logo = []
 		self.wordmark = []
+		self.colors = []
 		self.Augment(**kwargs)
 
-	def __add_asset(self, assetType, asset):
-		found = self.Find(assetType, asset.source, asset.season)
+	def __add_asset(self, assetType, asset, **kwargs):
+		found = self.Find(assetType, asset.source, asset.season, **kwargs)
 		if not found: self.__dict__[assetType].append(asset)
 
 	def Augment(self, **kwargs):
@@ -196,26 +183,37 @@ class TeamAssets():
 			for asset in kwargs[ASSET_TYPE_WORDMARKS]:
 				if isinstance(asset, (TeamAsset)): self.__add_asset(ASSET_TYPE_WORDMARKS, asset)
 				else: self.__add_asset(ASSET_TYPE_WORDMARKS, TeamAsset(**asset))
+		
+		if kwargs.get(ASSET_TYPE_COLORS):
+			for asset in kwargs[ASSET_TYPE_COLORS]:
+				if isinstance(asset, (TeamAsset)): self.__add_asset(ASSET_TYPE_COLORS, asset)
+				else: self.__add_asset(ASSET_TYPE_COLORS, TeamAsset(**asset), **asset)
+	
+		
+		pass
 
-	def Find(self, assetType, source, season):
+
+
+	def Find(self, assetType, source, season, **kwargs):
 		assetCollection = self.__dict__.get(assetType)
 		if not assetCollection: return None
 
 		found = []
 		for asset in assetCollection:
-			if source:
-				if asset.source == source:
-					if season:
-						if asset.season == season:
-							found.append(asset)
-					else:
-						found.append(asset)
-			else:
-				if season:
-					if asset.season == season:
-						found.append(asset)
-				else:
-					found.append(asset)
+			if source and asset.source != source: continue
+			if season and asset.season != season: continue
+
+			shouldContinue = True
+			for key in kwargs.keys():
+				if not shouldContinue: break
+				if key in asset.__dict__.keys():
+					if key in ["source", "season", "url", "value"]: continue
+					if kwargs[key] and asset.__dict__[key] != kwargs[key]:
+						shouldContinue = False
+						break
+
+			if shouldContinue: found.append(asset)
+
 
 		return found
 
@@ -225,13 +223,18 @@ class TeamAssets():
 
 class TeamAsset():
 	def __init__(self, **kwargs):
-		self.source = deunicode(kwargs.get("source") or "")
+		self.source = deunicode(kwargs.get("source"))
 		self.season = int(kwargs.get("season") or 0) or None
-		self.url = deunicode(str(kwargs.get("url") or ""))
+		self.url = deunicode(kwargs["url"]) if kwargs.get("url") else None
+		self.colortype = deunicode(kwargs["colortype"]) if kwargs.get("colortype") else None
+		self.value = deunicode(kwargs["value"]) if kwargs.get("value") else None
 		pass
 
-	def get_key(self):
-		return ("%s%s" % (source, season if season else "")).lower()
+	@property
+	def key(self):
+		return ("%s%s%s" % (self.source,
+					  self.season if self.season else "",
+					  self.colortype if self.colortype else "")).lower()
 
 	def __repr__(self):
 		s = ""
