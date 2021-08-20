@@ -27,7 +27,7 @@ def DownloadAllTeams(fields=None):
 	urlTemplate = MLBAPI_BASE_URL + MLBAPI_GET_ALL_TEAMS
 	return GetResultFromNetwork(
 		urlTemplate % (",".join(fields) if fields else ""),
-		mlb_api_headers)
+		mlb_api_headers, cacheExtension=EXTENSION_JSON)
 
 def DownloadTeamsForSeason(season):
 	print("Getting teams state for %s season from MLB API ..." % (season))
