@@ -85,6 +85,9 @@ def SupplementScheduleEvent(league, schedEvent, kwargs):
 			kwargs.setdefault("subseason", MLB_SUBSEASON_POSTSEASON)
 			kwargs.setdefault("playoffround", MLB_PLAYOFF_ROUND_WORLD_SERIES)
 	elif league == LEAGUE_NFL:
+		if schedEvent.get("strDesciptionEN") == "Pro Football Hall of Fame Game":
+			kwargs.setdefault("eventindicator", NFL_EVENT_FLAG_HALL_OF_FAME)
+
 		if schedEvent.get("intRound") != None:
 			if schedEvent["intRound"] == THESPORTSDB_ROUND_FINAL:
 				kwargs.setdefault("subseason", NFL_SUBSEASON_POSTSEASON)
