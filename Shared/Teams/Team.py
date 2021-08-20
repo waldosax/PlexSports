@@ -187,7 +187,7 @@ class TeamAssets():
 		if kwargs.get(ASSET_TYPE_COLORS):
 			for asset in kwargs[ASSET_TYPE_COLORS]:
 				if isinstance(asset, (TeamAsset)): self.__add_asset(ASSET_TYPE_COLORS, asset)
-				else: self.__add_asset(ASSET_TYPE_COLORS, TeamAsset(**asset), **asset)
+				else: self.__add_asset(ASSET_TYPE_COLORS, TeamAsset(**asset), colortype=asset.get("colortype"))
 	
 		
 		pass

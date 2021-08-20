@@ -48,20 +48,10 @@ def DownloadAllTeams(league):
 				"SportsDataIOID": str(team["TeamID"]),
 				}
 
-			assets = {}
-
-			colors = []
-			if team.get("PrimaryColor"): colors.append({"source": ASSET_SOURCE_SPORTSDATAIO, "colortype": ASSET_COLOR_TYPE_PRIMARY, "value": "#"+team["PrimaryColor"]})
-			if team.get("SecondaryColor"): colors.append({"source": ASSET_SOURCE_SPORTSDATAIO, "colortype": ASSET_COLOR_TYPE_SECONDARY, "value": "#"+team["SecondaryColor"]})
-			if team.get("TertiaryColor"): colors.append({"source": ASSET_SOURCE_SPORTSDATAIO, "colortype": ASSET_COLOR_TYPE_TERTIARY, "value": "#"+team["TertiaryColor"]})
-			if team.get("QuaternaryColor"): colors.append({"source": ASSET_SOURCE_SPORTSDATAIO, "colortype": ASSET_COLOR_TYPE_QUATERNARY, "value": "#"+team["QuaternaryColor"]})
-			if colors: assets[ASSET_TYPE_COLORS] = colors
-
-			if assets:
-				kwargs["assets"] = assets
 
 			if aliases:
 				kwargs["aliases"] = list(set(aliases))
+
 
 			assets = dict()
 			if team.get("WikipediaWordMarkUrl"):
@@ -70,6 +60,14 @@ def DownloadAllTeams(league):
 			if team.get("WikipediaLogoUrl"):
 				assets.setdefault("logo", [])
 				assets["logo"].append({"source": "wikipedia", "url": deunicode(team["WikipediaLogoUrl"])})
+
+			colors = []
+			if team.get("PrimaryColor"): colors.append({"source": ASSET_SOURCE_SPORTSDATAIO, "colortype": ASSET_COLOR_TYPE_PRIMARY, "value": "#"+team["PrimaryColor"]})
+			if team.get("SecondaryColor"): colors.append({"source": ASSET_SOURCE_SPORTSDATAIO, "colortype": ASSET_COLOR_TYPE_SECONDARY, "value": "#"+team["SecondaryColor"]})
+			if team.get("TertiaryColor"): colors.append({"source": ASSET_SOURCE_SPORTSDATAIO, "colortype": ASSET_COLOR_TYPE_TERTIARY, "value": "#"+team["TertiaryColor"]})
+			if team.get("QuaternaryColor"): colors.append({"source": ASSET_SOURCE_SPORTSDATAIO, "colortype": ASSET_COLOR_TYPE_QUATERNARY, "value": "#"+team["QuaternaryColor"]})
+			if colors: assets[ASSET_TYPE_COLORS] = colors
+			
 			if assets:
 				kwargs["assets"] = assets
 
