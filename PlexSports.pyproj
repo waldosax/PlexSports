@@ -82,6 +82,8 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\Franchise.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\MLB\MLBAPIFranchiseAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\MLB\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NBA\NBAAPIFranchiseAdapter.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NBA\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NFL\ProFootballReferenceFranchiseAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NFL\ProFootballReferenceFranchiseScraper.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NFL\__init__.py">
@@ -110,6 +112,8 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\GetResultFromNetwork.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\MLB\MLBAPIDownloader.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\MLB\__init__.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Data\NBA\NBAAPIDownloader.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Data\NBA\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\NFL\ProFootballReferenceDownloader.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\NFL\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\NHL\NHLAPIDownloader.py" />
@@ -134,6 +138,8 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\Franchise.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\MLB\MLBAPIFranchiseAdapter.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\MLB\__init__.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NBA\NBAAPIFranchiseAdapter.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NBA\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NFL\ProFootballReferenceFranchiseAdapter.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NFL\ProFootballReferenceFranchiseScraper.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NFL\__init__.py" />
@@ -159,6 +165,12 @@
     <Compile Include="Shared\Data\GetResultFromNetwork.py" />
     <Compile Include="Shared\Data\MLB\MLBAPIDownloader.py" />
     <Compile Include="Shared\Data\MLB\__init__.py" />
+    <Compile Include="Shared\Data\NBA\NBAAPIDownloader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Data\NBA\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Shared\Data\NFL\ProFootballReferenceDownloader.py" />
     <Compile Include="Shared\Data\NFL\ProFootballReference_old.py" />
     <Compile Include="Shared\Data\NFL\__init__.py" />
@@ -182,6 +194,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Shared\Teams\MLB\__init__.py" />
+    <Compile Include="Shared\Teams\NBA\NBAAPIFranchiseAdapter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Teams\NBA\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Shared\Teams\NFL\ProFootballReferenceFranchiseAdapter.py">
       <SubType>Code</SubType>
     </Compile>
@@ -223,6 +241,7 @@
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\MLB\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NBA\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NFL\" />
     <Folder Include="Scanners\" />
     <Folder Include="Scanners\Series\" />
@@ -230,20 +249,24 @@
     <Folder Include="Scanners\Series\PlexSportsScanner\Constants\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Data\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Data\MLB\" />
+    <Folder Include="Scanners\Series\PlexSportsScanner\Data\NBA\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Data\NFL\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Data\NHL\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Metadata\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Teams\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Teams\MLB\" />
+    <Folder Include="Scanners\Series\PlexSportsScanner\Teams\NBA\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Teams\NFL\" />
     <Folder Include="Shared\" />
     <Folder Include="Shared\Constants\" />
     <Folder Include="Shared\Data\" />
     <Folder Include="Shared\Data\MLB\" />
+    <Folder Include="Shared\Data\NBA\" />
     <Folder Include="Shared\Data\NFL\" />
     <Folder Include="Shared\Data\NHL\" />
     <Folder Include="Shared\Teams\" />
     <Folder Include="Shared\Teams\MLB\" />
+    <Folder Include="Shared\Teams\NBA\" />
     <Folder Include="Shared\Teams\NFL\" />
     <Folder Include="UnitTests\" />
     <Folder Include="UnitTests\Scanner\" />

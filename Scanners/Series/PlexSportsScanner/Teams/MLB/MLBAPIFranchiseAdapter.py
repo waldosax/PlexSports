@@ -1,4 +1,4 @@
-# MLBAPI.com
+# MLB API (statsapi.mlb.com)
 # TEAMS
 
 import json
@@ -69,7 +69,7 @@ def DownloadAllFranchises(league):
 	activeTeamIds = []
 
 	for apiTeam in mlbapiAllTeams["teams"]:
-		name = apiTeam["name"]
+		name = deunicode(apiTeam["name"])
 		franchise = {
 			"name": name,
 			"active": True,
@@ -85,16 +85,16 @@ def DownloadAllFranchises(league):
 			"MLBAPIID": teamId,
 			"active": True,
 			"fullName": name,
-			"name": apiTeam["teamName"],
-			"city": name[:-len(apiTeam["teamName"])].rstrip(),
-			"abbreviation": apiTeam["abbreviation"],
-			"conference": apiTeam["league"]["name"],
-			"division": apiTeam["division"]["name"],
+			"name": deunicode(apiTeam["teamName"]),
+			"city": deunicode(name[:-len(apiTeam["teamName"])].rstrip()),
+			"abbreviation": deunicode(apiTeam["abbreviation"]),
+			"conference": deunicode(apiTeam["league"]["name"]),
+			"division": deunicode(apiTeam["division"]["name"]),
 			"years": []
 			}
 
 		aliases = []
-		if apiTeam["shortName"] != team["city"]: aliases.append(apiTeam["shortName"])
+		if apiTeam["shortName"] != team["city"]: aliases.append(deunicode(apiTeam["shortName"]))
 		if aliases: team["alisases"] = list(set(aliases))
 
 		teams = dict()
@@ -105,8 +105,8 @@ def DownloadAllFranchises(league):
 			if historySeason == currentSeason: continue
 
 			historicalTeam = histories[teamId][historySeason]
-			fullName = historicalTeam["name"]
-			teamName = historicalTeam["teamName"]
+			fullName = deunicode(historicalTeam["name"])
+			teamName = deunicode(historicalTeam["teamName"])
 			seasonTracking.setdefault(int(historySeason), fullName)
 
 			if fullName in teams.keys(): continue
@@ -115,7 +115,7 @@ def DownloadAllFranchises(league):
 				"active": False,
 				"fullName": fullName,
 				"name": teamName,
-				"city": fullName[:-len(teamName)].rstrip(),
+				"city": deunicode(fullName[:-len(teamName)].rstrip()),
 				"years": []
 				}
 			teams.setdefault(fullName, team)

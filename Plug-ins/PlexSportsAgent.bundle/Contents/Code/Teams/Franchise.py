@@ -47,9 +47,25 @@ class Franchise():
 						self.teams.setdefault(tmn, team)
 		pass
 
-	def FindTeam(self, fullName):
-		if not fullName: return None
+	def FindTeam(self, fullName, identity=None):
+		if not fullName and not identity: return None
 		for team in self.teams.values():
+
+			fdct = team.identity.__dict__
+			xdct = None
+
+			if identity:
+				if isinstance(identity, (TeamIdentity)): xdct = identity.__dict__
+				else: xdct = identity
+
+			if xdct:
+				for testKey in xdct.keys():
+					if xdct[testKey]:
+						if testKey in fdct.keys():
+							if fdct[testKey] == xdct[testKey]:
+								return team
+
+
 			if team.fullName == fullName: # TODO: Strip diacritics
 				return team
 

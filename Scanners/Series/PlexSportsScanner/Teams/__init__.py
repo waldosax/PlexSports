@@ -15,6 +15,7 @@ import TheSportsDBFranchiseAdapter, SportsDataIOFranchiseAdapter
 from Data.CacheContainer import *
 from NFL import ProFootballReferenceFranchiseAdapter
 from MLB import MLBAPIFranchiseAdapter
+from NBA import NBAAPIFranchiseAdapter
 
 CACHE_DURATION = 135
 CACHE_VERSION = "1"
@@ -130,6 +131,13 @@ def __download_all_team_data(league):
 				teamName = tm["fullName"]
 				(franchise, team) = __find_team(franchises, franchiseName, teamName)
 				team.Augment(**tm)
+	elif league == LEAGUE_NBA:
+		# Retrieve data from TheSportsDB.com
+		nbaapiTeams = NBAAPIFranchiseAdapter.DownloadAllTeams(league)
+		for tm in nbaapiTeams.values():
+			teamName = tm["fullName"]
+			(franchise, team) = __find_team(franchises, None, teamName, TeamIdentity(**tm))
+			team.Augment(**tm)
 	elif league == LEAGUE_NFL:
 		# Retrieve data from pro-football-reference.com
 		pfrFranchises = ProFootballReferenceFranchiseAdapter.DownloadAllFranchises(league)
@@ -198,7 +206,7 @@ def __download_all_team_data(league):
 
 
 
-def __find_team(franchises, franchiseName, teamName):
+def __find_team(franchises, franchiseName, teamName, identity=None):
 	
 	fs = franchises.values()
 	franchise = None
@@ -213,7 +221,7 @@ def __find_team(franchises, franchiseName, teamName):
 				break
 
 	for f in fs:
-		team = f.FindTeam(teamName)
+		team = f.FindTeam(teamName, identity)
 		if team:
 			franchise = f
 			break

@@ -12,6 +12,10 @@ from Data.SportsDataIODownloader import *
 sdio_abbreviation_corrections = {
 	LEAGUE_MLB: {
 		"CHW": "CWS"
+		},
+	LEAGUE_NBA: {
+		"LEB": "LBN",
+		"DUR": "DRT"
 		}
 	}
 
@@ -24,13 +28,19 @@ def DownloadAllTeams(league):
 	elif isinstance(sportsDataIoTeams, list):
 		for team in sportsDataIoTeams:
 			city = deunicode(team["City"])
-			if not city: continue
+			if not city:
+				continue
 
 			key = abbrev = deunicode(team["Key"]).upper()
 			name = deunicode(team["Name"])
 			fullName = deunicode(team.get("FullName")) or "%s %s" % (deunicode(city), deunicode(name))
 			
 			aliases = []
+
+			if league == LEAGUE_NBA and city == "Team":
+				fullName = name = "%s %s" % (city, name)
+				city = "All Stars"
+
 			if sdio_abbreviation_corrections.get(league):
 				if sdio_abbreviation_corrections[league].get(abbrev):
 					aliases.append(abbrev)
@@ -48,7 +58,7 @@ def DownloadAllTeams(league):
 				"SportsDataIOID": str(team["TeamID"]),
 				}
 
-			if team.get("NbaDotComTeamID"): kwargs["NBAdotcomID"] = team["NbaDotComTeamID"]
+			if team.get("NbaDotComTeamID"): kwargs["NBAdotcomID"] = str(team["NbaDotComTeamID"])
 
 			if aliases:
 				kwargs["aliases"] = list(set(aliases))
