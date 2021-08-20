@@ -48,6 +48,7 @@ def DownloadAllTeams(league):
 				"SportsDataIOID": str(team["TeamID"]),
 				}
 
+			if team.get("NbaDotComTeamID"): kwargs["NBAdotcomID"] = team["NbaDotComTeamID"]
 
 			if aliases:
 				kwargs["aliases"] = list(set(aliases))
