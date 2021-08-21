@@ -75,7 +75,7 @@ def DownloadScheduleForLeagueAndSeason(league, season, subseason=None):
 
 
 	def get_and_append_data(suffix, results):
-		print("Getting %s, %s%s schedule data from SportsData.io ..." % (league, season, suffix))
+		print("Getting %s %s%s schedule data from SportsData.io ..." % (league, season, suffix))
 		json = GetResultFromNetwork(sports_data_io_schedule_url_fragments[league] % (league, str(season) + suffix, sports_data_io_api_keys[league]), headers, True, cacheExtension=EXTENSION_JSON)
 		results.append (json)
 		pass

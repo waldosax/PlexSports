@@ -85,7 +85,13 @@ class FranchiseDict(dict):
 				if not key: continue
 				self.__abbrevlookup.setdefault(key, team)
 
+	#def get(self, key):
+	#	return self.__getitem__(key)
+
 	def __getitem__(self, key):
+		return self.__find(key)
+
+	def __find(self, key):
 		if key in dict.keys(self):
 			return dict.get(self, key)
 		if not self.__abbrevlookup:
@@ -106,6 +112,7 @@ class FranchiseDict(dict):
 
 	def invalidate(self):
 		self.__abbrevlookup.clear()
+
 
 	def __repr__(self):
 		return "\"Franchises\": {...}(%s)" % len(self)

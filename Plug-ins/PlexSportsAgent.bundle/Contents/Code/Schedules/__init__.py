@@ -17,6 +17,7 @@ import TheSportsDBScheduleAdapter, SportsDataIOScheduleAdapter
 import ProFootballReferenceScheduleAdapter
 import MLBAPIScheduleAdapter
 import NHLAPIScheduleAdapter
+import ESPNAPIScheduleAdapter
 from ScheduleEvent import *
 
 CACHE_DURATION = 7
@@ -87,13 +88,16 @@ def Find(meta):
 
 	# Warm up cache(s) if not already
 	threadpool = []
-	for season in sorted(list(set(seasons))): # TODO: thread
+	for season in sorted(list(set(seasons))):
 		if not season: continue
-		t = threading.Thread(target=GetSchedule, kwargs={"sport": sport, "league": league, "season": season})
-		threadpool.append(t)
-		t.start()
-	for t in threadpool:
-		t.join()
+
+		GetSchedule(sport, league, season)
+	#	t = threading.Thread(target=GetSchedule, kwargs={"sport": sport, "league": league, "season": season})
+	#	threadpool.append(t)
+	#	t.start()
+
+	#for t in threadpool:
+	#	t.join()
 
 	def compute_weight(league, m):
 		if not m: return 0
@@ -268,6 +272,9 @@ def __download_all_schedule_data(sport, league, season):
 		ProFootballReferenceScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
 	elif league == LEAGUE_NHL:
 		NHLAPIScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
+
+	
+	ESPNAPIScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
 
 
 	# The only reason I'm continuing to use this trashbucket API is for the free imagery.

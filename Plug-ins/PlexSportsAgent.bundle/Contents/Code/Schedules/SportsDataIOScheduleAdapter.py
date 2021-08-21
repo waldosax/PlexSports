@@ -28,16 +28,17 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 			print("%s: %s" % (sportsDataIOSchedule["Code"], sportsDataIOSchedule["Description"]))
 		elif isinstance(sportsDataIOSchedule, list):
 			for schedEvent in sportsDataIOSchedule:
+				if schedEvent["AwayTeam"] == "BYE":
+					continue
+
 				# Teams from this API are abbreviations, so take as-is
 				homeTeamKeyStripped = create_scannable_key(schedEvent["HomeTeam"])
 				awayTeamKeyStripped = create_scannable_key(schedEvent["AwayTeam"])
-				if awayTeamKeyStripped == "bye":
-					continue
 				homeTeamKey = teamKeys[homeTeamKeyStripped]
 				awayTeamKey = teamKeys[awayTeamKeyStripped]
 
 				homeTeamName = teams[homeTeamKey].fullName if teams.get(homeTeamKey) else deunicode(schedEvent["HomeTeam"]) or ""
-				awayTeamName = teams[awayTeamKey].fullName if teams.get(awayTeamKey) else deunicode(schedEvent["HomeTeam"]) or ""
+				awayTeamName = teams[awayTeamKey].fullName if teams.get(awayTeamKey) else deunicode(schedEvent["AwayTeam"]) or ""
 
 				date = None
 				if schedEvent.get("DateTime"):

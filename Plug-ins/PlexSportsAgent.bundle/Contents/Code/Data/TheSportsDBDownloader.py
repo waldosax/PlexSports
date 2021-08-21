@@ -34,10 +34,10 @@ def DownloadAllTeamsForLeague(league):
 def DownloadScheduleForLeagueAndSeason(league, season):
 	if (league in known_leagues.keys() == False):
 		return None # TODO: Throw
-	print("Getting %s, %s schedule data from The SportsDB ..." % (league, season))
+	print("Getting %s %s schedule data from The SportsDB ..." % (league, season))
 	urlTemplate = THE_SPORTS_DB_BASE_URL + THE_SPORTS_DB_GET_SCHEDULE_FOR_SEASON
 	season_display = season
-	if league in [LEAGUE_NHL]:
+	if league in [LEAGUE_NBA, LEAGUE_NHL]:
 		seasonBegin = season
 		seasonEnd = str(int(season) + 1)
 		season_display = "%s-%s" % (seasonBegin, seasonEnd)

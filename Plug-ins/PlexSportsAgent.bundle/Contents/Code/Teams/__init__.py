@@ -16,6 +16,7 @@ from Data.CacheContainer import *
 from NFL import ProFootballReferenceFranchiseAdapter
 from MLB import MLBAPIFranchiseAdapter
 from NBA import NBAAPIFranchiseAdapter
+import ESPNAPIFranchiseAdapter
 
 CACHE_DURATION = 135
 CACHE_VERSION = "1"
@@ -119,52 +120,45 @@ def __get_franchises(league, download=False):
 def __download_all_team_data(league):
 	franchises = FranchiseDict()
 
+	def incorporate_franchises(allFranchises, franchises):
+		for f in franchises.values():
+			franchiseName = f["name"]
+			(franchise, fteam) = __find_team(allFranchises, franchiseName, None)
+			franchise.Augment(**f)
+			
+			incorporate_teams(allFranchises, f["teams"])
+
+	def incorporate_teams(allFranchises, teams):
+		for tm in teams.values():
+			teamName = tm.get("fullName") or tm.get("FullName") # TODO: Phase out capitalized keys
+			(franchise, team) = __find_team(allFranchises, None, teamName, TeamIdentity(**tm))
+			team.Augment(**tm)
+
+
 	if league == LEAGUE_MLB:
 		# Retrieve data from MLB stats API
 		mlbapiFranchises = MLBAPIFranchiseAdapter.DownloadAllFranchises(league)
-		for f in mlbapiFranchises.values():
-			franchiseName = f["name"]
-			(franchise, fteam) = __find_team(franchises, franchiseName, None)
-			franchise.Augment(**f)
-
-			for tm in f["teams"].values():
-				teamName = tm["fullName"]
-				(franchise, team) = __find_team(franchises, franchiseName, teamName)
-				team.Augment(**tm)
+		incorporate_franchises(franchises, mlbapiFranchises)
 	elif league == LEAGUE_NBA:
 		# Retrieve data from TheSportsDB.com
 		nbaapiTeams = NBAAPIFranchiseAdapter.DownloadAllTeams(league)
-		for tm in nbaapiTeams.values():
-			teamName = tm["fullName"]
-			(franchise, team) = __find_team(franchises, None, teamName, TeamIdentity(**tm))
-			team.Augment(**tm)
+		incorporate_teams(franchises, nbaapiTeams)
 	elif league == LEAGUE_NFL:
 		# Retrieve data from pro-football-reference.com
 		pfrFranchises = ProFootballReferenceFranchiseAdapter.DownloadAllFranchises(league)
-		for f in pfrFranchises.values():
-			franchiseName = f["name"]
-			(franchise, fteam) = __find_team(franchises, franchiseName, None)
-			franchise.Augment(**f)
-
-			for tm in f["teams"].values():
-				teamName = tm["fullName"]
-				(franchise, team) = __find_team(franchises, franchiseName, teamName)
-				team.Augment(**tm)
-
+		incorporate_franchises(franchises, pfrFranchises)
+		
+	# Augment/replace with data from ESPN API
+	espnapiTeams = ESPNAPIFranchiseAdapter.DownloadAllTeams(league)
+	incorporate_teams(franchises, espnapiTeams)
 		
 	# Augment/replace with data from SportsData.io
 	sportsDataIoTeams = SportsDataIOFranchiseAdapter.DownloadAllTeams(league)
-	for tm in sportsDataIoTeams.values():
-		teamName = tm["FullName"]
-		(franchise, team) = __find_team(franchises, None, teamName)
-		team.Augment(**tm)
+	incorporate_teams(franchises, sportsDataIoTeams)
 
 	# Retrieve data from TheSportsDB.com
 	sportsDbTeams = TheSportsDBFranchiseAdapter.DownloadAllTeams(league)
-	for tm in sportsDbTeams.values():
-		teamName = tm["FullName"]
-		(franchise, team) = __find_team(franchises, None, teamName)
-		team.Augment(**tm)
+	incorporate_teams(franchises, sportsDbTeams)
 
 
 	# Incorporate defunct teams
@@ -200,7 +194,7 @@ def __download_all_team_data(league):
 					if span.fromYear:
 						if not minYear or span.fromYear < minYear: minYear = span.fromYear
 					if span.toYear:
-						if not maxYear or span.toYear < maxYear: maxYear = span.toYear
+						if not maxYear or span.toYear > maxYear: maxYear = span.toYear
 
 	return franchises
 
@@ -309,7 +303,7 @@ def __refresh_team_cache(league):
 
 	return jsonFranchises
 
-def __team_cache_has_teams(league):
+def __team_cache_has_teams(league): # TODO: Found a big ole bug in FranchiseDict
 	if len(cached_franchises) == 0:
 		return False
 	if league in cached_franchises.keys() == False:

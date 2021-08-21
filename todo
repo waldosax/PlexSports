@@ -1,5 +1,18 @@
-Scrape lazy-loaded NBA.com for schedule
-ESPNAPI for teams
+ESPNAPI for teams and schedules
+	+ cache aggregated API data
+	+ double headers & reschedules
+	+ games in series (NBA, NHL, MLB)
+Maybe parse matches myself instead of generating regular expresstions (overcomplicating)
+Bug In Teams.__init__ and FranchiseDict (SportsDataIO) (.get)
+Fix data errors (time offset) in trashbucket
+event name vs. title/altTitle (teamSummary?)
+NHL has an all-star TOURNAMENT (3-on-3)
+broadcast network list shape
+Reshape ScheduleEvent Assets
+Only cache if historical (year/day)
+WTF is with Arizona Diamondbacks' city?
+Normalize Conference/Division
+Normalize playoff round event titles
 Match solely by season & event ind (Wrong date for superbowl)
 scrape nfl.com (for assets)
 Query trashbucket thesportsdb for season listings. If not, bail
@@ -12,6 +25,9 @@ Figure out how to execute command via a single py file (Warm Cache, Generate Rep
 Maybe flatten API/Scraper file structure
 See if we can trick plex into executing commands, like warm cache on refresh metadata/Analyze
 SQLite instead of json files? Indexing is probably faster.
-Known aliases: Milwaukee Win Twins, Phightin Phillies
+Known aliases: Minnesota Win Twins, Phightin Phillies
 Scrape Pro Baseball/Basketball/Hockey Reference
 Try/Catch and null safety
+Logger
+HTTP Cache invalidation
+CacheContainer invalidation

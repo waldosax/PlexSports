@@ -45,9 +45,11 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\CacheContainer.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\Caching.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\ESPNAPIDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\GetResultFromNetwork.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\MLBAPIDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NBA\NBAAPIDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\ProFootballReferenceDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\__init__.py">
       <SubType>Code</SubType>
@@ -64,6 +66,9 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\PathUtils.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\PluginSupport.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\RomanNumerals.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ESPNAPIScheduleAdapter.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\Hashes.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\MLBAPIScheduleAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\NHLAPIScheduleAdapter.py" />
@@ -79,6 +84,7 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Serialization.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\StringUtils.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\ESPNAPIFranchiseAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\Franchise.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\MLB\MLBAPIFranchiseAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\MLB\__init__.py" />
@@ -109,6 +115,7 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\CacheContainer.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\Caching.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Data\ESPNAPIDownloader.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\GetResultFromNetwork.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\MLB\MLBAPIDownloader.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Data\MLB\__init__.py" />
@@ -135,6 +142,7 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\RomanNumerals.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Serialization.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\StringUtils.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\ESPNAPIFranchiseAdapter.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\Franchise.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\MLB\MLBAPIFranchiseAdapter.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Teams\MLB\__init__.py" />
@@ -162,6 +170,9 @@
     <Compile Include="Shared\Constants\__init__.py" />
     <Compile Include="Shared\Data\CacheContainer.py" />
     <Compile Include="Shared\Data\Caching.py" />
+    <Compile Include="Shared\Data\ESPNAPIDownloader.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Shared\Data\GetResultFromNetwork.py" />
     <Compile Include="Shared\Data\MLB\MLBAPIDownloader.py" />
     <Compile Include="Shared\Data\MLB\__init__.py" />
@@ -187,6 +198,9 @@
     <Compile Include="Shared\RomanNumerals.py" />
     <Compile Include="Shared\Serialization.py" />
     <Compile Include="Shared\StringUtils.py" />
+    <Compile Include="Shared\Teams\ESPNAPIFranchiseAdapter.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Shared\Teams\Franchise.py">
       <SubType>Code</SubType>
     </Compile>
@@ -236,6 +250,7 @@
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NBA\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NHL\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\" />

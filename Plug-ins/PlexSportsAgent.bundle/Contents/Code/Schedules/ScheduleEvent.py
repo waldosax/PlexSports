@@ -175,6 +175,7 @@ class ScheduleEventIdentity:
 		self.SportsDataIOID = kwargs.get("SportsDataIOID")
 		self.MLBAPIID = kwargs.get("MLBAPIID")
 		self.NHLAPIID = kwargs.get("NHLAPIID")
+		self.ESPNAPIID = kwargs.get("ESPNAPIID")
 		self.ProFootballReferenceID = kwargs.get("ProFootballReferenceID")
 		pass
 
@@ -183,5 +184,6 @@ class ScheduleEventIdentity:
 		if kwargs.get("SportsDataIOID"): self.SportsDataIOID = kwargs["SportsDataIOID"]
 		if kwargs.get("MLBAPIID"): self.MLBAPIID = kwargs["MLBAPIID"]
 		if kwargs.get("NHLAPIID"): self.NHLAPIID = kwargs["NHLAPIID"]
+		if kwargs.get("ESPNAPIID"): self.ESPNAPIID = kwargs["ESPNAPIID"]
 		if kwargs.get("ProFootballReferenceID"): self.ProFootballReferenceID = kwargs["ProFootballReferenceID"]
 		pass
