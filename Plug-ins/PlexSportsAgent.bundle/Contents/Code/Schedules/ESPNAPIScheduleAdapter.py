@@ -99,7 +99,8 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 							for note in competition["notes"]:
 								if note.get("type") == "event":
 									if not title: title = deunicode(note["headline"])
-									elif not altTitle: altTitle = deunicode(note["headline"])
+									#elif not altTitle: altTitle = deunicode(note["headline"])
+									else: break
 
 							teams = dict()
 							for competitor in competition["competitors"]:
@@ -135,8 +136,8 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 								"season": season,
 								"date": date,
 								"ESPNAPIID": id,
-								"title": title,
-								"altTitle": altTitle,
+								"eventTitle": title,
+								#"altTitle": altTitle,
 								"description": description,
 								"homeTeam": homeTeamKey,
 								"awayTeam": awayTeamKey,
@@ -194,9 +195,9 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 			for date in calendar["dates"]:
 				datesToProcess.append(date)
 
-	now = datetime.datetime.utcnow()
+	now = datetime.datetime.utcnow().date()
 	for date in sorted(set(datesToProcess)):
-		if date.date() > now.date(): continue
+		if date > now: continue
 		q.put(date)
 
 
@@ -263,7 +264,7 @@ def __process_calendar(league, season, isWhitelist = False):
 
 		# x could be a date string
 		if isinstance(x, basestring):
-			calendar["dates"].append(ParseISO8601Date(x))
+			calendar["dates"].append(ParseISO8601Date(x).date())
 			continue
 
 		apiSubseasonObj = x

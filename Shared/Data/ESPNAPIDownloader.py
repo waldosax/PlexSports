@@ -38,13 +38,14 @@ def DownloadCalendarForLeagueAndSeason(league, season, isWhitelist = False):
 
 
 def DownloadScheduleForLeagueAndDate(league, date):
+	if isinstance(date, datetime.datetime): date = date.date()
 	if not league in known_leagues.keys(): return None # TODO: Throw
 	print("Getting %s schedule info for %s from ESPN API ..." % (league, date.strftime("%m/%d/%Y")))
 	(leagueName, sport) = known_leagues[league]
 	urlTemplate = ESPNAPI_BASE_URL + ESPNAPI_LEAGUE_FILTER + ESPNAPI_GET_SCHEDULE
 
 	shouldUseCache = True
-	if date.date() >= datetime.datetime.utcnow().date(): shouldUseCache = False
+	if date >= datetime.datetime.utcnow().date(): shouldUseCache = False
 
 	return GetResultFromNetwork(
 		urlTemplate % (sport.lower(), league.lower(), date.strftime("%Y%m%d")),

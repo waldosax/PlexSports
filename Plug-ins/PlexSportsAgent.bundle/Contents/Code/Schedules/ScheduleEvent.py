@@ -17,8 +17,10 @@ class ScheduleEvent:
 
 		# Event metadata
 		self.subseason = kwargs.get("subseason")
+		self.subseasonTitle = deunicode(kwargs.get("subseasonTitle"))
 		self.playoffround = kwargs.get("playoffround")
 		self.eventindicator = kwargs.get("eventindicator")
+		self.eventTitle = deunicode(kwargs.get("eventTitle"))
 		self.week = kwargs.get("week")
 		self.game = kwargs.get("game")
 
@@ -27,6 +29,7 @@ class ScheduleEvent:
 		# TODO: fields for non team-based sports, like Boxing
 
 		# Additional metadata items (if provided)
+		self.vs = deunicode(kwargs.get("vs"))
 		self.title = deunicode(kwargs.get("title"))
 		self.altTitle = deunicode(kwargs.get("altTitle"))
 		self.description = kwargs.get("description")
@@ -66,8 +69,10 @@ class ScheduleEvent:
 			self.date = date
 		
 		if self.subseason == None and kwargs.get("subseason"): self.subseason = kwargs.get("subseason")
+		if not self.subseasonTitle: self.subseasonTitle = deunicode(kwargs.get("subseasonTitle"))
 		if self.playoffround == None and kwargs.get("playoffround"): self.playoffround = kwargs.get("playoffround")
 		if self.eventindicator == None and kwargs.get("eventindicator"): self.eventindicator = kwargs.get("eventindicator")
+		if not self.eventTitle: self.eventTitle = deunicode(kwargs.get("eventTitle"))
 		if self.week == None and kwargs.get("week"): self.week = kwargs.get("week")
 		if not self.game and kwargs.get("game"): self.game = kwargs.get("game")
 		
@@ -76,6 +81,7 @@ class ScheduleEvent:
 		# TODO: fields for non team-based sports, like Boxing
 
 		# Additional metadata items (if provided)
+		if not self.vs: self.vs = deunicode(kwargs.get("vs"))
 		if not self.title: self.title = deunicode(kwargs.get("title"))
 		if not self.altTitle: self.altTitle = deunicode(kwargs.get("altTitle"))
 		if not self.description: self.description = deunicode(kwargs.get("description"))

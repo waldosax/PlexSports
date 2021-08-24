@@ -25,7 +25,8 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 
 		# If sportsdata.io returns an unauthorized message, log and bail
 		if not isinstance(sportsDataIOSchedule, list) and "Code" in sportsDataIOSchedule.keys():
-			print("%s: %s" % (sportsDataIOSchedule["Code"], sportsDataIOSchedule["Description"]))
+			#print("(200, but %s): %s" % (sportsDataIOSchedule["Code"], sportsDataIOSchedule["Description"]))
+			pass
 		elif isinstance(sportsDataIOSchedule, list):
 			for schedEvent in sportsDataIOSchedule:
 				if schedEvent["AwayTeam"] == "BYE":
@@ -51,21 +52,18 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					date = datetime.datetime.strptime(schedEvent["Day"], "%Y-%m-%dT%H:%M:%S")
 					date = date.replace(tzinfo=UTC)
 	
-				gameID = None
-				if schedEvent.get("GameKey"):
-					gameID = str(schedEvent["GameKey"])
-				if schedEvent.get("GameID"):
-					gameID = str(schedEvent["GameID"])
+				gameID = str(schedEvent["GlobalGameID"])
 
+				week = schedEvent.get("Week")
+					
 				kwargs = {
 					"sport": sport,
 					"league": league,
 					"season": season,
 					"date": date,
-					"week": schedEvent.get("Week"),
+					"week": week,
 					"SportsDataIOID": gameID,
-					"title": "%s vs %s" % (homeTeamName, awayTeamName),
-					"altTitle": "%s @ %s" % (awayTeamName, homeTeamName),
+					"vs": "%s vs %s" % (homeTeamName, awayTeamName),
 					"homeTeam": homeTeamKey,
 					"awayTeam": awayTeamKey,
 					"network": deunicode(schedEvent.get("Channel"))}
@@ -98,8 +96,13 @@ def SupplementScheduleEvent(league, schedEvent, kwargs):
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_REGULAR_SEASON: kwargs["subseason"] = NFL_SUBSEASON_FLAG_REGULAR_SEASON
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_POSTSEASON:
 				kwargs["subseason"] = NFL_SUBSEASON_FLAG_POSTSEASON
-				# TODO: Identify Playoff Round/Superbowl
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR: kwargs["eventindicator"] = NFL_EVENT_FLAG_PRO_BOWL
+				kwargs["week"] = None
+				kwargs["playoffRound"] = schedEvent["Week"]
+				if schedEvent["Week"] == NFL_PLAYOFF_ROUND_SUPERBOWL:
+					kwargs["eventindicator"] = NFL_EVENT_FLAG_SUPERBOWL
+			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR:
+				kwargs["week"] = None
+				kwargs["eventindicator"] = NFL_EVENT_FLAG_PRO_BOWL
 		if league == LEAGUE_NHL:
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_PRESEASON: kwargs["subseason"] = NHL_SUBSEASON_FLAG_PRESEASON
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_REGULAR_SEASON: kwargs["subseason"] = NHL_SUBSEASON_FLAG_REGULAR_SEASON

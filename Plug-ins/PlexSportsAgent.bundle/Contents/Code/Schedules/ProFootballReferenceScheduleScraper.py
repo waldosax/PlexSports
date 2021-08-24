@@ -126,8 +126,9 @@ def __process_nfl_schedule_page(year):
 		gameRows = gameTable.select(selectors["game-row"])
 		for gameRow in gameRows:
 			if gameRow.attrs.get("class") and "thead" in gameRow.attrs["class"]: continue
-			subseason = 0	# TODO: What was I doing with event aliases again?
+			subseason = 0
 			weekNumber = None
+			eventindicator = None
 			dow = None
 			gameDate = None
 			gameTime = None
@@ -161,7 +162,10 @@ def __process_nfl_schedule_page(year):
 			weekNumberText = weekNumberNode.text
 			if weekNumberText[:3].upper() == "PRE":
 				subseason = -1
-				week = int(weekNumberText[3:])
+				if weekNumberText[3:] == "0":
+					eventindicator = NFL_EVENT_FLAG_HALL_OF_FAME
+				else:
+					week = int(weekNumberText[3:])
 			elif weekNumberText == "WildCard":
 				subseason = 1
 				week = 1
@@ -229,8 +233,10 @@ def __process_nfl_schedule_page(year):
 				"day": dow,
 				"date": gameDate,
 				"time": gameTime,
+				"vs": "%s vs. %s" % (homeTeamName, awayTeamName),
 				"homeTeam": homeTeamAbbrev,
 				"awayTeam": awayTeamAbbrev,
+				"eventindicator": eventindicator,
 				"href": gameHref
 				}
 
@@ -241,16 +247,17 @@ def __process_nfl_schedule_page(year):
 
 				conference = allTeams[teamsLookup[homeTeamAbbrev]].get("conference")
 				if week == 1:
-					if conference: event["alias"] = "%s Wildcard Round" % conference
+					if conference: event["subseasonTitle"] = "%s Wildcard Round" % conference
 				if week == 2:
-					if conference: event["alias"] = "%s Divisional Round" % conference
+					if conference: event["subseasonTitle"] = "%s Divisional Round" % conference
 				if week == 3:
-					if conference: event["alias"] = "%s Conference Championship" % conference
+					if conference: event["subseasonTitle"] = "%s Conference Championship" % conference
 				elif week == 4:
+					event["eventindicator"] = NFL_EVENT_FLAG_SUPERBOWL
 					if yearDict["subseasons"][subseason][week].get("alias"):
-						event["alias"] = yearDict["subseasons"][subseason][week]["alias"]
+						event["alias"] = event["subseasonTitle"] = yearDict["subseasons"][subseason][week]["alias"]
 					elif int(year) >= NFL_SUPERBOWL_1_YEAR:
-						event["alias"] = "Superbowl %s" % RomanNumerals.Format(int(year) - NFL_SUPERBOWL_1_YEAR + 1)
+						event["alias"] = event["subseasonTitle"] = "Superbowl %s" % RomanNumerals.Format(int(year) - NFL_SUPERBOWL_1_YEAR + 1)
 
 			yearDict["subseasons"][subseason][week]["events"].setdefault(key, event)
 	

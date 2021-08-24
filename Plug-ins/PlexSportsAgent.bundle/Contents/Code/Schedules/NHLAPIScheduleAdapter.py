@@ -40,8 +40,10 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					date = ParseISO8601Date(dateGroup)
 
 				# Teams from this API are full names, so teams dictionary is scanKeys
-				homeTeamStripped = create_scannable_key(schedEvent["teams"]["home"]["team"]["name"])
-				awayTeamStripped = create_scannable_key(schedEvent["teams"]["away"]["team"]["name"])
+				homeTeamName = schedEvent["teams"]["home"]["team"]["name"]
+				awayTeamName = schedEvent["teams"]["away"]["team"]["name"]
+				homeTeamStripped = create_scannable_key(homeTeamName)
+				awayTeamStripped = create_scannable_key(awayTeamName)
 				homeTeamKey = teamKeys[homeTeamStripped] if teamKeys.get(homeTeamStripped) else homeTeamStripped
 				awayTeamKey = teamKeys[awayTeamStripped] if teamKeys.get(awayTeamStripped) else awayTeamStripped
 
@@ -72,6 +74,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					"NHLAPIID": schedEvent["gamePk"],
 					"homeTeam": homeTeamKey,
 					"awayTeam": awayTeamKey,
+					"vs": "%s vs. %s" % (homeTeamName, awayTeamName),
 					"subseason": subseason,
 					"eventindicator": eventIndicator}
 

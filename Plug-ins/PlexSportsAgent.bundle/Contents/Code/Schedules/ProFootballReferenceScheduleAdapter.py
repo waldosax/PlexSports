@@ -55,12 +55,15 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 								"season": season,
 								"date": date,
 								"ProFootballReferenceID": schedEvent["id"],
-								"title": schedEvent.get("alias"),
 								"homeTeam": schedEvent["homeTeam"],
 								"awayTeam": schedEvent["awayTeam"],
+								"vs": schedEvent["vs"],
 								"subseason": schedEvent["subseason"],
+								"subseasonTitle": schedEvent.get("subseasonTitle"),
 								"playoffround": schedEvent.get("week") if subseason == NFL_SUBSEASON_FLAG_POSTSEASON else None,
-								"eventindicator": NFL_EVENT_FLAG_SUPERBOWL if subseason == NFL_SUBSEASON_FLAG_POSTSEASON and week == NFL_PLAYOFF_ROUND_SUPERBOWL else None}
+								"eventindicator": schedEvent.get("eventindicator") or NFL_EVENT_FLAG_SUPERBOWL if subseason == NFL_SUBSEASON_FLAG_POSTSEASON and week == NFL_PLAYOFF_ROUND_SUPERBOWL else None,
+								"eventTitle": schedEvent.get("alias"),
+								}
 
 							event = ScheduleEvent(**kwargs)
 
