@@ -37,7 +37,7 @@ def DownloadAllTeams(league):
 			name = fullName[len(city):].strip()
 		else:
 			alternate = deunicode(team["strAlternate"]) if team.get("strAlternate") != abbrev else None
-			if alternate: aliases.append(alternate)
+			if alternate: aliases += splitAndTrim(alternate)
 
 		if not abbrev:
 			if league == LEAGUE_NHL and deunicode(team.get("strAlternate")) == "Kraken ":

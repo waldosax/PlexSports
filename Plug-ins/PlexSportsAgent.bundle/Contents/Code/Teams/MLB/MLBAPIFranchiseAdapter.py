@@ -79,14 +79,20 @@ def DownloadAllFranchises(league):
 		minSeason = 0
 		seasonTracking = dict()
 
+		# name:				Arizona Diamondbacks
+		# teamName:			D-backs
+		# shortName:		Arizona
+		# franchiseName:	Arizona
+		# clubName:			Diamondbacks
+
 		teamId = apiTeam["id"]
 		activeTeamIds.append(teamId)
 		team = {
 			"MLBAPIID": teamId,
 			"active": True,
 			"fullName": name,
-			"name": deunicode(apiTeam["teamName"]),
-			"city": deunicode(name[:-len(apiTeam["teamName"])].rstrip()),
+			"name": deunicode(apiTeam["clubName"]),
+			"city": deunicode(name[:-len(apiTeam["clubName"])].rstrip()),
 			"abbreviation": deunicode(apiTeam["abbreviation"]),
 			"conference": deunicode(apiTeam["league"]["name"]),
 			"division": deunicode(apiTeam["division"]["name"]),
@@ -95,6 +101,7 @@ def DownloadAllFranchises(league):
 
 		aliases = []
 		if apiTeam["shortName"] != team["city"]: aliases.append(deunicode(apiTeam["shortName"]))
+		if apiTeam["teamName"] != apiTeam["clubName"]: aliases.append(deunicode(apiTeam["teamName"]))
 		if aliases: team["alisases"] = list(set(aliases))
 
 		teams = dict()
