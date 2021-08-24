@@ -66,7 +66,8 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					"vs": "%s vs %s" % (homeTeamName, awayTeamName),
 					"homeTeam": homeTeamKey,
 					"awayTeam": awayTeamKey,
-					"network": deunicode(schedEvent.get("Channel"))}
+					"networks": splitAndTrim(deunicode(schedEvent.get("Channel")))
+					}
 
 				SupplementScheduleEvent(league, schedEvent, kwargs)
 

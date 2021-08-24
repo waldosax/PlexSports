@@ -33,7 +33,11 @@ class ScheduleEvent:
 		self.title = deunicode(kwargs.get("title"))
 		self.altTitle = deunicode(kwargs.get("altTitle"))
 		self.description = kwargs.get("description")
-		self.network = deunicode(kwargs.get("network"))
+		self.networks = []
+		if kwargs.get("networks"):
+			self.networks = list(set(self.networks + kwargs["networks"]))
+		if kwargs.get("network"):
+			self.networks = list(set(self.networks + splitAndTrim(deunicode(kwargs["network"]))))
 		self.poster = deunicode(kwargs.get("poster"))
 		self.fanArt = deunicode(kwargs.get("fanArt"))
 		self.thumbnail = deunicode(kwargs.get("thumbnail"))
@@ -85,7 +89,8 @@ class ScheduleEvent:
 		if not self.title: self.title = deunicode(kwargs.get("title"))
 		if not self.altTitle: self.altTitle = deunicode(kwargs.get("altTitle"))
 		if not self.description: self.description = deunicode(kwargs.get("description"))
-		if not self.network: self.network = deunicode(kwargs.get("network"))
+		if kwargs.get("networks"): self.networks = list(set(self.networks + kwargs["networks"]))
+		if kwargs.get("network"): self.networks = list(set(self.networks + splitAndTrim(deunicode(kwargs["network"]))))
 		if not self.poster: self.poster = deunicode(kwargs.get("poster"))
 		if not self.fanArt: self.fanArt = deunicode(kwargs.get("fanArt"))
 		if not self.thumbnail: self.thumbnail = deunicode(kwargs.get("thumbnail"))

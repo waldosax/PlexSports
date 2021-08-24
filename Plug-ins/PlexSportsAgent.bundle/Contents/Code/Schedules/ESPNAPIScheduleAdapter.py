@@ -130,6 +130,8 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 										description = deunicode(normalize(headline["description"]))
 										# TODO Date strings as headlines
 
+							# TODO: network?
+
 							kwargs = {
 								"sport": sport,
 								"league": league,

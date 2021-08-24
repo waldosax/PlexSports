@@ -60,7 +60,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 				"description": normalize(schedEvent["strDescriptionEN"]),
 				"homeTeam": homeTeamKey,
 				"awayTeam": awayTeamKey,
-				"network": deunicode(schedEvent["strTVStation"]),
+				"networks": splitAndTrim(deunicode(schedEvent["strTVStation"])),
 				"poster": deunicode(schedEvent["strPoster"]),
 				"fanArt": deunicode(schedEvent["strFanart"]),
 				"thumbnail": deunicode(schedEvent["strThumb"]),
