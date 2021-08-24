@@ -27,51 +27,52 @@ spdb_ignore_game_ids = {
 
 def GetSchedule(sched, teamKeys, teams, sport, league, season):
 	# Retrieve data from TheSportsDB.com
-	downloadedJson = DownloadScheduleForLeagueAndSeason(league, season)
-	
-	if downloadedJson:
+	downloadedJsons = DownloadScheduleForLeagueAndSeason(league, season)
+	if not downloadedJsons: return
+	for downloadedJson in downloadedJsons:
+		if not downloadedJson: continue
 		try: sportsDbSchedule = json.loads(downloadedJson)
 		except ValueError: return None
 
-	if sportsDbSchedule and sportsDbSchedule["events"]:
-		for schedEvent in sportsDbSchedule["events"]:
+		if sportsDbSchedule and sportsDbSchedule["events"]:
+			for schedEvent in sportsDbSchedule["events"]:
 
-			# Known bad data
-			if league in spdb_ignore_game_ids.keys():
-				if schedEvent["idEvent"] in spdb_ignore_game_ids[league]:
-					continue
+				# Known bad data
+				if league in spdb_ignore_game_ids.keys():
+					if schedEvent["idEvent"] in spdb_ignore_game_ids[league]:
+						continue
 
-			# Teams from this API are full names, so teams dictionary is scanKeys
-			homeTeamStripped = create_scannable_key(schedEvent["strHomeTeam"])
-			awayTeamStripped = create_scannable_key(schedEvent["strAwayTeam"])
-			homeTeamKey = teamKeys[homeTeamStripped]
-			awayTeamKey = teamKeys[awayTeamStripped]
+				# Teams from this API are full names
+				homeTeamStripped = create_scannable_key(schedEvent["strHomeTeam"])
+				awayTeamStripped = create_scannable_key(schedEvent["strAwayTeam"])
+				homeTeamKey = teamKeys[homeTeamStripped]
+				awayTeamKey = teamKeys[awayTeamStripped]
 		
-			date = __get_event_date(schedEvent)
+				date = __get_event_date(schedEvent)
 
-			kwargs = {
-				"sport": sport,
-				"league": league,
-				"season": season,
-				"date": date,
-				"TheSportsDBID": schedEvent["idEvent"],
-				"vs": schedEvent["strEvent"],
-				#"altTitle": schedEvent["strEventAlternate"],
-				"description": normalize(schedEvent["strDescriptionEN"]),
-				"homeTeam": homeTeamKey,
-				"awayTeam": awayTeamKey,
-				"networks": splitAndTrim(deunicode(schedEvent["strTVStation"])),
-				"poster": deunicode(schedEvent["strPoster"]),
-				"fanArt": deunicode(schedEvent["strFanart"]),
-				"thumbnail": deunicode(schedEvent["strThumb"]),
-				"banner": deunicode(schedEvent["strBanner"]),
-				"preview": deunicode(schedEvent["strVideo"])}
+				kwargs = {
+					"sport": sport,
+					"league": league,
+					"season": season,
+					"date": date,
+					"TheSportsDBID": schedEvent["idEvent"],
+					"vs": schedEvent["strEvent"],
+					#"altTitle": schedEvent["strEventAlternate"],
+					"description": normalize(schedEvent["strDescriptionEN"]),
+					"homeTeam": homeTeamKey,
+					"awayTeam": awayTeamKey,
+					"networks": splitAndTrim(deunicode(schedEvent["strTVStation"])),
+					"poster": deunicode(schedEvent["strPoster"]),
+					"fanArt": deunicode(schedEvent["strFanart"]),
+					"thumbnail": deunicode(schedEvent["strThumb"]),
+					"banner": deunicode(schedEvent["strBanner"]),
+					"preview": deunicode(schedEvent["strVideo"])}
 
-			SupplementScheduleEvent(league, schedEvent, kwargs)
+				SupplementScheduleEvent(league, schedEvent, kwargs)
 
-			event = ScheduleEvent(**kwargs)
+				event = ScheduleEvent(**kwargs)
 
-			AddOrAugmentEvent(sched, event)
+				AddOrAugmentEvent(sched, event)
 
 
 
@@ -98,8 +99,10 @@ def SupplementScheduleEvent(league, schedEvent, kwargs):
 			elif schedEvent["intRound"] == THESPORTSDB_ROUND_FINAL:
 				kwargs.setdefault("subseason", NBA_SUBSEASON_FLAG_PRESEASON)
 	elif league == LEAGUE_NFL:
-		if schedEvent.get("strDesciptionEN") == "Pro Football Hall of Fame Game":
+		if schedEvent.get("strDescriptionEN") == "Pro Football Hall of Fame Game":
 			kwargs.setdefault("eventindicator", NFL_EVENT_FLAG_HALL_OF_FAME)
+			del(kwargs["description"])
+			kwargs["eventTitle"] = normalize(schedEvent["strDescriptionEN"])
 
 		if schedEvent.get("intRound") != None:
 			if schedEvent["intRound"] == THESPORTSDB_ROUND_FINAL:
