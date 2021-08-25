@@ -48,19 +48,17 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 	processing = True
 
 	def monitor():
-		threadpool = []
-		#while processing:
-		while len(q.queue) > 0:
-			date = q.get()
-			semaphore.acquire()
-			t = threading.Thread(target=process_date, kwargs={"date": date})
-			threadpool.append(t)
-			t.start()
+		while True:	# processing:
+			threadpool = []
+			while q.unfinished_tasks:	# len(q.queue) > 0:
+				date = q.get()
+				semaphore.acquire()
+				t = threading.Thread(target=process_date, kwargs={"date": date})
+				threadpool.append(t)
+				t.start()
 
-		for t in threadpool:
-			t.join()
-
-		threadpool = []
+			for t in threadpool:
+				t.join()
 
 
 	# Mmmmkay so this is how we gone have to do it:
@@ -73,6 +71,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 			process_json(downloadedJson)
 		finally:
 			semaphore.release()
+			q.task_done()
 
 	def process_json(downloadedJson):
 		if downloadedJson:
@@ -133,7 +132,10 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 										description = deunicode(normalize(headline["description"]))
 										# TODO Date strings as headlines
 
-							# TODO: network?
+							networks = []
+							if competition.get("broadcasts"):
+								for broadcast in competition["broadcasts"]:
+									networks += broadcast["names"]
 
 							kwargs = {
 								"sport": sport,
@@ -150,7 +152,8 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 								"week": week,
 								"playoffround": playoffRound,
 								"eventindicator": eventIndicator,
-								"game": gameNumber
+								"game": gameNumber,
+								"networks": networks
 								}
 
 							event = ScheduleEvent(**kwargs)
@@ -197,19 +200,18 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 			for date in calendar["dates"]:
 				datesToProcess.append(date)
 
+
+	monitorThread = threading.Thread(target=monitor)
+	monitorThread.daemon = True
+	monitorThread.start()
+
+
 	now = datetime.datetime.utcnow().date()
 	for date in sorted(set(datesToProcess)):
 		if date > now: continue
 		q.put(date)
 
-
-
-	monitor()
-	processing = False
-
-	#monitorThread = threading.Thread(target=monitor)
-	#monitorThread.start()
-	#monitorThread.join()
+	q.join()
 
 
 	__calendar_parse_hashes.clear()

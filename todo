@@ -1,8 +1,9 @@
+Generate Franchise report
+Generate schedule report
 ESPNAPI for teams and schedules
 	+ cache aggregated API data
 	+ double headers & reschedules DOUBLEHEADER - GAME 2 - MOVED FROM SEPT 4
 	+ Exhibition is EXH
-	+ Fix Parallelization
 Only cache if historical (year/day)
 Scheme to serialize this season, but also keep this week's events freshly downloaded.
 NHLAPI, Game 6 (eventTitle) vs. ESPNAPI, Game6 (MLB, title)
@@ -22,8 +23,6 @@ scrape nfl.com (for assets)
 Cache 401's from sportsdataio. Also put in "dont even try it" limits.
 SVG Logos from NFL.com
 Grafx generation
-Generate Franchise report
-Generate schedule report
 Figure out how to execute command via a single py file (Warm Cache, Generate Report, Clear Caches, Expire Caches)
 Maybe flatten API/Scraper file structure
 See if we can trick plex into executing commands, like warm cache on refresh metadata/Analyze
