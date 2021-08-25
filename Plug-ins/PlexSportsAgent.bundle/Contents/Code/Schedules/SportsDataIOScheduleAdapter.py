@@ -32,7 +32,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 				if schedEvent["AwayTeam"] == "BYE":
 					continue
 
-				# Teams from this API are abbreviations, so take as-is
+				# Teams from this API are abbreviations
 				homeTeamKeyStripped = create_scannable_key(schedEvent["HomeTeam"])
 				awayTeamKeyStripped = create_scannable_key(schedEvent["AwayTeam"])
 				homeTeamKey = teamKeys[homeTeamKeyStripped]
@@ -66,7 +66,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					"vs": "%s vs %s" % (homeTeamName, awayTeamName),
 					"homeTeam": homeTeamKey,
 					"awayTeam": awayTeamKey,
-					"networks": splitAndTrim(deunicode(schedEvent.get("Channel")))
+					"networks": splitAndTrim(deunicode(schedEvent.get("Channel"))),
 					}
 
 				SupplementScheduleEvent(league, schedEvent, kwargs)
@@ -93,7 +93,11 @@ def SupplementScheduleEvent(league, schedEvent, kwargs):
 				# TODO: Identify Playoff Round
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR: kwargs["eventindicator"] = NBA_EVENT_FLAG_ALL_STAR_GAME
 		if league == LEAGUE_NFL:
-			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_PRESEASON: kwargs["subseason"] = NFL_SUBSEASON_FLAG_PRESEASON
+			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_PRESEASON:
+				kwargs["subseason"] = NFL_SUBSEASON_FLAG_PRESEASON
+				if schedEvent["Week"] == 0:
+					kwargs["eventindicator"] = NFL_EVENT_FLAG_PRO_BOWL
+					kwargs["eventTitle"] = "Pro Bowl"
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_REGULAR_SEASON: kwargs["subseason"] = NFL_SUBSEASON_FLAG_REGULAR_SEASON
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_POSTSEASON:
 				kwargs["subseason"] = NFL_SUBSEASON_FLAG_POSTSEASON

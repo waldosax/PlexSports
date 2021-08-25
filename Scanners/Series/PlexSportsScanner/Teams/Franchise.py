@@ -85,22 +85,26 @@ class FranchiseDict(dict):
 				if not key: continue
 				self.__abbrevlookup.setdefault(key, team)
 
-	#def get(self, key):
-	#	return self.__getitem__(key)
+	def get(self, key):
+		return self.__find(key)[1]
 
 	def __getitem__(self, key):
-		return self.__find(key)
+		(foundKey, value) = self.__find(key)
+		if foundKey == None:
+			# TODO: Throw
+			pass
+		return value
 
 	def __find(self, key):
 		if key in dict.keys(self):
-			return dict.get(self, key)
+			return (key, dict.get(self, key))
 		if not self.__abbrevlookup:
 			self.__hydrate_abbreviations()
 
 		if key in self.__abbrevlookup.keys():
-			return self.__abbrevlookup[key]
+			return (key, self.__abbrevlookup[key])
 
-		return None
+		return (None, None)
 
 	def abbreviations(self):
 		if not self.__abbrevlookup:

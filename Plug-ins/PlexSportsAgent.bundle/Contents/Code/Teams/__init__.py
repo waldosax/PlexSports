@@ -83,7 +83,7 @@ defunct_teams = {	#[League][RetroKey](City, Name, ThenAbbrev, NowAbbrev)
 		}
 	}
 
-cached_franchises = FranchiseDict()
+cached_franchises = dict()
 cities_with_multiple_teams = dict()
 cached_team_keys = dict()
 
