@@ -253,7 +253,7 @@ def __process_calendar(league, season, isWhitelist = False):
 	apiCalendar = []
 	apiCalendarObj = None
 	if apiScores and apiScores.get("leagues"):
-		apiLeague= apiScores["leagues"][0]
+		apiLeague = apiScores["leagues"][0]
 		apiCalendar = apiLeague.get("calendar") or []
 		if apiCalendar: apiCalendarObj = apiCalendar[0]
 
@@ -264,46 +264,60 @@ def __process_calendar(league, season, isWhitelist = False):
 		"endDate": ParseISO8601Date(apiLeague["calendarEndDate"]) if apiLeague.get("calendarEndDate") else None,
 		}
 
-	for x in apiCalendar:
+	if not apiLeague.get("calendarIsWhitelist"):
+		dates = project_dates(calendar)
+		blacklist = []
+		for x in apiCalendar:
+			blacklist.append(ParseISO8601Date(x).date())
+		blacklist = list(set(sorted(blacklist)))
+		for i in range(len(dates), -1, -1):
+			if dates[i] == blacklist[-1]:
+				del(dates[i])
+		calendar["dates"] = dates
+	else:
 
-		# x could be a date string
-		if isinstance(x, basestring):
-			calendar["dates"].append(ParseISO8601Date(x).date())
-			continue
+		for x in apiCalendar:
 
-		apiSubseasonObj = x
-		subseasonObj = dict()
-		subseasonObj["label"] = deunicode(apiSubseasonObj["label"])
-		subseasonObj["value"] = int(apiSubseasonObj["value"])
-		subseasonObj["startDate"] = ParseISO8601Date(apiSubseasonObj["startDate"])
-		subseasonObj["endDate"] = ParseISO8601Date(apiSubseasonObj["endDate"])
+			# x could be a date string
+			if isinstance(x, basestring):
+				calendar["dates"].append(ParseISO8601Date(x).date())
+				continue
 
-		dates = []
-		entries = []
-		subseasonObj["entries"] = entries
-		if apiSubseasonObj.get("entries"):
-			for apiEntry in apiSubseasonObj["entries"]:
-				entry = dict()
+			apiSubseasonObj = x
+			if apiSubseasonObj.get("label") == "Off Season": continue
 
-				# Careful here. It looked like MLB was doin somethin DIFFERENT with entries
-				if isinstance(apiEntry, basestring):
-					entry["label"] = deunicode(apiEntry)
-					dates += project_dates(subseasonObj)
-				else:
-					entry["label"] = deunicode(apiEntry["label"])
-					entry["alternateLabel"] = deunicode(apiEntry["alternateLabel"])
-					entry["value"] = apiEntry["value"]
-					if apiEntry.get("startDate"): entry["startDate"] = ParseISO8601Date(apiEntry["startDate"])
-					if apiEntry.get("endDate"): entry["endDate"] = ParseISO8601Date(apiEntry["endDate"])
+			subseasonObj = dict()
+			subseasonObj["label"] = deunicode(apiSubseasonObj["label"])
+			subseasonObj["value"] = int(apiSubseasonObj["value"])
+			subseasonObj["startDate"] = ParseISO8601Date(apiSubseasonObj["startDate"])
+			subseasonObj["endDate"] = ParseISO8601Date(apiSubseasonObj["endDate"])
 
-					dates += project_dates(entry)
+			dates = []
+			entries = []
+			subseasonObj["entries"] = entries
+			if apiSubseasonObj.get("entries"):
+				for apiEntry in apiSubseasonObj["entries"]:
+					entry = dict()
 
-				entries.append(entry)
+					# Careful here. It looked like MLB was doin somethin DIFFERENT with entries
+					if isinstance(apiEntry, basestring):
+						entry["label"] = deunicode(apiEntry)
+						dates += project_dates(subseasonObj)
+					else:
+						entry["label"] = deunicode(apiEntry["label"])
+						entry["alternateLabel"] = deunicode(apiEntry["alternateLabel"])
+						entry["value"] = apiEntry["value"]
+						if apiEntry.get("startDate"): entry["startDate"] = ParseISO8601Date(apiEntry["startDate"])
+						if apiEntry.get("endDate"): entry["endDate"] = ParseISO8601Date(apiEntry["endDate"])
 
-		dates = list(set(dates))
-		subseasonObj["dates"] = sorted(dates)
-		calendar["dates"] = calendar["dates"] + dates
-		calendar["subseasons"].append(subseasonObj)
+						dates += project_dates(entry)
+
+					entries.append(entry)
+
+			dates = list(set(dates))
+			subseasonObj["dates"] = sorted(dates)
+			calendar["dates"] = calendar["dates"] + dates
+			calendar["subseasons"].append(subseasonObj)
 
 
 	if not calendar["dates"]:

@@ -1,11 +1,19 @@
+Lakers/Heat, Game 3: one of these teams is backwards
 Generate Franchise report
 Generate schedule report
 ESPNAPI for teams and schedules
 	+ cache aggregated API data
 	+ double headers & reschedules DOUBLEHEADER - GAME 2 - MOVED FROM SEPT 4
 	+ Exhibition is EXH
+ScheduleAdapterFactory (Threads in tiers)
+	+ Official
+	+ Definitive
+	+ Authoritative
+	+ Supplemental
+	
 Only cache if historical (year/day)
 Scheme to serialize this season, but also keep this week's events freshly downloaded.
+If today is in season, pull from cache, but also pull a fresh copy for season of for up to today. Recache
 NHLAPI, Game 6 (eventTitle) vs. ESPNAPI, Game6 (MLB, title)
 12:00 AM ET (Trashbucket)
 Is local time offset inconsistency in trashbucket only an NFL phenomenon?
