@@ -4,6 +4,7 @@ from dateutil.tz import *
 from pprint import pprint
 
 from Constants import *
+from Constants.Assets import *
 from Hashes import *
 from StringUtils import *
 from TimeZoneUtils import *
@@ -62,11 +63,22 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					"homeTeam": homeTeamKey,
 					"awayTeam": awayTeamKey,
 					"networks": splitAndTrim(deunicode(schedEvent["strTVStation"])),
-					"poster": deunicode(schedEvent["strPoster"]),
-					"fanArt": deunicode(schedEvent["strFanart"]),
-					"thumbnail": deunicode(schedEvent["strThumb"]),
-					"banner": deunicode(schedEvent["strBanner"]),
-					"preview": deunicode(schedEvent["strVideo"])}
+					"assets": {
+						"poster": [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strPoster"]))],
+						"fanArt": [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strFanart"]))],
+						"thumbnail": [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strThumb"]))],
+						"banner": [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strBanner"]))],
+						"preview": [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strVideo"]))]
+						}
+					}
+
+				assets = dict()
+				if schedEvent["strPoster"]: assets["poster"] = [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strPoster"]))]
+				if schedEvent["strFanart"]: assets["fanArt"] = [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strFanart"]))]
+				if schedEvent["strThumb"]: assets["thumbnail"] = [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strThumb"]))]
+				if schedEvent["strBanner"]: assets["banner"] = [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strBanner"]))]
+				if schedEvent["strVideo"]: assets["preview"] = [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strVideo"]))]
+				if assets: kwargs["assets"] = assets
 
 				SupplementScheduleEvent(league, schedEvent, kwargs)
 

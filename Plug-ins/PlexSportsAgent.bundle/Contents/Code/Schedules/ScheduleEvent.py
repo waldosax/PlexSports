@@ -1,5 +1,6 @@
 import datetime
 
+from Constants.Assets import *
 from Hashes import *
 from StringUtils import *
 from TimeZoneUtils import *
@@ -38,11 +39,12 @@ class ScheduleEvent:
 			self.networks = list(set(self.networks + kwargs["networks"]))
 		if kwargs.get("network"):
 			self.networks = list(set(self.networks + splitAndTrim(deunicode(kwargs["network"]))))
-		self.poster = deunicode(kwargs.get("poster"))
-		self.fanArt = deunicode(kwargs.get("fanArt"))
-		self.thumbnail = deunicode(kwargs.get("thumbnail"))
-		self.banner = deunicode(kwargs.get("banner"))
-		self.preview = deunicode(kwargs.get("preview"))
+		
+		self.assets = EventAssets()
+		if kwargs.get("assets"):
+			assets = kwargs["assets"]
+			if isinstance(assets, (EventAssets)): self.assets.Augment(**assets.__dict__)
+			elif isinstance(assets, (dict)): self.assets.Augment(**assets)
 
 		self.__augmentationkey__ = None
 		self.__key__ = None
@@ -91,11 +93,11 @@ class ScheduleEvent:
 		if not self.description: self.description = deunicode(kwargs.get("description"))
 		if kwargs.get("networks"): self.networks = list(set(self.networks + kwargs["networks"]))
 		if kwargs.get("network"): self.networks = list(set(self.networks + splitAndTrim(deunicode(kwargs["network"]))))
-		if not self.poster: self.poster = deunicode(kwargs.get("poster"))
-		if not self.fanArt: self.fanArt = deunicode(kwargs.get("fanArt"))
-		if not self.thumbnail: self.thumbnail = deunicode(kwargs.get("thumbnail"))
-		if not self.banner: self.banner = deunicode(kwargs.get("banner"))
-		if not self.preview: self.preview = deunicode(kwargs.get("preview"))
+		
+		if kwargs.get("assets"):
+			assets = kwargs["assets"]
+			if isinstance(assets, (EventAssets)): self.assets.Augment(**assets.__dict__)
+			elif isinstance(assets, (dict)): self.assets.Augment(**assets)
 		
 		self.identity.Augment(**kwargs)
 		if kwargs.get("identity"):
@@ -198,3 +200,101 @@ class ScheduleEventIdentity:
 		if kwargs.get("ESPNAPIID"): self.ESPNAPIID = kwargs["ESPNAPIID"]
 		if kwargs.get("ProFootballReferenceID"): self.ProFootballReferenceID = kwargs["ProFootballReferenceID"]
 		pass
+
+class EventAsset():
+	def __init__(self, **kwargs):
+		self.source = deunicode(kwargs.get("source"))
+		self.url = deunicode(kwargs["url"]) if kwargs.get("url") else None
+		pass
+
+	@property
+	def key(self):
+		return ("%s" % (self.source)).lower()
+
+	def __repr__(self):
+		s = ""
+		if self.source:
+			s += "["
+			s += self.source
+			s += "]"
+		if self.url:
+			if s: s += " "
+			s += self.url
+		return s
+
+
+class EventAssets():
+	def __init__(self, **kwargs):
+		self.poster = []
+		self.fanArt = []
+		self.thumbnail = []
+		self.banner = []
+		self.logo = []
+		self.preview = []
+		self.Augment(**kwargs)
+
+	def __add_asset(self, assetType, asset, **kwargs):
+		found = self.Find(assetType, asset.source, **kwargs)
+		if not found: self.__dict__[assetType].append(asset)
+
+	def Augment(self, **kwargs):
+		if kwargs.get(ASSET_TYPE_POSTERS):
+			for asset in kwargs[ASSET_TYPE_POSTERS]:
+				if isinstance(asset, (EventAsset)): self.__add_asset(ASSET_TYPE_POSTERS, asset)
+				else: self.__add_asset(ASSET_TYPE_POSTERS, EventAsset(**asset))
+		
+		if kwargs.get(ASSET_TYPE_FANART):
+			for asset in kwargs[ASSET_TYPE_FANART]:
+				if isinstance(asset, (EventAsset)): self.__add_asset(ASSET_TYPE_FANART, asset)
+				else: self.__add_asset(ASSET_TYPE_FANART, EventAsset(**asset))
+		
+		if kwargs.get(ASSET_TYPE_THUMBNAIL):
+			for asset in kwargs[ASSET_TYPE_THUMBNAIL]:
+				if isinstance(asset, (EventAsset)): self.__add_asset(ASSET_TYPE_THUMBNAIL, asset)
+				else: self.__add_asset(ASSET_TYPE_THUMBNAIL, EventAsset(**asset))
+		
+		if kwargs.get(ASSET_TYPE_BANNERS):
+			for asset in kwargs[ASSET_TYPE_BANNERS]:
+				if isinstance(asset, (EventAsset)): self.__add_asset(ASSET_TYPE_BANNERS, asset)
+				else: self.__add_asset(ASSET_TYPE_BANNERS, EventAsset(**asset))
+		
+		if kwargs.get(ASSET_TYPE_LOGOS):
+			for asset in kwargs[ASSET_TYPE_LOGOS]:
+				if isinstance(asset, (EventAsset)): self.__add_asset(ASSET_TYPE_LOGOS, asset)
+				else: self.__add_asset(ASSET_TYPE_LOGOS, EventAsset(**asset))
+		
+		if kwargs.get(ASSET_TYPE_PREVIEW):
+			for asset in kwargs[ASSET_TYPE_PREVIEW]:
+				if isinstance(asset, (EventAsset)): self.__add_asset(ASSET_TYPE_PREVIEW, asset)
+				else: self.__add_asset(ASSET_TYPE_PREVIEW, EventAsset(**asset))
+	
+		
+		pass
+
+
+
+	def Find(self, assetType, source, **kwargs):
+		assetCollection = self.__dict__.get(assetType)
+		if not assetCollection: return None
+
+		found = []
+		for asset in assetCollection:
+			if source and asset.source != source: continue
+
+			shouldContinue = True
+			for key in kwargs.keys():
+				if not shouldContinue: break
+				if key in asset.__dict__.keys():
+					if key in ["source", "url"]: continue
+					if kwargs[key] and asset.__dict__[key] != kwargs[key]:
+						shouldContinue = False
+						break
+
+			if shouldContinue: found.append(asset)
+
+
+		return found
+
+
+	def __repr__(self):
+		return repr(self.__dict__)
