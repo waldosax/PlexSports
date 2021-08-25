@@ -115,6 +115,9 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 							# TODO: Normalize title (Title Case)
 
 							gameNumber = None
+							if title:
+								indexOfGame = indexOf(title.lower(), " - game ")
+								if indexOfGame >= 0: gameNumber = int(title[indexOfGame+8:indexOfGame+9].strip())
 
 							ysubseason = None
 							week = None
@@ -147,8 +150,8 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 								"week": week,
 								"playoffround": playoffRound,
 								"eventindicator": eventIndicator,
-								} # We'll see how ESPN handles double-headers
-								#"game": gameNumber}
+								"game": gameNumber
+								}
 
 							event = ScheduleEvent(**kwargs)
 

@@ -1,9 +1,9 @@
 Reshape ScheduleEvent Assets
 ESPNAPI for teams and schedules
 	+ cache aggregated API data
-	+ double headers & reschedules
-	+ games in series (NBA, NHL, MLB)
+	+ double headers & reschedules DOUBLEHEADER - GAME 2 - MOVED FROM SEPT 4
 	+ Exhibition is EXH
+	+ Fix Parallelization
 Only cache if historical (year/day)
 Scheme to serialize this season, but also keep this week's events freshly downloaded.
 NHLAPI, Game 6 (eventTitle) vs. ESPNAPI, Game6 (MLB, title)
