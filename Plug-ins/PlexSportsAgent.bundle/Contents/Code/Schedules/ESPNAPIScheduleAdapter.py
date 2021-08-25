@@ -173,7 +173,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 	xyear = int(season)
 	if league in year_boundary_leagues:
 		xyear += 1
-	calendar = __process_calendar(league, str(xyear))
+	calendar = __process_calendar(league, str(xyear), True)
 	if calendar:
 		shouldIncrementYear = False
 		if calendar["dates"] and calendar["dates"][0].year < year:
@@ -183,12 +183,9 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 
 		if shouldIncrementYear:
 			xyear += 1
-			calendar = __process_calendar(league, str(xyear))
+			calendar = __process_calendar(league, str(xyear), True)
 
 		calendarsToProcess.append(calendar)
-		whitelist = __process_calendar(league, str(xyear), True)
-		if whitelist:
-			calendarsToProcess.append(whitelist)
 
 
 

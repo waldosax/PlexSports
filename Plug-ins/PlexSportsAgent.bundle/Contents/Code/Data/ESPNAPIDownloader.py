@@ -33,7 +33,7 @@ def DownloadCalendarForLeagueAndSeason(league, season, isWhitelist = False):
 	(leagueName, sport) = known_leagues[league]
 	urlTemplate = ESPNAPI_BASE_URL + ESPNAPI_LEAGUE_FILTER + ESPNAPI_GET_SCHEDULE + "%s"
 	return GetResultFromNetwork(
-		urlTemplate % (sport.lower(), league.lower(), ("%s0000" % season), ("&calendarType=whitelist" if isWhitelist == True else "")),
+		urlTemplate % (sport.lower(), league.lower(), ("%s0000" % season), ("&calendartype=whitelist" if isWhitelist == True else "")),
 		espn_api_headers, cacheExtension=EXTENSION_JSON)
 
 
