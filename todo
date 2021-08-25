@@ -1,10 +1,11 @@
 Reshape ScheduleEvent Assets
-Only cache if historical (year/day)
 ESPNAPI for teams and schedules
 	+ cache aggregated API data
 	+ double headers & reschedules
 	+ games in series (NBA, NHL, MLB)
 	+ Exhibition is EXH
+Only cache if historical (year/day)
+Scheme to serialize this season, but also keep this week's events freshly downloaded.
 NHLAPI, Game 6 (eventTitle) vs. ESPNAPI, Game6 (MLB, title)
 12:00 AM ET (Trashbucket)
 Is local time offset inconsistency in trashbucket only an NFL phenomenon?

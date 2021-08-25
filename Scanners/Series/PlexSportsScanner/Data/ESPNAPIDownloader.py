@@ -26,7 +26,6 @@ def DownloadAllTeamsForLeague(league):
 		urlTemplate % (sport.lower(), league.lower()),
 		espn_api_headers, cacheExtension=EXTENSION_JSON)
 
-# Maybe thread this, but it's only 2 small requests
 def DownloadCalendarForLeagueAndSeason(league, season, isWhitelist = False):
 	if not league in known_leagues.keys(): return None # TODO: Throw
 	print("Getting %s calendar for %s season from ESPN API ..." % (league, season))
@@ -49,7 +48,7 @@ def DownloadScheduleForLeagueAndDate(league, date):
 
 	return GetResultFromNetwork(
 		urlTemplate % (sport.lower(), league.lower(), date.strftime("%Y%m%d")),
-		espn_api_headers, shouldUseCache, cacheExtension=EXTENSION_JSON)
+		espn_api_headers, cache=shouldUseCache, cacheExtension=EXTENSION_JSON)
 
 
 
