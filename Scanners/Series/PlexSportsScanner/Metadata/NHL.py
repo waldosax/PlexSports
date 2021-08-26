@@ -232,7 +232,6 @@ def InferPlayoffRoundFromFolders(fileName, folders, meta):
 
 def InferSubseasonFromFileName(fileName, food, meta):
 	if not food: return food
-	if meta.get(METADATA_SUBSEASON_INDICATOR_KEY): return food
 
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
@@ -249,6 +248,11 @@ def InferSubseasonFromFileName(fileName, food, meta):
 				for pattern in [r"^%s$" % expr, r"\b%s\b" % expr]:
 					(bites, chewed, ms) = Eat(food, pattern)
 					if bites:
+
+						# Check to see if existing values match. If they don't, eat, but leave values unchanged
+						if meta.get(METADATA_SUBSEASON_INDICATOR_KEY) != None and meta[METADATA_SUBSEASON_INDICATOR_KEY] != ind:
+							return chewed
+
 						foundSubseason = True
 
 						meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, ind)
@@ -279,7 +283,6 @@ def InferSubseasonFromFileName(fileName, food, meta):
 
 def InferPlayoffRoundFromFileName(fileName, food, meta):
 	if not food: return food
-	if meta.get(METADATA_PLAYOFF_ROUND_KEY): return food
 	
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
@@ -297,6 +300,11 @@ def InferPlayoffRoundFromFileName(fileName, food, meta):
 					(bites, chewed, ms) = Eat(food, pattern)
 					if bites:
 						foundRound = True
+
+						# Check to see if existing values match. If they don't, eat, but leave values unchanged
+						if meta.get(METADATA_PLAYOFF_ROUND_KEY) != None and meta[METADATA_PLAYOFF_ROUND_KEY] != round:
+							return chewed
+
 
 						meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, NHL_SUBSEASON_FLAG_POSTSEASON)
 						meta.setdefault(METADATA_SUBSEASON_KEY, bites[0][1])
@@ -357,6 +365,11 @@ def InferSingleEventFromFileName(fileName, food, meta):
 			for pattern in [r"^%s$" % expr, r"\b%s\b" % expr]:
 				(bites, chewed, ms) = Eat(food, pattern)
 				if bites:
+
+					# Check to see if existing values match. If they don't, eat, but leave values unchanged
+					if meta.get(METADATA_EVENT_INDICATOR_KEY) != None and meta[METADATA_EVENT_INDICATOR_KEY] != ind:
+						return chewed
+
 					foundEvent = True
 					meta.setdefault(METADATA_SPORT_KEY, SPORT_BASEBALL)
 					meta.setdefault(METADATA_LEAGUE_KEY, LEAGUE_MLB)

@@ -6,11 +6,7 @@ from pprint import pprint
 # Local package
 from Constants import *
 from StringUtils import *
-from Teams import *
-from Matching import __sort_by_len
-from Matching import __sort_by_len_key
-from Matching import __sort_by_len_value
-import Teams
+from Matching import __trim_word_separators
 import Matching
 import MLB
 import NBA
@@ -258,8 +254,7 @@ def __infer_league_from_filename(fileName, food, meta):
 
 				meta.setdefault(METADATA_SPORT_KEY, sport)
 				meta.setdefault(METADATA_LEAGUE_KEY, league)
-				food = chewed
-				break
+				return chewed
 	
 	return food
 
@@ -275,19 +270,17 @@ def __infer_airdate_from_filename(fileName, food, meta):
 		for pattern in [r"\b%s\b" % expr]:
 			(bites, chewed, ms) = Matching.Eat(food, pattern)
 			if bites:
-				foundAirDate = True
-					
 				(m, value) = bites[0]
 				year = expandYear(m.group("year"))
 				month = m.group("month")
 				day = m.group("day")
 
 				if month and day:
+					foundAirDate = True
 					airdate = datetime.date(int(year), int(month), int(day))
 
 					meta.setdefault(METADATA_AIRDATE_KEY, airdate)
-					food = chewed
-					break
+					return chewed
 
 	return food
 
@@ -340,7 +333,7 @@ def __infer_game_number_from_filename(fileName, food, meta):
 			if foundGameNumber == True:
 				break
 			for pattern in [r"^%s$" % expr, r"\b%s\b" % expr]:
-				(bites, chewed, ms) = Eat(food, pattern)
+				(bites, chewed, ms) = Matching.Eat(food, pattern)
 				if bites:
 					meta.setdefault(METADATA_GAME_NUMBER_KEY, ms[0].group("game_number"))
 					return chewed
@@ -351,159 +344,41 @@ def __infer_game_number_from_filename(fileName, food, meta):
 def __infer_teams_from_filename(fileName, food, meta):
 	if not food: return food
 
-	league = meta.get(METADATA_LEAGUE_KEY)
-	teams = dict()
-	if league:
-		teams.setdefault(league, GetFranchises(league))
-	else:
-		for league in known_leagues:
-			teams.setdefault(league, GetFranchises(league))
-
-	(foundLeague, team1, team2, vs, chewed) = __find_teams(fileName, teams, food, meta)
+	(team1, team2, vs, chewed) = __find_teams(fileName, food, meta)
 	if vs == "@":
 		if team1:
-			meta.setdefault(METADATA_AWAY_TEAM_KEY, team1.key)
+			meta.setdefault(METADATA_AWAY_TEAM_KEY, team1)
 		if team2:
-			meta.setdefault(METADATA_HOME_TEAM_KEY, team2.key)
+			meta.setdefault(METADATA_HOME_TEAM_KEY, team2)
 	else:
 		if team1:
-			meta.setdefault(METADATA_HOME_TEAM_KEY, team1.key)
+			meta.setdefault(METADATA_HOME_TEAM_KEY, team1)
 		if team2:
-			meta.setdefault(METADATA_AWAY_TEAM_KEY, team2.key)
-	
-	if foundLeague:
-		(leagueName, sport) = known_leagues[foundLeague]
-		meta.setdefault(METADATA_SPORT_KEY, sport)
-		meta.setdefault(METADATA_LEAGUE_KEY, foundLeague)
+			meta.setdefault(METADATA_AWAY_TEAM_KEY, team2)
 
 	return chewed
 
-def __find_teams(fileName, teams, food, meta):
+def __find_teams(fileName, food, meta):
 	if not food:
-		return (None, None, None, None, food)
-
-	# A trie would be the right solution here, but I'm not doing all
-	#   that work when I'm just learning Python
+		return (None, None, None, food)
 	
-	team1League = meta.get(METADATA_LEAGUE_KEY)
 	team1 = None
 	team2 = None
 	vs = None
 
 	origFood = food[0:] # Make a copy of food, just in case we need to reference the original
 
-	(boiled, grit) = Boil(food)
-	if not boiled:
-		return (None, None, None, None, food)
-
-	# (boiledIndex, foodIndex, boiledLength, nextFoodIndex)
-	
-	team1Chunk = None
-	team2Chunk = None
-	vsChunk = None
-
-	# Phillies| vs. |Red Sox| Game Highlights () _  Highlights
-	# 01234567| 89  |012 345| 6789 0123456789       0123456789
-	# 01234567|89012|3456789|012345678901234567890123456789012
-	# 8-------| 2-  |6------|                                 
-	# 8-------| 3-- |7------|                                 
-
-
-	# World.Series..10.19.1993.|Toronto.Blue.Jays|@|Philadelphia.Phillies|
-	# 01234 567890  12 34 5678 |9012345 6789 0123|4|567890123456 78901234|
-	# 0123456789012345678901234|56789012345678901|2|345678901234567890123|
-	#                          |15---------------|1|20-------------------|
-	#                          |17---------------|1|21-------------------|
-
-
-	# tennessee-titans|-|@|-|new-england-patriots|
-	# 012345678 901234| |5| |678 9012345 67890123|
-	# 0123456789012345|6|7|8|90123456789012345678|
-	# 15--------------| |1| |18------------------|
-	# 16--------------| |2  |20------------------|
-
-
-	leagues = [team1League] if team1League else teams.keys()
-	for league in leagues:
-		scanKeys = sorted(cached_team_keys[league].items(), key=__sort_by_len_key, reverse=True)
-		if team1:
-			break
-		for (scanKey, key) in scanKeys:
-			team1Chunk = Taste(boiled, grit, scanKey, 0)
-			if team1Chunk:
-				team1 = teams[league][key]
-				team1League = league
-				break
-
-	if not team1:
-		return (team1League, team1, team2, vs, food)
-
-	def chunks_overlap(chunk1, chunk2):
-		chunk1Start = chunk1[CHUNK_BOILED_INDEX]
-		chunk1Length = chunk1[CHUNK_BOILED_LENGTH]
-		chunk2Start = chunk2[CHUNK_BOILED_INDEX]
-		chunk2Length = chunk2[CHUNK_BOILED_LENGTH]
-
-		if chunk2Start >= chunk1Start and chunk2Start < chunk1Start + chunk1Length:
-			return True
-		if chunk1Start >= chunk2Start and chunk1Start < chunk2Start + chunk2Length:
-			return True
-
-		return False
-
-	def find_boiled_index(foodIndex, grit):
-		i = 0
-		for idx in grit:
-			if idx == foodIndex: # This will do for now
-				return i
-			i += 1
-
-	nextBoiledIndex = team1Chunk[CHUNK_NEXT_BOILED_INDEX]
-	if nextBoiledIndex < 0: nextBoiledIndex = 0
-	scanKeys = sorted(cached_team_keys[team1League].items(), key=__sort_by_len_key, reverse=True)
-	for (scanKey, key) in scanKeys:
-		team2Chunk = Taste(boiled, grit, scanKey, 0)
-		if team2Chunk and not chunks_overlap(team1Chunk, team2Chunk):
-			team2 = teams[league][key]
+	indexOfVs = None
+	for expr in versus_expressions:
+		m = re.search(expr, food, re.IGNORECASE)
+		if m:
+			vs = m.group(0)
+			indexOfVs = m.start(0)
+			team1 = __trim_word_separators(food[:indexOfVs])
+			team2 = __trim_word_separators(food[indexOfVs+len(vs):])
+			food = ""
 			break
 
-	if team1 and team2:
-		if team2Chunk[CHUNK_BOILED_INDEX] < team1Chunk[CHUNK_BOILED_INDEX]:
-			# Swap them so that teams are in the order they appear in food
-			tmpChunk = team1Chunk
-			tmpTeam = team1
-			team1Chunk = team2Chunk
-			team1 = team2
-			team2Chunk = tmpChunk
-			team2 = tmpTeam
-
-
-		# This is a food piece because we want it in its raw form so we can match on the punctuation. 
-		# Must reverse-engineer a boil, and a taste (chunk)
-		foodIndex = team1Chunk[CHUNK_NEXT_FOOD_INDEX]
-		btw = food[foodIndex:team2Chunk[CHUNK_FOOD_INDEX]]
-		foodLength = len(btw)
-		if btw:
-			for expr in versus_expressions:
-				m = re.search(expr, btw, re.IGNORECASE)
-				if m:
-					boiledVs = strip_to_alphanumeric_and_at(btw)
-					vs = boiledVs #m.string[m.start(): m.end()]   # "vs. " (0,3)
-
-					# Simulate a taste
-					boiledIndex = find_boiled_index(foodIndex, grit)
-					boiledLength = len(boiledVs)
-					nextBoiledIndex = boiledIndex + boiledLength if (boiledIndex + boiledLength) < len(boiled) else -1
-					nextFoodIndex = grit[boiledIndex + boiledLength] if (boiledIndex + boiledLength) < len(grit) else -1
-
-					vsChunk = (boiledIndex, foodIndex, boiledLength, nextBoiledIndex, nextFoodIndex)
-					break
-
-
-	# TODO: munge if unrecognized teams, but vs. found 
-
-
-	food = Chew([team1Chunk, vsChunk, team2Chunk], grit, food)
-	return (team1League, team1, team2, vs, food)
+	return (team1, team2, vs, food)
 
 

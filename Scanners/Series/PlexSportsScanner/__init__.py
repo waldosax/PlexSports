@@ -36,6 +36,12 @@ def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
 
         #print(file)
         #pprint(meta)
+        #if meta.get(METADATA_FILENAME_KEY): print("%s: %s" % (METADATA_FILENAME_KEY, meta[METADATA_FILENAME_KEY]))
+        #if meta.get(METADATA_HOME_TEAM_KEY): print("%s: %s" % (METADATA_HOME_TEAM_KEY, meta[METADATA_HOME_TEAM_KEY]))
+        #if meta.get(METADATA_AWAY_TEAM_KEY): print("%s: %s" % (METADATA_AWAY_TEAM_KEY, meta[METADATA_AWAY_TEAM_KEY]))
+        #if meta.get(METADATA_AIRDATE_KEY): print("%s: %s" % (METADATA_AIRDATE_KEY, meta[METADATA_AIRDATE_KEY].strftime("%Y.%m.%d")))
+        #if meta.get(METADATA_SEASON_KEY): print("%s: %s" % (METADATA_SEASON_KEY, meta[METADATA_SEASON_KEY]))
+        #print
         #show, season, episode, title, year
 
         # Synthesize show name (league/sport)
@@ -180,23 +186,15 @@ def __synthesize_episode_title(meta):
     if sport in supported_team_sports and league in known_leagues:
         homeTeam = meta.get(METADATA_HOME_TEAM_KEY)
         awayTeam = meta.get(METADATA_AWAY_TEAM_KEY)
-        homeTeamKey = strip_to_alphanumeric(meta.get(METADATA_HOME_TEAM_KEY))
-        awayTeamKey = strip_to_alphanumeric(meta.get(METADATA_AWAY_TEAM_KEY))
 
-        teams = Teams.GetFranchises(league)
-        keys = Teams.cached_team_keys[league]
-        if teams:
-            if homeTeamKey in keys: homeTeam = teams[keys[homeTeamKey]].fullName
-            if awayTeamKey in keys: awayTeam = teams[keys[awayTeamKey]].fullName
-
-            if homeTeam:
-                if title: title += ", " if hasPrefix else " - " if hasAirdate else ""
-                title += homeTeam
-                if awayTeam:
-                    title += " vs. " + awayTeam
-            elif awayTeam:
-                if title: title += ", " if hasPrefix else " - " if hasAirdate else ""
-                title += awayTeam
+        if homeTeam:
+            if title: title += ", " if hasPrefix else " - " if hasAirdate else ""
+            title += homeTeam
+            if awayTeam:
+                title += " vs. " + awayTeam
+        elif awayTeam:
+            if title: title += ", " if hasPrefix else " - " if hasAirdate else ""
+            title += awayTeam
 
     if not hasGameIndicator and meta.get(METADATA_GAME_NUMBER_KEY):
         if title: title += ", "

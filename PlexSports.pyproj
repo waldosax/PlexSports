@@ -113,24 +113,6 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\NFL.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\NHL.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\__init__.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\CacheContainer.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\Caching.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\ESPNAPIDownloader.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\GetResultFromNetwork.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\MLB\MLBAPIDownloader.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\MLB\__init__.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\NBA\NBAAPIDownloader.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\NBA\__init__.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\NFL\ProFootballReferenceDownloader.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\NFL\__init__.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\NHL\NHLAPIDownloader.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\NHL\__init__.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\PathUtils.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\PlugInSupport.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\SportsDataIODownloader.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\TheSportsDBDownloader.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\UserAgent.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Data\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Matching.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Metadata\MLB.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Metadata\NBA.py" />
@@ -142,19 +124,6 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\RomanNumerals.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Serialization.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\StringUtils.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\ESPNAPIFranchiseAdapter.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\Franchise.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\MLB\MLBAPIFranchiseAdapter.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\MLB\__init__.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NBA\NBAAPIFranchiseAdapter.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NBA\__init__.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NFL\ProFootballReferenceFranchiseAdapter.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NFL\ProFootballReferenceFranchiseScraper.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\NFL\__init__.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\SportsDataIOFranchiseAdapter.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\Team.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\TheSportsDBFranchiseAdapter.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Teams\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\TimeZoneUtils.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Vectors.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\__init__.py" />
@@ -168,71 +137,12 @@
     <Compile Include="Shared\Constants\NFL.py" />
     <Compile Include="Shared\Constants\NHL.py" />
     <Compile Include="Shared\Constants\__init__.py" />
-    <Compile Include="Shared\Data\CacheContainer.py" />
-    <Compile Include="Shared\Data\Caching.py" />
-    <Compile Include="Shared\Data\ESPNAPIDownloader.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Data\GetResultFromNetwork.py" />
-    <Compile Include="Shared\Data\MLB\MLBAPIDownloader.py" />
-    <Compile Include="Shared\Data\MLB\__init__.py" />
-    <Compile Include="Shared\Data\NBA\NBAAPIDownloader.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Data\NBA\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Data\NFL\ProFootballReferenceDownloader.py" />
-    <Compile Include="Shared\Data\NFL\ProFootballReference_old.py" />
-    <Compile Include="Shared\Data\NFL\__init__.py" />
-    <Compile Include="Shared\Data\NHL\NHLAPIDownloader.py" />
-    <Compile Include="Shared\Data\NHL\__init__.py" />
-    <Compile Include="Shared\Data\PathUtils.py" />
-    <Compile Include="Shared\Data\PlugInSupport.py" />
-    <Compile Include="Shared\Data\SportsDataIODownloader.py" />
-    <Compile Include="Shared\Data\TheSportsDBDownloader.py" />
-    <Compile Include="Shared\Data\__init__.py" />
     <Compile Include="Shared\Matching.py" />
     <Compile Include="Shared\PathUtils.py" />
     <Compile Include="Shared\PluginSupport.py" />
     <Compile Include="Shared\RomanNumerals.py" />
     <Compile Include="Shared\Serialization.py" />
     <Compile Include="Shared\StringUtils.py" />
-    <Compile Include="Shared\Teams\ESPNAPIFranchiseAdapter.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Teams\Franchise.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Teams\MLB\MLBAPIFranchiseAdapter.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Teams\MLB\__init__.py" />
-    <Compile Include="Shared\Teams\NBA\NBAAPIFranchiseAdapter.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Teams\NBA\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Teams\NFL\ProFootballReferenceFranchiseAdapter.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Teams\NFL\ProFootballReferenceFranchiseScraper.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Teams\NFL\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Teams\SportsDataIOFranchiseAdapter.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Teams\Team.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Teams\TheSportsDBFranchiseAdapter.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Shared\Teams\__init__.py" />
     <Compile Include="Shared\TimeZoneUtils.py" />
     <Compile Include="Shared\Vectors.py" />
     <Compile Include="UnitTests\AssertionException.py" />
@@ -262,27 +172,9 @@
     <Folder Include="Scanners\Series\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Constants\" />
-    <Folder Include="Scanners\Series\PlexSportsScanner\Data\" />
-    <Folder Include="Scanners\Series\PlexSportsScanner\Data\MLB\" />
-    <Folder Include="Scanners\Series\PlexSportsScanner\Data\NBA\" />
-    <Folder Include="Scanners\Series\PlexSportsScanner\Data\NFL\" />
-    <Folder Include="Scanners\Series\PlexSportsScanner\Data\NHL\" />
     <Folder Include="Scanners\Series\PlexSportsScanner\Metadata\" />
-    <Folder Include="Scanners\Series\PlexSportsScanner\Teams\" />
-    <Folder Include="Scanners\Series\PlexSportsScanner\Teams\MLB\" />
-    <Folder Include="Scanners\Series\PlexSportsScanner\Teams\NBA\" />
-    <Folder Include="Scanners\Series\PlexSportsScanner\Teams\NFL\" />
     <Folder Include="Shared\" />
     <Folder Include="Shared\Constants\" />
-    <Folder Include="Shared\Data\" />
-    <Folder Include="Shared\Data\MLB\" />
-    <Folder Include="Shared\Data\NBA\" />
-    <Folder Include="Shared\Data\NFL\" />
-    <Folder Include="Shared\Data\NHL\" />
-    <Folder Include="Shared\Teams\" />
-    <Folder Include="Shared\Teams\MLB\" />
-    <Folder Include="Shared\Teams\NBA\" />
-    <Folder Include="Shared\Teams\NFL\" />
     <Folder Include="UnitTests\" />
     <Folder Include="UnitTests\Scanner\" />
     <Folder Include="UnitTests\Scanner\Metadata\" />

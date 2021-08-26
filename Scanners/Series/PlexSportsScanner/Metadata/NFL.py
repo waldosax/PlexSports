@@ -201,7 +201,6 @@ def InferPlayoffRoundFromFolders(fileName, folders, meta):
 
 def InferSubseasonFromFileName(fileName, food, meta):
 	if not food: return food
-	if meta.get(METADATA_SUBSEASON_INDICATOR_KEY): return food
 
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
@@ -218,6 +217,11 @@ def InferSubseasonFromFileName(fileName, food, meta):
 				for pattern in [r"^%s$" % expr, r"\b%s\b" % expr]:
 					(bites, chewed, ms) = Eat(food, pattern)
 					if bites:
+
+						# Check to see if existing values match. If they don't, eat, but leave values unchanged
+						if meta.get(METADATA_SUBSEASON_INDICATOR_KEY) != None and meta[METADATA_SUBSEASON_INDICATOR_KEY] != ind:
+							return chewed
+
 						foundSubseason = True
 
 						meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, ind)
@@ -246,10 +250,16 @@ def InferWeekFromFileName(fileName, food, meta):
 			for pattern in [r"^%s$" % expr, r"\b%s\b" % expr]:
 				(bites, chewed, ms) = Eat(food, pattern)
 				if bites:
+					weekNumber = int(bites[0][0].group("week_number"))
+
+					# Check to see if existing values match. If they don't, eat, but leave values unchanged
+					if meta.get(METADATA_WEEK_NUMBER_KEY) != None and meta[METADATA_WEEK_NUMBER_KEY] != weekNumber:
+						return chewed
+
 					foundWeek = True
 
 					meta.setdefault(METADATA_WEEK_KEY, bites[0][1])
-					meta.setdefault(METADATA_WEEK_NUMBER_KEY, int(m.group("week_number")))
+					meta.setdefault(METADATA_WEEK_NUMBER_KEY, weekNumber)
 					return chewed
 	return food
 
@@ -281,7 +291,6 @@ def InferPostseasonConferenceFromFileName(fileName, food, meta):
 
 def InferPlayoffRoundFromFileName(fileName, food, meta):
 	if not food: return food
-	if meta.get(METADATA_PLAYOFF_ROUND_KEY) : return food
 	
 	league = meta.get(METADATA_LEAGUE_KEY)
 	season = meta.get(METADATA_SEASON_KEY)
@@ -298,6 +307,11 @@ def InferPlayoffRoundFromFileName(fileName, food, meta):
 				for pattern in [r"^%s$" % expr, r"\b%s\b" % expr]:
 					(bites, chewed, ms) = Eat(food, pattern)
 					if bites:
+
+						# Check to see if existing values match. If they don't, eat, but leave values unchanged
+						if meta.get(METADATA_PLAYOFF_ROUND_KEY) != None and meta[METADATA_PLAYOFF_ROUND_KEY] != round:
+							return chewed
+
 						foundRound = True
 
 						meta.setdefault(METADATA_SUBSEASON_INDICATOR_KEY, NFL_SUBSEASON_FLAG_POSTSEASON)
@@ -336,7 +350,6 @@ def InferPlayoffRoundFromFileName(fileName, food, meta):
 
 def InferSingleEventFromFileName(fileName, food, meta):
 	if not food: return food
-	if meta.get(METADATA_EVENT_INDICATOR_KEY) : return food
 
 	# Test to see if fileName contains a single event, like Super Bowl, or Pro Bowl
 	foundEvent = False
@@ -347,6 +360,11 @@ def InferSingleEventFromFileName(fileName, food, meta):
 			for pattern in [r"^%s$" % expr, r"\b%s\b" % expr]:
 				(bites, chewed, ms) = Eat(food, pattern)
 				if bites:
+
+					# Check to see if existing values match. If they don't, eat, but leave values unchanged
+					if meta.get(METADATA_EVENT_INDICATOR_KEY) != None and meta[METADATA_EVENT_INDICATOR_KEY] != ind:
+						return chewed
+
 					foundEvent = True
 					meta.setdefault(METADATA_SPORT_KEY, SPORT_FOOTBALL)
 					meta.setdefault(METADATA_LEAGUE_KEY, LEAGUE_NFL)

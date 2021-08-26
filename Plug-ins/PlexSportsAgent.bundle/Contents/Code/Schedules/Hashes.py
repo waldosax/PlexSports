@@ -1,6 +1,8 @@
 import datetime
 
 from Constants import *
+from Matching import __sort_by_len_key
+from Teams import *
 from TimeZoneUtils import *
 from Vectors import *
 
@@ -17,7 +19,7 @@ SCHEDULE_HASH_INDEX_DATE = 8
 SCHEDULE_HASH_INDEX_HOMETEAM = 9
 SCHEDULE_HASH_INDEX_AWAYTEAM = 10
 
-def sched_compute_meta_scan_hash2(meta):
+def sched_compute_meta_scan_hash2(meta): #TODO: Better name
 
 	EXPRESSION_INDEX_SEASON = 0
 	EXPRESSION_INDEX_SUBSEASON = 1
@@ -101,6 +103,9 @@ def sched_compute_meta_scan_hash2(meta):
 	season = str(meta[METADATA_SEASON_BEGIN_YEAR_KEY]) if meta.get(METADATA_SEASON_BEGIN_YEAR_KEY) else meta.get(METADATA_SEASON_KEY)
 	airdate = meta.get(METADATA_AIRDATE_KEY)
 	seasons = [season]
+	
+	franchises = GetFranchises(league)
+	teamScanKeys = sorted(cached_team_keys[league].items(), key=__sort_by_len_key, reverse=True)
 
 	if not season and airdate:
 		season = str(airdate.year)
@@ -156,7 +161,15 @@ def sched_compute_meta_scan_hash2(meta):
 
 	(atomName, groupName) = atom_defs[EXPRESSION_INDEX_TEAM1]
 	if meta.get(METADATA_HOME_TEAM_KEY):
-		atom = meta[METADATA_HOME_TEAM_KEY]
+		scanTeamName = meta[METADATA_HOME_TEAM_KEY]
+		teamKey = scanTeamName
+		food = scanTeamName
+		(boiled, grit) = Boil(food)
+		for (scanKey, key) in teamScanKeys:
+			team1Chunk = Taste(boiled, grit, scanKey, 0)
+			if team1Chunk:
+				teamKey = key
+		atom = teamKey
 		elements.append("%s:%s" % (atomName, atom))
 		atoms[groupName] = construct_expression_fragment(groupName, atomName, atom)
 	else:
@@ -164,7 +177,15 @@ def sched_compute_meta_scan_hash2(meta):
 
 	(atomName, groupName) = atom_defs[EXPRESSION_INDEX_TEAM2]
 	if meta.get(METADATA_AWAY_TEAM_KEY):
-		atom = meta[METADATA_AWAY_TEAM_KEY]
+		scanTeamName = meta[METADATA_AWAY_TEAM_KEY]
+		teamKey = scanTeamName
+		food = scanTeamName
+		(boiled, grit) = Boil(food)
+		for (scanKey, key) in teamScanKeys:
+			team1Chunk = Taste(boiled, grit, scanKey, 0)
+			if team1Chunk:
+				teamKey = key
+		atom = teamKey
 		elements.append("%s:%s" % (atomName, atom))
 		atoms[groupName] = construct_expression_fragment(groupName, atomName, atom)
 	else:
