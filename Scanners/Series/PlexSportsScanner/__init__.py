@@ -75,8 +75,10 @@ def Scan(path, files, mediaList, subdirs, language=None, root=None, **kwargs):
 
     # See if we need to tie any parted video files (.part1.mp4, .part2.mp4, etc) to a single file
     if files:
-        Stack.Scan(path, files, mediaList, subdirs)
+        #Screw this, we're gonna write our own stacker so that we can grab things like quarters/halves/periods
+        #Stack.Scan(path, files, mediaList, subdirs)
         #pprint(files)
+        pass
 
 def __get_relative_path(path, file, root):
     relPath = os.path.relpath(file, root) if root else path + os.path.basename(file) if os.path.isabs(path) == False else os.path.relPath(file, path)

@@ -144,6 +144,9 @@
     <Compile Include="Shared\Serialization.py" />
     <Compile Include="Shared\StringUtils.py" />
     <Compile Include="Shared\TimeZoneUtils.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\titlecase.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Shared\Vectors.py" />
     <Compile Include="UnitTests\AssertionException.py" />
     <Compile Include="UnitTests\Scanner\Metadata\Infer\InferTests.py" />

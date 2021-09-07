@@ -169,6 +169,7 @@ def sched_compute_meta_scan_hash2(meta): #TODO: Better name
 			team1Chunk = Taste(boiled, grit, scanKey, 0)
 			if team1Chunk:
 				teamKey = key
+				break
 		atom = teamKey
 		elements.append("%s:%s" % (atomName, atom))
 		atoms[groupName] = construct_expression_fragment(groupName, atomName, atom)
@@ -185,6 +186,7 @@ def sched_compute_meta_scan_hash2(meta): #TODO: Better name
 			team1Chunk = Taste(boiled, grit, scanKey, 0)
 			if team1Chunk:
 				teamKey = key
+				break
 		atom = teamKey
 		elements.append("%s:%s" % (atomName, atom))
 		atoms[groupName] = construct_expression_fragment(groupName, atomName, atom)
