@@ -104,9 +104,11 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 							teams = dict()
 							for competitor in competition["competitors"]:
 								key = deunicode(competitor["homeAway"])
-								teams[key] = deunicode(competitor["team"]["abbreviation"])
-							homeTeamKey = teams["home"]
-							awayTeamKey = teams["away"]
+								teams.setdefault(key, {"fullName": None, "abbrev": None})
+								teams[key]["abbrev"] = deunicode(competitor["team"]["abbreviation"])
+								teams[key]["fullName"] = deunicode(competitor["team"]["displayName"])
+							homeTeamKey = teams["home"]["abbrev"]
+							awayTeamKey = teams["away"]["abbrev"]
 
 
 							(xsubseason, playoffRound, eventIndicator, xtitle) = __get_playoffRound(league, subseason, title, competition)
@@ -153,7 +155,8 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 								"playoffround": playoffRound,
 								"eventindicator": eventIndicator,
 								"game": gameNumber,
-								"networks": networks
+								"networks": networks,
+								"vs": "%s vs. %s" % (teams["home"]["fullName"], teams["away"]["fullName"])
 								}
 
 							event = ScheduleEvent(**kwargs)
@@ -264,7 +267,7 @@ def __process_calendar(league, season, isWhitelist = False):
 		"endDate": ParseISO8601Date(apiLeague["calendarEndDate"]) if apiLeague.get("calendarEndDate") else None,
 		}
 
-	if not apiLeague.get("calendarIsWhitelist"):
+	if apiLeague.get("calendarIsWhitelist") == False:
 		dates = project_dates(calendar)
 		blacklist = []
 		for x in apiCalendar:
