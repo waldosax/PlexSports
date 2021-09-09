@@ -16,6 +16,7 @@ from Data.CacheContainer import *
 from NFL import ProFootballReferenceFranchiseAdapter
 from MLB import MLBAPIFranchiseAdapter
 from NBA import NBAAPIFranchiseAdapter
+from NHL import NHLAPIFranchiseAdapter
 import ESPNAPIFranchiseAdapter
 
 CACHE_DURATION = 135
@@ -147,6 +148,10 @@ def __download_all_team_data(league):
 		# Retrieve data from pro-football-reference.com
 		pfrFranchises = ProFootballReferenceFranchiseAdapter.DownloadAllFranchises(league)
 		incorporate_franchises(franchises, pfrFranchises)
+	elif league == LEAGUE_NHL:
+		# Retrieve data from NHL stats API
+		nhlapiFranchises = NHLAPIFranchiseAdapter.DownloadAllFranchises(league)
+		incorporate_franchises(franchises, nhlapiFranchises)
 		
 	# Augment/replace with data from ESPN API
 	espnapiTeams = ESPNAPIFranchiseAdapter.DownloadAllTeams(league)

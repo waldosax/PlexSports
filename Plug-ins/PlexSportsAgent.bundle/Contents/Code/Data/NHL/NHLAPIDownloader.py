@@ -8,20 +8,27 @@ from ..GetResultFromNetwork import *
 
 NHLAPI_BASE_URL = "http://statsapi.web.nhl.com/api/v1/"
 
-NHLAPI_GET_ALL_TEAMS = "teams?sportId=1"
-NHLAPI_GET_TEAMS_FOR_SEASON = "teams?sportId=1&season=%s%s" # (seasonbegin, seasonend)
-NHLAPI_GET_TEAMS_HISTORY = "teams/history"
-NHLAPI_GET_FRANCHISES = "teams/franchises"
-NHLAPI_GET_FRANCHISE = "teams/franchises/%s" # (franchiseId)
-NHLAPI_GET_ALL_SEASONS = "seasons?sportId=1"
-NHLAPI_GET_SEASON = "seasons/%s%s?sportId=1" # (seasonbegin, seasonend)
-NHLAPI_GET_SCHEDULE = "schedule/games/?sportId=1&startDate=%s&endDate=%s" # (season)
+NHLAPI_GET_ALL_TEAMS = "teams"
+NHLAPI_GET_TEAMS_FOR_SEASON = "teams?season=%s%s" # (seasonbegin, seasonend)
+NHLAPI_GET_TEAMS_HISTORY = "teams/history?fields=%s" # ([field1,field2])
+NHLAPI_GET_FRANCHISES = "franchises"
+NHLAPI_GET_FRANCHISE = "franchises/%s" # (franchiseId)
+NHLAPI_GET_ALL_SEASONS = "seasons"
+NHLAPI_GET_SEASON = "seasons/%s%s" # (seasonbegin, seasonend)
+NHLAPI_GET_SCHEDULE = "schedule/games/?startDate=%s&endDate=%s" # (season)
 NHLAPI_GET_GAME_CONTENT = "game/%s/content" # (gameId)
 
 nhl_api_headers = {
 	"User-Agent": USER_AGENT
 }
 
+
+def DownloadAllFranchiseInfo():
+	print("Getting franchise current state from NHL API ...")
+	urlTemplate = NHLAPI_BASE_URL + NHLAPI_GET_FRANCHISES
+	return GetResultFromNetwork(
+		urlTemplate,
+		nhl_api_headers, cacheExtension=EXTENSION_JSON)
 
 def DownloadAllTeams():
 	print("Getting teams current state from NHL API ...")
@@ -38,11 +45,18 @@ def DownloadTeamsForSeason(season):
 		urlTemplate % (seasonBegin, seasonEnd),
 		nhl_api_headers, cacheExtension=EXTENSION_JSON)
 
-def DownloadTeamHistories(teamIds):
+def DownloadTeamHistories(fields=None):
 	print("Getting team histories from NHL API ...")
-	urlTemplate = NHLAPI_BASE_URL + NHLAPI_GET_TEAMS_FOR_SEASON
+	urlTemplate = NHLAPI_BASE_URL + NHLAPI_GET_TEAMS_HISTORY
 	return GetResultFromNetwork(
-		urlTemplate % (",".join(teamIds)),
+		urlTemplate % (",".join(fields) if fields else ""),
+		nhl_api_headers, cacheExtension=EXTENSION_JSON)
+
+def DownloadAllSeasons():
+	print("Getting all seasons from NHL API ...")
+	url = NHLAPI_BASE_URL + NHLAPI_GET_ALL_SEASONS
+	return GetResultFromNetwork(
+		url,
 		nhl_api_headers, cacheExtension=EXTENSION_JSON)
 
 def DownloadSeasonInfo(season):

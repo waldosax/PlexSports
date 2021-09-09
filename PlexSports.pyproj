@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{f216b525-ee0a-4921-960d-102021d785a7}</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>debug-agent.py</StartupFile>
+    <StartupFile>debug-scraper.py</StartupFile>
     <SearchPath>Backups;Debug;Scanners\Series;Scanners\Series\PlexSportsScanner;Plug-ins\PlexSportsAgent.bundle\Contents\Code</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -95,6 +95,10 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NFL\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NHL\NHLAPIFranchiseAdapter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NHL\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\SportsDataIOFranchiseAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\Team.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\TheSportsDBFranchiseAdapter.py" />
@@ -104,6 +108,9 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\TimeZoneUtils.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Vectors.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\__init__.py" />
+    <Compile Include="pre-warm-caches.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="python-tests.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\Assets.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\Extensions.py" />
@@ -170,6 +177,7 @@
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\MLB\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NBA\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NHL\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\NFL\" />
     <Folder Include="Scanners\" />
     <Folder Include="Scanners\Series\" />
