@@ -105,7 +105,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 							for competitor in competition["competitors"]:
 								key = deunicode(competitor["homeAway"])
 								teams.setdefault(key, {"fullName": None, "abbrev": None})
-								teams[key]["abbrev"] = deunicode(competitor["team"]["abbreviation"])
+								teams[key]["abbrev"] = deunicode(competitor["team"].get("abbreviation"))
 								teams[key]["fullName"] = deunicode(competitor["team"]["displayName"])
 							homeTeamKey = teams["home"]["abbrev"]
 							awayTeamKey = teams["away"]["abbrev"]
@@ -131,7 +131,10 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 							if competition.get("headlines"):
 								for headline in competition["headlines"]:
 									if headline["type"] == "Recap":
-										description = deunicode(normalize(headline["description"]))
+										if headline.get("description"):
+											description = deunicode(normalize(headline["description"]))
+										elif headline.get("shortLinkText"):
+											description = deunicode(normalize(headline["shortLinkText"]))
 										# TODO Date strings as headlines
 
 							networks = []
@@ -253,6 +256,7 @@ def __process_calendar(league, season, isWhitelist = False):
 		try: apiScores = json.loads(calendarJson)
 		except ValueError: apiScores = None
 
+	apiLeague = {}
 	apiCalendar = []
 	apiCalendarObj = None
 	if apiScores and apiScores.get("leagues"):
@@ -364,7 +368,7 @@ def __get_playoffRound(league, subseason, title, competition):
 
 	subseason = subseason or 0
 	title = title or ""
-	typeAbbrev = competition["type"]["abbreviation"]
+	typeAbbrev = competition["type"]["abbreviation"] if competition.get("type") and competition["type"].get("abbreviation") else None
 	
 	if league == LEAGUE_MLB and subseason == MLB_SUBSEASON_FLAG_POSTSEASON:
 		pass # TODO

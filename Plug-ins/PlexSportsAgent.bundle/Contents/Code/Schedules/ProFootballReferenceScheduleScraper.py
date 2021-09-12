@@ -160,6 +160,7 @@ def __process_nfl_schedule_page(year):
 
 			weekNumberNode = gameRow.select(selectors["week-number"])[0]
 			weekNumberText = weekNumberNode.text
+			week = None
 			if weekNumberText[:3].upper() == "PRE":
 				subseason = -1
 				if weekNumberText[3:] == "0":
@@ -289,11 +290,13 @@ def __process_teams_footer(soup, teams, teamsLookup):
 								teamShortName = teamLink.text
 								teamLinkHref = teamLink.attrs["href"]
 								abbrev = __extract_team_abbrev_from_team_url(teamLinkHref)
+								team = None
 								city = None
 
-								team = teams[teamsLookup[abbrev]]
-								if team["name"][:-len(teamShortName)].strip() == teamShortName:
-									city = team["name"][:-len(teamShortName)].strip()
+								if teamsLookup.get(abbrev) and teams.get(teamsLookup[abbrev]):
+									team = teams[teamsLookup[abbrev]]
+									if team["name"][:-len(teamShortName)].strip() == teamShortName:
+										city = team["name"][:-len(teamShortName)].strip()
 
 								if team:
 									if city:

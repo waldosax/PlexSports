@@ -44,22 +44,35 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 						continue
 
 				# Teams from this API are full names
+				vs = deunicode(schedEvent["strEvent"])
 				homeTeamStripped = create_scannable_key(schedEvent["strHomeTeam"])
 				awayTeamStripped = create_scannable_key(schedEvent["strAwayTeam"])
+				if league == LEAGUE_NBA and schedEvent["strAwayTeam"] == "Minnesota Wild":
+					awayTeamStripped = "minnesotatimberwolves"
+				elif league == LEAGUE_NBA and schedEvent["strAwayTeam"] == "Philadelphia Flyers":
+					awayTeamStripped = "philadelphia76ers"
+				elif league == LEAGUE_NFL and schedEvent["strAwayTeam"] == "San Diego":
+					awayTeamStripped = "sandiegochargers"
+					vs = "%s vs. %s" % (deunicode(schedEvent["strHomeTeam"]), "San Diego Chargers")
+				elif league == LEAGUE_NFL and schedEvent["strHomeTeam"] == "San Diego":
+					homeTeamStripped = "sandiegochargers"
+					vs = "%s vs. %s" % ("San Diego Chargers", deunicode(schedEvent["strAwayTeam"]))
 				homeTeamKey = teamKeys[homeTeamStripped]
 				awayTeamKey = teamKeys[awayTeamStripped]
 		
 				date = __get_event_date(schedEvent)
+				if date == None:
+					continue
 
 				kwargs = {
 					"sport": sport,
 					"league": league,
 					"season": season,
 					"date": date,
-					"TheSportsDBID": schedEvent["idEvent"],
-					"vs": schedEvent["strEvent"],
-					#"altTitle": schedEvent["strEventAlternate"],
-					"description": normalize(schedEvent["strDescriptionEN"]),
+					"TheSportsDBID": deunicode(schedEvent["idEvent"]),
+					"vs": vs,
+					#"altTitle": deunicode(schedEvent["strEventAlternate"]),
+					"description": deunicode(normalize(schedEvent["strDescriptionEN"])),
 					"homeTeam": homeTeamKey,
 					"awayTeam": awayTeamKey,
 					"networks": splitAndTrim(deunicode(schedEvent["strTVStation"])),
@@ -181,6 +194,7 @@ def __get_event_date(schedEvent):
 		else: # Relative to East Coast
 			date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
 	elif schedEvent.get("dateEvent") and not schedEvent.get("strTime"):
+		if schedEvent["dateEvent"] == "0000-00-00": return None
 		date = ParseISO8601Date(schedEvent["dateEvent"])
 		# Time-naive
 	elif schedEvent.get("strTimestamp"):

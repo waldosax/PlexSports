@@ -20,6 +20,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 	# Retrieve data from NHL API
 	downloadedJson = DownloadScheduleForSeason(season)
 	
+	nhlApiSchedule = None
 	if downloadedJson:
 		try: nhlApiSchedule = json.loads(downloadedJson)
 		except ValueError: pass
@@ -39,7 +40,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 				else:
 					date = ParseISO8601Date(dateGroup)
 
-				# Teams from this API are full names, so teams dictionary is scanKeys
+				# Teams from this API are full names
 				homeTeamName = schedEvent["teams"]["home"]["team"]["name"]
 				awayTeamName = schedEvent["teams"]["away"]["team"]["name"]
 				homeTeamStripped = create_scannable_key(homeTeamName)

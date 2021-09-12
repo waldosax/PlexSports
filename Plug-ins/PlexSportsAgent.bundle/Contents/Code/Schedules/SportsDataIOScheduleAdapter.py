@@ -33,13 +33,15 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					continue
 
 				# Teams from this API are abbreviations
-				homeTeamKeyStripped = create_scannable_key(schedEvent["HomeTeam"])
-				awayTeamKeyStripped = create_scannable_key(schedEvent["AwayTeam"])
-				homeTeamKey = teamKeys[homeTeamKeyStripped]
-				awayTeamKey = teamKeys[awayTeamKeyStripped]
+				homeTeamKey = deunicode(schedEvent["HomeTeam"])
+				awayTeamKey = deunicode(schedEvent["AwayTeam"])
+				homeTeamKeyStripped = create_scannable_key(homeTeamKey)
+				awayTeamKeyStripped = create_scannable_key(awayTeamKey)
 
-				homeTeamName = teams[homeTeamKey].fullName if teams.get(homeTeamKey) else deunicode(schedEvent["HomeTeam"]) or ""
-				awayTeamName = teams[awayTeamKey].fullName if teams.get(awayTeamKey) else deunicode(schedEvent["AwayTeam"]) or ""
+				homeTeamName = deunicode(schedEvent["HomeTeam"]) or ""
+				awayTeamName = deunicode(schedEvent["AwayTeam"]) or ""
+				if teamKeys.get(homeTeamKeyStripped): homeTeamName = teams[teamKeys[homeTeamKeyStripped]].name
+				if teamKeys.get(awayTeamKeyStripped): awayTeamName = teams[teamKeys[awayTeamKeyStripped]].name
 
 				date = None
 				if schedEvent.get("DateTime"):

@@ -78,6 +78,7 @@ def DownloadScheduleForSeason(season):
 		for key in keys:
 			if dct.get(key): return dct[key]
 
+	if len(seasons["seasons"]) == 0: return None
 	seasonInfo = seasons["seasons"][0]
 	startDate = get_property(seasonInfo, ["preSeasonStartDate", "regularSeasonStartDate"])
 	endDate = get_property(seasonInfo, ["postSeasonEndDate", "seasonEndDate", "regularSeasonEndDate"])
