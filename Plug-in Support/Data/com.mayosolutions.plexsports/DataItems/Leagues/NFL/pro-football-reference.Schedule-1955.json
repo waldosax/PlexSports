@@ -1,373 +1,1229 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1955-09-24T00:00:00", 
-          "teams": "PHIvsNYG"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1955-19550924PHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1955-09-24T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195509240phi.htm", 
+                        "id": "195509240phi", 
+                        "key": "nfl1955-19550924PHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. New York Giants", 
+                        "week": 1, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19550925CLEvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1955-09-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195509250cle.htm", 
+                        "id": "195509250cle", 
+                        "key": "nfl1955-19550925CLEvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Washington Redskins", 
+                        "week": 1, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19550925CLTvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1955-09-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/195509250clt.htm", 
+                        "id": "195509250clt", 
+                        "key": "nfl1955-19550925CLTvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Chicago Bears", 
+                        "week": 1, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19550925GNBvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1955-09-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195509250gnb.htm", 
+                        "id": "195509250gnb", 
+                        "key": "nfl1955-19550925GNBvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Detroit Lions", 
+                        "week": 1, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19550925SFOvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1955-09-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195509250sfo.htm", 
+                        "id": "195509250sfo", 
+                        "key": "nfl1955-19550925SFOvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Los Angeles Rams", 
+                        "week": 1, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19550926PITvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1955-09-26T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195509260pit.htm", 
+                        "id": "195509260pit", 
+                        "key": "nfl1955-19550926PITvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Chicago Cardinals", 
+                        "week": 1, 
+                        "year": "1955"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1955-19551001CLTvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1955-10-01T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/195510010clt.htm", 
+                        "id": "195510010clt", 
+                        "key": "nfl1955-19551001CLTvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Detroit Lions", 
+                        "week": 2, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551001PHIvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1955-10-01T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195510010phi.htm", 
+                        "id": "195510010phi", 
+                        "key": "nfl1955-19551001PHIvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Washington Redskins", 
+                        "week": 2, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551002CRDvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1955-10-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195510020crd.htm", 
+                        "id": "195510020crd", 
+                        "key": "nfl1955-19551002CRDvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. New York Giants", 
+                        "week": 2, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551002GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1955-10-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195510020gnb.htm", 
+                        "id": "195510020gnb", 
+                        "key": "nfl1955-19551002GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 2, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551002RAMvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1955-10-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195510020ram.htm", 
+                        "id": "195510020ram", 
+                        "key": "nfl1955-19551002RAMvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Pittsburgh Steelers", 
+                        "week": 2, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551002SFOvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1955-10-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195510020sfo.htm", 
+                        "id": "195510020sfo", 
+                        "key": "nfl1955-19551002SFOvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Cleveland Browns", 
+                        "week": 2, 
+                        "year": "1955"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1955-19551008GNBvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1955-10-08T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195510080gnb.htm", 
+                        "id": "195510080gnb", 
+                        "key": "nfl1955-19551008GNBvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Baltimore Colts", 
+                        "week": 3, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551009CHIvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1955-10-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195510090chi.htm", 
+                        "id": "195510090chi", 
+                        "key": "nfl1955-19551009CHIvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. San Francisco 49ers", 
+                        "week": 3, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551009CLEvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1955-10-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195510090cle.htm", 
+                        "id": "195510090cle", 
+                        "key": "nfl1955-19551009CLEvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Philadelphia Eagles", 
+                        "week": 3, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551009DETvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1955-10-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195510090det.htm", 
+                        "id": "195510090det", 
+                        "key": "nfl1955-19551009DETvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Los Angeles Rams", 
+                        "week": 3, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551009PITvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1955-10-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195510090pit.htm", 
+                        "id": "195510090pit", 
+                        "key": "nfl1955-19551009PITvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551009WASvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1955-10-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195510090was.htm", 
+                        "id": "195510090was", 
+                        "key": "nfl1955-19551009WASvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Chicago Cardinals", 
+                        "week": 3, 
+                        "year": "1955"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1955-19551015PITvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1955-10-15T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195510150pit.htm", 
+                        "id": "195510150pit", 
+                        "key": "nfl1955-19551015PITvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Philadelphia Eagles", 
+                        "week": 4, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551016CHIvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1955-10-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195510160chi.htm", 
+                        "id": "195510160chi", 
+                        "key": "nfl1955-19551016CHIvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Baltimore Colts", 
+                        "week": 4, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551016DETvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1955-10-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195510160det.htm", 
+                        "id": "195510160det", 
+                        "key": "nfl1955-19551016DETvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. San Francisco 49ers", 
+                        "week": 4, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551016GNBvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1955-10-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195510160gnb.htm", 
+                        "id": "195510160gnb", 
+                        "key": "nfl1955-19551016GNBvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Los Angeles Rams", 
+                        "week": 4, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551016NYGvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1955-10-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195510160nyg.htm", 
+                        "id": "195510160nyg", 
+                        "key": "nfl1955-19551016NYGvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Cardinals", 
+                        "week": 4, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551016WASvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1955-10-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195510160was.htm", 
+                        "id": "195510160was", 
+                        "key": "nfl1955-19551016WASvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Cleveland Browns", 
+                        "week": 4, 
+                        "year": "1955"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1955-19551023CLEvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1955-10-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195510230cle.htm", 
+                        "id": "195510230cle", 
+                        "key": "nfl1955-19551023CLEvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Green Bay Packers", 
+                        "week": 5, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551023CLTvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1955-10-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/195510230clt.htm", 
+                        "id": "195510230clt", 
+                        "key": "nfl1955-19551023CLTvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Washington Redskins", 
+                        "week": 5, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551023CRDvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1955-10-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195510230crd.htm", 
+                        "id": "195510230crd", 
+                        "key": "nfl1955-19551023CRDvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Philadelphia Eagles", 
+                        "week": 5, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551023NYGvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1955-10-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195510230nyg.htm", 
+                        "id": "195510230nyg", 
+                        "key": "nfl1955-19551023NYGvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Pittsburgh Steelers", 
+                        "week": 5, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551023RAMvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1955-10-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195510230ram.htm", 
+                        "id": "195510230ram", 
+                        "key": "nfl1955-19551023RAMvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Detroit Lions", 
+                        "week": 5, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551023SFOvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1955-10-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195510230sfo.htm", 
+                        "id": "195510230sfo", 
+                        "key": "nfl1955-19551023SFOvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Chicago Bears", 
+                        "week": 5, 
+                        "year": "1955"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1955-19551029CLTvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1955-10-29T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/195510290clt.htm", 
+                        "id": "195510290clt", 
+                        "key": "nfl1955-19551029CLTvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Green Bay Packers", 
+                        "week": 6, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551030CRDvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1955-10-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195510300crd.htm", 
+                        "id": "195510300crd", 
+                        "key": "nfl1955-19551030CRDvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Cleveland Browns", 
+                        "week": 6, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551030NYGvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1955-10-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195510300nyg.htm", 
+                        "id": "195510300nyg", 
+                        "key": "nfl1955-19551030NYGvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Washington Redskins", 
+                        "week": 6, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551030PHIvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1955-10-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195510300phi.htm", 
+                        "id": "195510300phi", 
+                        "key": "nfl1955-19551030PHIvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Pittsburgh Steelers", 
+                        "week": 6, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551030RAMvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1955-10-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195510300ram.htm", 
+                        "id": "195510300ram", 
+                        "key": "nfl1955-19551030RAMvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Chicago Bears", 
+                        "week": 6, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551030SFOvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1955-10-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195510300sfo.htm", 
+                        "id": "195510300sfo", 
+                        "key": "nfl1955-19551030SFOvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Detroit Lions", 
+                        "week": 6, 
+                        "year": "1955"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1955-19551105CRDvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1955-11-05T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195511050crd.htm", 
+                        "id": "195511050crd", 
+                        "key": "nfl1955-19551105CRDvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Pittsburgh Steelers", 
+                        "week": 7, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551105DETvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1955-11-05T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195511050det.htm", 
+                        "id": "195511050det", 
+                        "key": "nfl1955-19551105DETvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Baltimore Colts", 
+                        "week": 7, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551106CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1955-11-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195511060chi.htm", 
+                        "id": "195511060chi", 
+                        "key": "nfl1955-19551106CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 7, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551106CLEvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1955-11-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195511060cle.htm", 
+                        "id": "195511060cle", 
+                        "key": "nfl1955-19551106CLEvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. New York Giants", 
+                        "week": 7, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551106RAMvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1955-11-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195511060ram.htm", 
+                        "id": "195511060ram", 
+                        "key": "nfl1955-19551106RAMvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. San Francisco 49ers", 
+                        "week": 7, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551106WASvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1955-11-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195511060was.htm", 
+                        "id": "195511060was", 
+                        "key": "nfl1955-19551106WASvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Philadelphia Eagles", 
+                        "week": 7, 
+                        "year": "1955"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1955-19551113CHIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1955-11-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195511130chi.htm", 
+                        "id": "195511130chi", 
+                        "key": "nfl1955-19551113CHIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Los Angeles Rams", 
+                        "week": 8, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551113GNBvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1955-11-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195511130gnb.htm", 
+                        "id": "195511130gnb", 
+                        "key": "nfl1955-19551113GNBvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Cardinals", 
+                        "week": 8, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551113NYGvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1955-11-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195511130nyg.htm", 
+                        "id": "195511130nyg", 
+                        "key": "nfl1955-19551113NYGvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Baltimore Colts", 
+                        "week": 8, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551113PHIvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1955-11-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195511130phi.htm", 
+                        "id": "195511130phi", 
+                        "key": "nfl1955-19551113PHIvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Cleveland Browns", 
+                        "week": 8, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551113PITvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1955-11-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195511130pit.htm", 
+                        "id": "195511130pit", 
+                        "key": "nfl1955-19551113PITvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Detroit Lions", 
+                        "week": 8, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551113WASvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1955-11-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195511130was.htm", 
+                        "id": "195511130was", 
+                        "key": "nfl1955-19551113WASvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. San Francisco 49ers", 
+                        "week": 8, 
+                        "year": "1955"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1955-19551120CLEvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1955-11-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195511200cle.htm", 
+                        "id": "195511200cle", 
+                        "key": "nfl1955-19551120CLEvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Pittsburgh Steelers", 
+                        "week": 9, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551120CLTvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1955-11-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/195511200clt.htm", 
+                        "id": "195511200clt", 
+                        "key": "nfl1955-19551120CLTvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Los Angeles Rams", 
+                        "week": 9, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551120CRDvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1955-11-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195511200crd.htm", 
+                        "id": "195511200crd", 
+                        "key": "nfl1955-19551120CRDvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Washington Redskins", 
+                        "week": 9, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551120DETvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1955-11-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195511200det.htm", 
+                        "id": "195511200det", 
+                        "key": "nfl1955-19551120DETvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Chicago Bears", 
+                        "week": 9, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551120GNBvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1955-11-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195511200gnb.htm", 
+                        "id": "195511200gnb", 
+                        "key": "nfl1955-19551120GNBvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. San Francisco 49ers", 
+                        "week": 9, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551120NYGvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1955-11-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195511200nyg.htm", 
+                        "id": "195511200nyg", 
+                        "key": "nfl1955-19551120NYGvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Philadelphia Eagles", 
+                        "week": 9, 
+                        "year": "1955"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1955-19551124DETvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1955-11-24T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195511240det.htm", 
+                        "id": "195511240det", 
+                        "key": "nfl1955-19551124DETvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Green Bay Packers", 
+                        "week": 10, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551127CLTvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1955-11-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/195511270clt.htm", 
+                        "id": "195511270clt", 
+                        "key": "nfl1955-19551127CLTvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. San Francisco 49ers", 
+                        "week": 10, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551127CRDvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1955-11-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195511270crd.htm", 
+                        "id": "195511270crd", 
+                        "key": "nfl1955-19551127CRDvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Chicago Bears", 
+                        "week": 10, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551127NYGvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1955-11-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195511270nyg.htm", 
+                        "id": "195511270nyg", 
+                        "key": "nfl1955-19551127NYGvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Cleveland Browns", 
+                        "week": 10, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551127PHIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1955-11-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195511270phi.htm", 
+                        "id": "195511270phi", 
+                        "key": "nfl1955-19551127PHIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Los Angeles Rams", 
+                        "week": 10, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551127PITvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1955-11-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195511270pit.htm", 
+                        "id": "195511270pit", 
+                        "key": "nfl1955-19551127PITvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Washington Redskins", 
+                        "week": 10, 
+                        "year": "1955"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1955-19551204CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1955-12-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195512040chi.htm", 
+                        "id": "195512040chi", 
+                        "key": "nfl1955-19551204CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Detroit Lions", 
+                        "week": 11, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551204PHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1955-12-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195512040phi.htm", 
+                        "id": "195512040phi", 
+                        "key": "nfl1955-19551204PHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Chicago Cardinals", 
+                        "week": 11, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551204PITvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1955-12-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195512040pit.htm", 
+                        "id": "195512040pit", 
+                        "key": "nfl1955-19551204PITvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Cleveland Browns", 
+                        "week": 11, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551204RAMvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1955-12-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195512040ram.htm", 
+                        "id": "195512040ram", 
+                        "key": "nfl1955-19551204RAMvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Baltimore Colts", 
+                        "week": 11, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551204SFOvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1955-12-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195512040sfo.htm", 
+                        "id": "195512040sfo", 
+                        "key": "nfl1955-19551204SFOvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Green Bay Packers", 
+                        "week": 11, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551204WASvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1955-12-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195512040was.htm", 
+                        "id": "195512040was", 
+                        "key": "nfl1955-19551204WASvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. New York Giants", 
+                        "week": 11, 
+                        "year": "1955"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1955-19551211CHIvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1955-12-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195512110chi.htm", 
+                        "id": "195512110chi", 
+                        "key": "nfl1955-19551211CHIvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Philadelphia Eagles", 
+                        "week": 12, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551211CLEvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1955-12-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195512110cle.htm", 
+                        "id": "195512110cle", 
+                        "key": "nfl1955-19551211CLEvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Chicago Cardinals", 
+                        "week": 12, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551211DETvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1955-12-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195512110det.htm", 
+                        "id": "195512110det", 
+                        "key": "nfl1955-19551211DETvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. New York Giants", 
+                        "week": 12, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551211RAMvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1955-12-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195512110ram.htm", 
+                        "id": "195512110ram", 
+                        "key": "nfl1955-19551211RAMvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551211SFOvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1955-12-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195512110sfo.htm", 
+                        "id": "195512110sfo", 
+                        "key": "nfl1955-19551211SFOvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Baltimore Colts", 
+                        "week": 12, 
+                        "year": "1955"
+                    }, 
+                    "nfl1955-19551211WASvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1955-12-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195512110was.htm", 
+                        "id": "195512110was", 
+                        "key": "nfl1955-19551211WASvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Pittsburgh Steelers", 
+                        "week": 12, 
+                        "year": "1955"
+                    }
+                }
+            }
         }, 
-        {
-          "date": "1955-09-25T00:00:00", 
-          "teams": "BCLvsCHI"
-        }, 
-        {
-          "date": "1955-09-25T00:00:00", 
-          "teams": "CLEvsWAS"
-        }, 
-        {
-          "date": "1955-09-25T00:00:00", 
-          "teams": "SFOvsRAM"
-        }, 
-        {
-          "date": "1955-09-25T00:00:00", 
-          "teams": "GNBvsDET"
-        }, 
-        {
-          "date": "1955-09-26T00:00:00", 
-          "teams": "PITvsCRD"
+        "1": {
+            "3": {
+                "events": {
+                    "nfl1955-19551226RAMvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1955-12-26T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195512260ram.htm", 
+                        "id": "195512260ram", 
+                        "key": "nfl1955-19551226RAMvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Conference Championship", 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Cleveland Browns", 
+                        "week": 3, 
+                        "year": "1955"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1955-10-01T00:00:00", 
-          "teams": "PHIvsWAS"
-        }, 
-        {
-          "date": "1955-10-01T00:00:00", 
-          "teams": "BCLvsDET"
-        }, 
-        {
-          "date": "1955-10-02T00:00:00", 
-          "teams": "CRDvsNYG"
-        }, 
-        {
-          "date": "1955-10-02T00:00:00", 
-          "teams": "GNBvsCHI"
-        }, 
-        {
-          "date": "1955-10-02T00:00:00", 
-          "teams": "RAMvsPIT"
-        }, 
-        {
-          "date": "1955-10-02T00:00:00", 
-          "teams": "SFOvsCLE"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1955-10-08T00:00:00", 
-          "teams": "GNBvsBCL"
-        }, 
-        {
-          "date": "1955-10-09T00:00:00", 
-          "teams": "CLEvsPHI"
-        }, 
-        {
-          "date": "1955-10-09T00:00:00", 
-          "teams": "PITvsNYG"
-        }, 
-        {
-          "date": "1955-10-09T00:00:00", 
-          "teams": "CHIvsSFO"
-        }, 
-        {
-          "date": "1955-10-09T00:00:00", 
-          "teams": "WASvsCRD"
-        }, 
-        {
-          "date": "1955-10-09T00:00:00", 
-          "teams": "DETvsRAM"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1955-10-15T00:00:00", 
-          "teams": "PITvsPHI"
-        }, 
-        {
-          "date": "1955-10-16T00:00:00", 
-          "teams": "DETvsSFO"
-        }, 
-        {
-          "date": "1955-10-16T00:00:00", 
-          "teams": "GNBvsRAM"
-        }, 
-        {
-          "date": "1955-10-16T00:00:00", 
-          "teams": "WASvsCLE"
-        }, 
-        {
-          "date": "1955-10-16T00:00:00", 
-          "teams": "NYGvsCRD"
-        }, 
-        {
-          "date": "1955-10-16T00:00:00", 
-          "teams": "CHIvsBCL"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1955-10-23T00:00:00", 
-          "teams": "CLEvsGNB"
-        }, 
-        {
-          "date": "1955-10-23T00:00:00", 
-          "teams": "RAMvsDET"
-        }, 
-        {
-          "date": "1955-10-23T00:00:00", 
-          "teams": "BCLvsWAS"
-        }, 
-        {
-          "date": "1955-10-23T00:00:00", 
-          "teams": "CRDvsPHI"
-        }, 
-        {
-          "date": "1955-10-23T00:00:00", 
-          "teams": "NYGvsPIT"
-        }, 
-        {
-          "date": "1955-10-23T00:00:00", 
-          "teams": "SFOvsCHI"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1955-10-29T00:00:00", 
-          "teams": "BCLvsGNB"
-        }, 
-        {
-          "date": "1955-10-30T00:00:00", 
-          "teams": "RAMvsCHI"
-        }, 
-        {
-          "date": "1955-10-30T00:00:00", 
-          "teams": "PHIvsPIT"
-        }, 
-        {
-          "date": "1955-10-30T00:00:00", 
-          "teams": "CRDvsCLE"
-        }, 
-        {
-          "date": "1955-10-30T00:00:00", 
-          "teams": "SFOvsDET"
-        }, 
-        {
-          "date": "1955-10-30T00:00:00", 
-          "teams": "NYGvsWAS"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1955-11-05T00:00:00", 
-          "teams": "CRDvsPIT"
-        }, 
-        {
-          "date": "1955-11-05T00:00:00", 
-          "teams": "DETvsBCL"
-        }, 
-        {
-          "date": "1955-11-06T00:00:00", 
-          "teams": "RAMvsSFO"
-        }, 
-        {
-          "date": "1955-11-06T00:00:00", 
-          "teams": "WASvsPHI"
-        }, 
-        {
-          "date": "1955-11-06T00:00:00", 
-          "teams": "CHIvsGNB"
-        }, 
-        {
-          "date": "1955-11-06T00:00:00", 
-          "teams": "CLEvsNYG"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1955-11-13T00:00:00", 
-          "teams": "PHIvsCLE"
-        }, 
-        {
-          "date": "1955-11-13T00:00:00", 
-          "teams": "NYGvsBCL"
-        }, 
-        {
-          "date": "1955-11-13T00:00:00", 
-          "teams": "GNBvsCRD"
-        }, 
-        {
-          "date": "1955-11-13T00:00:00", 
-          "teams": "PITvsDET"
-        }, 
-        {
-          "date": "1955-11-13T00:00:00", 
-          "teams": "CHIvsRAM"
-        }, 
-        {
-          "date": "1955-11-13T00:00:00", 
-          "teams": "WASvsSFO"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1955-11-20T00:00:00", 
-          "teams": "CLEvsPIT"
-        }, 
-        {
-          "date": "1955-11-20T00:00:00", 
-          "teams": "BCLvsRAM"
-        }, 
-        {
-          "date": "1955-11-20T00:00:00", 
-          "teams": "CRDvsWAS"
-        }, 
-        {
-          "date": "1955-11-20T00:00:00", 
-          "teams": "GNBvsSFO"
-        }, 
-        {
-          "date": "1955-11-20T00:00:00", 
-          "teams": "DETvsCHI"
-        }, 
-        {
-          "date": "1955-11-20T00:00:00", 
-          "teams": "NYGvsPHI"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1955-11-24T00:00:00", 
-          "teams": "DETvsGNB"
-        }, 
-        {
-          "date": "1955-11-27T00:00:00", 
-          "teams": "CRDvsCHI"
-        }, 
-        {
-          "date": "1955-11-27T00:00:00", 
-          "teams": "PHIvsRAM"
-        }, 
-        {
-          "date": "1955-11-27T00:00:00", 
-          "teams": "BCLvsSFO"
-        }, 
-        {
-          "date": "1955-11-27T00:00:00", 
-          "teams": "NYGvsCLE"
-        }, 
-        {
-          "date": "1955-11-27T00:00:00", 
-          "teams": "PITvsWAS"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1955-12-04T00:00:00", 
-          "teams": "CHIvsDET"
-        }, 
-        {
-          "date": "1955-12-04T00:00:00", 
-          "teams": "RAMvsBCL"
-        }, 
-        {
-          "date": "1955-12-04T00:00:00", 
-          "teams": "PITvsCLE"
-        }, 
-        {
-          "date": "1955-12-04T00:00:00", 
-          "teams": "SFOvsGNB"
-        }, 
-        {
-          "date": "1955-12-04T00:00:00", 
-          "teams": "WASvsNYG"
-        }, 
-        {
-          "date": "1955-12-04T00:00:00", 
-          "teams": "PHIvsCRD"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1955-12-11T00:00:00", 
-          "teams": "SFOvsBCL"
-        }, 
-        {
-          "date": "1955-12-11T00:00:00", 
-          "teams": "WASvsPIT"
-        }, 
-        {
-          "date": "1955-12-11T00:00:00", 
-          "teams": "CHIvsPHI"
-        }, 
-        {
-          "date": "1955-12-11T00:00:00", 
-          "teams": "CLEvsCRD"
-        }, 
-        {
-          "date": "1955-12-11T00:00:00", 
-          "teams": "RAMvsGNB"
-        }, 
-        {
-          "date": "1955-12-11T00:00:00", 
-          "teams": "DETvsNYG"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "events": [
-        {
-          "date": "1955-12-26T00:00:00", 
-          "teams": "RAMvsCLE"
-        }
-      ], 
-      "week": 3
     }
-  ]
 }

@@ -1,389 +1,1254 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1957-09-29T00:00:00", 
-          "teams": "BCLvsDET"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1957-19570929CLEvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1957-09-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195709290cle.htm", 
+                        "id": "195709290cle", 
+                        "key": "nfl1957-19570929CLEvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. New York Giants", 
+                        "week": 1, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19570929CLTvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1957-09-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/195709290clt.htm", 
+                        "id": "195709290clt", 
+                        "key": "nfl1957-19570929CLTvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Detroit Lions", 
+                        "week": 1, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19570929GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1957-09-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195709290gnb.htm", 
+                        "id": "195709290gnb", 
+                        "key": "nfl1957-19570929GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 1, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19570929PITvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1957-09-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195709290pit.htm", 
+                        "id": "195709290pit", 
+                        "key": "nfl1957-19570929PITvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Washington Redskins", 
+                        "week": 1, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19570929RAMvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1957-09-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195709290ram.htm", 
+                        "id": "195709290ram", 
+                        "key": "nfl1957-19570929RAMvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Philadelphia Eagles", 
+                        "week": 1, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19570929SFOvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1957-09-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195709290sfo.htm", 
+                        "id": "195709290sfo", 
+                        "key": "nfl1957-19570929SFOvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Chicago Cardinals", 
+                        "week": 1, 
+                        "year": "1957"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1957-19571005CLTvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1957-10-05T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/195710050clt.htm", 
+                        "id": "195710050clt", 
+                        "key": "nfl1957-19571005CLTvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Chicago Bears", 
+                        "week": 2, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571005PHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1957-10-05T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195710050phi.htm", 
+                        "id": "195710050phi", 
+                        "key": "nfl1957-19571005PHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. New York Giants", 
+                        "week": 2, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571005PITvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1957-10-05T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195710050pit.htm", 
+                        "id": "195710050pit", 
+                        "key": "nfl1957-19571005PITvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Cleveland Browns", 
+                        "week": 2, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571006CRDvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1957-10-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195710060crd.htm", 
+                        "id": "195710060crd", 
+                        "key": "nfl1957-19571006CRDvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Washington Redskins", 
+                        "week": 2, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571006GNBvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1957-10-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195710060gnb.htm", 
+                        "id": "195710060gnb", 
+                        "key": "nfl1957-19571006GNBvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Detroit Lions", 
+                        "week": 2, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571006SFOvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1957-10-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195710060sfo.htm", 
+                        "id": "195710060sfo", 
+                        "key": "nfl1957-19571006SFOvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Los Angeles Rams", 
+                        "week": 2, 
+                        "year": "1957"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1957-19571013CHIvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1957-10-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195710130chi.htm", 
+                        "id": "195710130chi", 
+                        "key": "nfl1957-19571013CHIvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. San Francisco 49ers", 
+                        "week": 3, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571013CLEvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1957-10-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195710130cle.htm", 
+                        "id": "195710130cle", 
+                        "key": "nfl1957-19571013CLEvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Philadelphia Eagles", 
+                        "week": 3, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571013DETvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1957-10-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195710130det.htm", 
+                        "id": "195710130det", 
+                        "key": "nfl1957-19571013DETvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Los Angeles Rams", 
+                        "week": 3, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571013GNBvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1957-10-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195710130gnb.htm", 
+                        "id": "195710130gnb", 
+                        "key": "nfl1957-19571013GNBvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Baltimore Colts", 
+                        "week": 3, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571013PITvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1957-10-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195710130pit.htm", 
+                        "id": "195710130pit", 
+                        "key": "nfl1957-19571013PITvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Chicago Cardinals", 
+                        "week": 3, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571013WASvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1957-10-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195710130was.htm", 
+                        "id": "195710130was", 
+                        "key": "nfl1957-19571013WASvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1957"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1957-19571020CHIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1957-10-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195710200chi.htm", 
+                        "id": "195710200chi", 
+                        "key": "nfl1957-19571020CHIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Los Angeles Rams", 
+                        "week": 4, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571020DETvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1957-10-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195710200det.htm", 
+                        "id": "195710200det", 
+                        "key": "nfl1957-19571020DETvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Baltimore Colts", 
+                        "week": 4, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571020GNBvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1957-10-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195710200gnb.htm", 
+                        "id": "195710200gnb", 
+                        "key": "nfl1957-19571020GNBvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. San Francisco 49ers", 
+                        "week": 4, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571020NYGvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1957-10-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195710200nyg.htm", 
+                        "id": "195710200nyg", 
+                        "key": "nfl1957-19571020NYGvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Pittsburgh Steelers", 
+                        "week": 4, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571020PHIvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1957-10-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195710200phi.htm", 
+                        "id": "195710200phi", 
+                        "key": "nfl1957-19571020PHIvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Cleveland Browns", 
+                        "week": 4, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571020WASvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1957-10-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195710200was.htm", 
+                        "id": "195710200was", 
+                        "key": "nfl1957-19571020WASvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Chicago Cardinals", 
+                        "week": 4, 
+                        "year": "1957"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1957-19571027CLTvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1957-10-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/195710270clt.htm", 
+                        "id": "195710270clt", 
+                        "key": "nfl1957-19571027CLTvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Green Bay Packers", 
+                        "week": 5, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571027CRDvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1957-10-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195710270crd.htm", 
+                        "id": "195710270crd", 
+                        "key": "nfl1957-19571027CRDvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Cleveland Browns", 
+                        "week": 5, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571027NYGvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1957-10-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195710270nyg.htm", 
+                        "id": "195710270nyg", 
+                        "key": "nfl1957-19571027NYGvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Washington Redskins", 
+                        "week": 5, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571027PITvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1957-10-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195710270pit.htm", 
+                        "id": "195710270pit", 
+                        "key": "nfl1957-19571027PITvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Philadelphia Eagles", 
+                        "week": 5, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571027RAMvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1957-10-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195710270ram.htm", 
+                        "id": "195710270ram", 
+                        "key": "nfl1957-19571027RAMvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Detroit Lions", 
+                        "week": 5, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571027SFOvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1957-10-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195710270sfo.htm", 
+                        "id": "195710270sfo", 
+                        "key": "nfl1957-19571027SFOvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Chicago Bears", 
+                        "week": 5, 
+                        "year": "1957"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1957-19571103CLEvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1957-11-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195711030cle.htm", 
+                        "id": "195711030cle", 
+                        "key": "nfl1957-19571103CLEvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Washington Redskins", 
+                        "week": 6, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571103CLTvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1957-11-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/195711030clt.htm", 
+                        "id": "195711030clt", 
+                        "key": "nfl1957-19571103CLTvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Pittsburgh Steelers", 
+                        "week": 6, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571103CRDvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1957-11-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195711030crd.htm", 
+                        "id": "195711030crd", 
+                        "key": "nfl1957-19571103CRDvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Philadelphia Eagles", 
+                        "week": 6, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571103GNBvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1957-11-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195711030gnb.htm", 
+                        "id": "195711030gnb", 
+                        "key": "nfl1957-19571103GNBvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. New York Giants", 
+                        "week": 6, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571103RAMvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1957-11-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195711030ram.htm", 
+                        "id": "195711030ram", 
+                        "key": "nfl1957-19571103RAMvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Chicago Bears", 
+                        "week": 6, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571103SFOvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1957-11-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195711030sfo.htm", 
+                        "id": "195711030sfo", 
+                        "key": "nfl1957-19571103SFOvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Detroit Lions", 
+                        "week": 6, 
+                        "year": "1957"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1957-19571110CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1957-11-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195711100chi.htm", 
+                        "id": "195711100chi", 
+                        "key": "nfl1957-19571110CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 7, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571110CLEvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1957-11-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195711100cle.htm", 
+                        "id": "195711100cle", 
+                        "key": "nfl1957-19571110CLEvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Pittsburgh Steelers", 
+                        "week": 7, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571110NYGvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1957-11-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195711100nyg.htm", 
+                        "id": "195711100nyg", 
+                        "key": "nfl1957-19571110NYGvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Cardinals", 
+                        "week": 7, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571110PHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1957-11-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195711100phi.htm", 
+                        "id": "195711100phi", 
+                        "key": "nfl1957-19571110PHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Detroit Lions", 
+                        "week": 7, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571110RAMvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1957-11-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195711100ram.htm", 
+                        "id": "195711100ram", 
+                        "key": "nfl1957-19571110RAMvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. San Francisco 49ers", 
+                        "week": 7, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571110WASvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1957-11-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195711100was.htm", 
+                        "id": "195711100was", 
+                        "key": "nfl1957-19571110WASvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Baltimore Colts", 
+                        "week": 7, 
+                        "year": "1957"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1957-19571117CHIvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1957-11-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195711170chi.htm", 
+                        "id": "195711170chi", 
+                        "key": "nfl1957-19571117CHIvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Baltimore Colts", 
+                        "week": 8, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571117DETvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1957-11-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195711170det.htm", 
+                        "id": "195711170det", 
+                        "key": "nfl1957-19571117DETvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. San Francisco 49ers", 
+                        "week": 8, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571117GNBvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1957-11-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195711170gnb.htm", 
+                        "id": "195711170gnb", 
+                        "key": "nfl1957-19571117GNBvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Los Angeles Rams", 
+                        "week": 8, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571117NYGvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1957-11-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195711170nyg.htm", 
+                        "id": "195711170nyg", 
+                        "key": "nfl1957-19571117NYGvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Philadelphia Eagles", 
+                        "week": 8, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571117WASvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1957-11-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195711170was.htm", 
+                        "id": "195711170was", 
+                        "key": "nfl1957-19571117WASvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Cleveland Browns", 
+                        "week": 8, 
+                        "year": "1957"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1957-19571124CLEvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1957-11-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195711240cle.htm", 
+                        "id": "195711240cle", 
+                        "key": "nfl1957-19571124CLEvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Los Angeles Rams", 
+                        "week": 9, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571124CLTvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1957-11-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/195711240clt.htm", 
+                        "id": "195711240clt", 
+                        "key": "nfl1957-19571124CLTvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. San Francisco 49ers", 
+                        "week": 9, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571124CRDvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1957-11-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195711240crd.htm", 
+                        "id": "195711240crd", 
+                        "key": "nfl1957-19571124CRDvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. New York Giants", 
+                        "week": 9, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571124DETvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1957-11-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195711240det.htm", 
+                        "id": "195711240det", 
+                        "key": "nfl1957-19571124DETvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Chicago Bears", 
+                        "week": 9, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571124PHIvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1957-11-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195711240phi.htm", 
+                        "id": "195711240phi", 
+                        "key": "nfl1957-19571124PHIvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Washington Redskins", 
+                        "week": 9, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571124PITvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1957-11-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195711240pit.htm", 
+                        "id": "195711240pit", 
+                        "key": "nfl1957-19571124PITvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Green Bay Packers", 
+                        "week": 9, 
+                        "year": "1957"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1957-19571128DETvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1957-11-28T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195711280det.htm", 
+                        "id": "195711280det", 
+                        "key": "nfl1957-19571128DETvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Green Bay Packers", 
+                        "week": 10, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571201CHIvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1957-12-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195712010chi.htm", 
+                        "id": "195712010chi", 
+                        "key": "nfl1957-19571201CHIvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Washington Redskins", 
+                        "week": 10, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571201CLEvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1957-12-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195712010cle.htm", 
+                        "id": "195712010cle", 
+                        "key": "nfl1957-19571201CLEvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Chicago Cardinals", 
+                        "week": 10, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571201CLTvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1957-12-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/195712010clt.htm", 
+                        "id": "195712010clt", 
+                        "key": "nfl1957-19571201CLTvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Los Angeles Rams", 
+                        "week": 10, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571201NYGvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1957-12-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195712010nyg.htm", 
+                        "id": "195712010nyg", 
+                        "key": "nfl1957-19571201NYGvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. San Francisco 49ers", 
+                        "week": 10, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571201PHIvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1957-12-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195712010phi.htm", 
+                        "id": "195712010phi", 
+                        "key": "nfl1957-19571201PHIvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Pittsburgh Steelers", 
+                        "week": 10, 
+                        "year": "1957"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1957-19571207PITvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1957-12-07T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195712070pit.htm", 
+                        "id": "195712070pit", 
+                        "key": "nfl1957-19571207PITvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. New York Giants", 
+                        "week": 11, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571208CRDvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1957-12-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195712080crd.htm", 
+                        "id": "195712080crd", 
+                        "key": "nfl1957-19571208CRDvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Chicago Bears", 
+                        "week": 11, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571208DETvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1957-12-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195712080det.htm", 
+                        "id": "195712080det", 
+                        "key": "nfl1957-19571208DETvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Cleveland Browns", 
+                        "week": 11, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571208RAMvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1957-12-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195712080ram.htm", 
+                        "id": "195712080ram", 
+                        "key": "nfl1957-19571208RAMvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Green Bay Packers", 
+                        "week": 11, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571208SFOvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1957-12-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195712080sfo.htm", 
+                        "id": "195712080sfo", 
+                        "key": "nfl1957-19571208SFOvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Baltimore Colts", 
+                        "week": 11, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571208WASvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1957-12-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195712080was.htm", 
+                        "id": "195712080was", 
+                        "key": "nfl1957-19571208WASvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Philadelphia Eagles", 
+                        "week": 11, 
+                        "year": "1957"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1957-19571214PHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1957-12-14T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195712140phi.htm", 
+                        "id": "195712140phi", 
+                        "key": "nfl1957-19571214PHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Chicago Cardinals", 
+                        "week": 12, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571215CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1957-12-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195712150chi.htm", 
+                        "id": "195712150chi", 
+                        "key": "nfl1957-19571215CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Detroit Lions", 
+                        "week": 12, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571215NYGvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1957-12-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195712150nyg.htm", 
+                        "id": "195712150nyg", 
+                        "key": "nfl1957-19571215NYGvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Cleveland Browns", 
+                        "week": 12, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571215RAMvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1957-12-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195712150ram.htm", 
+                        "id": "195712150ram", 
+                        "key": "nfl1957-19571215RAMvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Baltimore Colts", 
+                        "week": 12, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571215SFOvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1957-12-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195712150sfo.htm", 
+                        "id": "195712150sfo", 
+                        "key": "nfl1957-19571215SFOvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1957"
+                    }, 
+                    "nfl1957-19571215WASvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1957-12-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195712150was.htm", 
+                        "id": "195712150was", 
+                        "key": "nfl1957-19571215WASvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Pittsburgh Steelers", 
+                        "week": 12, 
+                        "year": "1957"
+                    }
+                }
+            }, 
+            "13": {
+                "events": {
+                    "nfl1957-19571222CRDvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1957-12-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195712220crd.htm", 
+                        "id": "195712220crd", 
+                        "key": "nfl1957-19571222CRDvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Pittsburgh Steelers", 
+                        "week": 13, 
+                        "year": "1957"
+                    }
+                }
+            }
         }, 
-        {
-          "date": "1957-09-29T00:00:00", 
-          "teams": "RAMvsPHI"
-        }, 
-        {
-          "date": "1957-09-29T00:00:00", 
-          "teams": "PITvsWAS"
-        }, 
-        {
-          "date": "1957-09-29T00:00:00", 
-          "teams": "GNBvsCHI"
-        }, 
-        {
-          "date": "1957-09-29T00:00:00", 
-          "teams": "SFOvsCRD"
-        }, 
-        {
-          "date": "1957-09-29T00:00:00", 
-          "teams": "CLEvsNYG"
+        "1": {
+            "2": {
+                "events": {
+                    "nfl1957-19571222SFOvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1957-12-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195712220sfo.htm", 
+                        "id": "195712220sfo", 
+                        "key": "nfl1957-19571222SFOvsDET", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Divisional Round", 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Detroit Lions", 
+                        "week": 2, 
+                        "year": "1957"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1957-19571229DETvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1957-12-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195712290det.htm", 
+                        "id": "195712290det", 
+                        "key": "nfl1957-19571229DETvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Conference Championship", 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Cleveland Browns", 
+                        "week": 3, 
+                        "year": "1957"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1957-10-05T00:00:00", 
-          "teams": "BCLvsCHI"
-        }, 
-        {
-          "date": "1957-10-05T00:00:00", 
-          "teams": "PITvsCLE"
-        }, 
-        {
-          "date": "1957-10-05T00:00:00", 
-          "teams": "PHIvsNYG"
-        }, 
-        {
-          "date": "1957-10-06T00:00:00", 
-          "teams": "GNBvsDET"
-        }, 
-        {
-          "date": "1957-10-06T00:00:00", 
-          "teams": "SFOvsRAM"
-        }, 
-        {
-          "date": "1957-10-06T00:00:00", 
-          "teams": "CRDvsWAS"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1957-10-13T00:00:00", 
-          "teams": "GNBvsBCL"
-        }, 
-        {
-          "date": "1957-10-13T00:00:00", 
-          "teams": "DETvsRAM"
-        }, 
-        {
-          "date": "1957-10-13T00:00:00", 
-          "teams": "WASvsNYG"
-        }, 
-        {
-          "date": "1957-10-13T00:00:00", 
-          "teams": "CHIvsSFO"
-        }, 
-        {
-          "date": "1957-10-13T00:00:00", 
-          "teams": "CLEvsPHI"
-        }, 
-        {
-          "date": "1957-10-13T00:00:00", 
-          "teams": "PITvsCRD"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1957-10-20T00:00:00", 
-          "teams": "GNBvsSFO"
-        }, 
-        {
-          "date": "1957-10-20T00:00:00", 
-          "teams": "WASvsCRD"
-        }, 
-        {
-          "date": "1957-10-20T00:00:00", 
-          "teams": "DETvsBCL"
-        }, 
-        {
-          "date": "1957-10-20T00:00:00", 
-          "teams": "PHIvsCLE"
-        }, 
-        {
-          "date": "1957-10-20T00:00:00", 
-          "teams": "CHIvsRAM"
-        }, 
-        {
-          "date": "1957-10-20T00:00:00", 
-          "teams": "NYGvsPIT"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1957-10-27T00:00:00", 
-          "teams": "BCLvsGNB"
-        }, 
-        {
-          "date": "1957-10-27T00:00:00", 
-          "teams": "CRDvsCLE"
-        }, 
-        {
-          "date": "1957-10-27T00:00:00", 
-          "teams": "PITvsPHI"
-        }, 
-        {
-          "date": "1957-10-27T00:00:00", 
-          "teams": "SFOvsCHI"
-        }, 
-        {
-          "date": "1957-10-27T00:00:00", 
-          "teams": "RAMvsDET"
-        }, 
-        {
-          "date": "1957-10-27T00:00:00", 
-          "teams": "NYGvsWAS"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1957-11-03T00:00:00", 
-          "teams": "SFOvsDET"
-        }, 
-        {
-          "date": "1957-11-03T00:00:00", 
-          "teams": "GNBvsNYG"
-        }, 
-        {
-          "date": "1957-11-03T00:00:00", 
-          "teams": "CRDvsPHI"
-        }, 
-        {
-          "date": "1957-11-03T00:00:00", 
-          "teams": "CLEvsWAS"
-        }, 
-        {
-          "date": "1957-11-03T00:00:00", 
-          "teams": "RAMvsCHI"
-        }, 
-        {
-          "date": "1957-11-03T00:00:00", 
-          "teams": "BCLvsPIT"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1957-11-10T00:00:00", 
-          "teams": "CLEvsPIT"
-        }, 
-        {
-          "date": "1957-11-10T00:00:00", 
-          "teams": "PHIvsDET"
-        }, 
-        {
-          "date": "1957-11-10T00:00:00", 
-          "teams": "NYGvsCRD"
-        }, 
-        {
-          "date": "1957-11-10T00:00:00", 
-          "teams": "RAMvsSFO"
-        }, 
-        {
-          "date": "1957-11-10T00:00:00", 
-          "teams": "CHIvsGNB"
-        }, 
-        {
-          "date": "1957-11-10T00:00:00", 
-          "teams": "WASvsBCL"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1957-11-17T00:00:00", 
-          "teams": "NYGvsPHI"
-        }, 
-        {
-          "date": "1957-11-17T00:00:00", 
-          "teams": "WASvsCLE"
-        }, 
-        {
-          "date": "1957-11-17T00:00:00", 
-          "teams": "GNBvsRAM"
-        }, 
-        {
-          "date": "1957-11-17T00:00:00", 
-          "teams": "CHIvsBCL"
-        }, 
-        {
-          "date": "1957-11-17T00:00:00", 
-          "teams": "DETvsSFO"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1957-11-24T00:00:00", 
-          "teams": "CLEvsRAM"
-        }, 
-        {
-          "date": "1957-11-24T00:00:00", 
-          "teams": "PHIvsWAS"
-        }, 
-        {
-          "date": "1957-11-24T00:00:00", 
-          "teams": "CRDvsNYG"
-        }, 
-        {
-          "date": "1957-11-24T00:00:00", 
-          "teams": "BCLvsSFO"
-        }, 
-        {
-          "date": "1957-11-24T00:00:00", 
-          "teams": "DETvsCHI"
-        }, 
-        {
-          "date": "1957-11-24T00:00:00", 
-          "teams": "PITvsGNB"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1957-11-28T00:00:00", 
-          "teams": "DETvsGNB"
-        }, 
-        {
-          "date": "1957-12-01T00:00:00", 
-          "teams": "CHIvsWAS"
-        }, 
-        {
-          "date": "1957-12-01T00:00:00", 
-          "teams": "BCLvsRAM"
-        }, 
-        {
-          "date": "1957-12-01T00:00:00", 
-          "teams": "NYGvsSFO"
-        }, 
-        {
-          "date": "1957-12-01T00:00:00", 
-          "teams": "PHIvsPIT"
-        }, 
-        {
-          "date": "1957-12-01T00:00:00", 
-          "teams": "CLEvsCRD"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1957-12-07T00:00:00", 
-          "teams": "PITvsNYG"
-        }, 
-        {
-          "date": "1957-12-08T00:00:00", 
-          "teams": "CRDvsCHI"
-        }, 
-        {
-          "date": "1957-12-08T00:00:00", 
-          "teams": "DETvsCLE"
-        }, 
-        {
-          "date": "1957-12-08T00:00:00", 
-          "teams": "WASvsPHI"
-        }, 
-        {
-          "date": "1957-12-08T00:00:00", 
-          "teams": "RAMvsGNB"
-        }, 
-        {
-          "date": "1957-12-08T00:00:00", 
-          "teams": "SFOvsBCL"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1957-12-14T00:00:00", 
-          "teams": "PHIvsCRD"
-        }, 
-        {
-          "date": "1957-12-15T00:00:00", 
-          "teams": "RAMvsBCL"
-        }, 
-        {
-          "date": "1957-12-15T00:00:00", 
-          "teams": "SFOvsGNB"
-        }, 
-        {
-          "date": "1957-12-15T00:00:00", 
-          "teams": "CHIvsDET"
-        }, 
-        {
-          "date": "1957-12-15T00:00:00", 
-          "teams": "WASvsPIT"
-        }, 
-        {
-          "date": "1957-12-15T00:00:00", 
-          "teams": "NYGvsCLE"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "alias": "Week 13", 
-      "events": [
-        {
-          "date": "1957-12-22T00:00:00", 
-          "teams": "CRDvsPIT"
-        }
-      ], 
-      "week": 13
-    }, 
-    {
-      "alias": "Divisional Round", 
-      "events": [
-        {
-          "date": "1957-12-22T00:00:00", 
-          "teams": "SFOvsDET"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "events": [
-        {
-          "date": "1957-12-29T00:00:00", 
-          "teams": "DETvsCLE"
-        }
-      ], 
-      "week": 3
     }
-  ]
 }

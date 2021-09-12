@@ -1,0 +1,3662 @@
+{
+    "CacheContainer": {
+        "CacheType": "NBAFRANCHISES", 
+        "CachedOn": "2021-09-11T10:10:44", 
+        "ExpiresOn": "2022-01-24T10:10:44", 
+        "Version": "1"
+    }, 
+    "Items": [
+        {
+            "All-Star East": {
+                "active": false, 
+                "name": "All-Star East", 
+                "teams": {
+                    "All-Star East": {
+                        "abbreviation": "EST", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#00559A"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "All-Star", 
+                        "fullName": "All-Star East", 
+                        "identity": {
+                            "NBAdotcomID": "EST"
+                        }, 
+                        "key": "EST", 
+                        "name": "East", 
+                        "years": []
+                    }
+                }
+            }, 
+            "All-Star West": {
+                "active": false, 
+                "name": "All-Star West", 
+                "teams": {
+                    "All-Star West": {
+                        "abbreviation": "WST", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#EC003D"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "All-Star", 
+                        "fullName": "All-Star West", 
+                        "identity": {
+                            "NBAdotcomID": "WST"
+                        }, 
+                        "key": "WST", 
+                        "name": "West", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Atlanta Hawks": {
+                "active": true, 
+                "name": "Atlanta Hawks", 
+                "teams": {
+                    "Atlanta Hawks": {
+                        "abbreviation": "ATL", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/c6oi9p1611859646.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#E13A3E"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#002B5C"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#002b5c"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#C8102E"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#FDB927"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#9EA2A2"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/rptxyq1420549311.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/2018-134880-Jersey.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/2/24/Atlanta_Hawks_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/3lyn5b1503742089.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Atlanta", 
+                        "conference": "Eastern", 
+                        "division": "Southeast", 
+                        "fullName": "Atlanta Hawks", 
+                        "identity": {
+                            "ESPNAPIID": "1", 
+                            "NBAdotcomID": "1610612737", 
+                            "SportsDBID": "134880", 
+                            "SportsDataIOID": "3"
+                        }, 
+                        "key": "ATL", 
+                        "name": "Hawks", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Boston Celtics": {
+                "active": true, 
+                "name": "Boston Celtics", 
+                "teams": {
+                    "Boston Celtics": {
+                        "abbreviation": "BOS", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/051sjd1537102179.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#007239"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#006532"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#f1f2f3"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#008348"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#BB9753"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#FFFFFF"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/3bbiqw1549272990.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/dhklhy1507043377.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/8/8f/Boston_Celtics.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/xwuypy1420737149.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Boston", 
+                        "conference": "Eastern", 
+                        "division": "Atlantic", 
+                        "fullName": "Boston Celtics", 
+                        "identity": {
+                            "ESPNAPIID": "2", 
+                            "NBAdotcomID": "1610612738", 
+                            "SportsDBID": "134860", 
+                            "SportsDataIOID": "9"
+                        }, 
+                        "key": "BOS", 
+                        "name": "Celtics", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Brooklyn Nets": {
+                "active": true, 
+                "name": "Brooklyn Nets", 
+                "teams": {
+                    "Brooklyn Nets": {
+                        "abbreviation": "BKN", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/h0dwny1600552068.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#ffffff"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#FFFFFF"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#707271"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/xvqqsr1420587418.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/6y7kca1622903759.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Brooklyn_Nets_newlogo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/42jc3r1600633359.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Brooklyn", 
+                        "conference": "Eastern", 
+                        "division": "Atlantic", 
+                        "fullName": "Brooklyn Nets", 
+                        "identity": {
+                            "ESPNAPIID": "17", 
+                            "NBAdotcomID": "1610612751", 
+                            "SportsDBID": "134861", 
+                            "SportsDataIOID": "8"
+                        }, 
+                        "key": "BKN", 
+                        "name": "Nets", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Celebrity Canada": {
+                "active": false, 
+                "name": "Celebrity Canada", 
+                "teams": {
+                    "Celebrity Canada": {
+                        "abbreviation": "ACC", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#EC003D"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Celebrity", 
+                        "fullName": "Celebrity Canada", 
+                        "identity": {
+                            "NBAdotcomID": "ACC"
+                        }, 
+                        "key": "ACC", 
+                        "name": "Canada", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Celebrity USA": {
+                "active": false, 
+                "name": "Celebrity USA", 
+                "teams": {
+                    "Celebrity USA": {
+                        "abbreviation": "ACU", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#00559A"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Celebrity", 
+                        "fullName": "Celebrity USA", 
+                        "identity": {
+                            "NBAdotcomID": "ACU"
+                        }, 
+                        "key": "ACU", 
+                        "name": "USA", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Charlotte Bobcats": {
+                "active": false, 
+                "name": "Charlotte Bobcats", 
+                "teams": {
+                    "Charlotte Bobcats": {
+                        "abbreviation": "CHB", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#F24D28"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Charlotte", 
+                        "fullName": "Charlotte Bobcats", 
+                        "identity": {
+                            "NBAdotcomID": "CHB"
+                        }, 
+                        "key": "CHB", 
+                        "name": "Bobcats", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Charlotte Hornets": {
+                "active": true, 
+                "name": "Charlotte Hornets", 
+                "teams": {
+                    "Charlotte Hornets": {
+                        "abbreviation": "CHA", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/xqtvvp1422380623.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#00788C"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#1D1160"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#00788C"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#A1A1A4"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#7AB2DD"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/rqqvwv1420588741.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/2oyak71508680738.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/c/c4/Charlotte_Hornets_%282014%29.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/95xe4a1571252558.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Charlotte", 
+                        "conference": "Eastern", 
+                        "division": "Southeast", 
+                        "fullName": "Charlotte Hornets", 
+                        "identity": {
+                            "NBAdotcomID": "1610612766", 
+                            "SportsDBID": "134881", 
+                            "SportsDataIOID": "2"
+                        }, 
+                        "key": "CHA", 
+                        "name": "Hornets", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Chicago Bulls": {
+                "active": true, 
+                "name": "Chicago Bulls", 
+                "teams": {
+                    "Chicago Bulls": {
+                        "abbreviation": "CHI", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/yk7swg1547214677.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#C60033"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#CE1141"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/qywqtv1420505233.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/2020-134870-Jersey.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/6/67/Chicago_Bulls_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/n2b9se1547214711.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Chicago", 
+                        "conference": "Eastern", 
+                        "division": "Central", 
+                        "fullName": "Chicago Bulls", 
+                        "identity": {
+                            "ESPNAPIID": "4", 
+                            "NBAdotcomID": "1610612741", 
+                            "SportsDBID": "134870", 
+                            "SportsDataIOID": "11"
+                        }, 
+                        "key": "CHI", 
+                        "name": "Bulls", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Cleveland Cavaliers": {
+                "active": true, 
+                "name": "Cleveland Cavaliers", 
+                "teams": {
+                    "Cleveland Cavaliers": {
+                        "abbreviation": "CLE", 
+                        "active": true, 
+                        "aliases": [
+                            "Cavs"
+                        ], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/a2pp4c1503741152.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#B2004A"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#061642"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#fdbb30"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#6F263D"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#FDB81C"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#041E42"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/rurwpy1420494697.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/ac6fxq1507045575.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Cleveland_Cavaliers_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/ujx1gd1503741246.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Cleveland", 
+                        "conference": "Eastern", 
+                        "division": "Central", 
+                        "fullName": "Cleveland Cavaliers", 
+                        "identity": {
+                            "ESPNAPIID": "5", 
+                            "NBAdotcomID": "1610612739", 
+                            "SportsDBID": "134871", 
+                            "SportsDataIOID": "12"
+                        }, 
+                        "key": "CLE", 
+                        "name": "Cavaliers", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Dallas Mavericks": {
+                "active": true, 
+                "name": "Dallas Mavericks", 
+                "teams": {
+                    "Dallas Mavericks": {
+                        "abbreviation": "DAL", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/yqrxrs1420568796.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#0064B1"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#0C479D"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#c4ced3"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#0064B1"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#00285E"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#BBC4CA"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/wutstu1420677365.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/x0pgs41507046011.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/9/97/Dallas_Mavericks_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/ckv6pg1600554403.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Dallas", 
+                        "conference": "Western", 
+                        "division": "Southwest", 
+                        "fullName": "Dallas Mavericks", 
+                        "identity": {
+                            "ESPNAPIID": "6", 
+                            "NBAdotcomID": "1610612742", 
+                            "SportsDBID": "134875", 
+                            "SportsDataIOID": "25"
+                        }, 
+                        "key": "DAL", 
+                        "name": "Mavericks", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Denver Nuggets": {
+                "active": true, 
+                "name": "Denver Nuggets", 
+                "teams": {
+                    "Denver Nuggets": {
+                        "abbreviation": "DEN", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/8o8j5k1546016274.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#0E2240"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#0860A8"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#fdb927"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#0E2240"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#FEC524"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#8B2131"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#244289"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/tvywtt1420850555.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/g78n411507046193.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/7/76/Denver_Nuggets.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/d3404j1600552518.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Denver", 
+                        "conference": "Western", 
+                        "division": "Northwest", 
+                        "fullName": "Denver Nuggets", 
+                        "identity": {
+                            "ESPNAPIID": "7", 
+                            "NBAdotcomID": "1610612743", 
+                            "SportsDBID": "134885", 
+                            "SportsDataIOID": "20"
+                        }, 
+                        "key": "DEN", 
+                        "name": "Nuggets", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Detroit Pistons": {
+                "active": true, 
+                "name": "Detroit Pistons", 
+                "teams": {
+                    "Detroit Pistons": {
+                        "abbreviation": "DET", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/lg7qrc1621594751.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#1D428A"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#FA002C"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#006bb6"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#1D428A"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#C8102E"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#BEC0C2"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#002D62"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/yptsvt1420855346.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/co0a5j1507046347.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Pistons_logo17.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/wrxqwp1420852849.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Detroit", 
+                        "conference": "Eastern", 
+                        "division": "Central", 
+                        "fullName": "Detroit Pistons", 
+                        "identity": {
+                            "ESPNAPIID": "8", 
+                            "NBAdotcomID": "1610612765", 
+                            "SportsDBID": "134872", 
+                            "SportsDataIOID": "14"
+                        }, 
+                        "key": "DET", 
+                        "name": "Pistons", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Golden State Warriors": {
+                "active": true, 
+                "name": "Golden State Warriors", 
+                "teams": {
+                    "Golden State Warriors": {
+                        "abbreviation": "GSW", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/irobi61565197527.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#1D428A"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#003da5"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#fdb927"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#1D428A"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#FDB927"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/wwtwru1421104483.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/2018-134865-Jersey.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/0/01/Golden_State_Warriors_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/yvrqrt1421103774.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Golden State", 
+                        "conference": "Western", 
+                        "division": "Pacific", 
+                        "fullName": "Golden State Warriors", 
+                        "identity": {
+                            "ESPNAPIID": "9", 
+                            "NBAdotcomID": "1610612744", 
+                            "SportsDBID": "134865", 
+                            "SportsDataIOID": "26"
+                        }, 
+                        "key": "GSW", 
+                        "name": "Warriors", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Houston Rockets": {
+                "active": true, 
+                "name": "Houston Rockets", 
+                "teams": {
+                    "Houston Rockets": {
+                        "abbreviation": "HOU", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/yezpho1597486052.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#CE1141"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#D40026"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#c4ced3"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#CE1141"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#9EA2A2"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#373A36"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/wuvutr1421109286.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/vq9itx1507046688.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/2/28/Houston_Rockets.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/qsvxpt1421108447.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Houston", 
+                        "conference": "Western", 
+                        "division": "Southwest", 
+                        "fullName": "Houston Rockets", 
+                        "identity": {
+                            "ESPNAPIID": "10", 
+                            "NBAdotcomID": "1610612745", 
+                            "SportsDBID": "134876", 
+                            "SportsDataIOID": "22"
+                        }, 
+                        "key": "HOU", 
+                        "name": "Rockets", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Indiana Pacers": {
+                "active": true, 
+                "name": "Indiana Pacers", 
+                "teams": {
+                    "Indiana Pacers": {
+                        "abbreviation": "IND", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/v6jzgm1503741821.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#002D62"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#061642"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#00275d"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#002D62"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#FDBB30"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#BEC0C2"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/qwytxv1421191757.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/xfd1ub1508517636.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/1/1b/Indiana_Pacers.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/yxtxsx1421190447.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Indiana", 
+                        "conference": "Eastern", 
+                        "division": "Central", 
+                        "fullName": "Indiana Pacers", 
+                        "identity": {
+                            "ESPNAPIID": "11", 
+                            "NBAdotcomID": "1610612754", 
+                            "SportsDBID": "134873", 
+                            "SportsDataIOID": "13"
+                        }, 
+                        "key": "IND", 
+                        "name": "Pacers", 
+                        "years": []
+                    }
+                }
+            }, 
+            "LA Clippers": {
+                "active": true, 
+                "name": "LA Clippers", 
+                "teams": {
+                    "LA Clippers": {
+                        "abbreviation": "LAC", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#FA0028"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#f1f2f3"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "LA", 
+                        "fullName": "LA Clippers", 
+                        "identity": {
+                            "ESPNAPIID": "12"
+                        }, 
+                        "key": "LAC", 
+                        "name": "Clippers", 
+                        "years": []
+                    }
+                }
+            }, 
+            "LA LA Clippers": {
+                "active": true, 
+                "name": "LA LA Clippers", 
+                "teams": {
+                    "LA LA Clippers": {
+                        "abbreviation": "LAC", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#C8102E"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#C8102E"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#1D428A"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#BEC0C2"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/Los_Angeles_Clippers_%282015%29.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "LA", 
+                        "conference": "Western", 
+                        "division": "Pacific", 
+                        "fullName": "LA LA Clippers", 
+                        "identity": {
+                            "NBAdotcomID": "1610612746", 
+                            "SportsDataIOID": "28"
+                        }, 
+                        "key": "LAC", 
+                        "name": "LA Clippers", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Los Angeles Clippers": {
+                "active": true, 
+                "name": "Los Angeles Clippers", 
+                "teams": {
+                    "Los Angeles Clippers": {
+                        "abbreviation": "LAC", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/jv7tf21545916958.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/twpyru1421193187.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/2nnk9p1507046872.png"
+                                }
+                            ], 
+                            "logo": [], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/sex8at1503741556.png"
+                                }
+                            ]
+                        }, 
+                        "fullName": "Los Angeles Clippers", 
+                        "identity": {
+                            "SportsDBID": "134866"
+                        }, 
+                        "key": "LAC", 
+                        "name": "Los Angeles Clippers", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Los Angeles Lakers": {
+                "active": true, 
+                "name": "Los Angeles Lakers", 
+                "teams": {
+                    "Los Angeles Lakers": {
+                        "abbreviation": "LAL", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/spa6c11621594682.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#552583"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#542582"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#552582"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#552583"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#FDB927"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/c40roe1590335658.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/xc022l1507047766.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Los_Angeles_Lakers_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/rxvrqx1421279371.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Los Angeles", 
+                        "conference": "Western", 
+                        "division": "Pacific", 
+                        "fullName": "Los Angeles Lakers", 
+                        "identity": {
+                            "ESPNAPIID": "13", 
+                            "NBAdotcomID": "1610612747", 
+                            "SportsDBID": "134867", 
+                            "SportsDataIOID": "27"
+                        }, 
+                        "key": "LAL", 
+                        "name": "Lakers", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Memphis Grizzlies": {
+                "active": true, 
+                "name": "Memphis Grizzlies", 
+                "teams": {
+                    "Memphis Grizzlies": {
+                        "abbreviation": "MEM", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/m64v461565196789.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#5D76A9"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#5D76A9"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#12173F"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#707271"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#F5B112"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/qtpvty1421857329.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/4n3foq1507047861.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/f/f1/Memphis_Grizzlies.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/o6j2m51503742356.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Memphis", 
+                        "conference": "Western", 
+                        "division": "Southwest", 
+                        "fullName": "Memphis Grizzlies", 
+                        "identity": {
+                            "NBAdotcomID": "1610612763", 
+                            "SportsDBID": "134877", 
+                            "SportsDataIOID": "21"
+                        }, 
+                        "key": "MEM", 
+                        "name": "Grizzlies", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Miami Heat": {
+                "active": true, 
+                "name": "Miami Heat", 
+                "teams": {
+                    "Miami Heat": {
+                        "abbreviation": "MIA", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/5v67x51547214763.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#98002E"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#98002E"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#F9A01B"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/tyqxxr1422402712.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/s81qot1507047948.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Miami_Heat_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/qtuvrp1422401293.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Miami", 
+                        "conference": "Eastern", 
+                        "division": "Southeast", 
+                        "fullName": "Miami Heat", 
+                        "identity": {
+                            "ESPNAPIID": "14", 
+                            "NBAdotcomID": "1610612748", 
+                            "SportsDBID": "134882", 
+                            "SportsDataIOID": "4"
+                        }, 
+                        "key": "MIA", 
+                        "name": "Heat", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Milwaukee Bucks": {
+                "active": true, 
+                "name": "Milwaukee Bucks", 
+                "teams": {
+                    "Milwaukee Bucks": {
+                        "abbreviation": "MIL", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/olhug01621594702.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#00471B"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#003813"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#f0ebd2"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#00471B"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#EEE1C6"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#0077C0"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/rruqvq1422317685.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/lr554a1507048094.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/4/4a/Milwaukee_Bucks_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/wlzu131503742746.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Milwaukee", 
+                        "conference": "Eastern", 
+                        "division": "Central", 
+                        "fullName": "Milwaukee Bucks", 
+                        "identity": {
+                            "ESPNAPIID": "15", 
+                            "NBAdotcomID": "1610612749", 
+                            "SportsDBID": "134874", 
+                            "SportsDataIOID": "15"
+                        }, 
+                        "key": "MIL", 
+                        "name": "Bucks", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Minnesota Timberwolves": {
+                "active": true, 
+                "name": "Minnesota Timberwolves", 
+                "teams": {
+                    "Minnesota Timberwolves": {
+                        "abbreviation": "MIN", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/5xpgjg1621594771.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#0C2340"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#0E3764"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#c4ced3"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#0C2340"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#78BE20"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#236192"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#9EA2A2"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/wuuxxs1422407729.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/lvvjmb1507048200.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/utvrvt1422405624.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Minnesota", 
+                        "conference": "Western", 
+                        "division": "Northwest", 
+                        "fullName": "Minnesota Timberwolves", 
+                        "identity": {
+                            "ESPNAPIID": "16", 
+                            "NBAdotcomID": "1610612750", 
+                            "SportsDBID": "134886", 
+                            "SportsDataIOID": "16"
+                        }, 
+                        "key": "MIN", 
+                        "name": "Timberwolves", 
+                        "years": []
+                    }
+                }
+            }, 
+            "New Jersey Nets": {
+                "active": false, 
+                "name": "New Jersey Nets", 
+                "teams": {
+                    "New Jersey Nets": {
+                        "abbreviation": "NJN", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#C60033"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "New Jersey", 
+                        "fullName": "New Jersey Nets", 
+                        "identity": {
+                            "NBAdotcomID": "NJN"
+                        }, 
+                        "key": "NJN", 
+                        "name": "Nets", 
+                        "years": []
+                    }
+                }
+            }, 
+            "New Orleans Hornets": {
+                "active": false, 
+                "name": "New Orleans Hornets", 
+                "teams": {
+                    "New Orleans Hornets": {
+                        "abbreviation": "NOH", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#008FC5"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "New Orleans", 
+                        "fullName": "New Orleans Hornets", 
+                        "identity": {
+                            "NBAdotcomID": "NOH"
+                        }, 
+                        "key": "NOH", 
+                        "name": "Hornets", 
+                        "years": []
+                    }
+                }
+            }, 
+            "New Orleans Pelicans": {
+                "active": true, 
+                "name": "New Orleans Pelicans", 
+                "teams": {
+                    "New Orleans Pelicans": {
+                        "abbreviation": "NOP", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/f341s31523700397.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#002B5C"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#002a5c"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#b4975a"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#002B5C"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#B4975A"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#E31837"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/yxuqtp1422490168.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/g7f9a41507048325.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/0/0d/New_Orleans_Pelicans_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/xl7zkg1546021531.png"
+                                }
+                            ]
+                        }, 
+                        "city": "New Orleans", 
+                        "conference": "Western", 
+                        "division": "Southwest", 
+                        "fullName": "New Orleans Pelicans", 
+                        "identity": {
+                            "ESPNAPIID": "3", 
+                            "NBAdotcomID": "1610612740", 
+                            "SportsDBID": "134878", 
+                            "SportsDataIOID": "23"
+                        }, 
+                        "key": "NOP", 
+                        "name": "Pelicans", 
+                        "years": []
+                    }
+                }
+            }, 
+            "New York Knicks": {
+                "active": true, 
+                "name": "New York Knicks", 
+                "teams": {
+                    "New York Knicks": {
+                        "abbreviation": "NYK", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/wyhpuf1511810435.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#006BB6"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#225EA8"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#f58426"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#006BB6"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#F58426"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#BEC0C2"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/vyyuuq1421887236.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/jfktrl1507048454.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/2/25/New_York_Knicks_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/yqtrrt1421884766.png"
+                                }
+                            ]
+                        }, 
+                        "city": "New York", 
+                        "conference": "Eastern", 
+                        "division": "Atlantic", 
+                        "fullName": "New York Knicks", 
+                        "identity": {
+                            "ESPNAPIID": "18", 
+                            "NBAdotcomID": "1610612752", 
+                            "SportsDBID": "134862", 
+                            "SportsDataIOID": "6"
+                        }, 
+                        "key": "NYK", 
+                        "name": "Knicks", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Oklahoma City Thunder": {
+                "active": true, 
+                "name": "Oklahoma City Thunder", 
+                "teams": {
+                    "Oklahoma City Thunder": {
+                        "abbreviation": "OKC", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/xpswpq1422575434.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#007AC1"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#C67C03"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#f05133"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#007AC1"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#EF3B24"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#FDBB30"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#002D62"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/rupvup1422578864.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/4wq3s51507048554.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/5/5d/Oklahoma_City_Thunder.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/oyhu4l1537103038.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Oklahoma City", 
+                        "conference": "Western", 
+                        "division": "Northwest", 
+                        "fullName": "Oklahoma City Thunder", 
+                        "identity": {
+                            "ESPNAPIID": "25", 
+                            "NBAdotcomID": "1610612760", 
+                            "SportsDBID": "134887", 
+                            "SportsDataIOID": "18"
+                        }, 
+                        "key": "OKC", 
+                        "name": "Thunder", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Orlando Magic": {
+                "active": true, 
+                "name": "Orlando Magic", 
+                "teams": {
+                    "Orlando Magic": {
+                        "abbreviation": "ORL", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/txuyrr1422492990.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#006BB7"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#0860A8"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#c4ced3"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#0077C0"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#C4CED4"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/tuwwvy1420560214.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/us35jl1507048656.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/1/10/Orlando_Magic_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/yqtwws1422493007.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Orlando", 
+                        "conference": "Eastern", 
+                        "division": "Southeast", 
+                        "fullName": "Orlando Magic", 
+                        "identity": {
+                            "ESPNAPIID": "19", 
+                            "NBAdotcomID": "1610612753", 
+                            "SportsDBID": "134883", 
+                            "SportsDataIOID": "5"
+                        }, 
+                        "key": "ORL", 
+                        "name": "Magic", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Orlando Magic Blue": {
+                "active": false, 
+                "name": "Orlando Magic Blue", 
+                "teams": {
+                    "Orlando Magic Blue": {
+                        "abbreviation": "ORB", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#006BB7"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Orlando", 
+                        "fullName": "Orlando Magic Blue", 
+                        "identity": {
+                            "NBAdotcomID": "ORB"
+                        }, 
+                        "key": "ORB", 
+                        "name": "Magic Blue", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Orlando Magic White": {
+                "active": false, 
+                "name": "Orlando Magic White", 
+                "teams": {
+                    "Orlando Magic White": {
+                        "abbreviation": "ORW", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#006BB7"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Orlando", 
+                        "fullName": "Orlando Magic White", 
+                        "identity": {
+                            "NBAdotcomID": "ORW"
+                        }, 
+                        "key": "ORW", 
+                        "name": "Magic White", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Philadelphia 76ers": {
+                "active": true, 
+                "name": "Philadelphia 76ers", 
+                "teams": {
+                    "Philadelphia 76ers": {
+                        "abbreviation": "PHI", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/71545f1518464849.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#006BB6"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#f1f2f3"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#006BB6"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#ED174C"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#002B5C"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#C4CED4"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/vxxyww1422665138.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/rf6e891507048751.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/0/0e/Philadelphia_76ers_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/rxvypt1422661970.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Philadelphia", 
+                        "conference": "Eastern", 
+                        "division": "Atlantic", 
+                        "fullName": "Philadelphia 76ers", 
+                        "identity": {
+                            "ESPNAPIID": "20", 
+                            "NBAdotcomID": "1610612755", 
+                            "SportsDBID": "134863", 
+                            "SportsDataIOID": "7"
+                        }, 
+                        "key": "PHI", 
+                        "name": "76ers", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Phoenix Suns": {
+                "active": true, 
+                "name": "Phoenix Suns", 
+                "teams": {
+                    "Phoenix Suns": {
+                        "abbreviation": "PHX", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/qrtuxq1422919040.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#1D1160"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#23006a"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#f1f2f3"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#1D1160"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#E56020"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#63727A"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/vqywsu1422920203.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/ecvx0w1507048856.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Phoenix_Suns_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/txuuvu1422919161.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Phoenix", 
+                        "conference": "Western", 
+                        "division": "Pacific", 
+                        "fullName": "Phoenix Suns", 
+                        "identity": {
+                            "ESPNAPIID": "21", 
+                            "NBAdotcomID": "1610612756", 
+                            "SportsDBID": "134868", 
+                            "SportsDataIOID": "29"
+                        }, 
+                        "key": "PHX", 
+                        "name": "Suns", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Portland Trail Blazers": {
+                "active": true, 
+                "name": "Portland Trail Blazers", 
+                "teams": {
+                    "Portland Trail Blazers": {
+                        "abbreviation": "POR", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/mbtzin1520794112.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#DE2032"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#bac3c9"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#E03A3E"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#FFFFFF"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/vsrrsr1422925433.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/ar6ahi1507048943.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/2/21/Portland_Trail_Blazers_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/4u21j61550478432.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Portland", 
+                        "conference": "Western", 
+                        "division": "Northwest", 
+                        "fullName": "Portland Trail Blazers", 
+                        "identity": {
+                            "ESPNAPIID": "22", 
+                            "NBAdotcomID": "1610612757", 
+                            "SportsDBID": "134888", 
+                            "SportsDataIOID": "19"
+                        }, 
+                        "key": "POR", 
+                        "name": "Trail Blazers", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Rising Stars Team Chuck": {
+                "active": false, 
+                "name": "Rising Stars Team Chuck", 
+                "teams": {
+                    "Rising Stars Team Chuck": {
+                        "abbreviation": "CHK", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#FCB034"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Rising Stars", 
+                        "fullName": "Rising Stars Team Chuck", 
+                        "identity": {
+                            "NBAdotcomID": "CHK"
+                        }, 
+                        "key": "CHK", 
+                        "name": "Team Chuck", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Rising Stars Team Hill": {
+                "active": false, 
+                "name": "Rising Stars Team Hill", 
+                "teams": {
+                    "Rising Stars Team Hill": {
+                        "abbreviation": "HIL", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#FBAF33"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Rising Stars", 
+                        "fullName": "Rising Stars Team Hill", 
+                        "identity": {
+                            "NBAdotcomID": "HIL"
+                        }, 
+                        "key": "HIL", 
+                        "name": "Team Hill", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Rising Stars Team Shaq": {
+                "active": false, 
+                "name": "Rising Stars Team Shaq", 
+                "teams": {
+                    "Rising Stars Team Shaq": {
+                        "abbreviation": "SHQ", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#0077C0"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Rising Stars", 
+                        "fullName": "Rising Stars Team Shaq", 
+                        "identity": {
+                            "NBAdotcomID": "SHQ"
+                        }, 
+                        "key": "SHQ", 
+                        "name": "Team Shaq", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Rising Stars Team Webber": {
+                "active": false, 
+                "name": "Rising Stars Team Webber", 
+                "teams": {
+                    "Rising Stars Team Webber": {
+                        "abbreviation": "WEB", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#00529B"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Rising Stars", 
+                        "fullName": "Rising Stars Team Webber", 
+                        "identity": {
+                            "NBAdotcomID": "WEB"
+                        }, 
+                        "key": "WEB", 
+                        "name": "Team Webber", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Sacramento Kings": {
+                "active": true, 
+                "name": "Sacramento Kings", 
+                "teams": {
+                    "Sacramento Kings": {
+                        "abbreviation": "SAC", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/5d3dpz1611859587.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#5B2B82"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#393996"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#8e9090"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#5A2B81"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#63727A"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/qqwqsx1423009287.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/1wzdm71507049060.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/c/c7/SacramentoKings.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/1pk8gn1511465848.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Sacramento", 
+                        "conference": "Western", 
+                        "division": "Pacific", 
+                        "fullName": "Sacramento Kings", 
+                        "identity": {
+                            "ESPNAPIID": "23", 
+                            "NBAdotcomID": "1610612758", 
+                            "SportsDBID": "134869", 
+                            "SportsDataIOID": "30"
+                        }, 
+                        "key": "SAC", 
+                        "name": "Kings", 
+                        "years": []
+                    }
+                }
+            }, 
+            "San Antonio Spurs": {
+                "active": true, 
+                "name": "San Antonio Spurs", 
+                "teams": {
+                    "San Antonio Spurs": {
+                        "abbreviation": "SAS", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/obucan1611859537.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#061922"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#C4CED4"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/xtwtxr1422128274.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/5t8zom1507049165.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/San_Antonio_Spurs.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/sqpuru1423091136.png"
+                                }
+                            ]
+                        }, 
+                        "city": "San Antonio", 
+                        "conference": "Western", 
+                        "division": "Southwest", 
+                        "fullName": "San Antonio Spurs", 
+                        "identity": {
+                            "ESPNAPIID": "24", 
+                            "NBAdotcomID": "1610612759", 
+                            "SportsDBID": "134879", 
+                            "SportsDataIOID": "24"
+                        }, 
+                        "key": "SAS", 
+                        "name": "Spurs", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Team Durant": {
+                "active": true, 
+                "name": "Team Durant", 
+                "teams": {
+                    "Team Durant": {
+                        "abbreviation": "DRT", 
+                        "active": true, 
+                        "aliases": [
+                            "DUR", 
+                            "LEB"
+                        ], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#000000"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610616833/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "All Stars", 
+                        "fullName": "Team Durant", 
+                        "identity": {
+                            "NBAdotcomID": "1610616834", 
+                            "SportsDataIOID": "32"
+                        }, 
+                        "key": "DRT", 
+                        "name": "Team LeBron", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Team Giannis": {
+                "active": false, 
+                "name": "Team Giannis", 
+                "teams": {
+                    "Team Giannis": {
+                        "abbreviation": "GNS", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#221F1F"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "All Stars", 
+                        "fullName": "Team Giannis", 
+                        "identity": {
+                            "NBAdotcomID": "GNS"
+                        }, 
+                        "key": "GNS", 
+                        "name": "Team Giannis", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Team LeBron": {
+                "active": false, 
+                "name": "Team LeBron", 
+                "teams": {
+                    "Team LeBron": {
+                        "abbreviation": "LBN", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#000000"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610616834/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "All Stars", 
+                        "fullName": "Team LeBron", 
+                        "identity": {
+                            "NBAdotcomID": "1610616834"
+                        }, 
+                        "key": "LBN", 
+                        "name": "Team LeBron", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Team Stephen": {
+                "active": false, 
+                "name": "Team Stephen", 
+                "teams": {
+                    "Team Stephen": {
+                        "abbreviation": "STP", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#000000"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "All Stars", 
+                        "fullName": "Team Stephen", 
+                        "identity": {
+                            "NBAdotcomID": "STP"
+                        }, 
+                        "key": "STP", 
+                        "name": "Team Stephen", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Team USA": {
+                "active": false, 
+                "name": "Team USA", 
+                "teams": {
+                    "Team USA": {
+                        "abbreviation": "USA", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#7AA3DB"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "All Stars", 
+                        "fullName": "Team USA", 
+                        "identity": {
+                            "NBAdotcomID": "USA"
+                        }, 
+                        "key": "USA", 
+                        "name": "Team USA", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Team World": {
+                "active": false, 
+                "name": "Team World", 
+                "teams": {
+                    "Team World": {
+                        "abbreviation": "WLD", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#373936"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "All Stars", 
+                        "fullName": "Team World", 
+                        "identity": {
+                            "NBAdotcomID": "WLD"
+                        }, 
+                        "key": "WLD", 
+                        "name": "Team World", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Toronto Raptors": {
+                "active": true, 
+                "name": "Toronto Raptors", 
+                "teams": {
+                    "Toronto Raptors": {
+                        "abbreviation": "TOR", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/gitpi61503743151.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#CE1141"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#CE1141"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#A1A1A4"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#B4975A"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/tqxtqq1421602080.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/2yx29v1507049267.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/3/36/Toronto_Raptors_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/sh566p1549619417.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Toronto", 
+                        "conference": "Eastern", 
+                        "division": "Atlantic", 
+                        "fullName": "Toronto Raptors", 
+                        "identity": {
+                            "NBAdotcomID": "1610612761", 
+                            "SportsDBID": "134864", 
+                            "SportsDataIOID": "10"
+                        }, 
+                        "key": "TOR", 
+                        "name": "Raptors", 
+                        "years": []
+                    }
+                }
+            }, 
+            "USAB USAB Blue": {
+                "active": false, 
+                "name": "USAB USAB Blue", 
+                "teams": {
+                    "USAB USAB Blue": {
+                        "abbreviation": "USB", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#E21836"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "USAB", 
+                        "fullName": "USAB USAB Blue", 
+                        "identity": {
+                            "NBAdotcomID": "USB"
+                        }, 
+                        "key": "USB", 
+                        "name": "USAB Blue", 
+                        "years": []
+                    }
+                }
+            }, 
+            "USAB USAB White": {
+                "active": false, 
+                "name": "USAB USAB White", 
+                "teams": {
+                    "USAB USAB White": {
+                        "abbreviation": "USW", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#E21836"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "USAB", 
+                        "fullName": "USAB USAB White", 
+                        "identity": {
+                            "NBAdotcomID": "USW"
+                        }, 
+                        "key": "USW", 
+                        "name": "USAB White", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Utah Jazz": {
+                "active": true, 
+                "name": "Utah Jazz", 
+                "teams": {
+                    "Utah Jazz": {
+                        "abbreviation": "UTA", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/9p1e5j1572041084.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#002B5C"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#002B5C"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#F9A01B"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#00471B"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/wpqtqy1423265245.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/2018-134889-Jersey.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/0/04/Utah_Jazz_logo_%282016%29.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/ajbdu71600552822.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Utah", 
+                        "conference": "Western", 
+                        "division": "Northwest", 
+                        "fullName": "Utah Jazz", 
+                        "identity": {
+                            "NBAdotcomID": "1610612762", 
+                            "SportsDBID": "134889", 
+                            "SportsDataIOID": "17"
+                        }, 
+                        "key": "UTA", 
+                        "name": "Jazz", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Utah Utah Jazz Blue": {
+                "active": false, 
+                "name": "Utah Utah Jazz Blue", 
+                "teams": {
+                    "Utah Utah Jazz Blue": {
+                        "abbreviation": "UTB", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Utah", 
+                        "fullName": "Utah Utah Jazz Blue", 
+                        "identity": {
+                            "NBAdotcomID": "UTB"
+                        }, 
+                        "key": "UTB", 
+                        "name": "Utah Jazz Blue", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Utah Utah Jazz White": {
+                "active": false, 
+                "name": "Utah Utah Jazz White", 
+                "teams": {
+                    "Utah Utah Jazz White": {
+                        "abbreviation": "UTW", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Utah", 
+                        "fullName": "Utah Utah Jazz White", 
+                        "identity": {
+                            "NBAdotcomID": "UTW"
+                        }, 
+                        "key": "UTW", 
+                        "name": "Utah Jazz White", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Washington Wizards": {
+                "active": true, 
+                "name": "Washington Wizards", 
+                "teams": {
+                    "Washington Wizards": {
+                        "abbreviation": "WAS", 
+                        "active": true, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/rhxi9w1621594729.png"
+                                }
+                            ], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#002B5C"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#002B5C"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#E31837"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#C4CED4"
+                                }, 
+                                {
+                                    "colortype": "quaternary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#FFFFFF"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/uuryys1423267426.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/04v04z1507049420.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/0/02/Washington_Wizards_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/xz33bp1600553002.png"
+                                }
+                            ]
+                        }, 
+                        "city": "Washington", 
+                        "conference": "Eastern", 
+                        "division": "Southeast", 
+                        "fullName": "Washington Wizards", 
+                        "identity": {
+                            "NBAdotcomID": "1610612764", 
+                            "SportsDBID": "134884", 
+                            "SportsDataIOID": "1"
+                        }, 
+                        "key": "WAS", 
+                        "name": "Wizards", 
+                        "years": []
+                    }
+                }
+            }
+        }
+    ]
+}

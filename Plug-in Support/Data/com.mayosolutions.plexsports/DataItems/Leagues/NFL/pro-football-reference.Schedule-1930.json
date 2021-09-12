@@ -1,380 +1,1230 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1930-09-14T00:00:00", 
-          "teams": "DETvsTOR"
-        }, 
-        {
-          "date": "1930-09-17T00:00:00", 
-          "teams": "TORvsNYG"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1930-19300914DETvsTOR": {
+                        "awayTeam": "TOR", 
+                        "date": "1930-09-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193009140det.htm", 
+                        "id": "193009140det", 
+                        "key": "nfl1930-19300914DETvsTOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Newark Tornadoes", 
+                        "week": 1, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19300917TORvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1930-09-17T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "TOR", 
+                        "href": "/boxscores/193009170tor.htm", 
+                        "id": "193009170tor", 
+                        "key": "nfl1930-19300917TORvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Newark Tornadoes vs. New York Giants", 
+                        "week": 1, 
+                        "year": "1930"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1930-19300921CHIvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1930-09-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193009210chi.htm", 
+                        "id": "193009210chi", 
+                        "key": "nfl1930-19300921CHIvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Brooklyn Dodgers", 
+                        "week": 2, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19300921GNBvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1930-09-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193009210gnb.htm", 
+                        "id": "193009210gnb", 
+                        "key": "nfl1930-19300921GNBvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Cardinals", 
+                        "week": 2, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19300921SISvsTOR": {
+                        "awayTeam": "TOR", 
+                        "date": "1930-09-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193009210sis.htm", 
+                        "id": "193009210sis", 
+                        "key": "nfl1930-19300921SISvsTOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Newark Tornadoes", 
+                        "week": 2, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19300924DETvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1930-09-24T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193009240det.htm", 
+                        "id": "193009240det", 
+                        "key": "nfl1930-19300924DETvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Brooklyn Dodgers", 
+                        "week": 2, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19300924TORvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1930-09-24T00:00:00", 
+                        "day": "Tue", 
+                        "eventindicator": null, 
+                        "homeTeam": "TOR", 
+                        "href": "/boxscores/193009240tor.htm", 
+                        "id": "193009240tor", 
+                        "key": "nfl1930-19300924TORvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Newark Tornadoes vs. Frankford Yellow Jackets", 
+                        "week": 2, 
+                        "year": "1930"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1930-19300927FYJvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1930-09-27T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/193009270fyj.htm", 
+                        "id": "193009270fyj", 
+                        "key": "nfl1930-19300927FYJvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Staten Island Stapletons", 
+                        "week": 3, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19300928GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1930-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193009280gnb.htm", 
+                        "id": "193009280gnb", 
+                        "key": "nfl1930-19300928GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 3, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19300928MNNvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1930-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MNN", 
+                        "href": "/boxscores/193009280mnn.htm", 
+                        "id": "193009280mnn", 
+                        "key": "nfl1930-19300928MNNvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minneapolis Red Jackets vs. Chicago Cardinals", 
+                        "week": 3, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19300928PRVvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1930-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193009280prv.htm", 
+                        "id": "193009280prv", 
+                        "key": "nfl1930-19300928PRVvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19300928SISvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1930-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193009280sis.htm", 
+                        "id": "193009280sis", 
+                        "key": "nfl1930-19300928SISvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Frankford Yellow Jackets", 
+                        "week": 3, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301001PRVvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1930-10-01T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193010010prv.htm", 
+                        "id": "193010010prv", 
+                        "key": "nfl1930-19301001PRVvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Frankford Yellow Jackets", 
+                        "week": 3, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301001TORvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1930-10-01T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "TOR", 
+                        "href": "/boxscores/193010010tor.htm", 
+                        "id": "193010010tor", 
+                        "key": "nfl1930-19301001TORvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Newark Tornadoes vs. Staten Island Stapletons", 
+                        "week": 3, 
+                        "year": "1930"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1930-19301004FYJvsTOR": {
+                        "awayTeam": "TOR", 
+                        "date": "1930-10-04T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/193010040fyj.htm", 
+                        "id": "193010040fyj", 
+                        "key": "nfl1930-19301004FYJvsTOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Newark Tornadoes", 
+                        "week": 4, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301005DETvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1930-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193010050det.htm", 
+                        "id": "193010050det", 
+                        "key": "nfl1930-19301005DETvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Chicago Cardinals", 
+                        "week": 4, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301005GNBvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1930-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193010050gnb.htm", 
+                        "id": "193010050gnb", 
+                        "key": "nfl1930-19301005GNBvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. New York Giants", 
+                        "week": 4, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301005MNNvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1930-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MNN", 
+                        "href": "/boxscores/193010050mnn.htm", 
+                        "id": "193010050mnn", 
+                        "key": "nfl1930-19301005MNNvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minneapolis Red Jackets vs. Chicago Bears", 
+                        "week": 4, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301005PRVvsTOR": {
+                        "awayTeam": "TOR", 
+                        "date": "1930-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193010050prv.htm", 
+                        "id": "193010050prv", 
+                        "key": "nfl1930-19301005PRVvsTOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Newark Tornadoes", 
+                        "week": 4, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301005SISvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1930-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193010050sis.htm", 
+                        "id": "193010050sis", 
+                        "key": "nfl1930-19301005SISvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Brooklyn Dodgers", 
+                        "week": 4, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301008DETvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1930-10-08T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193010080det.htm", 
+                        "id": "193010080det", 
+                        "key": "nfl1930-19301008DETvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Frankford Yellow Jackets", 
+                        "week": 4, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301008TORvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1930-10-08T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "TOR", 
+                        "href": "/boxscores/193010080tor.htm", 
+                        "id": "193010080tor", 
+                        "key": "nfl1930-19301008TORvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Newark Tornadoes vs. Chicago Cardinals", 
+                        "week": 4, 
+                        "year": "1930"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1930-19301012BKNvsTOR": {
+                        "awayTeam": "TOR", 
+                        "date": "1930-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193010120bkn.htm", 
+                        "id": "193010120bkn", 
+                        "key": "nfl1930-19301012BKNvsTOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Newark Tornadoes", 
+                        "week": 5, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301012CHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1930-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193010120chi.htm", 
+                        "id": "193010120chi", 
+                        "key": "nfl1930-19301012CHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. New York Giants", 
+                        "week": 5, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301012GNBvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1930-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193010120gnb.htm", 
+                        "id": "193010120gnb", 
+                        "key": "nfl1930-19301012GNBvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Frankford Yellow Jackets", 
+                        "week": 5, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301012MNNvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1930-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MNN", 
+                        "href": "/boxscores/193010120mnn.htm", 
+                        "id": "193010120mnn", 
+                        "key": "nfl1930-19301012MNNvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minneapolis Red Jackets vs. Portsmouth Spartans", 
+                        "week": 5, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301012PRVvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1930-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193010120prv.htm", 
+                        "id": "193010120prv", 
+                        "key": "nfl1930-19301012PRVvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Chicago Cardinals", 
+                        "week": 5, 
+                        "year": "1930"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1930-19301016NYGvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1930-10-16T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193010160nyg.htm", 
+                        "id": "193010160nyg", 
+                        "key": "nfl1930-19301016NYGvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Cardinals", 
+                        "week": 6, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301018FYJvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1930-10-18T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/193010180fyj.htm", 
+                        "id": "193010180fyj", 
+                        "key": "nfl1930-19301018FYJvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Brooklyn Dodgers", 
+                        "week": 6, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301019CRDvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1930-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193010190crd.htm", 
+                        "id": "193010190crd", 
+                        "key": "nfl1930-19301019CRDvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Chicago Bears", 
+                        "week": 6, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301019MNNvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1930-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MNN", 
+                        "href": "/boxscores/193010190mnn.htm", 
+                        "id": "193010190mnn", 
+                        "key": "nfl1930-19301019MNNvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minneapolis Red Jackets vs. Green Bay Packers", 
+                        "week": 6, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301019NYGvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1930-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193010190nyg.htm", 
+                        "id": "193010190nyg", 
+                        "key": "nfl1930-19301019NYGvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Frankford Yellow Jackets", 
+                        "week": 6, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301019PRVvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1930-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193010190prv.htm", 
+                        "id": "193010190prv", 
+                        "key": "nfl1930-19301019PRVvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Staten Island Stapletons", 
+                        "week": 6, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301019TORvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1930-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "TOR", 
+                        "href": "/boxscores/193010190tor.htm", 
+                        "id": "193010190tor", 
+                        "key": "nfl1930-19301019TORvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Newark Tornadoes vs. Brooklyn Dodgers", 
+                        "week": 6, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301022DETvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1930-10-22T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193010220det.htm", 
+                        "id": "193010220det", 
+                        "key": "nfl1930-19301022DETvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Chicago Bears", 
+                        "week": 6, 
+                        "year": "1930"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1930-19301025FYJvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1930-10-25T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/193010250fyj.htm", 
+                        "id": "193010250fyj", 
+                        "key": "nfl1930-19301025FYJvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Chicago Cardinals", 
+                        "week": 7, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301026CHIvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1930-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193010260chi.htm", 
+                        "id": "193010260chi", 
+                        "key": "nfl1930-19301026CHIvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Frankford Yellow Jackets", 
+                        "week": 7, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301026CRDvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1930-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193010260crd.htm", 
+                        "id": "193010260crd", 
+                        "key": "nfl1930-19301026CRDvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Portsmouth Spartans", 
+                        "week": 7, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301026GNBvsMNN": {
+                        "awayTeam": "MNN", 
+                        "date": "1930-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193010260gnb.htm", 
+                        "id": "193010260gnb", 
+                        "key": "nfl1930-19301026GNBvsMNN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Minneapolis Red Jackets", 
+                        "week": 7, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301026NYGvsPRV": {
+                        "awayTeam": "PRV", 
+                        "date": "1930-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193010260nyg.htm", 
+                        "id": "193010260nyg", 
+                        "key": "nfl1930-19301026NYGvsPRV", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Providence Steam Roller", 
+                        "week": 7, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301026TORvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1930-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "TOR", 
+                        "href": "/boxscores/193010260tor.htm", 
+                        "id": "193010260tor", 
+                        "key": "nfl1930-19301026TORvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Newark Tornadoes vs. Staten Island Stapletons", 
+                        "week": 7, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301030NYGvsTOR": {
+                        "awayTeam": "TOR", 
+                        "date": "1930-10-30T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193010290nyg.htm", 
+                        "id": "193010290nyg", 
+                        "key": "nfl1930-19301030NYGvsTOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Newark Tornadoes", 
+                        "week": 7, 
+                        "year": "1930"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1930-19301102CHIvsMNN": {
+                        "awayTeam": "MNN", 
+                        "date": "1930-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193011020chi.htm", 
+                        "id": "193011020chi", 
+                        "key": "nfl1930-19301102CHIvsMNN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Minneapolis Red Jackets", 
+                        "week": 8, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301102CRDvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1930-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193011020crd.htm", 
+                        "id": "193011020crd", 
+                        "key": "nfl1930-19301102CRDvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Frankford Yellow Jackets", 
+                        "week": 8, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301102GNBvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1930-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193011020gnb.htm", 
+                        "id": "193011020gnb", 
+                        "key": "nfl1930-19301102GNBvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Portsmouth Spartans", 
+                        "week": 8, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301102NYGvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1930-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193011020nyg.htm", 
+                        "id": "193011020nyg", 
+                        "key": "nfl1930-19301102NYGvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Staten Island Stapletons", 
+                        "week": 8, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301102PRVvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1930-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193011020prv.htm", 
+                        "id": "193011020prv", 
+                        "key": "nfl1930-19301102PRVvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Brooklyn Dodgers", 
+                        "week": 8, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301105DETvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1930-11-05T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193011050det.htm", 
+                        "id": "193011050det", 
+                        "key": "nfl1930-19301105DETvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. New York Giants", 
+                        "week": 8, 
+                        "year": "1930"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1930-19301108FYJvsPRV": {
+                        "awayTeam": "PRV", 
+                        "date": "1930-11-08T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/193011080fyj.htm", 
+                        "id": "193011080fyj", 
+                        "key": "nfl1930-19301108FYJvsPRV", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Providence Steam Roller", 
+                        "week": 9, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301109BKNvsMNN": {
+                        "awayTeam": "MNN", 
+                        "date": "1930-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193011090bkn.htm", 
+                        "id": "193011090bkn", 
+                        "key": "nfl1930-19301109BKNvsMNN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Minneapolis Red Jackets", 
+                        "week": 9, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301109CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1930-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193011090chi.htm", 
+                        "id": "193011090chi", 
+                        "key": "nfl1930-19301109CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 9, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301109CRDvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1930-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193011090crd.htm", 
+                        "id": "193011090crd", 
+                        "key": "nfl1930-19301109CRDvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. New York Giants", 
+                        "week": 9, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301109PRVvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1930-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193011090prv.htm", 
+                        "id": "193011090prv", 
+                        "key": "nfl1930-19301109PRVvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Frankford Yellow Jackets", 
+                        "week": 9, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301109SISvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1930-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193011090sis.htm", 
+                        "id": "193011090sis", 
+                        "key": "nfl1930-19301109SISvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Portsmouth Spartans", 
+                        "week": 9, 
+                        "year": "1930"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1930-19301115FYJvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1930-11-15T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/193011150fyj.htm", 
+                        "id": "193011150fyj", 
+                        "key": "nfl1930-19301115FYJvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Portsmouth Spartans", 
+                        "week": 10, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301116CRDvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1930-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193011160crd.htm", 
+                        "id": "193011160crd", 
+                        "key": "nfl1930-19301116CRDvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Green Bay Packers", 
+                        "week": 10, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301116NYGvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1930-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193011160nyg.htm", 
+                        "id": "193011160nyg", 
+                        "key": "nfl1930-19301116NYGvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Bears", 
+                        "week": 10, 
+                        "year": "1930"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1930-19301122FYJvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1930-11-22T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/193011220fyj.htm", 
+                        "id": "193011220fyj", 
+                        "key": "nfl1930-19301122FYJvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Chicago Bears", 
+                        "week": 11, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301123BKNvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1930-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193011230bkn.htm", 
+                        "id": "193011230bkn", 
+                        "key": "nfl1930-19301123BKNvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Staten Island Stapletons", 
+                        "week": 11, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301123NYGvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1930-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193011230nyg.htm", 
+                        "id": "193011230nyg", 
+                        "key": "nfl1930-19301123NYGvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Green Bay Packers", 
+                        "week": 11, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301123PRVvsMNN": {
+                        "awayTeam": "MNN", 
+                        "date": "1930-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193011230prv.htm", 
+                        "id": "193011230prv", 
+                        "key": "nfl1930-19301123PRVvsMNN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Minneapolis Red Jackets", 
+                        "week": 11, 
+                        "year": "1930"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1930-19301127BKNvsPRV": {
+                        "awayTeam": "PRV", 
+                        "date": "1930-11-27T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193011270bkn.htm", 
+                        "id": "193011270bkn", 
+                        "key": "nfl1930-19301127BKNvsPRV", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Providence Steam Roller", 
+                        "week": 12, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301127CHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1930-11-27T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193011270chi.htm", 
+                        "id": "193011270chi", 
+                        "key": "nfl1930-19301127CHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Chicago Cardinals", 
+                        "week": 12, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301127FYJvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1930-11-27T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/193011270fyj.htm", 
+                        "id": "193011270fyj", 
+                        "key": "nfl1930-19301127FYJvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301127SISvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1930-11-27T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193011270sis.htm", 
+                        "id": "193011270sis", 
+                        "key": "nfl1930-19301127SISvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. New York Giants", 
+                        "week": 12, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301130CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1930-11-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193011300chi.htm", 
+                        "id": "193011300chi", 
+                        "key": "nfl1930-19301130CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Portsmouth Spartans", 
+                        "week": 12, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301130NYGvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1930-11-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193011300nyg.htm", 
+                        "id": "193011300nyg", 
+                        "key": "nfl1930-19301130NYGvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Brooklyn Dodgers", 
+                        "week": 12, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301130SISvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1930-11-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193011300sis.htm", 
+                        "id": "193011300sis", 
+                        "key": "nfl1930-19301130SISvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1930"
+                    }
+                }
+            }, 
+            "13": {
+                "events": {
+                    "nfl1930-19301206FYJvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1930-12-06T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/193012060fyj.htm", 
+                        "id": "193012060fyj", 
+                        "key": "nfl1930-19301206FYJvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. New York Giants", 
+                        "week": 13, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301207BKNvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1930-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193012070bkn.htm", 
+                        "id": "193012070bkn", 
+                        "key": "nfl1930-19301207BKNvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. New York Giants", 
+                        "week": 13, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301207CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1930-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193012070chi.htm", 
+                        "id": "193012070chi", 
+                        "key": "nfl1930-19301207CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 13, 
+                        "year": "1930"
+                    }, 
+                    "nfl1930-19301207DETvsMNN": {
+                        "awayTeam": "MNN", 
+                        "date": "1930-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193012070det.htm", 
+                        "id": "193012070det", 
+                        "key": "nfl1930-19301207DETvsMNN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Minneapolis Red Jackets", 
+                        "week": 13, 
+                        "year": "1930"
+                    }
+                }
+            }, 
+            "14": {
+                "events": {
+                    "nfl1930-19301214DETvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1930-12-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193012140det.htm", 
+                        "id": "193012140det", 
+                        "key": "nfl1930-19301214DETvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Green Bay Packers", 
+                        "week": 14, 
+                        "year": "1930"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1930-09-21T00:00:00", 
-          "teams": "GNBvsCRD"
-        }, 
-        {
-          "date": "1930-09-21T00:00:00", 
-          "teams": "CHIvsBDA"
-        }, 
-        {
-          "date": "1930-09-21T00:00:00", 
-          "teams": "SISvsTOR"
-        }, 
-        {
-          "date": "1930-09-24T00:00:00", 
-          "teams": "TORvsFYJ"
-        }, 
-        {
-          "date": "1930-09-24T00:00:00", 
-          "teams": "DETvsBDA"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1930-09-27T00:00:00", 
-          "teams": "FYJvsSIS"
-        }, 
-        {
-          "date": "1930-09-28T00:00:00", 
-          "teams": "PRVvsNYG"
-        }, 
-        {
-          "date": "1930-09-28T00:00:00", 
-          "teams": "SISvsFYJ"
-        }, 
-        {
-          "date": "1930-09-28T00:00:00", 
-          "teams": "MNNvsCRD"
-        }, 
-        {
-          "date": "1930-09-28T00:00:00", 
-          "teams": "GNBvsCHI"
-        }, 
-        {
-          "date": "1930-10-01T00:00:00", 
-          "teams": "PRVvsFYJ"
-        }, 
-        {
-          "date": "1930-10-01T00:00:00", 
-          "teams": "TORvsSIS"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1930-10-04T00:00:00", 
-          "teams": "FYJvsTOR"
-        }, 
-        {
-          "date": "1930-10-05T00:00:00", 
-          "teams": "MNNvsCHI"
-        }, 
-        {
-          "date": "1930-10-05T00:00:00", 
-          "teams": "GNBvsNYG"
-        }, 
-        {
-          "date": "1930-10-05T00:00:00", 
-          "teams": "PRVvsTOR"
-        }, 
-        {
-          "date": "1930-10-05T00:00:00", 
-          "teams": "SISvsBDA"
-        }, 
-        {
-          "date": "1930-10-05T00:00:00", 
-          "teams": "DETvsCRD"
-        }, 
-        {
-          "date": "1930-10-08T00:00:00", 
-          "teams": "TORvsCRD"
-        }, 
-        {
-          "date": "1930-10-08T00:00:00", 
-          "teams": "DETvsFYJ"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1930-10-12T00:00:00", 
-          "teams": "CHIvsNYG"
-        }, 
-        {
-          "date": "1930-10-12T00:00:00", 
-          "teams": "BDAvsTOR"
-        }, 
-        {
-          "date": "1930-10-12T00:00:00", 
-          "teams": "PRVvsCRD"
-        }, 
-        {
-          "date": "1930-10-12T00:00:00", 
-          "teams": "GNBvsFYJ"
-        }, 
-        {
-          "date": "1930-10-12T00:00:00", 
-          "teams": "MNNvsDET"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1930-10-16T00:00:00", 
-          "teams": "NYGvsCRD"
-        }, 
-        {
-          "date": "1930-10-18T00:00:00", 
-          "teams": "FYJvsBDA"
-        }, 
-        {
-          "date": "1930-10-19T00:00:00", 
-          "teams": "PRVvsSIS"
-        }, 
-        {
-          "date": "1930-10-19T00:00:00", 
-          "teams": "TORvsBDA"
-        }, 
-        {
-          "date": "1930-10-19T00:00:00", 
-          "teams": "MNNvsGNB"
-        }, 
-        {
-          "date": "1930-10-19T00:00:00", 
-          "teams": "CRDvsCHI"
-        }, 
-        {
-          "date": "1930-10-19T00:00:00", 
-          "teams": "NYGvsFYJ"
-        }, 
-        {
-          "date": "1930-10-22T00:00:00", 
-          "teams": "DETvsCHI"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1930-10-25T00:00:00", 
-          "teams": "FYJvsCRD"
-        }, 
-        {
-          "date": "1930-10-26T00:00:00", 
-          "teams": "NYGvsPRV"
-        }, 
-        {
-          "date": "1930-10-26T00:00:00", 
-          "teams": "GNBvsMNN"
-        }, 
-        {
-          "date": "1930-10-26T00:00:00", 
-          "teams": "CRDvsDET"
-        }, 
-        {
-          "date": "1930-10-26T00:00:00", 
-          "teams": "CHIvsFYJ"
-        }, 
-        {
-          "date": "1930-10-26T00:00:00", 
-          "teams": "TORvsSIS"
-        }, 
-        {
-          "date": "1930-10-30T00:00:00", 
-          "teams": "NYGvsTOR"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1930-11-02T00:00:00", 
-          "teams": "CHIvsMNN"
-        }, 
-        {
-          "date": "1930-11-02T00:00:00", 
-          "teams": "GNBvsDET"
-        }, 
-        {
-          "date": "1930-11-02T00:00:00", 
-          "teams": "PRVvsBDA"
-        }, 
-        {
-          "date": "1930-11-02T00:00:00", 
-          "teams": "CRDvsFYJ"
-        }, 
-        {
-          "date": "1930-11-02T00:00:00", 
-          "teams": "NYGvsSIS"
-        }, 
-        {
-          "date": "1930-11-05T00:00:00", 
-          "teams": "DETvsNYG"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1930-11-08T00:00:00", 
-          "teams": "FYJvsPRV"
-        }, 
-        {
-          "date": "1930-11-09T00:00:00", 
-          "teams": "SISvsDET"
-        }, 
-        {
-          "date": "1930-11-09T00:00:00", 
-          "teams": "CHIvsGNB"
-        }, 
-        {
-          "date": "1930-11-09T00:00:00", 
-          "teams": "BDAvsMNN"
-        }, 
-        {
-          "date": "1930-11-09T00:00:00", 
-          "teams": "PRVvsFYJ"
-        }, 
-        {
-          "date": "1930-11-09T00:00:00", 
-          "teams": "CRDvsNYG"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1930-11-15T00:00:00", 
-          "teams": "FYJvsDET"
-        }, 
-        {
-          "date": "1930-11-16T00:00:00", 
-          "teams": "NYGvsCHI"
-        }, 
-        {
-          "date": "1930-11-16T00:00:00", 
-          "teams": "CRDvsGNB"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1930-11-22T00:00:00", 
-          "teams": "FYJvsCHI"
-        }, 
-        {
-          "date": "1930-11-23T00:00:00", 
-          "teams": "BDAvsSIS"
-        }, 
-        {
-          "date": "1930-11-23T00:00:00", 
-          "teams": "NYGvsGNB"
-        }, 
-        {
-          "date": "1930-11-23T00:00:00", 
-          "teams": "PRVvsMNN"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1930-11-27T00:00:00", 
-          "teams": "FYJvsGNB"
-        }, 
-        {
-          "date": "1930-11-27T00:00:00", 
-          "teams": "SISvsNYG"
-        }, 
-        {
-          "date": "1930-11-27T00:00:00", 
-          "teams": "BDAvsPRV"
-        }, 
-        {
-          "date": "1930-11-27T00:00:00", 
-          "teams": "CHIvsCRD"
-        }, 
-        {
-          "date": "1930-11-30T00:00:00", 
-          "teams": "NYGvsBDA"
-        }, 
-        {
-          "date": "1930-11-30T00:00:00", 
-          "teams": "CHIvsDET"
-        }, 
-        {
-          "date": "1930-11-30T00:00:00", 
-          "teams": "SISvsGNB"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "alias": "Week 13", 
-      "events": [
-        {
-          "date": "1930-12-06T00:00:00", 
-          "teams": "FYJvsNYG"
-        }, 
-        {
-          "date": "1930-12-07T00:00:00", 
-          "teams": "BDAvsNYG"
-        }, 
-        {
-          "date": "1930-12-07T00:00:00", 
-          "teams": "CHIvsGNB"
-        }, 
-        {
-          "date": "1930-12-07T00:00:00", 
-          "teams": "DETvsMNN"
-        }
-      ], 
-      "week": 13
-    }, 
-    {
-      "alias": "Week 14", 
-      "events": [
-        {
-          "date": "1930-12-14T00:00:00", 
-          "teams": "DETvsGNB"
-        }
-      ], 
-      "week": 14
     }
-  ]
 }

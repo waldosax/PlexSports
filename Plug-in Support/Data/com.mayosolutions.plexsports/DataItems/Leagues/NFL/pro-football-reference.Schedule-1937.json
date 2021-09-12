@@ -1,317 +1,965 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1937-09-05T00:00:00", 
-          "teams": "PITvsPHI"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1937-19370905PITvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1937-09-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/193709050pit.htm", 
+                        "id": "193709050pit", 
+                        "key": "nfl1937-19370905PITvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Pirates vs. Philadelphia Eagles", 
+                        "week": 1, 
+                        "year": "1937"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1937-19370910PHIvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1937-09-10T00:00:00", 
+                        "day": "Fri", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/193709100phi.htm", 
+                        "id": "193709100phi", 
+                        "key": "nfl1937-19370910PHIvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Brooklyn Dodgers", 
+                        "week": 2, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19370910RAMvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1937-09-10T00:00:00", 
+                        "day": "Fri", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/193709100ram.htm", 
+                        "id": "193709100ram", 
+                        "key": "nfl1937-19370910RAMvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Rams vs. Detroit Lions", 
+                        "week": 2, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19370912GNBvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1937-09-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193709120gnb.htm", 
+                        "id": "193709120gnb", 
+                        "key": "nfl1937-19370912GNBvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Cardinals", 
+                        "week": 2, 
+                        "year": "1937"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1937-19370916WASvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1937-09-16T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193709160was.htm", 
+                        "id": "193709160was", 
+                        "key": "nfl1937-19370916WASvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19370919BKNvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1937-09-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193709190bkn.htm", 
+                        "id": "193709190bkn", 
+                        "key": "nfl1937-19370919BKNvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Pittsburgh Pirates", 
+                        "week": 3, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19370919DETvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1937-09-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193709190det.htm", 
+                        "id": "193709190det", 
+                        "key": "nfl1937-19370919DETvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Chicago Cardinals", 
+                        "week": 3, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19370919GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1937-09-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193709190gnb.htm", 
+                        "id": "193709190gnb", 
+                        "key": "nfl1937-19370919GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 3, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19370921PHIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1937-09-21T00:00:00", 
+                        "day": "Tue", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/193709210phi.htm", 
+                        "id": "193709210phi", 
+                        "key": "nfl1937-19370921PHIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Cleveland Rams", 
+                        "week": 3, 
+                        "year": "1937"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1937-19370924WASvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1937-09-24T00:00:00", 
+                        "day": "Fri", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193709240was.htm", 
+                        "id": "193709240was", 
+                        "key": "nfl1937-19370924WASvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Chicago Cardinals", 
+                        "week": 4, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19370926BKNvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1937-09-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193709260bkn.htm", 
+                        "id": "193709260bkn", 
+                        "key": "nfl1937-19370926BKNvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Cleveland Rams", 
+                        "week": 4, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19370926PHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1937-09-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/193709260phi.htm", 
+                        "id": "193709260phi", 
+                        "key": "nfl1937-19370926PHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Chicago Cardinals", 
+                        "week": 4, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19370926PITvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1937-09-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/193709260pit.htm", 
+                        "id": "193709260pit", 
+                        "key": "nfl1937-19370926PITvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Pirates vs. New York Giants", 
+                        "week": 4, 
+                        "year": "1937"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1937-19371003GNBvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1937-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193710030gnb.htm", 
+                        "id": "193710030gnb", 
+                        "key": "nfl1937-19371003GNBvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Detroit Lions", 
+                        "week": 5, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371003PHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1937-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/193710030phi.htm", 
+                        "id": "193710030phi", 
+                        "key": "nfl1937-19371003PHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. New York Giants", 
+                        "week": 5, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371003RAMvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1937-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/193710030ram.htm", 
+                        "id": "193710030ram", 
+                        "key": "nfl1937-19371003RAMvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Rams vs. Chicago Cardinals", 
+                        "week": 5, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371003WASvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1937-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193710030was.htm", 
+                        "id": "193710030was", 
+                        "key": "nfl1937-19371003WASvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Brooklyn Dodgers", 
+                        "week": 5, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371004PITvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1937-10-04T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/193710040pit.htm", 
+                        "id": "193710040pit", 
+                        "key": "nfl1937-19371004PITvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Pirates vs. Chicago Bears", 
+                        "week": 5, 
+                        "year": "1937"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1937-19371010DETvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1937-10-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193710100det.htm", 
+                        "id": "193710100det", 
+                        "key": "nfl1937-19371010DETvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Pittsburgh Pirates", 
+                        "week": 6, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371010GNBvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1937-10-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193710100gnb.htm", 
+                        "id": "193710100gnb", 
+                        "key": "nfl1937-19371010GNBvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Cardinals", 
+                        "week": 6, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371010RAMvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1937-10-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/193710100ram.htm", 
+                        "id": "193710100ram", 
+                        "key": "nfl1937-19371010RAMvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Rams vs. Chicago Bears", 
+                        "week": 6, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371010WASvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1937-10-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193710100was.htm", 
+                        "id": "193710100was", 
+                        "key": "nfl1937-19371010WASvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Philadelphia Eagles", 
+                        "week": 6, 
+                        "year": "1937"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1937-19371017CHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1937-10-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193710170chi.htm", 
+                        "id": "193710170chi", 
+                        "key": "nfl1937-19371017CHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Chicago Cardinals", 
+                        "week": 7, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371017DETvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1937-10-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193710170det.htm", 
+                        "id": "193710170det", 
+                        "key": "nfl1937-19371017DETvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Brooklyn Dodgers", 
+                        "week": 7, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371017NYGvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1937-10-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193710170nyg.htm", 
+                        "id": "193710170nyg", 
+                        "key": "nfl1937-19371017NYGvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Philadelphia Eagles", 
+                        "week": 7, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371017RAMvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1937-10-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/193710170ram.htm", 
+                        "id": "193710170ram", 
+                        "key": "nfl1937-19371017RAMvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Rams vs. Green Bay Packers", 
+                        "week": 7, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371017WASvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1937-10-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193710170was.htm", 
+                        "id": "193710170was", 
+                        "key": "nfl1937-19371017WASvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Pittsburgh Pirates", 
+                        "week": 7, 
+                        "year": "1937"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1937-19371024CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1937-10-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193710240chi.htm", 
+                        "id": "193710240chi", 
+                        "key": "nfl1937-19371024CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Detroit Lions", 
+                        "week": 8, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371024GNBvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1937-10-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193710240gnb.htm", 
+                        "id": "193710240gnb", 
+                        "key": "nfl1937-19371024GNBvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Cleveland Rams", 
+                        "week": 8, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371024NYGvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1937-10-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193710240nyg.htm", 
+                        "id": "193710240nyg", 
+                        "key": "nfl1937-19371024NYGvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Brooklyn Dodgers", 
+                        "week": 8, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371024PHIvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1937-10-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/193710240phi.htm", 
+                        "id": "193710240phi", 
+                        "key": "nfl1937-19371024PHIvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Washington Redskins", 
+                        "week": 8, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371024PITvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1937-10-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/193710240pit.htm", 
+                        "id": "193710240pit", 
+                        "key": "nfl1937-19371024PITvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Pirates vs. Chicago Cardinals", 
+                        "week": 8, 
+                        "year": "1937"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1937-19371031BKNvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1937-10-31T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193710310bkn.htm", 
+                        "id": "193710310bkn", 
+                        "key": "nfl1937-19371031BKNvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Washington Redskins", 
+                        "week": 9, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371031CRDvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1937-10-31T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193710310crd.htm", 
+                        "id": "193710310crd", 
+                        "key": "nfl1937-19371031CRDvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Cleveland Rams", 
+                        "week": 9, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371031DETvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1937-10-31T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193710310det.htm", 
+                        "id": "193710310det", 
+                        "key": "nfl1937-19371031DETvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Green Bay Packers", 
+                        "week": 9, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371031NYGvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1937-10-31T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193710310nyg.htm", 
+                        "id": "193710310nyg", 
+                        "key": "nfl1937-19371031NYGvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Bears", 
+                        "week": 9, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371031PITvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1937-10-31T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/193710310pit.htm", 
+                        "id": "193710310pit", 
+                        "key": "nfl1937-19371031PITvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Pirates vs. Philadelphia Eagles", 
+                        "week": 9, 
+                        "year": "1937"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1937-19371107BKNvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1937-11-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193711070bkn.htm", 
+                        "id": "193711070bkn", 
+                        "key": "nfl1937-19371107BKNvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Philadelphia Eagles", 
+                        "week": 10, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371107CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1937-11-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193711070chi.htm", 
+                        "id": "193711070chi", 
+                        "key": "nfl1937-19371107CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 10, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371107DETvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1937-11-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193711070det.htm", 
+                        "id": "193711070det", 
+                        "key": "nfl1937-19371107DETvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Cleveland Rams", 
+                        "week": 10, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371107NYGvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1937-11-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193711070nyg.htm", 
+                        "id": "193711070nyg", 
+                        "key": "nfl1937-19371107NYGvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Pittsburgh Pirates", 
+                        "week": 10, 
+                        "year": "1937"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1937-19371114CHIvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1937-11-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193711140chi.htm", 
+                        "id": "193711140chi", 
+                        "key": "nfl1937-19371114CHIvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Brooklyn Dodgers", 
+                        "week": 11, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371114GNBvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1937-11-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193711140gnb.htm", 
+                        "id": "193711140gnb", 
+                        "key": "nfl1937-19371114GNBvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Philadelphia Eagles", 
+                        "week": 11, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371114NYGvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1937-11-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193711140nyg.htm", 
+                        "id": "193711140nyg", 
+                        "key": "nfl1937-19371114NYGvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Detroit Lions", 
+                        "week": 11, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371114PITvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1937-11-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/193711140pit.htm", 
+                        "id": "193711140pit", 
+                        "key": "nfl1937-19371114PITvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Pirates vs. Washington Redskins", 
+                        "week": 11, 
+                        "year": "1937"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1937-19371121CRDvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1937-11-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193711210crd.htm", 
+                        "id": "193711210crd", 
+                        "key": "nfl1937-19371121CRDvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Detroit Lions", 
+                        "week": 12, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371121NYGvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1937-11-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193711210nyg.htm", 
+                        "id": "193711210nyg", 
+                        "key": "nfl1937-19371121NYGvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371121PITvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1937-11-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/193711210pit.htm", 
+                        "id": "193711210pit", 
+                        "key": "nfl1937-19371121PITvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Pirates vs. Brooklyn Dodgers", 
+                        "week": 12, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371121RAMvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1937-11-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/193711210ram.htm", 
+                        "id": "193711210ram", 
+                        "key": "nfl1937-19371121RAMvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Rams vs. Washington Redskins", 
+                        "week": 12, 
+                        "year": "1937"
+                    }
+                }
+            }, 
+            "13": {
+                "events": {
+                    "nfl1937-19371125BKNvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1937-11-25T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193711250bkn.htm", 
+                        "id": "193711250bkn", 
+                        "key": "nfl1937-19371125BKNvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. New York Giants", 
+                        "week": 13, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371125DETvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1937-11-25T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193711250det.htm", 
+                        "id": "193711250det", 
+                        "key": "nfl1937-19371125DETvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Chicago Bears", 
+                        "week": 13, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371128CHIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1937-11-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193711280chi.htm", 
+                        "id": "193711280chi", 
+                        "key": "nfl1937-19371128CHIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Cleveland Rams", 
+                        "week": 13, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371128WASvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1937-11-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193711280was.htm", 
+                        "id": "193711280was", 
+                        "key": "nfl1937-19371128WASvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Green Bay Packers", 
+                        "week": 13, 
+                        "year": "1937"
+                    }
+                }
+            }, 
+            "14": {
+                "events": {
+                    "nfl1937-19371205CRDvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1937-12-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193712050crd.htm", 
+                        "id": "193712050crd", 
+                        "key": "nfl1937-19371205CRDvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Chicago Bears", 
+                        "week": 14, 
+                        "year": "1937"
+                    }, 
+                    "nfl1937-19371205NYGvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1937-12-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193712050nyg.htm", 
+                        "id": "193712050nyg", 
+                        "key": "nfl1937-19371205NYGvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Washington Redskins", 
+                        "week": 14, 
+                        "year": "1937"
+                    }
+                }
+            }
+        }, 
+        "1": {
+            "3": {
+                "events": {
+                    "nfl1937-19371212CHIvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1937-12-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193712120chi.htm", 
+                        "id": "193712120chi", 
+                        "key": "nfl1937-19371212CHIvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Conference Championship", 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Washington Redskins", 
+                        "week": 3, 
+                        "year": "1937"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1937-09-10T00:00:00", 
-          "teams": "PHIvsBDA"
-        }, 
-        {
-          "date": "1937-09-10T00:00:00", 
-          "teams": "RAMvsDET"
-        }, 
-        {
-          "date": "1937-09-12T00:00:00", 
-          "teams": "GNBvsCRD"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1937-09-16T00:00:00", 
-          "teams": "WASvsNYG"
-        }, 
-        {
-          "date": "1937-09-19T00:00:00", 
-          "teams": "GNBvsCHI"
-        }, 
-        {
-          "date": "1937-09-19T00:00:00", 
-          "teams": "DETvsCRD"
-        }, 
-        {
-          "date": "1937-09-19T00:00:00", 
-          "teams": "BDAvsPIT"
-        }, 
-        {
-          "date": "1937-09-21T00:00:00", 
-          "teams": "PHIvsRAM"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1937-09-24T00:00:00", 
-          "teams": "WASvsCRD"
-        }, 
-        {
-          "date": "1937-09-26T00:00:00", 
-          "teams": "BDAvsRAM"
-        }, 
-        {
-          "date": "1937-09-26T00:00:00", 
-          "teams": "PITvsNYG"
-        }, 
-        {
-          "date": "1937-09-26T00:00:00", 
-          "teams": "PHIvsCRD"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1937-10-03T00:00:00", 
-          "teams": "PHIvsNYG"
-        }, 
-        {
-          "date": "1937-10-03T00:00:00", 
-          "teams": "WASvsBDA"
-        }, 
-        {
-          "date": "1937-10-03T00:00:00", 
-          "teams": "GNBvsDET"
-        }, 
-        {
-          "date": "1937-10-03T00:00:00", 
-          "teams": "RAMvsCRD"
-        }, 
-        {
-          "date": "1937-10-04T00:00:00", 
-          "teams": "PITvsCHI"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1937-10-10T00:00:00", 
-          "teams": "GNBvsCRD"
-        }, 
-        {
-          "date": "1937-10-10T00:00:00", 
-          "teams": "DETvsPIT"
-        }, 
-        {
-          "date": "1937-10-10T00:00:00", 
-          "teams": "WASvsPHI"
-        }, 
-        {
-          "date": "1937-10-10T00:00:00", 
-          "teams": "RAMvsCHI"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1937-10-17T00:00:00", 
-          "teams": "CHIvsCRD"
-        }, 
-        {
-          "date": "1937-10-17T00:00:00", 
-          "teams": "WASvsPIT"
-        }, 
-        {
-          "date": "1937-10-17T00:00:00", 
-          "teams": "NYGvsPHI"
-        }, 
-        {
-          "date": "1937-10-17T00:00:00", 
-          "teams": "DETvsBDA"
-        }, 
-        {
-          "date": "1937-10-17T00:00:00", 
-          "teams": "RAMvsGNB"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1937-10-24T00:00:00", 
-          "teams": "CHIvsDET"
-        }, 
-        {
-          "date": "1937-10-24T00:00:00", 
-          "teams": "NYGvsBDA"
-        }, 
-        {
-          "date": "1937-10-24T00:00:00", 
-          "teams": "PHIvsWAS"
-        }, 
-        {
-          "date": "1937-10-24T00:00:00", 
-          "teams": "GNBvsRAM"
-        }, 
-        {
-          "date": "1937-10-24T00:00:00", 
-          "teams": "PITvsCRD"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1937-10-31T00:00:00", 
-          "teams": "BDAvsWAS"
-        }, 
-        {
-          "date": "1937-10-31T00:00:00", 
-          "teams": "CRDvsRAM"
-        }, 
-        {
-          "date": "1937-10-31T00:00:00", 
-          "teams": "DETvsGNB"
-        }, 
-        {
-          "date": "1937-10-31T00:00:00", 
-          "teams": "PITvsPHI"
-        }, 
-        {
-          "date": "1937-10-31T00:00:00", 
-          "teams": "NYGvsCHI"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1937-11-07T00:00:00", 
-          "teams": "CHIvsGNB"
-        }, 
-        {
-          "date": "1937-11-07T00:00:00", 
-          "teams": "NYGvsPIT"
-        }, 
-        {
-          "date": "1937-11-07T00:00:00", 
-          "teams": "BDAvsPHI"
-        }, 
-        {
-          "date": "1937-11-07T00:00:00", 
-          "teams": "DETvsRAM"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1937-11-14T00:00:00", 
-          "teams": "NYGvsDET"
-        }, 
-        {
-          "date": "1937-11-14T00:00:00", 
-          "teams": "CHIvsBDA"
-        }, 
-        {
-          "date": "1937-11-14T00:00:00", 
-          "teams": "PITvsWAS"
-        }, 
-        {
-          "date": "1937-11-14T00:00:00", 
-          "teams": "GNBvsPHI"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1937-11-21T00:00:00", 
-          "teams": "RAMvsWAS"
-        }, 
-        {
-          "date": "1937-11-21T00:00:00", 
-          "teams": "NYGvsGNB"
-        }, 
-        {
-          "date": "1937-11-21T00:00:00", 
-          "teams": "CRDvsDET"
-        }, 
-        {
-          "date": "1937-11-21T00:00:00", 
-          "teams": "PITvsBDA"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "alias": "Week 13", 
-      "events": [
-        {
-          "date": "1937-11-25T00:00:00", 
-          "teams": "DETvsCHI"
-        }, 
-        {
-          "date": "1937-11-25T00:00:00", 
-          "teams": "BDAvsNYG"
-        }, 
-        {
-          "date": "1937-11-28T00:00:00", 
-          "teams": "WASvsGNB"
-        }, 
-        {
-          "date": "1937-11-28T00:00:00", 
-          "teams": "CHIvsRAM"
-        }
-      ], 
-      "week": 13
-    }, 
-    {
-      "alias": "Week 14", 
-      "events": [
-        {
-          "date": "1937-12-05T00:00:00", 
-          "teams": "CRDvsCHI"
-        }, 
-        {
-          "date": "1937-12-05T00:00:00", 
-          "teams": "NYGvsWAS"
-        }
-      ], 
-      "week": 14
-    }, 
-    {
-      "events": [
-        {
-          "date": "1937-12-12T00:00:00", 
-          "teams": "CHIvsWAS"
-        }
-      ], 
-      "week": 3
     }
-  ]
 }

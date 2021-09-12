@@ -1,570 +1,1937 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1969-09-21T00:00:00", 
-          "teams": "PITvsDET"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1969-19690921ATLvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1969-09-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/196909210atl.htm", 
+                        "id": "196909210atl", 
+                        "key": "nfl1969-19690921ATLvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Atlanta Falcons vs. San Francisco 49ers", 
+                        "week": 1, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690921CLTvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1969-09-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196909210clt.htm", 
+                        "id": "196909210clt", 
+                        "key": "nfl1969-19690921CLTvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Los Angeles Rams", 
+                        "week": 1, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690921DALvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1969-09-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196909210dal.htm", 
+                        "id": "196909210dal", 
+                        "key": "nfl1969-19690921DALvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. St. Louis Cardinals", 
+                        "week": 1, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690921GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1969-09-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196909210gnb.htm", 
+                        "id": "196909210gnb", 
+                        "key": "nfl1969-19690921GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 1, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690921NORvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1969-09-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/196909210nor.htm", 
+                        "id": "196909210nor", 
+                        "key": "nfl1969-19690921NORvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New Orleans Saints vs. Washington Redskins", 
+                        "week": 1, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690921NYGvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1969-09-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196909210nyg.htm", 
+                        "id": "196909210nyg", 
+                        "key": "nfl1969-19690921NYGvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Minnesota Vikings", 
+                        "week": 1, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690921PHIvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1969-09-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196909210phi.htm", 
+                        "id": "196909210phi", 
+                        "key": "nfl1969-19690921PHIvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Cleveland Browns", 
+                        "week": 1, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690921PITvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1969-09-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196909210pit.htm", 
+                        "id": "196909210pit", 
+                        "key": "nfl1969-19690921PITvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Detroit Lions", 
+                        "week": 1, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1969-19690928CLEvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1969-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196909280cle.htm", 
+                        "id": "196909280cle", 
+                        "key": "nfl1969-19690928CLEvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Washington Redskins", 
+                        "week": 2, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690928CRDvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1969-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/196909280crd.htm", 
+                        "id": "196909280crd", 
+                        "key": "nfl1969-19690928CRDvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "St. Louis Cardinals vs. Chicago Bears", 
+                        "week": 2, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690928DETvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1969-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196909280det.htm", 
+                        "id": "196909280det", 
+                        "key": "nfl1969-19690928DETvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. New York Giants", 
+                        "week": 2, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690928GNBvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1969-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196909280gnb.htm", 
+                        "id": "196909280gnb", 
+                        "key": "nfl1969-19690928GNBvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. San Francisco 49ers", 
+                        "week": 2, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690928MINvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1969-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196909280min.htm", 
+                        "id": "196909280min", 
+                        "key": "nfl1969-19690928MINvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Baltimore Colts", 
+                        "week": 2, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690928NORvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1969-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/196909280nor.htm", 
+                        "id": "196909280nor", 
+                        "key": "nfl1969-19690928NORvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New Orleans Saints vs. Dallas Cowboys", 
+                        "week": 2, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690928PHIvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1969-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196909280phi.htm", 
+                        "id": "196909280phi", 
+                        "key": "nfl1969-19690928PHIvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Pittsburgh Steelers", 
+                        "week": 2, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19690928RAMvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1969-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196909280ram.htm", 
+                        "id": "196909280ram", 
+                        "key": "nfl1969-19690928RAMvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Atlanta Falcons", 
+                        "week": 2, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1969-19691005ATLvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1969-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/196910050atl.htm", 
+                        "id": "196910050atl", 
+                        "key": "nfl1969-19691005ATLvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Atlanta Falcons vs. Baltimore Colts", 
+                        "week": 3, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691005CLEvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1969-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196910050cle.htm", 
+                        "id": "196910050cle", 
+                        "key": "nfl1969-19691005CLEvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Detroit Lions", 
+                        "week": 3, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691005MINvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1969-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196910050min.htm", 
+                        "id": "196910050min", 
+                        "key": "nfl1969-19691005MINvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Green Bay Packers", 
+                        "week": 3, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691005NYGvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1969-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196910050nyg.htm", 
+                        "id": "196910050nyg", 
+                        "key": "nfl1969-19691005NYGvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Bears", 
+                        "week": 3, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691005PHIvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1969-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196910050phi.htm", 
+                        "id": "196910050phi", 
+                        "key": "nfl1969-19691005PHIvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Dallas Cowboys", 
+                        "week": 3, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691005PITvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1969-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196910050pit.htm", 
+                        "id": "196910050pit", 
+                        "key": "nfl1969-19691005PITvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. St. Louis Cardinals", 
+                        "week": 3, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691005RAMvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1969-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196910050ram.htm", 
+                        "id": "196910050ram", 
+                        "key": "nfl1969-19691005RAMvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. New Orleans Saints", 
+                        "week": 3, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691005SFOvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1969-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196910050sfo.htm", 
+                        "id": "196910050sfo", 
+                        "key": "nfl1969-19691005SFOvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Washington Redskins", 
+                        "week": 3, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1969-19691012ATLvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1969-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/196910120atl.htm", 
+                        "id": "196910120atl", 
+                        "key": "nfl1969-19691012ATLvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Atlanta Falcons vs. Dallas Cowboys", 
+                        "week": 4, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691012CHIvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1969-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196910120chi.htm", 
+                        "id": "196910120chi", 
+                        "key": "nfl1969-19691012CHIvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Minnesota Vikings", 
+                        "week": 4, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691012DETvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1969-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196910120det.htm", 
+                        "id": "196910120det", 
+                        "key": "nfl1969-19691012DETvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Green Bay Packers", 
+                        "week": 4, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691012NORvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1969-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/196910120nor.htm", 
+                        "id": "196910120nor", 
+                        "key": "nfl1969-19691012NORvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New Orleans Saints vs. Cleveland Browns", 
+                        "week": 4, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691012NYGvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1969-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196910120nyg.htm", 
+                        "id": "196910120nyg", 
+                        "key": "nfl1969-19691012NYGvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Pittsburgh Steelers", 
+                        "week": 4, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691012SFOvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1969-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196910120sfo.htm", 
+                        "id": "196910120sfo", 
+                        "key": "nfl1969-19691012SFOvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Los Angeles Rams", 
+                        "week": 4, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691012WASvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1969-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196910120was.htm", 
+                        "id": "196910120was", 
+                        "key": "nfl1969-19691012WASvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. St. Louis Cardinals", 
+                        "week": 4, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691013CLTvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1969-10-13T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196910130clt.htm", 
+                        "id": "196910130clt", 
+                        "key": "nfl1969-19691013CLTvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Philadelphia Eagles", 
+                        "week": 4, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1969-19691018CLEvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1969-10-18T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196910180cle.htm", 
+                        "id": "196910180cle", 
+                        "key": "nfl1969-19691018CLEvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Pittsburgh Steelers", 
+                        "week": 5, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691019CRDvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1969-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/196910190crd.htm", 
+                        "id": "196910190crd", 
+                        "key": "nfl1969-19691019CRDvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "St. Louis Cardinals vs. Minnesota Vikings", 
+                        "week": 5, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691019DALvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1969-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196910190dal.htm", 
+                        "id": "196910190dal", 
+                        "key": "nfl1969-19691019DALvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. Philadelphia Eagles", 
+                        "week": 5, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691019DETvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1969-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196910190det.htm", 
+                        "id": "196910190det", 
+                        "key": "nfl1969-19691019DETvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Chicago Bears", 
+                        "week": 5, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691019NORvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1969-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/196910190nor.htm", 
+                        "id": "196910190nor", 
+                        "key": "nfl1969-19691019NORvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New Orleans Saints vs. Baltimore Colts", 
+                        "week": 5, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691019RAMvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1969-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196910190ram.htm", 
+                        "id": "196910190ram", 
+                        "key": "nfl1969-19691019RAMvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Green Bay Packers", 
+                        "week": 5, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691019SFOvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1969-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196910190sfo.htm", 
+                        "id": "196910190sfo", 
+                        "key": "nfl1969-19691019SFOvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Atlanta Falcons", 
+                        "week": 5, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691019WASvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1969-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196910190was.htm", 
+                        "id": "196910190was", 
+                        "key": "nfl1969-19691019WASvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. New York Giants", 
+                        "week": 5, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1969-19691026CHIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1969-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196910260chi.htm", 
+                        "id": "196910260chi", 
+                        "key": "nfl1969-19691026CHIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Los Angeles Rams", 
+                        "week": 6, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691026CLEvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1969-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196910260cle.htm", 
+                        "id": "196910260cle", 
+                        "key": "nfl1969-19691026CLEvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. St. Louis Cardinals", 
+                        "week": 6, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691026CLTvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1969-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196910260clt.htm", 
+                        "id": "196910260clt", 
+                        "key": "nfl1969-19691026CLTvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. San Francisco 49ers", 
+                        "week": 6, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691026GNBvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1969-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196910260gnb.htm", 
+                        "id": "196910260gnb", 
+                        "key": "nfl1969-19691026GNBvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Atlanta Falcons", 
+                        "week": 6, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691026MINvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1969-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196910260min.htm", 
+                        "id": "196910260min", 
+                        "key": "nfl1969-19691026MINvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Detroit Lions", 
+                        "week": 6, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691026PHIvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1969-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196910260phi.htm", 
+                        "id": "196910260phi", 
+                        "key": "nfl1969-19691026PHIvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. New Orleans Saints", 
+                        "week": 6, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691026PITvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1969-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196910260pit.htm", 
+                        "id": "196910260pit", 
+                        "key": "nfl1969-19691026PITvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Washington Redskins", 
+                        "week": 6, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691027DALvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1969-10-27T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196910270dal.htm", 
+                        "id": "196910270dal", 
+                        "key": "nfl1969-19691027DALvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. New York Giants", 
+                        "week": 6, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1969-19691102ATLvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1969-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/196911020atl.htm", 
+                        "id": "196911020atl", 
+                        "key": "nfl1969-19691102ATLvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Atlanta Falcons vs. Los Angeles Rams", 
+                        "week": 7, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691102CLEvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1969-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196911020cle.htm", 
+                        "id": "196911020cle", 
+                        "key": "nfl1969-19691102CLEvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Dallas Cowboys", 
+                        "week": 7, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691102CLTvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1969-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196911020clt.htm", 
+                        "id": "196911020clt", 
+                        "key": "nfl1969-19691102CLTvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Washington Redskins", 
+                        "week": 7, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691102CRDvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1969-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/196911020crd.htm", 
+                        "id": "196911020crd", 
+                        "key": "nfl1969-19691102CRDvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "St. Louis Cardinals vs. New Orleans Saints", 
+                        "week": 7, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691102MINvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1969-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196911020min.htm", 
+                        "id": "196911020min", 
+                        "key": "nfl1969-19691102MINvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Chicago Bears", 
+                        "week": 7, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691102NYGvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1969-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196911020nyg.htm", 
+                        "id": "196911020nyg", 
+                        "key": "nfl1969-19691102NYGvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Philadelphia Eagles", 
+                        "week": 7, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691102PITvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1969-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196911020pit.htm", 
+                        "id": "196911020pit", 
+                        "key": "nfl1969-19691102PITvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Green Bay Packers", 
+                        "week": 7, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691102SFOvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1969-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196911020sfo.htm", 
+                        "id": "196911020sfo", 
+                        "key": "nfl1969-19691102SFOvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Detroit Lions", 
+                        "week": 7, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1969-19691109CHIvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1969-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196911090chi.htm", 
+                        "id": "196911090chi", 
+                        "key": "nfl1969-19691109CHIvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Pittsburgh Steelers", 
+                        "week": 8, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691109CLTvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1969-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196911090clt.htm", 
+                        "id": "196911090clt", 
+                        "key": "nfl1969-19691109CLTvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Green Bay Packers", 
+                        "week": 8, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691109CRDvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1969-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/196911090crd.htm", 
+                        "id": "196911090crd", 
+                        "key": "nfl1969-19691109CRDvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "St. Louis Cardinals vs. New York Giants", 
+                        "week": 8, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691109DALvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1969-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196911090dal.htm", 
+                        "id": "196911090dal", 
+                        "key": "nfl1969-19691109DALvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. New Orleans Saints", 
+                        "week": 8, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691109DETvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1969-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196911090det.htm", 
+                        "id": "196911090det", 
+                        "key": "nfl1969-19691109DETvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Atlanta Falcons", 
+                        "week": 8, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691109MINvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1969-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196911090min.htm", 
+                        "id": "196911090min", 
+                        "key": "nfl1969-19691109MINvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Cleveland Browns", 
+                        "week": 8, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691109RAMvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1969-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196911090ram.htm", 
+                        "id": "196911090ram", 
+                        "key": "nfl1969-19691109RAMvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. San Francisco 49ers", 
+                        "week": 8, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691109WASvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1969-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196911090was.htm", 
+                        "id": "196911090was", 
+                        "key": "nfl1969-19691109WASvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Philadelphia Eagles", 
+                        "week": 8, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1969-19691116ATLvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1969-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/196911160atl.htm", 
+                        "id": "196911160atl", 
+                        "key": "nfl1969-19691116ATLvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Atlanta Falcons vs. Chicago Bears", 
+                        "week": 9, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691116DETvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1969-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196911160det.htm", 
+                        "id": "196911160det", 
+                        "key": "nfl1969-19691116DETvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. St. Louis Cardinals", 
+                        "week": 9, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691116GNBvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1969-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196911160gnb.htm", 
+                        "id": "196911160gnb", 
+                        "key": "nfl1969-19691116GNBvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Minnesota Vikings", 
+                        "week": 9, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691116NYGvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1969-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196911160nyg.htm", 
+                        "id": "196911160nyg", 
+                        "key": "nfl1969-19691116NYGvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. New Orleans Saints", 
+                        "week": 9, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691116PHIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1969-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196911160phi.htm", 
+                        "id": "196911160phi", 
+                        "key": "nfl1969-19691116PHIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Los Angeles Rams", 
+                        "week": 9, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691116PITvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1969-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196911160pit.htm", 
+                        "id": "196911160pit", 
+                        "key": "nfl1969-19691116PITvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Cleveland Browns", 
+                        "week": 9, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691116SFOvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1969-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196911160sfo.htm", 
+                        "id": "196911160sfo", 
+                        "key": "nfl1969-19691116SFOvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Baltimore Colts", 
+                        "week": 9, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691116WASvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1969-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196911160was.htm", 
+                        "id": "196911160was", 
+                        "key": "nfl1969-19691116WASvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Dallas Cowboys", 
+                        "week": 9, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1969-19691123CHIvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1969-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196911230chi.htm", 
+                        "id": "196911230chi", 
+                        "key": "nfl1969-19691123CHIvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Baltimore Colts", 
+                        "week": 10, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691123CLEvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1969-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196911230cle.htm", 
+                        "id": "196911230cle", 
+                        "key": "nfl1969-19691123CLEvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. New York Giants", 
+                        "week": 10, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691123CRDvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1969-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/196911230crd.htm", 
+                        "id": "196911230crd", 
+                        "key": "nfl1969-19691123CRDvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "St. Louis Cardinals vs. Philadelphia Eagles", 
+                        "week": 10, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691123GNBvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1969-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196911230gnb.htm", 
+                        "id": "196911230gnb", 
+                        "key": "nfl1969-19691123GNBvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Detroit Lions", 
+                        "week": 10, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691123MINvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1969-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196911230min.htm", 
+                        "id": "196911230min", 
+                        "key": "nfl1969-19691123MINvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Pittsburgh Steelers", 
+                        "week": 10, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691123NORvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1969-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/196911230nor.htm", 
+                        "id": "196911230nor", 
+                        "key": "nfl1969-19691123NORvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New Orleans Saints vs. San Francisco 49ers", 
+                        "week": 10, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691123RAMvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1969-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196911230ram.htm", 
+                        "id": "196911230ram", 
+                        "key": "nfl1969-19691123RAMvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Dallas Cowboys", 
+                        "week": 10, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691123WASvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1969-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196911230was.htm", 
+                        "id": "196911230was", 
+                        "key": "nfl1969-19691123WASvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Atlanta Falcons", 
+                        "week": 10, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1969-19691127DALvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1969-11-27T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196911270dal.htm", 
+                        "id": "196911270dal", 
+                        "key": "nfl1969-19691127DALvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. San Francisco 49ers", 
+                        "week": 11, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691127DETvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1969-11-27T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196911270det.htm", 
+                        "id": "196911270det", 
+                        "key": "nfl1969-19691127DETvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Minnesota Vikings", 
+                        "week": 11, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691130CHIvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1969-11-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196911300chi.htm", 
+                        "id": "196911300chi", 
+                        "key": "nfl1969-19691130CHIvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Cleveland Browns", 
+                        "week": 11, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691130CLTvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1969-11-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196911300clt.htm", 
+                        "id": "196911300clt", 
+                        "key": "nfl1969-19691130CLTvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Atlanta Falcons", 
+                        "week": 11, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691130CRDvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1969-11-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/196911300crd.htm", 
+                        "id": "196911300crd", 
+                        "key": "nfl1969-19691130CRDvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "St. Louis Cardinals vs. Pittsburgh Steelers", 
+                        "week": 11, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691130GNBvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1969-11-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196911300gnb.htm", 
+                        "id": "196911300gnb", 
+                        "key": "nfl1969-19691130GNBvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. New York Giants", 
+                        "week": 11, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691130NORvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1969-11-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/196911300nor.htm", 
+                        "id": "196911300nor", 
+                        "key": "nfl1969-19691130NORvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New Orleans Saints vs. Philadelphia Eagles", 
+                        "week": 11, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691130WASvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1969-11-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196911300was.htm", 
+                        "id": "196911300was", 
+                        "key": "nfl1969-19691130WASvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Los Angeles Rams", 
+                        "week": 11, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1969-19691206SFOvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1969-12-06T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196912060sfo.htm", 
+                        "id": "196912060sfo", 
+                        "key": "nfl1969-19691206SFOvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Chicago Bears", 
+                        "week": 12, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691207ATLvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1969-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/196912070atl.htm", 
+                        "id": "196912070atl", 
+                        "key": "nfl1969-19691207ATLvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Atlanta Falcons vs. New Orleans Saints", 
+                        "week": 12, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691207CLEvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1969-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196912070cle.htm", 
+                        "id": "196912070cle", 
+                        "key": "nfl1969-19691207CLEvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691207CLTvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1969-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196912070clt.htm", 
+                        "id": "196912070clt", 
+                        "key": "nfl1969-19691207CLTvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Detroit Lions", 
+                        "week": 12, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691207NYGvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1969-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196912070nyg.htm", 
+                        "id": "196912070nyg", 
+                        "key": "nfl1969-19691207NYGvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. St. Louis Cardinals", 
+                        "week": 12, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691207PHIvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1969-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196912070phi.htm", 
+                        "id": "196912070phi", 
+                        "key": "nfl1969-19691207PHIvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Washington Redskins", 
+                        "week": 12, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691207PITvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1969-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196912070pit.htm", 
+                        "id": "196912070pit", 
+                        "key": "nfl1969-19691207PITvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Dallas Cowboys", 
+                        "week": 12, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691207RAMvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1969-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196912070ram.htm", 
+                        "id": "196912070ram", 
+                        "key": "nfl1969-19691207RAMvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Minnesota Vikings", 
+                        "week": 12, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "13": {
+                "events": {
+                    "nfl1969-19691213DALvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1969-12-13T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196912130dal.htm", 
+                        "id": "196912130dal", 
+                        "key": "nfl1969-19691213DALvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. Baltimore Colts", 
+                        "week": 13, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691214CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1969-12-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196912140chi.htm", 
+                        "id": "196912140chi", 
+                        "key": "nfl1969-19691214CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 13, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691214CRDvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1969-12-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/196912140crd.htm", 
+                        "id": "196912140crd", 
+                        "key": "nfl1969-19691214CRDvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "St. Louis Cardinals vs. Cleveland Browns", 
+                        "week": 13, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691214DETvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1969-12-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196912140det.htm", 
+                        "id": "196912140det", 
+                        "key": "nfl1969-19691214DETvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Los Angeles Rams", 
+                        "week": 13, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691214MINvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1969-12-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196912140min.htm", 
+                        "id": "196912140min", 
+                        "key": "nfl1969-19691214MINvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. San Francisco 49ers", 
+                        "week": 13, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691214PHIvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1969-12-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196912140phi.htm", 
+                        "id": "196912140phi", 
+                        "key": "nfl1969-19691214PHIvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Atlanta Falcons", 
+                        "week": 13, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691214PITvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1969-12-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196912140pit.htm", 
+                        "id": "196912140pit", 
+                        "key": "nfl1969-19691214PITvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. New York Giants", 
+                        "week": 13, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691214WASvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1969-12-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196912140was.htm", 
+                        "id": "196912140was", 
+                        "key": "nfl1969-19691214WASvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. New Orleans Saints", 
+                        "week": 13, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "14": {
+                "events": {
+                    "nfl1969-19691221ATLvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1969-12-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/196912210atl.htm", 
+                        "id": "196912210atl", 
+                        "key": "nfl1969-19691221ATLvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Atlanta Falcons vs. Minnesota Vikings", 
+                        "week": 14, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691221CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1969-12-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196912210chi.htm", 
+                        "id": "196912210chi", 
+                        "key": "nfl1969-19691221CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Detroit Lions", 
+                        "week": 14, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691221DALvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1969-12-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196912210dal.htm", 
+                        "id": "196912210dal", 
+                        "key": "nfl1969-19691221DALvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. Washington Redskins", 
+                        "week": 14, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691221GNBvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1969-12-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196912210gnb.htm", 
+                        "id": "196912210gnb", 
+                        "key": "nfl1969-19691221GNBvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. St. Louis Cardinals", 
+                        "week": 14, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691221NORvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1969-12-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/196912210nor.htm", 
+                        "id": "196912210nor", 
+                        "key": "nfl1969-19691221NORvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New Orleans Saints vs. Pittsburgh Steelers", 
+                        "week": 14, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691221NYGvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1969-12-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196912210nyg.htm", 
+                        "id": "196912210nyg", 
+                        "key": "nfl1969-19691221NYGvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Cleveland Browns", 
+                        "week": 14, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691221RAMvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1969-12-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196912210ram.htm", 
+                        "id": "196912210ram", 
+                        "key": "nfl1969-19691221RAMvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Baltimore Colts", 
+                        "week": 14, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691221SFOvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1969-12-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196912210sfo.htm", 
+                        "id": "196912210sfo", 
+                        "key": "nfl1969-19691221SFOvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Philadelphia Eagles", 
+                        "week": 14, 
+                        "year": "1969"
+                    }
+                }
+            }
         }, 
-        {
-          "date": "1969-09-21T00:00:00", 
-          "teams": "ATLvsSFO"
-        }, 
-        {
-          "date": "1969-09-21T00:00:00", 
-          "teams": "GNBvsCHI"
-        }, 
-        {
-          "date": "1969-09-21T00:00:00", 
-          "teams": "DALvsCRD"
-        }, 
-        {
-          "date": "1969-09-21T00:00:00", 
-          "teams": "NORvsWAS"
-        }, 
-        {
-          "date": "1969-09-21T00:00:00", 
-          "teams": "NYGvsMIN"
-        }, 
-        {
-          "date": "1969-09-21T00:00:00", 
-          "teams": "BCLvsRAM"
-        }, 
-        {
-          "date": "1969-09-21T00:00:00", 
-          "teams": "PHIvsCLE"
+        "1": {
+            "2": {
+                "events": {
+                    "nfl1969-19691227MINvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1969-12-27T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196912270min.htm", 
+                        "id": "196912270min", 
+                        "key": "nfl1969-19691227MINvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Divisional Round", 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Los Angeles Rams", 
+                        "week": 2, 
+                        "year": "1969"
+                    }, 
+                    "nfl1969-19691228DALvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1969-12-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196912280dal.htm", 
+                        "id": "196912280dal", 
+                        "key": "nfl1969-19691228DALvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Divisional Round", 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. Cleveland Browns", 
+                        "week": 2, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1969-19700104MINvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1970-01-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/197001040min.htm", 
+                        "id": "197001040min", 
+                        "key": "nfl1969-19700104MINvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Conference Championship", 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Cleveland Browns", 
+                        "week": 3, 
+                        "year": "1969"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1969-19700111KANvsMIN": {
+                        "alias": "Superbowl IV", 
+                        "awayTeam": "MIN", 
+                        "date": "1970-01-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": 1, 
+                        "homeTeam": "KAN", 
+                        "href": "/boxscores/197001110kan.htm", 
+                        "id": "197001110kan", 
+                        "key": "nfl1969-19700111KANvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "Superbowl IV", 
+                        "time": null, 
+                        "vs": "Kansas City Chiefs vs. Minnesota Vikings", 
+                        "week": 4, 
+                        "year": "1969"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1969-09-28T00:00:00", 
-          "teams": "MINvsBCL"
-        }, 
-        {
-          "date": "1969-09-28T00:00:00", 
-          "teams": "NORvsDAL"
-        }, 
-        {
-          "date": "1969-09-28T00:00:00", 
-          "teams": "PHIvsPIT"
-        }, 
-        {
-          "date": "1969-09-28T00:00:00", 
-          "teams": "GNBvsSFO"
-        }, 
-        {
-          "date": "1969-09-28T00:00:00", 
-          "teams": "DETvsNYG"
-        }, 
-        {
-          "date": "1969-09-28T00:00:00", 
-          "teams": "CRDvsCHI"
-        }, 
-        {
-          "date": "1969-09-28T00:00:00", 
-          "teams": "RAMvsATL"
-        }, 
-        {
-          "date": "1969-09-28T00:00:00", 
-          "teams": "CLEvsWAS"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1969-10-05T00:00:00", 
-          "teams": "SFOvsWAS"
-        }, 
-        {
-          "date": "1969-10-05T00:00:00", 
-          "teams": "ATLvsBCL"
-        }, 
-        {
-          "date": "1969-10-05T00:00:00", 
-          "teams": "PITvsCRD"
-        }, 
-        {
-          "date": "1969-10-05T00:00:00", 
-          "teams": "NYGvsCHI"
-        }, 
-        {
-          "date": "1969-10-05T00:00:00", 
-          "teams": "RAMvsNOR"
-        }, 
-        {
-          "date": "1969-10-05T00:00:00", 
-          "teams": "CLEvsDET"
-        }, 
-        {
-          "date": "1969-10-05T00:00:00", 
-          "teams": "PHIvsDAL"
-        }, 
-        {
-          "date": "1969-10-05T00:00:00", 
-          "teams": "MINvsGNB"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1969-10-12T00:00:00", 
-          "teams": "ATLvsDAL"
-        }, 
-        {
-          "date": "1969-10-12T00:00:00", 
-          "teams": "WASvsCRD"
-        }, 
-        {
-          "date": "1969-10-12T00:00:00", 
-          "teams": "DETvsGNB"
-        }, 
-        {
-          "date": "1969-10-12T00:00:00", 
-          "teams": "NORvsCLE"
-        }, 
-        {
-          "date": "1969-10-12T00:00:00", 
-          "teams": "CHIvsMIN"
-        }, 
-        {
-          "date": "1969-10-12T00:00:00", 
-          "teams": "SFOvsRAM"
-        }, 
-        {
-          "date": "1969-10-12T00:00:00", 
-          "teams": "NYGvsPIT"
-        }, 
-        {
-          "date": "1969-10-13T00:00:00", 
-          "teams": "BCLvsPHI"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1969-10-18T00:00:00", 
-          "teams": "CLEvsPIT"
-        }, 
-        {
-          "date": "1969-10-19T00:00:00", 
-          "teams": "SFOvsATL"
-        }, 
-        {
-          "date": "1969-10-19T00:00:00", 
-          "teams": "CRDvsMIN"
-        }, 
-        {
-          "date": "1969-10-19T00:00:00", 
-          "teams": "NORvsBCL"
-        }, 
-        {
-          "date": "1969-10-19T00:00:00", 
-          "teams": "DETvsCHI"
-        }, 
-        {
-          "date": "1969-10-19T00:00:00", 
-          "teams": "RAMvsGNB"
-        }, 
-        {
-          "date": "1969-10-19T00:00:00", 
-          "teams": "DALvsPHI"
-        }, 
-        {
-          "date": "1969-10-19T00:00:00", 
-          "teams": "WASvsNYG"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1969-10-26T00:00:00", 
-          "teams": "MINvsDET"
-        }, 
-        {
-          "date": "1969-10-26T00:00:00", 
-          "teams": "PHIvsNOR"
-        }, 
-        {
-          "date": "1969-10-26T00:00:00", 
-          "teams": "PITvsWAS"
-        }, 
-        {
-          "date": "1969-10-26T00:00:00", 
-          "teams": "GNBvsATL"
-        }, 
-        {
-          "date": "1969-10-26T00:00:00", 
-          "teams": "BCLvsSFO"
-        }, 
-        {
-          "date": "1969-10-26T00:00:00", 
-          "teams": "CHIvsRAM"
-        }, 
-        {
-          "date": "1969-10-26T00:00:00", 
-          "teams": "CLEvsCRD"
-        }, 
-        {
-          "date": "1969-10-27T00:00:00", 
-          "teams": "DALvsNYG"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1969-11-02T00:00:00", 
-          "teams": "ATLvsRAM"
-        }, 
-        {
-          "date": "1969-11-02T00:00:00", 
-          "teams": "SFOvsDET"
-        }, 
-        {
-          "date": "1969-11-02T00:00:00", 
-          "teams": "BCLvsWAS"
-        }, 
-        {
-          "date": "1969-11-02T00:00:00", 
-          "teams": "PITvsGNB"
-        }, 
-        {
-          "date": "1969-11-02T00:00:00", 
-          "teams": "NYGvsPHI"
-        }, 
-        {
-          "date": "1969-11-02T00:00:00", 
-          "teams": "CLEvsDAL"
-        }, 
-        {
-          "date": "1969-11-02T00:00:00", 
-          "teams": "CRDvsNOR"
-        }, 
-        {
-          "date": "1969-11-02T00:00:00", 
-          "teams": "MINvsCHI"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1969-11-09T00:00:00", 
-          "teams": "DALvsNOR"
-        }, 
-        {
-          "date": "1969-11-09T00:00:00", 
-          "teams": "RAMvsSFO"
-        }, 
-        {
-          "date": "1969-11-09T00:00:00", 
-          "teams": "MINvsCLE"
-        }, 
-        {
-          "date": "1969-11-09T00:00:00", 
-          "teams": "BCLvsGNB"
-        }, 
-        {
-          "date": "1969-11-09T00:00:00", 
-          "teams": "WASvsPHI"
-        }, 
-        {
-          "date": "1969-11-09T00:00:00", 
-          "teams": "CHIvsPIT"
-        }, 
-        {
-          "date": "1969-11-09T00:00:00", 
-          "teams": "CRDvsNYG"
-        }, 
-        {
-          "date": "1969-11-09T00:00:00", 
-          "teams": "DETvsATL"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1969-11-16T00:00:00", 
-          "teams": "PHIvsRAM"
-        }, 
-        {
-          "date": "1969-11-16T00:00:00", 
-          "teams": "WASvsDAL"
-        }, 
-        {
-          "date": "1969-11-16T00:00:00", 
-          "teams": "DETvsCRD"
-        }, 
-        {
-          "date": "1969-11-16T00:00:00", 
-          "teams": "GNBvsMIN"
-        }, 
-        {
-          "date": "1969-11-16T00:00:00", 
-          "teams": "PITvsCLE"
-        }, 
-        {
-          "date": "1969-11-16T00:00:00", 
-          "teams": "SFOvsBCL"
-        }, 
-        {
-          "date": "1969-11-16T00:00:00", 
-          "teams": "ATLvsCHI"
-        }, 
-        {
-          "date": "1969-11-16T00:00:00", 
-          "teams": "NYGvsNOR"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1969-11-23T00:00:00", 
-          "teams": "GNBvsDET"
-        }, 
-        {
-          "date": "1969-11-23T00:00:00", 
-          "teams": "WASvsATL"
-        }, 
-        {
-          "date": "1969-11-23T00:00:00", 
-          "teams": "CHIvsBCL"
-        }, 
-        {
-          "date": "1969-11-23T00:00:00", 
-          "teams": "NORvsSFO"
-        }, 
-        {
-          "date": "1969-11-23T00:00:00", 
-          "teams": "MINvsPIT"
-        }, 
-        {
-          "date": "1969-11-23T00:00:00", 
-          "teams": "CRDvsPHI"
-        }, 
-        {
-          "date": "1969-11-23T00:00:00", 
-          "teams": "CLEvsNYG"
-        }, 
-        {
-          "date": "1969-11-23T00:00:00", 
-          "teams": "RAMvsDAL"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1969-11-27T00:00:00", 
-          "teams": "DETvsMIN"
-        }, 
-        {
-          "date": "1969-11-27T00:00:00", 
-          "teams": "DALvsSFO"
-        }, 
-        {
-          "date": "1969-11-30T00:00:00", 
-          "teams": "NORvsPHI"
-        }, 
-        {
-          "date": "1969-11-30T00:00:00", 
-          "teams": "BCLvsATL"
-        }, 
-        {
-          "date": "1969-11-30T00:00:00", 
-          "teams": "CRDvsPIT"
-        }, 
-        {
-          "date": "1969-11-30T00:00:00", 
-          "teams": "WASvsRAM"
-        }, 
-        {
-          "date": "1969-11-30T00:00:00", 
-          "teams": "CHIvsCLE"
-        }, 
-        {
-          "date": "1969-11-30T00:00:00", 
-          "teams": "GNBvsNYG"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1969-12-06T00:00:00", 
-          "teams": "SFOvsCHI"
-        }, 
-        {
-          "date": "1969-12-07T00:00:00", 
-          "teams": "PHIvsWAS"
-        }, 
-        {
-          "date": "1969-12-07T00:00:00", 
-          "teams": "ATLvsNOR"
-        }, 
-        {
-          "date": "1969-12-07T00:00:00", 
-          "teams": "RAMvsMIN"
-        }, 
-        {
-          "date": "1969-12-07T00:00:00", 
-          "teams": "PITvsDAL"
-        }, 
-        {
-          "date": "1969-12-07T00:00:00", 
-          "teams": "CLEvsGNB"
-        }, 
-        {
-          "date": "1969-12-07T00:00:00", 
-          "teams": "BCLvsDET"
-        }, 
-        {
-          "date": "1969-12-07T00:00:00", 
-          "teams": "NYGvsCRD"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "alias": "Week 13", 
-      "events": [
-        {
-          "date": "1969-12-13T00:00:00", 
-          "teams": "DALvsBCL"
-        }, 
-        {
-          "date": "1969-12-14T00:00:00", 
-          "teams": "WASvsNOR"
-        }, 
-        {
-          "date": "1969-12-14T00:00:00", 
-          "teams": "PHIvsATL"
-        }, 
-        {
-          "date": "1969-12-14T00:00:00", 
-          "teams": "CHIvsGNB"
-        }, 
-        {
-          "date": "1969-12-14T00:00:00", 
-          "teams": "CRDvsCLE"
-        }, 
-        {
-          "date": "1969-12-14T00:00:00", 
-          "teams": "MINvsSFO"
-        }, 
-        {
-          "date": "1969-12-14T00:00:00", 
-          "teams": "PITvsNYG"
-        }, 
-        {
-          "date": "1969-12-14T00:00:00", 
-          "teams": "DETvsRAM"
-        }
-      ], 
-      "week": 13
-    }, 
-    {
-      "alias": "Week 14", 
-      "events": [
-        {
-          "date": "1969-12-21T00:00:00", 
-          "teams": "NORvsPIT"
-        }, 
-        {
-          "date": "1969-12-21T00:00:00", 
-          "teams": "SFOvsPHI"
-        }, 
-        {
-          "date": "1969-12-21T00:00:00", 
-          "teams": "GNBvsCRD"
-        }, 
-        {
-          "date": "1969-12-21T00:00:00", 
-          "teams": "RAMvsBCL"
-        }, 
-        {
-          "date": "1969-12-21T00:00:00", 
-          "teams": "NYGvsCLE"
-        }, 
-        {
-          "date": "1969-12-21T00:00:00", 
-          "teams": "DALvsWAS"
-        }, 
-        {
-          "date": "1969-12-21T00:00:00", 
-          "teams": "ATLvsMIN"
-        }, 
-        {
-          "date": "1969-12-21T00:00:00", 
-          "teams": "CHIvsDET"
-        }
-      ], 
-      "week": 14
-    }, 
-    {
-      "alias": "Divisional Round", 
-      "events": [
-        {
-          "date": "1969-12-27T00:00:00", 
-          "teams": "MINvsRAM"
-        }, 
-        {
-          "date": "1969-12-28T00:00:00", 
-          "teams": "DALvsCLE"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "events": [
-        {
-          "date": "1970-01-04T00:00:00", 
-          "teams": "MINvsCLE"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Superbowl IV", 
-      "events": [
-        {
-          "alias": "Superbowl IV", 
-          "date": "1970-01-11T00:00:00", 
-          "teams": "KANvsMIN"
-        }
-      ], 
-      "week": 4
     }
-  ]
 }

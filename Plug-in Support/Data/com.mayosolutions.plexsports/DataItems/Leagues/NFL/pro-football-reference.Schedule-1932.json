@@ -1,280 +1,830 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1932-09-18T00:00:00", 
-          "teams": "GNBvsCRD"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1932-19320918GNBvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1932-09-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193209180gnb.htm", 
+                        "id": "193209180gnb", 
+                        "key": "nfl1932-19320918GNBvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Cardinals", 
+                        "week": 1, 
+                        "year": "1932"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1932-19320925DETvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1932-09-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193209250det.htm", 
+                        "id": "193209250det", 
+                        "key": "nfl1932-19320925DETvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. New York Giants", 
+                        "week": 2, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19320925GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1932-09-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193209250gnb.htm", 
+                        "id": "193209250gnb", 
+                        "key": "nfl1932-19320925GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 2, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19320925SISvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1932-09-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193209250sis.htm", 
+                        "id": "193209250sis", 
+                        "key": "nfl1932-19320925SISvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Brooklyn Dodgers", 
+                        "week": 2, 
+                        "year": "1932"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1932-19321002DETvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1932-10-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193210020det.htm", 
+                        "id": "193210020det", 
+                        "key": "nfl1932-19321002DETvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Chicago Cardinals", 
+                        "week": 3, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321002GNBvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1932-10-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193210020gnb.htm", 
+                        "id": "193210020gnb", 
+                        "key": "nfl1932-19321002GNBvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321002SISvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1932-10-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193210020sis.htm", 
+                        "id": "193210020sis", 
+                        "key": "nfl1932-19321002SISvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Chicago Bears", 
+                        "week": 3, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321002WASvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1932-10-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193210020was.htm", 
+                        "id": "193210020was", 
+                        "key": "nfl1932-19321002WASvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Braves vs. Brooklyn Dodgers", 
+                        "week": 3, 
+                        "year": "1932"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1932-19321009BKNvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1932-10-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193210090bkn.htm", 
+                        "id": "193210090bkn", 
+                        "key": "nfl1932-19321009BKNvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Staten Island Stapletons", 
+                        "week": 4, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321009CRDvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1932-10-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193210090crd.htm", 
+                        "id": "193210090crd", 
+                        "key": "nfl1932-19321009CRDvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Chicago Bears", 
+                        "week": 4, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321009GNBvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1932-10-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193210090gnb.htm", 
+                        "id": "193210090gnb", 
+                        "key": "nfl1932-19321009GNBvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Portsmouth Spartans", 
+                        "week": 4, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321009WASvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1932-10-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193210090was.htm", 
+                        "id": "193210090was", 
+                        "key": "nfl1932-19321009WASvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Braves vs. New York Giants", 
+                        "week": 4, 
+                        "year": "1932"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1932-19321016CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1932-10-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193210160chi.htm", 
+                        "id": "193210160chi", 
+                        "key": "nfl1932-19321016CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 5, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321016NYGvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1932-10-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193210160nyg.htm", 
+                        "id": "193210160nyg", 
+                        "key": "nfl1932-19321016NYGvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Brooklyn Dodgers", 
+                        "week": 5, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321016SISvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1932-10-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193210160sis.htm", 
+                        "id": "193210160sis", 
+                        "key": "nfl1932-19321016SISvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Portsmouth Spartans", 
+                        "week": 5, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321016WASvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1932-10-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193210160was.htm", 
+                        "id": "193210160was", 
+                        "key": "nfl1932-19321016WASvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Braves vs. Chicago Cardinals", 
+                        "week": 5, 
+                        "year": "1932"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1932-19321020SISvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1932-10-20T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193210200sis.htm", 
+                        "id": "193210200sis", 
+                        "key": "nfl1932-19321020SISvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Portsmouth Spartans", 
+                        "week": 6, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321023CHIvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1932-10-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193210230chi.htm", 
+                        "id": "193210230chi", 
+                        "key": "nfl1932-19321023CHIvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Staten Island Stapletons", 
+                        "week": 6, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321023GNBvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1932-10-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193210230gnb.htm", 
+                        "id": "193210230gnb", 
+                        "key": "nfl1932-19321023GNBvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Brooklyn Dodgers", 
+                        "week": 6, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321023NYGvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1932-10-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193210230nyg.htm", 
+                        "id": "193210230nyg", 
+                        "key": "nfl1932-19321023NYGvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Boston Braves", 
+                        "week": 6, 
+                        "year": "1932"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1932-19321030CRDvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1932-10-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193210300crd.htm", 
+                        "id": "193210300crd", 
+                        "key": "nfl1932-19321030CRDvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Brooklyn Dodgers", 
+                        "week": 7, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321030GNBvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1932-10-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193210300gnb.htm", 
+                        "id": "193210300gnb", 
+                        "key": "nfl1932-19321030GNBvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Staten Island Stapletons", 
+                        "week": 7, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321030NYGvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1932-10-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193210300nyg.htm", 
+                        "id": "193210300nyg", 
+                        "key": "nfl1932-19321030NYGvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Portsmouth Spartans", 
+                        "week": 7, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321030WASvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1932-10-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193210300was.htm", 
+                        "id": "193210300was", 
+                        "key": "nfl1932-19321030WASvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Braves vs. Chicago Bears", 
+                        "week": 7, 
+                        "year": "1932"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1932-19321106BKNvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1932-11-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193211060bkn.htm", 
+                        "id": "193211060bkn", 
+                        "key": "nfl1932-19321106BKNvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Portsmouth Spartans", 
+                        "week": 8, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321106CRDvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1932-11-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193211060crd.htm", 
+                        "id": "193211060crd", 
+                        "key": "nfl1932-19321106CRDvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Green Bay Packers", 
+                        "week": 8, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321106NYGvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1932-11-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193211060nyg.htm", 
+                        "id": "193211060nyg", 
+                        "key": "nfl1932-19321106NYGvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Bears", 
+                        "week": 8, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321106WASvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1932-11-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193211060was.htm", 
+                        "id": "193211060was", 
+                        "key": "nfl1932-19321106WASvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Braves vs. Staten Island Stapletons", 
+                        "week": 8, 
+                        "year": "1932"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1932-19321113BKNvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1932-11-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193211130bkn.htm", 
+                        "id": "193211130bkn", 
+                        "key": "nfl1932-19321113BKNvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Chicago Cardinals", 
+                        "week": 9, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321113CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1932-11-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193211130chi.htm", 
+                        "id": "193211130chi", 
+                        "key": "nfl1932-19321113CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Portsmouth Spartans", 
+                        "week": 9, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321113NYGvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1932-11-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193211130nyg.htm", 
+                        "id": "193211130nyg", 
+                        "key": "nfl1932-19321113NYGvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Staten Island Stapletons", 
+                        "week": 9, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321113WASvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1932-11-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193211130was.htm", 
+                        "id": "193211130was", 
+                        "key": "nfl1932-19321113WASvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Braves vs. Green Bay Packers", 
+                        "week": 9, 
+                        "year": "1932"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1932-19321120CHIvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1932-11-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193211200chi.htm", 
+                        "id": "193211200chi", 
+                        "key": "nfl1932-19321120CHIvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Brooklyn Dodgers", 
+                        "week": 10, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321120DETvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1932-11-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193211200det.htm", 
+                        "id": "193211200det", 
+                        "key": "nfl1932-19321120DETvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Boston Braves", 
+                        "week": 10, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321120NYGvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1932-11-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193211200nyg.htm", 
+                        "id": "193211200nyg", 
+                        "key": "nfl1932-19321120NYGvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Green Bay Packers", 
+                        "week": 10, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321120SISvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1932-11-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193211200sis.htm", 
+                        "id": "193211200sis", 
+                        "key": "nfl1932-19321120SISvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Chicago Cardinals", 
+                        "week": 10, 
+                        "year": "1932"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1932-19321124BKNvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1932-11-24T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193211240bkn.htm", 
+                        "id": "193211240bkn", 
+                        "key": "nfl1932-19321124BKNvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Green Bay Packers", 
+                        "week": 11, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321124CHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1932-11-24T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193211240chi.htm", 
+                        "id": "193211240chi", 
+                        "key": "nfl1932-19321124CHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Chicago Cardinals", 
+                        "week": 11, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321124SISvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1932-11-24T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193211240sis.htm", 
+                        "id": "193211240sis", 
+                        "key": "nfl1932-19321124SISvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. New York Giants", 
+                        "week": 11, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321127BKNvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1932-11-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193211270bkn.htm", 
+                        "id": "193211270bkn", 
+                        "key": "nfl1932-19321127BKNvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. New York Giants", 
+                        "week": 11, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321127CRDvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1932-11-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193211270crd.htm", 
+                        "id": "193211270crd", 
+                        "key": "nfl1932-19321127CRDvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Boston Braves", 
+                        "week": 11, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321127DETvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1932-11-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193211270det.htm", 
+                        "id": "193211270det", 
+                        "key": "nfl1932-19321127DETvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Chicago Bears", 
+                        "week": 11, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321127SISvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1932-11-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193211270sis.htm", 
+                        "id": "193211270sis", 
+                        "key": "nfl1932-19321127SISvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Green Bay Packers", 
+                        "week": 11, 
+                        "year": "1932"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1932-19321204BKNvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1932-12-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193212040bkn.htm", 
+                        "id": "193212040bkn", 
+                        "key": "nfl1932-19321204BKNvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Boston Braves", 
+                        "week": 12, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321204CHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1932-12-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193212040chi.htm", 
+                        "id": "193212040chi", 
+                        "key": "nfl1932-19321204CHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. New York Giants", 
+                        "week": 12, 
+                        "year": "1932"
+                    }, 
+                    "nfl1932-19321204DETvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1932-12-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193212040det.htm", 
+                        "id": "193212040det", 
+                        "key": "nfl1932-19321204DETvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1932"
+                    }
+                }
+            }, 
+            "13": {
+                "events": {
+                    "nfl1932-19321211CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1932-12-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193212110chi.htm", 
+                        "id": "193212110chi", 
+                        "key": "nfl1932-19321211CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 13, 
+                        "year": "1932"
+                    }
+                }
+            }, 
+            "14": {
+                "events": {
+                    "nfl1932-19321218CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1932-12-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193212180chi.htm", 
+                        "id": "193212180chi", 
+                        "key": "nfl1932-19321218CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Portsmouth Spartans", 
+                        "week": 14, 
+                        "year": "1932"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1932-09-25T00:00:00", 
-          "teams": "GNBvsCHI"
-        }, 
-        {
-          "date": "1932-09-25T00:00:00", 
-          "teams": "DETvsNYG"
-        }, 
-        {
-          "date": "1932-09-25T00:00:00", 
-          "teams": "SISvsBDA"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1932-10-02T00:00:00", 
-          "teams": "GNBvsNYG"
-        }, 
-        {
-          "date": "1932-10-02T00:00:00", 
-          "teams": "SISvsCHI"
-        }, 
-        {
-          "date": "1932-10-02T00:00:00", 
-          "teams": "DETvsCRD"
-        }, 
-        {
-          "date": "1932-10-02T00:00:00", 
-          "teams": "WASvsBDA"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1932-10-09T00:00:00", 
-          "teams": "GNBvsDET"
-        }, 
-        {
-          "date": "1932-10-09T00:00:00", 
-          "teams": "WASvsNYG"
-        }, 
-        {
-          "date": "1932-10-09T00:00:00", 
-          "teams": "CRDvsCHI"
-        }, 
-        {
-          "date": "1932-10-09T00:00:00", 
-          "teams": "BDAvsSIS"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1932-10-16T00:00:00", 
-          "teams": "SISvsDET"
-        }, 
-        {
-          "date": "1932-10-16T00:00:00", 
-          "teams": "CHIvsGNB"
-        }, 
-        {
-          "date": "1932-10-16T00:00:00", 
-          "teams": "NYGvsBDA"
-        }, 
-        {
-          "date": "1932-10-16T00:00:00", 
-          "teams": "WASvsCRD"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1932-10-20T00:00:00", 
-          "teams": "SISvsDET"
-        }, 
-        {
-          "date": "1932-10-23T00:00:00", 
-          "teams": "GNBvsBDA"
-        }, 
-        {
-          "date": "1932-10-23T00:00:00", 
-          "teams": "NYGvsWAS"
-        }, 
-        {
-          "date": "1932-10-23T00:00:00", 
-          "teams": "CHIvsSIS"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1932-10-30T00:00:00", 
-          "teams": "NYGvsDET"
-        }, 
-        {
-          "date": "1932-10-30T00:00:00", 
-          "teams": "GNBvsSIS"
-        }, 
-        {
-          "date": "1932-10-30T00:00:00", 
-          "teams": "CRDvsBDA"
-        }, 
-        {
-          "date": "1932-10-30T00:00:00", 
-          "teams": "WASvsCHI"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1932-11-06T00:00:00", 
-          "teams": "NYGvsCHI"
-        }, 
-        {
-          "date": "1932-11-06T00:00:00", 
-          "teams": "WASvsSIS"
-        }, 
-        {
-          "date": "1932-11-06T00:00:00", 
-          "teams": "BDAvsDET"
-        }, 
-        {
-          "date": "1932-11-06T00:00:00", 
-          "teams": "CRDvsGNB"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1932-11-13T00:00:00", 
-          "teams": "BDAvsCRD"
-        }, 
-        {
-          "date": "1932-11-13T00:00:00", 
-          "teams": "NYGvsSIS"
-        }, 
-        {
-          "date": "1932-11-13T00:00:00", 
-          "teams": "CHIvsDET"
-        }, 
-        {
-          "date": "1932-11-13T00:00:00", 
-          "teams": "WASvsGNB"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1932-11-20T00:00:00", 
-          "teams": "NYGvsGNB"
-        }, 
-        {
-          "date": "1932-11-20T00:00:00", 
-          "teams": "DETvsWAS"
-        }, 
-        {
-          "date": "1932-11-20T00:00:00", 
-          "teams": "CHIvsBDA"
-        }, 
-        {
-          "date": "1932-11-20T00:00:00", 
-          "teams": "SISvsCRD"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1932-11-24T00:00:00", 
-          "teams": "BDAvsGNB"
-        }, 
-        {
-          "date": "1932-11-24T00:00:00", 
-          "teams": "SISvsNYG"
-        }, 
-        {
-          "date": "1932-11-24T00:00:00", 
-          "teams": "CHIvsCRD"
-        }, 
-        {
-          "date": "1932-11-27T00:00:00", 
-          "teams": "BDAvsNYG"
-        }, 
-        {
-          "date": "1932-11-27T00:00:00", 
-          "teams": "CRDvsWAS"
-        }, 
-        {
-          "date": "1932-11-27T00:00:00", 
-          "teams": "DETvsCHI"
-        }, 
-        {
-          "date": "1932-11-27T00:00:00", 
-          "teams": "SISvsGNB"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1932-12-04T00:00:00", 
-          "teams": "BDAvsWAS"
-        }, 
-        {
-          "date": "1932-12-04T00:00:00", 
-          "teams": "DETvsGNB"
-        }, 
-        {
-          "date": "1932-12-04T00:00:00", 
-          "teams": "CHIvsNYG"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "alias": "Week 13", 
-      "events": [
-        {
-          "date": "1932-12-11T00:00:00", 
-          "teams": "CHIvsGNB"
-        }
-      ], 
-      "week": 13
-    }, 
-    {
-      "alias": "Week 14", 
-      "events": [
-        {
-          "date": "1932-12-18T00:00:00", 
-          "teams": "CHIvsDET"
-        }
-      ], 
-      "week": 14
     }
-  ]
 }

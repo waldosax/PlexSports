@@ -1,324 +1,1006 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1931-09-13T00:00:00", 
-          "teams": "DETvsBDA"
-        }, 
-        {
-          "date": "1931-09-13T00:00:00", 
-          "teams": "GNBvsCLI"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1931-19310913DETvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1931-09-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193109130det.htm", 
+                        "id": "193109130det", 
+                        "key": "nfl1931-19310913DETvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Brooklyn Dodgers", 
+                        "week": 1, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19310913GNBvsCLI": {
+                        "awayTeam": "CLI", 
+                        "date": "1931-09-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193109130gnb.htm", 
+                        "id": "193109130gnb", 
+                        "key": "nfl1931-19310913GNBvsCLI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Cleveland Indians", 
+                        "week": 1, 
+                        "year": "1931"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1931-19310918CHIvsCLI": {
+                        "awayTeam": "CLI", 
+                        "date": "1931-09-18T00:00:00", 
+                        "day": "Fri", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193109180chi.htm", 
+                        "id": "193109180chi", 
+                        "key": "nfl1931-19310918CHIvsCLI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Cleveland Indians", 
+                        "week": 2, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19310920GNBvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1931-09-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193109200gnb.htm", 
+                        "id": "193109200gnb", 
+                        "key": "nfl1931-19310920GNBvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Brooklyn Dodgers", 
+                        "week": 2, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19310923DETvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1931-09-23T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193109230det.htm", 
+                        "id": "193109230det", 
+                        "key": "nfl1931-19310923DETvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Chicago Cardinals", 
+                        "week": 2, 
+                        "year": "1931"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1931-19310926CLIvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1931-09-26T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLI", 
+                        "href": "/boxscores/193109260cli.htm", 
+                        "id": "193109260cli", 
+                        "key": "nfl1931-19310926CLIvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Indians vs. Brooklyn Dodgers", 
+                        "week": 3, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19310927GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1931-09-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193109270gnb.htm", 
+                        "id": "193109270gnb", 
+                        "key": "nfl1931-19310927GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 3, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19310927PRVvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1931-09-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193109270prv.htm", 
+                        "id": "193109270prv", 
+                        "key": "nfl1931-19310927PRVvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19310930DETvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1931-09-30T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193109300det.htm", 
+                        "id": "193109300det", 
+                        "key": "nfl1931-19310930DETvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1931"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1931-19311002FYJvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1931-10-02T00:00:00", 
+                        "day": "Fri", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/193110020fyj.htm", 
+                        "id": "193110020fyj", 
+                        "key": "nfl1931-19311002FYJvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Brooklyn Dodgers", 
+                        "week": 4, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311004GNBvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1931-10-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193110040gnb.htm", 
+                        "id": "193110040gnb", 
+                        "key": "nfl1931-19311004GNBvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. New York Giants", 
+                        "week": 4, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311004PRVvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1931-10-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193110040prv.htm", 
+                        "id": "193110040prv", 
+                        "key": "nfl1931-19311004PRVvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Frankford Yellow Jackets", 
+                        "week": 4, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311004SISvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1931-10-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193110040sis.htm", 
+                        "id": "193110040sis", 
+                        "key": "nfl1931-19311004SISvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Brooklyn Dodgers", 
+                        "week": 4, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311007DETvsCLI": {
+                        "awayTeam": "CLI", 
+                        "date": "1931-10-07T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193110070det.htm", 
+                        "id": "193110070det", 
+                        "key": "nfl1931-19311007DETvsCLI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Cleveland Indians", 
+                        "week": 4, 
+                        "year": "1931"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1931-19311010FYJvsPRV": {
+                        "awayTeam": "PRV", 
+                        "date": "1931-10-10T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/193110100fyj.htm", 
+                        "id": "193110100fyj", 
+                        "key": "nfl1931-19311010FYJvsPRV", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Providence Steam Roller", 
+                        "week": 5, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311011BKNvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1931-10-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193110110bkn.htm", 
+                        "id": "193110110bkn", 
+                        "key": "nfl1931-19311011BKNvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Staten Island Stapletons", 
+                        "week": 5, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311011CHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1931-10-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193110110chi.htm", 
+                        "id": "193110110chi", 
+                        "key": "nfl1931-19311011CHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. New York Giants", 
+                        "week": 5, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311011GNBvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1931-10-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193110110gnb.htm", 
+                        "id": "193110110gnb", 
+                        "key": "nfl1931-19311011GNBvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Cardinals", 
+                        "week": 5, 
+                        "year": "1931"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1931-19311015DETvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1931-10-15T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193110150det.htm", 
+                        "id": "193110150det", 
+                        "key": "nfl1931-19311015DETvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Frankford Yellow Jackets", 
+                        "week": 6, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311018BKNvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1931-10-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193110180bkn.htm", 
+                        "id": "193110180bkn", 
+                        "key": "nfl1931-19311018BKNvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Portsmouth Spartans", 
+                        "week": 6, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311018CHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1931-10-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193110180chi.htm", 
+                        "id": "193110180chi", 
+                        "key": "nfl1931-19311018CHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Chicago Cardinals", 
+                        "week": 6, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311018GNBvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1931-10-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193110180gnb.htm", 
+                        "id": "193110180gnb", 
+                        "key": "nfl1931-19311018GNBvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Frankford Yellow Jackets", 
+                        "week": 6, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311018NYGvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1931-10-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193110180nyg.htm", 
+                        "id": "193110180nyg", 
+                        "key": "nfl1931-19311018NYGvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Staten Island Stapletons", 
+                        "week": 6, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311018PRVvsCLI": {
+                        "awayTeam": "CLI", 
+                        "date": "1931-10-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193110180prv.htm", 
+                        "id": "193110180prv", 
+                        "key": "nfl1931-19311018PRVvsCLI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Cleveland Indians", 
+                        "week": 6, 
+                        "year": "1931"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1931-19311025CHIvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1931-10-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193110250chi.htm", 
+                        "id": "193110250chi", 
+                        "key": "nfl1931-19311025CHIvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Frankford Yellow Jackets", 
+                        "week": 7, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311025GNBvsPRV": {
+                        "awayTeam": "PRV", 
+                        "date": "1931-10-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193110250gnb.htm", 
+                        "id": "193110250gnb", 
+                        "key": "nfl1931-19311025GNBvsPRV", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Providence Steam Roller", 
+                        "week": 7, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311025NYGvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1931-10-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193110250nyg.htm", 
+                        "id": "193110250nyg", 
+                        "key": "nfl1931-19311025NYGvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Brooklyn Dodgers", 
+                        "week": 7, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311025SISvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1931-10-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193110250sis.htm", 
+                        "id": "193110250sis", 
+                        "key": "nfl1931-19311025SISvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Portsmouth Spartans", 
+                        "week": 7, 
+                        "year": "1931"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1931-19311031FYJvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1931-10-31T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/193110310fyj.htm", 
+                        "id": "193110310fyj", 
+                        "key": "nfl1931-19311031FYJvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Portsmouth Spartans", 
+                        "week": 8, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311101BKNvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1931-11-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193111010bkn.htm", 
+                        "id": "193111010bkn", 
+                        "key": "nfl1931-19311101BKNvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Chicago Cardinals", 
+                        "week": 8, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311101CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1931-11-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193111010chi.htm", 
+                        "id": "193111010chi", 
+                        "key": "nfl1931-19311101CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 8, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311101NYGvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1931-11-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193111010nyg.htm", 
+                        "id": "193111010nyg", 
+                        "key": "nfl1931-19311101NYGvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Portsmouth Spartans", 
+                        "week": 8, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311101SISvsPRV": {
+                        "awayTeam": "PRV", 
+                        "date": "1931-11-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193111010sis.htm", 
+                        "id": "193111010sis", 
+                        "key": "nfl1931-19311101SISvsPRV", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Providence Steam Roller", 
+                        "week": 8, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311104SISvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1931-11-04T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193111040sis.htm", 
+                        "id": "193111040sis", 
+                        "key": "nfl1931-19311104SISvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Brooklyn Dodgers", 
+                        "week": 8, 
+                        "year": "1931"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1931-19311108CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1931-11-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193111080chi.htm", 
+                        "id": "193111080chi", 
+                        "key": "nfl1931-19311108CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Portsmouth Spartans", 
+                        "week": 9, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311108CLIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1931-11-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLI", 
+                        "href": "/boxscores/193111080cli.htm", 
+                        "id": "193111080cli", 
+                        "key": "nfl1931-19311108CLIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Indians vs. Chicago Cardinals", 
+                        "week": 9, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311108GNBvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1931-11-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193111080gnb.htm", 
+                        "id": "193111080gnb", 
+                        "key": "nfl1931-19311108GNBvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Staten Island Stapletons", 
+                        "week": 9, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311108NYGvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1931-11-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193111080nyg.htm", 
+                        "id": "193111080nyg", 
+                        "key": "nfl1931-19311108NYGvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Frankford Yellow Jackets", 
+                        "week": 9, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311108PRVvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1931-11-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193111080prv.htm", 
+                        "id": "193111080prv", 
+                        "key": "nfl1931-19311108PRVvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Brooklyn Dodgers", 
+                        "week": 9, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311111DETvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1931-11-11T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193111110det.htm", 
+                        "id": "193111110det", 
+                        "key": "nfl1931-19311111DETvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Staten Island Stapletons", 
+                        "week": 9, 
+                        "year": "1931"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1931-19311115CRDvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1931-11-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193111150crd.htm", 
+                        "id": "193111150crd", 
+                        "key": "nfl1931-19311115CRDvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Green Bay Packers", 
+                        "week": 10, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311115DETvsCLI": {
+                        "awayTeam": "CLI", 
+                        "date": "1931-11-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193111150det.htm", 
+                        "id": "193111150det", 
+                        "key": "nfl1931-19311115DETvsCLI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Cleveland Indians", 
+                        "week": 10, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311115NYGvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1931-11-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193111150nyg.htm", 
+                        "id": "193111150nyg", 
+                        "key": "nfl1931-19311115NYGvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Bears", 
+                        "week": 10, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311115PRVvsSIS": {
+                        "awayTeam": "SIS", 
+                        "date": "1931-11-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193111150prv.htm", 
+                        "id": "193111150prv", 
+                        "key": "nfl1931-19311115PRVvsSIS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Staten Island Stapletons", 
+                        "week": 10, 
+                        "year": "1931"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1931-19311121PRVvsCLI": {
+                        "awayTeam": "CLI", 
+                        "date": "1931-11-21T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193111210prv.htm", 
+                        "id": "193111210prv", 
+                        "key": "nfl1931-19311121PRVvsCLI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Cleveland Indians", 
+                        "week": 11, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311122BKNvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1931-11-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193111220bkn.htm", 
+                        "id": "193111220bkn", 
+                        "key": "nfl1931-19311122BKNvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Chicago Bears", 
+                        "week": 11, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311122CRDvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1931-11-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193111220crd.htm", 
+                        "id": "193111220crd", 
+                        "key": "nfl1931-19311122CRDvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Portsmouth Spartans", 
+                        "week": 11, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311122NYGvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1931-11-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193111220nyg.htm", 
+                        "id": "193111220nyg", 
+                        "key": "nfl1931-19311122NYGvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Green Bay Packers", 
+                        "week": 11, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311122SISvsCLI": {
+                        "awayTeam": "CLI", 
+                        "date": "1931-11-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193111220sis.htm", 
+                        "id": "193111220sis", 
+                        "key": "nfl1931-19311122SISvsCLI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. Cleveland Indians", 
+                        "week": 11, 
+                        "year": "1931"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1931-19311126CHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1931-11-26T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193111260chi.htm", 
+                        "id": "193111260chi", 
+                        "key": "nfl1931-19311126CHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Chicago Cardinals", 
+                        "week": 12, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311126PRVvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1931-11-26T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/193111260prv.htm", 
+                        "id": "193111260prv", 
+                        "key": "nfl1931-19311126PRVvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311126SISvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1931-11-26T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "SIS", 
+                        "href": "/boxscores/193111260sis.htm", 
+                        "id": "193111260sis", 
+                        "key": "nfl1931-19311126SISvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Staten Island Stapletons vs. New York Giants", 
+                        "week": 12, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311128CRDvsCLI": {
+                        "awayTeam": "CLI", 
+                        "date": "1931-11-28T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193111280crd.htm", 
+                        "id": "193111280crd", 
+                        "key": "nfl1931-19311128CRDvsCLI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Cleveland Indians", 
+                        "week": 12, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311129BKNvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1931-11-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193111290bkn.htm", 
+                        "id": "193111290bkn", 
+                        "key": "nfl1931-19311129BKNvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311129DETvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1931-11-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193111290det.htm", 
+                        "id": "193111290det", 
+                        "key": "nfl1931-19311129DETvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Chicago Bears", 
+                        "week": 12, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311129NYGvsPRV": {
+                        "awayTeam": "PRV", 
+                        "date": "1931-11-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193111290nyg.htm", 
+                        "id": "193111290nyg", 
+                        "key": "nfl1931-19311129NYGvsPRV", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Providence Steam Roller", 
+                        "week": 12, 
+                        "year": "1931"
+                    }
+                }
+            }, 
+            "13": {
+                "events": {
+                    "nfl1931-19311206BKNvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1931-12-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193112060bkn.htm", 
+                        "id": "193112060bkn", 
+                        "key": "nfl1931-19311206BKNvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. New York Giants", 
+                        "week": 13, 
+                        "year": "1931"
+                    }, 
+                    "nfl1931-19311206CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1931-12-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193112060chi.htm", 
+                        "id": "193112060chi", 
+                        "key": "nfl1931-19311206CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 13, 
+                        "year": "1931"
+                    }
+                }
+            }, 
+            "14": {
+                "events": {
+                    "nfl1931-19311213CHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1931-12-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193112130chi.htm", 
+                        "id": "193112130chi", 
+                        "key": "nfl1931-19311213CHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. New York Giants", 
+                        "week": 14, 
+                        "year": "1931"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1931-09-18T00:00:00", 
-          "teams": "CHIvsCLI"
-        }, 
-        {
-          "date": "1931-09-20T00:00:00", 
-          "teams": "GNBvsBDA"
-        }, 
-        {
-          "date": "1931-09-23T00:00:00", 
-          "teams": "DETvsCRD"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1931-09-26T00:00:00", 
-          "teams": "CLIvsBDA"
-        }, 
-        {
-          "date": "1931-09-27T00:00:00", 
-          "teams": "PRVvsNYG"
-        }, 
-        {
-          "date": "1931-09-27T00:00:00", 
-          "teams": "GNBvsCHI"
-        }, 
-        {
-          "date": "1931-09-30T00:00:00", 
-          "teams": "DETvsNYG"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1931-10-02T00:00:00", 
-          "teams": "FYJvsBDA"
-        }, 
-        {
-          "date": "1931-10-04T00:00:00", 
-          "teams": "GNBvsNYG"
-        }, 
-        {
-          "date": "1931-10-04T00:00:00", 
-          "teams": "SISvsBDA"
-        }, 
-        {
-          "date": "1931-10-04T00:00:00", 
-          "teams": "PRVvsFYJ"
-        }, 
-        {
-          "date": "1931-10-07T00:00:00", 
-          "teams": "DETvsCLI"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1931-10-10T00:00:00", 
-          "teams": "FYJvsPRV"
-        }, 
-        {
-          "date": "1931-10-11T00:00:00", 
-          "teams": "GNBvsCRD"
-        }, 
-        {
-          "date": "1931-10-11T00:00:00", 
-          "teams": "CHIvsNYG"
-        }, 
-        {
-          "date": "1931-10-11T00:00:00", 
-          "teams": "BDAvsSIS"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1931-10-15T00:00:00", 
-          "teams": "DETvsFYJ"
-        }, 
-        {
-          "date": "1931-10-18T00:00:00", 
-          "teams": "PRVvsCLI"
-        }, 
-        {
-          "date": "1931-10-18T00:00:00", 
-          "teams": "BDAvsDET"
-        }, 
-        {
-          "date": "1931-10-18T00:00:00", 
-          "teams": "CHIvsCRD"
-        }, 
-        {
-          "date": "1931-10-18T00:00:00", 
-          "teams": "GNBvsFYJ"
-        }, 
-        {
-          "date": "1931-10-18T00:00:00", 
-          "teams": "NYGvsSIS"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1931-10-25T00:00:00", 
-          "teams": "GNBvsPRV"
-        }, 
-        {
-          "date": "1931-10-25T00:00:00", 
-          "teams": "CHIvsFYJ"
-        }, 
-        {
-          "date": "1931-10-25T00:00:00", 
-          "teams": "NYGvsBDA"
-        }, 
-        {
-          "date": "1931-10-25T00:00:00", 
-          "teams": "SISvsDET"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1931-10-31T00:00:00", 
-          "teams": "FYJvsDET"
-        }, 
-        {
-          "date": "1931-11-01T00:00:00", 
-          "teams": "SISvsPRV"
-        }, 
-        {
-          "date": "1931-11-01T00:00:00", 
-          "teams": "CHIvsGNB"
-        }, 
-        {
-          "date": "1931-11-01T00:00:00", 
-          "teams": "NYGvsDET"
-        }, 
-        {
-          "date": "1931-11-01T00:00:00", 
-          "teams": "BDAvsCRD"
-        }, 
-        {
-          "date": "1931-11-04T00:00:00", 
-          "teams": "SISvsBDA"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1931-11-08T00:00:00", 
-          "teams": "GNBvsSIS"
-        }, 
-        {
-          "date": "1931-11-08T00:00:00", 
-          "teams": "NYGvsFYJ"
-        }, 
-        {
-          "date": "1931-11-08T00:00:00", 
-          "teams": "PRVvsBDA"
-        }, 
-        {
-          "date": "1931-11-08T00:00:00", 
-          "teams": "CHIvsDET"
-        }, 
-        {
-          "date": "1931-11-08T00:00:00", 
-          "teams": "CLIvsCRD"
-        }, 
-        {
-          "date": "1931-11-11T00:00:00", 
-          "teams": "DETvsSIS"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1931-11-15T00:00:00", 
-          "teams": "PRVvsSIS"
-        }, 
-        {
-          "date": "1931-11-15T00:00:00", 
-          "teams": "DETvsCLI"
-        }, 
-        {
-          "date": "1931-11-15T00:00:00", 
-          "teams": "NYGvsCHI"
-        }, 
-        {
-          "date": "1931-11-15T00:00:00", 
-          "teams": "CRDvsGNB"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1931-11-21T00:00:00", 
-          "teams": "PRVvsCLI"
-        }, 
-        {
-          "date": "1931-11-22T00:00:00", 
-          "teams": "BDAvsCHI"
-        }, 
-        {
-          "date": "1931-11-22T00:00:00", 
-          "teams": "CRDvsDET"
-        }, 
-        {
-          "date": "1931-11-22T00:00:00", 
-          "teams": "SISvsCLI"
-        }, 
-        {
-          "date": "1931-11-22T00:00:00", 
-          "teams": "NYGvsGNB"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1931-11-26T00:00:00", 
-          "teams": "SISvsNYG"
-        }, 
-        {
-          "date": "1931-11-26T00:00:00", 
-          "teams": "PRVvsGNB"
-        }, 
-        {
-          "date": "1931-11-26T00:00:00", 
-          "teams": "CHIvsCRD"
-        }, 
-        {
-          "date": "1931-11-28T00:00:00", 
-          "teams": "CRDvsCLI"
-        }, 
-        {
-          "date": "1931-11-29T00:00:00", 
-          "teams": "DETvsCHI"
-        }, 
-        {
-          "date": "1931-11-29T00:00:00", 
-          "teams": "BDAvsGNB"
-        }, 
-        {
-          "date": "1931-11-29T00:00:00", 
-          "teams": "NYGvsPRV"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "alias": "Week 13", 
-      "events": [
-        {
-          "date": "1931-12-06T00:00:00", 
-          "teams": "BDAvsNYG"
-        }, 
-        {
-          "date": "1931-12-06T00:00:00", 
-          "teams": "CHIvsGNB"
-        }
-      ], 
-      "week": 13
-    }, 
-    {
-      "alias": "Week 14", 
-      "events": [
-        {
-          "date": "1931-12-13T00:00:00", 
-          "teams": "CHIvsNYG"
-        }
-      ], 
-      "week": 14
     }
-  ]
 }

@@ -1,324 +1,973 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1946-09-20T00:00:00", 
-          "teams": "PITvsCRD"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1946-19460920PITvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1946-09-20T00:00:00", 
+                        "day": "Fri", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/194609200pit.htm", 
+                        "id": "194609200pit", 
+                        "key": "nfl1946-19460920PITvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Chicago Cardinals", 
+                        "week": 1, 
+                        "year": "1946"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1946-19460929GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1946-09-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/194609290gnb.htm", 
+                        "id": "194609290gnb", 
+                        "key": "nfl1946-19460929GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 2, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19460929RAMvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1946-09-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/194609290ram.htm", 
+                        "id": "194609290ram", 
+                        "key": "nfl1946-19460929RAMvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Philadelphia Eagles", 
+                        "week": 2, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19460929WASvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1946-09-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/194609290was.htm", 
+                        "id": "194609290was", 
+                        "key": "nfl1946-19460929WASvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Pittsburgh Steelers", 
+                        "week": 2, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19460930CRDvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1946-09-30T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/194609290crd.htm", 
+                        "id": "194609290crd", 
+                        "key": "nfl1946-19460930CRDvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Detroit Lions", 
+                        "week": 2, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461001BYKvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1946-10-01T00:00:00", 
+                        "day": "Tue", 
+                        "eventindicator": null, 
+                        "homeTeam": "BYK", 
+                        "href": "/boxscores/194610010byk.htm", 
+                        "id": "194610010byk", 
+                        "key": "nfl1946-19461001BYKvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Yanks vs. New York Giants", 
+                        "week": 2, 
+                        "year": "1946"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1946-19461006CRDvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1946-10-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/194610060crd.htm", 
+                        "id": "194610060crd", 
+                        "key": "nfl1946-19461006CRDvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Chicago Bears", 
+                        "week": 3, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461006GNBvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1946-10-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/194610060gnb.htm", 
+                        "id": "194610060gnb", 
+                        "key": "nfl1946-19461006GNBvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Los Angeles Rams", 
+                        "week": 3, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461006PHIvsBYK": {
+                        "awayTeam": "BYK", 
+                        "date": "1946-10-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/194610060phi.htm", 
+                        "id": "194610060phi", 
+                        "key": "nfl1946-19461006PHIvsBYK", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Boston Yanks", 
+                        "week": 3, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461006PITvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1946-10-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/194610060pit.htm", 
+                        "id": "194610060pit", 
+                        "key": "nfl1946-19461006PITvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461006WASvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1946-10-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/194610060was.htm", 
+                        "id": "194610060was", 
+                        "key": "nfl1946-19461006WASvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Detroit Lions", 
+                        "week": 3, 
+                        "year": "1946"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1946-19461013CHIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1946-10-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/194610130chi.htm", 
+                        "id": "194610130chi", 
+                        "key": "nfl1946-19461013CHIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Los Angeles Rams", 
+                        "week": 4, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461013DETvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1946-10-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/194610130det.htm", 
+                        "id": "194610130det", 
+                        "key": "nfl1946-19461013DETvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Chicago Cardinals", 
+                        "week": 4, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461013PHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1946-10-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/194610130phi.htm", 
+                        "id": "194610130phi", 
+                        "key": "nfl1946-19461013PHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Green Bay Packers", 
+                        "week": 4, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461013PITvsBYK": {
+                        "awayTeam": "BYK", 
+                        "date": "1946-10-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/194610130pit.htm", 
+                        "id": "194610130pit", 
+                        "key": "nfl1946-19461013PITvsBYK", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Boston Yanks", 
+                        "week": 4, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461013WASvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1946-10-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/194610130was.htm", 
+                        "id": "194610130was", 
+                        "key": "nfl1946-19461013WASvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. New York Giants", 
+                        "week": 4, 
+                        "year": "1946"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1946-19461020BYKvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1946-10-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BYK", 
+                        "href": "/boxscores/194610200byk.htm", 
+                        "id": "194610200byk", 
+                        "key": "nfl1946-19461020BYKvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Yanks vs. Washington Redskins", 
+                        "week": 5, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461020CHIvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1946-10-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/194610200chi.htm", 
+                        "id": "194610200chi", 
+                        "key": "nfl1946-19461020CHIvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Philadelphia Eagles", 
+                        "week": 5, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461020GNBvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1946-10-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/194610200gnb.htm", 
+                        "id": "194610200gnb", 
+                        "key": "nfl1946-19461020GNBvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Pittsburgh Steelers", 
+                        "week": 5, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461020NYGvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1946-10-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/194610200nyg.htm", 
+                        "id": "194610200nyg", 
+                        "key": "nfl1946-19461020NYGvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Cardinals", 
+                        "week": 5, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461020RAMvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1946-10-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/194610200ram.htm", 
+                        "id": "194610200ram", 
+                        "key": "nfl1946-19461020RAMvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Detroit Lions", 
+                        "week": 5, 
+                        "year": "1946"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1946-19461027BYKvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1946-10-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BYK", 
+                        "href": "/boxscores/194610270byk.htm", 
+                        "id": "194610270byk", 
+                        "key": "nfl1946-19461027BYKvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Yanks vs. Pittsburgh Steelers", 
+                        "week": 6, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461027CRDvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1946-10-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/194610270crd.htm", 
+                        "id": "194610270crd", 
+                        "key": "nfl1946-19461027CRDvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Los Angeles Rams", 
+                        "week": 6, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461027GNBvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1946-10-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/194610270gnb.htm", 
+                        "id": "194610270gnb", 
+                        "key": "nfl1946-19461027GNBvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Detroit Lions", 
+                        "week": 6, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461027NYGvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1946-10-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/194610270nyg.htm", 
+                        "id": "194610270nyg", 
+                        "key": "nfl1946-19461027NYGvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Bears", 
+                        "week": 6, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461027WASvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1946-10-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/194610270was.htm", 
+                        "id": "194610270was", 
+                        "key": "nfl1946-19461027WASvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Philadelphia Eagles", 
+                        "week": 6, 
+                        "year": "1946"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1946-19461103BYKvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1946-11-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BYK", 
+                        "href": "/boxscores/194611030byk.htm", 
+                        "id": "194611030byk", 
+                        "key": "nfl1946-19461103BYKvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Yanks vs. Chicago Cardinals", 
+                        "week": 7, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461103CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1946-11-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/194611030chi.htm", 
+                        "id": "194611030chi", 
+                        "key": "nfl1946-19461103CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 7, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461103DETvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1946-11-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/194611030det.htm", 
+                        "id": "194611030det", 
+                        "key": "nfl1946-19461103DETvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Los Angeles Rams", 
+                        "week": 7, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461103PHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1946-11-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/194611030phi.htm", 
+                        "id": "194611030phi", 
+                        "key": "nfl1946-19461103PHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. New York Giants", 
+                        "week": 7, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461103PITvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1946-11-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/194611030pit.htm", 
+                        "id": "194611030pit", 
+                        "key": "nfl1946-19461103PITvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Washington Redskins", 
+                        "week": 7, 
+                        "year": "1946"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1946-19461110CRDvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1946-11-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/194611100crd.htm", 
+                        "id": "194611100crd", 
+                        "key": "nfl1946-19461110CRDvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Green Bay Packers", 
+                        "week": 8, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461110DETvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1946-11-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/194611100det.htm", 
+                        "id": "194611100det", 
+                        "key": "nfl1946-19461110DETvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Pittsburgh Steelers", 
+                        "week": 8, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461110NYGvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1946-11-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/194611100nyg.htm", 
+                        "id": "194611100nyg", 
+                        "key": "nfl1946-19461110NYGvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Philadelphia Eagles", 
+                        "week": 8, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461110RAMvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1946-11-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/194611100ram.htm", 
+                        "id": "194611100ram", 
+                        "key": "nfl1946-19461110RAMvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Chicago Bears", 
+                        "week": 8, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461110WASvsBYK": {
+                        "awayTeam": "BYK", 
+                        "date": "1946-11-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/194611100was.htm", 
+                        "id": "194611100was", 
+                        "key": "nfl1946-19461110WASvsBYK", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Boston Yanks", 
+                        "week": 8, 
+                        "year": "1946"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1946-19461117CHIvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1946-11-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/194611170chi.htm", 
+                        "id": "194611170chi", 
+                        "key": "nfl1946-19461117CHIvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Washington Redskins", 
+                        "week": 9, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461117DETvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1946-11-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/194611170det.htm", 
+                        "id": "194611170det", 
+                        "key": "nfl1946-19461117DETvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Green Bay Packers", 
+                        "week": 9, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461117NYGvsBYK": {
+                        "awayTeam": "BYK", 
+                        "date": "1946-11-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/194611170nyg.htm", 
+                        "id": "194611170nyg", 
+                        "key": "nfl1946-19461117NYGvsBYK", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Boston Yanks", 
+                        "week": 9, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461117PITvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1946-11-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/194611170pit.htm", 
+                        "id": "194611170pit", 
+                        "key": "nfl1946-19461117PITvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Philadelphia Eagles", 
+                        "week": 9, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461117RAMvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1946-11-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/194611170ram.htm", 
+                        "id": "194611170ram", 
+                        "key": "nfl1946-19461117RAMvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Chicago Cardinals", 
+                        "week": 9, 
+                        "year": "1946"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1946-19461124BYKvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1946-11-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BYK", 
+                        "href": "/boxscores/194611240byk.htm", 
+                        "id": "194611240byk", 
+                        "key": "nfl1946-19461124BYKvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Yanks vs. Los Angeles Rams", 
+                        "week": 10, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461124CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1946-11-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/194611240chi.htm", 
+                        "id": "194611240chi", 
+                        "key": "nfl1946-19461124CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Detroit Lions", 
+                        "week": 10, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461124GNBvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1946-11-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/194611240gnb.htm", 
+                        "id": "194611240gnb", 
+                        "key": "nfl1946-19461124GNBvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Cardinals", 
+                        "week": 10, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461124NYGvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1946-11-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/194611240nyg.htm", 
+                        "id": "194611240nyg", 
+                        "key": "nfl1946-19461124NYGvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Pittsburgh Steelers", 
+                        "week": 10, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461124PHIvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1946-11-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/194611240phi.htm", 
+                        "id": "194611240phi", 
+                        "key": "nfl1946-19461124PHIvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Washington Redskins", 
+                        "week": 10, 
+                        "year": "1946"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1946-19461128DETvsBYK": {
+                        "awayTeam": "BYK", 
+                        "date": "1946-11-28T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/194611280det.htm", 
+                        "id": "194611280det", 
+                        "key": "nfl1946-19461128DETvsBYK", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Boston Yanks", 
+                        "week": 11, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461201CHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1946-12-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/194612010chi.htm", 
+                        "id": "194612010chi", 
+                        "key": "nfl1946-19461201CHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Chicago Cardinals", 
+                        "week": 11, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461201NYGvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1946-12-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/194612010nyg.htm", 
+                        "id": "194612010nyg", 
+                        "key": "nfl1946-19461201NYGvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Los Angeles Rams", 
+                        "week": 11, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461201PHIvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1946-12-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/194612010phi.htm", 
+                        "id": "194612010phi", 
+                        "key": "nfl1946-19461201PHIvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Pittsburgh Steelers", 
+                        "week": 11, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461201WASvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1946-12-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/194612010was.htm", 
+                        "id": "194612010was", 
+                        "key": "nfl1946-19461201WASvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Green Bay Packers", 
+                        "week": 11, 
+                        "year": "1946"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1946-19461208BYKvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1946-12-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BYK", 
+                        "href": "/boxscores/194612080byk.htm", 
+                        "id": "194612080byk", 
+                        "key": "nfl1946-19461208BYKvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Yanks vs. Philadelphia Eagles", 
+                        "week": 12, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461208DETvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1946-12-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/194612080det.htm", 
+                        "id": "194612080det", 
+                        "key": "nfl1946-19461208DETvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Chicago Bears", 
+                        "week": 12, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461208NYGvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1946-12-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/194612080nyg.htm", 
+                        "id": "194612080nyg", 
+                        "key": "nfl1946-19461208NYGvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Washington Redskins", 
+                        "week": 12, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461208RAMvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1946-12-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/194612080ram.htm", 
+                        "id": "194612080ram", 
+                        "key": "nfl1946-19461208RAMvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1946"
+                    }
+                }
+            }
+        }, 
+        "1": {
+            "3": {
+                "events": {
+                    "nfl1946-19461215NYGvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1946-12-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/194612150nyg.htm", 
+                        "id": "194612150nyg", 
+                        "key": "nfl1946-19461215NYGvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Conference Championship", 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Bears", 
+                        "week": 3, 
+                        "year": "1946"
+                    }, 
+                    "nfl1946-19461222CLEvsNAA": {
+                        "awayTeam": "NAA", 
+                        "date": "1946-12-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/194612220cle.htm", 
+                        "id": "194612220cle", 
+                        "key": "nfl1946-19461222CLEvsNAA", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. New York Yankees", 
+                        "week": 3, 
+                        "year": "1946"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1946-09-29T00:00:00", 
-          "teams": "GNBvsCHI"
-        }, 
-        {
-          "date": "1946-09-29T00:00:00", 
-          "teams": "RAMvsPHI"
-        }, 
-        {
-          "date": "1946-09-29T00:00:00", 
-          "teams": "WASvsPIT"
-        }, 
-        {
-          "date": "1946-09-30T00:00:00", 
-          "teams": "CRDvsDET"
-        }, 
-        {
-          "date": "1946-10-01T00:00:00", 
-          "teams": "BYKvsNYG"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1946-10-06T00:00:00", 
-          "teams": "PHIvsBYK"
-        }, 
-        {
-          "date": "1946-10-06T00:00:00", 
-          "teams": "PITvsNYG"
-        }, 
-        {
-          "date": "1946-10-06T00:00:00", 
-          "teams": "WASvsDET"
-        }, 
-        {
-          "date": "1946-10-06T00:00:00", 
-          "teams": "GNBvsRAM"
-        }, 
-        {
-          "date": "1946-10-06T00:00:00", 
-          "teams": "CRDvsCHI"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1946-10-13T00:00:00", 
-          "teams": "CHIvsRAM"
-        }, 
-        {
-          "date": "1946-10-13T00:00:00", 
-          "teams": "PHIvsGNB"
-        }, 
-        {
-          "date": "1946-10-13T00:00:00", 
-          "teams": "DETvsCRD"
-        }, 
-        {
-          "date": "1946-10-13T00:00:00", 
-          "teams": "PITvsBYK"
-        }, 
-        {
-          "date": "1946-10-13T00:00:00", 
-          "teams": "WASvsNYG"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1946-10-20T00:00:00", 
-          "teams": "RAMvsDET"
-        }, 
-        {
-          "date": "1946-10-20T00:00:00", 
-          "teams": "CHIvsPHI"
-        }, 
-        {
-          "date": "1946-10-20T00:00:00", 
-          "teams": "NYGvsCRD"
-        }, 
-        {
-          "date": "1946-10-20T00:00:00", 
-          "teams": "GNBvsPIT"
-        }, 
-        {
-          "date": "1946-10-20T00:00:00", 
-          "teams": "BYKvsWAS"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1946-10-27T00:00:00", 
-          "teams": "CRDvsRAM"
-        }, 
-        {
-          "date": "1946-10-27T00:00:00", 
-          "teams": "BYKvsPIT"
-        }, 
-        {
-          "date": "1946-10-27T00:00:00", 
-          "teams": "GNBvsDET"
-        }, 
-        {
-          "date": "1946-10-27T00:00:00", 
-          "teams": "WASvsPHI"
-        }, 
-        {
-          "date": "1946-10-27T00:00:00", 
-          "teams": "NYGvsCHI"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1946-11-03T00:00:00", 
-          "teams": "BYKvsCRD"
-        }, 
-        {
-          "date": "1946-11-03T00:00:00", 
-          "teams": "PHIvsNYG"
-        }, 
-        {
-          "date": "1946-11-03T00:00:00", 
-          "teams": "PITvsWAS"
-        }, 
-        {
-          "date": "1946-11-03T00:00:00", 
-          "teams": "CHIvsGNB"
-        }, 
-        {
-          "date": "1946-11-03T00:00:00", 
-          "teams": "DETvsRAM"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1946-11-10T00:00:00", 
-          "teams": "RAMvsCHI"
-        }, 
-        {
-          "date": "1946-11-10T00:00:00", 
-          "teams": "WASvsBYK"
-        }, 
-        {
-          "date": "1946-11-10T00:00:00", 
-          "teams": "DETvsPIT"
-        }, 
-        {
-          "date": "1946-11-10T00:00:00", 
-          "teams": "NYGvsPHI"
-        }, 
-        {
-          "date": "1946-11-10T00:00:00", 
-          "teams": "CRDvsGNB"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1946-11-17T00:00:00", 
-          "teams": "DETvsGNB"
-        }, 
-        {
-          "date": "1946-11-17T00:00:00", 
-          "teams": "CHIvsWAS"
-        }, 
-        {
-          "date": "1946-11-17T00:00:00", 
-          "teams": "PITvsPHI"
-        }, 
-        {
-          "date": "1946-11-17T00:00:00", 
-          "teams": "RAMvsCRD"
-        }, 
-        {
-          "date": "1946-11-17T00:00:00", 
-          "teams": "NYGvsBYK"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1946-11-24T00:00:00", 
-          "teams": "CHIvsDET"
-        }, 
-        {
-          "date": "1946-11-24T00:00:00", 
-          "teams": "NYGvsPIT"
-        }, 
-        {
-          "date": "1946-11-24T00:00:00", 
-          "teams": "BYKvsRAM"
-        }, 
-        {
-          "date": "1946-11-24T00:00:00", 
-          "teams": "PHIvsWAS"
-        }, 
-        {
-          "date": "1946-11-24T00:00:00", 
-          "teams": "GNBvsCRD"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1946-11-28T00:00:00", 
-          "teams": "DETvsBYK"
-        }, 
-        {
-          "date": "1946-12-01T00:00:00", 
-          "teams": "WASvsGNB"
-        }, 
-        {
-          "date": "1946-12-01T00:00:00", 
-          "teams": "CHIvsCRD"
-        }, 
-        {
-          "date": "1946-12-01T00:00:00", 
-          "teams": "NYGvsRAM"
-        }, 
-        {
-          "date": "1946-12-01T00:00:00", 
-          "teams": "PHIvsPIT"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1946-12-08T00:00:00", 
-          "teams": "RAMvsGNB"
-        }, 
-        {
-          "date": "1946-12-08T00:00:00", 
-          "teams": "BYKvsPHI"
-        }, 
-        {
-          "date": "1946-12-08T00:00:00", 
-          "teams": "DETvsCHI"
-        }, 
-        {
-          "date": "1946-12-08T00:00:00", 
-          "teams": "NYGvsWAS"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "alias": "Week 13", 
-      "events": [], 
-      "week": 13
-    }, 
-    {
-      "alias": "Week 14", 
-      "events": [], 
-      "week": 14
-    }, 
-    {
-      "alias": "Week 15", 
-      "events": [], 
-      "week": 15
-    }, 
-    {
-      "events": [
-        {
-          "date": "1946-12-15T00:00:00", 
-          "teams": "NYGvsCHI"
-        }, 
-        {
-          "date": "1946-12-22T00:00:00", 
-          "teams": "CLEvsNYA"
-        }
-      ], 
-      "week": 3
     }
-  ]
 }

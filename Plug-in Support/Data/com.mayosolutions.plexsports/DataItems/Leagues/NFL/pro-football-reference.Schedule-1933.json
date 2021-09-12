@@ -1,319 +1,993 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1933-09-17T00:00:00", 
-          "teams": "DETvsRED"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1933-19330917DETvsRED": {
+                        "awayTeam": "RED", 
+                        "date": "1933-09-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193309170det.htm", 
+                        "id": "193309170det", 
+                        "key": "nfl1933-19330917DETvsRED", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Cincinnati Reds", 
+                        "week": 1, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19330917GNBvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1933-09-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193309170gnb.htm", 
+                        "id": "193309170gnb", 
+                        "key": "nfl1933-19330917GNBvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Boston Redskins", 
+                        "week": 1, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19330920PITvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1933-09-20T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/193309200pit.htm", 
+                        "id": "193309200pit", 
+                        "key": "nfl1933-19330920PITvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Pirates vs. New York Giants", 
+                        "week": 1, 
+                        "year": "1933"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1933-19330924DETvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1933-09-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193309240det.htm", 
+                        "id": "193309240det", 
+                        "key": "nfl1933-19330924DETvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. New York Giants", 
+                        "week": 2, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19330924GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1933-09-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193309240gnb.htm", 
+                        "id": "193309240gnb", 
+                        "key": "nfl1933-19330924GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 2, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19330927PITvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1933-09-27T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/193309270pit.htm", 
+                        "id": "193309270pit", 
+                        "key": "nfl1933-19330927PITvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Pirates vs. Chicago Cardinals", 
+                        "week": 2, 
+                        "year": "1933"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1933-19331001CHIvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1933-10-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193310010chi.htm", 
+                        "id": "193310010chi", 
+                        "key": "nfl1933-19331001CHIvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Boston Redskins", 
+                        "week": 3, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331001DETvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1933-10-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193310010det.htm", 
+                        "id": "193310010det", 
+                        "key": "nfl1933-19331001DETvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Chicago Cardinals", 
+                        "week": 3, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331001GNBvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1933-10-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193310010gnb.htm", 
+                        "id": "193310010gnb", 
+                        "key": "nfl1933-19331001GNBvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331004PITvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1933-10-04T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/193310040pit.htm", 
+                        "id": "193310040pit", 
+                        "key": "nfl1933-19331004PITvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Pirates vs. Boston Redskins", 
+                        "week": 3, 
+                        "year": "1933"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1933-19331008BKNvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1933-10-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193310080bkn.htm", 
+                        "id": "193310080bkn", 
+                        "key": "nfl1933-19331008BKNvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Chicago Bears", 
+                        "week": 4, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331008GNBvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1933-10-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193310080gnb.htm", 
+                        "id": "193310080gnb", 
+                        "key": "nfl1933-19331008GNBvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Portsmouth Spartans", 
+                        "week": 4, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331008REDvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1933-10-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RED", 
+                        "href": "/boxscores/193310080red.htm", 
+                        "id": "193310080red", 
+                        "key": "nfl1933-19331008REDvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cincinnati Reds vs. Chicago Cardinals", 
+                        "week": 4, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331008WASvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1933-10-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193310080was.htm", 
+                        "id": "193310080was", 
+                        "key": "nfl1933-19331008WASvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Redskins vs. New York Giants", 
+                        "week": 4, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331011PITvsRED": {
+                        "awayTeam": "RED", 
+                        "date": "1933-10-11T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/193310110pit.htm", 
+                        "id": "193310110pit", 
+                        "key": "nfl1933-19331011PITvsRED", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Pirates vs. Cincinnati Reds", 
+                        "week": 4, 
+                        "year": "1933"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1933-19331015BKNvsRED": {
+                        "awayTeam": "RED", 
+                        "date": "1933-10-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193310150bkn.htm", 
+                        "id": "193310150bkn", 
+                        "key": "nfl1933-19331015BKNvsRED", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Cincinnati Reds", 
+                        "week": 5, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331015CHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1933-10-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193310150chi.htm", 
+                        "id": "193310150chi", 
+                        "key": "nfl1933-19331015CHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Chicago Cardinals", 
+                        "week": 5, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331015GNBvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1933-10-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193310150gnb.htm", 
+                        "id": "193310150gnb", 
+                        "key": "nfl1933-19331015GNBvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Pittsburgh Pirates", 
+                        "week": 5, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331015NYGvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1933-10-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193310150nyg.htm", 
+                        "id": "193310150nyg", 
+                        "key": "nfl1933-19331015NYGvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Philadelphia Eagles", 
+                        "week": 5, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331015WASvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1933-10-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193310150was.htm", 
+                        "id": "193310150was", 
+                        "key": "nfl1933-19331015WASvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Redskins vs. Portsmouth Spartans", 
+                        "week": 5, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331018PHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1933-10-18T00:00:00", 
+                        "day": "Wed", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/193310180phi.htm", 
+                        "id": "193310180phi", 
+                        "key": "nfl1933-19331018PHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Portsmouth Spartans", 
+                        "week": 5, 
+                        "year": "1933"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1933-19331022CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1933-10-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193310220chi.htm", 
+                        "id": "193310220chi", 
+                        "key": "nfl1933-19331022CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 6, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331022NYGvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1933-10-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193310220nyg.htm", 
+                        "id": "193310220nyg", 
+                        "key": "nfl1933-19331022NYGvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Brooklyn Dodgers", 
+                        "week": 6, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331022REDvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1933-10-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RED", 
+                        "href": "/boxscores/193310220red.htm", 
+                        "id": "193310220red", 
+                        "key": "nfl1933-19331022REDvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cincinnati Reds vs. Pittsburgh Pirates", 
+                        "week": 6, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331022WASvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1933-10-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193310220was.htm", 
+                        "id": "193310220was", 
+                        "key": "nfl1933-19331022WASvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Redskins vs. Chicago Cardinals", 
+                        "week": 6, 
+                        "year": "1933"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1933-19331029BKNvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1933-10-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193310290bkn.htm", 
+                        "id": "193310290bkn", 
+                        "key": "nfl1933-19331029BKNvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Chicago Cardinals", 
+                        "week": 7, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331029CHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1933-10-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193310290chi.htm", 
+                        "id": "193310290chi", 
+                        "key": "nfl1933-19331029CHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. New York Giants", 
+                        "week": 7, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331029GNBvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1933-10-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/193310290gnb.htm", 
+                        "id": "193310290gnb", 
+                        "key": "nfl1933-19331029GNBvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Philadelphia Eagles", 
+                        "week": 7, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331029WASvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1933-10-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193310290was.htm", 
+                        "id": "193310290was", 
+                        "key": "nfl1933-19331029WASvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Redskins vs. Pittsburgh Pirates", 
+                        "week": 7, 
+                        "year": "1933"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1933-19331105BKNvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1933-11-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193311050bkn.htm", 
+                        "id": "193311050bkn", 
+                        "key": "nfl1933-19331105BKNvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Pittsburgh Pirates", 
+                        "week": 8, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331105CRDvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1933-11-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193311050crd.htm", 
+                        "id": "193311050crd", 
+                        "key": "nfl1933-19331105CRDvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Green Bay Packers", 
+                        "week": 8, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331105NYGvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1933-11-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193311050nyg.htm", 
+                        "id": "193311050nyg", 
+                        "key": "nfl1933-19331105NYGvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Portsmouth Spartans", 
+                        "week": 8, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331105REDvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1933-11-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RED", 
+                        "href": "/boxscores/193311050red.htm", 
+                        "id": "193311050red", 
+                        "key": "nfl1933-19331105REDvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cincinnati Reds vs. Philadelphia Eagles", 
+                        "week": 8, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331105WASvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1933-11-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193311050was.htm", 
+                        "id": "193311050was", 
+                        "key": "nfl1933-19331105WASvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Redskins vs. Chicago Bears", 
+                        "week": 8, 
+                        "year": "1933"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1933-19331112CRDvsRED": {
+                        "awayTeam": "RED", 
+                        "date": "1933-11-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193311120crd.htm", 
+                        "id": "193311120crd", 
+                        "key": "nfl1933-19331112CRDvsRED", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Cincinnati Reds", 
+                        "week": 9, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331112DETvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1933-11-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193311120det.htm", 
+                        "id": "193311120det", 
+                        "key": "nfl1933-19331112DETvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Green Bay Packers", 
+                        "week": 9, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331112NYGvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1933-11-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193311120nyg.htm", 
+                        "id": "193311120nyg", 
+                        "key": "nfl1933-19331112NYGvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Boston Redskins", 
+                        "week": 9, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331112PHIvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1933-11-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/193311120phi.htm", 
+                        "id": "193311120phi", 
+                        "key": "nfl1933-19331112PHIvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Chicago Bears", 
+                        "week": 9, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331112PITvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1933-11-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/193311120pit.htm", 
+                        "id": "193311120pit", 
+                        "key": "nfl1933-19331112PITvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Pirates vs. Brooklyn Dodgers", 
+                        "week": 9, 
+                        "year": "1933"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1933-19331119CRDvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1933-11-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193311190crd.htm", 
+                        "id": "193311190crd", 
+                        "key": "nfl1933-19331119CRDvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Brooklyn Dodgers", 
+                        "week": 10, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331119NYGvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1933-11-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193311190nyg.htm", 
+                        "id": "193311190nyg", 
+                        "key": "nfl1933-19331119NYGvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Bears", 
+                        "week": 10, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331119PHIvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1933-11-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/193311190phi.htm", 
+                        "id": "193311190phi", 
+                        "key": "nfl1933-19331119PHIvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Pittsburgh Pirates", 
+                        "week": 10, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331119REDvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1933-11-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RED", 
+                        "href": "/boxscores/193311190red.htm", 
+                        "id": "193311190red", 
+                        "key": "nfl1933-19331119REDvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cincinnati Reds vs. Portsmouth Spartans", 
+                        "week": 10, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331119WASvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1933-11-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/193311190was.htm", 
+                        "id": "193311190was", 
+                        "key": "nfl1933-19331119WASvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Boston Redskins vs. Green Bay Packers", 
+                        "week": 10, 
+                        "year": "1933"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1933-19331126BKNvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1933-11-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193311260bkn.htm", 
+                        "id": "193311260bkn", 
+                        "key": "nfl1933-19331126BKNvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. Boston Redskins", 
+                        "week": 11, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331126CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1933-11-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193311260chi.htm", 
+                        "id": "193311260chi", 
+                        "key": "nfl1933-19331126CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Portsmouth Spartans", 
+                        "week": 11, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331126NYGvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1933-11-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193311260nyg.htm", 
+                        "id": "193311260nyg", 
+                        "key": "nfl1933-19331126NYGvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Green Bay Packers", 
+                        "week": 11, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331126PHIvsRED": {
+                        "awayTeam": "RED", 
+                        "date": "1933-11-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/193311260phi.htm", 
+                        "id": "193311260phi", 
+                        "key": "nfl1933-19331126PHIvsRED", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Cincinnati Reds", 
+                        "week": 11, 
+                        "year": "1933"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1933-19331130BKNvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1933-11-30T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "BKN", 
+                        "href": "/boxscores/193311300bkn.htm", 
+                        "id": "193311300bkn", 
+                        "key": "nfl1933-19331130BKNvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Dodgers vs. New York Giants", 
+                        "week": 12, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331130CRDvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1933-11-30T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193311300crd.htm", 
+                        "id": "193311300crd", 
+                        "key": "nfl1933-19331130CRDvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Chicago Bears", 
+                        "week": 12, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331203CRDvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1933-12-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/193312030crd.htm", 
+                        "id": "193312030crd", 
+                        "key": "nfl1933-19331203CRDvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Boston Redskins", 
+                        "week": 12, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331203DETvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1933-12-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/193312030det.htm", 
+                        "id": "193312030det", 
+                        "key": "nfl1933-19331203DETvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Portsmouth Spartans vs. Chicago Bears", 
+                        "week": 12, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331203NYGvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1933-12-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/193312030nyg.htm", 
+                        "id": "193312030nyg", 
+                        "key": "nfl1933-19331203NYGvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Pittsburgh Pirates", 
+                        "week": 12, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331203PHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1933-12-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/193312030phi.htm", 
+                        "id": "193312030phi", 
+                        "key": "nfl1933-19331203PHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331203REDvsBKN": {
+                        "awayTeam": "BKN", 
+                        "date": "1933-12-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RED", 
+                        "href": "/boxscores/193312030red.htm", 
+                        "id": "193312030red", 
+                        "key": "nfl1933-19331203REDvsBKN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cincinnati Reds vs. Brooklyn Dodgers", 
+                        "week": 12, 
+                        "year": "1933"
+                    }
+                }
+            }, 
+            "13": {
+                "events": {
+                    "nfl1933-19331210CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1933-12-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193312100chi.htm", 
+                        "id": "193312100chi", 
+                        "key": "nfl1933-19331210CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 13, 
+                        "year": "1933"
+                    }, 
+                    "nfl1933-19331210PHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1933-12-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/193312100phi.htm", 
+                        "id": "193312100phi", 
+                        "key": "nfl1933-19331210PHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. New York Giants", 
+                        "week": 13, 
+                        "year": "1933"
+                    }
+                }
+            }
         }, 
-        {
-          "date": "1933-09-17T00:00:00", 
-          "teams": "GNBvsWAS"
-        }, 
-        {
-          "date": "1933-09-20T00:00:00", 
-          "teams": "PITvsNYG"
+        "1": {
+            "3": {
+                "events": {
+                    "nfl1933-19331217CHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1933-12-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/193312170chi.htm", 
+                        "id": "193312170chi", 
+                        "key": "nfl1933-19331217CHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Conference Championship", 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1933"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1933-09-24T00:00:00", 
-          "teams": "GNBvsCHI"
-        }, 
-        {
-          "date": "1933-09-24T00:00:00", 
-          "teams": "DETvsNYG"
-        }, 
-        {
-          "date": "1933-09-27T00:00:00", 
-          "teams": "PITvsCRD"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1933-10-01T00:00:00", 
-          "teams": "DETvsCRD"
-        }, 
-        {
-          "date": "1933-10-01T00:00:00", 
-          "teams": "CHIvsWAS"
-        }, 
-        {
-          "date": "1933-10-01T00:00:00", 
-          "teams": "GNBvsNYG"
-        }, 
-        {
-          "date": "1933-10-04T00:00:00", 
-          "teams": "PITvsWAS"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1933-10-08T00:00:00", 
-          "teams": "GNBvsDET"
-        }, 
-        {
-          "date": "1933-10-08T00:00:00", 
-          "teams": "BDAvsCHI"
-        }, 
-        {
-          "date": "1933-10-08T00:00:00", 
-          "teams": "WASvsNYG"
-        }, 
-        {
-          "date": "1933-10-08T00:00:00", 
-          "teams": "REDvsCRD"
-        }, 
-        {
-          "date": "1933-10-11T00:00:00", 
-          "teams": "PITvsRED"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1933-10-15T00:00:00", 
-          "teams": "NYGvsPHI"
-        }, 
-        {
-          "date": "1933-10-15T00:00:00", 
-          "teams": "BDAvsRED"
-        }, 
-        {
-          "date": "1933-10-15T00:00:00", 
-          "teams": "WASvsDET"
-        }, 
-        {
-          "date": "1933-10-15T00:00:00", 
-          "teams": "CHIvsCRD"
-        }, 
-        {
-          "date": "1933-10-15T00:00:00", 
-          "teams": "GNBvsPIT"
-        }, 
-        {
-          "date": "1933-10-18T00:00:00", 
-          "teams": "PHIvsDET"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1933-10-22T00:00:00", 
-          "teams": "WASvsCRD"
-        }, 
-        {
-          "date": "1933-10-22T00:00:00", 
-          "teams": "NYGvsBDA"
-        }, 
-        {
-          "date": "1933-10-22T00:00:00", 
-          "teams": "REDvsPIT"
-        }, 
-        {
-          "date": "1933-10-22T00:00:00", 
-          "teams": "CHIvsGNB"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1933-10-29T00:00:00", 
-          "teams": "GNBvsPHI"
-        }, 
-        {
-          "date": "1933-10-29T00:00:00", 
-          "teams": "BDAvsCRD"
-        }, 
-        {
-          "date": "1933-10-29T00:00:00", 
-          "teams": "CHIvsNYG"
-        }, 
-        {
-          "date": "1933-10-29T00:00:00", 
-          "teams": "WASvsPIT"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1933-11-05T00:00:00", 
-          "teams": "BDAvsPIT"
-        }, 
-        {
-          "date": "1933-11-05T00:00:00", 
-          "teams": "REDvsPHI"
-        }, 
-        {
-          "date": "1933-11-05T00:00:00", 
-          "teams": "CRDvsGNB"
-        }, 
-        {
-          "date": "1933-11-05T00:00:00", 
-          "teams": "WASvsCHI"
-        }, 
-        {
-          "date": "1933-11-05T00:00:00", 
-          "teams": "NYGvsDET"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1933-11-12T00:00:00", 
-          "teams": "CRDvsRED"
-        }, 
-        {
-          "date": "1933-11-12T00:00:00", 
-          "teams": "PITvsBDA"
-        }, 
-        {
-          "date": "1933-11-12T00:00:00", 
-          "teams": "DETvsGNB"
-        }, 
-        {
-          "date": "1933-11-12T00:00:00", 
-          "teams": "NYGvsWAS"
-        }, 
-        {
-          "date": "1933-11-12T00:00:00", 
-          "teams": "PHIvsCHI"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1933-11-19T00:00:00", 
-          "teams": "WASvsGNB"
-        }, 
-        {
-          "date": "1933-11-19T00:00:00", 
-          "teams": "NYGvsCHI"
-        }, 
-        {
-          "date": "1933-11-19T00:00:00", 
-          "teams": "REDvsDET"
-        }, 
-        {
-          "date": "1933-11-19T00:00:00", 
-          "teams": "CRDvsBDA"
-        }, 
-        {
-          "date": "1933-11-19T00:00:00", 
-          "teams": "PHIvsPIT"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1933-11-26T00:00:00", 
-          "teams": "BDAvsWAS"
-        }, 
-        {
-          "date": "1933-11-26T00:00:00", 
-          "teams": "PHIvsRED"
-        }, 
-        {
-          "date": "1933-11-26T00:00:00", 
-          "teams": "CHIvsDET"
-        }, 
-        {
-          "date": "1933-11-26T00:00:00", 
-          "teams": "NYGvsGNB"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1933-11-30T00:00:00", 
-          "teams": "BDAvsNYG"
-        }, 
-        {
-          "date": "1933-11-30T00:00:00", 
-          "teams": "CRDvsCHI"
-        }, 
-        {
-          "date": "1933-12-03T00:00:00", 
-          "teams": "NYGvsPIT"
-        }, 
-        {
-          "date": "1933-12-03T00:00:00", 
-          "teams": "PHIvsGNB"
-        }, 
-        {
-          "date": "1933-12-03T00:00:00", 
-          "teams": "DETvsCHI"
-        }, 
-        {
-          "date": "1933-12-03T00:00:00", 
-          "teams": "CRDvsWAS"
-        }, 
-        {
-          "date": "1933-12-03T00:00:00", 
-          "teams": "REDvsBDA"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "alias": "Week 13", 
-      "events": [
-        {
-          "date": "1933-12-10T00:00:00", 
-          "teams": "PHIvsNYG"
-        }, 
-        {
-          "date": "1933-12-10T00:00:00", 
-          "teams": "CHIvsGNB"
-        }
-      ], 
-      "week": 13
-    }, 
-    {
-      "events": [
-        {
-          "date": "1933-12-17T00:00:00", 
-          "teams": "CHIvsNYG"
-        }
-      ], 
-      "week": 3
     }
-  ]
 }

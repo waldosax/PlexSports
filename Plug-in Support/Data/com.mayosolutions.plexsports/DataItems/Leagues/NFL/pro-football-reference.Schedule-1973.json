@@ -1,1058 +1,3108 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1973-09-16T00:00:00", 
-          "teams": "PHIvsCRD", 
-          "time": "13:00:00"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1973-19730916CHIvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1973-09-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/197309160chi.htm", 
+                        "id": "197309160chi", 
+                        "key": "nfl1973-19730916CHIvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Chicago Bears vs. Dallas Cowboys", 
+                        "week": 1, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730916CLEvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1973-09-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/197309160cle.htm", 
+                        "id": "197309160cle", 
+                        "key": "nfl1973-19730916CLEvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Cleveland Browns vs. Baltimore Colts", 
+                        "week": 1, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730916DENvsCIN": {
+                        "awayTeam": "CIN", 
+                        "date": "1973-09-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DEN", 
+                        "href": "/boxscores/197309160den.htm", 
+                        "id": "197309160den", 
+                        "key": "nfl1973-19730916DENvsCIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Denver Broncos vs. Cincinnati Bengals", 
+                        "week": 1, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730916KANvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1973-09-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "KAN", 
+                        "href": "/boxscores/197309160kan.htm", 
+                        "id": "197309160kan", 
+                        "key": "nfl1973-19730916KANvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Kansas City Chiefs vs. Los Angeles Rams", 
+                        "week": 1, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730916MIAvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1973-09-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIA", 
+                        "href": "/boxscores/197309160mia.htm", 
+                        "id": "197309160mia", 
+                        "key": "nfl1973-19730916MIAvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Miami Dolphins vs. San Francisco 49ers", 
+                        "week": 1, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730916MINvsRAI": {
+                        "awayTeam": "RAI", 
+                        "date": "1973-09-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/197309160min.htm", 
+                        "id": "197309160min", 
+                        "key": "nfl1973-19730916MINvsRAI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Minnesota Vikings vs. Oakland Raiders", 
+                        "week": 1, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730916NORvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1973-09-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/197309160nor.htm", 
+                        "id": "197309160nor", 
+                        "key": "nfl1973-19730916NORvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "New Orleans Saints vs. Atlanta Falcons", 
+                        "week": 1, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730916NWEvsBUF": {
+                        "awayTeam": "BUF", 
+                        "date": "1973-09-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NWE", 
+                        "href": "/boxscores/197309160nwe.htm", 
+                        "id": "197309160nwe", 
+                        "key": "nfl1973-19730916NWEvsBUF", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New England Patriots vs. Buffalo Bills", 
+                        "week": 1, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730916NYGvsOTI": {
+                        "awayTeam": "OTI", 
+                        "date": "1973-09-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/197309160nyg.htm", 
+                        "id": "197309160nyg", 
+                        "key": "nfl1973-19730916NYGvsOTI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New York Giants vs. Houston Oilers", 
+                        "week": 1, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730916PHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1973-09-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/197309160phi.htm", 
+                        "id": "197309160phi", 
+                        "key": "nfl1973-19730916PHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Philadelphia Eagles vs. St. Louis Cardinals", 
+                        "week": 1, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730916PITvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1973-09-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/197309160pit.htm", 
+                        "id": "197309160pit", 
+                        "key": "nfl1973-19730916PITvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Pittsburgh Steelers vs. Detroit Lions", 
+                        "week": 1, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730916WASvsSDG": {
+                        "awayTeam": "SDG", 
+                        "date": "1973-09-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/197309160was.htm", 
+                        "id": "197309160was", 
+                        "key": "nfl1973-19730916WASvsSDG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Washington Redskins vs. San Diego Chargers", 
+                        "week": 1, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730917GNBvsNYJ": {
+                        "awayTeam": "NYJ", 
+                        "date": "1973-09-17T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/197309170gnb.htm", 
+                        "id": "197309170gnb", 
+                        "key": "nfl1973-19730917GNBvsNYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "21:00:00", 
+                        "vs": "Green Bay Packers vs. New York Jets", 
+                        "week": 1, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1973-19730923CHIvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1973-09-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/197309230chi.htm", 
+                        "id": "197309230chi", 
+                        "key": "nfl1973-19730923CHIvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Chicago Bears vs. Minnesota Vikings", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730923CINvsOTI": {
+                        "awayTeam": "OTI", 
+                        "date": "1973-09-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CIN", 
+                        "href": "/boxscores/197309230cin.htm", 
+                        "id": "197309230cin", 
+                        "key": "nfl1973-19730923CINvsOTI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Cincinnati Bengals vs. Houston Oilers", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730923CLTvsNYJ": {
+                        "awayTeam": "NYJ", 
+                        "date": "1973-09-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/197309230clt.htm", 
+                        "id": "197309230clt", 
+                        "key": "nfl1973-19730923CLTvsNYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Baltimore Colts vs. New York Jets", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730923CRDvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1973-09-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/197309230crd.htm", 
+                        "id": "197309230crd", 
+                        "key": "nfl1973-19730923CRDvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "St. Louis Cardinals vs. Washington Redskins", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730923DENvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1973-09-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DEN", 
+                        "href": "/boxscores/197309230den.htm", 
+                        "id": "197309230den", 
+                        "key": "nfl1973-19730923DENvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Denver Broncos vs. San Francisco 49ers", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730923GNBvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1973-09-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/197309230gnb.htm", 
+                        "id": "197309230gnb", 
+                        "key": "nfl1973-19730923GNBvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Green Bay Packers vs. Detroit Lions", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730923NWEvsKAN": {
+                        "awayTeam": "KAN", 
+                        "date": "1973-09-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NWE", 
+                        "href": "/boxscores/197309230nwe.htm", 
+                        "id": "197309230nwe", 
+                        "key": "nfl1973-19730923NWEvsKAN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New England Patriots vs. Kansas City Chiefs", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730923NYGvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1973-09-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/197309230nyg.htm", 
+                        "id": "197309230nyg", 
+                        "key": "nfl1973-19730923NYGvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New York Giants vs. Philadelphia Eagles", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730923PITvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1973-09-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/197309230pit.htm", 
+                        "id": "197309230pit", 
+                        "key": "nfl1973-19730923PITvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Pittsburgh Steelers vs. Cleveland Browns", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730923RAIvsMIA": {
+                        "awayTeam": "MIA", 
+                        "date": "1973-09-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAI", 
+                        "href": "/boxscores/197309230rai.htm", 
+                        "id": "197309230rai", 
+                        "key": "nfl1973-19730923RAIvsMIA", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Oakland Raiders vs. Miami Dolphins", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730923RAMvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1973-09-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/197309230ram.htm", 
+                        "id": "197309230ram", 
+                        "key": "nfl1973-19730923RAMvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Los Angeles Rams vs. Atlanta Falcons", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730923SDGvsBUF": {
+                        "awayTeam": "BUF", 
+                        "date": "1973-09-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SDG", 
+                        "href": "/boxscores/197309230sdg.htm", 
+                        "id": "197309230sdg", 
+                        "key": "nfl1973-19730923SDGvsBUF", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "San Diego Chargers vs. Buffalo Bills", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730924DALvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1973-09-24T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/197309240dal.htm", 
+                        "id": "197309240dal", 
+                        "key": "nfl1973-19730924DALvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "21:00:00", 
+                        "vs": "Dallas Cowboys vs. New Orleans Saints", 
+                        "week": 2, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1973-19730930BUFvsNYJ": {
+                        "awayTeam": "NYJ", 
+                        "date": "1973-09-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BUF", 
+                        "href": "/boxscores/197309300buf.htm", 
+                        "id": "197309300buf", 
+                        "key": "nfl1973-19730930BUFvsNYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Buffalo Bills vs. New York Jets", 
+                        "week": 3, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730930CLEvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1973-09-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/197309300cle.htm", 
+                        "id": "197309300cle", 
+                        "key": "nfl1973-19730930CLEvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Cleveland Browns vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730930CLTvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1973-09-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/197309300clt.htm", 
+                        "id": "197309300clt", 
+                        "key": "nfl1973-19730930CLTvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Baltimore Colts vs. New Orleans Saints", 
+                        "week": 3, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730930DALvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1973-09-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/197309300dal.htm", 
+                        "id": "197309300dal", 
+                        "key": "nfl1973-19730930DALvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Dallas Cowboys vs. St. Louis Cardinals", 
+                        "week": 3, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730930DENvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1973-09-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DEN", 
+                        "href": "/boxscores/197309300den.htm", 
+                        "id": "197309300den", 
+                        "key": "nfl1973-19730930DENvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Denver Broncos vs. Chicago Bears", 
+                        "week": 3, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730930KANvsRAI": {
+                        "awayTeam": "RAI", 
+                        "date": "1973-09-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "KAN", 
+                        "href": "/boxscores/197309300kan.htm", 
+                        "id": "197309300kan", 
+                        "key": "nfl1973-19730930KANvsRAI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Kansas City Chiefs vs. Oakland Raiders", 
+                        "week": 3, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730930MIAvsNWE": {
+                        "awayTeam": "NWE", 
+                        "date": "1973-09-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIA", 
+                        "href": "/boxscores/197309300mia.htm", 
+                        "id": "197309300mia", 
+                        "key": "nfl1973-19730930MIAvsNWE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Miami Dolphins vs. New England Patriots", 
+                        "week": 3, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730930MINvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1973-09-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/197309300min.htm", 
+                        "id": "197309300min", 
+                        "key": "nfl1973-19730930MINvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Minnesota Vikings vs. Green Bay Packers", 
+                        "week": 3, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730930OTIvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1973-09-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "OTI", 
+                        "href": "/boxscores/197309300oti.htm", 
+                        "id": "197309300oti", 
+                        "key": "nfl1973-19730930OTIvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Houston Oilers vs. Pittsburgh Steelers", 
+                        "week": 3, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730930PHIvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1973-09-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/197309300phi.htm", 
+                        "id": "197309300phi", 
+                        "key": "nfl1973-19730930PHIvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Philadelphia Eagles vs. Washington Redskins", 
+                        "week": 3, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730930SDGvsCIN": {
+                        "awayTeam": "CIN", 
+                        "date": "1973-09-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SDG", 
+                        "href": "/boxscores/197309300sdg.htm", 
+                        "id": "197309300sdg", 
+                        "key": "nfl1973-19730930SDGvsCIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "San Diego Chargers vs. Cincinnati Bengals", 
+                        "week": 3, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19730930SFOvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1973-09-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/197309300sfo.htm", 
+                        "id": "197309300sfo", 
+                        "key": "nfl1973-19730930SFOvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "San Francisco 49ers vs. Los Angeles Rams", 
+                        "week": 3, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731001DETvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1973-10-01T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/197310010det.htm", 
+                        "id": "197310010det", 
+                        "key": "nfl1973-19731001DETvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "21:00:00", 
+                        "vs": "Detroit Lions vs. Atlanta Falcons", 
+                        "week": 3, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1973-19731007ATLvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1973-10-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/197310070atl.htm", 
+                        "id": "197310070atl", 
+                        "key": "nfl1973-19731007ATLvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Atlanta Falcons vs. San Francisco 49ers", 
+                        "week": 4, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731007BUFvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1973-10-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BUF", 
+                        "href": "/boxscores/197310070buf.htm", 
+                        "id": "197310070buf", 
+                        "key": "nfl1973-19731007BUFvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Buffalo Bills vs. Philadelphia Eagles", 
+                        "week": 4, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731007CLEvsCIN": {
+                        "awayTeam": "CIN", 
+                        "date": "1973-10-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/197310070cle.htm", 
+                        "id": "197310070cle", 
+                        "key": "nfl1973-19731007CLEvsCIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Cleveland Browns vs. Cincinnati Bengals", 
+                        "week": 4, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731007CRDvsRAI": {
+                        "awayTeam": "RAI", 
+                        "date": "1973-10-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/197310070crd.htm", 
+                        "id": "197310070crd", 
+                        "key": "nfl1973-19731007CRDvsRAI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "St. Louis Cardinals vs. Oakland Raiders", 
+                        "week": 4, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731007DETvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1973-10-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/197310070det.htm", 
+                        "id": "197310070det", 
+                        "key": "nfl1973-19731007DETvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Detroit Lions vs. Minnesota Vikings", 
+                        "week": 4, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731007KANvsDEN": {
+                        "awayTeam": "DEN", 
+                        "date": "1973-10-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "KAN", 
+                        "href": "/boxscores/197310070kan.htm", 
+                        "id": "197310070kan", 
+                        "key": "nfl1973-19731007KANvsDEN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Kansas City Chiefs vs. Denver Broncos", 
+                        "week": 4, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731007MIAvsNYJ": {
+                        "awayTeam": "NYJ", 
+                        "date": "1973-10-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIA", 
+                        "href": "/boxscores/197310070mia.htm", 
+                        "id": "197310070mia", 
+                        "key": "nfl1973-19731007MIAvsNYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Miami Dolphins vs. New York Jets", 
+                        "week": 4, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731007NORvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1973-10-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/197310070nor.htm", 
+                        "id": "197310070nor", 
+                        "key": "nfl1973-19731007NORvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "New Orleans Saints vs. Chicago Bears", 
+                        "week": 4, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731007NWEvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1973-10-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NWE", 
+                        "href": "/boxscores/197310070nwe.htm", 
+                        "id": "197310070nwe", 
+                        "key": "nfl1973-19731007NWEvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New England Patriots vs. Baltimore Colts", 
+                        "week": 4, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731007NYGvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1973-10-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/197310070nyg.htm", 
+                        "id": "197310070nyg", 
+                        "key": "nfl1973-19731007NYGvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New York Giants vs. Green Bay Packers", 
+                        "week": 4, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731007OTIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1973-10-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "OTI", 
+                        "href": "/boxscores/197310070oti.htm", 
+                        "id": "197310070oti", 
+                        "key": "nfl1973-19731007OTIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Houston Oilers vs. Los Angeles Rams", 
+                        "week": 4, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731007PITvsSDG": {
+                        "awayTeam": "SDG", 
+                        "date": "1973-10-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/197310070pit.htm", 
+                        "id": "197310070pit", 
+                        "key": "nfl1973-19731007PITvsSDG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Pittsburgh Steelers vs. San Diego Chargers", 
+                        "week": 4, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731008WASvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1973-10-08T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/197310080was.htm", 
+                        "id": "197310080was", 
+                        "key": "nfl1973-19731008WASvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "21:00:00", 
+                        "vs": "Washington Redskins vs. Dallas Cowboys", 
+                        "week": 4, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1973-19731014ATLvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1973-10-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/197310140atl.htm", 
+                        "id": "197310140atl", 
+                        "key": "nfl1973-19731014ATLvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Atlanta Falcons vs. Chicago Bears", 
+                        "week": 5, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731014BUFvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1973-10-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BUF", 
+                        "href": "/boxscores/197310140buf.htm", 
+                        "id": "197310140buf", 
+                        "key": "nfl1973-19731014BUFvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Buffalo Bills vs. Baltimore Colts", 
+                        "week": 5, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731014CINvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1973-10-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CIN", 
+                        "href": "/boxscores/197310140cin.htm", 
+                        "id": "197310140cin", 
+                        "key": "nfl1973-19731014CINvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Cincinnati Bengals vs. Pittsburgh Steelers", 
+                        "week": 5, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731014CRDvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1973-10-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/197310140crd.htm", 
+                        "id": "197310140crd", 
+                        "key": "nfl1973-19731014CRDvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "St. Louis Cardinals vs. Philadelphia Eagles", 
+                        "week": 5, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731014GNBvsKAN": {
+                        "awayTeam": "KAN", 
+                        "date": "1973-10-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/197310140gnb.htm", 
+                        "id": "197310140gnb", 
+                        "key": "nfl1973-19731014GNBvsKAN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Green Bay Packers vs. Kansas City Chiefs", 
+                        "week": 5, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731014NORvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1973-10-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/197310140nor.htm", 
+                        "id": "197310140nor", 
+                        "key": "nfl1973-19731014NORvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "New Orleans Saints vs. Detroit Lions", 
+                        "week": 5, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731014NWEvsNYJ": {
+                        "awayTeam": "NYJ", 
+                        "date": "1973-10-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NWE", 
+                        "href": "/boxscores/197310140nwe.htm", 
+                        "id": "197310140nwe", 
+                        "key": "nfl1973-19731014NWEvsNYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New England Patriots vs. New York Jets", 
+                        "week": 5, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731014NYGvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1973-10-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/197310140nyg.htm", 
+                        "id": "197310140nyg", 
+                        "key": "nfl1973-19731014NYGvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New York Giants vs. Washington Redskins", 
+                        "week": 5, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731014OTIvsDEN": {
+                        "awayTeam": "DEN", 
+                        "date": "1973-10-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "OTI", 
+                        "href": "/boxscores/197310140oti.htm", 
+                        "id": "197310140oti", 
+                        "key": "nfl1973-19731014OTIvsDEN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Houston Oilers vs. Denver Broncos", 
+                        "week": 5, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731014RAMvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1973-10-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/197310140ram.htm", 
+                        "id": "197310140ram", 
+                        "key": "nfl1973-19731014RAMvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Los Angeles Rams vs. Dallas Cowboys", 
+                        "week": 5, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731014SDGvsRAI": {
+                        "awayTeam": "RAI", 
+                        "date": "1973-10-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SDG", 
+                        "href": "/boxscores/197310140sdg.htm", 
+                        "id": "197310140sdg", 
+                        "key": "nfl1973-19731014SDGvsRAI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "San Diego Chargers vs. Oakland Raiders", 
+                        "week": 5, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731014SFOvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1973-10-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/197310140sfo.htm", 
+                        "id": "197310140sfo", 
+                        "key": "nfl1973-19731014SFOvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "San Francisco 49ers vs. Minnesota Vikings", 
+                        "week": 5, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731015CLEvsMIA": {
+                        "awayTeam": "MIA", 
+                        "date": "1973-10-15T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/197310150cle.htm", 
+                        "id": "197310150cle", 
+                        "key": "nfl1973-19731015CLEvsMIA", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "21:00:00", 
+                        "vs": "Cleveland Browns vs. Miami Dolphins", 
+                        "week": 5, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1973-19731021CHIvsNWE": {
+                        "awayTeam": "NWE", 
+                        "date": "1973-10-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/197310210chi.htm", 
+                        "id": "197310210chi", 
+                        "key": "nfl1973-19731021CHIvsNWE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Chicago Bears vs. New England Patriots", 
+                        "week": 6, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731021CINvsKAN": {
+                        "awayTeam": "KAN", 
+                        "date": "1973-10-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CIN", 
+                        "href": "/boxscores/197310210cin.htm", 
+                        "id": "197310210cin", 
+                        "key": "nfl1973-19731021CINvsKAN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Cincinnati Bengals vs. Kansas City Chiefs", 
+                        "week": 6, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731021CLEvsOTI": {
+                        "awayTeam": "OTI", 
+                        "date": "1973-10-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/197310210cle.htm", 
+                        "id": "197310210cle", 
+                        "key": "nfl1973-19731021CLEvsOTI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Cleveland Browns vs. Houston Oilers", 
+                        "week": 6, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731021DALvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1973-10-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/197310210dal.htm", 
+                        "id": "197310210dal", 
+                        "key": "nfl1973-19731021DALvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Dallas Cowboys vs. New York Giants", 
+                        "week": 6, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731021DETvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1973-10-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/197310210det.htm", 
+                        "id": "197310210det", 
+                        "key": "nfl1973-19731021DETvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Detroit Lions vs. Baltimore Colts", 
+                        "week": 6, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731021MIAvsBUF": {
+                        "awayTeam": "BUF", 
+                        "date": "1973-10-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIA", 
+                        "href": "/boxscores/197310210mia.htm", 
+                        "id": "197310210mia", 
+                        "key": "nfl1973-19731021MIAvsBUF", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Miami Dolphins vs. Buffalo Bills", 
+                        "week": 6, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731021MINvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1973-10-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/197310210min.htm", 
+                        "id": "197310210min", 
+                        "key": "nfl1973-19731021MINvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Minnesota Vikings vs. Philadelphia Eagles", 
+                        "week": 6, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731021PITvsNYJ": {
+                        "awayTeam": "NYJ", 
+                        "date": "1973-10-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/197310210pit.htm", 
+                        "id": "197310210pit", 
+                        "key": "nfl1973-19731021PITvsNYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Pittsburgh Steelers vs. New York Jets", 
+                        "week": 6, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731021RAMvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1973-10-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/197310210ram.htm", 
+                        "id": "197310210ram", 
+                        "key": "nfl1973-19731021RAMvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Los Angeles Rams vs. Green Bay Packers", 
+                        "week": 6, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731021SDGvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1973-10-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SDG", 
+                        "href": "/boxscores/197310210sdg.htm", 
+                        "id": "197310210sdg", 
+                        "key": "nfl1973-19731021SDGvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "San Diego Chargers vs. Atlanta Falcons", 
+                        "week": 6, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731021SFOvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1973-10-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/197310210sfo.htm", 
+                        "id": "197310210sfo", 
+                        "key": "nfl1973-19731021SFOvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "San Francisco 49ers vs. New Orleans Saints", 
+                        "week": 6, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731021WASvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1973-10-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/197310210was.htm", 
+                        "id": "197310210was", 
+                        "key": "nfl1973-19731021WASvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Washington Redskins vs. St. Louis Cardinals", 
+                        "week": 6, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731022DENvsRAI": {
+                        "awayTeam": "RAI", 
+                        "date": "1973-10-22T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "DEN", 
+                        "href": "/boxscores/197310220den.htm", 
+                        "id": "197310220den", 
+                        "key": "nfl1973-19731022DENvsRAI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "21:00:00", 
+                        "vs": "Denver Broncos vs. Oakland Raiders", 
+                        "week": 6, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1973-19731028CHIvsOTI": {
+                        "awayTeam": "OTI", 
+                        "date": "1973-10-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/197310280chi.htm", 
+                        "id": "197310280chi", 
+                        "key": "nfl1973-19731028CHIvsOTI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Chicago Bears vs. Houston Oilers", 
+                        "week": 7, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731028CLEvsSDG": {
+                        "awayTeam": "SDG", 
+                        "date": "1973-10-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/197310280cle.htm", 
+                        "id": "197310280cle", 
+                        "key": "nfl1973-19731028CLEvsSDG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Cleveland Browns vs. San Diego Chargers", 
+                        "week": 7, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731028CLTvsRAI": {
+                        "awayTeam": "RAI", 
+                        "date": "1973-10-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/197310280clt.htm", 
+                        "id": "197310280clt", 
+                        "key": "nfl1973-19731028CLTvsRAI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Baltimore Colts vs. Oakland Raiders", 
+                        "week": 7, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731028CRDvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1973-10-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/197310280crd.htm", 
+                        "id": "197310280crd", 
+                        "key": "nfl1973-19731028CRDvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "St. Louis Cardinals vs. New York Giants", 
+                        "week": 7, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731028DETvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1973-10-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/197310280det.htm", 
+                        "id": "197310280det", 
+                        "key": "nfl1973-19731028DETvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Detroit Lions vs. Green Bay Packers", 
+                        "week": 7, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731028MINvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1973-10-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/197310280min.htm", 
+                        "id": "197310280min", 
+                        "key": "nfl1973-19731028MINvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Minnesota Vikings vs. Los Angeles Rams", 
+                        "week": 7, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731028NORvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1973-10-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/197310280nor.htm", 
+                        "id": "197310280nor", 
+                        "key": "nfl1973-19731028NORvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "New Orleans Saints vs. Washington Redskins", 
+                        "week": 7, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731028NWEvsMIA": {
+                        "awayTeam": "MIA", 
+                        "date": "1973-10-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NWE", 
+                        "href": "/boxscores/197310280nwe.htm", 
+                        "id": "197310280nwe", 
+                        "key": "nfl1973-19731028NWEvsMIA", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New England Patriots vs. Miami Dolphins", 
+                        "week": 7, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731028NYJvsDEN": {
+                        "awayTeam": "DEN", 
+                        "date": "1973-10-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYJ", 
+                        "href": "/boxscores/197310280nyj.htm", 
+                        "id": "197310280nyj", 
+                        "key": "nfl1973-19731028NYJvsDEN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New York Jets vs. Denver Broncos", 
+                        "week": 7, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731028PHIvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1973-10-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/197310280phi.htm", 
+                        "id": "197310280phi", 
+                        "key": "nfl1973-19731028PHIvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Philadelphia Eagles vs. Dallas Cowboys", 
+                        "week": 7, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731028PITvsCIN": {
+                        "awayTeam": "CIN", 
+                        "date": "1973-10-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/197310280pit.htm", 
+                        "id": "197310280pit", 
+                        "key": "nfl1973-19731028PITvsCIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Pittsburgh Steelers vs. Cincinnati Bengals", 
+                        "week": 7, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731028SFOvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1973-10-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/197310280sfo.htm", 
+                        "id": "197310280sfo", 
+                        "key": "nfl1973-19731028SFOvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "San Francisco 49ers vs. Atlanta Falcons", 
+                        "week": 7, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731029BUFvsKAN": {
+                        "awayTeam": "KAN", 
+                        "date": "1973-10-29T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "BUF", 
+                        "href": "/boxscores/197310290buf.htm", 
+                        "id": "197310290buf", 
+                        "key": "nfl1973-19731029BUFvsKAN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "21:00:00", 
+                        "vs": "Buffalo Bills vs. Kansas City Chiefs", 
+                        "week": 7, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1973-19731104ATLvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1973-11-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/197311040atl.htm", 
+                        "id": "197311040atl", 
+                        "key": "nfl1973-19731104ATLvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Atlanta Falcons vs. Los Angeles Rams", 
+                        "week": 8, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731104CLTvsOTI": {
+                        "awayTeam": "OTI", 
+                        "date": "1973-11-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/197311040clt.htm", 
+                        "id": "197311040clt", 
+                        "key": "nfl1973-19731104CLTvsOTI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Baltimore Colts vs. Houston Oilers", 
+                        "week": 8, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731104CRDvsDEN": {
+                        "awayTeam": "DEN", 
+                        "date": "1973-11-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/197311040crd.htm", 
+                        "id": "197311040crd", 
+                        "key": "nfl1973-19731104CRDvsDEN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "St. Louis Cardinals vs. Denver Broncos", 
+                        "week": 8, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731104DALvsCIN": {
+                        "awayTeam": "CIN", 
+                        "date": "1973-11-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/197311040dal.htm", 
+                        "id": "197311040dal", 
+                        "key": "nfl1973-19731104DALvsCIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Dallas Cowboys vs. Cincinnati Bengals", 
+                        "week": 8, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731104DETvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1973-11-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/197311040det.htm", 
+                        "id": "197311040det", 
+                        "key": "nfl1973-19731104DETvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Detroit Lions vs. San Francisco 49ers", 
+                        "week": 8, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731104GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1973-11-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/197311040gnb.htm", 
+                        "id": "197311040gnb", 
+                        "key": "nfl1973-19731104GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 8, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731104MINvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1973-11-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/197311040min.htm", 
+                        "id": "197311040min", 
+                        "key": "nfl1973-19731104MINvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Minnesota Vikings vs. Cleveland Browns", 
+                        "week": 8, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731104NORvsBUF": {
+                        "awayTeam": "BUF", 
+                        "date": "1973-11-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/197311040nor.htm", 
+                        "id": "197311040nor", 
+                        "key": "nfl1973-19731104NORvsBUF", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "New Orleans Saints vs. Buffalo Bills", 
+                        "week": 8, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731104NYJvsMIA": {
+                        "awayTeam": "MIA", 
+                        "date": "1973-11-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYJ", 
+                        "href": "/boxscores/197311040nyj.htm", 
+                        "id": "197311040nyj", 
+                        "key": "nfl1973-19731104NYJvsMIA", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New York Jets vs. Miami Dolphins", 
+                        "week": 8, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731104PHIvsNWE": {
+                        "awayTeam": "NWE", 
+                        "date": "1973-11-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/197311040phi.htm", 
+                        "id": "197311040phi", 
+                        "key": "nfl1973-19731104PHIvsNWE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Philadelphia Eagles vs. New England Patriots", 
+                        "week": 8, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731104RAIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1973-11-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAI", 
+                        "href": "/boxscores/197311040rai.htm", 
+                        "id": "197311040rai", 
+                        "key": "nfl1973-19731104RAIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Oakland Raiders vs. New York Giants", 
+                        "week": 8, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731104SDGvsKAN": {
+                        "awayTeam": "KAN", 
+                        "date": "1973-11-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SDG", 
+                        "href": "/boxscores/197311040sdg.htm", 
+                        "id": "197311040sdg", 
+                        "key": "nfl1973-19731104SDGvsKAN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "San Diego Chargers vs. Kansas City Chiefs", 
+                        "week": 8, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731105PITvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1973-11-05T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/197311050pit.htm", 
+                        "id": "197311050pit", 
+                        "key": "nfl1973-19731105PITvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "21:00:00", 
+                        "vs": "Pittsburgh Steelers vs. Washington Redskins", 
+                        "week": 8, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1973-19731111BUFvsCIN": {
+                        "awayTeam": "CIN", 
+                        "date": "1973-11-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BUF", 
+                        "href": "/boxscores/197311110buf.htm", 
+                        "id": "197311110buf", 
+                        "key": "nfl1973-19731111BUFvsCIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Buffalo Bills vs. Cincinnati Bengals", 
+                        "week": 9, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731111DENvsSDG": {
+                        "awayTeam": "SDG", 
+                        "date": "1973-11-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DEN", 
+                        "href": "/boxscores/197311110den.htm", 
+                        "id": "197311110den", 
+                        "key": "nfl1973-19731111DENvsSDG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Denver Broncos vs. San Diego Chargers", 
+                        "week": 9, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731111GNBvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1973-11-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/197311110gnb.htm", 
+                        "id": "197311110gnb", 
+                        "key": "nfl1973-19731111GNBvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Green Bay Packers vs. St. Louis Cardinals", 
+                        "week": 9, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731111MIAvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1973-11-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIA", 
+                        "href": "/boxscores/197311110mia.htm", 
+                        "id": "197311110mia", 
+                        "key": "nfl1973-19731111MIAvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Miami Dolphins vs. Baltimore Colts", 
+                        "week": 9, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731111MINvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1973-11-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/197311110min.htm", 
+                        "id": "197311110min", 
+                        "key": "nfl1973-19731111MINvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Minnesota Vikings vs. Detroit Lions", 
+                        "week": 9, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731111NYGvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1973-11-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/197311110nyg.htm", 
+                        "id": "197311110nyg", 
+                        "key": "nfl1973-19731111NYGvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New York Giants vs. Dallas Cowboys", 
+                        "week": 9, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731111NYJvsNWE": {
+                        "awayTeam": "NWE", 
+                        "date": "1973-11-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYJ", 
+                        "href": "/boxscores/197311110nyj.htm", 
+                        "id": "197311110nyj", 
+                        "key": "nfl1973-19731111NYJvsNWE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New York Jets vs. New England Patriots", 
+                        "week": 9, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731111OTIvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1973-11-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "OTI", 
+                        "href": "/boxscores/197311110oti.htm", 
+                        "id": "197311110oti", 
+                        "key": "nfl1973-19731111OTIvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Houston Oilers vs. Cleveland Browns", 
+                        "week": 9, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731111PHIvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1973-11-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/197311110phi.htm", 
+                        "id": "197311110phi", 
+                        "key": "nfl1973-19731111PHIvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Philadelphia Eagles vs. Atlanta Falcons", 
+                        "week": 9, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731111RAIvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1973-11-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAI", 
+                        "href": "/boxscores/197311110rai.htm", 
+                        "id": "197311110rai", 
+                        "key": "nfl1973-19731111RAIvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Oakland Raiders vs. Pittsburgh Steelers", 
+                        "week": 9, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731111RAMvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1973-11-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/197311110ram.htm", 
+                        "id": "197311110ram", 
+                        "key": "nfl1973-19731111RAMvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Los Angeles Rams vs. New Orleans Saints", 
+                        "week": 9, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731111WASvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1973-11-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/197311110was.htm", 
+                        "id": "197311110was", 
+                        "key": "nfl1973-19731111WASvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Washington Redskins vs. San Francisco 49ers", 
+                        "week": 9, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731112KANvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1973-11-12T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "KAN", 
+                        "href": "/boxscores/197311120kan.htm", 
+                        "id": "197311120kan", 
+                        "key": "nfl1973-19731112KANvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "21:00:00", 
+                        "vs": "Kansas City Chiefs vs. Chicago Bears", 
+                        "week": 9, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1973-19731118BUFvsMIA": {
+                        "awayTeam": "MIA", 
+                        "date": "1973-11-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BUF", 
+                        "href": "/boxscores/197311180buf.htm", 
+                        "id": "197311180buf", 
+                        "key": "nfl1973-19731118BUFvsMIA", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Buffalo Bills vs. Miami Dolphins", 
+                        "week": 10, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731118CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1973-11-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/197311180chi.htm", 
+                        "id": "197311180chi", 
+                        "key": "nfl1973-19731118CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Chicago Bears vs. Detroit Lions", 
+                        "week": 10, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731118CINvsNYJ": {
+                        "awayTeam": "NYJ", 
+                        "date": "1973-11-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CIN", 
+                        "href": "/boxscores/197311180cin.htm", 
+                        "id": "197311180cin", 
+                        "key": "nfl1973-19731118CINvsNYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Cincinnati Bengals vs. New York Jets", 
+                        "week": 10, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731118DALvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1973-11-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/197311180dal.htm", 
+                        "id": "197311180dal", 
+                        "key": "nfl1973-19731118DALvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Dallas Cowboys vs. Philadelphia Eagles", 
+                        "week": 10, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731118KANvsOTI": {
+                        "awayTeam": "OTI", 
+                        "date": "1973-11-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "KAN", 
+                        "href": "/boxscores/197311180kan.htm", 
+                        "id": "197311180kan", 
+                        "key": "nfl1973-19731118KANvsOTI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Kansas City Chiefs vs. Houston Oilers", 
+                        "week": 10, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731118NWEvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1973-11-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NWE", 
+                        "href": "/boxscores/197311180nwe.htm", 
+                        "id": "197311180nwe", 
+                        "key": "nfl1973-19731118NWEvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New England Patriots vs. Green Bay Packers", 
+                        "week": 10, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731118NYGvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1973-11-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/197311180nyg.htm", 
+                        "id": "197311180nyg", 
+                        "key": "nfl1973-19731118NYGvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New York Giants vs. St. Louis Cardinals", 
+                        "week": 10, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731118PITvsDEN": {
+                        "awayTeam": "DEN", 
+                        "date": "1973-11-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/197311180pit.htm", 
+                        "id": "197311180pit", 
+                        "key": "nfl1973-19731118PITvsDEN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Pittsburgh Steelers vs. Denver Broncos", 
+                        "week": 10, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731118RAIvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1973-11-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAI", 
+                        "href": "/boxscores/197311180rai.htm", 
+                        "id": "197311180rai", 
+                        "key": "nfl1973-19731118RAIvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Oakland Raiders vs. Cleveland Browns", 
+                        "week": 10, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731118RAMvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1973-11-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/197311180ram.htm", 
+                        "id": "197311180ram", 
+                        "key": "nfl1973-19731118RAMvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Los Angeles Rams vs. San Francisco 49ers", 
+                        "week": 10, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731118SDGvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1973-11-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SDG", 
+                        "href": "/boxscores/197311180sdg.htm", 
+                        "id": "197311180sdg", 
+                        "key": "nfl1973-19731118SDGvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "San Diego Chargers vs. New Orleans Saints", 
+                        "week": 10, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731118WASvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1973-11-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/197311180was.htm", 
+                        "id": "197311180was", 
+                        "key": "nfl1973-19731118WASvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Washington Redskins vs. Baltimore Colts", 
+                        "week": 10, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731119ATLvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1973-11-19T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/197311190atl.htm", 
+                        "id": "197311190atl", 
+                        "key": "nfl1973-19731119ATLvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "21:00:00", 
+                        "vs": "Atlanta Falcons vs. Minnesota Vikings", 
+                        "week": 10, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1973-19731122DALvsMIA": {
+                        "awayTeam": "MIA", 
+                        "date": "1973-11-22T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/197311220dal.htm", 
+                        "id": "197311220dal", 
+                        "key": "nfl1973-19731122DALvsMIA", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "15:30:00", 
+                        "vs": "Dallas Cowboys vs. Miami Dolphins", 
+                        "week": 11, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731122DETvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1973-11-22T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/197311220det.htm", 
+                        "id": "197311220det", 
+                        "key": "nfl1973-19731122DETvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "12:15:00", 
+                        "vs": "Detroit Lions vs. Washington Redskins", 
+                        "week": 11, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731125CINvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1973-11-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CIN", 
+                        "href": "/boxscores/197311250cin.htm", 
+                        "id": "197311250cin", 
+                        "key": "nfl1973-19731125CINvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Cincinnati Bengals vs. St. Louis Cardinals", 
+                        "week": 11, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731125CLEvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1973-11-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/197311250cle.htm", 
+                        "id": "197311250cle", 
+                        "key": "nfl1973-19731125CLEvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Cleveland Browns vs. Pittsburgh Steelers", 
+                        "week": 11, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731125CLTvsBUF": {
+                        "awayTeam": "BUF", 
+                        "date": "1973-11-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/197311250clt.htm", 
+                        "id": "197311250clt", 
+                        "key": "nfl1973-19731125CLTvsBUF", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Baltimore Colts vs. Buffalo Bills", 
+                        "week": 11, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731125DENvsKAN": {
+                        "awayTeam": "KAN", 
+                        "date": "1973-11-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DEN", 
+                        "href": "/boxscores/197311250den.htm", 
+                        "id": "197311250den", 
+                        "key": "nfl1973-19731125DENvsKAN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "15:00:00", 
+                        "vs": "Denver Broncos vs. Kansas City Chiefs", 
+                        "week": 11, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731125MINvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1973-11-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/197311250min.htm", 
+                        "id": "197311250min", 
+                        "key": "nfl1973-19731125MINvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Minnesota Vikings vs. Chicago Bears", 
+                        "week": 11, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731125NORvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1973-11-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/197311250nor.htm", 
+                        "id": "197311250nor", 
+                        "key": "nfl1973-19731125NORvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "New Orleans Saints vs. Los Angeles Rams", 
+                        "week": 11, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731125NYJvsATL": {
+                        "awayTeam": "ATL", 
+                        "date": "1973-11-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYJ", 
+                        "href": "/boxscores/197311250nyj.htm", 
+                        "id": "197311250nyj", 
+                        "key": "nfl1973-19731125NYJvsATL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "New York Jets vs. Atlanta Falcons", 
+                        "week": 11, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731125OTIvsNWE": {
+                        "awayTeam": "NWE", 
+                        "date": "1973-11-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "OTI", 
+                        "href": "/boxscores/197311250oti.htm", 
+                        "id": "197311250oti", 
+                        "key": "nfl1973-19731125OTIvsNWE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Houston Oilers vs. New England Patriots", 
+                        "week": 11, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731125PHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1973-11-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/197311250phi.htm", 
+                        "id": "197311250phi", 
+                        "key": "nfl1973-19731125PHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Philadelphia Eagles vs. New York Giants", 
+                        "week": 11, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731125RAIvsSDG": {
+                        "awayTeam": "SDG", 
+                        "date": "1973-11-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAI", 
+                        "href": "/boxscores/197311250rai.htm", 
+                        "id": "197311250rai", 
+                        "key": "nfl1973-19731125RAIvsSDG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Oakland Raiders vs. San Diego Chargers", 
+                        "week": 11, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731126SFOvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1973-11-26T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/197311260sfo.htm", 
+                        "id": "197311260sfo", 
+                        "key": "nfl1973-19731126SFOvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "21:00:00", 
+                        "vs": "San Francisco 49ers vs. Green Bay Packers", 
+                        "week": 11, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1973-19731202ATLvsBUF": {
+                        "awayTeam": "BUF", 
+                        "date": "1973-12-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/197312020atl.htm", 
+                        "id": "197312020atl", 
+                        "key": "nfl1973-19731202ATLvsBUF", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Atlanta Falcons vs. Buffalo Bills", 
+                        "week": 12, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731202CHIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1973-12-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/197312020chi.htm", 
+                        "id": "197312020chi", 
+                        "key": "nfl1973-19731202CHIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Chicago Bears vs. Los Angeles Rams", 
+                        "week": 12, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731202CINvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1973-12-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CIN", 
+                        "href": "/boxscores/197312020cin.htm", 
+                        "id": "197312020cin", 
+                        "key": "nfl1973-19731202CINvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Cincinnati Bengals vs. Minnesota Vikings", 
+                        "week": 12, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731202CRDvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1973-12-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/197312020crd.htm", 
+                        "id": "197312020crd", 
+                        "key": "nfl1973-19731202CRDvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "St. Louis Cardinals vs. Detroit Lions", 
+                        "week": 12, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731202DENvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1973-12-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DEN", 
+                        "href": "/boxscores/197312020den.htm", 
+                        "id": "197312020den", 
+                        "key": "nfl1973-19731202DENvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Denver Broncos vs. Dallas Cowboys", 
+                        "week": 12, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731202GNBvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1973-12-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/197312020gnb.htm", 
+                        "id": "197312020gnb", 
+                        "key": "nfl1973-19731202GNBvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Green Bay Packers vs. New Orleans Saints", 
+                        "week": 12, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731202KANvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1973-12-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "KAN", 
+                        "href": "/boxscores/197312020kan.htm", 
+                        "id": "197312020kan", 
+                        "key": "nfl1973-19731202KANvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Kansas City Chiefs vs. Cleveland Browns", 
+                        "week": 12, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731202NWEvsSDG": {
+                        "awayTeam": "SDG", 
+                        "date": "1973-12-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NWE", 
+                        "href": "/boxscores/197312020nwe.htm", 
+                        "id": "197312020nwe", 
+                        "key": "nfl1973-19731202NWEvsSDG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New England Patriots vs. San Diego Chargers", 
+                        "week": 12, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731202NYJvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1973-12-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYJ", 
+                        "href": "/boxscores/197312020nyj.htm", 
+                        "id": "197312020nyj", 
+                        "key": "nfl1973-19731202NYJvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New York Jets vs. Baltimore Colts", 
+                        "week": 12, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731202OTIvsRAI": {
+                        "awayTeam": "RAI", 
+                        "date": "1973-12-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "OTI", 
+                        "href": "/boxscores/197312020oti.htm", 
+                        "id": "197312020oti", 
+                        "key": "nfl1973-19731202OTIvsRAI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Houston Oilers vs. Oakland Raiders", 
+                        "week": 12, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731202SFOvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1973-12-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/197312020sfo.htm", 
+                        "id": "197312020sfo", 
+                        "key": "nfl1973-19731202SFOvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "San Francisco 49ers vs. Philadelphia Eagles", 
+                        "week": 12, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731202WASvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1973-12-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/197312020was.htm", 
+                        "id": "197312020was", 
+                        "key": "nfl1973-19731202WASvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Washington Redskins vs. New York Giants", 
+                        "week": 12, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731203MIAvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1973-12-03T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIA", 
+                        "href": "/boxscores/197312030mia.htm", 
+                        "id": "197312030mia", 
+                        "key": "nfl1973-19731203MIAvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "21:00:00", 
+                        "vs": "Miami Dolphins vs. Pittsburgh Steelers", 
+                        "week": 12, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "13": {
+                "events": {
+                    "nfl1973-19731208GNBvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1973-12-08T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/197312080gnb.htm", 
+                        "id": "197312080gnb", 
+                        "key": "nfl1973-19731208GNBvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Green Bay Packers vs. Minnesota Vikings", 
+                        "week": 13, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731208RAIvsKAN": {
+                        "awayTeam": "KAN", 
+                        "date": "1973-12-08T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAI", 
+                        "href": "/boxscores/197312080rai.htm", 
+                        "id": "197312080rai", 
+                        "key": "nfl1973-19731208RAIvsKAN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Oakland Raiders vs. Kansas City Chiefs", 
+                        "week": 13, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731209ATLvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1973-12-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/197312090atl.htm", 
+                        "id": "197312090atl", 
+                        "key": "nfl1973-19731209ATLvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Atlanta Falcons vs. St. Louis Cardinals", 
+                        "week": 13, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731209BUFvsNWE": {
+                        "awayTeam": "NWE", 
+                        "date": "1973-12-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BUF", 
+                        "href": "/boxscores/197312090buf.htm", 
+                        "id": "197312090buf", 
+                        "key": "nfl1973-19731209BUFvsNWE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Buffalo Bills vs. New England Patriots", 
+                        "week": 13, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731209CINvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1973-12-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CIN", 
+                        "href": "/boxscores/197312090cin.htm", 
+                        "id": "197312090cin", 
+                        "key": "nfl1973-19731209CINvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Cincinnati Bengals vs. Cleveland Browns", 
+                        "week": 13, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731209CLTvsMIA": {
+                        "awayTeam": "MIA", 
+                        "date": "1973-12-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/197312090clt.htm", 
+                        "id": "197312090clt", 
+                        "key": "nfl1973-19731209CLTvsMIA", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Baltimore Colts vs. Miami Dolphins", 
+                        "week": 13, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731209DALvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1973-12-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/197312090dal.htm", 
+                        "id": "197312090dal", 
+                        "key": "nfl1973-19731209DALvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Dallas Cowboys vs. Washington Redskins", 
+                        "week": 13, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731209DETvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1973-12-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/197312090det.htm", 
+                        "id": "197312090det", 
+                        "key": "nfl1973-19731209DETvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Detroit Lions vs. Chicago Bears", 
+                        "week": 13, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731209NORvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1973-12-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NOR", 
+                        "href": "/boxscores/197312090nor.htm", 
+                        "id": "197312090nor", 
+                        "key": "nfl1973-19731209NORvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "New Orleans Saints vs. San Francisco 49ers", 
+                        "week": 13, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731209PHIvsNYJ": {
+                        "awayTeam": "NYJ", 
+                        "date": "1973-12-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/197312090phi.htm", 
+                        "id": "197312090phi", 
+                        "key": "nfl1973-19731209PHIvsNYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Philadelphia Eagles vs. New York Jets", 
+                        "week": 13, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731209PITvsOTI": {
+                        "awayTeam": "OTI", 
+                        "date": "1973-12-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/197312090pit.htm", 
+                        "id": "197312090pit", 
+                        "key": "nfl1973-19731209PITvsOTI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Pittsburgh Steelers vs. Houston Oilers", 
+                        "week": 13, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731209SDGvsDEN": {
+                        "awayTeam": "DEN", 
+                        "date": "1973-12-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SDG", 
+                        "href": "/boxscores/197312090sdg.htm", 
+                        "id": "197312090sdg", 
+                        "key": "nfl1973-19731209SDGvsDEN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "San Diego Chargers vs. Denver Broncos", 
+                        "week": 13, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731210RAMvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1973-12-10T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/197312100ram.htm", 
+                        "id": "197312100ram", 
+                        "key": "nfl1973-19731210RAMvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "21:00:00", 
+                        "vs": "Los Angeles Rams vs. New York Giants", 
+                        "week": 13, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "14": {
+                "events": {
+                    "nfl1973-19731215MIAvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1973-12-15T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIA", 
+                        "href": "/boxscores/197312150mia.htm", 
+                        "id": "197312150mia", 
+                        "key": "nfl1973-19731215MIAvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Miami Dolphins vs. Detroit Lions", 
+                        "week": 14, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731215SFOvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1973-12-15T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/197312150sfo.htm", 
+                        "id": "197312150sfo", 
+                        "key": "nfl1973-19731215SFOvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "San Francisco 49ers vs. Pittsburgh Steelers", 
+                        "week": 14, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731216ATLvsNOR": {
+                        "awayTeam": "NOR", 
+                        "date": "1973-12-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "ATL", 
+                        "href": "/boxscores/197312160atl.htm", 
+                        "id": "197312160atl", 
+                        "key": "nfl1973-19731216ATLvsNOR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Atlanta Falcons vs. New Orleans Saints", 
+                        "week": 14, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731216CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1973-12-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/197312160chi.htm", 
+                        "id": "197312160chi", 
+                        "key": "nfl1973-19731216CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 14, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731216CLTvsNWE": {
+                        "awayTeam": "NWE", 
+                        "date": "1973-12-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/197312160clt.htm", 
+                        "id": "197312160clt", 
+                        "key": "nfl1973-19731216CLTvsNWE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Baltimore Colts vs. New England Patriots", 
+                        "week": 14, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731216CRDvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1973-12-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/197312160crd.htm", 
+                        "id": "197312160crd", 
+                        "key": "nfl1973-19731216CRDvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "St. Louis Cardinals vs. Dallas Cowboys", 
+                        "week": 14, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731216KANvsSDG": {
+                        "awayTeam": "SDG", 
+                        "date": "1973-12-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "KAN", 
+                        "href": "/boxscores/197312160kan.htm", 
+                        "id": "197312160kan", 
+                        "key": "nfl1973-19731216KANvsSDG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Kansas City Chiefs vs. San Diego Chargers", 
+                        "week": 14, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731216NYGvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1973-12-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/197312160nyg.htm", 
+                        "id": "197312160nyg", 
+                        "key": "nfl1973-19731216NYGvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New York Giants vs. Minnesota Vikings", 
+                        "week": 14, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731216NYJvsBUF": {
+                        "awayTeam": "BUF", 
+                        "date": "1973-12-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYJ", 
+                        "href": "/boxscores/197312160nyj.htm", 
+                        "id": "197312160nyj", 
+                        "key": "nfl1973-19731216NYJvsBUF", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "New York Jets vs. Buffalo Bills", 
+                        "week": 14, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731216OTIvsCIN": {
+                        "awayTeam": "CIN", 
+                        "date": "1973-12-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "OTI", 
+                        "href": "/boxscores/197312160oti.htm", 
+                        "id": "197312160oti", 
+                        "key": "nfl1973-19731216OTIvsCIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "14:00:00", 
+                        "vs": "Houston Oilers vs. Cincinnati Bengals", 
+                        "week": 14, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731216RAIvsDEN": {
+                        "awayTeam": "DEN", 
+                        "date": "1973-12-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAI", 
+                        "href": "/boxscores/197312160rai.htm", 
+                        "id": "197312160rai", 
+                        "key": "nfl1973-19731216RAIvsDEN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Oakland Raiders vs. Denver Broncos", 
+                        "week": 14, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731216RAMvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1973-12-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/197312160ram.htm", 
+                        "id": "197312160ram", 
+                        "key": "nfl1973-19731216RAMvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "16:00:00", 
+                        "vs": "Los Angeles Rams vs. Cleveland Browns", 
+                        "week": 14, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731216WASvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1973-12-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/197312160was.htm", 
+                        "id": "197312160was", 
+                        "key": "nfl1973-19731216WASvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": "13:00:00", 
+                        "vs": "Washington Redskins vs. Philadelphia Eagles", 
+                        "week": 14, 
+                        "year": "1973"
+                    }
+                }
+            }
         }, 
-        {
-          "date": "1973-09-16T00:00:00", 
-          "teams": "WASvsSDG", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-09-16T00:00:00", 
-          "teams": "MIAvsSFO", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-09-16T00:00:00", 
-          "teams": "CLEvsBCL", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-09-16T00:00:00", 
-          "teams": "NYGvsOTI", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-09-16T00:00:00", 
-          "teams": "NWEvsBBA", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-09-16T00:00:00", 
-          "teams": "CHIvsDAL", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-09-16T00:00:00", 
-          "teams": "NORvsATL", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-09-16T00:00:00", 
-          "teams": "MINvsRAI", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-09-16T00:00:00", 
-          "teams": "DENvsCIN", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-09-16T00:00:00", 
-          "teams": "KANvsRAM", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-09-16T00:00:00", 
-          "teams": "PITvsDET", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-09-17T00:00:00", 
-          "teams": "GNBvsNYJ", 
-          "time": "21:00:00"
+        "1": {
+            "2": {
+                "events": {
+                    "nfl1973-19731222MINvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1973-12-22T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/197312220min.htm", 
+                        "id": "197312220min", 
+                        "key": "nfl1973-19731222MINvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Divisional Round", 
+                        "time": "13:00:00", 
+                        "vs": "Minnesota Vikings vs. Washington Redskins", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731222RAIvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1973-12-22T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAI", 
+                        "href": "/boxscores/197312220rai.htm", 
+                        "id": "197312220rai", 
+                        "key": "nfl1973-19731222RAIvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "AFC Divisional Round", 
+                        "time": "16:00:00", 
+                        "vs": "Oakland Raiders vs. Pittsburgh Steelers", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731223DALvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1973-12-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/197312230dal.htm", 
+                        "id": "197312230dal", 
+                        "key": "nfl1973-19731223DALvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Divisional Round", 
+                        "time": "16:00:00", 
+                        "vs": "Dallas Cowboys vs. Los Angeles Rams", 
+                        "week": 2, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731223MIAvsCIN": {
+                        "awayTeam": "CIN", 
+                        "date": "1973-12-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIA", 
+                        "href": "/boxscores/197312230mia.htm", 
+                        "id": "197312230mia", 
+                        "key": "nfl1973-19731223MIAvsCIN", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "AFC Divisional Round", 
+                        "time": "13:00:00", 
+                        "vs": "Miami Dolphins vs. Cincinnati Bengals", 
+                        "week": 2, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1973-19731230DALvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1973-12-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/197312300dal.htm", 
+                        "id": "197312300dal", 
+                        "key": "nfl1973-19731230DALvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Conference Championship", 
+                        "time": "13:00:00", 
+                        "vs": "Dallas Cowboys vs. Minnesota Vikings", 
+                        "week": 3, 
+                        "year": "1973"
+                    }, 
+                    "nfl1973-19731230MIAvsRAI": {
+                        "awayTeam": "RAI", 
+                        "date": "1973-12-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIA", 
+                        "href": "/boxscores/197312300mia.htm", 
+                        "id": "197312300mia", 
+                        "key": "nfl1973-19731230MIAvsRAI", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "AFC Conference Championship", 
+                        "time": "16:00:00", 
+                        "vs": "Miami Dolphins vs. Oakland Raiders", 
+                        "week": 3, 
+                        "year": "1973"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1973-19740113MIAvsMIN": {
+                        "alias": "Superbowl VIII", 
+                        "awayTeam": "MIN", 
+                        "date": "1974-01-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": 1, 
+                        "homeTeam": "MIA", 
+                        "href": "/boxscores/197401130mia.htm", 
+                        "id": "197401130mia", 
+                        "key": "nfl1973-19740113MIAvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "Superbowl VIII", 
+                        "time": "15:50:00", 
+                        "vs": "Miami Dolphins vs. Minnesota Vikings", 
+                        "week": 4, 
+                        "year": "1973"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1973-09-23T00:00:00", 
-          "teams": "PITvsCLE", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-09-23T00:00:00", 
-          "teams": "CINvsOTI", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-09-23T00:00:00", 
-          "teams": "NWEvsKAN", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-09-23T00:00:00", 
-          "teams": "NYGvsPHI", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-09-23T00:00:00", 
-          "teams": "CHIvsMIN", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-09-23T00:00:00", 
-          "teams": "GNBvsDET", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-09-23T00:00:00", 
-          "teams": "CRDvsWAS", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-09-23T00:00:00", 
-          "teams": "BCLvsNYJ", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-09-23T00:00:00", 
-          "teams": "DENvsSFO", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-09-23T00:00:00", 
-          "teams": "SDGvsBBA", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-09-23T00:00:00", 
-          "teams": "RAMvsATL", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-09-23T00:00:00", 
-          "teams": "RAIvsMIA", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-09-24T00:00:00", 
-          "teams": "DALvsNOR", 
-          "time": "21:00:00"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1973-09-30T00:00:00", 
-          "teams": "BBAvsNYJ", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-09-30T00:00:00", 
-          "teams": "PHIvsWAS", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-09-30T00:00:00", 
-          "teams": "CLEvsNYG", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-09-30T00:00:00", 
-          "teams": "MIAvsNWE", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-09-30T00:00:00", 
-          "teams": "DALvsCRD", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-09-30T00:00:00", 
-          "teams": "BCLvsNOR", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-09-30T00:00:00", 
-          "teams": "MINvsGNB", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-09-30T00:00:00", 
-          "teams": "OTIvsPIT", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-09-30T00:00:00", 
-          "teams": "SFOvsRAM", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-09-30T00:00:00", 
-          "teams": "KANvsRAI", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-09-30T00:00:00", 
-          "teams": "SDGvsCIN", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-09-30T00:00:00", 
-          "teams": "DENvsCHI", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-10-01T00:00:00", 
-          "teams": "DETvsATL", 
-          "time": "21:00:00"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1973-10-07T00:00:00", 
-          "teams": "ATLvsSFO", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-07T00:00:00", 
-          "teams": "PITvsSDG", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-07T00:00:00", 
-          "teams": "CLEvsCIN", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-07T00:00:00", 
-          "teams": "MIAvsNYJ", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-07T00:00:00", 
-          "teams": "NWEvsBCL", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-07T00:00:00", 
-          "teams": "NYGvsGNB", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-07T00:00:00", 
-          "teams": "BBAvsPHI", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-07T00:00:00", 
-          "teams": "NORvsCHI", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-07T00:00:00", 
-          "teams": "KANvsDEN", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-07T00:00:00", 
-          "teams": "CRDvsRAI", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-07T00:00:00", 
-          "teams": "OTIvsRAM", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-07T00:00:00", 
-          "teams": "DETvsMIN", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-10-08T00:00:00", 
-          "teams": "WASvsDAL", 
-          "time": "21:00:00"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1973-10-14T00:00:00", 
-          "teams": "NYGvsWAS", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-14T00:00:00", 
-          "teams": "ATLvsCHI", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-14T00:00:00", 
-          "teams": "NWEvsNYJ", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-14T00:00:00", 
-          "teams": "CINvsPIT", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-14T00:00:00", 
-          "teams": "BBAvsBCL", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-14T00:00:00", 
-          "teams": "NORvsDET", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-14T00:00:00", 
-          "teams": "OTIvsDEN", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-14T00:00:00", 
-          "teams": "GNBvsKAN", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-14T00:00:00", 
-          "teams": "CRDvsPHI", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-14T00:00:00", 
-          "teams": "RAMvsDAL", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-10-14T00:00:00", 
-          "teams": "SDGvsRAI", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-10-14T00:00:00", 
-          "teams": "SFOvsMIN", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-10-15T00:00:00", 
-          "teams": "CLEvsMIA", 
-          "time": "21:00:00"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1973-10-21T00:00:00", 
-          "teams": "DETvsBCL", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-21T00:00:00", 
-          "teams": "MIAvsBBA", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-21T00:00:00", 
-          "teams": "WASvsCRD", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-21T00:00:00", 
-          "teams": "PITvsNYJ", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-21T00:00:00", 
-          "teams": "CLEvsOTI", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-21T00:00:00", 
-          "teams": "CHIvsNWE", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-21T00:00:00", 
-          "teams": "MINvsPHI", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-21T00:00:00", 
-          "teams": "CINvsKAN", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-10-21T00:00:00", 
-          "teams": "SFOvsNOR", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-10-21T00:00:00", 
-          "teams": "RAMvsGNB", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-10-21T00:00:00", 
-          "teams": "SDGvsATL", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-10-21T00:00:00", 
-          "teams": "DALvsNYG", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-10-22T00:00:00", 
-          "teams": "DENvsRAI", 
-          "time": "21:00:00"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1973-10-28T00:00:00", 
-          "teams": "CLEvsSDG", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-28T00:00:00", 
-          "teams": "NYJvsDEN", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-28T00:00:00", 
-          "teams": "PHIvsDAL", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-28T00:00:00", 
-          "teams": "NWEvsMIA", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-28T00:00:00", 
-          "teams": "DETvsGNB", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-10-28T00:00:00", 
-          "teams": "CRDvsNYG", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-28T00:00:00", 
-          "teams": "MINvsRAM", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-28T00:00:00", 
-          "teams": "CHIvsOTI", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-28T00:00:00", 
-          "teams": "NORvsWAS", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-28T00:00:00", 
-          "teams": "BCLvsRAI", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-10-28T00:00:00", 
-          "teams": "SFOvsATL", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-10-28T00:00:00", 
-          "teams": "PITvsCIN", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-10-29T00:00:00", 
-          "teams": "BBAvsKAN", 
-          "time": "21:00:00"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1973-11-04T00:00:00", 
-          "teams": "NYJvsMIA", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-04T00:00:00", 
-          "teams": "ATLvsRAM", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-04T00:00:00", 
-          "teams": "PHIvsNWE", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-04T00:00:00", 
-          "teams": "NORvsBBA", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-04T00:00:00", 
-          "teams": "DALvsCIN", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-04T00:00:00", 
-          "teams": "CRDvsDEN", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-04T00:00:00", 
-          "teams": "BCLvsOTI", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-04T00:00:00", 
-          "teams": "GNBvsCHI", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-04T00:00:00", 
-          "teams": "MINvsCLE", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-04T00:00:00", 
-          "teams": "DETvsSFO", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-11-04T00:00:00", 
-          "teams": "RAIvsNYG", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-11-04T00:00:00", 
-          "teams": "SDGvsKAN", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-11-05T00:00:00", 
-          "teams": "PITvsWAS", 
-          "time": "21:00:00"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1973-11-11T00:00:00", 
-          "teams": "WASvsSFO", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-11T00:00:00", 
-          "teams": "NYJvsNWE", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-11T00:00:00", 
-          "teams": "PHIvsATL", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-11T00:00:00", 
-          "teams": "BBAvsCIN", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-11T00:00:00", 
-          "teams": "MIAvsBCL", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-11T00:00:00", 
-          "teams": "NYGvsDAL", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-11T00:00:00", 
-          "teams": "GNBvsCRD", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-11T00:00:00", 
-          "teams": "MINvsDET", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-11T00:00:00", 
-          "teams": "OTIvsCLE", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-11T00:00:00", 
-          "teams": "RAMvsNOR", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-11-11T00:00:00", 
-          "teams": "RAIvsPIT", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-11-11T00:00:00", 
-          "teams": "DENvsSDG", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-11-12T00:00:00", 
-          "teams": "KANvsCHI", 
-          "time": "21:00:00"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1973-11-18T00:00:00", 
-          "teams": "NYGvsCRD", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-18T00:00:00", 
-          "teams": "WASvsBCL", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-18T00:00:00", 
-          "teams": "NWEvsGNB", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-18T00:00:00", 
-          "teams": "BBAvsMIA", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-18T00:00:00", 
-          "teams": "PITvsDEN", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-18T00:00:00", 
-          "teams": "DALvsPHI", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-18T00:00:00", 
-          "teams": "CHIvsDET", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-18T00:00:00", 
-          "teams": "CINvsNYJ", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-18T00:00:00", 
-          "teams": "KANvsOTI", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-18T00:00:00", 
-          "teams": "RAMvsSFO", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-11-18T00:00:00", 
-          "teams": "SDGvsNOR", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-11-18T00:00:00", 
-          "teams": "RAIvsCLE", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-11-19T00:00:00", 
-          "teams": "ATLvsMIN", 
-          "time": "21:00:00"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1973-11-22T00:00:00", 
-          "teams": "DETvsWAS", 
-          "time": "12:15:00"
-        }, 
-        {
-          "date": "1973-11-22T00:00:00", 
-          "teams": "DALvsMIA", 
-          "time": "15:30:00"
-        }, 
-        {
-          "date": "1973-11-25T00:00:00", 
-          "teams": "CLEvsPIT", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-25T00:00:00", 
-          "teams": "CINvsCRD", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-25T00:00:00", 
-          "teams": "PHIvsNYG", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-11-25T00:00:00", 
-          "teams": "BCLvsBBA", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-25T00:00:00", 
-          "teams": "OTIvsNWE", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-25T00:00:00", 
-          "teams": "MINvsCHI", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-25T00:00:00", 
-          "teams": "NORvsRAM", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-11-25T00:00:00", 
-          "teams": "DENvsKAN", 
-          "time": "15:00:00"
-        }, 
-        {
-          "date": "1973-11-25T00:00:00", 
-          "teams": "RAIvsSDG", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-11-25T00:00:00", 
-          "teams": "NYJvsATL", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-11-26T00:00:00", 
-          "teams": "SFOvsGNB", 
-          "time": "21:00:00"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1973-12-02T00:00:00", 
-          "teams": "ATLvsBBA", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-02T00:00:00", 
-          "teams": "CINvsMIN", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-02T00:00:00", 
-          "teams": "NWEvsSDG", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-02T00:00:00", 
-          "teams": "WASvsNYG", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-02T00:00:00", 
-          "teams": "NYJvsBCL", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-02T00:00:00", 
-          "teams": "CHIvsRAM", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-12-02T00:00:00", 
-          "teams": "GNBvsNOR", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-12-02T00:00:00", 
-          "teams": "OTIvsRAI", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-12-02T00:00:00", 
-          "teams": "CRDvsDET", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-12-02T00:00:00", 
-          "teams": "DENvsDAL", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-12-02T00:00:00", 
-          "teams": "KANvsCLE", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-12-02T00:00:00", 
-          "teams": "SFOvsPHI", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-12-03T00:00:00", 
-          "teams": "MIAvsPIT", 
-          "time": "21:00:00"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "alias": "Week 13", 
-      "events": [
-        {
-          "date": "1973-12-08T00:00:00", 
-          "teams": "GNBvsMIN", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-08T00:00:00", 
-          "teams": "RAIvsKAN", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-12-09T00:00:00", 
-          "teams": "CINvsCLE", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-09T00:00:00", 
-          "teams": "DETvsCHI", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-09T00:00:00", 
-          "teams": "ATLvsCRD", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-09T00:00:00", 
-          "teams": "PHIvsNYJ", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-09T00:00:00", 
-          "teams": "PITvsOTI", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-09T00:00:00", 
-          "teams": "BBAvsNWE", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-09T00:00:00", 
-          "teams": "BCLvsMIA", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-12-09T00:00:00", 
-          "teams": "NORvsSFO", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-12-09T00:00:00", 
-          "teams": "DALvsWAS", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-12-09T00:00:00", 
-          "teams": "SDGvsDEN", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-12-10T00:00:00", 
-          "teams": "RAMvsNYG", 
-          "time": "21:00:00"
-        }
-      ], 
-      "week": 13
-    }, 
-    {
-      "alias": "Week 14", 
-      "events": [
-        {
-          "date": "1973-12-15T00:00:00", 
-          "teams": "MIAvsDET", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-15T00:00:00", 
-          "teams": "SFOvsPIT", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-12-16T00:00:00", 
-          "teams": "NYJvsBBA", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-16T00:00:00", 
-          "teams": "ATLvsNOR", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-16T00:00:00", 
-          "teams": "WASvsPHI", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-16T00:00:00", 
-          "teams": "NYGvsMIN", 
-          "time": "13:00:00"
-        }, 
-        {
-          "date": "1973-12-16T00:00:00", 
-          "teams": "CHIvsGNB", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-12-16T00:00:00", 
-          "teams": "BCLvsNWE", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-12-16T00:00:00", 
-          "teams": "KANvsSDG", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-12-16T00:00:00", 
-          "teams": "OTIvsCIN", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-12-16T00:00:00", 
-          "teams": "CRDvsDAL", 
-          "time": "14:00:00"
-        }, 
-        {
-          "date": "1973-12-16T00:00:00", 
-          "teams": "RAMvsCLE", 
-          "time": "16:00:00"
-        }, 
-        {
-          "date": "1973-12-16T00:00:00", 
-          "teams": "RAIvsDEN", 
-          "time": "16:00:00"
-        }
-      ], 
-      "week": 14
-    }, 
-    {
-      "alias": "Divisional Round", 
-      "events": [
-        {
-          "alias": "NFC Divisional Round", 
-          "date": "1973-12-22T00:00:00", 
-          "teams": "MINvsWAS", 
-          "time": "13:00:00"
-        }, 
-        {
-          "alias": "AFC Divisional Round", 
-          "date": "1973-12-22T00:00:00", 
-          "teams": "RAIvsPIT", 
-          "time": "16:00:00"
-        }, 
-        {
-          "alias": "AFC Divisional Round", 
-          "date": "1973-12-23T00:00:00", 
-          "teams": "MIAvsCIN", 
-          "time": "13:00:00"
-        }, 
-        {
-          "alias": "NFC Divisional Round", 
-          "date": "1973-12-23T00:00:00", 
-          "teams": "DALvsRAM", 
-          "time": "16:00:00"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Conference Championship", 
-      "events": [
-        {
-          "alias": "NFC Conference Championship", 
-          "date": "1973-12-30T00:00:00", 
-          "teams": "DALvsMIN", 
-          "time": "13:00:00"
-        }, 
-        {
-          "alias": "AFC Conference Championship", 
-          "date": "1973-12-30T00:00:00", 
-          "teams": "MIAvsRAI", 
-          "time": "16:00:00"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Superbowl VIII", 
-      "events": [
-        {
-          "alias": "Superbowl VIII", 
-          "date": "1974-01-13T00:00:00", 
-          "teams": "MIAvsMIN", 
-          "time": "15:50:00"
-        }
-      ], 
-      "week": 4
     }
-  ]
 }

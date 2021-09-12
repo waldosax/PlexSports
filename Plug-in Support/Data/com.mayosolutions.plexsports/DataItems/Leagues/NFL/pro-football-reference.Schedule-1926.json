@@ -1,552 +1,1918 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1926-09-19T00:00:00", 
-          "teams": "CRDvsCOL"
-        }, 
-        {
-          "date": "1926-09-19T00:00:00", 
-          "teams": "GNBvsDPN"
-        }, 
-        {
-          "date": "1926-09-19T00:00:00", 
-          "teams": "MILvsCHI"
-        }, 
-        {
-          "date": "1926-09-19T00:00:00", 
-          "teams": "DULvsKCB"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1926-19260919CRDvsCOL": {
+                        "awayTeam": "COL", 
+                        "date": "1926-09-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/192609190crd.htm", 
+                        "id": "192609190crd", 
+                        "key": "nfl1926-19260919CRDvsCOL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Columbus Tigers", 
+                        "week": 1, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19260919DULvsKCB": {
+                        "awayTeam": "KCB", 
+                        "date": "1926-09-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DUL", 
+                        "href": "/boxscores/192609190dul.htm", 
+                        "id": "192609190dul", 
+                        "key": "nfl1926-19260919DULvsKCB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Duluth Eskimos vs. Kansas City Cowboys", 
+                        "week": 1, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19260919GNBvsDPN": {
+                        "awayTeam": "DPN", 
+                        "date": "1926-09-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/192609190gnb.htm", 
+                        "id": "192609190gnb", 
+                        "key": "nfl1926-19260919GNBvsDPN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Detroit Panthers", 
+                        "week": 1, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19260919MILvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1926-09-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIL", 
+                        "href": "/boxscores/192609190mil.htm", 
+                        "id": "192609190mil", 
+                        "key": "nfl1926-19260919MILvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Milwaukee Badgers vs. Chicago Bears", 
+                        "week": 1, 
+                        "year": "1926"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1926-19260925FYJvsAKR": {
+                        "awayTeam": "AKR", 
+                        "date": "1926-09-25T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192609250fyj.htm", 
+                        "id": "192609250fyj", 
+                        "key": "nfl1926-19260925FYJvsAKR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Akron Indians", 
+                        "week": 2, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19260926BFFvsAKR": {
+                        "awayTeam": "AKR", 
+                        "date": "1926-09-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BFF", 
+                        "href": "/boxscores/192609260bff.htm", 
+                        "id": "192609260bff", 
+                        "key": "nfl1926-19260926BFFvsAKR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Buffalo Rangers vs. Akron Indians", 
+                        "week": 2, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19260926CBDvsCOL": {
+                        "awayTeam": "COL", 
+                        "date": "1926-09-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CBD", 
+                        "href": "/boxscores/192609260cbd.htm", 
+                        "id": "192609260cbd", 
+                        "key": "nfl1926-19260926CBDvsCOL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Canton Bulldogs vs. Columbus Tigers", 
+                        "week": 2, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19260926CRDvsLAB": {
+                        "awayTeam": "LAB", 
+                        "date": "1926-09-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/192609260crd.htm", 
+                        "id": "192609260crd", 
+                        "key": "nfl1926-19260926CRDvsLAB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Los Angeles Buccaneers", 
+                        "week": 2, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19260926GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1926-09-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/192609260gnb.htm", 
+                        "id": "192609260gnb", 
+                        "key": "nfl1926-19260926GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 2, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19260926HRTvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1926-09-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "HRT", 
+                        "href": "/boxscores/192609260hrt.htm", 
+                        "id": "192609260hrt", 
+                        "key": "nfl1926-19260926HRTvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Hartford Blues vs. New York Giants", 
+                        "week": 2, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19260926MILvsDPN": {
+                        "awayTeam": "DPN", 
+                        "date": "1926-09-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIL", 
+                        "href": "/boxscores/192609260mil.htm", 
+                        "id": "192609260mil", 
+                        "key": "nfl1926-19260926MILvsDPN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Milwaukee Badgers vs. Detroit Panthers", 
+                        "week": 2, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19260926PRVvsBRL": {
+                        "awayTeam": "BRL", 
+                        "date": "1926-09-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/192609260prv.htm", 
+                        "id": "192609260prv", 
+                        "key": "nfl1926-19260926PRVvsBRL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Brooklyn Lions", 
+                        "week": 2, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19260926RACvsHAM": {
+                        "awayTeam": "HAM", 
+                        "date": "1926-09-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAC", 
+                        "href": "/boxscores/192609260rac.htm", 
+                        "id": "192609260rac", 
+                        "key": "nfl1926-19260926RACvsHAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Racine Tornadoes vs. Hammond Pros", 
+                        "week": 2, 
+                        "year": "1926"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1926-19261002FYJvsHRT": {
+                        "awayTeam": "HRT", 
+                        "date": "1926-10-02T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192610020fyj.htm", 
+                        "id": "192610020fyj", 
+                        "key": "nfl1926-19261002FYJvsHRT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Hartford Blues", 
+                        "week": 3, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261003AKRvsHAM": {
+                        "awayTeam": "HAM", 
+                        "date": "1926-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "AKR", 
+                        "href": "/boxscores/192610030akr.htm", 
+                        "id": "192610030akr", 
+                        "key": "nfl1926-19261003AKRvsHAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Akron Indians vs. Hammond Pros", 
+                        "week": 3, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261003BFFvsDAY": {
+                        "awayTeam": "DAY", 
+                        "date": "1926-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BFF", 
+                        "href": "/boxscores/192610030bff.htm", 
+                        "id": "192610030bff", 
+                        "key": "nfl1926-19261003BFFvsDAY", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Buffalo Rangers vs. Dayton Triangles", 
+                        "week": 3, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261003CBDvsLOU": {
+                        "awayTeam": "LOU", 
+                        "date": "1926-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CBD", 
+                        "href": "/boxscores/192610030cbd.htm", 
+                        "id": "192610030cbd", 
+                        "key": "nfl1926-19261003CBDvsLOU", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Canton Bulldogs vs. Louisville Colonels", 
+                        "week": 3, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261003CRDvsRAC": {
+                        "awayTeam": "RAC", 
+                        "date": "1926-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/192610030crd.htm", 
+                        "id": "192610030crd", 
+                        "key": "nfl1926-19261003CRDvsRAC", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Racine Tornadoes", 
+                        "week": 3, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261003DPNvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1926-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DPN", 
+                        "href": "/boxscores/192610030dpn.htm", 
+                        "id": "192610030dpn", 
+                        "key": "nfl1926-19261003DPNvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Panthers vs. Chicago Bears", 
+                        "week": 3, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261003GNBvsDUL": {
+                        "awayTeam": "DUL", 
+                        "date": "1926-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/192610030gnb.htm", 
+                        "id": "192610030gnb", 
+                        "key": "nfl1926-19261003GNBvsDUL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Duluth Eskimos", 
+                        "week": 3, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261003HRTvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1926-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "HRT", 
+                        "href": "/boxscores/192610030hrt.htm", 
+                        "id": "192610030hrt", 
+                        "key": "nfl1926-19261003HRTvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Hartford Blues vs. Frankford Yellow Jackets", 
+                        "week": 3, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261003MILvsLAB": {
+                        "awayTeam": "LAB", 
+                        "date": "1926-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIL", 
+                        "href": "/boxscores/192610030mil.htm", 
+                        "id": "192610030mil", 
+                        "key": "nfl1926-19261003MILvsLAB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Milwaukee Badgers vs. Los Angeles Buccaneers", 
+                        "week": 3, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261003PRVvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1926-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/192610030prv.htm", 
+                        "id": "192610030prv", 
+                        "key": "nfl1926-19261003PRVvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261003PTBvsCOL": {
+                        "awayTeam": "COL", 
+                        "date": "1926-10-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PTB", 
+                        "href": "/boxscores/192610030ptb.htm", 
+                        "id": "192610030ptb", 
+                        "key": "nfl1926-19261003PTBvsCOL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pottsville Maroons vs. Columbus Tigers", 
+                        "week": 3, 
+                        "year": "1926"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1926-19261009FYJvsBFF": {
+                        "awayTeam": "BFF", 
+                        "date": "1926-10-09T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192610090fyj.htm", 
+                        "id": "192610090fyj", 
+                        "key": "nfl1926-19261009FYJvsBFF", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Buffalo Rangers", 
+                        "week": 4, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261010AKRvsCBD": {
+                        "awayTeam": "CBD", 
+                        "date": "1926-10-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "AKR", 
+                        "href": "/boxscores/192610100akr.htm", 
+                        "id": "192610100akr", 
+                        "key": "nfl1926-19261010AKRvsCBD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Akron Indians vs. Canton Bulldogs", 
+                        "week": 4, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261010BRLvsHRT": {
+                        "awayTeam": "HRT", 
+                        "date": "1926-10-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BRL", 
+                        "href": "/boxscores/192610100brl.htm", 
+                        "id": "192610100brl", 
+                        "key": "nfl1926-19261010BRLvsHRT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Lions vs. Hartford Blues", 
+                        "week": 4, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261010CHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1926-10-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/192610100chi.htm", 
+                        "id": "192610100chi", 
+                        "key": "nfl1926-19261010CHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. New York Giants", 
+                        "week": 4, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261010DPNvsKCB": {
+                        "awayTeam": "KCB", 
+                        "date": "1926-10-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DPN", 
+                        "href": "/boxscores/192610100dpn.htm", 
+                        "id": "192610100dpn", 
+                        "key": "nfl1926-19261010DPNvsKCB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Panthers vs. Kansas City Cowboys", 
+                        "week": 4, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261010GNBvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1926-10-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/192610100gnb.htm", 
+                        "id": "192610100gnb", 
+                        "key": "nfl1926-19261010GNBvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Cardinals", 
+                        "week": 4, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261010HAMvsDUL": {
+                        "awayTeam": "DUL", 
+                        "date": "1926-10-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "HAM", 
+                        "href": "/boxscores/192610100ham.htm", 
+                        "id": "192610100ham", 
+                        "key": "nfl1926-19261010HAMvsDUL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Hammond Pros vs. Duluth Eskimos", 
+                        "week": 4, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261010PRVvsCOL": {
+                        "awayTeam": "COL", 
+                        "date": "1926-10-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/192610100prv.htm", 
+                        "id": "192610100prv", 
+                        "key": "nfl1926-19261010PRVvsCOL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Columbus Tigers", 
+                        "week": 4, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261010PTBvsDAY": {
+                        "awayTeam": "DAY", 
+                        "date": "1926-10-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PTB", 
+                        "href": "/boxscores/192610100ptb.htm", 
+                        "id": "192610100ptb", 
+                        "key": "nfl1926-19261010PTBvsDAY", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pottsville Maroons vs. Dayton Triangles", 
+                        "week": 4, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261010RACvsMIL": {
+                        "awayTeam": "MIL", 
+                        "date": "1926-10-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAC", 
+                        "href": "/boxscores/192610100rac.htm", 
+                        "id": "192610100rac", 
+                        "key": "nfl1926-19261010RACvsMIL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Racine Tornadoes vs. Milwaukee Badgers", 
+                        "week": 4, 
+                        "year": "1926"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1926-19261016BRLvsPTB": {
+                        "awayTeam": "PTB", 
+                        "date": "1926-10-16T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "BRL", 
+                        "href": "/boxscores/192610160brl.htm", 
+                        "id": "192610160brl", 
+                        "key": "nfl1926-19261016BRLvsPTB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Lions vs. Pottsville Maroons", 
+                        "week": 5, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261016COLvsKCB": {
+                        "awayTeam": "KCB", 
+                        "date": "1926-10-16T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "COL", 
+                        "href": "/boxscores/192610160col.htm", 
+                        "id": "192610160col", 
+                        "key": "nfl1926-19261016COLvsKCB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Columbus Tigers vs. Kansas City Cowboys", 
+                        "week": 5, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261016FYJvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1926-10-16T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192610160fyj.htm", 
+                        "id": "192610160fyj", 
+                        "key": "nfl1926-19261016FYJvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. New York Giants", 
+                        "week": 5, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261017CBDvsLAB": {
+                        "awayTeam": "LAB", 
+                        "date": "1926-10-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CBD", 
+                        "href": "/boxscores/192610170cbd.htm", 
+                        "id": "192610170cbd", 
+                        "key": "nfl1926-19261017CBDvsLAB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Canton Bulldogs vs. Los Angeles Buccaneers", 
+                        "week": 5, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261017CRDvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1926-10-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/192610170crd.htm", 
+                        "id": "192610170crd", 
+                        "key": "nfl1926-19261017CRDvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Chicago Bears", 
+                        "week": 5, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261017DAYvsBFF": {
+                        "awayTeam": "BFF", 
+                        "date": "1926-10-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAY", 
+                        "href": "/boxscores/192610170day.htm", 
+                        "id": "192610170day", 
+                        "key": "nfl1926-19261017DAYvsBFF", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dayton Triangles vs. Buffalo Rangers", 
+                        "week": 5, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261017DPNvsLOU": {
+                        "awayTeam": "LOU", 
+                        "date": "1926-10-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DPN", 
+                        "href": "/boxscores/192610170dpn.htm", 
+                        "id": "192610170dpn", 
+                        "key": "nfl1926-19261017DPNvsLOU", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Panthers vs. Louisville Colonels", 
+                        "week": 5, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261017GNBvsMIL": {
+                        "awayTeam": "MIL", 
+                        "date": "1926-10-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/192610170gnb.htm", 
+                        "id": "192610170gnb", 
+                        "key": "nfl1926-19261017GNBvsMIL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Milwaukee Badgers", 
+                        "week": 5, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261017NYGvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1926-10-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/192610170nyg.htm", 
+                        "id": "192610170nyg", 
+                        "key": "nfl1926-19261017NYGvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Frankford Yellow Jackets", 
+                        "week": 5, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261017PTBvsBRL": {
+                        "awayTeam": "BRL", 
+                        "date": "1926-10-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PTB", 
+                        "href": "/boxscores/192610170ptb.htm", 
+                        "id": "192610170ptb", 
+                        "key": "nfl1926-19261017PTBvsBRL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pottsville Maroons vs. Brooklyn Lions", 
+                        "week": 5, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261017RACvsDUL": {
+                        "awayTeam": "DUL", 
+                        "date": "1926-10-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAC", 
+                        "href": "/boxscores/192610170rac.htm", 
+                        "id": "192610170rac", 
+                        "key": "nfl1926-19261017RACvsDUL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Racine Tornadoes vs. Duluth Eskimos", 
+                        "week": 5, 
+                        "year": "1926"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1926-19261023BRLvsCOL": {
+                        "awayTeam": "COL", 
+                        "date": "1926-10-23T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "BRL", 
+                        "href": "/boxscores/192610230brl.htm", 
+                        "id": "192610230brl", 
+                        "key": "nfl1926-19261023BRLvsCOL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Lions vs. Columbus Tigers", 
+                        "week": 6, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261023FYJvsCBD": {
+                        "awayTeam": "CBD", 
+                        "date": "1926-10-23T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192610230fyj.htm", 
+                        "id": "192610230fyj", 
+                        "key": "nfl1926-19261023FYJvsCBD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Canton Bulldogs", 
+                        "week": 6, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261024BFFvsLAB": {
+                        "awayTeam": "LAB", 
+                        "date": "1926-10-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BFF", 
+                        "href": "/boxscores/192610240bff.htm", 
+                        "id": "192610240bff", 
+                        "key": "nfl1926-19261024BFFvsLAB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Buffalo Rangers vs. Los Angeles Buccaneers", 
+                        "week": 6, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261024CHIvsDUL": {
+                        "awayTeam": "DUL", 
+                        "date": "1926-10-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/192610240chi.htm", 
+                        "id": "192610240chi", 
+                        "key": "nfl1926-19261024CHIvsDUL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Duluth Eskimos", 
+                        "week": 6, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261024DPNvsAKR": {
+                        "awayTeam": "AKR", 
+                        "date": "1926-10-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DPN", 
+                        "href": "/boxscores/192610240dpn.htm", 
+                        "id": "192610240dpn", 
+                        "key": "nfl1926-19261024DPNvsAKR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Panthers vs. Akron Indians", 
+                        "week": 6, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261024GNBvsRAC": {
+                        "awayTeam": "RAC", 
+                        "date": "1926-10-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/192610240gnb.htm", 
+                        "id": "192610240gnb", 
+                        "key": "nfl1926-19261024GNBvsRAC", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Racine Tornadoes", 
+                        "week": 6, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261024HRTvsBRL": {
+                        "awayTeam": "BRL", 
+                        "date": "1926-10-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "HRT", 
+                        "href": "/boxscores/192610240hrt.htm", 
+                        "id": "192610240hrt", 
+                        "key": "nfl1926-19261024HRTvsBRL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Hartford Blues vs. Brooklyn Lions", 
+                        "week": 6, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261024MILvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1926-10-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIL", 
+                        "href": "/boxscores/192610240mil.htm", 
+                        "id": "192610240mil", 
+                        "key": "nfl1926-19261024MILvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Milwaukee Badgers vs. Chicago Cardinals", 
+                        "week": 6, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261024NYGvsKCB": {
+                        "awayTeam": "KCB", 
+                        "date": "1926-10-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/192610240nyg.htm", 
+                        "id": "192610240nyg", 
+                        "key": "nfl1926-19261024NYGvsKCB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Kansas City Cowboys", 
+                        "week": 6, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261024PRVvsPTB": {
+                        "awayTeam": "PTB", 
+                        "date": "1926-10-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/192610240prv.htm", 
+                        "id": "192610240prv", 
+                        "key": "nfl1926-19261024PRVvsPTB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Pottsville Maroons", 
+                        "week": 6, 
+                        "year": "1926"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1926-19261030FYJvsPRV": {
+                        "awayTeam": "PRV", 
+                        "date": "1926-10-30T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192610300fyj.htm", 
+                        "id": "192610300fyj", 
+                        "key": "nfl1926-19261030FYJvsPRV", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Providence Steam Roller", 
+                        "week": 7, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261031CHIvsAKR": {
+                        "awayTeam": "AKR", 
+                        "date": "1926-10-31T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/192610310chi.htm", 
+                        "id": "192610310chi", 
+                        "key": "nfl1926-19261031CHIvsAKR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Akron Indians", 
+                        "week": 7, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261031CRDvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1926-10-31T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/192610310crd.htm", 
+                        "id": "192610310crd", 
+                        "key": "nfl1926-19261031CRDvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Green Bay Packers", 
+                        "week": 7, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261031DPNvsCBD": {
+                        "awayTeam": "CBD", 
+                        "date": "1926-10-31T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DPN", 
+                        "href": "/boxscores/192610310dpn.htm", 
+                        "id": "192610310dpn", 
+                        "key": "nfl1926-19261031DPNvsCBD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Panthers vs. Canton Bulldogs", 
+                        "week": 7, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261031HRTvsKCB": {
+                        "awayTeam": "KCB", 
+                        "date": "1926-10-31T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "HRT", 
+                        "href": "/boxscores/192610310hrt.htm", 
+                        "id": "192610310hrt", 
+                        "key": "nfl1926-19261031HRTvsKCB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Hartford Blues vs. Kansas City Cowboys", 
+                        "week": 7, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261031MILvsDUL": {
+                        "awayTeam": "DUL", 
+                        "date": "1926-10-31T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIL", 
+                        "href": "/boxscores/192610310mil.htm", 
+                        "id": "192610310mil", 
+                        "key": "nfl1926-19261031MILvsDUL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Milwaukee Badgers vs. Duluth Eskimos", 
+                        "week": 7, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261031PRVvsFYJ": {
+                        "awayTeam": "FYJ", 
+                        "date": "1926-10-31T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/192610310prv.htm", 
+                        "id": "192610310prv", 
+                        "key": "nfl1926-19261031PRVvsFYJ", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Frankford Yellow Jackets", 
+                        "week": 7, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261031PTBvsBFF": {
+                        "awayTeam": "BFF", 
+                        "date": "1926-10-31T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PTB", 
+                        "href": "/boxscores/192610310ptb.htm", 
+                        "id": "192610310ptb", 
+                        "key": "nfl1926-19261031PTBvsBFF", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pottsville Maroons vs. Buffalo Rangers", 
+                        "week": 7, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261102NYGvsCBD": {
+                        "awayTeam": "CBD", 
+                        "date": "1926-11-02T00:00:00", 
+                        "day": "Tue", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/192611020nyg.htm", 
+                        "id": "192611020nyg", 
+                        "key": "nfl1926-19261102NYGvsCBD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Canton Bulldogs", 
+                        "week": 7, 
+                        "year": "1926"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1926-19261106FYJvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1926-11-06T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192611060fyj.htm", 
+                        "id": "192611060fyj", 
+                        "key": "nfl1926-19261106FYJvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Chicago Cardinals", 
+                        "week": 8, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261107BFFvsCOL": {
+                        "awayTeam": "COL", 
+                        "date": "1926-11-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BFF", 
+                        "href": "/boxscores/192611070bff.htm", 
+                        "id": "192611070bff", 
+                        "key": "nfl1926-19261107BFFvsCOL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Buffalo Rangers vs. Columbus Tigers", 
+                        "week": 8, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261107BRLvsKCB": {
+                        "awayTeam": "KCB", 
+                        "date": "1926-11-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BRL", 
+                        "href": "/boxscores/192611070brl.htm", 
+                        "id": "192611070brl", 
+                        "key": "nfl1926-19261107BRLvsKCB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Lions vs. Kansas City Cowboys", 
+                        "week": 8, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261107CHIvsLOU": {
+                        "awayTeam": "LOU", 
+                        "date": "1926-11-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/192611070chi.htm", 
+                        "id": "192611070chi", 
+                        "key": "nfl1926-19261107CHIvsLOU", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Louisville Colonels", 
+                        "week": 8, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261107DPNvsDUL": {
+                        "awayTeam": "DUL", 
+                        "date": "1926-11-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DPN", 
+                        "href": "/boxscores/192611070dpn.htm", 
+                        "id": "192611070dpn", 
+                        "key": "nfl1926-19261107DPNvsDUL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Panthers vs. Duluth Eskimos", 
+                        "week": 8, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261107HRTvsCBD": {
+                        "awayTeam": "CBD", 
+                        "date": "1926-11-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "HRT", 
+                        "href": "/boxscores/192611070hrt.htm", 
+                        "id": "192611070hrt", 
+                        "key": "nfl1926-19261107HRTvsCBD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Hartford Blues vs. Canton Bulldogs", 
+                        "week": 8, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261107MILvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1926-11-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIL", 
+                        "href": "/boxscores/192611070mil.htm", 
+                        "id": "192611070mil", 
+                        "key": "nfl1926-19261107MILvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Milwaukee Badgers vs. Green Bay Packers", 
+                        "week": 8, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261107NYGvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1926-11-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/192611070nyg.htm", 
+                        "id": "192611070nyg", 
+                        "key": "nfl1926-19261107NYGvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Cardinals", 
+                        "week": 8, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261107PRVvsLAB": {
+                        "awayTeam": "LAB", 
+                        "date": "1926-11-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/192611070prv.htm", 
+                        "id": "192611070prv", 
+                        "key": "nfl1926-19261107PRVvsLAB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Los Angeles Buccaneers", 
+                        "week": 8, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261107PTBvsAKR": {
+                        "awayTeam": "AKR", 
+                        "date": "1926-11-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PTB", 
+                        "href": "/boxscores/192611070ptb.htm", 
+                        "id": "192611070ptb", 
+                        "key": "nfl1926-19261107PTBvsAKR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pottsville Maroons vs. Akron Indians", 
+                        "week": 8, 
+                        "year": "1926"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1926-19261111CHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1926-11-11T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/192611110chi.htm", 
+                        "id": "192611110chi", 
+                        "key": "nfl1926-19261111CHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Chicago Cardinals", 
+                        "week": 9, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261111NYGvsDUL": {
+                        "awayTeam": "DUL", 
+                        "date": "1926-11-11T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/192611110nyg.htm", 
+                        "id": "192611110nyg", 
+                        "key": "nfl1926-19261111NYGvsDUL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Duluth Eskimos", 
+                        "week": 9, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261111PRVvsCBD": {
+                        "awayTeam": "CBD", 
+                        "date": "1926-11-11T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/192611110prv.htm", 
+                        "id": "192611110prv", 
+                        "key": "nfl1926-19261111PRVvsCBD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Canton Bulldogs", 
+                        "week": 9, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261111PTBvsLAB": {
+                        "awayTeam": "LAB", 
+                        "date": "1926-11-11T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "PTB", 
+                        "href": "/boxscores/192611110ptb.htm", 
+                        "id": "192611110ptb", 
+                        "key": "nfl1926-19261111PTBvsLAB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pottsville Maroons vs. Los Angeles Buccaneers", 
+                        "week": 9, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261113FYJvsDUL": {
+                        "awayTeam": "DUL", 
+                        "date": "1926-11-13T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192611130fyj.htm", 
+                        "id": "192611130fyj", 
+                        "key": "nfl1926-19261113FYJvsDUL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Duluth Eskimos", 
+                        "week": 9, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261114BRLvsCBD": {
+                        "awayTeam": "CBD", 
+                        "date": "1926-11-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BRL", 
+                        "href": "/boxscores/192611140brl.htm", 
+                        "id": "192611140brl", 
+                        "key": "nfl1926-19261114BRLvsCBD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Lions vs. Canton Bulldogs", 
+                        "week": 9, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261114CHIvsMIL": {
+                        "awayTeam": "MIL", 
+                        "date": "1926-11-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/192611140chi.htm", 
+                        "id": "192611140chi", 
+                        "key": "nfl1926-19261114CHIvsMIL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Milwaukee Badgers", 
+                        "week": 9, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261114DPNvsDAY": {
+                        "awayTeam": "DAY", 
+                        "date": "1926-11-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DPN", 
+                        "href": "/boxscores/192611140dpn.htm", 
+                        "id": "192611140dpn", 
+                        "key": "nfl1926-19261114DPNvsDAY", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Panthers vs. Dayton Triangles", 
+                        "week": 9, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261114GNBvsLOU": {
+                        "awayTeam": "LOU", 
+                        "date": "1926-11-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/192611140gnb.htm", 
+                        "id": "192611140gnb", 
+                        "key": "nfl1926-19261114GNBvsLOU", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Louisville Colonels", 
+                        "week": 9, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261114HRTvsBFF": {
+                        "awayTeam": "BFF", 
+                        "date": "1926-11-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "HRT", 
+                        "href": "/boxscores/192611140hrt.htm", 
+                        "id": "192611140hrt", 
+                        "key": "nfl1926-19261114HRTvsBFF", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Hartford Blues vs. Buffalo Rangers", 
+                        "week": 9, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261114NYGvsLAB": {
+                        "awayTeam": "LAB", 
+                        "date": "1926-11-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/192611140nyg.htm", 
+                        "id": "192611140nyg", 
+                        "key": "nfl1926-19261114NYGvsLAB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Los Angeles Buccaneers", 
+                        "week": 9, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261114PRVvsKCB": {
+                        "awayTeam": "KCB", 
+                        "date": "1926-11-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/192611140prv.htm", 
+                        "id": "192611140prv", 
+                        "key": "nfl1926-19261114PRVvsKCB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Kansas City Cowboys", 
+                        "week": 9, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261114PTBvsDUL": {
+                        "awayTeam": "DUL", 
+                        "date": "1926-11-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PTB", 
+                        "href": "/boxscores/192611140ptb.htm", 
+                        "id": "192611140ptb", 
+                        "key": "nfl1926-19261114PTBvsDUL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pottsville Maroons vs. Duluth Eskimos", 
+                        "week": 9, 
+                        "year": "1926"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1926-19261120FYJvsDAY": {
+                        "awayTeam": "DAY", 
+                        "date": "1926-11-20T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192611200fyj.htm", 
+                        "id": "192611200fyj", 
+                        "key": "nfl1926-19261120FYJvsDAY", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Dayton Triangles", 
+                        "week": 10, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261121BFFvsKCB": {
+                        "awayTeam": "KCB", 
+                        "date": "1926-11-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BFF", 
+                        "href": "/boxscores/192611210bff.htm", 
+                        "id": "192611210bff", 
+                        "key": "nfl1926-19261121BFFvsKCB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Buffalo Rangers vs. Kansas City Cowboys", 
+                        "week": 10, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261121BRLvsLAB": {
+                        "awayTeam": "LAB", 
+                        "date": "1926-11-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BRL", 
+                        "href": "/boxscores/192611210brl.htm", 
+                        "id": "192611210brl", 
+                        "key": "nfl1926-19261121BRLvsLAB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Lions vs. Los Angeles Buccaneers", 
+                        "week": 10, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261121CBDvsDUL": {
+                        "awayTeam": "DUL", 
+                        "date": "1926-11-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CBD", 
+                        "href": "/boxscores/192611210cbd.htm", 
+                        "id": "192611210cbd", 
+                        "key": "nfl1926-19261121CBDvsDUL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Canton Bulldogs vs. Duluth Eskimos", 
+                        "week": 10, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261121CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1926-11-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/192611210chi.htm", 
+                        "id": "192611210chi", 
+                        "key": "nfl1926-19261121CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 10, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261121HRTvsDAY": {
+                        "awayTeam": "DAY", 
+                        "date": "1926-11-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "HRT", 
+                        "href": "/boxscores/192611210hrt.htm", 
+                        "id": "192611210hrt", 
+                        "key": "nfl1926-19261121HRTvsDAY", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Hartford Blues vs. Dayton Triangles", 
+                        "week": 10, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261121NYGvsPRV": {
+                        "awayTeam": "PRV", 
+                        "date": "1926-11-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/192611210nyg.htm", 
+                        "id": "192611210nyg", 
+                        "key": "nfl1926-19261121NYGvsPRV", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Providence Steam Roller", 
+                        "week": 10, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261121PTBvsHAM": {
+                        "awayTeam": "HAM", 
+                        "date": "1926-11-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PTB", 
+                        "href": "/boxscores/192611210ptb.htm", 
+                        "id": "192611210ptb", 
+                        "key": "nfl1926-19261121PTBvsHAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pottsville Maroons vs. Hammond Pros", 
+                        "week": 10, 
+                        "year": "1926"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1926-19261125BRLvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1926-11-25T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "BRL", 
+                        "href": "/boxscores/192611250brl.htm", 
+                        "id": "192611250brl", 
+                        "key": "nfl1926-19261125BRLvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Brooklyn Lions vs. New York Giants", 
+                        "week": 11, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261125CBDvsAKR": {
+                        "awayTeam": "AKR", 
+                        "date": "1926-11-25T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "CBD", 
+                        "href": "/boxscores/192611250cbd.htm", 
+                        "id": "192611250cbd", 
+                        "key": "nfl1926-19261125CBDvsAKR", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Canton Bulldogs vs. Akron Indians", 
+                        "week": 11, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261125CHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1926-11-25T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/192611250chi.htm", 
+                        "id": "192611250chi", 
+                        "key": "nfl1926-19261125CHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Chicago Cardinals", 
+                        "week": 11, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261125DPNvsLAB": {
+                        "awayTeam": "LAB", 
+                        "date": "1926-11-25T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DPN", 
+                        "href": "/boxscores/192611250dpn.htm", 
+                        "id": "192611250dpn", 
+                        "key": "nfl1926-19261125DPNvsLAB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Panthers vs. Los Angeles Buccaneers", 
+                        "week": 11, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261125FYJvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1926-11-25T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192611250fyj.htm", 
+                        "id": "192611250fyj", 
+                        "key": "nfl1926-19261125FYJvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Green Bay Packers", 
+                        "week": 11, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261125PTBvsPRV": {
+                        "awayTeam": "PRV", 
+                        "date": "1926-11-25T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "PTB", 
+                        "href": "/boxscores/192611250ptb.htm", 
+                        "id": "192611250ptb", 
+                        "key": "nfl1926-19261125PTBvsPRV", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pottsville Maroons vs. Providence Steam Roller", 
+                        "week": 11, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261127FYJvsDPN": {
+                        "awayTeam": "DPN", 
+                        "date": "1926-11-27T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192611270fyj.htm", 
+                        "id": "192611270fyj", 
+                        "key": "nfl1926-19261127FYJvsDPN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Detroit Panthers", 
+                        "week": 11, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261127HRTvsDUL": {
+                        "awayTeam": "DUL", 
+                        "date": "1926-11-27T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "HRT", 
+                        "href": "/boxscores/192611270hrt.htm", 
+                        "id": "192611270hrt", 
+                        "key": "nfl1926-19261127HRTvsDUL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Hartford Blues vs. Duluth Eskimos", 
+                        "week": 11, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261128CHIvsCBD": {
+                        "awayTeam": "CBD", 
+                        "date": "1926-11-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/192611280chi.htm", 
+                        "id": "192611280chi", 
+                        "key": "nfl1926-19261128CHIvsCBD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Canton Bulldogs", 
+                        "week": 11, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261128CRDvsKCB": {
+                        "awayTeam": "KCB", 
+                        "date": "1926-11-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/192611280crd.htm", 
+                        "id": "192611280crd", 
+                        "key": "nfl1926-19261128CRDvsKCB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Kansas City Cowboys", 
+                        "week": 11, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261128DPNvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1926-11-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DPN", 
+                        "href": "/boxscores/192611280dpn.htm", 
+                        "id": "192611280dpn", 
+                        "key": "nfl1926-19261128DPNvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Panthers vs. Green Bay Packers", 
+                        "week": 11, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261128NYGvsBRL": {
+                        "awayTeam": "BRL", 
+                        "date": "1926-11-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/192611280nyg.htm", 
+                        "id": "192611280nyg", 
+                        "key": "nfl1926-19261128NYGvsBRL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Brooklyn Lions", 
+                        "week": 11, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261128PRVvsDUL": {
+                        "awayTeam": "DUL", 
+                        "date": "1926-11-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PRV", 
+                        "href": "/boxscores/192611280prv.htm", 
+                        "id": "192611280prv", 
+                        "key": "nfl1926-19261128PRVvsDUL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Providence Steam Roller vs. Duluth Eskimos", 
+                        "week": 11, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261128PTBvsBFF": {
+                        "awayTeam": "BFF", 
+                        "date": "1926-11-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PTB", 
+                        "href": "/boxscores/192611280ptb.htm", 
+                        "id": "192611280ptb", 
+                        "key": "nfl1926-19261128PTBvsBFF", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pottsville Maroons vs. Buffalo Rangers", 
+                        "week": 11, 
+                        "year": "1926"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1926-19261204FYJvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1926-12-04T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192612040fyj.htm", 
+                        "id": "192612040fyj", 
+                        "key": "nfl1926-19261204FYJvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Chicago Bears", 
+                        "week": 12, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261205KCBvsLAB": {
+                        "awayTeam": "LAB", 
+                        "date": "1926-12-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "KCB", 
+                        "href": "/boxscores/192612050kcb.htm", 
+                        "id": "192612050kcb", 
+                        "key": "nfl1926-19261205KCBvsLAB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Kansas City Cowboys vs. Los Angeles Buccaneers", 
+                        "week": 12, 
+                        "year": "1926"
+                    }
+                }
+            }, 
+            "13": {
+                "events": {
+                    "nfl1926-19261211FYJvsPRV": {
+                        "awayTeam": "PRV", 
+                        "date": "1926-12-11T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192612110fyj.htm", 
+                        "id": "192612110fyj", 
+                        "key": "nfl1926-19261211FYJvsPRV", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Providence Steam Roller", 
+                        "week": 13, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261212CHIvsPTB": {
+                        "awayTeam": "PTB", 
+                        "date": "1926-12-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/192612120chi.htm", 
+                        "id": "192612120chi", 
+                        "key": "nfl1926-19261212CHIvsPTB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Pottsville Maroons", 
+                        "week": 13, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261212KCBvsDUL": {
+                        "awayTeam": "DUL", 
+                        "date": "1926-12-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "KCB", 
+                        "href": "/boxscores/192612120kcb.htm", 
+                        "id": "192612120kcb", 
+                        "key": "nfl1926-19261212KCBvsDUL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Kansas City Cowboys vs. Duluth Eskimos", 
+                        "week": 13, 
+                        "year": "1926"
+                    }
+                }
+            }, 
+            "14": {
+                "events": {
+                    "nfl1926-19261218FYJvsPTB": {
+                        "awayTeam": "PTB", 
+                        "date": "1926-12-18T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "FYJ", 
+                        "href": "/boxscores/192612180fyj.htm", 
+                        "id": "192612180fyj", 
+                        "key": "nfl1926-19261218FYJvsPTB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Frankford Yellow Jackets vs. Pottsville Maroons", 
+                        "week": 14, 
+                        "year": "1926"
+                    }, 
+                    "nfl1926-19261219CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1926-12-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/192612190chi.htm", 
+                        "id": "192612190chi", 
+                        "key": "nfl1926-19261219CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 14, 
+                        "year": "1926"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1926-09-25T00:00:00", 
-          "teams": "FYJvsAKR"
-        }, 
-        {
-          "date": "1926-09-26T00:00:00", 
-          "teams": "GNBvsCHI"
-        }, 
-        {
-          "date": "1926-09-26T00:00:00", 
-          "teams": "HRTvsNYG"
-        }, 
-        {
-          "date": "1926-09-26T00:00:00", 
-          "teams": "BFFvsAKR"
-        }, 
-        {
-          "date": "1926-09-26T00:00:00", 
-          "teams": "PRVvsBRL"
-        }, 
-        {
-          "date": "1926-09-26T00:00:00", 
-          "teams": "CRDvsLAB"
-        }, 
-        {
-          "date": "1926-09-26T00:00:00", 
-          "teams": "RACvsHAM"
-        }, 
-        {
-          "date": "1926-09-26T00:00:00", 
-          "teams": "MILvsDPN"
-        }, 
-        {
-          "date": "1926-09-26T00:00:00", 
-          "teams": "CBDvsCOL"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1926-10-02T00:00:00", 
-          "teams": "FYJvsHRT"
-        }, 
-        {
-          "date": "1926-10-03T00:00:00", 
-          "teams": "AKRvsHAM"
-        }, 
-        {
-          "date": "1926-10-03T00:00:00", 
-          "teams": "DPNvsCHI"
-        }, 
-        {
-          "date": "1926-10-03T00:00:00", 
-          "teams": "BFFvsDAY"
-        }, 
-        {
-          "date": "1926-10-03T00:00:00", 
-          "teams": "GNBvsDUL"
-        }, 
-        {
-          "date": "1926-10-03T00:00:00", 
-          "teams": "PTBvsCOL"
-        }, 
-        {
-          "date": "1926-10-03T00:00:00", 
-          "teams": "MILvsLAB"
-        }, 
-        {
-          "date": "1926-10-03T00:00:00", 
-          "teams": "CRDvsRAC"
-        }, 
-        {
-          "date": "1926-10-03T00:00:00", 
-          "teams": "HRTvsFYJ"
-        }, 
-        {
-          "date": "1926-10-03T00:00:00", 
-          "teams": "CBDvsLOU"
-        }, 
-        {
-          "date": "1926-10-03T00:00:00", 
-          "teams": "PRVvsNYG"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1926-10-09T00:00:00", 
-          "teams": "FYJvsBFF"
-        }, 
-        {
-          "date": "1926-10-10T00:00:00", 
-          "teams": "BRLvsHRT"
-        }, 
-        {
-          "date": "1926-10-10T00:00:00", 
-          "teams": "GNBvsCRD"
-        }, 
-        {
-          "date": "1926-10-10T00:00:00", 
-          "teams": "CHIvsNYG"
-        }, 
-        {
-          "date": "1926-10-10T00:00:00", 
-          "teams": "RACvsMIL"
-        }, 
-        {
-          "date": "1926-10-10T00:00:00", 
-          "teams": "DPNvsKCB"
-        }, 
-        {
-          "date": "1926-10-10T00:00:00", 
-          "teams": "AKRvsCBD"
-        }, 
-        {
-          "date": "1926-10-10T00:00:00", 
-          "teams": "HAMvsDUL"
-        }, 
-        {
-          "date": "1926-10-10T00:00:00", 
-          "teams": "PRVvsCOL"
-        }, 
-        {
-          "date": "1926-10-10T00:00:00", 
-          "teams": "PTBvsDAY"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1926-10-16T00:00:00", 
-          "teams": "COLvsKCB"
-        }, 
-        {
-          "date": "1926-10-16T00:00:00", 
-          "teams": "FYJvsNYG"
-        }, 
-        {
-          "date": "1926-10-16T00:00:00", 
-          "teams": "BRLvsPTB"
-        }, 
-        {
-          "date": "1926-10-17T00:00:00", 
-          "teams": "DAYvsBFF"
-        }, 
-        {
-          "date": "1926-10-17T00:00:00", 
-          "teams": "DPNvsLOU"
-        }, 
-        {
-          "date": "1926-10-17T00:00:00", 
-          "teams": "PTBvsBRL"
-        }, 
-        {
-          "date": "1926-10-17T00:00:00", 
-          "teams": "CBDvsLAB"
-        }, 
-        {
-          "date": "1926-10-17T00:00:00", 
-          "teams": "NYGvsFYJ"
-        }, 
-        {
-          "date": "1926-10-17T00:00:00", 
-          "teams": "RACvsDUL"
-        }, 
-        {
-          "date": "1926-10-17T00:00:00", 
-          "teams": "GNBvsMIL"
-        }, 
-        {
-          "date": "1926-10-17T00:00:00", 
-          "teams": "CRDvsCHI"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1926-10-23T00:00:00", 
-          "teams": "FYJvsCBD"
-        }, 
-        {
-          "date": "1926-10-23T00:00:00", 
-          "teams": "BRLvsCOL"
-        }, 
-        {
-          "date": "1926-10-24T00:00:00", 
-          "teams": "MILvsCRD"
-        }, 
-        {
-          "date": "1926-10-24T00:00:00", 
-          "teams": "BFFvsLAB"
-        }, 
-        {
-          "date": "1926-10-24T00:00:00", 
-          "teams": "DPNvsAKR"
-        }, 
-        {
-          "date": "1926-10-24T00:00:00", 
-          "teams": "PRVvsPTB"
-        }, 
-        {
-          "date": "1926-10-24T00:00:00", 
-          "teams": "HRTvsBRL"
-        }, 
-        {
-          "date": "1926-10-24T00:00:00", 
-          "teams": "NYGvsKCB"
-        }, 
-        {
-          "date": "1926-10-24T00:00:00", 
-          "teams": "GNBvsRAC"
-        }, 
-        {
-          "date": "1926-10-24T00:00:00", 
-          "teams": "CHIvsDUL"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1926-10-30T00:00:00", 
-          "teams": "FYJvsPRV"
-        }, 
-        {
-          "date": "1926-10-31T00:00:00", 
-          "teams": "CRDvsGNB"
-        }, 
-        {
-          "date": "1926-10-31T00:00:00", 
-          "teams": "DPNvsCBD"
-        }, 
-        {
-          "date": "1926-10-31T00:00:00", 
-          "teams": "PRVvsFYJ"
-        }, 
-        {
-          "date": "1926-10-31T00:00:00", 
-          "teams": "PTBvsBFF"
-        }, 
-        {
-          "date": "1926-10-31T00:00:00", 
-          "teams": "CHIvsAKR"
-        }, 
-        {
-          "date": "1926-10-31T00:00:00", 
-          "teams": "MILvsDUL"
-        }, 
-        {
-          "date": "1926-10-31T00:00:00", 
-          "teams": "HRTvsKCB"
-        }, 
-        {
-          "date": "1926-11-02T00:00:00", 
-          "teams": "NYGvsCBD"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1926-11-06T00:00:00", 
-          "teams": "FYJvsCRD"
-        }, 
-        {
-          "date": "1926-11-07T00:00:00", 
-          "teams": "MILvsGNB"
-        }, 
-        {
-          "date": "1926-11-07T00:00:00", 
-          "teams": "BFFvsCOL"
-        }, 
-        {
-          "date": "1926-11-07T00:00:00", 
-          "teams": "HRTvsCBD"
-        }, 
-        {
-          "date": "1926-11-07T00:00:00", 
-          "teams": "BRLvsKCB"
-        }, 
-        {
-          "date": "1926-11-07T00:00:00", 
-          "teams": "PTBvsAKR"
-        }, 
-        {
-          "date": "1926-11-07T00:00:00", 
-          "teams": "PRVvsLAB"
-        }, 
-        {
-          "date": "1926-11-07T00:00:00", 
-          "teams": "DPNvsDUL"
-        }, 
-        {
-          "date": "1926-11-07T00:00:00", 
-          "teams": "NYGvsCRD"
-        }, 
-        {
-          "date": "1926-11-07T00:00:00", 
-          "teams": "CHIvsLOU"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1926-11-11T00:00:00", 
-          "teams": "PTBvsLAB"
-        }, 
-        {
-          "date": "1926-11-11T00:00:00", 
-          "teams": "PRVvsCBD"
-        }, 
-        {
-          "date": "1926-11-11T00:00:00", 
-          "teams": "NYGvsDUL"
-        }, 
-        {
-          "date": "1926-11-11T00:00:00", 
-          "teams": "CHIvsCRD"
-        }, 
-        {
-          "date": "1926-11-13T00:00:00", 
-          "teams": "FYJvsDUL"
-        }, 
-        {
-          "date": "1926-11-14T00:00:00", 
-          "teams": "HRTvsBFF"
-        }, 
-        {
-          "date": "1926-11-14T00:00:00", 
-          "teams": "GNBvsLOU"
-        }, 
-        {
-          "date": "1926-11-14T00:00:00", 
-          "teams": "DPNvsDAY"
-        }, 
-        {
-          "date": "1926-11-14T00:00:00", 
-          "teams": "PTBvsDUL"
-        }, 
-        {
-          "date": "1926-11-14T00:00:00", 
-          "teams": "BRLvsCBD"
-        }, 
-        {
-          "date": "1926-11-14T00:00:00", 
-          "teams": "NYGvsLAB"
-        }, 
-        {
-          "date": "1926-11-14T00:00:00", 
-          "teams": "PRVvsKCB"
-        }, 
-        {
-          "date": "1926-11-14T00:00:00", 
-          "teams": "CHIvsMIL"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1926-11-20T00:00:00", 
-          "teams": "FYJvsDAY"
-        }, 
-        {
-          "date": "1926-11-21T00:00:00", 
-          "teams": "HRTvsDAY"
-        }, 
-        {
-          "date": "1926-11-21T00:00:00", 
-          "teams": "CHIvsGNB"
-        }, 
-        {
-          "date": "1926-11-21T00:00:00", 
-          "teams": "BFFvsKCB"
-        }, 
-        {
-          "date": "1926-11-21T00:00:00", 
-          "teams": "NYGvsPRV"
-        }, 
-        {
-          "date": "1926-11-21T00:00:00", 
-          "teams": "PTBvsHAM"
-        }, 
-        {
-          "date": "1926-11-21T00:00:00", 
-          "teams": "BRLvsLAB"
-        }, 
-        {
-          "date": "1926-11-21T00:00:00", 
-          "teams": "CBDvsDUL"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1926-11-25T00:00:00", 
-          "teams": "BRLvsNYG"
-        }, 
-        {
-          "date": "1926-11-25T00:00:00", 
-          "teams": "CBDvsAKR"
-        }, 
-        {
-          "date": "1926-11-25T00:00:00", 
-          "teams": "CHIvsCRD"
-        }, 
-        {
-          "date": "1926-11-25T00:00:00", 
-          "teams": "PTBvsPRV"
-        }, 
-        {
-          "date": "1926-11-25T00:00:00", 
-          "teams": "DPNvsLAB"
-        }, 
-        {
-          "date": "1926-11-25T00:00:00", 
-          "teams": "FYJvsGNB"
-        }, 
-        {
-          "date": "1926-11-27T00:00:00", 
-          "teams": "FYJvsDPN"
-        }, 
-        {
-          "date": "1926-11-27T00:00:00", 
-          "teams": "HRTvsDUL"
-        }, 
-        {
-          "date": "1926-11-28T00:00:00", 
-          "teams": "PRVvsDUL"
-        }, 
-        {
-          "date": "1926-11-28T00:00:00", 
-          "teams": "NYGvsBRL"
-        }, 
-        {
-          "date": "1926-11-28T00:00:00", 
-          "teams": "CHIvsCBD"
-        }, 
-        {
-          "date": "1926-11-28T00:00:00", 
-          "teams": "DPNvsGNB"
-        }, 
-        {
-          "date": "1926-11-28T00:00:00", 
-          "teams": "PTBvsBFF"
-        }, 
-        {
-          "date": "1926-11-28T00:00:00", 
-          "teams": "CRDvsKCB"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1926-12-04T00:00:00", 
-          "teams": "FYJvsCHI"
-        }, 
-        {
-          "date": "1926-12-05T00:00:00", 
-          "teams": "KCBvsLAB"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "alias": "Week 13", 
-      "events": [
-        {
-          "date": "1926-12-11T00:00:00", 
-          "teams": "FYJvsPRV"
-        }, 
-        {
-          "date": "1926-12-12T00:00:00", 
-          "teams": "KCBvsDUL"
-        }, 
-        {
-          "date": "1926-12-12T00:00:00", 
-          "teams": "CHIvsPTB"
-        }
-      ], 
-      "week": 13
-    }, 
-    {
-      "alias": "Week 14", 
-      "events": [
-        {
-          "date": "1926-12-18T00:00:00", 
-          "teams": "FYJvsPTB"
-        }, 
-        {
-          "date": "1926-12-19T00:00:00", 
-          "teams": "CHIvsGNB"
-        }
-      ], 
-      "week": 14
     }
-  ]
 }

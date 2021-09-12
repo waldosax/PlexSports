@@ -1,383 +1,1250 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1952-09-28T00:00:00", 
-          "teams": "SFOvsDET"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1952-19520928CLEvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1952-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195209280cle.htm", 
+                        "id": "195209280cle", 
+                        "key": "nfl1952-19520928CLEvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Los Angeles Rams", 
+                        "week": 1, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19520928DTXvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1952-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DTX", 
+                        "href": "/boxscores/195209280dtx.htm", 
+                        "id": "195209280dtx", 
+                        "key": "nfl1952-19520928DTXvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Texans vs. New York Giants", 
+                        "week": 1, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19520928GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1952-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195209280gnb.htm", 
+                        "id": "195209280gnb", 
+                        "key": "nfl1952-19520928GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 1, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19520928PITvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1952-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195209280pit.htm", 
+                        "id": "195209280pit", 
+                        "key": "nfl1952-19520928PITvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Philadelphia Eagles", 
+                        "week": 1, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19520928SFOvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1952-09-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195209280sfo.htm", 
+                        "id": "195209280sfo", 
+                        "key": "nfl1952-19520928SFOvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Detroit Lions", 
+                        "week": 1, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19520929CRDvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1952-09-29T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195209290crd.htm", 
+                        "id": "195209290crd", 
+                        "key": "nfl1952-19520929CRDvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Washington Redskins", 
+                        "week": 1, 
+                        "year": "1952"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1952-19521003RAMvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1952-10-03T00:00:00", 
+                        "day": "Fri", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195210030ram.htm", 
+                        "id": "195210030ram", 
+                        "key": "nfl1952-19521003RAMvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Detroit Lions", 
+                        "week": 2, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521004PHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1952-10-04T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195210040phi.htm", 
+                        "id": "195210040phi", 
+                        "key": "nfl1952-19521004PHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. New York Giants", 
+                        "week": 2, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521004PITvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1952-10-04T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195210040pit.htm", 
+                        "id": "195210040pit", 
+                        "key": "nfl1952-19521004PITvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Cleveland Browns", 
+                        "week": 2, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521005CRDvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1952-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195210050crd.htm", 
+                        "id": "195210050crd", 
+                        "key": "nfl1952-19521005CRDvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Chicago Bears", 
+                        "week": 2, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521005DTXvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1952-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DTX", 
+                        "href": "/boxscores/195210050dtx.htm", 
+                        "id": "195210050dtx", 
+                        "key": "nfl1952-19521005DTXvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Texans vs. San Francisco 49ers", 
+                        "week": 2, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521005GNBvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1952-10-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195210050gnb.htm", 
+                        "id": "195210050gnb", 
+                        "key": "nfl1952-19521005GNBvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Washington Redskins", 
+                        "week": 2, 
+                        "year": "1952"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1952-19521012CHIvsDTX": {
+                        "awayTeam": "DTX", 
+                        "date": "1952-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195210120chi.htm", 
+                        "id": "195210120chi", 
+                        "key": "nfl1952-19521012CHIvsDTX", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Dallas Texans", 
+                        "week": 3, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521012CLEvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1952-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195210120cle.htm", 
+                        "id": "195210120cle", 
+                        "key": "nfl1952-19521012CLEvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521012DETvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1952-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195210120det.htm", 
+                        "id": "195210120det", 
+                        "key": "nfl1952-19521012DETvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. San Francisco 49ers", 
+                        "week": 3, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521012GNBvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1952-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195210120gnb.htm", 
+                        "id": "195210120gnb", 
+                        "key": "nfl1952-19521012GNBvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Los Angeles Rams", 
+                        "week": 3, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521012PHIvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1952-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195210120phi.htm", 
+                        "id": "195210120phi", 
+                        "key": "nfl1952-19521012PHIvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Pittsburgh Steelers", 
+                        "week": 3, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521012WASvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1952-10-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195210120was.htm", 
+                        "id": "195210120was", 
+                        "key": "nfl1952-19521012WASvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Chicago Cardinals", 
+                        "week": 3, 
+                        "year": "1952"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1952-19521018DTXvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1952-10-18T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "DTX", 
+                        "href": "/boxscores/195210180dtx.htm", 
+                        "id": "195210180dtx", 
+                        "key": "nfl1952-19521018DTXvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Texans vs. Green Bay Packers", 
+                        "week": 4, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521019CHIvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1952-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195210190chi.htm", 
+                        "id": "195210190chi", 
+                        "key": "nfl1952-19521019CHIvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. San Francisco 49ers", 
+                        "week": 4, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521019DETvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1952-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195210190det.htm", 
+                        "id": "195210190det", 
+                        "key": "nfl1952-19521019DETvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Los Angeles Rams", 
+                        "week": 4, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521019NYGvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1952-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195210190nyg.htm", 
+                        "id": "195210190nyg", 
+                        "key": "nfl1952-19521019NYGvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Cardinals", 
+                        "week": 4, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521019PHIvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1952-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195210190phi.htm", 
+                        "id": "195210190phi", 
+                        "key": "nfl1952-19521019PHIvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Cleveland Browns", 
+                        "week": 4, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521019PITvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1952-10-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195210190pit.htm", 
+                        "id": "195210190pit", 
+                        "key": "nfl1952-19521019PITvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Washington Redskins", 
+                        "week": 4, 
+                        "year": "1952"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1952-19521026CLEvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1952-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195210260cle.htm", 
+                        "id": "195210260cle", 
+                        "key": "nfl1952-19521026CLEvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Washington Redskins", 
+                        "week": 5, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521026CRDvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1952-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195210260crd.htm", 
+                        "id": "195210260crd", 
+                        "key": "nfl1952-19521026CRDvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Pittsburgh Steelers", 
+                        "week": 5, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521026GNBvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1952-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195210260gnb.htm", 
+                        "id": "195210260gnb", 
+                        "key": "nfl1952-19521026GNBvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Detroit Lions", 
+                        "week": 5, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521026NYGvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1952-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195210260nyg.htm", 
+                        "id": "195210260nyg", 
+                        "key": "nfl1952-19521026NYGvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Philadelphia Eagles", 
+                        "week": 5, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521026RAMvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1952-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195210260ram.htm", 
+                        "id": "195210260ram", 
+                        "key": "nfl1952-19521026RAMvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Chicago Bears", 
+                        "week": 5, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521026SFOvsDTX": {
+                        "awayTeam": "DTX", 
+                        "date": "1952-10-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195210260sfo.htm", 
+                        "id": "195210260sfo", 
+                        "key": "nfl1952-19521026SFOvsDTX", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Dallas Texans", 
+                        "week": 5, 
+                        "year": "1952"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1952-19521102CRDvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1952-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195211020crd.htm", 
+                        "id": "195211020crd", 
+                        "key": "nfl1952-19521102CRDvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. New York Giants", 
+                        "week": 6, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521102DETvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1952-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195211020det.htm", 
+                        "id": "195211020det", 
+                        "key": "nfl1952-19521102DETvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Cleveland Browns", 
+                        "week": 6, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521102GNBvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1952-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195211020gnb.htm", 
+                        "id": "195211020gnb", 
+                        "key": "nfl1952-19521102GNBvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Philadelphia Eagles", 
+                        "week": 6, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521102RAMvsDTX": {
+                        "awayTeam": "DTX", 
+                        "date": "1952-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195211020ram.htm", 
+                        "id": "195211020ram", 
+                        "key": "nfl1952-19521102RAMvsDTX", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Dallas Texans", 
+                        "week": 6, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521102SFOvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1952-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195211020sfo.htm", 
+                        "id": "195211020sfo", 
+                        "key": "nfl1952-19521102SFOvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Chicago Bears", 
+                        "week": 6, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521102WASvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1952-11-02T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195211020was.htm", 
+                        "id": "195211020was", 
+                        "key": "nfl1952-19521102WASvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Pittsburgh Steelers", 
+                        "week": 6, 
+                        "year": "1952"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1952-19521109CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1952-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195211090chi.htm", 
+                        "id": "195211090chi", 
+                        "key": "nfl1952-19521109CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 7, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521109CLEvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1952-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195211090cle.htm", 
+                        "id": "195211090cle", 
+                        "key": "nfl1952-19521109CLEvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Chicago Cardinals", 
+                        "week": 7, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521109DTXvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1952-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DTX", 
+                        "href": "/boxscores/195211090dtx.htm", 
+                        "id": "195211090dtx", 
+                        "key": "nfl1952-19521109DTXvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Texans vs. Los Angeles Rams", 
+                        "week": 7, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521109NYGvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1952-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195211090nyg.htm", 
+                        "id": "195211090nyg", 
+                        "key": "nfl1952-19521109NYGvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. San Francisco 49ers", 
+                        "week": 7, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521109PHIvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1952-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195211090phi.htm", 
+                        "id": "195211090phi", 
+                        "key": "nfl1952-19521109PHIvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Washington Redskins", 
+                        "week": 7, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521109PITvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1952-11-09T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195211090pit.htm", 
+                        "id": "195211090pit", 
+                        "key": "nfl1952-19521109PITvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Detroit Lions", 
+                        "week": 7, 
+                        "year": "1952"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1952-19521116CHIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1952-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195211160chi.htm", 
+                        "id": "195211160chi", 
+                        "key": "nfl1952-19521116CHIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Los Angeles Rams", 
+                        "week": 8, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521116CLEvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1952-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195211160cle.htm", 
+                        "id": "195211160cle", 
+                        "key": "nfl1952-19521116CLEvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Pittsburgh Steelers", 
+                        "week": 8, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521116DETvsDTX": {
+                        "awayTeam": "DTX", 
+                        "date": "1952-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195211160det.htm", 
+                        "id": "195211160det", 
+                        "key": "nfl1952-19521116DETvsDTX", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Dallas Texans", 
+                        "week": 8, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521116NYGvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1952-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195211160nyg.htm", 
+                        "id": "195211160nyg", 
+                        "key": "nfl1952-19521116NYGvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Green Bay Packers", 
+                        "week": 8, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521116PHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1952-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195211160phi.htm", 
+                        "id": "195211160phi", 
+                        "key": "nfl1952-19521116PHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Chicago Cardinals", 
+                        "week": 8, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521116WASvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1952-11-16T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195211160was.htm", 
+                        "id": "195211160was", 
+                        "key": "nfl1952-19521116WASvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. San Francisco 49ers", 
+                        "week": 8, 
+                        "year": "1952"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1952-19521123CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1952-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195211230chi.htm", 
+                        "id": "195211230chi", 
+                        "key": "nfl1952-19521123CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Detroit Lions", 
+                        "week": 9, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521123CLEvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1952-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195211230cle.htm", 
+                        "id": "195211230cle", 
+                        "key": "nfl1952-19521123CLEvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Philadelphia Eagles", 
+                        "week": 9, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521123GNBvsDTX": {
+                        "awayTeam": "DTX", 
+                        "date": "1952-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195211230gnb.htm", 
+                        "id": "195211230gnb", 
+                        "key": "nfl1952-19521123GNBvsDTX", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Dallas Texans", 
+                        "week": 9, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521123PITvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1952-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195211230pit.htm", 
+                        "id": "195211230pit", 
+                        "key": "nfl1952-19521123PITvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Chicago Cardinals", 
+                        "week": 9, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521123RAMvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1952-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195211230ram.htm", 
+                        "id": "195211230ram", 
+                        "key": "nfl1952-19521123RAMvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. San Francisco 49ers", 
+                        "week": 9, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521123WASvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1952-11-23T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195211230was.htm", 
+                        "id": "195211230was", 
+                        "key": "nfl1952-19521123WASvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. New York Giants", 
+                        "week": 9, 
+                        "year": "1952"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1952-19521127DETvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1952-11-27T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195211270det.htm", 
+                        "id": "195211270det", 
+                        "key": "nfl1952-19521127DETvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Green Bay Packers", 
+                        "week": 10, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521127DTXvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1952-11-27T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DTX", 
+                        "href": "/boxscores/195211270dtx.htm", 
+                        "id": "195211270dtx", 
+                        "key": "nfl1952-19521127DTXvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Texans vs. Chicago Bears", 
+                        "week": 10, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521130CRDvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1952-11-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195211300crd.htm", 
+                        "id": "195211300crd", 
+                        "key": "nfl1952-19521130CRDvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Philadelphia Eagles", 
+                        "week": 10, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521130PITvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1952-11-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195211300pit.htm", 
+                        "id": "195211300pit", 
+                        "key": "nfl1952-19521130PITvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. New York Giants", 
+                        "week": 10, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521130SFOvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1952-11-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195211300sfo.htm", 
+                        "id": "195211300sfo", 
+                        "key": "nfl1952-19521130SFOvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Los Angeles Rams", 
+                        "week": 10, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521130WASvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1952-11-30T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195211300was.htm", 
+                        "id": "195211300was", 
+                        "key": "nfl1952-19521130WASvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Cleveland Browns", 
+                        "week": 10, 
+                        "year": "1952"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1952-19521207CRDvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1952-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195212070crd.htm", 
+                        "id": "195212070crd", 
+                        "key": "nfl1952-19521207CRDvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Cleveland Browns", 
+                        "week": 11, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521207DETvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1952-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195212070det.htm", 
+                        "id": "195212070det", 
+                        "key": "nfl1952-19521207DETvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Chicago Bears", 
+                        "week": 11, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521207NYGvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1952-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195212070nyg.htm", 
+                        "id": "195212070nyg", 
+                        "key": "nfl1952-19521207NYGvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Washington Redskins", 
+                        "week": 11, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521207PHIvsDTX": {
+                        "awayTeam": "DTX", 
+                        "date": "1952-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195212070phi.htm", 
+                        "id": "195212070phi", 
+                        "key": "nfl1952-19521207PHIvsDTX", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Dallas Texans", 
+                        "week": 11, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521207RAMvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1952-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195212070ram.htm", 
+                        "id": "195212070ram", 
+                        "key": "nfl1952-19521207RAMvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Green Bay Packers", 
+                        "week": 11, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521207SFOvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1952-12-07T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195212070sfo.htm", 
+                        "id": "195212070sfo", 
+                        "key": "nfl1952-19521207SFOvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Pittsburgh Steelers", 
+                        "week": 11, 
+                        "year": "1952"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1952-19521213DETvsDTX": {
+                        "awayTeam": "DTX", 
+                        "date": "1952-12-13T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195212130det.htm", 
+                        "id": "195212130det", 
+                        "key": "nfl1952-19521213DETvsDTX", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Dallas Texans", 
+                        "week": 12, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521214CHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1952-12-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195212140chi.htm", 
+                        "id": "195212140chi", 
+                        "key": "nfl1952-19521214CHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Chicago Cardinals", 
+                        "week": 12, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521214NYGvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1952-12-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195212140nyg.htm", 
+                        "id": "195212140nyg", 
+                        "key": "nfl1952-19521214NYGvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Cleveland Browns", 
+                        "week": 12, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521214RAMvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1952-12-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195212140ram.htm", 
+                        "id": "195212140ram", 
+                        "key": "nfl1952-19521214RAMvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Pittsburgh Steelers", 
+                        "week": 12, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521214SFOvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1952-12-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195212140sfo.htm", 
+                        "id": "195212140sfo", 
+                        "key": "nfl1952-19521214SFOvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1952"
+                    }, 
+                    "nfl1952-19521214WASvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1952-12-14T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195212140was.htm", 
+                        "id": "195212140was", 
+                        "key": "nfl1952-19521214WASvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Philadelphia Eagles", 
+                        "week": 12, 
+                        "year": "1952"
+                    }
+                }
+            }
         }, 
-        {
-          "date": "1952-09-28T00:00:00", 
-          "teams": "DTXvsNYG"
-        }, 
-        {
-          "date": "1952-09-28T00:00:00", 
-          "teams": "GNBvsCHI"
-        }, 
-        {
-          "date": "1952-09-28T00:00:00", 
-          "teams": "PITvsPHI"
-        }, 
-        {
-          "date": "1952-09-28T00:00:00", 
-          "teams": "CLEvsRAM"
-        }, 
-        {
-          "date": "1952-09-29T00:00:00", 
-          "teams": "CRDvsWAS"
+        "1": {
+            "2": {
+                "events": {
+                    "nfl1952-19521221DETvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1952-12-21T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195212210det.htm", 
+                        "id": "195212210det", 
+                        "key": "nfl1952-19521221DETvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Divisional Round", 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Los Angeles Rams", 
+                        "week": 2, 
+                        "year": "1952"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1952-19521228CLEvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1952-12-28T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195212280cle.htm", 
+                        "id": "195212280cle", 
+                        "key": "nfl1952-19521228CLEvsDET", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "AFC Conference Championship", 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Detroit Lions", 
+                        "week": 3, 
+                        "year": "1952"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1952-10-03T00:00:00", 
-          "teams": "RAMvsDET"
-        }, 
-        {
-          "date": "1952-10-04T00:00:00", 
-          "teams": "PHIvsNYG"
-        }, 
-        {
-          "date": "1952-10-04T00:00:00", 
-          "teams": "PITvsCLE"
-        }, 
-        {
-          "date": "1952-10-05T00:00:00", 
-          "teams": "DTXvsSFO"
-        }, 
-        {
-          "date": "1952-10-05T00:00:00", 
-          "teams": "CRDvsCHI"
-        }, 
-        {
-          "date": "1952-10-05T00:00:00", 
-          "teams": "GNBvsWAS"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1952-10-12T00:00:00", 
-          "teams": "CLEvsNYG"
-        }, 
-        {
-          "date": "1952-10-12T00:00:00", 
-          "teams": "PHIvsPIT"
-        }, 
-        {
-          "date": "1952-10-12T00:00:00", 
-          "teams": "WASvsCRD"
-        }, 
-        {
-          "date": "1952-10-12T00:00:00", 
-          "teams": "GNBvsRAM"
-        }, 
-        {
-          "date": "1952-10-12T00:00:00", 
-          "teams": "DETvsSFO"
-        }, 
-        {
-          "date": "1952-10-12T00:00:00", 
-          "teams": "CHIvsDTX"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1952-10-18T00:00:00", 
-          "teams": "DTXvsGNB"
-        }, 
-        {
-          "date": "1952-10-19T00:00:00", 
-          "teams": "NYGvsCRD"
-        }, 
-        {
-          "date": "1952-10-19T00:00:00", 
-          "teams": "DETvsRAM"
-        }, 
-        {
-          "date": "1952-10-19T00:00:00", 
-          "teams": "CHIvsSFO"
-        }, 
-        {
-          "date": "1952-10-19T00:00:00", 
-          "teams": "PITvsWAS"
-        }, 
-        {
-          "date": "1952-10-19T00:00:00", 
-          "teams": "PHIvsCLE"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1952-10-26T00:00:00", 
-          "teams": "NYGvsPHI"
-        }, 
-        {
-          "date": "1952-10-26T00:00:00", 
-          "teams": "SFOvsDTX"
-        }, 
-        {
-          "date": "1952-10-26T00:00:00", 
-          "teams": "CRDvsPIT"
-        }, 
-        {
-          "date": "1952-10-26T00:00:00", 
-          "teams": "CLEvsWAS"
-        }, 
-        {
-          "date": "1952-10-26T00:00:00", 
-          "teams": "RAMvsCHI"
-        }, 
-        {
-          "date": "1952-10-26T00:00:00", 
-          "teams": "GNBvsDET"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1952-11-02T00:00:00", 
-          "teams": "DETvsCLE"
-        }, 
-        {
-          "date": "1952-11-02T00:00:00", 
-          "teams": "CRDvsNYG"
-        }, 
-        {
-          "date": "1952-11-02T00:00:00", 
-          "teams": "RAMvsDTX"
-        }, 
-        {
-          "date": "1952-11-02T00:00:00", 
-          "teams": "GNBvsPHI"
-        }, 
-        {
-          "date": "1952-11-02T00:00:00", 
-          "teams": "SFOvsCHI"
-        }, 
-        {
-          "date": "1952-11-02T00:00:00", 
-          "teams": "WASvsPIT"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1952-11-09T00:00:00", 
-          "teams": "PHIvsWAS"
-        }, 
-        {
-          "date": "1952-11-09T00:00:00", 
-          "teams": "CHIvsGNB"
-        }, 
-        {
-          "date": "1952-11-09T00:00:00", 
-          "teams": "NYGvsSFO"
-        }, 
-        {
-          "date": "1952-11-09T00:00:00", 
-          "teams": "PITvsDET"
-        }, 
-        {
-          "date": "1952-11-09T00:00:00", 
-          "teams": "DTXvsRAM"
-        }, 
-        {
-          "date": "1952-11-09T00:00:00", 
-          "teams": "CLEvsCRD"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1952-11-16T00:00:00", 
-          "teams": "CLEvsPIT"
-        }, 
-        {
-          "date": "1952-11-16T00:00:00", 
-          "teams": "DETvsDTX"
-        }, 
-        {
-          "date": "1952-11-16T00:00:00", 
-          "teams": "PHIvsCRD"
-        }, 
-        {
-          "date": "1952-11-16T00:00:00", 
-          "teams": "CHIvsRAM"
-        }, 
-        {
-          "date": "1952-11-16T00:00:00", 
-          "teams": "NYGvsGNB"
-        }, 
-        {
-          "date": "1952-11-16T00:00:00", 
-          "teams": "WASvsSFO"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1952-11-23T00:00:00", 
-          "teams": "CHIvsDET"
-        }, 
-        {
-          "date": "1952-11-23T00:00:00", 
-          "teams": "PITvsCRD"
-        }, 
-        {
-          "date": "1952-11-23T00:00:00", 
-          "teams": "GNBvsDTX"
-        }, 
-        {
-          "date": "1952-11-23T00:00:00", 
-          "teams": "CLEvsPHI"
-        }, 
-        {
-          "date": "1952-11-23T00:00:00", 
-          "teams": "RAMvsSFO"
-        }, 
-        {
-          "date": "1952-11-23T00:00:00", 
-          "teams": "WASvsNYG"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1952-11-27T00:00:00", 
-          "teams": "DTXvsCHI"
-        }, 
-        {
-          "date": "1952-11-27T00:00:00", 
-          "teams": "DETvsGNB"
-        }, 
-        {
-          "date": "1952-11-30T00:00:00", 
-          "teams": "PITvsNYG"
-        }, 
-        {
-          "date": "1952-11-30T00:00:00", 
-          "teams": "WASvsCLE"
-        }, 
-        {
-          "date": "1952-11-30T00:00:00", 
-          "teams": "SFOvsRAM"
-        }, 
-        {
-          "date": "1952-11-30T00:00:00", 
-          "teams": "CRDvsPHI"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1952-12-07T00:00:00", 
-          "teams": "SFOvsPIT"
-        }, 
-        {
-          "date": "1952-12-07T00:00:00", 
-          "teams": "DETvsCHI"
-        }, 
-        {
-          "date": "1952-12-07T00:00:00", 
-          "teams": "RAMvsGNB"
-        }, 
-        {
-          "date": "1952-12-07T00:00:00", 
-          "teams": "CRDvsCLE"
-        }, 
-        {
-          "date": "1952-12-07T00:00:00", 
-          "teams": "PHIvsDTX"
-        }, 
-        {
-          "date": "1952-12-07T00:00:00", 
-          "teams": "NYGvsWAS"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1952-12-13T00:00:00", 
-          "teams": "DETvsDTX"
-        }, 
-        {
-          "date": "1952-12-14T00:00:00", 
-          "teams": "CHIvsCRD"
-        }, 
-        {
-          "date": "1952-12-14T00:00:00", 
-          "teams": "RAMvsPIT"
-        }, 
-        {
-          "date": "1952-12-14T00:00:00", 
-          "teams": "NYGvsCLE"
-        }, 
-        {
-          "date": "1952-12-14T00:00:00", 
-          "teams": "WASvsPHI"
-        }, 
-        {
-          "date": "1952-12-14T00:00:00", 
-          "teams": "SFOvsGNB"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "alias": "Divisional Round", 
-      "events": [
-        {
-          "date": "1952-12-21T00:00:00", 
-          "teams": "DETvsRAM"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "events": [
-        {
-          "date": "1952-12-28T00:00:00", 
-          "teams": "CLEvsDET"
-        }
-      ], 
-      "week": 3
     }
-  ]
 }

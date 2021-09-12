@@ -1,494 +1,1653 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1964-09-12T00:00:00", 
-          "teams": "DALvsCRD"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1964-19640912DALvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1964-09-12T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196409120dal.htm", 
+                        "id": "196409120dal", 
+                        "key": "nfl1964-19640912DALvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. St. Louis Cardinals", 
+                        "week": 1, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640913GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1964-09-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196409130gnb.htm", 
+                        "id": "196409130gnb", 
+                        "key": "nfl1964-19640913GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 1, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640913MINvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1964-09-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196409130min.htm", 
+                        "id": "196409130min", 
+                        "key": "nfl1964-19640913MINvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Baltimore Colts", 
+                        "week": 1, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640913PHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1964-09-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196409130phi.htm", 
+                        "id": "196409130phi", 
+                        "key": "nfl1964-19640913PHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. New York Giants", 
+                        "week": 1, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640913PITvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1964-09-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196409130pit.htm", 
+                        "id": "196409130pit", 
+                        "key": "nfl1964-19640913PITvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Los Angeles Rams", 
+                        "week": 1, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640913SFOvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1964-09-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196409130sfo.htm", 
+                        "id": "196409130sfo", 
+                        "key": "nfl1964-19640913SFOvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Detroit Lions", 
+                        "week": 1, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640913WASvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1964-09-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196409130was.htm", 
+                        "id": "196409130was", 
+                        "key": "nfl1964-19640913WASvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Cleveland Browns", 
+                        "week": 1, 
+                        "year": "1964"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1964-19640919RAMvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1964-09-19T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196409190ram.htm", 
+                        "id": "196409190ram", 
+                        "key": "nfl1964-19640919RAMvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Detroit Lions", 
+                        "week": 2, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640920CLEvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1964-09-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196409200cle.htm", 
+                        "id": "196409200cle", 
+                        "key": "nfl1964-19640920CLEvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. St. Louis Cardinals", 
+                        "week": 2, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640920DALvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1964-09-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196409200dal.htm", 
+                        "id": "196409200dal", 
+                        "key": "nfl1964-19640920DALvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. Washington Redskins", 
+                        "week": 2, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640920GNBvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1964-09-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196409200gnb.htm", 
+                        "id": "196409200gnb", 
+                        "key": "nfl1964-19640920GNBvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Baltimore Colts", 
+                        "week": 2, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640920MINvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1964-09-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196409200min.htm", 
+                        "id": "196409200min", 
+                        "key": "nfl1964-19640920MINvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Chicago Bears", 
+                        "week": 2, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640920PHIvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1964-09-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196409200phi.htm", 
+                        "id": "196409200phi", 
+                        "key": "nfl1964-19640920PHIvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. San Francisco 49ers", 
+                        "week": 2, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640920PITvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1964-09-20T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196409200pit.htm", 
+                        "id": "196409200pit", 
+                        "key": "nfl1964-19640920PITvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. New York Giants", 
+                        "week": 2, 
+                        "year": "1964"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1964-19640925NYGvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1964-09-25T00:00:00", 
+                        "day": "Fri", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196409250nyg.htm", 
+                        "id": "196409250nyg", 
+                        "key": "nfl1964-19640925NYGvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Washington Redskins", 
+                        "week": 3, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640927CLTvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1964-09-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196409270clt.htm", 
+                        "id": "196409270clt", 
+                        "key": "nfl1964-19640927CLTvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Chicago Bears", 
+                        "week": 3, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640927PHIvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1964-09-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196409270phi.htm", 
+                        "id": "196409270phi", 
+                        "key": "nfl1964-19640927PHIvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Cleveland Browns", 
+                        "week": 3, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640927PITvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1964-09-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196409270pit.htm", 
+                        "id": "196409270pit", 
+                        "key": "nfl1964-19640927PITvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Dallas Cowboys", 
+                        "week": 3, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640927RAMvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1964-09-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196409270ram.htm", 
+                        "id": "196409270ram", 
+                        "key": "nfl1964-19640927RAMvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Minnesota Vikings", 
+                        "week": 3, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640927SFOvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1964-09-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196409270sfo.htm", 
+                        "id": "196409270sfo", 
+                        "key": "nfl1964-19640927SFOvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. St. Louis Cardinals", 
+                        "week": 3, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19640928DETvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1964-09-28T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196409280det.htm", 
+                        "id": "196409280det", 
+                        "key": "nfl1964-19640928DETvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Green Bay Packers", 
+                        "week": 3, 
+                        "year": "1964"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1964-19641004CLEvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1964-10-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196410040cle.htm", 
+                        "id": "196410040cle", 
+                        "key": "nfl1964-19641004CLEvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Dallas Cowboys", 
+                        "week": 4, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641004CLTvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1964-10-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196410040clt.htm", 
+                        "id": "196410040clt", 
+                        "key": "nfl1964-19641004CLTvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Los Angeles Rams", 
+                        "week": 4, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641004DETvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1964-10-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196410040det.htm", 
+                        "id": "196410040det", 
+                        "key": "nfl1964-19641004DETvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. New York Giants", 
+                        "week": 4, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641004GNBvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1964-10-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196410040gnb.htm", 
+                        "id": "196410040gnb", 
+                        "key": "nfl1964-19641004GNBvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Minnesota Vikings", 
+                        "week": 4, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641004PHIvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1964-10-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196410040phi.htm", 
+                        "id": "196410040phi", 
+                        "key": "nfl1964-19641004PHIvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Pittsburgh Steelers", 
+                        "week": 4, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641004SFOvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1964-10-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196410040sfo.htm", 
+                        "id": "196410040sfo", 
+                        "key": "nfl1964-19641004SFOvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Chicago Bears", 
+                        "week": 4, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641004WASvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1964-10-04T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196410040was.htm", 
+                        "id": "196410040was", 
+                        "key": "nfl1964-19641004WASvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. St. Louis Cardinals", 
+                        "week": 4, 
+                        "year": "1964"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1964-19641010CLEvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1964-10-10T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196410100cle.htm", 
+                        "id": "196410100cle", 
+                        "key": "nfl1964-19641010CLEvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Pittsburgh Steelers", 
+                        "week": 5, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641011CHIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1964-10-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196410110chi.htm", 
+                        "id": "196410110chi", 
+                        "key": "nfl1964-19641011CHIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Los Angeles Rams", 
+                        "week": 5, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641011DALvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1964-10-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196410110dal.htm", 
+                        "id": "196410110dal", 
+                        "key": "nfl1964-19641011DALvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. New York Giants", 
+                        "week": 5, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641011GNBvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1964-10-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196410110gnb.htm", 
+                        "id": "196410110gnb", 
+                        "key": "nfl1964-19641011GNBvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. San Francisco 49ers", 
+                        "week": 5, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641011MINvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1964-10-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196410110min.htm", 
+                        "id": "196410110min", 
+                        "key": "nfl1964-19641011MINvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Detroit Lions", 
+                        "week": 5, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641011WASvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1964-10-11T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196410110was.htm", 
+                        "id": "196410110was", 
+                        "key": "nfl1964-19641011WASvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Philadelphia Eagles", 
+                        "week": 5, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641012CLTvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1964-10-12T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196410120crd.htm", 
+                        "id": "196410120crd", 
+                        "key": "nfl1964-19641012CLTvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. St. Louis Cardinals", 
+                        "week": 5, 
+                        "year": "1964"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1964-19641018CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1964-10-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196410180chi.htm", 
+                        "id": "196410180chi", 
+                        "key": "nfl1964-19641018CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Detroit Lions", 
+                        "week": 6, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641018CLTvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1964-10-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196410180clt.htm", 
+                        "id": "196410180clt", 
+                        "key": "nfl1964-19641018CLTvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Green Bay Packers", 
+                        "week": 6, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641018CRDvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1964-10-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/196410180crd.htm", 
+                        "id": "196410180crd", 
+                        "key": "nfl1964-19641018CRDvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "St. Louis Cardinals vs. Washington Redskins", 
+                        "week": 6, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641018DALvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1964-10-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196410180dal.htm", 
+                        "id": "196410180dal", 
+                        "key": "nfl1964-19641018DALvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. Cleveland Browns", 
+                        "week": 6, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641018MINvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1964-10-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196410180min.htm", 
+                        "id": "196410180min", 
+                        "key": "nfl1964-19641018MINvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Pittsburgh Steelers", 
+                        "week": 6, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641018NYGvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1964-10-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196410180nyg.htm", 
+                        "id": "196410180nyg", 
+                        "key": "nfl1964-19641018NYGvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Philadelphia Eagles", 
+                        "week": 6, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641018RAMvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1964-10-18T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196410180ram.htm", 
+                        "id": "196410180ram", 
+                        "key": "nfl1964-19641018RAMvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. San Francisco 49ers", 
+                        "week": 6, 
+                        "year": "1964"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1964-19641025CLEvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1964-10-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196410250cle.htm", 
+                        "id": "196410250cle", 
+                        "key": "nfl1964-19641025CLEvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. New York Giants", 
+                        "week": 7, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641025CRDvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1964-10-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/196410250crd.htm", 
+                        "id": "196410250crd", 
+                        "key": "nfl1964-19641025CRDvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "St. Louis Cardinals vs. Dallas Cowboys", 
+                        "week": 7, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641025DETvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1964-10-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196410250det.htm", 
+                        "id": "196410250det", 
+                        "key": "nfl1964-19641025DETvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Baltimore Colts", 
+                        "week": 7, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641025GNBvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1964-10-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196410250gnb.htm", 
+                        "id": "196410250gnb", 
+                        "key": "nfl1964-19641025GNBvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Los Angeles Rams", 
+                        "week": 7, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641025PITvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1964-10-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196410250pit.htm", 
+                        "id": "196410250pit", 
+                        "key": "nfl1964-19641025PITvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Philadelphia Eagles", 
+                        "week": 7, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641025SFOvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1964-10-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196410250sfo.htm", 
+                        "id": "196410250sfo", 
+                        "key": "nfl1964-19641025SFOvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Minnesota Vikings", 
+                        "week": 7, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641025WASvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1964-10-25T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196410250was.htm", 
+                        "id": "196410250was", 
+                        "key": "nfl1964-19641025WASvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Chicago Bears", 
+                        "week": 7, 
+                        "year": "1964"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1964-19641101CHIvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1964-11-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196411010chi.htm", 
+                        "id": "196411010chi", 
+                        "key": "nfl1964-19641101CHIvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Dallas Cowboys", 
+                        "week": 8, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641101CLTvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1964-11-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196411010clt.htm", 
+                        "id": "196411010clt", 
+                        "key": "nfl1964-19641101CLTvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. San Francisco 49ers", 
+                        "week": 8, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641101DETvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1964-11-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196411010det.htm", 
+                        "id": "196411010det", 
+                        "key": "nfl1964-19641101DETvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Los Angeles Rams", 
+                        "week": 8, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641101MINvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1964-11-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196411010min.htm", 
+                        "id": "196411010min", 
+                        "key": "nfl1964-19641101MINvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Green Bay Packers", 
+                        "week": 8, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641101NYGvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1964-11-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196411010nyg.htm", 
+                        "id": "196411010nyg", 
+                        "key": "nfl1964-19641101NYGvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. St. Louis Cardinals", 
+                        "week": 8, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641101PHIvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1964-11-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196411010phi.htm", 
+                        "id": "196411010phi", 
+                        "key": "nfl1964-19641101PHIvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Washington Redskins", 
+                        "week": 8, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641101PITvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1964-11-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196411010pit.htm", 
+                        "id": "196411010pit", 
+                        "key": "nfl1964-19641101PITvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Cleveland Browns", 
+                        "week": 8, 
+                        "year": "1964"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1964-19641108CHIvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1964-11-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196411080chi.htm", 
+                        "id": "196411080chi", 
+                        "key": "nfl1964-19641108CHIvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Baltimore Colts", 
+                        "week": 9, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641108CLEvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1964-11-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196411080cle.htm", 
+                        "id": "196411080cle", 
+                        "key": "nfl1964-19641108CLEvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Washington Redskins", 
+                        "week": 9, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641108CRDvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1964-11-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/196411080crd.htm", 
+                        "id": "196411080crd", 
+                        "key": "nfl1964-19641108CRDvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "St. Louis Cardinals vs. Pittsburgh Steelers", 
+                        "week": 9, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641108GNBvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1964-11-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196411080gnb.htm", 
+                        "id": "196411080gnb", 
+                        "key": "nfl1964-19641108GNBvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Detroit Lions", 
+                        "week": 9, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641108MINvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1964-11-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196411080min.htm", 
+                        "id": "196411080min", 
+                        "key": "nfl1964-19641108MINvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. San Francisco 49ers", 
+                        "week": 9, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641108NYGvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1964-11-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196411080nyg.htm", 
+                        "id": "196411080nyg", 
+                        "key": "nfl1964-19641108NYGvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Dallas Cowboys", 
+                        "week": 9, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641108RAMvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1964-11-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196411080ram.htm", 
+                        "id": "196411080ram", 
+                        "key": "nfl1964-19641108RAMvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Philadelphia Eagles", 
+                        "week": 9, 
+                        "year": "1964"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1964-19641115CLEvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1964-11-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196411150cle.htm", 
+                        "id": "196411150cle", 
+                        "key": "nfl1964-19641115CLEvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Detroit Lions", 
+                        "week": 10, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641115CLTvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1964-11-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196411150clt.htm", 
+                        "id": "196411150clt", 
+                        "key": "nfl1964-19641115CLTvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Minnesota Vikings", 
+                        "week": 10, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641115CRDvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1964-11-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/196411150crd.htm", 
+                        "id": "196411150crd", 
+                        "key": "nfl1964-19641115CRDvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "St. Louis Cardinals vs. New York Giants", 
+                        "week": 10, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641115DALvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1964-11-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196411150dal.htm", 
+                        "id": "196411150dal", 
+                        "key": "nfl1964-19641115DALvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. Philadelphia Eagles", 
+                        "week": 10, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641115PITvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1964-11-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196411150pit.htm", 
+                        "id": "196411150pit", 
+                        "key": "nfl1964-19641115PITvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Washington Redskins", 
+                        "week": 10, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641115RAMvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1964-11-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196411150ram.htm", 
+                        "id": "196411150ram", 
+                        "key": "nfl1964-19641115RAMvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Chicago Bears", 
+                        "week": 10, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641115SFOvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1964-11-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196411150sfo.htm", 
+                        "id": "196411150sfo", 
+                        "key": "nfl1964-19641115SFOvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Green Bay Packers", 
+                        "week": 10, 
+                        "year": "1964"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1964-19641122CHIvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1964-11-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196411220chi.htm", 
+                        "id": "196411220chi", 
+                        "key": "nfl1964-19641122CHIvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. San Francisco 49ers", 
+                        "week": 11, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641122DETvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1964-11-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196411220det.htm", 
+                        "id": "196411220det", 
+                        "key": "nfl1964-19641122DETvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Minnesota Vikings", 
+                        "week": 11, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641122GNBvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1964-11-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/196411220gnb.htm", 
+                        "id": "196411220gnb", 
+                        "key": "nfl1964-19641122GNBvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Cleveland Browns", 
+                        "week": 11, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641122NYGvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1964-11-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196411220nyg.htm", 
+                        "id": "196411220nyg", 
+                        "key": "nfl1964-19641122NYGvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Pittsburgh Steelers", 
+                        "week": 11, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641122PHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1964-11-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196411220phi.htm", 
+                        "id": "196411220phi", 
+                        "key": "nfl1964-19641122PHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. St. Louis Cardinals", 
+                        "week": 11, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641122RAMvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1964-11-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196411220ram.htm", 
+                        "id": "196411220ram", 
+                        "key": "nfl1964-19641122RAMvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Baltimore Colts", 
+                        "week": 11, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641122WASvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1964-11-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196411220was.htm", 
+                        "id": "196411220was", 
+                        "key": "nfl1964-19641122WASvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Dallas Cowboys", 
+                        "week": 11, 
+                        "year": "1964"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1964-19641126DETvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1964-11-26T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196411260det.htm", 
+                        "id": "196411260det", 
+                        "key": "nfl1964-19641126DETvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Chicago Bears", 
+                        "week": 12, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641129CLEvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1964-11-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196411290cle.htm", 
+                        "id": "196411290cle", 
+                        "key": "nfl1964-19641129CLEvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Philadelphia Eagles", 
+                        "week": 12, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641129DALvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1964-11-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196411290dal.htm", 
+                        "id": "196411290dal", 
+                        "key": "nfl1964-19641129DALvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641129MINvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1964-11-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "MIN", 
+                        "href": "/boxscores/196411290min.htm", 
+                        "id": "196411290min", 
+                        "key": "nfl1964-19641129MINvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Minnesota Vikings vs. Los Angeles Rams", 
+                        "week": 12, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641129PITvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1964-11-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/196411290pit.htm", 
+                        "id": "196411290pit", 
+                        "key": "nfl1964-19641129PITvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. St. Louis Cardinals", 
+                        "week": 12, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641129SFOvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1964-11-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196411290sfo.htm", 
+                        "id": "196411290sfo", 
+                        "key": "nfl1964-19641129SFOvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Baltimore Colts", 
+                        "week": 12, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641129WASvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1964-11-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196411290was.htm", 
+                        "id": "196411290was", 
+                        "key": "nfl1964-19641129WASvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. New York Giants", 
+                        "week": 12, 
+                        "year": "1964"
+                    }
+                }
+            }, 
+            "13": {
+                "events": {
+                    "nfl1964-19641205CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1964-12-05T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196412050chi.htm", 
+                        "id": "196412050chi", 
+                        "key": "nfl1964-19641205CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 13, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641206CLTvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1964-12-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196412060clt.htm", 
+                        "id": "196412060clt", 
+                        "key": "nfl1964-19641206CLTvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Detroit Lions", 
+                        "week": 13, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641206CRDvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1964-12-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/196412060crd.htm", 
+                        "id": "196412060crd", 
+                        "key": "nfl1964-19641206CRDvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "St. Louis Cardinals vs. Cleveland Browns", 
+                        "week": 13, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641206NYGvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1964-12-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196412060nyg.htm", 
+                        "id": "196412060nyg", 
+                        "key": "nfl1964-19641206NYGvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Minnesota Vikings", 
+                        "week": 13, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641206PHIvsDAL": {
+                        "awayTeam": "DAL", 
+                        "date": "1964-12-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/196412060phi.htm", 
+                        "id": "196412060phi", 
+                        "key": "nfl1964-19641206PHIvsDAL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Dallas Cowboys", 
+                        "week": 13, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641206SFOvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1964-12-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/196412060sfo.htm", 
+                        "id": "196412060sfo", 
+                        "key": "nfl1964-19641206SFOvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Los Angeles Rams", 
+                        "week": 13, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641206WASvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1964-12-06T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/196412060was.htm", 
+                        "id": "196412060was", 
+                        "key": "nfl1964-19641206WASvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Pittsburgh Steelers", 
+                        "week": 13, 
+                        "year": "1964"
+                    }
+                }
+            }, 
+            "14": {
+                "events": {
+                    "nfl1964-19641212NYGvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1964-12-12T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/196412120nyg.htm", 
+                        "id": "196412120nyg", 
+                        "key": "nfl1964-19641212NYGvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Cleveland Browns", 
+                        "week": 14, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641213CHIvsMIN": {
+                        "awayTeam": "MIN", 
+                        "date": "1964-12-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/196412130chi.htm", 
+                        "id": "196412130chi", 
+                        "key": "nfl1964-19641213CHIvsMIN", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Minnesota Vikings", 
+                        "week": 14, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641213CLTvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1964-12-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLT", 
+                        "href": "/boxscores/196412130clt.htm", 
+                        "id": "196412130clt", 
+                        "key": "nfl1964-19641213CLTvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Washington Redskins", 
+                        "week": 14, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641213CRDvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1964-12-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/196412130crd.htm", 
+                        "id": "196412130crd", 
+                        "key": "nfl1964-19641213CRDvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "St. Louis Cardinals vs. Philadelphia Eagles", 
+                        "week": 14, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641213DALvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1964-12-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DAL", 
+                        "href": "/boxscores/196412130dal.htm", 
+                        "id": "196412130dal", 
+                        "key": "nfl1964-19641213DALvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Dallas Cowboys vs. Pittsburgh Steelers", 
+                        "week": 14, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641213DETvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1964-12-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/196412130det.htm", 
+                        "id": "196412130det", 
+                        "key": "nfl1964-19641213DETvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. San Francisco 49ers", 
+                        "week": 14, 
+                        "year": "1964"
+                    }, 
+                    "nfl1964-19641213RAMvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1964-12-13T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/196412130ram.htm", 
+                        "id": "196412130ram", 
+                        "key": "nfl1964-19641213RAMvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Green Bay Packers", 
+                        "week": 14, 
+                        "year": "1964"
+                    }
+                }
+            }
         }, 
-        {
-          "date": "1964-09-13T00:00:00", 
-          "teams": "SFOvsDET"
-        }, 
-        {
-          "date": "1964-09-13T00:00:00", 
-          "teams": "MINvsBCL"
-        }, 
-        {
-          "date": "1964-09-13T00:00:00", 
-          "teams": "PITvsRAM"
-        }, 
-        {
-          "date": "1964-09-13T00:00:00", 
-          "teams": "PHIvsNYG"
-        }, 
-        {
-          "date": "1964-09-13T00:00:00", 
-          "teams": "WASvsCLE"
-        }, 
-        {
-          "date": "1964-09-13T00:00:00", 
-          "teams": "GNBvsCHI"
+        "1": {
+            "3": {
+                "events": {
+                    "nfl1964-19641227CLEvsCLT": {
+                        "awayTeam": "CLT", 
+                        "date": "1964-12-27T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/196412270cle.htm", 
+                        "id": "196412270cle", 
+                        "key": "nfl1964-19641227CLEvsCLT", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "AFC Conference Championship", 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Baltimore Colts", 
+                        "week": 3, 
+                        "year": "1964"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1964-09-19T00:00:00", 
-          "teams": "RAMvsDET"
-        }, 
-        {
-          "date": "1964-09-20T00:00:00", 
-          "teams": "PHIvsSFO"
-        }, 
-        {
-          "date": "1964-09-20T00:00:00", 
-          "teams": "CLEvsCRD"
-        }, 
-        {
-          "date": "1964-09-20T00:00:00", 
-          "teams": "PITvsNYG"
-        }, 
-        {
-          "date": "1964-09-20T00:00:00", 
-          "teams": "DALvsWAS"
-        }, 
-        {
-          "date": "1964-09-20T00:00:00", 
-          "teams": "GNBvsBCL"
-        }, 
-        {
-          "date": "1964-09-20T00:00:00", 
-          "teams": "MINvsCHI"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1964-09-25T00:00:00", 
-          "teams": "NYGvsWAS"
-        }, 
-        {
-          "date": "1964-09-27T00:00:00", 
-          "teams": "SFOvsCRD"
-        }, 
-        {
-          "date": "1964-09-27T00:00:00", 
-          "teams": "RAMvsMIN"
-        }, 
-        {
-          "date": "1964-09-27T00:00:00", 
-          "teams": "BCLvsCHI"
-        }, 
-        {
-          "date": "1964-09-27T00:00:00", 
-          "teams": "PITvsDAL"
-        }, 
-        {
-          "date": "1964-09-27T00:00:00", 
-          "teams": "PHIvsCLE"
-        }, 
-        {
-          "date": "1964-09-28T00:00:00", 
-          "teams": "DETvsGNB"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1964-10-04T00:00:00", 
-          "teams": "GNBvsMIN"
-        }, 
-        {
-          "date": "1964-10-04T00:00:00", 
-          "teams": "DETvsNYG"
-        }, 
-        {
-          "date": "1964-10-04T00:00:00", 
-          "teams": "CLEvsDAL"
-        }, 
-        {
-          "date": "1964-10-04T00:00:00", 
-          "teams": "BCLvsRAM"
-        }, 
-        {
-          "date": "1964-10-04T00:00:00", 
-          "teams": "WASvsCRD"
-        }, 
-        {
-          "date": "1964-10-04T00:00:00", 
-          "teams": "SFOvsCHI"
-        }, 
-        {
-          "date": "1964-10-04T00:00:00", 
-          "teams": "PHIvsPIT"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1964-10-10T00:00:00", 
-          "teams": "CLEvsPIT"
-        }, 
-        {
-          "date": "1964-10-11T00:00:00", 
-          "teams": "GNBvsSFO"
-        }, 
-        {
-          "date": "1964-10-11T00:00:00", 
-          "teams": "DALvsNYG"
-        }, 
-        {
-          "date": "1964-10-11T00:00:00", 
-          "teams": "CHIvsRAM"
-        }, 
-        {
-          "date": "1964-10-11T00:00:00", 
-          "teams": "MINvsDET"
-        }, 
-        {
-          "date": "1964-10-11T00:00:00", 
-          "teams": "WASvsPHI"
-        }, 
-        {
-          "date": "1964-10-12T00:00:00", 
-          "teams": "BCLvsCRD"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1964-10-18T00:00:00", 
-          "teams": "NYGvsPHI"
-        }, 
-        {
-          "date": "1964-10-18T00:00:00", 
-          "teams": "CRDvsWAS"
-        }, 
-        {
-          "date": "1964-10-18T00:00:00", 
-          "teams": "RAMvsSFO"
-        }, 
-        {
-          "date": "1964-10-18T00:00:00", 
-          "teams": "BCLvsGNB"
-        }, 
-        {
-          "date": "1964-10-18T00:00:00", 
-          "teams": "CHIvsDET"
-        }, 
-        {
-          "date": "1964-10-18T00:00:00", 
-          "teams": "DALvsCLE"
-        }, 
-        {
-          "date": "1964-10-18T00:00:00", 
-          "teams": "MINvsPIT"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1964-10-25T00:00:00", 
-          "teams": "WASvsCHI"
-        }, 
-        {
-          "date": "1964-10-25T00:00:00", 
-          "teams": "DETvsBCL"
-        }, 
-        {
-          "date": "1964-10-25T00:00:00", 
-          "teams": "PITvsPHI"
-        }, 
-        {
-          "date": "1964-10-25T00:00:00", 
-          "teams": "CLEvsNYG"
-        }, 
-        {
-          "date": "1964-10-25T00:00:00", 
-          "teams": "SFOvsMIN"
-        }, 
-        {
-          "date": "1964-10-25T00:00:00", 
-          "teams": "GNBvsRAM"
-        }, 
-        {
-          "date": "1964-10-25T00:00:00", 
-          "teams": "CRDvsDAL"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1964-11-01T00:00:00", 
-          "teams": "BCLvsSFO"
-        }, 
-        {
-          "date": "1964-11-01T00:00:00", 
-          "teams": "PITvsCLE"
-        }, 
-        {
-          "date": "1964-11-01T00:00:00", 
-          "teams": "CHIvsDAL"
-        }, 
-        {
-          "date": "1964-11-01T00:00:00", 
-          "teams": "NYGvsCRD"
-        }, 
-        {
-          "date": "1964-11-01T00:00:00", 
-          "teams": "DETvsRAM"
-        }, 
-        {
-          "date": "1964-11-01T00:00:00", 
-          "teams": "PHIvsWAS"
-        }, 
-        {
-          "date": "1964-11-01T00:00:00", 
-          "teams": "MINvsGNB"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1964-11-08T00:00:00", 
-          "teams": "CLEvsWAS"
-        }, 
-        {
-          "date": "1964-11-08T00:00:00", 
-          "teams": "CRDvsPIT"
-        }, 
-        {
-          "date": "1964-11-08T00:00:00", 
-          "teams": "GNBvsDET"
-        }, 
-        {
-          "date": "1964-11-08T00:00:00", 
-          "teams": "MINvsSFO"
-        }, 
-        {
-          "date": "1964-11-08T00:00:00", 
-          "teams": "CHIvsBCL"
-        }, 
-        {
-          "date": "1964-11-08T00:00:00", 
-          "teams": "NYGvsDAL"
-        }, 
-        {
-          "date": "1964-11-08T00:00:00", 
-          "teams": "RAMvsPHI"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1964-11-15T00:00:00", 
-          "teams": "CRDvsNYG"
-        }, 
-        {
-          "date": "1964-11-15T00:00:00", 
-          "teams": "DALvsPHI"
-        }, 
-        {
-          "date": "1964-11-15T00:00:00", 
-          "teams": "SFOvsGNB"
-        }, 
-        {
-          "date": "1964-11-15T00:00:00", 
-          "teams": "RAMvsCHI"
-        }, 
-        {
-          "date": "1964-11-15T00:00:00", 
-          "teams": "BCLvsMIN"
-        }, 
-        {
-          "date": "1964-11-15T00:00:00", 
-          "teams": "CLEvsDET"
-        }, 
-        {
-          "date": "1964-11-15T00:00:00", 
-          "teams": "PITvsWAS"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1964-11-22T00:00:00", 
-          "teams": "PHIvsCRD"
-        }, 
-        {
-          "date": "1964-11-22T00:00:00", 
-          "teams": "NYGvsPIT"
-        }, 
-        {
-          "date": "1964-11-22T00:00:00", 
-          "teams": "DETvsMIN"
-        }, 
-        {
-          "date": "1964-11-22T00:00:00", 
-          "teams": "RAMvsBCL"
-        }, 
-        {
-          "date": "1964-11-22T00:00:00", 
-          "teams": "GNBvsCLE"
-        }, 
-        {
-          "date": "1964-11-22T00:00:00", 
-          "teams": "CHIvsSFO"
-        }, 
-        {
-          "date": "1964-11-22T00:00:00", 
-          "teams": "WASvsDAL"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1964-11-26T00:00:00", 
-          "teams": "DETvsCHI"
-        }, 
-        {
-          "date": "1964-11-29T00:00:00", 
-          "teams": "MINvsRAM"
-        }, 
-        {
-          "date": "1964-11-29T00:00:00", 
-          "teams": "DALvsGNB"
-        }, 
-        {
-          "date": "1964-11-29T00:00:00", 
-          "teams": "SFOvsBCL"
-        }, 
-        {
-          "date": "1964-11-29T00:00:00", 
-          "teams": "WASvsNYG"
-        }, 
-        {
-          "date": "1964-11-29T00:00:00", 
-          "teams": "PITvsCRD"
-        }, 
-        {
-          "date": "1964-11-29T00:00:00", 
-          "teams": "CLEvsPHI"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "alias": "Week 13", 
-      "events": [
-        {
-          "date": "1964-12-05T00:00:00", 
-          "teams": "CHIvsGNB"
-        }, 
-        {
-          "date": "1964-12-06T00:00:00", 
-          "teams": "WASvsPIT"
-        }, 
-        {
-          "date": "1964-12-06T00:00:00", 
-          "teams": "PHIvsDAL"
-        }, 
-        {
-          "date": "1964-12-06T00:00:00", 
-          "teams": "NYGvsMIN"
-        }, 
-        {
-          "date": "1964-12-06T00:00:00", 
-          "teams": "CRDvsCLE"
-        }, 
-        {
-          "date": "1964-12-06T00:00:00", 
-          "teams": "SFOvsRAM"
-        }, 
-        {
-          "date": "1964-12-06T00:00:00", 
-          "teams": "BCLvsDET"
-        }
-      ], 
-      "week": 13
-    }, 
-    {
-      "alias": "Week 14", 
-      "events": [
-        {
-          "date": "1964-12-12T00:00:00", 
-          "teams": "NYGvsCLE"
-        }, 
-        {
-          "date": "1964-12-13T00:00:00", 
-          "teams": "CRDvsPHI"
-        }, 
-        {
-          "date": "1964-12-13T00:00:00", 
-          "teams": "BCLvsWAS"
-        }, 
-        {
-          "date": "1964-12-13T00:00:00", 
-          "teams": "CHIvsMIN"
-        }, 
-        {
-          "date": "1964-12-13T00:00:00", 
-          "teams": "DALvsPIT"
-        }, 
-        {
-          "date": "1964-12-13T00:00:00", 
-          "teams": "RAMvsGNB"
-        }, 
-        {
-          "date": "1964-12-13T00:00:00", 
-          "teams": "DETvsSFO"
-        }
-      ], 
-      "week": 14
-    }, 
-    {
-      "alias": "Week 15", 
-      "events": [], 
-      "week": 15
-    }, 
-    {
-      "events": [
-        {
-          "date": "1964-12-27T00:00:00", 
-          "teams": "CLEvsBCL"
-        }
-      ], 
-      "week": 3
     }
-  ]
 }

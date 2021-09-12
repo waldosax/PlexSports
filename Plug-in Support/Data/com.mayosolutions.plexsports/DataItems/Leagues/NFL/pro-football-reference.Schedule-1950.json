@@ -1,417 +1,1367 @@
 {
-  "regularseason": [
-    {
-      "alias": "Week 1", 
-      "events": [
-        {
-          "date": "1950-09-16T00:00:00", 
-          "teams": "PHIvsCLE"
+    "subseasons": {
+        "0": {
+            "1": {
+                "events": {
+                    "nfl1950-19500916PHIvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1950-09-16T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195009160phi.htm", 
+                        "id": "195009160phi", 
+                        "key": "nfl1950-19500916PHIvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Cleveland Browns", 
+                        "week": 1, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19500917BCLvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1950-09-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BCL", 
+                        "href": "/boxscores/195009170bcl.htm", 
+                        "id": "195009170bcl", 
+                        "key": "nfl1950-19500917BCLvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Washington Redskins", 
+                        "week": 1, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19500917GNBvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1950-09-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195009170gnb.htm", 
+                        "id": "195009170gnb", 
+                        "key": "nfl1950-19500917GNBvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Detroit Lions", 
+                        "week": 1, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19500917PITvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1950-09-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195009170pit.htm", 
+                        "id": "195009170pit", 
+                        "key": "nfl1950-19500917PITvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. New York Giants", 
+                        "week": 1, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19500917RAMvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1950-09-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195009170ram.htm", 
+                        "id": "195009170ram", 
+                        "key": "nfl1950-19500917RAMvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Chicago Bears", 
+                        "week": 1, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19500917SFOvsNYY": {
+                        "awayTeam": "NYY", 
+                        "date": "1950-09-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195009170sfo.htm", 
+                        "id": "195009170sfo", 
+                        "key": "nfl1950-19500917SFOvsNYY", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. New York Yanks", 
+                        "week": 1, 
+                        "year": "1950"
+                    }
+                }
+            }, 
+            "2": {
+                "events": {
+                    "nfl1950-19500922RAMvsNYY": {
+                        "awayTeam": "NYY", 
+                        "date": "1950-09-22T00:00:00", 
+                        "day": "Fri", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195009220ram.htm", 
+                        "id": "195009220ram", 
+                        "key": "nfl1950-19500922RAMvsNYY", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. New York Yanks", 
+                        "week": 2, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19500924BCLvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1950-09-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BCL", 
+                        "href": "/boxscores/195009240bcl.htm", 
+                        "id": "195009240bcl", 
+                        "key": "nfl1950-19500924BCLvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Cleveland Browns", 
+                        "week": 2, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19500924CRDvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1950-09-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195009240crd.htm", 
+                        "id": "195009240crd", 
+                        "key": "nfl1950-19500924CRDvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Philadelphia Eagles", 
+                        "week": 2, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19500924DETvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1950-09-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195009240det.htm", 
+                        "id": "195009240det", 
+                        "key": "nfl1950-19500924DETvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Pittsburgh Steelers", 
+                        "week": 2, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19500924GNBvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1950-09-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195009240gnb.htm", 
+                        "id": "195009240gnb", 
+                        "key": "nfl1950-19500924GNBvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Washington Redskins", 
+                        "week": 2, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19500924SFOvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1950-09-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195009240sfo.htm", 
+                        "id": "195009240sfo", 
+                        "key": "nfl1950-19500924SFOvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Chicago Bears", 
+                        "week": 2, 
+                        "year": "1950"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1950-19500929NYYvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1950-09-29T00:00:00", 
+                        "day": "Fri", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYY", 
+                        "href": "/boxscores/195009290nyy.htm", 
+                        "id": "195009290nyy", 
+                        "key": "nfl1950-19500929NYYvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Yanks vs. Detroit Lions", 
+                        "week": 3, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501001CLEvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1950-10-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195010010cle.htm", 
+                        "id": "195010010cle", 
+                        "key": "nfl1950-19501001CLEvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. New York Giants", 
+                        "week": 3, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501001GNBvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1950-10-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195010010gnb.htm", 
+                        "id": "195010010gnb", 
+                        "key": "nfl1950-19501001GNBvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Chicago Bears", 
+                        "week": 3, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501001SFOvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1950-10-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195010010sfo.htm", 
+                        "id": "195010010sfo", 
+                        "key": "nfl1950-19501001SFOvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Los Angeles Rams", 
+                        "week": 3, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501001WASvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1950-10-01T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195010010was.htm", 
+                        "id": "195010010was", 
+                        "key": "nfl1950-19501001WASvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Pittsburgh Steelers", 
+                        "week": 3, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501002CRDvsBCL": {
+                        "awayTeam": "BCL", 
+                        "date": "1950-10-02T00:00:00", 
+                        "day": "Mon", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195010020crd.htm", 
+                        "id": "195010020crd", 
+                        "key": "nfl1950-19501002CRDvsBCL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Baltimore Colts", 
+                        "week": 3, 
+                        "year": "1950"
+                    }
+                }
+            }, 
+            "4": {
+                "events": {
+                    "nfl1950-19501007PHIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1950-10-07T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195010070phi.htm", 
+                        "id": "195010070phi", 
+                        "key": "nfl1950-19501007PHIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Los Angeles Rams", 
+                        "week": 4, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501007PITvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1950-10-07T00:00:00", 
+                        "day": "Sat", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195010070pit.htm", 
+                        "id": "195010070pit", 
+                        "key": "nfl1950-19501007PITvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Cleveland Browns", 
+                        "week": 4, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501008CHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1950-10-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195010080chi.htm", 
+                        "id": "195010080chi", 
+                        "key": "nfl1950-19501008CHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Chicago Cardinals", 
+                        "week": 4, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501008DETvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1950-10-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195010080det.htm", 
+                        "id": "195010080det", 
+                        "key": "nfl1950-19501008DETvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. San Francisco 49ers", 
+                        "week": 4, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501008GNBvsNYY": {
+                        "awayTeam": "NYY", 
+                        "date": "1950-10-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195010080gnb.htm", 
+                        "id": "195010080gnb", 
+                        "key": "nfl1950-19501008GNBvsNYY", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. New York Yanks", 
+                        "week": 4, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501008WASvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1950-10-08T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195010080was.htm", 
+                        "id": "195010080was", 
+                        "key": "nfl1950-19501008WASvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. New York Giants", 
+                        "week": 4, 
+                        "year": "1950"
+                    }
+                }
+            }, 
+            "5": {
+                "events": {
+                    "nfl1950-19501012NYYvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1950-10-12T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYY", 
+                        "href": "/boxscores/195010120nyy.htm", 
+                        "id": "195010120nyy", 
+                        "key": "nfl1950-19501012NYYvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Yanks vs. San Francisco 49ers", 
+                        "week": 5, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501015BCLvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1950-10-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BCL", 
+                        "href": "/boxscores/195010150bcl.htm", 
+                        "id": "195010150bcl", 
+                        "key": "nfl1950-19501015BCLvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Philadelphia Eagles", 
+                        "week": 5, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501015CHIvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1950-10-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195010150chi.htm", 
+                        "id": "195010150chi", 
+                        "key": "nfl1950-19501015CHIvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Green Bay Packers", 
+                        "week": 5, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501015CLEvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1950-10-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195010150cle.htm", 
+                        "id": "195010150cle", 
+                        "key": "nfl1950-19501015CLEvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Chicago Cardinals", 
+                        "week": 5, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501015DETvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1950-10-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195010150det.htm", 
+                        "id": "195010150det", 
+                        "key": "nfl1950-19501015DETvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Los Angeles Rams", 
+                        "week": 5, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501015NYGvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1950-10-15T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195010150nyg.htm", 
+                        "id": "195010150nyg", 
+                        "key": "nfl1950-19501015NYGvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Pittsburgh Steelers", 
+                        "week": 5, 
+                        "year": "1950"
+                    }
+                }
+            }, 
+            "6": {
+                "events": {
+                    "nfl1950-19501019NYYvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1950-10-19T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYY", 
+                        "href": "/boxscores/195010190nyy.htm", 
+                        "id": "195010190nyy", 
+                        "key": "nfl1950-19501019NYYvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Yanks vs. Green Bay Packers", 
+                        "week": 6, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501022NYGvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1950-10-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195010220nyg.htm", 
+                        "id": "195010220nyg", 
+                        "key": "nfl1950-19501022NYGvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Cleveland Browns", 
+                        "week": 6, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501022PITvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1950-10-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195010220pit.htm", 
+                        "id": "195010220pit", 
+                        "key": "nfl1950-19501022PITvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Philadelphia Eagles", 
+                        "week": 6, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501022RAMvsBCL": {
+                        "awayTeam": "BCL", 
+                        "date": "1950-10-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195010220ram.htm", 
+                        "id": "195010220ram", 
+                        "key": "nfl1950-19501022RAMvsBCL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Baltimore Colts", 
+                        "week": 6, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501022SFOvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1950-10-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195010220sfo.htm", 
+                        "id": "195010220sfo", 
+                        "key": "nfl1950-19501022SFOvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Detroit Lions", 
+                        "week": 6, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501022WASvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1950-10-22T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195010220was.htm", 
+                        "id": "195010220was", 
+                        "key": "nfl1950-19501022WASvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Chicago Cardinals", 
+                        "week": 6, 
+                        "year": "1950"
+                    }
+                }
+            }, 
+            "7": {
+                "events": {
+                    "nfl1950-19501029CLEvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1950-10-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195010290cle.htm", 
+                        "id": "195010290cle", 
+                        "key": "nfl1950-19501029CLEvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Pittsburgh Steelers", 
+                        "week": 7, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501029CRDvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1950-10-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195010290crd.htm", 
+                        "id": "195010290crd", 
+                        "key": "nfl1950-19501029CRDvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. New York Giants", 
+                        "week": 7, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501029NYYvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1950-10-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYY", 
+                        "href": "/boxscores/195010290nyy.htm", 
+                        "id": "195010290nyy", 
+                        "key": "nfl1950-19501029NYYvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Yanks vs. Chicago Bears", 
+                        "week": 7, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501029PHIvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1950-10-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195010290phi.htm", 
+                        "id": "195010290phi", 
+                        "key": "nfl1950-19501029PHIvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Washington Redskins", 
+                        "week": 7, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501029RAMvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1950-10-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195010290ram.htm", 
+                        "id": "195010290ram", 
+                        "key": "nfl1950-19501029RAMvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Detroit Lions", 
+                        "week": 7, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501029SFOvsBCL": {
+                        "awayTeam": "BCL", 
+                        "date": "1950-10-29T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195010290sfo.htm", 
+                        "id": "195010290sfo", 
+                        "key": "nfl1950-19501029SFOvsBCL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Baltimore Colts", 
+                        "week": 7, 
+                        "year": "1950"
+                    }
+                }
+            }, 
+            "8": {
+                "events": {
+                    "nfl1950-19501105BCLvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1950-11-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BCL", 
+                        "href": "/boxscores/195011050bcl.htm", 
+                        "id": "195011050bcl", 
+                        "key": "nfl1950-19501105BCLvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Green Bay Packers", 
+                        "week": 8, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501105CRDvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1950-11-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195011050crd.htm", 
+                        "id": "195011050crd", 
+                        "key": "nfl1950-19501105CRDvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Cleveland Browns", 
+                        "week": 8, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501105DETvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1950-11-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195011050det.htm", 
+                        "id": "195011050det", 
+                        "key": "nfl1950-19501105DETvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Chicago Bears", 
+                        "week": 8, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501105NYGvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1950-11-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195011050nyg.htm", 
+                        "id": "195011050nyg", 
+                        "key": "nfl1950-19501105NYGvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Washington Redskins", 
+                        "week": 8, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501105PHIvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1950-11-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195011050phi.htm", 
+                        "id": "195011050phi", 
+                        "key": "nfl1950-19501105PHIvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Pittsburgh Steelers", 
+                        "week": 8, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501105RAMvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1950-11-05T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195011050ram.htm", 
+                        "id": "195011050ram", 
+                        "key": "nfl1950-19501105RAMvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. San Francisco 49ers", 
+                        "week": 8, 
+                        "year": "1950"
+                    }
+                }
+            }, 
+            "9": {
+                "events": {
+                    "nfl1950-19501112CHIvsNYY": {
+                        "awayTeam": "NYY", 
+                        "date": "1950-11-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195011120chi.htm", 
+                        "id": "195011120chi", 
+                        "key": "nfl1950-19501112CHIvsNYY", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. New York Yanks", 
+                        "week": 9, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501112CLEvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1950-11-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195011120cle.htm", 
+                        "id": "195011120cle", 
+                        "key": "nfl1950-19501112CLEvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. San Francisco 49ers", 
+                        "week": 9, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501112GNBvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1950-11-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195011120gnb.htm", 
+                        "id": "195011120gnb", 
+                        "key": "nfl1950-19501112GNBvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. Los Angeles Rams", 
+                        "week": 9, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501112NYGvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1950-11-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195011120nyg.htm", 
+                        "id": "195011120nyg", 
+                        "key": "nfl1950-19501112NYGvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Chicago Cardinals", 
+                        "week": 9, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501112PITvsBCL": {
+                        "awayTeam": "BCL", 
+                        "date": "1950-11-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195011120pit.htm", 
+                        "id": "195011120pit", 
+                        "key": "nfl1950-19501112PITvsBCL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Baltimore Colts", 
+                        "week": 9, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501112WASvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1950-11-12T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195011120was.htm", 
+                        "id": "195011120was", 
+                        "key": "nfl1950-19501112WASvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Philadelphia Eagles", 
+                        "week": 9, 
+                        "year": "1950"
+                    }
+                }
+            }, 
+            "10": {
+                "events": {
+                    "nfl1950-19501119BCLvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1950-11-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BCL", 
+                        "href": "/boxscores/195011190bcl.htm", 
+                        "id": "195011190bcl", 
+                        "key": "nfl1950-19501119BCLvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. New York Giants", 
+                        "week": 10, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501119CHIvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1950-11-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195011190chi.htm", 
+                        "id": "195011190chi", 
+                        "key": "nfl1950-19501119CHIvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. San Francisco 49ers", 
+                        "week": 10, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501119CLEvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1950-11-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195011190cle.htm", 
+                        "id": "195011190cle", 
+                        "key": "nfl1950-19501119CLEvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Washington Redskins", 
+                        "week": 10, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501119DETvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1950-11-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195011190det.htm", 
+                        "id": "195011190det", 
+                        "key": "nfl1950-19501119DETvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. Green Bay Packers", 
+                        "week": 10, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501119NYYvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1950-11-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYY", 
+                        "href": "/boxscores/195011190nyy.htm", 
+                        "id": "195011190nyy", 
+                        "key": "nfl1950-19501119NYYvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Yanks vs. Los Angeles Rams", 
+                        "week": 10, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501119PHIvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1950-11-19T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195011190phi.htm", 
+                        "id": "195011190phi", 
+                        "key": "nfl1950-19501119PHIvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. Chicago Cardinals", 
+                        "week": 10, 
+                        "year": "1950"
+                    }
+                }
+            }, 
+            "11": {
+                "events": {
+                    "nfl1950-19501123CRDvsPIT": {
+                        "awayTeam": "PIT", 
+                        "date": "1950-11-23T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195011230crd.htm", 
+                        "id": "195011230crd", 
+                        "key": "nfl1950-19501123CRDvsPIT", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Pittsburgh Steelers", 
+                        "week": 11, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501123DETvsNYY": {
+                        "awayTeam": "NYY", 
+                        "date": "1950-11-23T00:00:00", 
+                        "day": "Thu", 
+                        "eventindicator": null, 
+                        "homeTeam": "DET", 
+                        "href": "/boxscores/195011230det.htm", 
+                        "id": "195011230det", 
+                        "key": "nfl1950-19501123DETvsNYY", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Detroit Lions vs. New York Yanks", 
+                        "week": 11, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501126CHIvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1950-11-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195011260chi.htm", 
+                        "id": "195011260chi", 
+                        "key": "nfl1950-19501126CHIvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Los Angeles Rams", 
+                        "week": 11, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501126GNBvsSFO": {
+                        "awayTeam": "SFO", 
+                        "date": "1950-11-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "GNB", 
+                        "href": "/boxscores/195011260gnb.htm", 
+                        "id": "195011260gnb", 
+                        "key": "nfl1950-19501126GNBvsSFO", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Green Bay Packers vs. San Francisco 49ers", 
+                        "week": 11, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501126NYGvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1950-11-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195011260nyg.htm", 
+                        "id": "195011260nyg", 
+                        "key": "nfl1950-19501126NYGvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. Philadelphia Eagles", 
+                        "week": 11, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501126WASvsBCL": {
+                        "awayTeam": "BCL", 
+                        "date": "1950-11-26T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195011260was.htm", 
+                        "id": "195011260was", 
+                        "key": "nfl1950-19501126WASvsBCL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Baltimore Colts", 
+                        "week": 11, 
+                        "year": "1950"
+                    }
+                }
+            }, 
+            "12": {
+                "events": {
+                    "nfl1950-19501203BCLvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1950-12-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "BCL", 
+                        "href": "/boxscores/195012030bcl.htm", 
+                        "id": "195012030bcl", 
+                        "key": "nfl1950-19501203BCLvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Baltimore Colts vs. Detroit Lions", 
+                        "week": 12, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501203CLEvsPHI": {
+                        "awayTeam": "PHI", 
+                        "date": "1950-12-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195012030cle.htm", 
+                        "id": "195012030cle", 
+                        "key": "nfl1950-19501203CLEvsPHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Philadelphia Eagles", 
+                        "week": 12, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501203CRDvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1950-12-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CRD", 
+                        "href": "/boxscores/195012030crd.htm", 
+                        "id": "195012030crd", 
+                        "key": "nfl1950-19501203CRDvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Cardinals vs. Chicago Bears", 
+                        "week": 12, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501203NYGvsNYY": {
+                        "awayTeam": "NYY", 
+                        "date": "1950-12-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYG", 
+                        "href": "/boxscores/195012030nyg.htm", 
+                        "id": "195012030nyg", 
+                        "key": "nfl1950-19501203NYGvsNYY", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Giants vs. New York Yanks", 
+                        "week": 12, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501203PITvsWAS": {
+                        "awayTeam": "WAS", 
+                        "date": "1950-12-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195012030pit.htm", 
+                        "id": "195012030pit", 
+                        "key": "nfl1950-19501203PITvsWAS", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Washington Redskins", 
+                        "week": 12, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501203RAMvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1950-12-03T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195012030ram.htm", 
+                        "id": "195012030ram", 
+                        "key": "nfl1950-19501203RAMvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Green Bay Packers", 
+                        "week": 12, 
+                        "year": "1950"
+                    }
+                }
+            }, 
+            "13": {
+                "events": {
+                    "nfl1950-19501210CHIvsDET": {
+                        "awayTeam": "DET", 
+                        "date": "1950-12-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CHI", 
+                        "href": "/boxscores/195012100chi.htm", 
+                        "id": "195012100chi", 
+                        "key": "nfl1950-19501210CHIvsDET", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Chicago Bears vs. Detroit Lions", 
+                        "week": 13, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501210NYYvsBCL": {
+                        "awayTeam": "BCL", 
+                        "date": "1950-12-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "NYY", 
+                        "href": "/boxscores/195012100nyy.htm", 
+                        "id": "195012100nyy", 
+                        "key": "nfl1950-19501210NYYvsBCL", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "New York Yanks vs. Baltimore Colts", 
+                        "week": 13, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501210PHIvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1950-12-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PHI", 
+                        "href": "/boxscores/195012100phi.htm", 
+                        "id": "195012100phi", 
+                        "key": "nfl1950-19501210PHIvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Philadelphia Eagles vs. New York Giants", 
+                        "week": 13, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501210PITvsCRD": {
+                        "awayTeam": "CRD", 
+                        "date": "1950-12-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "PIT", 
+                        "href": "/boxscores/195012100pit.htm", 
+                        "id": "195012100pit", 
+                        "key": "nfl1950-19501210PITvsCRD", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Pittsburgh Steelers vs. Chicago Cardinals", 
+                        "week": 13, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501210SFOvsGNB": {
+                        "awayTeam": "GNB", 
+                        "date": "1950-12-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "SFO", 
+                        "href": "/boxscores/195012100sfo.htm", 
+                        "id": "195012100sfo", 
+                        "key": "nfl1950-19501210SFOvsGNB", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "San Francisco 49ers vs. Green Bay Packers", 
+                        "week": 13, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501210WASvsCLE": {
+                        "awayTeam": "CLE", 
+                        "date": "1950-12-10T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "WAS", 
+                        "href": "/boxscores/195012100was.htm", 
+                        "id": "195012100was", 
+                        "key": "nfl1950-19501210WASvsCLE", 
+                        "league": "NFL", 
+                        "subseason": 0, 
+                        "time": null, 
+                        "vs": "Washington Redskins vs. Cleveland Browns", 
+                        "week": 13, 
+                        "year": "1950"
+                    }
+                }
+            }
         }, 
-        {
-          "date": "1950-09-17T00:00:00", 
-          "teams": "BCLvsWAS"
-        }, 
-        {
-          "date": "1950-09-17T00:00:00", 
-          "teams": "PITvsNYG"
-        }, 
-        {
-          "date": "1950-09-17T00:00:00", 
-          "teams": "SFOvsNYY"
-        }, 
-        {
-          "date": "1950-09-17T00:00:00", 
-          "teams": "GNBvsDET"
-        }, 
-        {
-          "date": "1950-09-17T00:00:00", 
-          "teams": "RAMvsCHI"
+        "1": {
+            "2": {
+                "events": {
+                    "nfl1950-19501217CLEvsNYG": {
+                        "awayTeam": "NYG", 
+                        "date": "1950-12-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195012170cle.htm", 
+                        "id": "195012170cle", 
+                        "key": "nfl1950-19501217CLEvsNYG", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "AFC Divisional Round", 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. New York Giants", 
+                        "week": 2, 
+                        "year": "1950"
+                    }, 
+                    "nfl1950-19501217RAMvsCHI": {
+                        "awayTeam": "CHI", 
+                        "date": "1950-12-17T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "RAM", 
+                        "href": "/boxscores/195012170ram.htm", 
+                        "id": "195012170ram", 
+                        "key": "nfl1950-19501217RAMvsCHI", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "NFC Divisional Round", 
+                        "time": null, 
+                        "vs": "Los Angeles Rams vs. Chicago Bears", 
+                        "week": 2, 
+                        "year": "1950"
+                    }
+                }
+            }, 
+            "3": {
+                "events": {
+                    "nfl1950-19501224CLEvsRAM": {
+                        "awayTeam": "RAM", 
+                        "date": "1950-12-24T00:00:00", 
+                        "day": "Sun", 
+                        "eventindicator": null, 
+                        "homeTeam": "CLE", 
+                        "href": "/boxscores/195012240cle.htm", 
+                        "id": "195012240cle", 
+                        "key": "nfl1950-19501224CLEvsRAM", 
+                        "league": "NFL", 
+                        "subseason": 1, 
+                        "subseasonTitle": "AFC Conference Championship", 
+                        "time": null, 
+                        "vs": "Cleveland Browns vs. Los Angeles Rams", 
+                        "week": 3, 
+                        "year": "1950"
+                    }
+                }
+            }
         }
-      ], 
-      "week": 1
-    }, 
-    {
-      "alias": "Week 2", 
-      "events": [
-        {
-          "date": "1950-09-22T00:00:00", 
-          "teams": "RAMvsNYY"
-        }, 
-        {
-          "date": "1950-09-24T00:00:00", 
-          "teams": "DETvsPIT"
-        }, 
-        {
-          "date": "1950-09-24T00:00:00", 
-          "teams": "GNBvsWAS"
-        }, 
-        {
-          "date": "1950-09-24T00:00:00", 
-          "teams": "CRDvsPHI"
-        }, 
-        {
-          "date": "1950-09-24T00:00:00", 
-          "teams": "SFOvsCHI"
-        }, 
-        {
-          "date": "1950-09-24T00:00:00", 
-          "teams": "BCLvsCLE"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "alias": "Week 3", 
-      "events": [
-        {
-          "date": "1950-09-29T00:00:00", 
-          "teams": "NYYvsDET"
-        }, 
-        {
-          "date": "1950-10-01T00:00:00", 
-          "teams": "WASvsPIT"
-        }, 
-        {
-          "date": "1950-10-01T00:00:00", 
-          "teams": "GNBvsCHI"
-        }, 
-        {
-          "date": "1950-10-01T00:00:00", 
-          "teams": "CLEvsNYG"
-        }, 
-        {
-          "date": "1950-10-01T00:00:00", 
-          "teams": "SFOvsRAM"
-        }, 
-        {
-          "date": "1950-10-02T00:00:00", 
-          "teams": "CRDvsBCL"
-        }
-      ], 
-      "week": 3
-    }, 
-    {
-      "alias": "Week 4", 
-      "events": [
-        {
-          "date": "1950-10-07T00:00:00", 
-          "teams": "PITvsCLE"
-        }, 
-        {
-          "date": "1950-10-07T00:00:00", 
-          "teams": "PHIvsRAM"
-        }, 
-        {
-          "date": "1950-10-08T00:00:00", 
-          "teams": "GNBvsNYY"
-        }, 
-        {
-          "date": "1950-10-08T00:00:00", 
-          "teams": "WASvsNYG"
-        }, 
-        {
-          "date": "1950-10-08T00:00:00", 
-          "teams": "CHIvsCRD"
-        }, 
-        {
-          "date": "1950-10-08T00:00:00", 
-          "teams": "DETvsSFO"
-        }
-      ], 
-      "week": 4
-    }, 
-    {
-      "alias": "Week 5", 
-      "events": [
-        {
-          "date": "1950-10-12T00:00:00", 
-          "teams": "NYYvsSFO"
-        }, 
-        {
-          "date": "1950-10-15T00:00:00", 
-          "teams": "BCLvsPHI"
-        }, 
-        {
-          "date": "1950-10-15T00:00:00", 
-          "teams": "DETvsRAM"
-        }, 
-        {
-          "date": "1950-10-15T00:00:00", 
-          "teams": "CHIvsGNB"
-        }, 
-        {
-          "date": "1950-10-15T00:00:00", 
-          "teams": "CLEvsCRD"
-        }, 
-        {
-          "date": "1950-10-15T00:00:00", 
-          "teams": "NYGvsPIT"
-        }
-      ], 
-      "week": 5
-    }, 
-    {
-      "alias": "Week 6", 
-      "events": [
-        {
-          "date": "1950-10-19T00:00:00", 
-          "teams": "NYYvsGNB"
-        }, 
-        {
-          "date": "1950-10-22T00:00:00", 
-          "teams": "SFOvsDET"
-        }, 
-        {
-          "date": "1950-10-22T00:00:00", 
-          "teams": "PITvsPHI"
-        }, 
-        {
-          "date": "1950-10-22T00:00:00", 
-          "teams": "RAMvsBCL"
-        }, 
-        {
-          "date": "1950-10-22T00:00:00", 
-          "teams": "NYGvsCLE"
-        }, 
-        {
-          "date": "1950-10-22T00:00:00", 
-          "teams": "WASvsCRD"
-        }
-      ], 
-      "week": 6
-    }, 
-    {
-      "alias": "Week 7", 
-      "events": [
-        {
-          "date": "1950-10-29T00:00:00", 
-          "teams": "PHIvsWAS"
-        }, 
-        {
-          "date": "1950-10-29T00:00:00", 
-          "teams": "RAMvsDET"
-        }, 
-        {
-          "date": "1950-10-29T00:00:00", 
-          "teams": "CRDvsNYG"
-        }, 
-        {
-          "date": "1950-10-29T00:00:00", 
-          "teams": "CLEvsPIT"
-        }, 
-        {
-          "date": "1950-10-29T00:00:00", 
-          "teams": "NYYvsCHI"
-        }, 
-        {
-          "date": "1950-10-29T00:00:00", 
-          "teams": "SFOvsBCL"
-        }
-      ], 
-      "week": 7
-    }, 
-    {
-      "alias": "Week 8", 
-      "events": [
-        {
-          "date": "1950-11-05T00:00:00", 
-          "teams": "CRDvsCLE"
-        }, 
-        {
-          "date": "1950-11-05T00:00:00", 
-          "teams": "NYGvsWAS"
-        }, 
-        {
-          "date": "1950-11-05T00:00:00", 
-          "teams": "PHIvsPIT"
-        }, 
-        {
-          "date": "1950-11-05T00:00:00", 
-          "teams": "RAMvsSFO"
-        }, 
-        {
-          "date": "1950-11-05T00:00:00", 
-          "teams": "DETvsCHI"
-        }, 
-        {
-          "date": "1950-11-05T00:00:00", 
-          "teams": "BCLvsGNB"
-        }
-      ], 
-      "week": 8
-    }, 
-    {
-      "alias": "Week 9", 
-      "events": [
-        {
-          "date": "1950-11-12T00:00:00", 
-          "teams": "PITvsBCL"
-        }, 
-        {
-          "date": "1950-11-12T00:00:00", 
-          "teams": "WASvsPHI"
-        }, 
-        {
-          "date": "1950-11-12T00:00:00", 
-          "teams": "NYGvsCRD"
-        }, 
-        {
-          "date": "1950-11-12T00:00:00", 
-          "teams": "CHIvsNYY"
-        }, 
-        {
-          "date": "1950-11-12T00:00:00", 
-          "teams": "CLEvsSFO"
-        }, 
-        {
-          "date": "1950-11-12T00:00:00", 
-          "teams": "GNBvsRAM"
-        }
-      ], 
-      "week": 9
-    }, 
-    {
-      "alias": "Week 10", 
-      "events": [
-        {
-          "date": "1950-11-19T00:00:00", 
-          "teams": "PHIvsCRD"
-        }, 
-        {
-          "date": "1950-11-19T00:00:00", 
-          "teams": "BCLvsNYG"
-        }, 
-        {
-          "date": "1950-11-19T00:00:00", 
-          "teams": "CHIvsSFO"
-        }, 
-        {
-          "date": "1950-11-19T00:00:00", 
-          "teams": "DETvsGNB"
-        }, 
-        {
-          "date": "1950-11-19T00:00:00", 
-          "teams": "CLEvsWAS"
-        }, 
-        {
-          "date": "1950-11-19T00:00:00", 
-          "teams": "NYYvsRAM"
-        }
-      ], 
-      "week": 10
-    }, 
-    {
-      "alias": "Week 11", 
-      "events": [
-        {
-          "date": "1950-11-23T00:00:00", 
-          "teams": "DETvsNYY"
-        }, 
-        {
-          "date": "1950-11-23T00:00:00", 
-          "teams": "CRDvsPIT"
-        }, 
-        {
-          "date": "1950-11-26T00:00:00", 
-          "teams": "CHIvsRAM"
-        }, 
-        {
-          "date": "1950-11-26T00:00:00", 
-          "teams": "NYGvsPHI"
-        }, 
-        {
-          "date": "1950-11-26T00:00:00", 
-          "teams": "WASvsBCL"
-        }, 
-        {
-          "date": "1950-11-26T00:00:00", 
-          "teams": "GNBvsSFO"
-        }
-      ], 
-      "week": 11
-    }, 
-    {
-      "alias": "Week 12", 
-      "events": [
-        {
-          "date": "1950-12-03T00:00:00", 
-          "teams": "CLEvsPHI"
-        }, 
-        {
-          "date": "1950-12-03T00:00:00", 
-          "teams": "BCLvsDET"
-        }, 
-        {
-          "date": "1950-12-03T00:00:00", 
-          "teams": "RAMvsGNB"
-        }, 
-        {
-          "date": "1950-12-03T00:00:00", 
-          "teams": "PITvsWAS"
-        }, 
-        {
-          "date": "1950-12-03T00:00:00", 
-          "teams": "NYGvsNYY"
-        }, 
-        {
-          "date": "1950-12-03T00:00:00", 
-          "teams": "CRDvsCHI"
-        }
-      ], 
-      "week": 12
-    }, 
-    {
-      "alias": "Week 13", 
-      "events": [
-        {
-          "date": "1950-12-10T00:00:00", 
-          "teams": "SFOvsGNB"
-        }, 
-        {
-          "date": "1950-12-10T00:00:00", 
-          "teams": "WASvsCLE"
-        }, 
-        {
-          "date": "1950-12-10T00:00:00", 
-          "teams": "PITvsCRD"
-        }, 
-        {
-          "date": "1950-12-10T00:00:00", 
-          "teams": "CHIvsDET"
-        }, 
-        {
-          "date": "1950-12-10T00:00:00", 
-          "teams": "NYYvsBCL"
-        }, 
-        {
-          "date": "1950-12-10T00:00:00", 
-          "teams": "PHIvsNYG"
-        }
-      ], 
-      "week": 13
-    }, 
-    {
-      "alias": "Divisional Round", 
-      "events": [
-        {
-          "date": "1950-12-17T00:00:00", 
-          "teams": "RAMvsCHI"
-        }, 
-        {
-          "date": "1950-12-17T00:00:00", 
-          "teams": "CLEvsNYG"
-        }
-      ], 
-      "week": 2
-    }, 
-    {
-      "events": [
-        {
-          "date": "1950-12-24T00:00:00", 
-          "teams": "CLEvsRAM"
-        }
-      ], 
-      "week": 3
     }
-  ]
 }
