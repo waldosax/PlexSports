@@ -34,7 +34,11 @@ def DownloadAllTeams(league):
 		name = deunicode(apiTeam["name"])
 		city = deunicode(apiTeam["city"])
 		if city == "All Stars": fullName = name
-		else: fullName = deunicode("%s %s" % (city, name))
+		else:
+			if city == "LA" and name == "LA Clippers":
+				city = "Los Angeles"
+				name = "Clippers"
+			fullName = deunicode("%s %s" % (city, name))
 		team = {
 			"key": abbrev,
 			"NBAdotcomID": str(teamId or abbrev),

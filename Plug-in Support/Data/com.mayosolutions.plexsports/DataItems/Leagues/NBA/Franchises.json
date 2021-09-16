@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBAFRANCHISES", 
-        "CachedOn": "2021-09-11T10:10:44", 
-        "ExpiresOn": "2022-01-24T10:10:44", 
+        "CachedOn": "2021-09-16T23:14:56", 
+        "ExpiresOn": "2022-01-29T23:14:56", 
         "Version": "1"
     }, 
     "Items": [
@@ -1314,18 +1314,28 @@
                     }
                 }
             }, 
-            "LA Clippers": {
+            "Los Angeles Clippers": {
                 "active": true, 
-                "name": "LA Clippers", 
+                "name": "Los Angeles Clippers", 
                 "teams": {
-                    "LA Clippers": {
+                    "Los Angeles Clippers": {
                         "abbreviation": "LAC", 
                         "active": true, 
                         "aliases": [], 
                         "assets": {
-                            "badge": [], 
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/jv7tf21545916958.png"
+                                }
+                            ], 
                             "banner": [], 
                             "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#C8102E"
+                                }, 
                                 {
                                     "colortype": "primary", 
                                     "source": "espnapi", 
@@ -1335,40 +1345,6 @@
                                     "colortype": "secondary", 
                                     "source": "espnapi", 
                                     "value": "#f1f2f3"
-                                }
-                            ], 
-                            "fanArt": [], 
-                            "jersey": [], 
-                            "logo": [], 
-                            "wordmark": []
-                        }, 
-                        "city": "LA", 
-                        "fullName": "LA Clippers", 
-                        "identity": {
-                            "ESPNAPIID": "12"
-                        }, 
-                        "key": "LAC", 
-                        "name": "Clippers", 
-                        "years": []
-                    }
-                }
-            }, 
-            "LA LA Clippers": {
-                "active": true, 
-                "name": "LA LA Clippers", 
-                "teams": {
-                    "LA LA Clippers": {
-                        "abbreviation": "LAC", 
-                        "active": true, 
-                        "aliases": [], 
-                        "assets": {
-                            "badge": [], 
-                            "banner": [], 
-                            "colors": [
-                                {
-                                    "colortype": "primary", 
-                                    "source": "nbaapi", 
-                                    "value": "#C8102E"
                                 }, 
                                 {
                                     "colortype": "primary", 
@@ -1391,51 +1367,6 @@
                                     "value": "#BEC0C2"
                                 }
                             ], 
-                            "fanArt": [], 
-                            "jersey": [], 
-                            "logo": [
-                                {
-                                    "source": "nbaapi", 
-                                    "url": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg"
-                                }, 
-                                {
-                                    "source": "wikipedia", 
-                                    "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/Los_Angeles_Clippers_%282015%29.svg"
-                                }
-                            ], 
-                            "wordmark": []
-                        }, 
-                        "city": "LA", 
-                        "conference": "Western", 
-                        "division": "Pacific", 
-                        "fullName": "LA LA Clippers", 
-                        "identity": {
-                            "NBAdotcomID": "1610612746", 
-                            "SportsDataIOID": "28"
-                        }, 
-                        "key": "LAC", 
-                        "name": "LA Clippers", 
-                        "years": []
-                    }
-                }
-            }, 
-            "Los Angeles Clippers": {
-                "active": true, 
-                "name": "Los Angeles Clippers", 
-                "teams": {
-                    "Los Angeles Clippers": {
-                        "abbreviation": "LAC", 
-                        "active": true, 
-                        "aliases": [], 
-                        "assets": {
-                            "badge": [
-                                {
-                                    "source": "thesportsdb", 
-                                    "url": "https://www.thesportsdb.com/images/media/team/badge/jv7tf21545916958.png"
-                                }
-                            ], 
-                            "banner": [], 
-                            "colors": [], 
                             "fanArt": [
                                 {
                                     "source": "thesportsdb", 
@@ -1448,7 +1379,16 @@
                                     "url": "https://www.thesportsdb.com/images/media/team/jersey/2nnk9p1507046872.png"
                                 }
                             ], 
-                            "logo": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg"
+                                }, 
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/Los_Angeles_Clippers_%282015%29.svg"
+                                }
+                            ], 
                             "wordmark": [
                                 {
                                     "source": "thesportsdb", 
@@ -1456,12 +1396,18 @@
                                 }
                             ]
                         }, 
+                        "city": "Los Angeles", 
+                        "conference": "Western", 
+                        "division": "Pacific", 
                         "fullName": "Los Angeles Clippers", 
                         "identity": {
-                            "SportsDBID": "134866"
+                            "ESPNAPIID": "12", 
+                            "NBAdotcomID": "1610612746", 
+                            "SportsDBID": "134866", 
+                            "SportsDataIOID": "28"
                         }, 
                         "key": "LAC", 
-                        "name": "Los Angeles Clippers", 
+                        "name": "Clippers", 
                         "years": []
                     }
                 }

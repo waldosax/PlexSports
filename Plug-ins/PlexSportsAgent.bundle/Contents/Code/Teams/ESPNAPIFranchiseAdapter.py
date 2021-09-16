@@ -30,6 +30,11 @@ def DownloadAllTeams(league):
 		name = deunicode(apiTeam["name"])
 		city = deunicode(apiTeam["location"])
 
+		if league == LEAGUE_NBA:
+			if city == "LA" and name == "Clippers":
+				city = "Los Angeles"
+				fullName = "Los Angeles Clippers"
+
 		team = {
 			"key": abbrev,
 			"ESPNAPIID": teamId,
