@@ -65,8 +65,7 @@ class Franchise():
 							if fdct[testKey] == xdct[testKey]:
 								return team
 
-
-			if team.fullName == fullName: # TODO: Strip diacritics
+			if fullName and team.fullName == fullName: # TODO: Strip diacritics
 				return team
 
 	def __repr__(self):

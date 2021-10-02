@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBAFRANCHISES", 
-        "CachedOn": "2021-09-16T23:14:56", 
-        "ExpiresOn": "2022-01-29T23:14:56", 
+        "CachedOn": "2021-09-30T03:55:27", 
+        "ExpiresOn": "2022-02-12T03:55:27", 
         "Version": "1"
     }, 
     "Items": [
@@ -490,6 +490,16 @@
                                 }, 
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#1D1060"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#008ca8"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#1D1160"
                                 }, 
@@ -543,6 +553,7 @@
                         "division": "Southeast", 
                         "fullName": "Charlotte Hornets", 
                         "identity": {
+                            "ESPNAPIID": "30", 
                             "NBAdotcomID": "1610612766", 
                             "SportsDBID": "134881", 
                             "SportsDataIOID": "2"
@@ -1529,6 +1540,16 @@
                                 }, 
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#5D76A8"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#7399c6"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#5D76A9"
                                 }, 
@@ -1582,6 +1603,7 @@
                         "division": "Southwest", 
                         "fullName": "Memphis Grizzlies", 
                         "identity": {
+                            "ESPNAPIID": "29", 
                             "NBAdotcomID": "1610612763", 
                             "SportsDBID": "134877", 
                             "SportsDataIOID": "21"
@@ -3006,12 +3028,12 @@
                 }
             }, 
             "Team Durant": {
-                "active": true, 
+                "active": false, 
                 "name": "Team Durant", 
                 "teams": {
                     "Team Durant": {
                         "abbreviation": "DRT", 
-                        "active": true, 
+                        "active": false, 
                         "aliases": [
                             "DUR", 
                             "LEB"
@@ -3247,6 +3269,16 @@
                                 }, 
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#CE0F41"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#061922"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#CE1141"
                                 }, 
@@ -3300,6 +3332,7 @@
                         "division": "Atlantic", 
                         "fullName": "Toronto Raptors", 
                         "identity": {
+                            "ESPNAPIID": "28", 
                             "NBAdotcomID": "1610612761", 
                             "SportsDBID": "134864", 
                             "SportsDataIOID": "10"
@@ -3402,6 +3435,16 @@
                                 }, 
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#06143F"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#f9a01b"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#002B5C"
                                 }, 
@@ -3450,6 +3493,7 @@
                         "division": "Northwest", 
                         "fullName": "Utah Jazz", 
                         "identity": {
+                            "ESPNAPIID": "26", 
                             "NBAdotcomID": "1610612762", 
                             "SportsDBID": "134889", 
                             "SportsDataIOID": "17"
@@ -3540,6 +3584,16 @@
                                 }, 
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#0E3764"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#e31837"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#002B5C"
                                 }, 
@@ -3593,6 +3647,7 @@
                         "division": "Southeast", 
                         "fullName": "Washington Wizards", 
                         "identity": {
+                            "ESPNAPIID": "27", 
                             "NBAdotcomID": "1610612764", 
                             "SportsDBID": "134884", 
                             "SportsDataIOID": "1"

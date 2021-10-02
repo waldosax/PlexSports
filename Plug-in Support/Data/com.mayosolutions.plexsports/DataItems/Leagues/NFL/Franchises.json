@@ -1,19 +1,19 @@
 {
     "CacheContainer": {
         "CacheType": "NFLFRANCHISES", 
-        "CachedOn": "2021-09-11T17:45:04", 
-        "ExpiresOn": "2022-01-24T17:45:04", 
+        "CachedOn": "2021-10-02T02:07:05", 
+        "ExpiresOn": "2022-02-14T02:07:05", 
         "Version": "1"
     }, 
     "Items": [
         {
             "AFC All Pros": {
-                "active": true, 
+                "active": false, 
                 "name": "AFC All Pros", 
                 "teams": {
                     "AFC All Pros": {
                         "abbreviation": "AFC", 
-                        "active": true, 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -67,17 +67,13 @@
                         }, 
                         "fullName": "Akron Indians", 
                         "identity": {
-                            "ProFootballReferenceID": "AKR"
+                            "ProFootballReferenceID": "AKR.AI"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1926, 
                                 "toYear": 1926
-                            }, 
-                            {
-                                "fromYear": 1920, 
-                                "toYear": 1925
                             }
                         ]
                     }, 
@@ -101,7 +97,7 @@
                         }, 
                         "fullName": "Akron Pros", 
                         "identity": {
-                            "ProFootballReferenceID": "AKR"
+                            "ProFootballReferenceID": "AKR.AI.AP"
                         }, 
                         "key": "", 
                         "years": [
@@ -123,6 +119,7 @@
                         "abbreviation": "ARI", 
                         "active": true, 
                         "aliases": [
+                            "CRD", 
                             "Phoenix Cardinals", 
                             "Chi/Pit Cards/Steelers", 
                             "Chicago Cardinals", 
@@ -352,10 +349,6 @@
                             {
                                 "fromYear": 1994, 
                                 "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1960, 
-                                "toYear": 1987
                             }
                         ]
                     }, 
@@ -379,7 +372,7 @@
                         }, 
                         "fullName": "Chi/Pit Cards/Steelers", 
                         "identity": {
-                            "ProFootballReferenceID": "CRD"
+                            "ProFootballReferenceID": "CRD.AC.CPCS"
                         }, 
                         "key": "", 
                         "years": [
@@ -409,7 +402,7 @@
                         }, 
                         "fullName": "Chicago Cardinals", 
                         "identity": {
-                            "ProFootballReferenceID": "CRD"
+                            "ProFootballReferenceID": "CRD.AC.CC"
                         }, 
                         "key": "", 
                         "years": [
@@ -425,7 +418,7 @@
                     }, 
                     "Phoenix Cardinals": {
                         "abbreviation": "PHO", 
-                        "active": true, 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -446,7 +439,7 @@
                         "division": "West", 
                         "fullName": "Phoenix Cardinals", 
                         "identity": {
-                            "ProFootballReferenceID": "CRD", 
+                            "ProFootballReferenceID": "CRD.AC.PC", 
                             "SportsDataIOID": "27"
                         }, 
                         "key": "PHO", 
@@ -478,7 +471,7 @@
                         }, 
                         "fullName": "St. Louis Cardinals", 
                         "identity": {
-                            "ProFootballReferenceID": "CRD"
+                            "ProFootballReferenceID": "CRD.AC.SLC"
                         }, 
                         "key": "", 
                         "years": [
@@ -920,7 +913,7 @@
                         }, 
                         "fullName": "Baltimore Colts", 
                         "identity": {
-                            "ProFootballReferenceID": "BCL"
+                            "ProFootballReferenceID": "BCL.BC"
                         }, 
                         "key": "", 
                         "years": [
@@ -941,7 +934,9 @@
                     "Baltimore Ravens": {
                         "abbreviation": "BAL", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "RAV"
+                        ], 
                         "assets": {
                             "badge": [
                                 {
@@ -951,6 +946,16 @@
                             ], 
                             "banner": [], 
                             "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#2B025B"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#9e7c0c"
+                                }, 
                                 {
                                     "colortype": "primary", 
                                     "source": "sportsdataio", 
@@ -1135,6 +1140,7 @@
                         "division": "North", 
                         "fullName": "Baltimore Ravens", 
                         "identity": {
+                            "ESPNAPIID": "33", 
                             "ProFootballReferenceID": "RAV", 
                             "SportsDBID": "134922", 
                             "SportsDataIOID": "3"
@@ -1181,17 +1187,13 @@
                         }, 
                         "fullName": "Boston Bulldogs", 
                         "identity": {
-                            "ProFootballReferenceID": "PTB"
+                            "ProFootballReferenceID": "PTB.BB"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1929, 
                                 "toYear": 1929
-                            }, 
-                            {
-                                "fromYear": 1925, 
-                                "toYear": 1928
                             }
                         ]
                     }, 
@@ -1215,7 +1217,7 @@
                         }, 
                         "fullName": "Pottsville Maroons", 
                         "identity": {
-                            "ProFootballReferenceID": "PTB"
+                            "ProFootballReferenceID": "PTB.BB.PM"
                         }, 
                         "key": "", 
                         "years": [
@@ -1247,47 +1249,19 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/byk.png"
-                                }, 
-                                {
-                                    "season": 1944, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/byk-1944.png"
-                                }, 
-                                {
-                                    "season": 1946, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/byk-1946.png"
-                                }, 
-                                {
-                                    "season": 1947, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/byk-1947.png"
-                                }, 
-                                {
-                                    "season": 1948, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/byk-1948.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
                         "fullName": "Bos/Bkn Yanks/Tigers", 
                         "identity": {
-                            "ProFootballReferenceID": "BYK"
+                            "ProFootballReferenceID": "BYK.BY.BBYT"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1945, 
                                 "toYear": 1945
-                            }, 
-                            {
-                                "fromYear": 1944, 
-                                "toYear": 1944
-                            }, 
-                            {
-                                "fromYear": 1946, 
-                                "toYear": 1948
                             }
                         ]
                     }, 
@@ -1331,7 +1305,7 @@
                         }, 
                         "fullName": "Boston Yanks", 
                         "identity": {
-                            "ProFootballReferenceID": "BYK"
+                            "ProFootballReferenceID": "BYK.BY"
                         }, 
                         "key": "", 
                         "years": [
@@ -1388,7 +1362,7 @@
                         }, 
                         "fullName": "Brooklyn Dodgers", 
                         "identity": {
-                            "ProFootballReferenceID": "BDA"
+                            "ProFootballReferenceID": "BDA.BD"
                         }, 
                         "key": "", 
                         "years": [
@@ -1431,7 +1405,7 @@
                         }, 
                         "fullName": "Brooklyn Lions", 
                         "identity": {
-                            "ProFootballReferenceID": "BRL"
+                            "ProFootballReferenceID": "BRL.BL"
                         }, 
                         "key": "", 
                         "years": [
@@ -1469,7 +1443,7 @@
                         }, 
                         "fullName": "Brooklyn Dodgers", 
                         "identity": {
-                            "ProFootballReferenceID": "BKN"
+                            "ProFootballReferenceID": "BKN.BT.BD"
                         }, 
                         "key": "", 
                         "years": [
@@ -1504,17 +1478,13 @@
                         }, 
                         "fullName": "Brooklyn Tigers", 
                         "identity": {
-                            "ProFootballReferenceID": "BKN"
+                            "ProFootballReferenceID": "BKN.BT"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1944, 
                                 "toYear": 1944
-                            }, 
-                            {
-                                "fromYear": 1930, 
-                                "toYear": 1943
                             }
                         ]
                     }
@@ -1530,6 +1500,7 @@
                         "abbreviation": "BUF", 
                         "active": true, 
                         "aliases": [
+                            "BBA", 
                             "Buffalo Bisons"
                         ], 
                         "assets": {
@@ -1950,10 +1921,6 @@
                             {
                                 "fromYear": 1947, 
                                 "toYear": 1949
-                            }, 
-                            {
-                                "fromYear": 1946, 
-                                "toYear": 1946
                             }
                         ]
                     }, 
@@ -1977,7 +1944,7 @@
                         }, 
                         "fullName": "Buffalo Bisons", 
                         "identity": {
-                            "ProFootballReferenceID": "BBA"
+                            "ProFootballReferenceID": "BBA.BB"
                         }, 
                         "key": "", 
                         "years": [
@@ -2015,7 +1982,7 @@
                         }, 
                         "fullName": "Buffalo All-Americans", 
                         "identity": {
-                            "ProFootballReferenceID": "BFF"
+                            "ProFootballReferenceID": "BFF.BB.BAA"
                         }, 
                         "key": "", 
                         "years": [
@@ -2070,7 +2037,7 @@
                         }, 
                         "fullName": "Buffalo Bisons", 
                         "identity": {
-                            "ProFootballReferenceID": "BFF"
+                            "ProFootballReferenceID": "BFF.BB"
                         }, 
                         "key": "", 
                         "years": [
@@ -2098,56 +2065,19 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/bff.png"
-                                }, 
-                                {
-                                    "season": 1924, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/bff-1924.png"
-                                }, 
-                                {
-                                    "season": 1925, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/bff-1925.png"
-                                }, 
-                                {
-                                    "season": 1927, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/bff-1927.png"
-                                }, 
-                                {
-                                    "season": 1928, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/bff-1928.png"
-                                }, 
-                                {
-                                    "season": 1929, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/bff-1929.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
                         "fullName": "Buffalo Rangers", 
                         "identity": {
-                            "ProFootballReferenceID": "BFF"
+                            "ProFootballReferenceID": "BFF.BB.BR"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1926, 
                                 "toYear": 1926
-                            }, 
-                            {
-                                "fromYear": 1920, 
-                                "toYear": 1923
-                            }, 
-                            {
-                                "fromYear": 1924, 
-                                "toYear": 1925
-                            }, 
-                            {
-                                "fromYear": 1927, 
-                                "toYear": 1929
                             }
                         ]
                     }
@@ -2214,7 +2144,7 @@
                         }, 
                         "fullName": "Canton Bulldogs", 
                         "identity": {
-                            "ProFootballReferenceID": "CBD"
+                            "ProFootballReferenceID": "CBD.CB"
                         }, 
                         "key": "", 
                         "years": [
@@ -2245,6 +2175,16 @@
                             ], 
                             "banner": [], 
                             "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#2177B0"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#bfc0bf"
+                                }, 
                                 {
                                     "colortype": "primary", 
                                     "source": "sportsdataio", 
@@ -2434,6 +2374,7 @@
                         "division": "South", 
                         "fullName": "Carolina Panthers", 
                         "identity": {
+                            "ESPNAPIID": "29", 
                             "ProFootballReferenceID": "CAR", 
                             "SportsDBID": "134943", 
                             "SportsDataIOID": "5"
@@ -3046,14 +2987,6 @@
                             {
                                 "fromYear": 1922, 
                                 "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1921, 
-                                "toYear": 1921
-                            }, 
-                            {
-                                "fromYear": 1920, 
-                                "toYear": 1920
                             }
                         ]
                     }, 
@@ -3077,7 +3010,7 @@
                         }, 
                         "fullName": "Chicago Staleys", 
                         "identity": {
-                            "ProFootballReferenceID": "CHI"
+                            "ProFootballReferenceID": "CHI.CB.CS"
                         }, 
                         "key": "", 
                         "years": [
@@ -3107,7 +3040,7 @@
                         }, 
                         "fullName": "Decatur Staleys", 
                         "identity": {
-                            "ProFootballReferenceID": "CHI"
+                            "ProFootballReferenceID": "CHI.CB.DS"
                         }, 
                         "key": "", 
                         "years": [
@@ -3150,17 +3083,13 @@
                         }, 
                         "fullName": "Chicago Hornets", 
                         "identity": {
-                            "ProFootballReferenceID": "CRA"
+                            "ProFootballReferenceID": "CRA.CH"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1949, 
                                 "toYear": 1949
-                            }, 
-                            {
-                                "fromYear": 1946, 
-                                "toYear": 1948
                             }
                         ]
                     }, 
@@ -3184,7 +3113,7 @@
                         }, 
                         "fullName": "Chicago Rockets", 
                         "identity": {
-                            "ProFootballReferenceID": "CRA"
+                            "ProFootballReferenceID": "CRA.CH.CR"
                         }, 
                         "key": "", 
                         "years": [
@@ -3227,7 +3156,7 @@
                         }, 
                         "fullName": "Chicago Tigers", 
                         "identity": {
-                            "ProFootballReferenceID": "CHT"
+                            "ProFootballReferenceID": "CHT.CT"
                         }, 
                         "key": "", 
                         "years": [
@@ -3639,7 +3568,7 @@
                         }, 
                         "fullName": "Cincinnati Celts", 
                         "identity": {
-                            "ProFootballReferenceID": "CCL"
+                            "ProFootballReferenceID": "CCL.CC"
                         }, 
                         "key": "", 
                         "years": [
@@ -3687,7 +3616,7 @@
                         }, 
                         "fullName": "Cincinnati Reds", 
                         "identity": {
-                            "ProFootballReferenceID": "RED"
+                            "ProFootballReferenceID": "RED.CR"
                         }, 
                         "key": "", 
                         "years": [
@@ -4224,17 +4153,13 @@
                         }, 
                         "fullName": "Cleveland Bulldogs", 
                         "identity": {
-                            "ProFootballReferenceID": "CIB"
+                            "ProFootballReferenceID": "CIB.CB"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1924, 
                                 "toYear": 1927
-                            }, 
-                            {
-                                "fromYear": 1923, 
-                                "toYear": 1923
                             }
                         ]
                     }, 
@@ -4258,7 +4183,7 @@
                         }, 
                         "fullName": "Cleveland Indians", 
                         "identity": {
-                            "ProFootballReferenceID": "CIB"
+                            "ProFootballReferenceID": "CIB.CB.CI"
                         }, 
                         "key": "", 
                         "years": [
@@ -4301,7 +4226,7 @@
                         }, 
                         "fullName": "Cleveland Indians", 
                         "identity": {
-                            "ProFootballReferenceID": "CLI"
+                            "ProFootballReferenceID": "CLI.CI"
                         }, 
                         "key": "", 
                         "years": [
@@ -4325,28 +4250,19 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/cti.png"
-                                }, 
-                                {
-                                    "season": 1921, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/cti-1921.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
                         "fullName": "Cleveland Tigers", 
                         "identity": {
-                            "ProFootballReferenceID": "CLI"
+                            "ProFootballReferenceID": "CLI.CI.CT"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1920, 
                                 "toYear": 1920
-                            }, 
-                            {
-                                "fromYear": 1921, 
-                                "toYear": 1921
                             }
                         ]
                     }
@@ -4378,7 +4294,7 @@
                         }, 
                         "fullName": "Columbus Panhandles", 
                         "identity": {
-                            "ProFootballReferenceID": "COL"
+                            "ProFootballReferenceID": "COL.CT.CP"
                         }, 
                         "key": "", 
                         "years": [
@@ -4428,17 +4344,13 @@
                         }, 
                         "fullName": "Columbus Tigers", 
                         "identity": {
-                            "ProFootballReferenceID": "COL"
+                            "ProFootballReferenceID": "COL.CT"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1923, 
                                 "toYear": 1926
-                            }, 
-                            {
-                                "fromYear": 1920, 
-                                "toYear": 1922
                             }
                         ]
                     }
@@ -4889,7 +4801,7 @@
                         }, 
                         "fullName": "Dallas Texans", 
                         "identity": {
-                            "ProFootballReferenceID": "DTX"
+                            "ProFootballReferenceID": "DTX.DT"
                         }, 
                         "key": "", 
                         "years": [
@@ -4977,7 +4889,7 @@
                         }, 
                         "fullName": "Dayton Triangles", 
                         "identity": {
-                            "ProFootballReferenceID": "DAY"
+                            "ProFootballReferenceID": "DAY.DT"
                         }, 
                         "key": "", 
                         "years": [
@@ -5429,7 +5341,7 @@
                         }, 
                         "fullName": "Detroit Heralds", 
                         "identity": {
-                            "ProFootballReferenceID": "DHR"
+                            "ProFootballReferenceID": "DHR.DH"
                         }, 
                         "key": "", 
                         "years": [
@@ -5976,11 +5888,9 @@
                         ]
                     }, 
                     "Portsmouth Spartans": {
-                        "abbreviation": "DET", 
-                        "active": true, 
-                        "aliases": [
-                            "Portsmouth Spartans"
-                        ], 
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -5991,466 +5901,19 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det.png"
-                                }, 
-                                {
-                                    "season": 1934, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1934.png"
-                                }, 
-                                {
-                                    "season": 1935, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1935.png"
-                                }, 
-                                {
-                                    "season": 1936, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1936.png"
-                                }, 
-                                {
-                                    "season": 1937, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1937.png"
-                                }, 
-                                {
-                                    "season": 1938, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1938.png"
-                                }, 
-                                {
-                                    "season": 1939, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1939.png"
-                                }, 
-                                {
-                                    "season": 1940, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1940.png"
-                                }, 
-                                {
-                                    "season": 1941, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1941.png"
-                                }, 
-                                {
-                                    "season": 1942, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1942.png"
-                                }, 
-                                {
-                                    "season": 1943, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1943.png"
-                                }, 
-                                {
-                                    "season": 1944, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1944.png"
-                                }, 
-                                {
-                                    "season": 1945, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1945.png"
-                                }, 
-                                {
-                                    "season": 1946, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1946.png"
-                                }, 
-                                {
-                                    "season": 1947, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1947.png"
-                                }, 
-                                {
-                                    "season": 1948, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1948.png"
-                                }, 
-                                {
-                                    "season": 1949, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1949.png"
-                                }, 
-                                {
-                                    "season": 1950, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1950.png"
-                                }, 
-                                {
-                                    "season": 1951, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1951.png"
-                                }, 
-                                {
-                                    "season": 1952, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1952.png"
-                                }, 
-                                {
-                                    "season": 1953, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1953.png"
-                                }, 
-                                {
-                                    "season": 1954, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1954.png"
-                                }, 
-                                {
-                                    "season": 1955, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1955.png"
-                                }, 
-                                {
-                                    "season": 1956, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1956.png"
-                                }, 
-                                {
-                                    "season": 1957, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1957.png"
-                                }, 
-                                {
-                                    "season": 1958, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1958.png"
-                                }, 
-                                {
-                                    "season": 1959, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1959.png"
-                                }, 
-                                {
-                                    "season": 1960, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1960.png"
-                                }, 
-                                {
-                                    "season": 1961, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1961.png"
-                                }, 
-                                {
-                                    "season": 1962, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1962.png"
-                                }, 
-                                {
-                                    "season": 1963, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1963.png"
-                                }, 
-                                {
-                                    "season": 1964, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1964.png"
-                                }, 
-                                {
-                                    "season": 1965, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1965.png"
-                                }, 
-                                {
-                                    "season": 1966, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1966.png"
-                                }, 
-                                {
-                                    "season": 1967, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1967.png"
-                                }, 
-                                {
-                                    "season": 1968, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1968.png"
-                                }, 
-                                {
-                                    "season": 1969, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1969.png"
-                                }, 
-                                {
-                                    "season": 1970, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1970.png"
-                                }, 
-                                {
-                                    "season": 1971, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1971.png"
-                                }, 
-                                {
-                                    "season": 1972, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1972.png"
-                                }, 
-                                {
-                                    "season": 1973, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1973.png"
-                                }, 
-                                {
-                                    "season": 1974, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1974.png"
-                                }, 
-                                {
-                                    "season": 1975, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1975.png"
-                                }, 
-                                {
-                                    "season": 1976, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1976.png"
-                                }, 
-                                {
-                                    "season": 1977, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1977.png"
-                                }, 
-                                {
-                                    "season": 1978, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1978.png"
-                                }, 
-                                {
-                                    "season": 1979, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1979.png"
-                                }, 
-                                {
-                                    "season": 1980, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1980.png"
-                                }, 
-                                {
-                                    "season": 1981, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1981.png"
-                                }, 
-                                {
-                                    "season": 1982, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1982.png"
-                                }, 
-                                {
-                                    "season": 1983, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1983.png"
-                                }, 
-                                {
-                                    "season": 1984, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1984.png"
-                                }, 
-                                {
-                                    "season": 1985, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1985.png"
-                                }, 
-                                {
-                                    "season": 1986, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1986.png"
-                                }, 
-                                {
-                                    "season": 1987, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1987.png"
-                                }, 
-                                {
-                                    "season": 1988, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1988.png"
-                                }, 
-                                {
-                                    "season": 1989, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1989.png"
-                                }, 
-                                {
-                                    "season": 1990, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1990.png"
-                                }, 
-                                {
-                                    "season": 1991, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1991.png"
-                                }, 
-                                {
-                                    "season": 1992, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1992.png"
-                                }, 
-                                {
-                                    "season": 1993, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1993.png"
-                                }, 
-                                {
-                                    "season": 1994, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1994.png"
-                                }, 
-                                {
-                                    "season": 1995, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1995.png"
-                                }, 
-                                {
-                                    "season": 1996, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1996.png"
-                                }, 
-                                {
-                                    "season": 1997, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1997.png"
-                                }, 
-                                {
-                                    "season": 1998, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1998.png"
-                                }, 
-                                {
-                                    "season": 1999, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-1999.png"
-                                }, 
-                                {
-                                    "season": 2000, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2000.png"
-                                }, 
-                                {
-                                    "season": 2001, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2001.png"
-                                }, 
-                                {
-                                    "season": 2002, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2002.png"
-                                }, 
-                                {
-                                    "season": 2003, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2003.png"
-                                }, 
-                                {
-                                    "season": 2004, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2004.png"
-                                }, 
-                                {
-                                    "season": 2005, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2005.png"
-                                }, 
-                                {
-                                    "season": 2006, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2006.png"
-                                }, 
-                                {
-                                    "season": 2007, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2007.png"
-                                }, 
-                                {
-                                    "season": 2008, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2008.png"
-                                }, 
-                                {
-                                    "season": 2009, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2009.png"
-                                }, 
-                                {
-                                    "season": 2010, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2010.png"
-                                }, 
-                                {
-                                    "season": 2011, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2011.png"
-                                }, 
-                                {
-                                    "season": 2012, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2012.png"
-                                }, 
-                                {
-                                    "season": 2013, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2013.png"
-                                }, 
-                                {
-                                    "season": 2014, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2014.png"
-                                }, 
-                                {
-                                    "season": 2015, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2015.png"
-                                }, 
-                                {
-                                    "season": 2016, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2016.png"
-                                }, 
-                                {
-                                    "season": 2017, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2017.png"
-                                }, 
-                                {
-                                    "season": 2018, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2018.png"
-                                }, 
-                                {
-                                    "season": 2019, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2019.png"
-                                }, 
-                                {
-                                    "season": 2020, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2020.png"
-                                }, 
-                                {
-                                    "season": 2021, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2021.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
-                        "conference": "NFC", 
-                        "division": "North", 
                         "fullName": "Portsmouth Spartans", 
                         "identity": {
-                            "ProFootballReferenceID": "DET"
+                            "ProFootballReferenceID": "DET.DL.PS"
                         }, 
-                        "key": "DET", 
-                        "name": "Detroit Lions", 
+                        "key": "", 
                         "years": [
                             {
                                 "fromYear": 1930, 
                                 "toYear": 1933
-                            }, 
-                            {
-                                "fromYear": 1934, 
-                                "toYear": 2021
                             }
                         ]
                     }
@@ -6492,7 +5955,7 @@
                         }, 
                         "fullName": "Detroit Panthers", 
                         "identity": {
-                            "ProFootballReferenceID": "DPN"
+                            "ProFootballReferenceID": "DPN.DP"
                         }, 
                         "key": "", 
                         "years": [
@@ -6535,7 +5998,7 @@
                         }, 
                         "fullName": "Detroit Tigers", 
                         "identity": {
-                            "ProFootballReferenceID": "DTI"
+                            "ProFootballReferenceID": "DTI.DT"
                         }, 
                         "key": "", 
                         "years": [
@@ -6578,7 +6041,7 @@
                         }, 
                         "fullName": "Detroit Wolverines", 
                         "identity": {
-                            "ProFootballReferenceID": "DWL"
+                            "ProFootballReferenceID": "DWL.DW"
                         }, 
                         "key": "", 
                         "years": [
@@ -6626,17 +6089,13 @@
                         }, 
                         "fullName": "Duluth Eskimos", 
                         "identity": {
-                            "ProFootballReferenceID": "DUL"
+                            "ProFootballReferenceID": "DUL.DE"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1926, 
                                 "toYear": 1927
-                            }, 
-                            {
-                                "fromYear": 1923, 
-                                "toYear": 1925
                             }
                         ]
                     }, 
@@ -6660,7 +6119,7 @@
                         }, 
                         "fullName": "Duluth Kelleys", 
                         "identity": {
-                            "ProFootballReferenceID": "DUL"
+                            "ProFootballReferenceID": "DUL.DE.DK"
                         }, 
                         "key": "", 
                         "years": [
@@ -6807,7 +6266,9 @@
                     "Green Bay Packers": {
                         "abbreviation": "GB", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "GNB"
+                        ], 
                         "assets": {
                             "badge": [
                                 {
@@ -7463,7 +6924,7 @@
                         }, 
                         "fullName": "Hammond Pros", 
                         "identity": {
-                            "ProFootballReferenceID": "HAM"
+                            "ProFootballReferenceID": "HAM.HP"
                         }, 
                         "key": "", 
                         "years": [
@@ -7506,7 +6967,7 @@
                         }, 
                         "fullName": "Hartford Blues", 
                         "identity": {
-                            "ProFootballReferenceID": "HRT"
+                            "ProFootballReferenceID": "HRT.HB"
                         }, 
                         "key": "", 
                         "years": [
@@ -7527,7 +6988,9 @@
                     "Houston Texans": {
                         "abbreviation": "HOU", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "HTX"
+                        ], 
                         "assets": {
                             "badge": [
                                 {
@@ -7537,6 +7000,16 @@
                             ], 
                             "banner": [], 
                             "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#00133F"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#a71930"
+                                }, 
                                 {
                                     "colortype": "primary", 
                                     "source": "sportsdataio", 
@@ -7691,6 +7164,7 @@
                         "division": "South", 
                         "fullName": "Houston Texans", 
                         "identity": {
+                            "ESPNAPIID": "34", 
                             "ProFootballReferenceID": "HTX", 
                             "SportsDBID": "134926", 
                             "SportsDataIOID": "13"
@@ -7726,43 +7200,19 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/clt.png"
-                                }, 
-                                {
-                                    "season": 1947, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/bcl-1947.png"
-                                }, 
-                                {
-                                    "season": 1948, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/bcl-1948.png"
-                                }, 
-                                {
-                                    "season": 1949, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/bcl-1949.png"
-                                }, 
-                                {
-                                    "season": 1950, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/bcl-1950.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
                         "fullName": "Baltimore Colts", 
                         "identity": {
-                            "ProFootballReferenceID": "BCL"
+                            "ProFootballReferenceID": "CLT.IC.BC"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1953, 
                                 "toYear": 1983
-                            }, 
-                            {
-                                "fromYear": 1947, 
-                                "toYear": 1950
                             }
                         ]
                     }, 
@@ -7770,6 +7220,7 @@
                         "abbreviation": "IND", 
                         "active": true, 
                         "aliases": [
+                            "CLT", 
                             "Indy", 
                             "Baltimore Colts"
                         ], 
@@ -8052,10 +7503,6 @@
                             {
                                 "fromYear": 1984, 
                                 "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1953, 
-                                "toYear": 1983
                             }
                         ]
                     }
@@ -8071,7 +7518,8 @@
                         "abbreviation": "JAX", 
                         "active": true, 
                         "aliases": [
-                            "The Jags"
+                            "The Jags", 
+                            "Jax"
                         ], 
                         "assets": {
                             "badge": [
@@ -8082,6 +7530,16 @@
                             ], 
                             "banner": [], 
                             "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#00839C"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
                                 {
                                     "colortype": "primary", 
                                     "source": "sportsdataio", 
@@ -8271,6 +7729,7 @@
                         "division": "South", 
                         "fullName": "Jacksonville Jaguars", 
                         "identity": {
+                            "ESPNAPIID": "30", 
                             "ProFootballReferenceID": "JAX", 
                             "SportsDBID": "134928", 
                             "SportsDataIOID": "15"
@@ -8293,11 +7752,9 @@
                 "name": "Kansas City Chiefs", 
                 "teams": {
                     "Dallas Texans": {
-                        "abbreviation": "KC", 
-                        "active": true, 
-                        "aliases": [
-                            "Dallas Texans"
-                        ], 
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -8308,321 +7765,19 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan.png"
-                                }, 
-                                {
-                                    "season": 1963, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1963.png"
-                                }, 
-                                {
-                                    "season": 1964, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1964.png"
-                                }, 
-                                {
-                                    "season": 1965, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1965.png"
-                                }, 
-                                {
-                                    "season": 1966, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1966.png"
-                                }, 
-                                {
-                                    "season": 1967, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1967.png"
-                                }, 
-                                {
-                                    "season": 1968, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1968.png"
-                                }, 
-                                {
-                                    "season": 1969, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1969.png"
-                                }, 
-                                {
-                                    "season": 1970, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1970.png"
-                                }, 
-                                {
-                                    "season": 1971, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1971.png"
-                                }, 
-                                {
-                                    "season": 1972, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1972.png"
-                                }, 
-                                {
-                                    "season": 1973, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1973.png"
-                                }, 
-                                {
-                                    "season": 1974, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1974.png"
-                                }, 
-                                {
-                                    "season": 1975, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1975.png"
-                                }, 
-                                {
-                                    "season": 1976, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1976.png"
-                                }, 
-                                {
-                                    "season": 1977, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1977.png"
-                                }, 
-                                {
-                                    "season": 1978, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1978.png"
-                                }, 
-                                {
-                                    "season": 1979, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1979.png"
-                                }, 
-                                {
-                                    "season": 1980, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1980.png"
-                                }, 
-                                {
-                                    "season": 1981, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1981.png"
-                                }, 
-                                {
-                                    "season": 1982, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1982.png"
-                                }, 
-                                {
-                                    "season": 1983, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1983.png"
-                                }, 
-                                {
-                                    "season": 1984, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1984.png"
-                                }, 
-                                {
-                                    "season": 1985, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1985.png"
-                                }, 
-                                {
-                                    "season": 1986, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1986.png"
-                                }, 
-                                {
-                                    "season": 1987, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1987.png"
-                                }, 
-                                {
-                                    "season": 1988, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1988.png"
-                                }, 
-                                {
-                                    "season": 1989, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1989.png"
-                                }, 
-                                {
-                                    "season": 1990, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1990.png"
-                                }, 
-                                {
-                                    "season": 1991, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1991.png"
-                                }, 
-                                {
-                                    "season": 1992, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1992.png"
-                                }, 
-                                {
-                                    "season": 1993, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1993.png"
-                                }, 
-                                {
-                                    "season": 1994, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1994.png"
-                                }, 
-                                {
-                                    "season": 1995, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1995.png"
-                                }, 
-                                {
-                                    "season": 1996, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1996.png"
-                                }, 
-                                {
-                                    "season": 1997, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1997.png"
-                                }, 
-                                {
-                                    "season": 1998, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1998.png"
-                                }, 
-                                {
-                                    "season": 1999, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-1999.png"
-                                }, 
-                                {
-                                    "season": 2000, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2000.png"
-                                }, 
-                                {
-                                    "season": 2001, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2001.png"
-                                }, 
-                                {
-                                    "season": 2002, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2002.png"
-                                }, 
-                                {
-                                    "season": 2003, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2003.png"
-                                }, 
-                                {
-                                    "season": 2004, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2004.png"
-                                }, 
-                                {
-                                    "season": 2005, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2005.png"
-                                }, 
-                                {
-                                    "season": 2006, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2006.png"
-                                }, 
-                                {
-                                    "season": 2007, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2007.png"
-                                }, 
-                                {
-                                    "season": 2008, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2008.png"
-                                }, 
-                                {
-                                    "season": 2009, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2009.png"
-                                }, 
-                                {
-                                    "season": 2010, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2010.png"
-                                }, 
-                                {
-                                    "season": 2011, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2011.png"
-                                }, 
-                                {
-                                    "season": 2012, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2012.png"
-                                }, 
-                                {
-                                    "season": 2013, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2013.png"
-                                }, 
-                                {
-                                    "season": 2014, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2014.png"
-                                }, 
-                                {
-                                    "season": 2015, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2015.png"
-                                }, 
-                                {
-                                    "season": 2016, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2016.png"
-                                }, 
-                                {
-                                    "season": 2017, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2017.png"
-                                }, 
-                                {
-                                    "season": 2018, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2018.png"
-                                }, 
-                                {
-                                    "season": 2019, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2019.png"
-                                }, 
-                                {
-                                    "season": 2020, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2020.png"
-                                }, 
-                                {
-                                    "season": 2021, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2021.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
-                        "conference": "AFC", 
-                        "division": "West", 
                         "fullName": "Dallas Texans", 
                         "identity": {
-                            "ProFootballReferenceID": "KAN"
+                            "ProFootballReferenceID": "KAN.KCC.DT"
                         }, 
-                        "key": "KC", 
-                        "name": "Kansas City Chiefs", 
+                        "key": "", 
                         "years": [
                             {
                                 "fromYear": 1960, 
                                 "toYear": 1962
-                            }, 
-                            {
-                                "fromYear": 1963, 
-                                "toYear": 2021
                             }
                         ]
                     }, 
@@ -8630,8 +7785,8 @@
                         "abbreviation": "KC", 
                         "active": true, 
                         "aliases": [
-                            "KC", 
-                            "Dallas Texans"
+                            "Dallas Texans", 
+                            "KAN"
                         ], 
                         "assets": {
                             "badge": [
@@ -9037,33 +8192,19 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kcb.png"
-                                }, 
-                                {
-                                    "season": 1925, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kcb-1925.png"
-                                }, 
-                                {
-                                    "season": 1926, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kcb-1926.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
                         "fullName": "Kansas City Blues", 
                         "identity": {
-                            "ProFootballReferenceID": "KCB"
+                            "ProFootballReferenceID": "KCB.KCC.KCB"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1924, 
                                 "toYear": 1924
-                            }, 
-                            {
-                                "fromYear": 1925, 
-                                "toYear": 1926
                             }
                         ]
                     }, 
@@ -9097,7 +8238,7 @@
                         }, 
                         "fullName": "Kansas City Cowboys", 
                         "identity": {
-                            "ProFootballReferenceID": "KCB"
+                            "ProFootballReferenceID": "KCB.KCC"
                         }, 
                         "key": "", 
                         "years": [
@@ -9140,7 +8281,7 @@
                         }, 
                         "fullName": "Kenosha Maroons", 
                         "identity": {
-                            "ProFootballReferenceID": "KEN"
+                            "ProFootballReferenceID": "KEN.KM"
                         }, 
                         "key": "", 
                         "years": [
@@ -9163,7 +8304,8 @@
                         "active": true, 
                         "aliases": [
                             "Los Angeles Raiders", 
-                            "Oakland Raiders"
+                            "Oakland Raiders", 
+                            "RAI"
                         ], 
                         "assets": {
                             "badge": [
@@ -9258,12 +8400,9 @@
                         ]
                     }, 
                     "Los Angeles Raiders": {
-                        "abbreviation": "LV", 
-                        "active": true, 
-                        "aliases": [
-                            "Los Angeles Raiders", 
-                            "Oakland Raiders"
-                        ], 
+                        "abbreviation": "LARAID", 
+                        "active": false, 
+                        "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -9274,16 +8413,6 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/rai.png"
-                                }, 
-                                {
-                                    "season": 2020, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/rai-2020.png"
-                                }, 
-                                {
-                                    "season": 2021, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/rai-2021.png"
                                 }
                             ], 
                             "wordmark": []
@@ -9293,27 +8422,15 @@
                         "division": "West", 
                         "fullName": "Los Angeles Raiders", 
                         "identity": {
-                            "ProFootballReferenceID": "RAI", 
+                            "ProFootballReferenceID": "RAI.LVR.LAR", 
                             "SportsDataIOID": "17"
                         }, 
-                        "key": "LV", 
-                        "name": "Las Vegas Raiders", 
+                        "key": "LARAID", 
+                        "name": "Raiders", 
                         "years": [
                             {
                                 "fromYear": 1982, 
                                 "toYear": 1994
-                            }, 
-                            {
-                                "fromYear": 2020, 
-                                "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1960, 
-                                "toYear": 1981
-                            }, 
-                            {
-                                "fromYear": 1995, 
-                                "toYear": 2019
                             }
                         ]
                     }, 
@@ -9337,7 +8454,7 @@
                         }, 
                         "fullName": "Oakland Raiders", 
                         "identity": {
-                            "ProFootballReferenceID": "RAI"
+                            "ProFootballReferenceID": "RAI.LVR.OR"
                         }, 
                         "key": "", 
                         "years": [
@@ -9407,7 +8524,8 @@
                         "active": true, 
                         "aliases": [
                             "The Bolts", 
-                            "San Diego Chargers"
+                            "San Diego Chargers", 
+                            "SDG"
                         ], 
                         "assets": {
                             "badge": [
@@ -9536,11 +8654,9 @@
                         ]
                     }, 
                     "San Diego Chargers": {
-                        "abbreviation": "LAC", 
-                        "active": true, 
-                        "aliases": [
-                            "San Diego Chargers"
-                        ], 
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -9551,60 +8667,19 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/sdg.png"
-                                }, 
-                                {
-                                    "season": 1960, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/sdg-1960.png"
-                                }, 
-                                {
-                                    "season": 2017, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/sdg-2017.png"
-                                }, 
-                                {
-                                    "season": 2018, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/sdg-2018.png"
-                                }, 
-                                {
-                                    "season": 2019, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/sdg-2019.png"
-                                }, 
-                                {
-                                    "season": 2020, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/sdg-2020.png"
-                                }, 
-                                {
-                                    "season": 2021, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/sdg-2021.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
-                        "conference": "AFC", 
-                        "division": "West", 
                         "fullName": "San Diego Chargers", 
                         "identity": {
-                            "ProFootballReferenceID": "SDG"
+                            "ProFootballReferenceID": "SDG.LAC.SDC"
                         }, 
-                        "key": "LAC", 
-                        "name": "Los Angeles Chargers", 
+                        "key": "", 
                         "years": [
                             {
                                 "fromYear": 1961, 
                                 "toYear": 2016
-                            }, 
-                            {
-                                "fromYear": 1960, 
-                                "toYear": 1960
-                            }, 
-                            {
-                                "fromYear": 2017, 
-                                "toYear": 2021
                             }
                         ]
                     }
@@ -9656,7 +8731,7 @@
                         }, 
                         "fullName": "Los Angeles Dons", 
                         "identity": {
-                            "ProFootballReferenceID": "LDA"
+                            "ProFootballReferenceID": "LDA.LAD"
                         }, 
                         "key": "", 
                         "years": [
@@ -9694,7 +8769,7 @@
                         }, 
                         "fullName": "Cleveland Rams", 
                         "identity": {
-                            "ProFootballReferenceID": "RAM"
+                            "ProFootballReferenceID": "RAM.LAR.CR"
                         }, 
                         "key": "", 
                         "years": [
@@ -9708,8 +8783,9 @@
                         "abbreviation": "LAR", 
                         "active": true, 
                         "aliases": [
-                            "St. Louis Rams", 
                             "Cleveland Rams", 
+                            "St. Louis Rams", 
+                            "RAM", 
                             "LA Rams"
                         ], 
                         "assets": {
@@ -10075,14 +9151,6 @@
                             {
                                 "fromYear": 2016, 
                                 "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1995, 
-                                "toYear": 2015
-                            }, 
-                            {
-                                "fromYear": 1937, 
-                                "toYear": 1945
                             }
                         ]
                     }, 
@@ -10106,7 +9174,7 @@
                         }, 
                         "fullName": "St. Louis Rams", 
                         "identity": {
-                            "ProFootballReferenceID": "RAM"
+                            "ProFootballReferenceID": "RAM.LAR.SLR"
                         }, 
                         "key": "", 
                         "years": [
@@ -10144,7 +9212,7 @@
                         }, 
                         "fullName": "Louisville Brecks", 
                         "identity": {
-                            "ProFootballReferenceID": "LOU"
+                            "ProFootballReferenceID": "LOU.LC.LB"
                         }, 
                         "key": "", 
                         "years": [
@@ -10179,17 +9247,13 @@
                         }, 
                         "fullName": "Louisville Colonels", 
                         "identity": {
-                            "ProFootballReferenceID": "LOU"
+                            "ProFootballReferenceID": "LOU.LC"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1926, 
                                 "toYear": 1926
-                            }, 
-                            {
-                                "fromYear": 1921, 
-                                "toYear": 1923
                             }
                         ]
                     }
@@ -10607,7 +9671,7 @@
                         }, 
                         "fullName": "Miami Seahawks", 
                         "identity": {
-                            "ProFootballReferenceID": "MSA"
+                            "ProFootballReferenceID": "MSA.MS"
                         }, 
                         "key": "", 
                         "years": [
@@ -10670,7 +9734,7 @@
                         }, 
                         "fullName": "Milwaukee Badgers", 
                         "identity": {
-                            "ProFootballReferenceID": "MIL"
+                            "ProFootballReferenceID": "MIL.MB"
                         }, 
                         "key": "", 
                         "years": [
@@ -10708,7 +9772,7 @@
                         }, 
                         "fullName": "Minneapolis Marines", 
                         "identity": {
-                            "ProFootballReferenceID": "MNN"
+                            "ProFootballReferenceID": "MNN.MRJ.MM"
                         }, 
                         "key": "", 
                         "years": [
@@ -10748,17 +9812,13 @@
                         }, 
                         "fullName": "Minneapolis Red Jackets", 
                         "identity": {
-                            "ProFootballReferenceID": "MNN"
+                            "ProFootballReferenceID": "MNN.MRJ"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1929, 
                                 "toYear": 1930
-                            }, 
-                            {
-                                "fromYear": 1921, 
-                                "toYear": 1924
                             }
                         ]
                     }
@@ -11206,7 +10266,7 @@
                         }, 
                         "fullName": "Muncie Flyers", 
                         "identity": {
-                            "ProFootballReferenceID": "MUN"
+                            "ProFootballReferenceID": "MUN.MF"
                         }, 
                         "key": "", 
                         "years": [
@@ -11220,12 +10280,12 @@
                 "toYear": 1921
             }, 
             "NFC All Pros": {
-                "active": true, 
+                "active": false, 
                 "name": "NFC All Pros", 
                 "teams": {
                     "NFC All Pros": {
                         "abbreviation": "NFC", 
-                        "active": true, 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -11255,11 +10315,9 @@
                 "name": "New England Patriots", 
                 "teams": {
                     "Boston Patriots": {
-                        "abbreviation": "NE", 
-                        "active": true, 
-                        "aliases": [
-                            "Boston Patriots"
-                        ], 
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -11270,281 +10328,19 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe.png"
-                                }, 
-                                {
-                                    "season": 1971, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1971.png"
-                                }, 
-                                {
-                                    "season": 1972, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1972.png"
-                                }, 
-                                {
-                                    "season": 1973, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1973.png"
-                                }, 
-                                {
-                                    "season": 1974, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1974.png"
-                                }, 
-                                {
-                                    "season": 1975, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1975.png"
-                                }, 
-                                {
-                                    "season": 1976, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1976.png"
-                                }, 
-                                {
-                                    "season": 1977, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1977.png"
-                                }, 
-                                {
-                                    "season": 1978, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1978.png"
-                                }, 
-                                {
-                                    "season": 1979, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1979.png"
-                                }, 
-                                {
-                                    "season": 1980, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1980.png"
-                                }, 
-                                {
-                                    "season": 1981, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1981.png"
-                                }, 
-                                {
-                                    "season": 1982, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1982.png"
-                                }, 
-                                {
-                                    "season": 1983, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1983.png"
-                                }, 
-                                {
-                                    "season": 1984, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1984.png"
-                                }, 
-                                {
-                                    "season": 1985, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1985.png"
-                                }, 
-                                {
-                                    "season": 1986, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1986.png"
-                                }, 
-                                {
-                                    "season": 1987, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1987.png"
-                                }, 
-                                {
-                                    "season": 1988, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1988.png"
-                                }, 
-                                {
-                                    "season": 1989, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1989.png"
-                                }, 
-                                {
-                                    "season": 1990, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1990.png"
-                                }, 
-                                {
-                                    "season": 1991, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1991.png"
-                                }, 
-                                {
-                                    "season": 1992, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1992.png"
-                                }, 
-                                {
-                                    "season": 1993, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1993.png"
-                                }, 
-                                {
-                                    "season": 1994, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1994.png"
-                                }, 
-                                {
-                                    "season": 1995, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1995.png"
-                                }, 
-                                {
-                                    "season": 1996, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1996.png"
-                                }, 
-                                {
-                                    "season": 1997, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1997.png"
-                                }, 
-                                {
-                                    "season": 1998, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1998.png"
-                                }, 
-                                {
-                                    "season": 1999, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-1999.png"
-                                }, 
-                                {
-                                    "season": 2000, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2000.png"
-                                }, 
-                                {
-                                    "season": 2001, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2001.png"
-                                }, 
-                                {
-                                    "season": 2002, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2002.png"
-                                }, 
-                                {
-                                    "season": 2003, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2003.png"
-                                }, 
-                                {
-                                    "season": 2004, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2004.png"
-                                }, 
-                                {
-                                    "season": 2005, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2005.png"
-                                }, 
-                                {
-                                    "season": 2006, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2006.png"
-                                }, 
-                                {
-                                    "season": 2007, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2007.png"
-                                }, 
-                                {
-                                    "season": 2008, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2008.png"
-                                }, 
-                                {
-                                    "season": 2009, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2009.png"
-                                }, 
-                                {
-                                    "season": 2010, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2010.png"
-                                }, 
-                                {
-                                    "season": 2011, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2011.png"
-                                }, 
-                                {
-                                    "season": 2012, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2012.png"
-                                }, 
-                                {
-                                    "season": 2013, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2013.png"
-                                }, 
-                                {
-                                    "season": 2014, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2014.png"
-                                }, 
-                                {
-                                    "season": 2015, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2015.png"
-                                }, 
-                                {
-                                    "season": 2016, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2016.png"
-                                }, 
-                                {
-                                    "season": 2017, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2017.png"
-                                }, 
-                                {
-                                    "season": 2018, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2018.png"
-                                }, 
-                                {
-                                    "season": 2019, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2019.png"
-                                }, 
-                                {
-                                    "season": 2020, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2020.png"
-                                }, 
-                                {
-                                    "season": 2021, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2021.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
-                        "conference": "AFC", 
-                        "division": "East", 
                         "fullName": "Boston Patriots", 
                         "identity": {
-                            "ProFootballReferenceID": "NWE"
+                            "ProFootballReferenceID": "NWE.NEP.BP"
                         }, 
-                        "key": "NE", 
-                        "name": "New England Patriots", 
+                        "key": "", 
                         "years": [
                             {
                                 "fromYear": 1960, 
                                 "toYear": 1970
-                            }, 
-                            {
-                                "fromYear": 1971, 
-                                "toYear": 2021
                             }
                         ]
                     }, 
@@ -11552,8 +10348,8 @@
                         "abbreviation": "NE", 
                         "active": true, 
                         "aliases": [
+                            "NWE", 
                             "Boston Patriots", 
-                            "NE", 
                             "The Pats"
                         ], 
                         "assets": {
@@ -11915,7 +10711,7 @@
                         "abbreviation": "NO", 
                         "active": true, 
                         "aliases": [
-                            "NO"
+                            "NOR"
                         ], 
                         "assets": {
                             "badge": [
@@ -12312,7 +11108,7 @@
                         }, 
                         "fullName": "New York Brickley Giants", 
                         "identity": {
-                            "ProFootballReferenceID": "NG1"
+                            "ProFootballReferenceID": "NG1.NYBG"
                         }, 
                         "key": "", 
                         "years": [
@@ -13304,11 +12100,9 @@
                         ]
                     }, 
                     "New York Titans": {
-                        "abbreviation": "NYJ", 
-                        "active": true, 
-                        "aliases": [
-                            "New York Titans"
-                        ], 
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -13319,321 +12113,19 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj.png"
-                                }, 
-                                {
-                                    "season": 1963, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1963.png"
-                                }, 
-                                {
-                                    "season": 1964, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1964.png"
-                                }, 
-                                {
-                                    "season": 1965, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1965.png"
-                                }, 
-                                {
-                                    "season": 1966, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1966.png"
-                                }, 
-                                {
-                                    "season": 1967, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1967.png"
-                                }, 
-                                {
-                                    "season": 1968, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1968.png"
-                                }, 
-                                {
-                                    "season": 1969, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1969.png"
-                                }, 
-                                {
-                                    "season": 1970, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1970.png"
-                                }, 
-                                {
-                                    "season": 1971, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1971.png"
-                                }, 
-                                {
-                                    "season": 1972, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1972.png"
-                                }, 
-                                {
-                                    "season": 1973, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1973.png"
-                                }, 
-                                {
-                                    "season": 1974, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1974.png"
-                                }, 
-                                {
-                                    "season": 1975, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1975.png"
-                                }, 
-                                {
-                                    "season": 1976, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1976.png"
-                                }, 
-                                {
-                                    "season": 1977, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1977.png"
-                                }, 
-                                {
-                                    "season": 1978, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1978.png"
-                                }, 
-                                {
-                                    "season": 1979, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1979.png"
-                                }, 
-                                {
-                                    "season": 1980, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1980.png"
-                                }, 
-                                {
-                                    "season": 1981, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1981.png"
-                                }, 
-                                {
-                                    "season": 1982, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1982.png"
-                                }, 
-                                {
-                                    "season": 1983, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1983.png"
-                                }, 
-                                {
-                                    "season": 1984, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1984.png"
-                                }, 
-                                {
-                                    "season": 1985, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1985.png"
-                                }, 
-                                {
-                                    "season": 1986, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1986.png"
-                                }, 
-                                {
-                                    "season": 1987, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1987.png"
-                                }, 
-                                {
-                                    "season": 1988, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1988.png"
-                                }, 
-                                {
-                                    "season": 1989, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1989.png"
-                                }, 
-                                {
-                                    "season": 1990, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1990.png"
-                                }, 
-                                {
-                                    "season": 1991, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1991.png"
-                                }, 
-                                {
-                                    "season": 1992, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1992.png"
-                                }, 
-                                {
-                                    "season": 1993, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1993.png"
-                                }, 
-                                {
-                                    "season": 1994, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1994.png"
-                                }, 
-                                {
-                                    "season": 1995, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1995.png"
-                                }, 
-                                {
-                                    "season": 1996, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1996.png"
-                                }, 
-                                {
-                                    "season": 1997, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1997.png"
-                                }, 
-                                {
-                                    "season": 1998, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1998.png"
-                                }, 
-                                {
-                                    "season": 1999, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-1999.png"
-                                }, 
-                                {
-                                    "season": 2000, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2000.png"
-                                }, 
-                                {
-                                    "season": 2001, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2001.png"
-                                }, 
-                                {
-                                    "season": 2002, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2002.png"
-                                }, 
-                                {
-                                    "season": 2003, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2003.png"
-                                }, 
-                                {
-                                    "season": 2004, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2004.png"
-                                }, 
-                                {
-                                    "season": 2005, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2005.png"
-                                }, 
-                                {
-                                    "season": 2006, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2006.png"
-                                }, 
-                                {
-                                    "season": 2007, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2007.png"
-                                }, 
-                                {
-                                    "season": 2008, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2008.png"
-                                }, 
-                                {
-                                    "season": 2009, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2009.png"
-                                }, 
-                                {
-                                    "season": 2010, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2010.png"
-                                }, 
-                                {
-                                    "season": 2011, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2011.png"
-                                }, 
-                                {
-                                    "season": 2012, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2012.png"
-                                }, 
-                                {
-                                    "season": 2013, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2013.png"
-                                }, 
-                                {
-                                    "season": 2014, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2014.png"
-                                }, 
-                                {
-                                    "season": 2015, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2015.png"
-                                }, 
-                                {
-                                    "season": 2016, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2016.png"
-                                }, 
-                                {
-                                    "season": 2017, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2017.png"
-                                }, 
-                                {
-                                    "season": 2018, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2018.png"
-                                }, 
-                                {
-                                    "season": 2019, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2019.png"
-                                }, 
-                                {
-                                    "season": 2020, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2020.png"
-                                }, 
-                                {
-                                    "season": 2021, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2021.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
-                        "conference": "AFC", 
-                        "division": "East", 
                         "fullName": "New York Titans", 
                         "identity": {
-                            "ProFootballReferenceID": "NYJ"
+                            "ProFootballReferenceID": "NYJ.NYT"
                         }, 
-                        "key": "NYJ", 
-                        "name": "New York Jets", 
+                        "key": "", 
                         "years": [
                             {
                                 "fromYear": 1960, 
                                 "toYear": 1962
-                            }, 
-                            {
-                                "fromYear": 1963, 
-                                "toYear": 2021
                             }
                         ]
                     }
@@ -13685,7 +12177,7 @@
                         }, 
                         "fullName": "New York Yankees", 
                         "identity": {
-                            "ProFootballReferenceID": "NYA"
+                            "ProFootballReferenceID": "NYA.NYY"
                         }, 
                         "key": "", 
                         "years": [
@@ -13717,33 +12209,19 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyy.png"
-                                }, 
-                                {
-                                    "season": 1950, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyy-1950.png"
-                                }, 
-                                {
-                                    "season": 1951, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyy-1951.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
                         "fullName": "New York Bulldogs", 
                         "identity": {
-                            "ProFootballReferenceID": "NYY"
+                            "ProFootballReferenceID": "NYY.NYB"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1949, 
                                 "toYear": 1949
-                            }, 
-                            {
-                                "fromYear": 1950, 
-                                "toYear": 1951
                             }
                         ]
                     }, 
@@ -13820,17 +12298,13 @@
                         }, 
                         "fullName": "Newark Tornadoes", 
                         "identity": {
-                            "ProFootballReferenceID": "TOR"
+                            "ProFootballReferenceID": "TOR.NT"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1930, 
                                 "toYear": 1930
-                            }, 
-                            {
-                                "fromYear": 1929, 
-                                "toYear": 1929
                             }
                         ]
                     }, 
@@ -13854,7 +12328,7 @@
                         }, 
                         "fullName": "Orange Tornadoes", 
                         "identity": {
-                            "ProFootballReferenceID": "TOR"
+                            "ProFootballReferenceID": "TOR.NT.OT"
                         }, 
                         "key": "", 
                         "years": [
@@ -13902,7 +12376,7 @@
                         }, 
                         "fullName": "Oorang Indians", 
                         "identity": {
-                            "ProFootballReferenceID": "OOR"
+                            "ProFootballReferenceID": "OOR.OI"
                         }, 
                         "key": "", 
                         "years": [
@@ -13940,7 +12414,7 @@
                         }, 
                         "fullName": "Phi/Pit Eagles/Steelers", 
                         "identity": {
-                            "ProFootballReferenceID": "PHI"
+                            "ProFootballReferenceID": "PHI.PE.PPES"
                         }, 
                         "key": "", 
                         "years": [
@@ -14491,10 +12965,6 @@
                             {
                                 "fromYear": 1944, 
                                 "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1943, 
-                                "toYear": 1943
                             }
                         ]
                     }
@@ -14526,25 +12996,13 @@
                         }, 
                         "fullName": "Chi/Pit Cards/Steelers", 
                         "identity": {
-                            "ProFootballReferenceID": "CRD"
+                            "ProFootballReferenceID": "PIT.PS.CPCS"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1944, 
                                 "toYear": 1944
-                            }, 
-                            {
-                                "fromYear": 1920, 
-                                "toYear": 1943
-                            }, 
-                            {
-                                "fromYear": 1945, 
-                                "toYear": 1959
-                            }, 
-                            {
-                                "fromYear": 1988, 
-                                "toYear": 1993
                             }
                         ]
                     }, 
@@ -14568,7 +13026,7 @@
                         }, 
                         "fullName": "Phi/Pit Eagles/Steelers", 
                         "identity": {
-                            "ProFootballReferenceID": "PIT"
+                            "ProFootballReferenceID": "PIT.PS.PPES"
                         }, 
                         "key": "", 
                         "years": [
@@ -14598,7 +13056,7 @@
                         }, 
                         "fullName": "Pittsburgh Pirates", 
                         "identity": {
-                            "ProFootballReferenceID": "PIT"
+                            "ProFootballReferenceID": "PIT.PS.PP"
                         }, 
                         "key": "", 
                         "years": [
@@ -15099,18 +13557,6 @@
                             {
                                 "fromYear": 1945, 
                                 "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1944, 
-                                "toYear": 1944
-                            }, 
-                            {
-                                "fromYear": 1933, 
-                                "toYear": 1939
-                            }, 
-                            {
-                                "fromYear": 1943, 
-                                "toYear": 1943
                             }
                         ]
                     }
@@ -15177,7 +13623,7 @@
                         }, 
                         "fullName": "Providence Steam Roller", 
                         "identity": {
-                            "ProFootballReferenceID": "PRV"
+                            "ProFootballReferenceID": "PRV.PSR"
                         }, 
                         "key": "", 
                         "years": [
@@ -15209,28 +13655,19 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/rac.png"
-                                }, 
-                                {
-                                    "season": 1926, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/rac-1926.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
                         "fullName": "Racine Legion", 
                         "identity": {
-                            "ProFootballReferenceID": "RAC"
+                            "ProFootballReferenceID": "RAC.RT.RL"
                         }, 
                         "key": "", 
                         "years": [
                             {
                                 "fromYear": 1922, 
                                 "toYear": 1924
-                            }, 
-                            {
-                                "fromYear": 1926, 
-                                "toYear": 1926
                             }
                         ]
                     }, 
@@ -15259,7 +13696,7 @@
                         }, 
                         "fullName": "Racine Tornadoes", 
                         "identity": {
-                            "ProFootballReferenceID": "RAC"
+                            "ProFootballReferenceID": "RAC.RT"
                         }, 
                         "key": "", 
                         "years": [
@@ -15327,7 +13764,7 @@
                         }, 
                         "fullName": "Rochester Jeffersons", 
                         "identity": {
-                            "ProFootballReferenceID": "RCH"
+                            "ProFootballReferenceID": "RCH.RJ"
                         }, 
                         "key": "", 
                         "years": [
@@ -15417,7 +13854,7 @@
                         "abbreviation": "SF", 
                         "active": true, 
                         "aliases": [
-                            "SF"
+                            "SFO"
                         ], 
                         "assets": {
                             "badge": [
@@ -15904,6 +14341,16 @@
                             "colors": [
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#224970"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#69be28"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#002244"
                                 }, 
@@ -16186,6 +14633,7 @@
                         "division": "West", 
                         "fullName": "Seattle Seahawks", 
                         "identity": {
+                            "ESPNAPIID": "26", 
                             "ProFootballReferenceID": "SEA", 
                             "SportsDBID": "134949", 
                             "SportsDataIOID": "30"
@@ -16232,7 +14680,7 @@
                         }, 
                         "fullName": "St. Louis All-Stars", 
                         "identity": {
-                            "ProFootballReferenceID": "SLA"
+                            "ProFootballReferenceID": "SLA.SLAS"
                         }, 
                         "key": "", 
                         "years": [
@@ -16275,7 +14723,7 @@
                         }, 
                         "fullName": "St. Louis Gunners", 
                         "identity": {
-                            "ProFootballReferenceID": "GUN"
+                            "ProFootballReferenceID": "GUN.SLG"
                         }, 
                         "key": "", 
                         "years": [
@@ -16354,7 +14802,9 @@
                     "Tampa Bay Buccaneers": {
                         "abbreviation": "TB", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "TAM"
+                        ], 
                         "assets": {
                             "badge": [
                                 {
@@ -16364,6 +14814,16 @@
                             ], 
                             "banner": [], 
                             "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#A80D08"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#34302b"
+                                }, 
                                 {
                                     "colortype": "primary", 
                                     "source": "sportsdataio", 
@@ -16653,6 +15113,7 @@
                         "division": "South", 
                         "fullName": "Tampa Bay Buccaneers", 
                         "identity": {
+                            "ESPNAPIID": "27", 
                             "ProFootballReferenceID": "TAM", 
                             "SportsDBID": "134945", 
                             "SportsDataIOID": "33"
@@ -16675,12 +15136,9 @@
                 "name": "Tennessee Titans", 
                 "teams": {
                     "Houston Oilers": {
-                        "abbreviation": "TEN", 
-                        "active": true, 
-                        "aliases": [
-                            "Houston Oilers", 
-                            "Tennessee Oilers"
-                        ], 
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -16691,145 +15149,19 @@
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti.png"
-                                }, 
-                                {
-                                    "season": 1999, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-1999.png"
-                                }, 
-                                {
-                                    "season": 2000, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2000.png"
-                                }, 
-                                {
-                                    "season": 2001, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2001.png"
-                                }, 
-                                {
-                                    "season": 2002, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2002.png"
-                                }, 
-                                {
-                                    "season": 2003, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2003.png"
-                                }, 
-                                {
-                                    "season": 2004, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2004.png"
-                                }, 
-                                {
-                                    "season": 2005, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2005.png"
-                                }, 
-                                {
-                                    "season": 2006, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2006.png"
-                                }, 
-                                {
-                                    "season": 2007, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2007.png"
-                                }, 
-                                {
-                                    "season": 2008, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2008.png"
-                                }, 
-                                {
-                                    "season": 2009, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2009.png"
-                                }, 
-                                {
-                                    "season": 2010, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2010.png"
-                                }, 
-                                {
-                                    "season": 2011, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2011.png"
-                                }, 
-                                {
-                                    "season": 2012, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2012.png"
-                                }, 
-                                {
-                                    "season": 2013, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2013.png"
-                                }, 
-                                {
-                                    "season": 2014, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2014.png"
-                                }, 
-                                {
-                                    "season": 2015, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2015.png"
-                                }, 
-                                {
-                                    "season": 2016, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2016.png"
-                                }, 
-                                {
-                                    "season": 2017, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2017.png"
-                                }, 
-                                {
-                                    "season": 2018, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2018.png"
-                                }, 
-                                {
-                                    "season": 2019, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2019.png"
-                                }, 
-                                {
-                                    "season": 2020, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2020.png"
-                                }, 
-                                {
-                                    "season": 2021, 
-                                    "source": "profootballreference", 
-                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2021.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
-                        "conference": "AFC", 
-                        "division": "South", 
                         "fullName": "Houston Oilers", 
                         "identity": {
-                            "ProFootballReferenceID": "OTI"
+                            "ProFootballReferenceID": "OTI.TT.HO"
                         }, 
-                        "key": "TEN", 
-                        "name": "Tennessee Titans", 
+                        "key": "", 
                         "years": [
                             {
                                 "fromYear": 1960, 
                                 "toYear": 1996
-                            }, 
-                            {
-                                "fromYear": 1997, 
-                                "toYear": 1998
-                            }, 
-                            {
-                                "fromYear": 1999, 
-                                "toYear": 2021
                             }
                         ]
                     }, 
@@ -16853,7 +15185,7 @@
                         }, 
                         "fullName": "Tennessee Oilers", 
                         "identity": {
-                            "ProFootballReferenceID": "OTI"
+                            "ProFootballReferenceID": "OTI.TT.TO"
                         }, 
                         "key": "", 
                         "years": [
@@ -16867,6 +15199,7 @@
                         "abbreviation": "TEN", 
                         "active": true, 
                         "aliases": [
+                            "OTI", 
                             "Houston Oilers", 
                             "Tennessee Oilers"
                         ], 
@@ -17115,7 +15448,7 @@
                         }, 
                         "fullName": "Toledo Maroons", 
                         "identity": {
-                            "ProFootballReferenceID": "TOL"
+                            "ProFootballReferenceID": "TOL.TM"
                         }, 
                         "key": "", 
                         "years": [
@@ -17158,7 +15491,7 @@
                         }, 
                         "fullName": "Tonawanda Kardex", 
                         "identity": {
-                            "ProFootballReferenceID": "TON"
+                            "ProFootballReferenceID": "TON.TK"
                         }, 
                         "key": "", 
                         "years": [
@@ -17196,7 +15529,7 @@
                         }, 
                         "fullName": "Boston Braves", 
                         "identity": {
-                            "ProFootballReferenceID": "WAS"
+                            "ProFootballReferenceID": "WAS.WFT.BB"
                         }, 
                         "key": "", 
                         "years": [
@@ -17226,7 +15559,7 @@
                         }, 
                         "fullName": "Boston Redskins", 
                         "identity": {
-                            "ProFootballReferenceID": "WAS"
+                            "ProFootballReferenceID": "WAS.WFT.BR"
                         }, 
                         "key": "", 
                         "years": [
@@ -17253,6 +15586,16 @@
                             ], 
                             "banner": [], 
                             "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#650415"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#650415"
+                                }, 
                                 {
                                     "colortype": "primary", 
                                     "source": "sportsdataio", 
@@ -17302,6 +15645,7 @@
                         "division": "East", 
                         "fullName": "Washington Football Team", 
                         "identity": {
+                            "ESPNAPIID": "28", 
                             "ProFootballReferenceID": "WAS", 
                             "SportsDBID": "134937", 
                             "SportsDataIOID": "35"
@@ -17316,13 +15660,9 @@
                         ]
                     }, 
                     "Washington Redskins": {
-                        "abbreviation": "WAS", 
-                        "active": true, 
-                        "aliases": [
-                            "Washington Redskins", 
-                            "Boston Braves", 
-                            "Boston Redskins"
-                        ], 
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -17337,30 +15677,15 @@
                             ], 
                             "wordmark": []
                         }, 
-                        "conference": "NFC", 
-                        "division": "East", 
                         "fullName": "Washington Redskins", 
                         "identity": {
-                            "ProFootballReferenceID": "WAS"
+                            "ProFootballReferenceID": "WAS.WFT.WR"
                         }, 
-                        "key": "WAS", 
-                        "name": "Washington Football Team", 
+                        "key": "", 
                         "years": [
                             {
                                 "fromYear": 1937, 
                                 "toYear": 2019
-                            }, 
-                            {
-                                "fromYear": 2020, 
-                                "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1932, 
-                                "toYear": 1932
-                            }, 
-                            {
-                                "fromYear": 1933, 
-                                "toYear": 1936
                             }
                         ]
                     }
@@ -17392,7 +15717,7 @@
                         }, 
                         "fullName": "Washington Senators", 
                         "identity": {
-                            "ProFootballReferenceID": "SEN"
+                            "ProFootballReferenceID": "SEN.WS"
                         }, 
                         "key": "", 
                         "years": []

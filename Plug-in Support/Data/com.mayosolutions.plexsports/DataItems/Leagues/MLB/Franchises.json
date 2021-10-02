@@ -1,19 +1,19 @@
 {
     "CacheContainer": {
         "CacheType": "MLBFRANCHISES", 
-        "CachedOn": "2021-09-10T12:42:39", 
-        "ExpiresOn": "2022-01-23T12:42:39", 
+        "CachedOn": "2021-09-30T03:55:25", 
+        "ExpiresOn": "2022-02-12T03:55:25", 
         "Version": "1"
     }, 
     "Items": [
         {
             "American League All Stars": {
-                "active": true, 
+                "active": false, 
                 "name": "American League All Stars", 
                 "teams": {
                     "American League All Stars": {
                         "abbreviation": "AL", 
-                        "active": true, 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -58,6 +58,16 @@
                             ], 
                             "banner": [], 
                             "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#a40013"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
                                 {
                                     "colortype": "primary", 
                                     "source": "sportsdataio", 
@@ -113,6 +123,7 @@
                         "division": "National League West", 
                         "fullName": "Arizona Diamondbacks", 
                         "identity": {
+                            "ESPNAPIID": "29", 
                             "MLBAPIID": 109, 
                             "SportsDBID": "135267", 
                             "SportsDataIOID": "14"
@@ -1633,6 +1644,16 @@
                             "colors": [
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#220d48"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#220d48"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#33006F"
                                 }, 
@@ -1681,6 +1702,7 @@
                         "division": "National League West", 
                         "fullName": "Colorado Rockies", 
                         "identity": {
+                            "ESPNAPIID": "27", 
                             "MLBAPIID": 115, 
                             "SportsDBID": "135271", 
                             "SportsDataIOID": "23"
@@ -2614,6 +2636,16 @@
                             "colors": [
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#0081c7"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#0077c8"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#000000"
                                 }, 
@@ -2667,6 +2699,7 @@
                         "division": "National League East", 
                         "fullName": "Miami Marlins", 
                         "identity": {
+                            "ESPNAPIID": "28", 
                             "MLBAPIID": 146, 
                             "SportsDBID": "135273", 
                             "SportsDataIOID": "22"
@@ -2899,12 +2932,12 @@
                 "toYear": 2021
             }, 
             "National League All Stars": {
-                "active": true, 
+                "active": false, 
                 "name": "National League All Stars", 
                 "teams": {
                     "National League All Stars": {
                         "abbreviation": "NL", 
-                        "active": true, 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -3783,6 +3816,16 @@
                             "colors": [
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#161415"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#000000"
                                 }, 
@@ -3836,6 +3879,7 @@
                         "division": "National League West", 
                         "fullName": "San Francisco Giants", 
                         "identity": {
+                            "ESPNAPIID": "26", 
                             "MLBAPIID": 137, 
                             "SportsDBID": "135279", 
                             "SportsDataIOID": "15"
@@ -4129,6 +4173,16 @@
                             "colors": [
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#002454"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#8fbce6"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#092C5C"
                                 }, 
@@ -4182,6 +4236,7 @@
                         "division": "American League East", 
                         "fullName": "Tampa Bay Rays", 
                         "identity": {
+                            "ESPNAPIID": "30", 
                             "MLBAPIID": 139, 
                             "SportsDBID": "135263", 
                             "SportsDataIOID": "11"

@@ -27,13 +27,17 @@ def DownloadAllTeams(league):
 		isActive = apiTeam["isActive"]
 		abbrev = deunicode(apiTeam["abbreviation"])
 		fullName = deunicode(apiTeam["displayName"])
-		name = deunicode(apiTeam["name"])
+		name = deunicode(apiTeam.get("name"))
 		city = deunicode(apiTeam["location"])
 
 		if league == LEAGUE_NBA:
 			if city == "LA" and name == "Clippers":
 				city = "Los Angeles"
 				fullName = "Los Angeles Clippers"
+		elif league == LEAGUE_NFL:
+			if city == "Washington" and name == None:
+				name = "Football Team"
+				fullName = "Washington Football Team"
 
 		team = {
 			"key": abbrev,
@@ -48,10 +52,10 @@ def DownloadAllTeams(league):
 		aliases = []
 
 		nickname = deunicode(apiTeam.get("nickname") or "")
-		if nickname and not nickname in [city, name, fullName]:
+		if nickname and not nickname in [city, name, fullName, abbrev]:
 			aliases.append(nickname)
 		shortDisplayName = deunicode(apiTeam.get("shortDisplayName") or "")
-		if shortDisplayName and not shortDisplayName in [city, name, fullName]:
+		if shortDisplayName and not shortDisplayName in [city, name, fullName, abbrev]:
 			aliases.append(shortDisplayName)
 
 		if aliases: team["aliases"] = list(set(aliases))

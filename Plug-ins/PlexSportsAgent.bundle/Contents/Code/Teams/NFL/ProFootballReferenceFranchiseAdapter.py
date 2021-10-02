@@ -43,6 +43,7 @@ def DownloadAllFranchises(league):
 	for franchise in pfrFranchises.values():
 		franchiseName = franchise.get("fullName") or franchise.get("name")
 		if not franchise.get("fullName"): franchise["fullName"] = franchiseName
+		franchiseName = franchise["fullName"]
 
 		franchise["fromYear"] = franchise["from"]
 		del(franchise["from"])
@@ -50,6 +51,11 @@ def DownloadAllFranchises(league):
 		del(franchise["to"])
 
 		for team in franchise["teams"].values():
+			teamName = team.get("fullName") or team.get("name")
+
+			# key - we don't ever change. The original pfr abbreviation
+			# abbrev - NFL official abbreviation
+			# id - identifier for the team, used by psn, relative to pfr
 			abbrev = key = id = franchise["abbrev"]
 
 			active = team.get("active") == True
@@ -63,22 +69,37 @@ def DownloadAllFranchises(league):
 						aliases.append(inactiveName)
 						if team.get("city"):
 							if inactiveName[:len(team["city"])] == team["city"]:
+								# Get any deadname cities
 								aliases.append(inactiveName[:len(team["city"])].strip())
-
-			team["aliases"] = list(set(aliases))
 
 			if abbrev in pfr_abbreviation_corrections.keys():
 				if active: aliases.append(abbrev)
-				abbrev = key = pfr_abbreviation_corrections[abbrev]
+				abbrev = pfr_abbreviation_corrections[abbrev]
+
+			team["aliases"] = list(set(aliases))
 
 			if active: 
-				team["key"] = key
+				team["key"] = abbrev
 				team["abbreviation"] = abbrev
 			else:
-				team["fullName"] = team["name"]
+				team["fullName"] = teamName
 				del(team["name"])
+				
+				prefix = key
+				franchisePrefix = strip_to_capitals(franchiseName)
+				if prefix != franchisePrefix: prefix = "%s.%s" % (prefix, franchisePrefix)
+				id = prefix
+
+				suffix = strip_to_capitals(teamName)
+				if suffix != franchisePrefix:
+					id = "%s.%s" % (prefix, suffix)
+				
+				if team.get("key"): del(team["key"])
+				if team.get("abbreviation"): del(team["abbreviation"])
 
 			team["ProFootballReferenceID"] = id
+			team["identity"] = {"ProFootballReferenceID": id}
+
 
 			yrs = list(team["years"])
 			team["years"] = []

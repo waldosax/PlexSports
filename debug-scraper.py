@@ -20,6 +20,6 @@ if __name__ == "__main__":
 
 	#franchises = PlexSportsAgent.Teams.GetFranchises("MLB")
 	#franchises = PlexSportsAgent.Teams.GetFranchises("NBA")
-	#franchises = PlexSportsAgent.Teams.GetFranchises("NFL")
-	franchises = PlexSportsAgent.Teams.GetFranchises("NHL")
+	franchises = PlexSportsAgent.Teams.GetFranchises("NFL")
+	#franchises = PlexSportsAgent.Teams.GetFranchises("NHL")
 	pass

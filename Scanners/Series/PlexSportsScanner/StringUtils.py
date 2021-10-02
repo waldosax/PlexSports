@@ -87,6 +87,7 @@ def strip_diacritics(s):
 	return ''.join([c for c in s if not unicodedata.combining(c)])
 
 UNICODE_CATEGORY_LETTER = "L"
+UNICODE_CATEGORY_LETTER_UPPERCASE = "Lu"
 UNICODE_CATEGORY_NUMBER = "Nd"
 
 def strip_to_alphanumeric_and_at(s):
@@ -98,3 +99,8 @@ def strip_to_alphanumeric(s):
 	if not s: return s
 	s = normalize(s).lower()
 	return ''.join([c for c in s if UNICODE_CATEGORY_LETTER in unicodedata.category(c) or UNICODE_CATEGORY_NUMBER in unicodedata.category(c)])
+
+def strip_to_capitals(s):
+	if not s: return s
+	s = normalize(s)
+	return ''.join([c for c in s if UNICODE_CATEGORY_LETTER_UPPERCASE in unicodedata.category(c)])

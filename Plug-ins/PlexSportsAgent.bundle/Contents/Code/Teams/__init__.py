@@ -127,12 +127,12 @@ def __download_all_team_data(league):
 			(franchise, fteam) = __find_team(allFranchises, franchiseName, None)
 			franchise.Augment(**f)
 			
-			incorporate_teams(allFranchises, f["teams"])
+			incorporate_teams(allFranchises, f["teams"], franchiseName)
 
-	def incorporate_teams(allFranchises, teams):
+	def incorporate_teams(allFranchises, teams, franchiseName=None):
 		for tm in teams.values():
 			teamName = tm.get("fullName") or tm.get("FullName") # TODO: Phase out capitalized keys
-			(franchise, team) = __find_team(allFranchises, None, teamName, TeamIdentity(**tm))
+			(franchise, team) = __find_team(allFranchises, franchiseName, teamName, TeamIdentity(**tm))
 			team.Augment(**tm)
 
 
@@ -220,7 +220,9 @@ def __find_team(franchises, franchiseName, teamName, identity=None):
 				break
 
 	for f in fs:
-		team = f.FindTeam(teamName, identity)
+		team = f.FindTeam(None, identity)
+		if not team:
+			team = f.FindTeam(teamName, identity)
 		if team:
 			franchise = f
 			break

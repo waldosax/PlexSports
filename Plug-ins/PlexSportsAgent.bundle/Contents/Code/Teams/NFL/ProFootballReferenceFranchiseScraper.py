@@ -264,6 +264,7 @@ def __download_all_franchise_data():
 					teamMeta["name"] = teamName
 					teamMeta.setdefault("years", [])
 
+				teamMeta.setdefault("active", False)
 				if franchise.get("active") and franchise["name"] == teamName: teamMeta["active"] = True
 				teamMeta["years"].append(span)
 

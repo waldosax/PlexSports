@@ -9,7 +9,7 @@ from GetResultFromNetwork import *
 
 ESPNAPI_BASE_URL = "https://site.api.espn.com/apis/site/v2/"
 ESPNAPI_LEAGUE_FILTER = "sports/%s/%s/" # (sport.lower(), league.lower())
-ESPNAPI_GET_ACTIVE_TEAMS = "teams"
+ESPNAPI_GET_ACTIVE_TEAMS = "teams?limit=900"
 ESPNAPI_GET_SCHEDULE = "scoreboard?dates=%s" # (season)
 
 espn_api_headers = {

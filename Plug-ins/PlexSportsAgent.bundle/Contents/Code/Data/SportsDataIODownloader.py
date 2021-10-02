@@ -10,6 +10,7 @@ SPORTS_DATA_IO_NHL_API_KEY = "e6b62fe4b3b041dcba7c51c41f6affe7" # TODO: Read fro
 
 SPORTS_DATA_IO_BASE_URL = "https://fly.sportsdata.io/v3/%s/" # (League)
 
+SPORTS_DATA_IO_GET_ACTIVE_TEAMS_FOR_LEAGUE = SPORTS_DATA_IO_BASE_URL + "scores/json/Teams?key=%s" # (League, ApiKey)
 SPORTS_DATA_IO_GET_ALL_TEAMS_FOR_LEAGUE = SPORTS_DATA_IO_BASE_URL + "scores/json/AllTeams?key=%s" # (League, ApiKey)
 SPORTS_DATA_IO_GET_MLB_GAMES_FOR_SEASON = SPORTS_DATA_IO_BASE_URL + "scores/json/Games/%s?key=%s" # (Season, ApiKey)
 SPORTS_DATA_IO_GET_NBA_GAMES_FOR_SEASON = SPORTS_DATA_IO_BASE_URL + "scores/json/Games/%s?key=%s" # (Season, ApiKey)
@@ -42,13 +43,22 @@ SPORTS_DATA_IO_SUBSEASON_REGULARSEASON = ""
 SPORTS_DATA_IO_SUBSEASON_POSTSEASON = "POST"
 SPORTS_DATA_IO_SUBSEASON_ALLSTAR = "STAR"
 
+def DownloadActiveTeamsForLeague(league):
+	if (league in known_leagues.keys() == False):
+		return None # TODO: Throw
+	key = sports_data_io_api_keys[league]
+	headers = sports_data_io_headers.copy()
+	headers[SPORTS_DATA_IO_SUBSCRIPTION_KEY_NAME] = key
+	print("Getting active %s teams data from SportsData.io ..." % league)
+	return GetResultFromNetwork(SPORTS_DATA_IO_GET_ACTIVE_TEAMS_FOR_LEAGUE % (league, sports_data_io_api_keys[league]), headers, True, cacheExtension=EXTENSION_JSON)
+
 def DownloadAllTeamsForLeague(league):
 	if (league in known_leagues.keys() == False):
 		return None # TODO: Throw
 	key = sports_data_io_api_keys[league]
 	headers = sports_data_io_headers.copy()
 	headers[SPORTS_DATA_IO_SUBSCRIPTION_KEY_NAME] = key
-	print("Getting %s teams data from SportsData.io ..." % league)
+	print("Getting all %s teams data from SportsData.io ..." % league)
 	return GetResultFromNetwork(SPORTS_DATA_IO_GET_ALL_TEAMS_FOR_LEAGUE % (league, sports_data_io_api_keys[league]), headers, True, cacheExtension=EXTENSION_JSON)
 
 

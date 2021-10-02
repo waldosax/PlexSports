@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHLFRANCHISES", 
-        "CachedOn": "2021-09-11T02:20:05", 
-        "ExpiresOn": "2022-01-24T02:20:05", 
+        "CachedOn": "2021-09-30T03:55:26", 
+        "ExpiresOn": "2022-02-12T03:55:26", 
         "Version": "1"
     }, 
     "Items": [
@@ -247,12 +247,12 @@
                 }
             }, 
             "Atlantic All Stars": {
-                "active": true, 
+                "active": false, 
                 "name": "Atlantic All Stars", 
                 "teams": {
                     "Atlantic All Stars": {
                         "abbreviation": "ATLANTIC", 
-                        "active": true, 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -747,12 +747,12 @@
                 }
             }, 
             "Central All Stars": {
-                "active": true, 
+                "active": false, 
                 "name": "Central All Stars", 
                 "teams": {
                     "Central All Stars": {
                         "abbreviation": "CENTRAL", 
-                        "active": true, 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -1095,6 +1095,16 @@
                             "colors": [
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#002d62"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#cd202c"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#002654"
                                 }, 
@@ -1139,6 +1149,7 @@
                         "division": "Metropolitan", 
                         "fullName": "Columbus Blue Jackets", 
                         "identity": {
+                            "ESPNAPIID": "29", 
                             "NHLAPIID": "29", 
                             "SportsDBID": "134839", 
                             "SportsDataIOID": "16"
@@ -1521,6 +1532,16 @@
                             "colors": [
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#002a5c"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#d81834"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#C8102E"
                                 }, 
@@ -1565,6 +1586,7 @@
                         "division": "Atlantic", 
                         "fullName": "Florida Panthers", 
                         "identity": {
+                            "ESPNAPIID": "26", 
                             "NHLAPIID": "13", 
                             "SportsDBID": "134833", 
                             "SportsDataIOID": "8"
@@ -1731,12 +1753,12 @@
                 }
             }, 
             "Metropolitan All Stars": {
-                "active": true, 
+                "active": false, 
                 "name": "Metropolitan All Stars", 
                 "teams": {
                     "Metropolitan All Stars": {
                         "abbreviation": "METRO", 
-                        "active": true, 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -1776,6 +1798,16 @@
                             ], 
                             "banner": [], 
                             "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#004725"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#c41230"
+                                }, 
                                 {
                                     "colortype": "primary", 
                                     "source": "sportsdataio", 
@@ -1827,6 +1859,7 @@
                         "division": "Central", 
                         "fullName": "Minnesota Wild", 
                         "identity": {
+                            "ESPNAPIID": "30", 
                             "NHLAPIID": "30", 
                             "SportsDBID": "134857", 
                             "SportsDataIOID": "23"
@@ -2024,6 +2057,16 @@
                             "colors": [
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#fdba31"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#002d62"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#FFB81C"
                                 }, 
@@ -2068,6 +2111,7 @@
                         "division": "Central", 
                         "fullName": "Nashville Predators", 
                         "identity": {
+                            "ESPNAPIID": "27", 
                             "NHLAPIID": "18", 
                             "SportsDBID": "134858", 
                             "SportsDataIOID": "21"
@@ -2502,12 +2546,12 @@
                 }
             }, 
             "Pacific All Stars": {
-                "active": true, 
+                "active": false, 
                 "name": "Pacific All Stars", 
                 "teams": {
                     "Pacific All Stars": {
                         "abbreviation": "PACIFIC", 
-                        "active": true, 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -2882,6 +2926,16 @@
                             "colors": [
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#001628"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#99d9d9"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#001425"
                                 }, 
@@ -2931,6 +2985,7 @@
                         "division": "Pacific", 
                         "fullName": "Seattle Kraken", 
                         "identity": {
+                            "ESPNAPIID": "124292", 
                             "NHLAPIID": "55", 
                             "SportsDBID": "140082", 
                             "SportsDataIOID": "36"
@@ -3434,6 +3489,16 @@
                             "colors": [
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#333f42"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#b5985a"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#333F42"
                                 }, 
@@ -3483,6 +3548,7 @@
                         "division": "Pacific", 
                         "fullName": "Vegas Golden Knights", 
                         "identity": {
+                            "ESPNAPIID": "37", 
                             "NHLAPIID": "54", 
                             "SportsDBID": "135913", 
                             "SportsDataIOID": "35"
@@ -3633,6 +3699,16 @@
                             "colors": [
                                 {
                                     "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#133866"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#b81f3d"
+                                }, 
+                                {
+                                    "colortype": "primary", 
                                     "source": "sportsdataio", 
                                     "value": "#041E41"
                                 }, 
@@ -3682,6 +3758,7 @@
                         "division": "Central", 
                         "fullName": "Winnipeg Jets", 
                         "identity": {
+                            "ESPNAPIID": "28", 
                             "NHLAPIID": "52", 
                             "SportsDBID": "134851", 
                             "SportsDataIOID": "22"
