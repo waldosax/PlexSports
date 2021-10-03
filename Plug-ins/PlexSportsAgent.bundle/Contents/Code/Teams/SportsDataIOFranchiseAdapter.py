@@ -65,6 +65,12 @@ def DownloadAllTeams(league):
 				aliases.append(abbrev)
 				key = abbrev = sdio_abbreviation_corrections[league][abbrev]
 
+		conference = deunicode(team.get("Conference") or team.get("League"))
+		if conference == "None": conference = None
+		division = deunicode(team["Division"])
+		if division and (division == "None" or division == conference): division = None
+
+
 		kwargs = {
 			"key": key,
 			"abbreviation": abbrev,
@@ -72,8 +78,8 @@ def DownloadAllTeams(league):
 			"name": name,
 			"fullName": fullName,
 			"city": city,
-			"conference": deunicode(team.get("Conference") or team.get("League")),
-			"division": deunicode(team["Division"]),
+			"conference": conference,
+			"division": division,
 			"SportsDataIOID": str(team["TeamID"]),
 			}
 

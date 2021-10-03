@@ -11,6 +11,9 @@ from Data.TheSportsDBDownloader import *
 spdb_abbreviation_corrections = {
 	LEAGUE_MLB: {
 		"WAS": "WSH",
+		},
+	LEAGUE_NFL: {
+		"OAK": "LV",
 		}
 	}
 
@@ -30,14 +33,15 @@ def DownloadAllTeams(league):
 				aliases.append(abbrev)
 				key = abbrev = spdb_abbreviation_corrections[league][abbrev]
 
-		if league == LEAGUE_NFL and name == "Washington":
-			print("Correcting known data error in TheSportsDB.com data. Incorrect team name for %s -> Washington Football Team" % (team.get("strTeam")))
-			fullName = deunicode(team["strAlternate"])
-			city = name
-			name = fullName[len(city):].strip()
-		else:
-			alternate = deunicode(team["strAlternate"]) if team.get("strAlternate") != abbrev else None
-			if alternate: aliases += splitAndTrim(alternate)
+		if league == LEAGUE_NFL:
+			if name == "Washington":
+				print("Correcting known data error in TheSportsDB.com data. Incorrect team name for %s -> Washington Football Team" % (team.get("strTeam")))
+				fullName = deunicode(team["strAlternate"])
+				city = name
+				name = fullName[len(city):].strip()
+
+		alternate = deunicode(team["strAlternate"]) if team.get("strAlternate") != abbrev else None
+		if alternate: aliases += splitAndTrim(alternate)
 
 		if not abbrev:
 			if league == LEAGUE_NHL and deunicode(team.get("strAlternate")) == "Kraken ":
