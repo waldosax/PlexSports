@@ -3,6 +3,7 @@
 
 import json
 from datetime import datetime, date, time
+import hashlib
 
 from Constants import *
 from StringUtils import *
@@ -32,9 +33,11 @@ def DownloadAllFranchises(league):
 	for teamId in range(1, maxId+1):
 		teamIds.append(str(teamId))
 
+
+
 	# Get team history for all ids in range (relevant fields only)
 	mlbapiTeamHistories = dict()
-	mlbapiTeamHistoriesJson = DownloadTeamHistories(teamIds, ["teams","id","sport","league","name","teamName","clubName","season","abbreviation","teamName","shortName","clubName","active"])
+	mlbapiTeamHistoriesJson = DownloadTeamHistories(teamIds, ["teams","id","teamCode","sport","league","name","teamName","clubName","season","abbreviation","teamName","shortName","clubName","active"])
 	try: mlbapiTeamHistories = json.loads(mlbapiTeamHistoriesJson)
 	except: pass
 
@@ -44,9 +47,11 @@ def DownloadAllFranchises(league):
 		teamHistories = mlbapiTeamHistories["teams"]
 		for i in range(len(teamHistories)-1, -1, -1):
 			teamHistory = teamHistories[i]
+			# If sport id != 1 (Pro baseball), remove
 			if not teamHistory.get("sport") or not teamHistory["sport"].get("id") or teamHistory["sport"]["id"] != MLBAPI_SPORTID_MLB:
 				del(teamHistories[i])
 				continue
+			# If doesn't have league id, remove
 			if not teamHistory.get("league") or not teamHistory["league"].get("id"):
 				del(teamHistories[i])
 				continue
@@ -58,6 +63,8 @@ def DownloadAllFranchises(league):
 			#if teamHistory["teamName"] != teamHistory["clubName"]:
 			#	print("2-name:%s|teamName:%s|shortName:%s|clubName:%s" % (teamHistory["name"], teamHistory["teamName"], teamHistory["shortName"], teamHistory["clubName"]))
 
+			# If teamHistory is an MLB team, add it to histories dictionary
+			# histories[franchiseId][season] = teamHistory
 			histories.setdefault(teamHistory["id"], dict())
 			histories[teamHistory["id"]][teamHistory["season"]] = teamHistory
 
@@ -72,7 +79,7 @@ def DownloadAllFranchises(league):
 		name = deunicode(apiTeam["name"])
 		franchise = {
 			"name": name,
-			"active": True,
+			"active": apiTeam["active"],
 			}
 
 		currentSeason = maxSeason = apiTeam["season"]
@@ -117,8 +124,10 @@ def DownloadAllFranchises(league):
 			seasonTracking.setdefault(int(historySeason), fullName)
 
 			if fullName in teams.keys(): continue
+			teamCode = deunicode(historicalTeam["teamCode"])
+			inactiveID = "%s.%s.%s" % (teamId, teamCode, hashlib.md5(fullName.encode()).hexdigest()[:6])
 			team = {
-				"MLBAPIID": teamId,
+				"MLBAPIID": inactiveID,
 				"active": False,
 				"fullName": fullName,
 				"name": teamName,
@@ -129,6 +138,7 @@ def DownloadAllFranchises(league):
 
 
 		# BackFill Years
+		# Doing it this way should roll up venue changes as well.
 		seasonTracking.setdefault(currentSeason, name)
 		seasons = list(sorted(seasonTracking.keys()))
 		for i in range(1, len(seasonTracking)):

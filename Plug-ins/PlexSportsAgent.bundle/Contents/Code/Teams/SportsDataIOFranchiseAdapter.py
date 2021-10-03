@@ -66,14 +66,14 @@ def DownloadAllTeams(league):
 				key = abbrev = sdio_abbreviation_corrections[league][abbrev]
 
 		kwargs = {
-			"Key": key,
-			"Abbreviation": abbrev,
-			"Active": active,
-			"Name": name,
-			"FullName": fullName,
-			"City": city,
-			"Conference": deunicode(team.get("Conference") or team.get("League")),
-			"Division": deunicode(team["Division"]),
+			"key": key,
+			"abbreviation": abbrev,
+			"active": active,
+			"name": name,
+			"fullName": fullName,
+			"city": city,
+			"conference": deunicode(team.get("Conference") or team.get("League")),
+			"division": deunicode(team["Division"]),
 			"SportsDataIOID": str(team["TeamID"]),
 			}
 

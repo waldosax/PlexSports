@@ -47,8 +47,9 @@ class Franchise():
 						self.teams.setdefault(tmn, team)
 		pass
 
-	def FindTeam(self, fullName, identity=None):
+	def FindTeam(self, fullName, identity=None, active=None):
 		if not fullName and not identity: return None
+		results = []
 		for team in self.teams.values():
 
 			fdct = team.identity.__dict__
@@ -63,10 +64,20 @@ class Franchise():
 					if xdct[testKey]:
 						if testKey in fdct.keys():
 							if fdct[testKey] == xdct[testKey]:
-								return team
+								results.append(team)
 
 			if fullName and team.fullName == fullName: # TODO: Strip diacritics
-				return team
+				results.append(team)
+
+		if active != None:
+			for i in range(len(results) - 1, -1, -1):
+				factive = results[i].active == True
+				if factive != active:
+					del(results[i])
+
+		if len(results) > 0: return results[0]
+
+		pass
 
 	def __repr__(self):
 		return self.name

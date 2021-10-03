@@ -53,12 +53,12 @@ def DownloadAllTeams(league):
 
 
 		kwargs = {
-			"Key": key,
-			"Abbreviation": abbrev,
-			"Active": True,
-			"Name": name,
-			"FullName": fullName,
-			"City": city,
+			"key": key,
+			"abbreviation": abbrev,
+			"active": True,
+			"name": name,
+			"fullName": fullName,
+			"city": city,
 			"SportsDBID": str(team["idTeam"])
 			}
 		

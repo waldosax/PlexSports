@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLBFRANCHISES", 
-        "CachedOn": "2021-09-30T03:55:25", 
-        "ExpiresOn": "2022-02-12T03:55:25", 
+        "CachedOn": "2021-10-03T04:04:11", 
+        "ExpiresOn": "2022-02-15T04:04:11", 
         "Version": "1"
     }, 
     "Items": [
@@ -256,7 +256,7 @@
                         "city": "Boston", 
                         "fullName": "Boston Beaneaters", 
                         "identity": {
-                            "MLBAPIID": 144
+                            "MLBAPIID": "144.bsn.4eb9f3"
                         }, 
                         "key": "", 
                         "name": "Beaneaters", 
@@ -287,7 +287,7 @@
                         "city": "Boston", 
                         "fullName": "Boston Bees", 
                         "identity": {
-                            "MLBAPIID": 144
+                            "MLBAPIID": "144.bsn.003dde"
                         }, 
                         "key": "", 
                         "name": "Bees", 
@@ -314,7 +314,7 @@
                         "city": "Boston", 
                         "fullName": "Boston Braves", 
                         "identity": {
-                            "MLBAPIID": 144
+                            "MLBAPIID": "144.bsn.bff676"
                         }, 
                         "key": "", 
                         "name": "Braves", 
@@ -349,7 +349,7 @@
                         "city": "Boston", 
                         "fullName": "Boston Doves", 
                         "identity": {
-                            "MLBAPIID": 144
+                            "MLBAPIID": "144.bsn.21e471"
                         }, 
                         "key": "", 
                         "name": "Doves", 
@@ -376,7 +376,7 @@
                         "city": "Boston", 
                         "fullName": "Boston Red Caps", 
                         "identity": {
-                            "MLBAPIID": 144
+                            "MLBAPIID": "144.bsn.5f6def"
                         }, 
                         "key": "", 
                         "name": "Red Caps", 
@@ -403,7 +403,7 @@
                         "city": "Boston", 
                         "fullName": "Boston Rustlers", 
                         "identity": {
-                            "MLBAPIID": 144
+                            "MLBAPIID": "144.bsn.f5705b"
                         }, 
                         "key": "", 
                         "name": "Rustlers", 
@@ -415,8 +415,8 @@
                         ]
                     }, 
                     "Milwaukee Braves": {
-                        "abbreviation": "ATL", 
-                        "active": true, 
+                        "abbreviation": "", 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -428,11 +428,9 @@
                             "wordmark": []
                         }, 
                         "city": "Milwaukee", 
-                        "conference": "National League", 
-                        "division": "National League East", 
                         "fullName": "Milwaukee Braves", 
                         "identity": {
-                            "MLBAPIID": 144
+                            "MLBAPIID": "144.ml1.4b2fc4"
                         }, 
                         "key": "", 
                         "name": "Braves", 
@@ -440,54 +438,6 @@
                             {
                                 "fromYear": 1953, 
                                 "toYear": 1966
-                            }, 
-                            {
-                                "fromYear": 1907, 
-                                "toYear": 1911
-                            }, 
-                            {
-                                "fromYear": 1911, 
-                                "toYear": 1912
-                            }, 
-                            {
-                                "fromYear": 1936, 
-                                "toYear": 1953
-                            }, 
-                            {
-                                "fromYear": 1966, 
-                                "toYear": 1997
-                            }, 
-                            {
-                                "fromYear": 1997, 
-                                "toYear": 2017
-                            }, 
-                            {
-                                "fromYear": 2017, 
-                                "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1912, 
-                                "toYear": 1915
-                            }, 
-                            {
-                                "fromYear": 1915, 
-                                "toYear": 1916
-                            }, 
-                            {
-                                "fromYear": 1916, 
-                                "toYear": 1936
-                            }, 
-                            {
-                                "fromYear": 1876, 
-                                "toYear": 1883
-                            }, 
-                            {
-                                "fromYear": 1883, 
-                                "toYear": 1901
-                            }, 
-                            {
-                                "fromYear": 1901, 
-                                "toYear": 1907
                             }
                         ]
                     }
@@ -596,111 +546,35 @@
                         ]
                     }, 
                     "Milwaukee Brewers": {
-                        "abbreviation": "MIL", 
-                        "active": true, 
+                        "abbreviation": "", 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
-                            "badge": [
-                                {
-                                    "source": "thesportsdb", 
-                                    "url": "https://www.thesportsdb.com/images/media/team/badge/08kh2a1595775193.png"
-                                }
-                            ], 
+                            "badge": [], 
                             "banner": [], 
-                            "colors": [
-                                {
-                                    "colortype": "primary", 
-                                    "source": "espnapi", 
-                                    "value": "#050C33"
-                                }, 
-                                {
-                                    "colortype": "secondary", 
-                                    "source": "espnapi", 
-                                    "value": "#f1f2f3"
-                                }, 
-                                {
-                                    "colortype": "primary", 
-                                    "source": "sportsdataio", 
-                                    "value": "#12284B"
-                                }, 
-                                {
-                                    "colortype": "secondary", 
-                                    "source": "sportsdataio", 
-                                    "value": "#FFC52F"
-                                }, 
-                                {
-                                    "colortype": "tertiary", 
-                                    "source": "sportsdataio", 
-                                    "value": "#003DA5"
-                                }
-                            ], 
-                            "fanArt": [
-                                {
-                                    "source": "thesportsdb", 
-                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/bd1cww1551698450.jpg"
-                                }
-                            ], 
-                            "jersey": [
-                                {
-                                    "source": "thesportsdb", 
-                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/2019-135274-Jersey.png"
-                                }
-                            ], 
-                            "logo": [
-                                {
-                                    "source": "wikipedia", 
-                                    "url": "https://upload.wikimedia.org/wikipedia/en/b/b8/Milwaukee_Brewers_logo.svg"
-                                }
-                            ], 
-                            "wordmark": [
-                                {
-                                    "source": "wikipedia", 
-                                    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Milwaukee_Brewers_cap_logo_on_navy.png"
-                                }, 
-                                {
-                                    "source": "thesportsdb", 
-                                    "url": "https://www.thesportsdb.com/images/media/team/logo/f02rkw1595775359.png"
-                                }
-                            ]
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
                         }, 
                         "city": "Milwaukee", 
-                        "conference": "National League", 
-                        "division": "National League Central", 
                         "fullName": "Milwaukee Brewers", 
                         "identity": {
-                            "ESPNAPIID": "8", 
-                            "MLBAPIID": 158, 
-                            "SportsDBID": "135274", 
-                            "SportsDataIOID": "32"
+                            "MLBAPIID": "110.mla.6362d2"
                         }, 
-                        "key": "MIL", 
+                        "key": "", 
                         "name": "Brewers", 
                         "years": [
                             {
                                 "fromYear": 1901, 
                                 "toYear": 1902
-                            }, 
-                            {
-                                "fromYear": 1970, 
-                                "toYear": 1998
-                            }, 
-                            {
-                                "fromYear": 1998, 
-                                "toYear": 2001
-                            }, 
-                            {
-                                "fromYear": 2001, 
-                                "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1969, 
-                                "toYear": 1970
                             }
                         ]
                     }, 
                     "St. Louis Browns": {
-                        "abbreviation": "BAL", 
-                        "active": true, 
+                        "abbreviation": "", 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -712,11 +586,9 @@
                             "wordmark": []
                         }, 
                         "city": "St. Louis", 
-                        "conference": "American League", 
-                        "division": "American League East", 
                         "fullName": "St. Louis Browns", 
                         "identity": {
-                            "MLBAPIID": 110
+                            "MLBAPIID": "110.sla.7024e9"
                         }, 
                         "key": "", 
                         "name": "Browns", 
@@ -732,18 +604,6 @@
                             {
                                 "fromYear": 1911, 
                                 "toYear": 1954
-                            }, 
-                            {
-                                "fromYear": 1901, 
-                                "toYear": 1902
-                            }, 
-                            {
-                                "fromYear": 1954, 
-                                "toYear": 1992
-                            }, 
-                            {
-                                "fromYear": 1992, 
-                                "toYear": 2021
                             }
                         ]
                     }
@@ -771,7 +631,7 @@
                         "city": "Boston", 
                         "fullName": "Boston Americans", 
                         "identity": {
-                            "MLBAPIID": 111
+                            "MLBAPIID": "111.bos.883e57"
                         }, 
                         "key": "", 
                         "name": "Americans", 
@@ -874,10 +734,6 @@
                             {
                                 "fromYear": 1912, 
                                 "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1901, 
-                                "toYear": 1907
                             }
                         ]
                     }
@@ -905,7 +761,7 @@
                         "city": "Chicago", 
                         "fullName": "Chicago Colts", 
                         "identity": {
-                            "MLBAPIID": 112
+                            "MLBAPIID": "112.chn.bb33da"
                         }, 
                         "key": "", 
                         "name": "Colts", 
@@ -1023,7 +879,7 @@
                         "city": "Chicago", 
                         "fullName": "Chicago Orphans", 
                         "identity": {
-                            "MLBAPIID": 112
+                            "MLBAPIID": "112.chn.8073fe"
                         }, 
                         "key": "", 
                         "name": "Orphans", 
@@ -1039,8 +895,8 @@
                         ]
                     }, 
                     "Chicago White Stockings": {
-                        "abbreviation": "CHC", 
-                        "active": true, 
+                        "abbreviation": "", 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -1052,11 +908,9 @@
                             "wordmark": []
                         }, 
                         "city": "Chicago", 
-                        "conference": "National League", 
-                        "division": "National League Central", 
                         "fullName": "Chicago White Stockings", 
                         "identity": {
-                            "MLBAPIID": 112
+                            "MLBAPIID": "112.chn.8f8176"
                         }, 
                         "key": "", 
                         "name": "White Stockings", 
@@ -1064,26 +918,6 @@
                             {
                                 "fromYear": 1876, 
                                 "toYear": 1890
-                            }, 
-                            {
-                                "fromYear": 1898, 
-                                "toYear": 1901
-                            }, 
-                            {
-                                "fromYear": 1901, 
-                                "toYear": 1903
-                            }, 
-                            {
-                                "fromYear": 1890, 
-                                "toYear": 1898
-                            }, 
-                            {
-                                "fromYear": 1903, 
-                                "toYear": 1916
-                            }, 
-                            {
-                                "fromYear": 1916, 
-                                "toYear": 2021
                             }
                         ]
                     }
@@ -1216,7 +1050,7 @@
                         "city": "Cincinnati", 
                         "fullName": "Cincinnati Red Stockings", 
                         "identity": {
-                            "MLBAPIID": 113
+                            "MLBAPIID": "113.cn2.b3ca94"
                         }, 
                         "key": "", 
                         "name": "Red Stockings", 
@@ -1243,7 +1077,7 @@
                         "city": "Cincinnati", 
                         "fullName": "Cincinnati Redlegs", 
                         "identity": {
-                            "MLBAPIID": 113
+                            "MLBAPIID": "113.cin.c8a250"
                         }, 
                         "key": "", 
                         "name": "Redlegs", 
@@ -1358,14 +1192,6 @@
                             {
                                 "fromYear": 2003, 
                                 "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1954, 
-                                "toYear": 1970
-                            }, 
-                            {
-                                "fromYear": 1882, 
-                                "toYear": 1890
                             }
                         ]
                     }
@@ -1393,7 +1219,7 @@
                         "city": "Cleveland", 
                         "fullName": "Cleveland Blues", 
                         "identity": {
-                            "MLBAPIID": 114
+                            "MLBAPIID": "114.cle.1e54fd"
                         }, 
                         "key": "", 
                         "name": "Blues", 
@@ -1405,8 +1231,8 @@
                         ]
                     }, 
                     "Cleveland Bronchos": {
-                        "abbreviation": "CLE", 
-                        "active": true, 
+                        "abbreviation": "", 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -1418,11 +1244,9 @@
                             "wordmark": []
                         }, 
                         "city": "Cleveland", 
-                        "conference": "American League", 
-                        "division": "American League Central", 
                         "fullName": "Cleveland Bronchos", 
                         "identity": {
-                            "MLBAPIID": 114
+                            "MLBAPIID": "114.cle.f2ec67"
                         }, 
                         "key": "", 
                         "name": "Bronchos", 
@@ -1430,38 +1254,6 @@
                             {
                                 "fromYear": 1902, 
                                 "toYear": 1903
-                            }, 
-                            {
-                                "fromYear": 1903, 
-                                "toYear": 1910
-                            }, 
-                            {
-                                "fromYear": 1910, 
-                                "toYear": 1911
-                            }, 
-                            {
-                                "fromYear": 1911, 
-                                "toYear": 1915
-                            }, 
-                            {
-                                "fromYear": 1901, 
-                                "toYear": 1902
-                            }, 
-                            {
-                                "fromYear": 1915, 
-                                "toYear": 1932
-                            }, 
-                            {
-                                "fromYear": 1932, 
-                                "toYear": 1994
-                            }, 
-                            {
-                                "fromYear": 1994, 
-                                "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 2021, 
-                                "toYear": 2022
                             }
                         ]
                     }, 
@@ -1481,7 +1273,7 @@
                         "city": "Cleveland", 
                         "fullName": "Cleveland Guardians", 
                         "identity": {
-                            "MLBAPIID": 114
+                            "MLBAPIID": "114.cle.3114dc"
                         }, 
                         "key": "", 
                         "name": "Guardians", 
@@ -1602,7 +1394,7 @@
                         "city": "Cleveland", 
                         "fullName": "Cleveland Naps", 
                         "identity": {
-                            "MLBAPIID": 114
+                            "MLBAPIID": "114.cle.18887e"
                         }, 
                         "key": "", 
                         "name": "Naps", 
@@ -1927,10 +1719,6 @@
                             {
                                 "fromYear": 2013, 
                                 "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1962, 
-                                "toYear": 1965
                             }
                         ]
                     }, 
@@ -1950,7 +1738,7 @@
                         "city": "Houston", 
                         "fullName": "Houston Colt 45's", 
                         "identity": {
-                            "MLBAPIID": 117
+                            "MLBAPIID": "117.hou.30d84c"
                         }, 
                         "key": "", 
                         "name": "Colt 45's", 
@@ -2089,7 +1877,7 @@
                         "city": "Anaheim", 
                         "fullName": "Anaheim Angels", 
                         "identity": {
-                            "MLBAPIID": 108
+                            "MLBAPIID": "108.ana.c2369b"
                         }, 
                         "key": "", 
                         "name": "Angels", 
@@ -2101,8 +1889,8 @@
                         ]
                     }, 
                     "California Angels": {
-                        "abbreviation": "LAA", 
-                        "active": true, 
+                        "abbreviation": "", 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -2114,11 +1902,9 @@
                             "wordmark": []
                         }, 
                         "city": "California", 
-                        "conference": "American League", 
-                        "division": "American League West", 
                         "fullName": "California Angels", 
                         "identity": {
-                            "MLBAPIID": 108
+                            "MLBAPIID": "108.cal.037d55"
                         }, 
                         "key": "", 
                         "name": "Angels", 
@@ -2126,22 +1912,6 @@
                             {
                                 "fromYear": 1966, 
                                 "toYear": 1997
-                            }, 
-                            {
-                                "fromYear": 1961, 
-                                "toYear": 1962
-                            }, 
-                            {
-                                "fromYear": 1962, 
-                                "toYear": 1966
-                            }, 
-                            {
-                                "fromYear": 2005, 
-                                "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1997, 
-                                "toYear": 2005
                             }
                         ]
                     }, 
@@ -2264,7 +2034,7 @@
                         "city": "Brooklyn", 
                         "fullName": "Brooklyn Atlantics", 
                         "identity": {
-                            "MLBAPIID": 119
+                            "MLBAPIID": "119.br3.aee6e1"
                         }, 
                         "key": "", 
                         "name": "Atlantics", 
@@ -2291,7 +2061,7 @@
                         "city": "Brooklyn", 
                         "fullName": "Brooklyn Bridegrooms", 
                         "identity": {
-                            "MLBAPIID": 119
+                            "MLBAPIID": "119.br3.86e004"
                         }, 
                         "key": "", 
                         "name": "Bridegrooms", 
@@ -2322,7 +2092,7 @@
                         "city": "Brooklyn", 
                         "fullName": "Brooklyn Dodgers", 
                         "identity": {
-                            "MLBAPIID": 119
+                            "MLBAPIID": "119.bro.c8602a"
                         }, 
                         "key": "", 
                         "name": "Dodgers", 
@@ -2353,7 +2123,7 @@
                         "city": "Brooklyn", 
                         "fullName": "Brooklyn Grays", 
                         "identity": {
-                            "MLBAPIID": 119
+                            "MLBAPIID": "119.br3.0d7d05"
                         }, 
                         "key": "", 
                         "name": "Grays", 
@@ -2380,7 +2150,7 @@
                         "city": "Brooklyn", 
                         "fullName": "Brooklyn Grooms", 
                         "identity": {
-                            "MLBAPIID": 119
+                            "MLBAPIID": "119.bro.d1ef33"
                         }, 
                         "key": "", 
                         "name": "Grooms", 
@@ -2407,7 +2177,7 @@
                         "city": "Brooklyn", 
                         "fullName": "Brooklyn Robins", 
                         "identity": {
-                            "MLBAPIID": 119
+                            "MLBAPIID": "119.bro.a41b86"
                         }, 
                         "key": "", 
                         "name": "Robins", 
@@ -2419,8 +2189,8 @@
                         ]
                     }, 
                     "Brooklyn Superbas": {
-                        "abbreviation": "LAD", 
-                        "active": true, 
+                        "abbreviation": "", 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -2432,11 +2202,9 @@
                             "wordmark": []
                         }, 
                         "city": "Brooklyn", 
-                        "conference": "National League", 
-                        "division": "National League West", 
                         "fullName": "Brooklyn Superbas", 
                         "identity": {
-                            "MLBAPIID": 119
+                            "MLBAPIID": "119.bro.6f66b2"
                         }, 
                         "key": "", 
                         "name": "Superbas", 
@@ -2452,46 +2220,6 @@
                             {
                                 "fromYear": 1913, 
                                 "toYear": 1914
-                            }, 
-                            {
-                                "fromYear": 1911, 
-                                "toYear": 1913
-                            }, 
-                            {
-                                "fromYear": 1932, 
-                                "toYear": 1958
-                            }, 
-                            {
-                                "fromYear": 1958, 
-                                "toYear": 1962
-                            }, 
-                            {
-                                "fromYear": 1962, 
-                                "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1891, 
-                                "toYear": 1899
-                            }, 
-                            {
-                                "fromYear": 1914, 
-                                "toYear": 1932
-                            }, 
-                            {
-                                "fromYear": 1885, 
-                                "toYear": 1888
-                            }, 
-                            {
-                                "fromYear": 1884, 
-                                "toYear": 1885
-                            }, 
-                            {
-                                "fromYear": 1888, 
-                                "toYear": 1890
-                            }, 
-                            {
-                                "fromYear": 1890, 
-                                "toYear": 1891
                             }
                         ]
                     }, 
@@ -2610,7 +2338,7 @@
                         "city": "Florida", 
                         "fullName": "Florida Marlins", 
                         "identity": {
-                            "MLBAPIID": 146
+                            "MLBAPIID": "146.flo.64dded"
                         }, 
                         "key": "", 
                         "name": "Marlins", 
@@ -2710,10 +2438,6 @@
                             {
                                 "fromYear": 2012, 
                                 "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1993, 
-                                "toYear": 2012
                             }
                         ]
                     }
@@ -2730,22 +2454,80 @@
                         "active": true, 
                         "aliases": [], 
                         "assets": {
-                            "badge": [], 
+                            "badge": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/badge/08kh2a1595775193.png"
+                                }
+                            ], 
                             "banner": [], 
-                            "colors": [], 
-                            "fanArt": [], 
-                            "jersey": [], 
-                            "logo": [], 
-                            "wordmark": []
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#050C33"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#f1f2f3"
+                                }, 
+                                {
+                                    "colortype": "primary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#12284B"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#FFC52F"
+                                }, 
+                                {
+                                    "colortype": "tertiary", 
+                                    "source": "sportsdataio", 
+                                    "value": "#003DA5"
+                                }
+                            ], 
+                            "fanArt": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/fanart/bd1cww1551698450.jpg"
+                                }
+                            ], 
+                            "jersey": [
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/jersey/2019-135274-Jersey.png"
+                                }
+                            ], 
+                            "logo": [
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/en/b/b8/Milwaukee_Brewers_logo.svg"
+                                }
+                            ], 
+                            "wordmark": [
+                                {
+                                    "source": "wikipedia", 
+                                    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Milwaukee_Brewers_cap_logo_on_navy.png"
+                                }, 
+                                {
+                                    "source": "thesportsdb", 
+                                    "url": "https://www.thesportsdb.com/images/media/team/logo/f02rkw1595775359.png"
+                                }
+                            ]
                         }, 
                         "city": "Milwaukee", 
                         "conference": "National League", 
                         "division": "National League Central", 
                         "fullName": "Milwaukee Brewers", 
                         "identity": {
-                            "MLBAPIID": 158
+                            "ESPNAPIID": "8", 
+                            "MLBAPIID": 158, 
+                            "SportsDBID": "135274", 
+                            "SportsDataIOID": "32"
                         }, 
-                        "key": "", 
+                        "key": "MIL", 
                         "name": "Brewers", 
                         "years": [
                             {
@@ -2778,7 +2560,7 @@
                         "city": "Seattle", 
                         "fullName": "Seattle Pilots", 
                         "identity": {
-                            "MLBAPIID": 158
+                            "MLBAPIID": "158.se1.ed1833"
                         }, 
                         "key": "", 
                         "name": "Pilots", 
@@ -2913,7 +2695,7 @@
                         "city": "Washington", 
                         "fullName": "Washington Senators", 
                         "identity": {
-                            "MLBAPIID": 142
+                            "MLBAPIID": "142.ws1.2e893b"
                         }, 
                         "key": "", 
                         "name": "Senators", 
@@ -3070,8 +2852,8 @@
                 "name": "New York Yankees", 
                 "teams": {
                     "New York Highlanders": {
-                        "abbreviation": "NYY", 
-                        "active": true, 
+                        "abbreviation": "", 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -3083,11 +2865,9 @@
                             "wordmark": []
                         }, 
                         "city": "New York", 
-                        "conference": "American League", 
-                        "division": "American League East", 
                         "fullName": "New York Highlanders", 
                         "identity": {
-                            "MLBAPIID": 147
+                            "MLBAPIID": "147.nya.02a69b"
                         }, 
                         "key": "", 
                         "name": "Highlanders", 
@@ -3099,22 +2879,6 @@
                             {
                                 "fromYear": 1911, 
                                 "toYear": 1913
-                            }, 
-                            {
-                                "fromYear": 1913, 
-                                "toYear": 1923
-                            }, 
-                            {
-                                "fromYear": 1923, 
-                                "toYear": 1974
-                            }, 
-                            {
-                                "fromYear": 1974, 
-                                "toYear": 2009
-                            }, 
-                            {
-                                "fromYear": 2009, 
-                                "toYear": 2021
                             }
                         ]
                     }, 
@@ -3241,7 +3005,7 @@
                         "city": "Kansas City", 
                         "fullName": "Kansas City Athletics", 
                         "identity": {
-                            "MLBAPIID": 133
+                            "MLBAPIID": "133.kc1.58b5c5"
                         }, 
                         "key": "", 
                         "name": "Athletics", 
@@ -3340,8 +3104,8 @@
                         ]
                     }, 
                     "Philadelphia Athletics": {
-                        "abbreviation": "OAK", 
-                        "active": true, 
+                        "abbreviation": "", 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -3353,11 +3117,9 @@
                             "wordmark": []
                         }, 
                         "city": "Philadelphia", 
-                        "conference": "American League", 
-                        "division": "American League West", 
                         "fullName": "Philadelphia Athletics", 
                         "identity": {
-                            "MLBAPIID": 133
+                            "MLBAPIID": "133.pha.8e87c4"
                         }, 
                         "key": "", 
                         "name": "Athletics", 
@@ -3369,14 +3131,6 @@
                             {
                                 "fromYear": 1909, 
                                 "toYear": 1955
-                            }, 
-                            {
-                                "fromYear": 1955, 
-                                "toYear": 1968
-                            }, 
-                            {
-                                "fromYear": 1968, 
-                                "toYear": 2021
                             }
                         ]
                     }
@@ -3729,7 +3483,7 @@
                         "city": "New York", 
                         "fullName": "New York Giants", 
                         "identity": {
-                            "MLBAPIID": 137
+                            "MLBAPIID": "137.ny1.5f3127"
                         }, 
                         "key": "", 
                         "name": "Giants", 
@@ -3749,8 +3503,8 @@
                         ]
                     }, 
                     "New York Gothams": {
-                        "abbreviation": "SF", 
-                        "active": true, 
+                        "abbreviation": "", 
+                        "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -3762,11 +3516,9 @@
                             "wordmark": []
                         }, 
                         "city": "New York", 
-                        "conference": "National League", 
-                        "division": "National League West", 
                         "fullName": "New York Gothams", 
                         "identity": {
-                            "MLBAPIID": 137
+                            "MLBAPIID": "137.ny0.e64a49"
                         }, 
                         "key": "", 
                         "name": "Gothams", 
@@ -3774,30 +3526,6 @@
                             {
                                 "fromYear": 1883, 
                                 "toYear": 1886
-                            }, 
-                            {
-                                "fromYear": 1886, 
-                                "toYear": 1901
-                            }, 
-                            {
-                                "fromYear": 1901, 
-                                "toYear": 1911
-                            }, 
-                            {
-                                "fromYear": 1911, 
-                                "toYear": 1958
-                            }, 
-                            {
-                                "fromYear": 1958, 
-                                "toYear": 1960
-                            }, 
-                            {
-                                "fromYear": 1960, 
-                                "toYear": 2000
-                            }, 
-                            {
-                                "fromYear": 2000, 
-                                "toYear": 2021
                             }
                         ]
                     }, 
@@ -4147,7 +3875,7 @@
                         "city": "Tampa Bay", 
                         "fullName": "Tampa Bay Devil Rays", 
                         "identity": {
-                            "MLBAPIID": 139
+                            "MLBAPIID": "139.tba.77fa12"
                         }, 
                         "key": "", 
                         "name": "Devil Rays", 
@@ -4247,10 +3975,6 @@
                             {
                                 "fromYear": 2008, 
                                 "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1998, 
-                                "toYear": 2008
                             }
                         ]
                     }
@@ -4354,14 +4078,6 @@
                             {
                                 "fromYear": 2020, 
                                 "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1961, 
-                                "toYear": 1962
-                            }, 
-                            {
-                                "fromYear": 1962, 
-                                "toYear": 1972
                             }
                         ]
                     }, 
@@ -4381,7 +4097,7 @@
                         "city": "Washington", 
                         "fullName": "Washington Senators", 
                         "identity": {
-                            "MLBAPIID": 142
+                            "MLBAPIID": "140.ws2.2e893b"
                         }, 
                         "key": "", 
                         "name": "Senators", 
@@ -4393,14 +4109,6 @@
                             {
                                 "fromYear": 1962, 
                                 "toYear": 1972
-                            }, 
-                            {
-                                "fromYear": 1901, 
-                                "toYear": 1903
-                            }, 
-                            {
-                                "fromYear": 1903, 
-                                "toYear": 1961
                             }
                         ]
                     }
@@ -4532,7 +4240,7 @@
                         "city": "Montreal", 
                         "fullName": "Montreal Expos", 
                         "identity": {
-                            "MLBAPIID": 120
+                            "MLBAPIID": "120.mon.91f8f8"
                         }, 
                         "key": "", 
                         "name": "Expos", 
@@ -4637,14 +4345,6 @@
                             {
                                 "fromYear": 2008, 
                                 "toYear": 2021
-                            }, 
-                            {
-                                "fromYear": 1969, 
-                                "toYear": 1977
-                            }, 
-                            {
-                                "fromYear": 1977, 
-                                "toYear": 2005
                             }
                         ]
                     }
