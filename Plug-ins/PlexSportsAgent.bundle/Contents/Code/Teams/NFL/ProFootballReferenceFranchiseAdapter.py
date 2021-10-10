@@ -41,7 +41,7 @@ def DownloadAllFranchises(league):
 
 	# Adapt franchises to global teams model
 	for franchise in pfrFranchises.values():
-		franchiseName = franchise.get("fullName") or franchise.get("name")
+		franchiseName = deunicode(franchise.get("fullName")) or deunicode(franchise.get("name"))
 		if not franchise.get("fullName"): franchise["fullName"] = franchiseName
 		franchiseName = franchise["fullName"]
 
@@ -51,12 +51,12 @@ def DownloadAllFranchises(league):
 		del(franchise["to"])
 
 		for team in franchise["teams"].values():
-			teamName = team.get("fullName") or team.get("name")
+			teamName = deunicode(team.get("fullName")) or deunicode(team.get("name"))
 
 			# key - we don't ever change. The original pfr abbreviation
 			# abbrev - NFL official abbreviation
 			# id - identifier for the team, used by psn, relative to pfr
-			abbrev = key = id = franchise["abbrev"]
+			abbrev = key = id = deunicode(franchise["abbrev"])
 
 			active = team.get("active") == True
 			aliases = team.get("aliases") or []
@@ -64,13 +64,13 @@ def DownloadAllFranchises(league):
 			if active:
 				for inactiveTeam in franchise["teams"].values():
 					if inactiveTeam.get("active") == True: continue
-					inactiveName = inactiveTeam.get("fullName") or inactiveTeam.get("name") or ""
+					inactiveName = deunicode(inactiveTeam.get("fullName")) or deunicode(inactiveTeam.get("name")) or ""
 					if inactiveName:
 						aliases.append(inactiveName)
 						if team.get("city"):
 							if inactiveName[:len(team["city"])] == team["city"]:
 								# Get any deadname cities
-								aliases.append(inactiveName[:len(team["city"])].strip())
+								aliases.append(deunicode(inactiveName[:len(team["city"])].strip()))
 
 			if abbrev in pfr_abbreviation_corrections.keys():
 				if active: aliases.append(abbrev)

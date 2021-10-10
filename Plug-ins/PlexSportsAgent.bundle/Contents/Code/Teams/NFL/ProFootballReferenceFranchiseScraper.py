@@ -128,22 +128,22 @@ def __download_all_franchise_data():
 		info = dict()
 		
 		teamNameNode = row.select(selectors["team-name"])[0]
-		teamName = teamNameNode.text
+		teamName = deunicode(teamNameNode.text)
 		while teamName[-1] in ["*"]:
 			teamName = teamName[0:-1]
 		info["name"] = teamName
 		
 		teamLinkNodes = teamNameNode.select(selectors["team-link"])
 		if teamLinkNodes:
-			href = teamLinkNodes[0].attrs.get("href")
+			href = deunicode(teamLinkNodes[0].attrs.get("href"))
 			if href:
 				info["href"] = href
 				info["abbrev"] = __extract_team_abbrev_from_team_url(href)
 
 		fromNode = row.select(selectors["from"])[0]
-		info["from"] = fromNode.text
+		info["from"] = deunicode(fromNode.text)
 		toNode = row.select(selectors["to"])[0]
-		info["to"] = toNode.text
+		info["to"] = deunicode(toNode.text)
 
 		return info
 
@@ -303,10 +303,10 @@ def __process_teams_footer(soup, franchises, franchiseLookup):
 					for divisionNode in divisionNodes:
 						if divisionNode.children:
 							divisionText = divisionNode.contents[0]
-							(conference, division) = __parse_conference_and_division(divisionText.rstrip(": "))
+							(conference, division) = __parse_conference_and_division(deunicode(divisionText.rstrip(": ")))
 							for teamLink in divisionNode.select("a"):
-								teamShortName = teamLink.text
-								teamLinkHref = teamLink.attrs["href"]
+								teamShortName = deunicode(teamLink.text)
+								teamLinkHref = deunicode(teamLink.attrs["href"])
 								abbrev = __extract_team_abbrev_from_team_url(teamLinkHref)
 								franchise = franchises[franchiseLookup[abbrev]]
 								city = None
