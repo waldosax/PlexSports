@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFLFRANCHISES", 
-        "CachedOn": "2021-10-03T05:55:08", 
-        "ExpiresOn": "2022-02-15T05:55:08", 
+        "CachedOn": "2021-10-10T13:19:57", 
+        "ExpiresOn": "2022-02-22T13:19:57", 
         "Version": "1"
     }, 
     "Items": [
@@ -8746,12 +8746,46 @@
             }, 
             "Los Angeles Rams": {
                 "active": true, 
+                "fromYear": 1937, 
                 "name": "Los Angeles Rams", 
                 "teams": {
+                    "Cleveland Rams": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram.png"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "fullName": "Cleveland Rams", 
+                        "identity": {
+                            "ProFootballReferenceID": "RAM.LAR.CR"
+                        }, 
+                        "key": "", 
+                        "years": [
+                            {
+                                "fromYear": 1937, 
+                                "toYear": 1945
+                            }
+                        ]
+                    }, 
                     "Los Angeles Rams": {
                         "abbreviation": "LAR", 
                         "active": true, 
                         "aliases": [
+                            "Cleveland Rams", 
+                            "St. Louis Rams", 
+                            "RAM", 
                             "LA Rams"
                         ], 
                         "assets": {
@@ -8763,6 +8797,16 @@
                             ], 
                             "banner": [], 
                             "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#00295B"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#b3995d"
+                                }, 
                                 {
                                     "colortype": "primary", 
                                     "source": "sportsdataio", 
@@ -8793,6 +8837,285 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram.png"
+                                }, 
+                                {
+                                    "season": 1946, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1946.png"
+                                }, 
+                                {
+                                    "season": 1947, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1947.png"
+                                }, 
+                                {
+                                    "season": 1948, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1948.png"
+                                }, 
+                                {
+                                    "season": 1949, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1949.png"
+                                }, 
+                                {
+                                    "season": 1950, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1950.png"
+                                }, 
+                                {
+                                    "season": 1951, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1951.png"
+                                }, 
+                                {
+                                    "season": 1952, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1952.png"
+                                }, 
+                                {
+                                    "season": 1953, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1953.png"
+                                }, 
+                                {
+                                    "season": 1954, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1954.png"
+                                }, 
+                                {
+                                    "season": 1955, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1955.png"
+                                }, 
+                                {
+                                    "season": 1956, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1956.png"
+                                }, 
+                                {
+                                    "season": 1957, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1957.png"
+                                }, 
+                                {
+                                    "season": 1958, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1958.png"
+                                }, 
+                                {
+                                    "season": 1959, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1959.png"
+                                }, 
+                                {
+                                    "season": 1960, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1960.png"
+                                }, 
+                                {
+                                    "season": 1961, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1961.png"
+                                }, 
+                                {
+                                    "season": 1962, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1962.png"
+                                }, 
+                                {
+                                    "season": 1963, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1963.png"
+                                }, 
+                                {
+                                    "season": 1964, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1964.png"
+                                }, 
+                                {
+                                    "season": 1965, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1965.png"
+                                }, 
+                                {
+                                    "season": 1966, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1966.png"
+                                }, 
+                                {
+                                    "season": 1967, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1967.png"
+                                }, 
+                                {
+                                    "season": 1968, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1968.png"
+                                }, 
+                                {
+                                    "season": 1969, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1969.png"
+                                }, 
+                                {
+                                    "season": 1970, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1970.png"
+                                }, 
+                                {
+                                    "season": 1971, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1971.png"
+                                }, 
+                                {
+                                    "season": 1972, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1972.png"
+                                }, 
+                                {
+                                    "season": 1973, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1973.png"
+                                }, 
+                                {
+                                    "season": 1974, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1974.png"
+                                }, 
+                                {
+                                    "season": 1975, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1975.png"
+                                }, 
+                                {
+                                    "season": 1976, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1976.png"
+                                }, 
+                                {
+                                    "season": 1977, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1977.png"
+                                }, 
+                                {
+                                    "season": 1978, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1978.png"
+                                }, 
+                                {
+                                    "season": 1979, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1979.png"
+                                }, 
+                                {
+                                    "season": 1980, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1980.png"
+                                }, 
+                                {
+                                    "season": 1981, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1981.png"
+                                }, 
+                                {
+                                    "season": 1982, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1982.png"
+                                }, 
+                                {
+                                    "season": 1983, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1983.png"
+                                }, 
+                                {
+                                    "season": 1984, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1984.png"
+                                }, 
+                                {
+                                    "season": 1985, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1985.png"
+                                }, 
+                                {
+                                    "season": 1986, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1986.png"
+                                }, 
+                                {
+                                    "season": 1987, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1987.png"
+                                }, 
+                                {
+                                    "season": 1988, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1988.png"
+                                }, 
+                                {
+                                    "season": 1989, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1989.png"
+                                }, 
+                                {
+                                    "season": 1990, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1990.png"
+                                }, 
+                                {
+                                    "season": 1991, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1991.png"
+                                }, 
+                                {
+                                    "season": 1992, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1992.png"
+                                }, 
+                                {
+                                    "season": 1993, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1993.png"
+                                }, 
+                                {
+                                    "season": 1994, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-1994.png"
+                                }, 
+                                {
+                                    "season": 2016, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-2016.png"
+                                }, 
+                                {
+                                    "season": 2017, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-2017.png"
+                                }, 
+                                {
+                                    "season": 2018, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-2018.png"
+                                }, 
+                                {
+                                    "season": 2019, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-2019.png"
+                                }, 
+                                {
+                                    "season": 2020, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-2020.png"
+                                }, 
+                                {
+                                    "season": 2021, 
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-2021.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/8/8a/Los_Angeles_Rams_logo.svg"
                                 }
@@ -8813,14 +9136,56 @@
                         "division": "West", 
                         "fullName": "Los Angeles Rams", 
                         "identity": {
+                            "ESPNAPIID": "14", 
+                            "ProFootballReferenceID": "RAM", 
                             "SportsDBID": "135907", 
                             "SportsDataIOID": "32"
                         }, 
                         "key": "LAR", 
                         "name": "Rams", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1946, 
+                                "toYear": 1994
+                            }, 
+                            {
+                                "fromYear": 2016, 
+                                "toYear": 2021
+                            }
+                        ]
+                    }, 
+                    "St. Louis Rams": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "profootballreference", 
+                                    "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram.png"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "fullName": "St. Louis Rams", 
+                        "identity": {
+                            "ProFootballReferenceID": "RAM.LAR.SLR"
+                        }, 
+                        "key": "", 
+                        "years": [
+                            {
+                                "fromYear": 1995, 
+                                "toYear": 2015
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2021
             }, 
             "Louisville Colonels": {
                 "active": false, 

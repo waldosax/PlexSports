@@ -44,6 +44,10 @@ def DownloadAllTeams(league):
 		activeTeamKeys.append(deunicode(team["Key"]).upper())
 
 	for team in allTeams:
+		if league == LEAGUE_NFL and team.get("TeamID") == 18:
+			# Skip dead team (bad data)
+			continue
+
 		active = deunicode(team["Key"]).upper() in activeTeamKeys
 
 		city = deunicode(team["City"])
