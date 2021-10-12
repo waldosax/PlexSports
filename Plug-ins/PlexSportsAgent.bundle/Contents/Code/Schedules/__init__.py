@@ -373,8 +373,9 @@ def __refresh_schedule_cache(sport, league, season, computeHashes=False):
 	for daysEvents in sorted(schedule.values(), key=get_sortable_days_event_key):
 		for event in sorted(sorted(daysEvents.values(), key=get_sortable_event_key), key=get_sortable_event_key2):
 			jsonEvents.append(event)
-	cacheContainer = CacheContainer(jsonEvents, CacheType="%s%sSCHEDULE" % (league, season), Version=CACHE_VERSION, Duration=CACHE_DURATION)
-	__write_schedule_cache_file(sport, league, season, cacheContainer.Serialize())
+	if len(jsonEvents) > 0:
+		cacheContainer = CacheContainer(jsonEvents, CacheType="%s%sSCHEDULE" % (league, season), Version=CACHE_VERSION, Duration=CACHE_DURATION)
+		__write_schedule_cache_file(sport, league, season, cacheContainer.Serialize())
 	
 	# Insert into the scan dict
 	if computeHashes:
