@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1997SCHEDULE", 
-        "CachedOn": "2021-09-11T08:08:59", 
-        "ExpiresOn": "2021-09-18T08:08:59", 
+        "CachedOn": "2021-10-11T23:56:49", 
+        "ExpiresOn": "2021-10-18T23:56:49", 
         "Version": "2"
     }, 
     "Items": [
@@ -2714,14 +2714,17 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Florida Panthers", 
+            "awayTeam": "FLA", 
             "date": "1997-10-12T00:30:00+00:00", 
-            "homeTeam": "St. Louis Blues", 
+            "eventTitle": "", 
+            "homeTeam": "STL", 
             "identity": {
-                "NHLAPIID": 1997020059
+                "ESPNAPIID": "171011019"
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "KPLR"
+            ], 
             "season": "1997", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -2736,17 +2739,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "FLA", 
+            "awayTeam": "Florida Panthers", 
             "date": "1997-10-12T00:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "STL", 
+            "homeTeam": "St. Louis Blues", 
             "identity": {
-                "ESPNAPIID": "171011019"
+                "NHLAPIID": 1997020059
             }, 
             "league": "NHL", 
-            "networks": [
-                "KPLR"
-            ], 
+            "networks": [], 
             "season": "1997", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -7076,6 +7076,31 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "STL", 
+            "date": "1997-10-30T00:30:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "PHI", 
+            "identity": {
+                "ESPNAPIID": "171029015"
+            }, 
+            "league": "NHL", 
+            "networks": [
+                "CSN"
+            ], 
+            "season": "1997", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Philadelphia Flyers vs. St. Louis Blues"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "NYI", 
             "date": "1997-10-30T00:30:00+00:00", 
             "eventTitle": "", 
@@ -7114,31 +7139,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Tampa Bay Lightning vs. Ottawa Senators"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "STL", 
-            "date": "1997-10-30T00:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "171029015"
-            }, 
-            "league": "NHL", 
-            "networks": [
-                "CSN"
-            ], 
-            "season": "1997", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Philadelphia Flyers vs. St. Louis Blues"
         }, 
         {
             "assets": {
@@ -25956,14 +25956,17 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Vancouver Canucks", 
+            "awayTeam": "VAN", 
             "date": "1998-01-09T02:00:00+00:00", 
-            "homeTeam": "Colorado Avalanche", 
+            "eventTitle": "", 
+            "homeTeam": "COL", 
             "identity": {
-                "NHLAPIID": 1997020568
+                "ESPNAPIID": "180108017"
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "FSN"
+            ], 
             "season": "1997", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -25978,17 +25981,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "VAN", 
+            "awayTeam": "Vancouver Canucks", 
             "date": "1998-01-09T02:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "COL", 
+            "homeTeam": "Colorado Avalanche", 
             "identity": {
-                "ESPNAPIID": "180108017"
+                "NHLAPIID": 1997020568
             }, 
             "league": "NHL", 
-            "networks": [
-                "FSN"
-            ], 
+            "networks": [], 
             "season": "1997", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -27326,14 +27326,17 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Ottawa Senators", 
+            "awayTeam": "OTT", 
             "date": "1998-01-14T00:00:00+00:00", 
-            "homeTeam": "Washington Capitals", 
+            "eventTitle": "", 
+            "homeTeam": "WSH", 
             "identity": {
-                "NHLAPIID": 1997020599
+                "ESPNAPIID": "180113023"
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "CSN"
+            ], 
             "season": "1997", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -27348,17 +27351,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "OTT", 
+            "awayTeam": "Ottawa Senators", 
             "date": "1998-01-14T00:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "Washington Capitals", 
             "identity": {
-                "ESPNAPIID": "180113023"
+                "NHLAPIID": 1997020599
             }, 
             "league": "NHL", 
-            "networks": [
-                "CSN"
-            ], 
+            "networks": [], 
             "season": "1997", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -38316,11 +38316,12 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Toronto Maple Leafs", 
+            "awayTeam": "TOR", 
             "date": "1998-03-13T03:30:00+00:00", 
-            "homeTeam": "Los Angeles Kings", 
+            "eventTitle": "", 
+            "homeTeam": "LA ", 
             "identity": {
-                "NHLAPIID": 1997020838
+                "ESPNAPIID": "180312008"
             }, 
             "league": "NHL", 
             "networks": [], 
@@ -38338,12 +38339,11 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "TOR", 
+            "awayTeam": "Toronto Maple Leafs", 
             "date": "1998-03-13T03:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "LA ", 
+            "homeTeam": "Los Angeles Kings", 
             "identity": {
-                "ESPNAPIID": "180312008"
+                "NHLAPIID": 1997020838
             }, 
             "league": "NHL", 
             "networks": [], 
@@ -39698,29 +39698,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NYI", 
-            "date": "1998-03-19T00:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "OTT", 
-            "identity": {
-                "ESPNAPIID": "180318014"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Ottawa Senators vs. New York Islanders"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "Vancouver Canucks", 
             "date": "1998-03-19T00:30:00+00:00", 
             "homeTeam": "Tampa Bay Lightning", 
@@ -39915,6 +39892,29 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "New York Rangers vs. Montreal Canadiens"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYI", 
+            "date": "1998-03-19T00:30:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "OTT", 
+            "identity": {
+                "ESPNAPIID": "180318014"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Ottawa Senators vs. New York Islanders"
         }, 
         {
             "assets": {
@@ -41295,28 +41295,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Toronto Maple Leafs", 
-            "date": "1998-03-25T02:00:00+00:00", 
-            "homeTeam": "Phoenix Coyotes", 
-            "identity": {
-                "NHLAPIID": 1997020903
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Phoenix Coyotes vs. Toronto Maple Leafs"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "BUF", 
             "date": "1998-03-25T02:00:00+00:00", 
             "eventTitle": "", 
@@ -41330,6 +41308,28 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Calgary Flames vs. Buffalo Sabres"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "Toronto Maple Leafs", 
+            "date": "1998-03-25T02:00:00+00:00", 
+            "homeTeam": "Phoenix Coyotes", 
+            "identity": {
+                "NHLAPIID": 1997020903
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Phoenix Coyotes vs. Toronto Maple Leafs"
         }, 
         {
             "assets": {

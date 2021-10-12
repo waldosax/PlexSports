@@ -75,14 +75,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					"description": deunicode(normalize(schedEvent["strDescriptionEN"])),
 					"homeTeam": homeTeamKey,
 					"awayTeam": awayTeamKey,
-					"networks": splitAndTrim(deunicode(schedEvent["strTVStation"])),
-					"assets": {
-						"poster": [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strPoster"]))],
-						"fanArt": [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strFanart"]))],
-						"thumbnail": [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strThumb"]))],
-						"banner": [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strBanner"]))],
-						"preview": [EventAsset(source=ASSET_SOURCE_THESPORTSDB, url=deunicode(schedEvent["strVideo"]))]
-						}
+					"networks": splitAndTrim(deunicode(schedEvent["strTVStation"]))
 					}
 
 				assets = dict()

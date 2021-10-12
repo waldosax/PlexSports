@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2019SCHEDULE", 
-        "CachedOn": "2021-09-12T12:23:45", 
-        "ExpiresOn": "2021-09-19T12:23:45", 
+        "CachedOn": "2021-10-12T10:45:49", 
+        "ExpiresOn": "2021-10-19T10:45:49", 
         "Version": "2"
     }, 
     "Items": [
@@ -71,20 +71,23 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "IND", 
+            "awayTeam": "NYJ", 
             "date": "2019-08-08T23:00:00+00:00", 
-            "description": "With LeSean McCoy resting, and Frank Gore limited to two series, rookie running back Devin Singletary got the Buffalo Bills off to a running start in their preseason-opening 24-16 win over the Indianapolis Colts on Thursday night.", 
-            "homeTeam": "BUF", 
+            "description": "Daniel Jones threw a touchdown pass in his only series and opened speculation on how long he will have to wait to replace Eli Manning in the Giants' 31-22 victory over the local rival Jets on Thursday night.", 
+            "homeTeam": "NYG", 
             "identity": {
-                "ESPNAPIID": "401128187", 
-                "SportsDataIOID": "16923"
+                "ESPNAPIID": "401128153", 
+                "SportsDataIOID": "16924"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "NFLN", 
+                "NFL"
+            ], 
             "season": "2019", 
             "sport": "Football", 
             "subseason": -1, 
-            "vs": "Buffalo Bills vs. Indianapolis Colts", 
+            "vs": "New York Giants vs. New York Jets", 
             "week": 1
         }, 
         {
@@ -96,23 +99,28 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=7-ZikhYJh50"
+                        "url": "https://www.youtube.com/watch?v=KxfcKVM7UUQ"
                     }
                 ], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/9qoc4a1565297273.jpg"
+                    }
+                ]
             }, 
-            "awayTeam": "IND", 
+            "awayTeam": "NYJ", 
             "date": "2019-08-09T00:00:00+00:00", 
             "description": "", 
-            "homeTeam": "BUF", 
+            "homeTeam": "NYG", 
             "identity": {
-                "TheSportsDBID": "600749"
+                "TheSportsDBID": "600750"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "2019", 
             "sport": "Football", 
-            "vs": "Buffalo Bills vs Indianapolis Colts"
+            "vs": "New York Giants vs New York Jets"
         }, 
         {
             "assets": {
@@ -215,195 +223,6 @@
             "subseason": -1, 
             "vs": "Cleveland Browns vs. Washington", 
             "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYJ", 
-            "date": "2019-08-08T23:00:00+00:00", 
-            "description": "Daniel Jones threw a touchdown pass in his only series and opened speculation on how long he will have to wait to replace Eli Manning in the Giants' 31-22 victory over the local rival Jets on Thursday night.", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ESPNAPIID": "401128153", 
-                "SportsDataIOID": "16924"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "NFLN", 
-                "NFL"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "New York Giants vs. New York Jets", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=KxfcKVM7UUQ"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/9qoc4a1565297273.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "NYJ", 
-            "date": "2019-08-09T00:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "TheSportsDBID": "600750"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "New York Giants vs New York Jets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "HOU", 
-            "date": "2019-08-09T00:00:00+00:00", 
-            "description": "DeShone Kizer was 8 for 13 with 102 yards and a touchdown and the Green Bay Packers topped the Houston Texans 28-26 in the preseason opener for both teams on Thursday night.", 
-            "homeTeam": "GB", 
-            "identity": {
-                "ESPNAPIID": "401128162", 
-                "SportsDataIOID": "16931"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Green Bay Packers vs. Houston Texans", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=mmh2lTg8Dc8"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "HOU", 
-            "date": "2019-08-09T01:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "GB", 
-            "identity": {
-                "TheSportsDBID": "600757"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Green Bay Packers vs Houston Texans"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=FrVsP-sLksY"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
-            "date": "2019-08-09T00:30:00+00:00", 
-            "description": "", 
-            "homeTeam": "JAX", 
-            "identity": {
-                "TheSportsDBID": "600752"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Jacksonville Jaguars vs Baltimore Ravens"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2019-08-08T23:30:00+00:00", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "SportsDataIOID": "16925"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Browns vs Washington Football Team", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=MYYq93gJ_rQ"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2019-08-09T00:30:00+00:00", 
-            "description": "", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "TheSportsDBID": "600755"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Cleveland Browns vs Washington Redskins"
         }, 
         {
             "assets": {
@@ -570,20 +389,20 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DEN", 
-            "date": "2019-08-09T02:00:00+00:00", 
-            "description": "Paxton Lynch threw for one score and ran for another against his former team as part of an impressive second-half performance, leading the Seattle Seahawks to a 22-14 win over the Denver Broncos on Thursday night.", 
-            "homeTeam": "SEA", 
+            "awayTeam": "IND", 
+            "date": "2019-08-08T23:00:00+00:00", 
+            "description": "With LeSean McCoy resting, and Frank Gore limited to two series, rookie running back Devin Singletary got the Buffalo Bills off to a running start in their preseason-opening 24-16 win over the Indianapolis Colts on Thursday night.", 
+            "homeTeam": "BUF", 
             "identity": {
-                "ESPNAPIID": "401128174", 
-                "SportsDataIOID": "16933"
+                "ESPNAPIID": "401128187", 
+                "SportsDataIOID": "16923"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "2019", 
             "sport": "Football", 
             "subseason": -1, 
-            "vs": "Seattle Seahawks vs. Denver Broncos", 
+            "vs": "Buffalo Bills vs. Indianapolis Colts", 
             "week": 1
         }, 
         {
@@ -595,23 +414,152 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=xHBUkVqFHks"
+                        "url": "https://www.youtube.com/watch?v=7-ZikhYJh50"
                     }
                 ], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DEN", 
-            "date": "2019-08-09T03:00:00+00:00", 
+            "awayTeam": "IND", 
+            "date": "2019-08-09T00:00:00+00:00", 
             "description": "", 
-            "homeTeam": "SEA", 
+            "homeTeam": "BUF", 
             "identity": {
-                "TheSportsDBID": "600758"
+                "TheSportsDBID": "600749"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "2019", 
             "sport": "Football", 
-            "vs": "Seattle Seahawks vs Denver Broncos"
+            "vs": "Buffalo Bills vs Indianapolis Colts"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=FrVsP-sLksY"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BAL", 
+            "date": "2019-08-09T00:30:00+00:00", 
+            "description": "", 
+            "homeTeam": "JAX", 
+            "identity": {
+                "TheSportsDBID": "600752"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Jacksonville Jaguars vs Baltimore Ravens"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WAS", 
+            "date": "2019-08-08T23:30:00+00:00", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "SportsDataIOID": "16925"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Browns vs Football Team", 
+            "week": 1
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=MYYq93gJ_rQ"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WAS", 
+            "date": "2019-08-09T00:30:00+00:00", 
+            "description": "", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "TheSportsDBID": "600755"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Cleveland Browns vs Washington Redskins"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "HOU", 
+            "date": "2019-08-09T00:00:00+00:00", 
+            "description": "DeShone Kizer was 8 for 13 with 102 yards and a touchdown and the Green Bay Packers topped the Houston Texans 28-26 in the preseason opener for both teams on Thursday night.", 
+            "homeTeam": "GB", 
+            "identity": {
+                "ESPNAPIID": "401128162", 
+                "SportsDataIOID": "16931"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Green Bay Packers vs. Houston Texans", 
+            "week": 1
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=mmh2lTg8Dc8"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "HOU", 
+            "date": "2019-08-09T01:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "GB", 
+            "identity": {
+                "TheSportsDBID": "600757"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Green Bay Packers vs Houston Texans"
         }, 
         {
             "assets": {
@@ -672,6 +620,58 @@
             "season": "2019", 
             "sport": "Football", 
             "vs": "Arizona Cardinals vs Los Angeles Chargers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DEN", 
+            "date": "2019-08-09T02:00:00+00:00", 
+            "description": "Paxton Lynch threw for one score and ran for another against his former team as part of an impressive second-half performance, leading the Seattle Seahawks to a 22-14 win over the Denver Broncos on Thursday night.", 
+            "homeTeam": "SEA", 
+            "identity": {
+                "ESPNAPIID": "401128174", 
+                "SportsDataIOID": "16933"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Seattle Seahawks vs. Denver Broncos", 
+            "week": 1
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=xHBUkVqFHks"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DEN", 
+            "date": "2019-08-09T03:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "SEA", 
+            "identity": {
+                "TheSportsDBID": "600758"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Seattle Seahawks vs Denver Broncos"
         }, 
         {
             "assets": {
@@ -814,6 +814,61 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "DAL", 
+            "date": "2019-08-11T01:00:00+00:00", 
+            "description": "Dak Prescott completed all four of his pass attempts, caught one and led Dallas to a field goal in a brief cameo in the exhibition opener as the Cowboys went on to lose the San Francisco 49ers 17-9 on Saturday night.", 
+            "homeTeam": "SF", 
+            "identity": {
+                "ESPNAPIID": "401128141", 
+                "SportsDataIOID": "16937"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "NFLN", 
+                "NFL"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "San Francisco 49ers vs. Dallas Cowboys", 
+            "week": 1
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=1GSB0B5BMic"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DAL", 
+            "date": "2019-08-11T02:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "SF", 
+            "identity": {
+                "TheSportsDBID": "600764"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "San Francisco 49ers vs Dallas Cowboys"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "LAR", 
             "date": "2019-08-11T00:00:00+00:00", 
             "homeTeam": "LV", 
@@ -825,7 +880,7 @@
             "season": "2019", 
             "sport": "Football", 
             "subseason": -1, 
-            "vs": "Las Vegas Raiders vs Rams", 
+            "vs": "Raiders vs Rams", 
             "week": 1
         }, 
         {
@@ -913,27 +968,49 @@
                 "fanArt": [], 
                 "logo": [], 
                 "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=8V4dT4NLBwk"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CIN", 
+            "date": "2019-08-15T19:30:00+00:00", 
+            "description": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "TheSportsDBID": "600766"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Washington Redskins vs Cincinnati Bengals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DAL", 
-            "date": "2019-08-11T01:00:00+00:00", 
-            "description": "Dak Prescott completed all four of his pass attempts, caught one and led Dallas to a field goal in a brief cameo in the exhibition opener as the Cowboys went on to lose the San Francisco 49ers 17-9 on Saturday night.", 
-            "homeTeam": "SF", 
+            "awayTeam": "CIN", 
+            "date": "2019-08-15T23:30:00+00:00", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "401128141", 
-                "SportsDataIOID": "16937"
+                "SportsDataIOID": "16940"
             }, 
             "league": "NFL", 
-            "networks": [
-                "NFLN", 
-                "NFL"
-            ], 
+            "networks": [], 
             "season": "2019", 
             "sport": "Football", 
             "subseason": -1, 
-            "vs": "San Francisco 49ers vs. Dallas Cowboys", 
-            "week": 1
+            "vs": "Football Team vs Bengals", 
+            "week": 2
         }, 
         {
             "assets": {
@@ -944,23 +1021,48 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=1GSB0B5BMic"
+                        "url": "https://www.youtube.com/watch?v=x92F3K5wnsY"
                     }
                 ], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DAL", 
-            "date": "2019-08-11T02:00:00+00:00", 
+            "awayTeam": "LV", 
+            "date": "2019-08-15T20:00:00+00:00", 
             "description": "", 
-            "homeTeam": "SF", 
+            "homeTeam": "ARI", 
             "identity": {
-                "TheSportsDBID": "600764"
+                "TheSportsDBID": "600769"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "2019", 
             "sport": "Football", 
-            "vs": "San Francisco 49ers vs Dallas Cowboys"
+            "vs": "Arizona Cardinals vs Oakland Raiders"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LV", 
+            "date": "2019-08-16T00:00:00+00:00", 
+            "homeTeam": "ARI", 
+            "identity": {
+                "SportsDataIOID": "16942"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "ESPN"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Cardinals vs Raiders", 
+            "week": 2
         }, 
         {
             "assets": {
@@ -1100,56 +1202,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=8V4dT4NLBwk"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CIN", 
-            "date": "2019-08-15T19:30:00+00:00", 
-            "description": "", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "TheSportsDBID": "600766"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Washington Redskins vs Cincinnati Bengals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CIN", 
-            "date": "2019-08-15T23:30:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "SportsDataIOID": "16940"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Washington Football Team vs Bengals", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=Xo22J0i5H60"
                     }
                 ], 
@@ -1217,58 +1269,6 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "Arizona Cardinals vs. Oakland Raiders", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=x92F3K5wnsY"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "LV", 
-            "date": "2019-08-15T20:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "TheSportsDBID": "600769"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Arizona Cardinals vs Oakland Raiders"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "LV", 
-            "date": "2019-08-16T00:00:00+00:00", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "SportsDataIOID": "16942"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "ESPN"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Cardinals vs Las Vegas Raiders", 
             "week": 2
         }, 
         {
@@ -1494,58 +1494,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=24lLvj_NXms"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DET", 
-            "date": "2019-08-17T20:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "HOU", 
-            "identity": {
-                "TheSportsDBID": "600776"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Houston Texans vs Detroit Lions"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DET", 
-            "date": "2019-08-18T00:00:00+00:00", 
-            "description": "Deshaun Watson took advantage of one series in his preseason debut looking sharp in directing a 75-yard drive capped by a 4-yard touchdown pass to DeAndre Hopkins to help the Houston Texans to a 30-23 win over the Detroit Lions on Saturday night.", 
-            "homeTeam": "HOU", 
-            "identity": {
-                "ESPNAPIID": "401128164", 
-                "SportsDataIOID": "16949"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Houston Texans vs. Detroit Lions", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=7cJR-7bjouM"
                     }
                 ], 
@@ -1590,6 +1538,61 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "Indianapolis Colts vs. Cleveland Browns", 
+            "week": 2
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=98ThEg37q9g"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DAL", 
+            "date": "2019-08-17T22:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "LAR", 
+            "identity": {
+                "TheSportsDBID": "600777"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Los Angeles Rams vs Dallas Cowboys"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DAL", 
+            "date": "2019-08-18T02:00:00+00:00", 
+            "description": "Dak Prescott appears ready for the regular season, with or without Ezekiel Elliott.", 
+            "homeTeam": "LAR", 
+            "identity": {
+                "ESPNAPIID": "401128953", 
+                "SportsDataIOID": "17239"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "NFLN", 
+                "NFL"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Los Angeles Rams vs. Dallas Cowboys", 
             "week": 2
         }, 
         {
@@ -1653,23 +1656,23 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=98ThEg37q9g"
+                        "url": "https://www.youtube.com/watch?v=24lLvj_NXms"
                     }
                 ], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DAL", 
-            "date": "2019-08-17T22:00:00+00:00", 
+            "awayTeam": "DET", 
+            "date": "2019-08-17T20:00:00+00:00", 
             "description": "", 
-            "homeTeam": "LAR", 
+            "homeTeam": "HOU", 
             "identity": {
-                "TheSportsDBID": "600777"
+                "TheSportsDBID": "600776"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "2019", 
             "sport": "Football", 
-            "vs": "Los Angeles Rams vs Dallas Cowboys"
+            "vs": "Houston Texans vs Detroit Lions"
         }, 
         {
             "assets": {
@@ -1680,23 +1683,20 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DAL", 
-            "date": "2019-08-18T02:00:00+00:00", 
-            "description": "Dak Prescott appears ready for the regular season, with or without Ezekiel Elliott.", 
-            "homeTeam": "LAR", 
+            "awayTeam": "DET", 
+            "date": "2019-08-18T00:00:00+00:00", 
+            "description": "Deshaun Watson took advantage of one series in his preseason debut looking sharp in directing a 75-yard drive capped by a 4-yard touchdown pass to DeAndre Hopkins to help the Houston Texans to a 30-23 win over the Detroit Lions on Saturday night.", 
+            "homeTeam": "HOU", 
             "identity": {
-                "ESPNAPIID": "401128953", 
-                "SportsDataIOID": "17239"
+                "ESPNAPIID": "401128164", 
+                "SportsDataIOID": "16949"
             }, 
             "league": "NFL", 
-            "networks": [
-                "NFLN", 
-                "NFL"
-            ], 
+            "networks": [], 
             "season": "2019", 
             "sport": "Football", 
             "subseason": -1, 
-            "vs": "Los Angeles Rams vs. Dallas Cowboys", 
+            "vs": "Houston Texans vs. Detroit Lions", 
             "week": 2
         }, 
         {
@@ -2042,7 +2042,7 @@
             "season": "2019", 
             "sport": "Football", 
             "subseason": -1, 
-            "vs": "Falcons vs Washington Football Team", 
+            "vs": "Falcons vs Football Team", 
             "week": 3
         }, 
         {
@@ -2196,7 +2196,7 @@
             "season": "2019", 
             "sport": "Football", 
             "subseason": -1, 
-            "vs": "Las Vegas Raiders vs Packers", 
+            "vs": "Raiders vs Packers", 
             "week": 3
         }, 
         {
@@ -2225,6 +2225,60 @@
             "season": "2019", 
             "sport": "Football", 
             "vs": "Oakland Raiders vs Green Bay Packers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=m5EZs3JVeUQ"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BUF", 
+            "date": "2019-08-23T18:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "DET", 
+            "identity": {
+                "TheSportsDBID": "600788"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Detroit Lions vs Buffalo Bills"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BUF", 
+            "date": "2019-08-24T00:00:00+00:00", 
+            "description": "Matthew Stafford threw a go-ahead touchdown in his first preseason game of the year and the Buffalo Bills came back to beat the Detroit Lions 24-20 Friday night in a preseason game that became significant because key players on both teams were hurt.", 
+            "homeTeam": "DET", 
+            "identity": {
+                "ESPNAPIID": "401126627", 
+                "SportsDataIOID": "16959"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Detroit Lions vs. Buffalo Bills", 
+            "week": 3
         }, 
         {
             "assets": {
@@ -2280,60 +2334,6 @@
             "season": "2019", 
             "sport": "Football", 
             "vs": "Tampa Bay Buccaneers vs Cleveland Browns"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=m5EZs3JVeUQ"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BUF", 
-            "date": "2019-08-23T18:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "DET", 
-            "identity": {
-                "TheSportsDBID": "600788"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Detroit Lions vs Buffalo Bills"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BUF", 
-            "date": "2019-08-24T00:00:00+00:00", 
-            "description": "Matthew Stafford threw a go-ahead touchdown in his first preseason game of the year and the Buffalo Bills came back to beat the Detroit Lions 24-20 Friday night in a preseason game that became significant because key players on both teams were hurt.", 
-            "homeTeam": "DET", 
-            "identity": {
-                "ESPNAPIID": "401126627", 
-                "SportsDataIOID": "16959"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Detroit Lions vs. Buffalo Bills", 
-            "week": 3
         }, 
         {
             "assets": {
@@ -2876,6 +2876,58 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "MIN", 
+            "date": "2019-08-29T23:00:00+00:00", 
+            "description": "Undrafted rookie Tyree Jackson hit David Sills for an 8-yard touchdown pass with 8 seconds left in rallying the Buffalo Bills to a 27-23 win over the Minnesota Vikings to close the preseason Thursday night.", 
+            "homeTeam": "BUF", 
+            "identity": {
+                "ESPNAPIID": "401128170", 
+                "SportsDataIOID": "16967"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Buffalo Bills vs. Minnesota Vikings", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=63tPv09Mcxs"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIN", 
+            "date": "2019-08-30T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "BUF", 
+            "identity": {
+                "TheSportsDBID": "600802"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Buffalo Bills vs Minnesota Vikings"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "IND", 
             "date": "2019-08-29T23:00:00+00:00", 
             "description": "The Colts wrapped up an unsettling preseason Thursday, moving on from Andrew Luck with a 13-6 victory over the Cincinnati Bengals in a game missing starters and fans.", 
@@ -2918,66 +2970,6 @@
             "season": "2019", 
             "sport": "Football", 
             "vs": "Cincinnati Bengals vs Indianapolis Colts"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PIT", 
-            "date": "2019-08-29T23:00:00+00:00", 
-            "description": "Mason Rudolph and Kyle Allen turned in solid efforts and appeared to solidify their No. 2 quarterback roles for their respective teams in the Carolina Panthers' 25-19 preseason win over the Pittsburgh Steelers on Thursday night.", 
-            "homeTeam": "CAR", 
-            "identity": {
-                "ESPNAPIID": "401128194", 
-                "SportsDataIOID": "16970"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "NFLN", 
-                "NFL"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Carolina Panthers vs. Pittsburgh Steelers", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=k7GsiRbf494"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/pd6wcl1567105111.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "PIT", 
-            "date": "2019-08-30T00:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "CAR", 
-            "identity": {
-                "TheSportsDBID": "600804"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Carolina Panthers vs Pittsburgh Steelers"
         }, 
         {
             "assets": {
@@ -3055,160 +3047,6 @@
             "subseason": -1, 
             "vs": "Washington vs. Baltimore Ravens", 
             "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "TB", 
-            "date": "2019-08-30T00:00:00+00:00", 
-            "description": "Vincent Testaverde's first NFL pass was badly overthrown on a simple toss in the flat, and the second was intercepted.", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ESPNAPIID": "401128186", 
-                "SportsDataIOID": "16976"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Dallas Cowboys vs. Tampa Bay Buccaneers", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=nGgmlqh-83k"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "TB", 
-            "date": "2019-08-30T01:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "TheSportsDBID": "600807"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Dallas Cowboys vs Tampa Bay Buccaneers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIN", 
-            "date": "2019-08-29T23:00:00+00:00", 
-            "description": "Undrafted rookie Tyree Jackson hit David Sills for an 8-yard touchdown pass with 8 seconds left in rallying the Buffalo Bills to a 27-23 win over the Minnesota Vikings to close the preseason Thursday night.", 
-            "homeTeam": "BUF", 
-            "identity": {
-                "ESPNAPIID": "401128170", 
-                "SportsDataIOID": "16967"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Buffalo Bills vs. Minnesota Vikings", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=63tPv09Mcxs"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIN", 
-            "date": "2019-08-30T00:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "BUF", 
-            "identity": {
-                "TheSportsDBID": "600802"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Buffalo Bills vs Minnesota Vikings"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
-            "date": "2019-08-29T23:30:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "SportsDataIOID": "16974"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Washington Football Team vs Ravens", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=dtoWs31-qj8"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
-            "date": "2019-08-30T00:30:00+00:00", 
-            "description": "", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "TheSportsDBID": "600800"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Washington Redskins vs Baltimore Ravens"
         }, 
         {
             "assets": {
@@ -3375,6 +3213,168 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "TB", 
+            "date": "2019-08-30T00:00:00+00:00", 
+            "description": "Vincent Testaverde's first NFL pass was badly overthrown on a simple toss in the flat, and the second was intercepted.", 
+            "homeTeam": "DAL", 
+            "identity": {
+                "ESPNAPIID": "401128186", 
+                "SportsDataIOID": "16976"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Dallas Cowboys vs. Tampa Bay Buccaneers", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=nGgmlqh-83k"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "TB", 
+            "date": "2019-08-30T01:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "DAL", 
+            "identity": {
+                "TheSportsDBID": "600807"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Dallas Cowboys vs Tampa Bay Buccaneers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "PIT", 
+            "date": "2019-08-29T23:00:00+00:00", 
+            "description": "Mason Rudolph and Kyle Allen turned in solid efforts and appeared to solidify their No. 2 quarterback roles for their respective teams in the Carolina Panthers' 25-19 preseason win over the Pittsburgh Steelers on Thursday night.", 
+            "homeTeam": "CAR", 
+            "identity": {
+                "ESPNAPIID": "401128194", 
+                "SportsDataIOID": "16970"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "NFLN", 
+                "NFL"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Carolina Panthers vs. Pittsburgh Steelers", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=k7GsiRbf494"
+                    }
+                ], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/pd6wcl1567105111.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "PIT", 
+            "date": "2019-08-30T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "CAR", 
+            "identity": {
+                "TheSportsDBID": "600804"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Carolina Panthers vs Pittsburgh Steelers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BAL", 
+            "date": "2019-08-29T23:30:00+00:00", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "SportsDataIOID": "16974"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Football Team vs Ravens", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=dtoWs31-qj8"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BAL", 
+            "date": "2019-08-30T00:30:00+00:00", 
+            "description": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "TheSportsDBID": "600800"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Washington Redskins vs Baltimore Ravens"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "TEN", 
             "date": "2019-08-30T00:00:00+00:00", 
             "description": "Dalyn Dawkins rushed for 117 yards and caught two touchdown passes, and the Tennessee Titans closed the preseason with a 19-15 victory over the Chicago Bears on Thursday night.", 
@@ -3479,88 +3479,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ARI", 
-            "date": "2019-08-30T01:00:00+00:00", 
-            "description": "Malik Reed had a pair of sacks and Denver capped a strong summer by the second-string defense in the Broncos' 20-7 win over the Arizona Cardinals on Thursday night in front of a sparse crowd.", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "ESPNAPIID": "401128175", 
-                "SportsDataIOID": "16980"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Denver Broncos vs. Arizona Cardinals", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=9bCbeBruzN0"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/iqtwe41567112539.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "ARI", 
-            "date": "2019-08-30T02:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "TheSportsDBID": "600810"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Denver Broncos vs Arizona Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "OAK", 
-            "date": "2019-08-30T02:00:00+00:00", 
-            "description": "Geno Smith appeared to lock up the backup job in Seattle throwing a pair of first-half touchdown passes before limping off with a minor knee injury, and the Seahawks closed out the preseason with a 17-15 win over the Oakland Raiders on Thursday night.", 
-            "eventTitle": "", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "ESPNAPIID": "401128145"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Seattle Seahawks vs. Oakland Raiders", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "LV", 
             "date": "2019-08-30T02:00:00+00:00", 
             "homeTeam": "SEA", 
@@ -3572,7 +3490,7 @@
             "season": "2019", 
             "sport": "Football", 
             "subseason": -1, 
-            "vs": "Seahawks vs Las Vegas Raiders", 
+            "vs": "Seahawks vs Raiders", 
             "week": 4
         }, 
         {
@@ -3661,6 +3579,88 @@
             "season": "2019", 
             "sport": "Football", 
             "vs": "San Francisco 49ers vs Los Angeles Chargers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ARI", 
+            "date": "2019-08-30T01:00:00+00:00", 
+            "description": "Malik Reed had a pair of sacks and Denver capped a strong summer by the second-string defense in the Broncos' 20-7 win over the Arizona Cardinals on Thursday night in front of a sparse crowd.", 
+            "homeTeam": "DEN", 
+            "identity": {
+                "ESPNAPIID": "401128175", 
+                "SportsDataIOID": "16980"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Denver Broncos vs. Arizona Cardinals", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=9bCbeBruzN0"
+                    }
+                ], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/iqtwe41567112539.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "ARI", 
+            "date": "2019-08-30T02:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "DEN", 
+            "identity": {
+                "TheSportsDBID": "600810"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Denver Broncos vs Arizona Cardinals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "OAK", 
+            "date": "2019-08-30T02:00:00+00:00", 
+            "description": "Geno Smith appeared to lock up the backup job in Seattle throwing a pair of first-half touchdown passes before limping off with a minor knee injury, and the Seahawks closed out the preseason with a 17-15 win over the Oakland Raiders on Thursday night.", 
+            "eventTitle": "", 
+            "homeTeam": "SEA", 
+            "identity": {
+                "ESPNAPIID": "401128145"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Seattle Seahawks vs. Oakland Raiders", 
+            "week": 4
         }, 
         {
             "assets": {
@@ -3993,45 +3993,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=7Fj8BT0JVeo"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/t062el1567951972.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "IND", 
-            "date": "2019-09-08T20:05:00+00:00", 
-            "description": "Austin Ekeler scored three touchdowns, including the winner on a 7-yard run with 5:01 remaining in overtime, to give the Los Angeles Chargers a 30-24 victory over the Indianapolis Colts on Sunday.", 
-            "homeTeam": "LAC", 
-            "identity": {
-                "ESPNAPIID": "401127972", 
-                "ProFootballReferenceID": "201909080sdg", 
-                "SportsDataIOID": "16991", 
-                "TheSportsDBID": "599643"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Los Angeles Chargers vs. Indianapolis Colts", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=S3dmhhUQG44"
                     }
                 ], 
@@ -4060,6 +4021,45 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Seattle Seahawks vs. Cincinnati Bengals", 
+            "week": 1
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=7Fj8BT0JVeo"
+                    }
+                ], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/t062el1567951972.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "IND", 
+            "date": "2019-09-08T20:05:00+00:00", 
+            "description": "Austin Ekeler scored three touchdowns, including the winner on a 7-yard run with 5:01 remaining in overtime, to give the Los Angeles Chargers a 30-24 victory over the Indianapolis Colts on Sunday.", 
+            "homeTeam": "LAC", 
+            "identity": {
+                "ESPNAPIID": "401127972", 
+                "ProFootballReferenceID": "201909080sdg", 
+                "SportsDataIOID": "16991", 
+                "TheSportsDBID": "599643"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Los Angeles Chargers vs. Indianapolis Colts", 
             "week": 1
         }, 
         {
@@ -4376,6 +4376,40 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=35y80RNlL-U"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ARI", 
+            "date": "2019-09-15T17:00:00+00:00", 
+            "description": "Lamar Jackson kept the Cardinals guessing all afternoon, supplementing an effective passing attack with more than an occasional jaunt out of the pocket.", 
+            "homeTeam": "BAL", 
+            "identity": {
+                "ESPNAPIID": "401128061", 
+                "ProFootballReferenceID": "201909150rav", 
+                "SportsDataIOID": "17008", 
+                "TheSportsDBID": "599653"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Baltimore Ravens vs. Arizona Cardinals", 
+            "week": 2
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=KavGZDEgjog"
                     }
                 ], 
@@ -4449,6 +4483,40 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=ICVJ48BVaGc"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "JAX", 
+            "date": "2019-09-15T17:00:00+00:00", 
+            "description": "Justin Reid stopped Leonard Fournette on a 2-point conversion attempt with 36 seconds left, and the Houston Texans held on to edge the Jacksonville Jaguars 13-12 on Sunday.", 
+            "homeTeam": "HOU", 
+            "identity": {
+                "ESPNAPIID": "401128101", 
+                "ProFootballReferenceID": "201909150htx", 
+                "SportsDataIOID": "17009", 
+                "TheSportsDBID": "599657"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Houston Texans vs. Jacksonville Jaguars", 
+            "week": 2
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=VBR_Nvfh3WM"
                     }
                 ], 
@@ -4483,20 +4551,20 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=35y80RNlL-U"
+                        "url": "https://www.youtube.com/watch?v=aPesLnFhHvM"
                     }
                 ], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ARI", 
+            "awayTeam": "SF", 
             "date": "2019-09-15T17:00:00+00:00", 
-            "description": "Lamar Jackson kept the Cardinals guessing all afternoon, supplementing an effective passing attack with more than an occasional jaunt out of the pocket.", 
-            "homeTeam": "BAL", 
+            "description": "Jimmy Garoppolo tied his career high with three touchdown passes Sunday, and the San Francisco 49ers completed a sweet and satisfying week in the Buckeye State with a 41-17 victory over the Cincinnati Bengals that left them unbeaten for the long...", 
+            "homeTeam": "CIN", 
             "identity": {
-                "ESPNAPIID": "401128061", 
-                "ProFootballReferenceID": "201909150rav", 
-                "SportsDataIOID": "17008", 
-                "TheSportsDBID": "599653"
+                "ESPNAPIID": "401128066", 
+                "ProFootballReferenceID": "201909150cin", 
+                "SportsDataIOID": "17000", 
+                "TheSportsDBID": "599654"
             }, 
             "league": "NFL", 
             "networks": [
@@ -4505,7 +4573,7 @@
             "season": "2019", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Baltimore Ravens vs. Arizona Cardinals", 
+            "vs": "Cincinnati Bengals vs. San Francisco 49ers", 
             "week": 2
         }, 
         {
@@ -4556,40 +4624,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=ICVJ48BVaGc"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "JAX", 
-            "date": "2019-09-15T17:00:00+00:00", 
-            "description": "Justin Reid stopped Leonard Fournette on a 2-point conversion attempt with 36 seconds left, and the Houston Texans held on to edge the Jacksonville Jaguars 13-12 on Sunday.", 
-            "homeTeam": "HOU", 
-            "identity": {
-                "ESPNAPIID": "401128101", 
-                "ProFootballReferenceID": "201909150htx", 
-                "SportsDataIOID": "17009", 
-                "TheSportsDBID": "599657"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Houston Texans vs. Jacksonville Jaguars", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=dVTuivfocDI"
                     }
                 ], 
@@ -4613,72 +4647,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Detroit Lions vs. Los Angeles Chargers", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=7F8ZTsKtv9s"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "2019-09-15T17:00:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "201909150was", 
-                "SportsDataIOID": "17007", 
-                "TheSportsDBID": "599659"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=aPesLnFhHvM"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SF", 
-            "date": "2019-09-15T17:00:00+00:00", 
-            "description": "Jimmy Garoppolo tied his career high with three touchdown passes Sunday, and the San Francisco 49ers completed a sweet and satisfying week in the Buckeye State with a 41-17 victory over the Cincinnati Bengals that left them unbeaten for the long...", 
-            "homeTeam": "CIN", 
-            "identity": {
-                "ESPNAPIID": "401128066", 
-                "ProFootballReferenceID": "201909150cin", 
-                "SportsDataIOID": "17000", 
-                "TheSportsDBID": "599654"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cincinnati Bengals vs. San Francisco 49ers", 
             "week": 2
         }, 
         {
@@ -4745,6 +4713,38 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Washington vs. Dallas Cowboys", 
+            "week": 2
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=7F8ZTsKtv9s"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DAL", 
+            "date": "2019-09-15T17:00:00+00:00", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ProFootballReferenceID": "201909150was", 
+                "SportsDataIOID": "17007", 
+                "TheSportsDBID": "599659"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Washington Redskins vs. Dallas Cowboys", 
             "week": 2
         }, 
         {
@@ -5456,40 +5456,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=C7kjHcjkwr0"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "HOU", 
-            "date": "2019-09-22T20:25:00+00:00", 
-            "description": "Deshaun Watson threw for 351 yards and hit Jordan Akins with two of his three touchdown passes, and J.J. Watt had two of the Texans' five sacks of Philip Rivers in their 27-20 victory over the Los Angeles Chargers on Sunday.", 
-            "homeTeam": "LAC", 
-            "identity": {
-                "ESPNAPIID": "401127970", 
-                "ProFootballReferenceID": "201909220sdg", 
-                "SportsDataIOID": "17026", 
-                "TheSportsDBID": "599676"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Los Angeles Chargers vs. Houston Texans", 
-            "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=VMqmQZ1hB18"
                     }
                 ], 
@@ -5518,6 +5484,40 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "San Francisco 49ers vs. Pittsburgh Steelers", 
+            "week": 3
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=C7kjHcjkwr0"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "HOU", 
+            "date": "2019-09-22T20:25:00+00:00", 
+            "description": "Deshaun Watson threw for 351 yards and hit Jordan Akins with two of his three touchdown passes, and J.J. Watt had two of the Texans' five sacks of Philip Rivers in their 27-20 victory over the Los Angeles Chargers on Sunday.", 
+            "homeTeam": "LAC", 
+            "identity": {
+                "ESPNAPIID": "401127970", 
+                "ProFootballReferenceID": "201909220sdg", 
+                "SportsDataIOID": "17026", 
+                "TheSportsDBID": "599676"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Los Angeles Chargers vs. Houston Texans", 
             "week": 3
         }, 
         {
@@ -5774,6 +5774,40 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=OLcyEPU_NJc"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "TEN", 
+            "date": "2019-09-29T17:00:00+00:00", 
+            "description": "Marcus Mariota threw three first-half touchdown passes, two to A.J. Brown, and the Tennessee Titans defense had three fourth-down stops to beat the Atlanta Falcons 24-10 on Sunday.", 
+            "homeTeam": "ATL", 
+            "identity": {
+                "ESPNAPIID": "401128016", 
+                "ProFootballReferenceID": "201909290atl", 
+                "SportsDataIOID": "17032", 
+                "TheSportsDBID": "599688"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Atlanta Falcons vs. Tennessee Titans", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=ZC3feLzImUc"
                     }
                 ], 
@@ -5927,40 +5961,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New York Giants vs. Washington", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=OLcyEPU_NJc"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "TEN", 
-            "date": "2019-09-29T17:00:00+00:00", 
-            "description": "Marcus Mariota threw three first-half touchdown passes, two to A.J. Brown, and the Tennessee Titans defense had three fourth-down stops to beat the Atlanta Falcons 24-10 on Sunday.", 
-            "homeTeam": "ATL", 
-            "identity": {
-                "ESPNAPIID": "401128016", 
-                "ProFootballReferenceID": "201909290atl", 
-                "SportsDataIOID": "17032", 
-                "TheSportsDBID": "599688"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Atlanta Falcons vs. Tennessee Titans", 
             "week": 4
         }, 
         {
@@ -6874,80 +6874,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=vacHJ_AG_fI"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/7zy5qj1570960268.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "CAR", 
-            "date": "2019-10-13T13:30:00+00:00", 
-            "description": "Christian McCaffrey scored two touchdowns and Carolina turned five interceptions by Jameis Winston into 17 points to give the Panthers their fourth straight victory, 37-26 over the Tampa Bay Buccaneers on Sunday.", 
-            "homeTeam": "TB", 
-            "identity": {
-                "ESPNAPIID": "401128096", 
-                "ProFootballReferenceID": "201910130tam", 
-                "SportsDataIOID": "17062", 
-                "TheSportsDBID": "599867"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "NFLN", 
-                "NFL"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Tampa Bay Buccaneers vs. Carolina Panthers", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=8CtxIK5uG1o"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SEA", 
-            "date": "2019-10-13T17:00:00+00:00", 
-            "description": "Chris Carson scored on a 1-yard touchdown run with 3:30 left, Russell Wilson threw two TD passes and ran for one and the Seattle Seahawks rallied for a 32-28 win Sunday over the mistake-prone Cleveland Browns and improved to 3-0 on the road for the...", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "ESPNAPIID": "401128111", 
-                "ProFootballReferenceID": "201910130cle", 
-                "SportsDataIOID": "17063", 
-                "TheSportsDBID": "599871"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cleveland Browns vs. Seattle Seahawks", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=XadPqVwYEQ4"
                     }
                 ], 
@@ -7058,6 +6984,61 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=wILAAAfBOyc"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NO", 
+            "date": "2019-10-13T13:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "JAX", 
+            "identity": {
+                "TheSportsDBID": "599872"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Jacksonville Jaguars vs New Orleans Saints"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NO", 
+            "date": "2019-10-13T17:00:00+00:00", 
+            "description": "Teddy Bridgewater found Jared Cook for a 4-yard touchdown early in the fourth quarter, and the New Orleans Saints held on to beat the Jacksonville Jaguars 13-6 on Sunday and improve to 4-0 without injured starter Drew Brees.", 
+            "homeTeam": "JAX", 
+            "identity": {
+                "ESPNAPIID": "401128116", 
+                "ProFootballReferenceID": "201910130jax", 
+                "SportsDataIOID": "17067"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Jacksonville Jaguars vs. New Orleans Saints", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=u1yFPjckooY"
                     }
                 ], 
@@ -7102,33 +7083,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Minnesota Vikings vs. Philadelphia Eagles", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2019-10-13T17:00:00+00:00", 
-            "description": "Rookie Terry McLaurin caught two touchdown passes and the Washington Redskins stopped Miami's two-point conversion attempt with six seconds left for a 17-16 victory Sunday in a matchup between winless teams.", 
-            "eventTitle": "", 
-            "homeTeam": "MIA", 
-            "identity": {
-                "ESPNAPIID": "401128121"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Miami Dolphins vs. Washington", 
             "week": 6
         }, 
         {
@@ -7193,105 +7147,35 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=wILAAAfBOyc"
+                        "url": "https://www.youtube.com/watch?v=vacHJ_AG_fI"
                     }
                 ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NO", 
-            "date": "2019-10-13T13:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "JAX", 
-            "identity": {
-                "TheSportsDBID": "599872"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Jacksonville Jaguars vs New Orleans Saints"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NO", 
-            "date": "2019-10-13T17:00:00+00:00", 
-            "description": "Teddy Bridgewater found Jared Cook for a 4-yard touchdown early in the fourth quarter, and the New Orleans Saints held on to beat the Jacksonville Jaguars 13-6 on Sunday and improve to 4-0 without injured starter Drew Brees.", 
-            "homeTeam": "JAX", 
-            "identity": {
-                "ESPNAPIID": "401128116", 
-                "ProFootballReferenceID": "201910130jax", 
-                "SportsDataIOID": "17067"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Jacksonville Jaguars vs. New Orleans Saints", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
+                "thumbnail": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=Sr503a0_mtY"
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/7zy5qj1570960268.jpg"
                     }
-                ], 
-                "thumbnail": []
+                ]
             }, 
-            "awayTeam": "ATL", 
-            "date": "2019-10-13T16:05:00+00:00", 
-            "description": "", 
-            "homeTeam": "ARI", 
+            "awayTeam": "CAR", 
+            "date": "2019-10-13T13:30:00+00:00", 
+            "description": "Christian McCaffrey scored two touchdowns and Carolina turned five interceptions by Jameis Winston into 17 points to give the Panthers their fourth straight victory, 37-26 over the Tampa Bay Buccaneers on Sunday.", 
+            "homeTeam": "TB", 
             "identity": {
-                "TheSportsDBID": "599874"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Arizona Cardinals vs Atlanta Falcons"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ATL", 
-            "date": "2019-10-13T20:05:00+00:00", 
-            "description": "Kyler Murray threw for 340 yards and three touchdowns and the Arizona Cardinals built a big lead, lost it, and then rallied again for a 34-33 win over the Atlanta Falcons on Sunday.", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "ESPNAPIID": "401128126", 
-                "ProFootballReferenceID": "201910130crd", 
-                "SportsDataIOID": "17070"
+                "ESPNAPIID": "401128096", 
+                "ProFootballReferenceID": "201910130tam", 
+                "SportsDataIOID": "17062", 
+                "TheSportsDBID": "599867"
             }, 
             "league": "NFL", 
             "networks": [
-                "FOX"
+                "NFLN", 
+                "NFL"
             ], 
             "season": "2019", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Arizona Cardinals vs. Atlanta Falcons", 
+            "vs": "Tampa Bay Buccaneers vs. Carolina Panthers", 
             "week": 6
         }, 
         {
@@ -7358,61 +7242,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=-Go6k-Eeg5w"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "2019-10-13T14:05:00+00:00", 
-            "description": "", 
-            "homeTeam": "NYJ", 
-            "identity": {
-                "TheSportsDBID": "599877"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "New York Jets vs Dallas Cowboys"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "2019-10-13T20:25:00+00:00", 
-            "description": "Sam Darnold gave the Jets' struggling offense a huge boost by throwing two touchdown passes in his return from mononucleosis, and New York held on to beat the Dallas Cowboys 24-22 on Sunday night for their first win of the season.", 
-            "homeTeam": "NYJ", 
-            "identity": {
-                "ESPNAPIID": "401128130", 
-                "ProFootballReferenceID": "201910130nyj", 
-                "SportsDataIOID": "17072"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Jets vs. Dallas Cowboys", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=HRyHdLl6mOI"
                     }
                 ], 
@@ -7457,6 +7286,177 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Denver Broncos vs. Tennessee Titans", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=Sr503a0_mtY"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ATL", 
+            "date": "2019-10-13T16:05:00+00:00", 
+            "description": "", 
+            "homeTeam": "ARI", 
+            "identity": {
+                "TheSportsDBID": "599874"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Arizona Cardinals vs Atlanta Falcons"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ATL", 
+            "date": "2019-10-13T20:05:00+00:00", 
+            "description": "Kyler Murray threw for 340 yards and three touchdowns and the Arizona Cardinals built a big lead, lost it, and then rallied again for a 34-33 win over the Atlanta Falcons on Sunday.", 
+            "homeTeam": "ARI", 
+            "identity": {
+                "ESPNAPIID": "401128126", 
+                "ProFootballReferenceID": "201910130crd", 
+                "SportsDataIOID": "17070"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Arizona Cardinals vs. Atlanta Falcons", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=8CtxIK5uG1o"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SEA", 
+            "date": "2019-10-13T17:00:00+00:00", 
+            "description": "Chris Carson scored on a 1-yard touchdown run with 3:30 left, Russell Wilson threw two TD passes and ran for one and the Seattle Seahawks rallied for a 32-28 win Sunday over the mistake-prone Cleveland Browns and improved to 3-0 on the road for the...", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "ESPNAPIID": "401128111", 
+                "ProFootballReferenceID": "201910130cle", 
+                "SportsDataIOID": "17063", 
+                "TheSportsDBID": "599871"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cleveland Browns vs. Seattle Seahawks", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WSH", 
+            "date": "2019-10-13T17:00:00+00:00", 
+            "description": "Rookie Terry McLaurin caught two touchdown passes and the Washington Redskins stopped Miami's two-point conversion attempt with six seconds left for a 17-16 victory Sunday in a matchup between winless teams.", 
+            "eventTitle": "", 
+            "homeTeam": "MIA", 
+            "identity": {
+                "ESPNAPIID": "401128121"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Miami Dolphins vs. Washington", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=-Go6k-Eeg5w"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DAL", 
+            "date": "2019-10-13T14:05:00+00:00", 
+            "description": "", 
+            "homeTeam": "NYJ", 
+            "identity": {
+                "TheSportsDBID": "599877"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "New York Jets vs Dallas Cowboys"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DAL", 
+            "date": "2019-10-13T20:25:00+00:00", 
+            "description": "Sam Darnold gave the Jets' struggling offense a huge boost by throwing two touchdown passes in his return from mononucleosis, and New York held on to beat the Dallas Cowboys 24-22 on Sunday night for their first win of the season.", 
+            "homeTeam": "NYJ", 
+            "identity": {
+                "ESPNAPIID": "401128130", 
+                "ProFootballReferenceID": "201910130nyj", 
+                "SportsDataIOID": "17072"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New York Jets vs. Dallas Cowboys", 
             "week": 6
         }, 
         {
@@ -7570,45 +7570,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Denver Broncos vs. Kansas City Chiefs", 
-            "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=QgO6Ln5sLfc"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/ccdeub1571576201.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "HOU", 
-            "date": "2019-10-20T17:00:00+00:00", 
-            "description": "Jacoby Brissett threw a career-high four touchdown passes Sunday and the Indianapolis Colts sealed a 30-23 victory over the Houston Texans with Darius Leonard's late interception.", 
-            "homeTeam": "IND", 
-            "identity": {
-                "ESPNAPIID": "401127951", 
-                "ProFootballReferenceID": "201910200clt", 
-                "SportsDataIOID": "17081", 
-                "TheSportsDBID": "599884"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Indianapolis Colts vs. Houston Texans", 
             "week": 7
         }, 
         {
@@ -7802,6 +7763,45 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Green Bay Packers vs. Oakland Raiders", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=QgO6Ln5sLfc"
+                    }
+                ], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/ccdeub1571576201.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "HOU", 
+            "date": "2019-10-20T17:00:00+00:00", 
+            "description": "Jacoby Brissett threw a career-high four touchdown passes Sunday and the Indianapolis Colts sealed a 30-23 victory over the Houston Texans with Darius Leonard's late interception.", 
+            "homeTeam": "IND", 
+            "identity": {
+                "ESPNAPIID": "401127951", 
+                "ProFootballReferenceID": "201910200clt", 
+                "SportsDataIOID": "17081", 
+                "TheSportsDBID": "599884"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Indianapolis Colts vs. Houston Texans", 
             "week": 7
         }, 
         {
@@ -8168,61 +8168,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=skTUueeRoW0"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ARI", 
-            "date": "2019-10-27T16:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "NO", 
-            "identity": {
-                "TheSportsDBID": "599897"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "New Orleans Saints vs Arizona Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ARI", 
-            "date": "2019-10-27T17:00:00+00:00", 
-            "description": "Drew Brees passed for 373 yards and three touchdowns in his first game in more than five weeks since thumb surgery, and the New Orleans Saints won their sixth straight with a 31-9 victory over the Arizona Cardinals on Sunday.", 
-            "homeTeam": "NO", 
-            "identity": {
-                "ESPNAPIID": "401128046", 
-                "ProFootballReferenceID": "201910270nor", 
-                "SportsDataIOID": "17096"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New Orleans Saints vs. Arizona Cardinals", 
-            "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=FCAoROw_Mbw"
                     }
                 ], 
@@ -8267,6 +8212,171 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Indianapolis Colts vs. Denver Broncos", 
+            "week": 8
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=CET5QOFOsYo"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYJ", 
+            "date": "2019-10-27T16:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "JAX", 
+            "identity": {
+                "TheSportsDBID": "599902"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Jacksonville Jaguars vs New York Jets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYJ", 
+            "date": "2019-10-27T17:00:00+00:00", 
+            "description": "Sam Darnold went from seeing ghosts to seeing teal.", 
+            "homeTeam": "JAX", 
+            "identity": {
+                "ESPNAPIID": "401128045", 
+                "ProFootballReferenceID": "201910270jax", 
+                "SportsDataIOID": "17097"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Jacksonville Jaguars vs. New York Jets", 
+            "week": 8
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=XCQ1Ae6exzI"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SEA", 
+            "date": "2019-10-27T16:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "ATL", 
+            "identity": {
+                "TheSportsDBID": "599899"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Atlanta Falcons vs Seattle Seahawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SEA", 
+            "date": "2019-10-27T17:00:00+00:00", 
+            "description": "Russell Wilson threw two touchdown passes to DK Metcalf, Chris Carson ran for 90 yards and a score, and the Seattle Seahawks beat the reeling Atlanta Falcons 27-20 on Sunday.", 
+            "homeTeam": "ATL", 
+            "identity": {
+                "ESPNAPIID": "401128035", 
+                "ProFootballReferenceID": "201910270atl", 
+                "SportsDataIOID": "17090"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Atlanta Falcons vs. Seattle Seahawks", 
+            "week": 8
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=skTUueeRoW0"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ARI", 
+            "date": "2019-10-27T16:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "NO", 
+            "identity": {
+                "TheSportsDBID": "599897"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "New Orleans Saints vs Arizona Cardinals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ARI", 
+            "date": "2019-10-27T17:00:00+00:00", 
+            "description": "Drew Brees passed for 373 yards and three touchdowns in his first game in more than five weeks since thumb surgery, and the New Orleans Saints won their sixth straight with a 31-9 victory over the Arizona Cardinals on Sunday.", 
+            "homeTeam": "NO", 
+            "identity": {
+                "ESPNAPIID": "401128046", 
+                "ProFootballReferenceID": "201910270nor", 
+                "SportsDataIOID": "17096"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New Orleans Saints vs. Arizona Cardinals", 
             "week": 8
         }, 
         {
@@ -8474,171 +8584,6 @@
                 "fanArt": [], 
                 "logo": [], 
                 "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CIN", 
-            "date": "2019-10-27T17:00:00+00:00", 
-            "description": "Wide receiver Cooper Kupp caught seven passes for a career-best 220 yards, Jared Goff threw for two touchdowns and the Los Angeles Rams beat the winless Cincinnati Bengals 24-10 Sunday to make for another successful trip to London.", 
-            "homeTeam": "LAR", 
-            "identity": {
-                "ESPNAPIID": "401127912", 
-                "ProFootballReferenceID": "201910270ram", 
-                "SportsDataIOID": "17095"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Los Angeles Rams vs. Cincinnati Bengals", 
-            "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=eEMeLE2getU"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CIN", 
-            "date": "2019-10-27T21:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "LAR", 
-            "identity": {
-                "TheSportsDBID": "599903"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Los Angeles Rams vs Cincinnati Bengals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=CET5QOFOsYo"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYJ", 
-            "date": "2019-10-27T16:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "JAX", 
-            "identity": {
-                "TheSportsDBID": "599902"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Jacksonville Jaguars vs New York Jets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYJ", 
-            "date": "2019-10-27T17:00:00+00:00", 
-            "description": "Sam Darnold went from seeing ghosts to seeing teal.", 
-            "homeTeam": "JAX", 
-            "identity": {
-                "ESPNAPIID": "401128045", 
-                "ProFootballReferenceID": "201910270jax", 
-                "SportsDataIOID": "17097"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Jacksonville Jaguars vs. New York Jets", 
-            "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=XCQ1Ae6exzI"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SEA", 
-            "date": "2019-10-27T16:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "ATL", 
-            "identity": {
-                "TheSportsDBID": "599899"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Atlanta Falcons vs Seattle Seahawks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SEA", 
-            "date": "2019-10-27T17:00:00+00:00", 
-            "description": "Russell Wilson threw two touchdown passes to DK Metcalf, Chris Carson ran for 90 yards and a score, and the Seattle Seahawks beat the reeling Atlanta Falcons 27-20 on Sunday.", 
-            "homeTeam": "ATL", 
-            "identity": {
-                "ESPNAPIID": "401128035", 
-                "ProFootballReferenceID": "201910270atl", 
-                "SportsDataIOID": "17090"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Atlanta Falcons vs. Seattle Seahawks", 
-            "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
                 "preview": [
                     {
                         "source": "thesportsdb", 
@@ -8686,33 +8631,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "San Francisco 49ers vs. Carolina Panthers", 
-            "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "OAK", 
-            "date": "2019-10-27T20:25:00+00:00", 
-            "description": "Deshaun Watson threw for 279 yards and three touchdowns, including the go-ahead score in the fourth quarter to lift the Houston Texans to a 27-24 win over the Oakland Raiders on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "HOU", 
-            "identity": {
-                "ESPNAPIID": "401128043"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Houston Texans vs. Oakland Raiders", 
             "week": 8
         }, 
         {
@@ -8774,6 +8692,33 @@
                 "fanArt": [], 
                 "logo": [], 
                 "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "OAK", 
+            "date": "2019-10-27T20:25:00+00:00", 
+            "description": "Deshaun Watson threw for 279 yards and three touchdowns, including the go-ahead score in the fourth quarter to lift the Houston Texans to a 27-24 win over the Oakland Raiders on Sunday.", 
+            "eventTitle": "", 
+            "homeTeam": "HOU", 
+            "identity": {
+                "ESPNAPIID": "401128043"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Houston Texans vs. Oakland Raiders", 
+            "week": 8
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
                 "preview": [
                     {
                         "source": "thesportsdb", 
@@ -8801,6 +8746,61 @@
             "subseason": 0, 
             "vs": "New England Patriots vs. Cleveland Browns", 
             "week": 8
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CIN", 
+            "date": "2019-10-27T17:00:00+00:00", 
+            "description": "Wide receiver Cooper Kupp caught seven passes for a career-best 220 yards, Jared Goff threw for two touchdowns and the Los Angeles Rams beat the winless Cincinnati Bengals 24-10 Sunday to make for another successful trip to London.", 
+            "homeTeam": "LAR", 
+            "identity": {
+                "ESPNAPIID": "401127912", 
+                "ProFootballReferenceID": "201910270ram", 
+                "SportsDataIOID": "17095"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Los Angeles Rams vs. Cincinnati Bengals", 
+            "week": 8
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=eEMeLE2getU"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CIN", 
+            "date": "2019-10-27T21:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "LAR", 
+            "identity": {
+                "TheSportsDBID": "599903"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Los Angeles Rams vs Cincinnati Bengals"
         }, 
         {
             "assets": {
@@ -9116,61 +9116,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=Gq6gRbUHmH4"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "IND", 
-            "date": "2019-11-03T17:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "PIT", 
-            "identity": {
-                "TheSportsDBID": "599911"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Pittsburgh Steelers vs Indianapolis Colts"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "IND", 
-            "date": "2019-11-03T18:00:00+00:00", 
-            "description": "Not this time, Adam Vinatieri.", 
-            "homeTeam": "PIT", 
-            "identity": {
-                "ESPNAPIID": "401128083", 
-                "ProFootballReferenceID": "201911030pit", 
-                "SportsDataIOID": "17110"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Steelers vs. Indianapolis Colts", 
-            "week": 9
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=mQxWpvbzmcs"
                     }
                 ], 
@@ -9278,33 +9223,6 @@
                 "fanArt": [], 
                 "logo": [], 
                 "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2019-11-03T18:00:00+00:00", 
-            "description": "Rookie Devin Singletary had 95 yards rushing, including a 2-yard touchdown, and the Buffalo Bills are off to their best start since 1993 following a 24-9 win over the Washington Redskins on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "BUF", 
-            "identity": {
-                "ESPNAPIID": "401128076"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Buffalo Bills vs. Washington", 
-            "week": 9
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
                 "preview": [
                     {
                         "source": "thesportsdb", 
@@ -9350,6 +9268,143 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Buffalo Bills vs. Washington Redskins", 
+            "week": 9
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=Gq6gRbUHmH4"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "IND", 
+            "date": "2019-11-03T17:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "PIT", 
+            "identity": {
+                "TheSportsDBID": "599911"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Pittsburgh Steelers vs Indianapolis Colts"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "IND", 
+            "date": "2019-11-03T18:00:00+00:00", 
+            "description": "Not this time, Adam Vinatieri.", 
+            "homeTeam": "PIT", 
+            "identity": {
+                "ESPNAPIID": "401128083", 
+                "ProFootballReferenceID": "201911030pit", 
+                "SportsDataIOID": "17110"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Steelers vs. Indianapolis Colts", 
+            "week": 9
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WSH", 
+            "date": "2019-11-03T18:00:00+00:00", 
+            "description": "Rookie Devin Singletary had 95 yards rushing, including a 2-yard touchdown, and the Buffalo Bills are off to their best start since 1993 following a 24-9 win over the Washington Redskins on Sunday.", 
+            "eventTitle": "", 
+            "homeTeam": "BUF", 
+            "identity": {
+                "ESPNAPIID": "401128076"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Buffalo Bills vs. Washington", 
+            "week": 9
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=hVxKt6jK1zs"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CLE", 
+            "date": "2019-11-03T20:25:00+00:00", 
+            "description": "", 
+            "homeTeam": "DEN", 
+            "identity": {
+                "TheSportsDBID": "599920"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Denver Broncos vs Cleveland Browns"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CLE", 
+            "date": "2019-11-03T21:25:00+00:00", 
+            "description": "Fourth-year quarterback Brandon Allen sparked Denver's stagnant offense, throwing for two touchdowns in his first career NFL start and leading the Broncos past the stumbling Cleveland Browns 24-19 Sunday.", 
+            "homeTeam": "DEN", 
+            "identity": {
+                "ESPNAPIID": "401128088", 
+                "ProFootballReferenceID": "201911030den", 
+                "SportsDataIOID": "17114"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Denver Broncos vs. Cleveland Browns", 
             "week": 9
         }, 
         {
@@ -9519,61 +9574,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Los Angeles Chargers vs. Green Bay Packers", 
-            "week": 9
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=hVxKt6jK1zs"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CLE", 
-            "date": "2019-11-03T20:25:00+00:00", 
-            "description": "", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "TheSportsDBID": "599920"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Denver Broncos vs Cleveland Browns"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CLE", 
-            "date": "2019-11-03T21:25:00+00:00", 
-            "description": "Fourth-year quarterback Brandon Allen sparked Denver's stagnant offense, throwing for two touchdowns in his first career NFL start and leading the Broncos past the stumbling Cleveland Browns 24-19 Sunday.", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "ESPNAPIID": "401128088", 
-                "ProFootballReferenceID": "201911030den", 
-                "SportsDataIOID": "17114"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Denver Broncos vs. Cleveland Browns", 
             "week": 9
         }, 
         {
@@ -10256,45 +10256,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=aYcaG3gUtbI"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/64sqyk1573994440.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "DAL", 
-            "date": "2019-11-17T18:00:00+00:00", 
-            "description": "Dak Prescott threw for 444 yards and three touchdowns, lifting the Dallas Cowboys to a 35-27 win over the Detroit Lions on Sunday.", 
-            "homeTeam": "DET", 
-            "identity": {
-                "ESPNAPIID": "401128052", 
-                "ProFootballReferenceID": "201911170det", 
-                "SportsDataIOID": "17132", 
-                "TheSportsDBID": "599939"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Detroit Lions vs. Dallas Cowboys", 
-            "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=R-67J480IQ8"
                     }
                 ], 
@@ -10352,6 +10313,45 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Minnesota Vikings vs. Denver Broncos", 
+            "week": 11
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=aYcaG3gUtbI"
+                    }
+                ], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/64sqyk1573994440.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "DAL", 
+            "date": "2019-11-17T18:00:00+00:00", 
+            "description": "Dak Prescott threw for 444 yards and three touchdowns, lifting the Dallas Cowboys to a 35-27 win over the Detroit Lions on Sunday.", 
+            "homeTeam": "DET", 
+            "identity": {
+                "ESPNAPIID": "401128052", 
+                "ProFootballReferenceID": "201911170det", 
+                "SportsDataIOID": "17132", 
+                "TheSportsDBID": "599939"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Detroit Lions vs. Dallas Cowboys", 
             "week": 11
         }, 
         {
@@ -10774,66 +10774,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=rj0sh8KbSF4"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/uo5k7q1574616965.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "SEA", 
-            "date": "2019-11-24T15:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "TheSportsDBID": "599962"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Philadelphia Eagles vs Seattle Seahawks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SEA", 
-            "date": "2019-11-24T18:00:00+00:00", 
-            "description": "Rashaad Penny ran for a career-best 129 yards, including a 58-yard touchdown, Russell Wilson threw one TD pass and the Seattle Seahawks beat the Philadelphia Eagles 17-9 Sunday.", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "401128008", 
-                "ProFootballReferenceID": "201911240phi", 
-                "SportsDataIOID": "17157"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Seattle Seahawks", 
-            "week": 12
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=gmh3MsNoy0M"
                     }
                 ], 
@@ -11011,6 +10951,66 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New York Jets vs. Oakland Raiders", 
+            "week": 12
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=rj0sh8KbSF4"
+                    }
+                ], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/uo5k7q1574616965.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "SEA", 
+            "date": "2019-11-24T15:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "PHI", 
+            "identity": {
+                "TheSportsDBID": "599962"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Philadelphia Eagles vs Seattle Seahawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SEA", 
+            "date": "2019-11-24T18:00:00+00:00", 
+            "description": "Rashaad Penny ran for a career-best 129 yards, including a 58-yard touchdown, Russell Wilson threw one TD pass and the Seattle Seahawks beat the Philadelphia Eagles 17-9 Sunday.", 
+            "homeTeam": "PHI", 
+            "identity": {
+                "ESPNAPIID": "401128008", 
+                "ProFootballReferenceID": "201911240phi", 
+                "SportsDataIOID": "17157"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Philadelphia Eagles vs. Seattle Seahawks", 
             "week": 12
         }, 
         {
@@ -11633,6 +11633,40 @@
                 "fanArt": [], 
                 "logo": [], 
                 "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=E-QcD7kMRpI"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYJ", 
+            "date": "2019-12-01T18:00:00+00:00", 
+            "description": "Andy Dalton returned from his three-week exile Sunday and got a long-awaited win for the coach who benched him, throwing a touchdown pass during a 22-6 victory over the New York Jets that ended the longest losing streak in Cincinnati Bengals history.", 
+            "homeTeam": "CIN", 
+            "identity": {
+                "ESPNAPIID": "401128057", 
+                "ProFootballReferenceID": "201912010cin", 
+                "SportsDataIOID": "17162", 
+                "TheSportsDBID": "599969"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cincinnati Bengals vs. New York Jets", 
+            "week": 13
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
                 "preview": [], 
                 "thumbnail": []
             }, 
@@ -11684,40 +11718,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Carolina Panthers vs. Washington Redskins", 
-            "week": 13
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=E-QcD7kMRpI"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYJ", 
-            "date": "2019-12-01T18:00:00+00:00", 
-            "description": "Andy Dalton returned from his three-week exile Sunday and got a long-awaited win for the coach who benched him, throwing a touchdown pass during a 22-6 victory over the New York Jets that ended the longest losing streak in Cincinnati Bengals history.", 
-            "homeTeam": "CIN", 
-            "identity": {
-                "ESPNAPIID": "401128057", 
-                "ProFootballReferenceID": "201912010cin", 
-                "SportsDataIOID": "17162", 
-                "TheSportsDBID": "599969"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cincinnati Bengals vs. New York Jets", 
             "week": 13
         }, 
         {
@@ -11799,6 +11799,40 @@
                 "fanArt": [], 
                 "logo": [], 
                 "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=obsKUjOYSC8"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LAC", 
+            "date": "2019-12-01T21:25:00+00:00", 
+            "description": "Brandon McManus\u2019 53-yard field goal as time expired, set up by a long interference call, capped a furious final 14 seconds and gave the Broncos a 23-20 victory over the Los Angeles Chargers.", 
+            "homeTeam": "DEN", 
+            "identity": {
+                "ESPNAPIID": "401128104", 
+                "ProFootballReferenceID": "201912010den", 
+                "SportsDataIOID": "17171", 
+                "TheSportsDBID": "599976"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Denver Broncos vs. Los Angeles Chargers", 
+            "week": 13
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
                 "preview": [], 
                 "thumbnail": []
             }, 
@@ -11855,40 +11889,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Kansas City Chiefs vs. Oakland Raiders", 
-            "week": 13
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=obsKUjOYSC8"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "LAC", 
-            "date": "2019-12-01T21:25:00+00:00", 
-            "description": "Brandon McManus\u2019 53-yard field goal as time expired, set up by a long interference call, capped a furious final 14 seconds and gave the Broncos a 23-20 victory over the Los Angeles Chargers.", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "ESPNAPIID": "401128104", 
-                "ProFootballReferenceID": "201912010den", 
-                "SportsDataIOID": "17171", 
-                "TheSportsDBID": "599976"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Denver Broncos vs. Los Angeles Chargers", 
             "week": 13
         }, 
         {
@@ -12018,114 +12018,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Chicago Bears vs. Dallas Cowboys", 
-            "week": 14
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=6WJ0Cg3W-94"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIA", 
-            "date": "2019-12-08T17:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "NYJ", 
-            "identity": {
-                "TheSportsDBID": "599981"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "New York Jets vs Miami Dolphins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIA", 
-            "date": "2019-12-08T18:00:00+00:00", 
-            "description": "Sam Ficken kicked a 44-yard field goal as time expired to give the New York Jets a 22-21 comeback victory over the Miami Dolphins on Sunday.", 
-            "homeTeam": "NYJ", 
-            "identity": {
-                "ESPNAPIID": "401127969", 
-                "ProFootballReferenceID": "201912080nyj", 
-                "SportsDataIOID": "17182"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Jets vs. Miami Dolphins", 
-            "week": 14
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=cFRzJ5bPwW0"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2019-12-08T17:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "GB", 
-            "identity": {
-                "TheSportsDBID": "599982"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Green Bay Packers vs Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2019-12-08T18:00:00+00:00", 
-            "homeTeam": "GB", 
-            "identity": {
-                "ProFootballReferenceID": "201912080gnb", 
-                "SportsDataIOID": "17179"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Green Bay Packers vs. Washington Redskins", 
             "week": 14
         }, 
         {
@@ -12412,6 +12304,61 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=6WJ0Cg3W-94"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIA", 
+            "date": "2019-12-08T17:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "NYJ", 
+            "identity": {
+                "TheSportsDBID": "599981"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "New York Jets vs Miami Dolphins"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIA", 
+            "date": "2019-12-08T18:00:00+00:00", 
+            "description": "Sam Ficken kicked a 44-yard field goal as time expired to give the New York Jets a 22-21 comeback victory over the Miami Dolphins on Sunday.", 
+            "homeTeam": "NYJ", 
+            "identity": {
+                "ESPNAPIID": "401127969", 
+                "ProFootballReferenceID": "201912080nyj", 
+                "SportsDataIOID": "17182"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New York Jets vs. Miami Dolphins", 
+            "week": 14
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=7c6IjKnvgO4"
                     }
                 ], 
@@ -12483,6 +12430,59 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Green Bay Packers vs. Washington", 
+            "week": 14
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=cFRzJ5bPwW0"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WAS", 
+            "date": "2019-12-08T17:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "GB", 
+            "identity": {
+                "TheSportsDBID": "599982"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Green Bay Packers vs Washington Redskins"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WAS", 
+            "date": "2019-12-08T18:00:00+00:00", 
+            "homeTeam": "GB", 
+            "identity": {
+                "ProFootballReferenceID": "201912080gnb", 
+                "SportsDataIOID": "17179"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Green Bay Packers vs. Washington Redskins", 
             "week": 14
         }, 
         {
@@ -13634,116 +13634,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=GXFZoeBcrSA"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NO", 
-            "date": "2019-12-22T17:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "TEN", 
-            "identity": {
-                "TheSportsDBID": "600016"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Tennessee Titans vs New Orleans Saints"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NO", 
-            "date": "2019-12-22T18:00:00+00:00", 
-            "description": "Drew Brees threw for 279 yards and three touchdowns and Alvin Kamara ran for two TDs as the New Orleans Saints kept their chase of the NFC's No. 1 seed alive by rallying from a 14-point deficit to beat the Tennessee Titans 38-28 Sunday.", 
-            "homeTeam": "TEN", 
-            "identity": {
-                "ESPNAPIID": "401127935", 
-                "ProFootballReferenceID": "201912220oti", 
-                "SportsDataIOID": "17214"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Tennessee Titans vs. New Orleans Saints", 
-            "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=kBQEC0510Bw"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
-            "date": "2019-12-22T17:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "TheSportsDBID": "600018"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Cleveland Browns vs Baltimore Ravens"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
-            "date": "2019-12-22T18:00:00+00:00", 
-            "description": "The road to the Super Bowl in the AFC goes through Baltimore, where its MVP candidate will be waiting.", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "ESPNAPIID": "401127904", 
-                "ProFootballReferenceID": "201912220cle", 
-                "SportsDataIOID": "17213"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cleveland Browns vs. Baltimore Ravens", 
-            "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=qsoIAtuACC0"
                     }
                 ], 
@@ -13815,59 +13705,6 @@
             "season": "2019", 
             "sport": "Football", 
             "vs": "Tampa Bay Buccaneers vs Houston Texans"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=PZH4u6leh3Q"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "LV", 
-            "date": "2019-12-22T17:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "LAC", 
-            "identity": {
-                "TheSportsDBID": "600015"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Los Angeles Chargers vs Oakland Raiders"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "LV", 
-            "date": "2019-12-22T21:05:00+00:00", 
-            "homeTeam": "LAC", 
-            "identity": {
-                "ProFootballReferenceID": "201912220sdg", 
-                "SportsDataIOID": "17209"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Los Angeles Chargers vs. Oakland Raiders", 
-            "week": 16
         }, 
         {
             "assets": {
@@ -14043,6 +13880,61 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=kBQEC0510Bw"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BAL", 
+            "date": "2019-12-22T17:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "TheSportsDBID": "600018"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Cleveland Browns vs Baltimore Ravens"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BAL", 
+            "date": "2019-12-22T18:00:00+00:00", 
+            "description": "The road to the Super Bowl in the AFC goes through Baltimore, where its MVP candidate will be waiting.", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "ESPNAPIID": "401127904", 
+                "ProFootballReferenceID": "201912220cle", 
+                "SportsDataIOID": "17213"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cleveland Browns vs. Baltimore Ravens", 
+            "week": 16
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=bQOFpw8PcCc"
                     }
                 ], 
@@ -14085,6 +13977,61 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Washington Redskins vs. New York Giants", 
+            "week": 16
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=GXFZoeBcrSA"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NO", 
+            "date": "2019-12-22T17:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "TEN", 
+            "identity": {
+                "TheSportsDBID": "600016"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Tennessee Titans vs New Orleans Saints"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NO", 
+            "date": "2019-12-22T18:00:00+00:00", 
+            "description": "Drew Brees threw for 279 yards and three touchdowns and Alvin Kamara ran for two TDs as the New Orleans Saints kept their chase of the NFC's No. 1 seed alive by rallying from a 14-point deficit to beat the Tennessee Titans 38-28 Sunday.", 
+            "homeTeam": "TEN", 
+            "identity": {
+                "ESPNAPIID": "401127935", 
+                "ProFootballReferenceID": "201912220oti", 
+                "SportsDataIOID": "17214"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Tennessee Titans vs. New Orleans Saints", 
             "week": 16
         }, 
         {
@@ -14185,6 +14132,59 @@
             "homeTeam": "LAC", 
             "identity": {
                 "ESPNAPIID": "401127896"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Los Angeles Chargers vs. Oakland Raiders", 
+            "week": 16
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=PZH4u6leh3Q"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LV", 
+            "date": "2019-12-22T17:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "LAC", 
+            "identity": {
+                "TheSportsDBID": "600015"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Los Angeles Chargers vs Oakland Raiders"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LV", 
+            "date": "2019-12-22T21:05:00+00:00", 
+            "homeTeam": "LAC", 
+            "identity": {
+                "ProFootballReferenceID": "201912220sdg", 
+                "SportsDataIOID": "17209"
             }, 
             "league": "NFL", 
             "networks": [
@@ -14497,226 +14497,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=TVkD_RmVsJc"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NO", 
-            "date": "2019-12-29T17:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "CAR", 
-            "identity": {
-                "TheSportsDBID": "600033"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Carolina Panthers vs New Orleans Saints"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NO", 
-            "date": "2019-12-29T18:00:00+00:00", 
-            "description": "The New Orleans Saints took care of business against the reeling Carolina Panthers and finished off a 13-3 regular season but still might not get a week of rest in the playoffs.", 
-            "homeTeam": "CAR", 
-            "identity": {
-                "ESPNAPIID": "401127975", 
-                "ProFootballReferenceID": "201912290car", 
-                "SportsDataIOID": "17232"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Carolina Panthers vs. New Orleans Saints", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=FzC0CT5DyLA"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PIT", 
-            "date": "2019-12-29T17:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "BAL", 
-            "identity": {
-                "TheSportsDBID": "600031"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Baltimore Ravens vs Pittsburgh Steelers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PIT", 
-            "date": "2019-12-29T21:25:00+00:00", 
-            "description": "Slogging through the rain without several notable stars and with very little at stake, the Baltimore Ravens relied on a strong defensive performance to beat the Pittsburgh Steelers 28-10 Sunday and finish the regular season riding a 12-game winning...", 
-            "homeTeam": "BAL", 
-            "identity": {
-                "ESPNAPIID": "401127950", 
-                "ProFootballReferenceID": "201912290rav", 
-                "SportsDataIOID": "17234"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Baltimore Ravens vs. Pittsburgh Steelers", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=QShZYwHnlW8"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIA", 
-            "date": "2019-12-29T17:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "NE", 
-            "identity": {
-                "TheSportsDBID": "600037"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "New England Patriots vs Miami Dolphins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIA", 
-            "date": "2019-12-29T18:00:00+00:00", 
-            "description": "Miami dropped defending Super Bowl champion New England into the wild-card playoff round when Ryan Fitzpatrick tossed a 5-yard touchdown pass to tight end Mike Gesicki with 24 seconds remaining for a stunning 27-24 victory Sunday.", 
-            "homeTeam": "NE", 
-            "identity": {
-                "ESPNAPIID": "401127909", 
-                "ProFootballReferenceID": "201912290nwe", 
-                "SportsDataIOID": "17229"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New England Patriots vs. Miami Dolphins", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=i04mRvBggQc"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CHI", 
-            "date": "2019-12-29T17:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "TheSportsDBID": "600030"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Minnesota Vikings vs Chicago Bears"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CHI", 
-            "date": "2019-12-29T18:00:00+00:00", 
-            "description": "Eddy Pineiro's fourth field goal of the game for Chicago came from 22 yards with 10 seconds left, giving the Bears a 21-19 victory over Minnesota on Sunday with the Vikings resting their regulars for the playoffs.", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ESPNAPIID": "401127991", 
-                "ProFootballReferenceID": "201912290min", 
-                "SportsDataIOID": "17228"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Chicago Bears", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=DX3IfYegirI"
                     }
                 ], 
@@ -14882,23 +14662,23 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=B64ZvK45lr0"
+                        "url": "https://www.youtube.com/watch?v=i04mRvBggQc"
                     }
                 ], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NYJ", 
+            "awayTeam": "CHI", 
             "date": "2019-12-29T17:00:00+00:00", 
             "description": "", 
-            "homeTeam": "BUF", 
+            "homeTeam": "MIN", 
             "identity": {
-                "TheSportsDBID": "600032"
+                "TheSportsDBID": "600030"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "2019", 
             "sport": "Football", 
-            "vs": "Buffalo Bills vs New York Jets"
+            "vs": "Minnesota Vikings vs Chicago Bears"
         }, 
         {
             "assets": {
@@ -14909,69 +14689,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NYJ", 
+            "awayTeam": "CHI", 
             "date": "2019-12-29T18:00:00+00:00", 
-            "description": "Sam Darnold hit Jamison Crowder for a 1-yard touchdown pass in the fourth quarter, and the New York Jets avoided finishing their fourth consecutive season with double-digit losses in a 13-6 win over the Buffalo Bills' backups Sunday.", 
-            "homeTeam": "BUF", 
+            "description": "Eddy Pineiro's fourth field goal of the game for Chicago came from 22 yards with 10 seconds left, giving the Bears a 21-19 victory over Minnesota on Sunday with the Vikings resting their regulars for the playoffs.", 
+            "homeTeam": "MIN", 
             "identity": {
-                "ESPNAPIID": "401127973", 
-                "ProFootballReferenceID": "201912290buf", 
-                "SportsDataIOID": "17223"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Buffalo Bills vs. New York Jets", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=IhzAQXSSxc4"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ATL", 
-            "date": "2019-12-29T17:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "TB", 
-            "identity": {
-                "TheSportsDBID": "600039"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Tampa Bay Buccaneers vs Atlanta Falcons"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ATL", 
-            "date": "2019-12-29T18:00:00+00:00", 
-            "description": "Deion Jones intercepted Jameis Winston on the first play of overtime and returned the ball 28 yards for a touchdown to give the Atlanta Falcons a 28-22 victory over the Tampa Bay Buccaneers on Sunday.", 
-            "homeTeam": "TB", 
-            "identity": {
-                "ESPNAPIID": "401128034", 
-                "ProFootballReferenceID": "201912290tam", 
-                "SportsDataIOID": "17231"
+                "ESPNAPIID": "401127991", 
+                "ProFootballReferenceID": "201912290min", 
+                "SportsDataIOID": "17228"
             }, 
             "league": "NFL", 
             "networks": [
@@ -14980,7 +14705,7 @@
             "season": "2019", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Tampa Bay Buccaneers vs. Atlanta Falcons", 
+            "vs": "Minnesota Vikings vs. Chicago Bears", 
             "week": 17
         }, 
         {
@@ -15102,6 +14827,281 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=TVkD_RmVsJc"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NO", 
+            "date": "2019-12-29T17:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "CAR", 
+            "identity": {
+                "TheSportsDBID": "600033"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Carolina Panthers vs New Orleans Saints"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NO", 
+            "date": "2019-12-29T18:00:00+00:00", 
+            "description": "The New Orleans Saints took care of business against the reeling Carolina Panthers and finished off a 13-3 regular season but still might not get a week of rest in the playoffs.", 
+            "homeTeam": "CAR", 
+            "identity": {
+                "ESPNAPIID": "401127975", 
+                "ProFootballReferenceID": "201912290car", 
+                "SportsDataIOID": "17232"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Carolina Panthers vs. New Orleans Saints", 
+            "week": 17
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=QShZYwHnlW8"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIA", 
+            "date": "2019-12-29T17:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "NE", 
+            "identity": {
+                "TheSportsDBID": "600037"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "New England Patriots vs Miami Dolphins"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIA", 
+            "date": "2019-12-29T18:00:00+00:00", 
+            "description": "Miami dropped defending Super Bowl champion New England into the wild-card playoff round when Ryan Fitzpatrick tossed a 5-yard touchdown pass to tight end Mike Gesicki with 24 seconds remaining for a stunning 27-24 victory Sunday.", 
+            "homeTeam": "NE", 
+            "identity": {
+                "ESPNAPIID": "401127909", 
+                "ProFootballReferenceID": "201912290nwe", 
+                "SportsDataIOID": "17229"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New England Patriots vs. Miami Dolphins", 
+            "week": 17
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=B64ZvK45lr0"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYJ", 
+            "date": "2019-12-29T17:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "BUF", 
+            "identity": {
+                "TheSportsDBID": "600032"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Buffalo Bills vs New York Jets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYJ", 
+            "date": "2019-12-29T18:00:00+00:00", 
+            "description": "Sam Darnold hit Jamison Crowder for a 1-yard touchdown pass in the fourth quarter, and the New York Jets avoided finishing their fourth consecutive season with double-digit losses in a 13-6 win over the Buffalo Bills' backups Sunday.", 
+            "homeTeam": "BUF", 
+            "identity": {
+                "ESPNAPIID": "401127973", 
+                "ProFootballReferenceID": "201912290buf", 
+                "SportsDataIOID": "17223"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Buffalo Bills vs. New York Jets", 
+            "week": 17
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=IhzAQXSSxc4"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ATL", 
+            "date": "2019-12-29T17:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "TB", 
+            "identity": {
+                "TheSportsDBID": "600039"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Tampa Bay Buccaneers vs Atlanta Falcons"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ATL", 
+            "date": "2019-12-29T18:00:00+00:00", 
+            "description": "Deion Jones intercepted Jameis Winston on the first play of overtime and returned the ball 28 yards for a touchdown to give the Atlanta Falcons a 28-22 victory over the Tampa Bay Buccaneers on Sunday.", 
+            "homeTeam": "TB", 
+            "identity": {
+                "ESPNAPIID": "401128034", 
+                "ProFootballReferenceID": "201912290tam", 
+                "SportsDataIOID": "17231"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Tampa Bay Buccaneers vs. Atlanta Falcons", 
+            "week": 17
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=FzC0CT5DyLA"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "PIT", 
+            "date": "2019-12-29T17:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "BAL", 
+            "identity": {
+                "TheSportsDBID": "600031"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Baltimore Ravens vs Pittsburgh Steelers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "PIT", 
+            "date": "2019-12-29T21:25:00+00:00", 
+            "description": "Slogging through the rain without several notable stars and with very little at stake, the Baltimore Ravens relied on a strong defensive performance to beat the Pittsburgh Steelers 28-10 Sunday and finish the regular season riding a 12-game winning...", 
+            "homeTeam": "BAL", 
+            "identity": {
+                "ESPNAPIID": "401127950", 
+                "ProFootballReferenceID": "201912290rav", 
+                "SportsDataIOID": "17234"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Baltimore Ravens vs. Pittsburgh Steelers", 
+            "week": 17
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=FbteGVnLUGo"
                     }
                 ], 
@@ -15144,61 +15144,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Denver Broncos vs. Oakland Raiders", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=Bru8AddADvo"
-                    }
-                ], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SF", 
-            "date": "2019-12-29T20:25:00+00:00", 
-            "description": "", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "TheSportsDBID": "600041"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Football", 
-            "vs": "Seattle Seahawks vs San Francisco 49ers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SF", 
-            "date": "2019-12-30T01:20:00+00:00", 
-            "description": "The road to the Super Bowl in the NFC will go through San Francisco for the first time since 1997.", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "ESPNAPIID": "401128040", 
-                "ProFootballReferenceID": "201912290sea", 
-                "SportsDataIOID": "17238"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "NBC"
-            ], 
-            "season": "2019", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Seattle Seahawks vs. San Francisco 49ers", 
             "week": 17
         }, 
         {
@@ -15281,6 +15226,61 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Denver Broncos vs. Oakland Raiders", 
+            "week": 17
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=Bru8AddADvo"
+                    }
+                ], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SF", 
+            "date": "2019-12-29T20:25:00+00:00", 
+            "description": "", 
+            "homeTeam": "SEA", 
+            "identity": {
+                "TheSportsDBID": "600041"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Football", 
+            "vs": "Seattle Seahawks vs San Francisco 49ers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SF", 
+            "date": "2019-12-30T01:20:00+00:00", 
+            "description": "The road to the Super Bowl in the NFC will go through San Francisco for the first time since 1997.", 
+            "homeTeam": "SEA", 
+            "identity": {
+                "ESPNAPIID": "401128040", 
+                "ProFootballReferenceID": "201912290sea", 
+                "SportsDataIOID": "17238"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "NBC"
+            ], 
+            "season": "2019", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Seattle Seahawks vs. San Francisco 49ers", 
             "week": 17
         }, 
         {

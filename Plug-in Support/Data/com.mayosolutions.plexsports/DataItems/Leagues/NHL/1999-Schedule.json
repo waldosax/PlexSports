@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1999SCHEDULE", 
-        "CachedOn": "2021-09-11T08:15:41", 
-        "ExpiresOn": "2021-09-18T08:15:41", 
+        "CachedOn": "2021-10-11T23:59:04", 
+        "ExpiresOn": "2021-10-18T23:59:04", 
         "Version": "2"
     }, 
     "Items": [
@@ -478,6 +478,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "Phoenix Coyotes", 
+            "date": "1999-10-03T00:00:00+00:00", 
+            "homeTeam": "St. Louis Blues", 
+            "identity": {
+                "NHLAPIID": 1999020010
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "St. Louis Blues vs. Phoenix Coyotes"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "ANA", 
             "date": "1999-10-03T00:00:00+00:00", 
             "eventTitle": "", 
@@ -491,28 +513,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Dallas Stars vs. Anaheim Ducks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "Phoenix Coyotes", 
-            "date": "1999-10-03T00:00:00+00:00", 
-            "homeTeam": "St. Louis Blues", 
-            "identity": {
-                "NHLAPIID": 1999020010
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "St. Louis Blues vs. Phoenix Coyotes"
         }, 
         {
             "assets": {
@@ -4229,14 +4229,17 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Anaheim Ducks", 
+            "awayTeam": "ANA", 
             "date": "1999-10-19T23:00:00+00:00", 
-            "homeTeam": "Washington Capitals", 
+            "eventTitle": "", 
+            "homeTeam": "WSH", 
             "identity": {
-                "NHLAPIID": 1999020094
+                "ESPNAPIID": "191019023"
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "CSN"
+            ], 
             "season": "1999", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -4251,17 +4254,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ANA", 
+            "awayTeam": "Anaheim Ducks", 
             "date": "1999-10-19T23:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "Washington Capitals", 
             "identity": {
-                "ESPNAPIID": "191019023"
+                "NHLAPIID": 1999020094
             }, 
             "league": "NHL", 
-            "networks": [
-                "CSN"
-            ], 
+            "networks": [], 
             "season": "1999", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -4783,11 +4783,12 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Colorado Avalanche", 
+            "awayTeam": "COL", 
             "date": "1999-10-21T23:30:00+00:00", 
-            "homeTeam": "Ottawa Senators", 
+            "eventTitle": "", 
+            "homeTeam": "OTT", 
             "identity": {
-                "NHLAPIID": 1999020105
+                "ESPNAPIID": "191021014"
             }, 
             "league": "NHL", 
             "networks": [], 
@@ -4805,12 +4806,11 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "COL", 
+            "awayTeam": "Colorado Avalanche", 
             "date": "1999-10-21T23:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "OTT", 
+            "homeTeam": "Ottawa Senators", 
             "identity": {
-                "ESPNAPIID": "191021014"
+                "NHLAPIID": 1999020105
             }, 
             "league": "NHL", 
             "networks": [], 
@@ -8246,29 +8246,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PIT", 
-            "date": "1999-11-05T00:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "OTT", 
-            "identity": {
-                "ESPNAPIID": "191104014"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Ottawa Senators vs. Pittsburgh Penguins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "MTL", 
             "date": "1999-11-05T00:30:00+00:00", 
             "eventTitle": "", 
@@ -8282,6 +8259,29 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "New York Islanders vs. Montreal Canadiens"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "PIT", 
+            "date": "1999-11-05T00:30:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "OTT", 
+            "identity": {
+                "ESPNAPIID": "191104014"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Ottawa Senators vs. Pittsburgh Penguins"
         }, 
         {
             "assets": {
@@ -9393,31 +9393,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ANA", 
-            "date": "1999-11-10T00:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "TOR", 
-            "identity": {
-                "ESPNAPIID": "191109021"
-            }, 
-            "league": "NHL", 
-            "networks": [
-                "TSN"
-            ], 
-            "season": "1999", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Toronto Maple Leafs vs. Anaheim Ducks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "Anaheim Ducks", 
             "date": "1999-11-10T00:30:00+00:00", 
             "homeTeam": "Toronto Maple Leafs", 
@@ -9453,6 +9428,31 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "New Jersey Devils vs. Philadelphia Flyers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ANA", 
+            "date": "1999-11-10T00:30:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "TOR", 
+            "identity": {
+                "ESPNAPIID": "191109021"
+            }, 
+            "league": "NHL", 
+            "networks": [
+                "TSN"
+            ], 
+            "season": "1999", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Toronto Maple Leafs vs. Anaheim Ducks"
         }, 
         {
             "assets": {
@@ -16026,17 +16026,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "EDM", 
+            "awayTeam": "Edmonton Oilers", 
             "date": "1999-12-03T03:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "VAN", 
+            "homeTeam": "Vancouver Canucks", 
             "identity": {
-                "ESPNAPIID": "191202022"
+                "NHLAPIID": 1999020349
             }, 
             "league": "NHL", 
-            "networks": [
-                "VTV"
-            ], 
+            "networks": [], 
             "season": "1999", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -16051,14 +16048,17 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Edmonton Oilers", 
+            "awayTeam": "EDM", 
             "date": "1999-12-03T03:00:00+00:00", 
-            "homeTeam": "Vancouver Canucks", 
+            "eventTitle": "", 
+            "homeTeam": "VAN", 
             "identity": {
-                "NHLAPIID": 1999020349
+                "ESPNAPIID": "191202022"
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "VTV"
+            ], 
             "season": "1999", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -16668,31 +16668,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DET", 
-            "date": "1999-12-05T01:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "NSH", 
-            "identity": {
-                "ESPNAPIID": "191204027"
-            }, 
-            "league": "NHL", 
-            "networks": [
-                "WNAB"
-            ], 
-            "season": "1999", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Nashville Predators vs. Detroit Red Wings"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "San Jose Sharks", 
             "date": "1999-12-05T01:00:00+00:00", 
             "homeTeam": "St. Louis Blues", 
@@ -16728,6 +16703,31 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "St. Louis Blues vs. San Jose Sharks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DET", 
+            "date": "1999-12-05T01:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "NSH", 
+            "identity": {
+                "ESPNAPIID": "191204027"
+            }, 
+            "league": "NHL", 
+            "networks": [
+                "WNAB"
+            ], 
+            "season": "1999", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Nashville Predators vs. Detroit Red Wings"
         }, 
         {
             "assets": {
@@ -18093,14 +18093,17 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Chicago Blackhawks", 
+            "awayTeam": "CHI", 
             "date": "1999-12-11T00:00:00+00:00", 
-            "homeTeam": "Buffalo Sabres", 
+            "eventTitle": "", 
+            "homeTeam": "BUF", 
             "identity": {
-                "NHLAPIID": 1999020395
+                "ESPNAPIID": "191210002"
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "EMPI"
+            ], 
             "season": "1999", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -18115,17 +18118,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CHI", 
+            "awayTeam": "Chicago Blackhawks", 
             "date": "1999-12-11T00:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "BUF", 
+            "homeTeam": "Buffalo Sabres", 
             "identity": {
-                "ESPNAPIID": "191210002"
+                "NHLAPIID": 1999020395
             }, 
             "league": "NHL", 
-            "networks": [
-                "EMPI"
-            ], 
+            "networks": [], 
             "season": "1999", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -18684,6 +18684,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "Phoenix Coyotes", 
+            "date": "1999-12-12T00:30:00+00:00", 
+            "homeTeam": "Pittsburgh Penguins", 
+            "identity": {
+                "NHLAPIID": 1999020408
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Penguins vs. Phoenix Coyotes"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "PHX", 
             "date": "1999-12-12T00:30:00+00:00", 
             "eventTitle": "", 
@@ -18699,28 +18721,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Pittsburgh Penguins vs. Arizona Coyotes"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "Phoenix Coyotes", 
-            "date": "1999-12-12T00:30:00+00:00", 
-            "homeTeam": "Pittsburgh Penguins", 
-            "identity": {
-                "NHLAPIID": 1999020408
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Penguins vs. Phoenix Coyotes"
         }, 
         {
             "assets": {
@@ -25339,29 +25339,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PHX", 
-            "date": "2000-01-07T00:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "OTT", 
-            "identity": {
-                "ESPNAPIID": "200106014"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Ottawa Senators vs. Arizona Coyotes"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "Phoenix Coyotes", 
             "date": "2000-01-07T00:00:00+00:00", 
             "homeTeam": "Ottawa Senators", 
@@ -25396,6 +25373,29 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Buffalo Sabres vs. New Jersey Devils"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "PHX", 
+            "date": "2000-01-07T00:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "OTT", 
+            "identity": {
+                "ESPNAPIID": "200106014"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Ottawa Senators vs. Arizona Coyotes"
         }, 
         {
             "assets": {
@@ -25730,28 +25730,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Toronto Maple Leafs", 
-            "date": "2000-01-08T00:30:00+00:00", 
-            "homeTeam": "Pittsburgh Penguins", 
-            "identity": {
-                "NHLAPIID": 1999020561
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Penguins vs. Toronto Maple Leafs"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "Anaheim Ducks", 
             "date": "2000-01-08T00:30:00+00:00", 
             "homeTeam": "Carolina Hurricanes", 
@@ -25787,6 +25765,28 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Carolina Hurricanes vs. Anaheim Ducks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "Toronto Maple Leafs", 
+            "date": "2000-01-08T00:30:00+00:00", 
+            "homeTeam": "Pittsburgh Penguins", 
+            "identity": {
+                "NHLAPIID": 1999020561
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Penguins vs. Toronto Maple Leafs"
         }, 
         {
             "assets": {
@@ -26619,28 +26619,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "New Jersey Devils", 
-            "date": "2000-01-12T00:30:00+00:00", 
-            "homeTeam": "Tampa Bay Lightning", 
-            "identity": {
-                "NHLAPIID": 1999020583
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Tampa Bay Lightning vs. New Jersey Devils"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "DET", 
             "date": "2000-01-12T00:30:00+00:00", 
             "eventTitle": "", 
@@ -26746,6 +26724,28 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Carolina Hurricanes vs. Philadelphia Flyers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "New Jersey Devils", 
+            "date": "2000-01-12T00:30:00+00:00", 
+            "homeTeam": "Tampa Bay Lightning", 
+            "identity": {
+                "NHLAPIID": 1999020583
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Tampa Bay Lightning vs. New Jersey Devils"
         }, 
         {
             "assets": {
@@ -33103,28 +33103,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Montreal Canadiens", 
-            "date": "2000-02-03T00:30:00+00:00", 
-            "homeTeam": "Florida Panthers", 
-            "identity": {
-                "NHLAPIID": 1999020726
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Florida Panthers vs. Montr\u00e9al Canadiens"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "Nashville Predators", 
             "date": "2000-02-03T00:30:00+00:00", 
             "homeTeam": "New York Islanders", 
@@ -33137,6 +33115,28 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "New York Islanders vs. Nashville Predators"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "Montreal Canadiens", 
+            "date": "2000-02-03T00:30:00+00:00", 
+            "homeTeam": "Florida Panthers", 
+            "identity": {
+                "NHLAPIID": 1999020726
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Florida Panthers vs. Montr\u00e9al Canadiens"
         }, 
         {
             "assets": {
@@ -33309,6 +33309,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "Toronto Maple Leafs", 
+            "date": "2000-02-04T00:00:00+00:00", 
+            "homeTeam": "Boston Bruins", 
+            "identity": {
+                "NHLAPIID": 1999020729
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Boston Bruins vs. Toronto Maple Leafs"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "OTT", 
             "date": "2000-02-04T00:00:00+00:00", 
             "eventTitle": "", 
@@ -33324,28 +33346,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Buffalo Sabres vs. Ottawa Senators"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "Toronto Maple Leafs", 
-            "date": "2000-02-04T00:00:00+00:00", 
-            "homeTeam": "Boston Bruins", 
-            "identity": {
-                "NHLAPIID": 1999020729
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Boston Bruins vs. Toronto Maple Leafs"
         }, 
         {
             "assets": {
@@ -39710,12 +39710,11 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "TB", 
+            "awayTeam": "Tampa Bay Lightning", 
             "date": "2000-02-27T01:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "NSH", 
+            "homeTeam": "Nashville Predators", 
             "identity": {
-                "ESPNAPIID": "200226027"
+                "NHLAPIID": 1999020868
             }, 
             "league": "NHL", 
             "networks": [], 
@@ -39733,11 +39732,12 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Tampa Bay Lightning", 
+            "awayTeam": "TB", 
             "date": "2000-02-27T01:00:00+00:00", 
-            "homeTeam": "Nashville Predators", 
+            "eventTitle": "", 
+            "homeTeam": "NSH", 
             "identity": {
-                "NHLAPIID": 1999020868
+                "ESPNAPIID": "200226027"
             }, 
             "league": "NHL", 
             "networks": [], 

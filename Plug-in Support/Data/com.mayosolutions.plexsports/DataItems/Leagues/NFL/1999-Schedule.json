@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL1999SCHEDULE", 
-        "CachedOn": "2021-09-12T06:25:30", 
-        "ExpiresOn": "2021-09-19T06:25:30", 
+        "CachedOn": "2021-10-12T07:12:43", 
+        "ExpiresOn": "2021-10-19T07:12:43", 
         "Version": "2"
     }, 
     "Items": [
@@ -81,6 +81,28 @@
         {
             "assets": {
                 "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DAL", 
+            "date": "1999-09-12T17:00:00+00:00", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ProFootballReferenceID": "199909120was"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Washington Redskins vs. Dallas Cowboys"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
                 "fanArt": [
                     {
                         "source": "thesportsdb", 
@@ -136,28 +158,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "St. Louis Rams vs. Baltimore Ravens"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "1999-09-12T17:00:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "199909120was"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys"
         }, 
         {
             "assets": {
@@ -1447,6 +1447,30 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "STL", 
+            "date": "1999-10-03T04:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "CIN", 
+            "identity": {
+                "ESPNAPIID": "191003004"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cincinnati Bengals vs. St. Louis Rams", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "OAK", 
             "date": "1999-10-03T04:00:00+00:00", 
             "eventTitle": "", 
@@ -1471,20 +1495,43 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "STL", 
-            "date": "1999-10-03T04:00:00+00:00", 
+            "awayTeam": "TB", 
+            "date": "1999-10-03T17:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "CIN", 
+            "homeTeam": "MIN", 
             "identity": {
-                "ESPNAPIID": "191003004"
+                "ESPNAPIID": "191003016", 
+                "ProFootballReferenceID": "199910030min"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1999", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Cincinnati Bengals vs. St. Louis Rams", 
+            "vs": "Minnesota Vikings vs. Tampa Bay Buccaneers", 
             "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CAR", 
+            "date": "1999-10-03T17:00:00+00:00", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ProFootballReferenceID": "199910030was"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Washington Redskins vs. Carolina Panthers"
         }, 
         {
             "assets": {
@@ -1544,53 +1591,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Cincinnati Bengals vs. St. Louis Rams"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "TB", 
-            "date": "1999-10-03T17:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ESPNAPIID": "191003016", 
-                "ProFootballReferenceID": "199910030min"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Tampa Bay Buccaneers", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CAR", 
-            "date": "1999-10-03T17:00:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "199910030was"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Carolina Panthers"
         }, 
         {
             "assets": {
@@ -2198,31 +2198,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "BAL", 
-            "date": "1999-10-10T20:15:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "TEN", 
-            "identity": {
-                "ESPNAPIID": "191010010", 
-                "ProFootballReferenceID": "199910100oti"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Tennessee Titans vs. Baltimore Ravens", 
-            "week": 5
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "MIA", 
             "date": "1999-10-10T20:15:00+00:00", 
             "eventTitle": "", 
@@ -2237,6 +2212,31 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Indianapolis Colts vs. Miami Dolphins", 
+            "week": 5
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BAL", 
+            "date": "1999-10-10T20:15:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "TEN", 
+            "identity": {
+                "ESPNAPIID": "191010010", 
+                "ProFootballReferenceID": "199910100oti"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Tennessee Titans vs. Baltimore Ravens", 
             "week": 5
         }, 
         {
@@ -2937,31 +2937,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CIN", 
-            "date": "1999-10-24T17:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "IND", 
-            "identity": {
-                "ESPNAPIID": "191024011", 
-                "ProFootballReferenceID": "199910240clt"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Indianapolis Colts vs. Cincinnati Bengals", 
-            "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CHI", 
             "date": "1999-10-24T17:00:00+00:00", 
             "eventTitle": "", 
@@ -2976,6 +2951,31 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Tampa Bay Buccaneers vs. Chicago Bears", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CIN", 
+            "date": "1999-10-24T17:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "IND", 
+            "identity": {
+                "ESPNAPIID": "191024011", 
+                "ProFootballReferenceID": "199910240clt"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Indianapolis Colts vs. Cincinnati Bengals", 
             "week": 7
         }, 
         {
@@ -3383,28 +3383,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CHI", 
-            "date": "1999-10-31T18:01:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "199910310was"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Chicago Bears"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "BUF", 
             "date": "1999-10-31T18:01:00+00:00", 
             "eventTitle": "", 
@@ -3420,6 +3398,28 @@
             "subseason": 0, 
             "vs": "Baltimore Ravens vs. Buffalo Bills", 
             "week": 8
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CHI", 
+            "date": "1999-10-31T18:01:00+00:00", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ProFootballReferenceID": "199910310was"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Washington Redskins vs. Chicago Bears"
         }, 
         {
             "assets": {
@@ -3939,31 +3939,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "BAL", 
-            "date": "1999-11-07T18:04:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "ESPNAPIID": "191107005", 
-                "ProFootballReferenceID": "199911070cle"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cleveland Browns vs. Baltimore Ravens", 
-            "week": 9
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ARI", 
             "date": "1999-11-07T18:04:00+00:00", 
             "eventTitle": "", 
@@ -3978,6 +3953,31 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New York Jets vs. Arizona Cardinals", 
+            "week": 9
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BAL", 
+            "date": "1999-11-07T18:04:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "ESPNAPIID": "191107005", 
+                "ProFootballReferenceID": "199911070cle"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cleveland Browns vs. Baltimore Ravens", 
             "week": 9
         }, 
         {
@@ -4730,31 +4730,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NE", 
-            "date": "1999-11-21T18:01:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "MIA", 
-            "identity": {
-                "ESPNAPIID": "191121015", 
-                "ProFootballReferenceID": "199911210mia"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Miami Dolphins vs. New England Patriots", 
-            "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SEA", 
             "date": "1999-11-21T18:01:00+00:00", 
             "eventTitle": "", 
@@ -4794,6 +4769,31 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Tampa Bay Buccaneers vs. Atlanta Falcons", 
+            "week": 11
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NE", 
+            "date": "1999-11-21T18:01:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "MIA", 
+            "identity": {
+                "ESPNAPIID": "191121015", 
+                "ProFootballReferenceID": "199911210mia"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Miami Dolphins vs. New England Patriots", 
             "week": 11
         }, 
         {
@@ -5337,6 +5337,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "PHI", 
+            "date": "1999-11-28T18:00:00+00:00", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ProFootballReferenceID": "199911280was"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Washington Redskins vs. Philadelphia Eagles"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "ATL", 
             "date": "1999-11-28T18:00:00+00:00", 
             "eventTitle": "", 
@@ -5352,28 +5374,6 @@
             "subseason": 0, 
             "vs": "Carolina Panthers vs. Atlanta Falcons", 
             "week": 12
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "1999-11-28T18:00:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "199911280was"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles"
         }, 
         {
             "assets": {
@@ -5712,30 +5712,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "1999-12-05T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "DET", 
-            "identity": {
-                "ESPNAPIID": "191205008"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Detroit Lions vs. Washington Redskins", 
-            "week": 13
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SEA", 
             "date": "1999-12-05T05:00:00+00:00", 
             "eventTitle": "", 
@@ -5808,6 +5784,30 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "WSH", 
+            "date": "1999-12-05T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "DET", 
+            "identity": {
+                "ESPNAPIID": "191205008"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Detroit Lions vs. Washington Redskins", 
+            "week": 13
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "SF", 
             "date": "1999-12-05T18:00:00+00:00", 
             "eventTitle": "", 
@@ -5822,6 +5822,31 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Cincinnati Bengals vs. San Francisco 49ers", 
+            "week": 13
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "IND", 
+            "date": "1999-12-05T18:01:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "MIA", 
+            "identity": {
+                "ESPNAPIID": "191205015", 
+                "ProFootballReferenceID": "199912050mia"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Miami Dolphins vs. Indianapolis Colts", 
             "week": 13
         }, 
         {
@@ -5855,20 +5880,20 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "IND", 
-            "date": "1999-12-05T18:01:00+00:00", 
+            "awayTeam": "TEN", 
+            "date": "1999-12-05T18:02:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "MIA", 
+            "homeTeam": "BAL", 
             "identity": {
-                "ESPNAPIID": "191205015", 
-                "ProFootballReferenceID": "199912050mia"
+                "ESPNAPIID": "191205033", 
+                "ProFootballReferenceID": "199912050rav"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1999", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Miami Dolphins vs. Indianapolis Colts", 
+            "vs": "Baltimore Ravens vs. Tennessee Titans", 
             "week": 13
         }, 
         {
@@ -5917,31 +5942,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Carolina Panthers vs. St. Louis Rams"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "TEN", 
-            "date": "1999-12-05T18:02:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "BAL", 
-            "identity": {
-                "ESPNAPIID": "191205033", 
-                "ProFootballReferenceID": "199912050rav"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Baltimore Ravens vs. Tennessee Titans", 
-            "week": 13
         }, 
         {
             "assets": {
@@ -6192,6 +6192,30 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "SD", 
+            "date": "1999-12-12T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "SEA", 
+            "identity": {
+                "ESPNAPIID": "191212026"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Seattle Seahawks vs. San Diego Chargers", 
+            "week": 14
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "STL", 
             "date": "1999-12-12T05:00:00+00:00", 
             "eventTitle": "", 
@@ -6229,30 +6253,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Washington Redskins vs. Arizona Cardinals", 
-            "week": 14
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SD", 
-            "date": "1999-12-12T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "ESPNAPIID": "191212026"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Seattle Seahawks vs. San Diego Chargers", 
             "week": 14
         }, 
         {
@@ -6420,31 +6420,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NYG", 
-            "date": "1999-12-12T18:02:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "BUF", 
-            "identity": {
-                "ESPNAPIID": "191212002", 
-                "ProFootballReferenceID": "199912120buf"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Buffalo Bills vs. New York Giants", 
-            "week": 14
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CAR", 
             "date": "1999-12-12T18:02:00+00:00", 
             "eventTitle": "", 
@@ -6459,6 +6434,31 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Green Bay Packers vs. Carolina Panthers", 
+            "week": 14
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYG", 
+            "date": "1999-12-12T18:02:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "BUF", 
+            "identity": {
+                "ESPNAPIID": "191212002", 
+                "ProFootballReferenceID": "199912120buf"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Buffalo Bills vs. New York Giants", 
             "week": 14
         }, 
         {
@@ -6782,6 +6782,53 @@
         {
             "assets": {
                 "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ATL", 
+            "date": "1999-12-19T17:03:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "TEN", 
+            "identity": {
+                "ESPNAPIID": "191219010", 
+                "ProFootballReferenceID": "199912190oti"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Tennessee Titans vs. Atlanta Falcons", 
+            "week": 15
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WAS", 
+            "date": "1999-12-19T18:00:00+00:00", 
+            "homeTeam": "IND", 
+            "identity": {
+                "ProFootballReferenceID": "199912190clt"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Indianapolis Colts vs. Washington Redskins"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
                 "fanArt": [
                     {
                         "source": "thesportsdb", 
@@ -6837,53 +6884,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "St. Louis Rams vs. New York Giants"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ATL", 
-            "date": "1999-12-19T17:03:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "TEN", 
-            "identity": {
-                "ESPNAPIID": "191219010", 
-                "ProFootballReferenceID": "199912190oti"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Tennessee Titans vs. Atlanta Falcons", 
-            "week": 15
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "1999-12-19T18:00:00+00:00", 
-            "homeTeam": "IND", 
-            "identity": {
-                "ProFootballReferenceID": "199912190clt"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Indianapolis Colts vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -7254,6 +7254,56 @@
         {
             "assets": {
                 "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "JAX", 
+            "date": "1999-12-26T17:03:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "TEN", 
+            "identity": {
+                "ESPNAPIID": "191226010", 
+                "ProFootballReferenceID": "199912260oti"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Tennessee Titans vs. Jacksonville Jaguars", 
+            "week": 16
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CAR", 
+            "date": "1999-12-26T18:01:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "PIT", 
+            "identity": {
+                "ESPNAPIID": "191226023", 
+                "ProFootballReferenceID": "199912260pit"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Steelers vs. Carolina Panthers", 
+            "week": 16
+        }, 
+        {
+            "assets": {
+                "banner": [], 
                 "fanArt": [
                     {
                         "source": "thesportsdb", 
@@ -7309,56 +7359,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "St. Louis Rams vs. Chicago Bears"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "JAX", 
-            "date": "1999-12-26T17:03:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "TEN", 
-            "identity": {
-                "ESPNAPIID": "191226010", 
-                "ProFootballReferenceID": "199912260oti"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Tennessee Titans vs. Jacksonville Jaguars", 
-            "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CAR", 
-            "date": "1999-12-26T18:01:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "PIT", 
-            "identity": {
-                "ESPNAPIID": "191226023", 
-                "ProFootballReferenceID": "199912260pit"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Steelers vs. Carolina Panthers", 
-            "week": 16
         }, 
         {
             "assets": {
@@ -7703,65 +7703,6 @@
         {
             "assets": {
                 "banner": [], 
-                "fanArt": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/fanart/o6sx6c1490974500.jpg"
-                    }
-                ], 
-                "logo": [], 
-                "poster": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/poster/a3e4up1490974378.jpg"
-                    }
-                ], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/pgmaie1490974389.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "LAR", 
-            "date": "2000-01-02T13:03:00+00:00", 
-            "description": "Kurt Warner and the St. Louis Rams had one more surprise left. With the playoffs two weeks away, they turned into the old Rams and lost to the Philadelphia Eagles 38-31.", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "TheSportsDBID": "522702"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "vs": "Philadelphia Eagles vs St. Louis Rams"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "LAR", 
-            "date": "2000-01-02T18:03:00+00:00", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ProFootballReferenceID": "200001020phi"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. St. Louis Rams"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
                 "fanArt": [], 
                 "logo": [], 
                 "poster": [], 
@@ -7815,31 +7756,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "IND", 
-            "date": "2000-01-02T18:02:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "BUF", 
-            "identity": {
-                "ESPNAPIID": "200102002", 
-                "ProFootballReferenceID": "200001020buf"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Buffalo Bills vs. Indianapolis Colts", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NO", 
             "date": "2000-01-02T18:02:00+00:00", 
             "eventTitle": "", 
@@ -7879,6 +7795,31 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Green Bay Packers vs. Arizona Cardinals", 
+            "week": 17
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "IND", 
+            "date": "2000-01-02T18:02:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "BUF", 
+            "identity": {
+                "ESPNAPIID": "200102002", 
+                "ProFootballReferenceID": "200001020buf"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Buffalo Bills vs. Indianapolis Colts", 
             "week": 17
         }, 
         {
@@ -7959,6 +7900,65 @@
         {
             "assets": {
                 "banner": [], 
+                "fanArt": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/fanart/o6sx6c1490974500.jpg"
+                    }
+                ], 
+                "logo": [], 
+                "poster": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/poster/a3e4up1490974378.jpg"
+                    }
+                ], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/pgmaie1490974389.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "LAR", 
+            "date": "2000-01-02T13:03:00+00:00", 
+            "description": "Kurt Warner and the St. Louis Rams had one more surprise left. With the playoffs two weeks away, they turned into the old Rams and lost to the Philadelphia Eagles 38-31.", 
+            "homeTeam": "PHI", 
+            "identity": {
+                "TheSportsDBID": "522702"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "vs": "Philadelphia Eagles vs St. Louis Rams"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LAR", 
+            "date": "2000-01-02T18:03:00+00:00", 
+            "homeTeam": "PHI", 
+            "identity": {
+                "ProFootballReferenceID": "200001020phi"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Philadelphia Eagles vs. St. Louis Rams"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
                 "fanArt": [], 
                 "logo": [], 
                 "poster": [], 
@@ -8015,28 +8015,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "MIA", 
-            "date": "2000-01-02T21:15:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "200001020was"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Miami Dolphins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "LAC", 
             "date": "2000-01-02T21:15:00+00:00", 
             "homeTeam": "DEN", 
@@ -8049,6 +8027,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Denver Broncos vs. San Diego Chargers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIA", 
+            "date": "2000-01-02T21:15:00+00:00", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ProFootballReferenceID": "200001020was"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Washington Redskins vs. Miami Dolphins"
         }, 
         {
             "assets": {
@@ -8117,7 +8117,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 1, 
             "season": "1999", 
             "sport": "Football", 
             "subseason": 1, 
@@ -8141,7 +8140,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 1, 
             "season": "1999", 
             "sport": "Football", 
             "subseason": 1, 
@@ -8165,7 +8163,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 1, 
             "season": "1999", 
             "sport": "Football", 
             "subseason": 1, 
@@ -8189,7 +8186,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 1, 
             "season": "1999", 
             "sport": "Football", 
             "subseason": 1, 
@@ -8213,7 +8209,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 2, 
             "season": "1999", 
             "sport": "Football", 
             "subseason": 1, 
@@ -8237,7 +8232,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 2, 
             "season": "1999", 
             "sport": "Football", 
             "subseason": 1, 
@@ -8298,7 +8292,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 2, 
             "season": "1999", 
             "sport": "Football", 
             "subseason": 1, 
@@ -8322,7 +8315,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 2, 
             "season": "1999", 
             "sport": "Football", 
             "subseason": 1, 
@@ -8346,7 +8338,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 3, 
             "season": "1999", 
             "sport": "Football", 
             "subseason": 1, 
@@ -8407,7 +8398,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 3, 
             "season": "1999", 
             "sport": "Football", 
             "subseason": 1, 
@@ -8463,14 +8453,12 @@
             "awayTeam": "TEN", 
             "date": "2000-01-30T23:25:00+00:00", 
             "eventTitle": "Superbowl XXXIV", 
-            "eventindicator": 1, 
             "homeTeam": "LAR", 
             "identity": {
                 "ProFootballReferenceID": "200001300oti"
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 4, 
             "season": "1999", 
             "sport": "Football", 
             "subseason": 1, 

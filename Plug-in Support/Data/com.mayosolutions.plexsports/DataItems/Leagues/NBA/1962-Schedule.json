@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1962SCHEDULE", 
-        "CachedOn": "2021-09-11T15:24:40", 
-        "ExpiresOn": "2021-09-18T15:24:40", 
+        "CachedOn": "2021-10-11T18:05:32", 
+        "ExpiresOn": "2021-10-18T18:05:32", 
         "Version": "2"
     }, 
     "Items": [
@@ -82,15 +82,16 @@
             }, 
             "date": "1962-03-18T05:00:00+00:00", 
             "eventTitle": "", 
+            "homeTeam": "DET", 
             "identity": {
-                "ESPNAPIID": "1920318020"
+                "ESPNAPIID": "1920318008"
             }, 
             "league": "NBA", 
             "networks": [], 
             "season": "1962", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "Syracuse Nationals vs. Philadelphia Warriors"
+            "vs": "Detroit Pistons vs. Cincinnati Royals"
         }, 
         {
             "assets": {
@@ -103,16 +104,15 @@
             }, 
             "date": "1962-03-18T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "DET", 
             "identity": {
-                "ESPNAPIID": "1920318008"
+                "ESPNAPIID": "1920318020"
             }, 
             "league": "NBA", 
             "networks": [], 
             "season": "1962", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "Detroit Pistons vs. Cincinnati Royals"
+            "vs": "Syracuse Nationals vs. Philadelphia Warriors"
         }, 
         {
             "assets": {
@@ -433,28 +433,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "BOS", 
-            "date": "1962-04-03T05:00:00+00:00", 
-            "eventTitle": "", 
-            "identity": {
-                "ESPNAPIID": "1920403009"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1962", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Philadelphia Warriors vs. Boston Celtics"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "LAL", 
             "date": "1962-04-03T05:00:00+00:00", 
             "eventTitle": "", 
@@ -468,6 +446,28 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Detroit Pistons vs. Los Angeles Lakers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BOS", 
+            "date": "1962-04-03T05:00:00+00:00", 
+            "eventTitle": "", 
+            "identity": {
+                "ESPNAPIID": "1920403009"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1962", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Philadelphia Warriors vs. Boston Celtics"
         }, 
         {
             "assets": {

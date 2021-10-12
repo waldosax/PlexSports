@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1998SCHEDULE", 
-        "CachedOn": "2021-09-11T08:12:41", 
-        "ExpiresOn": "2021-09-18T08:12:41", 
+        "CachedOn": "2021-10-11T23:57:59", 
+        "ExpiresOn": "2021-10-18T23:57:59", 
         "Version": "2"
     }, 
     "Items": [
@@ -7617,6 +7617,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "Detroit Red Wings", 
+            "date": "1998-11-09T01:00:00+00:00", 
+            "homeTeam": "Anaheim Ducks", 
+            "identity": {
+                "NHLAPIID": 1998020168
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Anaheim Ducks vs. Detroit Red Wings"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "EDM", 
             "date": "1998-11-09T01:00:00+00:00", 
             "eventTitle": "", 
@@ -7630,28 +7652,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Chicago Blackhawks vs. Edmonton Oilers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "Detroit Red Wings", 
-            "date": "1998-11-09T01:00:00+00:00", 
-            "homeTeam": "Anaheim Ducks", 
-            "identity": {
-                "NHLAPIID": 1998020168
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Anaheim Ducks vs. Detroit Red Wings"
         }, 
         {
             "assets": {
@@ -9127,17 +9127,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DAL", 
+            "awayTeam": "Dallas Stars", 
             "date": "1998-11-15T00:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "BOS", 
+            "homeTeam": "Boston Bruins", 
             "identity": {
-                "ESPNAPIID": "181114001"
+                "NHLAPIID": 1998020198
             }, 
             "league": "NHL", 
-            "networks": [
-                "NESN"
-            ], 
+            "networks": [], 
             "season": "1998", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -9152,14 +9149,17 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Dallas Stars", 
+            "awayTeam": "DAL", 
             "date": "1998-11-15T00:00:00+00:00", 
-            "homeTeam": "Boston Bruins", 
+            "eventTitle": "", 
+            "homeTeam": "BOS", 
             "identity": {
-                "NHLAPIID": 1998020198
+                "ESPNAPIID": "181114001"
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "NESN"
+            ], 
             "season": "1998", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -29040,6 +29040,31 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "SJ ", 
+            "date": "1999-01-31T02:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "COL", 
+            "identity": {
+                "ESPNAPIID": "190130017"
+            }, 
+            "league": "NHL", 
+            "networks": [
+                "KTVD"
+            ], 
+            "season": "1998", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Colorado Avalanche vs. San Jose Sharks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "San Jose Sharks", 
             "date": "1999-01-31T02:00:00+00:00", 
             "homeTeam": "Colorado Avalanche", 
@@ -29074,31 +29099,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Calgary Flames vs. St. Louis Blues"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SJ ", 
-            "date": "1999-01-31T02:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "COL", 
-            "identity": {
-                "ESPNAPIID": "190130017"
-            }, 
-            "league": "NHL", 
-            "networks": [
-                "KTVD"
-            ], 
-            "season": "1998", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Colorado Avalanche vs. San Jose Sharks"
         }, 
         {
             "assets": {
@@ -47626,6 +47626,31 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "NSH", 
+            "date": "1999-04-08T01:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "COL", 
+            "identity": {
+                "ESPNAPIID": "190407017"
+            }, 
+            "league": "NHL", 
+            "networks": [
+                "FSN"
+            ], 
+            "season": "1998", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Colorado Avalanche vs. Nashville Predators"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "Calgary Flames", 
             "date": "1999-04-08T01:00:00+00:00", 
             "homeTeam": "Edmonton Oilers", 
@@ -47656,31 +47681,6 @@
             }, 
             "league": "NHL", 
             "networks": [], 
-            "season": "1998", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Colorado Avalanche vs. Nashville Predators"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NSH", 
-            "date": "1999-04-08T01:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "COL", 
-            "identity": {
-                "ESPNAPIID": "190407017"
-            }, 
-            "league": "NHL", 
-            "networks": [
-                "FSN"
-            ], 
             "season": "1998", 
             "sport": "Hockey", 
             "subseason": 0, 

@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL1991SCHEDULE", 
-        "CachedOn": "2021-09-12T04:44:58", 
-        "ExpiresOn": "2021-09-19T04:44:58", 
+        "CachedOn": "2021-10-12T05:51:41", 
+        "ExpiresOn": "2021-10-19T05:51:41", 
         "Version": "2"
     }, 
     "Items": [
@@ -367,6 +367,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "NO", 
+            "date": "1991-09-08T17:00:00+00:00", 
+            "homeTeam": "KC", 
+            "identity": {
+                "ProFootballReferenceID": "199109080kan"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Kansas City Chiefs vs. New Orleans Saints"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "CHI", 
             "date": "1991-09-08T17:00:00+00:00", 
             "homeTeam": "TB", 
@@ -379,28 +401,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Tampa Bay Buccaneers vs. Chicago Bears"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "IND", 
-            "date": "1991-09-08T17:00:00+00:00", 
-            "homeTeam": "MIA", 
-            "identity": {
-                "ProFootballReferenceID": "199109080mia"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Miami Dolphins vs. Indianapolis Colts"
         }, 
         {
             "assets": {
@@ -433,28 +433,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NO", 
-            "date": "1991-09-08T17:00:00+00:00", 
-            "homeTeam": "KC", 
-            "identity": {
-                "ProFootballReferenceID": "199109080kan"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Kansas City Chiefs vs. New Orleans Saints"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "PIT", 
             "date": "1991-09-08T17:00:00+00:00", 
             "homeTeam": "BUF", 
@@ -467,6 +445,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Buffalo Bills vs. Pittsburgh Steelers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "IND", 
+            "date": "1991-09-08T17:00:00+00:00", 
+            "homeTeam": "MIA", 
+            "identity": {
+                "ProFootballReferenceID": "199109080mia"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Miami Dolphins vs. Indianapolis Colts"
         }, 
         {
             "assets": {
@@ -631,62 +631,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NE", 
+            "awayTeam": "PHI", 
             "date": "1991-09-15T17:00:00+00:00", 
-            "homeTeam": "PIT", 
+            "homeTeam": "DAL", 
             "identity": {
-                "ProFootballReferenceID": "199109150pit"
+                "ProFootballReferenceID": "199109150dal"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Pittsburgh Steelers vs. New England Patriots"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIA", 
-            "date": "1991-09-15T17:00:00+00:00", 
-            "homeTeam": "DET", 
-            "identity": {
-                "ProFootballReferenceID": "199109150det"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Detroit Lions vs. Miami Dolphins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SF", 
-            "date": "1991-09-15T17:00:00+00:00", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ProFootballReferenceID": "199109150min"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. San Francisco 49ers"
+            "vs": "Dallas Cowboys vs. Philadelphia Eagles"
         }, 
         {
             "assets": {
@@ -719,6 +675,50 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "SF", 
+            "date": "1991-09-15T17:00:00+00:00", 
+            "homeTeam": "MIN", 
+            "identity": {
+                "ProFootballReferenceID": "199109150min"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Minnesota Vikings vs. San Francisco 49ers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NE", 
+            "date": "1991-09-15T17:00:00+00:00", 
+            "homeTeam": "PIT", 
+            "identity": {
+                "ProFootballReferenceID": "199109150pit"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Steelers vs. New England Patriots"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "TB", 
             "date": "1991-09-15T17:00:00+00:00", 
             "homeTeam": "GB", 
@@ -741,28 +741,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PHI", 
-            "date": "1991-09-15T17:00:00+00:00", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ProFootballReferenceID": "199109150dal"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Philadelphia Eagles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NYG", 
             "date": "1991-09-15T17:00:00+00:00", 
             "homeTeam": "CHI", 
@@ -775,6 +753,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Chicago Bears vs. New York Giants"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIA", 
+            "date": "1991-09-15T17:00:00+00:00", 
+            "homeTeam": "DET", 
+            "identity": {
+                "ProFootballReferenceID": "199109150det"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Detroit Lions vs. Miami Dolphins"
         }, 
         {
             "assets": {
@@ -1005,6 +1005,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "TEN", 
+            "date": "1991-09-22T17:00:00+00:00", 
+            "homeTeam": "NE", 
+            "identity": {
+                "ProFootballReferenceID": "199109220nwe"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New England Patriots vs. Houston Oilers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "MIN", 
             "date": "1991-09-22T17:00:00+00:00", 
             "homeTeam": "NO", 
@@ -1017,28 +1039,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New Orleans Saints vs. Minnesota Vikings"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CLE", 
-            "date": "1991-09-22T17:00:00+00:00", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ProFootballReferenceID": "199109220nyg"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Cleveland Browns"
         }, 
         {
             "assets": {
@@ -1093,62 +1093,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "TEN", 
+            "awayTeam": "CLE", 
             "date": "1991-09-22T17:00:00+00:00", 
-            "homeTeam": "NE", 
+            "homeTeam": "NYG", 
             "identity": {
-                "ProFootballReferenceID": "199109220nwe"
+                "ProFootballReferenceID": "199109220nyg"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "New England Patriots vs. Houston Oilers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SEA", 
-            "date": "1991-09-22T20:00:00+00:00", 
-            "homeTeam": "KC", 
-            "identity": {
-                "ProFootballReferenceID": "199109220kan"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Kansas City Chiefs vs. Seattle Seahawks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BUF", 
-            "date": "1991-09-22T20:00:00+00:00", 
-            "homeTeam": "TB", 
-            "identity": {
-                "ProFootballReferenceID": "199109220tam"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Tampa Bay Buccaneers vs. Buffalo Bills"
+            "vs": "New York Giants vs. Cleveland Browns"
         }, 
         {
             "assets": {
@@ -1203,6 +1159,50 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "BUF", 
+            "date": "1991-09-22T20:00:00+00:00", 
+            "homeTeam": "TB", 
+            "identity": {
+                "ProFootballReferenceID": "199109220tam"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Tampa Bay Buccaneers vs. Buffalo Bills"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SEA", 
+            "date": "1991-09-22T20:00:00+00:00", 
+            "homeTeam": "KC", 
+            "identity": {
+                "ProFootballReferenceID": "199109220kan"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Kansas City Chiefs vs. Seattle Seahawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "DAL", 
             "date": "1991-09-23T00:00:00+00:00", 
             "homeTeam": "ARI", 
@@ -1247,6 +1247,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "CHI", 
+            "date": "1991-09-29T17:00:00+00:00", 
+            "homeTeam": "BUF", 
+            "identity": {
+                "ProFootballReferenceID": "199109290buf"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Buffalo Bills vs. Chicago Bears"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "NO", 
             "date": "1991-09-29T17:00:00+00:00", 
             "homeTeam": "ATL", 
@@ -1259,28 +1281,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Atlanta Falcons vs. New Orleans Saints"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYG", 
-            "date": "1991-09-29T17:00:00+00:00", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ProFootballReferenceID": "199109290dal"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. New York Giants"
         }, 
         {
             "assets": {
@@ -1313,18 +1313,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CHI", 
+            "awayTeam": "NYG", 
             "date": "1991-09-29T17:00:00+00:00", 
-            "homeTeam": "BUF", 
+            "homeTeam": "DAL", 
             "identity": {
-                "ProFootballReferenceID": "199109290buf"
+                "ProFootballReferenceID": "199109290dal"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Buffalo Bills vs. Chicago Bears"
+            "vs": "Dallas Cowboys vs. New York Giants"
         }, 
         {
             "assets": {
@@ -1511,6 +1511,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "PHI", 
+            "date": "1991-10-06T17:00:00+00:00", 
+            "homeTeam": "TB", 
+            "identity": {
+                "ProFootballReferenceID": "199110060tam"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Tampa Bay Buccaneers vs. Philadelphia Eagles"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "WAS", 
             "date": "1991-10-06T17:00:00+00:00", 
             "homeTeam": "CHI", 
@@ -1523,6 +1545,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Chicago Bears vs. Washington Redskins"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIA", 
+            "date": "1991-10-06T17:00:00+00:00", 
+            "homeTeam": "NE", 
+            "identity": {
+                "ProFootballReferenceID": "199110060nwe"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New England Patriots vs. Miami Dolphins"
         }, 
         {
             "assets": {
@@ -1577,28 +1621,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "MIA", 
-            "date": "1991-10-06T17:00:00+00:00", 
-            "homeTeam": "NE", 
-            "identity": {
-                "ProFootballReferenceID": "199110060nwe"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New England Patriots vs. Miami Dolphins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "DEN", 
             "date": "1991-10-06T17:00:00+00:00", 
             "homeTeam": "TEN", 
@@ -1633,28 +1655,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Cleveland Browns vs. New York Jets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "1991-10-06T17:00:00+00:00", 
-            "homeTeam": "TB", 
-            "identity": {
-                "ProFootballReferenceID": "199110060tam"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Tampa Bay Buccaneers vs. Philadelphia Eagles"
         }, 
         {
             "assets": {
@@ -1885,6 +1885,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "LAC", 
+            "date": "1991-10-13T20:00:00+00:00", 
+            "homeTeam": "LAR", 
+            "identity": {
+                "ProFootballReferenceID": "199110130ram"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Los Angeles Rams vs. San Diego Chargers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "MIA", 
             "date": "1991-10-13T20:00:00+00:00", 
             "homeTeam": "KC", 
@@ -1919,28 +1941,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "San Francisco 49ers vs. Atlanta Falcons"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "LAC", 
-            "date": "1991-10-13T20:00:00+00:00", 
-            "homeTeam": "LAR", 
-            "identity": {
-                "ProFootballReferenceID": "199110130ram"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Los Angeles Rams vs. San Diego Chargers"
         }, 
         {
             "assets": {
@@ -2039,6 +2039,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "SEA", 
+            "date": "1991-10-20T17:00:00+00:00", 
+            "homeTeam": "PIT", 
+            "identity": {
+                "ProFootballReferenceID": "199110200pit"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Steelers vs. Seattle Seahawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "TB", 
             "date": "1991-10-20T17:00:00+00:00", 
             "homeTeam": "NO", 
@@ -2127,18 +2149,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "SEA", 
-            "date": "1991-10-20T17:00:00+00:00", 
-            "homeTeam": "PIT", 
+            "awayTeam": "DET", 
+            "date": "1991-10-20T20:00:00+00:00", 
+            "homeTeam": "SF", 
             "identity": {
-                "ProFootballReferenceID": "199110200pit"
+                "ProFootballReferenceID": "199110200sfo"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Pittsburgh Steelers vs. Seattle Seahawks"
+            "vs": "San Francisco 49ers vs. Detroit Lions"
         }, 
         {
             "assets": {
@@ -2161,28 +2183,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Los Angeles Raiders vs. Los Angeles Rams"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DET", 
-            "date": "1991-10-20T20:00:00+00:00", 
-            "homeTeam": "SF", 
-            "identity": {
-                "ProFootballReferenceID": "199110200sfo"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "San Francisco 49ers vs. Detroit Lions"
         }, 
         {
             "assets": {
@@ -2325,28 +2325,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "SF", 
-            "date": "1991-10-27T18:00:00+00:00", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ProFootballReferenceID": "199110270phi"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. San Francisco 49ers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CIN", 
             "date": "1991-10-27T18:00:00+00:00", 
             "homeTeam": "TEN", 
@@ -2369,6 +2347,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "SF", 
+            "date": "1991-10-27T18:00:00+00:00", 
+            "homeTeam": "PHI", 
+            "identity": {
+                "ProFootballReferenceID": "199110270phi"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Philadelphia Eagles vs. San Francisco 49ers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "LAR", 
             "date": "1991-10-27T18:00:00+00:00", 
             "homeTeam": "ATL", 
@@ -2381,50 +2381,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Atlanta Falcons vs. Los Angeles Rams"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PIT", 
-            "date": "1991-10-27T21:00:00+00:00", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "ProFootballReferenceID": "199110270cle"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cleveland Browns vs. Pittsburgh Steelers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DEN", 
-            "date": "1991-10-27T21:00:00+00:00", 
-            "homeTeam": "NE", 
-            "identity": {
-                "ProFootballReferenceID": "199110270nwe"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New England Patriots vs. Denver Broncos"
         }, 
         {
             "assets": {
@@ -2479,6 +2435,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "DEN", 
+            "date": "1991-10-27T21:00:00+00:00", 
+            "homeTeam": "NE", 
+            "identity": {
+                "ProFootballReferenceID": "199110270nwe"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New England Patriots vs. Denver Broncos"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "MIN", 
             "date": "1991-10-27T21:00:00+00:00", 
             "homeTeam": "ARI", 
@@ -2491,6 +2469,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Phoenix Cardinals vs. Minnesota Vikings"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "PIT", 
+            "date": "1991-10-27T21:00:00+00:00", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "ProFootballReferenceID": "199110270cle"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cleveland Browns vs. Pittsburgh Steelers"
         }, 
         {
             "assets": {
@@ -2655,28 +2655,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "TB", 
-            "date": "1991-11-03T18:00:00+00:00", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ProFootballReferenceID": "199111030min"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Tampa Bay Buccaneers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CLE", 
             "date": "1991-11-03T18:00:00+00:00", 
             "homeTeam": "CIN", 
@@ -2689,6 +2667,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Cincinnati Bengals vs. Cleveland Browns"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "TB", 
+            "date": "1991-11-03T18:00:00+00:00", 
+            "homeTeam": "MIN", 
+            "identity": {
+                "ProFootballReferenceID": "199111030min"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Minnesota Vikings vs. Tampa Bay Buccaneers"
         }, 
         {
             "assets": {
@@ -2809,6 +2809,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "IND", 
+            "date": "1991-11-10T18:00:00+00:00", 
+            "homeTeam": "NYJ", 
+            "identity": {
+                "ProFootballReferenceID": "199111100nyj"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New York Jets vs. Indianapolis Colts"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "BUF", 
             "date": "1991-11-10T18:00:00+00:00", 
             "homeTeam": "GB", 
@@ -2843,28 +2865,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Cleveland Browns vs. Philadelphia Eagles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "IND", 
-            "date": "1991-11-10T18:00:00+00:00", 
-            "homeTeam": "NYJ", 
-            "identity": {
-                "ProFootballReferenceID": "199111100nyj"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Jets vs. Indianapolis Colts"
         }, 
         {
             "assets": {
@@ -3117,6 +3117,50 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "MIN", 
+            "date": "1991-11-17T18:00:00+00:00", 
+            "homeTeam": "GB", 
+            "identity": {
+                "ProFootballReferenceID": "199111170gnb"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Green Bay Packers vs. Minnesota Vikings"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "TB", 
+            "date": "1991-11-17T18:00:00+00:00", 
+            "homeTeam": "ATL", 
+            "identity": {
+                "ProFootballReferenceID": "199111170atl"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Atlanta Falcons vs. Tampa Bay Buccaneers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "WAS", 
             "date": "1991-11-17T18:00:00+00:00", 
             "homeTeam": "PIT", 
@@ -3161,18 +3205,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "MIN", 
+            "awayTeam": "CIN", 
             "date": "1991-11-17T18:00:00+00:00", 
-            "homeTeam": "GB", 
+            "homeTeam": "PHI", 
             "identity": {
-                "ProFootballReferenceID": "199111170gnb"
+                "ProFootballReferenceID": "199111170phi"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Green Bay Packers vs. Minnesota Vikings"
+            "vs": "Philadelphia Eagles vs. Cincinnati Bengals"
         }, 
         {
             "assets": {
@@ -3195,50 +3239,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New England Patriots vs. New York Jets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "TB", 
-            "date": "1991-11-17T18:00:00+00:00", 
-            "homeTeam": "ATL", 
-            "identity": {
-                "ProFootballReferenceID": "199111170atl"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Atlanta Falcons vs. Tampa Bay Buccaneers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CIN", 
-            "date": "1991-11-17T18:00:00+00:00", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ProFootballReferenceID": "199111170phi"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Cincinnati Bengals"
         }, 
         {
             "assets": {
@@ -3293,6 +3293,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "DAL", 
+            "date": "1991-11-17T21:00:00+00:00", 
+            "homeTeam": "NYG", 
+            "identity": {
+                "ProFootballReferenceID": "199111170nyg"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New York Giants vs. Dallas Cowboys"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "LAR", 
             "date": "1991-11-17T21:00:00+00:00", 
             "homeTeam": "DET", 
@@ -3327,28 +3349,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "San Diego Chargers vs. New Orleans Saints"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "1991-11-17T21:00:00+00:00", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ProFootballReferenceID": "199111170nyg"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Dallas Cowboys"
         }, 
         {
             "assets": {
@@ -3447,28 +3447,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "LV", 
-            "date": "1991-11-24T18:00:00+00:00", 
-            "homeTeam": "CIN", 
-            "identity": {
-                "ProFootballReferenceID": "199111240cin"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cincinnati Bengals vs. Los Angeles Raiders"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "IND", 
             "date": "1991-11-24T18:00:00+00:00", 
             "homeTeam": "GB", 
@@ -3481,6 +3459,50 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Green Bay Packers vs. Indianapolis Colts"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "KC", 
+            "date": "1991-11-24T18:00:00+00:00", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "ProFootballReferenceID": "199111240cle"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cleveland Browns vs. Kansas City Chiefs"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LV", 
+            "date": "1991-11-24T18:00:00+00:00", 
+            "homeTeam": "CIN", 
+            "identity": {
+                "ProFootballReferenceID": "199111240cin"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cincinnati Bengals vs. Los Angeles Raiders"
         }, 
         {
             "assets": {
@@ -3525,28 +3547,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New England Patriots vs. Buffalo Bills"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "KC", 
-            "date": "1991-11-24T18:00:00+00:00", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "ProFootballReferenceID": "199111240cle"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cleveland Browns vs. Kansas City Chiefs"
         }, 
         {
             "assets": {
@@ -3821,28 +3821,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CLE", 
-            "date": "1991-12-01T18:00:00+00:00", 
-            "homeTeam": "IND", 
-            "identity": {
-                "ProFootballReferenceID": "199112010clt"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Indianapolis Colts vs. Cleveland Browns"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NYJ", 
             "date": "1991-12-01T18:00:00+00:00", 
             "homeTeam": "BUF", 
@@ -3865,18 +3843,40 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NE", 
-            "date": "1991-12-01T21:00:00+00:00", 
-            "homeTeam": "DEN", 
+            "awayTeam": "CLE", 
+            "date": "1991-12-01T18:00:00+00:00", 
+            "homeTeam": "IND", 
             "identity": {
-                "ProFootballReferenceID": "199112010den"
+                "ProFootballReferenceID": "199112010clt"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Denver Broncos vs. New England Patriots"
+            "vs": "Indianapolis Colts vs. Cleveland Browns"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "KC", 
+            "date": "1991-12-01T21:00:00+00:00", 
+            "homeTeam": "SEA", 
+            "identity": {
+                "ProFootballReferenceID": "199112010sea"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Seattle Seahawks vs. Kansas City Chiefs"
         }, 
         {
             "assets": {
@@ -3909,6 +3909,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "NE", 
+            "date": "1991-12-01T21:00:00+00:00", 
+            "homeTeam": "DEN", 
+            "identity": {
+                "ProFootballReferenceID": "199112010den"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Denver Broncos vs. New England Patriots"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "NO", 
             "date": "1991-12-01T21:00:00+00:00", 
             "homeTeam": "SF", 
@@ -3921,28 +3943,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "San Francisco 49ers vs. New Orleans Saints"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "KC", 
-            "date": "1991-12-01T21:00:00+00:00", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "ProFootballReferenceID": "199112010sea"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Seattle Seahawks vs. Kansas City Chiefs"
         }, 
         {
             "assets": {
@@ -4041,6 +4041,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "GB", 
+            "date": "1991-12-08T18:00:00+00:00", 
+            "homeTeam": "CHI", 
+            "identity": {
+                "ProFootballReferenceID": "199112080chi"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Chicago Bears vs. Green Bay Packers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "IND", 
             "date": "1991-12-08T18:00:00+00:00", 
             "homeTeam": "NE", 
@@ -4053,6 +4075,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New England Patriots vs. Indianapolis Colts"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "PHI", 
+            "date": "1991-12-08T18:00:00+00:00", 
+            "homeTeam": "NYG", 
+            "identity": {
+                "ProFootballReferenceID": "199112080nyg"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New York Giants vs. Philadelphia Eagles"
         }, 
         {
             "assets": {
@@ -4107,50 +4151,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "GB", 
-            "date": "1991-12-08T18:00:00+00:00", 
-            "homeTeam": "CHI", 
-            "identity": {
-                "ProFootballReferenceID": "199112080chi"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Chicago Bears vs. Green Bay Packers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "1991-12-08T18:00:00+00:00", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ProFootballReferenceID": "199112080nyg"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Philadelphia Eagles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "LAC", 
             "date": "1991-12-08T18:00:00+00:00", 
             "homeTeam": "KC", 
@@ -4195,28 +4195,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WAS", 
-            "date": "1991-12-08T21:00:00+00:00", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "ProFootballReferenceID": "199112080crd"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Phoenix Cardinals vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "BUF", 
             "date": "1991-12-08T21:00:00+00:00", 
             "homeTeam": "LV", 
@@ -4251,6 +4229,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Detroit Lions vs. New York Jets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WAS", 
+            "date": "1991-12-08T21:00:00+00:00", 
+            "homeTeam": "ARI", 
+            "identity": {
+                "ProFootballReferenceID": "199112080crd"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Phoenix Cardinals vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -4393,28 +4393,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NE", 
-            "date": "1991-12-15T18:00:00+00:00", 
-            "homeTeam": "NYJ", 
-            "identity": {
-                "ProFootballReferenceID": "199112150nyj"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Jets vs. New England Patriots"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SEA", 
             "date": "1991-12-15T18:00:00+00:00", 
             "homeTeam": "ATL", 
@@ -4427,6 +4405,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Atlanta Falcons vs. Seattle Seahawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NE", 
+            "date": "1991-12-15T18:00:00+00:00", 
+            "homeTeam": "NYJ", 
+            "identity": {
+                "ProFootballReferenceID": "199112150nyj"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New York Jets vs. New England Patriots"
         }, 
         {
             "assets": {
@@ -4525,18 +4525,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "MIA", 
+            "awayTeam": "ARI", 
             "date": "1991-12-15T21:00:00+00:00", 
-            "homeTeam": "LAC", 
+            "homeTeam": "DEN", 
             "identity": {
-                "ProFootballReferenceID": "199112150sdg"
+                "ProFootballReferenceID": "199112150den"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "San Diego Chargers vs. Miami Dolphins"
+            "vs": "Denver Broncos vs. Phoenix Cardinals"
         }, 
         {
             "assets": {
@@ -4569,18 +4569,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ARI", 
+            "awayTeam": "MIA", 
             "date": "1991-12-15T21:00:00+00:00", 
-            "homeTeam": "DEN", 
+            "homeTeam": "LAC", 
             "identity": {
-                "ProFootballReferenceID": "199112150den"
+                "ProFootballReferenceID": "199112150sdg"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Denver Broncos vs. Phoenix Cardinals"
+            "vs": "San Diego Chargers vs. Miami Dolphins"
         }, 
         {
             "assets": {
@@ -4701,18 +4701,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CLE", 
+            "awayTeam": "ATL", 
             "date": "1991-12-22T18:00:00+00:00", 
-            "homeTeam": "PIT", 
+            "homeTeam": "DAL", 
             "identity": {
-                "ProFootballReferenceID": "199112220pit"
+                "ProFootballReferenceID": "199112220dal"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Pittsburgh Steelers vs. Cleveland Browns"
+            "vs": "Dallas Cowboys vs. Atlanta Falcons"
         }, 
         {
             "assets": {
@@ -4745,18 +4745,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ATL", 
+            "awayTeam": "CLE", 
             "date": "1991-12-22T18:00:00+00:00", 
-            "homeTeam": "DAL", 
+            "homeTeam": "PIT", 
             "identity": {
-                "ProFootballReferenceID": "199112220dal"
+                "ProFootballReferenceID": "199112220pit"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Atlanta Falcons"
+            "vs": "Pittsburgh Steelers vs. Cleveland Browns"
         }, 
         {
             "assets": {
@@ -4833,28 +4833,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WAS", 
-            "date": "1991-12-22T21:00:00+00:00", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ProFootballReferenceID": "199112220phi"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "KC", 
             "date": "1991-12-22T21:00:00+00:00", 
             "homeTeam": "LV", 
@@ -4867,6 +4845,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Los Angeles Raiders vs. Kansas City Chiefs"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WAS", 
+            "date": "1991-12-22T21:00:00+00:00", 
+            "homeTeam": "PHI", 
+            "identity": {
+                "ProFootballReferenceID": "199112220phi"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Philadelphia Eagles vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -4951,7 +4951,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 1, 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 1, 
@@ -4975,7 +4974,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 1, 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 1, 
@@ -4999,7 +4997,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 1, 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5023,7 +5020,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 1, 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5047,7 +5043,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 2, 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5071,7 +5066,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 2, 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5095,7 +5089,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 2, 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5119,7 +5112,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 2, 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5143,7 +5135,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 3, 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5167,7 +5158,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 3, 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5176,32 +5166,12 @@
         }, 
         {
             "assets": {
-                "banner": [
-                    {
-                        "source": "thesportsdb"
-                    }
-                ], 
-                "fanArt": [
-                    {
-                        "source": "thesportsdb"
-                    }
-                ], 
+                "banner": [], 
+                "fanArt": [], 
                 "logo": [], 
-                "poster": [
-                    {
-                        "source": "thesportsdb"
-                    }
-                ], 
-                "preview": [
-                    {
-                        "source": "thesportsdb"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb"
-                    }
-                ]
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
             }, 
             "awayTeam": "BUF", 
             "date": "1992-01-26T00:00:00+00:00", 
@@ -5227,14 +5197,12 @@
             "awayTeam": "BUF", 
             "date": "1992-01-26T23:30:00+00:00", 
             "eventTitle": "Superbowl XXVI", 
-            "eventindicator": 1, 
             "homeTeam": "WAS", 
             "identity": {
                 "ProFootballReferenceID": "199201260buf"
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 4, 
             "season": "1991", 
             "sport": "Football", 
             "subseason": 1, 

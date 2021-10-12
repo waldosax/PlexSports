@@ -1,11 +1,33 @@
 {
     "CacheContainer": {
         "CacheType": "NFL1988SCHEDULE", 
-        "CachedOn": "2021-09-12T03:21:16", 
-        "ExpiresOn": "2021-09-19T03:21:16", 
+        "CachedOn": "2021-10-12T05:23:58", 
+        "ExpiresOn": "2021-10-19T05:23:58", 
         "Version": "2"
     }, 
     "Items": [
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIN", 
+            "date": "1988-09-04T17:00:00+00:00", 
+            "homeTeam": "BUF", 
+            "identity": {
+                "ProFootballReferenceID": "198809040buf"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Buffalo Bills vs. Minnesota Vikings"
+        }, 
         {
             "assets": {
                 "banner": [], 
@@ -81,6 +103,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "ARI", 
+            "date": "1988-09-04T17:00:00+00:00", 
+            "homeTeam": "CIN", 
+            "identity": {
+                "ProFootballReferenceID": "198809040cin"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cincinnati Bengals vs. Phoenix Cardinals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "LAR", 
             "date": "1988-09-04T17:00:00+00:00", 
             "homeTeam": "GB", 
@@ -137,50 +181,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Chicago Bears vs. Miami Dolphins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ARI", 
-            "date": "1988-09-04T17:00:00+00:00", 
-            "homeTeam": "CIN", 
-            "identity": {
-                "ProFootballReferenceID": "198809040cin"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cincinnati Bengals vs. Phoenix Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIN", 
-            "date": "1988-09-04T17:00:00+00:00", 
-            "homeTeam": "BUF", 
-            "identity": {
-                "ProFootballReferenceID": "198809040buf"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Buffalo Bills vs. Minnesota Vikings"
         }, 
         {
             "assets": {
@@ -499,18 +499,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CIN", 
+            "awayTeam": "KC", 
             "date": "1988-09-11T20:00:00+00:00", 
-            "homeTeam": "PHI", 
+            "homeTeam": "SEA", 
             "identity": {
-                "ProFootballReferenceID": "198809110phi"
+                "ProFootballReferenceID": "198809110sea"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Cincinnati Bengals"
+            "vs": "Seattle Seahawks vs. Kansas City Chiefs"
         }, 
         {
             "assets": {
@@ -543,18 +543,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "KC", 
+            "awayTeam": "DET", 
             "date": "1988-09-11T20:00:00+00:00", 
-            "homeTeam": "SEA", 
+            "homeTeam": "LAR", 
             "identity": {
-                "ProFootballReferenceID": "198809110sea"
+                "ProFootballReferenceID": "198809110ram"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Seattle Seahawks vs. Kansas City Chiefs"
+            "vs": "Los Angeles Rams vs. Detroit Lions"
         }, 
         {
             "assets": {
@@ -587,18 +587,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DET", 
+            "awayTeam": "CIN", 
             "date": "1988-09-11T20:00:00+00:00", 
-            "homeTeam": "LAR", 
+            "homeTeam": "PHI", 
             "identity": {
-                "ProFootballReferenceID": "198809110ram"
+                "ProFootballReferenceID": "198809110phi"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Los Angeles Rams vs. Detroit Lions"
+            "vs": "Philadelphia Eagles vs. Cincinnati Bengals"
         }, 
         {
             "assets": {
@@ -621,50 +621,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Phoenix Cardinals vs. Dallas Cowboys"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIN", 
-            "date": "1988-09-18T17:00:00+00:00", 
-            "homeTeam": "CHI", 
-            "identity": {
-                "ProFootballReferenceID": "198809180chi"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Chicago Bears vs. Minnesota Vikings"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DEN", 
-            "date": "1988-09-18T17:00:00+00:00", 
-            "homeTeam": "KC", 
-            "identity": {
-                "ProFootballReferenceID": "198809180kan"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Kansas City Chiefs vs. Denver Broncos"
         }, 
         {
             "assets": {
@@ -763,6 +719,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "MIN", 
+            "date": "1988-09-18T17:00:00+00:00", 
+            "homeTeam": "CHI", 
+            "identity": {
+                "ProFootballReferenceID": "198809180chi"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Chicago Bears vs. Minnesota Vikings"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "TEN", 
             "date": "1988-09-18T17:00:00+00:00", 
             "homeTeam": "NYJ", 
@@ -829,6 +807,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "DEN", 
+            "date": "1988-09-18T17:00:00+00:00", 
+            "homeTeam": "KC", 
+            "identity": {
+                "ProFootballReferenceID": "198809180kan"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Kansas City Chiefs vs. Denver Broncos"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "LAR", 
             "date": "1988-09-18T20:00:00+00:00", 
             "homeTeam": "LV", 
@@ -851,28 +851,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ATL", 
-            "date": "1988-09-18T20:00:00+00:00", 
-            "homeTeam": "SF", 
-            "identity": {
-                "ProFootballReferenceID": "198809180sfo"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "San Francisco 49ers vs. Atlanta Falcons"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NYG", 
             "date": "1988-09-18T20:00:00+00:00", 
             "homeTeam": "DAL", 
@@ -885,6 +863,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Dallas Cowboys vs. New York Giants"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ATL", 
+            "date": "1988-09-18T20:00:00+00:00", 
+            "homeTeam": "SF", 
+            "identity": {
+                "ProFootballReferenceID": "198809180sfo"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "San Francisco 49ers vs. Atlanta Falcons"
         }, 
         {
             "assets": {
@@ -939,18 +939,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "TB", 
+            "awayTeam": "CHI", 
             "date": "1988-09-25T17:00:00+00:00", 
-            "homeTeam": "NO", 
+            "homeTeam": "GB", 
             "identity": {
-                "ProFootballReferenceID": "198809250nor"
+                "ProFootballReferenceID": "198809250gnb"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "New Orleans Saints vs. Tampa Bay Buccaneers"
+            "vs": "Green Bay Packers vs. Chicago Bears"
         }, 
         {
             "assets": {
@@ -983,18 +983,40 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CHI", 
+            "awayTeam": "NYJ", 
             "date": "1988-09-25T17:00:00+00:00", 
-            "homeTeam": "GB", 
+            "homeTeam": "DET", 
             "identity": {
-                "ProFootballReferenceID": "198809250gnb"
+                "ProFootballReferenceID": "198809250det"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Green Bay Packers vs. Chicago Bears"
+            "vs": "Detroit Lions vs. New York Jets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "TB", 
+            "date": "1988-09-25T17:00:00+00:00", 
+            "homeTeam": "NO", 
+            "identity": {
+                "ProFootballReferenceID": "198809250nor"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New Orleans Saints vs. Tampa Bay Buccaneers"
         }, 
         {
             "assets": {
@@ -1027,28 +1049,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NYJ", 
-            "date": "1988-09-25T17:00:00+00:00", 
-            "homeTeam": "DET", 
-            "identity": {
-                "ProFootballReferenceID": "198809250det"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Detroit Lions vs. New York Jets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "PIT", 
             "date": "1988-09-25T17:00:00+00:00", 
             "homeTeam": "BUF", 
@@ -1071,28 +1071,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PHI", 
-            "date": "1988-09-25T17:00:00+00:00", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ProFootballReferenceID": "198809250min"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Philadelphia Eagles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ATL", 
             "date": "1988-09-25T17:00:00+00:00", 
             "homeTeam": "DAL", 
@@ -1105,6 +1083,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Dallas Cowboys vs. Atlanta Falcons"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "PHI", 
+            "date": "1988-09-25T17:00:00+00:00", 
+            "homeTeam": "MIN", 
+            "identity": {
+                "ProFootballReferenceID": "198809250min"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Minnesota Vikings vs. Philadelphia Eagles"
         }, 
         {
             "assets": {
@@ -1247,6 +1247,94 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "BUF", 
+            "date": "1988-10-02T17:00:00+00:00", 
+            "homeTeam": "CHI", 
+            "identity": {
+                "ProFootballReferenceID": "198810020chi"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Chicago Bears vs. Buffalo Bills"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SEA", 
+            "date": "1988-10-02T17:00:00+00:00", 
+            "homeTeam": "ATL", 
+            "identity": {
+                "ProFootballReferenceID": "198810020atl"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Atlanta Falcons vs. Seattle Seahawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYG", 
+            "date": "1988-10-02T17:00:00+00:00", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ProFootballReferenceID": "198810020was"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Washington Redskins vs. New York Giants"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CLE", 
+            "date": "1988-10-02T17:00:00+00:00", 
+            "homeTeam": "PIT", 
+            "identity": {
+                "ProFootballReferenceID": "198810020pit"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Steelers vs. Cleveland Browns"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "TEN", 
             "date": "1988-10-02T17:00:00+00:00", 
             "homeTeam": "PHI", 
@@ -1281,94 +1369,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New England Patriots vs. Indianapolis Colts"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BUF", 
-            "date": "1988-10-02T17:00:00+00:00", 
-            "homeTeam": "CHI", 
-            "identity": {
-                "ProFootballReferenceID": "198810020chi"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Chicago Bears vs. Buffalo Bills"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYG", 
-            "date": "1988-10-02T17:00:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "198810020was"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SEA", 
-            "date": "1988-10-02T17:00:00+00:00", 
-            "homeTeam": "ATL", 
-            "identity": {
-                "ProFootballReferenceID": "198810020atl"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Atlanta Falcons vs. Seattle Seahawks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CLE", 
-            "date": "1988-10-02T17:00:00+00:00", 
-            "homeTeam": "PIT", 
-            "identity": {
-                "ProFootballReferenceID": "198810020pit"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Steelers vs. Cleveland Browns"
         }, 
         {
             "assets": {
@@ -1423,6 +1423,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "CIN", 
+            "date": "1988-10-02T20:00:00+00:00", 
+            "homeTeam": "LV", 
+            "identity": {
+                "ProFootballReferenceID": "198810020rai"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Los Angeles Raiders vs. Cincinnati Bengals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "ARI", 
             "date": "1988-10-02T20:00:00+00:00", 
             "homeTeam": "LAR", 
@@ -1435,28 +1457,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Los Angeles Rams vs. Phoenix Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DET", 
-            "date": "1988-10-02T20:00:00+00:00", 
-            "homeTeam": "SF", 
-            "identity": {
-                "ProFootballReferenceID": "198810020sfo"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "San Francisco 49ers vs. Detroit Lions"
         }, 
         {
             "assets": {
@@ -1489,28 +1489,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CIN", 
-            "date": "1988-10-02T20:00:00+00:00", 
-            "homeTeam": "LV", 
-            "identity": {
-                "ProFootballReferenceID": "198810020rai"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Los Angeles Raiders vs. Cincinnati Bengals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "DEN", 
             "date": "1988-10-02T20:00:00+00:00", 
             "homeTeam": "LAC", 
@@ -1523,6 +1501,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "San Diego Chargers vs. Denver Broncos"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DET", 
+            "date": "1988-10-02T20:00:00+00:00", 
+            "homeTeam": "SF", 
+            "identity": {
+                "ProFootballReferenceID": "198810020sfo"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "San Francisco 49ers vs. Detroit Lions"
         }, 
         {
             "assets": {
@@ -1577,28 +1577,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "LAR", 
-            "date": "1988-10-09T17:00:00+00:00", 
-            "homeTeam": "ATL", 
-            "identity": {
-                "ProFootballReferenceID": "198810090atl"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Atlanta Falcons vs. Los Angeles Rams"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NYJ", 
             "date": "1988-10-09T17:00:00+00:00", 
             "homeTeam": "CIN", 
@@ -1643,28 +1621,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "KC", 
-            "date": "1988-10-09T17:00:00+00:00", 
-            "homeTeam": "TEN", 
-            "identity": {
-                "ProFootballReferenceID": "198810090oti"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Houston Oilers vs. Kansas City Chiefs"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NE", 
             "date": "1988-10-09T17:00:00+00:00", 
             "homeTeam": "GB", 
@@ -1677,28 +1633,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Green Bay Packers vs. New England Patriots"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SEA", 
-            "date": "1988-10-09T17:00:00+00:00", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "ProFootballReferenceID": "198810090cle"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cleveland Browns vs. Seattle Seahawks"
         }, 
         {
             "assets": {
@@ -1731,6 +1665,50 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "LAR", 
+            "date": "1988-10-09T17:00:00+00:00", 
+            "homeTeam": "ATL", 
+            "identity": {
+                "ProFootballReferenceID": "198810090atl"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Atlanta Falcons vs. Los Angeles Rams"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SEA", 
+            "date": "1988-10-09T17:00:00+00:00", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "ProFootballReferenceID": "198810090cle"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cleveland Browns vs. Seattle Seahawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "CHI", 
             "date": "1988-10-09T17:00:00+00:00", 
             "homeTeam": "DET", 
@@ -1743,6 +1721,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Detroit Lions vs. Chicago Bears"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "KC", 
+            "date": "1988-10-09T17:00:00+00:00", 
+            "homeTeam": "TEN", 
+            "identity": {
+                "ProFootballReferenceID": "198810090oti"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Houston Oilers vs. Kansas City Chiefs"
         }, 
         {
             "assets": {
@@ -1885,6 +1885,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "PHI", 
+            "date": "1988-10-16T17:00:00+00:00", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "ProFootballReferenceID": "198810160cle"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cleveland Browns vs. Philadelphia Eagles"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "GB", 
             "date": "1988-10-16T17:00:00+00:00", 
             "homeTeam": "MIN", 
@@ -1963,28 +1985,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New York Giants vs. Detroit Lions"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "1988-10-16T17:00:00+00:00", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "ProFootballReferenceID": "198810160cle"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cleveland Browns vs. Philadelphia Eagles"
         }, 
         {
             "assets": {
@@ -2391,6 +2391,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "CLE", 
+            "date": "1988-10-23T20:00:00+00:00", 
+            "homeTeam": "ARI", 
+            "identity": {
+                "ProFootballReferenceID": "198810230crd"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Phoenix Cardinals vs. Cleveland Browns"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "SEA", 
             "date": "1988-10-23T20:00:00+00:00", 
             "homeTeam": "LAR", 
@@ -2435,28 +2457,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CLE", 
-            "date": "1988-10-23T20:00:00+00:00", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "ProFootballReferenceID": "198810230crd"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Phoenix Cardinals vs. Cleveland Browns"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SF", 
             "date": "1988-10-25T01:00:00+00:00", 
             "homeTeam": "CHI", 
@@ -2469,28 +2469,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Chicago Bears vs. San Francisco 49ers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ATL", 
-            "date": "1988-10-30T18:00:00+00:00", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ProFootballReferenceID": "198810300phi"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Atlanta Falcons"
         }, 
         {
             "assets": {
@@ -2567,6 +2545,50 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "ATL", 
+            "date": "1988-10-30T18:00:00+00:00", 
+            "homeTeam": "PHI", 
+            "identity": {
+                "ProFootballReferenceID": "198810300phi"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Philadelphia Eagles vs. Atlanta Falcons"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CIN", 
+            "date": "1988-10-30T18:00:00+00:00", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "ProFootballReferenceID": "198810300cle"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cleveland Browns vs. Cincinnati Bengals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "MIA", 
             "date": "1988-10-30T18:00:00+00:00", 
             "homeTeam": "TB", 
@@ -2601,28 +2623,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New York Jets vs. Pittsburgh Steelers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CIN", 
-            "date": "1988-10-30T18:00:00+00:00", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "ProFootballReferenceID": "198810300cle"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cleveland Browns vs. Cincinnati Bengals"
         }, 
         {
             "assets": {
@@ -2985,28 +2985,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "BUF", 
-            "date": "1988-11-06T21:00:00+00:00", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "ProFootballReferenceID": "198811060sea"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Seattle Seahawks vs. Buffalo Bills"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "KC", 
             "date": "1988-11-06T21:00:00+00:00", 
             "homeTeam": "DEN", 
@@ -3041,6 +3019,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Indianapolis Colts vs. New York Jets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BUF", 
+            "date": "1988-11-06T21:00:00+00:00", 
+            "homeTeam": "SEA", 
+            "identity": {
+                "ProFootballReferenceID": "198811060sea"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Seattle Seahawks vs. Buffalo Bills"
         }, 
         {
             "assets": {
@@ -3117,28 +3117,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CHI", 
-            "date": "1988-11-13T18:00:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "198811130was"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Chicago Bears"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "LAC", 
             "date": "1988-11-13T18:00:00+00:00", 
             "homeTeam": "ATL", 
@@ -3161,62 +3139,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "TB", 
+            "awayTeam": "CHI", 
             "date": "1988-11-13T18:00:00+00:00", 
-            "homeTeam": "DET", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ProFootballReferenceID": "198811130det"
+                "ProFootballReferenceID": "198811130was"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Detroit Lions vs. Tampa Bay Buccaneers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CIN", 
-            "date": "1988-11-13T18:00:00+00:00", 
-            "homeTeam": "KC", 
-            "identity": {
-                "ProFootballReferenceID": "198811130kan"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Kansas City Chiefs vs. Cincinnati Bengals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NE", 
-            "date": "1988-11-13T18:00:00+00:00", 
-            "homeTeam": "NYJ", 
-            "identity": {
-                "ProFootballReferenceID": "198811130nyj"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Jets vs. New England Patriots"
+            "vs": "Washington Redskins vs. Chicago Bears"
         }, 
         {
             "assets": {
@@ -3249,18 +3183,62 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "TEN", 
-            "date": "1988-11-13T21:00:00+00:00", 
-            "homeTeam": "SEA", 
+            "awayTeam": "NE", 
+            "date": "1988-11-13T18:00:00+00:00", 
+            "homeTeam": "NYJ", 
             "identity": {
-                "ProFootballReferenceID": "198811130sea"
+                "ProFootballReferenceID": "198811130nyj"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Seattle Seahawks vs. Houston Oilers"
+            "vs": "New York Jets vs. New England Patriots"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CIN", 
+            "date": "1988-11-13T18:00:00+00:00", 
+            "homeTeam": "KC", 
+            "identity": {
+                "ProFootballReferenceID": "198811130kan"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Kansas City Chiefs vs. Cincinnati Bengals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "TB", 
+            "date": "1988-11-13T18:00:00+00:00", 
+            "homeTeam": "DET", 
+            "identity": {
+                "ProFootballReferenceID": "198811130det"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Detroit Lions vs. Tampa Bay Buccaneers"
         }, 
         {
             "assets": {
@@ -3283,6 +3261,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Denver Broncos vs. Cleveland Browns"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "TEN", 
+            "date": "1988-11-13T21:00:00+00:00", 
+            "homeTeam": "SEA", 
+            "identity": {
+                "ProFootballReferenceID": "198811130sea"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Seattle Seahawks vs. Houston Oilers"
         }, 
         {
             "assets": {
@@ -3469,18 +3469,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CHI", 
+            "awayTeam": "NYJ", 
             "date": "1988-11-20T18:00:00+00:00", 
-            "homeTeam": "TB", 
+            "homeTeam": "BUF", 
             "identity": {
-                "ProFootballReferenceID": "198811200tam"
+                "ProFootballReferenceID": "198811200buf"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Tampa Bay Buccaneers vs. Chicago Bears"
+            "vs": "Buffalo Bills vs. New York Jets"
         }, 
         {
             "assets": {
@@ -3503,28 +3503,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Green Bay Packers vs. Detroit Lions"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYJ", 
-            "date": "1988-11-20T18:00:00+00:00", 
-            "homeTeam": "BUF", 
-            "identity": {
-                "ProFootballReferenceID": "198811200buf"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Buffalo Bills vs. New York Jets"
         }, 
         {
             "assets": {
@@ -3579,6 +3557,50 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "CHI", 
+            "date": "1988-11-20T18:00:00+00:00", 
+            "homeTeam": "TB", 
+            "identity": {
+                "ProFootballReferenceID": "198811200tam"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Tampa Bay Buccaneers vs. Chicago Bears"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DEN", 
+            "date": "1988-11-20T21:00:00+00:00", 
+            "homeTeam": "NO", 
+            "identity": {
+                "ProFootballReferenceID": "198811200nor"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New Orleans Saints vs. Denver Broncos"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "ATL", 
             "date": "1988-11-20T21:00:00+00:00", 
             "homeTeam": "LV", 
@@ -3613,28 +3635,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Los Angeles Rams vs. San Diego Chargers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DEN", 
-            "date": "1988-11-20T21:00:00+00:00", 
-            "homeTeam": "NO", 
-            "identity": {
-                "ProFootballReferenceID": "198811200nor"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New Orleans Saints vs. Denver Broncos"
         }, 
         {
             "assets": {
@@ -4019,28 +4019,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WAS", 
-            "date": "1988-12-04T18:00:00+00:00", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ProFootballReferenceID": "198812040phi"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ARI", 
             "date": "1988-12-04T18:00:00+00:00", 
             "homeTeam": "NYG", 
@@ -4053,28 +4031,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New York Giants vs. Phoenix Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "1988-12-04T18:00:00+00:00", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "ProFootballReferenceID": "198812040cle"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cleveland Browns vs. Dallas Cowboys"
         }, 
         {
             "assets": {
@@ -4107,6 +4063,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "SEA", 
+            "date": "1988-12-04T18:00:00+00:00", 
+            "homeTeam": "NE", 
+            "identity": {
+                "ProFootballReferenceID": "198812040nwe"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New England Patriots vs. Seattle Seahawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "SF", 
             "date": "1988-12-04T18:00:00+00:00", 
             "homeTeam": "ATL", 
@@ -4129,6 +4107,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "WAS", 
+            "date": "1988-12-04T18:00:00+00:00", 
+            "homeTeam": "PHI", 
+            "identity": {
+                "ProFootballReferenceID": "198812040phi"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Philadelphia Eagles vs. Washington Redskins"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "GB", 
             "date": "1988-12-04T18:00:00+00:00", 
             "homeTeam": "DET", 
@@ -4141,28 +4141,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Detroit Lions vs. Green Bay Packers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SEA", 
-            "date": "1988-12-04T18:00:00+00:00", 
-            "homeTeam": "NE", 
-            "identity": {
-                "ProFootballReferenceID": "198812040nwe"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New England Patriots vs. Seattle Seahawks"
         }, 
         {
             "assets": {
@@ -4207,6 +4185,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Cincinnati Bengals vs. San Diego Chargers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DAL", 
+            "date": "1988-12-04T18:00:00+00:00", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "ProFootballReferenceID": "198812040cle"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cleveland Browns vs. Dallas Cowboys"
         }, 
         {
             "assets": {
@@ -4393,6 +4393,50 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "CIN", 
+            "date": "1988-12-11T18:00:00+00:00", 
+            "homeTeam": "TEN", 
+            "identity": {
+                "ProFootballReferenceID": "198812110oti"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Houston Oilers vs. Cincinnati Bengals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "KC", 
+            "date": "1988-12-11T18:00:00+00:00", 
+            "homeTeam": "NYG", 
+            "identity": {
+                "ProFootballReferenceID": "198812110nyg"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New York Giants vs. Kansas City Chiefs"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "TB", 
             "date": "1988-12-11T18:00:00+00:00", 
             "homeTeam": "NE", 
@@ -4437,28 +4481,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CIN", 
-            "date": "1988-12-11T18:00:00+00:00", 
-            "homeTeam": "TEN", 
-            "identity": {
-                "ProFootballReferenceID": "198812110oti"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Houston Oilers vs. Cincinnati Bengals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "DET", 
             "date": "1988-12-11T18:00:00+00:00", 
             "homeTeam": "CHI", 
@@ -4493,28 +4515,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Green Bay Packers vs. Minnesota Vikings"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "KC", 
-            "date": "1988-12-11T18:00:00+00:00", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ProFootballReferenceID": "198812110nyg"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Kansas City Chiefs"
         }, 
         {
             "assets": {
@@ -4701,28 +4701,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "MIA", 
-            "date": "1988-12-18T18:00:00+00:00", 
-            "homeTeam": "PIT", 
-            "identity": {
-                "ProFootballReferenceID": "198812180pit"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1988", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Steelers vs. Miami Dolphins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "TEN", 
             "date": "1988-12-18T18:00:00+00:00", 
             "homeTeam": "CLE", 
@@ -4823,6 +4801,28 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New Orleans Saints vs. Atlanta Falcons"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIA", 
+            "date": "1988-12-18T18:00:00+00:00", 
+            "homeTeam": "PIT", 
+            "identity": {
+                "ProFootballReferenceID": "198812180pit"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1988", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Steelers vs. Miami Dolphins"
         }, 
         {
             "assets": {
@@ -4951,7 +4951,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 1, 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 1, 
@@ -4975,7 +4974,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 1, 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 1, 
@@ -4999,7 +4997,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 2, 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5023,7 +5020,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 2, 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5047,7 +5043,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 2, 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5071,7 +5066,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 2, 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5095,7 +5089,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 3, 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5119,7 +5112,6 @@
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 3, 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 1, 
@@ -5128,32 +5120,12 @@
         }, 
         {
             "assets": {
-                "banner": [
-                    {
-                        "source": "thesportsdb"
-                    }
-                ], 
-                "fanArt": [
-                    {
-                        "source": "thesportsdb"
-                    }
-                ], 
+                "banner": [], 
+                "fanArt": [], 
                 "logo": [], 
-                "poster": [
-                    {
-                        "source": "thesportsdb"
-                    }
-                ], 
-                "preview": [
-                    {
-                        "source": "thesportsdb"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb"
-                    }
-                ]
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
             }, 
             "awayTeam": "CIN", 
             "date": "1989-01-22T00:00:00+00:00", 
@@ -5179,14 +5151,12 @@
             "awayTeam": "CIN", 
             "date": "1989-01-22T22:00:00+00:00", 
             "eventTitle": "Superbowl XXIII", 
-            "eventindicator": 1, 
             "homeTeam": "SF", 
             "identity": {
                 "ProFootballReferenceID": "198901220cin"
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 4, 
             "season": "1988", 
             "sport": "Football", 
             "subseason": 1, 

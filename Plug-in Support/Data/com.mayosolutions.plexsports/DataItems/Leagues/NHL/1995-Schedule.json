@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1995SCHEDULE", 
-        "CachedOn": "2021-09-11T08:03:19", 
-        "ExpiresOn": "2021-09-18T08:03:19", 
+        "CachedOn": "2021-10-11T23:54:48", 
+        "ExpiresOn": "2021-10-18T23:54:48", 
         "Version": "2"
     }, 
     "Items": [
@@ -2400,6 +2400,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "Hartford Whalers", 
+            "date": "1995-10-16T23:30:00+00:00", 
+            "homeTeam": "New York Rangers", 
+            "identity": {
+                "NHLAPIID": 1995020054
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1995", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "New York Rangers vs. Hartford Whalers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "HAR", 
             "date": "1995-10-16T23:30:00+00:00", 
             "eventTitle": "", 
@@ -2413,28 +2435,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "New York Rangers vs. Carolina Hurricanes"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "Hartford Whalers", 
-            "date": "1995-10-16T23:30:00+00:00", 
-            "homeTeam": "New York Rangers", 
-            "identity": {
-                "NHLAPIID": 1995020054
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1995", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "New York Rangers vs. Hartford Whalers"
         }, 
         {
             "assets": {
@@ -10680,6 +10680,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "Philadelphia Flyers", 
+            "date": "1995-11-18T18:30:00+00:00", 
+            "homeTeam": "Hartford Whalers", 
+            "identity": {
+                "NHLAPIID": 1995020238
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1995", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Hartford Whalers vs. Philadelphia Flyers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "PHI", 
             "date": "1995-11-18T18:30:00+00:00", 
             "eventTitle": "", 
@@ -10693,28 +10715,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Carolina Hurricanes vs. Philadelphia Flyers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "Philadelphia Flyers", 
-            "date": "1995-11-18T18:30:00+00:00", 
-            "homeTeam": "Hartford Whalers", 
-            "identity": {
-                "NHLAPIID": 1995020238
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1995", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Hartford Whalers vs. Philadelphia Flyers"
         }, 
         {
             "assets": {
@@ -18600,12 +18600,11 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "OTT", 
+            "awayTeam": "Ottawa Senators", 
             "date": "1995-12-19T02:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "EDM", 
+            "homeTeam": "Edmonton Oilers", 
             "identity": {
-                "ESPNAPIID": "151218006"
+                "NHLAPIID": 1995020414
             }, 
             "league": "NHL", 
             "networks": [], 
@@ -18623,11 +18622,12 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Ottawa Senators", 
+            "awayTeam": "OTT", 
             "date": "1995-12-19T02:30:00+00:00", 
-            "homeTeam": "Edmonton Oilers", 
+            "eventTitle": "", 
+            "homeTeam": "EDM", 
             "identity": {
-                "NHLAPIID": 1995020414
+                "ESPNAPIID": "151218006"
             }, 
             "league": "NHL", 
             "networks": [], 
@@ -28072,12 +28072,11 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NYI", 
+            "awayTeam": "New York Islanders", 
             "date": "1996-01-28T03:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "VAN", 
+            "homeTeam": "Vancouver Canucks", 
             "identity": {
-                "ESPNAPIID": "160127022"
+                "NHLAPIID": 1995020624
             }, 
             "league": "NHL", 
             "networks": [], 
@@ -28095,11 +28094,12 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "New York Islanders", 
+            "awayTeam": "NYI", 
             "date": "1996-01-28T03:30:00+00:00", 
-            "homeTeam": "Vancouver Canucks", 
+            "eventTitle": "", 
+            "homeTeam": "VAN", 
             "identity": {
-                "NHLAPIID": 1995020624
+                "ESPNAPIID": "160127022"
             }, 
             "league": "NHL", 
             "networks": [], 
@@ -28567,29 +28567,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "STL", 
-            "date": "1996-02-01T00:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "TOR", 
-            "identity": {
-                "ESPNAPIID": "160131021"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1995", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Toronto Maple Leafs vs. St. Louis Blues"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "PIT", 
             "date": "1996-02-01T00:30:00+00:00", 
             "eventTitle": "", 
@@ -28782,6 +28759,29 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Ottawa Senators vs. Boston Bruins"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "STL", 
+            "date": "1996-02-01T00:30:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "TOR", 
+            "identity": {
+                "ESPNAPIID": "160131021"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1995", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Toronto Maple Leafs vs. St. Louis Blues"
         }, 
         {
             "assets": {
@@ -30705,6 +30705,29 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "NYI", 
+            "date": "1996-02-09T00:30:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "NYR", 
+            "identity": {
+                "ESPNAPIID": "160208013"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1995", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "New York Rangers vs. New York Islanders"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "New York Islanders", 
             "date": "1996-02-09T00:30:00+00:00", 
             "homeTeam": "New York Rangers", 
@@ -30784,29 +30807,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Florida Panthers vs. Detroit Red Wings"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYI", 
-            "date": "1996-02-09T00:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "NYR", 
-            "identity": {
-                "ESPNAPIID": "160208013"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1995", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "New York Rangers vs. New York Islanders"
         }, 
         {
             "assets": {
@@ -32436,29 +32436,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "SJ ", 
-            "date": "1996-02-16T00:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "OTT", 
-            "identity": {
-                "ESPNAPIID": "160215014"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1995", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Ottawa Senators vs. San Jose Sharks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "WSH", 
             "date": "1996-02-16T00:30:00+00:00", 
             "eventTitle": "", 
@@ -32472,6 +32449,29 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Detroit Red Wings vs. Washington Capitals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SJ ", 
+            "date": "1996-02-16T00:30:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "OTT", 
+            "identity": {
+                "ESPNAPIID": "160215014"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1995", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Ottawa Senators vs. San Jose Sharks"
         }, 
         {
             "assets": {
@@ -37252,6 +37252,29 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "PHX", 
+            "date": "1996-03-06T00:30:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "PIT", 
+            "identity": {
+                "ESPNAPIID": "160305016"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1995", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Penguins vs. Arizona Coyotes"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "Chicago Blackhawks", 
             "date": "1996-03-06T00:30:00+00:00", 
             "homeTeam": "Tampa Bay Lightning", 
@@ -37332,29 +37355,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Tampa Bay Lightning vs. Chicago Blackhawks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHX", 
-            "date": "1996-03-06T00:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "PIT", 
-            "identity": {
-                "ESPNAPIID": "160305016"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1995", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Penguins vs. Arizona Coyotes"
         }, 
         {
             "assets": {
@@ -38377,28 +38377,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "Ottawa Senators", 
-            "date": "1996-03-10T00:30:00+00:00", 
-            "homeTeam": "Montreal Canadiens", 
-            "identity": {
-                "NHLAPIID": 1995020852
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1995", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Montr\u00e9al Canadiens vs. Ottawa Senators"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "Calgary Flames", 
             "date": "1996-03-10T00:30:00+00:00", 
             "homeTeam": "Toronto Maple Leafs", 
@@ -38411,6 +38389,28 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Toronto Maple Leafs vs. Calgary Flames"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "Ottawa Senators", 
+            "date": "1996-03-10T00:30:00+00:00", 
+            "homeTeam": "Montreal Canadiens", 
+            "identity": {
+                "NHLAPIID": 1995020852
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1995", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Montr\u00e9al Canadiens vs. Ottawa Senators"
         }, 
         {
             "assets": {
