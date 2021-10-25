@@ -60,7 +60,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 				homeTeamKey = teamKeys[homeTeamStripped]
 				awayTeamKey = teamKeys[awayTeamStripped]
 		
-				date = __get_event_date(schedEvent)
+				date = __get_event_date(league, schedEvent)
 				if date == None:
 					continue
 
@@ -120,7 +120,7 @@ def SupplementScheduleEvent(league, schedEvent, kwargs):
 		if schedEvent.get("strDescriptionEN") == "Pro Football Hall of Fame Game":
 			kwargs.setdefault("eventindicator", NFL_EVENT_FLAG_HALL_OF_FAME)
 			del(kwargs["description"])
-			kwargs["eventTitle"] = normalize(schedEvent["strDescriptionEN"])
+			kwargs["eventTitle"] = "Hall of Fame Game"
 
 		if schedEvent.get("intRound") != None:
 			if schedEvent["intRound"] == THESPORTSDB_ROUND_FINAL:
@@ -133,59 +133,90 @@ def SupplementScheduleEvent(league, schedEvent, kwargs):
 				if schedEvent["intRound"] <= 17: # Guesstimate
 					kwargs.setdefault("subseason", NFL_SUBSEASON_FLAG_REGULAR_SEASON)
 					kwargs.setdefault("week", schedEvent["intRound"])
+				elif schedEvent["intRound"] == 18:
+					kwargs.setdefault("subseason", NFL_SUBSEASON_FLAG_POSTSEASON)
+					kwargs.setdefault("playoffround", NFL_PLAYOFF_ROUND_WILDCARD)
+				elif schedEvent["intRound"] == 19:
+					kwargs.setdefault("subseason", NFL_SUBSEASON_FLAG_POSTSEASON)
+					kwargs.setdefault("playoffround", NFL_PLAYOFF_ROUND_DIVISION)
+				elif schedEvent["intRound"] == 20:
+					kwargs.setdefault("subseason", NFL_SUBSEASON_FLAG_POSTSEASON)
+					kwargs.setdefault("playoffround", NFL_PLAYOFF_ROUND_CHAMPIONSHIP)
 
+def __fathom_time_zone(tzIndicator, defaultTz=EasternTime):
+	"""Attempt to fathom Time Zone"""
+	if tzIndicator.upper() == "CT": return CentralTime
+	elif tzIndicator.upper() == "MT": return MountainTime
+	elif tzIndicator.upper() == "PT": return PacificTime
+	elif tzIndicator.upper() == "ET": return EasternTime
+	
+	return gettz(tzIndicator) or defaultTz
 
-def __get_event_date(schedEvent):
+def __parse_local_date(dateStr, timeStr, defaultTz=EasternTime):
+	tz = defaultTz
+	indexOfPlus = indexOf(timeStr, "+")
+	if indexOfPlus >= 0:
+		tz = UTC
+	else:
+		indexOfSpace = indexOf(timeStr, " ")
+		if indexOfSpace >= 0:
+			ampm = None
+			tail = timeStr[indexOfSpace+1:]
+			timeStr = timeStr[:indexOfSpace]
+			if tail[:2] in ["AM", "PM"]:
+				ampm = tail[:2].upper()
+				tail = tail[2:].lstrip()
+			if ampm == "PM":
+				indexOfColon = indexOf(timeStr, ":")
+				hrString = timeStr[:indexOfColon]
+				hr = int(hrString)
+				if hr != 12:
+					hr += 12
+					if hr == 24:
+						hr = 0
+						tmpDt = ParseISO8601Date(dateStr)
+						tmpDt = tmpDt + datetime.timedelta(days=1)
+						dateStr = tmpDt.strftime("%Y:%m:%d")
+					timeStr = ("0%s" % hr)[-2:] + timeStr[indexOfColon:]
+			if tail:
+				tz = __fathom_time_zone(tail, defaultTz)
+
+	date = ParseISO8601Date("%sT%s" % (dateStr, timeStr))
+	# Relative to specified time zone (or East Coast if unspecified)
+	date = date.replace(tzinfo=tz).astimezone(tz=UTC)
+
+	return date
+
+# All of this is why The SportsDB incurs the moniker "trashbucket"
+def __get_event_date(league, schedEvent):
 	date = None
-	if schedEvent.get("dateEventLocal") and schedEvent.get("strTimeLocal"):
+	if schedEvent.get("dateEvent") and schedEvent.get("strTime"):
+		dateStr = schedEvent["dateEvent"]
+		timeStr = schedEvent["strTime"]
+
+		if re.match(r"\d{1,2}:\d{2}:\d{2}", timeStr):
+			# Already expressed in Zulu Time
+			date = __parse_local_date(dateStr, timeStr, UTC)
+		else:
+
+			if league == LEAGUE_MLB:
+				# Expressed as an afternoon/evening time, relative to EST
+				indexOfSpace = indexOf(timeStr, " ")
+				if indexOfSpace < 0:
+					date = __parse_local_date(dateStr, ("%s %s" % (timeStr, "PM ET")))
+			elif league == LEAGUE_NFL:
+				# Expressed as UTC
+				date = __parse_local_date(dateStr, timeStr, UTC)
+
+			if not date:
+				date = __parse_local_date(dateStr, timeStr)
+
+	elif schedEvent.get("dateEventLocal") and schedEvent.get("strTimeLocal"):
+		# Presuming local time is Eastern time unless explicitly specified
 		dateStr = schedEvent["dateEventLocal"]
 		timeStr = schedEvent["strTimeLocal"]
 
-		tz = EasternTime
-		indexOfPlus = indexOf(timeStr, "+")
-		if indexOfPlus >= 0:
-			tz = UTC
-		else:
-			indexOfSpace = indexOf(timeStr, " ")
-			if indexOfSpace >= 0:
-				print("0-dateEventLocal:%s|strTimeLocal:%s" % (schedEvent.get("dateEventLocal"), schedEvent.get("strTimeLocal")))
-				ampm = None
-				tail = timeStr[indexOfSpace+1:]
-				timeStr = timeStr[:indexOfSpace]
-				if tail[:2] in ["AM", "PM"]:
-					ampm = tail[:2].upper()
-					tail = tail[2:].lstrip()
-				if ampm == "PM":
-					indexOfColon = indexOf(timeStr, ":")
-					hrString = timeStr[:indexOfColon]
-					hr = int(hrString)
-					if hr != 12:
-						hr += 12
-						if hr == 24:
-							hr = 0
-							tmpDt = ParseISO8601Date(dateStr)
-							tmpDt = tmpDt + datetime.timedelta(days=1)
-							dateStr = tmpDt.strftime("%Y:%m:%d")
-						timeStr = ("0%s" % hr)[-2:] + timeStr[indexOfColon:]
-				if tail:
-					# Attempt to fathom Time Zone
-					if tail.upper() == "CT": tz = CentralTime
-					elif tail.upper() == "MT": tz = MountainTime
-					elif tail.upper() == "PT": tz = PacificTime
-					elif tail.upper() == "ET": pass
-					else: tz = gettz(tail) or EasternTime
-
-		date = ParseISO8601Date("%sT%s" % (dateStr, timeStr))
-		# Relative to specified time zone (or East Coast if unspecified)
-		date = date.replace(tzinfo=tz).astimezone(tz=UTC)
-	elif schedEvent.get("dateEvent") and schedEvent.get("strTime"):
-		timeStr = schedEvent["strTime"]
-
-		date = ParseISO8601Date("%sT%s" % (schedEvent["dateEvent"], timeStr))
-		if re.match(r"\d{2}:\d{2}:\d{2}", timeStr): # Already expressed in Zulu Time
-			date = date.replace(tzinfo=UTC)
-		else: # Relative to East Coast
-			date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
+		date = __parse_local_date(dateStr, timeStr)
 	elif schedEvent.get("dateEvent") and not schedEvent.get("strTime"):
 		if schedEvent["dateEvent"] == "0000-00-00": return None
 		date = ParseISO8601Date(schedEvent["dateEvent"])
