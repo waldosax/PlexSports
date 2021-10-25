@@ -11,6 +11,13 @@ from Vectors import *
 from ..Data.ESPNAPIDownloader import *
 from ScheduleEvent import *
 
+espnapi_abbreviation_corrections = {
+	LEAGUE_NFL: {
+		"WSH": "WAS",
+		}
+	}
+
+
 ESPN_SUBSEASON_FLAG_PRESEASON = 1
 ESPN_SUBSEASON_FLAG_REGULAR_SEASON = 2
 ESPN_SUBSEASON_FLAG_POSTSEASON = 3
@@ -105,7 +112,10 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 							for competitor in competition["competitors"]:
 								key = deunicode(competitor["homeAway"])
 								teams.setdefault(key, {"fullName": None, "abbrev": None})
-								teams[key]["abbrev"] = deunicode(competitor["team"].get("abbreviation"))
+								abbrev = deunicode(competitor["team"].get("abbreviation"))
+								if league in espnapi_abbreviation_corrections.keys() and abbrev in espnapi_abbreviation_corrections[league].keys():
+									abbrev = espnapi_abbreviation_corrections[league][abbrev]
+								teams[key]["abbrev"] = abbrev
 								teams[key]["fullName"] = deunicode(competitor["team"]["displayName"])
 							homeTeamKey = teams["home"]["abbrev"]
 							awayTeamKey = teams["away"]["abbrev"]
