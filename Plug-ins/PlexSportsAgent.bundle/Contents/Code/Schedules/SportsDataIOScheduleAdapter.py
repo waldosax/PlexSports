@@ -31,6 +31,8 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 			for schedEvent in sportsDataIOSchedule:
 				if schedEvent["AwayTeam"] == "BYE":
 					continue
+				if schedEvent.get("Canceled") == True or schedEvent["Status"] != "Final":
+					continue
 
 				# Teams from this API are abbreviations
 				homeTeamKey = deunicode(schedEvent["HomeTeam"])
@@ -40,8 +42,8 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 
 				homeTeamName = deunicode(schedEvent["HomeTeam"]) or ""
 				awayTeamName = deunicode(schedEvent["AwayTeam"]) or ""
-				if teamKeys.get(homeTeamKeyStripped): homeTeamName = teams[teamKeys[homeTeamKeyStripped]].name
-				if teamKeys.get(awayTeamKeyStripped): awayTeamName = teams[teamKeys[awayTeamKeyStripped]].name
+				if teamKeys.get(homeTeamKeyStripped): homeTeamName = teams[teamKeys[homeTeamKeyStripped]].fullName
+				if teamKeys.get(awayTeamKeyStripped): awayTeamName = teams[teamKeys[awayTeamKeyStripped]].fullName
 
 				date = None
 				if schedEvent.get("DateTime"):
@@ -98,8 +100,8 @@ def SupplementScheduleEvent(league, schedEvent, kwargs):
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_PRESEASON:
 				kwargs["subseason"] = NFL_SUBSEASON_FLAG_PRESEASON
 				if schedEvent["Week"] == 0:
-					kwargs["eventindicator"] = NFL_EVENT_FLAG_PRO_BOWL
-					kwargs["eventTitle"] = "Pro Bowl"
+					kwargs["eventindicator"] = NFL_EVENT_FLAG_HALL_OF_FAME
+					kwargs["eventTitle"] = "Hall of Fame Game"
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_REGULAR_SEASON: kwargs["subseason"] = NFL_SUBSEASON_FLAG_REGULAR_SEASON
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_POSTSEASON:
 				kwargs["subseason"] = NFL_SUBSEASON_FLAG_POSTSEASON
@@ -110,6 +112,7 @@ def SupplementScheduleEvent(league, schedEvent, kwargs):
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR:
 				kwargs["week"] = None
 				kwargs["eventindicator"] = NFL_EVENT_FLAG_PRO_BOWL
+				kwargs["eventTitle"] = "Pro Bowl"
 		if league == LEAGUE_NHL:
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_PRESEASON: kwargs["subseason"] = NHL_SUBSEASON_FLAG_PRESEASON
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_REGULAR_SEASON: kwargs["subseason"] = NHL_SUBSEASON_FLAG_REGULAR_SEASON
