@@ -13,6 +13,13 @@ from Data.MLB.MLBAPIDownloader import *
 MLBAPI_SPORTID_MLB = 1
 
 
+mlbapi_abbreviation_corrections = {
+	LEAGUE_MLB: {
+		"CHW": "CWS"
+		}
+	}
+
+
 def DownloadAllFranchises(league):
 
 	# Get all teams for current season
@@ -86,6 +93,13 @@ def DownloadAllFranchises(league):
 		minSeason = 0
 		seasonTracking = dict()
 
+		aliases = []
+		key = abbrev = deunicode(apiTeam["abbreviation"])
+		if mlbapi_abbreviation_corrections.get(league):
+			if mlbapi_abbreviation_corrections[league].get(abbrev):
+				aliases.append(abbrev)
+				key = abbrev = sdio_abbreviation_corrections[league][abbrev]
+
 		# name:				Arizona Diamondbacks
 		# teamName:			D-backs
 		# shortName:		Arizona
@@ -100,13 +114,13 @@ def DownloadAllFranchises(league):
 			"fullName": name,
 			"name": deunicode(apiTeam["clubName"]),
 			"city": deunicode(name[:-len(apiTeam["clubName"])].rstrip()),
-			"abbreviation": deunicode(apiTeam["abbreviation"]),
+			"abbreviation": abbrev,
+			"key": key,
 			"conference": deunicode(apiTeam["league"]["name"]),
 			"division": deunicode(apiTeam["division"]["name"]),
 			"years": []
 			}
 
-		aliases = []
 		if apiTeam["shortName"] != team["city"]: aliases.append(deunicode(apiTeam["shortName"]))
 		if apiTeam["teamName"] != apiTeam["clubName"]: aliases.append(deunicode(apiTeam["teamName"]))
 		if aliases: team["alisases"] = list(set(aliases))
