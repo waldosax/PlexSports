@@ -1,12 +1,46 @@
 Schedule idiosyncracies
 -----------------------------------------------------------------------
 Disagreement. Event found, but not sourced by all
-Duplicates. Events found for same team, same day, not double-headers.
+Duplicates.
+	Events found for same team, same day, not double-headers.
+		Time off more than an hour
+		Game indicator mismatches (Double-Header vs. tournament)
 	Home & Away reversed. Verify Source.
+	Double-Headers in sports that don't belong (NFL, NBA?-bubble)
 Time offset. Events found, but agreement is off by number of hours. Verify source.
 Missing data (gaps)
 	NHL API 2004 season
 	ESPN API (NHL) 2006 Season
 Data in wrong season
 	ESPN API (NFL) 2022 season has 2021 preseason events
-	
+Games that are scheduled, but never played
+	2020 World Series, Game 7
+Spring Training Exhibitions are marked as regular season
+Unrecognized teams showing up in wrong league?
+	NFL: WSH returns Washington Senators
+Subseason not identified.
+	NFL Preseason games crossing the GMT date boundary
+Games that have been rescheduled or cancelled (Not just MLB)
+(Hockey: Las Vegas Knights LV or VEG? - SportsDataIO) VGK!!!
+Trashbucket: NFL Post-season rounds:
+	< 18: round = Week
+	18: Wildcard
+	19: Division
+	20: Conference
+	200: Superbowl
+Trashbucket ambiguous times:
+	NFL:
+		["dateEvent"] = "2021-01-17"
+		["strTime"] = "8:05"	<-- GMT
+	MLB:
+		["dateEvent"] = "2007-03-01"
+		["strTime"] = "1:05"	<-- EST PM
+		
+		["dateEvent"] = "2007-03-01"
+		["strTime"] = "12:05"	<-- EST PM
+	NBA:
+		["dateEvent"] = "2017-09-30"
+		["strTime"] = "8:30 PM ET"	<-- parse goofy shit like strTimeLocal. ParseISO8601Date kinda did it, just didn't recognize the tz, which is the point
+	NHL:
+		N/A
+Games on Tuesdays, Wednesdays?
