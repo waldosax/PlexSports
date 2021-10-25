@@ -150,7 +150,7 @@ class ScheduleEvent:
 
 def AddOrAugmentEvent(sched, event):
 	hash = sched_compute_augmentation_hash(event)
-	subhash = sched_compute_time_hash(event.date)
+	subhash = sched_compute_time_hash(event)
 
 	#print("%s|%s" % (hash, subhash))
 	
@@ -172,13 +172,31 @@ def AddOrAugmentEvent(sched, event):
 	else: # Time-aware
 		if subhash in evdict.keys(): # Times agree
 			evdict[subhash].augment(**event.__dict__)
-		elif None in evdict.keys(): # Augment and replace time-naive
-			repl = evdict[None]
-			repl.augment(**event.__dict__)
-			del(evdict[None])
-			evdict[subhash] = repl
-		else: # Must be a double-header. Append
-			evdict.setdefault(subhash, event)
+		else: #Times are close enough?
+			foundSubhash = False
+
+			projectedSubhashes = [] # Project subhash by two hours in each direction
+			subhashHour = int(subhash)
+			for i in range(subhashHour-2,subhashHour+3):
+				hr = i
+				if hr < 0: hr = 24 + i
+				elif hr >= 24: hr = i - 24
+				ssh = ("00%s" % hr)[-2:]
+				if ssh in evdict.keys():
+					foundSubhash = True
+					subhash = ssh
+					break
+
+			if foundSubhash:
+				evdict[subhash].augment(**event.__dict__)
+			else: # Must be a double-header. Append
+				if None in evdict.keys(): # Augment and replace time-naive
+					repl = evdict[None]
+					repl.augment(**event.__dict__)
+					del(evdict[None])
+					evdict[subhash] = repl
+				else:
+					evdict.setdefault(subhash, event)
 
 	pass
 

@@ -329,7 +329,7 @@ def __get_schedule_from_cache(sport, league, season, computeHashes=False, noLoad
 			else:
 				for event in events:
 					hash = sched_compute_augmentation_hash(event)
-					subhash = sched_compute_time_hash(event.date)
+					subhash = sched_compute_time_hash(event)
 
 					schedule.setdefault(hash, dict())
 					schedule[hash].setdefault(subhash, event)

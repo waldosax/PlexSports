@@ -6,6 +6,13 @@ from Teams import *
 from TimeZoneUtils import *
 from Vectors import *
 
+LEAGUE_RELATIVE_TZ = {
+	LEAGUE_MLB: EasternTime,
+	LEAGUE_NBA: EasternTime,
+	LEAGUE_NFL: EasternTime,
+	LEAGUE_NHL: EasternTime
+	}
+
 
 SCHEDULE_HASH_INDEX_SPORT = 0
 SCHEDULE_HASH_INDEX_LEAGUE = 1
@@ -332,7 +339,7 @@ def sched_compute_augmentation_hash(event):
 	molecules.append(league)
 
 	# TODO: Omit when taking on non-seasonal sports, like Boxing
-	season = sched_compute_league_hash(event.season) or ""
+	season = sched_compute_season_hash(event.season) or ""
 	molecules.append(season)
 
 	date = sched_compute_date_hash(event.date) or ""
@@ -403,7 +410,7 @@ def sched_compute_season_hash(season):
 			p = re.compile(expr, re.IGNORECASE)
 			m = p.search(s)
 			if m:
-				return expandYear(m.group("season_begin_year")).lower()
+				return expandYear(m.group("season_year_begin")).lower()
 	elif (isinstance(season, int)):
 		s = str(season)
 	
@@ -442,7 +449,11 @@ def sched_compute_date_hash(eventDate):
 
 	return eventDate.strftime("%Y%m%d")
 
-def sched_compute_time_hash(eventDate):
+def sched_compute_time_hash(event):
+	if not event:
+		return None
+	
+	eventDate = event.date
 	if not eventDate:
 		return None
 
