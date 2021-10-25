@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2017SCHEDULE", 
-        "CachedOn": "2021-10-12T10:34:08", 
-        "ExpiresOn": "2021-10-19T10:34:08", 
+        "CachedOn": "2021-10-24T23:02:27", 
+        "ExpiresOn": "2021-10-31T23:02:27", 
         "Version": "2"
     }, 
     "Items": [
@@ -119,31 +119,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2017-08-10T23:30:00+00:00", 
-            "description": "Ryan Mallett struggled in place of injured quarterback Joe Flacco, throwing for only 58 yards while playing the entire first half, and the Baltimore Ravens beat the Washington Redskins 23-3 on Thursday night in a sloppy preseason opener.", 
-            "eventTitle": "", 
-            "homeTeam": "BAL", 
-            "identity": {
-                "ESPNAPIID": "400951441"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Baltimore Ravens vs. Washington Redskins", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "JAX", 
             "date": "2017-08-10T23:30:00+00:00", 
             "description": "Chad Henne hit Keelan Cole on a 97-yard touchdown pass, Corey Grant scored on a 79-yard run and the Jaguars feasted on a Patriots lineup without Tom Brady and Rob Gronkowski -- or much defense at all -- to beat the defending NFL champs on Thursday night.", 
@@ -158,6 +133,31 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "New England Patriots vs. Jacksonville Jaguars", 
+            "week": 1
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WAS", 
+            "date": "2017-08-10T23:30:00+00:00", 
+            "description": "Ryan Mallett struggled in place of injured quarterback Joe Flacco, throwing for only 58 yards while playing the entire first half, and the Baltimore Ravens beat the Washington Redskins 23-3 on Thursday night in a sloppy preseason opener.", 
+            "eventTitle": "", 
+            "homeTeam": "BAL", 
+            "identity": {
+                "ESPNAPIID": "400951441"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Baltimore Ravens vs. Washington Redskins", 
             "week": 1
         }, 
         {
@@ -643,7 +643,7 @@
             "date": "2017-08-19T23:30:00+00:00", 
             "description": "Aaron Rodgers made a surprise start and looked to be in midseason form, while Kirk Cousins and the rest of Washington's first-team offense sputtered in the Packers' 21-17 preseason win.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "400951823"
             }, 
@@ -1234,7 +1234,7 @@
             "date": "2017-08-27T20:30:00+00:00", 
             "description": "Andy Dalton and the Cincinnati Bengals' starters looked regular-season ready, while Kirk Cousins and the Washington Redskins still have some work to do.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "400950234"
             }, 
@@ -1463,7 +1463,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2017-08-31T23:30:00+00:00", 
             "description": "Josh Harvey-Clemons returned an interception 41 yards for a touchdown and Dustin Hopkins kicked two field goals to help the Washington Redskins finish a 2-2 preseason with a 13-10 victory over the Tampa Bay Buccaneers on Thursday night.", 
             "eventTitle": "", 
@@ -1813,17 +1813,22 @@
             }, 
             "awayTeam": "PHI", 
             "date": "2017-09-10T17:00:00+00:00", 
+            "description": "Carson Wentz threw for 307 yards and two touchdowns as the second-year quarterback guided the Philadelphia Eagles to a 30-17 victory over the Washington Redskins on Sunday in a sloppy, mistake-filled season opener between the NFC East rivals.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400951592", 
                 "ProFootballReferenceID": "201709100was", 
                 "TheSportsDBID": "530673"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2017", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles"
+            "vs": "Washington Redskins vs. Philadelphia Eagles", 
+            "week": 1
         }, 
         {
             "assets": {
@@ -1874,33 +1879,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Cleveland Browns vs. Pittsburgh Steelers", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "2017-09-10T17:00:00+00:00", 
-            "description": "Carson Wentz threw for 307 yards and two touchdowns as the second-year quarterback guided the Philadelphia Eagles to a 30-17 victory over the Washington Redskins on Sunday in a sloppy, mistake-filled season opener between the NFC East rivals.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400951592"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles", 
             "week": 1
         }, 
         {
@@ -2236,6 +2214,61 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Cincinnati Bengals vs. Houston Texans", 
+            "week": 2
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/jjkmis1510240814.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "WAS", 
+            "date": "2017-09-17T16:25:00+00:00", 
+            "description": "Kirk Cousins threw an 11-yard touchdown pass to Ryan Grant with 1:49 to play to give the Washington Redskins a 27-20 victory Sunday against the Los Angeles Rams and rookie head coach Sean McVay.", 
+            "homeTeam": "LAR", 
+            "identity": {
+                "TheSportsDBID": "530691"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Football", 
+            "vs": "Los Angeles Rams vs Washington Redskins"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WAS", 
+            "date": "2017-09-17T20:25:00+00:00", 
+            "description": "Kirk Cousins threw an 11-yard touchdown pass to Ryan Grant with 1:49 to play to give the Washington Redskins a 27-20 victory Sunday against the Los Angeles Rams and rookie head coach Sean McVay.", 
+            "eventTitle": "", 
+            "homeTeam": "LAR", 
+            "identity": {
+                "ESPNAPIID": "400951674", 
+                "ProFootballReferenceID": "201709170ram"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2017", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Los Angeles Rams vs. Washington Redskins", 
             "week": 2
         }, 
         {
@@ -2594,82 +2627,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Denver Broncos vs. Dallas Cowboys", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/jjkmis1510240814.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2017-09-17T16:25:00+00:00", 
-            "description": "Kirk Cousins threw an 11-yard touchdown pass to Ryan Grant with 1:49 to play to give the Washington Redskins a 27-20 victory Sunday against the Los Angeles Rams and rookie head coach Sean McVay.", 
-            "homeTeam": "LAR", 
-            "identity": {
-                "TheSportsDBID": "530691"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "vs": "Los Angeles Rams vs Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2017-09-17T20:25:00+00:00", 
-            "homeTeam": "LAR", 
-            "identity": {
-                "ProFootballReferenceID": "201709170ram"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Los Angeles Rams vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2017-09-17T20:25:00+00:00", 
-            "description": "Kirk Cousins threw an 11-yard touchdown pass to Ryan Grant with 1:49 to play to give the Washington Redskins a 27-20 victory Sunday against the Los Angeles Rams and rookie head coach Sean McVay.", 
-            "eventTitle": "", 
-            "homeTeam": "LAR", 
-            "identity": {
-                "ESPNAPIID": "400951674"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Los Angeles Rams vs. Washington Redskins", 
             "week": 2
         }, 
         {
@@ -3214,7 +3171,7 @@
             "date": "2017-09-25T00:30:00+00:00", 
             "description": "Kirk Cousins threw for 365 yards and three touchdowns, Chris Thompson had 188 all-purpose yards and a score and the Washington Redskins sacked Derek Carr four times and held the Oakland Raiders to 128 yards in a dominating 27-10 victory on Sunday night.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "400951644"
             }, 
@@ -3305,6 +3262,61 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Green Bay Packers vs. Chicago Bears", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/sqjyyb1510243480.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "LAR", 
+            "date": "2017-10-01T13:00:00+00:00", 
+            "description": "Todd Gurley scored the go-ahead touchdown on a 53-yard catch-and-run, Greg Zuerlein kicked a career-high seven field goals and the Los Angeles Rams beat the Dallas Cowboys 35-30 on Sunday.", 
+            "homeTeam": "DAL", 
+            "identity": {
+                "TheSportsDBID": "535491"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Football", 
+            "vs": "Dallas Cowboys vs Los Angeles Rams"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LAR", 
+            "date": "2017-10-01T17:00:00+00:00", 
+            "description": "Todd Gurley scored the go-ahead touchdown on a 53-yard catch-and-run, Greg Zuerlein kicked a career-high seven field goals and the Los Angeles Rams beat the Dallas Cowboys 35-30 on Sunday.", 
+            "eventTitle": "", 
+            "homeTeam": "DAL", 
+            "identity": {
+                "ESPNAPIID": "400951716", 
+                "ProFootballReferenceID": "201710010dal"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2017", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Dallas Cowboys vs. Los Angeles Rams", 
             "week": 4
         }, 
         {
@@ -3445,61 +3457,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Atlanta Falcons vs. Buffalo Bills", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/sqjyyb1510243480.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "LAR", 
-            "date": "2017-10-01T13:00:00+00:00", 
-            "description": "Todd Gurley scored the go-ahead touchdown on a 53-yard catch-and-run, Greg Zuerlein kicked a career-high seven field goals and the Los Angeles Rams beat the Dallas Cowboys 35-30 on Sunday.", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "TheSportsDBID": "535491"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "vs": "Dallas Cowboys vs Los Angeles Rams"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "LAR", 
-            "date": "2017-10-01T17:00:00+00:00", 
-            "description": "Todd Gurley scored the go-ahead touchdown on a 53-yard catch-and-run, Greg Zuerlein kicked a career-high seven field goals and the Los Angeles Rams beat the Dallas Cowboys 35-30 on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ESPNAPIID": "400951716", 
-                "ProFootballReferenceID": "201710010dal"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Los Angeles Rams", 
             "week": 4
         }, 
         {
@@ -3759,34 +3716,12 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2017-10-03T00:30:00+00:00", 
+            "description": "Chiefs kicker Harrison Butker drilled a 43-yard field goal with 8 seconds left in his first career game, atoning for an earlier miss and helping Kansas City to a 29-20 victory over the Washington Redskins on Monday night.", 
             "homeTeam": "KC", 
             "identity": {
+                "ESPNAPIID": "400951752", 
                 "ProFootballReferenceID": "201710020kan", 
                 "TheSportsDBID": "568766"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Kansas City Chiefs vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2017-10-03T00:30:00+00:00", 
-            "description": "Chiefs kicker Harrison Butker drilled a 43-yard field goal with 8 seconds left in his first career game, atoning for an earlier miss and helping Kansas City to a 29-20 victory over the Washington Redskins on Monday night.", 
-            "eventTitle": "", 
-            "homeTeam": "KC", 
-            "identity": {
-                "ESPNAPIID": "400951752"
             }, 
             "league": "NFL", 
             "networks": [
@@ -4302,33 +4237,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "SF", 
-            "date": "2017-10-15T17:00:00+00:00", 
-            "description": "Kirk Cousins threw for two touchdowns, ran for a score and also had an INT against his past -- and possibly -- future mentor Kyle Shanahan's winless San Francisco 49ers in a 26-24 victory on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400951767"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. San Francisco 49ers", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NE", 
             "date": "2017-10-15T17:00:00+00:00", 
             "description": "Tom Brady set the NFL record for regular-season victories by a quarterback, getting his 187th as the New England Patriots held on for a 24-17 win over the New York Jets on Sunday to claim first place in the AFC East.", 
@@ -4443,17 +4351,22 @@
             }, 
             "awayTeam": "SF", 
             "date": "2017-10-15T17:00:00+00:00", 
+            "description": "Kirk Cousins threw for two touchdowns, ran for a score and also had an INT against his past -- and possibly -- future mentor Kyle Shanahan's winless San Francisco 49ers in a 26-24 victory on Sunday.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400951767", 
                 "ProFootballReferenceID": "201710150was", 
                 "TheSportsDBID": "568787"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2017", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. San Francisco 49ers"
+            "vs": "Washington Redskins vs. San Francisco 49ers", 
+            "week": 6
         }, 
         {
             "assets": {
@@ -4800,6 +4713,61 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/kiasfp1510244343.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "ARI", 
+            "date": "2017-10-22T13:00:00+00:00", 
+            "description": "The Los Angeles Rams, winless in London until now, will finally have something to celebrate on their long flight home.", 
+            "homeTeam": "LAR", 
+            "identity": {
+                "TheSportsDBID": "535494"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Football", 
+            "vs": "Los Angeles Rams vs Arizona Cardinals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ARI", 
+            "date": "2017-10-22T17:00:00+00:00", 
+            "description": "The Los Angeles Rams will finally have something to celebrate on their long flight home.", 
+            "eventTitle": "", 
+            "homeTeam": "LAR", 
+            "identity": {
+                "ESPNAPIID": "400951593", 
+                "ProFootballReferenceID": "201710220ram"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2017", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Los Angeles Rams vs. Arizona Cardinals", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "BAL", 
@@ -4959,61 +4927,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Cleveland Browns vs. Tennessee Titans", 
-            "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/kiasfp1510244343.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "ARI", 
-            "date": "2017-10-22T13:00:00+00:00", 
-            "description": "The Los Angeles Rams, winless in London until now, will finally have something to celebrate on their long flight home.", 
-            "homeTeam": "LAR", 
-            "identity": {
-                "TheSportsDBID": "535494"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "vs": "Los Angeles Rams vs Arizona Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ARI", 
-            "date": "2017-10-22T17:00:00+00:00", 
-            "description": "The Los Angeles Rams will finally have something to celebrate on their long flight home.", 
-            "eventTitle": "", 
-            "homeTeam": "LAR", 
-            "identity": {
-                "ESPNAPIID": "400951593", 
-                "ProFootballReferenceID": "201710220ram"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Los Angeles Rams vs. Arizona Cardinals", 
             "week": 7
         }, 
         {
@@ -5239,33 +5152,12 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2017-10-24T00:30:00+00:00", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ProFootballReferenceID": "201710230phi"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2017-10-24T00:30:00+00:00", 
             "description": "Carson Wentz tossed four touchdown passes, and the Philadelphia Eagles overcame losing nine-time Pro Bowl left tackle Jason Peters in a 34-24 win over the Washington Redskins on Monday night.", 
             "eventTitle": "", 
             "homeTeam": "PHI", 
             "identity": {
-                "ESPNAPIID": "400951641"
+                "ESPNAPIID": "400951641", 
+                "ProFootballReferenceID": "201710230phi"
             }, 
             "league": "NFL", 
             "networks": [
@@ -5324,6 +5216,104 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Baltimore Ravens vs. Miami Dolphins", 
+            "week": 8
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIN", 
+            "date": "2017-10-29T09:30:00+00:00", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "TheSportsDBID": "534945"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Football", 
+            "vs": "Cleveland Browns vs Minnesota Vikings"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIN", 
+            "date": "2017-10-29T13:30:00+00:00", 
+            "description": "Case Keenum threw for two touchdowns and Kai Forbath made four field goals as the Minnesota Vikings defeated the Cleveland Browns 33-16 at Twickenham Stadium in the last of four games held this season in Britain.", 
+            "eventTitle": "", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "ESPNAPIID": "400951683", 
+                "ProFootballReferenceID": "201710290cle"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "NFL"
+            ], 
+            "season": "2017", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cleveland Browns vs. Minnesota Vikings", 
+            "week": 8
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LAC", 
+            "date": "2017-10-29T13:00:00+00:00", 
+            "homeTeam": "NE", 
+            "identity": {
+                "TheSportsDBID": "534948"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Football", 
+            "vs": "New England Patriots vs Los Angeles Chargers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LAC", 
+            "date": "2017-10-29T17:00:00+00:00", 
+            "description": "Tom Brady passed for 333 yards and a touchdown, Stephen Gostkowski added four field goals and the New England Patriots held on to beat the Los Angeles Chargers 21-13 on Sunday.", 
+            "eventTitle": "", 
+            "homeTeam": "NE", 
+            "identity": {
+                "ESPNAPIID": "400951715", 
+                "ProFootballReferenceID": "201710290nwe"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2017", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New England Patriots vs. Los Angeles Chargers", 
             "week": 8
         }, 
         {
@@ -5503,17 +5493,17 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "MIN", 
-            "date": "2017-10-29T09:30:00+00:00", 
-            "homeTeam": "CLE", 
+            "awayTeam": "HOU", 
+            "date": "2017-10-29T16:05:00+00:00", 
+            "homeTeam": "SEA", 
             "identity": {
-                "TheSportsDBID": "534945"
+                "TheSportsDBID": "534953"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "2017", 
             "sport": "Football", 
-            "vs": "Cleveland Browns vs Minnesota Vikings"
+            "vs": "Seattle Seahawks vs Houston Texans"
         }, 
         {
             "assets": {
@@ -5524,63 +5514,13 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "MIN", 
-            "date": "2017-10-29T13:30:00+00:00", 
-            "description": "Case Keenum threw for two touchdowns and Kai Forbath made four field goals as the Minnesota Vikings defeated the Cleveland Browns 33-16 at Twickenham Stadium in the last of four games held this season in Britain.", 
+            "awayTeam": "HOU", 
+            "date": "2017-10-29T20:05:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "CLE", 
+            "homeTeam": "SEA", 
             "identity": {
-                "ESPNAPIID": "400951683", 
-                "ProFootballReferenceID": "201710290cle"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "NFL"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cleveland Browns vs. Minnesota Vikings", 
-            "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "LAC", 
-            "date": "2017-10-29T13:00:00+00:00", 
-            "homeTeam": "NE", 
-            "identity": {
-                "TheSportsDBID": "534948"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "vs": "New England Patriots vs Los Angeles Chargers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "LAC", 
-            "date": "2017-10-29T17:00:00+00:00", 
-            "description": "Tom Brady passed for 333 yards and a touchdown, Stephen Gostkowski added four field goals and the New England Patriots held on to beat the Los Angeles Chargers 21-13 on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "NE", 
-            "identity": {
-                "ESPNAPIID": "400951715", 
-                "ProFootballReferenceID": "201710290nwe"
+                "ESPNAPIID": "400951729", 
+                "ProFootballReferenceID": "201710290sea"
             }, 
             "league": "NFL", 
             "networks": [
@@ -5589,7 +5529,7 @@
             "season": "2017", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "New England Patriots vs. Los Angeles Chargers", 
+            "vs": "Seattle Seahawks vs. Houston Texans", 
             "week": 8
         }, 
         {
@@ -5748,81 +5688,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "HOU", 
-            "date": "2017-10-29T16:05:00+00:00", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "TheSportsDBID": "534953"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "vs": "Seattle Seahawks vs Houston Texans"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "HOU", 
-            "date": "2017-10-29T20:05:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "ESPNAPIID": "400951729", 
-                "ProFootballReferenceID": "201710290sea"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Seattle Seahawks vs. Houston Texans", 
-            "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "2017-10-29T20:25:00+00:00", 
-            "description": "Ezekiel Elliott ran for 150 yards and two touchdowns, and the Dallas Cowboys took advantage of a blocked field goal return and three turnovers to beat the Washington Redskins 33-19 Sunday and move into sole possession of second place in the NFC East.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400951732"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys", 
-            "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "DAL", 
             "date": "2017-10-29T16:25:00+00:00", 
             "homeTeam": "WAS", 
@@ -5846,16 +5711,22 @@
             }, 
             "awayTeam": "DAL", 
             "date": "2017-10-29T20:25:00+00:00", 
+            "description": "Ezekiel Elliott ran for 150 yards and two touchdowns, and the Dallas Cowboys took advantage of a blocked field goal return and three turnovers to beat the Washington Redskins 33-19 Sunday and move into sole possession of second place in the NFC East.", 
+            "eventTitle": "", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400951732", 
                 "ProFootballReferenceID": "201710290was"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2017", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys"
+            "vs": "Washington Redskins vs. Dallas Cowboys", 
+            "week": 8
         }, 
         {
             "assets": {
@@ -6034,55 +5905,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ARI", 
-            "date": "2017-11-05T16:05:00+00:00", 
-            "homeTeam": "SF", 
-            "identity": {
-                "TheSportsDBID": "535456"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "vs": "San Francisco 49ers vs Arizona Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ARI", 
-            "date": "2017-11-05T21:05:00+00:00", 
-            "description": "Adrian Peterson carried a career-high 37 times for 159 yards and Drew Stanton threw two touchdown passes to lead the Arizona Cardinals to a 20-10 victory over the winless San Francisco 49ers on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "SF", 
-            "identity": {
-                "ESPNAPIID": "400951763", 
-                "ProFootballReferenceID": "201711050sfo"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "San Francisco 49ers vs. Arizona Cardinals", 
-            "week": 9
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ATL", 
             "date": "2017-11-05T13:00:00+00:00", 
             "homeTeam": "CAR", 
@@ -6121,6 +5943,55 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Carolina Panthers vs. Atlanta Falcons", 
+            "week": 9
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "KC", 
+            "date": "2017-11-05T16:25:00+00:00", 
+            "homeTeam": "DAL", 
+            "identity": {
+                "TheSportsDBID": "535458"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Football", 
+            "vs": "Dallas Cowboys vs Kansas City Chiefs"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "KC", 
+            "date": "2017-11-05T21:25:00+00:00", 
+            "description": "Ezekiel Elliott ran for the go-ahead touchdown after another reprieve from his six-game suspension and the Dallas Cowboys overcame Tyreek Hill's improbable last-play touchdown in the first half, beating the Kansas City Chiefs 28-17 on Sunday.", 
+            "eventTitle": "", 
+            "homeTeam": "DAL", 
+            "identity": {
+                "ESPNAPIID": "400951786", 
+                "ProFootballReferenceID": "201711050dal"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2017", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Dallas Cowboys vs. Kansas City Chiefs", 
             "week": 9
         }, 
         {
@@ -6432,13 +6303,35 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2017-11-05T21:05:00+00:00", 
-            "description": "Kirk Cousins drove Washington 70 yards in 35 seconds, capped by Rob Kelley's 1-yard touchdown run with less than a minute remaining, and the Washington Redskins rallied late to stun the Seattle Seahawks 17-14 on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "SEA", 
+            "awayTeam": "ARI", 
+            "date": "2017-11-05T16:05:00+00:00", 
+            "homeTeam": "SF", 
             "identity": {
-                "ESPNAPIID": "400951765"
+                "TheSportsDBID": "535456"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Football", 
+            "vs": "San Francisco 49ers vs Arizona Cardinals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ARI", 
+            "date": "2017-11-05T21:05:00+00:00", 
+            "description": "Adrian Peterson carried a career-high 37 times for 159 yards and Drew Stanton threw two touchdown passes to lead the Arizona Cardinals to a 20-10 victory over the winless San Francisco 49ers on Sunday.", 
+            "eventTitle": "", 
+            "homeTeam": "SF", 
+            "identity": {
+                "ESPNAPIID": "400951763", 
+                "ProFootballReferenceID": "201711050sfo"
             }, 
             "league": "NFL", 
             "networks": [
@@ -6447,7 +6340,7 @@
             "season": "2017", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Seattle Seahawks vs. Washington Redskins", 
+            "vs": "San Francisco 49ers vs. Arizona Cardinals", 
             "week": 9
         }, 
         {
@@ -6482,64 +6375,21 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2017-11-05T21:05:00+00:00", 
+            "description": "Kirk Cousins drove Washington 70 yards in 35 seconds, capped by Rob Kelley's 1-yard touchdown run with less than a minute remaining, and the Washington Redskins rallied late to stun the Seattle Seahawks 17-14 on Sunday.", 
+            "eventTitle": "", 
             "homeTeam": "SEA", 
             "identity": {
+                "ESPNAPIID": "400951765", 
                 "ProFootballReferenceID": "201711050sea"
             }, 
             "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Seattle Seahawks vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "KC", 
-            "date": "2017-11-05T16:25:00+00:00", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "TheSportsDBID": "535458"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "vs": "Dallas Cowboys vs Kansas City Chiefs"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "KC", 
-            "date": "2017-11-05T21:25:00+00:00", 
-            "description": "Ezekiel Elliott ran for the go-ahead touchdown after another reprieve from his six-game suspension and the Dallas Cowboys overcame Tyreek Hill's improbable last-play touchdown in the first half, beating the Kansas City Chiefs 28-17 on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ESPNAPIID": "400951786", 
-                "ProFootballReferenceID": "201711050dal"
-            }, 
-            "league": "NFL", 
             "networks": [
-                "CBS"
+                "FOX"
             ], 
             "season": "2017", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Kansas City Chiefs", 
+            "vs": "Seattle Seahawks vs. Washington Redskins", 
             "week": 9
         }, 
         {
@@ -6868,17 +6718,22 @@
             }, 
             "awayTeam": "MIN", 
             "date": "2017-11-12T18:00:00+00:00", 
+            "description": "Case Keenum threw touchdowns to four different receivers to build a big lead, and the NFC North-leading Minnesota Vikings won their fifth in a row by beating the Washington Redskins 38-30 Sunday despite throwing two second-half interceptions.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400951658", 
                 "ProFootballReferenceID": "201711120was", 
                 "TheSportsDBID": "568812"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2017", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Minnesota Vikings"
+            "vs": "Washington Redskins vs. Minnesota Vikings", 
+            "week": 10
         }, 
         {
             "assets": {
@@ -6906,33 +6761,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Buffalo Bills vs. New Orleans Saints", 
-            "week": 10
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIN", 
-            "date": "2017-11-12T18:00:00+00:00", 
-            "description": "Case Keenum threw touchdowns to four different receivers to build a big lead, and the NFC North-leading Minnesota Vikings won their fifth in a row by beating the Washington Redskins 38-30 Sunday despite throwing two second-half interceptions.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400951658"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Minnesota Vikings", 
             "week": 10
         }, 
         {
@@ -7112,6 +6940,55 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "LAR", 
+            "date": "2017-11-19T13:00:00+00:00", 
+            "homeTeam": "MIN", 
+            "identity": {
+                "TheSportsDBID": "539359"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Football", 
+            "vs": "Minnesota Vikings vs Los Angeles Rams"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LAR", 
+            "date": "2017-11-19T18:00:00+00:00", 
+            "description": "Latavius Murray rushed for 95 yards and two touchdowns, Adam Thielen turned a short catch into a 65-yard score and the Minnesota Vikings smothered the NFL's highest-scoring offense in a 24-7 win over the Los Angeles Rams on Sunday.", 
+            "eventTitle": "", 
+            "homeTeam": "MIN", 
+            "identity": {
+                "ESPNAPIID": "400951775", 
+                "ProFootballReferenceID": "201711190min"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2017", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Minnesota Vikings vs. Los Angeles Rams", 
+            "week": 11
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "NE", 
             "date": "2017-11-19T16:25:00+00:00", 
             "homeTeam": "LV", 
@@ -7157,17 +7034,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2017-11-19T18:00:00+00:00", 
+            "description": "The New Orleans Saints extended their winning streak to eight games with an unlikely comeback, erasing a 15-point deficit inside the final six minutes of regulation and kicking a short field goal in overtime to defeat the Washington Redskins 34-31.", 
             "homeTeam": "NO", 
             "identity": {
+                "ESPNAPIID": "400951780", 
                 "ProFootballReferenceID": "201711190nor", 
                 "TheSportsDBID": "568823"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2017", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "New Orleans Saints vs. Washington Redskins"
+            "vs": "New Orleans Saints vs. Washington Redskins", 
+            "week": 11
         }, 
         {
             "assets": {
@@ -7206,33 +7088,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2017-11-19T18:00:00+00:00", 
-            "description": "The New Orleans Saints extended their winning streak to eight games with an unlikely comeback, erasing a 15-point deficit inside the final six minutes of regulation and kicking a short field goal in overtime to defeat the Washington Redskins 34-31.", 
-            "eventTitle": "", 
-            "homeTeam": "NO", 
-            "identity": {
-                "ESPNAPIID": "400951780"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New Orleans Saints vs. Washington Redskins", 
-            "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "BAL", 
             "date": "2017-11-19T18:00:00+00:00", 
             "description": "The Baltimore Ravens forced five turnovers in their third shutout of the season, blanking the Green Bay Packers 23-0 Sunday.", 
@@ -7250,55 +7105,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Green Bay Packers vs. Baltimore Ravens", 
-            "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "LAR", 
-            "date": "2017-11-19T13:00:00+00:00", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "TheSportsDBID": "539359"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "vs": "Minnesota Vikings vs Los Angeles Rams"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "LAR", 
-            "date": "2017-11-19T18:00:00+00:00", 
-            "description": "Latavius Murray rushed for 95 yards and two touchdowns, Adam Thielen turned a short catch into a 65-yard score and the Minnesota Vikings smothered the NFL's highest-scoring offense in a 24-7 win over the Los Angeles Rams on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ESPNAPIID": "400951775", 
-                "ProFootballReferenceID": "201711190min"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Los Angeles Rams", 
             "week": 11
         }, 
         {
@@ -7619,10 +7425,11 @@
             "awayTeam": "NYG", 
             "date": "2017-11-24T01:30:00+00:00", 
             "description": "Kirk Cousins threw two touchdown passes to compensate for a pick-six and the Washington Redskins beat the New York Giants 20-10 on Thursday night on a drab field in a drab game between two injury-depleted teams that did not look ready for prime time.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "400951577"
+                "ESPNAPIID": "400951577", 
+                "ProFootballReferenceID": "201711230was", 
+                "TheSportsDBID": "568832"
             }, 
             "league": "NFL", 
             "networks": [
@@ -7633,29 +7440,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. New York Giants", 
             "week": 12
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYG", 
-            "date": "2017-11-24T01:30:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "201711230was", 
-                "TheSportsDBID": "568832"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants"
         }, 
         {
             "assets": {
@@ -8051,34 +7835,12 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2017-12-01T01:25:00+00:00", 
+            "description": "Dak Prescott threw two touchdown passes, including a franchise record-breaker to Dez Bryant, and the Dallas Cowboys finally won without suspended star running back Ezekiel Elliott, beating the Washington Redskins 38-14 on Thursday night.", 
             "homeTeam": "DAL", 
             "identity": {
+                "ESPNAPIID": "400951672", 
                 "ProFootballReferenceID": "201711300dal", 
                 "TheSportsDBID": "568872"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2017-12-01T01:25:00+00:00", 
-            "description": "Dak Prescott threw two touchdown passes, including a franchise record-breaker to Dez Bryant, and the Dallas Cowboys finally won without suspended star running back Ezekiel Elliott, beating the Washington Redskins 38-14 on Thursday night.", 
-            "eventTitle": "", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ESPNAPIID": "400951672"
             }, 
             "league": "NFL", 
             "networks": [
@@ -8873,34 +8635,12 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2017-12-10T21:05:00+00:00", 
+            "description": "Philip Rivers passed for 319 yards and two touchdowns, and the Los Angeles Chargers continued their ferocious playoff push with their fourth straight victory, 30-13 over the Washington Redskins on Sunday.", 
             "homeTeam": "LAC", 
             "identity": {
+                "ESPNAPIID": "400951687", 
                 "ProFootballReferenceID": "201712100sdg", 
                 "TheSportsDBID": "569008"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Los Angeles Chargers vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2017-12-10T21:05:00+00:00", 
-            "description": "Philip Rivers passed for 319 yards and two touchdowns, and the Los Angeles Chargers continued their ferocious playoff push with their fourth straight victory, 30-13 over the Washington Redskins on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "LAC", 
-            "identity": {
-                "ESPNAPIID": "400951687"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9117,34 +8857,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "BAL", 
-            "date": "2017-12-17T18:00:00+00:00", 
-            "description": "Joe Flacco threw a touchdown pass, ran for a score and beat Cleveland again as the Baltimore Ravens stayed on track for the AFC playoffs with a 27-10 win Sunday over the Browns, now two losses from becoming the NFL's second 0-16 team.", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "ESPNAPIID": "400951778", 
-                "ProFootballReferenceID": "201712170cle", 
-                "TheSportsDBID": "569386"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cleveland Browns vs. Baltimore Ravens", 
-            "week": 15
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "HOU", 
             "date": "2017-12-17T18:00:00+00:00", 
             "description": "The Jacksonville Jaguars are returning to the playoffs for the first time in a decade thanks to a 45-7 drubbing of rival Houston on Sunday.", 
@@ -9162,6 +8874,34 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Jacksonville Jaguars vs. Houston Texans", 
+            "week": 15
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BAL", 
+            "date": "2017-12-17T18:00:00+00:00", 
+            "description": "Joe Flacco threw a touchdown pass, ran for a score and beat Cleveland again as the Baltimore Ravens stayed on track for the AFC playoffs with a 27-10 win Sunday over the Browns, now two losses from becoming the NFL's second 0-16 team.", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "ESPNAPIID": "400951778", 
+                "ProFootballReferenceID": "201712170cle", 
+                "TheSportsDBID": "569386"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2017", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cleveland Browns vs. Baltimore Ravens", 
             "week": 15
         }, 
         {
@@ -9257,33 +8997,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ARI", 
-            "date": "2017-12-17T18:00:00+00:00", 
-            "description": "Anthony Lanier sacked Blaine Gabbert and forced a fumble that Preston Smith recovered and the Washington Redskins held on to beat the Arizona Cardinals 20-15 Sunday in a game that was a comedy of errors for each team.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400951809"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Arizona Cardinals", 
-            "week": 15
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "PHI", 
             "date": "2017-12-17T18:00:00+00:00", 
             "description": "Nick Foles threw four touchdown passes in his first start replacing the injured Carson Wentz, and the Philadelphia Eagles secured a first-round playoff bye, rallying from an early 14-point deficit to defeat the surprising New York Giants 34-29 on Sunday.", 
@@ -9342,17 +9055,22 @@
             }, 
             "awayTeam": "ARI", 
             "date": "2017-12-17T18:00:00+00:00", 
+            "description": "Anthony Lanier sacked Blaine Gabbert and forced a fumble that Preston Smith recovered and the Washington Redskins held on to beat the Arizona Cardinals 20-15 Sunday in a game that was a comedy of errors for each team.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400951809", 
                 "ProFootballReferenceID": "201712170was", 
                 "TheSportsDBID": "569391"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2017", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Arizona Cardinals"
+            "vs": "Washington Redskins vs. Arizona Cardinals", 
+            "week": 15
         }, 
         {
             "assets": {
@@ -9391,34 +9109,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NE", 
-            "date": "2017-12-17T21:25:00+00:00", 
-            "description": "Tom Brady and Rob Gronkowski did it to the Pittsburgh Steelers again.", 
-            "homeTeam": "PIT", 
-            "identity": {
-                "ESPNAPIID": "400951812", 
-                "ProFootballReferenceID": "201712170pit", 
-                "TheSportsDBID": "569393"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Steelers vs. New England Patriots", 
-            "week": 15
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "TEN", 
             "date": "2017-12-17T21:25:00+00:00", 
             "description": "Jimmy Garoppolo led one final scoring drive in the closing seconds to cap a fantastic first home start, Robbie Gould kicked a game-winning 45-yard field goal as time expired, and the San Francisco 49ers topped the Tennessee Titans 25-23 on Sunday.", 
@@ -9436,6 +9126,34 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "San Francisco 49ers vs. Tennessee Titans", 
+            "week": 15
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NE", 
+            "date": "2017-12-17T21:25:00+00:00", 
+            "description": "Tom Brady and Rob Gronkowski did it to the Pittsburgh Steelers again.", 
+            "homeTeam": "PIT", 
+            "identity": {
+                "ESPNAPIID": "400951812", 
+                "ProFootballReferenceID": "201712170pit", 
+                "TheSportsDBID": "569393"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2017", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Steelers vs. New England Patriots", 
             "week": 15
         }, 
         {
@@ -9639,17 +9357,22 @@
             }, 
             "awayTeam": "DEN", 
             "date": "2017-12-24T18:00:00+00:00", 
+            "description": "Kirk Cousins threw for 299 yards and three touchdowns in what could be his final home game for the Washington Redskins as they beat the Denver Broncos and their top-ranked defense 27-11 Sunday.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400951671", 
                 "ProFootballReferenceID": "201712240was", 
                 "TheSportsDBID": "569542"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2017", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Denver Broncos"
+            "vs": "Washington Redskins vs. Denver Broncos", 
+            "week": 16
         }, 
         {
             "assets": {
@@ -9761,33 +9484,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Carolina Panthers vs. Tampa Bay Buccaneers", 
-            "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DEN", 
-            "date": "2017-12-24T18:00:00+00:00", 
-            "description": "Kirk Cousins threw for 299 yards and three touchdowns in what could be his final home game for the Washington Redskins as they beat the Denver Broncos and their top-ranked defense 27-11 Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400951671"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Denver Broncos", 
             "week": 16
         }, 
         {
@@ -10046,34 +9742,12 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2017-12-31T18:00:00+00:00", 
+            "description": "Two-time Super Bowl MVP Eli Manning threw a touchdown pass in what might be his final game with the Giants and New York got a rare taste of winning with an 18-10 decision over the Washington Redskins on Sunday.", 
             "homeTeam": "NYG", 
             "identity": {
+                "ESPNAPIID": "400951757", 
                 "ProFootballReferenceID": "201712310nyg", 
                 "TheSportsDBID": "569607"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2017-12-31T18:00:00+00:00", 
-            "description": "Two-time Super Bowl MVP Eli Manning threw a touchdown pass in what might be his final game with the Giants and New York got a rare taste of winning with an 18-10 decision over the Washington Redskins on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ESPNAPIID": "400951757"
             }, 
             "league": "NFL", 
             "networks": [

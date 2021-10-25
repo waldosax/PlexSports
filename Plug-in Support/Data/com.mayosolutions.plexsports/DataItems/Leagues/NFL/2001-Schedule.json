@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2001SCHEDULE", 
-        "CachedOn": "2021-10-12T07:44:06", 
-        "ExpiresOn": "2021-10-19T07:44:06", 
+        "CachedOn": "2021-10-24T21:51:51", 
+        "ExpiresOn": "2021-10-31T21:51:51", 
         "Version": "2"
     }, 
     "Items": [
@@ -395,7 +395,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2001-08-13T00:30:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "KC", 
@@ -518,7 +518,7 @@
             "awayTeam": "ATL", 
             "date": "2001-08-18T00:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "210817028"
             }, 
@@ -879,7 +879,7 @@
             "awayTeam": "CLE", 
             "date": "2001-08-25T00:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "210824028"
             }, 
@@ -1260,7 +1260,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2001-08-31T00:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "NE", 
@@ -1553,29 +1553,8 @@
             "date": "2001-09-09T16:02:00+00:00", 
             "homeTeam": "GB", 
             "identity": {
-                "ProFootballReferenceID": "200109090gnb"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Green Bay Packers vs. Detroit Lions"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DET", 
-            "date": "2001-09-09T17:00:00+00:00", 
-            "homeTeam": "GB", 
-            "identity": {
                 "ESPNAPIID": "210909009", 
+                "ProFootballReferenceID": "200109090gnb", 
                 "TheSportsDBID": "492834"
             }, 
             "league": "NFL", 
@@ -1601,29 +1580,8 @@
             "date": "2001-09-09T16:03:00+00:00", 
             "homeTeam": "DAL", 
             "identity": {
-                "ProFootballReferenceID": "200109090dal"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Tampa Bay Buccaneers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "TB", 
-            "date": "2001-09-09T17:00:00+00:00", 
-            "homeTeam": "DAL", 
-            "identity": {
                 "ESPNAPIID": "210909006", 
+                "ProFootballReferenceID": "200109090dal", 
                 "TheSportsDBID": "492847"
             }, 
             "league": "NFL", 
@@ -1860,6 +1818,29 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "WAS", 
+            "date": "2001-09-09T20:15:00+00:00", 
+            "homeTeam": "LAC", 
+            "identity": {
+                "ProFootballReferenceID": "200109090sdg", 
+                "TheSportsDBID": "492840"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2001", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "San Diego Chargers vs. Washington Redskins"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "ATL", 
             "date": "2001-09-09T17:15:00+00:00", 
             "homeTeam": "SF", 
@@ -1910,29 +1891,6 @@
                 "thumbnail": []
             }, 
             "awayTeam": "WAS", 
-            "date": "2001-09-09T20:15:00+00:00", 
-            "homeTeam": "LAC", 
-            "identity": {
-                "ProFootballReferenceID": "200109090sdg", 
-                "TheSportsDBID": "492840"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "San Diego Chargers vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
             "date": "2001-09-09T20:15:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "SD", 
@@ -2038,15 +1996,19 @@
             "date": "2001-09-10T23:07:00+00:00", 
             "homeTeam": "DEN", 
             "identity": {
+                "ESPNAPIID": "210910007", 
                 "ProFootballReferenceID": "200109100den", 
                 "TheSportsDBID": "492848"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "ABC"
+            ], 
             "season": "2001", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Denver Broncos vs. New York Giants"
+            "vs": "Denver Broncos vs. New York Giants", 
+            "week": 1
         }, 
         {
             "assets": {
@@ -2058,21 +2020,49 @@
                 "thumbnail": []
             }, 
             "awayTeam": "NYG", 
-            "date": "2001-09-11T01:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "DEN", 
+            "date": "2001-09-23T16:00:00+00:00", 
+            "homeTeam": "KC", 
             "identity": {
-                "ESPNAPIID": "210910007"
+                "ESPNAPIID": "210923012", 
+                "ProFootballReferenceID": "200109230kan", 
+                "TheSportsDBID": "492857"
             }, 
             "league": "NFL", 
             "networks": [
-                "ABC"
+                "FOX"
             ], 
             "season": "2001", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Denver Broncos vs. New York Giants", 
-            "week": 1
+            "vs": "Kansas City Chiefs vs. New York Giants", 
+            "week": 2
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIN", 
+            "date": "2001-09-23T16:12:00+00:00", 
+            "homeTeam": "CHI", 
+            "identity": {
+                "ESPNAPIID": "210923003", 
+                "ProFootballReferenceID": "200109230chi", 
+                "TheSportsDBID": "492851"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2001", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Chicago Bears vs. Minnesota Vikings", 
+            "week": 2
         }, 
         {
             "assets": {
@@ -2110,54 +2100,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NYG", 
-            "date": "2001-09-23T16:00:00+00:00", 
-            "homeTeam": "KC", 
-            "identity": {
-                "ProFootballReferenceID": "200109230kan"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Kansas City Chiefs vs. New York Giants"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYG", 
-            "date": "2001-09-23T17:00:00+00:00", 
-            "homeTeam": "KC", 
-            "identity": {
-                "ESPNAPIID": "210923012", 
-                "TheSportsDBID": "492857"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Kansas City Chiefs vs. New York Giants", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "OAK", 
             "date": "2001-09-23T17:00:00+00:00", 
             "eventTitle": "", 
@@ -2173,54 +2115,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Miami Dolphins vs. Oakland Raiders", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIN", 
-            "date": "2001-09-23T16:12:00+00:00", 
-            "homeTeam": "CHI", 
-            "identity": {
-                "ProFootballReferenceID": "200109230chi"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Chicago Bears vs. Minnesota Vikings"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIN", 
-            "date": "2001-09-23T17:00:00+00:00", 
-            "homeTeam": "CHI", 
-            "identity": {
-                "ESPNAPIID": "210923003", 
-                "TheSportsDBID": "492851"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Chicago Bears vs. Minnesota Vikings", 
             "week": 2
         }, 
         {
@@ -2542,12 +2436,13 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2001-09-25T01:00:00+00:00", 
-            "eventTitle": "", 
+            "awayTeam": "WAS", 
+            "date": "2001-09-25T01:08:00+00:00", 
             "homeTeam": "GB", 
             "identity": {
-                "ESPNAPIID": "210924009"
+                "ESPNAPIID": "210924009", 
+                "ProFootballReferenceID": "200109240gnb", 
+                "TheSportsDBID": "492862"
             }, 
             "league": "NFL", 
             "networks": [
@@ -2558,29 +2453,6 @@
             "subseason": 0, 
             "vs": "Green Bay Packers vs. Washington Redskins", 
             "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2001-09-25T01:08:00+00:00", 
-            "homeTeam": "GB", 
-            "identity": {
-                "ProFootballReferenceID": "200109240gnb", 
-                "TheSportsDBID": "492862"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Green Bay Packers vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -2604,32 +2476,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "St. Louis Rams vs. Miami Dolphins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "KC", 
-            "date": "2001-09-30T17:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "210930028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Kansas City Chiefs", 
-            "week": 3
         }, 
         {
             "assets": {
@@ -2697,15 +2543,19 @@
             "date": "2001-09-30T17:01:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "210930028", 
                 "ProFootballReferenceID": "200109300was", 
                 "TheSportsDBID": "492875"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2001", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Kansas City Chiefs"
+            "vs": "Washington Redskins vs. Kansas City Chiefs", 
+            "week": 3
         }, 
         {
             "assets": {
@@ -3061,29 +2911,8 @@
             "date": "2001-10-07T16:05:00+00:00", 
             "homeTeam": "NO", 
             "identity": {
-                "ProFootballReferenceID": "200110070nor"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New Orleans Saints vs. Minnesota Vikings"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIN", 
-            "date": "2001-10-07T17:00:00+00:00", 
-            "homeTeam": "NO", 
-            "identity": {
                 "ESPNAPIID": "211007018", 
+                "ProFootballReferenceID": "200110070nor", 
                 "TheSportsDBID": "492883"
             }, 
             "league": "NFL", 
@@ -3120,32 +2949,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Cleveland Browns vs. San Diego Chargers", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2001-10-07T17:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ESPNAPIID": "211007019"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins", 
             "week": 4
         }, 
         {
@@ -3265,15 +3068,19 @@
             "date": "2001-10-07T17:04:00+00:00", 
             "homeTeam": "NYG", 
             "identity": {
+                "ESPNAPIID": "211007019", 
                 "ProFootballReferenceID": "200110070nyg", 
                 "TheSportsDBID": "492884"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2001", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins"
+            "vs": "New York Giants vs. Washington Redskins", 
+            "week": 4
         }, 
         {
             "assets": {
@@ -3361,6 +3168,33 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "KC", 
+            "date": "2001-10-07T18:05:00+00:00", 
+            "homeTeam": "DEN", 
+            "identity": {
+                "ESPNAPIID": "211007007", 
+                "ProFootballReferenceID": "200110070den", 
+                "TheSportsDBID": "492881"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2001", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Denver Broncos vs. Kansas City Chiefs", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "JAX", 
             "date": "2001-10-07T20:05:00+00:00", 
             "homeTeam": "SEA", 
@@ -3377,55 +3211,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Seattle Seahawks vs. Jacksonville Jaguars", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "KC", 
-            "date": "2001-10-07T18:05:00+00:00", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "ProFootballReferenceID": "200110070den", 
-                "TheSportsDBID": "492881"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Denver Broncos vs. Kansas City Chiefs"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "KC", 
-            "date": "2001-10-07T20:05:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "ESPNAPIID": "211007007"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Denver Broncos vs. Kansas City Chiefs", 
             "week": 4
         }, 
         {
@@ -3597,29 +3382,8 @@
             "date": "2001-10-14T16:00:00+00:00", 
             "homeTeam": "KC", 
             "identity": {
-                "ProFootballReferenceID": "200110140kan"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Kansas City Chiefs vs. Pittsburgh Steelers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PIT", 
-            "date": "2001-10-14T17:00:00+00:00", 
-            "homeTeam": "KC", 
-            "identity": {
                 "ESPNAPIID": "211014012", 
+                "ProFootballReferenceID": "200110140kan", 
                 "TheSportsDBID": "492898"
             }, 
             "league": "NFL", 
@@ -3668,29 +3432,8 @@
             "date": "2001-10-14T16:03:00+00:00", 
             "homeTeam": "CHI", 
             "identity": {
-                "ProFootballReferenceID": "200110140chi"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Chicago Bears vs. Arizona Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ARI", 
-            "date": "2001-10-14T17:00:00+00:00", 
-            "homeTeam": "CHI", 
-            "identity": {
                 "ESPNAPIID": "211014003", 
+                "ProFootballReferenceID": "200110140chi", 
                 "TheSportsDBID": "492894"
             }, 
             "league": "NFL", 
@@ -4056,31 +3799,9 @@
             "date": "2001-10-16T00:08:00+00:00", 
             "homeTeam": "DAL", 
             "identity": {
+                "ESPNAPIID": "211015006", 
                 "ProFootballReferenceID": "200110150dal", 
                 "TheSportsDBID": "492905"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2001-10-16T01:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ESPNAPIID": "211015006"
             }, 
             "league": "NFL", 
             "networks": [
@@ -4132,29 +3853,8 @@
             "date": "2001-10-21T16:03:00+00:00", 
             "homeTeam": "NO", 
             "identity": {
-                "ProFootballReferenceID": "200110210nor"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New Orleans Saints vs. Atlanta Falcons"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ATL", 
-            "date": "2001-10-21T17:00:00+00:00", 
-            "homeTeam": "NO", 
-            "identity": {
                 "ESPNAPIID": "211021018", 
+                "ProFootballReferenceID": "200110210nor", 
                 "TheSportsDBID": "492908"
             }, 
             "league": "NFL", 
@@ -4229,32 +3929,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CAR", 
-            "date": "2001-10-21T17:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "211021028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Carolina Panthers", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NE", 
             "date": "2001-10-21T17:00:00+00:00", 
             "homeTeam": "IND", 
@@ -4286,15 +3960,19 @@
             "date": "2001-10-21T17:01:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "211021028", 
                 "ProFootballReferenceID": "200110210was", 
                 "TheSportsDBID": "492917"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2001", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Carolina Panthers"
+            "vs": "Washington Redskins vs. Carolina Panthers", 
+            "week": 6
         }, 
         {
             "assets": {
@@ -4432,6 +4110,33 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "GB", 
+            "date": "2001-10-21T19:15:00+00:00", 
+            "homeTeam": "MIN", 
+            "identity": {
+                "ESPNAPIID": "211021016", 
+                "ProFootballReferenceID": "200110210min", 
+                "TheSportsDBID": "492907"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2001", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Minnesota Vikings vs. Green Bay Packers", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "KC", 
             "date": "2001-10-21T20:05:00+00:00", 
             "homeTeam": "ARI", 
@@ -4485,55 +4190,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "GB", 
-            "date": "2001-10-21T19:15:00+00:00", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ProFootballReferenceID": "200110210min", 
-                "TheSportsDBID": "492907"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Green Bay Packers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "GB", 
-            "date": "2001-10-21T20:15:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ESPNAPIID": "211021016"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Green Bay Packers", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "PHI", 
             "date": "2001-10-23T01:09:00+00:00", 
             "homeTeam": "NYG", 
@@ -4565,31 +4221,9 @@
             "date": "2001-10-25T23:30:00+00:00", 
             "homeTeam": "KC", 
             "identity": {
+                "ESPNAPIID": "211025012", 
                 "ProFootballReferenceID": "200110250kan", 
                 "TheSportsDBID": "492919"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Kansas City Chiefs vs. Indianapolis Colts"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "IND", 
-            "date": "2001-10-26T00:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "KC", 
-            "identity": {
-                "ESPNAPIID": "211025012"
             }, 
             "league": "NFL", 
             "networks": [
@@ -4817,19 +4451,23 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ARI", 
-            "date": "2001-10-28T20:05:00+00:00", 
-            "homeTeam": "DAL", 
+            "awayTeam": "NE", 
+            "date": "2001-10-28T19:15:00+00:00", 
+            "homeTeam": "DEN", 
             "identity": {
-                "ProFootballReferenceID": "200110280dal", 
-                "TheSportsDBID": "492924"
+                "ESPNAPIID": "211028007", 
+                "ProFootballReferenceID": "200110280den", 
+                "TheSportsDBID": "492925"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2001", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Arizona Cardinals"
+            "vs": "Denver Broncos vs. New England Patriots", 
+            "week": 7
         }, 
         {
             "assets": {
@@ -4841,11 +4479,12 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ARI", 
-            "date": "2001-10-28T21:05:00+00:00", 
-            "eventTitle": "", 
+            "date": "2001-10-28T20:05:00+00:00", 
             "homeTeam": "DAL", 
             "identity": {
-                "ESPNAPIID": "211028006"
+                "ESPNAPIID": "211028006", 
+                "ProFootballReferenceID": "200110280dal", 
+                "TheSportsDBID": "492924"
             }, 
             "league": "NFL", 
             "networks": [
@@ -4868,10 +4507,11 @@
             }, 
             "awayTeam": "NYG", 
             "date": "2001-10-28T21:05:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "211028028"
+                "ESPNAPIID": "211028028", 
+                "ProFootballReferenceID": "200110280was", 
+                "TheSportsDBID": "492931"
             }, 
             "league": "NFL", 
             "networks": [
@@ -4881,78 +4521,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Washington Redskins vs. New York Giants", 
-            "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYG", 
-            "date": "2001-10-28T21:05:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "200110280was", 
-                "TheSportsDBID": "492931"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NE", 
-            "date": "2001-10-28T19:15:00+00:00", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "ProFootballReferenceID": "200110280den", 
-                "TheSportsDBID": "492925"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Denver Broncos vs. New England Patriots"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NE", 
-            "date": "2001-10-28T21:15:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "ESPNAPIID": "211028007"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Denver Broncos vs. New England Patriots", 
             "week": 7
         }, 
         {
@@ -5340,15 +4908,19 @@
             "date": "2001-11-04T21:15:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "211104028", 
                 "ProFootballReferenceID": "200111040was", 
                 "TheSportsDBID": "492945"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2001", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Seattle Seahawks"
+            "vs": "Washington Redskins vs. Seattle Seahawks", 
+            "week": 8
         }, 
         {
             "assets": {
@@ -5399,32 +4971,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "San Diego Chargers vs. Kansas City Chiefs"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SEA", 
-            "date": "2001-11-04T21:15:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "211104028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Seattle Seahawks", 
-            "week": 8
         }, 
         {
             "assets": {
@@ -6331,15 +5877,19 @@
             "date": "2001-11-18T21:15:00+00:00", 
             "homeTeam": "DEN", 
             "identity": {
+                "ESPNAPIID": "211118007", 
                 "ProFootballReferenceID": "200111180den", 
                 "TheSportsDBID": "492968"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2001", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Denver Broncos vs. Washington Redskins"
+            "vs": "Denver Broncos vs. Washington Redskins", 
+            "week": 10
         }, 
         {
             "assets": {
@@ -6366,32 +5916,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Tampa Bay Buccaneers vs. Chicago Bears", 
-            "week": 10
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2001-11-18T21:15:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "ESPNAPIID": "211118007"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Denver Broncos vs. Washington Redskins", 
             "week": 10
         }, 
         {
@@ -6533,80 +6057,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2001-11-25T18:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "211125021"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins", 
-            "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
-            "date": "2001-11-25T18:00:00+00:00", 
-            "homeTeam": "JAX", 
-            "identity": {
-                "ESPNAPIID": "211125030", 
-                "TheSportsDBID": "492980"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Jacksonville Jaguars vs. Baltimore Ravens", 
-            "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
-            "date": "2001-11-25T21:15:00+00:00", 
-            "homeTeam": "JAX", 
-            "identity": {
-                "ProFootballReferenceID": "200111250jax"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Jacksonville Jaguars vs. Baltimore Ravens"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SEA", 
             "date": "2001-11-25T18:00:00+00:00", 
             "homeTeam": "KC", 
@@ -6719,15 +6169,19 @@
             "date": "2001-11-25T18:03:00+00:00", 
             "homeTeam": "PHI", 
             "identity": {
+                "ESPNAPIID": "211125021", 
                 "ProFootballReferenceID": "200111250phi", 
                 "TheSportsDBID": "492985"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2001", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
+            "vs": "Philadelphia Eagles vs. Washington Redskins", 
+            "week": 11
         }, 
         {
             "assets": {
@@ -6881,6 +6335,54 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New York Giants vs. Oakland Raiders"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BAL", 
+            "date": "2001-11-25T18:00:00+00:00", 
+            "homeTeam": "JAX", 
+            "identity": {
+                "ESPNAPIID": "211125030", 
+                "TheSportsDBID": "492980"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2001", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Jacksonville Jaguars vs. Baltimore Ravens", 
+            "week": 11
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BAL", 
+            "date": "2001-11-25T21:15:00+00:00", 
+            "homeTeam": "JAX", 
+            "identity": {
+                "ProFootballReferenceID": "200111250jax"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2001", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Jacksonville Jaguars vs. Baltimore Ravens"
         }, 
         {
             "assets": {
@@ -7312,15 +6814,19 @@
             "date": "2001-12-02T21:15:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "211202028", 
                 "ProFootballReferenceID": "200112020was", 
                 "TheSportsDBID": "493000"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2001", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys"
+            "vs": "Washington Redskins vs. Dallas Cowboys", 
+            "week": 12
         }, 
         {
             "assets": {
@@ -7370,32 +6876,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Oakland Raiders vs. Arizona Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "2001-12-02T21:15:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "211202028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys", 
-            "week": 12
         }, 
         {
             "assets": {
@@ -7804,31 +7284,9 @@
             "date": "2001-12-09T21:04:00+00:00", 
             "homeTeam": "ARI", 
             "identity": {
+                "ESPNAPIID": "211209022", 
                 "ProFootballReferenceID": "200112090crd", 
                 "TheSportsDBID": "493014"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Arizona Cardinals vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2001-12-09T21:05:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "ESPNAPIID": "211209022"
             }, 
             "league": "NFL", 
             "networks": [
@@ -8244,32 +7702,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PHI", 
-            "date": "2001-12-16T21:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "211216028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles", 
-            "week": 14
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "MIA", 
             "date": "2001-12-16T21:07:00+00:00", 
             "homeTeam": "SF", 
@@ -8328,15 +7760,19 @@
             "date": "2001-12-16T21:15:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "211216028", 
                 "ProFootballReferenceID": "200112160was", 
                 "TheSportsDBID": "493027"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2001", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles"
+            "vs": "Washington Redskins vs. Philadelphia Eagles", 
+            "week": 14
         }, 
         {
             "assets": {
@@ -8655,32 +8091,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CHI", 
-            "date": "2001-12-23T18:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "211223028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Chicago Bears", 
-            "week": 15
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NO", 
             "date": "2001-12-23T18:01:00+00:00", 
             "homeTeam": "TB", 
@@ -8739,15 +8149,19 @@
             "date": "2001-12-23T18:01:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "211223028", 
                 "ProFootballReferenceID": "200112230was", 
                 "TheSportsDBID": "493051"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2001", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Chicago Bears"
+            "vs": "Washington Redskins vs. Chicago Bears", 
+            "week": 15
         }, 
         {
             "assets": {
@@ -9387,12 +8801,13 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2001-12-31T01:30:00+00:00", 
-            "eventTitle": "", 
+            "awayTeam": "WAS", 
+            "date": "2001-12-31T01:36:00+00:00", 
             "homeTeam": "NO", 
             "identity": {
-                "ESPNAPIID": "211230018"
+                "ESPNAPIID": "211230018", 
+                "ProFootballReferenceID": "200112300nor", 
+                "TheSportsDBID": "493062"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9413,56 +8828,12 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WAS", 
-            "date": "2001-12-31T01:36:00+00:00", 
-            "homeTeam": "NO", 
-            "identity": {
-                "ProFootballReferenceID": "200112300nor", 
-                "TheSportsDBID": "493062"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New Orleans Saints vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SF", 
             "date": "2002-01-06T17:03:00+00:00", 
             "homeTeam": "NO", 
             "identity": {
-                "ProFootballReferenceID": "200201060nor"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New Orleans Saints vs. San Francisco 49ers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SF", 
-            "date": "2002-01-06T18:00:00+00:00", 
-            "homeTeam": "NO", 
-            "identity": {
                 "ESPNAPIID": "220106018", 
+                "ProFootballReferenceID": "200201060nor", 
                 "TheSportsDBID": "493072"
             }, 
             "league": "NFL", 
@@ -9484,38 +8855,13 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ARI", 
-            "date": "2002-01-06T18:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "220106028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Arizona Cardinals", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "DEN", 
-            "date": "2002-01-06T17:00:00+00:00", 
-            "eventTitle": "", 
+            "date": "2002-01-06T18:00:00+00:00", 
             "homeTeam": "IND", 
             "identity": {
-                "ESPNAPIID": "220106011"
+                "ESPNAPIID": "220106011", 
+                "ProFootballReferenceID": "200201060clt", 
+                "TheSportsDBID": "493070"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9526,29 +8872,6 @@
             "subseason": 0, 
             "vs": "Indianapolis Colts vs. Denver Broncos", 
             "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DEN", 
-            "date": "2002-01-06T18:00:00+00:00", 
-            "homeTeam": "IND", 
-            "identity": {
-                "ProFootballReferenceID": "200201060clt", 
-                "TheSportsDBID": "493070"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Indianapolis Colts vs. Denver Broncos"
         }, 
         {
             "assets": {
@@ -9590,15 +8913,19 @@
             "date": "2002-01-06T18:01:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "220106028", 
                 "ProFootballReferenceID": "200201060was", 
                 "TheSportsDBID": "493080"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2001", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Arizona Cardinals"
+            "vs": "Washington Redskins vs. Arizona Cardinals", 
+            "week": 17
         }, 
         {
             "assets": {
@@ -9951,35 +9278,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "TB", 
-            "date": "2002-01-12T20:30:00+00:00", 
-            "description": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "TheSportsDBID": "678950"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "vs": "Philadelphia Eagles vs Tampa Bay Buccaneers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "TB", 
             "date": "2002-01-12T21:39:00+00:00", 
             "description": "Philadelphia 17, Tampa Bay 0", 
-            "eventTitle": "", 
             "homeTeam": "PHI", 
             "identity": {
                 "ESPNAPIID": "220112021", 
-                "ProFootballReferenceID": "200201120phi"
+                "ProFootballReferenceID": "200201120phi", 
+                "TheSportsDBID": "678950"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10071,34 +9376,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "SF", 
-            "date": "2002-01-13T16:30:00+00:00", 
+            "date": "2002-01-13T17:35:00+00:00", 
             "description": "", 
             "homeTeam": "GB", 
             "identity": {
-                "TheSportsDBID": "678951"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "vs": "Green Bay Packers vs San Francisco 49ers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SF", 
-            "date": "2002-01-13T17:35:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "GB", 
-            "identity": {
                 "ESPNAPIID": "220113009", 
-                "ProFootballReferenceID": "200201130gnb"
+                "ProFootballReferenceID": "200201130gnb", 
+                "TheSportsDBID": "678951"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10120,34 +9404,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "BAL", 
-            "date": "2002-01-13T20:00:00+00:00", 
+            "date": "2002-01-13T21:05:00+00:00", 
             "description": "", 
             "homeTeam": "MIA", 
             "identity": {
-                "TheSportsDBID": "678953"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "vs": "Miami Dolphins vs Baltimore Ravens"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
-            "date": "2002-01-13T21:05:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "MIA", 
-            "identity": {
                 "ESPNAPIID": "220113015", 
-                "ProFootballReferenceID": "200201130mia"
+                "ProFootballReferenceID": "200201130mia", 
+                "TheSportsDBID": "678953"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10169,34 +9432,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "PHI", 
-            "date": "2002-01-19T20:30:00+00:00", 
+            "date": "2002-01-19T21:37:00+00:00", 
             "description": "", 
             "homeTeam": "CHI", 
             "identity": {
-                "TheSportsDBID": "678954"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "vs": "Chicago Bears vs Philadelphia Eagles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "2002-01-19T21:37:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "CHI", 
-            "identity": {
                 "ESPNAPIID": "220119003", 
-                "ProFootballReferenceID": "200201190chi"
+                "ProFootballReferenceID": "200201190chi", 
+                "TheSportsDBID": "678954"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10207,31 +9449,6 @@
             "subseason": 1, 
             "subseasonTitle": "NFC Divisional Round", 
             "vs": "Chicago Bears vs. Philadelphia Eagles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "OAK", 
-            "date": "2002-01-20T01:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "NE", 
-            "identity": {
-                "ESPNAPIID": "220119017"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2001", 
-            "sport": "Football", 
-            "subseason": 1, 
-            "vs": "New England Patriots vs. Oakland Raiders"
         }, 
         {
             "assets": {
@@ -10287,18 +9504,21 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "BAL", 
-            "date": "2002-01-20T16:30:00+00:00", 
-            "description": "", 
-            "homeTeam": "PIT", 
+            "awayTeam": "OAK", 
+            "date": "2002-01-20T01:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "NE", 
             "identity": {
-                "TheSportsDBID": "678957"
+                "ESPNAPIID": "220119017"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2001", 
             "sport": "Football", 
-            "vs": "Pittsburgh Steelers vs Baltimore Ravens"
+            "subseason": 1, 
+            "vs": "New England Patriots vs. Oakland Raiders"
         }, 
         {
             "assets": {
@@ -10311,11 +9531,12 @@
             }, 
             "awayTeam": "BAL", 
             "date": "2002-01-20T17:40:00+00:00", 
-            "eventTitle": "", 
+            "description": "", 
             "homeTeam": "PIT", 
             "identity": {
                 "ESPNAPIID": "220120023", 
-                "ProFootballReferenceID": "200201200pit"
+                "ProFootballReferenceID": "200201200pit", 
+                "TheSportsDBID": "678957"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10362,32 +9583,12 @@
                 "thumbnail": []
             }, 
             "awayTeam": "GB", 
-            "date": "2002-01-20T20:00:00+00:00", 
+            "date": "2002-01-20T21:15:00+00:00", 
             "description": "", 
             "homeTeam": "LAR", 
             "identity": {
+                "ProFootballReferenceID": "200201200ram", 
                 "TheSportsDBID": "678955"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "vs": "Los Angeles Rams vs Green Bay Packers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "GB", 
-            "date": "2002-01-20T21:15:00+00:00", 
-            "homeTeam": "LAR", 
-            "identity": {
-                "ProFootballReferenceID": "200201200ram"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -10407,34 +9608,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "NE", 
-            "date": "2002-01-27T16:30:00+00:00", 
+            "date": "2002-01-27T17:40:00+00:00", 
             "description": "", 
             "homeTeam": "PIT", 
             "identity": {
-                "TheSportsDBID": "678958"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "vs": "Pittsburgh Steelers vs New England Patriots"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NE", 
-            "date": "2002-01-27T17:40:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "PIT", 
-            "identity": {
                 "ESPNAPIID": "220127023", 
-                "ProFootballReferenceID": "200201270pit"
+                "ProFootballReferenceID": "200201270pit", 
+                "TheSportsDBID": "678958"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10481,31 +9661,11 @@
                 "thumbnail": []
             }, 
             "awayTeam": "PHI", 
-            "date": "2002-01-27T20:00:00+00:00", 
-            "homeTeam": "LAR", 
-            "identity": {
-                "TheSportsDBID": "678960"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Football", 
-            "vs": "Los Angeles Rams vs Philadelphia Eagles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
             "date": "2002-01-27T21:27:00+00:00", 
             "homeTeam": "LAR", 
             "identity": {
-                "ProFootballReferenceID": "200201270ram"
+                "ProFootballReferenceID": "200201270ram", 
+                "TheSportsDBID": "678960"
             }, 
             "league": "NFL", 
             "networks": [], 

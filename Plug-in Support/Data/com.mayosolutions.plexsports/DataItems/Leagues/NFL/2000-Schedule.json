@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2000SCHEDULE", 
-        "CachedOn": "2021-10-12T07:27:59", 
-        "ExpiresOn": "2021-10-19T07:27:59", 
+        "CachedOn": "2021-10-24T21:47:16", 
+        "ExpiresOn": "2021-10-31T21:47:16", 
         "Version": "2"
     }, 
     "Items": [
@@ -176,7 +176,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2000-08-04T23:30:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "TB", 
@@ -550,7 +550,7 @@
             "awayTeam": "NE", 
             "date": "2000-08-12T00:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "200811028"
             }, 
@@ -980,7 +980,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2000-08-19T23:30:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "CLE", 
@@ -1412,6 +1412,30 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "PIT", 
+            "date": "2000-08-26T00:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ESPNAPIID": "200825028"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Washington Redskins vs. Pittsburgh Steelers", 
+            "week": 3
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "TEN", 
             "date": "2000-08-26T00:00:00+00:00", 
             "eventTitle": "", 
@@ -1449,30 +1473,6 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "New Orleans Saints vs. Miami Dolphins", 
-            "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PIT", 
-            "date": "2000-08-26T00:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "200825028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Washington Redskins vs. Pittsburgh Steelers", 
             "week": 3
         }, 
         {
@@ -1581,30 +1581,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CAR", 
-            "date": "2000-09-03T17:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "200903028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Carolina Panthers", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "IND", 
             "date": "2000-09-03T17:00:00+00:00", 
             "homeTeam": "KC", 
@@ -1634,6 +1610,7 @@
             "date": "2000-09-03T17:01:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "200903028", 
                 "ProFootballReferenceID": "200009030was", 
                 "TheSportsDBID": "492588"
             }, 
@@ -1642,7 +1619,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Carolina Panthers"
+            "vs": "Washington Redskins vs. Carolina Panthers", 
+            "week": 1
         }, 
         {
             "assets": {
@@ -2025,29 +2003,8 @@
             "date": "2000-09-10T16:00:00+00:00", 
             "homeTeam": "MIN", 
             "identity": {
-                "ProFootballReferenceID": "200009100min"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Miami Dolphins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIA", 
-            "date": "2000-09-10T17:00:00+00:00", 
-            "homeTeam": "MIN", 
-            "identity": {
                 "ESPNAPIID": "200910016", 
+                "ProFootballReferenceID": "200009100min", 
                 "TheSportsDBID": "492606"
             }, 
             "league": "NFL", 
@@ -2312,30 +2269,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2000-09-10T20:15:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "DET", 
-            "identity": {
-                "ESPNAPIID": "200910008"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Detroit Lions vs. Washington Redskins", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "STL", 
             "date": "2000-09-10T20:15:00+00:00", 
             "eventTitle": "", 
@@ -2387,6 +2320,7 @@
             "date": "2000-09-10T20:16:00+00:00", 
             "homeTeam": "DET", 
             "identity": {
+                "ESPNAPIID": "200910008", 
                 "ProFootballReferenceID": "200009100det", 
                 "TheSportsDBID": "492612"
             }, 
@@ -2395,7 +2329,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Detroit Lions vs. Washington Redskins"
+            "vs": "Detroit Lions vs. Washington Redskins", 
+            "week": 2
         }, 
         {
             "assets": {
@@ -2706,31 +2641,9 @@
             "date": "2000-09-17T19:16:00+00:00", 
             "homeTeam": "CHI", 
             "identity": {
+                "ESPNAPIID": "200917003", 
                 "ProFootballReferenceID": "200009170chi", 
                 "TheSportsDBID": "492627"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Chicago Bears vs. New York Giants"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYG", 
-            "date": "2000-09-17T20:15:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "CHI", 
-            "identity": {
-                "ESPNAPIID": "200917003"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -2895,33 +2808,10 @@
                 "thumbnail": []
             }, 
             "awayTeam": "DAL", 
-            "date": "2000-09-19T01:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "200918028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys", 
-            "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
             "date": "2000-09-19T01:01:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "200918028", 
                 "ProFootballReferenceID": "200009180was", 
                 "TheSportsDBID": "492629"
             }, 
@@ -2930,7 +2820,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys"
+            "vs": "Washington Redskins vs. Dallas Cowboys", 
+            "week": 3
         }, 
         {
             "assets": {
@@ -3139,10 +3030,11 @@
                 "thumbnail": []
             }, 
             "awayTeam": "GB", 
-            "date": "2000-09-24T19:05:00+00:00", 
+            "date": "2000-09-24T20:06:00+00:00", 
             "homeTeam": "ARI", 
             "identity": {
                 "ESPNAPIID": "200924022", 
+                "ProFootballReferenceID": "200009240crd", 
                 "TheSportsDBID": "492642"
             }, 
             "league": "NFL", 
@@ -3152,28 +3044,6 @@
             "subseason": 0, 
             "vs": "Arizona Cardinals vs. Green Bay Packers", 
             "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "GB", 
-            "date": "2000-09-24T20:06:00+00:00", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "ProFootballReferenceID": "200009240crd"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Arizona Cardinals vs. Green Bay Packers"
         }, 
         {
             "assets": {
@@ -3328,34 +3198,11 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2000-09-25T00:20:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ESPNAPIID": "200924019"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "WAS", 
             "date": "2000-09-25T00:37:00+00:00", 
             "homeTeam": "NYG", 
             "identity": {
+                "ESPNAPIID": "200924019", 
                 "ProFootballReferenceID": "200009240nyg", 
                 "TheSportsDBID": "492641"
             }, 
@@ -3364,7 +3211,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins"
+            "vs": "New York Giants vs. Washington Redskins", 
+            "week": 4
         }, 
         {
             "assets": {
@@ -3647,31 +3495,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ARI", 
-            "date": "2000-10-01T20:15:00+00:00", 
-            "homeTeam": "SF", 
-            "identity": {
-                "ESPNAPIID": "201001025", 
-                "ProFootballReferenceID": "200010010sfo", 
-                "TheSportsDBID": "492652"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "San Francisco 49ers vs. Arizona Cardinals", 
-            "week": 5
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CHI", 
             "date": "2000-10-01T20:15:00+00:00", 
             "homeTeam": "GB", 
@@ -3701,6 +3524,7 @@
             "date": "2000-10-01T20:15:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "201001028", 
                 "ProFootballReferenceID": "200010010was", 
                 "TheSportsDBID": "492654"
             }, 
@@ -3709,7 +3533,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Tampa Bay Buccaneers"
+            "vs": "Washington Redskins vs. Tampa Bay Buccaneers", 
+            "week": 5
         }, 
         {
             "assets": {
@@ -3720,19 +3545,20 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "TB", 
+            "awayTeam": "ARI", 
             "date": "2000-10-01T20:15:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "SF", 
             "identity": {
-                "ESPNAPIID": "201001028"
+                "ESPNAPIID": "201001025", 
+                "ProFootballReferenceID": "200010010sfo", 
+                "TheSportsDBID": "492652"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Tampa Bay Buccaneers", 
+            "vs": "San Francisco 49ers vs. Arizona Cardinals", 
             "week": 5
         }, 
         {
@@ -3808,30 +3634,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Cincinnati Bengals vs. Tennessee Titans", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2000-10-08T17:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "201008021"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins", 
             "week": 6
         }, 
         {
@@ -3922,6 +3724,7 @@
             "date": "2000-10-08T17:02:00+00:00", 
             "homeTeam": "PHI", 
             "identity": {
+                "ESPNAPIID": "201008021", 
                 "ProFootballReferenceID": "200010080phi", 
                 "TheSportsDBID": "492664"
             }, 
@@ -3930,7 +3733,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
+            "vs": "Philadelphia Eagles vs. Washington Redskins", 
+            "week": 6
         }, 
         {
             "assets": {
@@ -4112,10 +3916,11 @@
                 "thumbnail": []
             }, 
             "awayTeam": "CLE", 
-            "date": "2000-10-08T19:15:00+00:00", 
+            "date": "2000-10-08T20:15:00+00:00", 
             "homeTeam": "ARI", 
             "identity": {
                 "ESPNAPIID": "201008022", 
+                "ProFootballReferenceID": "200010080crd", 
                 "TheSportsDBID": "492666"
             }, 
             "league": "NFL", 
@@ -4125,28 +3930,6 @@
             "subseason": 0, 
             "vs": "Arizona Cardinals vs. Cleveland Browns", 
             "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CLE", 
-            "date": "2000-10-08T20:15:00+00:00", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "ProFootballReferenceID": "200010080crd"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Arizona Cardinals vs. Cleveland Browns"
         }, 
         {
             "assets": {
@@ -4221,30 +4004,6 @@
             "subseason": 0, 
             "vs": "Minnesota Vikings vs. Tampa Bay Buccaneers", 
             "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
-            "date": "2000-10-15T17:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "201015028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Baltimore Ravens", 
-            "week": 7
         }, 
         {
             "assets": {
@@ -4402,6 +4161,7 @@
             "date": "2000-10-15T17:01:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "201015028", 
                 "ProFootballReferenceID": "200010150was", 
                 "TheSportsDBID": "492673"
             }, 
@@ -4410,7 +4170,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Baltimore Ravens"
+            "vs": "Washington Redskins vs. Baltimore Ravens", 
+            "week": 7
         }, 
         {
             "assets": {
@@ -4595,10 +4356,11 @@
                 "thumbnail": []
             }, 
             "awayTeam": "PHI", 
-            "date": "2000-10-15T19:15:00+00:00", 
+            "date": "2000-10-15T20:15:00+00:00", 
             "homeTeam": "ARI", 
             "identity": {
                 "ESPNAPIID": "201015022", 
+                "ProFootballReferenceID": "200010150crd", 
                 "TheSportsDBID": "492682"
             }, 
             "league": "NFL", 
@@ -4608,28 +4370,6 @@
             "subseason": 0, 
             "vs": "Arizona Cardinals vs. Philadelphia Eagles", 
             "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "2000-10-15T20:15:00+00:00", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "ProFootballReferenceID": "200010150crd"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Arizona Cardinals vs. Philadelphia Eagles"
         }, 
         {
             "assets": {
@@ -4716,33 +4456,10 @@
                 "thumbnail": []
             }, 
             "awayTeam": "NE", 
-            "date": "2000-10-22T16:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "IND", 
-            "identity": {
-                "ESPNAPIID": "201022011"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Indianapolis Colts vs. New England Patriots", 
-            "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NE", 
             "date": "2000-10-22T17:00:00+00:00", 
             "homeTeam": "IND", 
             "identity": {
+                "ESPNAPIID": "201022011", 
                 "ProFootballReferenceID": "200010220clt", 
                 "TheSportsDBID": "492692"
             }, 
@@ -4751,7 +4468,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Indianapolis Colts vs. New England Patriots"
+            "vs": "Indianapolis Colts vs. New England Patriots", 
+            "week": 8
         }, 
         {
             "assets": {
@@ -5056,34 +4774,11 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2000-10-22T20:15:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "JAX", 
-            "identity": {
-                "ESPNAPIID": "201022030"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Jacksonville Jaguars vs. Washington Redskins", 
-            "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "WAS", 
             "date": "2000-10-22T20:15:00+00:00", 
             "homeTeam": "JAX", 
             "identity": {
+                "ESPNAPIID": "201022030", 
                 "ProFootballReferenceID": "200010220jax", 
                 "TheSportsDBID": "492698"
             }, 
@@ -5092,7 +4787,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Jacksonville Jaguars vs. Washington Redskins"
+            "vs": "Jacksonville Jaguars vs. Washington Redskins", 
+            "week": 8
         }, 
         {
             "assets": {
@@ -5279,10 +4975,11 @@
                 "thumbnail": []
             }, 
             "awayTeam": "DET", 
-            "date": "2000-10-29T18:00:00+00:00", 
+            "date": "2000-10-29T19:00:00+00:00", 
             "homeTeam": "IND", 
             "identity": {
                 "ESPNAPIID": "201029011", 
+                "ProFootballReferenceID": "200010290clt", 
                 "TheSportsDBID": "492712"
             }, 
             "league": "NFL", 
@@ -5292,28 +4989,6 @@
             "subseason": 0, 
             "vs": "Indianapolis Colts vs. Detroit Lions", 
             "week": 9
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DET", 
-            "date": "2000-10-29T19:00:00+00:00", 
-            "homeTeam": "IND", 
-            "identity": {
-                "ProFootballReferenceID": "200010290clt"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Indianapolis Colts vs. Detroit Lions"
         }, 
         {
             "assets": {
@@ -5520,33 +5195,10 @@
                 "thumbnail": []
             }, 
             "awayTeam": "TEN", 
-            "date": "2000-10-31T02:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "201030028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Tennessee Titans", 
-            "week": 9
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "TEN", 
             "date": "2000-10-31T02:01:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "201030028", 
                 "ProFootballReferenceID": "200010300was", 
                 "TheSportsDBID": "492713"
             }, 
@@ -5555,7 +5207,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Tennessee Titans"
+            "vs": "Washington Redskins vs. Tennessee Titans", 
+            "week": 9
         }, 
         {
             "assets": {
@@ -5818,31 +5471,9 @@
             "date": "2000-11-05T21:05:00+00:00", 
             "homeTeam": "ARI", 
             "identity": {
+                "ESPNAPIID": "201105022", 
                 "ProFootballReferenceID": "200011050crd", 
                 "TheSportsDBID": "492722"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Arizona Cardinals vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2000-11-05T21:05:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "ESPNAPIID": "201105022"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -6864,7 +6495,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2000-11-21T02:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "STL", 
@@ -6985,30 +6616,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PHI", 
-            "date": "2000-11-26T18:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "201126028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles", 
-            "week": 13
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "BUF", 
             "date": "2000-11-26T18:00:00+00:00", 
             "homeTeam": "TB", 
@@ -7063,6 +6670,7 @@
             "date": "2000-11-26T18:01:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "201126028", 
                 "ProFootballReferenceID": "200011260was", 
                 "TheSportsDBID": "492766"
             }, 
@@ -7071,7 +6679,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles"
+            "vs": "Washington Redskins vs. Philadelphia Eagles", 
+            "week": 13
         }, 
         {
             "assets": {
@@ -7447,30 +7056,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NYG", 
-            "date": "2000-12-03T18:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "201203028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants", 
-            "week": 14
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "LV", 
             "date": "2000-12-03T18:01:00+00:00", 
             "homeTeam": "PIT", 
@@ -7498,6 +7083,7 @@
             "date": "2000-12-03T18:01:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "201203028", 
                 "ProFootballReferenceID": "200012030was", 
                 "TheSportsDBID": "492779"
             }, 
@@ -7506,7 +7092,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants"
+            "vs": "Washington Redskins vs. New York Giants", 
+            "week": 14
         }, 
         {
             "assets": {
@@ -8109,30 +7696,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2000-12-10T21:15:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ESPNAPIID": "201210006"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins", 
-            "week": 15
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "MIN", 
             "date": "2000-12-10T21:15:00+00:00", 
             "eventTitle": "", 
@@ -8161,6 +7724,7 @@
             "date": "2000-12-10T21:15:00+00:00", 
             "homeTeam": "DAL", 
             "identity": {
+                "ESPNAPIID": "201210006", 
                 "ProFootballReferenceID": "200012100dal", 
                 "TheSportsDBID": "492800"
             }, 
@@ -8169,7 +7733,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins"
+            "vs": "Dallas Cowboys vs. Washington Redskins", 
+            "week": 15
         }, 
         {
             "assets": {
@@ -8300,34 +7865,11 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2000-12-16T17:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "PIT", 
-            "identity": {
-                "ESPNAPIID": "201216023"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Steelers vs. Washington Redskins", 
-            "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "WAS", 
             "date": "2000-12-16T17:37:00+00:00", 
             "homeTeam": "PIT", 
             "identity": {
+                "ESPNAPIID": "201216023", 
                 "ProFootballReferenceID": "200012160pit", 
                 "TheSportsDBID": "492804"
             }, 
@@ -8336,7 +7878,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Pittsburgh Steelers vs. Washington Redskins"
+            "vs": "Pittsburgh Steelers vs. Washington Redskins", 
+            "week": 16
         }, 
         {
             "assets": {
@@ -8838,30 +8381,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ARI", 
-            "date": "2000-12-24T18:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "201224028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Arizona Cardinals", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "STL", 
             "date": "2000-12-24T18:00:00+00:00", 
             "eventTitle": "", 
@@ -8890,6 +8409,7 @@
             "date": "2000-12-24T18:01:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "201224028", 
                 "ProFootballReferenceID": "200012240was", 
                 "TheSportsDBID": "492822"
             }, 
@@ -8898,7 +8418,8 @@
             "season": "2000", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Arizona Cardinals"
+            "vs": "Washington Redskins vs. Arizona Cardinals", 
+            "week": 17
         }, 
         {
             "assets": {
@@ -9680,8 +9201,10 @@
             }, 
             "awayTeam": "MIN", 
             "date": "2001-01-14T17:37:00+00:00", 
+            "eventTitle": "", 
             "homeTeam": "NYG", 
             "identity": {
+                "ESPNAPIID": "210114019", 
                 "ProFootballReferenceID": "200101140nyg"
             }, 
             "league": "NFL", 
@@ -9690,29 +9213,6 @@
             "sport": "Football", 
             "subseason": 1, 
             "subseasonTitle": "NFC Conference Championship", 
-            "vs": "New York Giants vs. Minnesota Vikings"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIN", 
-            "date": "2001-01-14T18:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ESPNAPIID": "210114019"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 1, 
             "vs": "New York Giants vs. Minnesota Vikings"
         }, 
         {

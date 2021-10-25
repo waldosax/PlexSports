@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2013SCHEDULE", 
-        "CachedOn": "2021-10-12T10:13:54", 
-        "ExpiresOn": "2021-10-19T10:13:54", 
+        "CachedOn": "2021-10-24T22:44:45", 
+        "ExpiresOn": "2021-10-31T22:44:45", 
         "Version": "2"
     }, 
     "Items": [
@@ -92,6 +92,31 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "WAS", 
+            "date": "2013-08-09T00:00:00+00:00", 
+            "description": "Redskins 22, Titans 21", 
+            "eventTitle": "", 
+            "homeTeam": "TEN", 
+            "identity": {
+                "ESPNAPIID": "330808010"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2013", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Tennessee Titans vs. Washington Redskins", 
+            "week": 1
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "CIN", 
             "date": "2013-08-09T00:00:00+00:00", 
             "description": "Bengals 34, Falcons 10", 
@@ -108,31 +133,6 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "Atlanta Falcons vs. Cincinnati Bengals", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2013-08-09T00:00:00+00:00", 
-            "description": "Redskins 22, Titans 21", 
-            "eventTitle": "", 
-            "homeTeam": "TEN", 
-            "identity": {
-                "ESPNAPIID": "330808010"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Tennessee Titans vs. Washington Redskins", 
             "week": 1
         }, 
         {
@@ -829,7 +829,7 @@
             "date": "2013-08-20T00:00:00+00:00", 
             "description": "Rex Grossman completed 10 of 16 passes for 133 yards with a touchdown and an interception Monday night in the Washington Redskins' 24-13 preseason win over the Pittsburgh Steelers.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "330819028"
             }, 
@@ -960,7 +960,7 @@
             "date": "2013-08-24T20:30:00+00:00", 
             "description": "Redskins 30, Bills 7", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "330824028"
             }, 
@@ -1412,31 +1412,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2013-08-29T23:30:00+00:00", 
-            "description": "Redskins wrap up unbeaten preseason, 30-12", 
-            "eventTitle": "", 
-            "homeTeam": "TB", 
-            "identity": {
-                "ESPNAPIID": "330829027"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Tampa Bay Buccaneers vs. Washington Redskins", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "JAX", 
             "date": "2013-08-29T23:30:00+00:00", 
             "description": "Todman has TD run as Jaguars top Falcons 20-16", 
@@ -1451,6 +1426,31 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "Atlanta Falcons vs. Jacksonville Jaguars", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WAS", 
+            "date": "2013-08-29T23:30:00+00:00", 
+            "description": "Redskins wrap up unbeaten preseason, 30-12", 
+            "eventTitle": "", 
+            "homeTeam": "TB", 
+            "identity": {
+                "ESPNAPIID": "330829027"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2013", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Tampa Bay Buccaneers vs. Washington Redskins", 
             "week": 4
         }, 
         {
@@ -1663,11 +1663,12 @@
                 "thumbnail": []
             }, 
             "awayTeam": "BAL", 
-            "date": "2013-09-06T00:30:00+00:00", 
+            "date": "2013-09-06T01:13:00+00:00", 
             "description": "Peyton Manning and the Denver Broncos waited eight long months, then another 33 minutes, to get the season started.", 
             "homeTeam": "DEN", 
             "identity": {
                 "ESPNAPIID": "330905007", 
+                "ProFootballReferenceID": "201309050den", 
                 "TheSportsDBID": "495898"
             }, 
             "league": "NFL", 
@@ -1679,28 +1680,6 @@
             "subseason": 0, 
             "vs": "Denver Broncos vs. Baltimore Ravens", 
             "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
-            "date": "2013-09-06T01:13:00+00:00", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "ProFootballReferenceID": "201309050den"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Denver Broncos vs. Baltimore Ravens"
         }, 
         {
             "assets": {
@@ -2120,12 +2099,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "PHI", 
-            "date": "2013-09-09T22:55:00+00:00", 
+            "date": "2013-09-09T23:10:00+00:00", 
             "description": "Michael Vick threw for two touchdowns and ran for another, LeSean McCoy ran for 184 yards, and the Philadelphia Eagles unleashed coach Chip Kelly's frenetic offense on the NFL on Monday night with a 33-27 win over the Washington Redskins.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "330909028"
+                "ESPNAPIID": "330909028", 
+                "ProFootballReferenceID": "201309090was", 
+                "TheSportsDBID": "495912"
             }, 
             "league": "NFL", 
             "networks": [
@@ -2136,29 +2116,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. Philadelphia Eagles", 
             "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "2013-09-09T23:10:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "201309090was", 
-                "TheSportsDBID": "495912"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles"
         }, 
         {
             "assets": {
@@ -2301,13 +2258,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2013-09-15T17:00:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2013-09-15T17:02:00+00:00", 
             "description": "Aaron Rodgers threw for a career-high 480 yards and four touchdowns and the Green Bay Packers used a big first half against the Washington Redskins to win their home opener 38-20 on Sunday.", 
-            "eventTitle": "", 
             "homeTeam": "GB", 
             "identity": {
-                "ESPNAPIID": "330915009"
+                "ESPNAPIID": "330915009", 
+                "ProFootballReferenceID": "201309150gnb", 
+                "TheSportsDBID": "495918"
             }, 
             "league": "NFL", 
             "networks": [
@@ -2318,29 +2276,6 @@
             "subseason": 0, 
             "vs": "Green Bay Packers vs. Washington Redskins", 
             "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2013-09-15T17:02:00+00:00", 
-            "homeTeam": "GB", 
-            "identity": {
-                "ProFootballReferenceID": "201309150gnb", 
-                "TheSportsDBID": "495918"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Green Bay Packers vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -2783,33 +2718,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DET", 
-            "date": "2013-09-22T17:00:00+00:00", 
-            "description": "The Detroit Lions took advantage of a pair of fourth-quarter bobbles, including one by Robert Griffin III, in a 27-20 win over the Washington Redskins on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "330922028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Detroit Lions", 
-            "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SD", 
             "date": "2013-09-22T17:00:00+00:00", 
             "description": "Jake Locker threw a 34-yard touchdown pass to rookie Justin Hunter with 15 seconds left and the Tennessee Titans rallied to beat San Diego 20-17 Sunday.", 
@@ -3052,17 +2960,22 @@
             }, 
             "awayTeam": "DET", 
             "date": "2013-09-22T17:03:00+00:00", 
+            "description": "The Detroit Lions took advantage of a pair of fourth-quarter bobbles, including one by Robert Griffin III, in a 27-20 win over the Washington Redskins on Sunday.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "330922028", 
                 "ProFootballReferenceID": "201309220was", 
                 "TheSportsDBID": "495937"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2013", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Detroit Lions"
+            "vs": "Washington Redskins vs. Detroit Lions", 
+            "week": 3
         }, 
         {
             "assets": {
@@ -3639,6 +3552,33 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "WAS", 
+            "date": "2013-09-29T20:25:00+00:00", 
+            "description": "Redskins beat Raiders 24-14 for 1st win", 
+            "eventTitle": "", 
+            "homeTeam": "OAK", 
+            "identity": {
+                "ESPNAPIID": "330929013"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2013", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Oakland Raiders vs. Washington Redskins", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "PHI", 
             "date": "2013-09-29T20:25:00+00:00", 
             "description": "The Denver Broncos scored more points than they ever had in their 54-year history Sunday, blowing out the Philadelphia Eagles 52-20 behind Peyton Manning's four touchdown throws.", 
@@ -3656,33 +3596,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Denver Broncos vs. Philadelphia Eagles", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2013-09-29T20:25:00+00:00", 
-            "description": "Redskins beat Raiders 24-14 for 1st win", 
-            "eventTitle": "", 
-            "homeTeam": "OAK", 
-            "identity": {
-                "ESPNAPIID": "330929013"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Oakland Raiders vs. Washington Redskins", 
             "week": 4
         }, 
         {
@@ -4621,13 +4534,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2013-10-14T00:30:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2013-10-14T00:31:00+00:00", 
             "description": "Dwayne Harris returned a punt 86 yards for a touchdown and set up another score with a 90-yard kickoff return as the Dallas Cowboys handed Robert Griffin III his first loss in his home state with a 31-16 victory against the Washington Redskins on Sunday", 
-            "eventTitle": "", 
             "homeTeam": "DAL", 
             "identity": {
-                "ESPNAPIID": "331013006"
+                "ESPNAPIID": "331013006", 
+                "ProFootballReferenceID": "201310130dal", 
+                "TheSportsDBID": "495988"
             }, 
             "league": "NFL", 
             "networks": [
@@ -4638,29 +4552,6 @@
             "subseason": 0, 
             "vs": "Dallas Cowboys vs. Washington Redskins", 
             "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2013-10-14T00:31:00+00:00", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ProFootballReferenceID": "201310130dal", 
-                "TheSportsDBID": "495988"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -4738,33 +4629,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Arizona Cardinals vs. Seattle Seahawks", 
-            "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CHI", 
-            "date": "2013-10-20T17:00:00+00:00", 
-            "description": "Roy Helu scored his third touchdown of the game with 45 seconds to play Sunday, a 3-yard run that gave the Washington Redskins a 45-41 win over the Chicago Bears.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "331020028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Chicago Bears", 
             "week": 7
         }, 
         {
@@ -5018,17 +4882,22 @@
             }, 
             "awayTeam": "CHI", 
             "date": "2013-10-20T17:05:00+00:00", 
+            "description": "Roy Helu scored his third touchdown of the game with 45 seconds to play Sunday, a 3-yard run that gave the Washington Redskins a 45-41 win over the Chicago Bears.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "331020028", 
                 "ProFootballReferenceID": "201310200was", 
                 "TheSportsDBID": "495996"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2013", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Chicago Bears"
+            "vs": "Washington Redskins vs. Chicago Bears", 
+            "week": 7
         }, 
         {
             "assets": {
@@ -5511,34 +5380,12 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2013-10-27T20:25:00+00:00", 
+            "description": "Peyton Manning overcame four turnovers and Denver scored the last 38 points Sunday in a come-from-behind 45-21 victory over former Broncos coach Mike Shanahan and his new team, the Washington Redskins.", 
             "homeTeam": "DEN", 
             "identity": {
+                "ESPNAPIID": "331027007", 
                 "ProFootballReferenceID": "201310270den", 
                 "TheSportsDBID": "496014"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Denver Broncos vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2013-10-27T20:25:00+00:00", 
-            "description": "Peyton Manning overcame four turnovers and Denver scored the last 38 points Sunday in a come-from-behind 45-21 victory over former Broncos coach Mike Shanahan and his new team, the Washington Redskins.", 
-            "eventTitle": "", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "ESPNAPIID": "331027007"
             }, 
             "league": "NFL", 
             "networks": [
@@ -5696,7 +5543,7 @@
             "date": "2013-11-03T18:00:00+00:00", 
             "description": "Darrel Young scored on a 4-yard run in overtime Sunday, the third touchdown of the game for the little-used fullback, giving the Washington Redskins a 30-24 win over the San Diego Chargers.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "331103028"
             }, 
@@ -6067,13 +5914,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2013-11-08T01:25:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2013-11-08T01:35:00+00:00", 
             "description": "Adrian \"Peterson\" ran for 75 yards and two scores, and the Minnesota Vikings stopped the Washington Redskins at the 4 in the final seconds to hold on for a 34-27 victory Thursday night.", 
-            "eventTitle": "", 
             "homeTeam": "MIN", 
             "identity": {
-                "ESPNAPIID": "331107016"
+                "ESPNAPIID": "331107016", 
+                "ProFootballReferenceID": "201311070min", 
+                "TheSportsDBID": "496031"
             }, 
             "league": "NFL", 
             "networks": [
@@ -6084,29 +5932,6 @@
             "subseason": 0, 
             "vs": "Minnesota Vikings vs. Washington Redskins", 
             "week": 10
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2013-11-08T01:35:00+00:00", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ProFootballReferenceID": "201311070min", 
-                "TheSportsDBID": "496031"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -6602,33 +6427,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2013-11-17T18:00:00+00:00", 
-            "description": "Nick Foles threw for 298 yards and ran for a touchdown, LeSean McCoy had two TDs rushing and the Philadelphia Eagles snapped a 10-game home losing streak with a 24-16 victory over the Washington Redskins on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "331117021"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins", 
-            "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "BAL", 
             "date": "2013-11-17T18:02:00+00:00", 
             "description": "Robbie Gould kicked a 38-yard field goal to lift the Chicago Bears to a 23-20 victory over Baltimore Sunday in a game delayed about two hours by a torrential downpour.", 
@@ -6743,17 +6541,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2013-11-17T18:02:00+00:00", 
+            "description": "Nick Foles threw for 298 yards and ran for a touchdown, LeSean McCoy had two TDs rushing and the Philadelphia Eagles snapped a 10-game home losing streak with a 24-16 victory over the Washington Redskins on Sunday.", 
             "homeTeam": "PHI", 
             "identity": {
+                "ESPNAPIID": "331117021", 
                 "ProFootballReferenceID": "201311170phi", 
                 "TheSportsDBID": "496052"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2013", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
+            "vs": "Philadelphia Eagles vs. Washington Redskins", 
+            "week": 11
         }, 
         {
             "assets": {
@@ -7464,12 +7267,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "SF", 
-            "date": "2013-11-26T01:30:00+00:00", 
+            "date": "2013-11-26T01:40:00+00:00", 
             "description": "Colin Kaepernick completed 15 of 24 passes for 235 yards with three touchdowns and no interceptions Monday night as the San Francisco 49ers broke a two-game losing streak with a 27-6 win over Washington.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "331125028"
+                "ESPNAPIID": "331125028", 
+                "ProFootballReferenceID": "201311250was", 
+                "TheSportsDBID": "496073"
             }, 
             "league": "NFL", 
             "networks": [
@@ -7480,29 +7284,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. San Francisco 49ers", 
             "week": 12
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SF", 
-            "date": "2013-11-26T01:40:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "201311250was", 
-                "TheSportsDBID": "496073"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. San Francisco 49ers"
         }, 
         {
             "assets": {
@@ -7895,6 +7676,29 @@
             }, 
             "awayTeam": "CIN", 
             "date": "2013-12-01T21:25:00+00:00", 
+            "homeTeam": "LAC", 
+            "identity": {
+                "ProFootballReferenceID": "201312010sdg", 
+                "TheSportsDBID": "496086"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2013", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "San Diego Chargers vs. Cincinnati Bengals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CIN", 
+            "date": "2013-12-01T21:25:00+00:00", 
             "description": "Dalton, Green lead Bengals to 17-10 win vs Bolts", 
             "eventTitle": "", 
             "homeTeam": "SD", 
@@ -7910,29 +7714,6 @@
             "subseason": 0, 
             "vs": "San Diego Chargers vs. Cincinnati Bengals", 
             "week": 13
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CIN", 
-            "date": "2013-12-01T21:25:00+00:00", 
-            "homeTeam": "LAC", 
-            "identity": {
-                "ProFootballReferenceID": "201312010sdg", 
-                "TheSportsDBID": "496086"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "San Diego Chargers vs. Cincinnati Bengals"
         }, 
         {
             "assets": {
@@ -7972,12 +7753,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "NYG", 
-            "date": "2013-12-02T01:30:00+00:00", 
+            "date": "2013-12-02T01:31:00+00:00", 
             "description": "Eli Manning completed 22 of 28 passes for 235 yards, and Justin Tuck had four sacks to help shut down Robert Griffin III in the second half Sunday night, leading the New York Giants to a 24-17 win over the Washington Redskins.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "331201028"
+                "ESPNAPIID": "331201028", 
+                "ProFootballReferenceID": "201312010was", 
+                "TheSportsDBID": "496088"
             }, 
             "league": "NFL", 
             "networks": [
@@ -7988,29 +7770,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. New York Giants", 
             "week": 13
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYG", 
-            "date": "2013-12-02T01:31:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "201312010was", 
-                "TheSportsDBID": "496088"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants"
         }, 
         {
             "assets": {
@@ -8066,33 +7825,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Jacksonville Jaguars vs. Houston Texans", 
-            "week": 14
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "KC", 
-            "date": "2013-12-08T18:00:00+00:00", 
-            "description": "Chiefs thump Redskins 45-10 to break 3-game skid", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "331208028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Kansas City Chiefs", 
             "week": 14
         }, 
         {
@@ -8352,17 +8084,22 @@
             }, 
             "awayTeam": "KC", 
             "date": "2013-12-08T18:03:00+00:00", 
+            "description": "Chiefs thump Redskins 45-10 to break 3-game skid", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "331208028", 
                 "ProFootballReferenceID": "201312080was", 
                 "TheSportsDBID": "496093"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2013", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Kansas City Chiefs"
+            "vs": "Washington Redskins vs. Kansas City Chiefs", 
+            "week": 14
         }, 
         {
             "assets": {
@@ -8635,33 +8372,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2013-12-15T18:00:00+00:00", 
-            "description": "Falcons hold off fumble-prone Redskins 27-26", 
-            "eventTitle": "", 
-            "homeTeam": "ATL", 
-            "identity": {
-                "ESPNAPIID": "331215001"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Atlanta Falcons vs. Washington Redskins", 
-            "week": 15
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "PHI", 
             "date": "2013-12-15T18:02:00+00:00", 
             "description": "Cassel, Vikings stop Eagles 48-30 without Peterson", 
@@ -8804,17 +8514,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2013-12-15T18:03:00+00:00", 
+            "description": "Falcons hold off fumble-prone Redskins 27-26", 
             "homeTeam": "ATL", 
             "identity": {
+                "ESPNAPIID": "331215001", 
                 "ProFootballReferenceID": "201312150atl", 
                 "TheSportsDBID": "496107"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2013", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Atlanta Falcons vs. Washington Redskins"
+            "vs": "Atlanta Falcons vs. Washington Redskins", 
+            "week": 15
         }, 
         {
             "assets": {
@@ -9171,33 +8886,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DAL", 
-            "date": "2013-12-22T18:00:00+00:00", 
-            "description": "Tony Romo threw a 10-yard touchdown pass to DeMarco Murray on fourth down with 1:08 remaining Sunday, giving the Dallas Cowboys a 24-23 win over the Washington Redskins and setting up a winner-take-all regular season finale against the Philadelphia Eagles", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "331222028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys", 
-            "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "IND", 
             "date": "2013-12-22T18:02:00+00:00", 
             "description": "Andrew Luck threw for 241 yards and a touchdown, Donald Brown ran 51 yards for another score and the Indianapolis Colts beat the Kansas City Chiefs 23-7 on Sunday in a potential preview of an AFC wild-card playoff game.", 
@@ -9368,17 +9056,22 @@
             }, 
             "awayTeam": "DAL", 
             "date": "2013-12-22T18:03:00+00:00", 
+            "description": "Tony Romo threw a 10-yard touchdown pass to DeMarco Murray on fourth down with 1:08 remaining Sunday, giving the Dallas Cowboys a 24-23 win over the Washington Redskins and setting up a winner-take-all regular season finale against the Philadelphia Eagles", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "331222028", 
                 "ProFootballReferenceID": "201312220was", 
                 "TheSportsDBID": "496127"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2013", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys"
+            "vs": "Washington Redskins vs. Dallas Cowboys", 
+            "week": 16
         }, 
         {
             "assets": {
@@ -9635,33 +9328,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2013-12-29T18:00:00+00:00", 
-            "description": "Giants, Jernigan add to Shanahan, Skins' woes", 
-            "eventTitle": "", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ESPNAPIID": "331229019"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2013", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NYJ", 
             "date": "2013-12-29T18:02:00+00:00", 
             "description": "The Miami Dolphins were eliminated from the scramble for the AFC's final wild-card berth Sunday by the New York Jets, who thrived in the role of spoilers against their archrivals and won 20-7.", 
@@ -9804,17 +9470,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2013-12-29T18:04:00+00:00", 
+            "description": "Giants, Jernigan add to Shanahan, Skins' woes", 
             "homeTeam": "NYG", 
             "identity": {
+                "ESPNAPIID": "331229019", 
                 "ProFootballReferenceID": "201312290nyg", 
                 "TheSportsDBID": "496144"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2013", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins"
+            "vs": "New York Giants vs. Washington Redskins", 
+            "week": 17
         }, 
         {
             "assets": {

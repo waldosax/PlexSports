@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2007SCHEDULE", 
-        "CachedOn": "2021-10-12T09:24:37", 
-        "ExpiresOn": "2021-10-19T09:24:37", 
+        "CachedOn": "2021-10-24T22:19:06", 
+        "ExpiresOn": "2021-10-31T22:19:06", 
         "Version": "2"
     }, 
     "Items": [
@@ -270,7 +270,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2007-08-12T00:00:00+00:00", 
             "description": "Redskins 14, Titans 6", 
             "eventTitle": "", 
@@ -736,7 +736,7 @@
             "date": "2007-08-19T00:00:00+00:00", 
             "description": "Steelers 12, Redskins 10", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "270818028"
             }, 
@@ -1090,31 +1090,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "BAL", 
-            "date": "2007-08-26T00:00:00+00:00", 
-            "description": "Redskins 13, Ravens 7", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "270825028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Washington Redskins vs. Baltimore Ravens", 
-            "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NYJ", 
             "date": "2007-08-26T00:00:00+00:00", 
             "description": "Jets 20, Giants 12", 
@@ -1129,6 +1104,31 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "New York Giants vs. New York Jets", 
+            "week": 3
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BAL", 
+            "date": "2007-08-26T00:00:00+00:00", 
+            "description": "Redskins 13, Ravens 7", 
+            "eventTitle": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ESPNAPIID": "270825028"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2007", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Washington Redskins vs. Baltimore Ravens", 
             "week": 3
         }, 
         {
@@ -1344,7 +1344,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2007-08-30T23:30:00+00:00", 
             "description": "Jaguars 31, Redskins 14", 
             "eventTitle": "", 
@@ -1383,31 +1383,6 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "Tampa Bay Buccaneers vs. Houston Texans", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PIT", 
-            "date": "2007-08-31T00:00:00+00:00", 
-            "description": "Steelers 19, Panthers 3", 
-            "eventTitle": "", 
-            "homeTeam": "CAR", 
-            "identity": {
-                "ESPNAPIID": "270830029"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Carolina Panthers vs. Pittsburgh Steelers", 
             "week": 4
         }, 
         {
@@ -1533,6 +1508,31 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "Tennessee Titans vs. Green Bay Packers", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "PIT", 
+            "date": "2007-08-31T00:00:00+00:00", 
+            "description": "Steelers 19, Panthers 3", 
+            "eventTitle": "", 
+            "homeTeam": "CAR", 
+            "identity": {
+                "ESPNAPIID": "270830029"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2007", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Carolina Panthers vs. Pittsburgh Steelers", 
             "week": 4
         }, 
         {
@@ -1747,33 +1747,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "MIA", 
-            "date": "2007-09-09T17:00:00+00:00", 
-            "description": "Redskins 16, Dolphins 13", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "270909028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Miami Dolphins", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ATL", 
             "date": "2007-09-09T17:00:00+00:00", 
             "description": "The Minnesota defense overwhelmed Atlanta's Joey Harrington with six sacks and two interception returns for touchdowns, and rookie running back Adrian Peterson finished off the Falcons in a 24-3 victory by the Vikings in Sunday's season opener.\r\n", 
@@ -1860,17 +1833,22 @@
             }, 
             "awayTeam": "MIA", 
             "date": "2007-09-09T17:02:00+00:00", 
+            "description": "Redskins 16, Dolphins 13", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "270909028", 
                 "ProFootballReferenceID": "200709090was", 
                 "TheSportsDBID": "494370"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2007", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Miami Dolphins"
+            "vs": "Washington Redskins vs. Miami Dolphins", 
+            "week": 1
         }, 
         {
             "assets": {
@@ -2690,13 +2668,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2007-09-18T00:30:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2007-09-18T00:40:00+00:00", 
             "description": "Showing the poise of a veteran,Jason Campbell in\r\nhis ninth pro start converted several big plays and got plenty of\r\nhelp from Clinton Portis, Chris Cooley and an opportunistic defense\r\nin Washington's 20-12 victory over the Eagles.\r\n", 
-            "eventTitle": "", 
             "homeTeam": "PHI", 
             "identity": {
-                "ESPNAPIID": "270917021"
+                "ESPNAPIID": "270917021", 
+                "ProFootballReferenceID": "200709170phi", 
+                "TheSportsDBID": "494393"
             }, 
             "league": "NFL", 
             "networks": [
@@ -2707,29 +2686,6 @@
             "subseason": 0, 
             "vs": "Philadelphia Eagles vs. Washington Redskins", 
             "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2007-09-18T00:40:00+00:00", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ProFootballReferenceID": "200709170phi", 
-                "TheSportsDBID": "494393"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -3169,10 +3125,11 @@
             "awayTeam": "NYG", 
             "date": "2007-09-23T20:15:00+00:00", 
             "description": "A Giants defense that had allowed 80 points in its first two games allowed only 83 yards after halftime, and stopped the Redskins on four plays from first-and-goal at the 1 in the final minute to preserve a 24-17 victory Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "270923028"
+                "ESPNAPIID": "270923028", 
+                "ProFootballReferenceID": "200709230was", 
+                "TheSportsDBID": "494408"
             }, 
             "league": "NFL", 
             "networks": [
@@ -3183,29 +3140,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. New York Giants", 
             "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYG", 
-            "date": "2007-09-23T20:15:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "200709230was", 
-                "TheSportsDBID": "494408"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants"
         }, 
         {
             "assets": {
@@ -3730,33 +3664,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DET", 
-            "date": "2007-10-07T17:00:00+00:00", 
-            "description": "\nThe Redskins held the ball and wore down the Detroit Lions on a hot day, keeping the No. 1 passing offense off the field in a 34-3 rout. A better than 2-to-1 advantage in total yards Sunday kept alive a 70-year hex for the Lions in the nation's capital.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "271007028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Detroit Lions", 
-            "week": 5
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ARI", 
             "date": "2007-10-07T17:00:00+00:00", 
             "description": "Kurt Warner produced three touchdowns and Rod Hood returned an off-target pass by Gus Frerotte 68 yards for an easy go-ahead touchdown early in the fourth quarter of the Cardinals' 34-31 victory.", 
@@ -3870,17 +3777,22 @@
             }, 
             "awayTeam": "DET", 
             "date": "2007-10-07T17:02:00+00:00", 
+            "description": "\nThe Redskins held the ball and wore down the Detroit Lions on a hot day, keeping the No. 1 passing offense off the field in a 34-3 rout. A better than 2-to-1 advantage in total yards Sunday kept alive a 70-year hex for the Lions in the nation's capital.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "271007028", 
                 "ProFootballReferenceID": "200710070was", 
                 "TheSportsDBID": "494436"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2007", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Detroit Lions"
+            "vs": "Washington Redskins vs. Detroit Lions", 
+            "week": 5
         }, 
         {
             "assets": {
@@ -4216,33 +4128,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2007-10-14T17:00:00+00:00", 
-            "description": "Charles Woodson returned a fumble 57 yards for the go-ahead touchdown as the Green Bay Packers rallied to beat the Washington Redskins 17-14 in soggy conditions at Lambeau Field on Sunday.\n", 
-            "eventTitle": "", 
-            "homeTeam": "GB", 
-            "identity": {
-                "ESPNAPIID": "271014009"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Green Bay Packers vs. Washington Redskins", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "STL", 
             "date": "2007-10-14T17:00:00+00:00", 
             "description": "The Baltimore Ravens got their swagger back,\nbullying Gus Frerotte and the winless St. Louis Rams into\nsubmission during a rare blowout.", 
@@ -4351,17 +4236,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2007-10-14T17:02:00+00:00", 
+            "description": "Charles Woodson returned a fumble 57 yards for the go-ahead touchdown as the Green Bay Packers rallied to beat the Washington Redskins 17-14 in soggy conditions at Lambeau Field on Sunday.\n", 
             "homeTeam": "GB", 
             "identity": {
+                "ESPNAPIID": "271014009", 
                 "ProFootballReferenceID": "200710140gnb", 
                 "TheSportsDBID": "494443"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2007", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Green Bay Packers vs. Washington Redskins"
+            "vs": "Green Bay Packers vs. Washington Redskins", 
+            "week": 6
         }, 
         {
             "assets": {
@@ -4618,32 +4508,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ARI", 
-            "date": "2007-10-21T17:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "271021028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Arizona Cardinals", 
-            "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "TEN", 
             "date": "2007-10-21T17:02:00+00:00", 
             "homeTeam": "HOU", 
@@ -4675,15 +4539,19 @@
             "date": "2007-10-21T17:02:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "271021028", 
                 "ProFootballReferenceID": "200710210was", 
                 "TheSportsDBID": "494463"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2007", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Arizona Cardinals"
+            "vs": "Washington Redskins vs. Arizona Cardinals", 
+            "week": 7
         }, 
         {
             "assets": {
@@ -5416,13 +5284,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2007-10-28T20:15:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2007-10-28T20:17:00+00:00", 
             "description": "Tom Brady and the peerless Patriots\nkeep getting better.", 
-            "eventTitle": "", 
             "homeTeam": "NE", 
             "identity": {
-                "ESPNAPIID": "271028017"
+                "ESPNAPIID": "271028017", 
+                "ProFootballReferenceID": "200710280nwe", 
+                "TheSportsDBID": "494470"
             }, 
             "league": "NFL", 
             "networks": [
@@ -5433,29 +5302,6 @@
             "subseason": 0, 
             "vs": "New England Patriots vs. Washington Redskins", 
             "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2007-10-28T20:17:00+00:00", 
-            "homeTeam": "NE", 
-            "identity": {
-                "ProFootballReferenceID": "200710280nwe", 
-                "TheSportsDBID": "494470"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New England Patriots vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -5512,33 +5358,6 @@
             "subseason": 0, 
             "vs": "Denver Broncos vs. Green Bay Packers", 
             "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2007-11-04T18:00:00+00:00", 
-            "description": "After Clinton Portis ran all over\nthe New York Jets, Shaun Suisham kicked the Washington Redskins to\nvictory.", 
-            "eventTitle": "", 
-            "homeTeam": "NYJ", 
-            "identity": {
-                "ESPNAPIID": "271104020"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Jets vs. Washington Redskins", 
-            "week": 9
         }, 
         {
             "assets": {
@@ -5634,17 +5453,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2007-11-04T18:02:00+00:00", 
+            "description": "After Clinton Portis ran all over\nthe New York Jets, Shaun Suisham kicked the Washington Redskins to\nvictory.", 
             "homeTeam": "NYJ", 
             "identity": {
+                "ESPNAPIID": "271104020", 
                 "ProFootballReferenceID": "200711040nyj", 
                 "TheSportsDBID": "494488"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2007", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "New York Jets vs. Washington Redskins"
+            "vs": "New York Jets vs. Washington Redskins", 
+            "week": 9
         }, 
         {
             "assets": {
@@ -6035,33 +5859,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PHI", 
-            "date": "2007-11-11T18:00:00+00:00", 
-            "description": "Trailing by five, Philadelphia's Donovan McNabb threw a screen pass to Brian Westbrook over the middle. Westbrook scampered for a 57-yard touchdown with 3:16 remaining for the winning touchdown Sunday in a 33-25 victory over the Redskins.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "271111028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles", 
-            "week": 10
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "BUF", 
             "date": "2007-11-11T18:02:00+00:00", 
             "description": "Winless Miami controlled the ball for nearly 37 minutes and led most of the game, but Rian Lindell kicked a 34-yard field goal with 46 seconds left and the Buffalo Bills earned their fourth consecutive victory Sunday, 13-10.", 
@@ -6171,17 +5968,22 @@
             }, 
             "awayTeam": "PHI", 
             "date": "2007-11-11T18:03:00+00:00", 
+            "description": "Trailing by five, Philadelphia's Donovan McNabb threw a screen pass to Brian Westbrook over the middle. Westbrook scampered for a 57-yard touchdown with 3:16 remaining for the winning touchdown Sunday in a 33-25 victory over the Redskins.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "271111028", 
                 "ProFootballReferenceID": "200711110was", 
                 "TheSportsDBID": "494504"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2007", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles"
+            "vs": "Washington Redskins vs. Philadelphia Eagles", 
+            "week": 10
         }, 
         {
             "assets": {
@@ -6835,13 +6637,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2007-11-18T21:15:00+00:00", 
             "description": "One snap went off Tony Romo's face, two went over his head. Then, coming out of the 2-minute warning before halftime, Romo went to the line and called a timeout.", 
-            "eventTitle": "", 
             "homeTeam": "DAL", 
             "identity": {
-                "ESPNAPIID": "271118006"
+                "ESPNAPIID": "271118006", 
+                "ProFootballReferenceID": "200711180dal", 
+                "TheSportsDBID": "494510"
             }, 
             "league": "NFL", 
             "networks": [
@@ -6852,29 +6655,6 @@
             "subseason": 0, 
             "vs": "Dallas Cowboys vs. Washington Redskins", 
             "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2007-11-18T21:15:00+00:00", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ProFootballReferenceID": "200711180dal", 
-                "TheSportsDBID": "494510"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -7080,33 +6860,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2007-11-25T18:00:00+00:00", 
-            "description": "Ronde Barber and Brian Kelly couldn't have\npicked a better time for their first interceptions of the season.", 
-            "eventTitle": "", 
-            "homeTeam": "TB", 
-            "identity": {
-                "ESPNAPIID": "271125027"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Tampa Bay Buccaneers vs. Washington Redskins", 
-            "week": 12
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SEA", 
             "date": "2007-11-25T18:00:00+00:00", 
             "description": "Rams backup quarterback Gus Frerotte fumbled\nthe snap on fourth-and-goal from the Seattle 1 with 27 seconds left\nSunday, allowing the Seahawks to hold on for a 24-19 victory over\nSt. Louis.", 
@@ -7209,17 +6962,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2007-11-25T18:02:00+00:00", 
+            "description": "Ronde Barber and Brian Kelly couldn't have\npicked a better time for their first interceptions of the season.", 
             "homeTeam": "TB", 
             "identity": {
+                "ESPNAPIID": "271125027", 
                 "ProFootballReferenceID": "200711250tam", 
                 "TheSportsDBID": "494531"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2007", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Tampa Bay Buccaneers vs. Washington Redskins"
+            "vs": "Tampa Bay Buccaneers vs. Washington Redskins", 
+            "week": 12
         }, 
         {
             "assets": {
@@ -7560,33 +7318,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "BUF", 
-            "date": "2007-12-02T18:00:00+00:00", 
-            "description": "The grief of the Washington Redskins was on full display Sunday, in front of 85,000 fans waving their No. 21 towels, but their fragile emotions were shattered when Rian\nLindell kicked the Buffalo Bills to a 17-16 victory.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "271202028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Buffalo Bills", 
-            "week": 13
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "LAC", 
             "date": "2007-12-02T18:00:00+00:00", 
             "homeTeam": "KC", 
@@ -7717,17 +7448,22 @@
             }, 
             "awayTeam": "BUF", 
             "date": "2007-12-02T18:02:00+00:00", 
+            "description": "The grief of the Washington Redskins was on full display Sunday, in front of 85,000 fans waving their No. 21 towels, but their fragile emotions were shattered when Rian\nLindell kicked the Buffalo Bills to a 17-16 victory.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "271202028", 
                 "ProFootballReferenceID": "200712020was", 
                 "TheSportsDBID": "494549"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2007", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Buffalo Bills"
+            "vs": "Washington Redskins vs. Buffalo Bills", 
+            "week": 13
         }, 
         {
             "assets": {
@@ -8069,12 +7805,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "CHI", 
-            "date": "2007-12-07T01:00:00+00:00", 
+            "date": "2007-12-07T01:16:00+00:00", 
             "description": "Only days removed from burying a teammate,\nand without the benefit of a full practice, the Washington Redskins\nmanaged to win thanks to a backup quarterback who last completed a\npass in 2004.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "271206028"
+                "ESPNAPIID": "271206028", 
+                "ProFootballReferenceID": "200712060was", 
+                "TheSportsDBID": "494554"
             }, 
             "league": "NFL", 
             "networks": [
@@ -8084,56 +7821,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Washington Redskins vs. Chicago Bears", 
-            "week": 14
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CHI", 
-            "date": "2007-12-07T01:16:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "200712060was", 
-                "TheSportsDBID": "494554"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Chicago Bears"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "STL", 
-            "date": "2007-12-09T18:00:00+00:00", 
-            "description": "Bengals 19, Rams 10", 
-            "eventTitle": "", 
-            "homeTeam": "CIN", 
-            "identity": {
-                "ESPNAPIID": "271209004"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cincinnati Bengals vs. St. Louis Rams", 
             "week": 14
         }, 
         {
@@ -8161,6 +7848,33 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Green Bay Packers vs. Oakland Raiders", 
+            "week": 14
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "STL", 
+            "date": "2007-12-09T18:00:00+00:00", 
+            "description": "Bengals 19, Rams 10", 
+            "eventTitle": "", 
+            "homeTeam": "CIN", 
+            "identity": {
+                "ESPNAPIID": "271209004"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2007", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cincinnati Bengals vs. St. Louis Rams", 
             "week": 14
         }, 
         {
@@ -9062,13 +8776,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2007-12-17T01:15:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2007-12-17T01:24:00+00:00", 
             "description": "The Washington Redskins' kept their playoff hopes alive and put a little doubt into the New York Giants' once seemingly certain road to the postseason.", 
-            "eventTitle": "", 
             "homeTeam": "NYG", 
             "identity": {
-                "ESPNAPIID": "271216019"
+                "ESPNAPIID": "271216019", 
+                "ProFootballReferenceID": "200712160nyg", 
+                "TheSportsDBID": "494578"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9079,29 +8794,6 @@
             "subseason": 0, 
             "vs": "New York Giants vs. Washington Redskins", 
             "week": 15
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2007-12-17T01:24:00+00:00", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ProFootballReferenceID": "200712160nyg", 
-                "TheSportsDBID": "494578"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -9576,13 +9268,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2007-12-24T01:15:00+00:00", 
             "description": "The Redskins shut down Adrian Peterson and set up two early touchdowns with interceptions to take control of their playoff fate with a 32-21 victory over the sloppy Vikings.", 
-            "eventTitle": "", 
             "homeTeam": "MIN", 
             "identity": {
-                "ESPNAPIID": "271223016"
+                "ESPNAPIID": "271223016", 
+                "ProFootballReferenceID": "200712230min", 
+                "TheSportsDBID": "494593"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9593,29 +9286,6 @@
             "subseason": 0, 
             "vs": "Minnesota Vikings vs. Washington Redskins", 
             "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2007-12-24T01:15:00+00:00", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ProFootballReferenceID": "200712230min", 
-                "TheSportsDBID": "494593"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -9957,17 +9627,22 @@
             }, 
             "awayTeam": "DAL", 
             "date": "2007-12-30T21:15:00+00:00", 
+            "description": "From disarray to dominance, the Washington Redskins will enter the playoffs as the hottest team in the NFC.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "271230028", 
                 "ProFootballReferenceID": "200712300was", 
                 "TheSportsDBID": "494607"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2007", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys"
+            "vs": "Washington Redskins vs. Dallas Cowboys", 
+            "week": 17
         }, 
         {
             "assets": {
@@ -10079,33 +9754,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DAL", 
-            "date": "2007-12-30T21:15:00+00:00", 
-            "description": "From disarray to dominance, the Washington Redskins will enter the playoffs as the hottest team in the NFC.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "271230028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "MIN", 
             "date": "2007-12-30T21:16:00+00:00", 
             "description": "Jason Elam's FG in overtime lifted the Broncos over the Vikings.", 
@@ -10190,41 +9838,20 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2008-01-05T21:30:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2008-01-05T21:35:00+00:00", 
             "description": "The Seattle Seahawks weren't about to play along\nwith the sentimental favorite of this year's playoffs.", 
             "eventTitle": "NFC Wild Card Playoffs", 
             "homeTeam": "SEA", 
             "identity": {
-                "ESPNAPIID": "280105026"
+                "ESPNAPIID": "280105026", 
+                "ProFootballReferenceID": "200801050sea"
             }, 
             "league": "NFL", 
             "networks": [
                 "NBC"
             ], 
             "playoffround": 1, 
-            "season": "2007", 
-            "sport": "Football", 
-            "subseason": 1, 
-            "vs": "Seattle Seahawks vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2008-01-05T21:35:00+00:00", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "ProFootballReferenceID": "200801050sea"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
             "season": "2007", 
             "sport": "Football", 
             "subseason": 1, 

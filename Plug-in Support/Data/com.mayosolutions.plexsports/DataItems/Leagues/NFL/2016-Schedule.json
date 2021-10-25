@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2016SCHEDULE", 
-        "CachedOn": "2021-10-12T10:29:15", 
-        "ExpiresOn": "2021-10-19T10:29:15", 
+        "CachedOn": "2021-10-24T22:57:41", 
+        "ExpiresOn": "2021-10-31T22:57:41", 
         "Version": "2"
     }, 
     "Items": [
@@ -40,7 +40,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2016-08-11T23:00:00+00:00", 
             "description": "Making a successful return to his first NFL home, Matt Schaub passed for 179 yards, leading three scoring drives, and the Atlanta Falcons beat the Washington Redskins 23-17 on Thursday night.", 
             "eventTitle": "", 
@@ -581,7 +581,7 @@
             "date": "2016-08-19T23:30:00+00:00", 
             "description": "Top running back Matt Jones left with a sprained shoulder and receiver Rashad Ross made his best case for a roster spot as the Washington Redskins rallied to beat the Jets 22-18 Friday night.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "400874790"
             }, 
@@ -883,7 +883,7 @@
             "date": "2016-08-26T23:30:00+00:00", 
             "description": "Kirk Cousins found a groove and undrafted rookie running back Robert Kelley made the most of his chance and the Washington Redskins beat the Buffalo Bills 21-16 Friday night in the third preseaso", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "400874856"
             }, 
@@ -1239,7 +1239,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2016-09-01T00:00:00+00:00", 
             "description": "Mack Brown ran for 149 yards and a touchdown in the rain to lead the Washington Redskins to a 20-13 preseason-closing victory over the Tampa Bay Buccaneers on Wednesday night.", 
             "eventTitle": "", 
@@ -2082,12 +2082,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "PIT", 
-            "date": "2016-09-12T23:10:00+00:00", 
+            "date": "2016-09-12T23:11:00+00:00", 
             "description": "Ben Roethlisberger recovered his own fumble at a pivotal moment and didn't look back, throwing three touchdown passes to lead the Pittsburgh Steelers to a 38-16 victory over the Washington Redski", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "400874537"
+                "ESPNAPIID": "400874537", 
+                "ProFootballReferenceID": "201609120was", 
+                "TheSportsDBID": "514789"
             }, 
             "league": "NFL", 
             "networks": [
@@ -2098,29 +2099,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. Pittsburgh Steelers", 
             "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PIT", 
-            "date": "2016-09-12T23:11:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "201609120was", 
-                "TheSportsDBID": "514789"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Pittsburgh Steelers"
         }, 
         {
             "assets": {
@@ -2176,33 +2154,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Buffalo Bills vs. New York Jets", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "2016-09-18T17:00:00+00:00", 
-            "description": "Alfred Morris scored the go-ahead touchdown on a 4-yard run with under five minutes left Sunday, leading the Cowboys to a 27-23 victory over his former team, the Washington Redskins.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400874518"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys", 
             "week": 2
         }, 
         {
@@ -2356,17 +2307,22 @@
             }, 
             "awayTeam": "DAL", 
             "date": "2016-09-18T17:03:00+00:00", 
+            "description": "Alfred Morris scored the go-ahead touchdown on a 4-yard run with under five minutes left Sunday, leading the Cowboys to a 27-23 victory over his former team, the Washington Redskins.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400874518", 
                 "ProFootballReferenceID": "201609180was", 
                 "TheSportsDBID": "514799"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2016", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys"
+            "vs": "Washington Redskins vs. Dallas Cowboys", 
+            "week": 2
         }, 
         {
             "assets": {
@@ -2723,33 +2679,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2016-09-25T17:00:00+00:00", 
-            "description": "Dustin Hopkins kicked a 37-yard field goal late in the fourth quarter for his fifth of the game and the Redskins avoid a near-disastrous 0-3 start with a 29-27 win over the Giants on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ESPNAPIID": "400874682"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins", 
-            "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "OAK", 
             "date": "2016-09-25T17:00:00+00:00", 
             "description": "Derek Carr threw for 249 yards and a touchdown, and the Oakland Raiders beat the Tennessee Titans 17-10 Sunday with their defense finally coming up with some big plays.", 
@@ -2779,17 +2708,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2016-09-25T17:02:00+00:00", 
+            "description": "Dustin Hopkins kicked a 37-yard field goal late in the fourth quarter for his fifth of the game and the Redskins avoid a near-disastrous 0-3 start with a 29-27 win over the Giants on Sunday.", 
             "homeTeam": "NYG", 
             "identity": {
+                "ESPNAPIID": "400874682", 
                 "ProFootballReferenceID": "201609250nyg", 
                 "TheSportsDBID": "514814"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2016", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins"
+            "vs": "New York Giants vs. Washington Redskins", 
+            "week": 3
         }, 
         {
             "assets": {
@@ -3293,33 +3227,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CLE", 
-            "date": "2016-10-02T17:00:00+00:00", 
-            "description": "Kirk Cousins threw three touchdown passes, including two to tight end Jordan Reed, and the Washington Redskins cashed in on several trips to the red zone to beat the Cleveland Browns 31-20 on Sun", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400874660"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Cleveland Browns", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "OAK", 
             "date": "2016-10-02T17:00:00+00:00", 
             "description": "Derek Carr threw four touchdown passes, the last to Michael Crabtree with 2:12 left, and the Oakland Raiders beat the previously undefeated Baltimore Ravens 28-27 on Sunday.", 
@@ -3484,17 +3391,22 @@
             }, 
             "awayTeam": "CLE", 
             "date": "2016-10-02T17:05:00+00:00", 
+            "description": "Kirk Cousins threw three touchdown passes, including two to tight end Jordan Reed, and the Washington Redskins cashed in on several trips to the red zone to beat the Cleveland Browns 31-20 on Sun", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400874660", 
                 "ProFootballReferenceID": "201610020was", 
                 "TheSportsDBID": "514831"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2016", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Cleveland Browns"
+            "vs": "Washington Redskins vs. Cleveland Browns", 
+            "week": 4
         }, 
         {
             "assets": {
@@ -3723,33 +3635,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2016-10-09T17:00:00+00:00", 
-            "description": "The Washington Redskins used an 85-yard punt return by Jamison Crowder and an uncharacteristically strong performance by their defense to beat the Baltimore Ravens 16-10 on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "BAL", 
-            "identity": {
-                "ESPNAPIID": "400874590"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Baltimore Ravens vs. Washington Redskins", 
-            "week": 5
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NE", 
             "date": "2016-10-09T17:02:00+00:00", 
             "description": "Tom Brady, looking razor-sharp at times and relatively rust-free after serving his four-game \"Deflategate\" suspension, passed for 406 yards and three touchdowns to Martellus Bennett on Sunday.", 
@@ -3892,17 +3777,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2016-10-09T17:03:00+00:00", 
+            "description": "The Washington Redskins used an 85-yard punt return by Jamison Crowder and an uncharacteristically strong performance by their defense to beat the Baltimore Ravens 16-10 on Sunday.", 
             "homeTeam": "BAL", 
             "identity": {
+                "ESPNAPIID": "400874590", 
                 "ProFootballReferenceID": "201610090rav", 
                 "TheSportsDBID": "514839"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2016", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Baltimore Ravens vs. Washington Redskins"
+            "vs": "Baltimore Ravens vs. Washington Redskins", 
+            "week": 5
         }, 
         {
             "assets": {
@@ -4181,33 +4071,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PHI", 
-            "date": "2016-10-16T17:00:00+00:00", 
-            "description": "Kirk Cousins threw for 263 yards and two touchdowns and the Washington Redskins ran roughshod over one of the NFL's top defenses in a 27-20 victory over the Philadelphia Eagles on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400874701"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "BAL", 
             "date": "2016-10-16T17:02:00+00:00", 
             "description": "A banged-up Odell Beckham Jr. turned a short fourth-and-1 pass into a winning 66-yard catch and run with 1:24 to play Sunday as the New York Giants snapped a three-game losing streak with a stunn", 
@@ -4406,17 +4269,22 @@
             }, 
             "awayTeam": "PHI", 
             "date": "2016-10-16T17:03:00+00:00", 
+            "description": "Kirk Cousins threw for 263 yards and two touchdowns and the Washington Redskins ran roughshod over one of the NFL's top defenses in a 27-20 victory over the Philadelphia Eagles on Sunday.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400874701", 
                 "ProFootballReferenceID": "201610160was", 
                 "TheSportsDBID": "514861"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2016", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles"
+            "vs": "Washington Redskins vs. Philadelphia Eagles", 
+            "week": 6
         }, 
         {
             "assets": {
@@ -4700,33 +4568,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2016-10-23T17:00:00+00:00", 
-            "description": "Matthew Stafford threw a go-ahead, 18-yard touchdown pass to Anquan Boldin with 16 seconds left to lift the Detroit Lions to a 20-17 win over the Washington Redskins on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "DET", 
-            "identity": {
-                "ESPNAPIID": "400874496"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Detroit Lions vs. Washington Redskins", 
-            "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "MIN", 
             "date": "2016-10-23T17:02:00+00:00", 
             "description": "Josh Huff returned a kickoff 98 yards for a touchdown, Carson Wentz outplayed Sam Bradford and the Eagles beat Minnesota 21-10 on Sunday, handing the Vikings their first loss of the season.", 
@@ -4836,17 +4677,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2016-10-23T17:02:00+00:00", 
+            "description": "Matthew Stafford threw a go-ahead, 18-yard touchdown pass to Anquan Boldin with 16 seconds left to lift the Detroit Lions to a 20-17 win over the Washington Redskins on Sunday.", 
             "homeTeam": "DET", 
             "identity": {
+                "ESPNAPIID": "400874496", 
                 "ProFootballReferenceID": "201610230det", 
                 "TheSportsDBID": "514940"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2016", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Detroit Lions vs. Washington Redskins"
+            "vs": "Detroit Lions vs. Washington Redskins", 
+            "week": 7
         }, 
         {
             "assets": {
@@ -5133,34 +4979,12 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2016-10-30T12:36:00+00:00", 
+            "description": "The Washington Redskins and Cincinnati Bengals played a 27-27 tie Sunday in London as the NFL got its second tied game in a season for the first time since 1997.", 
             "homeTeam": "CIN", 
             "identity": {
+                "ESPNAPIID": "400874555", 
                 "ProFootballReferenceID": "201610300cin", 
                 "TheSportsDBID": "515004"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cincinnati Bengals vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2016-10-30T13:30:00+00:00", 
-            "description": "The Washington Redskins and Cincinnati Bengals played a 27-27 tie Sunday in London as the NFL got its second tied game in a season for the first time since 1997.", 
-            "eventTitle": "", 
-            "homeTeam": "CIN", 
-            "identity": {
-                "ESPNAPIID": "400874555"
             }, 
             "league": "NFL", 
             "networks": [
@@ -5183,32 +5007,11 @@
             }, 
             "awayTeam": "ARI", 
             "date": "2016-10-30T16:47:00+00:00", 
-            "homeTeam": "CAR", 
-            "identity": {
-                "ProFootballReferenceID": "201610300car"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Carolina Panthers vs. Arizona Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ARI", 
-            "date": "2016-10-30T17:00:00+00:00", 
             "description": "Jonathan Stewart ran for 95 yards and two touchdowns, Thomas Davis returned a fumble 46 yards for a score and the Carolina Panthers snapped a four-game losing streak with a 30-20 victory over the", 
             "homeTeam": "CAR", 
             "identity": {
                 "ESPNAPIID": "400874625", 
+                "ProFootballReferenceID": "201610300car", 
                 "TheSportsDBID": "515013"
             }, 
             "league": "NFL", 
@@ -5990,33 +5793,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "MIN", 
-            "date": "2016-11-13T18:00:00+00:00", 
-            "description": "Kirk Cousins threw for two touchdowns, Preston Smith had two sacks and a game-altering interception, and the Washington Redskins beat the Minnesota Vikings 26-20 on Sunday for their first victory", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400874576"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Minnesota Vikings", 
-            "week": 10
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ATL", 
             "date": "2016-11-13T18:00:00+00:00", 
             "description": "Ryan Mathews ran for 108 yards and two touchdowns, a tenacious defense held down the league's highest-scoring offense and the Philadelphia Eagles beat the Atlanta Falcons 24-15 on Sunday.", 
@@ -6187,17 +5963,22 @@
             }, 
             "awayTeam": "MIN", 
             "date": "2016-11-13T18:00:00+00:00", 
+            "description": "Kirk Cousins threw for two touchdowns, Preston Smith had two sacks and a game-altering interception, and the Washington Redskins beat the Minnesota Vikings 26-20 on Sunday for their first victory", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400874576", 
                 "ProFootballReferenceID": "201611130was", 
                 "TheSportsDBID": "515151"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2016", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Minnesota Vikings"
+            "vs": "Washington Redskins vs. Minnesota Vikings", 
+            "week": 10
         }, 
         {
             "assets": {
@@ -6736,34 +6517,12 @@
             }, 
             "awayTeam": "GB", 
             "date": "2016-11-21T01:30:00+00:00", 
+            "description": "Kirk Cousins went deep late and often, throwing for 375 yards and three touchdowns to lead the Washington Redskins to a 42-24 victory over the free-falling Green Bay Packers on Sunday night.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400874704", 
                 "ProFootballReferenceID": "201611200was", 
                 "TheSportsDBID": "515213"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Green Bay Packers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "GB", 
-            "date": "2016-11-21T01:30:00+00:00", 
-            "description": "Kirk Cousins went deep late and often, throwing for 375 yards and three touchdowns to lead the Washington Redskins to a 42-24 victory over the free-falling Green Bay Packers on Sunday night.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400874704"
             }, 
             "league": "NFL", 
             "networks": [
@@ -6894,13 +6653,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2016-11-24T21:30:00+00:00", 
             "description": "Dak Prescott accounted for two touchdowns, fellow rookie Ezekiel Elliott ran for a pair of scores and the Dallas Cowboys beat the Washington Redskins 31-26 for their 10th straight win.", 
-            "eventTitle": "", 
             "homeTeam": "DAL", 
             "identity": {
-                "ESPNAPIID": "400874499"
+                "ESPNAPIID": "400874499", 
+                "ProFootballReferenceID": "201611240dal", 
+                "TheSportsDBID": "515233"
             }, 
             "league": "NFL", 
             "networks": [
@@ -6911,29 +6671,6 @@
             "subseason": 0, 
             "vs": "Dallas Cowboys vs. Washington Redskins", 
             "week": 12
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2016-11-24T21:30:00+00:00", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ProFootballReferenceID": "201611240dal", 
-                "TheSportsDBID": "515233"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -7382,34 +7119,12 @@
             }, 
             "awayTeam": "DAL", 
             "date": "2016-12-02T00:25:00+00:00", 
+            "description": "Dez Bryant caught four passes for 84 yards and the go-ahead touchdown in the fourth quarter, helping the Dallas Cowboys win their 11th straight game, 17-15 over the Minnesota Vikings.", 
             "homeTeam": "MIN", 
             "identity": {
+                "ESPNAPIID": "400874713", 
                 "ProFootballReferenceID": "201612010min", 
                 "TheSportsDBID": "515248"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Dallas Cowboys"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "2016-12-02T01:25:00+00:00", 
-            "description": "Dez Bryant caught four passes for 84 yards and the go-ahead touchdown in the fourth quarter, helping the Dallas Cowboys win their 11th straight game, 17-15 over the Minnesota Vikings.", 
-            "eventTitle": "", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ESPNAPIID": "400874713"
             }, 
             "league": "NFL", 
             "networks": [
@@ -7727,13 +7442,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2016-12-04T21:25:00+00:00", 
             "description": "Carson Palmer threw for 300 yards and three touchdowns, David Johnson scored twice and the Arizona Cardinals held on to beat the Washington Redskins 31-23 on Sunday.", 
-            "eventTitle": "", 
             "homeTeam": "ARI", 
             "identity": {
-                "ESPNAPIID": "400874726"
+                "ESPNAPIID": "400874726", 
+                "ProFootballReferenceID": "201612040crd", 
+                "TheSportsDBID": "515258"
             }, 
             "league": "NFL", 
             "networks": [
@@ -7744,29 +7460,6 @@
             "subseason": 0, 
             "vs": "Arizona Cardinals vs. Washington Redskins", 
             "week": 13
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2016-12-04T21:25:00+00:00", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "ProFootballReferenceID": "201612040crd", 
-                "TheSportsDBID": "515258"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Arizona Cardinals vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -8158,34 +7851,12 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2016-12-11T18:00:00+00:00", 
+            "description": "Chris Thompson's 25-yard touchdown run with 1:54 remaining lifted the Washington Redskins to a 27-22 victory over the Philadelphia Eagles on Sunday.", 
             "homeTeam": "PHI", 
             "identity": {
+                "ESPNAPIID": "400874552", 
                 "ProFootballReferenceID": "201612110phi", 
                 "TheSportsDBID": "515445"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2016-12-11T18:00:00+00:00", 
-            "description": "Chris Thompson's 25-yard touchdown run with 1:54 remaining lifted the Washington Redskins to a 27-22 victory over the Philadelphia Eagles on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "400874552"
             }, 
             "league": "NFL", 
             "networks": [
@@ -8846,34 +8517,12 @@
             }, 
             "awayTeam": "CAR", 
             "date": "2016-12-20T01:30:00+00:00", 
+            "description": "Kirk Cousins threw an interception and fumbled near his goal line as the Washington Redskins coughed up their easiest path to the playoffs with a 26-15 loss to the defending NFC champion Carolina", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400874716", 
                 "ProFootballReferenceID": "201612190was", 
                 "TheSportsDBID": "515468"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Carolina Panthers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CAR", 
-            "date": "2016-12-20T01:30:00+00:00", 
-            "description": "Kirk Cousins threw an interception and fumbled near his goal line as the Washington Redskins coughed up their easiest path to the playoffs with a 26-15 loss to the defending NFC champion Carolina", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400874716"
             }, 
             "league": "NFL", 
             "networks": [
@@ -8978,34 +8627,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "MIA", 
-            "date": "2016-12-24T18:00:00+00:00", 
-            "description": "Jay Ajayi ran for 206 yards and broke loose for a 53-yarder in overtime to set up Andrew Franks' 27-yard field goal to lead the Miami Dolphins to a 34-31 win over the Buffalo Bills.", 
-            "homeTeam": "BUF", 
-            "identity": {
-                "ESPNAPIID": "400874489", 
-                "ProFootballReferenceID": "201612240buf", 
-                "TheSportsDBID": "515470"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Buffalo Bills vs. Miami Dolphins", 
-            "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ATL", 
             "date": "2016-12-24T18:00:00+00:00", 
             "description": "Matt Ryan threw two touchdowns passes, Tevin Coleman had 135 yards from scrimmage, and the Atlanta Falcons moved a step closer to winning the NFC South.", 
@@ -9023,33 +8644,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Carolina Panthers vs. Atlanta Falcons", 
-            "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2016-12-24T18:00:00+00:00", 
-            "description": "Kirk Cousins threw for a touchdown and ran for two more, and the Washington Redskins gave their fading playoff hopes a boost with a 41-21 victory over the Chicago Bears on Saturday.", 
-            "eventTitle": "", 
-            "homeTeam": "CHI", 
-            "identity": {
-                "ESPNAPIID": "400874534"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Chicago Bears vs. Washington Redskins", 
             "week": 16
         }, 
         {
@@ -9090,17 +8684,50 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2016-12-24T18:00:00+00:00", 
+            "description": "Kirk Cousins threw for a touchdown and ran for two more, and the Washington Redskins gave their fading playoff hopes a boost with a 41-21 victory over the Chicago Bears on Saturday.", 
             "homeTeam": "CHI", 
             "identity": {
+                "ESPNAPIID": "400874534", 
                 "ProFootballReferenceID": "201612240chi", 
                 "TheSportsDBID": "515472"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2016", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Chicago Bears vs. Washington Redskins"
+            "vs": "Chicago Bears vs. Washington Redskins", 
+            "week": 16
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIA", 
+            "date": "2016-12-24T18:00:00+00:00", 
+            "description": "Jay Ajayi ran for 206 yards and broke loose for a 53-yarder in overtime to set up Andrew Franks' 27-yard field goal to lead the Miami Dolphins to a 34-31 win over the Buffalo Bills.", 
+            "homeTeam": "BUF", 
+            "identity": {
+                "ESPNAPIID": "400874489", 
+                "ProFootballReferenceID": "201612240buf", 
+                "TheSportsDBID": "515470"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2016", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Buffalo Bills vs. Miami Dolphins", 
+            "week": 16
         }, 
         {
             "assets": {
@@ -9452,6 +9079,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "LV", 
+            "date": "2017-01-01T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "DEN", 
+            "identity": {
+                "TheSportsDBID": "515534"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Football", 
+            "vs": "Denver Broncos vs Oakland Raiders"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "CHI", 
             "date": "2017-01-01T00:00:00+00:00", 
             "description": "", 
@@ -9486,6 +9135,72 @@
             "season": "2016", 
             "sport": "Football", 
             "vs": "Indianapolis Colts vs Jacksonville Jaguars"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYG", 
+            "date": "2017-01-01T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "TheSportsDBID": "515533"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Football", 
+            "vs": "Washington Redskins vs New York Giants"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ARI", 
+            "date": "2017-01-01T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "LAR", 
+            "identity": {
+                "TheSportsDBID": "523499"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Football", 
+            "vs": "St. Louis Rams vs Arizona Cardinals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "KC", 
+            "date": "2017-01-01T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "LAC", 
+            "identity": {
+                "TheSportsDBID": "535517"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Football", 
+            "vs": "San Diego Chargers vs Kansas City Chiefs"
         }, 
         {
             "assets": {
@@ -9640,6 +9355,28 @@
             "season": "2016", 
             "sport": "Football", 
             "vs": "New York Jets vs Buffalo Bills"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SEA", 
+            "date": "2017-01-01T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "SF", 
+            "identity": {
+                "TheSportsDBID": "515537"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Football", 
+            "vs": "San Francisco 49ers vs Seattle Seahawks"
         }, 
         {
             "assets": {
@@ -9904,11 +9641,9 @@
             }, 
             "awayTeam": "KC", 
             "date": "2017-01-01T21:25:00+00:00", 
-            "description": "", 
             "homeTeam": "LAC", 
             "identity": {
-                "ProFootballReferenceID": "201701010sdg", 
-                "TheSportsDBID": "535517"
+                "ProFootballReferenceID": "201701010sdg"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -9928,11 +9663,9 @@
             }, 
             "awayTeam": "LV", 
             "date": "2017-01-01T21:25:00+00:00", 
-            "description": "", 
             "homeTeam": "DEN", 
             "identity": {
-                "ProFootballReferenceID": "201701010den", 
-                "TheSportsDBID": "515534"
+                "ProFootballReferenceID": "201701010den"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -9950,41 +9683,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NYG", 
-            "date": "2017-01-01T21:25:00+00:00", 
-            "description": "Facing an opponent with nothing to play for, the Washington Redskins blew their chance to make the playoffs with an uninspired 19-10 loss to the New York Giants on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400874631"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2016", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SEA", 
             "date": "2017-01-01T21:25:00+00:00", 
             "description": "Russell Wilson threw for 258 yards and a TD and the Seattle Seahawks rallied from an early 11-point deficit to beat San Francisco 25-23 on Sunday in what could be coach Chip Kelly's final game.", 
+            "eventTitle": "", 
             "homeTeam": "SF", 
             "identity": {
                 "ESPNAPIID": "400874699", 
-                "ProFootballReferenceID": "201701010sfo", 
-                "TheSportsDBID": "515537"
+                "ProFootballReferenceID": "201701010sfo"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10008,11 +9714,11 @@
             "awayTeam": "ARI", 
             "date": "2017-01-01T21:25:00+00:00", 
             "description": "Carson Palmer threw TD passes to Jeremy Ross, Darren Fells and Larry Fitzgerald, as the Cardinals wrapped up a frustrating season with a 44-6 victory over the freefalling Rams.", 
+            "eventTitle": "", 
             "homeTeam": "LAR", 
             "identity": {
                 "ESPNAPIID": "400874692", 
-                "ProFootballReferenceID": "201701010ram", 
-                "TheSportsDBID": "523499"
+                "ProFootballReferenceID": "201701010ram"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10035,18 +9741,22 @@
             }, 
             "awayTeam": "NYG", 
             "date": "2017-01-01T21:25:00+00:00", 
-            "description": "", 
+            "description": "Facing an opponent with nothing to play for, the Washington Redskins blew their chance to make the playoffs with an uninspired 19-10 loss to the New York Giants on Sunday.", 
+            "eventTitle": "", 
             "homeTeam": "WAS", 
             "identity": {
-                "ProFootballReferenceID": "201701010was", 
-                "TheSportsDBID": "515533"
+                "ESPNAPIID": "400874631", 
+                "ProFootballReferenceID": "201701010was"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2016", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants"
+            "vs": "Washington Redskins vs. New York Giants", 
+            "week": 17
         }, 
         {
             "assets": {

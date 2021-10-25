@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2014SCHEDULE", 
-        "CachedOn": "2021-10-12T10:18:45", 
-        "ExpiresOn": "2021-10-19T10:18:45", 
+        "CachedOn": "2021-10-24T22:48:59", 
+        "ExpiresOn": "2021-10-31T22:48:59", 
         "Version": "2"
     }, 
     "Items": [
@@ -95,7 +95,7 @@
             "date": "2014-08-07T23:30:00+00:00", 
             "description": "Brady sits; RG3 gets a series as Redskins top Pats", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "400554677"
             }, 
@@ -295,6 +295,31 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "PHI", 
+            "date": "2014-08-09T00:00:00+00:00", 
+            "description": "QBs look sharp, Bears beat Eagles 34-28", 
+            "eventTitle": "", 
+            "homeTeam": "CHI", 
+            "identity": {
+                "ESPNAPIID": "400554719"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Chicago Bears vs. Philadelphia Eagles", 
+            "week": 1
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "NO", 
             "date": "2014-08-09T00:00:00+00:00", 
             "description": "Mark Ingram had eight carries for 83 yards and a 22-yard touchdown in the first half, and the New Orleans Saints won their preseason opener without Drew Brees, beating the St. Louis Rams 26-24 on Friday night.", 
@@ -311,31 +336,6 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "St. Louis Rams vs. New Orleans Saints", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "2014-08-09T00:00:00+00:00", 
-            "description": "QBs look sharp, Bears beat Eagles 34-28", 
-            "eventTitle": "", 
-            "homeTeam": "CHI", 
-            "identity": {
-                "ESPNAPIID": "400554719"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Chicago Bears vs. Philadelphia Eagles", 
             "week": 1
         }, 
         {
@@ -867,7 +867,7 @@
             "date": "2014-08-19T00:00:00+00:00", 
             "description": "Johnny Manziel struggled to hit open receivers and added another gesture to his repertoire -- a middle finger apparently aimed at the opponents' bench -- in the Cleveland Browns' 24-23 loss to the Washington Redskins on Monday night.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "400551876"
             }, 
@@ -1123,7 +1123,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2014-08-23T23:30:00+00:00", 
             "description": "Flacco's TD pass helps Ravens beat Redskins 23-17", 
             "eventTitle": "", 
@@ -1506,7 +1506,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2014-08-28T23:30:00+00:00", 
             "description": "RG III, Cousins sit, Redskins beat Bucs 24-10", 
             "eventTitle": "", 
@@ -1817,33 +1817,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2014-09-07T17:00:00+00:00", 
-            "description": "Rookie Alfred Blue blocked a punt and returned it for a touchdown and J.J. Watt lived up to his massive new contract to help the Houston Texans snap a 14-game losing streak with a 17-6 win over Washington on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "HOU", 
-            "identity": {
-                "ESPNAPIID": "400554256"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Houston Texans vs. Washington Redskins", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "MIN", 
             "date": "2014-09-07T17:00:00+00:00", 
             "description": "Patterson shines, Vikings whip Rams", 
@@ -2039,9 +2012,10 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2014-09-07T17:03:00+00:00", 
-            "description": "", 
+            "description": "Rookie Alfred Blue blocked a punt and returned it for a touchdown and J.J. Watt lived up to his massive new contract to help the Houston Texans snap a 14-game losing streak with a 17-6 win over Washington on Sunday.", 
             "homeTeam": "HOU", 
             "identity": {
+                "ESPNAPIID": "400554256", 
                 "ProFootballReferenceID": "201409070htx", 
                 "TheSportsDBID": "448145"
             }, 
@@ -2052,7 +2026,8 @@
             "season": "2014", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Houston Texans vs. Washington Redskins"
+            "vs": "Houston Texans vs. Washington Redskins", 
+            "week": 1
         }, 
         {
             "assets": {
@@ -2283,33 +2258,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "JAX", 
-            "date": "2014-09-14T17:00:00+00:00", 
-            "description": "RG3, D-Jax hurt as Redskins top Jaguars 41-10", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400554202"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Jacksonville Jaguars", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "MIA", 
             "date": "2014-09-14T17:02:00+00:00", 
             "description": "C.J. Spiller scored on a 102-yard kickoff return, and rookie receiver Sammy Watkins had a 12-yard touchdown catch in leading the Buffalo Bills to a 29-10 win over the Miami Dolphins on Sunday.", 
@@ -2480,9 +2428,10 @@
             }, 
             "awayTeam": "JAX", 
             "date": "2014-09-14T17:05:00+00:00", 
-            "description": "", 
+            "description": "RG3, D-Jax hurt as Redskins top Jaguars 41-10", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400554202", 
                 "ProFootballReferenceID": "201409140was", 
                 "TheSportsDBID": "448160"
             }, 
@@ -2493,7 +2442,8 @@
             "season": "2014", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Jacksonville Jaguars"
+            "vs": "Washington Redskins vs. Jacksonville Jaguars", 
+            "week": 2
         }, 
         {
             "assets": {
@@ -2832,33 +2782,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2014-09-21T17:00:00+00:00", 
-            "description": "Rookie Jordan Matthews, the receiver who replaced DeSean Jackson in Philadelphia, caught two touchdown passes, and the Eagles beat Jackson and his Washington Redskins 37-34 on Sunday in a nasty game marred by a fourth-quarter brawl.", 
-            "eventTitle": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "400554203"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins", 
-            "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "OAK", 
             "date": "2014-09-21T17:00:00+00:00", 
             "description": "Patriots' sluggish offense beats Raiders 16-9", 
@@ -3078,8 +3001,10 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2014-09-21T17:02:00+00:00", 
+            "description": "Rookie Jordan Matthews, the receiver who replaced DeSean Jackson in Philadelphia, caught two touchdown passes, and the Eagles beat Jackson and his Washington Redskins 37-34 on Sunday in a nasty game marred by a fourth-quarter brawl.", 
             "homeTeam": "PHI", 
             "identity": {
+                "ESPNAPIID": "400554203", 
                 "ProFootballReferenceID": "201409210phi", 
                 "TheSportsDBID": "448174"
             }, 
@@ -3090,7 +3015,8 @@
             "season": "2014", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
+            "vs": "Philadelphia Eagles vs. Washington Redskins", 
+            "week": 3
         }, 
         {
             "assets": {
@@ -3352,12 +3278,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "NYG", 
-            "date": "2014-09-26T00:25:00+00:00", 
+            "date": "2014-09-26T00:26:00+00:00", 
             "description": "Eli Manning (5 TDs), Larry Donnell (3) star as Giants rout Redskins 45-14", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "400554201"
+                "ESPNAPIID": "400554201", 
+                "ProFootballReferenceID": "201409250was", 
+                "TheSportsDBID": "448188"
             }, 
             "league": "NFL", 
             "networks": [
@@ -3369,32 +3296,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. New York Giants", 
             "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYG", 
-            "date": "2014-09-26T00:26:00+00:00", 
-            "description": "", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "201409250was", 
-                "TheSportsDBID": "448188"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants"
         }, 
         {
             "assets": {
@@ -4206,6 +4107,30 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "SEA", 
+            "date": "2014-10-06T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "TheSportsDBID": "448215"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "ESPN"
+            ], 
+            "season": "2014", 
+            "sport": "Football", 
+            "vs": "Washington Redskins vs Seattle Seahawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "CIN", 
             "date": "2014-10-06T00:43:00+00:00", 
             "description": "Tom Brady became the sixth quarterback to throw for 50,000 career yards when he hit Rob Gronkowski on a 27-yard pass in the first quarter of the Patriots' game against the Bengals on Sunday.", 
@@ -4236,37 +4161,12 @@
             }, 
             "awayTeam": "SEA", 
             "date": "2014-10-07T00:30:00+00:00", 
-            "description": "", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "201410060was", 
-                "TheSportsDBID": "448215"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "ESPN"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Seattle Seahawks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SEA", 
-            "date": "2014-10-07T00:30:00+00:00", 
             "description": "Russell Wilson rushed for a career-high 122 yards and a touchdown Monday night, and the Seattle Seahawks overcame more than a dozen penalties in a 27-17 victory over the Washington Redskins.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "400554282"
+                "ESPNAPIID": "400554282", 
+                "ProFootballReferenceID": "201410060was"
             }, 
             "league": "NFL", 
             "networks": [
@@ -4621,13 +4521,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2014-10-12T20:25:00+00:00", 
             "description": "Palmer returns, leads Arizona to win over Redskins", 
-            "eventTitle": "", 
             "homeTeam": "ARI", 
             "identity": {
-                "ESPNAPIID": "400554308"
+                "ESPNAPIID": "400554308", 
+                "ProFootballReferenceID": "201410120crd", 
+                "TheSportsDBID": "481642"
             }, 
             "league": "NFL", 
             "networks": [
@@ -4638,30 +4539,6 @@
             "subseason": 0, 
             "vs": "Arizona Cardinals vs. Washington Redskins", 
             "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2014-10-12T20:25:00+00:00", 
-            "description": "", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "ProFootballReferenceID": "201410120crd", 
-                "TheSportsDBID": "481642"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Arizona Cardinals vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -4864,33 +4741,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "TEN", 
-            "date": "2014-10-19T17:00:00+00:00", 
-            "description": "Kai Forbath kicked a 22-yard field goal on the last play of the game, and Colt McCoy stepped in after Kirk Cousins was benched at halftime Sunday to lead the Washington Redskins to a 19-17 win over the Tennessee Titans.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400554233"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Tennessee Titans", 
-            "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SEA", 
             "date": "2014-10-19T17:00:00+00:00", 
             "description": "Punter Johnny Hekker's pass from the St. Louis 18 caught the Seattle Seahawks by surprise for the last of three big plays by Rams special teams in a 28-26 victory over the defending Super Bowl champions on Sunday.", 
@@ -4948,9 +4798,10 @@
             }, 
             "awayTeam": "TEN", 
             "date": "2014-10-19T17:02:00+00:00", 
-            "description": "", 
+            "description": "Kai Forbath kicked a 22-yard field goal on the last play of the game, and Colt McCoy stepped in after Kirk Cousins was benched at halftime Sunday to lead the Washington Redskins to a 19-17 win over the Tennessee Titans.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400554233", 
                 "ProFootballReferenceID": "201410190was", 
                 "TheSportsDBID": "448239"
             }, 
@@ -4961,7 +4812,8 @@
             "season": "2014", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Tennessee Titans"
+            "vs": "Washington Redskins vs. Tennessee Titans", 
+            "week": 7
         }, 
         {
             "assets": {
@@ -5409,34 +5261,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "BUF", 
-            "date": "2014-10-26T17:02:00+00:00", 
-            "description": "Kyle Orton threw four touchdown passes and the Buffalo Bills forced the New York Jets into six turnovers -- three each by Geno Smith and Michael Vick -- in a 43-23 rout Sunday.", 
-            "homeTeam": "NYJ", 
-            "identity": {
-                "ESPNAPIID": "400554298", 
-                "ProFootballReferenceID": "201410260nyj", 
-                "TheSportsDBID": "481647"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Jets vs. Buffalo Bills", 
-            "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "MIA", 
             "date": "2014-10-26T17:02:00+00:00", 
             "description": "Bortles' mistakes help Dolphins beat Jaguars 27-13", 
@@ -5454,6 +5278,34 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Jacksonville Jaguars vs. Miami Dolphins", 
+            "week": 8
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BUF", 
+            "date": "2014-10-26T17:02:00+00:00", 
+            "description": "Kyle Orton threw four touchdown passes and the Buffalo Bills forced the New York Jets into six turnovers -- three each by Geno Smith and Michael Vick -- in a 43-23 rout Sunday.", 
+            "homeTeam": "NYJ", 
+            "identity": {
+                "ESPNAPIID": "400554298", 
+                "ProFootballReferenceID": "201410260nyj", 
+                "TheSportsDBID": "481647"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2014", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New York Jets vs. Buffalo Bills", 
             "week": 8
         }, 
         {
@@ -5772,37 +5624,12 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2014-10-28T00:30:00+00:00", 
-            "description": "", 
+            "description": "Colt McCoy directed Washington to Kai Forbath's 40-yard field goal in OT and Dallas was unable to answer after Tony Romo returned from an apparent injury, sending the Redskins to a 20-17 victory Monday that snapped the Cowboys' six-game winning streak.", 
             "homeTeam": "DAL", 
             "identity": {
+                "ESPNAPIID": "400554336", 
                 "ProFootballReferenceID": "201410270dal", 
                 "TheSportsDBID": "448260"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "ESPN"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2014-10-28T00:30:00+00:00", 
-            "description": "Colt McCoy directed Washington to Kai Forbath's 40-yard field goal in OT and Dallas was unable to answer after Tony Romo returned from an apparent injury, sending the Redskins to a 20-17 victory Monday that snapped the Cowboys' six-game winning streak.", 
-            "eventTitle": "", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ESPNAPIID": "400554336"
             }, 
             "league": "NFL", 
             "networks": [
@@ -5841,33 +5668,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Carolina Panthers vs. New Orleans Saints", 
-            "week": 9
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2014-11-02T18:00:00+00:00", 
-            "description": "Vikings ruin RG3's return, top Redskins 29-26", 
-            "eventTitle": "", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ESPNAPIID": "400554351"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Washington Redskins", 
             "week": 9
         }, 
         {
@@ -5990,9 +5790,10 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2014-11-02T18:03:00+00:00", 
-            "description": "", 
+            "description": "Vikings ruin RG3's return, top Redskins 29-26", 
             "homeTeam": "MIN", 
             "identity": {
+                "ESPNAPIID": "400554351", 
                 "ProFootballReferenceID": "201411020min", 
                 "TheSportsDBID": "448268"
             }, 
@@ -6003,7 +5804,8 @@
             "season": "2014", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Washington Redskins"
+            "vs": "Minnesota Vikings vs. Washington Redskins", 
+            "week": 9
         }, 
         {
             "assets": {
@@ -6566,30 +6368,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "LAR", 
-            "date": "2014-11-09T21:25:00+00:00", 
-            "description": "", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "ProFootballReferenceID": "201411090crd", 
-                "TheSportsDBID": "481651"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Arizona Cardinals vs. St. Louis Rams"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "STL", 
             "date": "2014-11-09T21:25:00+00:00", 
             "description": "Carson Palmer went down with a fourth-quarter knee injury, then backup Drew Stanton and the Arizona defense rallied the Cardinals to a 31-14 victory over the St. Louis Rams on Sunday.", 
@@ -6607,6 +6385,30 @@
             "subseason": 0, 
             "vs": "Arizona Cardinals vs. St. Louis Rams", 
             "week": 10
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LAR", 
+            "date": "2014-11-09T21:25:00+00:00", 
+            "description": "", 
+            "homeTeam": "ARI", 
+            "identity": {
+                "ProFootballReferenceID": "201411090crd", 
+                "TheSportsDBID": "481651"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Arizona Cardinals vs. St. Louis Rams"
         }, 
         {
             "assets": {
@@ -6718,33 +6520,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Miami Dolphins vs. Buffalo Bills", 
-            "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "TB", 
-            "date": "2014-11-16T18:00:00+00:00", 
-            "description": "Rookie Mike Evans had 209 yards receiving and two touchdowns Sunday, and the Tampa Bay Buccaneers broke a five-game losing streak with a 27-7 win over the Washington Redskins.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400554378"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Tampa Bay Buccaneers", 
             "week": 11
         }, 
         {
@@ -6896,9 +6671,10 @@
             }, 
             "awayTeam": "TB", 
             "date": "2014-11-16T18:03:00+00:00", 
-            "description": "", 
+            "description": "Rookie Mike Evans had 209 yards receiving and two touchdowns Sunday, and the Tampa Bay Buccaneers broke a five-game losing streak with a 27-7 win over the Washington Redskins.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400554378", 
                 "ProFootballReferenceID": "201411160was", 
                 "TheSportsDBID": "448294"
             }, 
@@ -6909,7 +6685,8 @@
             "season": "2014", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Tampa Bay Buccaneers"
+            "vs": "Washington Redskins vs. Tampa Bay Buccaneers", 
+            "week": 11
         }, 
         {
             "assets": {
@@ -7525,9 +7302,10 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2014-11-23T21:25:00+00:00", 
-            "description": "", 
+            "description": "Carlos Hyde ran for a go-ahead, 4-yard touchdown with 2:59 remaining, and the San Francisco 49ers squeaked by the lowly Washington Redskins with a 17-13 win Sunday that kept them in the thick of the playoff chase.", 
             "homeTeam": "SF", 
             "identity": {
+                "ESPNAPIID": "400554365", 
                 "ProFootballReferenceID": "201411230sfo", 
                 "TheSportsDBID": "448312"
             }, 
@@ -7538,7 +7316,8 @@
             "season": "2014", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "San Francisco 49ers vs. Washington Redskins"
+            "vs": "San Francisco 49ers vs. Washington Redskins", 
+            "week": 12
         }, 
         {
             "assets": {
@@ -7566,33 +7345,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Denver Broncos vs. Miami Dolphins", 
-            "week": 12
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2014-11-23T21:25:00+00:00", 
-            "description": "Carlos Hyde ran for a go-ahead, 4-yard touchdown with 2:59 remaining, and the San Francisco 49ers squeaked by the lowly Washington Redskins with a 17-13 win Sunday that kept them in the thick of the playoff chase.", 
-            "eventTitle": "", 
-            "homeTeam": "SF", 
-            "identity": {
-                "ESPNAPIID": "400554365"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "San Francisco 49ers vs. Washington Redskins", 
             "week": 12
         }, 
         {
@@ -7843,33 +7595,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2014-11-30T18:00:00+00:00", 
-            "description": "Luck leads Colts past Redskins 49-27", 
-            "eventTitle": "", 
-            "homeTeam": "IND", 
-            "identity": {
-                "ESPNAPIID": "400554292"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Indianapolis Colts vs. Washington Redskins", 
-            "week": 13
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "LV", 
             "date": "2014-11-30T18:00:00+00:00", 
             "description": "", 
@@ -7979,9 +7704,10 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2014-11-30T18:02:00+00:00", 
-            "description": "", 
+            "description": "Luck leads Colts past Redskins 49-27", 
             "homeTeam": "IND", 
             "identity": {
+                "ESPNAPIID": "400554292", 
                 "ProFootballReferenceID": "201411300clt", 
                 "TheSportsDBID": "448321"
             }, 
@@ -7992,7 +7718,8 @@
             "season": "2014", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Indianapolis Colts vs. Washington Redskins"
+            "vs": "Indianapolis Colts vs. Washington Redskins", 
+            "week": 13
         }, 
         {
             "assets": {
@@ -8288,7 +8015,7 @@
             "date": "2014-12-07T18:00:00+00:00", 
             "description": "Rams top Redskins 24-0 for 2nd straight shutout", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "400554379"
             }, 
@@ -8857,33 +8584,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2014-12-14T18:00:00+00:00", 
-            "description": "Manning hits Beckham on 3 TD passes as Giants win", 
-            "eventTitle": "", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ESPNAPIID": "400554350"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins", 
-            "week": 15
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "MIA", 
             "date": "2014-12-14T18:02:00+00:00", 
             "description": "The New England Patriots clinched the AFC East title for the sixth straight season as Tom Brady threw two touchdown passes in a big third quarter that carried them to a 41-13 win over the Miami Dolphins on Sunday.", 
@@ -9027,9 +8727,10 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2014-12-14T18:02:00+00:00", 
-            "description": "", 
+            "description": "Manning hits Beckham on 3 TD passes as Giants win", 
             "homeTeam": "NYG", 
             "identity": {
+                "ESPNAPIID": "400554350", 
                 "ProFootballReferenceID": "201412140nyg", 
                 "TheSportsDBID": "448356"
             }, 
@@ -9040,7 +8741,8 @@
             "season": "2014", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins"
+            "vs": "New York Giants vs. Washington Redskins", 
+            "week": 15
         }, 
         {
             "assets": {
@@ -9358,13 +9060,15 @@
             "awayTeam": "PHI", 
             "date": "2014-12-20T21:30:00+00:00", 
             "description": "The Philadelphia Eagles are on the brink of elimination from the playoff race after a 27-24 loss to the Washington Redskins on Saturday.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "400554366"
+                "ESPNAPIID": "400554366", 
+                "ProFootballReferenceID": "201412200was", 
+                "TheSportsDBID": "448366"
             }, 
             "league": "NFL", 
             "networks": [
+                "CBS", 
                 "NFL"
             ], 
             "season": "2014", 
@@ -9372,32 +9076,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. Philadelphia Eagles", 
             "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "2014-12-20T21:30:00+00:00", 
-            "description": "", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "201412200was", 
-                "TheSportsDBID": "448366"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles"
         }, 
         {
             "assets": {
@@ -9873,33 +9551,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DAL", 
-            "date": "2014-12-28T18:00:00+00:00", 
-            "description": "With pressure off, Cowboys top Redskins 44-17", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400554407"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SD", 
             "date": "2014-12-28T18:00:00+00:00", 
             "description": "The Kansas City Chiefs beat San Diego 19-7 on Sunday to eliminate the Chargers from playoff contention, moments before they were eliminated themselves by games happening elsewhere.", 
@@ -10178,9 +9829,10 @@
             }, 
             "awayTeam": "DAL", 
             "date": "2014-12-28T18:05:00+00:00", 
-            "description": "", 
+            "description": "With pressure off, Cowboys top Redskins 44-17", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400554407", 
                 "ProFootballReferenceID": "201412280was", 
                 "TheSportsDBID": "448392"
             }, 
@@ -10191,7 +9843,8 @@
             "season": "2014", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys"
+            "vs": "Washington Redskins vs. Dallas Cowboys", 
+            "week": 17
         }, 
         {
             "assets": {
@@ -10543,14 +10196,57 @@
                 "thumbnail": []
             }, 
             "awayTeam": "BAL", 
+            "date": "2015-01-10T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "NE", 
+            "identity": {
+                "TheSportsDBID": "453995"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Football", 
+            "vs": "New England Patriots vs Baltimore Ravens"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CAR", 
+            "date": "2015-01-10T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "SEA", 
+            "identity": {
+                "TheSportsDBID": "453996"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Football", 
+            "vs": "Seattle Seahawks vs Carolina Panthers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BAL", 
             "date": "2015-01-10T21:35:00+00:00", 
             "description": "Tom Brady's third touchdown pass gave New England its first lead with about five minutes remaining and the Patriots reached their fourth straight AFC championship game with a 35-31 win over the Baltimore Ravens on Saturday.", 
             "eventTitle": "AFC DIVISIONAL PLAYOFF", 
             "homeTeam": "NE", 
             "identity": {
                 "ESPNAPIID": "400749515", 
-                "ProFootballReferenceID": "201501100nwe", 
-                "TheSportsDBID": "453995"
+                "ProFootballReferenceID": "201501100nwe"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10572,6 +10268,50 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "IND", 
+            "date": "2015-01-11T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "DEN", 
+            "identity": {
+                "TheSportsDBID": "453998"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Football", 
+            "vs": "Denver Broncos vs Indianapolis Colts"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DAL", 
+            "date": "2015-01-11T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "GB", 
+            "identity": {
+                "TheSportsDBID": "453997"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Football", 
+            "vs": "Green Bay Packers vs Dallas Cowboys"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "CAR", 
             "date": "2015-01-11T01:21:00+00:00", 
             "description": "SEATTLE -- Russell Wilson threw three touchdown passes, Kam Chancellor returned an interception 90 yards for a touchdown, and the Seattle Seahawks beat the Carolina Panthers 31-17 on Saturday night in the NFC divisional playoff game.", 
@@ -10579,8 +10319,7 @@
             "homeTeam": "SEA", 
             "identity": {
                 "ESPNAPIID": "400749516", 
-                "ProFootballReferenceID": "201501100sea", 
-                "TheSportsDBID": "453996"
+                "ProFootballReferenceID": "201501100sea"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10609,8 +10348,7 @@
             "homeTeam": "GB", 
             "identity": {
                 "ESPNAPIID": "400749518", 
-                "ProFootballReferenceID": "201501110gnb", 
-                "TheSportsDBID": "453997"
+                "ProFootballReferenceID": "201501110gnb"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10639,8 +10377,7 @@
             "homeTeam": "DEN", 
             "identity": {
                 "ESPNAPIID": "400749517", 
-                "ProFootballReferenceID": "201501110den", 
-                "TheSportsDBID": "453998"
+                "ProFootballReferenceID": "201501110den"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10662,6 +10399,50 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "IND", 
+            "date": "2015-01-18T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "NE", 
+            "identity": {
+                "TheSportsDBID": "454000"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Football", 
+            "vs": "New England Patriots vs Indianapolis Colts"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "GB", 
+            "date": "2015-01-18T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "SEA", 
+            "identity": {
+                "TheSportsDBID": "453999"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Football", 
+            "vs": "Seattle Seahawks vs Green Bay Packers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "GB", 
             "date": "2015-01-18T20:06:00+00:00", 
             "description": "Russell Wilson hit Jermaine Kearse for a 35-yard touchdown 3:19 into overtime to lift the Seattle Seahawks to an improbable 28-22 victory over Green Bay in the NFC championship game.", 
@@ -10669,8 +10450,7 @@
             "homeTeam": "SEA", 
             "identity": {
                 "ESPNAPIID": "400749519", 
-                "ProFootballReferenceID": "201501180sea", 
-                "TheSportsDBID": "453999"
+                "ProFootballReferenceID": "201501180sea"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10699,8 +10479,7 @@
             "homeTeam": "NE", 
             "identity": {
                 "ESPNAPIID": "400749520", 
-                "ProFootballReferenceID": "201501180nwe", 
-                "TheSportsDBID": "454000"
+                "ProFootballReferenceID": "201501180nwe"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10742,6 +10521,30 @@
         }, 
         {
             "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SEA", 
+            "date": "2015-02-01T23:30:00+00:00", 
+            "eventTitle": "Superbowl XLIX", 
+            "homeTeam": "NE", 
+            "identity": {
+                "ProFootballReferenceID": "201502010sea"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Football", 
+            "subseason": 1, 
+            "subseasonTitle": "Superbowl XLIX", 
+            "vs": "New England Patriots vs. Seattle Seahawks"
+        }, 
+        {
+            "assets": {
                 "banner": [
                     {
                         "source": "thesportsdb", 
@@ -10765,35 +10568,14 @@
                 "thumbnail": []
             }, 
             "awayTeam": "NE", 
-            "date": "2015-02-01T21:30:00+00:00", 
-            "description": "Super Bowl XLIX was an American football game played to determine the champion of the National Football League (NFL) for the 2014 season. The American Football Conference (AFC) champion New England Patriots defeated the National Football Conference (NFC) champion Seattle Seahawks, 28\u201324, to earn their fourth Super Bowl title. The game was played on February 1, 2015, at University of Phoenix Stadium in Glendale, Arizona. It was the second time the stadium has hosted a Super Bowl, and the third one held in the Phoenix metropolitan area.\r\n\r\nThe Seahawks finished the regular season with a 12\u20134 record and made their second consecutive appearance in the Super Bowl, having defeated the Denver Broncos, 43\u20138, in Super Bowl XLVIII, while the Patriots, who also posted a 12\u20134 record, joined the Dallas Cowboys and Pittsburgh Steelers as one of the three teams to have made eight appearances in the Super Bowl. For the second straight season, but only the third time in the prior 21 seasons, the number one seeds from both conferences met in the league championship game. Seattle became the first team to appear in consecutive Super Bowls since New England won two straight (XXXVIII and XXXIX).\r\n\r\nAfter the teams were tied 14\u201314 at halftime, the Seahawks built a ten-point lead to end the third quarter. The Patriots, however, rallied to take a 28\u201324 lead with roughly two minutes left in the game. Seattle threatened to score in the final moments, driving the ball to New England's 1-yard line. With 26 seconds remaining in the game, they decided to pass the ball in a highly scrutinized play that resulted in Patriots rookie Malcolm Butler making a game-saving interception of Russell Wilson's throw. Patriots quarterback Tom Brady was named the game's Most Valuable Player (MVP) after a Super Bowl-record 37 completions on 50 attempts for 328 yards, four touchdowns, and two interceptions.\r\n\r\nNBC's broadcast of Super Bowl XLIX is the most watched program in American television history, surpassing the previous year's game. The game was seen by an average of 114.4 million viewers, with it reaching to 118.5 million during the Super Bowl XLIX halftime show featuring Katy Perry, and then peaking to 120.8 million during New England's fourth-quarter comeback.", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "TheSportsDBID": "454001"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Football", 
-            "vs": "Seattle Seahawks vs New England Patriots"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NE", 
             "date": "2015-02-01T23:30:00+00:00", 
             "description": "Tom Brady threw for four touchdowns and Malcolm Butler intercepted Russell Wilson's pass in the end zone with 20 seconds left, helping the New England Patriots hold on to beat the Seattle Seahawks 28-24 Sunday night for their fourth Super Bowl title.", 
             "eventTitle": "SUPER BOWL XLIX", 
             "eventindicator": 1, 
             "homeTeam": "SEA", 
             "identity": {
-                "ESPNAPIID": "400749027"
+                "ESPNAPIID": "400749027", 
+                "TheSportsDBID": "454001"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10804,30 +10586,6 @@
             "sport": "Football", 
             "subseason": 1, 
             "vs": "Seattle Seahawks vs. New England Patriots"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SEA", 
-            "date": "2015-02-01T23:30:00+00:00", 
-            "eventTitle": "Superbowl XLIX", 
-            "homeTeam": "NE", 
-            "identity": {
-                "ProFootballReferenceID": "201502010sea"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Football", 
-            "subseason": 1, 
-            "subseasonTitle": "Superbowl XLIX", 
-            "vs": "New England Patriots vs. Seattle Seahawks"
         }
     ]
 }

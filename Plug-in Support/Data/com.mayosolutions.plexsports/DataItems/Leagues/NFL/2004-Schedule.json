@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2004SCHEDULE", 
-        "CachedOn": "2021-10-12T08:34:54", 
-        "ExpiresOn": "2021-10-19T08:34:54", 
+        "CachedOn": "2021-10-24T22:05:22", 
+        "ExpiresOn": "2021-10-31T22:05:22", 
         "Version": "2"
     }, 
     "Items": [
@@ -19,7 +19,7 @@
             "date": "2004-08-10T00:00:00+00:00", 
             "description": "While his Washington Redskins beat the Denver Broncos 20-17 on a last-second 39-yard field goal by Ola Kimrin on Monday night in the Hall of Fame game, Joe Gibbs saw enough mistakes to fill an entire preseason. And then some.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "240809028"
             }, 
@@ -238,31 +238,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CAR", 
-            "date": "2004-08-15T00:00:00+00:00", 
-            "description": "Mark Brunell made his move in the Washington Redskins' quarterbacks competition, but the Carolina\r\nPanthers spoiled Joe Gibbs' homecoming Saturday night with a 23-20 preseason victory in overtime.\r\n", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "240814028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Washington Redskins vs. Carolina Panthers", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CLE", 
             "date": "2004-08-15T00:00:00+00:00", 
             "description": "Chris Brown gave the Tennessee Titans an\r\nearly reason not to miss Eddie George. Jeff Garcia will need a little more time to make a good impression on the Cleveland Browns.\r\n", 
@@ -352,6 +327,31 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "Houston Texans vs. Dallas Cowboys", 
+            "week": 1
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CAR", 
+            "date": "2004-08-15T00:00:00+00:00", 
+            "description": "Mark Brunell made his move in the Washington Redskins' quarterbacks competition, but the Carolina\r\nPanthers spoiled Joe Gibbs' homecoming Saturday night with a 23-20 preseason victory in overtime.\r\n", 
+            "eventTitle": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ESPNAPIID": "240814028"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2004", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Washington Redskins vs. Carolina Panthers", 
             "week": 1
         }, 
         {
@@ -638,7 +638,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2004-08-21T23:30:00+00:00", 
             "description": "The Washington Redskins ran for 181 yards, controlled the ball for 41 minutes to beat the Miami Dolphins 17-0 Saturday night.\r\n", 
             "eventTitle": "", 
@@ -913,7 +913,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2004-08-28T00:00:00+00:00", 
             "description": "Torry Holt and the St. Louis Rams finally had\r\nsomething to celebrate.\r\n", 
             "eventTitle": "", 
@@ -1542,7 +1542,7 @@
             "date": "2004-09-03T23:00:00+00:00", 
             "description": "Mark Brunell opened the game with a\r\ntouchdown drive and was done for the night. Michael Vick opened with an interception and never did produce a play for positive yardage.\r\n", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "240903028"
             }, 
@@ -1765,31 +1765,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "TB", 
-            "date": "2004-09-12T17:00:00+00:00", 
-            "description": "Clinton Portis ran for 149 yards Sunday, and turnovers set up two of three field goals by John Hall to give the Washington Redskins a 16-10 victory over the Tampa Bay Buccaneers to welcome Gibbs back to the NFL.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "240912028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Tampa Bay Buccaneers", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "OAK", 
             "date": "2004-09-12T17:00:00+00:00", 
             "description": "The Steelers returned to their roots -- a strong running game and creative pressure defense -- to open an early two-touchdown lead, then held off several Oakland comebacks to win 24-21 Sunday.", 
@@ -1964,8 +1939,10 @@
             }, 
             "awayTeam": "TB", 
             "date": "2004-09-12T17:06:00+00:00", 
+            "description": "Clinton Portis ran for 149 yards Sunday, and turnovers set up two of three field goals by John Hall to give the Washington Redskins a 16-10 victory over the Tampa Bay Buccaneers to welcome Gibbs back to the NFL.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "240912028", 
                 "ProFootballReferenceID": "200409120was", 
                 "TheSportsDBID": "493608"
             }, 
@@ -1974,7 +1951,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Tampa Bay Buccaneers"
+            "vs": "Washington Redskins vs. Tampa Bay Buccaneers", 
+            "week": 1
         }, 
         {
             "assets": {
@@ -2218,31 +2196,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2004-09-19T17:00:00+00:00", 
-            "description": "Linebacker Barrett Green scored on a 16-yard fumble return and New York forced seven turnovers in a 20-14 win Sunday that handed Joe Gibbs his first loss in his second stint with Washington.", 
-            "eventTitle": "", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ESPNAPIID": "240919019"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CHI", 
             "date": "2004-09-19T17:02:00+00:00", 
             "description": "Mike Brown's 95-yard fumble return for a touchdown sparked the Bears' 21-10 victory over the Packers at Lambeau Field on Sunday, only their third win over their rivals in their last 21 meetings.", 
@@ -2424,8 +2377,10 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2004-09-19T17:04:00+00:00", 
+            "description": "Linebacker Barrett Green scored on a 16-yard fumble return and New York forced seven turnovers in a 20-14 win Sunday that handed Joe Gibbs his first loss in his second stint with Washington.", 
             "homeTeam": "NYG", 
             "identity": {
+                "ESPNAPIID": "240919019", 
                 "ProFootballReferenceID": "200409190nyg", 
                 "TheSportsDBID": "493620"
             }, 
@@ -2434,7 +2389,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins"
+            "vs": "New York Giants vs. Washington Redskins", 
+            "week": 2
         }, 
         {
             "assets": {
@@ -3076,34 +3032,11 @@
                 "thumbnail": []
             }, 
             "awayTeam": "DAL", 
-            "date": "2004-09-28T01:00:00+00:00", 
-            "description": "Bill Parcells celebrated the touchdown with\r\na big smile and his fist thrust high in the air. The Dallas Cowboys coach had turned the trick that put his old nemesis on the ropes.\r\n", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "240927028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys", 
-            "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
             "date": "2004-09-28T01:10:00+00:00", 
+            "description": "Bill Parcells celebrated the touchdown with\r\na big smile and his fist thrust high in the air. The Dallas Cowboys coach had turned the trick that put his old nemesis on the ropes.\r\n", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "240927028", 
                 "ProFootballReferenceID": "200409270was", 
                 "TheSportsDBID": "493639"
             }, 
@@ -3112,7 +3045,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys"
+            "vs": "Washington Redskins vs. Dallas Cowboys", 
+            "week": 3
         }, 
         {
             "assets": {
@@ -3137,31 +3071,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Houston Texans vs. Oakland Raiders", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2004-10-03T17:00:00+00:00", 
-            "description": "Lee Suggs, who missed Cleveland's first three games with a neck injury, rushed for 82 yards and scored on a 3-yard touchdown run in the fourth quarter, leading the Browns to a 17-13 win over the Washington Redskins on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "CLE", 
-            "identity": {
-                "ESPNAPIID": "241003005"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cleveland Browns vs. Washington Redskins", 
             "week": 4
         }, 
         {
@@ -3201,8 +3110,10 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2004-10-03T17:02:00+00:00", 
+            "description": "Lee Suggs, who missed Cleveland's first three games with a neck injury, rushed for 82 yards and scored on a 3-yard touchdown run in the fourth quarter, leading the Browns to a 17-13 win over the Washington Redskins on Sunday.", 
             "homeTeam": "CLE", 
             "identity": {
+                "ESPNAPIID": "241003005", 
                 "ProFootballReferenceID": "200410030cle", 
                 "TheSportsDBID": "493644"
             }, 
@@ -3211,7 +3122,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Cleveland Browns vs. Washington Redskins"
+            "vs": "Cleveland Browns vs. Washington Redskins", 
+            "week": 4
         }, 
         {
             "assets": {
@@ -3954,34 +3866,11 @@
                 "thumbnail": []
             }, 
             "awayTeam": "BAL", 
-            "date": "2004-10-11T00:30:00+00:00", 
-            "description": "With both offenses going nowhere, all the Baltimore Ravens needed was a few big plays by safety Ed Reed.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "241010028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Baltimore Ravens", 
-            "week": 5
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
             "date": "2004-10-11T00:36:00+00:00", 
+            "description": "With both offenses going nowhere, all the Baltimore Ravens needed was a few big plays by safety Ed Reed.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "241010028", 
                 "ProFootballReferenceID": "200410100was", 
                 "TheSportsDBID": "493666"
             }, 
@@ -3990,7 +3879,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Baltimore Ravens"
+            "vs": "Washington Redskins vs. Baltimore Ravens", 
+            "week": 5
         }, 
         {
             "assets": {
@@ -4017,31 +3907,6 @@
             "subseason": 0, 
             "vs": "Green Bay Packers vs. Tennessee Titans", 
             "week": 5
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2004-10-17T17:00:00+00:00", 
-            "description": "Clinton Portis had his best day since changing teams and Washington throttled Chicago's inept offense as the Redskins beat the Bears 13-10.", 
-            "eventTitle": "", 
-            "homeTeam": "CHI", 
-            "identity": {
-                "ESPNAPIID": "241017003"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Chicago Bears vs. Washington Redskins", 
-            "week": 6
         }, 
         {
             "assets": {
@@ -4206,8 +4071,10 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2004-10-17T17:03:00+00:00", 
+            "description": "Clinton Portis had his best day since changing teams and Washington throttled Chicago's inept offense as the Redskins beat the Bears 13-10.", 
             "homeTeam": "CHI", 
             "identity": {
+                "ESPNAPIID": "241017003", 
                 "ProFootballReferenceID": "200410170chi", 
                 "TheSportsDBID": "493670"
             }, 
@@ -4216,7 +4083,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Chicago Bears vs. Washington Redskins"
+            "vs": "Chicago Bears vs. Washington Redskins", 
+            "week": 6
         }, 
         {
             "assets": {
@@ -4935,31 +4803,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "GB", 
-            "date": "2004-10-31T18:00:00+00:00", 
-            "description": "Green Bay 28, Washington 14", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "241031028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Green Bay Packers", 
-            "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NYG", 
             "date": "2004-10-31T18:00:00+00:00", 
             "description": "NY GIANTS 34, MINNESOTA 13", 
@@ -5040,8 +4883,10 @@
             }, 
             "awayTeam": "GB", 
             "date": "2004-10-31T18:03:00+00:00", 
+            "description": "Green Bay 28, Washington 14", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "241031028", 
                 "ProFootballReferenceID": "200410310was", 
                 "TheSportsDBID": "493708"
             }, 
@@ -5050,7 +4895,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Green Bay Packers"
+            "vs": "Washington Redskins vs. Green Bay Packers", 
+            "week": 8
         }, 
         {
             "assets": {
@@ -5341,31 +5187,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2004-11-07T18:00:00+00:00", 
-            "description": "Clinton Portis ran for 147 yards on 34 carries and threw a tiebreaking touchdown pass to lead the Redskins over Detroit 17-10 Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "DET", 
-            "identity": {
-                "ESPNAPIID": "241107008"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Detroit Lions vs. Washington Redskins", 
-            "week": 9
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "OAK", 
             "date": "2004-11-07T18:00:00+00:00", 
             "description": "Tyrone Wheatley and Amos Zereoue combined to run for three touchdowns, and Sebastian Janikowski kicked a 19-yard field goal with 6 seconds to play to lead the Oakland Raiders to a 27-24 victory over the Panthers on Sunday.\r\n", 
@@ -5546,8 +5367,10 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2004-11-07T18:04:00+00:00", 
+            "description": "Clinton Portis ran for 147 yards on 34 carries and threw a tiebreaking touchdown pass to lead the Redskins over Detroit 17-10 Sunday.", 
             "homeTeam": "DET", 
             "identity": {
+                "ESPNAPIID": "241107008", 
                 "ProFootballReferenceID": "200411070det", 
                 "TheSportsDBID": "493715"
             }, 
@@ -5556,7 +5379,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Detroit Lions vs. Washington Redskins"
+            "vs": "Detroit Lions vs. Washington Redskins", 
+            "week": 9
         }, 
         {
             "assets": {
@@ -6024,34 +5848,11 @@
                 "thumbnail": []
             }, 
             "awayTeam": "CIN", 
-            "date": "2004-11-14T21:05:00+00:00", 
-            "description": "By the time Joe Gibbs finally lost his\r\npatience with Mark Brunell, Carson Palmer and the Cincinnati\r\nBengals were already in control of the game.\r\n", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "241114028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Cincinnati Bengals", 
-            "week": 10
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CIN", 
             "date": "2004-11-14T21:06:00+00:00", 
+            "description": "By the time Joe Gibbs finally lost his\r\npatience with Mark Brunell, Carson Palmer and the Cincinnati\r\nBengals were already in control of the game.\r\n", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "241114028", 
                 "ProFootballReferenceID": "200411140was", 
                 "TheSportsDBID": "493736"
             }, 
@@ -6060,7 +5861,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Cincinnati Bengals"
+            "vs": "Washington Redskins vs. Cincinnati Bengals", 
+            "week": 10
         }, 
         {
             "assets": {
@@ -6583,35 +6385,12 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2004-11-21T21:15:00+00:00", 
-            "description": "Donovan McNabb spent the first 21\u20442 quarters\r\nscrambling for his life and the final minutes resting on the\r\nsideline. In between, he sat in the pocket and picked apart\r\nWashington's secondary.", 
-            "eventTitle": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "241121021"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins", 
-            "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "WAS", 
             "date": "2004-11-21T21:16:00+00:00", 
+            "description": "Donovan McNabb spent the first 21\u20442 quarters\r\nscrambling for his life and the final minutes resting on the\r\nsideline. In between, he sat in the pocket and picked apart\r\nWashington's secondary.", 
             "homeTeam": "PHI", 
             "identity": {
+                "ESPNAPIID": "241121021", 
                 "ProFootballReferenceID": "200411210phi", 
                 "TheSportsDBID": "493742"
             }, 
@@ -6620,7 +6399,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
+            "vs": "Philadelphia Eagles vs. Washington Redskins", 
+            "week": 11
         }, 
         {
             "assets": {
@@ -6809,35 +6589,12 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2004-11-28T18:00:00+00:00", 
-            "description": "No team needs a lot of offense these days to beat the Redskins. Antwaan Randle El and Jerome Bettis gave the Pittsburgh Steelers just enough to keep their longest winning streak in 28 years going.", 
-            "eventTitle": "", 
-            "homeTeam": "PIT", 
-            "identity": {
-                "ESPNAPIID": "241128023"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Steelers vs. Washington Redskins", 
-            "week": 12
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "WAS", 
             "date": "2004-11-28T18:02:00+00:00", 
+            "description": "No team needs a lot of offense these days to beat the Redskins. Antwaan Randle El and Jerome Bettis gave the Pittsburgh Steelers just enough to keep their longest winning streak in 28 years going.", 
             "homeTeam": "PIT", 
             "identity": {
+                "ESPNAPIID": "241128023", 
                 "ProFootballReferenceID": "200411280pit", 
                 "TheSportsDBID": "493762"
             }, 
@@ -6846,7 +6603,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Pittsburgh Steelers vs. Washington Redskins"
+            "vs": "Pittsburgh Steelers vs. Washington Redskins", 
+            "week": 12
         }, 
         {
             "assets": {
@@ -7517,29 +7275,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "KC", 
-            "date": "2004-12-05T21:05:00+00:00", 
-            "homeTeam": "LV", 
-            "identity": {
-                "ProFootballReferenceID": "200412050rai", 
-                "TheSportsDBID": "493779"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Oakland Raiders vs. Kansas City Chiefs"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "DEN", 
             "date": "2004-12-05T21:05:00+00:00", 
             "description": "San Diego 20, Denver 17", 
@@ -7565,21 +7300,19 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NYG", 
-            "date": "2004-12-05T21:15:00+00:00", 
-            "description": "Washington 31, New York 7", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "awayTeam": "KC", 
+            "date": "2004-12-05T21:05:00+00:00", 
+            "homeTeam": "LV", 
             "identity": {
-                "ESPNAPIID": "241205028"
+                "ProFootballReferenceID": "200412050rai", 
+                "TheSportsDBID": "493779"
             }, 
             "league": "NFL", 
             "networks": [], 
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants", 
-            "week": 13
+            "vs": "Oakland Raiders vs. Kansas City Chiefs"
         }, 
         {
             "assets": {
@@ -7618,8 +7351,10 @@
             }, 
             "awayTeam": "NYG", 
             "date": "2004-12-05T21:16:00+00:00", 
+            "description": "Washington 31, New York 7", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "241205028", 
                 "ProFootballReferenceID": "200412050was", 
                 "TheSportsDBID": "493784"
             }, 
@@ -7628,7 +7363,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants"
+            "vs": "Washington Redskins vs. New York Giants", 
+            "week": 13
         }, 
         {
             "assets": {
@@ -8122,34 +7858,11 @@
                 "thumbnail": []
             }, 
             "awayTeam": "PHI", 
-            "date": "2004-12-13T01:30:00+00:00", 
-            "description": "Philadelphia 17, Washington 14", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "241212028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles", 
-            "week": 14
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
             "date": "2004-12-13T01:37:00+00:00", 
+            "description": "Philadelphia 17, Washington 14", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "241212028", 
                 "ProFootballReferenceID": "200412120was", 
                 "TheSportsDBID": "493800"
             }, 
@@ -8158,7 +7871,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles"
+            "vs": "Washington Redskins vs. Philadelphia Eagles", 
+            "week": 14
         }, 
         {
             "assets": {
@@ -8221,35 +7935,12 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2004-12-18T22:00:00+00:00", 
-            "description": "Washington 26, San Francisco 16", 
-            "eventTitle": "", 
-            "homeTeam": "SF", 
-            "identity": {
-                "ESPNAPIID": "241218025"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "San Francisco 49ers vs. Washington Redskins", 
-            "week": 15
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "WAS", 
             "date": "2004-12-18T22:16:00+00:00", 
+            "description": "Washington 26, San Francisco 16", 
             "homeTeam": "SF", 
             "identity": {
+                "ESPNAPIID": "241218025", 
                 "ProFootballReferenceID": "200412180sfo", 
                 "TheSportsDBID": "493803"
             }, 
@@ -8258,7 +7949,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "San Francisco 49ers vs. Washington Redskins"
+            "vs": "San Francisco 49ers vs. Washington Redskins", 
+            "week": 15
         }, 
         {
             "assets": {
@@ -9029,31 +8721,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2004-12-26T21:15:00+00:00", 
-            "description": "Dallas 13, Washington 10", 
-            "eventTitle": "", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ESPNAPIID": "241226006"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins", 
-            "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CAR", 
             "date": "2004-12-26T21:15:00+00:00", 
             "description": "Carolina 37, Tampa Bay 20", 
@@ -9082,8 +8749,10 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2004-12-26T21:15:00+00:00", 
+            "description": "Dallas 13, Washington 10", 
             "homeTeam": "DAL", 
             "identity": {
+                "ESPNAPIID": "241226006", 
                 "ProFootballReferenceID": "200412260dal", 
                 "TheSportsDBID": "493829"
             }, 
@@ -9092,7 +8761,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins"
+            "vs": "Dallas Cowboys vs. Washington Redskins", 
+            "week": 16
         }, 
         {
             "assets": {
@@ -9217,31 +8887,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "St. Louis Rams vs. New York Jets", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "MIN", 
-            "date": "2005-01-02T18:00:00+00:00", 
-            "description": "The Minnesota Vikings collapsed again, only to fall into the playoffs thanks to a safety net provided by the New Orleans Saints.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "250102028"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2004", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Minnesota Vikings", 
             "week": 17
         }, 
         {
@@ -9460,8 +9105,10 @@
             }, 
             "awayTeam": "MIN", 
             "date": "2005-01-02T18:04:00+00:00", 
+            "description": "The Minnesota Vikings collapsed again, only to fall into the playoffs thanks to a safety net provided by the New Orleans Saints.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "250102028", 
                 "ProFootballReferenceID": "200501020was", 
                 "TheSportsDBID": "493849"
             }, 
@@ -9470,7 +9117,8 @@
             "season": "2004", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Minnesota Vikings"
+            "vs": "Washington Redskins vs. Minnesota Vikings", 
+            "week": 17
         }, 
         {
             "assets": {

@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2015SCHEDULE", 
-        "CachedOn": "2021-10-12T10:23:46", 
-        "ExpiresOn": "2021-10-19T10:23:46", 
+        "CachedOn": "2021-10-24T22:53:04", 
+        "ExpiresOn": "2021-10-31T22:53:04", 
         "Version": "2"
     }, 
     "Items": [
@@ -119,7 +119,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2015-08-14T00:00:00+00:00", 
             "description": "Quarterback Josh McCown threw a touchdown pass in his debut for Cleveland and backup Johnny Manziel scrambled for a TD as the Browns, busting out new uniforms for the first time, built an early l", 
             "eventTitle": "", 
@@ -458,7 +458,7 @@
             "date": "2015-08-20T23:30:00+00:00", 
             "description": "With zero help from his offensive line, Robert Griffin III repeatedly wound up on the turf until leaving with a stinger and possible head injury after being sacked three times and fumbling twice", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "400791795"
             }, 
@@ -1097,7 +1097,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2015-08-29T23:30:00+00:00", 
             "description": "Kirk Cousins filled in capably for injured quarterback Robert Griffin III, throwing for 190 yards and a fluke touchdown as the Washington Redskins beat the Baltimore Ravens 31-13 Saturday night.", 
             "eventTitle": "", 
@@ -1455,31 +1455,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "JAX", 
-            "date": "2015-09-03T23:30:00+00:00", 
-            "description": "Jason Myers kicked a 47-yard field goal with 3:32 left in his debut as Jacksonville's starter, and the Jaguars beat the Washington Redskins 17-16 on Thursday night.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400790314"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Washington Redskins vs. Jacksonville Jaguars", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CAR", 
             "date": "2015-09-03T23:30:00+00:00", 
             "description": "Jordan Todman ran for a long touchdown and Carolina's defense shut down the Pittsburgh Steelers backups in a 23-6 win on Thursday night in the preseason finale for both teams.", 
@@ -1494,6 +1469,31 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "Pittsburgh Steelers vs. Carolina Panthers", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "JAX", 
+            "date": "2015-09-03T23:30:00+00:00", 
+            "description": "Jason Myers kicked a 47-yard field goal with 3:32 left in his debut as Jacksonville's starter, and the Jaguars beat the Washington Redskins 17-16 on Thursday night.", 
+            "eventTitle": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ESPNAPIID": "400790314"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2015", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Washington Redskins vs. Jacksonville Jaguars", 
             "week": 4
         }, 
         {
@@ -1710,33 +1710,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "MIA", 
-            "date": "2015-09-13T17:00:00+00:00", 
-            "description": "Jarvis Landry returned a punt 69 yards for a touchdown with 10:22 left to give Miami its first lead, and the Dolphins held on to beat the Washington Redskins 17-10 Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400791544"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Miami Dolphins", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SEA", 
             "date": "2015-09-13T17:00:00+00:00", 
             "description": "Greg Zuerlein kicked a 37-yard field goal in overtime and the Rams survived an 18-point fourth quarter rally by the Seattle Seahawks, beating the two-time defending NFC champions 34-31.", 
@@ -1845,17 +1818,22 @@
             }, 
             "awayTeam": "MIA", 
             "date": "2015-09-13T17:02:00+00:00", 
+            "description": "Jarvis Landry returned a punt 69 yards for a touchdown with 10:22 left to give Miami its first lead, and the Dolphins held on to beat the Washington Redskins 17-10 Sunday.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400791544", 
                 "ProFootballReferenceID": "201509130was", 
                 "TheSportsDBID": "496159"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2015", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Miami Dolphins"
+            "vs": "Washington Redskins vs. Miami Dolphins", 
+            "week": 1
         }, 
         {
             "assets": {
@@ -2163,12 +2141,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "PHI", 
-            "date": "2015-09-14T22:55:00+00:00", 
+            "date": "2015-09-14T23:10:00+00:00", 
             "description": "Julio Jones had 141 yards receiving and two touchdowns, Matt Ryan shook off a pair of interceptions, and the Atlanta Falcons came back to beat the Philadelphia Eagles 26-24 on Monday night.", 
-            "eventTitle": "", 
             "homeTeam": "ATL", 
             "identity": {
-                "ESPNAPIID": "400791596"
+                "ESPNAPIID": "400791596", 
+                "ProFootballReferenceID": "201509140atl", 
+                "TheSportsDBID": "496168"
             }, 
             "league": "NFL", 
             "networks": [
@@ -2179,29 +2158,6 @@
             "subseason": 0, 
             "vs": "Atlanta Falcons vs. Philadelphia Eagles", 
             "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "2015-09-14T23:10:00+00:00", 
-            "homeTeam": "ATL", 
-            "identity": {
-                "ProFootballReferenceID": "201509140atl", 
-                "TheSportsDBID": "496168"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Atlanta Falcons vs. Philadelphia Eagles"
         }, 
         {
             "assets": {
@@ -2328,7 +2284,7 @@
             "date": "2015-09-20T17:00:00+00:00", 
             "description": "Rookie Matt Jones ran for 123 yards and two touchdowns, an efficient Kirk Cousins avoided turnovers, and the Washington Redskins dominated for a half, then held on to beat the St. Louis Rams 24-1", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "400791675"
             }, 
@@ -2755,13 +2711,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2015-09-25T00:25:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2015-09-25T00:26:00+00:00", 
             "description": "The New York Giants actually held onto a second-half lead, dominating the Washington Redskins and clinching a 32-21 victory over Washington on Thursday night on Odell Beckham Jr.'s 30-yard score.", 
-            "eventTitle": "", 
             "homeTeam": "NYG", 
             "identity": {
-                "ESPNAPIID": "400791484"
+                "ESPNAPIID": "400791484", 
+                "ProFootballReferenceID": "201509240nyg", 
+                "TheSportsDBID": "496186"
             }, 
             "league": "NFL", 
             "networks": [
@@ -2773,29 +2730,6 @@
             "subseason": 0, 
             "vs": "New York Giants vs. Washington Redskins", 
             "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2015-09-25T00:26:00+00:00", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ProFootballReferenceID": "201509240nyg", 
-                "TheSportsDBID": "496186"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -3349,33 +3283,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PHI", 
-            "date": "2015-10-04T17:00:00+00:00", 
-            "description": "Kirk Cousins threw a 4-yard touchdown pass to Pierre Garcon with 26 seconds left Sunday to give the Washington Redskins a 23-20 victory over the Philadelphia Eagles.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400791704"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "OAK", 
             "date": "2015-10-04T17:00:00+00:00", 
             "description": "Jay Cutler threw for two touchdowns and redeemed himself following an interception by helping set up a 49-yard field goal by Robbie Gould in the closing seconds Sunday, leading the Chicago Bears", 
@@ -3568,17 +3475,22 @@
             }, 
             "awayTeam": "PHI", 
             "date": "2015-10-04T17:03:00+00:00", 
+            "description": "Kirk Cousins threw a 4-yard touchdown pass to Pierre Garcon with 26 seconds left Sunday to give the Washington Redskins a 23-20 victory over the Philadelphia Eagles.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400791704", 
                 "ProFootballReferenceID": "201510040was", 
                 "TheSportsDBID": "496207"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2015", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles"
+            "vs": "Washington Redskins vs. Philadelphia Eagles", 
+            "week": 4
         }, 
         {
             "assets": {
@@ -3857,33 +3769,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2015-10-11T17:00:00+00:00", 
-            "description": "Robert Alford returned an interception 59 yards for a touchdown, lifting the undefeated Atlanta Falcons to a 25-19 win over the Washington Redskins in overtime Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "ATL", 
-            "identity": {
-                "ESPNAPIID": "400791495"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Atlanta Falcons vs. Washington Redskins", 
-            "week": 5
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CLE", 
             "date": "2015-10-11T17:02:00+00:00", 
             "description": "Travis Coons kicked a 32-yard field goal in overtime and Josh McCown threw for a team-record 457 yards to lead the Cleveland Browns to a stunning 33-30 victory over the Baltimore Ravens on Sunday", 
@@ -3993,17 +3878,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2015-10-11T17:02:00+00:00", 
+            "description": "Robert Alford returned an interception 59 yards for a touchdown, lifting the undefeated Atlanta Falcons to a 25-19 win over the Washington Redskins in overtime Sunday.", 
             "homeTeam": "ATL", 
             "identity": {
+                "ESPNAPIID": "400791495", 
                 "ProFootballReferenceID": "201510110atl", 
                 "TheSportsDBID": "496220"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2015", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Atlanta Falcons vs. Washington Redskins"
+            "vs": "Atlanta Falcons vs. Washington Redskins", 
+            "week": 5
         }, 
         {
             "assets": {
@@ -4311,13 +4201,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2015-10-18T17:00:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2015-10-18T17:02:00+00:00", 
             "description": "Ryan Fitzpatrick threw two touchdown passes and ran for another score, and the New York Jets overcame a sloppy first half to beat the banged-up Washington Redskins 34-20 on Sunday.", 
-            "eventTitle": "", 
             "homeTeam": "NYJ", 
             "identity": {
-                "ESPNAPIID": "400791598"
+                "ESPNAPIID": "400791598", 
+                "ProFootballReferenceID": "201510180nyj", 
+                "TheSportsDBID": "496232"
             }, 
             "league": "NFL", 
             "networks": [
@@ -4328,29 +4219,6 @@
             "subseason": 0, 
             "vs": "New York Jets vs. Washington Redskins", 
             "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2015-10-18T17:02:00+00:00", 
-            "homeTeam": "NYJ", 
-            "identity": {
-                "ProFootballReferenceID": "201510180nyj", 
-                "TheSportsDBID": "496232"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Jets vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -4750,34 +4618,12 @@
             }, 
             "awayTeam": "BUF", 
             "date": "2015-10-25T12:35:00+00:00", 
+            "description": "Blake Bortles threw a touchdown pass to Allen Hurns with 2:16 remaining and the Jacksonville Jaguars rallied for a 34-31 win over Buffalo Bills on Sunday at Wembley Stadium.", 
             "homeTeam": "JAX", 
             "identity": {
+                "ESPNAPIID": "400761515", 
                 "ProFootballReferenceID": "201510250jax", 
                 "TheSportsDBID": "496246"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Jacksonville Jaguars vs. Buffalo Bills"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BUF", 
-            "date": "2015-10-25T13:30:00+00:00", 
-            "description": "Blake Bortles threw a touchdown pass to Allen Hurns with 2:16 remaining and the Jacksonville Jaguars rallied for a 34-31 win over Buffalo Bills on Sunday at Wembley Stadium.", 
-            "eventTitle": "", 
-            "homeTeam": "JAX", 
-            "identity": {
-                "ESPNAPIID": "400761515"
             }, 
             "league": "NFL", 
             "networks": [
@@ -4787,33 +4633,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Jacksonville Jaguars vs. Buffalo Bills", 
-            "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "TB", 
-            "date": "2015-10-25T17:00:00+00:00", 
-            "description": "Kirk Cousins threw three second-half touchdown passes, including the go-ahead score with 24 seconds left, to lead the Washington Redskins to the largest comeback in franchise history, a 31-30 vic", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400791511"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Tampa Bay Buccaneers", 
             "week": 7
         }, 
         {
@@ -5045,17 +4864,22 @@
             }, 
             "awayTeam": "TB", 
             "date": "2015-10-25T17:04:00+00:00", 
+            "description": "Kirk Cousins threw three second-half touchdown passes, including the go-ahead score with 24 seconds left, to lead the Washington Redskins to the largest comeback in franchise history, a 31-30 vic", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400791511", 
                 "ProFootballReferenceID": "201510250was", 
                 "TheSportsDBID": "496247"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2015", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Tampa Bay Buccaneers"
+            "vs": "Washington Redskins vs. Tampa Bay Buccaneers", 
+            "week": 7
         }, 
         {
             "assets": {
@@ -5741,13 +5565,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2015-11-08T18:00:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2015-11-08T18:02:00+00:00", 
             "description": "It was more than 10 minutes into the game and the score was already lopsided.", 
-            "eventTitle": "", 
             "homeTeam": "NE", 
             "identity": {
-                "ESPNAPIID": "400791721"
+                "ESPNAPIID": "400791721", 
+                "ProFootballReferenceID": "201511080nwe", 
+                "TheSportsDBID": "496275"
             }, 
             "league": "NFL", 
             "networks": [
@@ -5758,29 +5583,6 @@
             "subseason": 0, 
             "vs": "New England Patriots vs. Washington Redskins", 
             "week": 9
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2015-11-08T18:02:00+00:00", 
-            "homeTeam": "NE", 
-            "identity": {
-                "ProFootballReferenceID": "201511080nwe", 
-                "TheSportsDBID": "496275"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New England Patriots vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -6161,33 +5963,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NO", 
-            "date": "2015-11-15T18:00:00+00:00", 
-            "description": "Kirk Cousins threw for a career-high four touchdowns -- each one longer than any scoring pass he had completed all season -- to lead the Redskins past the Saints 47-14 on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400791549"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New Orleans Saints", 
-            "week": 10
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CHI", 
             "date": "2015-11-15T18:00:00+00:00", 
             "description": "Zach Miller caught two touchdown passes, including an 87-yard score that was Chicago's longest play since 2010, leading the Bears to a 37-13 victory over the Rams on Sunday.", 
@@ -6324,17 +6099,22 @@
             }, 
             "awayTeam": "NO", 
             "date": "2015-11-15T18:05:00+00:00", 
+            "description": "Kirk Cousins threw for a career-high four touchdowns -- each one longer than any scoring pass he had completed all season -- to lead the Redskins past the Saints 47-14 on Sunday.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400791549", 
                 "ProFootballReferenceID": "201511150was", 
                 "TheSportsDBID": "496291"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2015", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. New Orleans Saints"
+            "vs": "Washington Redskins vs. New Orleans Saints", 
+            "week": 10
         }, 
         {
             "assets": {
@@ -6619,33 +6399,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2015-11-22T18:00:00+00:00", 
-            "description": "Cam Newton threw a career-high five touchdowns passes, and the Carolina Panthers improved to 10-0 on the season with a 44-16 win over the Washington Redskins on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "CAR", 
-            "identity": {
-                "ESPNAPIID": "400791707"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Carolina Panthers vs. Washington Redskins", 
-            "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "OAK", 
             "date": "2015-11-22T18:00:00+00:00", 
             "description": "Matthew Stafford ran for a go-ahead 5-yard touchdown early in the fourth quarter, and the Detroit Lions beat the Oakland Raiders 18-13 Sunday.", 
@@ -6730,17 +6483,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2015-11-22T18:02:00+00:00", 
+            "description": "Cam Newton threw a career-high five touchdowns passes, and the Carolina Panthers improved to 10-0 on the season with a 44-16 win over the Washington Redskins on Sunday.", 
             "homeTeam": "CAR", 
             "identity": {
+                "ESPNAPIID": "400791707", 
                 "ProFootballReferenceID": "201511220car", 
                 "TheSportsDBID": "496308"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2015", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Carolina Panthers vs. Washington Redskins"
+            "vs": "Carolina Panthers vs. Washington Redskins", 
+            "week": 11
         }, 
         {
             "assets": {
@@ -7204,33 +6962,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NYG", 
-            "date": "2015-11-29T18:00:00+00:00", 
-            "description": "Kirk Cousins threw a 63-yard touchdown pass to DeSean Jackson and scored on a quarterback sneak, Washington intercepted Eli Manning three times and the Redskins beat the New York Giants Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400791506"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants", 
-            "week": 12
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "STL", 
             "date": "2015-11-29T18:00:00+00:00", 
             "description": "Andy Dalton threw three touchdown passes -- two of them to A.J. Green -- and the Cincinnati Bengals ended their brief skid with a 31-7 victory over the St. Louis Rams on Sunday.", 
@@ -7495,17 +7226,22 @@
             }, 
             "awayTeam": "NYG", 
             "date": "2015-11-29T18:03:00+00:00", 
+            "description": "Kirk Cousins threw a 63-yard touchdown pass to DeSean Jackson and scored on a quarterback sneak, Washington intercepted Eli Manning three times and the Redskins beat the New York Giants Sunday.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400791506", 
                 "ProFootballReferenceID": "201511290was", 
                 "TheSportsDBID": "496320"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2015", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants"
+            "vs": "Washington Redskins vs. New York Giants", 
+            "week": 12
         }, 
         {
             "assets": {
@@ -8137,12 +7873,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "DAL", 
-            "date": "2015-12-08T01:30:00+00:00", 
+            "date": "2015-12-08T01:31:00+00:00", 
             "description": "With a wild finish capping an otherwise dull game of turnovers, punts and penalties, the Dallas Cowboys beat the Washington Redskins 19-16 on Dan Bailey's 54-yard field goal with 9 seconds left.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "400791686"
+                "ESPNAPIID": "400791686", 
+                "ProFootballReferenceID": "201512070was", 
+                "TheSportsDBID": "496345"
             }, 
             "league": "NFL", 
             "networks": [
@@ -8153,29 +7890,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. Dallas Cowboys", 
             "week": 13
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "2015-12-08T01:31:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "201512070was", 
-                "TheSportsDBID": "496345"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys"
         }, 
         {
             "assets": {
@@ -8226,33 +7940,6 @@
             "season": "2015", 
             "sport": "Football", 
             "vs": "Denver Broncos vs Oakland Raiders"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2015-12-13T18:00:00+00:00", 
-            "description": "Kirk Cousins threw for 300 yards and a touchdown as the Washington Redskins hung on to beat the Bears 24-21 on Sunday after Chicago's Robbie Gould missed yet another late field goal.", 
-            "eventTitle": "", 
-            "homeTeam": "CHI", 
-            "identity": {
-                "ESPNAPIID": "400791580"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Chicago Bears vs. Washington Redskins", 
-            "week": 14
         }, 
         {
             "assets": {
@@ -8347,17 +8034,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2015-12-13T18:02:00+00:00", 
+            "description": "Kirk Cousins threw for 300 yards and a touchdown as the Washington Redskins hung on to beat the Bears 24-21 on Sunday after Chicago's Robbie Gould missed yet another late field goal.", 
             "homeTeam": "CHI", 
             "identity": {
+                "ESPNAPIID": "400791580", 
                 "ProFootballReferenceID": "201512130chi", 
                 "TheSportsDBID": "496356"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2015", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Chicago Bears vs. Washington Redskins"
+            "vs": "Chicago Bears vs. Washington Redskins", 
+            "week": 14
         }, 
         {
             "assets": {
@@ -8843,33 +8535,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "BUF", 
-            "date": "2015-12-20T18:00:00+00:00", 
-            "description": "Kirk Cousins equaled his career high with four touchdown passes and ran 13 yards for another score, helping the Washington Redskins win consecutive games for the first time in more than a year.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "400791695"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Buffalo Bills", 
-            "week": 15
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CHI", 
             "date": "2015-12-20T18:02:00+00:00", 
             "description": "Teddy Bridgewater threw a career-high four touchdowns and ran for another one, and the Minnesota Vikings took a significant step toward clinching a Playoff spot with a 38-17 victory Sunday.", 
@@ -9040,17 +8705,22 @@
             }, 
             "awayTeam": "BUF", 
             "date": "2015-12-20T18:03:00+00:00", 
+            "description": "Kirk Cousins equaled his career high with four touchdown passes and ran 13 yards for another score, helping the Washington Redskins win consecutive games for the first time in more than a year.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "400791695", 
                 "ProFootballReferenceID": "201512200was", 
                 "TheSportsDBID": "496370"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2015", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Buffalo Bills"
+            "vs": "Washington Redskins vs. Buffalo Bills", 
+            "week": 15
         }, 
         {
             "assets": {
@@ -9371,13 +9041,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2015-12-27T01:25:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2015-12-27T01:26:00+00:00", 
             "description": "Kirk Cousins threw four touchdown passes and had a season-high 365 yards and the Washington Redskins beat the Philadelphia Eagles 38-24 Saturday night to clinch the NFC East title.", 
-            "eventTitle": "", 
             "homeTeam": "PHI", 
             "identity": {
-                "ESPNAPIID": "400791508"
+                "ESPNAPIID": "400791508", 
+                "ProFootballReferenceID": "201512260phi", 
+                "TheSportsDBID": "496379"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9388,29 +9059,6 @@
             "subseason": 0, 
             "vs": "Philadelphia Eagles vs. Washington Redskins", 
             "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2015-12-27T01:26:00+00:00", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ProFootballReferenceID": "201512260phi", 
-                "TheSportsDBID": "496379"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -9857,33 +9505,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2016-01-03T18:00:00+00:00", 
-            "description": "Kirk Cousins threw for three touchdowns before leaving late in the first half of a playoff tuneup, and the Redskins finished the regular season with a 34-23 victory over the Cowboys.", 
-            "eventTitle": "", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ESPNAPIID": "400791651"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "DET", 
             "date": "2016-01-03T18:02:00+00:00", 
             "description": "Matthew Stafford threw for 298 yards and three touchdowns, Calvin Johnson had 137 yards receiving, and the Lions beat the Chicago Bears 24-20 in what could be coach Jim Caldwell's final game.", 
@@ -10138,17 +9759,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2016-01-03T18:03:00+00:00", 
+            "description": "Kirk Cousins threw for three touchdowns before leaving late in the first half of a playoff tuneup, and the Redskins finished the regular season with a 34-23 victory over the Cowboys.", 
             "homeTeam": "DAL", 
             "identity": {
+                "ESPNAPIID": "400791651", 
                 "ProFootballReferenceID": "201601030dal", 
                 "TheSportsDBID": "496403"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2015", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins"
+            "vs": "Dallas Cowboys vs. Washington Redskins", 
+            "week": 17
         }, 
         {
             "assets": {
@@ -10565,40 +10191,19 @@
                 "thumbnail": []
             }, 
             "awayTeam": "GB", 
-            "date": "2016-01-10T21:40:00+00:00", 
+            "date": "2016-01-10T21:42:00+00:00", 
             "description": "Aaron Rodgers recovered from a poor start to throw for two touchdowns, Eddie Lacy and James Starks each ran for a score, and the Packers came back to beat Washington 35-18.", 
             "eventTitle": "NFC WILD CARD PLAYOFF", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "400820430"
+                "ESPNAPIID": "400820430", 
+                "ProFootballReferenceID": "201601100was"
             }, 
             "league": "NFL", 
             "networks": [
                 "FOX"
             ], 
             "playoffround": 1, 
-            "season": "2015", 
-            "sport": "Football", 
-            "subseason": 1, 
-            "vs": "Washington Redskins vs. Green Bay Packers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "GB", 
-            "date": "2016-01-10T21:42:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "201601100was"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
             "season": "2015", 
             "sport": "Football", 
             "subseason": 1, 

@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2002SCHEDULE", 
-        "CachedOn": "2021-10-12T08:01:08", 
-        "ExpiresOn": "2021-10-19T08:01:08", 
+        "CachedOn": "2021-10-24T21:56:33", 
+        "ExpiresOn": "2021-10-31T21:56:33", 
         "Version": "2"
     }, 
     "Items": [
@@ -18,7 +18,7 @@
             "awayTeam": "SF", 
             "date": "2002-08-04T02:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "220803028"
             }, 
@@ -379,7 +379,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2002-08-11T00:00:00+00:00", 
             "description": "Steve Spurrier is having a difficult time assessing Washington's offensive progress. The scoreboard should\r\ngive him some help.", 
             "eventTitle": "", 
@@ -807,7 +807,7 @@
             "date": "2002-08-19T00:00:00+00:00", 
             "description": "Even with two quarterbacks sidelined by\r\ninjuries, the Pittsburgh Steelers manhandled Washington -- until Sage Rosenfels led the Redskins on a winning rally.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "220818028"
             }, 
@@ -1099,7 +1099,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2002-08-25T00:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "TB", 
@@ -1367,7 +1367,7 @@
             "awayTeam": "NE", 
             "date": "2002-08-30T00:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "220829028"
             }, 
@@ -1681,32 +1681,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ARI", 
-            "date": "2002-09-08T17:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "220908028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Arizona Cardinals", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "IND", 
             "date": "2002-09-08T17:04:00+00:00", 
             "homeTeam": "JAX", 
@@ -1923,15 +1897,19 @@
             "date": "2002-09-08T17:05:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "220908028", 
                 "ProFootballReferenceID": "200209080was", 
                 "TheSportsDBID": "493086"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2002", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Arizona Cardinals"
+            "vs": "Washington Redskins vs. Arizona Cardinals", 
+            "week": 1
         }, 
         {
             "assets": {
@@ -2620,11 +2598,12 @@
                 "thumbnail": []
             }, 
             "awayTeam": "PHI", 
-            "date": "2002-09-17T01:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "date": "2002-09-17T01:05:00+00:00", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "220916028"
+                "ESPNAPIID": "220916028", 
+                "ProFootballReferenceID": "200209160was", 
+                "TheSportsDBID": "493113"
             }, 
             "league": "NFL", 
             "networks": [
@@ -2635,29 +2614,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. Philadelphia Eagles", 
             "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "2002-09-17T01:05:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "200209160was", 
-                "TheSportsDBID": "493113"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles"
         }, 
         {
             "assets": {
@@ -2964,31 +2920,9 @@
             "date": "2002-09-22T20:15:00+00:00", 
             "homeTeam": "SF", 
             "identity": {
+                "ESPNAPIID": "220922025", 
                 "ProFootballReferenceID": "200209220sfo", 
                 "TheSportsDBID": "493125"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "San Francisco 49ers vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2002-09-22T20:15:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "SF", 
-            "identity": {
-                "ESPNAPIID": "220922025"
             }, 
             "league": "NFL", 
             "networks": [
@@ -3560,29 +3494,8 @@
             "date": "2002-10-06T16:00:00+00:00", 
             "homeTeam": "IND", 
             "identity": {
-                "ProFootballReferenceID": "200210060clt"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Indianapolis Colts vs. Cincinnati Bengals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CIN", 
-            "date": "2002-10-06T17:00:00+00:00", 
-            "homeTeam": "IND", 
-            "identity": {
                 "ESPNAPIID": "221006011", 
+                "ProFootballReferenceID": "200210060clt", 
                 "TheSportsDBID": "493148"
             }, 
             "league": "NFL", 
@@ -3619,32 +3532,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Buffalo Bills vs. Oakland Raiders", 
-            "week": 5
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2002-10-06T17:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "TEN", 
-            "identity": {
-                "ESPNAPIID": "221006010"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Tennessee Titans vs. Washington Redskins", 
             "week": 5
         }, 
         {
@@ -3764,15 +3651,19 @@
             "date": "2002-10-06T17:03:00+00:00", 
             "homeTeam": "TEN", 
             "identity": {
+                "ESPNAPIID": "221006010", 
                 "ProFootballReferenceID": "200210060oti", 
                 "TheSportsDBID": "493154"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2002", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Tennessee Titans vs. Washington Redskins"
+            "vs": "Tennessee Titans vs. Washington Redskins", 
+            "week": 5
         }, 
         {
             "assets": {
@@ -4043,21 +3934,22 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NO", 
-            "date": "2002-10-13T17:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "awayTeam": "BAL", 
+            "date": "2002-10-13T16:00:00+00:00", 
+            "homeTeam": "IND", 
             "identity": {
-                "ESPNAPIID": "221013028"
+                "ESPNAPIID": "221013011", 
+                "ProFootballReferenceID": "200210130clt", 
+                "TheSportsDBID": "493160"
             }, 
             "league": "NFL", 
             "networks": [
-                "FOX"
+                "CBS"
             ], 
             "season": "2002", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. New Orleans Saints", 
+            "vs": "Indianapolis Colts vs. Baltimore Ravens", 
             "week": 6
         }, 
         {
@@ -4085,54 +3977,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Minnesota Vikings vs. Detroit Lions", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
-            "date": "2002-10-13T16:00:00+00:00", 
-            "homeTeam": "IND", 
-            "identity": {
-                "ProFootballReferenceID": "200210130clt"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Indianapolis Colts vs. Baltimore Ravens"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
-            "date": "2002-10-13T17:00:00+00:00", 
-            "homeTeam": "IND", 
-            "identity": {
-                "ESPNAPIID": "221013011", 
-                "TheSportsDBID": "493160"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Indianapolis Colts vs. Baltimore Ravens", 
             "week": 6
         }, 
         {
@@ -4175,15 +4019,19 @@
             "date": "2002-10-13T17:01:00+00:00", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "221013028", 
                 "ProFootballReferenceID": "200210130was", 
                 "TheSportsDBID": "493168"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2002", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. New Orleans Saints"
+            "vs": "Washington Redskins vs. New Orleans Saints", 
+            "week": 6
         }, 
         {
             "assets": {
@@ -4860,41 +4708,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DAL", 
-            "date": "2002-10-20T20:15:00+00:00", 
-            "description": "Bill Gramatica came through on his third try, and the Arizona Cardinals are tied for first in the NFC West.\r\n", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "ESPNAPIID": "221020022", 
-                "ProFootballReferenceID": "200210200crd", 
-                "TheSportsDBID": "493170"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Arizona Cardinals vs. Dallas Cowboys", 
-            "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2002-10-20T20:15:00+00:00", 
             "description": "Brett Favre hobbled off the field, leaving the Green Bay Packers to wonder how long they might be without their star quarterback.\r\n", 
-            "eventTitle": "", 
             "homeTeam": "GB", 
             "identity": {
-                "ESPNAPIID": "221020009"
+                "ESPNAPIID": "221020009", 
+                "ProFootballReferenceID": "200210200gnb", 
+                "TheSportsDBID": "493175"
             }, 
             "league": "NFL", 
             "networks": [
@@ -4915,19 +4736,24 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WAS", 
+            "awayTeam": "DAL", 
             "date": "2002-10-20T20:15:00+00:00", 
-            "homeTeam": "GB", 
+            "description": "Bill Gramatica came through on his third try, and the Arizona Cardinals are tied for first in the NFC West.\r\n", 
+            "homeTeam": "ARI", 
             "identity": {
-                "ProFootballReferenceID": "200210200gnb", 
-                "TheSportsDBID": "493175"
+                "ESPNAPIID": "221020022", 
+                "ProFootballReferenceID": "200210200crd", 
+                "TheSportsDBID": "493170"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2002", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Green Bay Packers vs. Washington Redskins"
+            "vs": "Arizona Cardinals vs. Dallas Cowboys", 
+            "week": 7
         }, 
         {
             "assets": {
@@ -5325,12 +5151,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "IND", 
-            "date": "2002-10-28T01:30:00+00:00", 
+            "date": "2002-10-28T01:35:00+00:00", 
             "description": "Was that really Steve Spurrier coaching the Washington Redskins?\r\n", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "221027028"
+                "ESPNAPIID": "221027028", 
+                "ProFootballReferenceID": "200210270was", 
+                "TheSportsDBID": "493196"
             }, 
             "league": "NFL", 
             "networks": [
@@ -5341,29 +5168,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. Indianapolis Colts", 
             "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "IND", 
-            "date": "2002-10-28T01:35:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "200210270was", 
-                "TheSportsDBID": "493196"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Indianapolis Colts"
         }, 
         {
             "assets": {
@@ -5667,32 +5471,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2002-11-03T21:15:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "ESPNAPIID": "221103026"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Seattle Seahawks vs. Washington Redskins", 
-            "week": 9
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "LAR", 
             "date": "2002-11-03T21:15:00+00:00", 
             "homeTeam": "ARI", 
@@ -5746,15 +5524,19 @@
             "date": "2002-11-03T21:15:00+00:00", 
             "homeTeam": "SEA", 
             "identity": {
+                "ESPNAPIID": "221103026", 
                 "ProFootballReferenceID": "200211030sea", 
                 "TheSportsDBID": "493209"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2002", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Seattle Seahawks vs. Washington Redskins"
+            "vs": "Seattle Seahawks vs. Washington Redskins", 
+            "week": 9
         }, 
         {
             "assets": {
@@ -6117,34 +5899,12 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2002-11-10T21:05:00+00:00", 
+            "description": "Outplayed on the field, outcoached on the sideline, Steve Spurrier and the Washington Redskins fell 26-7 to the Jacksonville Jaguars on Sunday.", 
             "homeTeam": "JAX", 
             "identity": {
+                "ESPNAPIID": "221110030", 
                 "ProFootballReferenceID": "200211100jax", 
                 "TheSportsDBID": "493217"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Jacksonville Jaguars vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2002-11-10T21:05:00+00:00", 
-            "description": "Outplayed on the field, outcoached on the sideline, Steve Spurrier and the Washington Redskins fell 26-7 to the Jacksonville Jaguars on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "JAX", 
-            "identity": {
-                "ESPNAPIID": "221110030"
             }, 
             "league": "NFL", 
             "networks": [
@@ -6329,32 +6089,11 @@
             }, 
             "awayTeam": "GB", 
             "date": "2002-11-17T17:00:00+00:00", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ProFootballReferenceID": "200211170min"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Green Bay Packers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "GB", 
-            "date": "2002-11-17T18:00:00+00:00", 
             "description": "It doesn't matter how well Green Bay is playing. The Packers always seem to have trouble in Minnesota.\r\n", 
             "homeTeam": "MIN", 
             "identity": {
                 "ESPNAPIID": "221117016", 
+                "ProFootballReferenceID": "200211170min", 
                 "TheSportsDBID": "493233"
             }, 
             "league": "NFL", 
@@ -6365,33 +6104,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Minnesota Vikings vs. Green Bay Packers", 
-            "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2002-11-17T18:00:00+00:00", 
-            "description": "A sloppy game in the rain turned\r\ninto a coming-out party for heralded New York Giants rookie tight\r\nend Jeremy Shockey.", 
-            "eventTitle": "", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ESPNAPIID": "221117019"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins", 
             "week": 11
         }, 
         {
@@ -6573,17 +6285,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2002-11-17T18:04:00+00:00", 
+            "description": "A sloppy game in the rain turned\r\ninto a coming-out party for heralded New York Giants rookie tight\r\nend Jeremy Shockey.", 
             "homeTeam": "NYG", 
             "identity": {
+                "ESPNAPIID": "221117019", 
                 "ProFootballReferenceID": "200211170nyg", 
                 "TheSportsDBID": "493234"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2002", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins"
+            "vs": "New York Giants vs. Washington Redskins", 
+            "week": 11
         }, 
         {
             "assets": {
@@ -6915,7 +6632,7 @@
             "date": "2002-11-24T18:00:00+00:00", 
             "description": "With a chance to win or tie in the final minute, Kurt Warner lost the ball.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "221124028"
             }, 
@@ -7426,13 +7143,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2002-11-28T21:05:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2002-11-28T21:17:00+00:00", 
             "description": "Dan Snyder will have to wait at least another month for the game ball coach Steve Spurrier promised him.", 
-            "eventTitle": "", 
             "homeTeam": "DAL", 
             "identity": {
-                "ESPNAPIID": "221128006"
+                "ESPNAPIID": "221128006", 
+                "ProFootballReferenceID": "200211280dal", 
+                "TheSportsDBID": "493258"
             }, 
             "league": "NFL", 
             "networks": [
@@ -7453,57 +7171,13 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WAS", 
-            "date": "2002-11-28T21:17:00+00:00", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ProFootballReferenceID": "200211280dal", 
-                "TheSportsDBID": "493258"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ATL", 
             "date": "2002-12-01T17:00:00+00:00", 
-            "homeTeam": "MIN", 
-            "identity": {
-                "ProFootballReferenceID": "200212010min"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Minnesota Vikings vs. Atlanta Falcons"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ATL", 
-            "date": "2002-12-01T18:00:00+00:00", 
             "description": "Michael Vick couldn't get much going with his arm, so he let his legs take over.\r\n", 
             "homeTeam": "MIN", 
             "identity": {
                 "ESPNAPIID": "221201016", 
+                "ProFootballReferenceID": "200212010min", 
                 "TheSportsDBID": "493264"
             }, 
             "league": "NFL", 
@@ -8005,33 +7679,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NYG", 
-            "date": "2002-12-08T18:00:00+00:00", 
-            "description": "The New York Giants were collapsing fast, their 17-point lead nearly gone and their momentum completely shot.\r\n", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "221208028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants", 
-            "week": 14
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ATL", 
             "date": "2002-12-08T18:01:00+00:00", 
             "description": "The Tampa Bay Buccaneers made Michael Vick look average -- again.\r\n", 
@@ -8174,17 +7821,22 @@
             }, 
             "awayTeam": "NYG", 
             "date": "2002-12-08T18:02:00+00:00", 
+            "description": "The New York Giants were collapsing fast, their 17-point lead nearly gone and their momentum completely shot.\r\n", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "221208028", 
                 "ProFootballReferenceID": "200212080was", 
                 "TheSportsDBID": "493288"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2002", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants"
+            "vs": "Washington Redskins vs. New York Giants", 
+            "week": 14
         }, 
         {
             "assets": {
@@ -8523,33 +8175,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2002-12-15T18:00:00+00:00", 
-            "description": "Even without Donovan McNabb, the Philadelphia Eagles are two wins away from staying home for the playoffs.\r\n", 
-            "eventTitle": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "221215021"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins", 
-            "week": 15
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CAR", 
             "date": "2002-12-15T18:01:00+00:00", 
             "description": "For much of the game, it was a virtual repeat of the week before, with lots of turnovers and a near-perfect\r\nperformance by the Pittsburgh defense. Only this time, the Steelers had a little offense, too.\r\n", 
@@ -8659,17 +8284,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2002-12-15T18:02:00+00:00", 
+            "description": "Even without Donovan McNabb, the Philadelphia Eagles are two wins away from staying home for the playoffs.\r\n", 
             "homeTeam": "PHI", 
             "identity": {
+                "ESPNAPIID": "221215021", 
                 "ProFootballReferenceID": "200212150phi", 
                 "TheSportsDBID": "493301"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2002", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
+            "vs": "Philadelphia Eagles vs. Washington Redskins", 
+            "week": 15
         }, 
         {
             "assets": {
@@ -9089,33 +8719,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "HOU", 
-            "date": "2002-12-22T18:00:00+00:00", 
-            "description": "For the first time in 17 years, the Washington Redskins had two 100-yard rushers in the same game.\r\n", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "221222028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Houston Texans", 
-            "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NYG", 
             "date": "2002-12-22T18:00:00+00:00", 
             "description": "Amani Toomer and Jeremy Shockey gave the New\r\nYork Giants the big plays they needed Sunday -- and a win that put them in position to reach the playoffs.\r\n", 
@@ -9252,17 +8855,22 @@
             }, 
             "awayTeam": "HOU", 
             "date": "2002-12-22T18:02:00+00:00", 
+            "description": "For the first time in 17 years, the Washington Redskins had two 100-yard rushers in the same game.\r\n", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "221222028", 
                 "ProFootballReferenceID": "200212220was", 
                 "TheSportsDBID": "493316"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2002", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Houston Texans"
+            "vs": "Washington Redskins vs. Houston Texans", 
+            "week": 16
         }, 
         {
             "assets": {
@@ -9619,33 +9227,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DAL", 
-            "date": "2002-12-29T18:00:00+00:00", 
-            "description": "Steve Spurrier gets to give Washington Redskins owner Dan Snyder a game ball.\r\n\r\n", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "221229028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2002", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys", 
-            "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CAR", 
             "date": "2002-12-29T18:02:00+00:00", 
             "description": "The New Orleans Saints needed just one victory down the stretch to make the playoffs. Instead, they lost all three.\r\n", 
@@ -9788,17 +9369,22 @@
             }, 
             "awayTeam": "DAL", 
             "date": "2002-12-29T18:02:00+00:00", 
+            "description": "Steve Spurrier gets to give Washington Redskins owner Dan Snyder a game ball.\r\n\r\n", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "221229028", 
                 "ProFootballReferenceID": "200212290was", 
                 "TheSportsDBID": "493326"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2002", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys"
+            "vs": "Washington Redskins vs. Dallas Cowboys", 
+            "week": 17
         }, 
         {
             "assets": {

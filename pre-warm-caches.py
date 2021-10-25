@@ -23,7 +23,7 @@ if __name__ == "__main__":
 	league_mins = {
 		LEAGUE_MLB: 1920,
 		LEAGUE_NBA: 1947,
-		LEAGUE_NFL: 1920,
+		LEAGUE_NFL: 1922,
 		LEAGUE_NHL: 1920
 		}
 

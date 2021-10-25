@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2022SCHEDULE", 
-        "CachedOn": "2021-10-12T11:02:29", 
-        "ExpiresOn": "2021-10-19T11:02:29", 
+        "CachedOn": "2021-10-24T23:24:20", 
+        "ExpiresOn": "2021-10-31T23:24:20", 
         "Version": "2"
     }, 
     "Items": [
@@ -42,32 +42,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PIT", 
-            "date": "2021-08-12T23:30:00+00:00", 
-            "description": "\u2014 Dwayne Haskins got advice from his QB coach to play like a jazz player.", 
-            "eventTitle": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "401326606"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2022", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Philadelphia Eagles vs. Pittsburgh Steelers", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2021-08-12T23:30:00+00:00", 
             "description": "\u2014 Rookie running back Rhamondre Stevenson had two touchdown runs, including a 91-yard score with just over a minute to play to help the New England Patriots beat Washington 22-13 to open the exhibition season for both teams Thursday night.", 
             "eventTitle": "", 
@@ -83,6 +58,31 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "New England Patriots vs. Washington", 
+            "week": 1
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "PIT", 
+            "date": "2021-08-12T23:30:00+00:00", 
+            "description": "\u2014 Dwayne Haskins got advice from his QB coach to play like a jazz player.", 
+            "eventTitle": "", 
+            "homeTeam": "PHI", 
+            "identity": {
+                "ESPNAPIID": "401326606"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Philadelphia Eagles vs. Pittsburgh Steelers", 
             "week": 1
         }, 
         {
@@ -488,7 +488,7 @@
             "date": "2021-08-21T00:00:00+00:00", 
             "description": "\u2014 Rookie running back Jaret Patterson did a little bit of everything and scored the go-ahead touchdown in the fourth quarter in Washington\u2019s 17-13 preseason victory over the Cincinnati Bengals on Friday night.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "401326954"
             }, 
@@ -1009,7 +1009,7 @@
             "date": "2021-08-28T22:00:00+00:00", 
             "description": "\u2014 J.K. Dobbins going down with an injury overshadowed the Baltimore Ravens making a little preseason history.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "401326923"
             }, 
@@ -1322,6 +1322,33 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "LAC", 
+            "date": "2021-09-12T17:00:00+00:00", 
+            "description": "\u2014 Brandon Staley and Justin Herbert shared a smile and shook hands outside the locker room before the new Los Angeles Chargers coach congratulated the second-year quarterback on a job well done.", 
+            "eventTitle": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ESPNAPIID": "401326312"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Washington vs. Los Angeles Chargers", 
+            "week": 1
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "JAX", 
             "date": "2021-09-12T17:00:00+00:00", 
             "description": "\u2014 With new coach Urban Meyer\u2019s championship college resume and No. 1 overall pick Trevor Lawrence leading the offense, the Jacksonville Jaguars were supposed to be much-improved this season.", 
@@ -1430,33 +1457,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "LAC", 
-            "date": "2021-09-12T17:00:00+00:00", 
-            "description": "\u2014 Brandon Staley and Justin Herbert shared a smile and shook hands outside the locker room before the new Los Angeles Chargers coach congratulated the second-year quarterback on a job well done.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "401326312"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2022", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington vs. Los Angeles Chargers", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SF", 
             "date": "2021-09-12T17:00:00+00:00", 
             "description": "\u2014 Nick Bosa was ready to kick back and relax while the San Francisco 49ers coasted to a season-opening victory.", 
@@ -1538,33 +1538,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CLE", 
-            "date": "2021-09-12T20:25:00+00:00", 
-            "description": "\u2014 Every time the Kansas City Chiefs needed a big play on Sunday, their magician under center produced the kind of mesmerizing moment that left the Cleveland Browns shaking their heads in awe and frustration.", 
-            "eventTitle": "", 
-            "homeTeam": "KC", 
-            "identity": {
-                "ESPNAPIID": "401326314"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2022", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Kansas City Chiefs vs. Cleveland Browns", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "DEN", 
             "date": "2021-09-12T20:25:00+00:00", 
             "description": "\u2014 For the first time since Peyton Manning retired after winning Super Bowl 50, the Denver Broncos may have a quarterback. All it took was 11 tries.", 
@@ -1608,6 +1581,33 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New England Patriots vs. Miami Dolphins", 
+            "week": 1
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CLE", 
+            "date": "2021-09-12T20:25:00+00:00", 
+            "description": "\u2014 Every time the Kansas City Chiefs needed a big play on Sunday, their magician under center produced the kind of mesmerizing moment that left the Cleveland Browns shaking their heads in awe and frustration.", 
+            "eventTitle": "", 
+            "homeTeam": "KC", 
+            "identity": {
+                "ESPNAPIID": "401326314"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Kansas City Chiefs vs. Cleveland Browns", 
             "week": 1
         }, 
         {
@@ -1705,7 +1705,7 @@
             "date": "2021-09-17T00:20:00+00:00", 
             "description": "\u2014 Taylor Heinicke and Dustin Hopkins made the most of their second chances.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "401326127"
             }, 
@@ -2187,33 +2187,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2021-09-26T17:00:00+00:00", 
-            "description": "\u2014 Josh Allen will never forget the emotional support Bills offensive coordinator Brian Daboll provided the quarterback following the loss of his grandmother 13 months ago.", 
-            "eventTitle": "", 
-            "homeTeam": "BUF", 
-            "identity": {
-                "ESPNAPIID": "401326364"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2022", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Buffalo Bills vs. Washington", 
-            "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CIN", 
             "date": "2021-09-26T17:00:00+00:00", 
             "description": "\u2014 It's not enough to talk about changing the culture, something Zac Taylor started doing the moment he took over as Cincinnati Bengals head coach more than two years ago.", 
@@ -2257,6 +2230,33 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New York Giants vs. Atlanta Falcons", 
+            "week": 3
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WAS", 
+            "date": "2021-09-26T17:00:00+00:00", 
+            "description": "\u2014 Josh Allen will never forget the emotional support Bills offensive coordinator Brian Daboll provided the quarterback following the loss of his grandmother 13 months ago.", 
+            "eventTitle": "", 
+            "homeTeam": "BUF", 
+            "identity": {
+                "ESPNAPIID": "401326364"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Buffalo Bills vs. Washington", 
             "week": 3
         }, 
         {
@@ -2726,22 +2726,22 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "HOU", 
             "date": "2021-10-03T17:00:00+00:00", 
-            "description": "\u2014 With a flair for improvisation, Taylor Heinicke has been pulling off these sort of bizarre plays most of his life.", 
+            "description": "\u2014 Defensive end Jerry Hughes and the Buffalo Bills' defense made it clear from the beginning.", 
             "eventTitle": "", 
-            "homeTeam": "ATL", 
+            "homeTeam": "BUF", 
             "identity": {
-                "ESPNAPIID": "401326380"
+                "ESPNAPIID": "401326381"
             }, 
             "league": "NFL", 
             "networks": [
-                "FOX"
+                "CBS"
             ], 
             "season": "2022", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Atlanta Falcons vs. Washington", 
+            "vs": "Buffalo Bills vs. Houston Texans", 
             "week": 4
         }, 
         {
@@ -2780,6 +2780,33 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "WAS", 
+            "date": "2021-10-03T17:00:00+00:00", 
+            "description": "\u2014 With a flair for improvisation, Taylor Heinicke has been pulling off these sort of bizarre plays most of his life.", 
+            "eventTitle": "", 
+            "homeTeam": "ATL", 
+            "identity": {
+                "ESPNAPIID": "401326380"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Atlanta Falcons vs. Washington", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "KC", 
             "date": "2021-10-03T17:00:00+00:00", 
             "description": "\u2014 Patrick Mahomes, Tyreek Hill and the Kansas City Chiefs gave Andy Reid a record-setting homecoming.", 
@@ -2796,33 +2823,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Philadelphia Eagles vs. Kansas City Chiefs", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "HOU", 
-            "date": "2021-10-03T17:00:00+00:00", 
-            "description": "\u2014 Defensive end Jerry Hughes and the Buffalo Bills' defense made it clear from the beginning.", 
-            "eventTitle": "", 
-            "homeTeam": "BUF", 
-            "identity": {
-                "ESPNAPIID": "401326381"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2022", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Buffalo Bills vs. Houston Texans", 
             "week": 4
         }, 
         {
@@ -3103,33 +3103,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DEN", 
-            "date": "2021-10-10T17:00:00+00:00", 
-            "description": "\u2014 Ben Roethlisberger and the Pittsburgh Steelers <a href=\"https://apnews.com/article/nfl-sports-jacoby-brissett-ben-roethlisberger-pittsburgh-steelers-0d80cd3a2578d7f036eb495c1d32dc5a\">silenced the noise</a>. At least for a week.", 
-            "eventTitle": "", 
-            "homeTeam": "PIT", 
-            "identity": {
-                "ESPNAPIID": "401326401"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2022", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Steelers vs. Denver Broncos", 
-            "week": 5
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "TEN", 
             "date": "2021-10-10T17:00:00+00:00", 
             "description": "\u2014 Derrick Henry enjoyed another happy homecoming while continuing to torment his hometown team.", 
@@ -3184,33 +3157,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NO", 
-            "date": "2021-10-10T17:00:00+00:00", 
-            "description": "\u2014 After Jameis Winston connected with Marquez Callaway on a Hail Mary touchdown on the final play of the first half, Sean Payton recalled a similar play in his first season as New Orleans Saints coach.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "401326403"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2022", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington vs. New Orleans Saints", 
-            "week": 5
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "GB", 
             "date": "2021-10-10T17:00:00+00:00", 
             "description": "\u2014 Green Bay Packers kicker Mason Crosby fell into a nightmarish Sunday as the afternoon grew late and a stiff wind kept the flag billowing right to left in Paul Brown Stadium.", 
@@ -3227,6 +3173,60 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Cincinnati Bengals vs. Green Bay Packers", 
+            "week": 5
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DEN", 
+            "date": "2021-10-10T17:00:00+00:00", 
+            "description": "\u2014 Ben Roethlisberger and the Pittsburgh Steelers <a href=\"https://apnews.com/article/nfl-sports-jacoby-brissett-ben-roethlisberger-pittsburgh-steelers-0d80cd3a2578d7f036eb495c1d32dc5a\">silenced the noise</a>. At least for a week.", 
+            "eventTitle": "", 
+            "homeTeam": "PIT", 
+            "identity": {
+                "ESPNAPIID": "401326401"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Steelers vs. Denver Broncos", 
+            "week": 5
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NO", 
+            "date": "2021-10-10T17:00:00+00:00", 
+            "description": "\u2014 After Jameis Winston connected with Marquez Callaway on a Hail Mary touchdown on the final play of the first half, Sean Payton recalled a similar play in his first season as New Orleans Saints coach.", 
+            "eventTitle": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ESPNAPIID": "401326403"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Washington vs. New Orleans Saints", 
             "week": 5
         }, 
         {
@@ -3417,6 +3417,704 @@
             "subseason": 0, 
             "vs": "Baltimore Ravens vs. Indianapolis Colts", 
             "week": 5
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "TB", 
+            "date": "2021-10-15T00:20:00+00:00", 
+            "description": "\u2014 The Tampa Bay Buccaneers keep losing key players and stockpiling victories.", 
+            "eventTitle": "", 
+            "homeTeam": "PHI", 
+            "identity": {
+                "ESPNAPIID": "401326410"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX", 
+                "NFL NET"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Philadelphia Eagles vs. Tampa Bay Buccaneers", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIA", 
+            "date": "2021-10-17T13:30:00+00:00", 
+            "description": "\u2014 The Jacksonville Jaguars have a championship pedigree at coach and quarterback.", 
+            "eventTitle": "", 
+            "homeTeam": "JAX", 
+            "identity": {
+                "ESPNAPIID": "401326325"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Jacksonville Jaguars vs. Miami Dolphins", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "KC", 
+            "date": "2021-10-17T17:00:00+00:00", 
+            "description": "\u2014 Teammates approached Patrick Mahomes after his second interception in the first half and maybe the worst of his NFL career. They told him to keep being himself.", 
+            "eventTitle": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ESPNAPIID": "401326417"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Washington vs. Kansas City Chiefs", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LAC", 
+            "date": "2021-10-17T17:00:00+00:00", 
+            "description": "\u2014 This Baltimore victory ended with the backup quarterback taking a knee.", 
+            "eventTitle": "", 
+            "homeTeam": "BAL", 
+            "identity": {
+                "ESPNAPIID": "401326411"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Baltimore Ravens vs. Los Angeles Chargers", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "GB", 
+            "date": "2021-10-17T17:00:00+00:00", 
+            "description": "\u2014 Aaron Rodgers didn't need to say it. He couldn't resist.", 
+            "eventTitle": "", 
+            "homeTeam": "CHI", 
+            "identity": {
+                "ESPNAPIID": "401326413"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Chicago Bears vs. Green Bay Packers", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LAR", 
+            "date": "2021-10-17T17:00:00+00:00", 
+            "description": "\u2014 Sean McVay wasn't happy walking into the postgame news conference after his Los Angeles Rams had their way with the banged-up and struggling New York Giants.", 
+            "eventTitle": "", 
+            "homeTeam": "NYG", 
+            "identity": {
+                "ESPNAPIID": "401326416"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New York Giants vs. Los Angeles Rams", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "HOU", 
+            "date": "2021-10-17T17:00:00+00:00", 
+            "description": "\u2014 The Indianapolis Colts finally figured out how to deliver a knockout punch Sunday.", 
+            "eventTitle": "", 
+            "homeTeam": "IND", 
+            "identity": {
+                "ESPNAPIID": "401326415"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Indianapolis Colts vs. Houston Texans", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "MIN", 
+            "date": "2021-10-17T17:00:00+00:00", 
+            "description": "\u2014 So much for the Minnesota Vikings' second-half scoring woes.", 
+            "eventTitle": "", 
+            "homeTeam": "CAR", 
+            "identity": {
+                "ESPNAPIID": "401326412"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Carolina Panthers vs. Minnesota Vikings", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CIN", 
+            "date": "2021-10-17T17:00:00+00:00", 
+            "description": "Joe Burrow was able to rest his voice on the road with a rout, quieting frustrated fans at Ford Field, a week after getting sent to the hospital after taking a hit to the throat.", 
+            "eventTitle": "", 
+            "homeTeam": "DET", 
+            "identity": {
+                "ESPNAPIID": "401326414"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Detroit Lions vs. Cincinnati Bengals", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ARI", 
+            "date": "2021-10-17T20:05:00+00:00", 
+            "description": "\u2014 As loud music blasted inside Arizona's locker room, players danced and could be heard shouting \u201cundefeated\u201d while coach Kliff Kingsbury smiled at the wild scene via a FaceTime call from home.", 
+            "eventTitle": "", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "ESPNAPIID": "401326418"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cleveland Browns vs. Arizona Cardinals", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "LV", 
+            "date": "2021-10-17T20:25:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "DEN", 
+            "identity": {
+                "ESPNAPIID": "401326419"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Denver Broncos vs. Las Vegas Raiders", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DAL", 
+            "date": "2021-10-17T20:25:00+00:00", 
+            "description": "\u2014 Dak Prescott wasn't going to let anything prevent him from enjoying the moment.", 
+            "eventTitle": "", 
+            "homeTeam": "NE", 
+            "identity": {
+                "ESPNAPIID": "401326420"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New England Patriots vs. Dallas Cowboys", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SEA", 
+            "date": "2021-10-18T00:20:00+00:00", 
+            "description": "\u2014 Pittsburgh Steelers coach Mike Tomlin insists there is nothing \u201cmystical\u201d to the way outside linebacker T.J. Watt goes about his business.", 
+            "eventTitle": "", 
+            "homeTeam": "PIT", 
+            "identity": {
+                "ESPNAPIID": "401326421"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "NBC"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Steelers vs. Seattle Seahawks", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BUF", 
+            "date": "2021-10-19T00:15:00+00:00", 
+            "description": "\u2014 Derrick Henry showed once again how important he is to the Tennessee Titans.", 
+            "eventTitle": "", 
+            "homeTeam": "TEN", 
+            "identity": {
+                "ESPNAPIID": "401326422"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "ESPN"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Tennessee Titans vs. Buffalo Bills", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DEN", 
+            "date": "2021-10-22T00:20:00+00:00", 
+            "description": "\u2014 Baker Mayfield had the best seat in the house to watch the Browns' backups deliver.", 
+            "eventTitle": "", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "ESPNAPIID": "401326423"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX", 
+                "NFL NET"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Cleveland Browns vs. Denver Broncos", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ATL", 
+            "date": "2021-10-24T17:00:00+00:00", 
+            "description": "\u2014 Matt Ryan fell asleep during Game 6 of the National League Championship Series, and wasn't even aware until waking up Sunday morning that the Atlanta Braves are heading to the World Series.", 
+            "eventTitle": "", 
+            "homeTeam": "MIA", 
+            "identity": {
+                "ESPNAPIID": "401326426"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Miami Dolphins vs. Atlanta Falcons", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WAS", 
+            "date": "2021-10-24T17:00:00+00:00", 
+            "description": "\u2014 With Aaron Rodgers approaching his MVP form and Green Bay\u2019s defense correcting its red-zone problems, the Packers have reason to feel confident as they enter the toughest stretch of their schedule.", 
+            "eventTitle": "", 
+            "homeTeam": "GB", 
+            "identity": {
+                "ESPNAPIID": "401326425"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Green Bay Packers vs. Washington", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYJ", 
+            "date": "2021-10-24T17:00:00+00:00", 
+            "description": "\u2014 The Patriots walked off the field Sunday with the type of win that had eluded them. The Jets left with two losses, one that could further complicate an already frustrating year.", 
+            "eventTitle": "", 
+            "homeTeam": "NE", 
+            "identity": {
+                "ESPNAPIID": "401326427"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New England Patriots vs. New York Jets", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "KC", 
+            "date": "2021-10-24T17:00:00+00:00", 
+            "description": "\u2014 The Tennessee Titans wanted to start games faster and score more points early.", 
+            "eventTitle": "", 
+            "homeTeam": "TEN", 
+            "identity": {
+                "ESPNAPIID": "401326429"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Tennessee Titans vs. Kansas City Chiefs", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CAR", 
+            "date": "2021-10-24T17:00:00+00:00", 
+            "description": "\u2014 With most of his top skill players sidelined with injuries, Daniel Jones did a little of bit of everything for the New York Giants. He ran the ball, threw a touchdown pass and even made a great catch on a trick play.", 
+            "eventTitle": "", 
+            "homeTeam": "NYG", 
+            "identity": {
+                "ESPNAPIID": "401326428"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "New York Giants vs. Carolina Panthers", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CIN", 
+            "date": "2021-10-24T17:00:00+00:00", 
+            "description": "\u2014 Ja'Marr Chase caught Joe Burrow's pass over the middle, avoided two players diving at his legs and spun past another defender into the clear.", 
+            "eventTitle": "", 
+            "homeTeam": "BAL", 
+            "identity": {
+                "ESPNAPIID": "401326424"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Baltimore Ravens vs. Cincinnati Bengals", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DET", 
+            "date": "2021-10-24T20:05:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "LAR", 
+            "identity": {
+                "ESPNAPIID": "401326430"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Los Angeles Rams vs. Detroit Lions", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "PHI", 
+            "date": "2021-10-24T20:05:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "LV", 
+            "identity": {
+                "ESPNAPIID": "401326431"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Las Vegas Raiders vs. Philadelphia Eagles", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "HOU", 
+            "date": "2021-10-24T20:25:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "ARI", 
+            "identity": {
+                "ESPNAPIID": "401326432"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Arizona Cardinals vs. Houston Texans", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CHI", 
+            "date": "2021-10-24T20:25:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "TB", 
+            "identity": {
+                "ESPNAPIID": "401326433"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Tampa Bay Buccaneers vs. Chicago Bears", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "IND", 
+            "date": "2021-10-25T00:20:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "SF", 
+            "identity": {
+                "ESPNAPIID": "401326434"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "NBC"
+            ], 
+            "season": "2022", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "San Francisco 49ers vs. Indianapolis Colts", 
+            "week": 7
         }
     ]
 }

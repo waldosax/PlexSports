@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2008SCHEDULE", 
-        "CachedOn": "2021-10-12T09:48:26", 
-        "ExpiresOn": "2021-10-19T09:48:26", 
+        "CachedOn": "2021-10-24T22:23:24", 
+        "ExpiresOn": "2021-10-31T22:23:24", 
         "Version": "2"
     }, 
     "Items": [
@@ -20,7 +20,7 @@
             "description": "Washington's Colt Brennan threw two touchdown passes in the second half, and Matterral Richardson returned an interception 38 yards for a touchdown to rally the Redskins for a 30-16 victory in Sunday's Hall of Fame Game.", 
             "eventTitle": "HALL OF FAME GAME", 
             "eventindicator": -1, 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "280803028"
             }, 
@@ -248,7 +248,7 @@
             "date": "2008-08-09T23:00:00+00:00", 
             "description": "\nJason Campbell and Todd Collins combined to go 15-for-21 in the first half of Saturday night's 17-14 victory over the Buffalo Bills.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "280809028"
             }, 
@@ -498,7 +498,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2008-08-16T23:00:00+00:00", 
             "description": "Brett Favre was solid in his brief Jets debut after a week of cramming to learn his new playbook, throwing a 4-yard touchdown pass to Dustin Keller to cap his second series in a 13-10 loss to the Washington Redskins on Saturday night.", 
             "eventTitle": "", 
@@ -1033,7 +1033,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2008-08-23T23:30:00+00:00", 
             "description": "Jason Taylor limped off the field with a worrisome knee injury and the Redskins quickly unraveled against the Panthers' 1-2 punch of DeAngelo Williams and Jonathan Stewart.\n", 
             "eventTitle": "", 
@@ -1389,33 +1389,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "JAX", 
-            "date": "2008-08-28T23:00:00+00:00", 
-            "description": "Gregg Williams showed up the team that let him go, his Jacksonville Jaguars defense stopping cold a Washington Redskins first-string attack that once again looked far from ready for the regular season.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "280828028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "NBC"
-            ], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Washington Redskins vs. Jacksonville Jaguars", 
-            "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "STL", 
             "date": "2008-08-28T23:00:00+00:00", 
             "description": "\nThe Chiefs \noffense grabbed some much-needed momentum with a 21-17 victory over \nthe Rams on Thursday night.\n", 
@@ -1455,6 +1428,33 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "Baltimore Ravens vs. Atlanta Falcons", 
+            "week": 4
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "JAX", 
+            "date": "2008-08-28T23:00:00+00:00", 
+            "description": "Gregg Williams showed up the team that let him go, his Jacksonville Jaguars defense stopping cold a Washington Redskins first-string attack that once again looked far from ready for the regular season.", 
+            "eventTitle": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ESPNAPIID": "280828028"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "NBC"
+            ], 
+            "season": "2008", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Washington Redskins vs. Jacksonville Jaguars", 
             "week": 4
         }, 
         {
@@ -1666,13 +1666,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2008-09-04T23:00:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2008-09-04T23:08:00+00:00", 
             "description": "The New York Giants kicked off their Super Bowl title defense with what else -- defense.", 
-            "eventTitle": "", 
             "homeTeam": "NYG", 
             "identity": {
-                "ESPNAPIID": "280904019"
+                "ESPNAPIID": "280904019", 
+                "ProFootballReferenceID": "200809040nyg", 
+                "TheSportsDBID": "494618"
             }, 
             "league": "NFL", 
             "networks": [
@@ -1683,29 +1684,6 @@
             "subseason": 0, 
             "vs": "New York Giants vs. Washington Redskins", 
             "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2008-09-04T23:08:00+00:00", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ProFootballReferenceID": "200809040nyg", 
-                "TheSportsDBID": "494618"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -2275,33 +2253,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NO", 
-            "date": "2008-09-14T17:00:00+00:00", 
-            "description": "Jason Campbell went from uncomfortable to prolific, completing 24 of 36 passes for 321 yards in a 29-24 victory over the New Orleans Saints.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "280914028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New Orleans Saints", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NYG", 
             "date": "2008-09-14T17:00:00+00:00", 
             "description": "Eli Manning threw three touchdown passes and the New York Giants sacked Marc Bulger five times while limiting the St. Louis Rams to a fluke touchdown in a 41-13 victory on Sunday.", 
@@ -2387,17 +2338,22 @@
             }, 
             "awayTeam": "NO", 
             "date": "2008-09-14T17:03:00+00:00", 
+            "description": "Jason Campbell went from uncomfortable to prolific, completing 24 of 36 passes for 321 yards in a 29-24 victory over the New Orleans Saints.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "280914028", 
                 "ProFootballReferenceID": "200809140was", 
                 "TheSportsDBID": "494647"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2008", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. New Orleans Saints"
+            "vs": "Washington Redskins vs. New Orleans Saints", 
+            "week": 2
         }, 
         {
             "assets": {
@@ -2710,33 +2666,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ARI", 
-            "date": "2008-09-21T17:00:00+00:00", 
-            "description": "Carlos Rogers' 42-yard interception return of a tipped pass set up the go-ahead touchdown early in the fourth quarter Sunday, and the Washington Redskins controlled the rest of the game for a 24-17 victory over the Arizona Cardinals.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "280921028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Arizona Cardinals", 
-            "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "OAK", 
             "date": "2008-09-21T17:00:00+00:00", 
             "description": "Bills 24, Raiders 23", 
@@ -2822,17 +2751,22 @@
             }, 
             "awayTeam": "ARI", 
             "date": "2008-09-21T17:02:00+00:00", 
+            "description": "Carlos Rogers' 42-yard interception return of a tipped pass set up the go-ahead touchdown early in the fourth quarter Sunday, and the Washington Redskins controlled the rest of the game for a 24-17 victory over the Arizona Cardinals.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "280921028", 
                 "ProFootballReferenceID": "200809210was", 
                 "TheSportsDBID": "494663"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2008", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Arizona Cardinals"
+            "vs": "Washington Redskins vs. Arizona Cardinals", 
+            "week": 3
         }, 
         {
             "assets": {
@@ -3572,34 +3506,12 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2008-09-28T20:15:00+00:00", 
+            "description": "New Washington Redskins coach Jim Zorn was looking for something to help him build up a healthy dose of hate for the Dallas Cowboys. Turns out, he kinds of likes playing his team's archrival.", 
             "homeTeam": "DAL", 
             "identity": {
+                "ESPNAPIID": "280928006", 
                 "ProFootballReferenceID": "200809280dal", 
                 "TheSportsDBID": "494668"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2008-09-28T20:15:00+00:00", 
-            "description": "New Washington Redskins coach Jim Zorn was looking for something to help him build up a healthy dose of hate for the Dallas Cowboys. Turns out, he kinds of likes playing his team's archrival.", 
-            "eventTitle": "", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ESPNAPIID": "280928006"
             }, 
             "league": "NFL", 
             "networks": [
@@ -3666,33 +3578,6 @@
             "subseason": 0, 
             "vs": "Pittsburgh Steelers vs. Baltimore Ravens", 
             "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2008-10-05T17:00:00+00:00", 
-            "description": "Another road win against a division opponent has the Washington Redskins in perfect position to make a run at the NFC East.", 
-            "eventTitle": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "281005021"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins", 
-            "week": 5
         }, 
         {
             "assets": {
@@ -3923,17 +3808,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2008-10-05T17:04:00+00:00", 
+            "description": "Another road win against a division opponent has the Washington Redskins in perfect position to make a run at the NFC East.", 
             "homeTeam": "PHI", 
             "identity": {
+                "ESPNAPIID": "281005021", 
                 "ProFootballReferenceID": "200810050phi", 
                 "TheSportsDBID": "494689"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2008", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
+            "vs": "Philadelphia Eagles vs. Washington Redskins", 
+            "week": 5
         }, 
         {
             "assets": {
@@ -4112,6 +4002,33 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "STL", 
+            "date": "2008-10-12T17:00:00+00:00", 
+            "description": "Josh Brown kicked a 49-yard field goal on the last play of the game Sunday, giving the St. Louis Rams a 19-17 upset of the Washington Redskins.\n", 
+            "eventTitle": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ESPNAPIID": "281012028"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2008", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Washington Redskins vs. St. Louis Rams", 
+            "week": 6
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "OAK", 
             "date": "2008-10-12T17:00:00+00:00", 
             "description": "Connecting on 87 percent of his throws, Brees passed for 320 yards and three touchdowns, and the New Orleans Saints routed the Oakland Raiders 34-3 Sunday.", 
@@ -4128,33 +4045,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "New Orleans Saints vs. Oakland Raiders", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "STL", 
-            "date": "2008-10-12T17:00:00+00:00", 
-            "description": "Josh Brown kicked a 49-yard field goal on the last play of the game Sunday, giving the St. Louis Rams a 19-17 upset of the Washington Redskins.\n", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "281012028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. St. Louis Rams", 
             "week": 6
         }, 
         {
@@ -4866,33 +4756,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CLE", 
-            "date": "2008-10-19T20:15:00+00:00", 
-            "description": "For 21\u20442 quarters, the Washington Redskins and Cleveland Browns produced lots of punts and no points.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "281019028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Cleveland Browns", 
-            "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NYJ", 
             "date": "2008-10-19T20:15:00+00:00", 
             "homeTeam": "LV", 
@@ -4973,17 +4836,22 @@
             }, 
             "awayTeam": "CLE", 
             "date": "2008-10-19T20:16:00+00:00", 
+            "description": "For 21\u20442 quarters, the Washington Redskins and Cleveland Browns produced lots of punts and no points.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "281019028", 
                 "ProFootballReferenceID": "200810190was", 
                 "TheSportsDBID": "494710"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2008", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Cleveland Browns"
+            "vs": "Washington Redskins vs. Cleveland Browns", 
+            "week": 7
         }, 
         {
             "assets": {
@@ -5131,33 +4999,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2008-10-26T17:00:00+00:00", 
-            "description": "Santana Moss had a go-ahead touchdown reception in the third quarter and returned a punt for another score in the fourth, lifting the Washington Redskins to a 25-17 victory over the winless Lions on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "DET", 
-            "identity": {
-                "ESPNAPIID": "281026008"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Detroit Lions vs. Washington Redskins", 
-            "week": 8
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ATL", 
             "date": "2008-10-26T17:02:00+00:00", 
             "description": "Brian Westbrook returned to his All-Pro form and rushed for 167 yards and two touchdowns as part of a dynamic all-around effort, and the Eagles beat the Falcons 27-14 on Sunday.\n\n", 
@@ -5262,17 +5103,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2008-10-26T17:03:00+00:00", 
+            "description": "Santana Moss had a go-ahead touchdown reception in the third quarter and returned a punt for another score in the fourth, lifting the Washington Redskins to a 25-17 victory over the winless Lions on Sunday.", 
             "homeTeam": "DET", 
             "identity": {
+                "ESPNAPIID": "281026008", 
                 "ProFootballReferenceID": "200810260det", 
                 "TheSportsDBID": "494723"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2008", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Detroit Lions vs. Washington Redskins"
+            "vs": "Detroit Lions vs. Washington Redskins", 
+            "week": 8
         }, 
         {
             "assets": {
@@ -5392,34 +5238,12 @@
             }, 
             "awayTeam": "CIN", 
             "date": "2008-10-26T19:47:00+00:00", 
+            "description": "In his first meeting against his former team, Kevin Walter scored two touchdowns to lead the Houston Texans to a 35-6 victory over the winless Bengals on Sunday.", 
             "homeTeam": "HOU", 
             "identity": {
+                "ESPNAPIID": "281026034", 
                 "ProFootballReferenceID": "200810260htx", 
                 "TheSportsDBID": "494724"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Houston Texans vs. Cincinnati Bengals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CIN", 
-            "date": "2008-10-26T20:05:00+00:00", 
-            "description": "In his first meeting against his former team, Kevin Walter scored two touchdowns to lead the Houston Texans to a 35-6 victory over the winless Bengals on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "HOU", 
-            "identity": {
-                "ESPNAPIID": "281026034"
             }, 
             "league": "NFL", 
             "networks": [
@@ -5961,12 +5785,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "PIT", 
-            "date": "2008-11-04T01:30:00+00:00", 
+            "date": "2008-11-04T01:41:00+00:00", 
             "description": "Byron Leftwich led two touchdown drives after Ben Roethlisberger reinjured his throwing shoulder and the Pittsburgh Steelers beat the Washington Redskins 23-6 on Monday night.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "281103028"
+                "ESPNAPIID": "281103028", 
+                "ProFootballReferenceID": "200811030was", 
+                "TheSportsDBID": "494747"
             }, 
             "league": "NFL", 
             "networks": [
@@ -5977,29 +5802,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. Pittsburgh Steelers", 
             "week": 9
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PIT", 
-            "date": "2008-11-04T01:41:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "200811030was", 
-                "TheSportsDBID": "494747"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Pittsburgh Steelers"
         }, 
         {
             "assets": {
@@ -6927,12 +6729,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "DAL", 
-            "date": "2008-11-17T01:15:00+00:00", 
+            "date": "2008-11-17T01:23:00+00:00", 
             "description": "Tony Romo celebrated the go-ahead touchdown pass by bouncing up and down like a little kid and patting teammates on the back with his left hand, carefully avoiding any further damage to his heavily wrapped right pinkie.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "281116028"
+                "ESPNAPIID": "281116028", 
+                "ProFootballReferenceID": "200811160was", 
+                "TheSportsDBID": "494768"
             }, 
             "league": "NFL", 
             "networks": [
@@ -6943,29 +6746,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. Dallas Cowboys", 
             "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "2008-11-17T01:23:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "200811160was", 
-                "TheSportsDBID": "494768"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys"
         }, 
         {
             "assets": {
@@ -7356,33 +7136,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2008-11-23T21:15:00+00:00", 
-            "description": "Clinton Portis gained 143 yards on 29 carries, including key runs late that helped preserve the Redskins' first victory in almost a month, 20-17 over the Seattle Seahawks.", 
-            "eventTitle": "", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "ESPNAPIID": "281123026"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Seattle Seahawks vs. Washington Redskins", 
-            "week": 12
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CAR", 
             "date": "2008-11-23T21:15:00+00:00", 
             "description": "Michael Turner's four rushing touchdowns carried the Falcons over the Panthers on Sunday.", 
@@ -7413,17 +7166,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2008-11-23T21:16:00+00:00", 
+            "description": "Clinton Portis gained 143 yards on 29 carries, including key runs late that helped preserve the Redskins' first victory in almost a month, 20-17 over the Seattle Seahawks.", 
             "homeTeam": "SEA", 
             "identity": {
+                "ESPNAPIID": "281123026", 
                 "ProFootballReferenceID": "200811230sea", 
                 "TheSportsDBID": "494780"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2008", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Seattle Seahawks vs. Washington Redskins"
+            "vs": "Seattle Seahawks vs. Washington Redskins", 
+            "week": 12
         }, 
         {
             "assets": {
@@ -7613,33 +7371,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Philadelphia Eagles vs. Arizona Cardinals", 
-            "week": 13
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYG", 
-            "date": "2008-11-30T18:00:00+00:00", 
-            "description": "Nothing is stopping the New York Giants these days. Not the latest distraction surrounding their star receiver. Not the rain on a dreary day in the mid-Atlantic. Not a Washington Redskins team with the NFL's leading rusher and a usually stout defense.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "281130028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants", 
             "week": 13
         }, 
         {
@@ -7843,17 +7574,22 @@
             }, 
             "awayTeam": "NYG", 
             "date": "2008-11-30T18:04:00+00:00", 
+            "description": "Nothing is stopping the New York Giants these days. Not the latest distraction surrounding their star receiver. Not the rain on a dreary day in the mid-Atlantic. Not a Washington Redskins team with the NFL's leading rusher and a usually stout defense.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "281130028", 
                 "ProFootballReferenceID": "200811300was", 
                 "TheSportsDBID": "494800"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2008", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants"
+            "vs": "Washington Redskins vs. New York Giants", 
+            "week": 13
         }, 
         {
             "assets": {
@@ -8512,13 +8248,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2008-12-08T01:15:00+00:00", 
+            "awayTeam": "WAS", 
+            "date": "2008-12-08T01:23:00+00:00", 
             "description": "Given their uneven performance against the Baltimore Ravens, the Washington Redskins must be glad they don't face their so-called rivals on a regular basis.", 
-            "eventTitle": "", 
             "homeTeam": "BAL", 
             "identity": {
-                "ESPNAPIID": "281207033"
+                "ESPNAPIID": "281207033", 
+                "ProFootballReferenceID": "200812070rav", 
+                "TheSportsDBID": "494815"
             }, 
             "league": "NFL", 
             "networks": [
@@ -8529,29 +8266,6 @@
             "subseason": 0, 
             "vs": "Baltimore Ravens vs. Washington Redskins", 
             "week": 14
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2008-12-08T01:23:00+00:00", 
-            "homeTeam": "BAL", 
-            "identity": {
-                "ProFootballReferenceID": "200812070rav", 
-                "TheSportsDBID": "494815"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Baltimore Ravens vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -8631,33 +8345,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "St. Louis Rams vs. Seattle Seahawks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WSH", 
-            "date": "2008-12-14T18:00:00+00:00", 
-            "description": "Ryan Fitzpatrick ran for a touchdown and threw for another, leading the Bengals to a 20-13 victory that ended Washington's week of grousing.\n", 
-            "eventTitle": "", 
-            "homeTeam": "CIN", 
-            "identity": {
-                "ESPNAPIID": "281214004"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Cincinnati Bengals vs. Washington Redskins", 
-            "week": 15
         }, 
         {
             "assets": {
@@ -8803,17 +8490,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2008-12-14T18:03:00+00:00", 
+            "description": "Ryan Fitzpatrick ran for a touchdown and threw for another, leading the Bengals to a 20-13 victory that ended Washington's week of grousing.\n", 
             "homeTeam": "CIN", 
             "identity": {
+                "ESPNAPIID": "281214004", 
                 "ProFootballReferenceID": "200812140cin", 
                 "TheSportsDBID": "494827"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2008", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Cincinnati Bengals vs. Washington Redskins"
+            "vs": "Cincinnati Bengals vs. Washington Redskins", 
+            "week": 15
         }, 
         {
             "assets": {
@@ -9528,33 +9220,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PHI", 
-            "date": "2008-12-21T21:15:00+00:00", 
-            "description": "The Redskins stopped the Eagles on the 1-yard line on the final play to win on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "281221028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles", 
-            "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ATL", 
             "date": "2008-12-21T21:15:00+00:00", 
             "description": "The Atlanta Falcons' stunning turnaround season will roll on into the playoffs, thanks to Matt Ryan's unflappable poise, Justin Blalock's hustle and the generosity of the Minnesota Vikings.", 
@@ -9585,17 +9250,22 @@
             }, 
             "awayTeam": "PHI", 
             "date": "2008-12-21T21:16:00+00:00", 
+            "description": "The Redskins stopped the Eagles on the 1-yard line on the final play to win on Sunday.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "281221028", 
                 "ProFootballReferenceID": "200812210was", 
                 "TheSportsDBID": "494856"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2008", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles"
+            "vs": "Washington Redskins vs. Philadelphia Eagles", 
+            "week": 16
         }, 
         {
             "assets": {
@@ -9986,13 +9656,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2008-12-28T21:15:00+00:00", 
             "description": "Joe Nedney kicked a 39-yard field goal as time expired, and the San Francisco 49ers dramatically finished their late-season surge under interim coach Mike Singletary with a 27-24 victory over the Washington Redskins on Sunday.", 
-            "eventTitle": "", 
             "homeTeam": "SF", 
             "identity": {
-                "ESPNAPIID": "281228025"
+                "ESPNAPIID": "281228025", 
+                "ProFootballReferenceID": "200812280sfo", 
+                "TheSportsDBID": "494872"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10003,29 +9674,6 @@
             "subseason": 0, 
             "vs": "San Francisco 49ers vs. Washington Redskins", 
             "week": 17
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "WAS", 
-            "date": "2008-12-28T21:15:00+00:00", 
-            "homeTeam": "SF", 
-            "identity": {
-                "ProFootballReferenceID": "200812280sfo", 
-                "TheSportsDBID": "494872"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "San Francisco 49ers vs. Washington Redskins"
         }, 
         {
             "assets": {
@@ -10684,40 +10332,19 @@
                 "thumbnail": []
             }, 
             "awayTeam": "PHI", 
-            "date": "2009-01-18T20:00:00+00:00", 
+            "date": "2009-01-18T21:06:00+00:00", 
             "description": "The Arizona Cardinals rallied to defeat the Philadelphia Eagles 32-25 in the NFC championship Sunday afternoon, earning the first Super Bowl trip in their long and not-so-glorious history.", 
             "eventTitle": "NFC CHAMPIONSHIP", 
             "homeTeam": "ARI", 
             "identity": {
-                "ESPNAPIID": "290118022"
+                "ESPNAPIID": "290118022", 
+                "ProFootballReferenceID": "200901180crd"
             }, 
             "league": "NFL", 
             "networks": [
                 "FOX"
             ], 
             "playoffround": 3, 
-            "season": "2008", 
-            "sport": "Football", 
-            "subseason": 1, 
-            "vs": "Arizona Cardinals vs. Philadelphia Eagles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "2009-01-18T21:06:00+00:00", 
-            "homeTeam": "ARI", 
-            "identity": {
-                "ProFootballReferenceID": "200901180crd"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
             "season": "2008", 
             "sport": "Football", 
             "subseason": 1, 

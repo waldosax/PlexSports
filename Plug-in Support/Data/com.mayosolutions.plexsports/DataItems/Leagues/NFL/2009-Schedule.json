@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2009SCHEDULE", 
-        "CachedOn": "2021-10-12T09:53:20", 
-        "ExpiresOn": "2021-10-19T09:53:20", 
+        "CachedOn": "2021-10-24T22:27:48", 
+        "ExpiresOn": "2021-10-31T22:27:48", 
         "Version": "2"
     }, 
     "Items": [
@@ -42,31 +42,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2009-08-13T23:30:00+00:00", 
-            "description": "Ravens 23, Redskins 0", 
-            "eventTitle": "", 
-            "homeTeam": "BAL", 
-            "identity": {
-                "ESPNAPIID": "290813033"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Baltimore Ravens vs. Washington Redskins", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NE", 
             "date": "2009-08-13T23:30:00+00:00", 
             "description": "Tom Brady was making his comeback against the Philadelphia Eagles while Michael Vick was getting ready to join them.", 
@@ -81,6 +56,31 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "Philadelphia Eagles vs. New England Patriots", 
+            "week": 1
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "WAS", 
+            "date": "2009-08-13T23:30:00+00:00", 
+            "description": "Ravens 23, Redskins 0", 
+            "eventTitle": "", 
+            "homeTeam": "BAL", 
+            "identity": {
+                "ESPNAPIID": "290813033"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2009", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Baltimore Ravens vs. Washington Redskins", 
             "week": 1
         }, 
         {
@@ -585,33 +585,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PIT", 
-            "date": "2009-08-22T23:30:00+00:00", 
-            "description": "Redskins 17, Steelers 13", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "290822028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "NFL"
-            ], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": -1, 
-            "vs": "Washington Redskins vs. Pittsburgh Steelers", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "DET", 
             "date": "2009-08-22T23:30:00+00:00", 
             "description": "Derek Anderson looked worthy of being a No. 1 quarterback. Rookie Matthew Stafford hardly looked like a No. 1 pick.", 
@@ -626,6 +599,33 @@
             "sport": "Football", 
             "subseason": -1, 
             "vs": "Cleveland Browns vs. Detroit Lions", 
+            "week": 2
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "PIT", 
+            "date": "2009-08-22T23:30:00+00:00", 
+            "description": "Redskins 17, Steelers 13", 
+            "eventTitle": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ESPNAPIID": "290822028"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "NFL"
+            ], 
+            "season": "2009", 
+            "sport": "Football", 
+            "subseason": -1, 
+            "vs": "Washington Redskins vs. Pittsburgh Steelers", 
             "week": 2
         }, 
         {
@@ -947,7 +947,7 @@
             "date": "2009-08-29T00:00:00+00:00", 
             "description": "Tom Brady and Jason Campbell put on a regular season show in preseason, combining for 359 yards, six scoring drives and a sore throwing shoulder that isn't the best of news for New England Patriots fans.", 
             "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "290828028"
             }, 
@@ -1382,7 +1382,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2009-09-03T23:30:00+00:00", 
             "description": "Jaguars 24, Redskins 17", 
             "eventTitle": "", 
@@ -2016,33 +2016,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2009-09-13T20:15:00+00:00", 
-            "description": "Eli Manning threw a 30-yard touchdown pass to Mario Manningham, and defensive end Osi Umenyiora ran back a fumble 37 yards in his return from a knee injury, leading the Giants to a 23-17 win over the Redskins on Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "ESPNAPIID": "290913019"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins", 
-            "week": 1
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "STL", 
             "date": "2009-09-13T20:15:00+00:00", 
             "description": "Matt Hasselbeck, playing his first game since Thanksgiving Day, overcame two interceptions in his first three throws Sunday to connect with John Carlson for two touchdowns in Seattle's 28-0 romp past St. Louis.", 
@@ -2072,17 +2045,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2009-09-13T20:15:00+00:00", 
+            "description": "Eli Manning threw a 30-yard touchdown pass to Mario Manningham, and defensive end Osi Umenyiora ran back a fumble 37 yards in his return from a knee injury, leading the Giants to a 23-17 win over the Redskins on Sunday.", 
             "homeTeam": "NYG", 
             "identity": {
+                "ESPNAPIID": "290913019", 
                 "ProFootballReferenceID": "200909130nyg", 
                 "TheSportsDBID": "494884"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2009", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "New York Giants vs. Washington Redskins"
+            "vs": "New York Giants vs. Washington Redskins", 
+            "week": 1
         }, 
         {
             "assets": {
@@ -2222,6 +2200,33 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "STL", 
+            "date": "2009-09-20T17:00:00+00:00", 
+            "description": "The Washington Redskins narrowly averted losing at home to the St. Louis Rams for the second straight year, eking out a 9-7 win Sunday.", 
+            "eventTitle": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ESPNAPIID": "290920028"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2009", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Washington Redskins vs. St. Louis Rams", 
+            "week": 2
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "LV", 
             "date": "2009-09-20T17:00:00+00:00", 
             "homeTeam": "KC", 
@@ -2261,33 +2266,6 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Kansas City Chiefs vs. Oakland Raiders", 
-            "week": 2
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "STL", 
-            "date": "2009-09-20T17:00:00+00:00", 
-            "description": "The Washington Redskins narrowly averted losing at home to the St. Louis Rams for the second straight year, eking out a 9-7 win Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "290920028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. St. Louis Rams", 
             "week": 2
         }, 
         {
@@ -2791,33 +2769,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2009-09-27T17:00:00+00:00", 
-            "description": "The Detroit Lions ended their 19-game losing streak by holding off the Washington Redskins 19-14 Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "DET", 
-            "identity": {
-                "ESPNAPIID": "290927008"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Detroit Lions vs. Washington Redskins", 
-            "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "GB", 
             "date": "2009-09-27T17:00:00+00:00", 
             "homeTeam": "LAR", 
@@ -2899,17 +2850,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2009-09-27T17:02:00+00:00", 
+            "description": "The Detroit Lions ended their 19-game losing streak by holding off the Washington Redskins 19-14 Sunday.", 
             "homeTeam": "DET", 
             "identity": {
+                "ESPNAPIID": "290927008", 
                 "ProFootballReferenceID": "200909270det", 
                 "TheSportsDBID": "494910"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2009", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Detroit Lions vs. Washington Redskins"
+            "vs": "Detroit Lions vs. Washington Redskins", 
+            "week": 3
         }, 
         {
             "assets": {
@@ -3275,10 +3231,11 @@
             "awayTeam": "TB", 
             "date": "2009-10-04T17:00:00+00:00", 
             "description": "Jason Campbell threw two touchdown passes in the third quarter, and the Washington Redskins rallied from a 10-point halftime deficit Sunday to beat the winless Tampa Bay Buccaneers 16-13.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "291004028"
+                "ESPNAPIID": "291004028", 
+                "ProFootballReferenceID": "200910040was", 
+                "TheSportsDBID": "494929"
             }, 
             "league": "NFL", 
             "networks": [
@@ -3289,29 +3246,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. Tampa Bay Buccaneers", 
             "week": 4
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "TB", 
-            "date": "2009-10-04T17:00:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "200910040was", 
-                "TheSportsDBID": "494929"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Tampa Bay Buccaneers"
         }, 
         {
             "assets": {
@@ -3802,33 +3736,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2009-10-11T17:00:00+00:00", 
-            "description": "Aided by a disputed call and Jake Delhomme's bold third-down run, the Carolina Panthers jump-started a sagging season at the expense of embattled Washington coach Jim Zorn.", 
-            "eventTitle": "", 
-            "homeTeam": "CAR", 
-            "identity": {
-                "ESPNAPIID": "291011029"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Carolina Panthers vs. Washington Redskins", 
-            "week": 5
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "OAK", 
             "date": "2009-10-11T17:00:00+00:00", 
             "description": "Eli Manning and his hurting heel, even for less than a half, were more than enough for the New York Giants against the hapless Oakland Raiders.", 
@@ -4021,17 +3928,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2009-10-11T17:04:00+00:00", 
+            "description": "Aided by a disputed call and Jake Delhomme's bold third-down run, the Carolina Panthers jump-started a sagging season at the expense of embattled Washington coach Jim Zorn.", 
             "homeTeam": "CAR", 
             "identity": {
+                "ESPNAPIID": "291011029", 
                 "ProFootballReferenceID": "200910110car", 
                 "TheSportsDBID": "494938"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2009", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Carolina Panthers vs. Washington Redskins"
+            "vs": "Carolina Panthers vs. Washington Redskins", 
+            "week": 5
         }, 
         {
             "assets": {
@@ -4200,33 +4112,6 @@
             "subseason": 0, 
             "vs": "Miami Dolphins vs. New York Jets", 
             "week": 5
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "KC", 
-            "date": "2009-10-18T17:00:00+00:00", 
-            "description": "The Kansas City Chiefs won for the first time this season when rookie Ryan Succop kicked four field goals, including the go-ahead 46-yarder with 3:36 to play, to beat the Washington Redskins 14-6 Sunday.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "291018028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Kansas City Chiefs", 
-            "week": 6
         }, 
         {
             "assets": {
@@ -4429,17 +4314,22 @@
             }, 
             "awayTeam": "KC", 
             "date": "2009-10-18T17:03:00+00:00", 
+            "description": "The Kansas City Chiefs won for the first time this season when rookie Ryan Succop kicked four field goals, including the go-ahead 46-yarder with 3:36 to play, to beat the Washington Redskins 14-6 Sunday.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "291018028", 
                 "ProFootballReferenceID": "200910180was", 
                 "TheSportsDBID": "494957"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2009", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Kansas City Chiefs"
+            "vs": "Washington Redskins vs. Kansas City Chiefs", 
+            "week": 6
         }, 
         {
             "assets": {
@@ -5093,12 +4983,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "PHI", 
-            "date": "2009-10-27T00:30:00+00:00", 
+            "date": "2009-10-27T00:41:00+00:00", 
             "description": "DeSean Jackson scored on a 67-yard reverse and caught a 57-yard touchdown pass, and the Philadelphia Eagles converted three turnovers into points Monday night in a 27-17 win over the Washington Redskins.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "291026028"
+                "ESPNAPIID": "291026028", 
+                "ProFootballReferenceID": "200910260was", 
+                "TheSportsDBID": "494976"
             }, 
             "league": "NFL", 
             "networks": [
@@ -5109,29 +5000,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. Philadelphia Eagles", 
             "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "2009-10-27T00:41:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "200910260was", 
-                "TheSportsDBID": "494976"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Philadelphia Eagles"
         }, 
         {
             "assets": {
@@ -5550,33 +5418,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2009-11-08T18:00:00+00:00", 
-            "description": "Michael Turner is looking a lot more like he did a year ago. DeAngelo Hall might want to keep his mouth shut the next time he faces his former team.", 
-            "eventTitle": "", 
-            "homeTeam": "ATL", 
-            "identity": {
-                "ESPNAPIID": "291108001"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Atlanta Falcons vs. Washington Redskins", 
-            "week": 9
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "BAL", 
             "date": "2009-11-08T18:02:00+00:00", 
             "description": "The Bengals beat the Ravens 17-7 on Sunday.", 
@@ -5663,17 +5504,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2009-11-08T18:03:00+00:00", 
+            "description": "Michael Turner is looking a lot more like he did a year ago. DeAngelo Hall might want to keep his mouth shut the next time he faces his former team.", 
             "homeTeam": "ATL", 
             "identity": {
+                "ESPNAPIID": "291108001", 
                 "ProFootballReferenceID": "200911080atl", 
                 "TheSportsDBID": "494990"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2009", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Atlanta Falcons vs. Washington Redskins"
+            "vs": "Atlanta Falcons vs. Washington Redskins", 
+            "week": 9
         }, 
         {
             "assets": {
@@ -5986,33 +5832,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DEN", 
-            "date": "2009-11-15T18:00:00+00:00", 
-            "description": "The Redskins broke the 17-point barrier for the first time this season and ended a four-game losing streak with a 27-17 victory over the Broncos.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "291115028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Denver Broncos", 
-            "week": 10
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NO", 
             "date": "2009-11-15T18:00:00+00:00", 
             "description": "Reggie Bush helped the unbeaten New Orleans Saints overcome another bundle of mistakes and get off to the best start in team history.", 
@@ -6093,17 +5912,22 @@
             }, 
             "awayTeam": "DEN", 
             "date": "2009-11-15T18:02:00+00:00", 
+            "description": "The Redskins broke the 17-point barrier for the first time this season and ended a four-game losing streak with a 27-17 victory over the Broncos.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "291115028", 
                 "ProFootballReferenceID": "200911150was", 
                 "TheSportsDBID": "495006"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2009", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. Denver Broncos"
+            "vs": "Washington Redskins vs. Denver Broncos", 
+            "week": 10
         }, 
         {
             "assets": {
@@ -6550,33 +6374,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2009-11-22T18:00:00+00:00", 
-            "description": "Tony Romo led only a single scoring drive, hitting Patrick Crayton for a 10-yard touchdown pass with 2:41 left, and it was enough to give Dallas a 7-6 victory over Washington on Sunday to preserve first place in the NFC East.", 
-            "eventTitle": "", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "ESPNAPIID": "291122006"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins", 
-            "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "IND", 
             "date": "2009-11-22T18:02:00+00:00", 
             "description": "Receiving an inspired performance from their defense and overcoming an uncharacteristic three turnovers, the Colts edged Baltimore 17-15 Sunday to improve to 10-0.", 
@@ -6719,17 +6516,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2009-11-22T18:03:00+00:00", 
+            "description": "Tony Romo led only a single scoring drive, hitting Patrick Crayton for a 10-yard touchdown pass with 2:41 left, and it was enough to give Dallas a 7-6 victory over Washington on Sunday to preserve first place in the NFC East.", 
             "homeTeam": "DAL", 
             "identity": {
+                "ESPNAPIID": "291122006", 
                 "ProFootballReferenceID": "200911220dal", 
                 "TheSportsDBID": "495020"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2009", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Dallas Cowboys vs. Washington Redskins"
+            "vs": "Dallas Cowboys vs. Washington Redskins", 
+            "week": 11
         }, 
         {
             "assets": {
@@ -7158,33 +6960,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
-            "date": "2009-11-29T18:00:00+00:00", 
-            "description": "The Philadelphia Eagles enjoyed a rare fourth-quarter comeback so much they did it again.", 
-            "eventTitle": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "291129021"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins", 
-            "week": 12
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "MIA", 
             "date": "2009-11-29T18:02:00+00:00", 
             "description": "Terrell Owens caught a 51-yard touchdown pass with 2:23 left to propel the Bills to a 31-14 win over the Dolphins Sunday and give interim coach Perry Fewell his first victory.", 
@@ -7299,17 +7074,22 @@
             }, 
             "awayTeam": "WAS", 
             "date": "2009-11-29T18:03:00+00:00", 
+            "description": "The Philadelphia Eagles enjoyed a rare fourth-quarter comeback so much they did it again.", 
             "homeTeam": "PHI", 
             "identity": {
+                "ESPNAPIID": "291129021", 
                 "ProFootballReferenceID": "200911290phi", 
                 "TheSportsDBID": "495042"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2009", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Philadelphia Eagles vs. Washington Redskins"
+            "vs": "Philadelphia Eagles vs. Washington Redskins", 
+            "week": 12
         }, 
         {
             "assets": {
@@ -7621,33 +7401,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NO", 
-            "date": "2009-12-06T18:00:00+00:00", 
-            "description": "Garrett Hartley kicked an 18-yard field goal 6:29 into overtime Sunday, and the Saints improved to 12-0 with a 33-30 victory over the Washington Redskins.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
-            "identity": {
-                "ESPNAPIID": "291206028"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New Orleans Saints", 
-            "week": 13
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "STL", 
             "date": "2009-12-06T18:00:00+00:00", 
             "description": "Jay Cutler and the Chicago Bears looked like they were headed to an easy win. Instead, they had to hang on to beat lowly St. Louis.", 
@@ -7863,17 +7616,22 @@
             }, 
             "awayTeam": "NO", 
             "date": "2009-12-06T18:03:00+00:00", 
+            "description": "Garrett Hartley kicked an 18-yard field goal 6:29 into overtime Sunday, and the Saints improved to 12-0 with a 33-30 victory over the Washington Redskins.", 
             "homeTeam": "WAS", 
             "identity": {
+                "ESPNAPIID": "291206028", 
                 "ProFootballReferenceID": "200912060was", 
                 "TheSportsDBID": "495063"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX"
+            ], 
             "season": "2009", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Washington Redskins vs. New Orleans Saints"
+            "vs": "Washington Redskins vs. New Orleans Saints", 
+            "week": 13
         }, 
         {
             "assets": {
@@ -8409,7 +8167,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2009-12-13T21:05:00+00:00", 
             "description": "Jason Campbell threw two touchdown passes to give Washington the lead and Quinton Ganther put it away by running for two fourth-quarter scores in the Redskins' 34-13 victory over the Oakland Raiders on Sunday.", 
             "eventTitle": "", 
@@ -9075,12 +8833,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "NYG", 
-            "date": "2009-12-22T01:30:00+00:00", 
+            "date": "2009-12-22T01:40:00+00:00", 
             "description": "The New York Giants kept themselves in the postseason hunt Monday night with a 45-12 rout of the Washington Redskins.\n", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "291221028"
+                "ESPNAPIID": "291221028", 
+                "ProFootballReferenceID": "200912210was", 
+                "TheSportsDBID": "495097"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9091,29 +8850,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. New York Giants", 
             "week": 15
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYG", 
-            "date": "2009-12-22T01:40:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "200912210was", 
-                "TheSportsDBID": "495097"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. New York Giants"
         }, 
         {
             "assets": {
@@ -9583,12 +9319,13 @@
                 "thumbnail": []
             }, 
             "awayTeam": "DAL", 
-            "date": "2009-12-28T01:20:00+00:00", 
+            "date": "2009-12-28T01:31:00+00:00", 
             "description": "The Dallas Cowboys returned to the playoffs Sunday night, dominating their 100th meeting with the Washington Redskins and setting up an NFC East title showdown with the Philadelphia Eagles.", 
-            "eventTitle": "", 
-            "homeTeam": "WSH", 
+            "homeTeam": "WAS", 
             "identity": {
-                "ESPNAPIID": "291227028"
+                "ESPNAPIID": "291227028", 
+                "ProFootballReferenceID": "200912270was", 
+                "TheSportsDBID": "495112"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9599,29 +9336,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. Dallas Cowboys", 
             "week": 16
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "2009-12-28T01:31:00+00:00", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ProFootballReferenceID": "200912270was", 
-                "TheSportsDBID": "495112"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2009", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Washington Redskins vs. Dallas Cowboys"
         }, 
         {
             "assets": {
@@ -10091,7 +9805,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "WSH", 
+            "awayTeam": "WAS", 
             "date": "2010-01-03T21:15:00+00:00", 
             "description": "The Washington Redskins couldn't even hold off San Diego's backups in Jim Zorn's last game as coach.", 
             "eventTitle": "", 
