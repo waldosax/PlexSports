@@ -94,7 +94,9 @@ def __download_all_team_data(league):
 	def incorporate_teams(allFranchises, teams, franchiseName=None):
 		for tm in teams.values():
 			teamName = tm.get("fullName") or tm.get("FullName") # TODO: Phase out capitalized keys
-			(franchise, team) = __find_team(allFranchises, franchiseName, teamName, TeamIdentity(**tm), tm.get("active"))
+			identity = TeamIdentity(**tm)
+			if tm.get("identity"): identity.Augment(**tm["identity"])
+			(franchise, team) = __find_team(allFranchises, franchiseName, teamName, identity, tm.get("active"))
 			team.Augment(**tm)
 
 
@@ -182,8 +184,14 @@ def __find_team(franchises, franchiseName, teamName, identity=None, active=None)
 				break
 
 	for f in fs:
+		# Try from just the identity and the active flag
 		team = f.FindTeam(None, identity, active)
+		if team and teamName and team.fullName != teamName:
+			# You found one by external ID, but it wasn't the right one
+			team = None
+
 		if not team:
+			# Try from the team name (FULLNAME)
 			team = f.FindTeam(teamName, identity, active)
 
 

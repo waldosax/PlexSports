@@ -48,8 +48,32 @@ class Franchise():
 		pass
 
 	def FindTeam(self, fullName, identity=None, active=None):
+		WEIGHT_ACTIVE = 1
+		WEIGHT_IDENTITY = 2
+		WEIGHT_FULLNAME = 4
+
+
 		if not fullName and not identity: return None
-		results = []
+		results = {}
+
+
+		def __add_with_weight(result, weight):
+			if result in results.keys():
+				results[result] = results[result] | weight
+			else:
+				results[result] = weight
+			pass
+
+		def __get_heaviest_result():
+			heaviestResult = None
+			for result in results.keys():
+				weight = results[result]
+				if heaviestResult == None or weight > heaviestResult[1]:
+					heaviestResult = (result, weight)
+
+			if heaviestResult: return heaviestResult[0]
+			pass
+
 		for team in self.teams.values():
 
 			fdct = team.identity.__dict__
@@ -64,18 +88,18 @@ class Franchise():
 					if xdct[testKey]:
 						if testKey in fdct.keys():
 							if fdct[testKey] == xdct[testKey]:
-								results.append(team)
+								__add_with_weight(team, WEIGHT_IDENTITY)
 
 			if fullName and team.fullName == fullName: # TODO: Strip diacritics
-				results.append(team)
+				__add_with_weight(team, WEIGHT_FULLNAME)
 
 		if active != None:
-			for i in range(len(results) - 1, -1, -1):
-				factive = results[i].active == True
+			for team in results.keys():
+				factive = team.active == True
 				if factive != active:
-					del(results[i])
-
-		if len(results) > 0: return results[0]
+					del(results[team])
+	
+		if len(results) > 0: return __get_heaviest_result()
 
 		pass
 

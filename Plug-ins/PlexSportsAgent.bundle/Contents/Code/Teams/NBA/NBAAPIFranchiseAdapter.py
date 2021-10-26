@@ -136,8 +136,14 @@ def DownloadAllFranchises(league):
 				if fullName == "Charlotte Hornets":
 					# Data correction to account for name change to Charlotte Bobcats (2004-2013)
 					# and back again to Charlotte Hornets (2014)
-					__append_year_set(team, int(dataRow[keys["START_YEAR"]]), 2003)
+					__append_year_set(team, int(dataRow[keys["START_YEAR"]]), 2001)
 					__append_year_set(team, 2014, int(dataRow[keys["END_YEAR"]]))
+				elif fullName == "New Orleans Hornets":
+					# Data correction to account for new franchise (New Orleans Hornets),
+					# but also the location change due to damage from Hurricane Katrina (2005-2006)
+					# and return in 2007
+					__append_year_set(team, int(dataRow[keys["START_YEAR"]]), 2004)
+					__append_year_set(team, 2007, int(dataRow[keys["END_YEAR"]]))
 				else:
 					__append_year_set(team, int(dataRow[keys["START_YEAR"]]), int(dataRow[keys["END_YEAR"]]))
 
