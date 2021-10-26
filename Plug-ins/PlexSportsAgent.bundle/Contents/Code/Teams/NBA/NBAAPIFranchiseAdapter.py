@@ -133,7 +133,13 @@ def DownloadAllFranchises(league):
 
 					currentFranchise["teams"][fullName] = team
 
-				__append_year_set(team, int(dataRow[keys["START_YEAR"]]), int(dataRow[keys["END_YEAR"]]))
+				if fullName == "Charlotte Hornets":
+					# Data correction to account for name change to Charlotte Bobcats (2004-2013)
+					# and back again to Charlotte Hornets (2014)
+					__append_year_set(team, int(dataRow[keys["START_YEAR"]]), 2003)
+					__append_year_set(team, 2014, int(dataRow[keys["END_YEAR"]]))
+				else:
+					__append_year_set(team, int(dataRow[keys["START_YEAR"]]), int(dataRow[keys["END_YEAR"]]))
 
 			lastTeamID = teamID
 

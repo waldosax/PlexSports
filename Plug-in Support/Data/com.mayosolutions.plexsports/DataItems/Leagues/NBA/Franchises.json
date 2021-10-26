@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBAFRANCHISES", 
-        "CachedOn": "2021-10-26T18:45:38", 
-        "ExpiresOn": "2022-03-10T18:45:38", 
+        "CachedOn": "2021-10-26T19:09:32", 
+        "ExpiresOn": "2022-03-10T19:09:32", 
         "Version": "1"
     }, 
     "Items": [
@@ -776,7 +776,11 @@
                         "name": "Hornets", 
                         "years": [
                             {
-                                "fromYear": 1988
+                                "fromYear": 1988, 
+                                "toYear": 2003
+                            }, 
+                            {
+                                "fromYear": 2014
                             }
                         ]
                     }
