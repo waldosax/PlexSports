@@ -46,44 +46,6 @@ data_corrections = {	# [League][OldAbbrev] = CurrentAbbrev
 		}
 	}
 
-# Renames, Moves & Folds (This will work a lot better once I fold year into the mix
-defunct_teams = {	#[League][RetroKey](City, Name, ThenAbbrev, NowAbbrev)
-	LEAGUE_NFL: {
-		"~BAL": ("Baltimore", "Colts", "BAL", "IND"),
-		"~HOU": ("Houston", "Oilers", "HOU", "TEN"),
-		"~LARAID1": ("L.A.", "Raiders", "LARAID", "LV"),
-		"~LARAID": ("Los Angeles", "Raiders", "LARAID", "LV"),
-		"~NAS": ("Nashville", "Oilers", "NAS", "TEN"),
-		"~OAK": ("Oakland", "Raiders", "OAK", "LV"),
-		"~PHX": ("Phoenix", "Cardinals", "PHX", "ARI"),
-		"~SD": ("San Diego", "Chargers", "SD", "LAC"),
-		"~STLR": ("St. Louis", "Rams", "STL", "LAR"),
-		"~STLC": ("St. Louis", "Cardinals", "STL", "ARI"),
-		"~WAS": ("Washington", "Redskins", "WAS", "WAS")
-		},
-	LEAGUE_MLB: {
-		"~MTL": ("Montreal", "Expos", "MTL", "WSH") #NOTEAM, Unknown Team, Retired, Minor League
-		},
-	LEAGUE_NBA: {
-		"~WAS": ("Washington", "Bullets", "WAS", "WAS"),
-		"~VAN": ("Vancouver", "Grizzlies", "VAN", "MEM"),
-		"~CHA": ("Charlotte", "Hornets", "CHA", "NOH"), # This one might be tricky (multiple moves/renames)
-		"~NOH": ("New Orleans", "Hornets", "NOH", "NOP"), # This one might be tricky (multiple moves/renames)
-		"~NOOKCH": ("New Orleans/Oklahoma City", "Hornets", "NOH", "NOP"), # This one might be tricky (multiple moves/renames)
-		"~SEA": ("Seattle", "SuperSonics", "SEA", "OKC"),
-		"~TOR": ("Toronto/Tampa Bay", "Raptors", "TOR", "TOR")
-		},
-	LEAGUE_NHL: {
-		"~MIN": ("Minnesota", "North Stars", "MIN", "DAL"),
-		"~NORDS": ("Quebec", "Nordiques", "NORDS", "COL"),
-		"~QUE": ("Quebec", "Nordiques", "QUE", "COL"), # TODO: Strip diacritics
-		"~WIN": ("Winnipeg", "Jets", "WIN", "ARI"),
-		"~HFD": ("Hartford", "Whalers", "HFD", "CAR"),
-		"~ATL": ("Atlanta", "Thrashers", "ATL", "WP"),
-		"~ANA": ("Anaheim", "Mighty Ducks", "ANA", "ANA")
-		}
-	}
-
 cached_franchises = dict()
 cities_with_multiple_teams = dict()
 cached_team_keys = dict()
@@ -142,8 +104,10 @@ def __download_all_team_data(league):
 		incorporate_franchises(franchises, mlbapiFranchises)
 	elif league == LEAGUE_NBA:
 		# Retrieve data from TheSportsDB.com
-		nbaapiTeams = NBAAPIFranchiseAdapter.DownloadAllTeams(league)
-		incorporate_teams(franchises, nbaapiTeams)
+		#nbaapiTeams = NBAAPIFranchiseAdapter.DownloadAllTeams(league)
+		#incorporate_teams(franchises, nbaapiTeams)
+		nbaapiFranchises = NBAAPIFranchiseAdapter.DownloadAllFranchises(league)
+		incorporate_franchises(franchises, nbaapiFranchises)
 	elif league == LEAGUE_NFL:
 		# Retrieve data from pro-football-reference.com
 		pfrFranchises = ProFootballReferenceFranchiseAdapter.DownloadAllFranchises(league)
@@ -166,20 +130,6 @@ def __download_all_team_data(league):
 	incorporate_teams(franchises, sportsDbTeams)
 
 
-	# Incorporate defunct teams
-	#if league in defunct_teams.keys():
-	#	for key in defunct_teams[league]:
-	#		(city, name, defunctAbbrev, mapAbbrev) = defunct_teams[league][key]
-	#		kwargs = {
-	#			"League": league,
-	#			"Key": key.lower(),
-	#			"Abbreviation": defunctAbbrev,
-	#			"Name": name,
-	#			"FullName": "%s %s" % (city, name),
-	#			"City": city
-	#			}
-	#		__add_or_override_team(teams, **kwargs)
-
 	# Activate franchises
 	for franchise in franchises.values():
 		if not franchise.active:
@@ -190,16 +140,6 @@ def __download_all_team_data(league):
 					break
 			if anyActiveTeams:
 				franchise.active = True
-	for franchise in franchises.values():
-		if not franchise.fromYear or not franchise.toYear:
-			minYear = None
-			maxYear = None
-			for team in franchise.teams.values():
-				for span in team.years:
-					if span.fromYear:
-						if not minYear or span.fromYear < minYear: minYear = span.fromYear
-					if span.toYear:
-						if not maxYear or span.toYear > maxYear: maxYear = span.toYear
 
 	return franchises
 
@@ -220,14 +160,6 @@ def __find_team(franchises, franchiseName, teamName, identity=None, active=None)
 				break
 
 	for f in fs:
-		#if active == False:
-		#	team = f.FindTeam(None, identity)
-		#	if not team:
-		#		team = f.FindTeam(teamName, identity, active)
-		#else:
-		#	team = f.FindTeam(teamName, identity, active)
-		#	if not team:
-		#		team = f.FindTeam(None, identity, active)
 		team = f.FindTeam(None, identity, active)
 		if not team:
 			team = f.FindTeam(teamName, identity, active)

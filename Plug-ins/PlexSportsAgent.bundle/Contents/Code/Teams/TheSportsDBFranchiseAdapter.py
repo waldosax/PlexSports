@@ -33,7 +33,13 @@ def DownloadAllTeams(league):
 				aliases.append(abbrev)
 				key = abbrev = spdb_abbreviation_corrections[league][abbrev]
 
-		if league == LEAGUE_NFL:
+		if league == LEAGUE_NBA:
+			if name == "Los Angeles Clippers":
+				print("Correcting known data error in TheSportsDB.com data. Incorrect team name for %s -> LA Clippers" % (team.get("strTeam")))
+				fullName = "LA Clippers"
+				city = "LA"
+				name = "Clippers"
+		elif league == LEAGUE_NFL:
 			if name == "Washington":
 				print("Correcting known data error in TheSportsDB.com data. Incorrect team name for %s -> Washington Football Team" % (team.get("strTeam")))
 				fullName = deunicode(team["strAlternate"])

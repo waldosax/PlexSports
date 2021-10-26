@@ -2,18 +2,49 @@ from Constants import *
 from ..UserAgent import *
 from ..GetResultFromNetwork import *
 
-NBAAPI_BASE_URL = "https://neulionms-a.akamaihd.net/nbad/player/v1/"
+# The "NBA API" is actually an amalgam of public-facing APIs, querying the same data from the NBA
 
-NBAAPI_GET_SPA_CONFIG = "nba/site_spa/config.json"
+NBA_SPAAPI_BASE_URL = "https://neulionms-a.akamaihd.net/nbad/player/v1/"
+NBA_STATSAPI_BASE_URL = "https://stats.nba.com/stats/"
+NBA_DATAAPI_BASE_URL = "https://data.nba.com/data/v2015/"
+
+NBA_SPA_CONFIG_ENDPOINT = "nba/site_spa/config.json"
+NBA_FRANCHISE_HISTORY_ENDPOINT = "franchisehistory?LeagueID=00"
+NBA_TEAMINFO_COMMON_ENDPOINT = "teaminfocommon?LeagueID=00&TeamID=%s" # TeamID
+NBA_TEAM_DETAILS_ENDPOINT = "teamdetails?TeamID=%s" # TeamID
+NBA_TEAM_SCHEDULE_ENDPOINT = "json/mobile_teams/nba/%s/teams/%s_schedule.json" # (Season, slug)
+NBA_SCHEDULE_ENDPOINT = "json/mobile_teams/nba/%s/league/00_full_schedule.json" # Season
 
 nba_api_headers = {
-	"User-Agent": USER_AGENT
+	"User-Agent": USER_AGENT,
+	"Referer": "https://www.nba.com/"
 }
 
 
 def DownloadSPAConfig():
 	print("Getting SPA configuration from NBA API ...")
-	url = NBAAPI_BASE_URL + NBAAPI_GET_SPA_CONFIG
+	url = NBA_SPAAPI_BASE_URL + NBA_SPA_CONFIG_ENDPOINT
+	return GetResultFromNetwork(
+		url,
+		nba_api_headers, cacheExtension=EXTENSION_JSON)
+
+def DownloadAllFranchiseInfo():
+	print("Getting franchise history from NBA API ...")
+	url = NBA_STATSAPI_BASE_URL + NBA_FRANCHISE_HISTORY_ENDPOINT
+	return GetResultFromNetwork(
+		url,
+		nba_api_headers, cacheExtension=EXTENSION_JSON)
+
+#def DownloadTeamCommonInfo(teamID, teamName=None):
+#	print("Getting common info %sfrom NBA API (%s) ..." % ((("for %s " % teamName) if teamName else ""), teamID))
+#	url = (NBA_STATSAPI_BASE_URL + NBA_TEAMINFO_COMMON_ENDPOINT) % teamID
+#	return GetResultFromNetwork(
+#		url,
+#		nba_api_headers, cacheExtension=EXTENSION_JSON)
+
+def DownloadScheduleForSeason(season):
+	print("Getting %s schedule from NBA API ..." % season)
+	url = (NBA_DATAAPI_BASE_URL + NBA_SCHEDULE_ENDPOINT) % season
 	return GetResultFromNetwork(
 		url,
 		nba_api_headers, cacheExtension=EXTENSION_JSON)

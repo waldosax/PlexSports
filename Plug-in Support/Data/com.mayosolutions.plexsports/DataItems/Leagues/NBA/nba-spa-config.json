@@ -1,0 +1,755 @@
+{
+    "teams": {
+        "ATL": {
+            "code": "ATL",
+            "city": "Atlanta",
+            "name": "Hawks",
+            "division": "Southeast",
+            "conference": "Eastern",
+            "color": "#E13A3E",
+            "id": "1610612737"
+        },
+        "BKN": {
+            "code": "BKN",
+            "city": "Brooklyn",
+            "name": "Nets",
+            "division": "Atlantic",
+            "conference": "Eastern",
+            "color": "#000000",
+            "id": "1610612751"
+        },
+        "BOS": {
+            "code": "BOS",
+            "city": "Boston",
+            "name": "Celtics",
+            "division": "Atlantic",
+            "conference": "Eastern",
+            "color": "#007239",
+            "id": "1610612738"
+        },
+        "CHA": {
+            "code": "CHA",
+            "city": "Charlotte",
+            "name": "Hornets",
+            "division": "Southeast",
+            "conference": "Eastern",
+            "color": "#00788C",
+            "id": "1610612766"
+        },
+        "CHI": {
+            "code": "CHI",
+            "city": "Chicago",
+            "name": "Bulls",
+            "division": "Central",
+            "conference": "Eastern",
+            "color": "#C60033",
+            "id": "1610612741"
+        },
+        "CLE": {
+            "code": "CLE",
+            "city": "Cleveland",
+            "name": "Cavaliers",
+            "division": "Central",
+            "conference": "Eastern",
+            "color": "#B2004A",
+            "id": "1610612739"
+        },
+        "DAL": {
+            "code": "DAL",
+            "city": "Dallas",
+            "name": "Mavericks",
+            "division": "Southwest",
+            "conference": "Western",
+            "color": "#0064B1",
+            "id": "1610612742"
+        },
+        "DEN": {
+            "code": "DEN",
+            "city": "Denver",
+            "name": "Nuggets",
+            "division": "Northwest",
+            "conference": "Western",
+            "color": "#0E2240",
+            "id": "1610612743"
+        },
+        "DET": {
+            "code": "DET",
+            "city": "Detroit",
+            "name": "Pistons",
+            "division": "Central",
+            "conference": "Eastern",
+            "color": "#1D428A",
+            "id": "1610612765"
+        },
+        "GSW": {
+            "code": "GSW",
+            "city": "Golden State",
+            "name": "Warriors",
+            "division": "Pacific",
+            "conference": "Western",
+            "color": "#1D428A",
+            "id": "1610612744"
+        },
+        "HOU": {
+            "code": "HOU",
+            "city": "Houston",
+            "name": "Rockets",
+            "division": "Southwest",
+            "conference": "Western",
+            "color": "#CE1141",
+            "id": "1610612745"
+        },
+        "IND": {
+            "code": "IND",
+            "city": "Indiana",
+            "name": "Pacers",
+            "division": "Central",
+            "conference": "Eastern",
+            "color": "#002D62",
+            "id": "1610612754"
+        },
+        "LAC": {
+            "code": "LAC",
+            "city": "LA",
+            "name": "LA Clippers",
+            "division": "Pacific",
+            "conference": "Western",
+            "color": "#C8102E",
+            "id": "1610612746"
+        },
+        "LAL": {
+            "code": "LAL",
+            "city": "Los Angeles",
+            "name": "Lakers",
+            "division": "Pacific",
+            "conference": "Western",
+            "color": "#552583",
+            "id": "1610612747"
+        },
+        "MEM": {
+            "code": "MEM",
+            "city": "Memphis",
+            "name": "Grizzlies",
+            "division": "Southwest",
+            "conference": "Western",
+            "color": "#5D76A9",
+            "id": "1610612763"
+        },
+        "MIA": {
+            "code": "MIA",
+            "city": "Miami",
+            "name": "Heat",
+            "division": "Southeast",
+            "conference": "Eastern",
+            "color": "#98002E",
+            "id": "1610612748"
+        },
+        "MIL": {
+            "code": "MIL",
+            "city": "Milwaukee",
+            "name": "Bucks",
+            "division": "Central",
+            "conference": "Eastern",
+            "color": "#00471B",
+            "id": "1610612749"
+        },
+        "MIN": {
+            "code": "MIN",
+            "city": "Minnesota",
+            "name": "Timberwolves",
+            "division": "Northwest",
+            "conference": "Western",
+            "color": "#0C2340",
+            "id": "1610612750"
+        },
+        "NJN": {
+            "code": "NJN",
+            "city": "New Jersey",
+            "name": "Nets",
+            "division": "",
+            "conference": "",
+            "color": "#C60033"
+        },
+        "NOH": {
+            "code": "NOH",
+            "city": "New Orleans",
+            "name": "Hornets",
+            "division": "",
+            "conference": "",
+            "color": "#008FC5"
+        },
+        "NOP": {
+            "code": "NOP",
+            "city": "New Orleans",
+            "name": "Pelicans",
+            "division": "Southwest",
+            "conference": "Western",
+            "color": "#002B5C",
+            "id": "1610612740"
+        },
+        "NYK": {
+            "code": "NYK",
+            "city": "New York",
+            "name": "Knicks",
+            "division": "Atlantic",
+            "conference": "Eastern",
+            "color": "#006BB6",
+            "id": "1610612752"
+        },
+        "OKC": {
+            "code": "OKC",
+            "city": "Oklahoma City",
+            "name": "Thunder",
+            "division": "Northwest",
+            "conference": "Western",
+            "color": "#007AC1",
+            "id": "1610612760"
+        },
+        "ORL": {
+            "code": "ORL",
+            "city": "Orlando",
+            "name": "Magic",
+            "division": "Southeast",
+            "conference": "Eastern",
+            "color": "#006BB7",
+            "id": "1610612753"
+        },
+        "PHI": {
+            "code": "PHI",
+            "city": "Philadelphia",
+            "name": "76ers",
+            "division": "Atlantic",
+            "conference": "Eastern",
+            "color": "#006BB6",
+            "id": "1610612755"
+        },
+        "PHX": {
+            "code": "PHX",
+            "city": "Phoenix",
+            "name": "Suns",
+            "division": "Pacific",
+            "conference": "Western",
+            "color": "#1D1160",
+            "id": "1610612756"
+        },
+        "POR": {
+            "code": "POR",
+            "city": "Portland",
+            "name": "Trail Blazers",
+            "division": "Northwest",
+            "conference": "Western",
+            "color": "#DE2032",
+            "id": "1610612757"
+        },
+        "SAC": {
+            "code": "SAC",
+            "city": "Sacramento",
+            "name": "Kings",
+            "division": "Pacific",
+            "conference": "Western",
+            "color": "#5B2B82",
+            "id": "1610612758"
+        },
+        "SAS": {
+            "code": "SAS",
+            "city": "San Antonio",
+            "name": "Spurs",
+            "division": "Southwest",
+            "conference": "Western",
+            "color": "#000000",
+            "id": "1610612759"
+        },
+        "TOR": {
+            "code": "TOR",
+            "city": "Toronto",
+            "name": "Raptors",
+            "division": "Atlantic",
+            "conference": "Eastern",
+            "color": "#CE1141",
+            "id": "1610612761"
+        },
+        "UTA": {
+            "code": "UTA",
+            "city": "Utah",
+            "name": "Jazz",
+            "division": "Northwest",
+            "conference": "Western",
+            "color": "#002B5C",
+            "id": "1610612762"
+        },
+        "WAS": {
+            "code": "WAS",
+            "city": "Washington",
+            "name": "Wizards",
+            "division": "Southeast",
+            "conference": "Eastern",
+            "color": "#002B5C",
+            "id": "1610612764"
+        },
+        "EST": {
+            "code": "EST",
+            "city": "All-Star",
+            "name": "East",
+            "division": "",
+            "conference": "",
+            "color": "#00559A"
+        },
+        "WST": {
+            "code": "WST",
+            "city": "All-Star",
+            "name": "West",
+            "division": "",
+            "conference": "",
+            "color": "#EC003D"
+        },
+        "CHK": {
+            "code": "CHK",
+            "city": "Rising Stars",
+            "name": "Team Chuck",
+            "division": "",
+            "conference": "",
+            "color": "#FCB034"
+        },
+        "SHQ": {
+            "code": "SHQ",
+            "city": "Rising Stars",
+            "name": "Team Shaq",
+            "division": "",
+            "conference": "",
+            "color": "#0077C0"
+        },
+        "HIL": {
+            "code": "HIL",
+            "city": "Rising Stars",
+            "name": "Team Hill",
+            "division": "",
+            "conference": "",
+            "color": "#FBAF33"
+        },
+        "WEB": {
+            "code": "WEB",
+            "city": "Rising Stars",
+            "name": "Team Webber",
+            "division": "",
+            "conference": "",
+            "color": "#00529B"
+        },
+        "USA": {
+            "code": "USA",
+            "city": "All Stars",
+            "name": "Team USA",
+            "division": "",
+            "conference": "",
+            "color": "#7AA3DB"
+        },
+        "WLD": {
+            "code": "WLD",
+            "city": "All Stars",
+            "name": "Team World",
+            "division": "",
+            "conference": "",
+            "color": "#373936"
+        },
+        "ACC": {
+            "code": "ACC",
+            "city": "Celebrity",
+            "name": "Canada",
+            "division": "",
+            "conference": "",
+            "color": "#EC003D"
+        },
+        "ACU": {
+            "code": "ACU",
+            "city": "Celebrity",
+            "name": "USA",
+            "division": "",
+            "conference": "",
+            "color": "#00559A"
+        },
+        "ALB": {
+            "code": "ALB",
+            "city": "Berlin",
+            "name": "ALBA",
+            "division": "",
+            "conference": "",
+            "color": "#0063AF",
+            "isintl": true
+        },
+        "EAM": {
+            "code": "EAM",
+            "city": "Milan",
+            "name": "EA7",
+            "division": "",
+            "conference": "",
+            "color": "#000000",
+            "isintl": true
+        },
+        "FBU": {
+            "code": "FBU",
+            "city": "Istanbul",
+            "name": "Fenerbahce Ulker",
+            "division": "",
+            "conference": "",
+            "color": "#ED1940",
+            "isintl": true
+        },
+        "MPS": {
+            "code": "MPS",
+            "city": "Siena",
+            "name": "Montepaschi Siena",
+            "division": "",
+            "conference": "",
+            "color": "#007239",
+            "isintl": true
+        },
+        "RMD": {
+            "code": "RMD",
+            "city": "Madrid",
+            "name": "Real Madrid",
+            "division": "",
+            "conference": "",
+            "color": "#006BB7",
+            "isintl": true
+        },
+        "FCB": {
+            "code": "FCB",
+            "city": "Barcelona",
+            "name": "FC Barcelona",
+            "division": "",
+            "conference": "",
+            "color": "#446893",
+            "isintl": true
+        },
+        "MAC": {
+            "code": "MAC",
+            "city": "Haifa",
+            "name": "Maccabi Haifa",
+            "division": "",
+            "conference": "",
+            "color": "#155D30",
+            "isintl": true
+        },
+        "UBB": {
+            "code": "UBB",
+            "city": "Bilbao",
+            "name": "Bilbao Basket",
+            "division": "",
+            "conference": "",
+            "color": "#808284",
+            "isintl": true
+        },
+        "MOS": {
+            "code": "MOS",
+            "city": "Moscow",
+            "name": "CSKA Moscow",
+            "division": "",
+            "conference": "",
+            "color": "#023E88",
+            "isintl": true
+        },
+        "DLS": {
+            "code": "DLS",
+            "city": "G League",
+            "name": "G League Select",
+            "division": "",
+            "conference": "",
+            "color": "#ED174C",
+            "isintl": true
+        },
+        "MTA": {
+            "code": "MTA",
+            "city": "Tel Aviv",
+            "name": "Maccabi Electra",
+            "division": "",
+            "conference": "",
+            "color": "#0281B6",
+            "isintl": true
+        },
+        "FLA": {
+            "code": "FLA",
+            "city": "Flamengo",
+            "name": "Flamengo",
+            "division": "",
+            "conference": "",
+            "color": "#D13138",
+            "isintl": true
+        },
+        "CHB": {
+            "code": "CHB",
+            "city": "Charlotte",
+            "name": "Bobcats",
+            "division": "",
+            "conference": "",
+            "color": "#F24D28"
+        },
+        "ORB": {
+            "code": "ORB",
+            "city": "Orlando",
+            "name": "Magic Blue",
+            "division": "",
+            "conference": "",
+            "color": "#006BB7"
+        },
+        "ORW": {
+            "code": "ORW",
+            "city": "Orlando",
+            "name": "Magic White",
+            "division": "",
+            "conference": "",
+            "color": "#006BB7"
+        },
+        "ATW": {
+            "code": "ATW",
+            "city": "World",
+            "name": "Team World",
+            "division": "",
+            "conference": "",
+            "color": "#F1B80F",
+            "isintl": true
+        },
+        "ATA": {
+            "code": "ATA",
+            "city": "Africa",
+            "name": "Team Africa",
+            "division": "",
+            "conference": "",
+            "color": "#10A44B",
+            "isintl": true
+        },
+        "USB": {
+            "code": "USB",
+            "city": "USAB",
+            "name": "USAB Blue",
+            "division": "",
+            "conference": "",
+            "color": "#E21836"
+        },
+        "USW": {
+            "code": "USW",
+            "city": "USAB",
+            "name": "USAB White",
+            "division": "",
+            "conference": "",
+            "color": "#E21836"
+        },
+        "MLN": {
+            "code": "MLN",
+            "city": "Milano",
+            "name": "Olimpia Milano",
+            "division": "",
+            "conference": "",
+            "color": "#E31D1A",
+            "isintl": true
+        },
+        "BAU": {
+            "code": "BAU",
+            "city": "Bauru",
+            "name": "Paschoalotto/Bauru",
+            "division": "",
+            "conference": "",
+            "color": "#0E9E48",
+            "isintl": true
+        },
+        "CHN": {
+            "code": "CHN",
+            "city": "China",
+            "name": "China",
+            "division": "",
+            "conference": "",
+            "color": "#E40013",
+            "isintl": true
+        },
+        "ARG": {
+            "code": "ARG",
+            "city": "Argentina",
+            "name": "Argentina",
+            "division": "",
+            "conference": "",
+            "color": "#9EDBF6",
+            "isintl": true
+        },
+        "VEN": {
+            "code": "VEN",
+            "city": "Venezuela",
+            "name": "Venezuela",
+            "division": "",
+            "conference": "",
+            "color": "#6E1200",
+            "isintl": true
+        },
+        "NGR": {
+            "code": "NGR",
+            "city": "Nigeria",
+            "name": "Nigeria",
+            "division": "",
+            "conference": "",
+            "color": "#166645",
+            "isintl": true
+        },
+        "SDS": {
+            "code": "SDS",
+            "city": "Shanghai",
+            "name": "Sharks",
+            "division": "",
+            "conference": "",
+            "color": "#AF2B2E",
+            "isintl": true
+        },
+        "SLA": {
+            "code": "SLA",
+            "city": "San Lorenzo",
+            "name": "San Lorenzo",
+            "division": "",
+            "conference": "",
+            "color": "#005096",
+            "isintl": true
+        },
+        "AFR": {
+            "code": "AFR",
+            "city": "Africa",
+            "name": "Team Africa",
+            "division": "",
+            "conference": "",
+            "color": "#10A44B",
+            "isintl": true
+        },
+        "BNE": {
+            "code": "BNE",
+            "city": "Brisbane",
+            "name": "Bullets",
+            "division": "",
+            "conference": "",
+            "color": "#002D73",
+            "isintl": true
+        },
+        "MEL": {
+            "code": "MEL",
+            "city": "Melbourne",
+            "name": "United",
+            "division": "",
+            "conference": "",
+            "color": "#1C1F2A",
+            "isintl": true
+        },
+        "SYD": {
+            "code": "SYD",
+            "city": "Sydney",
+            "name": "Kings",
+            "division": "",
+            "conference": "",
+            "color": "#5B4097",
+            "isintl": true
+        },
+        "GUA": {
+            "code": "GUA",
+            "city": "Guangzhou",
+            "name": "Long-Lions",
+            "division": "",
+            "conference": "",
+            "color": "#151F42",
+            "isintl": true
+        },
+        "LBN": {
+            "code": "LBN",
+            "city": "All Stars",
+            "name": "Team LeBron",
+            "division": "",
+            "conference": "",
+            "color": "#000000",
+            "id": "1610616834"
+        },
+        "DRT": {
+            "code": "DRT",
+            "city": "All Stars",
+            "name": "Team Durant",
+            "division": "",
+            "conference": "",
+            "color": "#000000",
+            "id": "1610616833"
+        },
+        "STP": {
+            "code": "STP",
+            "city": "All Stars",
+            "name": "Team Stephen",
+            "division": "",
+            "conference": "",
+            "color": "#000000"
+        },
+        "GNS": {
+            "code": "GNS",
+            "city": "All Stars",
+            "name": "Team Giannis",
+            "division": "",
+            "conference": "",
+            "color": "#221F1F"
+        },
+        "ADL": {
+            "code": "ADL",
+            "city": "Adelaide",
+            "name": "36ers",
+            "division": "",
+            "conference": "",
+            "color": "#061030",
+            "isintl": true
+        },
+        "BJD": {
+            "code": "BJD",
+            "city": "Beijing",
+            "name": "Ducks",
+            "division": "",
+            "conference": "",
+            "color": "#0B6AAB",
+            "isintl": true
+        },
+        "NZB": {
+            "code": "NZB",
+            "city": "New Zealand",
+            "name": "Breakers",
+            "division": "",
+            "conference": "",
+            "color": "#003E7A",
+            "isintl": true
+        },
+        "PER": {
+            "code": "PER",
+            "city": "Perth",
+            "name": "Wildcats",
+            "division": "",
+            "conference": "",
+            "color": "#ED1C24",
+            "isintl": true
+        },
+        "CRO": {
+            "code": "CRO",
+            "city": "Croatia",
+            "name": "Croatia",
+            "division": "",
+            "conference": "",
+            "color": "#CC0000",
+            "isintl": true
+        },
+        "FRA": {
+            "code": "FRA",
+            "city": "Franca",
+            "name": "Franca",
+            "division": "",
+            "conference": "",
+            "color": "#1D335A",
+            "isintl": true
+        },
+        "UTB": {
+            "code": "UTB",
+            "city": "Utah",
+            "name": "Utah Jazz Blue",
+            "division": "",
+            "conference": ""
+        },
+        "UTW": {
+            "code": "UTW",
+            "city": "Utah",
+            "name": "Utah Jazz White",
+            "division": "",
+            "conference": ""
+        }
+    }
+}

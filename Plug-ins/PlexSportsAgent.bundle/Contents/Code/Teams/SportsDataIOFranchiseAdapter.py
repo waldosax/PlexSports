@@ -9,13 +9,25 @@ from Constants.Assets import *
 from StringUtils import *
 from Data.SportsDataIODownloader import *
 
-sdio_abbreviation_corrections = {
+sdio_data_corrections = {
 	LEAGUE_MLB: {
-		"CHW": "CWS"
+		"CHW": {
+			"abbreviation": "CWS"
+			}
 		},
 	LEAGUE_NBA: {
-		"LEB": "LBN",
-		"DUR": "DRT"
+		"LEB": {
+			"abbreviation": "LBN"
+			},
+		"DUR": {
+			"abbreviation": "DRT",
+			"nbaDotComTeamID": 1610616833
+			},
+		"LAC": {
+			"city": "LA",
+			"name": "Clippers",
+			"fullName": "LA Clippers",
+			}
 		}
 	}
 
@@ -57,17 +69,29 @@ def DownloadAllTeams(league):
 		key = abbrev = deunicode(team["Key"]).upper()
 		name = deunicode(team["Name"])
 		fullName = deunicode(team.get("FullName")) or "%s %s" % (deunicode(city), deunicode(name))
-			
+		
+		teamID = team["TeamID"]
+		nbaDotComTeamID = team.get("NbaDotComTeamID")
+
 		aliases = []
 
 		if league == LEAGUE_NBA and city == "Team":
 			fullName = name = "%s %s" % (city, name)
 			city = "All Stars"
 
-		if sdio_abbreviation_corrections.get(league):
-			if sdio_abbreviation_corrections[league].get(abbrev):
-				aliases.append(abbrev)
-				key = abbrev = sdio_abbreviation_corrections[league][abbrev]
+		if sdio_data_corrections.get(league):
+			if sdio_data_corrections[league].get(key):
+				if sdio_data_corrections[league][key].get("city"):
+					city = sdio_data_corrections[league][key]["city"]
+				if sdio_data_corrections[league][key].get("name"):
+					name = sdio_data_corrections[league][key]["name"]
+				if sdio_data_corrections[league][key].get("fullName"):
+					fullName = sdio_data_corrections[league][key]["fullName"]
+				if sdio_data_corrections[league][key].get("nbaDotComTeamID"):
+					nbaDotComTeamID = sdio_data_corrections[league][key]["nbaDotComTeamID"]
+				if sdio_data_corrections[league][key].get("abbreviation"):
+					aliases.append(abbrev)
+					key = abbrev = sdio_data_corrections[league][key]["abbreviation"]
 
 		conference = deunicode(team.get("Conference") or team.get("League"))
 		if conference == "None": conference = None
@@ -84,10 +108,10 @@ def DownloadAllTeams(league):
 			"city": city,
 			"conference": conference,
 			"division": division,
-			"SportsDataIOID": str(team["TeamID"]),
+			"SportsDataIOID": str(teamID),
 			}
 
-		if team.get("NbaDotComTeamID"): kwargs["NBAdotcomID"] = str(team["NbaDotComTeamID"])
+		if nbaDotComTeamID: kwargs["NBAdotcomID"] = str(nbaDotComTeamID)
 
 		if aliases:
 			kwargs["aliases"] = list(set(aliases))

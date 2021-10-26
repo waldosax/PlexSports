@@ -1,19 +1,19 @@
 {
     "CacheContainer": {
         "CacheType": "NBAFRANCHISES", 
-        "CachedOn": "2021-09-30T03:55:27", 
-        "ExpiresOn": "2022-02-12T03:55:27", 
+        "CachedOn": "2021-10-26T17:37:50", 
+        "ExpiresOn": "2022-03-10T17:37:50", 
         "Version": "1"
     }, 
     "Items": [
         {
             "All-Star East": {
-                "active": false, 
+                "active": true, 
                 "name": "All-Star East", 
                 "teams": {
                     "All-Star East": {
                         "abbreviation": "EST", 
-                        "active": false, 
+                        "active": true, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -31,6 +31,7 @@
                             "wordmark": []
                         }, 
                         "city": "All-Star", 
+                        "conference": "Eastern", 
                         "fullName": "All-Star East", 
                         "identity": {
                             "NBAdotcomID": "EST"
@@ -42,12 +43,12 @@
                 }
             }, 
             "All-Star West": {
-                "active": false, 
+                "active": true, 
                 "name": "All-Star West", 
                 "teams": {
                     "All-Star West": {
                         "abbreviation": "WST", 
-                        "active": false, 
+                        "active": true, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
@@ -65,6 +66,7 @@
                             "wordmark": []
                         }, 
                         "city": "All-Star", 
+                        "conference": "Western", 
                         "fullName": "All-Star West", 
                         "identity": {
                             "NBAdotcomID": "WST"
@@ -75,8 +77,44 @@
                     }
                 }
             }, 
+            "Anderson Packers": {
+                "active": false, 
+                "fromYear": 1949, 
+                "name": "Anderson Packers", 
+                "teams": {
+                    "Anderson Packers": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Anderson", 
+                        "fullName": "Anderson Packers", 
+                        "identity": {
+                            "NBAdotcomID": 1610610023
+                        }, 
+                        "key": "", 
+                        "name": "Packers", 
+                        "years": [
+                            {
+                                "fromYear": 1949, 
+                                "toYear": 1949
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 1949
+            }, 
             "Atlanta Hawks": {
                 "active": true, 
+                "fromYear": 1949, 
                 "name": "Atlanta Hawks", 
                 "teams": {
                     "Atlanta Hawks": {
@@ -169,12 +207,168 @@
                         }, 
                         "key": "ATL", 
                         "name": "Hawks", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1968, 
+                                "toYear": 2020
+                            }
+                        ]
+                    }, 
+                    "Milwaukee Hawks": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#E13A3E"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Milwaukee", 
+                        "fullName": "Milwaukee Hawks", 
+                        "identity": {
+                            "NBAdotcomID": 1610612737
+                        }, 
+                        "key": "", 
+                        "name": "Hawks", 
+                        "years": [
+                            {
+                                "fromYear": 1951, 
+                                "toYear": 1954
+                            }
+                        ]
+                    }, 
+                    "St. Louis Hawks": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#E13A3E"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "St. Louis", 
+                        "fullName": "St. Louis Hawks", 
+                        "identity": {
+                            "NBAdotcomID": 1610612737
+                        }, 
+                        "key": "", 
+                        "name": "Hawks", 
+                        "years": [
+                            {
+                                "fromYear": 1955, 
+                                "toYear": 1967
+                            }
+                        ]
+                    }, 
+                    "Tri-Cities Blackhawks": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#E13A3E"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Tri-Cities", 
+                        "fullName": "Tri-Cities Blackhawks", 
+                        "identity": {
+                            "NBAdotcomID": 1610612737
+                        }, 
+                        "key": "", 
+                        "name": "Blackhawks", 
+                        "years": [
+                            {
+                                "fromYear": 1949, 
+                                "toYear": 1950
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
+            }, 
+            "Baltimore Bullets": {
+                "active": false, 
+                "fromYear": 1947, 
+                "name": "Baltimore Bullets", 
+                "teams": {
+                    "Baltimore Bullets": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Baltimore", 
+                        "fullName": "Baltimore Bullets", 
+                        "identity": {
+                            "NBAdotcomID": 1610610024
+                        }, 
+                        "key": "", 
+                        "name": "Bullets", 
+                        "years": [
+                            {
+                                "fromYear": 1947, 
+                                "toYear": 1953
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 1953
             }, 
             "Boston Celtics": {
                 "active": true, 
+                "fromYear": 1946, 
                 "name": "Boston Celtics", 
                 "teams": {
                     "Boston Celtics": {
@@ -267,12 +461,19 @@
                         }, 
                         "key": "BOS", 
                         "name": "Celtics", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1946, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Brooklyn Nets": {
                 "active": true, 
+                "fromYear": 1976, 
                 "name": "Brooklyn Nets", 
                 "teams": {
                     "Brooklyn Nets": {
@@ -360,16 +561,15 @@
                         }, 
                         "key": "BKN", 
                         "name": "Nets", 
-                        "years": []
-                    }
-                }
-            }, 
-            "Celebrity Canada": {
-                "active": false, 
-                "name": "Celebrity Canada", 
-                "teams": {
-                    "Celebrity Canada": {
-                        "abbreviation": "ACC", 
+                        "years": [
+                            {
+                                "fromYear": 2012, 
+                                "toYear": 2020
+                            }
+                        ]
+                    }, 
+                    "New Jersey Nets": {
+                        "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
                         "assets": {
@@ -379,31 +579,35 @@
                                 {
                                     "colortype": "primary", 
                                     "source": "nbaapi", 
-                                    "value": "#EC003D"
+                                    "value": "#000000"
                                 }
                             ], 
                             "fanArt": [], 
                             "jersey": [], 
-                            "logo": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg"
+                                }
+                            ], 
                             "wordmark": []
                         }, 
-                        "city": "Celebrity", 
-                        "fullName": "Celebrity Canada", 
+                        "city": "New Jersey", 
+                        "fullName": "New Jersey Nets", 
                         "identity": {
-                            "NBAdotcomID": "ACC"
+                            "NBAdotcomID": 1610612751
                         }, 
-                        "key": "ACC", 
-                        "name": "Canada", 
-                        "years": []
-                    }
-                }
-            }, 
-            "Celebrity USA": {
-                "active": false, 
-                "name": "Celebrity USA", 
-                "teams": {
-                    "Celebrity USA": {
-                        "abbreviation": "ACU", 
+                        "key": "", 
+                        "name": "Nets", 
+                        "years": [
+                            {
+                                "fromYear": 1977, 
+                                "toYear": 2011
+                            }
+                        ]
+                    }, 
+                    "New York Nets": {
+                        "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
                         "assets": {
@@ -413,31 +617,43 @@
                                 {
                                     "colortype": "primary", 
                                     "source": "nbaapi", 
-                                    "value": "#00559A"
+                                    "value": "#000000"
                                 }
                             ], 
                             "fanArt": [], 
                             "jersey": [], 
-                            "logo": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg"
+                                }
+                            ], 
                             "wordmark": []
                         }, 
-                        "city": "Celebrity", 
-                        "fullName": "Celebrity USA", 
+                        "city": "New York", 
+                        "fullName": "New York Nets", 
                         "identity": {
-                            "NBAdotcomID": "ACU"
+                            "NBAdotcomID": 1610612751
                         }, 
-                        "key": "ACU", 
-                        "name": "USA", 
-                        "years": []
+                        "key": "", 
+                        "name": "Nets", 
+                        "years": [
+                            {
+                                "fromYear": 1976, 
+                                "toYear": 1976
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
-            "Charlotte Bobcats": {
-                "active": false, 
-                "name": "Charlotte Bobcats", 
+            "Charlotte Hornets": {
+                "active": true, 
+                "fromYear": 1988, 
+                "name": "Charlotte Hornets", 
                 "teams": {
                     "Charlotte Bobcats": {
-                        "abbreviation": "CHB", 
+                        "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
                         "assets": {
@@ -447,29 +663,33 @@
                                 {
                                     "colortype": "primary", 
                                     "source": "nbaapi", 
-                                    "value": "#F24D28"
+                                    "value": "#00788C"
                                 }
                             ], 
                             "fanArt": [], 
                             "jersey": [], 
-                            "logo": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg"
+                                }
+                            ], 
                             "wordmark": []
                         }, 
                         "city": "Charlotte", 
                         "fullName": "Charlotte Bobcats", 
                         "identity": {
-                            "NBAdotcomID": "CHB"
+                            "NBAdotcomID": 1610612766
                         }, 
-                        "key": "CHB", 
+                        "key": "", 
                         "name": "Bobcats", 
-                        "years": []
-                    }
-                }
-            }, 
-            "Charlotte Hornets": {
-                "active": true, 
-                "name": "Charlotte Hornets", 
-                "teams": {
+                        "years": [
+                            {
+                                "fromYear": 2004, 
+                                "toYear": 2013
+                            }
+                        ]
+                    }, 
                     "Charlotte Hornets": {
                         "abbreviation": "CHA", 
                         "active": true, 
@@ -560,12 +780,19 @@
                         }, 
                         "key": "CHA", 
                         "name": "Hornets", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1988, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Chicago Bulls": {
                 "active": true, 
+                "fromYear": 1966, 
                 "name": "Chicago Bulls", 
                 "teams": {
                     "Chicago Bulls": {
@@ -648,12 +875,54 @@
                         }, 
                         "key": "CHI", 
                         "name": "Bulls", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1966, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
+            }, 
+            "Chicago Stags": {
+                "active": false, 
+                "fromYear": 1946, 
+                "name": "Chicago Stags", 
+                "teams": {
+                    "Chicago Stags": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Chicago", 
+                        "fullName": "Chicago Stags", 
+                        "identity": {
+                            "NBAdotcomID": 1610610025
+                        }, 
+                        "key": "", 
+                        "name": "Stags", 
+                        "years": [
+                            {
+                                "fromYear": 1946, 
+                                "toYear": 1949
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 1949
             }, 
             "Cleveland Cavaliers": {
                 "active": true, 
+                "fromYear": 1970, 
                 "name": "Cleveland Cavaliers", 
                 "teams": {
                     "Cleveland Cavaliers": {
@@ -748,12 +1017,54 @@
                         }, 
                         "key": "CLE", 
                         "name": "Cavaliers", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1970, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
+            }, 
+            "Cleveland Rebels": {
+                "active": false, 
+                "fromYear": 1946, 
+                "name": "Cleveland Rebels", 
+                "teams": {
+                    "Cleveland Rebels": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Cleveland", 
+                        "fullName": "Cleveland Rebels", 
+                        "identity": {
+                            "NBAdotcomID": 1610610026
+                        }, 
+                        "key": "", 
+                        "name": "Rebels", 
+                        "years": [
+                            {
+                                "fromYear": 1946, 
+                                "toYear": 1946
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 1946
             }, 
             "Dallas Mavericks": {
                 "active": true, 
+                "fromYear": 1980, 
                 "name": "Dallas Mavericks", 
                 "teams": {
                     "Dallas Mavericks": {
@@ -846,12 +1157,19 @@
                         }, 
                         "key": "DAL", 
                         "name": "Mavericks", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1980, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Denver Nuggets": {
                 "active": true, 
+                "fromYear": 1976, 
                 "name": "Denver Nuggets", 
                 "teams": {
                     "Denver Nuggets": {
@@ -944,12 +1262,54 @@
                         }, 
                         "key": "DEN", 
                         "name": "Nuggets", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1976, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
+            }, 
+            "Detroit Falcons": {
+                "active": false, 
+                "fromYear": 1946, 
+                "name": "Detroit Falcons", 
+                "teams": {
+                    "Detroit Falcons": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Detroit", 
+                        "fullName": "Detroit Falcons", 
+                        "identity": {
+                            "NBAdotcomID": 1610610028
+                        }, 
+                        "key": "", 
+                        "name": "Falcons", 
+                        "years": [
+                            {
+                                "fromYear": 1946, 
+                                "toYear": 1946
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 1946
             }, 
             "Detroit Pistons": {
                 "active": true, 
+                "fromYear": 1948, 
                 "name": "Detroit Pistons", 
                 "teams": {
                     "Detroit Pistons": {
@@ -1042,12 +1402,57 @@
                         }, 
                         "key": "DET", 
                         "name": "Pistons", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1957, 
+                                "toYear": 2020
+                            }
+                        ]
+                    }, 
+                    "Ft. Wayne Zollner Pistons": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#1D428A"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Ft. Wayne Zollner", 
+                        "fullName": "Ft. Wayne Zollner Pistons", 
+                        "identity": {
+                            "NBAdotcomID": 1610612765
+                        }, 
+                        "key": "", 
+                        "name": "Pistons", 
+                        "years": [
+                            {
+                                "fromYear": 1948, 
+                                "toYear": 1956
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Golden State Warriors": {
                 "active": true, 
+                "fromYear": 1946, 
                 "name": "Golden State Warriors", 
                 "teams": {
                     "Golden State Warriors": {
@@ -1130,12 +1535,95 @@
                         }, 
                         "key": "GSW", 
                         "name": "Warriors", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1971, 
+                                "toYear": 2020
+                            }
+                        ]
+                    }, 
+                    "Philadelphia Warriors": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#1D428A"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Philadelphia", 
+                        "fullName": "Philadelphia Warriors", 
+                        "identity": {
+                            "NBAdotcomID": 1610612744
+                        }, 
+                        "key": "", 
+                        "name": "Warriors", 
+                        "years": [
+                            {
+                                "fromYear": 1946, 
+                                "toYear": 1961
+                            }
+                        ]
+                    }, 
+                    "San Francisco Warriors": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#1D428A"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "San Francisco", 
+                        "fullName": "San Francisco Warriors", 
+                        "identity": {
+                            "NBAdotcomID": 1610612744
+                        }, 
+                        "key": "", 
+                        "name": "Warriors", 
+                        "years": [
+                            {
+                                "fromYear": 1962, 
+                                "toYear": 1970
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Houston Rockets": {
                 "active": true, 
+                "fromYear": 1967, 
                 "name": "Houston Rockets", 
                 "teams": {
                     "Houston Rockets": {
@@ -1228,12 +1716,57 @@
                         }, 
                         "key": "HOU", 
                         "name": "Rockets", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1971, 
+                                "toYear": 2020
+                            }
+                        ]
+                    }, 
+                    "San Diego Rockets": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#CE1141"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "San Diego", 
+                        "fullName": "San Diego Rockets", 
+                        "identity": {
+                            "NBAdotcomID": 1610612745
+                        }, 
+                        "key": "", 
+                        "name": "Rockets", 
+                        "years": [
+                            {
+                                "fromYear": 1967, 
+                                "toYear": 1970
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Indiana Pacers": {
                 "active": true, 
+                "fromYear": 1976, 
                 "name": "Indiana Pacers", 
                 "teams": {
                     "Indiana Pacers": {
@@ -1321,15 +1854,130 @@
                         }, 
                         "key": "IND", 
                         "name": "Pacers", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1976, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
-            "Los Angeles Clippers": {
-                "active": true, 
-                "name": "Los Angeles Clippers", 
+            "Indianapolis Jets": {
+                "active": false, 
+                "fromYear": 1948, 
+                "name": "Indianapolis Jets", 
                 "teams": {
-                    "Los Angeles Clippers": {
+                    "Indianapolis Jets": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Indianapolis", 
+                        "fullName": "Indianapolis Jets", 
+                        "identity": {
+                            "NBAdotcomID": 1610610029
+                        }, 
+                        "key": "", 
+                        "name": "Jets", 
+                        "years": [
+                            {
+                                "fromYear": 1948, 
+                                "toYear": 1948
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 1948
+            }, 
+            "Indianapolis Olympians": {
+                "active": false, 
+                "fromYear": 1949, 
+                "name": "Indianapolis Olympians", 
+                "teams": {
+                    "Indianapolis Olympians": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Indianapolis", 
+                        "fullName": "Indianapolis Olympians", 
+                        "identity": {
+                            "NBAdotcomID": 1610610030
+                        }, 
+                        "key": "", 
+                        "name": "Olympians", 
+                        "years": [
+                            {
+                                "fromYear": 1949, 
+                                "toYear": 1952
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 1952
+            }, 
+            "LA Clippers": {
+                "active": true, 
+                "fromYear": 1970, 
+                "name": "LA Clippers", 
+                "teams": {
+                    "Buffalo Braves": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#C8102E"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Buffalo", 
+                        "fullName": "Buffalo Braves", 
+                        "identity": {
+                            "NBAdotcomID": 1610612746
+                        }, 
+                        "key": "", 
+                        "name": "Braves", 
+                        "years": [
+                            {
+                                "fromYear": 1970, 
+                                "toYear": 1977
+                            }
+                        ]
+                    }, 
+                    "LA Clippers": {
                         "abbreviation": "LAC", 
                         "active": true, 
                         "aliases": [], 
@@ -1407,10 +2055,10 @@
                                 }
                             ]
                         }, 
-                        "city": "Los Angeles", 
+                        "city": "LA", 
                         "conference": "Western", 
                         "division": "Pacific", 
-                        "fullName": "Los Angeles Clippers", 
+                        "fullName": "LA Clippers", 
                         "identity": {
                             "ESPNAPIID": "12", 
                             "NBAdotcomID": "1610612746", 
@@ -1419,12 +2067,95 @@
                         }, 
                         "key": "LAC", 
                         "name": "Clippers", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 2015, 
+                                "toYear": 2020
+                            }
+                        ]
+                    }, 
+                    "Los Angeles Clippers": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#C8102E"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Los Angeles", 
+                        "fullName": "Los Angeles Clippers", 
+                        "identity": {
+                            "NBAdotcomID": 1610612746
+                        }, 
+                        "key": "", 
+                        "name": "Clippers", 
+                        "years": [
+                            {
+                                "fromYear": 1984, 
+                                "toYear": 2014
+                            }
+                        ]
+                    }, 
+                    "San Diego Clippers": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#C8102E"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "San Diego", 
+                        "fullName": "San Diego Clippers", 
+                        "identity": {
+                            "NBAdotcomID": 1610612746
+                        }, 
+                        "key": "", 
+                        "name": "Clippers", 
+                        "years": [
+                            {
+                                "fromYear": 1978, 
+                                "toYear": 1983
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Los Angeles Lakers": {
                 "active": true, 
+                "fromYear": 1948, 
                 "name": "Los Angeles Lakers", 
                 "teams": {
                     "Los Angeles Lakers": {
@@ -1512,12 +2243,57 @@
                         }, 
                         "key": "LAL", 
                         "name": "Lakers", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1960, 
+                                "toYear": 2020
+                            }
+                        ]
+                    }, 
+                    "Minneapolis Lakers": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#552583"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Minneapolis", 
+                        "fullName": "Minneapolis Lakers", 
+                        "identity": {
+                            "NBAdotcomID": 1610612747
+                        }, 
+                        "key": "", 
+                        "name": "Lakers", 
+                        "years": [
+                            {
+                                "fromYear": 1948, 
+                                "toYear": 1959
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Memphis Grizzlies": {
                 "active": true, 
+                "fromYear": 1995, 
                 "name": "Memphis Grizzlies", 
                 "teams": {
                     "Memphis Grizzlies": {
@@ -1610,12 +2386,57 @@
                         }, 
                         "key": "MEM", 
                         "name": "Grizzlies", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 2001, 
+                                "toYear": 2020
+                            }
+                        ]
+                    }, 
+                    "Vancouver Grizzlies": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#5D76A9"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Vancouver", 
+                        "fullName": "Vancouver Grizzlies", 
+                        "identity": {
+                            "NBAdotcomID": 1610612763
+                        }, 
+                        "key": "", 
+                        "name": "Grizzlies", 
+                        "years": [
+                            {
+                                "fromYear": 1995, 
+                                "toYear": 2000
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Miami Heat": {
                 "active": true, 
+                "fromYear": 1988, 
                 "name": "Miami Heat", 
                 "teams": {
                     "Miami Heat": {
@@ -1703,12 +2524,19 @@
                         }, 
                         "key": "MIA", 
                         "name": "Heat", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1988, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Milwaukee Bucks": {
                 "active": true, 
+                "fromYear": 1968, 
                 "name": "Milwaukee Bucks", 
                 "teams": {
                     "Milwaukee Bucks": {
@@ -1801,12 +2629,19 @@
                         }, 
                         "key": "MIL", 
                         "name": "Bucks", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1968, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Minnesota Timberwolves": {
                 "active": true, 
+                "fromYear": 1989, 
                 "name": "Minnesota Timberwolves", 
                 "teams": {
                     "Minnesota Timberwolves": {
@@ -1899,50 +2734,23 @@
                         }, 
                         "key": "MIN", 
                         "name": "Timberwolves", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1989, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
-            "New Jersey Nets": {
-                "active": false, 
-                "name": "New Jersey Nets", 
-                "teams": {
-                    "New Jersey Nets": {
-                        "abbreviation": "NJN", 
-                        "active": false, 
-                        "aliases": [], 
-                        "assets": {
-                            "badge": [], 
-                            "banner": [], 
-                            "colors": [
-                                {
-                                    "colortype": "primary", 
-                                    "source": "nbaapi", 
-                                    "value": "#C60033"
-                                }
-                            ], 
-                            "fanArt": [], 
-                            "jersey": [], 
-                            "logo": [], 
-                            "wordmark": []
-                        }, 
-                        "city": "New Jersey", 
-                        "fullName": "New Jersey Nets", 
-                        "identity": {
-                            "NBAdotcomID": "NJN"
-                        }, 
-                        "key": "NJN", 
-                        "name": "Nets", 
-                        "years": []
-                    }
-                }
-            }, 
-            "New Orleans Hornets": {
-                "active": false, 
-                "name": "New Orleans Hornets", 
+            "New Orleans Pelicans": {
+                "active": true, 
+                "fromYear": 2002, 
+                "name": "New Orleans Pelicans", 
                 "teams": {
                     "New Orleans Hornets": {
-                        "abbreviation": "NOH", 
+                        "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
                         "assets": {
@@ -1952,29 +2760,33 @@
                                 {
                                     "colortype": "primary", 
                                     "source": "nbaapi", 
-                                    "value": "#008FC5"
+                                    "value": "#002B5C"
                                 }
                             ], 
                             "fanArt": [], 
                             "jersey": [], 
-                            "logo": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg"
+                                }
+                            ], 
                             "wordmark": []
                         }, 
                         "city": "New Orleans", 
                         "fullName": "New Orleans Hornets", 
                         "identity": {
-                            "NBAdotcomID": "NOH"
+                            "NBAdotcomID": 1610612740
                         }, 
-                        "key": "NOH", 
+                        "key": "", 
                         "name": "Hornets", 
-                        "years": []
-                    }
-                }
-            }, 
-            "New Orleans Pelicans": {
-                "active": true, 
-                "name": "New Orleans Pelicans", 
-                "teams": {
+                        "years": [
+                            {
+                                "fromYear": 2002, 
+                                "toYear": 2012
+                            }
+                        ]
+                    }, 
                     "New Orleans Pelicans": {
                         "abbreviation": "NOP", 
                         "active": true, 
@@ -2060,12 +2872,57 @@
                         }, 
                         "key": "NOP", 
                         "name": "Pelicans", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 2013, 
+                                "toYear": 2020
+                            }
+                        ]
+                    }, 
+                    "New Orleans/Oklahoma City Hornets": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#002B5C"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "New Orleans/Oklahoma City", 
+                        "fullName": "New Orleans/Oklahoma City Hornets", 
+                        "identity": {
+                            "NBAdotcomID": 1610612740
+                        }, 
+                        "key": "", 
+                        "name": "Hornets", 
+                        "years": [
+                            {
+                                "fromYear": 2005, 
+                                "toYear": 2006
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "New York Knicks": {
                 "active": true, 
+                "fromYear": 1946, 
                 "name": "New York Knicks", 
                 "teams": {
                     "New York Knicks": {
@@ -2158,12 +3015,19 @@
                         }, 
                         "key": "NYK", 
                         "name": "Knicks", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1946, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Oklahoma City Thunder": {
                 "active": true, 
+                "fromYear": 1967, 
                 "name": "Oklahoma City Thunder", 
                 "teams": {
                     "Oklahoma City Thunder": {
@@ -2256,12 +3120,57 @@
                         }, 
                         "key": "OKC", 
                         "name": "Thunder", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 2008, 
+                                "toYear": 2020
+                            }
+                        ]
+                    }, 
+                    "Seattle SuperSonics": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#007AC1"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Seattle", 
+                        "fullName": "Seattle SuperSonics", 
+                        "identity": {
+                            "NBAdotcomID": 1610612760
+                        }, 
+                        "key": "", 
+                        "name": "SuperSonics", 
+                        "years": [
+                            {
+                                "fromYear": 1967, 
+                                "toYear": 2007
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Orlando Magic": {
                 "active": true, 
+                "fromYear": 1989, 
                 "name": "Orlando Magic", 
                 "teams": {
                     "Orlando Magic": {
@@ -2349,80 +3258,19 @@
                         }, 
                         "key": "ORL", 
                         "name": "Magic", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1989, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
-            }, 
-            "Orlando Magic Blue": {
-                "active": false, 
-                "name": "Orlando Magic Blue", 
-                "teams": {
-                    "Orlando Magic Blue": {
-                        "abbreviation": "ORB", 
-                        "active": false, 
-                        "aliases": [], 
-                        "assets": {
-                            "badge": [], 
-                            "banner": [], 
-                            "colors": [
-                                {
-                                    "colortype": "primary", 
-                                    "source": "nbaapi", 
-                                    "value": "#006BB7"
-                                }
-                            ], 
-                            "fanArt": [], 
-                            "jersey": [], 
-                            "logo": [], 
-                            "wordmark": []
-                        }, 
-                        "city": "Orlando", 
-                        "fullName": "Orlando Magic Blue", 
-                        "identity": {
-                            "NBAdotcomID": "ORB"
-                        }, 
-                        "key": "ORB", 
-                        "name": "Magic Blue", 
-                        "years": []
-                    }
-                }
-            }, 
-            "Orlando Magic White": {
-                "active": false, 
-                "name": "Orlando Magic White", 
-                "teams": {
-                    "Orlando Magic White": {
-                        "abbreviation": "ORW", 
-                        "active": false, 
-                        "aliases": [], 
-                        "assets": {
-                            "badge": [], 
-                            "banner": [], 
-                            "colors": [
-                                {
-                                    "colortype": "primary", 
-                                    "source": "nbaapi", 
-                                    "value": "#006BB7"
-                                }
-                            ], 
-                            "fanArt": [], 
-                            "jersey": [], 
-                            "logo": [], 
-                            "wordmark": []
-                        }, 
-                        "city": "Orlando", 
-                        "fullName": "Orlando Magic White", 
-                        "identity": {
-                            "NBAdotcomID": "ORW"
-                        }, 
-                        "key": "ORW", 
-                        "name": "Magic White", 
-                        "years": []
-                    }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Philadelphia 76ers": {
                 "active": true, 
+                "fromYear": 1949, 
                 "name": "Philadelphia 76ers", 
                 "teams": {
                     "Philadelphia 76ers": {
@@ -2515,12 +3363,57 @@
                         }, 
                         "key": "PHI", 
                         "name": "76ers", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1963, 
+                                "toYear": 2020
+                            }
+                        ]
+                    }, 
+                    "Syracuse Nationals": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#006BB6"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Syracuse", 
+                        "fullName": "Syracuse Nationals", 
+                        "identity": {
+                            "NBAdotcomID": 1610612755
+                        }, 
+                        "key": "", 
+                        "name": "Nationals", 
+                        "years": [
+                            {
+                                "fromYear": 1949, 
+                                "toYear": 1962
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Phoenix Suns": {
                 "active": true, 
+                "fromYear": 1968, 
                 "name": "Phoenix Suns", 
                 "teams": {
                     "Phoenix Suns": {
@@ -2613,12 +3506,54 @@
                         }, 
                         "key": "PHX", 
                         "name": "Suns", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1968, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
+            }, 
+            "Pittsburgh Ironmen": {
+                "active": false, 
+                "fromYear": 1946, 
+                "name": "Pittsburgh Ironmen", 
+                "teams": {
+                    "Pittsburgh Ironmen": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Pittsburgh", 
+                        "fullName": "Pittsburgh Ironmen", 
+                        "identity": {
+                            "NBAdotcomID": 1610610031
+                        }, 
+                        "key": "", 
+                        "name": "Ironmen", 
+                        "years": [
+                            {
+                                "fromYear": 1946, 
+                                "toYear": 1946
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 1946
             }, 
             "Portland Trail Blazers": {
                 "active": true, 
+                "fromYear": 1970, 
                 "name": "Portland Trail Blazers", 
                 "teams": {
                     "Portland Trail Blazers": {
@@ -2706,150 +3641,208 @@
                         }, 
                         "key": "POR", 
                         "name": "Trail Blazers", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1970, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
-            "Rising Stars Team Chuck": {
+            "Providence Steamrollers": {
                 "active": false, 
-                "name": "Rising Stars Team Chuck", 
+                "fromYear": 1946, 
+                "name": "Providence Steamrollers", 
                 "teams": {
-                    "Rising Stars Team Chuck": {
-                        "abbreviation": "CHK", 
+                    "Providence Steamrollers": {
+                        "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [
-                                {
-                                    "colortype": "primary", 
-                                    "source": "nbaapi", 
-                                    "value": "#FCB034"
-                                }
-                            ], 
+                            "colors": [], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [], 
                             "wordmark": []
                         }, 
-                        "city": "Rising Stars", 
-                        "fullName": "Rising Stars Team Chuck", 
+                        "city": "Providence", 
+                        "fullName": "Providence Steamrollers", 
                         "identity": {
-                            "NBAdotcomID": "CHK"
+                            "NBAdotcomID": 1610610032
                         }, 
-                        "key": "CHK", 
-                        "name": "Team Chuck", 
-                        "years": []
+                        "key": "", 
+                        "name": "Steamrollers", 
+                        "years": [
+                            {
+                                "fromYear": 1946, 
+                                "toYear": 1948
+                            }
+                        ]
                     }
-                }
-            }, 
-            "Rising Stars Team Hill": {
-                "active": false, 
-                "name": "Rising Stars Team Hill", 
-                "teams": {
-                    "Rising Stars Team Hill": {
-                        "abbreviation": "HIL", 
-                        "active": false, 
-                        "aliases": [], 
-                        "assets": {
-                            "badge": [], 
-                            "banner": [], 
-                            "colors": [
-                                {
-                                    "colortype": "primary", 
-                                    "source": "nbaapi", 
-                                    "value": "#FBAF33"
-                                }
-                            ], 
-                            "fanArt": [], 
-                            "jersey": [], 
-                            "logo": [], 
-                            "wordmark": []
-                        }, 
-                        "city": "Rising Stars", 
-                        "fullName": "Rising Stars Team Hill", 
-                        "identity": {
-                            "NBAdotcomID": "HIL"
-                        }, 
-                        "key": "HIL", 
-                        "name": "Team Hill", 
-                        "years": []
-                    }
-                }
-            }, 
-            "Rising Stars Team Shaq": {
-                "active": false, 
-                "name": "Rising Stars Team Shaq", 
-                "teams": {
-                    "Rising Stars Team Shaq": {
-                        "abbreviation": "SHQ", 
-                        "active": false, 
-                        "aliases": [], 
-                        "assets": {
-                            "badge": [], 
-                            "banner": [], 
-                            "colors": [
-                                {
-                                    "colortype": "primary", 
-                                    "source": "nbaapi", 
-                                    "value": "#0077C0"
-                                }
-                            ], 
-                            "fanArt": [], 
-                            "jersey": [], 
-                            "logo": [], 
-                            "wordmark": []
-                        }, 
-                        "city": "Rising Stars", 
-                        "fullName": "Rising Stars Team Shaq", 
-                        "identity": {
-                            "NBAdotcomID": "SHQ"
-                        }, 
-                        "key": "SHQ", 
-                        "name": "Team Shaq", 
-                        "years": []
-                    }
-                }
-            }, 
-            "Rising Stars Team Webber": {
-                "active": false, 
-                "name": "Rising Stars Team Webber", 
-                "teams": {
-                    "Rising Stars Team Webber": {
-                        "abbreviation": "WEB", 
-                        "active": false, 
-                        "aliases": [], 
-                        "assets": {
-                            "badge": [], 
-                            "banner": [], 
-                            "colors": [
-                                {
-                                    "colortype": "primary", 
-                                    "source": "nbaapi", 
-                                    "value": "#00529B"
-                                }
-                            ], 
-                            "fanArt": [], 
-                            "jersey": [], 
-                            "logo": [], 
-                            "wordmark": []
-                        }, 
-                        "city": "Rising Stars", 
-                        "fullName": "Rising Stars Team Webber", 
-                        "identity": {
-                            "NBAdotcomID": "WEB"
-                        }, 
-                        "key": "WEB", 
-                        "name": "Team Webber", 
-                        "years": []
-                    }
-                }
+                }, 
+                "toYear": 1948
             }, 
             "Sacramento Kings": {
                 "active": true, 
+                "fromYear": 1948, 
                 "name": "Sacramento Kings", 
                 "teams": {
+                    "Cincinnati Royals": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#5B2B82"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Cincinnati", 
+                        "fullName": "Cincinnati Royals", 
+                        "identity": {
+                            "NBAdotcomID": 1610612758
+                        }, 
+                        "key": "", 
+                        "name": "Royals", 
+                        "years": [
+                            {
+                                "fromYear": 1957, 
+                                "toYear": 1971
+                            }
+                        ]
+                    }, 
+                    "Kansas City Kings": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#5B2B82"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Kansas City", 
+                        "fullName": "Kansas City Kings", 
+                        "identity": {
+                            "NBAdotcomID": 1610612758
+                        }, 
+                        "key": "", 
+                        "name": "Kings", 
+                        "years": [
+                            {
+                                "fromYear": 1975, 
+                                "toYear": 1984
+                            }
+                        ]
+                    }, 
+                    "Kansas City-Omaha Kings": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#5B2B82"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Kansas City-Omaha", 
+                        "fullName": "Kansas City-Omaha Kings", 
+                        "identity": {
+                            "NBAdotcomID": 1610612758
+                        }, 
+                        "key": "", 
+                        "name": "Kings", 
+                        "years": [
+                            {
+                                "fromYear": 1972, 
+                                "toYear": 1974
+                            }
+                        ]
+                    }, 
+                    "Rochester Royals": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#5B2B82"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Rochester", 
+                        "fullName": "Rochester Royals", 
+                        "identity": {
+                            "NBAdotcomID": 1610612758
+                        }, 
+                        "key": "", 
+                        "name": "Royals", 
+                        "years": [
+                            {
+                                "fromYear": 1948, 
+                                "toYear": 1956
+                            }
+                        ]
+                    }, 
                     "Sacramento Kings": {
                         "abbreviation": "SAC", 
                         "active": true, 
@@ -2935,12 +3928,19 @@
                         }, 
                         "key": "SAC", 
                         "name": "Kings", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1985, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "San Antonio Spurs": {
                 "active": true, 
+                "fromYear": 1976, 
                 "name": "San Antonio Spurs", 
                 "teams": {
                     "San Antonio Spurs": {
@@ -3023,6 +4023,116 @@
                         }, 
                         "key": "SAS", 
                         "name": "Spurs", 
+                        "years": [
+                            {
+                                "fromYear": 1976, 
+                                "toYear": 2020
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 2020
+            }, 
+            "Sheboygan Redskins": {
+                "active": false, 
+                "fromYear": 1949, 
+                "name": "Sheboygan Redskins", 
+                "teams": {
+                    "Sheboygan Redskins": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Sheboygan", 
+                        "fullName": "Sheboygan Redskins", 
+                        "identity": {
+                            "NBAdotcomID": 1610610033
+                        }, 
+                        "key": "", 
+                        "name": "Redskins", 
+                        "years": [
+                            {
+                                "fromYear": 1949, 
+                                "toYear": 1949
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 1949
+            }, 
+            "St. Louis Bombers": {
+                "active": false, 
+                "fromYear": 1946, 
+                "name": "St. Louis Bombers", 
+                "teams": {
+                    "St. Louis Bombers": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "St. Louis", 
+                        "fullName": "St. Louis Bombers", 
+                        "identity": {
+                            "NBAdotcomID": 1610610034
+                        }, 
+                        "key": "", 
+                        "name": "Bombers", 
+                        "years": [
+                            {
+                                "fromYear": 1946, 
+                                "toYear": 1949
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 1949
+            }, 
+            "Team Chuck": {
+                "active": false, 
+                "name": "Team Chuck", 
+                "teams": {
+                    "Team Chuck": {
+                        "abbreviation": "CHK", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#FCB034"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Rising Stars", 
+                        "fullName": "Team Chuck", 
+                        "identity": {
+                            "NBAdotcomID": "CHK"
+                        }, 
+                        "key": "CHK", 
+                        "name": "Team Chuck", 
                         "years": []
                     }
                 }
@@ -3035,8 +4145,7 @@
                         "abbreviation": "DRT", 
                         "active": false, 
                         "aliases": [
-                            "DUR", 
-                            "LEB"
+                            "DUR"
                         ], 
                         "assets": {
                             "badge": [], 
@@ -3061,11 +4170,11 @@
                         "city": "All Stars", 
                         "fullName": "Team Durant", 
                         "identity": {
-                            "NBAdotcomID": "1610616834", 
-                            "SportsDataIOID": "32"
+                            "NBAdotcomID": "1610616833", 
+                            "SportsDataIOID": "31"
                         }, 
                         "key": "DRT", 
-                        "name": "Team LeBron", 
+                        "name": "Team Durant", 
                         "years": []
                     }
                 }
@@ -3104,6 +4213,40 @@
                     }
                 }
             }, 
+            "Team Hill": {
+                "active": false, 
+                "name": "Team Hill", 
+                "teams": {
+                    "Team Hill": {
+                        "abbreviation": "HIL", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#FBAF33"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Rising Stars", 
+                        "fullName": "Team Hill", 
+                        "identity": {
+                            "NBAdotcomID": "HIL"
+                        }, 
+                        "key": "HIL", 
+                        "name": "Team Hill", 
+                        "years": []
+                    }
+                }
+            }, 
             "Team LeBron": {
                 "active": false, 
                 "name": "Team LeBron", 
@@ -3111,7 +4254,9 @@
                     "Team LeBron": {
                         "abbreviation": "LBN", 
                         "active": false, 
-                        "aliases": [], 
+                        "aliases": [
+                            "LEB"
+                        ], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3135,10 +4280,45 @@
                         "city": "All Stars", 
                         "fullName": "Team LeBron", 
                         "identity": {
-                            "NBAdotcomID": "1610616834"
+                            "NBAdotcomID": "1610616834", 
+                            "SportsDataIOID": "32"
                         }, 
                         "key": "LBN", 
                         "name": "Team LeBron", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Team Shaq": {
+                "active": false, 
+                "name": "Team Shaq", 
+                "teams": {
+                    "Team Shaq": {
+                        "abbreviation": "SHQ", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#0077C0"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Rising Stars", 
+                        "fullName": "Team Shaq", 
+                        "identity": {
+                            "NBAdotcomID": "SHQ"
+                        }, 
+                        "key": "SHQ", 
+                        "name": "Team Shaq", 
                         "years": []
                     }
                 }
@@ -3211,6 +4391,40 @@
                     }
                 }
             }, 
+            "Team Webber": {
+                "active": false, 
+                "name": "Team Webber", 
+                "teams": {
+                    "Team Webber": {
+                        "abbreviation": "WEB", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#00529B"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Rising Stars", 
+                        "fullName": "Team Webber", 
+                        "identity": {
+                            "NBAdotcomID": "WEB"
+                        }, 
+                        "key": "WEB", 
+                        "name": "Team Webber", 
+                        "years": []
+                    }
+                }
+            }, 
             "Team World": {
                 "active": false, 
                 "name": "Team World", 
@@ -3245,8 +4459,44 @@
                     }
                 }
             }, 
+            "Toronto Huskies": {
+                "active": false, 
+                "fromYear": 1946, 
+                "name": "Toronto Huskies", 
+                "teams": {
+                    "Toronto Huskies": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Toronto", 
+                        "fullName": "Toronto Huskies", 
+                        "identity": {
+                            "NBAdotcomID": 1610610035
+                        }, 
+                        "key": "", 
+                        "name": "Huskies", 
+                        "years": [
+                            {
+                                "fromYear": 1946, 
+                                "toYear": 1946
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 1946
+            }, 
             "Toronto Raptors": {
                 "active": true, 
+                "fromYear": 1995, 
                 "name": "Toronto Raptors", 
                 "teams": {
                     "Toronto Raptors": {
@@ -3339,82 +4589,59 @@
                         }, 
                         "key": "TOR", 
                         "name": "Raptors", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1995, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
-            }, 
-            "USAB USAB Blue": {
-                "active": false, 
-                "name": "USAB USAB Blue", 
-                "teams": {
-                    "USAB USAB Blue": {
-                        "abbreviation": "USB", 
-                        "active": false, 
-                        "aliases": [], 
-                        "assets": {
-                            "badge": [], 
-                            "banner": [], 
-                            "colors": [
-                                {
-                                    "colortype": "primary", 
-                                    "source": "nbaapi", 
-                                    "value": "#E21836"
-                                }
-                            ], 
-                            "fanArt": [], 
-                            "jersey": [], 
-                            "logo": [], 
-                            "wordmark": []
-                        }, 
-                        "city": "USAB", 
-                        "fullName": "USAB USAB Blue", 
-                        "identity": {
-                            "NBAdotcomID": "USB"
-                        }, 
-                        "key": "USB", 
-                        "name": "USAB Blue", 
-                        "years": []
-                    }
-                }
-            }, 
-            "USAB USAB White": {
-                "active": false, 
-                "name": "USAB USAB White", 
-                "teams": {
-                    "USAB USAB White": {
-                        "abbreviation": "USW", 
-                        "active": false, 
-                        "aliases": [], 
-                        "assets": {
-                            "badge": [], 
-                            "banner": [], 
-                            "colors": [
-                                {
-                                    "colortype": "primary", 
-                                    "source": "nbaapi", 
-                                    "value": "#E21836"
-                                }
-                            ], 
-                            "fanArt": [], 
-                            "jersey": [], 
-                            "logo": [], 
-                            "wordmark": []
-                        }, 
-                        "city": "USAB", 
-                        "fullName": "USAB USAB White", 
-                        "identity": {
-                            "NBAdotcomID": "USW"
-                        }, 
-                        "key": "USW", 
-                        "name": "USAB White", 
-                        "years": []
-                    }
-                }
+                }, 
+                "toYear": 2020
             }, 
             "Utah Jazz": {
                 "active": true, 
+                "fromYear": 1974, 
                 "name": "Utah Jazz", 
                 "teams": {
+                    "New Orleans Jazz": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#002B5C"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "New Orleans", 
+                        "fullName": "New Orleans Jazz", 
+                        "identity": {
+                            "NBAdotcomID": 1610612762
+                        }, 
+                        "key": "", 
+                        "name": "Jazz", 
+                        "years": [
+                            {
+                                "fromYear": 1974, 
+                                "toYear": 1978
+                            }
+                        ]
+                    }, 
                     "Utah Jazz": {
                         "abbreviation": "UTA", 
                         "active": true, 
@@ -3500,16 +4727,23 @@
                         }, 
                         "key": "UTA", 
                         "name": "Jazz", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1979, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
             }, 
-            "Utah Utah Jazz Blue": {
+            "Washington Capitols": {
                 "active": false, 
-                "name": "Utah Utah Jazz Blue", 
+                "fromYear": 1946, 
+                "name": "Washington Capitols", 
                 "teams": {
-                    "Utah Utah Jazz Blue": {
-                        "abbreviation": "UTB", 
+                    "Washington Capitols": {
+                        "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
                         "assets": {
@@ -3521,49 +4755,218 @@
                             "logo": [], 
                             "wordmark": []
                         }, 
-                        "city": "Utah", 
-                        "fullName": "Utah Utah Jazz Blue", 
+                        "city": "Washington", 
+                        "fullName": "Washington Capitols", 
                         "identity": {
-                            "NBAdotcomID": "UTB"
+                            "NBAdotcomID": 1610610036
                         }, 
-                        "key": "UTB", 
-                        "name": "Utah Jazz Blue", 
-                        "years": []
+                        "key": "", 
+                        "name": "Capitols", 
+                        "years": [
+                            {
+                                "fromYear": 1946, 
+                                "toYear": 1950
+                            }
+                        ]
                     }
-                }
-            }, 
-            "Utah Utah Jazz White": {
-                "active": false, 
-                "name": "Utah Utah Jazz White", 
-                "teams": {
-                    "Utah Utah Jazz White": {
-                        "abbreviation": "UTW", 
-                        "active": false, 
-                        "aliases": [], 
-                        "assets": {
-                            "badge": [], 
-                            "banner": [], 
-                            "colors": [], 
-                            "fanArt": [], 
-                            "jersey": [], 
-                            "logo": [], 
-                            "wordmark": []
-                        }, 
-                        "city": "Utah", 
-                        "fullName": "Utah Utah Jazz White", 
-                        "identity": {
-                            "NBAdotcomID": "UTW"
-                        }, 
-                        "key": "UTW", 
-                        "name": "Utah Jazz White", 
-                        "years": []
-                    }
-                }
+                }, 
+                "toYear": 1950
             }, 
             "Washington Wizards": {
                 "active": true, 
+                "fromYear": 1961, 
                 "name": "Washington Wizards", 
                 "teams": {
+                    "Baltimore Bullets": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#002B5C"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Baltimore", 
+                        "fullName": "Baltimore Bullets", 
+                        "identity": {
+                            "NBAdotcomID": 1610612764
+                        }, 
+                        "key": "", 
+                        "name": "Bullets", 
+                        "years": [
+                            {
+                                "fromYear": 1963, 
+                                "toYear": 1972
+                            }
+                        ]
+                    }, 
+                    "Capital Bullets": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#002B5C"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Capital", 
+                        "fullName": "Capital Bullets", 
+                        "identity": {
+                            "NBAdotcomID": 1610612764
+                        }, 
+                        "key": "", 
+                        "name": "Bullets", 
+                        "years": [
+                            {
+                                "fromYear": 1973, 
+                                "toYear": 1973
+                            }
+                        ]
+                    }, 
+                    "Chicago Packers": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#002B5C"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Chicago", 
+                        "fullName": "Chicago Packers", 
+                        "identity": {
+                            "NBAdotcomID": 1610612764
+                        }, 
+                        "key": "", 
+                        "name": "Packers", 
+                        "years": [
+                            {
+                                "fromYear": 1961, 
+                                "toYear": 1961
+                            }
+                        ]
+                    }, 
+                    "Chicago Zephyrs": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#002B5C"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Chicago", 
+                        "fullName": "Chicago Zephyrs", 
+                        "identity": {
+                            "NBAdotcomID": 1610612764
+                        }, 
+                        "key": "", 
+                        "name": "Zephyrs", 
+                        "years": [
+                            {
+                                "fromYear": 1962, 
+                                "toYear": 1962
+                            }
+                        ]
+                    }, 
+                    "Washington Bullets": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "nbaapi", 
+                                    "value": "#002B5C"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "nbaapi", 
+                                    "url": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Washington", 
+                        "fullName": "Washington Bullets", 
+                        "identity": {
+                            "NBAdotcomID": 1610612764
+                        }, 
+                        "key": "", 
+                        "name": "Bullets", 
+                        "years": [
+                            {
+                                "fromYear": 1974, 
+                                "toYear": 1996
+                            }
+                        ]
+                    }, 
                     "Washington Wizards": {
                         "abbreviation": "WAS", 
                         "active": true, 
@@ -3654,9 +5057,50 @@
                         }, 
                         "key": "WAS", 
                         "name": "Wizards", 
-                        "years": []
+                        "years": [
+                            {
+                                "fromYear": 1997, 
+                                "toYear": 2020
+                            }
+                        ]
                     }
-                }
+                }, 
+                "toYear": 2020
+            }, 
+            "Waterloo Hawks": {
+                "active": false, 
+                "fromYear": 1949, 
+                "name": "Waterloo Hawks", 
+                "teams": {
+                    "Waterloo Hawks": {
+                        "abbreviation": "", 
+                        "active": false, 
+                        "aliases": [], 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Waterloo", 
+                        "fullName": "Waterloo Hawks", 
+                        "identity": {
+                            "NBAdotcomID": 1610610037
+                        }, 
+                        "key": "", 
+                        "name": "Hawks", 
+                        "years": [
+                            {
+                                "fromYear": 1949, 
+                                "toYear": 1949
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 1949
             }
         }
     ]

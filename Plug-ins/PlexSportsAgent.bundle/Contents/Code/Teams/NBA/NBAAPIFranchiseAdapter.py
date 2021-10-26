@@ -10,6 +10,278 @@ from StringUtils import *
 from Data.NBA.NBAAPIDownloader import *
 
 
+__prodLogoTemplate = "https://cdn.nba.com/logos/nba/{teamId}/{local}/L/logo.svg"
+
+
+
+def DownloadAllFranchises(league):
+
+	# Get all NBA franchises, including histories
+	nbaapiFranchiseHistory = dict()
+	nbaapiFranchiseHistoryJson = DownloadAllFranchiseInfo()
+	try: nbaapiFranchiseHistory = json.loads(nbaapiFranchiseHistoryJson)
+	except: pass
+
+	# Get SPA config, including all teams 
+	nbaapiSPAConfig = dict()
+	nbaapiSPAConfigJson = DownloadSPAConfig()
+	try: nbaapiSPAConfig = json.loads(nbaapiSPAConfigJson)
+	except: pass
+
+	franchises = dict()
+
+	__prodLogoTemplate = deunicode(nbaapiSPAConfig["ENV"]["PROD"]["TEAM_LOGO_URL"])
+
+	spaLookup = {
+		"byTeamID": dict(),
+		"byabbreviation": dict(),
+		"byFullName": dict(),
+		"allStar": dict()
+		}
+	for spaTeam in nbaapiSPAConfig["teams"].values():
+		isIntl = spaTeam.get("isintl")
+		if isIntl == True: continue
+
+		abbrev = deunicode(spaTeam.get("code"))
+		city = deunicode(spaTeam["city"])
+		name = deunicode(spaTeam["name"])
+		fullName = deunicode("%s %s" % (spaTeam["city"], spaTeam["name"]))
+
+		if "id" in spaTeam.keys():
+			spaLookup["byTeamID"][int(spaTeam["id"])] = spaTeam
+		if "code" in spaTeam.keys():
+			spaLookup["byabbreviation"][abbrev] = spaTeam
+
+		if city in ["All-Star", "All Stars", "Rising Stars"]:
+			spaLookup["allStar"][abbrev] = spaTeam
+
+		spaLookup["byFullName"][fullName] = spaTeam
+
+
+	resultSets = dict()
+	for resultSet in nbaapiFranchiseHistory["resultSets"]:
+		resultSetName = resultSet["name"]
+		resultSets[resultSetName] = resultSet
+		pass
+
+	# Screw PANDAS
+	dataSets = {
+		"FranchiseHistory": {
+			"active": True,
+			"key_indices": __get__resultset_key_indices(resultSets["FranchiseHistory"]),
+			"rows": resultSets["FranchiseHistory"]["rowSet"]
+			},
+		"DefunctTeams": {
+			"active": False,
+			"key_indices": __get__resultset_key_indices(resultSets["DefunctTeams"]),
+			"rows": resultSets["DefunctTeams"]["rowSet"]
+			}
+		}
+
+	for dataSet in dataSets.values():
+		active = dataSet["active"]
+
+		keys = dataSet["key_indices"]
+		lastTeamID = None
+		currentFranchise = None
+
+		for dataRow in dataSet["rows"]:
+			teamID = dataRow[keys["TEAM_ID"]]
+			city = deunicode(dataRow[keys["TEAM_CITY"]])
+			name = deunicode(dataRow[keys["TEAM_NAME"]])
+			fullName = deunicode("%s %s" % (city, name))
+
+			if lastTeamID == None or teamID != lastTeamID:
+				if lastTeamID != None and currentFranchise != None and len(currentFranchise["teams"]) == 0:
+					# Franchise did not have any child teams, so synthesize one
+					lastFullName = currentFranchise["name"]
+					team = __synthesize_team_from_franchise(currentFranchise, spaLookup)
+					currentFranchise["teams"][lastFullName] = team
+
+				# New Team ID indicates a franchise
+				currentFranchise = {
+					"name": fullName,
+					"active": active,
+					"fromYear": int(dataRow[keys["START_YEAR"]]),
+					"toYear": int(dataRow[keys["END_YEAR"]]),
+					"_NBAdotcomID": teamID, # Just for context
+					"_city": city, # Just for context
+					"_name": name, # Just for context
+					"teams": dict()
+					}
+				franchises[fullName] = currentFranchise
+			else:
+				if fullName in currentFranchise["teams"].keys():
+					team = currentFranchise["teams"][fullName]
+				else:
+					# Add team to franchise
+					team = {
+						"fullName": fullName,
+						"city": city,
+						"name": name,
+						"active": active and len(currentFranchise["teams"]) == 0,
+						"identity": {"NBAdotcomID": teamID},
+						"years": [],
+						"aliases": [],
+						"assets": {}
+						}
+
+					# Fold in SPA team
+					spaTeam = __find_spa_team(spaLookup, teamID=teamID, fullName=fullName)
+					if spaTeam:
+						__fold_in_spa_team(team, spaTeam)
+
+					currentFranchise["teams"][fullName] = team
+
+				__append_year_set(team, int(dataRow[keys["START_YEAR"]]), int(dataRow[keys["END_YEAR"]]))
+
+			lastTeamID = teamID
+
+
+		# Catch any stragglers
+		if currentFranchise != None and len(currentFranchise["teams"]) == 0:
+			# Franchise did not have any child teams, so synthesize one
+			lastFullName = currentFranchise["name"]
+			team = __synthesize_team_from_franchise(currentFranchise, spaLookup)
+			currentFranchise["teams"][lastFullName] = team
+
+
+	# Incorporate All-Star/Rising Stars teams
+	for allStarTeam in spaLookup["allStar"].values():
+		active = False
+
+		abbrev = deunicode(allStarTeam.get("code"))
+		teamID = allStarTeam.get("id") or abbrev
+
+		name = deunicode(allStarTeam["name"])
+		city = deunicode(allStarTeam["city"])
+		fullName = "%s %s" % (city, name)
+
+		conference = deunicode(allStarTeam["conference"]) if allStarTeam.get("conference") else None
+		division = deunicode(allStarTeam["division"]) if allStarTeam.get("division") else None
+			
+		team = {
+				"active": active,
+				"abbreviation": abbrev,
+				"fullName": fullName,
+				"city": city,
+				"NBAdotcomID": teamID,
+				"aliases": [],
+				"assets": {}
+				}
+
+		if city in ["All Stars", "Rising Stars"]:
+			team["fullName"] = name
+			fullName = name
+		if city == "All-Star":
+			team["conference"] = "%sern" % name
+			team["active"] = True
+
+		__fold_in_spa_team(team, allStarTeam)
+
+		franchise = {
+			"name": fullName,
+			"active": False,
+			"teams": {
+				fullName: team
+				}
+			}
+
+		franchises[fullName] = franchise
+
+
+	return franchises
+
+def __get__resultset_key_indices(resultSet):
+	key_indices = dict()
+	i = 0
+	for key in resultSet["headers"]:
+		key_indices[key] = i
+		i += 1
+	return key_indices
+
+def __fold_in_spa_team(team, spaTeam):
+	assets = team["assets"]
+	aliases = team["aliases"]
+
+	team.setdefault("name", deunicode(spaTeam["name"]))
+	team.setdefault("city", deunicode(spaTeam["city"]))
+	team.setdefault("fullName", deunicode("%s %s" % (spaTeam["city"], spaTeam["name"])))
+
+
+	if team.get("active") == True:
+		team.setdefault("abbreviation", deunicode(spaTeam.get("code")))
+		team.setdefault("conference", deunicode(spaTeam["conference"]) if spaTeam.get("conference") else None)
+		team.setdefault("division", deunicode(spaTeam["division"]) if spaTeam.get("division") else None)
+
+	if spaTeam.get("color"):
+		assets["colors"] = [
+			{"source": ASSET_SOURCE_NBAAPI, "colortype": ASSET_COLOR_TYPE_PRIMARY, "value": deunicode(spaTeam["color"])}
+			]
+	# TODO: See if logos apply to defunct IDs
+	if spaTeam.get("id"):
+		assets["logo"] = [
+			{"source":ASSET_SOURCE_NBAAPI, "url": __prodLogoTemplate.replace("{teamId}", spaTeam["id"]).replace("{local}", "primary")}
+			]
+
+	team["aliases"] = list(set(aliases))
+
+	if not "key" in team.keys() and team.get("abbreviation"):
+		team["key"] = team["abbreviation"]
+	pass
+
+def __find_spa_team(spaLookup, teamID=None, abbrev=None, fullName=None):
+	if teamID and teamID in spaLookup["byTeamID"].keys():
+		return spaLookup["byTeamID"][teamID]
+	if abbrev and abbrev in spaLookup["byabbreviation"].keys():
+		return spaLookup["byabbreviation"][fullName]
+	if fullName and fullName in spaLookup["byFullName"].keys():
+		return spaLookup["byFullName"][fullName]
+	return None
+
+def __append_year_set(team, fromYear, toYear):
+	team.setdefault("years", [])
+	team["years"].append({"fromYear": fromYear, "toYear": toYear})
+	pass
+
+def __synthesize_team_from_franchise(franchise, spaLookup):
+	fullName = franchise["name"]
+	teamID = franchise["_NBAdotcomID"]
+
+	team = {
+		"fullName": fullName,
+		"city": franchise["_city"],
+		"name": franchise["_name"],
+		"active": franchise["active"],
+		"identity": {"NBAdotcomID": teamID},
+		"years": [],
+		"aliases": [],
+		"assets": {}
+		}
+
+	# Fold in SPA team
+	spaTeam = __find_spa_team(spaLookup, teamID=teamID, fullName=fullName)
+	if spaTeam:
+		__fold_in_spa_team(team, spaTeam)
+
+	__append_year_set(team, franchise["fromYear"], franchise["toYear"])
+
+	return team
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def DownloadAllTeams(league):
 
