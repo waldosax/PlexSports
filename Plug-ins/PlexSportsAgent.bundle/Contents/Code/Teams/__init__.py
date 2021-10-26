@@ -141,6 +141,28 @@ def __download_all_team_data(league):
 			if anyActiveTeams:
 				franchise.active = True
 
+	# Open-end all the active year sets
+	for franchise in franchises.values():
+		minYear = franchise.fromYear
+		maxYear = franchise.toYear
+		if franchise.fromYear or franchise.toYear:
+			if not minYear or franchise.fromYear < minYear: minYear = franchise.fromYear
+			if not maxYear or franchise.toYear > maxYear: maxYear = franchise.toYear
+			for team in franchise.teams.values():
+				for span in team.years:
+					if span.fromYear:
+						if not minYear or span.fromYear < minYear: minYear = span.fromYear
+					if team.active == True and span.toYear:
+						if not maxYear or span.toYear > maxYear: maxYear = span.toYear
+
+		for team in franchise.teams.values():
+			for span in team.years:
+				if franchise.active and team.active and span.toYear == maxYear:
+					span.toYear = None
+					franchise.toYear = None
+
+
+
 	return franchises
 
 
