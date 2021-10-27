@@ -16,6 +16,7 @@ import Teams
 import TheSportsDBScheduleAdapter, SportsDataIOScheduleAdapter
 import ProFootballReferenceScheduleAdapter
 import MLBAPIScheduleAdapter
+import NBAAPIScheduleAdapter
 import NHLAPIScheduleAdapter
 import ESPNAPIScheduleAdapter
 from ScheduleEvent import *
@@ -268,6 +269,8 @@ def __download_all_schedule_data(sport, league, season):
 
 	if league == LEAGUE_MLB:
 		MLBAPIScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
+	elif league == LEAGUE_NBA:
+		NBAAPIScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
 	elif league == LEAGUE_NFL:
 		ProFootballReferenceScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
 	elif league == LEAGUE_NHL:

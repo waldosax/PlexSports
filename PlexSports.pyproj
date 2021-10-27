@@ -71,6 +71,9 @@
     </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\Hashes.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\MLBAPIScheduleAdapter.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\NBAAPIScheduleAdapter.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\NHLAPIScheduleAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ProFootballReferenceScheduleAdapter.py">
       <SubType>Code</SubType>

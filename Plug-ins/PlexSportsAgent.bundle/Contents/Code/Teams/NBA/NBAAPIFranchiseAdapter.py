@@ -96,6 +96,7 @@ def DownloadAllFranchises(league):
 					# Franchise did not have any child teams, so synthesize one
 					lastFullName = currentFranchise["name"]
 					team = __synthesize_team_from_franchise(currentFranchise, spaLookup)
+					team.setdefault("key", team["abbreviation"] if team.get("abbreviation") else str(lastTeamID))
 					currentFranchise["teams"][lastFullName] = team
 
 				# New Team ID indicates a franchise
@@ -131,6 +132,8 @@ def DownloadAllFranchises(league):
 					if spaTeam:
 						__fold_in_spa_team(team, spaTeam)
 
+					team.setdefault("key", team["abbreviation"] if team.get("abbreviation") else str(teamID))
+
 					currentFranchise["teams"][fullName] = team
 
 				if fullName == "Charlotte Hornets":
@@ -155,6 +158,7 @@ def DownloadAllFranchises(league):
 			# Franchise did not have any child teams, so synthesize one
 			lastFullName = currentFranchise["name"]
 			team = __synthesize_team_from_franchise(currentFranchise, spaLookup)
+			team.setdefault("key", team["abbreviation"] if team.get("abbreviation") else str(teamID))
 			currentFranchise["teams"][lastFullName] = team
 
 
@@ -199,6 +203,7 @@ def DownloadAllFranchises(league):
 				}
 			}
 
+		team.setdefault("key", teamID)
 		franchises[fullName] = franchise
 
 
