@@ -12,6 +12,14 @@ from ..Data.ESPNAPIDownloader import *
 from ScheduleEvent import *
 
 espnapi_abbreviation_corrections = {
+	LEAGUE_NBA: {
+		"GS": "GSW",
+		"NO": "NOP",
+		"NY": "NYK",
+		"SA": "SAS",
+		"UTAH": "UTA",
+		"WSH": "WAS",
+		},
 	LEAGUE_NFL: {
 		"WSH": "WAS",
 		}

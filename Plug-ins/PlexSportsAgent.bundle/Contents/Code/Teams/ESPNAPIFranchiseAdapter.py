@@ -9,10 +9,23 @@ from Constants.Assets import *
 from StringUtils import *
 from Data.ESPNAPIDownloader import *
 
+espnapi_abbreviation_corrections = {
+	LEAGUE_NBA: {
+		"GS": "GSW",
+		"NO": "NOP",
+		"NY": "NYK",
+		"SA": "SAS",
+		"UTAH": "UTA",
+		"WSH": "WAS",
+		},
+	LEAGUE_NFL: {
+		"WSH": "WAS",
+		}
+	}
 
 def DownloadAllTeams(league):
 
-	# Get SPA config, including all teams 
+	# Get teams from ESPN API 
 	response = dict()
 	responseJson = DownloadAllTeamsForLeague(league)
 	try: response = json.loads(responseJson)
@@ -25,10 +38,17 @@ def DownloadAllTeams(league):
 		teamId = deunicode(apiTeam["id"])
 
 		isActive = apiTeam["isActive"]
-		abbrev = deunicode(apiTeam["abbreviation"])
+		key = abbrev = deunicode(apiTeam["abbreviation"])
 		fullName = deunicode(apiTeam["displayName"])
 		name = deunicode(apiTeam.get("name"))
 		city = deunicode(apiTeam["location"])
+
+		aliases = []
+
+		if league in espnapi_abbreviation_corrections.keys():
+			if key in espnapi_abbreviation_corrections[league].keys():
+				aliases.append(key)
+				key = abbrev = espnapi_abbreviation_corrections[league][key]
 
 		if league == LEAGUE_NFL:
 			if city == "Washington" and name == None:
@@ -36,7 +56,7 @@ def DownloadAllTeams(league):
 				fullName = "Washington Football Team"
 
 		team = {
-			"key": abbrev,
+			"key": key,
 			"ESPNAPIID": teamId,
 			"active": isActive,
 			"fullName": fullName,
@@ -44,8 +64,6 @@ def DownloadAllTeams(league):
 			"city": city,
 			"abbreviation": abbrev,
 			}
-
-		aliases = []
 
 		nickname = deunicode(apiTeam.get("nickname") or "")
 		if nickname and not nickname in [city, name, fullName, abbrev]:
