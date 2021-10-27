@@ -101,9 +101,11 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 
 				AddOrAugmentEvent(sched, event)
 
+	pass
+
 def __find_team_by_nbaapiid(teams, nbaapiid):
 	for franchise in teams.values():
-		team = franchise.FindTeam(None, identity={"NBAdotcomID": nbaapiid})
+		team = franchise.FindTeam(None, identity={"NBAAPIID": nbaapiid})
 		if team: return team
 
 

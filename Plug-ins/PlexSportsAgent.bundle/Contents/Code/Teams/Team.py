@@ -253,7 +253,7 @@ class TeamIdentity:
 	def __init__(self, **kwargs):
 		self.MLBAPIID = kwargs.get("MLBAPIID")
 		self.NHLAPIID = kwargs.get("NHLAPIID")
-		self.NBAdotcomID = kwargs.get("NBAdotcomID")
+		self.NBAAPIID = kwargs.get("NBAAPIID")
 		self.ESPNAPIID = kwargs.get("ESPNAPIID")
 		self.ProBaseballReferenceID = kwargs.get("ProBaseballReferenceID")
 		self.ProBasketballReferenceID = kwargs.get("ProBasketballReferenceID")
@@ -267,7 +267,7 @@ class TeamIdentity:
 		if kwargs.get("MLBAPIID"): self.MLBAPIID = kwargs["MLBAPIID"]
 		if kwargs.get("NHLAPIID"): self.NHLAPIID = kwargs["NHLAPIID"]
 		if kwargs.get("ESPNAPIID"): self.ESPNAPIID = kwargs["ESPNAPIID"]
-		if kwargs.get("NBAdotcomID"): self.NBAdotcomID = kwargs["NBAdotcomID"]
+		if kwargs.get("NBAAPIID"): self.NBAAPIID = kwargs["NBAAPIID"]
 		if kwargs.get("ProBaseballReferenceID"): self.ProBaseballReferenceID = kwargs["ProBaseballReferenceID"]
 		if kwargs.get("ProBasketballReferenceID"): self.ProBasketballReferenceID = kwargs["ProBasketballReferenceID"]
 		if kwargs.get("ProFootballReferenceID"): self.ProFootballReferenceID = kwargs["ProFootballReferenceID"]

@@ -121,7 +121,7 @@ def DownloadAllFranchises(league):
 						"city": city,
 						"name": name,
 						"active": active and len(currentFranchise["teams"]) == 0,
-						"identity": {"NBAdotcomID": teamID},
+						"identity": {"NBAAPIID": teamID},
 						"years": [],
 						"aliases": [],
 						"assets": {}
@@ -181,7 +181,7 @@ def DownloadAllFranchises(league):
 				"abbreviation": abbrev,
 				"fullName": fullName,
 				"city": city,
-				"NBAdotcomID": teamID,
+				"NBAAPIID": teamID,
 				"aliases": [],
 				"assets": {}
 				}
@@ -270,7 +270,7 @@ def __synthesize_team_from_franchise(franchise, spaLookup):
 		"city": franchise["_city"],
 		"name": franchise["_name"],
 		"active": franchise["active"],
-		"identity": {"NBAdotcomID": teamID},
+		"identity": {"NBAAPIID": teamID},
 		"years": [],
 		"aliases": [],
 		"assets": {}
@@ -330,7 +330,7 @@ def DownloadAllTeams(league):
 			fullName = deunicode("%s %s" % (city, name))
 		team = {
 			"key": abbrev,
-			"NBAdotcomID": str(teamId or abbrev),
+			"NBAAPIID": str(teamId or abbrev),
 			"active": isActive,
 			"fullName": fullName,
 			"name": name,
