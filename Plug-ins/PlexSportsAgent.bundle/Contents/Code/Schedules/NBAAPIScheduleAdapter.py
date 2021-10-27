@@ -25,6 +25,8 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 		for lscd in nbaApiSchedule["lscd"]:
 			for game in lscd["mscd"]["g"]:
 
+				if (game["stt"]) == "TBD": continue
+
 				id = deunicode(game["gid"])
 				date = ParseISO8601Date("%sT%s" % (game["gdtutc"], game["utctm"])).replace(tzinfo=UTC)
 
