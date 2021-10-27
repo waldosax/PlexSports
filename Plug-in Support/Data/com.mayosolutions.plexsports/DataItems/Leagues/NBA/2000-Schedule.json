@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA2000SCHEDULE", 
-        "CachedOn": "2021-10-27T03:32:26", 
-        "ExpiresOn": "2021-11-03T03:32:26", 
+        "CachedOn": "2021-10-27T16:08:12", 
+        "ExpiresOn": "2021-11-03T16:08:12", 
         "Version": "2"
     }, 
     "Items": [
@@ -2590,8 +2590,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "New York Knicks vs Philadelphia 76ers"
         }, 
         {
@@ -2616,8 +2618,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Atlanta Hawks vs New Orleans Pelicans"
         }, 
         {
@@ -2642,8 +2646,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs Sacramento Kings"
         }, 
         {
@@ -2668,8 +2674,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Brooklyn Nets vs Cleveland Cavaliers"
         }, 
         {
@@ -2694,8 +2702,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs Detroit Pistons"
         }, 
         {
@@ -2720,8 +2730,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs Minnesota Timberwolves"
         }, 
         {
@@ -2751,8 +2763,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs Los Angeles Lakers"
         }, 
         {
@@ -2777,8 +2791,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs Indiana Pacers"
         }, 
         {
@@ -2803,8 +2819,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Memphis Grizzlies vs Oklahoma City Thunder"
         }, 
         {
@@ -2829,8 +2847,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs Los Angeles Clippers"
         }, 
         {
@@ -2855,8 +2875,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs Milwaukee Bucks"
         }, 
         {
@@ -2881,8 +2903,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs Phoenix Suns"
         }, 
         {
@@ -2907,8 +2931,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Orlando Magic vs Washington Wizards"
         }, 
         {
@@ -2959,8 +2985,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Miami Heat vs Orlando Magic"
         }, 
         {
@@ -3089,8 +3117,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs Detroit Pistons"
         }, 
         {
@@ -9657,6 +9687,29 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "BOS", 
+            "date": "2000-11-19T00:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ESPNAPIID": "201118027"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Basketball", 
+            "subseason": 0, 
+            "vs": "Washington Wizards vs. Boston Celtics"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "DAL", 
             "date": "2000-11-19T00:00:00+00:00", 
             "eventTitle": "", 
@@ -9672,29 +9725,6 @@
             "sport": "Basketball", 
             "subseason": 0, 
             "vs": "Vancouver Grizzlies vs. Dallas Mavericks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BOS", 
-            "date": "2000-11-19T00:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ESPNAPIID": "201118027"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Washington Wizards vs. Boston Celtics"
         }, 
         {
             "assets": {
@@ -13582,8 +13612,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs Los Angeles Clippers"
         }, 
         {
@@ -13608,8 +13640,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs Cleveland Cavaliers"
         }, 
         {
@@ -13634,8 +13668,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs Minnesota Timberwolves"
         }, 
         {
@@ -13660,8 +13696,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Orlando Magic vs Brooklyn Nets"
         }, 
         {
@@ -13686,8 +13724,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Sacramento Kings vs Phoenix Suns"
         }, 
         {
@@ -13712,8 +13752,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs San Antonio Spurs"
         }, 
         {
@@ -13733,8 +13775,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Philadelphia 76ers vs New Orleans Pelicans"
         }, 
         {
@@ -13759,8 +13803,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Miami Heat vs Utah Jazz"
         }, 
         {
@@ -13785,8 +13831,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs New York Knicks"
         }, 
         {
@@ -13811,8 +13859,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Memphis Grizzlies vs Indiana Pacers"
         }, 
         {
@@ -13984,8 +14034,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs Dallas Mavericks"
         }, 
         {
@@ -14010,8 +14062,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs Oklahoma City Thunder"
         }, 
         {
@@ -14036,8 +14090,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Washington Wizards vs Miami Heat"
         }, 
         {
@@ -14166,8 +14222,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Atlanta Hawks vs Milwaukee Bucks"
         }, 
         {
@@ -14192,8 +14250,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs Portland Trail Blazers"
         }, 
         {
@@ -24612,8 +24672,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs New Orleans Pelicans"
         }, 
         {
@@ -24638,8 +24700,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Minnesota Timberwolves vs Houston Rockets"
         }, 
         {
@@ -24712,8 +24776,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Los Angeles Clippers vs Toronto Raptors"
         }, 
         {
@@ -24738,8 +24804,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs Milwaukee Bucks"
         }, 
         {
@@ -24764,8 +24832,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs Houston Rockets"
         }, 
         {
@@ -24790,8 +24860,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Atlanta Hawks vs Boston Celtics"
         }, 
         {
@@ -24816,8 +24888,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Orlando Magic vs Brooklyn Nets"
         }, 
         {
@@ -24842,8 +24916,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Oklahoma City Thunder vs Indiana Pacers"
         }, 
         {
@@ -24868,8 +24944,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Washington Wizards vs Minnesota Timberwolves"
         }, 
         {
@@ -24894,8 +24972,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Sacramento Kings vs Phoenix Suns"
         }, 
         {
@@ -24920,8 +25000,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs Miami Heat"
         }, 
         {
@@ -24997,8 +25079,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs Utah Jazz"
         }, 
         {
@@ -25023,8 +25107,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Memphis Grizzlies vs New Orleans Pelicans"
         }, 
         {
@@ -25049,8 +25135,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs Detroit Pistons"
         }, 
         {
@@ -25075,8 +25163,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Philadelphia 76ers vs Atlanta Hawks"
         }, 
         {
@@ -25179,8 +25269,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs Denver Nuggets"
         }, 
         {
@@ -35182,8 +35274,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs Los Angeles Clippers"
         }, 
         {
@@ -35208,8 +35302,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Oklahoma City Thunder vs Chicago Bulls"
         }, 
         {
@@ -35234,8 +35330,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs Phoenix Suns"
         }, 
         {
@@ -35260,8 +35358,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "New York Knicks vs Philadelphia 76ers"
         }, 
         {
@@ -35286,8 +35386,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs New Orleans Pelicans"
         }, 
         {
@@ -35312,8 +35414,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs Miami Heat"
         }, 
         {
@@ -35338,8 +35442,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs Minnesota Timberwolves"
         }, 
         {
@@ -35554,8 +35660,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Brooklyn Nets vs New York Knicks"
         }, 
         {
@@ -35606,8 +35714,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Atlanta Hawks vs Miami Heat"
         }, 
         {
@@ -35632,8 +35742,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs Boston Celtics"
         }, 
         {
@@ -35658,8 +35770,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Sacramento Kings vs Memphis Grizzlies"
         }, 
         {
@@ -35684,8 +35798,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Indiana Pacers vs Denver Nuggets"
         }, 
         {
@@ -35710,8 +35826,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs New Orleans Pelicans"
         }, 
         {
@@ -35957,8 +36075,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs Indiana Pacers"
         }, 
         {
@@ -36009,8 +36129,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Washington Wizards vs Denver Nuggets"
         }, 
         {
@@ -36087,8 +36209,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs Minnesota Timberwolves"
         }, 
         {
@@ -36139,8 +36263,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs Houston Rockets"
         }, 
         {
@@ -44060,8 +44186,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs Oklahoma City Thunder"
         }, 
         {
@@ -44081,8 +44209,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "New York Knicks vs Boston Celtics"
         }, 
         {
@@ -44102,8 +44232,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs Phoenix Suns"
         }, 
         {
@@ -44128,8 +44260,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs Houston Rockets"
         }, 
         {
@@ -44154,8 +44288,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs Los Angeles Clippers"
         }, 
         {
@@ -44421,8 +44557,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs New York Knicks"
         }, 
         {
@@ -44447,8 +44585,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Indiana Pacers vs Oklahoma City Thunder"
         }, 
         {
@@ -44473,8 +44613,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs Minnesota Timberwolves"
         }, 
         {
@@ -44499,8 +44641,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Philadelphia 76ers vs Washington Wizards"
         }, 
         {
@@ -44546,8 +44690,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs Miami Heat"
         }, 
         {
@@ -44572,8 +44718,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Orlando Magic vs Cleveland Cavaliers"
         }, 
         {
@@ -44603,8 +44751,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs Brooklyn Nets"
         }, 
         {
@@ -44655,8 +44805,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Atlanta Hawks vs New Orleans Pelicans"
         }, 
         {
@@ -44830,8 +44982,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Memphis Grizzlies vs Los Angeles Lakers"
         }, 
         {
@@ -44856,8 +45010,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs Houston Rockets"
         }, 
         {
@@ -55282,8 +55438,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Phoenix Suns vs Milwaukee Bucks"
         }, 
         {
@@ -55308,8 +55466,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Sacramento Kings vs Dallas Mavericks"
         }, 
         {
@@ -55334,8 +55494,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs Golden State Warriors"
         }, 
         {
@@ -55360,8 +55522,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs Orlando Magic"
         }, 
         {
@@ -55386,8 +55550,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Brooklyn Nets vs Houston Rockets"
         }, 
         {
@@ -55412,8 +55578,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Memphis Grizzlies vs Utah Jazz"
         }, 
         {
@@ -55438,8 +55606,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs Minnesota Timberwolves"
         }, 
         {
@@ -55464,8 +55634,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Philadelphia 76ers vs Indiana Pacers"
         }, 
         {
@@ -55485,8 +55657,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs New York Knicks"
         }, 
         {
@@ -55511,8 +55685,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "New Orleans Pelicans vs Boston Celtics"
         }, 
         {
@@ -55930,8 +56106,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Miami Heat vs Boston Celtics"
         }, 
         {
@@ -55956,8 +56134,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs Portland Trail Blazers"
         }, 
         {
@@ -56034,8 +56214,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs Detroit Pistons"
         }, 
         {
@@ -56060,8 +56242,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs Oklahoma City Thunder"
         }, 
         {
@@ -56216,8 +56400,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs Toronto Raptors"
         }, 
         {
@@ -56345,8 +56531,10 @@
             }, 
             "league": "NBA", 
             "networks": [], 
+            "playoffround": 1, 
             "season": "2000", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Washington Wizards vs Miami Heat"
         }, 
         {

@@ -70,12 +70,14 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 				seriesDescriptor = deunicode(game["seri"])
 				subseason = None
 				game = None
-				summary = str(seriesDescriptor)
+				playoffRound = None
 				if seriesDescriptor:
 					subseason = NBA_SUBSEASON_FLAG_POSTSEASON
-					m = re.match(".*(\d+)-(\d+).*", seriesDescriptor, re.IGNORECASE)
-					if m:
-						game = int(m.groups(0)[0]) + int(m.groups(0)[1])
+					#m = re.match(".*(\d+)-(\d+).*", seriesDescriptor, re.IGNORECASE)
+					#if m:
+					#	game = int(m.groups(0)[0]) + int(m.groups(0)[1])
+					gameNumber = int(id[-1])
+					playoffRound = int(id[-3:-2])
 
 
 
@@ -89,6 +91,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					"awayTeam": awayTeamKey,
 					"vs": vs,
 					"subseason": subseason,
+					"playoffround": playoffRound,
 					"game": game,
 					"networks": list(set(networks)),
 					"altTitle": seriesDescriptor	# For reference later. If no good description, set description to this.
@@ -102,3 +105,80 @@ def __find_team_by_nbaapiid(teams, nbaapiid):
 	for franchise in teams.values():
 		team = franchise.FindTeam(None, identity={"NBAdotcomID": nbaapiid})
 		if team: return team
+
+
+
+
+
+
+
+
+# playoffPicture[gameID] = {
+#	"seriesIndex": int
+#	seriesID: [
+#		{
+#			"seriesIndex": seriesIndex,
+#			"seriesID": seriesID,
+#			"gameID": gameID,
+#			"homeTeamID": homeTeamID,
+#			"awayTeamID": awayTeamID,
+#			"gameNumber": gameNumber,
+#			}
+#		]
+#	}
+		
+def __get_playoff_picture(season):
+	# Download playoff series picture from NBA API
+	downloadedJson = DownloadPlayoffSeriesInfoForSeason(season)
+	
+	nbaApiPlayoffPicture = None
+	if downloadedJson:
+		try: nbaApiPlayoffPicture = json.loads(downloadedJson)
+		except ValueError: pass
+
+	playoffPicture = dict()
+
+	playoffsBySeriesIndex = []
+	playoffsBySeriesID = dict()
+
+	seriesIndex = None
+	currentSeriesID = None
+	series = None
+
+	for row in nbaApiPlayoffPicture["resultSets"][0]["rowSet"]:
+		gameID = row[0]
+		homeTeamID = row[1]
+		awayTeamID = row[2]
+		seriesID = row[3]
+		gameNumber = row[4]
+
+		game = {
+			#"seriesIndex": seriesIndex,
+			"seriesID": seriesID,
+			"gameID": gameID,
+			"homeTeamID": homeTeamID,
+			"awayTeamID": awayTeamID,
+			"gameNumber": gameNumber
+			}
+
+		if currentSeriesID == None:
+			# Initialize
+			series = []
+			playoffsBySeriesIndex.append(series)
+			playoffsBySeriesID.setdefault(seriesID, series)
+			currentSeriesID = seriesID
+			seriesIndex = 0
+
+		if seriesID != currentSeriesID:
+			# Start a new series
+			series = []
+			playoffsBySeriesIndex.append(series)
+			playoffsBySeriesID.setdefault(seriesID, series)
+			currentSeriesID = seriesID
+			seriesIndex = seriesIndex + 1
+
+		series.append(game)
+
+		pass
+
+	return playoffPicture

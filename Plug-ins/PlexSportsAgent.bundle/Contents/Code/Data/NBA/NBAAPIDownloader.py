@@ -14,6 +14,7 @@ NBA_TEAMINFO_COMMON_ENDPOINT = "teaminfocommon?LeagueID=00&TeamID=%s" # TeamID
 NBA_TEAM_DETAILS_ENDPOINT = "teamdetails?TeamID=%s" # TeamID
 NBA_TEAM_SCHEDULE_ENDPOINT = "json/mobile_teams/nba/%s/teams/%s_schedule.json" # (Season, slug)
 NBA_SCHEDULE_ENDPOINT = "json/mobile_teams/nba/%s/league/00_full_schedule.json" # Season
+NBA_COMMON_PLAYOFF_SERIES_ENDPOINT = "commonplayoffseries?LeagueID=00&Season=%s" # Season
 
 nba_api_headers = {
 	"User-Agent": USER_AGENT,
@@ -35,16 +36,16 @@ def DownloadAllFranchiseInfo():
 		url,
 		nba_api_headers, cacheExtension=EXTENSION_JSON)
 
-#def DownloadTeamCommonInfo(teamID, teamName=None):
-#	print("Getting common info %sfrom NBA API (%s) ..." % ((("for %s " % teamName) if teamName else ""), teamID))
-#	url = (NBA_STATSAPI_BASE_URL + NBA_TEAMINFO_COMMON_ENDPOINT) % teamID
-#	return GetResultFromNetwork(
-#		url,
-#		nba_api_headers, cacheExtension=EXTENSION_JSON)
-
 def DownloadScheduleForSeason(season):
 	print("Getting %s schedule from NBA API ..." % season)
 	url = (NBA_DATAAPI_BASE_URL + NBA_SCHEDULE_ENDPOINT) % season
+	return GetResultFromNetwork(
+		url,
+		nba_api_headers, cacheExtension=EXTENSION_JSON)
+
+def DownloadPlayoffSeriesInfoForSeason(season):
+	print("Getting %s playoff series info from NBA API ..." % season)
+	url = (NBA_STATSAPI_BASE_URL + NBA_COMMON_PLAYOFF_SERIES_ENDPOINT) % season
 	return GetResultFromNetwork(
 		url,
 		nba_api_headers, cacheExtension=EXTENSION_JSON)

@@ -12,6 +12,7 @@ from Vectors import *
 from ..Data.TheSportsDBDownloader import *
 from ScheduleEvent import *
 
+THESPORTSDB_ROUND_PLAYOFF_1ST_ROUND = 1
 THESPORTSDB_ROUND_QUARTERFINAL = 125
 THESPORTSDB_ROUND_SEMIFINAL = 150
 THESPORTSDB_ROUND_PLAYOFF = 160
@@ -105,17 +106,22 @@ def SupplementScheduleEvent(league, schedEvent, kwargs):
 			kwargs.setdefault("playoffround", MLB_PLAYOFF_ROUND_WORLD_SERIES)
 	elif league == LEAGUE_NBA:
 		if schedEvent.get("intRound"):
-			if schedEvent.get("intRound") == THESPORTSDB_ROUND_FINAL:
+			if schedEvent.get("intRound") == str(THESPORTSDB_ROUND_FINAL):
 				kwargs.setdefault("subseason", NBA_SUBSEASON_FLAG_POSTSEASON)
 				kwargs.setdefault("playoffround", NBA_PLAYOFF_ROUND_FINALS)
-			elif schedEvent.get("intRound") == THESPORTSDB_ROUND_PLAYOFF_FINAL:
+			elif schedEvent.get("intRound") == str(THESPORTSDB_ROUND_PLAYOFF_FINAL):
 				kwargs.setdefault("subseason", NBA_SUBSEASON_FLAG_POSTSEASON)
 				kwargs.setdefault("playoffround", NBA_PLAYOFF_ROUND_SEMIFINALS)
-			elif schedEvent.get("intRound") == THESPORTSDB_ROUND_PLAYOFF_SEMIFINAL:
+			elif schedEvent.get("intRound") == str(THESPORTSDB_ROUND_PLAYOFF_SEMIFINAL):
 				kwargs.setdefault("subseason", NBA_SUBSEASON_FLAG_POSTSEASON)
 				kwargs.setdefault("playoffround", NBA_PLAYOFF_ROUND_QUARTERFINALS)
-			elif schedEvent["intRound"] == THESPORTSDB_ROUND_FINAL:
-				kwargs.setdefault("subseason", NBA_SUBSEASON_FLAG_PRESEASON)
+			elif schedEvent.get("intRound") == str(THESPORTSDB_ROUND_PLAYOFF_1ST_ROUND):
+				kwargs.setdefault("subseason", NBA_SUBSEASON_FLAG_POSTSEASON)
+				kwargs.setdefault("playoffround", NBA_PLAYOFF_1ST_ROUND)
+
+			if kwargs.get("subseason") == NBA_SUBSEASON_FLAG_POSTSEASON:
+				m = re.match(".* - Game (\d+)", schedEvent.get("strDescriptionEN") or "", re.IGNORECASE)
+				if m: kwargs.setdefault("game", int(m.groups(0)[0]))
 	elif league == LEAGUE_NFL:
 		if schedEvent.get("strDescriptionEN") == "Pro Football Hall of Fame Game":
 			kwargs.setdefault("eventindicator", NFL_EVENT_FLAG_HALL_OF_FAME)

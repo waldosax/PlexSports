@@ -106,7 +106,7 @@ def SupplementScheduleEvent(league, schedEvent, kwargs):
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_POSTSEASON:
 				kwargs["subseason"] = NFL_SUBSEASON_FLAG_POSTSEASON
 				kwargs["week"] = None
-				kwargs["playoffRound"] = schedEvent["Week"]
+				kwargs["playoffround"] = schedEvent["Week"]
 				if schedEvent["Week"] == NFL_PLAYOFF_ROUND_SUPERBOWL:
 					kwargs["eventindicator"] = NFL_EVENT_FLAG_SUPERBOWL
 			if schedEvent["SeasonType"] == SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR:

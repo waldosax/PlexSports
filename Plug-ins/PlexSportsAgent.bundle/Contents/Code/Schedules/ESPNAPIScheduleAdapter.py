@@ -400,6 +400,9 @@ def __get_playoffRound(league, subseason, title, competition):
 		elif typeAbbrev == "QTR":
 			subseason = NBA_SUBSEASON_FLAG_POSTSEASON
 			playoffRound = NBA_PLAYOFF_ROUND_QUARTERFINALS
+		elif typeAbbrev == "RD16":
+			subseason = NBA_SUBSEASON_FLAG_POSTSEASON
+			playoffRound = NBA_PLAYOFF_1ST_ROUND
 	elif league == LEAGUE_NFL:
 		if indexOf(title.lower(), "hall of fame") >= 0:
 			subseason = NFL_SUBSEASON_FLAG_PRESEASON
