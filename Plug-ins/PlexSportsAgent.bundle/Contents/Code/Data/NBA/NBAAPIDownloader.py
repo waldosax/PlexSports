@@ -19,6 +19,7 @@ NBA_COMMON_PLAYOFF_SERIES_ENDPOINT = "commonplayoffseries?LeagueID=00&Season=%s"
 NBA_TEAM_SCHEDULE_ENDPOINT = "v2015/json/mobile_teams/nba/%s/teams/%s_schedule.json" # (Season, slug)
 NBA_SCHEDULE_ENDPOINT = "v2015/json/mobile_teams/nba/%s/league/00_full_schedule.json" # Season
 NBA_SCHEDULE_SUPPLEMENT_ENDPOINT = "10s/prod/v1/%s/schedule.json" # Season
+NBA_SCHEDULE_SUPPLEMENT_ENDPOINT = "10s/prod/v1/%s/teams.json" # Season
 
 nba_api_headers = {
 	"User-Agent": USER_AGENT,
@@ -29,6 +30,13 @@ nba_api_headers = {
 def DownloadSPAConfig():
 	print("Getting SPA configuration from NBA API ...")
 	url = NBA_SPAAPI_BASE_URL + NBA_SPA_CONFIG_ENDPOINT
+	return GetResultFromNetwork(
+		url,
+		nba_api_headers, cacheExtension=EXTENSION_JSON)
+
+def DownloadTeamsSupplement():
+	print("Getting teams supplement from NBA API ...")
+	url = (NBA_DATAAPI_BASE_URL + NBA_SCHEDULE_SUPPLEMENT_ENDPOINT) % datetime.datetime.utcnow().year
 	return GetResultFromNetwork(
 		url,
 		nba_api_headers, cacheExtension=EXTENSION_JSON)

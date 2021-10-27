@@ -28,13 +28,19 @@ def DownloadAllFranchises(league):
 	try: nbaapiSPAConfig = json.loads(nbaapiSPAConfigJson)
 	except: pass
 
+	# Get Teams supplement
+	nbaapiTeamsSupplement = dict()
+	nbaapiTeamsSupplementJson = DownloadTeamsSupplement()
+	try: nbaapiTeamsSupplement = json.loads(nbaapiTeamsSupplementJson)
+	except: pass
+
 	franchises = dict()
 
 	__prodLogoTemplate = deunicode(nbaapiSPAConfig["ENV"]["PROD"]["TEAM_LOGO_URL"])
 
 	spaLookup = {
 		"byTeamID": dict(),
-		"byabbreviation": dict(),
+		"byAbbreviation": dict(),
 		"byFullName": dict(),
 		"allStar": dict()
 		}
@@ -50,12 +56,26 @@ def DownloadAllFranchises(league):
 		if "id" in spaTeam.keys():
 			spaLookup["byTeamID"][int(spaTeam["id"])] = spaTeam
 		if "code" in spaTeam.keys():
-			spaLookup["byabbreviation"][abbrev] = spaTeam
+			spaLookup["byAbbreviation"][abbrev] = spaTeam
 
 		if city in ["All-Star", "All Stars", "Rising Stars"]:
 			spaLookup["allStar"][abbrev] = spaTeam
 
 		spaLookup["byFullName"][fullName] = spaTeam
+
+
+	supplement = {
+		"byTeamID": dict(),
+		"byAbbrev": dict()
+		}
+	for supplementalTeam in nbaapiTeamsSupplement["league"]["standard"]:
+		if supplementalTeam.get("isNBAFranchise") == False: continue
+		if supplementalTeam["confName"] == "Intl": continue
+		teamID = deunicode(supplementalTeam["teamId"])
+		abbrev = deunicode(supplementalTeam["tricode"])
+		supplement["byTeamID"][teamID] = supplementalTeam
+		supplement["byAbbrev"][abbrev] = supplementalTeam
+
 
 
 	resultSets = dict()
@@ -92,11 +112,13 @@ def DownloadAllFranchises(league):
 			fullName = deunicode("%s %s" % (city, name))
 
 			if lastTeamID == None or teamID != lastTeamID:
+
+				# If franchise did not have any child teams, synthesize one
 				if lastTeamID != None and currentFranchise != None and len(currentFranchise["teams"]) == 0:
-					# Franchise did not have any child teams, so synthesize one
 					lastFullName = currentFranchise["name"]
 					team = __synthesize_team_from_franchise(currentFranchise, spaLookup)
 					team.setdefault("key", team["abbreviation"] if team.get("abbreviation") else str(lastTeamID))
+					supplementalTeam = __supplement_team(team, supplement, str(lastTeamID), None)
 					currentFranchise["teams"][lastFullName] = team
 
 				# New Team ID indicates a franchise
@@ -116,11 +138,12 @@ def DownloadAllFranchises(league):
 					team = currentFranchise["teams"][fullName]
 				else:
 					# Add team to franchise
+					teamActive = active and len(currentFranchise["teams"]) == 0
 					team = {
 						"fullName": fullName,
 						"city": city,
 						"name": name,
-						"active": active and len(currentFranchise["teams"]) == 0,
+						"active": teamActive,
 						"identity": {"NBAAPIID": teamID},
 						"years": [],
 						"aliases": [],
@@ -131,6 +154,10 @@ def DownloadAllFranchises(league):
 					spaTeam = __find_spa_team(spaLookup, teamID=teamID, fullName=fullName)
 					if spaTeam:
 						__fold_in_spa_team(team, spaTeam)
+
+					supplementalTeam = __supplement_team(team, supplement, teamID, team.get("abbreviation")) if teamActive else None
+
+
 
 					team.setdefault("key", team["abbreviation"] if team.get("abbreviation") else str(teamID))
 
@@ -159,6 +186,7 @@ def DownloadAllFranchises(league):
 			lastFullName = currentFranchise["name"]
 			team = __synthesize_team_from_franchise(currentFranchise, spaLookup)
 			team.setdefault("key", team["abbreviation"] if team.get("abbreviation") else str(teamID))
+			supplementalTeam = __supplement_team(team, supplement, teamID, team.get("abbreviation"))
 			currentFranchise["teams"][lastFullName] = team
 
 
@@ -168,6 +196,10 @@ def DownloadAllFranchises(league):
 
 		abbrev = deunicode(allStarTeam.get("code"))
 		teamID = allStarTeam.get("id") or abbrev
+		supplementalTeam = __supplement_team(team, supplement, teamID, abbrev)
+
+
+		teamID = teamID or supplementalTeam.get("teamId") if supplementalTeam else abbrev
 
 		name = deunicode(allStarTeam["name"])
 		city = deunicode(allStarTeam["city"])
@@ -192,6 +224,11 @@ def DownloadAllFranchises(league):
 		if city == "All-Star":
 			team["conference"] = "%sern" % name
 			team["active"] = True
+
+		if supplementalTeam:
+			altCityName = deunicode(supplementalTeam.get("altCityName") or "")
+			if altCityName and altCityName != team["city"] and altCityName != team["fullName"] and altCityName not in team["aliases"]:
+				team["aliases"].append(altCityName)
 
 		__fold_in_spa_team(team, allStarTeam)
 
@@ -285,7 +322,34 @@ def __synthesize_team_from_franchise(franchise, spaLookup):
 
 	return team
 
+def __supplement_team(team, supplement, teamID, abbrev=None):
+	supplementalTeam = supplement["byTeamID"].get(str(teamID)) if teamID else supplement["byAbbrev"].get(abbrev)
+	if not supplementalTeam: return None
 
+	variants = []
+	variants.append(deunicode(supplementalTeam.get("tricode")))
+	if supplementalTeam.get("teamShortName") != supplementalTeam.get("fullName"):
+		variants.append(deunicode(supplementalTeam.get("teamShortName")))
+	if supplementalTeam.get("teamShortName") != supplementalTeam.get("city"):
+		variants.append(deunicode(supplementalTeam.get("teamShortName")))
+	if supplementalTeam.get("altCityName") != supplementalTeam.get("city"):
+		variants.append(deunicode(supplementalTeam.get("altCityName")))
+	variants.append(deunicode(supplementalTeam.get("nickname")))
+	variants.append(deunicode(supplementalTeam.get("fullName")))
+	if supplementalTeam.get("altCityName") != supplementalTeam.get("fullName"):
+		variants.append(deunicode("%s %s" % (supplementalTeam.get("altCityName"), supplementalTeam.get("nickname"))))
+
+	aliases = team["aliases"]
+	variants = list(set(variants))
+	for variant in variants:
+		if variant == team["abbreviation"]: continue
+		if variant == team["city"]: continue
+		if variant == team["name"]: continue
+		if variant == team["fullName"]: continue
+		if variant in aliases: continue
+		aliases.append(variant)
+
+	return supplementalTeam
 
 
 
