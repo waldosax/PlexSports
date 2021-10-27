@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1978SCHEDULE", 
-        "CachedOn": "2021-10-11T18:10:43", 
-        "ExpiresOn": "2021-10-18T18:10:43", 
+        "CachedOn": "2021-10-27T03:28:52", 
+        "ExpiresOn": "2021-11-03T03:28:52", 
         "Version": "2"
     }, 
     "Items": [
@@ -82,7 +82,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NY", 
+            "awayTeam": "NYK", 
             "date": "1978-04-12T05:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "CLE", 
@@ -128,6 +128,50 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "date": "1978-04-14T05:00:00+00:00", 
+            "eventTitle": "", 
+            "identity": {
+                "ESPNAPIID": "2080414001"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1978", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Atlanta Hawks vs. Washington Bullets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "CLE", 
+            "date": "1978-04-14T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "NYK", 
+            "identity": {
+                "ESPNAPIID": "2080414018"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1978", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "New York Knicks vs. Cleveland Cavaliers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "PHX", 
             "date": "1978-04-14T05:00:00+00:00", 
             "eventTitle": "", 
@@ -151,73 +195,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CLE", 
-            "date": "1978-04-14T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "NY", 
-            "identity": {
-                "ESPNAPIID": "2080414018"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1978", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "New York Knicks vs. Cleveland Cavaliers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "date": "1978-04-14T05:00:00+00:00", 
-            "eventTitle": "", 
-            "identity": {
-                "ESPNAPIID": "2080414001"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1978", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Atlanta Hawks vs. Washington Bullets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "date": "1978-04-16T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "SA", 
-            "identity": {
-                "ESPNAPIID": "2080416024"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1978", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "San Antonio Spurs vs. Washington Bullets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NY", 
+            "awayTeam": "NYK", 
             "date": "1978-04-16T05:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "PHI", 
@@ -263,7 +241,29 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NY", 
+            "date": "1978-04-16T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "SAS", 
+            "identity": {
+                "ESPNAPIID": "2080416024"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1978", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "San Antonio Spurs vs. Washington Bullets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYK", 
             "date": "1978-04-18T05:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "PHI", 
@@ -334,7 +334,7 @@
             }, 
             "date": "1978-04-18T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "SA", 
+            "homeTeam": "SAS", 
             "identity": {
                 "ESPNAPIID": "2080418024"
             }, 
@@ -357,7 +357,7 @@
             "awayTeam": "PHI", 
             "date": "1978-04-20T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "NY", 
+            "homeTeam": "NYK", 
             "identity": {
                 "ESPNAPIID": "2080420018"
             }, 
@@ -377,19 +377,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "MIL", 
+            "awayTeam": "SAS", 
             "date": "1978-04-21T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "DEN", 
             "identity": {
-                "ESPNAPIID": "2080421007"
+                "ESPNAPIID": "2080421027"
             }, 
             "league": "NBA", 
             "networks": [], 
             "season": "1978", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "Denver Nuggets vs. Milwaukee Bucks"
+            "vs": "Washington Bullets vs. San Antonio Spurs"
         }, 
         {
             "assets": {
@@ -423,18 +422,19 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "SA", 
+            "awayTeam": "MIL", 
             "date": "1978-04-21T05:00:00+00:00", 
             "eventTitle": "", 
+            "homeTeam": "DEN", 
             "identity": {
-                "ESPNAPIID": "2080421027"
+                "ESPNAPIID": "2080421007"
             }, 
             "league": "NBA", 
             "networks": [], 
             "season": "1978", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "Washington Bullets vs. San Antonio Spurs"
+            "vs": "Denver Nuggets vs. Milwaukee Bucks"
         }, 
         {
             "assets": {
@@ -468,6 +468,51 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "PHI", 
+            "date": "1978-04-23T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "NYK", 
+            "identity": {
+                "ESPNAPIID": "2080423018"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1978", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "New York Knicks vs. Philadelphia 76ers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "SAS", 
+            "date": "1978-04-23T05:00:00+00:00", 
+            "eventTitle": "", 
+            "identity": {
+                "ESPNAPIID": "2080423027"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1978", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Washington Bullets vs. San Antonio Spurs"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "DEN", 
             "date": "1978-04-23T05:00:00+00:00", 
             "eventTitle": "", 
@@ -491,41 +536,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PHI", 
-            "date": "1978-04-23T05:00:00+00:00", 
+            "date": "1978-04-25T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "NY", 
+            "homeTeam": "SAS", 
             "identity": {
-                "ESPNAPIID": "2080423018"
+                "ESPNAPIID": "2080425024"
             }, 
             "league": "NBA", 
             "networks": [], 
             "season": "1978", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "New York Knicks vs. Philadelphia 76ers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SA", 
-            "date": "1978-04-23T05:00:00+00:00", 
-            "eventTitle": "", 
-            "identity": {
-                "ESPNAPIID": "2080423027"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1978", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Washington Bullets vs. San Antonio Spurs"
+            "vs": "San Antonio Spurs vs. Washington Bullets"
         }, 
         {
             "assets": {
@@ -559,28 +581,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "date": "1978-04-25T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "SA", 
-            "identity": {
-                "ESPNAPIID": "2080425024"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1978", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "San Antonio Spurs vs. Washington Bullets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "POR", 
             "date": "1978-04-26T05:00:00+00:00", 
             "eventTitle": "", 
@@ -594,28 +594,6 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Seattle SuperSonics vs. Portland Trail Blazers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "SA", 
-            "date": "1978-04-28T05:00:00+00:00", 
-            "eventTitle": "", 
-            "identity": {
-                "ESPNAPIID": "2080428027"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1978", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Washington Bullets vs. San Antonio Spurs"
         }, 
         {
             "assets": {
@@ -649,19 +627,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DEN", 
-            "date": "1978-04-30T05:00:00+00:00", 
+            "awayTeam": "SAS", 
+            "date": "1978-04-28T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "MIL", 
             "identity": {
-                "ESPNAPIID": "2080430015"
+                "ESPNAPIID": "2080428027"
             }, 
             "league": "NBA", 
             "networks": [], 
             "season": "1978", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "Milwaukee Bucks vs. Denver Nuggets"
+            "vs": "Washington Bullets vs. San Antonio Spurs"
         }, 
         {
             "assets": {
@@ -684,6 +661,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Philadelphia 76ers vs. Washington Bullets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DEN", 
+            "date": "1978-04-30T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "MIL", 
+            "identity": {
+                "ESPNAPIID": "2080430015"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1978", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Milwaukee Bucks vs. Denver Nuggets"
         }, 
         {
             "assets": {

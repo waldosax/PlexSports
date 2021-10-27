@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1954SCHEDULE", 
-        "CachedOn": "2021-10-11T18:03:47", 
-        "ExpiresOn": "2021-10-18T18:03:47", 
+        "CachedOn": "2021-10-27T03:27:51", 
+        "ExpiresOn": "2021-11-03T03:27:51", 
         "Version": "2"
     }, 
     "Items": [
@@ -39,7 +39,7 @@
             "awayTeam": "BOS", 
             "date": "1954-03-16T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "NY", 
+            "homeTeam": "NYK", 
             "identity": {
                 "ESPNAPIID": "1840316018"
             }, 
@@ -80,7 +80,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NY", 
+            "awayTeam": "NYK", 
             "date": "1954-03-17T05:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "BOS", 
@@ -93,6 +93,28 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Boston Celtics vs. New York Knicks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYK", 
+            "date": "1954-03-18T05:00:00+00:00", 
+            "eventTitle": "", 
+            "identity": {
+                "ESPNAPIID": "1840318020"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1954", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Syracuse Nationals vs. New York Knicks"
         }, 
         {
             "assets": {
@@ -124,29 +146,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NY", 
-            "date": "1954-03-18T05:00:00+00:00", 
-            "eventTitle": "", 
-            "identity": {
-                "ESPNAPIID": "1840318020"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1954", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Syracuse Nationals vs. New York Knicks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NY", 
+            "awayTeam": "NYK", 
             "date": "1954-03-20T05:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "BOS", 
@@ -192,15 +192,16 @@
             }, 
             "date": "1954-03-21T05:00:00+00:00", 
             "eventTitle": "", 
+            "homeTeam": "NYK", 
             "identity": {
-                "ESPNAPIID": "1840321008"
+                "ESPNAPIID": "1840321018"
             }, 
             "league": "NBA", 
             "networks": [], 
             "season": "1954", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "Fort Wayne Pistons vs. Rochester Royals"
+            "vs": "New York Knicks vs. Syracuse Nationals"
         }, 
         {
             "assets": {
@@ -213,16 +214,15 @@
             }, 
             "date": "1954-03-21T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "NY", 
             "identity": {
-                "ESPNAPIID": "1840321018"
+                "ESPNAPIID": "1840321008"
             }, 
             "league": "NBA", 
             "networks": [], 
             "season": "1954", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "New York Knicks vs. Syracuse Nationals"
+            "vs": "Fort Wayne Pistons vs. Rochester Royals"
         }, 
         {
             "assets": {

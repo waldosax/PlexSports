@@ -1,11 +1,33 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1947SCHEDULE", 
-        "CachedOn": "2021-10-11T18:02:15", 
-        "ExpiresOn": "2021-10-18T18:02:15", 
+        "CachedOn": "2021-10-27T03:27:34", 
+        "ExpiresOn": "2021-11-03T03:27:34", 
         "Version": "2"
     }, 
     "Items": [
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYK", 
+            "date": "1947-04-02T05:00:00+00:00", 
+            "eventTitle": "", 
+            "identity": {
+                "ESPNAPIID": "1770402082"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1947", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Cleveland Rebels vs. New York Knicks"
+        }, 
         {
             "assets": {
                 "banner": [], 
@@ -26,28 +48,6 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Washington Capitols vs. Chicago Stags"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NY", 
-            "date": "1947-04-02T05:00:00+00:00", 
-            "eventTitle": "", 
-            "identity": {
-                "ESPNAPIID": "1770402082"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1947", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Cleveland Rebels vs. New York Knicks"
         }, 
         {
             "assets": {
@@ -102,7 +102,7 @@
             }, 
             "date": "1947-04-05T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "NY", 
+            "homeTeam": "NYK", 
             "identity": {
                 "ESPNAPIID": "1770405018"
             }, 
@@ -166,7 +166,7 @@
             }, 
             "date": "1947-04-09T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "NY", 
+            "homeTeam": "NYK", 
             "identity": {
                 "ESPNAPIID": "1770409018"
             }, 
@@ -207,7 +207,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NY", 
+            "awayTeam": "NYK", 
             "date": "1947-04-12T05:00:00+00:00", 
             "eventTitle": "", 
             "identity": {
@@ -273,7 +273,7 @@
             }, 
             "date": "1947-04-14T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "NY", 
+            "homeTeam": "NYK", 
             "identity": {
                 "ESPNAPIID": "1770414018"
             }, 

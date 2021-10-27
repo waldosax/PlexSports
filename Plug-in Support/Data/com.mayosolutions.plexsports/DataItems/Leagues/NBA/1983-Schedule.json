@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1983SCHEDULE", 
-        "CachedOn": "2021-10-11T18:14:24", 
-        "ExpiresOn": "2021-10-18T18:14:24", 
+        "CachedOn": "2021-10-27T03:29:11", 
+        "ExpiresOn": "2021-11-03T03:29:11", 
         "Version": "2"
     }, 
     "Items": [
@@ -15,7 +15,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NY", 
+            "awayTeam": "NYK", 
             "date": "1984-04-17T05:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "DET", 
@@ -262,7 +262,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NY", 
+            "awayTeam": "NYK", 
             "date": "1984-04-19T05:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "DET", 
@@ -486,29 +486,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DET", 
-            "date": "1984-04-22T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "NY", 
-            "identity": {
-                "ESPNAPIID": "40422018"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1983", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "New York Knicks vs. Detroit Pistons"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "POR", 
             "date": "1984-04-22T05:00:00+00:00", 
             "eventTitle": "", 
@@ -522,6 +499,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Phoenix Suns vs. Portland Trail Blazers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DET", 
+            "date": "1984-04-22T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "NYK", 
+            "identity": {
+                "ESPNAPIID": "40422018"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1983", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "New York Knicks vs. Detroit Pistons"
         }, 
         {
             "assets": {
@@ -693,7 +693,7 @@
             "awayTeam": "DET", 
             "date": "1984-04-25T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "NY", 
+            "homeTeam": "NYK", 
             "identity": {
                 "ESPNAPIID": "40425018"
             }, 
@@ -826,7 +826,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NY", 
+            "awayTeam": "NYK", 
             "date": "1984-04-27T05:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "DET", 
@@ -872,7 +872,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NY", 
+            "awayTeam": "NYK", 
             "date": "1984-04-29T05:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "BOS", 
@@ -940,29 +940,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DAL", 
-            "date": "1984-05-01T04:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "LAL", 
-            "identity": {
-                "ESPNAPIID": "40501013"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1983", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Los Angeles Lakers vs. Dallas Mavericks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "NJ", 
             "date": "1984-05-01T04:00:00+00:00", 
             "eventTitle": "", 
@@ -986,7 +963,30 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NY", 
+            "awayTeam": "DAL", 
+            "date": "1984-05-01T04:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "LAL", 
+            "identity": {
+                "ESPNAPIID": "40501013"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1983", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Los Angeles Lakers vs. Dallas Mavericks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYK", 
             "date": "1984-05-02T04:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "BOS", 
@@ -1079,7 +1079,7 @@
             "awayTeam": "BOS", 
             "date": "1984-05-04T04:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "NY", 
+            "homeTeam": "NYK", 
             "identity": {
                 "ESPNAPIID": "40504018"
             }, 
@@ -1145,28 +1145,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "date": "1984-05-06T04:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "PHX", 
-            "identity": {
-                "ESPNAPIID": "40506021"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1983", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Phoenix Suns vs. Utah Jazz"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "LAL", 
             "date": "1984-05-06T04:00:00+00:00", 
             "eventTitle": "", 
@@ -1193,7 +1171,7 @@
             "awayTeam": "BOS", 
             "date": "1984-05-06T04:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "NY", 
+            "homeTeam": "NYK", 
             "identity": {
                 "ESPNAPIID": "40506018"
             }, 
@@ -1213,18 +1191,18 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "PHX", 
-            "date": "1984-05-08T04:00:00+00:00", 
+            "date": "1984-05-06T04:00:00+00:00", 
             "eventTitle": "", 
+            "homeTeam": "PHX", 
             "identity": {
-                "ESPNAPIID": "40508026"
+                "ESPNAPIID": "40506021"
             }, 
             "league": "NBA", 
             "networks": [], 
             "season": "1983", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "Utah Jazz vs. Phoenix Suns"
+            "vs": "Phoenix Suns vs. Utah Jazz"
         }, 
         {
             "assets": {
@@ -1281,7 +1259,29 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "NY", 
+            "awayTeam": "PHX", 
+            "date": "1984-05-08T04:00:00+00:00", 
+            "eventTitle": "", 
+            "identity": {
+                "ESPNAPIID": "40508026"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1983", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Utah Jazz vs. Phoenix Suns"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NYK", 
             "date": "1984-05-09T04:00:00+00:00", 
             "eventTitle": "", 
             "homeTeam": "BOS", 
@@ -1352,7 +1352,7 @@
             "awayTeam": "BOS", 
             "date": "1984-05-11T04:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "NY", 
+            "homeTeam": "NYK", 
             "identity": {
                 "ESPNAPIID": "40511018"
             }, 
