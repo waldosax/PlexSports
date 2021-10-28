@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1997SCHEDULE", 
-        "CachedOn": "2021-10-27T20:00:59", 
-        "ExpiresOn": "2021-11-03T20:00:59", 
+        "CachedOn": "2021-10-28T03:01:45", 
+        "ExpiresOn": "2021-11-04T03:01:45", 
         "Version": "2"
     }, 
     "Items": [
@@ -3823,6 +3823,32 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/460w1y1615491568.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "DET", 
+            "date": "1997-11-09T23:00:00+00:00", 
+            "homeTeam": "POR", 
+            "identity": {
+                "TheSportsDBID": "1244712"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Basketball", 
+            "vs": "Portland Trail Blazers vs Detroit Pistons"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "DET", 
@@ -3864,32 +3890,6 @@
             "season": "1997", 
             "sport": "Basketball", 
             "vs": "Toronto Raptors vs San Antonio Spurs"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/460w1y1615491568.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "DET", 
-            "date": "1997-11-09T23:00:00+00:00", 
-            "homeTeam": "POR", 
-            "identity": {
-                "TheSportsDBID": "1244712"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Basketball", 
-            "vs": "Portland Trail Blazers vs Detroit Pistons"
         }, 
         {
             "assets": {
@@ -5468,32 +5468,6 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/xg2b401615491541.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "UTA", 
-            "date": "1997-11-14T23:00:00+00:00", 
-            "homeTeam": "DAL", 
-            "identity": {
-                "TheSportsDBID": "1244672"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Basketball", 
-            "vs": "Dallas Mavericks vs Utah Jazz"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.thesportsdb.com/images/media/event/thumb/et8k7m1580932487.jpg"
                     }
                 ]
@@ -5561,6 +5535,32 @@
             "season": "1997", 
             "sport": "Basketball", 
             "vs": "San Antonio Spurs vs Minnesota Timberwolves"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/xg2b401615491541.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "UTA", 
+            "date": "1997-11-14T23:00:00+00:00", 
+            "homeTeam": "DAL", 
+            "identity": {
+                "TheSportsDBID": "1244672"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Basketball", 
+            "vs": "Dallas Mavericks vs Utah Jazz"
         }, 
         {
             "assets": {
@@ -15342,29 +15342,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DEN", 
-            "date": "1997-12-14T00:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "NJ", 
-            "identity": {
-                "ESPNAPIID": "171213017"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "New Jersey Nets vs. Denver Nuggets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CHA", 
             "date": "1997-12-14T00:30:00+00:00", 
             "eventTitle": "", 
@@ -15380,6 +15357,29 @@
             "sport": "Basketball", 
             "subseason": 0, 
             "vs": "Cleveland Cavaliers vs. Charlotte Hornets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DEN", 
+            "date": "1997-12-14T00:30:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "NJ", 
+            "identity": {
+                "ESPNAPIID": "171213017"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Basketball", 
+            "subseason": 0, 
+            "vs": "New Jersey Nets vs. Denver Nuggets"
         }, 
         {
             "assets": {
@@ -22945,32 +22945,6 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/g3095c1608815783.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "CHA", 
-            "date": "1998-01-06T23:00:00+00:00", 
-            "homeTeam": "POR", 
-            "identity": {
-                "TheSportsDBID": "1244321"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Basketball", 
-            "vs": "Portland Trail Blazers vs Charlotte Hornets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.thesportsdb.com/images/media/event/thumb/3wzol01615491491.jpg"
                     }
                 ]
@@ -23085,6 +23059,32 @@
             "season": "1997", 
             "sport": "Basketball", 
             "vs": "New York Knicks vs Brooklyn Nets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/g3095c1608815783.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "CHA", 
+            "date": "1998-01-06T23:00:00+00:00", 
+            "homeTeam": "POR", 
+            "identity": {
+                "TheSportsDBID": "1244321"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Basketball", 
+            "vs": "Portland Trail Blazers vs Charlotte Hornets"
         }, 
         {
             "assets": {
@@ -28852,29 +28852,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "DET", 
-            "date": "1998-01-23T00:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "LAC", 
-            "identity": {
-                "ESPNAPIID": "180122012"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Los Angeles Clippers vs. Detroit Pistons"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "SAC", 
             "date": "1998-01-23T00:30:00+00:00", 
             "eventTitle": "", 
@@ -28890,6 +28867,29 @@
             "sport": "Basketball", 
             "subseason": 0, 
             "vs": "Cleveland Cavaliers vs. Sacramento Kings"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "DET", 
+            "date": "1998-01-23T00:30:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "LAC", 
+            "identity": {
+                "ESPNAPIID": "180122012"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Basketball", 
+            "subseason": 0, 
+            "vs": "Los Angeles Clippers vs. Detroit Pistons"
         }, 
         {
             "assets": {
@@ -32297,6 +32297,29 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "NJ", 
+            "date": "1998-02-01T23:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "SEA", 
+            "identity": {
+                "ESPNAPIID": "180201025"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Basketball", 
+            "subseason": 0, 
+            "vs": "Seattle SuperSonics vs. New Jersey Nets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
@@ -32315,29 +32338,6 @@
             "season": "1997", 
             "sport": "Basketball", 
             "vs": "Dallas Mavericks vs Memphis Grizzlies"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NJ", 
-            "date": "1998-02-01T23:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "ESPNAPIID": "180201025"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Seattle SuperSonics vs. New Jersey Nets"
         }, 
         {
             "assets": {
@@ -43517,29 +43517,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "BOS", 
-            "date": "1998-03-08T17:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "IND", 
-            "identity": {
-                "ESPNAPIID": "180308011"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Indiana Pacers vs. Boston Celtics"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CHA", 
             "date": "1998-03-08T17:30:00+00:00", 
             "eventTitle": "", 
@@ -43553,6 +43530,29 @@
             "sport": "Basketball", 
             "subseason": 0, 
             "vs": "New Jersey Nets vs. Charlotte Hornets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BOS", 
+            "date": "1998-03-08T17:30:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "IND", 
+            "identity": {
+                "ESPNAPIID": "180308011"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Basketball", 
+            "subseason": 0, 
+            "vs": "Indiana Pacers vs. Boston Celtics"
         }, 
         {
             "assets": {
@@ -48068,31 +48068,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "UTA", 
-            "date": "1998-03-21T00:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "180320020"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "FSRM"
-            ], 
-            "season": "1997", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Philadelphia 76ers vs. Utah Jazz"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ATL", 
             "date": "1998-03-21T00:30:00+00:00", 
             "eventTitle": "", 
@@ -48108,6 +48083,31 @@
             "sport": "Basketball", 
             "subseason": 0, 
             "vs": "New York Knicks vs. Atlanta Hawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "UTA", 
+            "date": "1998-03-21T00:30:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "PHI", 
+            "identity": {
+                "ESPNAPIID": "180320020"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "FSRM"
+            ], 
+            "season": "1997", 
+            "sport": "Basketball", 
+            "subseason": 0, 
+            "vs": "Philadelphia 76ers vs. Utah Jazz"
         }, 
         {
             "assets": {
@@ -48679,29 +48679,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "GSW", 
-            "date": "1998-03-22T20:30:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "ORL", 
-            "identity": {
-                "ESPNAPIID": "180322019"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Orlando Magic vs. Golden State Warriors"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "WAS", 
             "date": "1998-03-22T20:30:00+00:00", 
             "eventTitle": "", 
@@ -48715,6 +48692,29 @@
             "sport": "Basketball", 
             "subseason": 0, 
             "vs": "New Jersey Nets vs. Washington Wizards"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "GSW", 
+            "date": "1998-03-22T20:30:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "ORL", 
+            "identity": {
+                "ESPNAPIID": "180322019"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Basketball", 
+            "subseason": 0, 
+            "vs": "Orlando Magic vs. Golden State Warriors"
         }, 
         {
             "assets": {
