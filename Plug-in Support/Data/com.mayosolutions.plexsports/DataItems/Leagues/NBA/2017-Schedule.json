@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA2017SCHEDULE", 
-        "CachedOn": "2021-10-28T02:50:24", 
-        "ExpiresOn": "2021-11-04T02:50:24", 
+        "CachedOn": "2021-10-28T17:58:16", 
+        "ExpiresOn": "2021-11-04T17:58:16", 
         "Version": "2"
     }, 
     "Items": [
@@ -30852,25 +30852,13 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2018/02/20180217_donovan_mitchell_slam_dunk-scaled.jpg"
-                    }, 
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2018/02/devin-booker-2018-three-point-contest.jpg"
-                    }, 
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2018/02/20180217_spencer_dinwiddie-scaled.jpg"
-                    }
-                ]
+                "thumbnail": []
             }, 
-            "awayTeam": "DRT", 
+            "awayTeam": "EST", 
             "date": "2018-02-18T01:00:00+00:00", 
-            "description": "Donovan Mitchell emerges victorious in the 2018 Verizon Slam Dunk.", 
-            "homeTeam": "LBN", 
+            "eventTitle": "All-Star Saturday Night", 
+            "eventindicator": 2, 
+            "homeTeam": "WST", 
             "identity": {
                 "NBAAPIID": "0031700099"
             }, 
@@ -30878,7 +30866,7 @@
             "networks": [], 
             "season": "2017", 
             "sport": "Basketball", 
-            "vs": "Team LeBron vs. Team Durant"
+            "vs": "All-Star West vs. All-Star East"
         }, 
         {
             "altTitle": "LeBron James wins Kia All-Star MVP", 
@@ -30910,6 +30898,84 @@
             "season": "2017", 
             "sport": "Basketball", 
             "vs": "Team Stephen vs. Team LeBron"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2018/02/20180217_spencer_dinwiddie-scaled.jpg"
+                    }
+                ]
+            }, 
+            "date": "2018-02-19T01:00:00+00:00", 
+            "description": "See what you missed from the 2018 Taco Bell Skills Challenge where Spencer Dinwiddie emerged victorious after defeating Lauri Markkanen in the final round.", 
+            "eventTitle": "NBA Skills Challenge", 
+            "eventindicator": 5, 
+            "identity": {
+                "NBAAPIID": "0031700099.5"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2018/02/devin-booker-2018-three-point-contest.jpg"
+                    }
+                ]
+            }, 
+            "date": "2018-02-19T02:00:00+00:00", 
+            "description": "The 2018 JBL 3-Point Contest came down to Devin Booker, Klay Thompson, and Tobias Harris with Booker coming out victorious with a record-setting performance.", 
+            "eventTitle": "3-Point Shootout", 
+            "eventindicator": 3, 
+            "identity": {
+                "NBAAPIID": "0031700099.3"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2018/02/20180217_donovan_mitchell_slam_dunk-scaled.jpg"
+                    }
+                ]
+            }, 
+            "date": "2018-02-19T03:00:00+00:00", 
+            "description": "Donovan Mitchell emerges victorious in the 2018 Verizon Slam Dunk.", 
+            "eventTitle": "Slam Dunk Contest", 
+            "eventindicator": 4, 
+            "identity": {
+                "NBAAPIID": "0031700099.4"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Basketball"
         }, 
         {
             "assets": {
@@ -41977,59 +42043,6 @@
             "vs": "Philadelphia 76ers vs. Dallas Mavericks"
         }, 
         {
-            "altTitle": "Prince: 33 points (7-for-8 on 3s)", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2020/01/20200118_prince.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "ATL", 
-            "date": "2018-04-08T17:00:00+00:00", 
-            "description": "The Hawks pull off a 112-106 victory over the Celtics behind 33 points and eight rebounds from Taurean Prince.", 
-            "eventTitle": "", 
-            "homeTeam": "BOS", 
-            "identity": {
-                "ESPNAPIID": "400975948", 
-                "NBAAPIID": "0021701202"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "CSNN"
-            ], 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "vs": "Boston Celtics vs. Atlanta Hawks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ATL", 
-            "date": "2018-04-08T23:30:00+00:00", 
-            "homeTeam": "BOS", 
-            "identity": {
-                "TheSportsDBID": "539330"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "vs": "Boston Celtics vs Atlanta Hawks"
-        }, 
-        {
             "altTitle": "Brooks: 25 pts; Pistons hit 23 3-pointers", 
             "assets": {
                 "banner": [], 
@@ -42129,6 +42142,59 @@
             "season": "2017", 
             "sport": "Basketball", 
             "vs": "Toronto Raptors vs. Orlando Magic"
+        }, 
+        {
+            "altTitle": "Prince: 33 points (7-for-8 on 3s)", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2020/01/20200118_prince.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "ATL", 
+            "date": "2018-04-08T17:00:00+00:00", 
+            "description": "The Hawks pull off a 112-106 victory over the Celtics behind 33 points and eight rebounds from Taurean Prince.", 
+            "eventTitle": "", 
+            "homeTeam": "BOS", 
+            "identity": {
+                "ESPNAPIID": "400975948", 
+                "NBAAPIID": "0021701202"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "CSNN"
+            ], 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "vs": "Boston Celtics vs. Atlanta Hawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ATL", 
+            "date": "2018-04-08T23:30:00+00:00", 
+            "homeTeam": "BOS", 
+            "identity": {
+                "TheSportsDBID": "539330"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "vs": "Boston Celtics vs Atlanta Hawks"
         }, 
         {
             "altTitle": "Suns assured of worst record", 
@@ -43113,10 +43179,10 @@
                 "ABC", 
                 "CSNB"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. San Antonio Spurs"
         }, 
         {
@@ -43190,10 +43256,10 @@
                 "CSNB", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Washington Wizards"
         }, 
         {
@@ -43267,10 +43333,10 @@
                 "CSN", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Philadelphia 76ers vs. Miami Heat"
         }, 
         {
@@ -43344,10 +43410,10 @@
                 "FSN", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs. New Orleans Pelicans"
         }, 
         {
@@ -43421,10 +43487,10 @@
                 "CSNN", 
                 "FSWI"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Milwaukee Bucks"
         }, 
         {
@@ -43496,10 +43562,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Indiana Pacers"
         }, 
         {
@@ -43573,10 +43639,10 @@
                 "FSOK", 
                 "AT&TSN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Oklahoma City Thunder vs. Utah Jazz"
         }, 
         {
@@ -43650,10 +43716,10 @@
                 "AT&TSN", 
                 "FSN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Minnesota Timberwolves"
         }, 
         {
@@ -43727,10 +43793,10 @@
                 "CSN", 
                 "SUN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Philadelphia 76ers vs. Miami Heat"
         }, 
         {
@@ -43804,10 +43870,10 @@
                 "FSSW", 
                 "CSNB"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. San Antonio Spurs"
         }, 
         {
@@ -43882,10 +43948,10 @@
                 "NBATV", 
                 "NBA TV"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Washington Wizards"
         }, 
         {
@@ -43959,10 +44025,10 @@
                 "CSNN", 
                 "FSWI"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Milwaukee Bucks"
         }, 
         {
@@ -44036,10 +44102,10 @@
                 "CSNN", 
                 "FSN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs. New Orleans Pelicans"
         }, 
         {
@@ -44113,10 +44179,10 @@
                 "TNT", 
                 "FSMW"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Indiana Pacers"
         }, 
         {
@@ -44191,10 +44257,10 @@
                 "NBATV", 
                 "NBA TV"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Oklahoma City Thunder vs. Utah Jazz"
         }, 
         {
@@ -44268,10 +44334,10 @@
                 "AT&TSN", 
                 "FSN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Minnesota Timberwolves"
         }, 
         {
@@ -44345,10 +44411,10 @@
                 "CSN", 
                 "SUN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Philadelphia 76ers"
         }, 
         {
@@ -44423,10 +44489,10 @@
                 "FSN", 
                 "NBA TV"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "New Orleans Pelicans vs. Portland Trail Blazers"
         }, 
         {
@@ -44500,10 +44566,10 @@
                 "FSSW", 
                 "CSNB"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Golden State Warriors"
         }, 
         {
@@ -44577,10 +44643,10 @@
                 "FSMW", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Indiana Pacers vs. Cleveland Cavaliers"
         }, 
         {
@@ -44654,10 +44720,10 @@
                 "ESPN2", 
                 "CNSW"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Washington Wizards vs. Toronto Raptors"
         }, 
         {
@@ -44726,10 +44792,10 @@
                 "CSNN", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Boston Celtics"
         }, 
         {
@@ -44803,83 +44869,11 @@
                 "CSN", 
                 "SUN"
             ], 
-            "playoffround": 1, 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "subseason": "Postseason", 
-            "vs": "Miami Heat vs. Philadelphia 76ers"
-        }, 
-        {
-            "assets": {
-                "banner": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/banner/a7ueni1523701981.jpg"
-                    }
-                ], 
-                "fanArt": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/fanart/996hzw1523701987.jpg"
-                    }
-                ], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/ucaedo1523702005.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "POR", 
-            "date": "2018-04-21T17:00:00+00:00", 
-            "description": "2018 NBA Playoffs - Western Conference - First Round - Game 4", 
-            "game": 4, 
-            "homeTeam": "NOP", 
-            "identity": {
-                "TheSportsDBID": "574399"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "New Orleans Pelicans vs Portland Trail Blazers"
-        }, 
-        {
-            "altTitle": "Davis, Holiday combined for 88 points", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "POR", 
-            "date": "2018-04-21T21:00:00+00:00", 
-            "description": "Anthony Davis scored 33 of his franchise playoff-record 47 points in the second half, and the New Orleans Pelicans completed a first-round playoff sweep of the Portland Trail Blazers with a 131-123 victory on Saturday.", 
-            "eventTitle": "WEST 1ST ROUND - GAME 4", 
-            "game": "4", 
-            "homeTeam": "NOP", 
-            "identity": {
-                "ESPNAPIID": "401029462", 
-                "NBAAPIID": "0041700164"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "TNT", 
-                "CSNN", 
-                "FSN"
-            ], 
-            "playoffround": 1, 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "subseason": "Postseason", 
-            "vs": "New Orleans Pelicans vs. Portland Trail Blazers"
+            "vs": "Miami Heat vs. Philadelphia 76ers"
         }, 
         {
             "assets": {
@@ -44952,11 +44946,83 @@
                 "FSN", 
                 "ESPN"
             ], 
+            "playoffround": "1", 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Minnesota Timberwolves vs. Houston Rockets"
+        }, 
+        {
+            "assets": {
+                "banner": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/banner/a7ueni1523701981.jpg"
+                    }
+                ], 
+                "fanArt": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/fanart/996hzw1523701987.jpg"
+                    }
+                ], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/ucaedo1523702005.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "POR", 
+            "date": "2018-04-21T17:00:00+00:00", 
+            "description": "2018 NBA Playoffs - Western Conference - First Round - Game 4", 
+            "game": 4, 
+            "homeTeam": "NOP", 
+            "identity": {
+                "TheSportsDBID": "574399"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
             "playoffround": 1, 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
-            "vs": "Minnesota Timberwolves vs. Houston Rockets"
+            "subseason": 1, 
+            "vs": "New Orleans Pelicans vs Portland Trail Blazers"
+        }, 
+        {
+            "altTitle": "Davis, Holiday combined for 88 points", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "POR", 
+            "date": "2018-04-21T21:00:00+00:00", 
+            "description": "Anthony Davis scored 33 of his franchise playoff-record 47 points in the second half, and the New Orleans Pelicans completed a first-round playoff sweep of the Portland Trail Blazers with a 131-123 victory on Saturday.", 
+            "eventTitle": "WEST 1ST ROUND - GAME 4", 
+            "game": "4", 
+            "homeTeam": "NOP", 
+            "identity": {
+                "ESPNAPIID": "401029462", 
+                "NBAAPIID": "0041700164"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "TNT", 
+                "CSNN", 
+                "FSN"
+            ], 
+            "playoffround": "1", 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "New Orleans Pelicans vs. Portland Trail Blazers"
         }, 
         {
             "assets": {
@@ -45029,10 +45095,10 @@
                 "AT&TSN", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Oklahoma City Thunder"
         }, 
         {
@@ -45106,10 +45172,10 @@
                 "CSNN", 
                 "ABC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Boston Celtics"
         }, 
         {
@@ -45182,10 +45248,10 @@
                 "ABC", 
                 "CSNB"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Golden State Warriors"
         }, 
         {
@@ -45259,10 +45325,10 @@
                 "Sportsnet One", 
                 "CNSW"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Washington Wizards vs. Toronto Raptors"
         }, 
         {
@@ -45336,10 +45402,10 @@
                 "TNT", 
                 "FSMW"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Indiana Pacers vs. Cleveland Cavaliers"
         }, 
         {
@@ -45413,10 +45479,10 @@
                 "AT&TSN", 
                 "FSN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Minnesota Timberwolves vs. Houston Rockets"
         }, 
         {
@@ -45490,11 +45556,162 @@
                 "FSOK", 
                 "AT&TSN"
             ], 
+            "playoffround": "1", 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Utah Jazz vs. Oklahoma City Thunder"
+        }, 
+        {
+            "assets": {
+                "banner": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/banner/yyvf071524315322.jpg"
+                    }
+                ], 
+                "fanArt": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/fanart/flwyat1524315340.jpg"
+                    }
+                ], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/ml7q151524315329.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "MIA", 
+            "date": "2018-04-24T20:00:00+00:00", 
+            "description": "2018 NBA Playoffs - Eastern Conference - First Round - Game 5", 
+            "game": 5, 
+            "homeTeam": "PHI", 
+            "identity": {
+                "TheSportsDBID": "574462"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
             "playoffround": 1, 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
-            "vs": "Utah Jazz vs. Oklahoma City Thunder"
+            "subseason": 1, 
+            "vs": "Philadelphia 76ers vs Miami Heat"
+        }, 
+        {
+            "altTitle": "Sixers reach 2nd round for 1st time since 2012", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2018/04/simmons-redick-gm5.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "MIA", 
+            "date": "2018-04-25T00:00:00+00:00", 
+            "description": "Joel Embiid drops 19 points and 12 rebounds, while JJ Redick adds 27 points as the Sixers win the series 4-1 against the Heat.", 
+            "eventTitle": "EAST 1ST ROUND - GAME 5", 
+            "game": "5", 
+            "homeTeam": "PHI", 
+            "identity": {
+                "ESPNAPIID": "401029447", 
+                "NBAAPIID": "0041700125"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "TNT", 
+                "CSN"
+            ], 
+            "playoffround": "1", 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Philadelphia 76ers vs. Miami Heat"
+        }, 
+        {
+            "assets": {
+                "banner": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/banner/sqmp2p1524592704.jpg"
+                    }
+                ], 
+                "fanArt": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/fanart/n81f6y1524592769.jpg"
+                    }
+                ], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/fnoe6d1524592781.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "SAS", 
+            "date": "2018-04-24T22:30:00+00:00", 
+            "description": "", 
+            "homeTeam": "GSW", 
+            "identity": {
+                "TheSportsDBID": "574478"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "playoffround": 1, 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Golden State Warriors vs San Antonio Spurs"
+        }, 
+        {
+            "altTitle": "Durant: 25 pts; Green: 17 pts, 19 reb", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2018/04/kd_1-scaled.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "SAS", 
+            "date": "2018-04-25T02:30:00+00:00", 
+            "description": "Kevin Durant drops 25 points and Klay Thompson adds 24 points as the Warriors defeat the Spurs 99-91 and take the series 4-1.", 
+            "eventTitle": "WEST 1ST ROUND - GAME 5", 
+            "game": "5", 
+            "homeTeam": "GSW", 
+            "identity": {
+                "ESPNAPIID": "401029456", 
+                "NBAAPIID": "0041700155"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "TNT", 
+                "CSNB"
+            ], 
+            "playoffround": "1", 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Golden State Warriors vs. San Antonio Spurs"
         }, 
         {
             "assets": {
@@ -45567,162 +45784,11 @@
                 "NBATV", 
                 "NBA TV"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Milwaukee Bucks"
-        }, 
-        {
-            "assets": {
-                "banner": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/banner/yyvf071524315322.jpg"
-                    }
-                ], 
-                "fanArt": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/fanart/flwyat1524315340.jpg"
-                    }
-                ], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/ml7q151524315329.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "MIA", 
-            "date": "2018-04-24T20:00:00+00:00", 
-            "description": "2018 NBA Playoffs - Eastern Conference - First Round - Game 5", 
-            "game": 5, 
-            "homeTeam": "PHI", 
-            "identity": {
-                "TheSportsDBID": "574462"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "playoffround": 1, 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Philadelphia 76ers vs Miami Heat"
-        }, 
-        {
-            "altTitle": "Sixers reach 2nd round for 1st time since 2012", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2018/04/simmons-redick-gm5.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "MIA", 
-            "date": "2018-04-25T00:00:00+00:00", 
-            "description": "Joel Embiid drops 19 points and 12 rebounds, while JJ Redick adds 27 points as the Sixers win the series 4-1 against the Heat.", 
-            "eventTitle": "EAST 1ST ROUND - GAME 5", 
-            "game": "5", 
-            "homeTeam": "PHI", 
-            "identity": {
-                "ESPNAPIID": "401029447", 
-                "NBAAPIID": "0041700125"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "TNT", 
-                "CSN"
-            ], 
-            "playoffround": 1, 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "subseason": "Postseason", 
-            "vs": "Philadelphia 76ers vs. Miami Heat"
-        }, 
-        {
-            "assets": {
-                "banner": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/banner/sqmp2p1524592704.jpg"
-                    }
-                ], 
-                "fanArt": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/fanart/n81f6y1524592769.jpg"
-                    }
-                ], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/fnoe6d1524592781.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "SAS", 
-            "date": "2018-04-24T22:30:00+00:00", 
-            "description": "", 
-            "homeTeam": "GSW", 
-            "identity": {
-                "TheSportsDBID": "574478"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "playoffround": 1, 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Golden State Warriors vs San Antonio Spurs"
-        }, 
-        {
-            "altTitle": "Durant: 25 pts; Green: 17 pts, 19 reb", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2018/04/kd_1-scaled.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "SAS", 
-            "date": "2018-04-25T02:30:00+00:00", 
-            "description": "Kevin Durant drops 25 points and Klay Thompson adds 24 points as the Warriors defeat the Spurs 99-91 and take the series 4-1.", 
-            "eventTitle": "WEST 1ST ROUND - GAME 5", 
-            "game": "5", 
-            "homeTeam": "GSW", 
-            "identity": {
-                "ESPNAPIID": "401029456", 
-                "NBAAPIID": "0041700155"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "TNT", 
-                "CSNB"
-            ], 
-            "playoffround": 1, 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "subseason": "Postseason", 
-            "vs": "Golden State Warriors vs. San Antonio Spurs"
         }, 
         {
             "assets": {
@@ -45793,162 +45859,11 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Indiana Pacers"
-        }, 
-        {
-            "assets": {
-                "banner": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/banner/ooi3lx1524592328.jpg"
-                    }
-                ], 
-                "fanArt": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/fanart/uyc5hb1524592298.jpg"
-                    }
-                ], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/uaixqs1524592284.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "MIN", 
-            "date": "2018-04-25T21:30:00+00:00", 
-            "description": "2018 NBA Playoffs - Western Conference - First Round - Game 5", 
-            "game": 5, 
-            "homeTeam": "HOU", 
-            "identity": {
-                "TheSportsDBID": "574476"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "playoffround": 1, 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Houston Rockets vs Minnesota Timberwolves"
-        }, 
-        {
-            "altTitle": "Harden: 24 pts, 12 ast; Capela: 26 pts, 15 reb", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2018/05/RocketsWin.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "MIN", 
-            "date": "2018-04-26T01:30:00+00:00", 
-            "description": "Clint Capela scores 26 points and James Harden adds 24 points as the Rockets defeat the Timberwolves 122-104 to close out the series 4-1.", 
-            "eventTitle": "WEST 1ST ROUND - GAME 5", 
-            "game": "5", 
-            "homeTeam": "HOU", 
-            "identity": {
-                "ESPNAPIID": "401029423", 
-                "NBAAPIID": "0041700145"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "TNT"
-            ], 
-            "playoffround": 1, 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "subseason": "Postseason", 
-            "vs": "Houston Rockets vs. Minnesota Timberwolves"
-        }, 
-        {
-            "assets": {
-                "banner": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/banner/nmwpvn1524592455.jpg"
-                    }
-                ], 
-                "fanArt": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/fanart/oercpw1524592520.jpg"
-                    }
-                ], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/7rnitd1524592515.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "UTA", 
-            "date": "2018-04-25T21:30:00+00:00", 
-            "description": "2018 NBA Playoffs - Western Conference - First Round - Game 5", 
-            "game": 5, 
-            "homeTeam": "OKC", 
-            "identity": {
-                "TheSportsDBID": "574477"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "playoffround": 1, 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Oklahoma City Thunder vs Utah Jazz"
-        }, 
-        {
-            "altTitle": "Thunder overcome 25-point deficit", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2018/04/ThunderWin.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "UTA", 
-            "date": "2018-04-26T01:30:00+00:00", 
-            "description": "Russell Westbrook explodes scoring 45 points with 15 rebounds and seven assists to lead the Thunder over Utah in Game 5, 107-99.", 
-            "eventTitle": "WEST 1ST ROUND - GAME 5", 
-            "game": "5", 
-            "homeTeam": "OKC", 
-            "identity": {
-                "ESPNAPIID": "401029451", 
-                "NBAAPIID": "0041700175"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "NBATV", 
-                "NBA TV"
-            ], 
-            "playoffround": 1, 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "subseason": "Postseason", 
-            "vs": "Oklahoma City Thunder vs. Utah Jazz"
         }, 
         {
             "assets": {
@@ -46021,11 +45936,162 @@
                 "CSNB", 
                 "NBA TV"
             ], 
+            "playoffround": "1", 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Toronto Raptors vs. Washington Wizards"
+        }, 
+        {
+            "assets": {
+                "banner": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/banner/ooi3lx1524592328.jpg"
+                    }
+                ], 
+                "fanArt": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/fanart/uyc5hb1524592298.jpg"
+                    }
+                ], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/uaixqs1524592284.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "MIN", 
+            "date": "2018-04-25T21:30:00+00:00", 
+            "description": "2018 NBA Playoffs - Western Conference - First Round - Game 5", 
+            "game": 5, 
+            "homeTeam": "HOU", 
+            "identity": {
+                "TheSportsDBID": "574476"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
             "playoffround": 1, 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
-            "vs": "Toronto Raptors vs. Washington Wizards"
+            "subseason": 1, 
+            "vs": "Houston Rockets vs Minnesota Timberwolves"
+        }, 
+        {
+            "altTitle": "Harden: 24 pts, 12 ast; Capela: 26 pts, 15 reb", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2018/05/RocketsWin.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "MIN", 
+            "date": "2018-04-26T01:30:00+00:00", 
+            "description": "Clint Capela scores 26 points and James Harden adds 24 points as the Rockets defeat the Timberwolves 122-104 to close out the series 4-1.", 
+            "eventTitle": "WEST 1ST ROUND - GAME 5", 
+            "game": "5", 
+            "homeTeam": "HOU", 
+            "identity": {
+                "ESPNAPIID": "401029423", 
+                "NBAAPIID": "0041700145"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "TNT"
+            ], 
+            "playoffround": "1", 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Houston Rockets vs. Minnesota Timberwolves"
+        }, 
+        {
+            "assets": {
+                "banner": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/banner/nmwpvn1524592455.jpg"
+                    }
+                ], 
+                "fanArt": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/fanart/oercpw1524592520.jpg"
+                    }
+                ], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/7rnitd1524592515.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "UTA", 
+            "date": "2018-04-25T21:30:00+00:00", 
+            "description": "2018 NBA Playoffs - Western Conference - First Round - Game 5", 
+            "game": 5, 
+            "homeTeam": "OKC", 
+            "identity": {
+                "TheSportsDBID": "574477"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "playoffround": 1, 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Oklahoma City Thunder vs Utah Jazz"
+        }, 
+        {
+            "altTitle": "Thunder overcome 25-point deficit", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2018/04/ThunderWin.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "UTA", 
+            "date": "2018-04-26T01:30:00+00:00", 
+            "description": "Russell Westbrook explodes scoring 45 points with 15 rebounds and seven assists to lead the Thunder over Utah in Game 5, 107-99.", 
+            "eventTitle": "WEST 1ST ROUND - GAME 5", 
+            "game": "5", 
+            "homeTeam": "OKC", 
+            "identity": {
+                "ESPNAPIID": "401029451", 
+                "NBAAPIID": "0041700175"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "NBATV", 
+                "NBA TV"
+            ], 
+            "playoffround": "1", 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Oklahoma City Thunder vs. Utah Jazz"
         }, 
         {
             "assets": {
@@ -46096,10 +46162,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Boston Celtics"
         }, 
         {
@@ -46174,10 +46240,10 @@
                 "ESPNN", 
                 "ESPNews"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Washington Wizards vs. Toronto Raptors"
         }, 
         {
@@ -46251,10 +46317,10 @@
                 "FSMW", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Indiana Pacers vs. Cleveland Cavaliers"
         }, 
         {
@@ -46328,10 +46394,10 @@
                 "AT&TSN", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Oklahoma City Thunder"
         }, 
         {
@@ -46388,10 +46454,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Milwaukee Bucks"
         }, 
         {
@@ -46460,68 +46526,11 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. New Orleans Pelicans"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "UTA", 
-            "date": "2018-04-29T15:30:00+00:00", 
-            "description": "2018 NBA Playoffs - Western Conference - Semifinals - Game 1", 
-            "homeTeam": "HOU", 
-            "identity": {
-                "TheSportsDBID": "574494"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "vs": "Houston Rockets vs Utah Jazz"
-        }, 
-        {
-            "altTitle": "Harden: 41 points, 8 rebounds, 7 assists", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2018/04/harden_img.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "UTA", 
-            "date": "2018-04-29T19:30:00+00:00", 
-            "description": "James Harden dominates with 41 points and eight rebounds as the Rockets defeat the Jazz 110-96 to take Game 1 of the Western Conference Semifinals.", 
-            "eventTitle": "WEST SEMIFINALS - GAME 1", 
-            "game": "1", 
-            "homeTeam": "HOU", 
-            "identity": {
-                "ESPNAPIID": "401031590", 
-                "NBAAPIID": "0041700221"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "ABC"
-            ], 
-            "playoffround": 2, 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "subseason": "Postseason", 
-            "vs": "Houston Rockets vs. Utah Jazz"
         }, 
         {
             "assets": {
@@ -46577,11 +46586,68 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Indiana Pacers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "UTA", 
+            "date": "2018-04-29T15:30:00+00:00", 
+            "description": "2018 NBA Playoffs - Western Conference - Semifinals - Game 1", 
+            "homeTeam": "HOU", 
+            "identity": {
+                "TheSportsDBID": "574494"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "vs": "Houston Rockets vs Utah Jazz"
+        }, 
+        {
+            "altTitle": "Harden: 41 points, 8 rebounds, 7 assists", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2018/04/harden_img.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "UTA", 
+            "date": "2018-04-29T19:30:00+00:00", 
+            "description": "James Harden dominates with 41 points and eight rebounds as the Rockets defeat the Jazz 110-96 to take Game 1 of the Western Conference Semifinals.", 
+            "eventTitle": "WEST SEMIFINALS - GAME 1", 
+            "game": "1", 
+            "homeTeam": "HOU", 
+            "identity": {
+                "ESPNAPIID": "401031590", 
+                "NBAAPIID": "0041700221"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "ABC"
+            ], 
+            "playoffround": "2", 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Houston Rockets vs. Utah Jazz"
         }, 
         {
             "assets": {
@@ -46634,10 +46700,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Philadelphia 76ers"
         }, 
         {
@@ -46691,10 +46757,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Cleveland Cavaliers"
         }, 
         {
@@ -46763,10 +46829,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. New Orleans Pelicans"
         }, 
         {
@@ -46820,68 +46886,11 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Utah Jazz"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "PHI", 
-            "date": "2018-05-03T20:30:00+00:00", 
-            "description": "2018 NBA Playoffs - Eastern Conference - Semifinals - Game 2", 
-            "homeTeam": "BOS", 
-            "identity": {
-                "TheSportsDBID": "574515"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "vs": "Boston Celtics vs Philadelphia 76ers"
-        }, 
-        {
-            "altTitle": "Celtics erase 22-point deficit", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2018/05/rozier_celebrate-scaled.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "PHI", 
-            "date": "2018-05-04T00:30:00+00:00", 
-            "description": "Terry Rozier scores 20 points with nine assists and seven rebounds, Jayson Tatum adds 21 as Boston takes Game 2, 108-103.", 
-            "eventTitle": "EAST SEMIFINALS - GAME 2", 
-            "game": "2", 
-            "homeTeam": "BOS", 
-            "identity": {
-                "ESPNAPIID": "401031672", 
-                "NBAAPIID": "0041700212"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "TNT"
-            ], 
-            "playoffround": 2, 
-            "season": "2017", 
-            "sport": "Basketball", 
-            "subseason": "Postseason", 
-            "vs": "Boston Celtics vs. Philadelphia 76ers"
         }, 
         {
             "assets": {
@@ -46934,11 +46943,68 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Cleveland Cavaliers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "PHI", 
+            "date": "2018-05-03T20:30:00+00:00", 
+            "description": "2018 NBA Playoffs - Eastern Conference - Semifinals - Game 2", 
+            "homeTeam": "BOS", 
+            "identity": {
+                "TheSportsDBID": "574515"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "vs": "Boston Celtics vs Philadelphia 76ers"
+        }, 
+        {
+            "altTitle": "Celtics erase 22-point deficit", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2018/05/rozier_celebrate-scaled.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "PHI", 
+            "date": "2018-05-04T00:30:00+00:00", 
+            "description": "Terry Rozier scores 20 points with nine assists and seven rebounds, Jayson Tatum adds 21 as Boston takes Game 2, 108-103.", 
+            "eventTitle": "EAST SEMIFINALS - GAME 2", 
+            "game": "2", 
+            "homeTeam": "BOS", 
+            "identity": {
+                "ESPNAPIID": "401031672", 
+                "NBAAPIID": "0041700212"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "TNT"
+            ], 
+            "playoffround": "2", 
+            "season": "2017", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Boston Celtics vs. Philadelphia 76ers"
         }, 
         {
             "assets": {
@@ -46991,10 +47057,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "New Orleans Pelicans vs. Golden State Warriors"
         }, 
         {
@@ -47048,10 +47114,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Houston Rockets"
         }, 
         {
@@ -47105,10 +47171,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Philadelphia 76ers vs. Boston Celtics"
         }, 
         {
@@ -47162,10 +47228,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Toronto Raptors"
         }, 
         {
@@ -47219,10 +47285,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "New Orleans Pelicans vs. Golden State Warriors"
         }, 
         {
@@ -47276,10 +47342,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Houston Rockets"
         }, 
         {
@@ -47333,10 +47399,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Philadelphia 76ers vs. Boston Celtics"
         }, 
         {
@@ -47390,10 +47456,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Toronto Raptors"
         }, 
         {
@@ -47426,10 +47492,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Utah Jazz"
         }, 
         {
@@ -47483,10 +47549,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. New Orleans Pelicans"
         }, 
         {
@@ -47519,10 +47585,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Philadelphia 76ers"
         }, 
         {
@@ -47576,10 +47642,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Cleveland Cavaliers"
         }, 
         {
@@ -47633,10 +47699,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Golden State Warriors"
         }, 
         {
@@ -47690,10 +47756,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Cleveland Cavaliers"
         }, 
         {
@@ -47747,10 +47813,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Golden State Warriors"
         }, 
         {
@@ -47804,10 +47870,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Boston Celtics"
         }, 
         {
@@ -47861,10 +47927,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Houston Rockets"
         }, 
         {
@@ -47918,10 +47984,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Boston Celtics"
         }, 
         {
@@ -47975,10 +48041,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Houston Rockets"
         }, 
         {
@@ -48011,10 +48077,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Cleveland Cavaliers"
         }, 
         {
@@ -48047,10 +48113,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Golden State Warriors"
         }, 
         {
@@ -48083,10 +48149,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Boston Celtics"
         }, 
         {
@@ -48119,10 +48185,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Houston Rockets"
         }, 
         {
@@ -48155,10 +48221,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Cleveland Cavaliers"
         }, 
         {
@@ -48191,10 +48257,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Golden State Warriors"
         }, 
         {
@@ -48236,10 +48302,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Cleveland Cavaliers"
         }, 
         {
@@ -48281,10 +48347,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Cleveland Cavaliers"
         }, 
         {
@@ -48326,10 +48392,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Golden State Warriors"
         }, 
         {
@@ -48393,10 +48459,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2017", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Golden State Warriors"
         }
     ]

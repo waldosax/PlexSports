@@ -132,6 +132,9 @@ class ScheduleEvent:
 			if output: output += " "
 			if self.season: output += self.season + " "
 			output += self.title
+		elif self.eventTitle:
+			if output: output += " "
+			output += self.eventTitle
 		elif self.altTitle:
 			if output: output += " "
 			if self.season: output += self.season + " "
@@ -148,7 +151,7 @@ class ScheduleEvent:
 
 		return output
 
-def AddOrAugmentEvent(sched, event):
+def AddOrAugmentEvent(sched, event, timeSensitivity=2):
 	hash = sched_compute_augmentation_hash(event)
 	subhash = sched_compute_time_hash(event)
 
@@ -174,12 +177,12 @@ def AddOrAugmentEvent(sched, event):
 		if subhash in evdict.keys(): # Times agree
 			evdict[subhash].augment(**event.__dict__)
 			return evdict[subhash]
-		else: #Times are close enough?
+		else: # Times are close enough?
 			foundSubhash = False
 
 			projectedSubhashes = [] # Project subhash by two hours in each direction
 			subhashHour = int(subhash)
-			for i in range(subhashHour-2,subhashHour+3):
+			for i in range(subhashHour-timeSensitivity,subhashHour+(timeSensitivity+1)):
 				hr = i
 				if hr < 0: hr = 24 + i
 				elif hr >= 24: hr = i - 24

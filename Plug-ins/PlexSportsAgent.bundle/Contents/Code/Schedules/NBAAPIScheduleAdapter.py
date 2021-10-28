@@ -116,20 +116,25 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 		for supplementalGame in nbaapiScheduleSupplement["league"]["standard"]:
 			id = deunicode(supplementalGame["gameId"])
 
+			event = None
+
 			seriesDescriptor = None
 			game = None
 			playoffRound = None
 			subseason = None
 			eventIndicator = None
+			eventTitle = None
 
+			tags = supplementalGame.get("tags") or []
 			nugget = deunicode(supplementalGame["nugget"]["text"])
+			isAllStarSaturdayNight = False
+
 			if supplementalGame.get("playoffs"):
-				subseason = NBA_SUBSEASON_POSTSEASON
+				subseason = NBA_SUBSEASON_FLAG_POSTSEASON
 				game = supplementalGame["playoffs"]["gameNumInSeries"]
 				roundNum = supplementalGame["playoffs"].get("roundNum")
 				if roundNum: playoffRound = roundNum
 				else:
-					tags = supplementalGame.get("tags")
 					if tags and ("E1" in tags or "W1" in tags): playoffRound = NBA_PLAYOFF_1ST_ROUND
 					elif tags and ("E2" in tags or "W2" in tags): playoffRound = NBA_PLAYOFF_ROUND_QUARTERFINALS
 					elif tags and ("E4" in tags or "W4" in tags): playoffRound = NBA_PLAYOFF_ROUND_SEMIFINALS
@@ -139,8 +144,12 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 				if seasonStageId == 1: subseason = NBA_SUBSEASON_FLAG_PRESEASON
 				elif seasonStageId == 2: subseason = NBA_SUBSEASON_FLAG_REGULAR_SEASON
 				elif seasonStageId == 3: # All-Star
-					tags = supplementalGame.get("tags")
 					if tags and "AWASG" in tags: eventIndicator = NBA_EVENT_FLAG_ALL_STAR_GAME
+					if (tags and "AWSN" in tags) or id[-2:] == "99":
+						# All-Star Saturday Night, create sub events
+						isAllStarSaturdayNight = True
+						eventIndicator = NBA_EVENT_FLAG_ALL_STAR_SATURDAY_NIGHT
+						eventTitle = "All-Star Saturday Night"
 		
 			if id in tracking.keys():
 				# Augment with supplemental data
@@ -151,6 +160,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 				if playoffRound: event.playoffround = playoffRound
 				if game: event.game = game
 				if eventIndicator: event.eventindicator = eventIndicator
+				if eventTitle: event.eventTitle = eventTitle
 
 			else:
 				# Create new event and add it.
@@ -164,10 +174,12 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 				homeTeamAbbrev = gameUrlCode[1][3:]
 				awayTeamAbbrev = gameUrlCode[1][:3]
 
+				homeTeam = None
 				homeTeamKey = None
 				homeTeamDisp = None
-				homeTeamID = supplementalGame["hTeam"]["teamId"]
-				homeTeam = __find_team_by_nbaapiid(teams, homeTeamID)
+				if homeTeamAbbrev not in ["EST", "WST"]:
+					homeTeamID = supplementalGame["hTeam"]["teamId"]
+					homeTeam = __find_team_by_nbaapiid(teams, homeTeamID)
 				if not homeTeam: homeTeam = teams.get(teamKeys.get(homeTeamAbbrev.lower()))
 				if homeTeam:
 					homeTeamKey = homeTeam.key or homeTeam.abbreviation
@@ -175,10 +187,12 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 				else:
 					homeTeamDisp = homeTeamAbbrev
 			
+				awayTeam = None
 				awayTeamKey = None
 				awayTeamDisp = None
-				awayTeamID = supplementalGame["vTeam"]["teamId"]
-				awayTeam = __find_team_by_nbaapiid(teams, awayTeamID)
+				if awayTeamAbbrev not in ["EST", "WST"]:
+					awayTeamID = supplementalGame["vTeam"]["teamId"]
+					awayTeam = __find_team_by_nbaapiid(teams, awayTeamID)
 				if not awayTeam: awayTeam = teams.get(teamKeys.get(awayTeamAbbrev.lower()))
 				if awayTeam:
 					awayTeamKey = awayTeam.key or awayTeam.abbreviation
@@ -205,6 +219,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					"playoffround": playoffRound,
 					"game": game,
 					"eventindicator": eventIndicator,
+					"eventTitle": eventTitle,
 					"altTitle": nugget or seriesDescriptor	# For reference later. If no good description, set description to this.
 					}
 
@@ -212,8 +227,56 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 
 				newEvent = AddOrAugmentEvent(sched, event)
 				tracking[id] = newEvent
+				event = newEvent
 
+			if isAllStarSaturdayNight:
+				# Create child events
+				# {date} is Saturday
+				#
+				# Friday:
+				#	7PM: All-Star Celebrity	(Need shedules that provide this and teams that provide this ID)
+				#	9PM: Rising Stars		(Need shedules that provide this and teams that provide this ID)
+				# Saturday:
+				#	8PM: Skills Challenge
+				#	9PM: 3-Point Contest
+				#	10PM: Slam Dunk Contest
+				# Sunday
+				#	8PM: All-Star Game	(covered by actual data point, no need to synthesize)
 
+				skillsChallenge = __cloneEvent(event)
+				skillsChallenge.homeTeam = None
+				skillsChallenge.awayTeam = None
+				skillsChallenge.vs = None
+				skillsChallenge.eventindicator = NBA_EVENT_FLAG_SKILLS_CHALLENGE
+				skillsChallenge.eventTitle = "NBA Skills Challenge"
+				skillsChallenge.date = event.date.astimezone(tz=UTC).replace(hour=20, minute=0, tzinfo=EasternTime).astimezone(tz=UTC)
+				skillsChallenge.identity.NBAAPIID = "%s.%s" % (event.identity.NBAAPIID, NBA_EVENT_FLAG_SKILLS_CHALLENGE)
+				newEvent = AddOrAugmentEvent(sched, skillsChallenge, timeSensitivity=0)
+				tracking[newEvent.identity.NBAAPIID] = newEvent
+
+				threePointContest = __cloneEvent(event)
+				threePointContest.homeTeam = None
+				threePointContest.awayTeam = None
+				threePointContest.vs = None
+				threePointContest.eventindicator = NBA_EVENT_FLAG_3_POINT_SHOOTOUT
+				threePointContest.eventTitle = "3-Point Shootout"
+				threePointContest.date = event.date.astimezone(tz=UTC).replace(hour=21, minute=0, tzinfo=EasternTime).astimezone(tz=UTC)
+				threePointContest.identity.NBAAPIID = "%s.%s" % (event.identity.NBAAPIID, NBA_EVENT_FLAG_3_POINT_SHOOTOUT)
+				newEvent = AddOrAugmentEvent(sched, threePointContest, timeSensitivity=0)
+				tracking[newEvent.identity.NBAAPIID] = newEvent
+
+				slamDunkContest = __cloneEvent(event)
+				slamDunkContest.homeTeam = None
+				slamDunkContest.awayTeam = None
+				slamDunkContest.vs = None
+				slamDunkContest.eventindicator = NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION
+				slamDunkContest.eventTitle = "Slam Dunk Contest"
+				slamDunkContest.date = event.date.astimezone(tz=UTC).replace(hour=22, minute=0, tzinfo=EasternTime).astimezone(tz=UTC)
+				slamDunkContest.identity.NBAAPIID = "%s.%s" % (event.identity.NBAAPIID, NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION)
+				newEvent = AddOrAugmentEvent(sched, slamDunkContest, timeSensitivity=0)
+				tracking[newEvent.identity.NBAAPIID] = newEvent
+
+				pass
 
 
 
@@ -223,6 +286,10 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 
 	# Get metadata supplement
 	ids = tracking.keys()
+	for i in range(len(ids)-1,-1,-1):
+		if indexOf(ids[i], ".") >= 0:
+			del(ids[i])
+
 	limit = 12
 	l = len(ids)
 	for i in range(0, l, limit):
@@ -239,6 +306,12 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 				excerpt = metadata["excerpt"]
 				featuredImage = metadata["featuredImage"]
 				for id in metadata["taxonomy"]["games"].keys():
+
+					if __is_game_id_all_star_saturday(id):
+						if __recap_contains(metadata, "skills"): id = "%s.%s" % (id, NBA_EVENT_FLAG_SKILLS_CHALLENGE)
+						elif __recap_contains(metadata, "slam", "dunk"): id = "%s.%s" % (id, NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION)
+						elif __recap_contains(metadata, "3-Point", "3 Point"): id = "%s.%s" % (id, NBA_EVENT_FLAG_3_POINT_SHOOTOUT)
+
 					event = tracking.get(id)
 					if event:
 						if not event.description and excerpt: event.description = excerpt
@@ -253,8 +326,34 @@ def __find_team_by_nbaapiid(teams, nbaapiid):
 		team = franchise.FindTeam(None, identity={"NBAAPIID": nbaapiid})
 		if team: return team
 
+def __is_game_id_all_star(gameID):
+	return gameID[2] == "3"
+
+def __is_game_id_all_star_saturday(gameID):
+	if not __is_game_id_all_star(gameID): return False
+	return gameID[-2:] == "99"
+
+def __recap_contains(recap, *values):
+	if not recap or not values: return False
+
+	for value in values:
+		if recap.get("categoryPrimary") and indexOf(recap["categoryPrimary"]["name"].lower(), value.lower()) >= 0: return True
+		if recap.get("categoryPrimary") and indexOf(recap["categoryPrimary"]["slug"].lower(), value.lower()) >= 0: return True
+		if recap.get("category") and indexOf(recap["category"].lower(), value.lower()) >= 0: return True
+		if recap.get("name") and indexOf(recap["name"].lower(), value.lower()) >= 0: return True
+		if recap.get("title") and indexOf(recap["title"].lower(), value.lower()) >= 0: return True
+		if recap.get("slug") and indexOf(recap["slug"].lower(), value.lower()) >= 0: return True
+		if recap.get("taxonomy") and recap["taxonomy"].get("categories"):
+			for category in recap["taxonomy"]["categories"]:
+				if indexOf(category[0].lower(), value.lower()) >= 0: return True
+				if indexOf(category[1].lower(), value.lower()) >= 0: return True
+		pass
+
+	return False
 
 
 
-
+def __cloneEvent(event):
+	newEvent = ScheduleEvent(**event.__dict__)
+	return newEvent
 
