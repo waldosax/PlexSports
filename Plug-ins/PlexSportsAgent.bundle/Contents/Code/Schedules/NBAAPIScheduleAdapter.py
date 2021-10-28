@@ -126,18 +126,21 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 			if supplementalGame.get("playoffs"):
 				subseason = NBA_SUBSEASON_POSTSEASON
 				game = supplementalGame["playoffs"]["gameNumInSeries"]
-				tags = supplementalGame["tags"]
-				if "E1" in tags or "W1" in tags: playoffRound = NBA_PLAYOFF_1ST_ROUND
-				elif "E2" in tags or "W2" in tags: playoffRound = NBA_PLAYOFF_ROUND_QUARTERFINALS
-				elif "E4" in tags or "W4" in tags: playoffRound = NBA_PLAYOFF_ROUND_SEMIFINALS
-				elif "Finals" in tags: playoffRound = NBA_PLAYOFF_ROUND_FINALS
+				roundNum = supplementalGame["playoffs"].get("roundNum")
+				if roundNum: playoffRound = roundNum
+				else:
+					tags = supplementalGame.get("tags")
+					if tags and ("E1" in tags or "W1" in tags): playoffRound = NBA_PLAYOFF_1ST_ROUND
+					elif tags and ("E2" in tags or "W2" in tags): playoffRound = NBA_PLAYOFF_ROUND_QUARTERFINALS
+					elif tags and ("E4" in tags or "W4" in tags): playoffRound = NBA_PLAYOFF_ROUND_SEMIFINALS
+					elif tags and ("Finals" in tags): playoffRound = NBA_PLAYOFF_ROUND_FINALS
 			else:
 				seasonStageId = supplementalGame["seasonStageId"]
 				if seasonStageId == 1: subseason = NBA_SUBSEASON_FLAG_PRESEASON
 				elif seasonStageId == 2: subseason = NBA_SUBSEASON_FLAG_REGULAR_SEASON
 				elif seasonStageId == 3: # All-Star
-					tags = supplementalGame["tags"]
-					if "AWASG" in tags: eventIndicator = NBA_EVENT_FLAG_ALL_STAR_GAME
+					tags = supplementalGame.get("tags")
+					if tags and "AWASG" in tags: eventIndicator = NBA_EVENT_FLAG_ALL_STAR_GAME
 		
 			if id in tracking.keys():
 				# Augment with supplemental data
