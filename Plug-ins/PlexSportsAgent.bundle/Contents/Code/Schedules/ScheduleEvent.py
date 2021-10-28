@@ -166,12 +166,14 @@ def AddOrAugmentEvent(sched, event):
 			for subhash in evdict.keys():
 				repl = evdict[subhash]
 				repl.augment(**event.__dict__)
-				break;
+				return repl;
 		else: # Otherwise, add the time-naive
 			evdict[None] = event
+			return event
 	else: # Time-aware
 		if subhash in evdict.keys(): # Times agree
 			evdict[subhash].augment(**event.__dict__)
+			return evdict[subhash]
 		else: #Times are close enough?
 			foundSubhash = False
 
@@ -189,14 +191,17 @@ def AddOrAugmentEvent(sched, event):
 
 			if foundSubhash:
 				evdict[subhash].augment(**event.__dict__)
+				return evdict[subhash]
 			else: # Must be a double-header. Append
 				if None in evdict.keys(): # Augment and replace time-naive
 					repl = evdict[None]
 					repl.augment(**event.__dict__)
 					del(evdict[None])
 					evdict[subhash] = repl
+					return repl
 				else:
 					evdict.setdefault(subhash, event)
+					return event
 
 	pass
 

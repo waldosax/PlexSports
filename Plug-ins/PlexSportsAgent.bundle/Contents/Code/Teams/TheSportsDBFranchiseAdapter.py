@@ -36,6 +36,7 @@ def DownloadAllTeams(league):
 		if league == LEAGUE_NBA:
 			if name == "Los Angeles Clippers":
 				print("Correcting known data error in TheSportsDB.com data. Incorrect team name for %s -> LA Clippers" % (team.get("strTeam")))
+				aliases.append(name)
 				fullName = "LA Clippers"
 				city = "LA"
 				name = "Clippers"

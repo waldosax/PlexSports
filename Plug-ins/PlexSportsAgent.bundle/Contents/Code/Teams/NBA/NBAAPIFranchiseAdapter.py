@@ -69,7 +69,7 @@ def DownloadAllFranchises(league):
 		"byAbbrev": dict()
 		}
 	for supplementalTeam in nbaapiTeamsSupplement["league"]["standard"]:
-		if supplementalTeam.get("isNBAFranchise") == False: continue
+		#if supplementalTeam.get("isNBAFranchise") == False: continue
 		if supplementalTeam["confName"] == "Intl": continue
 		teamID = deunicode(supplementalTeam["teamId"])
 		abbrev = deunicode(supplementalTeam["tricode"])
@@ -323,7 +323,7 @@ def __synthesize_team_from_franchise(franchise, spaLookup):
 	return team
 
 def __supplement_team(team, supplement, teamID, abbrev=None):
-	supplementalTeam = supplement["byTeamID"].get(str(teamID)) if teamID else supplement["byAbbrev"].get(abbrev)
+	supplementalTeam = supplement["byTeamID"].get(str(teamID)) if teamID else supplement["byAbbrev"].get(abbrev) or supplement["byAbbrev"].get(abbrev)
 	if not supplementalTeam: return None
 
 	variants = []
@@ -342,6 +342,7 @@ def __supplement_team(team, supplement, teamID, abbrev=None):
 	aliases = team["aliases"]
 	variants = list(set(variants))
 	for variant in variants:
+		if variant == "Team": continue
 		if variant == team["abbreviation"]: continue
 		if variant == team["city"]: continue
 		if variant == team["name"]: continue

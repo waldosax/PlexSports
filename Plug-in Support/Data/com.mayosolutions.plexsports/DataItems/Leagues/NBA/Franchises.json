@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBAFRANCHISES", 
-        "CachedOn": "2021-10-27T22:16:40", 
-        "ExpiresOn": "2022-03-11T22:16:40", 
+        "CachedOn": "2021-10-28T00:19:09", 
+        "ExpiresOn": "2022-03-12T00:19:09", 
         "Version": "1"
     }, 
     "Items": [
@@ -1962,7 +1962,9 @@
                     "LA Clippers": {
                         "abbreviation": "LAC", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Los Angeles Clippers"
+                        ], 
                         "assets": {
                             "badge": [
                                 {
@@ -4074,7 +4076,11 @@
                     "Team Chuck": {
                         "abbreviation": "CHK", 
                         "active": false, 
-                        "aliases": [], 
+                        "aliases": [
+                            "DRT", 
+                            "Team Team Durant", 
+                            "Team Durant"
+                        ], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4109,7 +4115,8 @@
                         "abbreviation": "DRT", 
                         "active": false, 
                         "aliases": [
-                            "DUR"
+                            "DUR", 
+                            "Team"
                         ], 
                         "assets": {
                             "badge": [], 
@@ -4219,7 +4226,8 @@
                         "abbreviation": "LBN", 
                         "active": false, 
                         "aliases": [
-                            "LEB"
+                            "LEB", 
+                            "Team"
                         ], 
                         "assets": {
                             "badge": [], 
@@ -4396,7 +4404,11 @@
                     "Team World": {
                         "abbreviation": "WLD", 
                         "active": false, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Team Team LeBron", 
+                            "Team LeBron", 
+                            "LBN"
+                        ], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 

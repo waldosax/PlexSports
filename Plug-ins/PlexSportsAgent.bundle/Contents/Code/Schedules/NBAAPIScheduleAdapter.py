@@ -13,14 +13,23 @@ from ScheduleEvent import *
 
 
 def GetSchedule(sched, teamKeys, teams, sport, league, season):
+
 	# Retrieve data from NBA API
 	downloadedJson = DownloadScheduleForSeason(season)
-	
 	nbaApiSchedule = None
 	if downloadedJson:
 		try: nbaApiSchedule = json.loads(downloadedJson)
 		except ValueError: pass
 
+	# Get Teams supplement
+	nbaapiScheduleSupplement = dict()
+	nbaapiScheduleSupplementJson = DownloadScheduleSupplementForSeason(season)
+	if nbaapiScheduleSupplementJson:
+		try: nbaapiScheduleSupplement = json.loads(nbaapiScheduleSupplementJson)
+		except ValueError: pass
+
+
+	tracking = dict()
 	if nbaApiSchedule and nbaApiSchedule.get("lscd"):
 		for lscd in nbaApiSchedule["lscd"]:
 			for game in lscd["mscd"]["g"]:
@@ -99,8 +108,106 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 
 				event = ScheduleEvent(**kwargs)
 
-				AddOrAugmentEvent(sched, event)
+				newEvent = AddOrAugmentEvent(sched, event)
+				tracking[id] = newEvent
 
+	# Supplement data
+	if nbaapiScheduleSupplement.get("league") and nbaapiScheduleSupplement["league"].get("standard"):
+		for supplementalGame in nbaapiScheduleSupplement["league"]["standard"]:
+			id = deunicode(supplementalGame["gameId"])
+
+			seriesDescriptor = None
+			game = None
+			playoffRound = None
+			subseason = None
+			eventIndicator = None
+
+			nugget = deunicode(supplementalGame["nugget"]["text"])
+			if supplementalGame.get("playoffs"):
+				subseason = NBA_SUBSEASON_POSTSEASON
+				game = supplementalGame["playoffs"]["gameNumInSeries"]
+				tags = supplementalGame["tags"]
+				if "E1" in tags or "W1" in tags: playoffRound = NBA_PLAYOFF_1ST_ROUND
+				elif "E2" in tags or "W2" in tags: playoffRound = NBA_PLAYOFF_ROUND_QUARTERFINALS
+				elif "E4" in tags or "W4" in tags: playoffRound = NBA_PLAYOFF_ROUND_SEMIFINALS
+				elif "Finals" in tags: playoffRound = NBA_PLAYOFF_ROUND_FINALS
+			else:
+				seasonStageId = supplementalGame["seasonStageId"]
+				if seasonStageId == 1: subseason = NBA_SUBSEASON_FLAG_PRESEASON
+				elif seasonStageId == 2: subseason = NBA_SUBSEASON_FLAG_REGULAR_SEASON
+				elif seasonStageId == 3: # All-Star
+					tags = supplementalGame["tags"]
+					if "AWASG" in tags: eventIndicator = NBA_EVENT_FLAG_ALL_STAR_GAME
+		
+			if id in tracking.keys():
+				# Augment with supplemental data
+				event = tracking[id]
+
+				if nugget: event.altTitle = nugget
+				if subseason: event.subseason = subseason
+				if playoffRound: event.playoffround = playoffRound
+				if game: event.game = game
+				if eventIndicator: event.eventindicator = eventIndicator
+
+			else:
+				# Create new event and add it.
+			
+				date = ParseISO8601Date(supplementalGame["startTimeUTC"]).replace(tzinfo=UTC)
+
+				if supplementalGame.get("playoffs"):
+					seriesDescriptor = supplementalGame["playoffs"]["seriesSummaryText"]
+
+				gameUrlCode = splitAndTrim(deunicode(supplementalGame["gameUrlCode"]), "/")
+				homeTeamAbbrev = gameUrlCode[1][3:]
+				awayTeamAbbrev = gameUrlCode[1][:3]
+
+				homeTeamKey = None
+				homeTeamDisp = None
+				homeTeamID = supplementalGame["hTeam"]["teamId"]
+				homeTeam = __find_team_by_nbaapiid(teams, homeTeamID)
+				if not homeTeam: homeTeam = teams.get(teamKeys.get(homeTeamAbbrev.lower()))
+				if homeTeam:
+					homeTeamKey = homeTeam.key or homeTeam.abbreviation
+					homeTeamDisp = homeTeam.fullName
+				else:
+					homeTeamDisp = homeTeamAbbrev
+			
+				awayTeamKey = None
+				awayTeamDisp = None
+				awayTeamID = supplementalGame["vTeam"]["teamId"]
+				awayTeam = __find_team_by_nbaapiid(teams, awayTeamID)
+				if not awayTeam: awayTeam = teams.get(teamKeys.get(awayTeamAbbrev.lower()))
+				if awayTeam:
+					awayTeamKey = awayTeam.key or awayTeam.abbreviation
+					awayTeamDisp = awayTeam.fullName
+				else:
+					awayTeamDisp = awayTeamAbbrev
+
+				vs = "%s vs. %s" % (homeTeamDisp, awayTeamDisp)
+
+				if not homeTeamKey or not awayTeamKey:
+					print("  Skipping NBA game from NBA API %s, %s." % (date.strftime("%Y-%m-%d"), vs))
+					continue
+
+				kwargs = {
+					"sport": sport,
+					"league": league,
+					"season": season,
+					"date": date,
+					"NBAAPIID": id,
+					"homeTeam": homeTeamKey,
+					"awayTeam": awayTeamKey,
+					"vs": vs,
+					"subseason": subseason,
+					"playoffround": playoffRound,
+					"game": game,
+					"eventindicator": eventIndicator,
+					"altTitle": nugget or seriesDescriptor	# For reference later. If no good description, set description to this.
+					}
+
+				event = ScheduleEvent(**kwargs)
+
+				AddOrAugmentEvent(sched, event)
 	pass
 
 def __find_team_by_nbaapiid(teams, nbaapiid):
@@ -113,74 +220,3 @@ def __find_team_by_nbaapiid(teams, nbaapiid):
 
 
 
-
-
-# playoffPicture[gameID] = {
-#	"seriesIndex": int
-#	seriesID: [
-#		{
-#			"seriesIndex": seriesIndex,
-#			"seriesID": seriesID,
-#			"gameID": gameID,
-#			"homeTeamID": homeTeamID,
-#			"awayTeamID": awayTeamID,
-#			"gameNumber": gameNumber,
-#			}
-#		]
-#	}
-		
-def __get_playoff_picture(season):
-	# Download playoff series picture from NBA API
-	downloadedJson = DownloadPlayoffSeriesInfoForSeason(season)
-	
-	nbaApiPlayoffPicture = None
-	if downloadedJson:
-		try: nbaApiPlayoffPicture = json.loads(downloadedJson)
-		except ValueError: pass
-
-	playoffPicture = dict()
-
-	playoffsBySeriesIndex = []
-	playoffsBySeriesID = dict()
-
-	seriesIndex = None
-	currentSeriesID = None
-	series = None
-
-	for row in nbaApiPlayoffPicture["resultSets"][0]["rowSet"]:
-		gameID = row[0]
-		homeTeamID = row[1]
-		awayTeamID = row[2]
-		seriesID = row[3]
-		gameNumber = row[4]
-
-		game = {
-			#"seriesIndex": seriesIndex,
-			"seriesID": seriesID,
-			"gameID": gameID,
-			"homeTeamID": homeTeamID,
-			"awayTeamID": awayTeamID,
-			"gameNumber": gameNumber
-			}
-
-		if currentSeriesID == None:
-			# Initialize
-			series = []
-			playoffsBySeriesIndex.append(series)
-			playoffsBySeriesID.setdefault(seriesID, series)
-			currentSeriesID = seriesID
-			seriesIndex = 0
-
-		if seriesID != currentSeriesID:
-			# Start a new series
-			series = []
-			playoffsBySeriesIndex.append(series)
-			playoffsBySeriesID.setdefault(seriesID, series)
-			currentSeriesID = seriesID
-			seriesIndex = seriesIndex + 1
-
-		series.append(game)
-
-		pass
-
-	return playoffPicture
