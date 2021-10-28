@@ -7,6 +7,7 @@ from ..GetResultFromNetwork import *
 NBA_SPAAPI_BASE_URL = "https://neulionms-a.akamaihd.net/nbad/player/v1/"
 NBA_STATSAPI_BASE_URL = "https://stats.nba.com/stats/"
 NBA_DATAAPI_BASE_URL = "https://data.nba.com/data/"
+NBA_CONTENTAPI_BASE_URL = "https://content-api-prod.nba.com/public/1/"
 
 
 NBA_SPA_CONFIG_ENDPOINT = "nba/site_spa/config.json"
@@ -20,6 +21,10 @@ NBA_TEAM_SCHEDULE_ENDPOINT = "v2015/json/mobile_teams/nba/%s/teams/%s_schedule.j
 NBA_SCHEDULE_ENDPOINT = "v2015/json/mobile_teams/nba/%s/league/00_full_schedule.json" # Season
 NBA_SCHEDULE_SUPPLEMENT_ENDPOINT = "10s/prod/v1/%s/schedule.json" # Season
 NBA_TEAMS_SUPPLEMENT_ENDPOINT = "10s/prod/v1/%s/teams.json" # Season
+
+NBA_GAMES_VIDEO_METADATA_ENDPOINT = "content/video/?games=%s&term-video_franchises=2-min-game-recap&countryCode=US&region=united-states" # Pipe-delimited game IDs
+
+
 
 nba_api_headers = {
 	"User-Agent": USER_AGENT,
@@ -71,3 +76,11 @@ def DownloadScheduleSupplementForSeason(season):
 #	return GetResultFromNetwork(
 #		url,
 #		nba_api_headers, cacheExtension=EXTENSION_JSON)
+
+
+def DownloadVideoMetadata(*gameIDs):
+	print("Getting video metadata supplement from NBA API (%s games) ..." % (len(gameIDs) if gameIDs else 0))
+	url = (NBA_CONTENTAPI_BASE_URL + NBA_GAMES_VIDEO_METADATA_ENDPOINT) % ("%7C".join(gameIDs) if gameIDs else "")
+	return GetResultFromNetwork(
+		url,
+		nba_api_headers, cacheExtension=EXTENSION_JSON)

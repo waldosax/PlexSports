@@ -21,7 +21,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 		try: nbaApiSchedule = json.loads(downloadedJson)
 		except ValueError: pass
 
-	# Get Teams supplement
+	# Get Schedule supplement
 	nbaapiScheduleSupplement = dict()
 	nbaapiScheduleSupplementJson = DownloadScheduleSupplementForSeason(season)
 	if nbaapiScheduleSupplementJson:
@@ -207,7 +207,42 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 
 				event = ScheduleEvent(**kwargs)
 
-				AddOrAugmentEvent(sched, event)
+				newEvent = AddOrAugmentEvent(sched, event)
+				tracking[id] = newEvent
+
+
+
+
+
+
+
+
+
+	# Get metadata supplement
+	ids = tracking.keys()
+	limit = 12
+	l = len(ids)
+	for i in range(0, l, limit):
+		slice = ids[i:i+limit]
+
+		nbaapiMetadataSupplement = dict()
+		nbaapiMetadataSupplementJson = DownloadVideoMetadata(*slice)
+		if nbaapiMetadataSupplementJson:
+			try: nbaapiMetadataSupplement = json.loads(nbaapiMetadataSupplementJson)
+			except ValueError: pass
+	
+		if nbaapiMetadataSupplement:
+			for metadata in nbaapiMetadataSupplement["results"]["items"]:
+				excerpt = metadata["excerpt"]
+				featuredImage = metadata["featuredImage"]
+				for id in metadata["taxonomy"]["games"].keys():
+					event = tracking.get(id)
+					if event:
+						if not event.description and excerpt: event.description = excerpt
+						if featuredImage:
+							event.assets.thumbnail.append(EventAsset(source=ASSET_SOURCE_NBAAPI, url=featuredImage))
+		pass
+
 	pass
 
 def __find_team_by_nbaapiid(teams, nbaapiid):
