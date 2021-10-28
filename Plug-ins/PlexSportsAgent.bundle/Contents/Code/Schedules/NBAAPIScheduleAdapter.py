@@ -302,21 +302,21 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 			except ValueError: pass
 	
 		if nbaapiMetadataSupplement:
-			for metadata in nbaapiMetadataSupplement["results"]["items"]:
-				excerpt = metadata["excerpt"]
-				featuredImage = metadata["featuredImage"]
-				for id in metadata["taxonomy"]["games"].keys():
+			for recap in nbaapiMetadataSupplement["results"]["items"]:
+				excerpt = recap["excerpt"]
+				featuredImage = recap["featuredImage"]
+				for id in recap["taxonomy"]["games"].keys():
 
 					if __is_game_id_all_star_saturday(id):
-						if __recap_contains(metadata, "skills"): id = "%s.%s" % (id, NBA_EVENT_FLAG_SKILLS_CHALLENGE)
-						elif __recap_contains(metadata, "slam", "dunk"): id = "%s.%s" % (id, NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION)
-						elif __recap_contains(metadata, "3-Point", "3 Point"): id = "%s.%s" % (id, NBA_EVENT_FLAG_3_POINT_SHOOTOUT)
+						if __recap_contains(recap, "skills"): id = "%s.%s" % (id, NBA_EVENT_FLAG_SKILLS_CHALLENGE)
+						elif __recap_contains(recap, "slam", "dunk"): id = "%s.%s" % (id, NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION)
+						elif __recap_contains(recap, "3-Point", "3 Point"): id = "%s.%s" % (id, NBA_EVENT_FLAG_3_POINT_SHOOTOUT)
 
 					event = tracking.get(id)
 					if event:
 						if not event.description and excerpt: event.description = excerpt
 						if featuredImage:
-							event.assets.thumbnail.append(EventAsset(source=ASSET_SOURCE_NBAAPI, url=featuredImage))
+							event.assets.Augment(thumbnail=[EventAsset(source=ASSET_SOURCE_NBAAPI, url=featuredImage)])
 		pass
 
 	pass
