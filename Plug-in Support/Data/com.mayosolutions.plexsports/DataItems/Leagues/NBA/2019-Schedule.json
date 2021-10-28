@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA2019SCHEDULE", 
-        "CachedOn": "2021-10-28T12:34:53", 
-        "ExpiresOn": "2021-11-04T12:34:53", 
+        "CachedOn": "2021-10-28T18:17:25", 
+        "ExpiresOn": "2021-11-04T18:17:25", 
         "Version": "2"
     }, 
     "Items": [
@@ -33897,24 +33897,12 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2020/02/Djonesjr_trophy.jpg"
-                    }, 
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2020/02/Bhield_trophy-e1614010413138.jpg"
-                    }, 
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2020/02/BAdebayo_trophy-scaled.jpg"
-                    }
-                ]
+                "thumbnail": []
             }, 
             "awayTeam": "EST", 
             "date": "2020-02-16T01:00:00+00:00", 
-            "description": "Derrick Jones, Jr. battles Aaron Gordon in an epic final to win the 2020 AT&T Slam Dunk.", 
+            "eventTitle": "All-Star Saturday Night", 
+            "eventindicator": 2, 
             "homeTeam": "WST", 
             "identity": {
                 "NBAAPIID": "0031900099"
@@ -33984,6 +33972,84 @@
             "season": "2019", 
             "sport": "Basketball", 
             "vs": "Team Giannis vs. Team LeBron"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2020/02/BAdebayo_trophy-scaled.jpg"
+                    }
+                ]
+            }, 
+            "date": "2020-02-17T01:00:00+00:00", 
+            "description": "Bam Adebayo edges Domantas Sabonis to win the 2020 Taco Bell Skills Challenge.", 
+            "eventTitle": "NBA Skills Challenge", 
+            "eventindicator": 5, 
+            "identity": {
+                "NBAAPIID": "0031900099.5"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2020/02/Bhield_trophy-e1614010413138.jpg"
+                    }
+                ]
+            }, 
+            "date": "2020-02-17T02:00:00+00:00", 
+            "description": "The Sacramento Kings' Buddy Hield tops the Suns' Devin Booker in the second round to win the 2020 MTN DEW 3-Point Contest.", 
+            "eventTitle": "3-Point Shootout", 
+            "eventindicator": 3, 
+            "identity": {
+                "NBAAPIID": "0031900099.3"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2020/02/Djonesjr_trophy.jpg"
+                    }
+                ]
+            }, 
+            "date": "2020-02-17T03:00:00+00:00", 
+            "description": "Derrick Jones, Jr. battles Aaron Gordon in an epic final to win the 2020 AT&T Slam Dunk.", 
+            "eventTitle": "Slam Dunk Contest", 
+            "eventindicator": 4, 
+            "identity": {
+                "NBAAPIID": "0031900099.4"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Basketball"
         }, 
         {
             "altTitle": "Antetokounmpo: 33 pts, 16 reb", 
@@ -45415,9 +45481,10 @@
             "networks": [
                 "ABC"
             ], 
+            "playoffround": "0", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs. Memphis Grizzlies"
         }, 
         {
@@ -45466,10 +45533,10 @@
                 "AT&TSN", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. Utah Jazz"
         }, 
         {
@@ -45518,10 +45585,10 @@
                 "RSN", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Brooklyn Nets"
         }, 
         {
@@ -45570,10 +45637,10 @@
                 "CSN", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Philadelphia 76ers"
         }, 
         {
@@ -45622,10 +45689,10 @@
                 "FSSW", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "LA Clippers vs. Dallas Mavericks"
         }, 
         {
@@ -45674,10 +45741,10 @@
                 "FSWI", 
                 "FSFL"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Orlando Magic"
         }, 
         {
@@ -45711,10 +45778,10 @@
                 "FSMW", 
                 "SUN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Indiana Pacers vs. Miami Heat"
         }, 
         {
@@ -45784,10 +45851,10 @@
                 "TNT", 
                 "FSOK"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Oklahoma City Thunder"
         }, 
         {
@@ -45873,10 +45940,10 @@
                 "CSNN", 
                 "TWC SN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Portland Trail Blazers"
         }, 
         {
@@ -45926,10 +45993,10 @@
                 "NBATV", 
                 "NBA TV"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Brooklyn Nets"
         }, 
         {
@@ -45978,10 +46045,10 @@
                 "ALT", 
                 "AT&TSN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. Utah Jazz"
         }, 
         {
@@ -46030,10 +46097,10 @@
                 "CSNN", 
                 "CSN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Philadelphia 76ers"
         }, 
         {
@@ -46082,10 +46149,10 @@
                 "FSW2", 
                 "FSSW"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "LA Clippers vs. Dallas Mavericks"
         }, 
         {
@@ -46119,10 +46186,10 @@
                 "ESPN", 
                 "SUN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Indiana Pacers vs. Miami Heat"
         }, 
         {
@@ -46192,10 +46259,10 @@
                 "FSOK", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Oklahoma City Thunder"
         }, 
         {
@@ -46281,10 +46348,10 @@
                 "ESPN", 
                 "FSFL"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Orlando Magic"
         }, 
         {
@@ -46333,10 +46400,10 @@
                 "TWC SN", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Portland Trail Blazers"
         }, 
         {
@@ -46386,10 +46453,10 @@
                 "NBATV", 
                 "NBA TV"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Brooklyn Nets vs. Toronto Raptors"
         }, 
         {
@@ -46438,10 +46505,10 @@
                 "ALT", 
                 "AT&TSN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Denver Nuggets"
         }, 
         {
@@ -46490,10 +46557,10 @@
                 "CSNN", 
                 "CSN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Philadelphia 76ers vs. Boston Celtics"
         }, 
         {
@@ -46542,10 +46609,10 @@
                 "FSW2", 
                 "FSSW"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. LA Clippers"
         }, 
         {
@@ -46594,10 +46661,10 @@
                 "FSWI", 
                 "FSFL"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Milwaukee Bucks"
         }, 
         {
@@ -46631,10 +46698,10 @@
                 "FSMW", 
                 "SUN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Indiana Pacers"
         }, 
         {
@@ -46704,10 +46771,10 @@
                 "FSOK", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Oklahoma City Thunder vs. Houston Rockets"
         }, 
         {
@@ -46791,10 +46858,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs. Los Angeles Lakers"
         }, 
         {
@@ -46841,10 +46908,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Philadelphia 76ers vs. Boston Celtics"
         }, 
         {
@@ -46895,10 +46962,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. LA Clippers"
         }, 
         {
@@ -46947,10 +47014,10 @@
                 "TNT", 
                 "YES"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Brooklyn Nets vs. Toronto Raptors"
         }, 
         {
@@ -46999,10 +47066,10 @@
                 "ALT", 
                 "AT&TSN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Denver Nuggets"
         }, 
         {
@@ -47052,10 +47119,10 @@
                 "NBATV", 
                 "NBA TV"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Milwaukee Bucks"
         }, 
         {
@@ -47088,10 +47155,10 @@
                 "TNT", 
                 "FSOK"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Oklahoma City Thunder vs. Houston Rockets"
         }, 
         {
@@ -47199,10 +47266,10 @@
                 "FSMW", 
                 "SUN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Indiana Pacers"
         }, 
         {
@@ -47251,10 +47318,10 @@
                 "CSNN", 
                 "TWC SN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs. Los Angeles Lakers"
         }, 
         {
@@ -47303,10 +47370,10 @@
                 "ALT", 
                 "AT&TSN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. Utah Jazz"
         }, 
         {
@@ -47355,10 +47422,10 @@
                 "FSW2", 
                 "FSSW"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "LA Clippers vs. Dallas Mavericks"
         }, 
         {
@@ -47662,10 +47729,10 @@
                 "ESPN", 
                 "FSFL"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Orlando Magic"
         }, 
         {
@@ -47712,10 +47779,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Oklahoma City Thunder"
         }, 
         {
@@ -47762,10 +47829,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Portland Trail Blazers"
         }, 
         {
@@ -47812,10 +47879,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Boston Celtics"
         }, 
         {
@@ -47862,10 +47929,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. LA Clippers"
         }, 
         {
@@ -47912,10 +47979,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Denver Nuggets"
         }, 
         {
@@ -47962,10 +48029,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Miami Heat"
         }, 
         {
@@ -48012,10 +48079,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Oklahoma City Thunder vs. Houston Rockets"
         }, 
         {
@@ -48062,10 +48129,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Boston Celtics"
         }, 
         {
@@ -48112,10 +48179,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. Utah Jazz"
         }, 
         {
@@ -48162,10 +48229,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Miami Heat"
         }, 
         {
@@ -48212,10 +48279,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Oklahoma City Thunder"
         }, 
         {
@@ -48262,10 +48329,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Toronto Raptors"
         }, 
         {
@@ -48312,10 +48379,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "LA Clippers vs. Denver Nuggets"
         }, 
         {
@@ -48362,10 +48429,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Milwaukee Bucks"
         }, 
         {
@@ -48412,10 +48479,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Houston Rockets"
         }, 
         {
@@ -48462,10 +48529,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Toronto Raptors"
         }, 
         {
@@ -48512,10 +48579,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "LA Clippers vs. Denver Nuggets"
         }, 
         {
@@ -48562,10 +48629,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Milwaukee Bucks"
         }, 
         {
@@ -48612,10 +48679,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Houston Rockets"
         }, 
         {
@@ -48662,10 +48729,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Boston Celtics"
         }, 
         {
@@ -48712,10 +48779,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. LA Clippers"
         }, 
         {
@@ -48762,10 +48829,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Miami Heat"
         }, 
         {
@@ -48812,10 +48879,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Los Angeles Lakers"
         }, 
         {
@@ -48862,10 +48929,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Toronto Raptors"
         }, 
         {
@@ -48912,10 +48979,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. LA Clippers"
         }, 
         {
@@ -48962,10 +49029,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Los Angeles Lakers"
         }, 
         {
@@ -49012,10 +49079,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "LA Clippers vs. Denver Nuggets"
         }, 
         {
@@ -49062,10 +49129,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Boston Celtics"
         }, 
         {
@@ -49112,10 +49179,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Houston Rockets"
         }, 
         {
@@ -49162,10 +49229,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. LA Clippers"
         }, 
         {
@@ -49212,10 +49279,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Miami Heat"
         }, 
         {
@@ -49262,10 +49329,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "LA Clippers vs. Denver Nuggets"
         }, 
         {
@@ -49312,10 +49379,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Miami Heat"
         }, 
         {
@@ -49362,10 +49429,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Denver Nuggets"
         }, 
         {
@@ -49412,10 +49479,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Boston Celtics"
         }, 
         {
@@ -49462,10 +49529,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Denver Nuggets"
         }, 
         {
@@ -49512,10 +49579,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. Los Angeles Lakers"
         }, 
         {
@@ -49562,10 +49629,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Boston Celtics"
         }, 
         {
@@ -49612,10 +49679,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. Los Angeles Lakers"
         }, 
         {
@@ -49662,10 +49729,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Miami Heat"
         }, 
         {
@@ -49712,10 +49779,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Denver Nuggets"
         }, 
         {
@@ -49762,10 +49829,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Boston Celtics"
         }, 
         {
@@ -49812,10 +49879,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Miami Heat"
         }, 
         {
@@ -49862,10 +49929,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Miami Heat"
         }, 
         {
@@ -49912,10 +49979,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Los Angeles Lakers"
         }, 
         {
@@ -49962,10 +50029,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Los Angeles Lakers"
         }, 
         {
@@ -50012,10 +50079,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Miami Heat"
         }, 
         {
@@ -50067,10 +50134,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2019", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Los Angeles Lakers"
         }
     ]

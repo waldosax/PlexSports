@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA2016SCHEDULE", 
-        "CachedOn": "2021-10-28T12:32:19", 
-        "ExpiresOn": "2021-11-04T12:32:19", 
+        "CachedOn": "2021-10-28T18:15:51", 
+        "ExpiresOn": "2021-11-04T18:15:51", 
         "Version": "2"
     }, 
     "Items": [
@@ -26705,39 +26705,6 @@
             "vs": "Golden State Warriors vs. Charlotte Hornets"
         }, 
         {
-            "altTitle": "Wizards win 16th straight at home", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2017/02/0202_Wall.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "LAL", 
-            "date": "2017-02-03T00:00:00+00:00", 
-            "description": "John Wall scores 33 points and dishes out 11 assists as the Wizards defeat the Lakers 116-108.", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "ESPNAPIID": "400899446", 
-                "NBAAPIID": "0021600742", 
-                "TheSportsDBID": "521364"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "TWC SN", 
-                "CSNB"
-            ], 
-            "season": "2016", 
-            "sport": "Basketball", 
-            "vs": "Washington Wizards vs. Los Angeles Lakers"
-        }, 
-        {
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -26794,6 +26761,39 @@
             "season": "2016", 
             "sport": "Basketball", 
             "vs": "Houston Rockets vs. Atlanta Hawks"
+        }, 
+        {
+            "altTitle": "Wizards win 16th straight at home", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2017/02/0202_Wall.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "LAL", 
+            "date": "2017-02-03T00:00:00+00:00", 
+            "description": "John Wall scores 33 points and dishes out 11 assists as the Wizards defeat the Lakers 116-108.", 
+            "homeTeam": "WAS", 
+            "identity": {
+                "ESPNAPIID": "400899446", 
+                "NBAAPIID": "0021600742", 
+                "TheSportsDBID": "521364"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "TWC SN", 
+                "CSNB"
+            ], 
+            "season": "2016", 
+            "sport": "Basketball", 
+            "vs": "Washington Wizards vs. Los Angeles Lakers"
         }, 
         {
             "assets": {
@@ -30301,21 +30301,13 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2017/01/GettyImages-642761010-scaled.jpg"
-                    }, 
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2017/02/7d510f53-73ed-43c3-a8e3-faf47aa62bd6.nba_1_1280x720.jpg"
-                    }
-                ]
+                "thumbnail": []
             }, 
-            "awayTeam": "DRT", 
+            "awayTeam": "EST", 
             "date": "2017-02-19T01:00:00+00:00", 
-            "description": "Recapping the JBL Three-Point Contest from NBA All-Star Saturday Night.", 
-            "homeTeam": "LBN", 
+            "eventTitle": "All-Star Saturday Night", 
+            "eventindicator": 2, 
+            "homeTeam": "WST", 
             "identity": {
                 "NBAAPIID": "0031600099"
             }, 
@@ -30323,7 +30315,7 @@
             "networks": [], 
             "season": "2016", 
             "sport": "Basketball", 
-            "vs": "Team LeBron vs. Team Durant"
+            "vs": "All-Star West vs. All-Star East"
         }, 
         {
             "altTitle": "Davis scores record 52, named Kia MVP", 
@@ -30381,6 +30373,78 @@
             "sport": "Basketball", 
             "subseason": 0, 
             "vs": "Western Conf All-Stars vs. Eastern Conf All-Stars"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2017/02/7d510f53-73ed-43c3-a8e3-faf47aa62bd6.nba_1_1280x720.jpg"
+                    }
+                ]
+            }, 
+            "date": "2017-02-20T01:00:00+00:00", 
+            "description": "Kristaps Porzingis beats all the bigs and all the smalls to win the 2017 Taco Bell Skills Challenge.", 
+            "eventTitle": "NBA Skills Challenge", 
+            "eventindicator": 5, 
+            "identity": {
+                "NBAAPIID": "0031600099.5"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2017/01/GettyImages-642761010-scaled.jpg"
+                    }
+                ]
+            }, 
+            "date": "2017-02-20T02:00:00+00:00", 
+            "description": "Recapping the JBL Three-Point Contest from NBA All-Star Saturday Night.", 
+            "eventTitle": "3-Point Shootout", 
+            "eventindicator": 3, 
+            "identity": {
+                "NBAAPIID": "0031600099.3"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "date": "2017-02-20T03:00:00+00:00", 
+            "eventTitle": "Slam Dunk Contest", 
+            "eventindicator": 4, 
+            "identity": {
+                "NBAAPIID": "0031600099.4"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Basketball"
         }, 
         {
             "altTitle": "Lillard tallies 33 points (17 in 4th)", 
@@ -42939,10 +43003,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Indiana Pacers"
         }, 
         {
@@ -42977,10 +43041,10 @@
                 "Sportsnet One", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Milwaukee Bucks"
         }, 
         {
@@ -43014,10 +43078,10 @@
                 "FSSW", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Memphis Grizzlies"
         }, 
         {
@@ -43052,10 +43116,10 @@
                 "ROOT", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "LA Clippers vs. Utah Jazz"
         }, 
         {
@@ -43089,10 +43153,10 @@
                 "TNT", 
                 "CSNB"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Washington Wizards vs. Atlanta Hawks"
         }, 
         {
@@ -43125,10 +43189,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Portland Trail Blazers"
         }, 
         {
@@ -43163,10 +43227,10 @@
                 "CSNN", 
                 "CSNC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Chicago Bulls"
         }, 
         {
@@ -43195,10 +43259,10 @@
                 "TNT", 
                 "FSOK"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Oklahoma City Thunder"
         }, 
         {
@@ -43232,10 +43296,10 @@
                 "FSOH", 
                 "TNT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Indiana Pacers"
         }, 
         {
@@ -43269,10 +43333,10 @@
                 "FSOH", 
                 "TNT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Memphis Grizzlies"
         }, 
         {
@@ -43308,10 +43372,10 @@
                 "NBATV", 
                 "NBA TV"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Milwaukee Bucks"
         }, 
         {
@@ -43346,10 +43410,10 @@
                 "CSNN", 
                 "CSNC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Chicago Bulls"
         }, 
         {
@@ -43384,10 +43448,10 @@
                 "FSW2", 
                 "ROOT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "LA Clippers vs. Utah Jazz"
         }, 
         {
@@ -43422,10 +43486,10 @@
                 "CSNB", 
                 "NBA TV"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Washington Wizards vs. Atlanta Hawks"
         }, 
         {
@@ -43459,10 +43523,10 @@
                 "TNT", 
                 "FSOK"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Oklahoma City Thunder"
         }, 
         {
@@ -43497,10 +43561,10 @@
                 "CSNB", 
                 "KGW"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Portland Trail Blazers"
         }, 
         {
@@ -43534,10 +43598,10 @@
                 "FSOH", 
                 "TNT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Indiana Pacers vs. Cleveland Cavaliers"
         }, 
         {
@@ -43573,10 +43637,10 @@
                 "NBATV", 
                 "NBA TV"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Toronto Raptors"
         }, 
         {
@@ -43610,10 +43674,10 @@
                 "TNT", 
                 "FSSW"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Memphis Grizzlies vs. San Antonio Spurs"
         }, 
         {
@@ -43648,10 +43712,10 @@
                 "ESPN", 
                 "CSNC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs. Boston Celtics"
         }, 
         {
@@ -43685,10 +43749,10 @@
                 "FSOK", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Oklahoma City Thunder vs. Houston Rockets"
         }, 
         {
@@ -43723,10 +43787,10 @@
                 "FSW2", 
                 "ROOT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. LA Clippers"
         }, 
         {
@@ -43761,10 +43825,10 @@
                 "Sportsnet One", 
                 "FSWI"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Toronto Raptors"
         }, 
         {
@@ -43798,10 +43862,10 @@
                 "TNT", 
                 "CSNB"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Atlanta Hawks vs. Washington Wizards"
         }, 
         {
@@ -43835,10 +43899,10 @@
                 "FSSW", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Memphis Grizzlies vs. San Antonio Spurs"
         }, 
         {
@@ -43873,10 +43937,10 @@
                 "KGW", 
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs. Golden State Warriors"
         }, 
         {
@@ -43909,10 +43973,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Indiana Pacers vs. Cleveland Cavaliers"
         }, 
         {
@@ -43945,10 +44009,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Oklahoma City Thunder vs. Houston Rockets"
         }, 
         {
@@ -43983,10 +44047,10 @@
                 "CSNN", 
                 "CSNC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs. Boston Celtics"
         }, 
         {
@@ -44021,10 +44085,10 @@
                 "FSW2", 
                 "ROOT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. LA Clippers"
         }, 
         {
@@ -44060,10 +44124,10 @@
                 "NBATV", 
                 "NBA TV"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Milwaukee Bucks"
         }, 
         {
@@ -44097,10 +44161,10 @@
                 "TNT", 
                 "CSNB"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Atlanta Hawks vs. Washington Wizards"
         }, 
         {
@@ -44135,10 +44199,10 @@
                 "CSNB", 
                 "KGW"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs. Golden State Warriors"
         }, 
         {
@@ -44172,10 +44236,10 @@
                 "TNT", 
                 "FSOK"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Oklahoma City Thunder"
         }, 
         {
@@ -44210,10 +44274,10 @@
                 "NBATV", 
                 "NBA TV"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Memphis Grizzlies"
         }, 
         {
@@ -44248,10 +44312,10 @@
                 "FSW2", 
                 "ROOT"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "LA Clippers vs. Utah Jazz"
         }, 
         {
@@ -44289,10 +44353,10 @@
                 "TNT", 
                 "CSNB"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Washington Wizards vs. Atlanta Hawks"
         }, 
         {
@@ -44327,10 +44391,10 @@
                 "CSNN", 
                 "CSNC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Chicago Bulls"
         }, 
         {
@@ -44364,10 +44428,10 @@
                 "Sportsnet One", 
                 "FSWI"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Toronto Raptors"
         }, 
         {
@@ -44400,10 +44464,10 @@
                 "TNT", 
                 "FSSW"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Memphis Grizzlies vs. San Antonio Spurs"
         }, 
         {
@@ -44437,10 +44501,10 @@
                 "CSNB", 
                 "ESPNU/NBA TV"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Atlanta Hawks vs. Washington Wizards"
         }, 
         {
@@ -44474,10 +44538,10 @@
                 "ESPN", 
                 "CSNC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs. Boston Celtics"
         }, 
         {
@@ -44509,10 +44573,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. LA Clippers"
         }, 
         {
@@ -44544,10 +44608,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Washington Wizards"
         }, 
         {
@@ -44579,10 +44643,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 1, 
+            "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "LA Clippers vs. Utah Jazz"
         }, 
         {
@@ -44614,10 +44678,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Toronto Raptors"
         }, 
         {
@@ -44649,10 +44713,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Houston Rockets"
         }, 
         {
@@ -44684,10 +44748,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Washington Wizards"
         }, 
         {
@@ -44719,10 +44783,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Utah Jazz"
         }, 
         {
@@ -44754,10 +44818,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Toronto Raptors"
         }, 
         {
@@ -44789,10 +44853,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Houston Rockets"
         }, 
         {
@@ -44824,10 +44888,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Washington Wizards vs. Boston Celtics"
         }, 
         {
@@ -44859,10 +44923,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Utah Jazz"
         }, 
         {
@@ -44894,10 +44958,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Cleveland Cavaliers"
         }, 
         {
@@ -44929,10 +44993,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. San Antonio Spurs"
         }, 
         {
@@ -44964,10 +45028,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Golden State Warriors"
         }, 
         {
@@ -44999,10 +45063,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Cleveland Cavaliers"
         }, 
         {
@@ -45034,10 +45098,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Washington Wizards vs. Boston Celtics"
         }, 
         {
@@ -45069,10 +45133,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. San Antonio Spurs"
         }, 
         {
@@ -45104,10 +45168,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Golden State Warriors"
         }, 
         {
@@ -45139,10 +45203,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Houston Rockets"
         }, 
         {
@@ -45174,10 +45238,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Washington Wizards"
         }, 
         {
@@ -45209,10 +45273,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. San Antonio Spurs"
         }, 
         {
@@ -45244,10 +45308,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Washington Wizards vs. Boston Celtics"
         }, 
         {
@@ -45279,10 +45343,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. San Antonio Spurs"
         }, 
         {
@@ -45314,10 +45378,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 2, 
+            "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Washington Wizards"
         }, 
         {
@@ -45349,10 +45413,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. San Antonio Spurs"
         }, 
         {
@@ -45384,10 +45448,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Cleveland Cavaliers"
         }, 
         {
@@ -45419,10 +45483,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Cleveland Cavaliers"
         }, 
         {
@@ -45454,10 +45518,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Golden State Warriors"
         }, 
         {
@@ -45489,10 +45553,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Boston Celtics"
         }, 
         {
@@ -45519,10 +45583,10 @@
             "networks": [
                 "ESPN"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Golden State Warriors"
         }, 
         {
@@ -45554,10 +45618,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Boston Celtics"
         }, 
         {
@@ -45589,10 +45653,10 @@
             "networks": [
                 "TNT"
             ], 
-            "playoffround": 3, 
+            "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Cleveland Cavaliers"
         }, 
         {
@@ -45650,10 +45714,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Cleveland Cavaliers"
         }, 
         {
@@ -45712,10 +45776,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Cleveland Cavaliers"
         }, 
         {
@@ -45774,10 +45838,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Golden State Warriors"
         }, 
         {
@@ -45836,10 +45900,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Golden State Warriors"
         }, 
         {
@@ -45871,10 +45935,10 @@
             "networks": [
                 "ABC"
             ], 
-            "playoffround": 4, 
+            "playoffround": "4", 
             "season": "2016", 
             "sport": "Basketball", 
-            "subseason": "Postseason", 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Cleveland Cavaliers"
         }
     ]
