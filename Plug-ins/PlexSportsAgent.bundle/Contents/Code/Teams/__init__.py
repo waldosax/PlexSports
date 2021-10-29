@@ -31,20 +31,6 @@ known_city_aliases = [
 	("NOLA", "New Orleans")
 	]
 
-# Abbreviation level-set (disparities in data). Corrections to any acquired data
-data_corrections = {	# [League][OldAbbrev] = CurrentAbbrev
-	LEAGUE_NFL: {
-		"OAK": "LV",
-		"LA": "LAR",
-		"LVRAID": "LV"
-		},
-	LEAGUE_MLB: {
-		"WAS": "WSH"
-		},
-	LEAGUE_NHL: {
-		"TB": "TBL"
-		}
-	}
 
 cached_franchises = dict()
 cities_with_multiple_teams = dict()
@@ -143,6 +129,28 @@ def __download_all_team_data(league):
 			if anyActiveTeams:
 				franchise.active = True
 
+	# Merge any team histories that are touching/overlapping
+	for franchise in franchises.values():
+		for team in franchise.teams.values():
+			years = sorted(team.years, cmp=__sort_year_span)
+			i = 1
+			while i < len(years):
+				span1 = years[i-1]
+				span2 = years[i]
+
+				if span1.toYear >= span2.fromYear or span1.toYear+1 == span2.fromYear:
+					# Merge spans
+					span3 = YearSpan(span1.fromYear, span2.toYear)
+					del(years[i-1])
+					del(years[i-1])
+					years.insert(i-1, span3)
+					i = i - 1
+					pass
+				
+				i = i + 1
+				pass
+			team.years = years
+
 	# Open-end all the active year sets
 	for franchise in franchises.values():
 		minYear = franchise.fromYear
@@ -167,7 +175,17 @@ def __download_all_team_data(league):
 
 	return franchises
 
+def __sort_year_span(x, y):
+	if x.fromYear < y.fromYear: return -1
+	if x.fromYear > y.fromYear: return 1
 
+	if x.toYear == None and y.toYear: return 1
+	if x.toYear and y.toYear == None: return -1
+
+	if x.toYear < y.toYear: return -1
+	if x.toYear > y.toYear: return 1
+	
+	return 0
 
 def __find_team(franchises, franchiseName, teamName, identity=None, active=None):
 	
@@ -388,10 +406,5 @@ def __get_teams_keys(league, franchises, multi_team_city_keys):
 				keys.setdefault("~" + create_scannable_key(key), key)
 
 			keys.setdefault(create_scannable_key(abbrev), key)
-
-	#if league in data_corrections.keys():
-	#	for key in data_corrections[league].keys():
-	#		keys.setdefault(create_scannable_key(key), data_corrections[league][key])
-
 
 	return keys
