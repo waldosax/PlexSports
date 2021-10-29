@@ -157,6 +157,7 @@ def DownloadAllFranchises(league):
 		seasons = list(sorted(seasonTracking.keys()))
 		for i in range(1, len(seasonTracking)):
 			toYear = int(seasons[i])
+			if toYear < maxSeason: toYear = toYear - 1
 			fromYear = int(seasons[i-1])
 			key = seasonTracking[seasons[i-1]]
 			teams[key]["years"].append({"fromYear": fromYear, "toYear": toYear})
