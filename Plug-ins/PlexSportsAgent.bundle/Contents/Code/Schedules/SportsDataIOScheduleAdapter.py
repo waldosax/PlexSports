@@ -16,6 +16,8 @@ SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR = 5
 
 
 def GetSchedule(sched, teamKeys, teams, sport, league, season):
+	if league == LEAGUE_NFL and int(season) < 2017: return
+
 	# Augment/replace with data from SportsData.io
 	downloadedJsons = DownloadScheduleForLeagueAndSeason(league, season) #TODO: Rename this
 	for downloadedJson in downloadedJsons:
