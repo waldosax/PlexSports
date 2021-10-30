@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2020SCHEDULE", 
-        "CachedOn": "2021-10-24T23:18:18", 
-        "ExpiresOn": "2021-10-31T23:18:18", 
+        "CachedOn": "2021-10-30T05:16:18", 
+        "ExpiresOn": "2021-11-06T05:16:18", 
         "Version": "2"
     }, 
     "Items": [
@@ -3398,33 +3398,6 @@
                 "fanArt": [], 
                 "logo": [], 
                 "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYJ", 
-            "date": "2020-10-18T20:05:00+00:00", 
-            "homeTeam": "MIA", 
-            "identity": {
-                "ESPNAPIID": "401220124", 
-                "ProFootballReferenceID": "202010180mia", 
-                "SportsDataIOID": "17639"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2020", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Miami Dolphins vs. New York Jets", 
-            "week": 6
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
                 "preview": [
                     {
                         "source": "thesportsdb", 
@@ -3438,18 +3411,25 @@
                     }
                 ]
             }, 
-            "awayTeam": "MIA", 
+            "awayTeam": "NYJ", 
             "date": "2020-10-18T20:05:00+00:00", 
             "description": "The Miami Dolphins (2-3) take on AFC East rivals the New York Jets (0-5). The Dolphins are riding high after a dominant 43-17 win over the San Francisco 49ers last week, with QB Ryan Fitzpatrick throwing for 350 yards and three TDs.", 
-            "homeTeam": "NYJ", 
+            "homeTeam": "MIA", 
             "identity": {
+                "ESPNAPIID": "401220124", 
+                "ProFootballReferenceID": "202010180mia", 
+                "SportsDataIOID": "17639", 
                 "TheSportsDBID": "679930"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "CBS"
+            ], 
             "season": "2020", 
             "sport": "Football", 
-            "vs": "New York Jets vs Miami Dolphins"
+            "subseason": 0, 
+            "vs": "Miami Dolphins vs. New York Jets", 
+            "week": 6
         }, 
         {
             "assets": {
@@ -5841,65 +5821,6 @@
                 "preview": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=Uv6J8DBCAYM"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/wv6dux1603034240.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "GB", 
-            "date": "2020-11-22T16:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "IND", 
-            "identity": {
-                "TheSportsDBID": "679912"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2020", 
-            "sport": "Football", 
-            "vs": "Indianapolis Colts vs Green Bay Packers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "GB", 
-            "date": "2020-11-22T21:25:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "IND", 
-            "identity": {
-                "ESPNAPIID": "401220191", 
-                "ProFootballReferenceID": "202011220clt"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2020", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Indianapolis Colts vs. Green Bay Packers", 
-            "week": 11
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.youtube.com/watch?v=J9UqUAXLDjc"
                     }
                 ], 
@@ -6231,6 +6152,44 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Los Angeles Chargers vs. New York Jets", 
+            "week": 11
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=Uv6J8DBCAYM"
+                    }
+                ], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/wv6dux1603034240.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "GB", 
+            "date": "2020-11-22T21:25:00+00:00", 
+            "description": "", 
+            "homeTeam": "IND", 
+            "identity": {
+                "ESPNAPIID": "401220191", 
+                "ProFootballReferenceID": "202011220clt", 
+                "TheSportsDBID": "679912"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "FOX"
+            ], 
+            "season": "2020", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Indianapolis Colts vs. Green Bay Packers", 
             "week": 11
         }, 
         {
@@ -6587,8 +6546,18 @@
                 "fanArt": [], 
                 "logo": [], 
                 "poster": [], 
-                "preview": [], 
-                "thumbnail": []
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=mx1oLtRiDAQ"
+                    }
+                ], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/ln5u611603034233.jpg"
+                    }
+                ]
             }, 
             "awayTeam": "MIA", 
             "date": "2020-11-29T18:00:00+00:00", 
@@ -6597,7 +6566,8 @@
             "identity": {
                 "ESPNAPIID": "401220139", 
                 "ProFootballReferenceID": "202011290nyj", 
-                "SportsDataIOID": "17433"
+                "SportsDataIOID": "17433", 
+                "TheSportsDBID": "679902"
             }, 
             "league": "NFL", 
             "networks": [
@@ -6725,38 +6695,6 @@
             "subseason": 0, 
             "vs": "Indianapolis Colts vs. Tennessee Titans", 
             "week": 12
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=mx1oLtRiDAQ"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/ln5u611603034233.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "NYJ", 
-            "date": "2020-11-29T19:05:00+00:00", 
-            "description": "", 
-            "homeTeam": "MIA", 
-            "identity": {
-                "TheSportsDBID": "679902"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2020", 
-            "sport": "Football", 
-            "vs": "Miami Dolphins vs New York Jets"
         }, 
         {
             "assets": {

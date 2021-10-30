@@ -1,35 +1,11 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2014SCHEDULE", 
-        "CachedOn": "2021-10-24T22:48:59", 
-        "ExpiresOn": "2021-10-31T22:48:59", 
+        "CachedOn": "2021-10-30T04:34:25", 
+        "ExpiresOn": "2021-11-06T04:34:25", 
         "Version": "2"
     }, 
     "Items": [
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BUF", 
-            "date": "2014-08-03T00:00:00", 
-            "description": "", 
-            "homeTeam": "NYG", 
-            "identity": {
-                "TheSportsDBID": "448163"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "FOX"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "vs": "New York Giants vs Buffalo Bills"
-        }, 
         {
             "assets": {
                 "banner": [], 
@@ -46,11 +22,13 @@
             "eventindicator": -1, 
             "homeTeam": "BUF", 
             "identity": {
-                "ESPNAPIID": "400541294"
+                "ESPNAPIID": "400541294", 
+                "TheSportsDBID": "448163"
             }, 
             "league": "NFL", 
             "networks": [
-                "NBC"
+                "NBC", 
+                "FOX"
             ], 
             "season": "2014", 
             "sport": "Football", 
@@ -4107,30 +4085,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "SEA", 
-            "date": "2014-10-06T00:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "WAS", 
-            "identity": {
-                "TheSportsDBID": "448215"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "ESPN"
-            ], 
-            "season": "2014", 
-            "sport": "Football", 
-            "vs": "Washington Redskins vs Seattle Seahawks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CIN", 
             "date": "2014-10-06T00:43:00+00:00", 
             "description": "Tom Brady became the sixth quarterback to throw for 50,000 career yards when he hit Rob Gronkowski on a 27-yard pass in the first quarter of the Patriots' game against the Bengals on Sunday.", 
@@ -4162,11 +4116,11 @@
             "awayTeam": "SEA", 
             "date": "2014-10-07T00:30:00+00:00", 
             "description": "Russell Wilson rushed for a career-high 122 yards and a touchdown Monday night, and the Seattle Seahawks overcame more than a dozen penalties in a 27-17 victory over the Washington Redskins.", 
-            "eventTitle": "", 
             "homeTeam": "WAS", 
             "identity": {
                 "ESPNAPIID": "400554282", 
-                "ProFootballReferenceID": "201410060was"
+                "ProFootballReferenceID": "201410060was", 
+                "TheSportsDBID": "448215"
             }, 
             "league": "NFL", 
             "networks": [
@@ -7356,28 +7310,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "CLE", 
-            "date": "2014-11-24T00:00:00", 
-            "description": "", 
-            "homeTeam": "BUF", 
-            "identity": {
-                "TheSportsDBID": "481658"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Football", 
-            "vs": "Buffalo Bills vs Cleveland Browns"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "DAL", 
             "date": "2014-11-24T01:30:00+00:00", 
             "description": "Tony Romo upstaged Odell Beckham Jr.'s jaw-dropping one-handed touchdown catch with two third quarter touchdown passes to give the Dallas Cowboys a 24-21 lead over the New York Giants heading into the fourth quarter Sunday night.", 
@@ -7462,6 +7394,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "BUF", 
+            "date": "2014-11-26T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "CLE", 
+            "identity": {
+                "TheSportsDBID": "481658"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Football", 
+            "vs": "Buffalo Bills vs Cleveland Browns"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "CHI", 
             "date": "2014-11-27T17:39:00+00:00", 
             "description": "Calvin Johnson shines in Detroit's 34-17 win over the Chicago Bears.", 
@@ -7536,28 +7490,6 @@
             "subseason": 0, 
             "vs": "San Francisco 49ers vs. Seattle Seahawks", 
             "week": 13
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYJ", 
-            "date": "2014-11-30T00:00:00", 
-            "description": "", 
-            "homeTeam": "BUF", 
-            "identity": {
-                "TheSportsDBID": "481656"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Football", 
-            "vs": "Buffalo Bills vs New York Jets"
         }, 
         {
             "assets": {
@@ -7944,6 +7876,28 @@
             "subseason": 0, 
             "vs": "Kansas City Chiefs vs. Denver Broncos", 
             "week": 13
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "BUF", 
+            "date": "2014-12-02T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "NYJ", 
+            "identity": {
+                "TheSportsDBID": "481656"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Football", 
+            "vs": "Buffalo Bills vs New York Jets"
         }, 
         {
             "assets": {
@@ -10196,57 +10150,14 @@
                 "thumbnail": []
             }, 
             "awayTeam": "BAL", 
-            "date": "2015-01-10T00:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "NE", 
-            "identity": {
-                "TheSportsDBID": "453995"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Football", 
-            "vs": "New England Patriots vs Baltimore Ravens"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CAR", 
-            "date": "2015-01-10T00:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "TheSportsDBID": "453996"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Football", 
-            "vs": "Seattle Seahawks vs Carolina Panthers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "BAL", 
             "date": "2015-01-10T21:35:00+00:00", 
             "description": "Tom Brady's third touchdown pass gave New England its first lead with about five minutes remaining and the Patriots reached their fourth straight AFC championship game with a 35-31 win over the Baltimore Ravens on Saturday.", 
             "eventTitle": "AFC DIVISIONAL PLAYOFF", 
             "homeTeam": "NE", 
             "identity": {
                 "ESPNAPIID": "400749515", 
-                "ProFootballReferenceID": "201501100nwe"
+                "ProFootballReferenceID": "201501100nwe", 
+                "TheSportsDBID": "453995"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10268,50 +10179,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "IND", 
-            "date": "2015-01-11T00:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "TheSportsDBID": "453998"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Football", 
-            "vs": "Denver Broncos vs Indianapolis Colts"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "DAL", 
-            "date": "2015-01-11T00:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "GB", 
-            "identity": {
-                "TheSportsDBID": "453997"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Football", 
-            "vs": "Green Bay Packers vs Dallas Cowboys"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "CAR", 
             "date": "2015-01-11T01:21:00+00:00", 
             "description": "SEATTLE -- Russell Wilson threw three touchdown passes, Kam Chancellor returned an interception 90 yards for a touchdown, and the Seattle Seahawks beat the Carolina Panthers 31-17 on Saturday night in the NFC divisional playoff game.", 
@@ -10319,7 +10186,8 @@
             "homeTeam": "SEA", 
             "identity": {
                 "ESPNAPIID": "400749516", 
-                "ProFootballReferenceID": "201501100sea"
+                "ProFootballReferenceID": "201501100sea", 
+                "TheSportsDBID": "453996"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10348,7 +10216,8 @@
             "homeTeam": "GB", 
             "identity": {
                 "ESPNAPIID": "400749518", 
-                "ProFootballReferenceID": "201501110gnb"
+                "ProFootballReferenceID": "201501110gnb", 
+                "TheSportsDBID": "453997"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10377,7 +10246,8 @@
             "homeTeam": "DEN", 
             "identity": {
                 "ESPNAPIID": "400749517", 
-                "ProFootballReferenceID": "201501110den"
+                "ProFootballReferenceID": "201501110den", 
+                "TheSportsDBID": "453998"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10399,50 +10269,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "IND", 
-            "date": "2015-01-18T00:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "NE", 
-            "identity": {
-                "TheSportsDBID": "454000"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Football", 
-            "vs": "New England Patriots vs Indianapolis Colts"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "GB", 
-            "date": "2015-01-18T00:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "SEA", 
-            "identity": {
-                "TheSportsDBID": "453999"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Football", 
-            "vs": "Seattle Seahawks vs Green Bay Packers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "GB", 
             "date": "2015-01-18T20:06:00+00:00", 
             "description": "Russell Wilson hit Jermaine Kearse for a 35-yard touchdown 3:19 into overtime to lift the Seattle Seahawks to an improbable 28-22 victory over Green Bay in the NFC championship game.", 
@@ -10450,7 +10276,8 @@
             "homeTeam": "SEA", 
             "identity": {
                 "ESPNAPIID": "400749519", 
-                "ProFootballReferenceID": "201501180sea"
+                "ProFootballReferenceID": "201501180sea", 
+                "TheSportsDBID": "453999"
             }, 
             "league": "NFL", 
             "networks": [
@@ -10479,7 +10306,8 @@
             "homeTeam": "NE", 
             "identity": {
                 "ESPNAPIID": "400749520", 
-                "ProFootballReferenceID": "201501180nwe"
+                "ProFootballReferenceID": "201501180nwe", 
+                "TheSportsDBID": "454000"
             }, 
             "league": "NFL", 
             "networks": [

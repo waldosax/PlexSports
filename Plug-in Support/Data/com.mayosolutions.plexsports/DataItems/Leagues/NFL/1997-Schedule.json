@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL1997SCHEDULE", 
-        "CachedOn": "2021-10-24T21:36:49", 
-        "ExpiresOn": "2021-10-31T21:36:49", 
+        "CachedOn": "2021-10-30T02:39:28", 
+        "ExpiresOn": "2021-11-06T02:39:28", 
         "Version": "2"
     }, 
     "Items": [
@@ -3986,32 +3986,12 @@
                 ]
             }, 
             "awayTeam": "CHI", 
-            "date": "1997-11-27T12:30:00+00:00", 
+            "date": "1997-11-27T17:30:00+00:00", 
             "description": "", 
             "homeTeam": "DET", 
             "identity": {
+                "ProFootballReferenceID": "199711270det", 
                 "TheSportsDBID": "1057660"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Football", 
-            "vs": "Detroit Lions vs Chicago Bears"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "CHI", 
-            "date": "1997-11-27T17:30:00+00:00", 
-            "homeTeam": "DET", 
-            "identity": {
-                "ProFootballReferenceID": "199711270det"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -5038,60 +5018,6 @@
                 "fanArt": [], 
                 "logo": [], 
                 "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=mvaZxuDqs5s&ab_channel=NFL"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/7w08tq1602316188.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "NYJ", 
-            "date": "1997-12-21T16:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "DET", 
-            "identity": {
-                "TheSportsDBID": "1057661"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Football", 
-            "vs": "Detroit Lions vs New York Jets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "NYJ", 
-            "date": "1997-12-21T21:00:00+00:00", 
-            "homeTeam": "DET", 
-            "identity": {
-                "ProFootballReferenceID": "199712210det"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Detroit Lions vs. New York Jets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
                 "preview": [], 
                 "thumbnail": []
             }, 
@@ -5283,6 +5209,40 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "Oakland Raiders vs. Jacksonville Jaguars"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=mvaZxuDqs5s&ab_channel=NFL"
+                    }
+                ], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/7w08tq1602316188.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "NYJ", 
+            "date": "1997-12-21T21:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "DET", 
+            "identity": {
+                "ProFootballReferenceID": "199712210det", 
+                "TheSportsDBID": "1057661"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Detroit Lions vs. New York Jets"
         }, 
         {
             "assets": {
@@ -5590,32 +5550,12 @@
                 "thumbnail": []
             }, 
             "awayTeam": "GB", 
-            "date": "1998-01-25T00:00:00+00:00", 
-            "homeTeam": "DEN", 
-            "identity": {
-                "TheSportsDBID": "1084781"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Football", 
-            "vs": "Denver Broncos vs Green Bay Packers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "GB", 
             "date": "1998-01-25T23:30:00+00:00", 
             "eventTitle": "Superbowl XXXII", 
             "homeTeam": "DEN", 
             "identity": {
-                "ProFootballReferenceID": "199801250den"
+                "ProFootballReferenceID": "199801250den", 
+                "TheSportsDBID": "1084781"
             }, 
             "league": "NFL", 
             "networks": [], 

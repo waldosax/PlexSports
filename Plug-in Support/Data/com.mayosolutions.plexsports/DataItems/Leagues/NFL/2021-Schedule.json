@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2021SCHEDULE", 
-        "CachedOn": "2021-10-24T23:23:01", 
-        "ExpiresOn": "2021-10-31T23:23:01", 
+        "CachedOn": "2021-10-30T05:25:30", 
+        "ExpiresOn": "2021-11-06T05:25:30", 
         "Version": "2"
     }, 
     "Items": [
@@ -4712,7 +4712,7 @@
             }, 
             "awayTeam": "PHI", 
             "date": "2021-10-24T20:05:00+00:00", 
-            "description": "", 
+            "description": "\u2014 Las Vegas Raiders quarterback Derek Carr found inactive tight end Darren Waller on the sideline during Sunday\u2019s game against the Philadelphia Eagles to let him know \u201chow weird\u201d it was not having his top target on the field.", 
             "homeTeam": "LV", 
             "identity": {
                 "ESPNAPIID": "401326431", 
@@ -4745,7 +4745,7 @@
             }, 
             "awayTeam": "DET", 
             "date": "2021-10-24T20:05:00+00:00", 
-            "description": "", 
+            "description": "\u2014 Jared Goff was under immediate pressure from Aaron Donald when he dropped back late in a one-score game. He threw to the end zone while being dropped, and <a...", 
             "homeTeam": "LAR", 
             "identity": {
                 "ESPNAPIID": "401326430", 
@@ -4778,7 +4778,7 @@
             }, 
             "awayTeam": "CHI", 
             "date": "2021-10-24T20:25:00+00:00", 
-            "description": "", 
+            "description": "\u2014 Tom Brady says he's not one for collecting a lot of mementos documenting his many accomplishments during an unsurpassed 22-year career. Becoming the first player to throw 600 career touchdown passes is pretty special, though.", 
             "homeTeam": "TB", 
             "identity": {
                 "ESPNAPIID": "401326433", 
@@ -4811,7 +4811,7 @@
             }, 
             "awayTeam": "HOU", 
             "date": "2021-10-24T20:25:00+00:00", 
-            "description": "", 
+            "description": "\u2014 Tight end Zach Ertz has been with the Cardinals for just nine days and already has the longest touchdown catch of his nine-year career, rumbling 47 yards toward the end zone to put an exclamation point on Arizona's 31-5 win over the Houston Texans...", 
             "homeTeam": "ARI", 
             "identity": {
                 "ESPNAPIID": "401326432", 
@@ -4844,7 +4844,7 @@
             }, 
             "awayTeam": "IND", 
             "date": "2021-10-25T00:20:00+00:00", 
-            "description": "", 
+            "description": "\u2014 Colts coach Frank Reich wasn't about to make the same mistake twice.", 
             "homeTeam": "SF", 
             "identity": {
                 "ESPNAPIID": "401326434", 
@@ -4877,18 +4877,22 @@
             }, 
             "awayTeam": "NO", 
             "date": "2021-10-26T00:15:00+00:00", 
-            "description": "", 
+            "description": "\u2014 Three straight losses overall for the first time in a decade. An 0-3 start at home for the first time in nearly 30 years.", 
             "homeTeam": "SEA", 
             "identity": {
+                "ESPNAPIID": "401326435", 
                 "ProFootballReferenceID": "202110250sea", 
                 "TheSportsDBID": "1134513"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "ESPN"
+            ], 
             "season": "2021", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Seattle Seahawks vs. New Orleans Saints"
+            "vs": "Seattle Seahawks vs. New Orleans Saints", 
+            "week": 7
         }, 
         {
             "assets": {
@@ -4906,18 +4910,23 @@
             }, 
             "awayTeam": "GB", 
             "date": "2021-10-29T00:20:00+00:00", 
-            "description": "", 
+            "description": "\u2014 Rasul Douglas was living the life of an NFL journeyman just a few weeks ago, bouncing between camps and practice squads in a frustrating process that is football's version of purgatory.", 
             "homeTeam": "ARI", 
             "identity": {
+                "ESPNAPIID": "401326436", 
                 "ProFootballReferenceID": "202110280crd", 
                 "TheSportsDBID": "1134514"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "FOX", 
+                "NFL NET"
+            ], 
             "season": "2021", 
             "sport": "Football", 
             "subseason": 0, 
-            "vs": "Arizona Cardinals vs. Green Bay Packers"
+            "vs": "Arizona Cardinals vs. Green Bay Packers", 
+            "week": 8
         }, 
         {
             "assets": {

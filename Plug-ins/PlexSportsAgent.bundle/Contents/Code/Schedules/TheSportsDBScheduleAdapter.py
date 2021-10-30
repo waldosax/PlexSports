@@ -65,14 +65,14 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 				if date == None:
 					continue
 
+				id = deunicode(schedEvent["idEvent"])
 				kwargs = {
 					"sport": sport,
 					"league": league,
 					"season": season,
 					"date": date,
-					"TheSportsDBID": deunicode(schedEvent["idEvent"]),
+					"TheSportsDBID": id,
 					"vs": vs,
-					#"altTitle": deunicode(schedEvent["strEventAlternate"]),
 					"description": deunicode(normalize(schedEvent["strDescriptionEN"])),
 					"homeTeam": homeTeamKey,
 					"awayTeam": awayTeamKey,
@@ -91,10 +91,50 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 
 				event = ScheduleEvent(**kwargs)
 
-				AddOrAugmentEvent(sched, event)
+				if league == LEAGUE_NFL:
+					event = __trashbucket_lookaround(sched, event)
+
+				AddOrAugmentEvent(sched, event, 10) # Big time sensitivity because trashbucket
 
 
+# Because the bucket is full of trash
+def __trashbucket_lookaround(sched, event):
 
+	origHash = sched_compute_augmentation_hash(event)
+	if origHash in sched.keys(): return event
+
+	homeaway = [
+		[event.homeTeam, event.awayTeam],
+		[event.awayTeam, event.homeTeam]
+		]
+
+	for teams in homeaway:
+		datevariants = [
+			event.date,
+			event.date - timedelta(days=1),
+			event.date.replace(hour=0,minute=0,second=0, tzinfo=UTC),
+			event.date.replace(hour=0,minute=0,second=0, tzinfo=UTC) - timedelta(days=1),
+			event.date + timedelta(days=1),
+			event.date.replace(hour=0,minute=0,second=0, tzinfo=UTC) + timedelta(days=1)
+			]
+		for datevariant in datevariants:
+			altEvent = __clone_event(event, homeTeam=teams[0], awayTeam=teams[1], date=datevariant)
+			hash = sched_compute_augmentation_hash(altEvent)
+			if hash in sched.keys(): return altEvent
+
+	return event
+
+def __clone_event(event, **kwargs):
+
+	srcdict = event.__dict__
+
+	if kwargs:
+		for key in kwargs.keys():
+			if key in srcdict.keys():
+				srcdict[key] = kwargs[key]
+
+	altEvent = ScheduleEvent(**srcdict)
+	return altEvent
 
 def SupplementScheduleEvent(league, schedEvent, kwargs):
 	"""League-specific supplemental data."""
@@ -187,6 +227,7 @@ def __parse_local_date(dateStr, timeStr, defaultTz=EasternTime):
 			if tail:
 				tz = __fathom_time_zone(tail, defaultTz)
 
+	if timeStr == None: timeStr = "00:00:00"
 	date = ParseISO8601Date("%sT%s" % (dateStr, timeStr))
 	# Relative to specified time zone (or East Coast if unspecified)
 	date = date.replace(tzinfo=tz).astimezone(tz=UTC)
@@ -199,6 +240,9 @@ def __get_event_date(league, schedEvent):
 	if schedEvent.get("dateEvent") and schedEvent.get("strTime"):
 		dateStr = schedEvent["dateEvent"]
 		timeStr = schedEvent["strTime"]
+
+		if league == LEAGUE_NFL:
+			if timeStr == "17:00:00": timeStr = "00:00:00"
 
 		if re.match(r"\d{1,2}:\d{2}:\d{2}", timeStr):
 			# Already expressed in Zulu Time
