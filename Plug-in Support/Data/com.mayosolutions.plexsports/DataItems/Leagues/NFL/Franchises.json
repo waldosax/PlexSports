@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFLFRANCHISES", 
-        "CachedOn": "2021-10-29T07:33:09", 
-        "ExpiresOn": "2022-03-13T07:33:09", 
+        "CachedOn": "2021-10-31T00:50:13", 
+        "ExpiresOn": "2022-03-15T00:50:13", 
         "Version": "1"
     }, 
     "Items": [
@@ -119,10 +119,7 @@
                         "active": true, 
                         "aliases": [
                             "CRD", 
-                            "Phoenix Cardinals", 
-                            "Chi/Pit Cards/Steelers", 
-                            "Chicago Cardinals", 
-                            "St. Louis Cardinals"
+                            "Chi/Pit Cards/Steelers"
                         ], 
                         "assets": {
                             "badge": [
@@ -317,6 +314,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/crd-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/7/72/Arizona_Cardinals_logo.svg"
                                 }
@@ -387,22 +388,40 @@
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#A40227"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/crd.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "Chicago", 
                         "fullName": "Chicago Cardinals", 
                         "identity": {
+                            "ESPNAPIID": "22.1945", 
                             "ProFootballReferenceID": "CRD.AC.CC"
                         }, 
                         "key": "", 
+                        "name": "Cardinals", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -421,7 +440,18 @@
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#A40227"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
@@ -437,6 +467,7 @@
                         "division": "West", 
                         "fullName": "Phoenix Cardinals", 
                         "identity": {
+                            "ESPNAPIID": "22.1988", 
                             "ProFootballReferenceID": "CRD.AC.PC", 
                             "SportsDataIOID": "27"
                         }, 
@@ -456,22 +487,40 @@
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#A40227"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/crd.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "St. Louis", 
                         "fullName": "St. Louis Cardinals", 
                         "identity": {
+                            "ESPNAPIID": "22.1960", 
                             "ProFootballReferenceID": "CRD.AC.SLC"
                         }, 
                         "key": "", 
+                        "name": "Cardinals", 
                         "years": [
                             {
                                 "fromYear": 1960, 
@@ -828,6 +877,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/atl-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Atlanta_Falcons_logo.svg"
                                 }
@@ -1113,6 +1166,10 @@
                                     "season": 2021, 
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/rav-2021.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png"
                                 }, 
                                 {
                                     "source": "wikipedia", 
@@ -1879,6 +1936,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/bba-1949.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/7/77/Buffalo_Bills_logo.svg"
                                 }
@@ -2343,6 +2404,10 @@
                                     "season": 2021, 
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/car-2021.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png"
                                 }, 
                                 {
                                     "source": "wikipedia", 
@@ -2945,6 +3010,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/chi-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg"
                                 }
@@ -3486,6 +3555,10 @@
                                     "season": 2021, 
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/cin-2021.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png"
                                 }, 
                                 {
                                     "source": "wikipedia", 
@@ -4054,6 +4127,10 @@
                                     "season": 2021, 
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/cle-2021.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png"
                                 }, 
                                 {
                                     "source": "wikipedia", 
@@ -4717,6 +4794,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/dal-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Dallas_Cowboys.svg"
                                 }
@@ -5253,6 +5334,10 @@
                                     "season": 2021, 
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/den-2021.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png"
                                 }, 
                                 {
                                     "source": "wikipedia", 
@@ -5830,6 +5915,10 @@
                                     "season": 2021, 
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/det-2021.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png"
                                 }, 
                                 {
                                     "source": "wikipedia", 
@@ -6804,6 +6893,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/gnb-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Green_Bay_Packers_logo.svg"
                                 }
@@ -7119,6 +7212,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/htx-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/2/28/Houston_Texans_logo.svg"
                                 }
@@ -7166,22 +7263,40 @@
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#00417E"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#ffffff"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/clt.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "Baltimore", 
                         "fullName": "Baltimore Colts", 
                         "identity": {
+                            "ESPNAPIID": "11.1953", 
                             "ProFootballReferenceID": "CLT.IC.BC"
                         }, 
                         "key": "", 
+                        "name": "Colts", 
                         "years": [
                             {
                                 "fromYear": 1953, 
@@ -7194,8 +7309,7 @@
                         "active": true, 
                         "aliases": [
                             "CLT", 
-                            "Indy", 
-                            "Baltimore Colts"
+                            "Indy"
                         ], 
                         "assets": {
                             "badge": [
@@ -7445,6 +7559,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/clt-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Indianapolis_Colts_logo.svg"
                                 }
@@ -7680,6 +7798,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/jax-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/7/74/Jacksonville_Jaguars_logo.svg"
                                 }
@@ -7727,22 +7849,40 @@
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#BE1415"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#e31837"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "Dallas", 
                         "fullName": "Dallas Texans", 
                         "identity": {
+                            "ESPNAPIID": "12.1960", 
                             "ProFootballReferenceID": "KAN.KCC.DT"
                         }, 
                         "key": "", 
+                        "name": "Texans", 
                         "years": [
                             {
                                 "fromYear": 1960, 
@@ -7754,7 +7894,6 @@
                         "abbreviation": "KC", 
                         "active": true, 
                         "aliases": [
-                            "Dallas Texans", 
                             "KAN"
                         ], 
                         "assets": {
@@ -8105,6 +8244,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/kan-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/e/e1/Kansas_City_Chiefs_logo.svg"
                                 }
@@ -8270,9 +8413,7 @@
                         "abbreviation": "LV", 
                         "active": true, 
                         "aliases": [
-                            "Los Angeles Raiders", 
                             "Oakland Raiders", 
-                            "OAK", 
                             "RAI"
                         ], 
                         "assets": {
@@ -8333,6 +8474,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/rai-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/4/48/Las_Vegas_Raiders_logo.svg"
                                 }
@@ -8373,13 +8518,28 @@
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#a5acaf"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/rai.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png"
                                 }
                             ], 
                             "wordmark": []
@@ -8389,6 +8549,7 @@
                         "division": "West", 
                         "fullName": "Los Angeles Raiders", 
                         "identity": {
+                            "ESPNAPIID": "13.1982", 
                             "ProFootballReferenceID": "RAI.LVR.LAR", 
                             "SportsDataIOID": "17"
                         }, 
@@ -8402,28 +8563,47 @@
                         ]
                     }, 
                     "Oakland Raiders": {
-                        "abbreviation": "", 
+                        "abbreviation": "OAK", 
                         "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#a5acaf"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/rai.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/oak.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "Oakland", 
                         "fullName": "Oakland Raiders", 
                         "identity": {
-                            "ProFootballReferenceID": "RAI.LVR.OR"
+                            "ESPNAPIID": "13.1995", 
+                            "ProFootballReferenceID": "RAI.LVR.OR", 
+                            "SportsDBID": "134932.OAK"
                         }, 
-                        "key": "", 
+                        "key": "OAK", 
+                        "name": "Raiders", 
                         "years": [
                             {
                                 "fromYear": 1960, 
@@ -8490,7 +8670,6 @@
                         "active": true, 
                         "aliases": [
                             "The Bolts", 
-                            "San Diego Chargers", 
                             "SDG"
                         ], 
                         "assets": {
@@ -8581,6 +8760,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/sdg-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/a/a6/Los_Angeles_Chargers_logo.svg"
                                 }
@@ -8619,28 +8802,46 @@
                         ]
                     }, 
                     "San Diego Chargers": {
-                        "abbreviation": "", 
+                        "abbreviation": "SD", 
                         "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#042453"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#0073cf"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/sdg.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/sd.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "San Diego", 
                         "fullName": "San Diego Chargers", 
                         "identity": {
+                            "ESPNAPIID": "24.1961", 
                             "ProFootballReferenceID": "SDG.LAC.SDC"
                         }, 
                         "key": "", 
+                        "name": "Chargers", 
                         "years": [
                             {
                                 "fromYear": 1961, 
@@ -8720,22 +8921,40 @@
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#00295B"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#b3995d"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "Cleveland", 
                         "fullName": "Cleveland Rams", 
                         "identity": {
+                            "ESPNAPIID": "14.1937", 
                             "ProFootballReferenceID": "RAM.LAR.CR"
                         }, 
                         "key": "", 
+                        "name": "Rams", 
                         "years": [
                             {
                                 "fromYear": 1937, 
@@ -8747,8 +8966,6 @@
                         "abbreviation": "LAR", 
                         "active": true, 
                         "aliases": [
-                            "Cleveland Rams", 
-                            "St. Louis Rams", 
                             "RAM", 
                             "LA Rams"
                         ], 
@@ -9080,6 +9297,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/8/8a/Los_Angeles_Rams_logo.svg"
                                 }
@@ -9118,28 +9339,46 @@
                         ]
                     }, 
                     "St. Louis Rams": {
-                        "abbreviation": "", 
+                        "abbreviation": "STL", 
                         "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#00295B"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#b3995d"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/ram.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/stl.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "St. Louis", 
                         "fullName": "St. Louis Rams", 
                         "identity": {
+                            "ESPNAPIID": "14.1995", 
                             "ProFootballReferenceID": "RAM.LAR.SLR"
                         }, 
                         "key": "", 
+                        "name": "Rams", 
                         "years": [
                             {
                                 "fromYear": 1995, 
@@ -9564,6 +9803,10 @@
                                     "season": 2021, 
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/mia-2021.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png"
                                 }, 
                                 {
                                     "source": "wikipedia", 
@@ -10154,6 +10397,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/min-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/4/48/Minnesota_Vikings_logo.svg"
                                 }
@@ -10278,22 +10525,40 @@
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#02244A"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#b0b7bc"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "Boston", 
                         "fullName": "Boston Patriots", 
                         "identity": {
+                            "ESPNAPIID": "17.1960", 
                             "ProFootballReferenceID": "NWE.NEP.BP"
                         }, 
                         "key": "", 
+                        "name": "Patriots", 
                         "years": [
                             {
                                 "fromYear": 1960, 
@@ -10306,7 +10571,6 @@
                         "active": true, 
                         "aliases": [
                             "NWE", 
-                            "Boston Patriots", 
                             "The Pats"
                         ], 
                         "assets": {
@@ -10620,6 +10884,10 @@
                                     "season": 2021, 
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nwe-2021.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png"
                                 }, 
                                 {
                                     "source": "wikipedia", 
@@ -10994,6 +11262,10 @@
                                     "season": 2021, 
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nor-2021.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png"
                                 }, 
                                 {
                                     "source": "wikipedia", 
@@ -11621,6 +11893,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyg-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/New_York_Giants_logo.svg"
                                 }
@@ -11665,8 +11941,7 @@
                         "abbreviation": "NYJ", 
                         "active": true, 
                         "aliases": [
-                            "Gang Green", 
-                            "New York Titans"
+                            "Gang Green"
                         ], 
                         "assets": {
                             "badge": [
@@ -12016,6 +12291,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/6/6b/New_York_Jets_logo.svg"
                                 }
@@ -12056,22 +12335,40 @@
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#174032"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#ffffff"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/nyj.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "New York", 
                         "fullName": "New York Titans", 
                         "identity": {
+                            "ESPNAPIID": "20.1960", 
                             "ProFootballReferenceID": "NYJ.NYT"
                         }, 
                         "key": "", 
+                        "name": "Titans", 
                         "years": [
                             {
                                 "fromYear": 1960, 
@@ -12879,6 +13176,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/phi-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/8/8e/Philadelphia_Eagles_logo.svg"
                                 }
@@ -12990,22 +13291,40 @@
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#000000"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#ffb612"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/pit.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "Pittsburgh", 
                         "fullName": "Pittsburgh Pirates", 
                         "identity": {
+                            "ESPNAPIID": "23.1933", 
                             "ProFootballReferenceID": "PIT.PS.PP"
                         }, 
                         "key": "", 
+                        "name": "Pirates", 
                         "years": [
                             {
                                 "fromYear": 1933, 
@@ -13018,7 +13337,6 @@
                         "active": true, 
                         "aliases": [
                             "Chi/Pit Cards/Steelers", 
-                            "Pittsburgh Pirates", 
                             "Phi/Pit Eagles/Steelers"
                         ], 
                         "assets": {
@@ -13467,6 +13785,10 @@
                                     "season": 2021, 
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/pit-2021.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png"
                                 }, 
                                 {
                                     "source": "wikipedia", 
@@ -14229,6 +14551,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/sfo-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/San_Francisco_49ers_logo.svg"
                                 }
@@ -14554,6 +14880,10 @@
                                     "season": 2021, 
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/sea-2021.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png"
                                 }, 
                                 {
                                     "source": "wikipedia", 
@@ -15034,6 +15364,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/tam-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Tampa_Bay_Buccaneers_logo.svg"
                                 }
@@ -15081,22 +15415,40 @@
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#2F95DD"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#4b92db"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "Houston", 
                         "fullName": "Houston Oilers", 
                         "identity": {
+                            "ESPNAPIID": "10.1960", 
                             "ProFootballReferenceID": "OTI.TT.HO"
                         }, 
                         "key": "", 
+                        "name": "Oilers", 
                         "years": [
                             {
                                 "fromYear": 1960, 
@@ -15111,22 +15463,40 @@
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#2F95DD"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#4b92db"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "Tennessee", 
                         "fullName": "Tennessee Oilers", 
                         "identity": {
+                            "ESPNAPIID": "10.1997", 
                             "ProFootballReferenceID": "OTI.TT.TO"
                         }, 
                         "key": "", 
+                        "name": "Oilers", 
                         "years": [
                             {
                                 "fromYear": 1997, 
@@ -15138,9 +15508,7 @@
                         "abbreviation": "TEN", 
                         "active": true, 
                         "aliases": [
-                            "OTI", 
-                            "Houston Oilers", 
-                            "Tennessee Oilers"
+                            "OTI"
                         ], 
                         "assets": {
                             "badge": [
@@ -15315,6 +15683,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/oti-2021.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/c/c1/Tennessee_Titans_logo.svg"
                                 }
@@ -15477,28 +15849,46 @@
                         ]
                     }, 
                     "Boston Redskins": {
-                        "abbreviation": "", 
+                        "abbreviation": "WSH", 
                         "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#650415"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#650415"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/was.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "Boston", 
                         "fullName": "Boston Redskins", 
                         "identity": {
+                            "ESPNAPIID": "28.1933", 
                             "ProFootballReferenceID": "WAS.WFT.BR"
                         }, 
                         "key": "", 
+                        "name": "Redskins", 
                         "years": [
                             {
                                 "fromYear": 1933, 
@@ -15510,11 +15900,9 @@
                         "abbreviation": "WAS", 
                         "active": true, 
                         "aliases": [
-                            "Washington Redskins", 
                             "WSH", 
                             "Washington Football Team", 
-                            "Boston Braves", 
-                            "Boston Redskins"
+                            "Boston Braves"
                         ], 
                         "assets": {
                             "badge": [
@@ -15564,6 +15952,10 @@
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/was.png"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/6/60/DC_NFL_2020-2.jpg"
                                 }
@@ -15598,28 +15990,46 @@
                         ]
                     }, 
                     "Washington Redskins": {
-                        "abbreviation": "", 
+                        "abbreviation": "WSH", 
                         "active": false, 
                         "aliases": [], 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
-                            "colors": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#650415"
+                                }, 
+                                {
+                                    "colortype": "secondary", 
+                                    "source": "espnapi", 
+                                    "value": "#650415"
+                                }
+                            ], 
                             "fanArt": [], 
                             "jersey": [], 
                             "logo": [
                                 {
                                     "source": "profootballreference", 
                                     "url": "https://d2p3bygnnzw9w3.cloudfront.net/req/202108041/tlogo/pfr/was.png"
+                                }, 
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
                                 }
                             ], 
                             "wordmark": []
                         }, 
+                        "city": "Washington", 
                         "fullName": "Washington Redskins", 
                         "identity": {
+                            "ESPNAPIID": "28.1937", 
                             "ProFootballReferenceID": "WAS.WFT.WR"
                         }, 
                         "key": "", 
+                        "name": "Redskins", 
                         "years": [
                             {
                                 "fromYear": 1937, 

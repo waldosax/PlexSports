@@ -1,23 +1,17 @@
 Schedule idiosyncracies
 -----------------------------------------------------------------------
-Disagreement. Event found, but not sourced by all
 Duplicates.
-	Events found for same team, same day, not double-headers.
-		Time off more than an hour
-		Game indicator mismatches (Double-Header vs. tournament)
-	Home & Away reversed. Verify Source.
-	Double-Headers in sports that don't belong (NFL, NBA?-bubble)
-Time offset. Events found, but agreement is off by number of hours. Verify source.
+	Game indicator mismatches (Double-Header vs. tournament)
 Missing data (gaps)
 	NHL API 2004 season
-	ESPN API (NHL) 2006 Season
+	ESPN API
+		(NHL) 2006 Season
+		(NFL) Seasons where ?dates=YYYY0000, try ?dates=YYYY
 Data in wrong season
 	ESPN API (NFL) 2022 season has 2021 preseason events
 Games that are scheduled, but never played
 	2020 World Series, Game 7
 Spring Training Exhibitions are marked as regular season
-Unrecognized teams showing up in wrong league?
-	NFL: WSH returns Washington Senators
 Subseason not identified.
 	NFL Preseason games crossing the GMT date boundary
 Games that have been rescheduled or cancelled (Not just MLB)

@@ -107,6 +107,8 @@ def __download_all_team_data(league):
 		
 	# Augment/replace with data from ESPN API
 	espnapiTeams = ESPNAPIFranchiseAdapter.DownloadAllTeams(league)
+	if league == LEAGUE_NFL:
+		ESPNAPIFranchiseAdapter.CorrectNFLFranchiseHistory(league, franchises, espnapiTeams)
 	incorporate_teams(franchises, espnapiTeams)
 		
 	# Augment/replace with data from SportsData.io

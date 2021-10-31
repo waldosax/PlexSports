@@ -30,7 +30,21 @@ def DownloadAllTeams(league):
 		aliases = []
 		if spdb_abbreviation_corrections.get(league):
 			if spdb_abbreviation_corrections[league].get(abbrev):
-				aliases.append(abbrev)
+				if league == LEAGUE_NFL and abbrev == "OAK":
+					# Don't apply this to LV Raiders aliases. Apply it to Oakland Raiders abbreviation in history
+					kwargs = {
+						"key": key,
+						"abbreviation": abbrev,
+						"active": False,
+						"name": "Raiders",
+						"fullName": "Oakland Raiders",
+						"city": "Oakland",
+						"SportsDBID": "%s.%s" % (str(team["idTeam"]), abbrev),
+						}
+					teams[key] = kwargs
+				else:
+					aliases.append(abbrev)
+
 				key = abbrev = spdb_abbreviation_corrections[league][abbrev]
 
 		if league == LEAGUE_NBA:
