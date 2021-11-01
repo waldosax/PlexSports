@@ -15,11 +15,11 @@ SPORTS_DATA_IO_SEASON_TYPE_OFFSEASON = 4
 SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR = 5
 
 
-def GetSchedule(sched, teamKeys, teams, sport, league, season):
+def GetSchedule(sched, navigator, sport, league, season):
 	if league == LEAGUE_NFL and int(season) < 2017: return
 
 	# Augment/replace with data from SportsData.io
-	downloadedJsons = DownloadScheduleForLeagueAndSeason(league, season) #TODO: Rename this
+	downloadedJsons = DownloadScheduleForLeagueAndSeason(league, season)
 	for downloadedJson in downloadedJsons:
 		if not downloadedJson: continue
 		try: sportsDataIOSchedule = json.loads(downloadedJson)
@@ -37,15 +37,15 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					continue
 
 				# Teams from this API are abbreviations
-				homeTeamKey = deunicode(schedEvent["HomeTeam"])
-				awayTeamKey = deunicode(schedEvent["AwayTeam"])
-				homeTeamKeyStripped = create_scannable_key(homeTeamKey)
-				awayTeamKeyStripped = create_scannable_key(awayTeamKey)
+				homeTeamAbbrev = deunicode(schedEvent["HomeTeam"])
+				homeTeam = navigator.GetTeam(season, abbreviation=homeTeamAbbrev)
+				homeTeamKey = homeTeam.key if homeTeam else homeTeamAbbrev
+				homeTeamFullName = homeTeam.fullName if homeTeam else homeTeamAbbrev
 
-				homeTeamName = deunicode(schedEvent["HomeTeam"]) or ""
-				awayTeamName = deunicode(schedEvent["AwayTeam"]) or ""
-				if teamKeys.get(homeTeamKeyStripped): homeTeamName = teams[teamKeys[homeTeamKeyStripped]].fullName
-				if teamKeys.get(awayTeamKeyStripped): awayTeamName = teams[teamKeys[awayTeamKeyStripped]].fullName
+				awayTeamAbbrev = deunicode(schedEvent["AwayTeam"])
+				awayTeam = navigator.GetTeam(season, abbreviation=awayTeamAbbrev)
+				awayTeamKey = awayTeam.key if awayTeam else awayTeamAbbrev
+				awayTeamFullName = awayTeam.fullName if awayTeam else awayTeamAbbrev
 
 				date = None
 				if schedEvent.get("DateTime"):
@@ -69,7 +69,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					"date": date,
 					"week": week,
 					"SportsDataIOID": gameID,
-					"vs": "%s vs %s" % (homeTeamName, awayTeamName),
+					"vs": "%s vs %s" % (homeTeamFullName, awayTeamFullName),
 					"homeTeam": homeTeamKey,
 					"awayTeam": awayTeamKey,
 					"networks": splitAndTrim(deunicode(schedEvent.get("Channel"))),

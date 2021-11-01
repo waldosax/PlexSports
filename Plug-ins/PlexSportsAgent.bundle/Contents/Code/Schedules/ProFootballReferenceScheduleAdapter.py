@@ -2,6 +2,7 @@ import re
 import datetime
 
 from Constants import *
+from Hashes import *
 from StringUtils import *
 from TimeZoneUtils import *
 from ProFootballReferenceScheduleScraper import *
@@ -27,7 +28,7 @@ pfr_abbreviation_corrections = {
 	}
 
 
-def GetSchedule(sched, teamKeys, teams, sport, league, season):
+def GetSchedule(sched, navigator, sport, league, season):
 	# Retrieve data from MLB API
 	pfrSchedule = ScrapeScheduleForSeason(season)
 	
@@ -39,8 +40,6 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 						for key in sorted(pfrSchedule["subseasons"][subseason][week]["events"].keys()):
 							schedEvent = pfrSchedule["subseasons"][subseason][week]["events"][key]
 							
-							__correct_abbreviations(schedEvent)
-
 							date = schedEvent["date"]
 							time = schedEvent.get("time")
 							if time:
@@ -49,20 +48,30 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 								date = datetime.datetime.combine(date.date(), time)
 							date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
 
+							homeTeamFullName = deunicode(schedEvent["homeTeam"])
+							homeTeamAbbrev = __correct_abbreviation(deunicode(schedEvent["homeTeamAbbrev"]))
+							homeTeam = navigator.GetTeam(season, homeTeamFullName, abbreviation=homeTeamAbbrev)
+							homeTeamKey = homeTeam.key if homeTeam else create_scannable_key(homeTeamFullName)
+
+							awayTeamFullName = deunicode(schedEvent["awayTeam"])
+							awayTeamAbbrev = __correct_abbreviation(deunicode(schedEvent["awayTeamAbbrev"]))
+							awayTeam = navigator.GetTeam(season, awayTeamFullName, abbreviation=awayTeamAbbrev)
+							awayTeamKey = awayTeam.key if awayTeam else create_scannable_key(awayTeamFullName)
+
 							kwargs = {
 								"sport": sport,
 								"league": league,
 								"season": season,
 								"date": date,
-								"ProFootballReferenceID": schedEvent["id"],
-								"homeTeam": schedEvent["homeTeam"],
-								"awayTeam": schedEvent["awayTeam"],
-								"vs": schedEvent["vs"],
+								"ProFootballReferenceID": deunicode(schedEvent["id"]),
+								"homeTeam": homeTeamKey,
+								"awayTeam": awayTeamKey,
+								"vs": deunicode(schedEvent["vs"]),
 								"subseason": schedEvent["subseason"],
-								"subseasonTitle": schedEvent.get("subseasonTitle"),
+								"subseasonTitle": deunicode(schedEvent.get("subseasonTitle")),
 								"playoffround": schedEvent.get("week") if subseason == NFL_SUBSEASON_FLAG_POSTSEASON else None,
 								"eventindicator": schedEvent.get("eventindicator") or NFL_EVENT_FLAG_SUPERBOWL if subseason == NFL_SUBSEASON_FLAG_POSTSEASON and week == NFL_PLAYOFF_ROUND_SUPERBOWL else None,
-								"eventTitle": schedEvent.get("alias"),
+								"eventTitle": deunicode(schedEvent.get("alias")),
 								}
 
 							event = ScheduleEvent(**kwargs)
@@ -71,22 +80,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 
 
 
-PFR_SCHEDULEEVENT_KEY_REGEX = re.compile(r"nfl\d{4}\-\d{8}(?P<team1>\w+)vs(?P<team2>\w+)", re.IGNORECASE)
-
-def __correct_abbreviations_in_key(key):
-	m = PFR_SCHEDULEEVENT_KEY_REGEX.match(key)
-	if m:
-		team1Abbrev = __correct_abbreviation(m.groupdict()["team1"])
-		team2Abbrev = __correct_abbreviation(m.groupdict()["team2"])
-		return "%s%svs%s" % (key[:m.start(0)], team1Abbrev, team2Abbrev)
-	return key
-
 def __correct_abbreviation(abbrev):
 	if abbrev.upper() in pfr_abbreviation_corrections.keys():
 		return pfr_abbreviation_corrections[abbrev.upper()]
 	return abbrev.upper()
-
-def __correct_abbreviations(schedEvent):
-	schedEvent["key"] = __correct_abbreviations_in_key(schedEvent["key"])
-	schedEvent["homeTeam"] = __correct_abbreviation(schedEvent["homeTeam"])
-	schedEvent["awayTeam"] = __correct_abbreviation(schedEvent["awayTeam"])

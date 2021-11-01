@@ -20,7 +20,7 @@ MLBAPI_GAMETYPE_CHAMPIONSHIP = "C"
 MLBAPI_GAMETYPE_ALL_STAR_GAME = "A"
 
 
-def GetSchedule(sched, teamKeys, teams, sport, league, season):
+def GetSchedule(sched, navigator, sport, league, season):
 	# Retrieve data from MLB API
 	downloadedJson = DownloadScheduleForSeason(season)
 	
@@ -32,7 +32,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 		for eventDate in mlbApiSchedule["dates"]:
 			dateGroup = eventDate["date"]
 			for schedEvent in eventDate["games"]:
-		
+
 				date = None
 				if schedEvent.get("gameDate"):
 					date = ParseISO8601Date(schedEvent["gameDate"])
@@ -46,10 +46,12 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 				# Teams from this API are full names
 				homeTeamName = schedEvent["teams"]["home"]["team"]["name"]
 				awayTeamName = schedEvent["teams"]["away"]["team"]["name"]
-				homeTeamStripped = create_scannable_key(homeTeamName)
-				awayTeamStripped = create_scannable_key(awayTeamName)
-				homeTeamKey = teamKeys[homeTeamStripped] if teamKeys.get(homeTeamStripped) else homeTeamStripped
-				awayTeamKey = teamKeys[awayTeamStripped] if teamKeys.get(awayTeamStripped) else awayTeamStripped
+
+				homeTeam = navigator.GetTeam(season, homeTeamName)
+				awayTeam = navigator.GetTeam(season, awayTeamName)
+
+				homeTeamKey = homeTeam.key if homeTeam else create_scannable_key(homeTeamName)
+				awayTeamKey = awayTeam.key if awayTeam else create_scannable_key(awayTeamName)
 
 				subseason = None
 				playoffRound = None
@@ -81,7 +83,7 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					"league": league,
 					"season": season,
 					"date": date,
-					"MLBAPIID": schedEvent["gamePk"],
+					"MLBAPIID": str(schedEvent["gamePk"]),
 					"title": schedEvent.get("description"),
 					"subseasonTitle": schedEvent.get("seriesDescription"),
 					"homeTeam": homeTeamKey,

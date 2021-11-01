@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBAFRANCHISES", 
-        "CachedOn": "2021-10-29T07:33:03", 
-        "ExpiresOn": "2022-03-13T07:33:03", 
+        "CachedOn": "2021-11-01T18:32:56", 
+        "ExpiresOn": "2022-03-16T18:32:56", 
         "Version": "1"
     }, 
     "Items": [
@@ -15,6 +15,7 @@
                         "abbreviation": "EST", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -50,6 +51,7 @@
                         "abbreviation": "WST", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -86,6 +88,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -100,7 +103,7 @@
                         "identity": {
                             "NBAAPIID": 1610610023
                         }, 
-                        "key": "1610610023", 
+                        "key": "e39e3dc7-6260-419a-940c-691f2e11dae9", 
                         "name": "Packers", 
                         "years": [
                             {
@@ -121,6 +124,7 @@
                         "abbreviation": "ATL", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -184,6 +188,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/2/24/Atlanta_Hawks_logo.svg"
                                 }
@@ -205,7 +213,7 @@
                             "SportsDBID": "134880", 
                             "SportsDataIOID": "3"
                         }, 
-                        "key": "ATL", 
+                        "key": "772c0a01-8b26-452a-a712-9e93582f1b02", 
                         "name": "Hawks", 
                         "years": [
                             {
@@ -217,6 +225,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -242,7 +251,7 @@
                         "identity": {
                             "NBAAPIID": 1610612737
                         }, 
-                        "key": "1610612737", 
+                        "key": "906183cf-d292-40d9-9e59-e5265c2c5b01", 
                         "name": "Hawks", 
                         "years": [
                             {
@@ -255,6 +264,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -280,7 +290,7 @@
                         "identity": {
                             "NBAAPIID": 1610612737
                         }, 
-                        "key": "1610612737", 
+                        "key": "fe827124-205a-49cf-a4e0-6acce8352906", 
                         "name": "Hawks", 
                         "years": [
                             {
@@ -293,6 +303,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -318,7 +329,7 @@
                         "identity": {
                             "NBAAPIID": 1610612737
                         }, 
-                        "key": "1610612737", 
+                        "key": "cf0205c5-ff55-459a-a40f-a394bad026e5", 
                         "name": "Blackhawks", 
                         "years": [
                             {
@@ -338,6 +349,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -352,7 +364,7 @@
                         "identity": {
                             "NBAAPIID": 1610610024
                         }, 
-                        "key": "1610610024", 
+                        "key": "e9df1ea2-aaef-4ceb-8266-a51037e84732", 
                         "name": "Bullets", 
                         "years": [
                             {
@@ -373,6 +385,7 @@
                         "abbreviation": "BOS", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -436,6 +449,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/8/8f/Boston_Celtics.svg"
                                 }
@@ -457,7 +474,7 @@
                             "SportsDBID": "134860", 
                             "SportsDataIOID": "9"
                         }, 
-                        "key": "BOS", 
+                        "key": "8b0031fb-8c34-41e5-8cde-654721903a24", 
                         "name": "Celtics", 
                         "years": [
                             {
@@ -476,6 +493,7 @@
                         "abbreviation": "BKN", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -534,6 +552,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Brooklyn_Nets_newlogo.svg"
                                 }
@@ -555,7 +577,7 @@
                             "SportsDBID": "134861", 
                             "SportsDataIOID": "8"
                         }, 
-                        "key": "BKN", 
+                        "key": "52946ca4-b815-4b4c-b950-49f868b7e487", 
                         "name": "Nets", 
                         "years": [
                             {
@@ -567,6 +589,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -592,7 +615,7 @@
                         "identity": {
                             "NBAAPIID": 1610612751
                         }, 
-                        "key": "1610612751", 
+                        "key": "6d9d6443-19a4-41ec-a41a-855fdb7b7036", 
                         "name": "Nets", 
                         "years": [
                             {
@@ -605,6 +628,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -630,7 +654,7 @@
                         "identity": {
                             "NBAAPIID": 1610612751
                         }, 
-                        "key": "1610612751", 
+                        "key": "febcc4e7-1eb7-4dd4-89ca-b58b66bcc314", 
                         "name": "Nets", 
                         "years": [
                             {
@@ -650,6 +674,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -675,7 +700,7 @@
                         "identity": {
                             "NBAAPIID": 1610612766
                         }, 
-                        "key": "1610612766", 
+                        "key": "17b0c6d8-37ce-4672-a8a0-e7ac22a63253", 
                         "name": "Bobcats", 
                         "years": [
                             {
@@ -688,6 +713,7 @@
                         "abbreviation": "CHA", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -751,6 +777,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/c/c4/Charlotte_Hornets_%282014%29.svg"
                                 }
@@ -772,7 +802,7 @@
                             "SportsDBID": "134881", 
                             "SportsDataIOID": "2"
                         }, 
-                        "key": "CHA", 
+                        "key": "3121ad58-6046-4904-8a12-f393451d5bb4", 
                         "name": "Hornets", 
                         "years": [
                             {
@@ -795,6 +825,7 @@
                         "abbreviation": "CHI", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -848,6 +879,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/6/67/Chicago_Bulls_logo.svg"
                                 }
@@ -869,7 +904,7 @@
                             "SportsDBID": "134870", 
                             "SportsDataIOID": "11"
                         }, 
-                        "key": "CHI", 
+                        "key": "25c89daa-ee67-490a-a0c1-f20033d0b34c", 
                         "name": "Bulls", 
                         "years": [
                             {
@@ -888,6 +923,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -902,7 +938,7 @@
                         "identity": {
                             "NBAAPIID": 1610610025
                         }, 
-                        "key": "1610610025", 
+                        "key": "ddd8206a-67ec-46d0-8835-7dcba7d84b55", 
                         "name": "Stags", 
                         "years": [
                             {
@@ -925,6 +961,7 @@
                         "aliases": [
                             "Cavs"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -988,6 +1025,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Cleveland_Cavaliers_logo.svg"
                                 }
@@ -1009,7 +1050,7 @@
                             "SportsDBID": "134871", 
                             "SportsDataIOID": "12"
                         }, 
-                        "key": "CLE", 
+                        "key": "341eba57-da88-4674-a797-58bdb055d629", 
                         "name": "Cavaliers", 
                         "years": [
                             {
@@ -1028,6 +1069,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1042,7 +1084,7 @@
                         "identity": {
                             "NBAAPIID": 1610610026
                         }, 
-                        "key": "1610610026", 
+                        "key": "c09c8b21-b6a0-4f80-933d-0d6d0d4abfa0", 
                         "name": "Rebels", 
                         "years": [
                             {
@@ -1063,6 +1105,7 @@
                         "abbreviation": "DAL", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1126,6 +1169,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/9/97/Dallas_Mavericks_logo.svg"
                                 }
@@ -1147,7 +1194,7 @@
                             "SportsDBID": "134875", 
                             "SportsDataIOID": "25"
                         }, 
-                        "key": "DAL", 
+                        "key": "cae60d92-a158-4eb8-833f-9431298c671a", 
                         "name": "Mavericks", 
                         "years": [
                             {
@@ -1166,6 +1213,7 @@
                         "abbreviation": "DEN", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1229,6 +1277,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/7/76/Denver_Nuggets.svg"
                                 }
@@ -1250,7 +1302,7 @@
                             "SportsDBID": "134885", 
                             "SportsDataIOID": "20"
                         }, 
-                        "key": "DEN", 
+                        "key": "92d31a25-6e4e-416c-b6d1-f660441fd18c", 
                         "name": "Nuggets", 
                         "years": [
                             {
@@ -1269,6 +1321,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1283,7 +1336,7 @@
                         "identity": {
                             "NBAAPIID": 1610610028
                         }, 
-                        "key": "1610610028", 
+                        "key": "7cf9af13-7578-4969-8782-ce72644a636e", 
                         "name": "Falcons", 
                         "years": [
                             {
@@ -1304,6 +1357,7 @@
                         "abbreviation": "DET", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1367,6 +1421,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Pistons_logo17.svg"
                                 }
@@ -1388,7 +1446,7 @@
                             "SportsDBID": "134872", 
                             "SportsDataIOID": "14"
                         }, 
-                        "key": "DET", 
+                        "key": "3cac4414-d656-47b7-81b8-db86aed6e5ac", 
                         "name": "Pistons", 
                         "years": [
                             {
@@ -1400,6 +1458,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1425,7 +1484,7 @@
                         "identity": {
                             "NBAAPIID": 1610612765
                         }, 
-                        "key": "1610612765", 
+                        "key": "9c688d07-c72e-4911-92f6-be303bacea56", 
                         "name": "Pistons", 
                         "years": [
                             {
@@ -1433,6 +1492,40 @@
                                 "toYear": 1956
                             }
                         ]
+                    }
+                }
+            }, 
+            "Eastern Conf All-Stars": {
+                "active": false, 
+                "name": "Eastern Conf All-Stars", 
+                "teams": {
+                    "Eastern Conf All-Stars": {
+                        "abbreviation": "EAST", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": true, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/east.png"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Eastern Conf", 
+                        "fullName": "Eastern Conf All-Stars", 
+                        "identity": {
+                            "ESPNAPIID": "31"
+                        }, 
+                        "key": "c4e8a6c4-cef6-4712-a5c8-4f6c8b36730d", 
+                        "name": "All-Stars", 
+                        "years": []
                     }
                 }
             }, 
@@ -1447,6 +1540,7 @@
                         "aliases": [
                             "GS"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1500,6 +1594,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/0/01/Golden_State_Warriors_logo.svg"
                                 }
@@ -1521,7 +1619,7 @@
                             "SportsDBID": "134865", 
                             "SportsDataIOID": "26"
                         }, 
-                        "key": "GSW", 
+                        "key": "00706eb4-2767-48dc-9711-fe6afdc70eb3", 
                         "name": "Warriors", 
                         "years": [
                             {
@@ -1533,6 +1631,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1558,7 +1657,7 @@
                         "identity": {
                             "NBAAPIID": 1610612744
                         }, 
-                        "key": "1610612744", 
+                        "key": "0440c3d4-be66-4b4c-8871-3af4fb8dfbb0", 
                         "name": "Warriors", 
                         "years": [
                             {
@@ -1571,6 +1670,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1596,7 +1696,7 @@
                         "identity": {
                             "NBAAPIID": 1610612744
                         }, 
-                        "key": "1610612744", 
+                        "key": "16259177-4a6f-493f-8cec-ec85d784ebb7", 
                         "name": "Warriors", 
                         "years": [
                             {
@@ -1616,6 +1716,7 @@
                         "abbreviation": "HOU", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1679,6 +1780,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/2/28/Houston_Rockets.svg"
                                 }
@@ -1700,7 +1805,7 @@
                             "SportsDBID": "134876", 
                             "SportsDataIOID": "22"
                         }, 
-                        "key": "HOU", 
+                        "key": "b9ddd23c-f909-4368-acb3-6fa7b136d68b", 
                         "name": "Rockets", 
                         "years": [
                             {
@@ -1712,6 +1817,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1737,7 +1843,7 @@
                         "identity": {
                             "NBAAPIID": 1610612745
                         }, 
-                        "key": "1610612745", 
+                        "key": "2008bb35-6f95-4ded-ba54-7e29c8ede7d3", 
                         "name": "Rockets", 
                         "years": [
                             {
@@ -1757,6 +1863,7 @@
                         "abbreviation": "IND", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1815,6 +1922,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/1/1b/Indiana_Pacers.svg"
                                 }
@@ -1836,7 +1947,7 @@
                             "SportsDBID": "134873", 
                             "SportsDataIOID": "13"
                         }, 
-                        "key": "IND", 
+                        "key": "f79e3460-9b72-450d-8183-e0e82f6d7630", 
                         "name": "Pacers", 
                         "years": [
                             {
@@ -1855,6 +1966,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1869,7 +1981,7 @@
                         "identity": {
                             "NBAAPIID": 1610610029
                         }, 
-                        "key": "1610610029", 
+                        "key": "fcfbc187-0167-4df3-a64c-abe50adc7037", 
                         "name": "Jets", 
                         "years": [
                             {
@@ -1890,6 +2002,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1904,7 +2017,7 @@
                         "identity": {
                             "NBAAPIID": 1610610030
                         }, 
-                        "key": "1610610030", 
+                        "key": "95385800-3ac3-4f60-94d6-5a0c389c4ab0", 
                         "name": "Olympians", 
                         "years": [
                             {
@@ -1925,6 +2038,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1950,7 +2064,7 @@
                         "identity": {
                             "NBAAPIID": 1610612746
                         }, 
-                        "key": "1610612746", 
+                        "key": "3ec3fde1-47b1-4c69-80f2-339ea3cb15eb", 
                         "name": "Braves", 
                         "years": [
                             {
@@ -1965,6 +2079,7 @@
                         "aliases": [
                             "Los Angeles Clippers"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2028,6 +2143,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/Los_Angeles_Clippers_%282015%29.svg"
                                 }
@@ -2049,7 +2168,7 @@
                             "SportsDBID": "134866", 
                             "SportsDataIOID": "28"
                         }, 
-                        "key": "LAC", 
+                        "key": "24e443d3-265e-48d5-879c-df5a9812eefc", 
                         "name": "Clippers", 
                         "years": [
                             {
@@ -2061,6 +2180,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2086,7 +2206,7 @@
                         "identity": {
                             "NBAAPIID": 1610612746
                         }, 
-                        "key": "1610612746", 
+                        "key": "6be4b4e9-ba19-4882-b1d2-5f614dd0e0c0", 
                         "name": "Clippers", 
                         "years": [
                             {
@@ -2099,6 +2219,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2124,7 +2245,7 @@
                         "identity": {
                             "NBAAPIID": 1610612746
                         }, 
-                        "key": "1610612746", 
+                        "key": "0cf232d9-c5ac-4bb4-b33d-2af4d1e93041", 
                         "name": "Clippers", 
                         "years": [
                             {
@@ -2146,6 +2267,7 @@
                         "aliases": [
                             "L.A. Lakers"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2204,6 +2326,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Los_Angeles_Lakers_logo.svg"
                                 }
@@ -2225,7 +2351,7 @@
                             "SportsDBID": "134867", 
                             "SportsDataIOID": "27"
                         }, 
-                        "key": "LAL", 
+                        "key": "9e5bf7db-4d61-46ef-9b94-516eb0966d74", 
                         "name": "Lakers", 
                         "years": [
                             {
@@ -2237,6 +2363,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2262,7 +2389,7 @@
                         "identity": {
                             "NBAAPIID": 1610612747
                         }, 
-                        "key": "1610612747", 
+                        "key": "1777a6ca-fc2e-484b-829e-aa4fb5ede6e7", 
                         "name": "Lakers", 
                         "years": [
                             {
@@ -2282,6 +2409,7 @@
                         "abbreviation": "MEM", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2345,6 +2473,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/f/f1/Memphis_Grizzlies.svg"
                                 }
@@ -2366,7 +2498,7 @@
                             "SportsDBID": "134877", 
                             "SportsDataIOID": "21"
                         }, 
-                        "key": "MEM", 
+                        "key": "d6b0c468-670f-4740-a66b-c9a2b69c3621", 
                         "name": "Grizzlies", 
                         "years": [
                             {
@@ -2378,6 +2510,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2403,7 +2536,7 @@
                         "identity": {
                             "NBAAPIID": 1610612763
                         }, 
-                        "key": "1610612763", 
+                        "key": "f48323e3-f59d-4499-8dc5-3dedda6a5f27", 
                         "name": "Grizzlies", 
                         "years": [
                             {
@@ -2423,6 +2556,7 @@
                         "abbreviation": "MIA", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2481,6 +2615,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Miami_Heat_logo.svg"
                                 }
@@ -2502,7 +2640,7 @@
                             "SportsDBID": "134882", 
                             "SportsDataIOID": "4"
                         }, 
-                        "key": "MIA", 
+                        "key": "4fbc0760-1217-4b2f-b749-99de656cf7ce", 
                         "name": "Heat", 
                         "years": [
                             {
@@ -2521,6 +2659,7 @@
                         "abbreviation": "MIL", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2584,6 +2723,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/4/4a/Milwaukee_Bucks_logo.svg"
                                 }
@@ -2605,7 +2748,7 @@
                             "SportsDBID": "134874", 
                             "SportsDataIOID": "15"
                         }, 
-                        "key": "MIL", 
+                        "key": "18ccb46c-c6b4-48d9-822a-d05f6c7e2481", 
                         "name": "Bucks", 
                         "years": [
                             {
@@ -2624,6 +2767,7 @@
                         "abbreviation": "MIN", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2687,6 +2831,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg"
                                 }
@@ -2708,7 +2856,7 @@
                             "SportsDBID": "134886", 
                             "SportsDataIOID": "16"
                         }, 
-                        "key": "MIN", 
+                        "key": "8d17df6a-147e-47b3-8843-226940435a96", 
                         "name": "Timberwolves", 
                         "years": [
                             {
@@ -2727,6 +2875,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2752,7 +2901,7 @@
                         "identity": {
                             "NBAAPIID": 1610612740
                         }, 
-                        "key": "1610612740", 
+                        "key": "c4de8fbd-62cd-43f5-af71-35e159b1e542", 
                         "name": "Hornets", 
                         "years": [
                             {
@@ -2771,6 +2920,7 @@
                         "aliases": [
                             "NO"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2829,6 +2979,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/0/0d/New_Orleans_Pelicans_logo.svg"
                                 }
@@ -2850,7 +3004,7 @@
                             "SportsDBID": "134878", 
                             "SportsDataIOID": "23"
                         }, 
-                        "key": "NOP", 
+                        "key": "76fd6ae4-a2e8-4982-97bc-a2a619d66032", 
                         "name": "Pelicans", 
                         "years": [
                             {
@@ -2862,6 +3016,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2887,7 +3042,7 @@
                         "identity": {
                             "NBAAPIID": 1610612740
                         }, 
-                        "key": "1610612740", 
+                        "key": "24f6f23c-5a7e-4e62-822d-6f8b87f85a40", 
                         "name": "Hornets", 
                         "years": [
                             {
@@ -2909,6 +3064,7 @@
                         "aliases": [
                             "NY"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2972,6 +3128,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/2/25/New_York_Knicks_logo.svg"
                                 }
@@ -2993,7 +3153,7 @@
                             "SportsDBID": "134862", 
                             "SportsDataIOID": "6"
                         }, 
-                        "key": "NYK", 
+                        "key": "0b73c380-5830-4877-9d00-9b1c4e54b075", 
                         "name": "Knicks", 
                         "years": [
                             {
@@ -3012,6 +3172,7 @@
                         "abbreviation": "OKC", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3075,6 +3236,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/5/5d/Oklahoma_City_Thunder.svg"
                                 }
@@ -3096,7 +3261,7 @@
                             "SportsDBID": "134887", 
                             "SportsDataIOID": "18"
                         }, 
-                        "key": "OKC", 
+                        "key": "6c74e6ae-663c-47d3-a32e-95d6c56670d6", 
                         "name": "Thunder", 
                         "years": [
                             {
@@ -3108,6 +3273,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3133,7 +3299,7 @@
                         "identity": {
                             "NBAAPIID": 1610612760
                         }, 
-                        "key": "1610612760", 
+                        "key": "7b33692d-2f62-4444-95dc-2b614d8609b3", 
                         "name": "SuperSonics", 
                         "years": [
                             {
@@ -3153,6 +3319,7 @@
                         "abbreviation": "ORL", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3211,6 +3378,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/1/10/Orlando_Magic_logo.svg"
                                 }
@@ -3232,7 +3403,7 @@
                             "SportsDBID": "134883", 
                             "SportsDataIOID": "5"
                         }, 
-                        "key": "ORL", 
+                        "key": "f96debca-0176-4fa1-b44a-b3f555a6cd25", 
                         "name": "Magic", 
                         "years": [
                             {
@@ -3251,6 +3422,7 @@
                         "abbreviation": "PHI", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3314,6 +3486,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/0/0e/Philadelphia_76ers_logo.svg"
                                 }
@@ -3335,7 +3511,7 @@
                             "SportsDBID": "134863", 
                             "SportsDataIOID": "7"
                         }, 
-                        "key": "PHI", 
+                        "key": "f345c615-b9b3-406a-80fe-e681d1b092ce", 
                         "name": "76ers", 
                         "years": [
                             {
@@ -3347,6 +3523,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3372,7 +3549,7 @@
                         "identity": {
                             "NBAAPIID": 1610612755
                         }, 
-                        "key": "1610612755", 
+                        "key": "88e183ea-1f5b-452a-8b8c-e93a5be87a2a", 
                         "name": "Nationals", 
                         "years": [
                             {
@@ -3392,6 +3569,7 @@
                         "abbreviation": "PHX", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3455,6 +3633,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Phoenix_Suns_logo.svg"
                                 }
@@ -3476,7 +3658,7 @@
                             "SportsDBID": "134868", 
                             "SportsDataIOID": "29"
                         }, 
-                        "key": "PHX", 
+                        "key": "1068a545-4f19-4860-b150-a95ca088ddf1", 
                         "name": "Suns", 
                         "years": [
                             {
@@ -3495,6 +3677,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3509,7 +3692,7 @@
                         "identity": {
                             "NBAAPIID": 1610610031
                         }, 
-                        "key": "1610610031", 
+                        "key": "58ca71ff-9f89-4212-aeb5-91b3295ab42d", 
                         "name": "Ironmen", 
                         "years": [
                             {
@@ -3530,6 +3713,7 @@
                         "abbreviation": "POR", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3588,6 +3772,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/2/21/Portland_Trail_Blazers_logo.svg"
                                 }
@@ -3609,7 +3797,7 @@
                             "SportsDBID": "134888", 
                             "SportsDataIOID": "19"
                         }, 
-                        "key": "POR", 
+                        "key": "4cd942a2-82be-4989-9ffa-b1b63e7bad8f", 
                         "name": "Trail Blazers", 
                         "years": [
                             {
@@ -3628,6 +3816,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3642,7 +3831,7 @@
                         "identity": {
                             "NBAAPIID": 1610610032
                         }, 
-                        "key": "1610610032", 
+                        "key": "ed2fbf23-46c5-4185-bb24-464a51732a94", 
                         "name": "Steamrollers", 
                         "years": [
                             {
@@ -3663,6 +3852,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3688,7 +3878,7 @@
                         "identity": {
                             "NBAAPIID": 1610612758
                         }, 
-                        "key": "1610612758", 
+                        "key": "ffd2ac48-24a0-4c9a-9b2a-b25567205afa", 
                         "name": "Royals", 
                         "years": [
                             {
@@ -3701,6 +3891,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3726,7 +3917,7 @@
                         "identity": {
                             "NBAAPIID": 1610612758
                         }, 
-                        "key": "1610612758", 
+                        "key": "b13b49c3-4d58-42c1-8168-8f799a79836e", 
                         "name": "Kings", 
                         "years": [
                             {
@@ -3739,6 +3930,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3764,7 +3956,7 @@
                         "identity": {
                             "NBAAPIID": 1610612758
                         }, 
-                        "key": "1610612758", 
+                        "key": "ebeb0cd3-9974-44db-b5fb-2e8ba0367703", 
                         "name": "Kings", 
                         "years": [
                             {
@@ -3777,6 +3969,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3802,7 +3995,7 @@
                         "identity": {
                             "NBAAPIID": 1610612758
                         }, 
-                        "key": "1610612758", 
+                        "key": "06f359d9-190f-49c4-bddb-e3a239f1740e", 
                         "name": "Royals", 
                         "years": [
                             {
@@ -3815,6 +4008,7 @@
                         "abbreviation": "SAC", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3873,6 +4067,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/c/c7/SacramentoKings.svg"
                                 }
@@ -3894,7 +4092,7 @@
                             "SportsDBID": "134869", 
                             "SportsDataIOID": "30"
                         }, 
-                        "key": "SAC", 
+                        "key": "b453b44e-1b87-4c26-92a0-e8610906a990", 
                         "name": "Kings", 
                         "years": [
                             {
@@ -3915,6 +4113,7 @@
                         "aliases": [
                             "SA"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3968,6 +4167,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/San_Antonio_Spurs.svg"
                                 }
@@ -3989,7 +4192,7 @@
                             "SportsDBID": "134879", 
                             "SportsDataIOID": "24"
                         }, 
-                        "key": "SAS", 
+                        "key": "dff69feb-980b-43b9-b630-072226286586", 
                         "name": "Spurs", 
                         "years": [
                             {
@@ -4008,6 +4211,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4022,7 +4226,7 @@
                         "identity": {
                             "NBAAPIID": 1610610033
                         }, 
-                        "key": "1610610033", 
+                        "key": "caca969c-c28c-487a-be38-a15e80a065e2", 
                         "name": "Redskins", 
                         "years": [
                             {
@@ -4043,6 +4247,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4057,7 +4262,7 @@
                         "identity": {
                             "NBAAPIID": 1610610034
                         }, 
-                        "key": "1610610034", 
+                        "key": "fd71b5df-b054-406a-af06-9cd051559f7c", 
                         "name": "Bombers", 
                         "years": [
                             {
@@ -4081,6 +4286,7 @@
                             "Team Team Durant", 
                             "Team Durant"
                         ], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4108,16 +4314,16 @@
                 }
             }, 
             "Team Durant": {
-                "active": false, 
+                "active": true, 
                 "name": "Team Durant", 
                 "teams": {
                     "Team Durant": {
                         "abbreviation": "DRT", 
-                        "active": false, 
+                        "active": true, 
                         "aliases": [
-                            "DUR", 
-                            "Team"
+                            "DUR"
                         ], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4144,7 +4350,7 @@
                             "NBAAPIID": "1610616833", 
                             "SportsDataIOID": "31"
                         }, 
-                        "key": "DRT", 
+                        "key": "1610616833", 
                         "name": "Team Durant", 
                         "years": []
                     }
@@ -4158,6 +4364,7 @@
                         "abbreviation": "GNS", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4192,6 +4399,7 @@
                         "abbreviation": "HIL", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4219,16 +4427,16 @@
                 }
             }, 
             "Team LeBron": {
-                "active": false, 
+                "active": true, 
                 "name": "Team LeBron", 
                 "teams": {
                     "Team LeBron": {
                         "abbreviation": "LBN", 
-                        "active": false, 
+                        "active": true, 
                         "aliases": [
-                            "LEB", 
-                            "Team"
+                            "LEB"
                         ], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4255,7 +4463,7 @@
                             "NBAAPIID": "1610616834", 
                             "SportsDataIOID": "32"
                         }, 
-                        "key": "LBN", 
+                        "key": "1610616834", 
                         "name": "Team LeBron", 
                         "years": []
                     }
@@ -4269,6 +4477,7 @@
                         "abbreviation": "SHQ", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4303,6 +4512,7 @@
                         "abbreviation": "STP", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4337,6 +4547,7 @@
                         "abbreviation": "USA", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4371,6 +4582,7 @@
                         "abbreviation": "WEB", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4409,6 +4621,7 @@
                             "Team LeBron", 
                             "LBN"
                         ], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4444,6 +4657,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4458,7 +4672,7 @@
                         "identity": {
                             "NBAAPIID": 1610610035
                         }, 
-                        "key": "1610610035", 
+                        "key": "ee7d31b5-d07b-42a3-9e57-e92de6c493d5", 
                         "name": "Huskies", 
                         "years": [
                             {
@@ -4479,6 +4693,7 @@
                         "abbreviation": "TOR", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -4542,6 +4757,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/3/36/Toronto_Raptors_logo.svg"
                                 }
@@ -4563,7 +4782,7 @@
                             "SportsDBID": "134864", 
                             "SportsDataIOID": "10"
                         }, 
-                        "key": "TOR", 
+                        "key": "dd4156b4-9637-4990-abfa-63f581495afd", 
                         "name": "Raptors", 
                         "years": [
                             {
@@ -4582,6 +4801,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4607,7 +4827,7 @@
                         "identity": {
                             "NBAAPIID": 1610612762
                         }, 
-                        "key": "1610612762", 
+                        "key": "44eb142f-9a31-4ce0-8e87-4a429e8d2b6d", 
                         "name": "Jazz", 
                         "years": [
                             {
@@ -4622,6 +4842,7 @@
                         "aliases": [
                             "UTAH"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -4680,6 +4901,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/0/04/Utah_Jazz_logo_%282016%29.svg"
                                 }
@@ -4701,7 +4926,7 @@
                             "SportsDBID": "134889", 
                             "SportsDataIOID": "17"
                         }, 
-                        "key": "UTA", 
+                        "key": "e09a9087-516d-44ce-a7a6-dc75ea03f85c", 
                         "name": "Jazz", 
                         "years": [
                             {
@@ -4720,6 +4945,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4734,7 +4960,7 @@
                         "identity": {
                             "NBAAPIID": 1610610036
                         }, 
-                        "key": "1610610036", 
+                        "key": "0cd62620-fee7-4131-bdd7-0f0258e4b748", 
                         "name": "Capitols", 
                         "years": [
                             {
@@ -4755,6 +4981,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4780,7 +5007,7 @@
                         "identity": {
                             "NBAAPIID": 1610612764
                         }, 
-                        "key": "1610612764", 
+                        "key": "03010ed2-698d-4909-b164-c36753536f93", 
                         "name": "Bullets", 
                         "years": [
                             {
@@ -4793,6 +5020,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4818,7 +5046,7 @@
                         "identity": {
                             "NBAAPIID": 1610612764
                         }, 
-                        "key": "1610612764", 
+                        "key": "181be68f-9380-4b63-bd2b-2c8aed700bbf", 
                         "name": "Bullets", 
                         "years": [
                             {
@@ -4831,6 +5059,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4856,7 +5085,7 @@
                         "identity": {
                             "NBAAPIID": 1610612764
                         }, 
-                        "key": "1610612764", 
+                        "key": "322167fa-c5d0-46d6-8bbc-a0e038d2e000", 
                         "name": "Packers", 
                         "years": [
                             {
@@ -4869,6 +5098,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4894,7 +5124,7 @@
                         "identity": {
                             "NBAAPIID": 1610612764
                         }, 
-                        "key": "1610612764", 
+                        "key": "eb50e058-573e-45ac-9f64-74b501c2ba1b", 
                         "name": "Zephyrs", 
                         "years": [
                             {
@@ -4907,6 +5137,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4932,7 +5163,7 @@
                         "identity": {
                             "NBAAPIID": 1610612764
                         }, 
-                        "key": "1610612764", 
+                        "key": "171d2ea0-59ae-4464-a414-de4283910a9b", 
                         "name": "Bullets", 
                         "years": [
                             {
@@ -4947,6 +5178,7 @@
                         "aliases": [
                             "WSH"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -5010,6 +5242,10 @@
                                     "url": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg"
                                 }, 
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/0/02/Washington_Wizards_logo.svg"
                                 }
@@ -5031,7 +5267,7 @@
                             "SportsDBID": "134884", 
                             "SportsDataIOID": "1"
                         }, 
-                        "key": "WAS", 
+                        "key": "30238a96-e3a8-4222-b722-c3256f5e5930", 
                         "name": "Wizards", 
                         "years": [
                             {
@@ -5050,6 +5286,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -5064,7 +5301,7 @@
                         "identity": {
                             "NBAAPIID": 1610610037
                         }, 
-                        "key": "1610610037", 
+                        "key": "d4d2b221-339b-4021-b991-369bd47022eb", 
                         "name": "Hawks", 
                         "years": [
                             {
@@ -5075,6 +5312,40 @@
                     }
                 }, 
                 "toYear": 1949
+            }, 
+            "Western Conf All-Stars": {
+                "active": false, 
+                "name": "Western Conf All-Stars", 
+                "teams": {
+                    "Western Conf All-Stars": {
+                        "abbreviation": "WEST", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": true, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nba/500/west.png"
+                                }
+                            ], 
+                            "wordmark": []
+                        }, 
+                        "city": "Western Conf", 
+                        "fullName": "Western Conf All-Stars", 
+                        "identity": {
+                            "ESPNAPIID": "32"
+                        }, 
+                        "key": "7cf3c83e-55a6-4786-ab0f-82a1c73bc128", 
+                        "name": "All-Stars", 
+                        "years": []
+                    }
+                }
             }
         }
     ]

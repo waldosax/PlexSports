@@ -264,27 +264,28 @@ def GetSchedule(sport, league, season, download=False, computeHashes=False, noLo
 
 def __download_all_schedule_data(sport, league, season):
 	sched = dict()
-	teams = Teams.GetFranchises(league)
+	franchises = Teams.GetFranchises(league)
 	teamKeys = Teams.cached_team_keys[league]
+	navigator = TeamNavigator(franchises, teamKeys)
 
 	if league == LEAGUE_MLB:
-		MLBAPIScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
+		MLBAPIScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
 	elif league == LEAGUE_NBA:
-		NBAAPIScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
+		NBAAPIScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
 	elif league == LEAGUE_NFL:
-		ProFootballReferenceScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
+		ProFootballReferenceScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
 	elif league == LEAGUE_NHL:
-		NHLAPIScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
+		NHLAPIScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
 
 	
-	ESPNAPIScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
+	ESPNAPIScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
 
 
 	# The only reason I'm continuing to use this trashbucket API is for the free imagery.
-	TheSportsDBScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
+	TheSportsDBScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
 	
 	
-	SportsDataIOScheduleAdapter.GetSchedule(sched, teamKeys, teams, sport, league, season)
+	SportsDataIOScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
 		
 	return sched
 

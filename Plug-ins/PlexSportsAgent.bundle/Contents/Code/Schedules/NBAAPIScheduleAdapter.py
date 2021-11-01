@@ -12,7 +12,7 @@ from ScheduleEvent import *
 
 
 
-def GetSchedule(sched, teamKeys, teams, sport, league, season):
+def GetSchedule(sched, navigator, sport, league, season):
 
 	# Retrieve data from NBA API
 	downloadedJson = DownloadScheduleForSeason(season)
@@ -40,30 +40,22 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 				date = ParseISO8601Date("%sT%s" % (game["gdtutc"], game["utctm"])).replace(tzinfo=UTC)
 
 				# Teams from this API are abbreviations
-				homeTeamName = deunicode("%s %s" % (game["h"]["tc"], game["h"]["tn"]))
-				awayTeamName = deunicode("%s %s" % (game["v"]["tc"], game["v"]["tn"]))
-				vs = "%s vs. %s" % (homeTeamName, awayTeamName)
 				homeTeamAbbrev = deunicode(game["h"]["ta"])
+				homeTeamCity = deunicode(game["h"]["tc"])
+				homeTeamName = deunicode(game["h"]["tn"])
+				homeTeamFullName = "%s %s" % (homeTeamCity, homeTeamName)
+
 				awayTeamAbbrev = deunicode(game["v"]["ta"])
-				homeTeamKey = None
-				awayTeamKey = None
+				awayTeamCity = deunicode(game["v"]["tc"])
+				awayTeamName = deunicode(game["v"]["tn"])
+				awayTeamFullName = "%s %s" % (awayTeamCity, awayTeamName)
 
-				if homeTeamAbbrev in teams.keys(): homeTeamKey = homeTeamAbbrev
-				else:
-					homeTeamById = __find_team_by_nbaapiid(teams, str(game["h"]["tid"]))
-					if homeTeamById : homeTeamKey = homeTeamById.abbreviation
-					else:
-						homeTeamStripped = create_scannable_key(homeTeamName)
-						homeTeamKey = teamKeys[homeTeamStripped] if teamKeys.get(homeTeamStripped) else None
+				vs = "%s vs. %s" % (homeTeamFullName, awayTeamFullName)
 
-				if awayTeamAbbrev in teams.keys(): awayTeamKey = awayTeamAbbrev
-				else:
-					awayTeamById = __find_team_by_nbaapiid(teams, str(game["v"]["tid"]))
-					if awayTeamById : awayTeamKey = awayTeamById.abbreviation
-					else:
-						awayTeamStripped = create_scannable_key(awayTeamName)
-						awayTeamKey = teamKeys[awayTeamStripped] if teamKeys.get(awayTeamStripped) else None
-
+				homeTeam = navigator.GetTeam(season, homeTeamFullName, homeTeamName, homeTeamAbbrev, homeTeamCity)
+				homeTeamKey = homeTeam.key if homeTeam else None
+				awayTeam = navigator.GetTeam(season, awayTeamFullName, awayTeamName, awayTeamAbbrev, awayTeamCity)
+				awayTeamKey = awayTeam.key if awayTeam else None
 
 				if not homeTeamKey or not awayTeamKey:
 					print("  Skipping NBA game from NBA API %s, %s." % (date.strftime("%Y-%m-%d"), vs))

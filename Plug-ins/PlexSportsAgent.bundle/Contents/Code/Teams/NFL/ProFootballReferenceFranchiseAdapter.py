@@ -2,6 +2,7 @@
 # TEAMS
 
 import re, os
+import uuid
 import json
 from datetime import datetime, date, time
 from bs4 import BeautifulSoup
@@ -53,10 +54,9 @@ def DownloadAllFranchises(league):
 		for team in franchise["teams"].values():
 			teamName = deunicode(team.get("fullName")) or deunicode(team.get("name"))
 
-			# key - we don't ever change. The original pfr abbreviation
 			# abbrev - NFL official abbreviation
-			# id - identifier for the team, used by psn, relative to pfr
-			abbrev = key = id = deunicode(franchise["abbrev"])
+			# id - identifier for the team, used by espn, relative to pfr
+			abbrev = id = deunicode(franchise["abbrev"])
 
 			active = team.get("active") == True
 			aliases = team.get("aliases") or []
@@ -78,14 +78,14 @@ def DownloadAllFranchises(league):
 
 			team["aliases"] = list(set(aliases))
 
+			team["key"] = uuid.uuid4()
 			if active: 
-				team["key"] = abbrev
 				team["abbreviation"] = abbrev
 			else:
 				team["fullName"] = teamName
 				del(team["name"])
 				
-				prefix = key
+				prefix = abbrev
 				franchisePrefix = strip_to_capitals(franchiseName)
 				if prefix != franchisePrefix: prefix = "%s.%s" % (prefix, franchisePrefix)
 				id = prefix
@@ -94,7 +94,6 @@ def DownloadAllFranchises(league):
 				if suffix != franchisePrefix:
 					id = "%s.%s" % (prefix, suffix)
 				
-				if team.get("key"): del(team["key"])
 				if team.get("abbreviation"): del(team["abbreviation"])
 
 			team["ProFootballReferenceID"] = id

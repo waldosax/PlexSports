@@ -27,7 +27,7 @@ spdb_ignore_game_ids = {
 	}
 
 
-def GetSchedule(sched, teamKeys, teams, sport, league, season):
+def GetSchedule(sched, navigator, sport, league, season):
 	# Retrieve data from TheSportsDB.com
 	downloadedJsons = DownloadScheduleForLeagueAndSeason(league, season)
 	if not downloadedJsons: return
@@ -46,20 +46,30 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 
 				# Teams from this API are full names
 				vs = deunicode(schedEvent["strEvent"])
-				homeTeamStripped = create_scannable_key(schedEvent["strHomeTeam"])
-				awayTeamStripped = create_scannable_key(schedEvent["strAwayTeam"])
-				if league == LEAGUE_NBA and schedEvent["strAwayTeam"] == "Minnesota Wild":
-					awayTeamStripped = "minnesotatimberwolves"
+				homeTeamFullName = deunicode(schedEvent["strHomeTeam"])
+				awayTeamFullName = deunicode(schedEvent["strAwayTeam"])
+
+				# Crazy crowdsourced data corrections
+				if league == LEAGUE_NBA and awayTeamFullName == "Minnesota Wild":
+					awayTeamFullName = "Minnesota Timberwolves"
+					vs = "%s vs. %s" % (homeTeamFullName, awayTeamFullName)
 				elif league == LEAGUE_NBA and schedEvent["strAwayTeam"] == "Philadelphia Flyers":
-					awayTeamStripped = "philadelphia76ers"
-				elif league == LEAGUE_NFL and schedEvent["strAwayTeam"] == "San Diego":
-					awayTeamStripped = "sandiegochargers"
-					vs = "%s vs. %s" % (deunicode(schedEvent["strHomeTeam"]), "San Diego Chargers")
-				elif league == LEAGUE_NFL and schedEvent["strHomeTeam"] == "San Diego":
-					homeTeamStripped = "sandiegochargers"
-					vs = "%s vs. %s" % ("San Diego Chargers", deunicode(schedEvent["strAwayTeam"]))
-				homeTeamKey = teamKeys[homeTeamStripped]
-				awayTeamKey = teamKeys[awayTeamStripped]
+					awayTeamFullName = "Philadelphia 76ers"
+					vs = "%s vs. %s" % (homeTeamFullName, awayTeamFullName)
+				elif league == LEAGUE_NFL:
+					if schedEvent["strAwayTeam"] == "San Diego":
+						awayTeamFullName = "Sandiego Chargers"
+						vs = "%s vs. %s" % (homeTeamFullName, awayTeamFullName)
+					elif schedEvent["strHomeTeam"] == "San Diego":
+						homeTeamFullName = "San Diego Chargers"
+						vs = "%s vs. %s" % (homeTeamFullName, awayTeamFullName)
+
+
+				homeTeam = navigator.GetTeam(season, homeTeamFullName)
+				awayTeam = navigator.GetTeam(season, awayTeamFullName)
+
+				homeTeamKey = homeTeam.key if homeTeam else create_scannable_key(homeTeamFullName)
+				awayTeamKey = awayTeam.key if awayTeam else create_scannable_key(awayTeamFullName)
 		
 				date = __get_event_date(league, schedEvent)
 				if date == None:

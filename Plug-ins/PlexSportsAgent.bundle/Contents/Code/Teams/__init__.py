@@ -1,5 +1,6 @@
 # Python framework
 import sys, os, json, re
+import uuid
 
 # Local package
 from Constants import *
@@ -82,7 +83,10 @@ def __download_all_team_data(league):
 			teamName = tm.get("fullName") or tm.get("FullName") # TODO: Phase out capitalized keys
 			identity = TeamIdentity(**tm)
 			if tm.get("identity"): identity.Augment(**tm["identity"])
-			(franchise, team) = __find_team(allFranchises, franchiseName, teamName, identity, tm.get("active"))
+			if tm.get("allStar") == True:
+				(franchise, team) = __find_team(allFranchises, None, teamName, abbreviation=tm["abbreviation"])
+			else:
+				(franchise, team) = __find_team(allFranchises, franchiseName, teamName, identity, tm.get("active"))
 			team.Augment(**tm)
 
 
@@ -118,7 +122,6 @@ def __download_all_team_data(league):
 	# Retrieve data from TheSportsDB.com
 	sportsDbTeams = TheSportsDBFranchiseAdapter.DownloadAllTeams(league)
 	incorporate_teams(franchises, sportsDbTeams)
-
 
 	# Activate franchises
 	for franchise in franchises.values():
@@ -189,7 +192,7 @@ def __sort_year_span(x, y):
 	
 	return 0
 
-def __find_team(franchises, franchiseName, teamName, identity=None, active=None):
+def __find_team(franchises, franchiseName, teamName, identity=None, active=None, abbreviation=None):
 	
 	fs = franchises.values()
 	franchise = None
@@ -202,6 +205,13 @@ def __find_team(franchises, franchiseName, teamName, identity=None, active=None)
 				franchise = franchises[fn]
 				fs = [franchise]
 				break
+
+	if abbreviation:
+		for f in fs:
+			for t in f.teams.values():
+				a = t.abbreviation
+				if a and a == abbreviation:
+					return (f, t)
 
 	for f in fs:
 		# Try from just the identity and the active flag
@@ -345,7 +355,6 @@ def __get_cities_with_multiple_teams(league, franchises):
 			if not team.active: continue
 			city = team.city
 			cityKey = strip_to_alphanumeric(city)
-			#if not team.Key[:1] == "~":
 			if cities.has_key(cityKey):
 				cities[cityKey] = True
 			else:
@@ -372,41 +381,81 @@ def __get_city_variants(cityKey):
 def __get_teams_keys(league, franchises, multi_team_city_keys):
 	keys = dict()
 
+	print("Calculating team hashes ...")
+
 	for franchise in franchises.values():
 		for team in franchise.teams.values():
 			key = team.key
 			if not key: continue
-			abbrev = team.abbreviation
+
+			seasonRange = []
+			for span in team.years:
+				seasonRange = seasonRange + list(range(span.toYear if span.toYear else datetime.datetime.utcnow().year + 1, span.fromYear - 1, -1))
+			seasonRange.append(None)
+
+			abbrev = create_scannable_key(team.abbreviation)
 			fullName = create_scannable_key(team.fullName)
 			name = create_scannable_key(team.name)
 			city = create_scannable_key(team.city)
 
-			if fullName:
-				keys.setdefault(fullName, key)
-			keys.setdefault(name, key)
+			for season in seasonRange:
+				prefix = ("%s." % season) if season else ""
 
-			for alias in team.aliases:
-				keys.setdefault(create_scannable_key(alias), key)
+				if fullName:
+					keys.setdefault(prefix + fullName, key)
+				if name:
+					keys.setdefault(prefix + name, key)
 
-			if city:
-				cityVariants = __get_city_variants(city)
-				if (cityVariants):
-					for v in cityVariants:
-						keys.setdefault(v+name, key)
-						if v not in multi_team_city_keys:
-							keys.setdefault(v, key)
-							for alias in team.aliases:
-								keys.setdefault(v + create_scannable_key(alias), key)
-				if city not in multi_team_city_keys:
-					keys.setdefault(city, key)
 				for alias in team.aliases:
-					keys.setdefault(city + create_scannable_key(alias), key)
+					keys.setdefault(prefix + create_scannable_key(alias), key)
+
+				if city:
+					cityVariants = __get_city_variants(city)
+					if (cityVariants):
+						for v in cityVariants:
+							keys.setdefault(prefix + v + name, key)
+							if v not in multi_team_city_keys:
+								keys.setdefault(prefix + v, key)
+								for alias in team.aliases:
+									keys.setdefault(prefix + v + create_scannable_key(alias), key)
+					if city not in multi_team_city_keys:
+						keys.setdefault(prefix + city, key)
+					for alias in team.aliases:
+						keys.setdefault(prefix + city + create_scannable_key(alias), key)
 
 
+				keys.setdefault(prefix + abbrev, key)
 
-			if key[:1] == "~":
-				keys.setdefault("~" + create_scannable_key(key), key)
 
-			keys.setdefault(create_scannable_key(abbrev), key)
+	print("Finished calculating team hashes.")
 
 	return keys
+
+
+
+class TeamNavigator:
+
+	def __init__(self, franchises, teamKeys):
+		self.__franchises = franchises
+		self.__teamKeys = teamKeys
+		pass
+
+
+	def GetTeam(self, season, fullName=None, name=None, abbreviation=None, city=None):
+
+		vectors = []
+		if season:
+			if fullName: vectors.append("%s.%s" % (season, create_scannable_key(fullName)))
+			if name: vectors.append("%s.%s" % (season, create_scannable_key(name)))
+			if abbreviation: vectors.append("%s.%s" % (season, create_scannable_key(abbreviation)))
+		if fullName: vectors.append(create_scannable_key(fullName))
+		if name: vectors.append(create_scannable_key(name))
+		if abbreviation: vectors.append(create_scannable_key(abbreviation))
+		if city: vectors.append(create_scannable_key(city))
+
+		for vector in vectors:
+			teamKey = self.__teamKeys.get(vector)
+			team = self.__franchises.get(teamKey) if teamKey else None
+			if team: return team
+
+		return None

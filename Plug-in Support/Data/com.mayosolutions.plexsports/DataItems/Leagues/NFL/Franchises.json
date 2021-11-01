@@ -1,36 +1,46 @@
 {
     "CacheContainer": {
         "CacheType": "NFLFRANCHISES", 
-        "CachedOn": "2021-10-31T00:50:13", 
-        "ExpiresOn": "2022-03-15T00:50:13", 
+        "CachedOn": "2021-11-01T18:33:03", 
+        "ExpiresOn": "2022-03-16T18:33:03", 
         "Version": "1"
     }, 
     "Items": [
         {
-            "AFC All Pros": {
-                "active": false, 
-                "name": "AFC All Pros", 
+            "AFC": {
+                "active": true, 
+                "name": "AFC", 
                 "teams": {
-                    "AFC All Pros": {
+                    "AFC": {
                         "abbreviation": "AFC", 
-                        "active": false, 
-                        "aliases": [], 
+                        "active": true, 
+                        "aliases": [
+                            "All-Pros AFC", 
+                            "AFC All-Pros"
+                        ], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
                             "colors": [], 
                             "fanArt": [], 
                             "jersey": [], 
-                            "logo": [], 
+                            "logo": [
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/afc.png"
+                                }
+                            ], 
                             "wordmark": []
                         }, 
                         "city": "AFC", 
                         "conference": "AFC", 
-                        "fullName": "AFC All Pros", 
+                        "fullName": "AFC", 
                         "identity": {
+                            "ESPNAPIID": "31", 
                             "SportsDataIOID": "36"
                         }, 
-                        "key": "AFC", 
+                        "key": "aa5b2b5e-5f9d-4ff2-bc9b-a7504b024328", 
                         "name": "All Pros", 
                         "years": []
                     }
@@ -45,6 +55,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -68,7 +79,7 @@
                         "identity": {
                             "ProFootballReferenceID": "AKR.AI"
                         }, 
-                        "key": "", 
+                        "key": "6dbdc68e-cd44-4f20-ba23-c8e42cedeecc", 
                         "years": [
                             {
                                 "fromYear": 1926, 
@@ -80,6 +91,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -98,7 +110,7 @@
                         "identity": {
                             "ProFootballReferenceID": "AKR.AI.AP"
                         }, 
-                        "key": "", 
+                        "key": "3342bc03-b328-400a-b47a-7f16739861f1", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -118,9 +130,11 @@
                         "abbreviation": "ARI", 
                         "active": true, 
                         "aliases": [
+                            "Chi/Pit Cards/Steelers", 
                             "CRD", 
-                            "Chi/Pit Cards/Steelers"
+                            "Cardinals "
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -343,7 +357,7 @@
                             "SportsDBID": "134946", 
                             "SportsDataIOID": "1"
                         }, 
-                        "key": "ARI", 
+                        "key": "c4fe1235-7051-44e2-bd4d-e2c4ed732421", 
                         "name": "Cardinals", 
                         "years": [
                             {
@@ -355,6 +369,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -371,9 +386,9 @@
                         }, 
                         "fullName": "Chi/Pit Cards/Steelers", 
                         "identity": {
-                            "ProFootballReferenceID": "CRD.AC.CPCS"
+                            "ProFootballReferenceID": "ARI.AC.CPCS"
                         }, 
-                        "key": "", 
+                        "key": "c8202c2c-1581-4ead-865f-468464f9c1ed", 
                         "years": [
                             {
                                 "fromYear": 1944, 
@@ -385,6 +400,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -418,9 +434,9 @@
                         "fullName": "Chicago Cardinals", 
                         "identity": {
                             "ESPNAPIID": "22.1945", 
-                            "ProFootballReferenceID": "CRD.AC.CC"
+                            "ProFootballReferenceID": "ARI.AC.CC"
                         }, 
-                        "key": "", 
+                        "key": "264689a5-55b4-478d-aa60-ef1fdf067604", 
                         "name": "Cardinals", 
                         "years": [
                             {
@@ -437,6 +453,7 @@
                         "abbreviation": "PHO", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -468,10 +485,10 @@
                         "fullName": "Phoenix Cardinals", 
                         "identity": {
                             "ESPNAPIID": "22.1988", 
-                            "ProFootballReferenceID": "CRD.AC.PC", 
+                            "ProFootballReferenceID": "ARI.AC.PC", 
                             "SportsDataIOID": "27"
                         }, 
-                        "key": "PHO", 
+                        "key": "f4d34d98-04eb-4c06-8ed4-53e44475c127", 
                         "name": "Cardinals", 
                         "years": [
                             {
@@ -484,6 +501,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -517,9 +535,9 @@
                         "fullName": "St. Louis Cardinals", 
                         "identity": {
                             "ESPNAPIID": "22.1960", 
-                            "ProFootballReferenceID": "CRD.AC.SLC"
+                            "ProFootballReferenceID": "ARI.AC.SLC"
                         }, 
-                        "key": "", 
+                        "key": "3f5cee79-475c-487e-a8d7-82de4aa1629d", 
                         "name": "Cardinals", 
                         "years": [
                             {
@@ -538,7 +556,10 @@
                     "Atlanta Falcons": {
                         "abbreviation": "ATL", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Falcons "
+                        ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -906,7 +927,7 @@
                             "SportsDBID": "134942", 
                             "SportsDataIOID": "2"
                         }, 
-                        "key": "ATL", 
+                        "key": "5fce5f6f-bf3f-4b13-8e0c-65bb6af18746", 
                         "name": "Falcons", 
                         "years": [
                             {
@@ -925,6 +946,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -963,7 +985,7 @@
                         "identity": {
                             "ProFootballReferenceID": "BCL.BC"
                         }, 
-                        "key": "", 
+                        "key": "c5f5bc09-3ace-4aba-b167-4c751498a728", 
                         "years": [
                             {
                                 "fromYear": 1947, 
@@ -983,8 +1005,10 @@
                         "abbreviation": "BAL", 
                         "active": true, 
                         "aliases": [
-                            "RAV"
+                            "RAV", 
+                            "Ravens "
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1197,7 +1221,7 @@
                             "SportsDBID": "134922", 
                             "SportsDataIOID": "3"
                         }, 
-                        "key": "BAL", 
+                        "key": "eaf9ef9e-bbfd-4410-b641-f83c5ec8d0d9", 
                         "name": "Ravens", 
                         "years": [
                             {
@@ -1216,6 +1240,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1239,7 +1264,7 @@
                         "identity": {
                             "ProFootballReferenceID": "PTB.BB"
                         }, 
-                        "key": "", 
+                        "key": "b3900d61-dd92-4460-8403-d4779ff7102b", 
                         "years": [
                             {
                                 "fromYear": 1929, 
@@ -1251,6 +1276,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1269,7 +1295,7 @@
                         "identity": {
                             "ProFootballReferenceID": "PTB.BB.PM"
                         }, 
-                        "key": "", 
+                        "key": "485511bb-6d48-4665-9ef6-0404d7883d86", 
                         "years": [
                             {
                                 "fromYear": 1925, 
@@ -1289,6 +1315,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1307,7 +1334,7 @@
                         "identity": {
                             "ProFootballReferenceID": "BYK.BY.BBYT"
                         }, 
-                        "key": "", 
+                        "key": "6c964c86-1161-41f5-90b4-95ff35fac9ac", 
                         "years": [
                             {
                                 "fromYear": 1945, 
@@ -1319,6 +1346,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1357,7 +1385,7 @@
                         "identity": {
                             "ProFootballReferenceID": "BYK.BY"
                         }, 
-                        "key": "", 
+                        "key": "e491fc20-b44d-42d5-a022-3fb251beb65a", 
                         "years": [
                             {
                                 "fromYear": 1944, 
@@ -1381,6 +1409,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1414,7 +1443,7 @@
                         "identity": {
                             "ProFootballReferenceID": "BDA.BD"
                         }, 
-                        "key": "", 
+                        "key": "5a8af172-8aeb-4c24-bb77-7d2190b28c28", 
                         "years": [
                             {
                                 "fromYear": 1946, 
@@ -1434,6 +1463,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1457,7 +1487,7 @@
                         "identity": {
                             "ProFootballReferenceID": "BRL.BL"
                         }, 
-                        "key": "", 
+                        "key": "ab1bc3fc-46fe-4f1f-8d6e-b5a38def1e81", 
                         "years": [
                             {
                                 "fromYear": 1926, 
@@ -1477,6 +1507,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1495,7 +1526,7 @@
                         "identity": {
                             "ProFootballReferenceID": "BKN.BT.BD"
                         }, 
-                        "key": "", 
+                        "key": "f1d14887-7f96-4063-9358-6b00364f7cad", 
                         "years": [
                             {
                                 "fromYear": 1930, 
@@ -1507,6 +1538,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1530,7 +1562,7 @@
                         "identity": {
                             "ProFootballReferenceID": "BKN.BT"
                         }, 
-                        "key": "", 
+                        "key": "4a7e5de2-c3ef-4ef4-9823-2659b50830b6", 
                         "years": [
                             {
                                 "fromYear": 1944, 
@@ -1550,9 +1582,11 @@
                         "abbreviation": "BUF", 
                         "active": true, 
                         "aliases": [
+                            "Bills ", 
                             "BBA", 
                             "Buffalo Bisons"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1965,7 +1999,7 @@
                             "SportsDBID": "134918", 
                             "SportsDataIOID": "4"
                         }, 
-                        "key": "BUF", 
+                        "key": "ca82448c-f22b-44d4-a8af-fdfadfb47135", 
                         "name": "Bills", 
                         "years": [
                             {
@@ -1981,6 +2015,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1997,9 +2032,9 @@
                         }, 
                         "fullName": "Buffalo Bisons", 
                         "identity": {
-                            "ProFootballReferenceID": "BBA.BB"
+                            "ProFootballReferenceID": "BUF.BB"
                         }, 
-                        "key": "", 
+                        "key": "bf931fa7-9ee4-49ca-b96d-de06075c4095", 
                         "years": [
                             {
                                 "fromYear": 1946, 
@@ -2018,6 +2053,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2036,7 +2072,7 @@
                         "identity": {
                             "ProFootballReferenceID": "BFF.BB.BAA"
                         }, 
-                        "key": "", 
+                        "key": "4318a3f2-f424-4d0d-b8d3-d4d3a713368e", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -2048,6 +2084,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2091,7 +2128,7 @@
                         "identity": {
                             "ProFootballReferenceID": "BFF.BB"
                         }, 
-                        "key": "", 
+                        "key": "5383de12-797b-4057-9242-2a38dc3a4e84", 
                         "years": [
                             {
                                 "fromYear": 1924, 
@@ -2107,6 +2144,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2125,7 +2163,7 @@
                         "identity": {
                             "ProFootballReferenceID": "BFF.BB.BR"
                         }, 
-                        "key": "", 
+                        "key": "69ef745c-c858-4959-84c0-0cb9d4c388fb", 
                         "years": [
                             {
                                 "fromYear": 1926, 
@@ -2145,6 +2183,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2198,7 +2237,7 @@
                         "identity": {
                             "ProFootballReferenceID": "CBD.CB"
                         }, 
-                        "key": "", 
+                        "key": "a4ddd7a0-d939-46c6-9c7d-5e796475a0ef", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -2217,7 +2256,10 @@
                     "Carolina Panthers": {
                         "abbreviation": "CAR", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Panthers "
+                        ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2435,7 +2477,7 @@
                             "SportsDBID": "134943", 
                             "SportsDataIOID": "5"
                         }, 
-                        "key": "CAR", 
+                        "key": "1a028639-04b4-4185-86c0-b47eceb384e5", 
                         "name": "Panthers", 
                         "years": [
                             {
@@ -2455,8 +2497,10 @@
                         "active": true, 
                         "aliases": [
                             "Chicago Staleys", 
+                            "Bears ", 
                             "Decatur Staleys"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3039,7 +3083,7 @@
                             "SportsDBID": "134938", 
                             "SportsDataIOID": "6"
                         }, 
-                        "key": "CHI", 
+                        "key": "20a08b9a-beba-49f1-94ed-c117d317b527", 
                         "name": "Bears", 
                         "years": [
                             {
@@ -3051,6 +3095,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3069,7 +3114,7 @@
                         "identity": {
                             "ProFootballReferenceID": "CHI.CB.CS"
                         }, 
-                        "key": "", 
+                        "key": "a6331ff3-dc21-4f8c-b6db-4d973efaa167", 
                         "years": [
                             {
                                 "fromYear": 1921, 
@@ -3081,6 +3126,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3099,7 +3145,7 @@
                         "identity": {
                             "ProFootballReferenceID": "CHI.CB.DS"
                         }, 
-                        "key": "", 
+                        "key": "0382a2dc-716d-4c29-989c-18d81d1ac0e2", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -3118,6 +3164,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3141,7 +3188,7 @@
                         "identity": {
                             "ProFootballReferenceID": "CRA.CH"
                         }, 
-                        "key": "", 
+                        "key": "40d08a4f-f17d-441b-b5cc-c853e06dd140", 
                         "years": [
                             {
                                 "fromYear": 1949, 
@@ -3153,6 +3200,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3171,7 +3219,7 @@
                         "identity": {
                             "ProFootballReferenceID": "CRA.CH.CR"
                         }, 
-                        "key": "", 
+                        "key": "3348180d-f8c8-48e8-8e79-ded8974c3981", 
                         "years": [
                             {
                                 "fromYear": 1946, 
@@ -3191,6 +3239,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3214,7 +3263,7 @@
                         "identity": {
                             "ProFootballReferenceID": "CHT.CT"
                         }, 
-                        "key": "", 
+                        "key": "d60be29a-8d12-4023-9511-5550d4c9292a", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -3233,7 +3282,10 @@
                     "Cincinnati Bengals": {
                         "abbreviation": "CIN", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Bengals "
+                        ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3586,7 +3638,7 @@
                             "SportsDBID": "134923", 
                             "SportsDataIOID": "7"
                         }, 
-                        "key": "CIN", 
+                        "key": "6be097c8-315b-4236-a88e-eed42fe31eec", 
                         "name": "Bengals", 
                         "years": [
                             {
@@ -3605,6 +3657,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3628,7 +3681,7 @@
                         "identity": {
                             "ProFootballReferenceID": "CCL.CC"
                         }, 
-                        "key": "", 
+                        "key": "2365b1c8-64af-4010-92f3-f149f6c00827", 
                         "years": [
                             {
                                 "fromYear": 1921, 
@@ -3648,6 +3701,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3676,7 +3730,7 @@
                         "identity": {
                             "ProFootballReferenceID": "RED.CR"
                         }, 
-                        "key": "", 
+                        "key": "1c492a93-918a-46ef-a841-3af513071225", 
                         "years": [
                             {
                                 "fromYear": 1933, 
@@ -3695,7 +3749,10 @@
                     "Cleveland Browns": {
                         "abbreviation": "CLE", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Browns "
+                        ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -4158,7 +4215,7 @@
                             "SportsDBID": "134924", 
                             "SportsDataIOID": "8"
                         }, 
-                        "key": "CLE", 
+                        "key": "926b2016-17d2-4b68-b4cc-30577ff5a077", 
                         "name": "Browns", 
                         "years": [
                             {
@@ -4177,6 +4234,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4215,7 +4273,7 @@
                         "identity": {
                             "ProFootballReferenceID": "CIB.CB"
                         }, 
-                        "key": "", 
+                        "key": "1a6e0ecb-4afc-439a-a956-110db964bf9f", 
                         "years": [
                             {
                                 "fromYear": 1924, 
@@ -4227,6 +4285,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4245,7 +4304,7 @@
                         "identity": {
                             "ProFootballReferenceID": "CIB.CB.CI"
                         }, 
-                        "key": "", 
+                        "key": "3a0fd346-359c-439b-abdd-8d64999050bf", 
                         "years": [
                             {
                                 "fromYear": 1923, 
@@ -4265,6 +4324,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4288,7 +4348,7 @@
                         "identity": {
                             "ProFootballReferenceID": "CLI.CI"
                         }, 
-                        "key": "", 
+                        "key": "1464f0c1-9410-433d-b9e8-b3086db4592e", 
                         "years": [
                             {
                                 "fromYear": 1921, 
@@ -4300,6 +4360,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4318,7 +4379,7 @@
                         "identity": {
                             "ProFootballReferenceID": "CLI.CI.CT"
                         }, 
-                        "key": "", 
+                        "key": "49f0b075-e839-4acf-9949-00cc98394816", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -4338,6 +4399,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4356,7 +4418,7 @@
                         "identity": {
                             "ProFootballReferenceID": "COL.CT.CP"
                         }, 
-                        "key": "", 
+                        "key": "42651e59-6deb-4f9e-a218-1f693081fc43", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -4368,6 +4430,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4406,7 +4469,7 @@
                         "identity": {
                             "ProFootballReferenceID": "COL.CT"
                         }, 
-                        "key": "", 
+                        "key": "eae563d5-419a-4c4e-99e0-19de961760ce", 
                         "years": [
                             {
                                 "fromYear": 1923, 
@@ -4425,7 +4488,10 @@
                     "Dallas Cowboys": {
                         "abbreviation": "DAL", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Cowboys "
+                        ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -4823,7 +4889,7 @@
                             "SportsDBID": "134934", 
                             "SportsDataIOID": "9"
                         }, 
-                        "key": "DAL", 
+                        "key": "2b52a334-b4f1-425e-b3d2-d894811725a3", 
                         "name": "Cowboys", 
                         "years": [
                             {
@@ -4842,6 +4908,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4865,7 +4932,7 @@
                         "identity": {
                             "ProFootballReferenceID": "DTX.DT"
                         }, 
-                        "key": "", 
+                        "key": "22e10dc9-755e-4533-85f5-648dce1ec775", 
                         "years": [
                             {
                                 "fromYear": 1952, 
@@ -4885,6 +4952,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -4953,7 +5021,7 @@
                         "identity": {
                             "ProFootballReferenceID": "DAY.DT"
                         }, 
-                        "key": "", 
+                        "key": "6a105ff1-a6de-42bd-809b-2da5d6b994da", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -4972,7 +5040,10 @@
                     "Denver Broncos": {
                         "abbreviation": "DEN", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Broncos "
+                        ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -5365,7 +5436,7 @@
                             "SportsDBID": "134930", 
                             "SportsDataIOID": "10"
                         }, 
-                        "key": "DEN", 
+                        "key": "bf13f416-fa93-41b3-be93-b68f2c3bd39e", 
                         "name": "Broncos", 
                         "years": [
                             {
@@ -5384,6 +5455,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -5407,7 +5479,7 @@
                         "identity": {
                             "ProFootballReferenceID": "DHR.DH"
                         }, 
-                        "key": "", 
+                        "key": "8e7d1586-9212-4977-99d7-8b03ad80a5f0", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -5427,8 +5499,10 @@
                         "abbreviation": "DET", 
                         "active": true, 
                         "aliases": [
-                            "Portsmouth Spartans"
+                            "Portsmouth Spartans", 
+                            "Lions "
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -5946,7 +6020,7 @@
                             "SportsDBID": "134939", 
                             "SportsDataIOID": "11"
                         }, 
-                        "key": "DET", 
+                        "key": "c051ab02-54b2-4048-abf0-5bebe7e58b58", 
                         "name": "Lions", 
                         "years": [
                             {
@@ -5958,6 +6032,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -5976,7 +6051,7 @@
                         "identity": {
                             "ProFootballReferenceID": "DET.DL.PS"
                         }, 
-                        "key": "", 
+                        "key": "c1aad551-b90d-47dc-a54b-180506f58d45", 
                         "years": [
                             {
                                 "fromYear": 1930, 
@@ -5995,6 +6070,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -6023,7 +6099,7 @@
                         "identity": {
                             "ProFootballReferenceID": "DPN.DP"
                         }, 
-                        "key": "", 
+                        "key": "9b735cf3-8849-4b76-ab11-a51afd561eba", 
                         "years": [
                             {
                                 "fromYear": 1925, 
@@ -6043,6 +6119,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -6066,7 +6143,7 @@
                         "identity": {
                             "ProFootballReferenceID": "DTI.DT"
                         }, 
-                        "key": "", 
+                        "key": "7fbecf21-69e3-4d4a-b217-a4798d5502e0", 
                         "years": [
                             {
                                 "fromYear": 1921, 
@@ -6086,6 +6163,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -6109,7 +6187,7 @@
                         "identity": {
                             "ProFootballReferenceID": "DWL.DW"
                         }, 
-                        "key": "", 
+                        "key": "6ca8298a-16fe-4ddb-9d33-57bc08ce43c8", 
                         "years": [
                             {
                                 "fromYear": 1928, 
@@ -6129,6 +6207,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -6157,7 +6236,7 @@
                         "identity": {
                             "ProFootballReferenceID": "DUL.DE"
                         }, 
-                        "key": "", 
+                        "key": "98b797df-c1b1-42bf-9200-e7081e65f02d", 
                         "years": [
                             {
                                 "fromYear": 1926, 
@@ -6169,6 +6248,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -6187,7 +6267,7 @@
                         "identity": {
                             "ProFootballReferenceID": "DUL.DE.DK"
                         }, 
-                        "key": "", 
+                        "key": "61b945f9-3cbe-4dba-af30-24b504d17efe", 
                         "years": [
                             {
                                 "fromYear": 1923, 
@@ -6207,6 +6287,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -6235,7 +6316,7 @@
                         "identity": {
                             "ProFootballReferenceID": "ECG"
                         }, 
-                        "key": "", 
+                        "key": "1ecfa183-8922-469d-a8b0-c922ac4a9df2", 
                         "years": [
                             {
                                 "fromYear": 1921, 
@@ -6255,6 +6336,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -6313,7 +6395,7 @@
                         "identity": {
                             "ProFootballReferenceID": "FYJ"
                         }, 
-                        "key": "", 
+                        "key": "f1a1d75b-2b54-4d34-843b-ff8e3cf0bf68", 
                         "years": [
                             {
                                 "fromYear": 1924, 
@@ -6333,8 +6415,10 @@
                         "abbreviation": "GB", 
                         "active": true, 
                         "aliases": [
-                            "GNB"
+                            "GNB", 
+                            "Packers "
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -6922,7 +7006,7 @@
                             "SportsDBID": "134940", 
                             "SportsDataIOID": "12"
                         }, 
-                        "key": "GB", 
+                        "key": "1b2ad99b-f7a0-4229-b846-09c6ecb1a931", 
                         "name": "Packers", 
                         "years": [
                             {
@@ -6941,6 +7025,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -6994,7 +7079,7 @@
                         "identity": {
                             "ProFootballReferenceID": "HAM.HP"
                         }, 
-                        "key": "", 
+                        "key": "d6d021a7-9994-4111-b1ec-bf09427e6a8a", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -7014,6 +7099,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -7037,7 +7123,7 @@
                         "identity": {
                             "ProFootballReferenceID": "HRT.HB"
                         }, 
-                        "key": "", 
+                        "key": "91162254-4727-45da-bda6-4f9617e73381", 
                         "years": [
                             {
                                 "fromYear": 1926, 
@@ -7057,8 +7143,10 @@
                         "abbreviation": "HOU", 
                         "active": true, 
                         "aliases": [
+                            "Texans ", 
                             "HTX"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -7241,7 +7329,7 @@
                             "SportsDBID": "134926", 
                             "SportsDataIOID": "13"
                         }, 
-                        "key": "HOU", 
+                        "key": "fab7bc05-f9a3-4866-aac7-ba44e88e6075", 
                         "name": "Texans", 
                         "years": [
                             {
@@ -7260,6 +7348,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -7293,9 +7382,9 @@
                         "fullName": "Baltimore Colts", 
                         "identity": {
                             "ESPNAPIID": "11.1953", 
-                            "ProFootballReferenceID": "CLT.IC.BC"
+                            "ProFootballReferenceID": "IND.IC.BC"
                         }, 
-                        "key": "", 
+                        "key": "c263195f-5d3c-457f-a5b2-ba6cb7408ef7", 
                         "name": "Colts", 
                         "years": [
                             {
@@ -7309,8 +7398,10 @@
                         "active": true, 
                         "aliases": [
                             "CLT", 
-                            "Indy"
+                            "Indy", 
+                            "Colts "
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -7588,7 +7679,7 @@
                             "SportsDBID": "134927", 
                             "SportsDataIOID": "14"
                         }, 
-                        "key": "IND", 
+                        "key": "d0f66202-04a8-492d-9c02-1df9df77a25c", 
                         "name": "Colts", 
                         "years": [
                             {
@@ -7608,8 +7699,10 @@
                         "active": true, 
                         "aliases": [
                             "The Jags", 
-                            "Jax"
+                            "Jax", 
+                            "Jaguars "
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -7827,7 +7920,7 @@
                             "SportsDBID": "134928", 
                             "SportsDataIOID": "15"
                         }, 
-                        "key": "JAX", 
+                        "key": "02fca983-326a-482e-b78d-0e88cd873d99", 
                         "name": "Jaguars", 
                         "years": [
                             {
@@ -7846,6 +7939,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -7879,9 +7973,9 @@
                         "fullName": "Dallas Texans", 
                         "identity": {
                             "ESPNAPIID": "12.1960", 
-                            "ProFootballReferenceID": "KAN.KCC.DT"
+                            "ProFootballReferenceID": "KC.KCC.DT"
                         }, 
-                        "key": "", 
+                        "key": "2bb2fbae-5ac6-4e25-a5f1-dc45ac069458", 
                         "name": "Texans", 
                         "years": [
                             {
@@ -7894,8 +7988,10 @@
                         "abbreviation": "KC", 
                         "active": true, 
                         "aliases": [
-                            "KAN"
+                            "KAN", 
+                            "Chiefs "
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -8273,7 +8369,7 @@
                             "SportsDBID": "134931", 
                             "SportsDataIOID": "16"
                         }, 
-                        "key": "KC", 
+                        "key": "94a8ce56-c225-4e67-9bb5-7d281368d914", 
                         "name": "Chiefs", 
                         "years": [
                             {
@@ -8292,6 +8388,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -8310,7 +8407,7 @@
                         "identity": {
                             "ProFootballReferenceID": "KCB.KCC.KCB"
                         }, 
-                        "key": "", 
+                        "key": "0e3c2fce-8403-48d0-843b-79b96d45c035", 
                         "years": [
                             {
                                 "fromYear": 1924, 
@@ -8322,6 +8419,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -8350,7 +8448,7 @@
                         "identity": {
                             "ProFootballReferenceID": "KCB.KCC"
                         }, 
-                        "key": "", 
+                        "key": "9667d0c0-e6a7-43aa-9d37-da04a58a7f5a", 
                         "years": [
                             {
                                 "fromYear": 1925, 
@@ -8370,6 +8468,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -8393,7 +8492,7 @@
                         "identity": {
                             "ProFootballReferenceID": "KEN.KM"
                         }, 
-                        "key": "", 
+                        "key": "32a80e9a-b83b-42cb-a361-a73dc3f62f24", 
                         "years": [
                             {
                                 "fromYear": 1924, 
@@ -8414,8 +8513,10 @@
                         "active": true, 
                         "aliases": [
                             "Oakland Raiders", 
+                            "Raiders ", 
                             "RAI"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -8503,7 +8604,7 @@
                             "SportsDBID": "134932", 
                             "SportsDataIOID": "25"
                         }, 
-                        "key": "LV", 
+                        "key": "78775c21-9dd1-4685-a638-d3853f355246", 
                         "name": "Raiders", 
                         "years": [
                             {
@@ -8515,6 +8616,7 @@
                         "abbreviation": "LARAID", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -8550,10 +8652,10 @@
                         "fullName": "Los Angeles Raiders", 
                         "identity": {
                             "ESPNAPIID": "13.1982", 
-                            "ProFootballReferenceID": "RAI.LVR.LAR", 
+                            "ProFootballReferenceID": "LV.LVR.LAR", 
                             "SportsDataIOID": "17"
                         }, 
-                        "key": "LARAID", 
+                        "key": "68a91634-700b-46df-871e-f6175b8e02f0", 
                         "name": "Raiders", 
                         "years": [
                             {
@@ -8566,6 +8668,7 @@
                         "abbreviation": "OAK", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -8599,10 +8702,10 @@
                         "fullName": "Oakland Raiders", 
                         "identity": {
                             "ESPNAPIID": "13.1995", 
-                            "ProFootballReferenceID": "RAI.LVR.OR", 
+                            "ProFootballReferenceID": "LV.LVR.OR", 
                             "SportsDBID": "134932.OAK"
                         }, 
-                        "key": "OAK", 
+                        "key": "7b5afd91-faeb-4e41-93b0-59051986f2d1", 
                         "name": "Raiders", 
                         "years": [
                             {
@@ -8626,6 +8729,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -8649,7 +8753,7 @@
                         "identity": {
                             "ProFootballReferenceID": "LAB"
                         }, 
-                        "key": "", 
+                        "key": "905bf31f-1bde-4cc8-8609-c4ed9d030a8b", 
                         "years": [
                             {
                                 "fromYear": 1926, 
@@ -8670,8 +8774,10 @@
                         "active": true, 
                         "aliases": [
                             "The Bolts", 
+                            "Chargers ", 
                             "SDG"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -8789,7 +8895,7 @@
                             "SportsDBID": "135908", 
                             "SportsDataIOID": "29"
                         }, 
-                        "key": "LAC", 
+                        "key": "a6a57a09-883a-4ad6-95dc-adfb53be1beb", 
                         "name": "Chargers", 
                         "years": [
                             {
@@ -8805,6 +8911,7 @@
                         "abbreviation": "SD", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -8838,9 +8945,9 @@
                         "fullName": "San Diego Chargers", 
                         "identity": {
                             "ESPNAPIID": "24.1961", 
-                            "ProFootballReferenceID": "SDG.LAC.SDC"
+                            "ProFootballReferenceID": "LAC.SDC"
                         }, 
-                        "key": "", 
+                        "key": "0ceac26f-c926-4c44-84a5-28ea4813cea2", 
                         "name": "Chargers", 
                         "years": [
                             {
@@ -8860,6 +8967,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -8898,7 +9006,7 @@
                         "identity": {
                             "ProFootballReferenceID": "LDA.LAD"
                         }, 
-                        "key": "", 
+                        "key": "95195325-f324-45d2-aaeb-1e6ab45b2e54", 
                         "years": [
                             {
                                 "fromYear": 1946, 
@@ -8918,6 +9026,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -8951,9 +9060,9 @@
                         "fullName": "Cleveland Rams", 
                         "identity": {
                             "ESPNAPIID": "14.1937", 
-                            "ProFootballReferenceID": "RAM.LAR.CR"
+                            "ProFootballReferenceID": "LAR.CR"
                         }, 
-                        "key": "", 
+                        "key": "950deb2e-a979-4e9b-adb9-d87f95b1cf57", 
                         "name": "Rams", 
                         "years": [
                             {
@@ -8967,8 +9076,10 @@
                         "active": true, 
                         "aliases": [
                             "RAM", 
+                            "Rams ", 
                             "LA Rams"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -9326,7 +9437,7 @@
                             "SportsDBID": "135907", 
                             "SportsDataIOID": "32"
                         }, 
-                        "key": "LAR", 
+                        "key": "aacfd39d-9cce-4a4c-9caa-fea917e5b11f", 
                         "name": "Rams", 
                         "years": [
                             {
@@ -9342,6 +9453,7 @@
                         "abbreviation": "STL", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -9375,9 +9487,9 @@
                         "fullName": "St. Louis Rams", 
                         "identity": {
                             "ESPNAPIID": "14.1995", 
-                            "ProFootballReferenceID": "RAM.LAR.SLR"
+                            "ProFootballReferenceID": "LAR.SLR"
                         }, 
-                        "key": "", 
+                        "key": "60b540b2-6a8f-4db8-a677-98a9cad35a14", 
                         "name": "Rams", 
                         "years": [
                             {
@@ -9397,6 +9509,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -9415,7 +9528,7 @@
                         "identity": {
                             "ProFootballReferenceID": "LOU.LC.LB"
                         }, 
-                        "key": "", 
+                        "key": "5faa9867-5244-49d7-9727-150fa8c77b08", 
                         "years": [
                             {
                                 "fromYear": 1921, 
@@ -9427,6 +9540,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -9450,7 +9564,7 @@
                         "identity": {
                             "ProFootballReferenceID": "LOU.LC"
                         }, 
-                        "key": "", 
+                        "key": "67cd7a65-dad7-4346-a6b4-54ffa3ba0a59", 
                         "years": [
                             {
                                 "fromYear": 1926, 
@@ -9470,8 +9584,10 @@
                         "abbreviation": "MIA", 
                         "active": true, 
                         "aliases": [
+                            "Dolphins ", 
                             "The Fins"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -9834,7 +9950,7 @@
                             "SportsDBID": "134919", 
                             "SportsDataIOID": "19"
                         }, 
-                        "key": "MIA", 
+                        "key": "756cfa35-2caa-4514-8b59-b0549e3f9448", 
                         "name": "Dolphins", 
                         "years": [
                             {
@@ -9853,6 +9969,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -9876,7 +9993,7 @@
                         "identity": {
                             "ProFootballReferenceID": "MSA.MS"
                         }, 
-                        "key": "", 
+                        "key": "21cffe9b-4676-4e33-b003-cd7859d5319d", 
                         "years": [
                             {
                                 "fromYear": 1946, 
@@ -9896,6 +10013,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -9939,7 +10057,7 @@
                         "identity": {
                             "ProFootballReferenceID": "MIL.MB"
                         }, 
-                        "key": "", 
+                        "key": "ff0326f8-9939-4169-9512-ab53e637f168", 
                         "years": [
                             {
                                 "fromYear": 1922, 
@@ -9959,6 +10077,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -9977,7 +10096,7 @@
                         "identity": {
                             "ProFootballReferenceID": "MNN.MRJ.MM"
                         }, 
-                        "key": "", 
+                        "key": "3bda49d4-ec68-4790-af08-974c3fe6424a", 
                         "years": [
                             {
                                 "fromYear": 1921, 
@@ -9989,6 +10108,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -10017,7 +10137,7 @@
                         "identity": {
                             "ProFootballReferenceID": "MNN.MRJ"
                         }, 
-                        "key": "", 
+                        "key": "30a01337-bca4-40a9-a2c6-753f1d4d0808", 
                         "years": [
                             {
                                 "fromYear": 1929, 
@@ -10037,8 +10157,10 @@
                         "abbreviation": "MIN", 
                         "active": true, 
                         "aliases": [
+                            "Vikings ", 
                             "Vikings"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -10426,7 +10548,7 @@
                             "SportsDBID": "134941", 
                             "SportsDataIOID": "20"
                         }, 
-                        "key": "MIN", 
+                        "key": "c7e4061c-4452-49bd-93a3-859c86652c99", 
                         "name": "Vikings", 
                         "years": [
                             {
@@ -10445,6 +10567,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -10473,7 +10596,7 @@
                         "identity": {
                             "ProFootballReferenceID": "MUN.MF"
                         }, 
-                        "key": "", 
+                        "key": "5b0c63a8-2390-47cb-979f-7d8127bfc7f7", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -10484,30 +10607,40 @@
                 }, 
                 "toYear": 1921
             }, 
-            "NFC All Pros": {
-                "active": false, 
-                "name": "NFC All Pros", 
+            "NFC": {
+                "active": true, 
+                "name": "NFC", 
                 "teams": {
-                    "NFC All Pros": {
+                    "NFC": {
                         "abbreviation": "NFC", 
-                        "active": false, 
-                        "aliases": [], 
+                        "active": true, 
+                        "aliases": [
+                            "All-Pros NFC", 
+                            "NFC All-Pros"
+                        ], 
+                        "allStar": true, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
                             "colors": [], 
                             "fanArt": [], 
                             "jersey": [], 
-                            "logo": [], 
+                            "logo": [
+                                {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nfl/500/nfc.png"
+                                }
+                            ], 
                             "wordmark": []
                         }, 
                         "city": "NFC", 
                         "conference": "NFC", 
-                        "fullName": "NFC All Pros", 
+                        "fullName": "NFC", 
                         "identity": {
+                            "ESPNAPIID": "32", 
                             "SportsDataIOID": "37"
                         }, 
-                        "key": "NFC", 
+                        "key": "a3ff0330-3a3c-44d8-81b5-1fb66a0bb590", 
                         "name": "All Pros", 
                         "years": []
                     }
@@ -10522,6 +10655,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -10555,9 +10689,9 @@
                         "fullName": "Boston Patriots", 
                         "identity": {
                             "ESPNAPIID": "17.1960", 
-                            "ProFootballReferenceID": "NWE.NEP.BP"
+                            "ProFootballReferenceID": "NE.NEP.BP"
                         }, 
-                        "key": "", 
+                        "key": "46bd31a1-32bb-4a04-ac9d-e4e37fec761c", 
                         "name": "Patriots", 
                         "years": [
                             {
@@ -10571,8 +10705,10 @@
                         "active": true, 
                         "aliases": [
                             "NWE", 
+                            "Patriots ", 
                             "The Pats"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -10915,7 +11051,7 @@
                             "SportsDBID": "134920", 
                             "SportsDataIOID": "21"
                         }, 
-                        "key": "NE", 
+                        "key": "1019955a-3d3a-43db-926b-53f1c6979fe7", 
                         "name": "Patriots", 
                         "years": [
                             {
@@ -10934,8 +11070,10 @@
                         "abbreviation": "NO", 
                         "active": true, 
                         "aliases": [
+                            "Saints ", 
                             "NOR"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -11293,7 +11431,7 @@
                             "SportsDBID": "134944", 
                             "SportsDataIOID": "22"
                         }, 
-                        "key": "NO", 
+                        "key": "dfe6c720-03db-41d7-a65f-aef1db075f7b", 
                         "name": "Saints", 
                         "years": [
                             {
@@ -11312,6 +11450,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -11335,7 +11474,7 @@
                         "identity": {
                             "ProFootballReferenceID": "NG1.NYBG"
                         }, 
-                        "key": "", 
+                        "key": "9e60dd7d-8905-4341-a165-b43fa0e74a4d", 
                         "years": [
                             {
                                 "fromYear": 1921, 
@@ -11354,7 +11493,10 @@
                     "New York Giants": {
                         "abbreviation": "NYG", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Giants "
+                        ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -11922,7 +12064,7 @@
                             "SportsDBID": "134935", 
                             "SportsDataIOID": "23"
                         }, 
-                        "key": "NYG", 
+                        "key": "0e55c655-712b-41d1-a4a6-bb6ffd54895a", 
                         "name": "Giants", 
                         "years": [
                             {
@@ -11941,8 +12083,10 @@
                         "abbreviation": "NYJ", 
                         "active": true, 
                         "aliases": [
+                            "Jets ", 
                             "Gang Green"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -12320,7 +12464,7 @@
                             "SportsDBID": "134921", 
                             "SportsDataIOID": "24"
                         }, 
-                        "key": "NYJ", 
+                        "key": "3138e266-d350-4bb1-8cdb-8492a068114c", 
                         "name": "Jets", 
                         "years": [
                             {
@@ -12332,6 +12476,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -12367,7 +12512,7 @@
                             "ESPNAPIID": "20.1960", 
                             "ProFootballReferenceID": "NYJ.NYT"
                         }, 
-                        "key": "", 
+                        "key": "f376483a-7c98-4342-a552-72a7caa715b7", 
                         "name": "Titans", 
                         "years": [
                             {
@@ -12387,6 +12532,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -12425,7 +12571,7 @@
                         "identity": {
                             "ProFootballReferenceID": "NYA.NYY"
                         }, 
-                        "key": "", 
+                        "key": "8a176653-0aa0-4a61-bf31-5ec4fd585c28", 
                         "years": [
                             {
                                 "fromYear": 1946, 
@@ -12445,6 +12591,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -12463,7 +12610,7 @@
                         "identity": {
                             "ProFootballReferenceID": "NYY.NYB"
                         }, 
-                        "key": "", 
+                        "key": "2512a176-20b1-4f7b-957e-2e2061865a1a", 
                         "years": [
                             {
                                 "fromYear": 1949, 
@@ -12475,6 +12622,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -12503,7 +12651,7 @@
                         "identity": {
                             "ProFootballReferenceID": "NYY"
                         }, 
-                        "key": "", 
+                        "key": "77454a44-9772-41a1-981a-350702e73093", 
                         "years": [
                             {
                                 "fromYear": 1950, 
@@ -12523,6 +12671,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -12546,7 +12695,7 @@
                         "identity": {
                             "ProFootballReferenceID": "TOR.NT"
                         }, 
-                        "key": "", 
+                        "key": "46d3d341-e8a9-4273-86c9-535e178585c0", 
                         "years": [
                             {
                                 "fromYear": 1930, 
@@ -12558,6 +12707,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -12576,7 +12726,7 @@
                         "identity": {
                             "ProFootballReferenceID": "TOR.NT.OT"
                         }, 
-                        "key": "", 
+                        "key": "2c6f1fae-57a2-4d06-b05f-df88c92b53df", 
                         "years": [
                             {
                                 "fromYear": 1929, 
@@ -12596,6 +12746,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -12624,7 +12775,7 @@
                         "identity": {
                             "ProFootballReferenceID": "OOR.OI"
                         }, 
-                        "key": "", 
+                        "key": "9c39f800-19ec-4f0d-977c-10e13c28d538", 
                         "years": [
                             {
                                 "fromYear": 1922, 
@@ -12644,6 +12795,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -12662,7 +12814,7 @@
                         "identity": {
                             "ProFootballReferenceID": "PHI.PE.PPES"
                         }, 
-                        "key": "", 
+                        "key": "841558bb-dc1d-452a-b4c8-922c99a30f69", 
                         "years": [
                             {
                                 "fromYear": 1943, 
@@ -12675,9 +12827,11 @@
                         "active": true, 
                         "aliases": [
                             "Eagles", 
+                            "Eagles ", 
                             "Philly", 
                             "Phi/Pit Eagles/Steelers"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -13205,7 +13359,7 @@
                             "SportsDBID": "134936", 
                             "SportsDataIOID": "26"
                         }, 
-                        "key": "PHI", 
+                        "key": "22ed847d-497c-4aa9-a03d-e59d8de270e9", 
                         "name": "Eagles", 
                         "years": [
                             {
@@ -13228,6 +13382,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -13246,7 +13401,7 @@
                         "identity": {
                             "ProFootballReferenceID": "PIT.PS.CPCS"
                         }, 
-                        "key": "", 
+                        "key": "5c83303c-8f7d-40db-88b3-b415c3b04434", 
                         "years": [
                             {
                                 "fromYear": 1944, 
@@ -13258,6 +13413,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -13276,7 +13432,7 @@
                         "identity": {
                             "ProFootballReferenceID": "PIT.PS.PPES"
                         }, 
-                        "key": "", 
+                        "key": "3f31ba4d-6161-4464-9846-b15bee7e01e0", 
                         "years": [
                             {
                                 "fromYear": 1943, 
@@ -13288,6 +13444,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -13323,7 +13480,7 @@
                             "ESPNAPIID": "23.1933", 
                             "ProFootballReferenceID": "PIT.PS.PP"
                         }, 
-                        "key": "", 
+                        "key": "b8b96a6f-d80b-43c4-ae34-18ffec7c4204", 
                         "name": "Pirates", 
                         "years": [
                             {
@@ -13336,9 +13493,11 @@
                         "abbreviation": "PIT", 
                         "active": true, 
                         "aliases": [
+                            "Steelers ", 
                             "Chi/Pit Cards/Steelers", 
                             "Phi/Pit Eagles/Steelers"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -13816,7 +13975,7 @@
                             "SportsDBID": "134925", 
                             "SportsDataIOID": "28"
                         }, 
-                        "key": "PIT", 
+                        "key": "6331a92d-3566-4291-bd58-1b6407455fa2", 
                         "name": "Steelers", 
                         "years": [
                             {
@@ -13839,6 +13998,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -13892,7 +14052,7 @@
                         "identity": {
                             "ProFootballReferenceID": "PRV.PSR"
                         }, 
-                        "key": "", 
+                        "key": "e04ee754-f867-4f5e-84a2-5b42be45993c", 
                         "years": [
                             {
                                 "fromYear": 1925, 
@@ -13912,6 +14072,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -13930,7 +14091,7 @@
                         "identity": {
                             "ProFootballReferenceID": "RAC.RT.RL"
                         }, 
-                        "key": "", 
+                        "key": "14e551c4-971c-4530-9ae3-dc04d0c4b013", 
                         "years": [
                             {
                                 "fromYear": 1922, 
@@ -13942,6 +14103,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -13965,7 +14127,7 @@
                         "identity": {
                             "ProFootballReferenceID": "RAC.RT"
                         }, 
-                        "key": "", 
+                        "key": "7dd12ea5-dc5a-43c2-b309-e68d455adf01", 
                         "years": [
                             {
                                 "fromYear": 1926, 
@@ -13985,6 +14147,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -14033,7 +14196,7 @@
                         "identity": {
                             "ProFootballReferenceID": "RCH.RJ"
                         }, 
-                        "key": "", 
+                        "key": "49324d72-db90-4a68-be0e-cddb5177229b", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -14053,6 +14216,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -14101,7 +14265,7 @@
                         "identity": {
                             "ProFootballReferenceID": "RII"
                         }, 
-                        "key": "", 
+                        "key": "3a5e2aae-517b-47ca-8b3b-83760ff91176", 
                         "years": [
                             {
                                 "fromYear": 1920, 
@@ -14121,8 +14285,10 @@
                         "abbreviation": "SF", 
                         "active": true, 
                         "aliases": [
-                            "SFO"
+                            "SFO", 
+                            "49ers "
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -14580,7 +14746,7 @@
                             "SportsDBID": "134948", 
                             "SportsDataIOID": "31"
                         }, 
-                        "key": "SF", 
+                        "key": "ec8b9c92-d6f1-4133-a56f-d60cc4404fb5", 
                         "name": "49ers", 
                         "years": [
                             {
@@ -14598,7 +14764,10 @@
                     "Seattle Seahawks": {
                         "abbreviation": "SEA", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Seahawks "
+                        ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -14911,7 +15080,7 @@
                             "SportsDBID": "134949", 
                             "SportsDataIOID": "30"
                         }, 
-                        "key": "SEA", 
+                        "key": "9febe303-ce91-4c9a-8fec-63169a90cfeb", 
                         "name": "Seahawks", 
                         "years": [
                             {
@@ -14930,6 +15099,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -14953,7 +15123,7 @@
                         "identity": {
                             "ProFootballReferenceID": "SLA.SLAS"
                         }, 
-                        "key": "", 
+                        "key": "f8f614c6-7b24-4760-b831-e24604a675a0", 
                         "years": [
                             {
                                 "fromYear": 1923, 
@@ -14973,6 +15143,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -14996,7 +15167,7 @@
                         "identity": {
                             "ProFootballReferenceID": "GUN.SLG"
                         }, 
-                        "key": "", 
+                        "key": "d1559ff1-52c4-47d3-a95c-f16273a4f331", 
                         "years": [
                             {
                                 "fromYear": 1934, 
@@ -15016,6 +15187,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -15054,7 +15226,7 @@
                         "identity": {
                             "ProFootballReferenceID": "SIS"
                         }, 
-                        "key": "", 
+                        "key": "76da916e-60f4-4d90-9b64-8d63b9833da2", 
                         "years": [
                             {
                                 "fromYear": 1929, 
@@ -15074,8 +15246,10 @@
                         "abbreviation": "TB", 
                         "active": true, 
                         "aliases": [
-                            "TAM"
+                            "TAM", 
+                            "Buccaneers "
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -15393,7 +15567,7 @@
                             "SportsDBID": "134945", 
                             "SportsDataIOID": "33"
                         }, 
-                        "key": "TB", 
+                        "key": "42a7aa14-07de-4a68-b241-c360688575e6", 
                         "name": "Buccaneers", 
                         "years": [
                             {
@@ -15412,6 +15586,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -15445,9 +15620,9 @@
                         "fullName": "Houston Oilers", 
                         "identity": {
                             "ESPNAPIID": "10.1960", 
-                            "ProFootballReferenceID": "OTI.TT.HO"
+                            "ProFootballReferenceID": "TEN.TT.HO"
                         }, 
-                        "key": "", 
+                        "key": "a4f7ace7-b1c5-41c4-873f-fd9804c59793", 
                         "name": "Oilers", 
                         "years": [
                             {
@@ -15460,6 +15635,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -15493,9 +15669,9 @@
                         "fullName": "Tennessee Oilers", 
                         "identity": {
                             "ESPNAPIID": "10.1997", 
-                            "ProFootballReferenceID": "OTI.TT.TO"
+                            "ProFootballReferenceID": "TEN.TT.TO"
                         }, 
-                        "key": "", 
+                        "key": "59427eef-3247-4a1d-bce4-a97006504d59", 
                         "name": "Oilers", 
                         "years": [
                             {
@@ -15508,8 +15684,10 @@
                         "abbreviation": "TEN", 
                         "active": true, 
                         "aliases": [
-                            "OTI"
+                            "OTI", 
+                            "Titans "
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -15712,7 +15890,7 @@
                             "SportsDBID": "134929", 
                             "SportsDataIOID": "34"
                         }, 
-                        "key": "TEN", 
+                        "key": "ce97966f-a21d-40f5-8e14-b9d8345955b5", 
                         "name": "Titans", 
                         "years": [
                             {
@@ -15731,6 +15909,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -15759,7 +15938,7 @@
                         "identity": {
                             "ProFootballReferenceID": "TOL.TM"
                         }, 
-                        "key": "", 
+                        "key": "eff8583c-e854-4e69-915e-1c12ef57d954", 
                         "years": [
                             {
                                 "fromYear": 1922, 
@@ -15779,6 +15958,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -15802,7 +15982,7 @@
                         "identity": {
                             "ProFootballReferenceID": "TON.TK"
                         }, 
-                        "key": "", 
+                        "key": "bc791d95-bd35-434a-bbcf-6a09beb7e458", 
                         "years": [
                             {
                                 "fromYear": 1921, 
@@ -15822,6 +16002,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -15840,7 +16021,7 @@
                         "identity": {
                             "ProFootballReferenceID": "WAS.WFT.BB"
                         }, 
-                        "key": "", 
+                        "key": "d5085abb-5bc5-48a9-a388-da5e0671a2c2", 
                         "years": [
                             {
                                 "fromYear": 1932, 
@@ -15852,6 +16033,7 @@
                         "abbreviation": "WSH", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -15887,7 +16069,7 @@
                             "ESPNAPIID": "28.1933", 
                             "ProFootballReferenceID": "WAS.WFT.BR"
                         }, 
-                        "key": "", 
+                        "key": "0f4968bd-b030-4215-9004-631d60c3049e", 
                         "name": "Redskins", 
                         "years": [
                             {
@@ -15902,8 +16084,10 @@
                         "aliases": [
                             "WSH", 
                             "Washington Football Team", 
-                            "Boston Braves"
+                            "Boston Braves", 
+                            "WAS Football Team "
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -15981,7 +16165,7 @@
                             "SportsDBID": "134937", 
                             "SportsDataIOID": "35"
                         }, 
-                        "key": "WAS", 
+                        "key": "3590a3b1-26a3-43d0-9e60-97c1711e62ef", 
                         "name": "Football Team", 
                         "years": [
                             {
@@ -15993,6 +16177,7 @@
                         "abbreviation": "WSH", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -16028,7 +16213,7 @@
                             "ESPNAPIID": "28.1937", 
                             "ProFootballReferenceID": "WAS.WFT.WR"
                         }, 
-                        "key": "", 
+                        "key": "29961226-01d3-4a42-94b4-63664bef22f8", 
                         "name": "Redskins", 
                         "years": [
                             {
@@ -16048,6 +16233,7 @@
                         "abbreviation": "", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -16066,7 +16252,7 @@
                         "identity": {
                             "ProFootballReferenceID": "SEN.WS"
                         }, 
-                        "key": "", 
+                        "key": "65ccf08f-6a6a-4077-a484-9666e74d5ca8", 
                         "years": []
                     }
                 }, 

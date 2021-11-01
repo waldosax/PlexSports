@@ -3,7 +3,7 @@ from StringUtils import *
 
 class Team():
 	def __init__(self, fullName=None, **kwargs):
-		self.key = deunicode(kwargs.get("key") or kwargs.get("Key") or "")
+		self.key = str(kwargs["key"]) if kwargs.get("key") else None
 		self.abbreviation = deunicode(kwargs.get("abbreviation") or kwargs.get("Abbreviation") or "")
 
 		self.fullName = fullName or deunicode(kwargs.get("fullName") or kwargs.get("FullName") or "")
@@ -11,6 +11,7 @@ class Team():
 		self.name = deunicode(kwargs.get("name") or kwargs.get("Name"))
 		
 		self.active = (kwargs.get("active") or kwargs.get("Active")) == True
+		self.allStar = kwargs.get("allStar") == True
 		self.description = deunicode(kwargs.get("description") or kwargs.get("Description") or "") or None
 
 		self.conference = deunicode(kwargs.get("conference") or kwargs.get("Conference"))
@@ -49,7 +50,7 @@ class Team():
 
 
 	def Augment(self, **kwargs):
-		if not self.key: self.key = deunicode(kwargs.get("key") or kwargs.get("Key") or "")
+		if not self.key: self.key = str(kwargs["key"]) if kwargs.get("key") else None
 		if not self.abbreviation: self.abbreviation = deunicode(kwargs.get("abbreviation") or kwargs.get("Abbreviation") or "")
 
 		if not self.fullName: self.fullName = deunicode(kwargs.get("fullName") or kwargs.get("FullName"))
@@ -59,6 +60,7 @@ class Team():
 				self.name = deunicode(kwargs.get("name") or kwargs.get("Name"))
 		
 		if not self.active: self.active = (kwargs.get("active") or kwargs.get("Active")) == True
+		if not self.allStar: self.allStar = kwargs.get("allStar") == True
 		if not self.description: self.description = deunicode(kwargs.get("description") or kwargs.get("Description") or "") or None
 
 		if not self.conference: self.conference = deunicode(kwargs.get("conference") or kwargs.get("Conference"))

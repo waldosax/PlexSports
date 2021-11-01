@@ -1,6 +1,7 @@
 # TheSportsDB.com
 # TEAMS
 
+import uuid
 import json
 from datetime import datetime, date, time
 
@@ -22,7 +23,8 @@ def DownloadAllTeams(league):
 	sportsDbTeams = json.loads(downloadedJson)
 	teams = dict()
 	for team in sportsDbTeams["teams"]:
-		abbrev = key = deunicode(team.get("strTeamShort"))
+		key = uuid.uuid4()
+		abbrev = deunicode(team.get("strTeamShort"))
 		fullName = deunicode(team["strTeam"])
 		city = None
 		name = fullName
@@ -42,10 +44,11 @@ def DownloadAllTeams(league):
 						"SportsDBID": "%s.%s" % (str(team["idTeam"]), abbrev),
 						}
 					teams[key] = kwargs
+					key = uuid.uuid4()
 				else:
 					aliases.append(abbrev)
 
-				key = abbrev = spdb_abbreviation_corrections[league][abbrev]
+				abbrev = spdb_abbreviation_corrections[league][abbrev]
 
 		if league == LEAGUE_NBA:
 			if name == "Los Angeles Clippers":
@@ -67,7 +70,7 @@ def DownloadAllTeams(league):
 		if not abbrev:
 			if league == LEAGUE_NHL and deunicode(team.get("strAlternate")) == "Kraken ":
 				print("Correcting known data error in TheSportsDB.com data. Missing abbreviation for %s -> SEA" % (team.get("strTeam")))
-				abbrev = key = "SEA"
+				abbrev = "SEA"
 				name = deunicode(team["strAlternate"].strip())
 				fullName = deunicode(team["strTeam"])
 				city = "Seattle"

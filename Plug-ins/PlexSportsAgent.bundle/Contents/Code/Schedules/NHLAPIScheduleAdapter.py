@@ -16,7 +16,7 @@ NHLAPI_GAMETYPE_PLAYOFFS = "P"
 NHLAPI_GAMETYPE_ALL_STAR_GAME = "A"
 
 
-def GetSchedule(sched, teamKeys, teams, sport, league, season):
+def GetSchedule(sched, navigator, sport, league, season):
 	# Retrieve data from NHL API
 	downloadedJson = DownloadScheduleForSeason(season)
 	
@@ -41,12 +41,13 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 					date = ParseISO8601Date(dateGroup)
 
 				# Teams from this API are full names
-				homeTeamName = schedEvent["teams"]["home"]["team"]["name"]
-				awayTeamName = schedEvent["teams"]["away"]["team"]["name"]
-				homeTeamStripped = create_scannable_key(homeTeamName)
-				awayTeamStripped = create_scannable_key(awayTeamName)
-				homeTeamKey = teamKeys[homeTeamStripped] if teamKeys.get(homeTeamStripped) else homeTeamStripped
-				awayTeamKey = teamKeys[awayTeamStripped] if teamKeys.get(awayTeamStripped) else awayTeamStripped
+				homeTeamFullName = schedEvent["teams"]["home"]["team"]["name"]
+				awayTeamFullName = schedEvent["teams"]["away"]["team"]["name"]
+
+				homeTeam = navigator.GetTeam(season, homeTeamFullName)
+				homeTeamKey = homeTeam.key if homeTeam else create_scannable_key(homeTeamFullName)
+				awayTeam = navigator.GetTeam(season, awayTeamFullName)
+				awayTeamKey = awayTeam.key if awayTeam else create_scannable_key(awayTeamFullName)
 
 				subseason = None
 				playoffRound = None

@@ -1,6 +1,7 @@
 # NHL API (statsapi.nhl.com)
 # TEAMS
 
+import uuid
 import json
 from datetime import datetime, date, time
 
@@ -81,7 +82,7 @@ def DownloadAllFranchises(league):
 		active = apiHistory["active"]
 		team = {
 			"NHLAPIID": str(teamId),
-			"key": fullName,
+			"key": uuid.uuid4(),
 			"fullName": fullName,
 			"name": name,
 			"city": city,

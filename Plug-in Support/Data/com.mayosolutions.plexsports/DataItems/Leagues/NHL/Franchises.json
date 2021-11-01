@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHLFRANCHISES", 
-        "CachedOn": "2021-10-29T07:33:01", 
-        "ExpiresOn": "2022-03-13T07:33:01", 
+        "CachedOn": "2021-11-01T18:32:51", 
+        "ExpiresOn": "2022-03-16T18:32:51", 
         "Version": "1"
     }, 
     "Items": [
@@ -16,6 +16,7 @@
                         "abbreviation": "ANA", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -70,6 +71,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/ana.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/7/72/Anaheim_Ducks.svg"
                                 }
@@ -91,7 +96,7 @@
                             "SportsDBID": "134846", 
                             "SportsDataIOID": "30"
                         }, 
-                        "key": "Anaheim Ducks", 
+                        "key": "9f1a38f4-3f29-4318-817e-d9c754bfbc38", 
                         "name": "Ducks", 
                         "years": [
                             {
@@ -112,6 +117,7 @@
                         "aliases": [
                             "Phoenix Coyotes"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -161,6 +167,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/ari.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/2/27/Arizona_Coyotes.svg"
                                 }
@@ -182,7 +192,7 @@
                             "SportsDBID": "134847", 
                             "SportsDataIOID": "29"
                         }, 
-                        "key": "Arizona Coyotes", 
+                        "key": "d3be2b8b-1b59-4195-8624-0c5c40ed577c", 
                         "name": "Coyotes", 
                         "years": [
                             {
@@ -194,6 +204,7 @@
                         "abbreviation": "PHX", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -208,7 +219,7 @@
                         "identity": {
                             "NHLAPIID": "27"
                         }, 
-                        "key": "Phoenix Coyotes", 
+                        "key": "655cd1d8-bbeb-4645-af00-88c740ff41d1", 
                         "name": "Coyotes", 
                         "years": [
                             {
@@ -221,6 +232,7 @@
                         "abbreviation": "WIN", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -235,7 +247,7 @@
                         "identity": {
                             "NHLAPIID": "33"
                         }, 
-                        "key": "Winnipeg Jets (1979)", 
+                        "key": "8a916089-9598-4a3b-a01d-b6014ab7f0bf", 
                         "name": "Jets", 
                         "years": [
                             {
@@ -254,6 +266,7 @@
                         "abbreviation": "ATLANTIC", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -268,7 +281,7 @@
                         "identity": {
                             "SportsDataIOID": "31"
                         }, 
-                        "key": "ATLANTIC", 
+                        "key": "201c2873-b699-4e39-96db-80dcba9736a2", 
                         "name": "All Stars", 
                         "years": []
                     }
@@ -283,6 +296,7 @@
                         "abbreviation": "BOS", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -327,6 +341,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/1/12/Boston_Bruins.svg"
                                 }
@@ -348,7 +366,7 @@
                             "SportsDBID": "134830", 
                             "SportsDataIOID": "1"
                         }, 
-                        "key": "Boston Bruins", 
+                        "key": "3c275189-08dd-4cc0-8f1b-5f1091a4f1c1", 
                         "name": "Bruins", 
                         "years": [
                             {
@@ -367,6 +385,7 @@
                         "abbreviation": "BRK", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -381,7 +400,7 @@
                         "identity": {
                             "NHLAPIID": "51"
                         }, 
-                        "key": "Brooklyn Americans", 
+                        "key": "07b92457-4383-445e-be0d-e72e4f685c60", 
                         "name": "Americans", 
                         "years": [
                             {
@@ -394,6 +413,7 @@
                         "abbreviation": "NYA", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -408,7 +428,7 @@
                         "identity": {
                             "NHLAPIID": "44"
                         }, 
-                        "key": "New York Americans", 
+                        "key": "83301765-5699-448e-a6d0-784be21e0fc3", 
                         "name": "Americans", 
                         "years": [
                             {
@@ -429,6 +449,7 @@
                         "abbreviation": "BUF", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -478,6 +499,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/buf.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/9/9e/Buffalo_Sabres_Logo.svg"
                                 }
@@ -499,7 +524,7 @@
                             "SportsDBID": "134831", 
                             "SportsDataIOID": "2"
                         }, 
-                        "key": "Buffalo Sabres", 
+                        "key": "a81f8c1c-ad4c-4616-9a77-d8c330755d73", 
                         "name": "Sabres", 
                         "years": [
                             {
@@ -518,6 +543,7 @@
                         "abbreviation": "AFM", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -532,7 +558,7 @@
                         "identity": {
                             "NHLAPIID": "47"
                         }, 
-                        "key": "Atlanta Flames", 
+                        "key": "c7b2d91b-9f0d-4b6a-b612-cf7c87dc9604", 
                         "name": "Flames", 
                         "years": [
                             {
@@ -545,6 +571,7 @@
                         "abbreviation": "CGY", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -594,6 +621,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/cgy.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/6/61/Calgary_Flames_logo.svg"
                                 }
@@ -615,7 +646,7 @@
                             "SportsDBID": "134848", 
                             "SportsDataIOID": "24"
                         }, 
-                        "key": "Calgary Flames", 
+                        "key": "f8981aa9-81e3-4998-9add-f8464642d056", 
                         "name": "Flames", 
                         "years": [
                             {
@@ -634,6 +665,7 @@
                         "abbreviation": "CAR", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -688,6 +720,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/car.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/3/32/Carolina_Hurricanes.svg"
                                 }
@@ -709,7 +745,7 @@
                             "SportsDBID": "134838", 
                             "SportsDataIOID": "9"
                         }, 
-                        "key": "Carolina Hurricanes", 
+                        "key": "36488283-8dda-45e7-b197-f857c30f6206", 
                         "name": "Hurricanes", 
                         "years": [
                             {
@@ -721,6 +757,7 @@
                         "abbreviation": "HFD", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -735,7 +772,7 @@
                         "identity": {
                             "NHLAPIID": "34"
                         }, 
-                        "key": "Hartford Whalers", 
+                        "key": "0d9aba83-06f1-4125-a53d-ef52278aa1f5", 
                         "name": "Whalers", 
                         "years": [
                             {
@@ -754,6 +791,7 @@
                         "abbreviation": "CENTRAL", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -768,7 +806,7 @@
                         "identity": {
                             "SportsDataIOID": "33"
                         }, 
-                        "key": "CENTRAL", 
+                        "key": "9054efe4-eb28-4aba-b7cf-40e70158728a", 
                         "name": "All Stars", 
                         "years": []
                     }
@@ -785,6 +823,7 @@
                         "aliases": [
                             "Blackhawks"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -834,6 +873,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/chi.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/2/29/Chicago_Blackhawks_logo.svg"
                                 }
@@ -855,7 +898,7 @@
                             "SportsDBID": "134854", 
                             "SportsDataIOID": "17"
                         }, 
-                        "key": "Chicago Blackhawks", 
+                        "key": "0ec715c6-30c4-443b-8013-a6ae6460fe53", 
                         "name": "Blackhawks", 
                         "years": [
                             {
@@ -874,6 +917,7 @@
                         "abbreviation": "CGS", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -888,7 +932,7 @@
                         "identity": {
                             "NHLAPIID": "56"
                         }, 
-                        "key": "California Golden Seals", 
+                        "key": "447a1d17-8ae2-402e-94df-67f61ade50c4", 
                         "name": "Golden Seals", 
                         "years": [
                             {
@@ -901,6 +945,7 @@
                         "abbreviation": "CLE", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -915,7 +960,7 @@
                         "identity": {
                             "NHLAPIID": "49"
                         }, 
-                        "key": "Cleveland Barons", 
+                        "key": "7e413fb7-db78-4757-a778-5c6ddf9662bc", 
                         "name": "Barons", 
                         "years": [
                             {
@@ -928,6 +973,7 @@
                         "abbreviation": "OAK", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -942,7 +988,7 @@
                         "identity": {
                             "NHLAPIID": "46"
                         }, 
-                        "key": "Oakland Seals", 
+                        "key": "6d6d94c4-9d33-4e3c-8a55-d173f2da18ea", 
                         "name": "Seals", 
                         "years": [
                             {
@@ -963,6 +1009,7 @@
                         "abbreviation": "COL", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1017,6 +1064,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/col.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/4/45/Colorado_Avalanche_logo.svg"
                                 }
@@ -1038,7 +1089,7 @@
                             "SportsDBID": "134855", 
                             "SportsDataIOID": "19"
                         }, 
-                        "key": "Colorado Avalanche", 
+                        "key": "86d443bc-ae71-421d-bb9b-4b6be671c2b2", 
                         "name": "Avalanche", 
                         "years": [
                             {
@@ -1050,6 +1101,7 @@
                         "abbreviation": "QUE", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1064,7 +1116,7 @@
                         "identity": {
                             "NHLAPIID": "32"
                         }, 
-                        "key": "Quebec Nordiques", 
+                        "key": "f776adcf-6477-4522-9197-49eeed929d11", 
                         "name": "Nordiques", 
                         "years": [
                             {
@@ -1084,6 +1136,7 @@
                         "abbreviation": "CBJ", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1133,6 +1186,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/cbj.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/5/5d/Columbus_Blue_Jackets_logo.svg"
                                 }
@@ -1154,7 +1211,7 @@
                             "SportsDBID": "134839", 
                             "SportsDataIOID": "16"
                         }, 
-                        "key": "Columbus Blue Jackets", 
+                        "key": "fb29613f-62c9-47ed-ad54-c7d4191de727", 
                         "name": "Blue Jackets", 
                         "years": [
                             {
@@ -1173,6 +1230,7 @@
                         "abbreviation": "DAL", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1227,6 +1285,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/dal.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/Dallas_Stars_logo_%282013%29.svg"
                                 }
@@ -1248,7 +1310,7 @@
                             "SportsDBID": "134856", 
                             "SportsDataIOID": "18"
                         }, 
-                        "key": "Dallas Stars", 
+                        "key": "322467bb-1b03-4b23-b73c-5caa757f0f82", 
                         "name": "Stars", 
                         "years": [
                             {
@@ -1260,6 +1322,7 @@
                         "abbreviation": "MNS", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1274,7 +1337,7 @@
                         "identity": {
                             "NHLAPIID": "31"
                         }, 
-                        "key": "Minnesota North Stars", 
+                        "key": "7893a69f-274a-4899-9307-9c95268d8fd0", 
                         "name": "North Stars", 
                         "years": [
                             {
@@ -1294,6 +1357,7 @@
                         "abbreviation": "DCG", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1308,7 +1372,7 @@
                         "identity": {
                             "NHLAPIID": "40"
                         }, 
-                        "key": "Detroit Cougars", 
+                        "key": "a4160b17-4e8a-4207-8e0e-abc8c0c0c700", 
                         "name": "Cougars", 
                         "years": [
                             {
@@ -1321,6 +1385,7 @@
                         "abbreviation": "DFL", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1335,7 +1400,7 @@
                         "identity": {
                             "NHLAPIID": "50"
                         }, 
-                        "key": "Detroit Falcons", 
+                        "key": "e5ed7941-4122-4107-b326-586e83a25f26", 
                         "name": "Falcons", 
                         "years": [
                             {
@@ -1348,6 +1413,7 @@
                         "abbreviation": "DET", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1392,6 +1458,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/det.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/e/e0/Detroit_Red_Wings_logo.svg"
                                 }
@@ -1413,13 +1483,48 @@
                             "SportsDBID": "134832", 
                             "SportsDataIOID": "3"
                         }, 
-                        "key": "Detroit Red Wings", 
+                        "key": "56be28fe-8bc2-47d3-9fc4-bd4f2b0b0f96", 
                         "name": "Red Wings", 
                         "years": [
                             {
                                 "fromYear": 1932
                             }
                         ]
+                    }
+                }
+            }, 
+            "Eastern Conf All Stars": {
+                "active": true, 
+                "name": "Eastern Conf All Stars", 
+                "teams": {
+                    "Eastern Conf All Stars": {
+                        "abbreviation": "ECS", 
+                        "active": true, 
+                        "aliases": [], 
+                        "allStar": true, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#C41230"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Eastern Conf", 
+                        "fullName": "Eastern Conf All Stars", 
+                        "identity": {
+                            "ESPNAPIID": "31"
+                        }, 
+                        "key": "07d226f7-3ead-47e1-8ad8-981d384a87b0", 
+                        "name": "All Stars", 
+                        "years": []
                     }
                 }
             }, 
@@ -1432,6 +1537,7 @@
                         "abbreviation": "EDM", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1481,6 +1587,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/edm.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Logo_Edmonton_Oilers.svg"
                                 }
@@ -1502,7 +1612,7 @@
                             "SportsDBID": "134849", 
                             "SportsDataIOID": "25"
                         }, 
-                        "key": "Edmonton Oilers", 
+                        "key": "beb68d13-be8b-484b-943b-e13432cbc0ea", 
                         "name": "Oilers", 
                         "years": [
                             {
@@ -1521,6 +1631,7 @@
                         "abbreviation": "FLA", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1570,6 +1681,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/fla.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/4/43/Florida_Panthers_2016_logo.svg"
                                 }
@@ -1591,7 +1706,7 @@
                             "SportsDBID": "134833", 
                             "SportsDataIOID": "8"
                         }, 
-                        "key": "Florida Panthers", 
+                        "key": "39b78205-9310-4d2b-96d6-f14d741cd625", 
                         "name": "Panthers", 
                         "years": [
                             {
@@ -1610,6 +1725,7 @@
                         "abbreviation": "HAM", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1624,7 +1740,7 @@
                         "identity": {
                             "NHLAPIID": "37"
                         }, 
-                        "key": "Hamilton Tigers", 
+                        "key": "c1f9fc7d-718e-42bc-8978-37a1309ebea7", 
                         "name": "Tigers", 
                         "years": [
                             {
@@ -1637,6 +1753,7 @@
                         "abbreviation": "QBD", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1651,7 +1768,7 @@
                         "identity": {
                             "NHLAPIID": "42"
                         }, 
-                        "key": "Quebec Bulldogs", 
+                        "key": "6fbe74fc-27f7-4654-b5d8-ae72a554b1b8", 
                         "name": "Bulldogs", 
                         "years": [
                             {
@@ -1672,6 +1789,7 @@
                         "abbreviation": "LAK", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1721,6 +1839,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/la.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Los_Angeles_Kings_logo.svg/800px-Los_Angeles_Kings_logo.svg.png"
                                 }
@@ -1742,7 +1864,7 @@
                             "SportsDBID": "134852", 
                             "SportsDataIOID": "26"
                         }, 
-                        "key": "Los Angeles Kings", 
+                        "key": "25621b0a-5aa8-478f-840c-8cf740f700c2", 
                         "name": "Kings", 
                         "years": [
                             {
@@ -1760,6 +1882,7 @@
                         "abbreviation": "METRO", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1774,7 +1897,7 @@
                         "identity": {
                             "SportsDataIOID": "34"
                         }, 
-                        "key": "METRO", 
+                        "key": "e290dab5-4a16-4dcf-960f-a337898e9001", 
                         "name": "All Stars", 
                         "years": []
                     }
@@ -1789,6 +1912,7 @@
                         "abbreviation": "MIN", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1843,6 +1967,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/min.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/1/1b/Minnesota_Wild.svg"
                                 }
@@ -1864,7 +1992,7 @@
                             "SportsDBID": "134857", 
                             "SportsDataIOID": "23"
                         }, 
-                        "key": "Minnesota Wild", 
+                        "key": "65544c5a-9f6f-457f-bb05-8a15478db83f", 
                         "name": "Wild", 
                         "years": [
                             {
@@ -1887,6 +2015,7 @@
                             "Canadiens de Montr\u00e9al", 
                             "Montreal"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -1936,6 +2065,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/mtl.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Montreal_Canadiens.svg"
                                 }
@@ -1957,7 +2090,7 @@
                             "SportsDBID": "134834", 
                             "SportsDataIOID": "4"
                         }, 
-                        "key": "Montreal Canadiens", 
+                        "key": "8b466619-a137-4b9c-a465-7e97dfbad774", 
                         "name": "Canadiens", 
                         "years": [
                             {
@@ -1976,6 +2109,7 @@
                         "abbreviation": "MMR", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -1990,7 +2124,7 @@
                         "identity": {
                             "NHLAPIID": "43"
                         }, 
-                        "key": "Montreal Maroons", 
+                        "key": "425d3cf6-90bc-4f99-bc9b-6bc1d9cfcdb9", 
                         "name": "Maroons", 
                         "years": [
                             {
@@ -2011,6 +2145,7 @@
                         "abbreviation": "MWN", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2025,7 +2160,7 @@
                         "identity": {
                             "NHLAPIID": "41"
                         }, 
-                        "key": "Montreal Wanderers", 
+                        "key": "1dff8fc9-085c-489f-ac71-b4cfd9ed7fc1", 
                         "name": "Wanderers", 
                         "years": [
                             {
@@ -2046,6 +2181,7 @@
                         "abbreviation": "NSH", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2095,6 +2231,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/nsh.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/9/9c/Nashville_Predators_Logo_%282011%29.svg"
                                 }
@@ -2116,7 +2256,7 @@
                             "SportsDBID": "134858", 
                             "SportsDataIOID": "21"
                         }, 
-                        "key": "Nashville Predators", 
+                        "key": "870650b0-7f41-4dd9-a606-a32bf262e867", 
                         "name": "Predators", 
                         "years": [
                             {
@@ -2135,6 +2275,7 @@
                         "abbreviation": "CLR", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2149,7 +2290,7 @@
                         "identity": {
                             "NHLAPIID": "35"
                         }, 
-                        "key": "Colorado Rockies", 
+                        "key": "39deb12c-2433-4bc6-b73a-2179e8801630", 
                         "name": "Rockies", 
                         "years": [
                             {
@@ -2162,6 +2303,7 @@
                         "abbreviation": "KCS", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2176,7 +2318,7 @@
                         "identity": {
                             "NHLAPIID": "48"
                         }, 
-                        "key": "Kansas City Scouts", 
+                        "key": "681ece8a-0130-40ee-9688-ad12d6553193", 
                         "name": "Scouts", 
                         "years": [
                             {
@@ -2189,6 +2331,7 @@
                         "abbreviation": "NJD", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2238,6 +2381,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/nj.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/New_Jersey_Devils_logo.svg"
                                 }
@@ -2259,7 +2406,7 @@
                             "SportsDBID": "134840", 
                             "SportsDataIOID": "10"
                         }, 
-                        "key": "New Jersey Devils", 
+                        "key": "bd4552dd-36cf-4c9f-ad98-2c3240785bc5", 
                         "name": "Devils", 
                         "years": [
                             {
@@ -2280,6 +2427,7 @@
                         "aliases": [
                             "NY Islanders"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2329,6 +2477,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/nyi.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/4/42/Logo_New_York_Islanders.svg"
                                 }
@@ -2350,7 +2502,7 @@
                             "SportsDBID": "134841", 
                             "SportsDataIOID": "11"
                         }, 
-                        "key": "New York Islanders", 
+                        "key": "f9a1b378-3085-4666-b110-d314f7540954", 
                         "name": "Islanders", 
                         "years": [
                             {
@@ -2371,6 +2523,7 @@
                         "aliases": [
                             "NY Rangers"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2420,6 +2573,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/nyr.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/New_York_Rangers.svg"
                                 }
@@ -2441,7 +2598,7 @@
                             "SportsDBID": "134842", 
                             "SportsDataIOID": "12"
                         }, 
-                        "key": "New York Rangers", 
+                        "key": "e1abf467-c326-43d5-9a55-928f5ff7c0d8", 
                         "name": "Rangers", 
                         "years": [
                             {
@@ -2460,6 +2617,7 @@
                         "abbreviation": "OTT", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2514,6 +2672,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/ott.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/d/db/Ottawa_Senators.svg"
                                 }
@@ -2535,7 +2697,7 @@
                             "SportsDBID": "134835", 
                             "SportsDataIOID": "5"
                         }, 
-                        "key": "Ottawa Senators", 
+                        "key": "aef2bd8c-36af-4a71-a41f-a0e20ce0c794", 
                         "name": "Senators", 
                         "years": [
                             {
@@ -2553,6 +2715,7 @@
                         "abbreviation": "PACIFIC", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2567,7 +2730,7 @@
                         "identity": {
                             "SportsDataIOID": "32"
                         }, 
-                        "key": "PACIFIC", 
+                        "key": "c752e437-5ec9-4881-89a9-2c7c4fbadde1", 
                         "name": "All Stars", 
                         "years": []
                     }
@@ -2584,6 +2747,7 @@
                         "aliases": [
                             "Flyers"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2633,6 +2797,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/phi.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Philadelphia_Flyers.svg"
                                 }
@@ -2654,7 +2822,7 @@
                             "SportsDBID": "134843", 
                             "SportsDataIOID": "13"
                         }, 
-                        "key": "Philadelphia Flyers", 
+                        "key": "492b8d60-bb38-4276-bc16-523672018fe3", 
                         "name": "Flyers", 
                         "years": [
                             {
@@ -2673,6 +2841,7 @@
                         "abbreviation": "QUA", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2687,7 +2856,7 @@
                         "identity": {
                             "NHLAPIID": "39"
                         }, 
-                        "key": "Philadelphia Quakers", 
+                        "key": "fc96a3c3-e5c5-465d-9f33-716eb54ebdad", 
                         "name": "Quakers", 
                         "years": [
                             {
@@ -2700,6 +2869,7 @@
                         "abbreviation": "PIR", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -2714,7 +2884,7 @@
                         "identity": {
                             "NHLAPIID": "38"
                         }, 
-                        "key": "Pittsburgh Pirates", 
+                        "key": "e2d3ba2f-4567-4ab5-8c96-e8152381ff86", 
                         "name": "Pirates", 
                         "years": [
                             {
@@ -2735,6 +2905,7 @@
                         "abbreviation": "PIT", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2784,6 +2955,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/pit.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/c/c0/Pittsburgh_Penguins_logo_%282016%29.svg"
                                 }
@@ -2805,7 +2980,7 @@
                             "SportsDBID": "134844", 
                             "SportsDataIOID": "14"
                         }, 
-                        "key": "Pittsburgh Penguins", 
+                        "key": "4922234e-b4bd-41b4-8ec0-1ab6653439d2", 
                         "name": "Penguins", 
                         "years": [
                             {
@@ -2824,6 +2999,7 @@
                         "abbreviation": "SJS", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2873,6 +3049,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/sj.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/3/37/SanJoseSharksLogo.svg"
                                 }
@@ -2894,7 +3074,7 @@
                             "SportsDBID": "134853", 
                             "SportsDataIOID": "27"
                         }, 
-                        "key": "San Jose Sharks", 
+                        "key": "80e0a206-912b-49c5-8e48-567643916590", 
                         "name": "Sharks", 
                         "years": [
                             {
@@ -2915,6 +3095,7 @@
                         "aliases": [
                             "Kraken"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -2969,6 +3150,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/sea.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/4/48/Seattle_Kraken_official_logo.svg"
                                 }
@@ -2990,7 +3175,7 @@
                             "SportsDBID": "140082", 
                             "SportsDataIOID": "36"
                         }, 
-                        "key": "Seattle Kraken", 
+                        "key": "986b5de7-5c30-4fcd-aa31-a34f2d625e69", 
                         "name": "Kraken", 
                         "years": [
                             {
@@ -3011,6 +3196,7 @@
                         "aliases": [
                             "St Louis"
                         ], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3065,6 +3251,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/stl.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/e/ed/St._Louis_Blues_logo.svg"
                                 }
@@ -3086,7 +3276,7 @@
                             "SportsDBID": "134859", 
                             "SportsDataIOID": "20"
                         }, 
-                        "key": "St. Louis Blues", 
+                        "key": "d6488c58-eaa0-4733-b11a-932eb63eb836", 
                         "name": "Blues", 
                         "years": [
                             {
@@ -3105,6 +3295,7 @@
                         "abbreviation": "SEN", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3119,7 +3310,7 @@
                         "identity": {
                             "NHLAPIID": "36"
                         }, 
-                        "key": "Ottawa Senators (1917)", 
+                        "key": "4af62458-dfee-4d4f-a6cf-90ab87d94057", 
                         "name": "Senators", 
                         "years": [
                             {
@@ -3132,6 +3323,7 @@
                         "abbreviation": "SLE", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3146,7 +3338,7 @@
                         "identity": {
                             "NHLAPIID": "45"
                         }, 
-                        "key": "St. Louis Eagles", 
+                        "key": "4cda14de-f32f-4c0d-849f-9069e40a4917", 
                         "name": "Eagles", 
                         "years": [
                             {
@@ -3167,6 +3359,7 @@
                         "abbreviation": "TBL", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3211,6 +3404,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/tb.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/2/2f/Tampa_Bay_Lightning_Logo_2011.svg"
                                 }
@@ -3232,7 +3429,7 @@
                             "SportsDBID": "134836", 
                             "SportsDataIOID": "6"
                         }, 
-                        "key": "Tampa Bay Lightning", 
+                        "key": "8786127d-c51e-452a-9583-648f36cf8ef8", 
                         "name": "Lightning", 
                         "years": [
                             {
@@ -3251,6 +3448,7 @@
                         "abbreviation": "TAN", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3265,7 +3463,7 @@
                         "identity": {
                             "NHLAPIID": "57"
                         }, 
-                        "key": "Toronto Arenas", 
+                        "key": "2bfcd733-2636-4f2d-9baa-bd1407b123e1", 
                         "name": "Arenas", 
                         "years": [
                             {
@@ -3278,6 +3476,7 @@
                         "abbreviation": "TOR", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3322,6 +3521,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/tor.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/b/b6/Toronto_Maple_Leafs_2016_logo.svg"
                                 }
@@ -3343,7 +3546,7 @@
                             "SportsDBID": "134837", 
                             "SportsDataIOID": "7"
                         }, 
-                        "key": "Toronto Maple Leafs", 
+                        "key": "2692bc79-5aac-4ea8-b96c-053314438616", 
                         "name": "Maple Leafs", 
                         "years": [
                             {
@@ -3355,6 +3558,7 @@
                         "abbreviation": "TSP", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3369,7 +3573,7 @@
                         "identity": {
                             "NHLAPIID": "58"
                         }, 
-                        "key": "Toronto St. Patricks", 
+                        "key": "582cb84a-660e-45d4-b33d-b7e366e35235", 
                         "name": "St. Patricks", 
                         "years": [
                             {
@@ -3389,6 +3593,7 @@
                         "abbreviation": "VAN", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3438,6 +3643,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/van.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Vancouver_Canucks_logo.svg/800px-Vancouver_Canucks_logo.svg.png"
                                 }
@@ -3459,7 +3668,7 @@
                             "SportsDBID": "134850", 
                             "SportsDataIOID": "28"
                         }, 
-                        "key": "Vancouver Canucks", 
+                        "key": "c7e123fc-b2fe-4280-815b-175721670078", 
                         "name": "Canucks", 
                         "years": [
                             {
@@ -3478,6 +3687,7 @@
                         "abbreviation": "VGK", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3532,6 +3742,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/vgs.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/a/ac/Vegas_Golden_Knights_logo.svg"
                                 }
@@ -3553,7 +3767,7 @@
                             "SportsDBID": "135913", 
                             "SportsDataIOID": "35"
                         }, 
-                        "key": "Vegas Golden Knights", 
+                        "key": "12083805-8325-435f-b267-c01fb6b47c99", 
                         "name": "Golden Knights", 
                         "years": [
                             {
@@ -3572,6 +3786,7 @@
                         "abbreviation": "WSH", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3621,6 +3836,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/wsh.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Washington_Capitals.svg"
                                 }
@@ -3642,13 +3861,48 @@
                             "SportsDBID": "134845", 
                             "SportsDataIOID": "15"
                         }, 
-                        "key": "Washington Capitals", 
+                        "key": "39f1ec1b-fba4-4f1d-b61c-f85d00370640", 
                         "name": "Capitals", 
                         "years": [
                             {
                                 "fromYear": 1974
                             }
                         ]
+                    }
+                }
+            }, 
+            "Western Conf All Stars": {
+                "active": true, 
+                "name": "Western Conf All Stars", 
+                "teams": {
+                    "Western Conf All Stars": {
+                        "abbreviation": "WCS", 
+                        "active": true, 
+                        "aliases": [], 
+                        "allStar": true, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [
+                                {
+                                    "colortype": "primary", 
+                                    "source": "espnapi", 
+                                    "value": "#003E7E"
+                                }
+                            ], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Western Conf", 
+                        "fullName": "Western Conf All Stars", 
+                        "identity": {
+                            "ESPNAPIID": "32"
+                        }, 
+                        "key": "6bfb99e6-9e85-4125-bcf3-bdf7479093f8", 
+                        "name": "All Stars", 
+                        "years": []
                     }
                 }
             }, 
@@ -3661,6 +3915,7 @@
                         "abbreviation": "ATL", 
                         "active": false, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [], 
                             "banner": [], 
@@ -3675,7 +3930,7 @@
                         "identity": {
                             "NHLAPIID": "11"
                         }, 
-                        "key": "Atlanta Thrashers", 
+                        "key": "6ec3e43f-f99e-4c0a-9922-cee0fc33bcc8", 
                         "name": "Thrashers", 
                         "years": [
                             {
@@ -3688,6 +3943,7 @@
                         "abbreviation": "WPG", 
                         "active": true, 
                         "aliases": [], 
+                        "allStar": false, 
                         "assets": {
                             "badge": [
                                 {
@@ -3742,6 +3998,10 @@
                             ], 
                             "logo": [
                                 {
+                                    "source": "espnapi", 
+                                    "url": "https://a.espncdn.com/i/teamlogos/nhl/500/wpg.png"
+                                }, 
+                                {
                                     "source": "wikipedia", 
                                     "url": "https://upload.wikimedia.org/wikipedia/en/9/93/Winnipeg_Jets_Logo_2011.svg"
                                 }
@@ -3763,7 +4023,7 @@
                             "SportsDBID": "134851", 
                             "SportsDataIOID": "22"
                         }, 
-                        "key": "Winnipeg Jets", 
+                        "key": "c75ea127-71a4-4647-b491-9868305bd31c", 
                         "name": "Jets", 
                         "years": [
                             {

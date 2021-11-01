@@ -1,6 +1,7 @@
 # TheSportsDB.com
 # TEAMS
 
+import uuid
 import json
 from datetime import datetime, date, time
 
@@ -60,38 +61,46 @@ def DownloadAllTeams(league):
 			# Skip dead team (bad data)
 			continue
 
-		active = deunicode(team["Key"]).upper() in activeTeamKeys
 
 		city = deunicode(team["City"])
 		if not city:
 			continue
 
-		key = abbrev = deunicode(team["Key"]).upper()
+		key = uuid.uuid4()
+		abbrev = deunicode(team["Key"]).upper()
 		name = deunicode(team["Name"])
 		fullName = deunicode(team.get("FullName")) or "%s %s" % (deunicode(city), deunicode(name))
 		
+		allStar = False
+		if league == LEAGUE_MLB: allStar = abbrev.upper() in ["AL", "NL"]
+		elif league == LEAGUE_NBA: allStar = city == "Team"
+		elif league == LEAGUE_NFL: allStar = abbrev.upper() in ["AFC", "NFC"]
+		active = allStar or abbrev.upper() in activeTeamKeys
+
+
 		teamID = team["TeamID"]
 		nbaDotComTeamID = team.get("NbaDotComTeamID")
 
 		aliases = []
 
 		if league == LEAGUE_NBA and city == "Team":
-			fullName = name = "%s %s" % (city, name)
+			name = "%s %s" % (city, name)
 			city = "All Stars"
+			fullName = "%s %s" % (city, name)
 
 		if sdio_data_corrections.get(league):
-			if sdio_data_corrections[league].get(key):
-				if sdio_data_corrections[league][key].get("city"):
-					city = sdio_data_corrections[league][key]["city"]
-				if sdio_data_corrections[league][key].get("name"):
-					name = sdio_data_corrections[league][key]["name"]
-				if sdio_data_corrections[league][key].get("fullName"):
-					fullName = sdio_data_corrections[league][key]["fullName"]
-				if sdio_data_corrections[league][key].get("nbaDotComTeamID"):
-					nbaDotComTeamID = sdio_data_corrections[league][key]["nbaDotComTeamID"]
-				if sdio_data_corrections[league][key].get("abbreviation"):
+			if sdio_data_corrections[league].get(abbrev):
+				if sdio_data_corrections[league][abbrev].get("city"):
+					city = sdio_data_corrections[league][abbrev]["city"]
+				if sdio_data_corrections[league][abbrev].get("name"):
+					name = sdio_data_corrections[league][abbrev]["name"]
+				if sdio_data_corrections[league][abbrev].get("fullName"):
+					fullName = sdio_data_corrections[league][abbrev]["fullName"]
+				if sdio_data_corrections[league][abbrev].get("nbaDotComTeamID"):
+					nbaDotComTeamID = sdio_data_corrections[league][abbrev]["nbaDotComTeamID"]
+				if sdio_data_corrections[league][abbrev].get("abbreviation"):
 					aliases.append(abbrev)
-					key = abbrev = sdio_data_corrections[league][key]["abbreviation"]
+					abbrev = sdio_data_corrections[league][abbrev]["abbreviation"]
 
 		conference = deunicode(team.get("Conference") or team.get("League"))
 		if conference == "None": conference = None
@@ -103,6 +112,7 @@ def DownloadAllTeams(league):
 			"key": key,
 			"abbreviation": abbrev,
 			"active": active,
+			"allStar": allStar,
 			"name": name,
 			"fullName": fullName,
 			"city": city,
@@ -112,6 +122,10 @@ def DownloadAllTeams(league):
 			}
 
 		if nbaDotComTeamID: kwargs["NBAAPIID"] = str(nbaDotComTeamID)
+
+		__add_potential_alias(kwargs, aliases, team, "DraftKingsName")
+		__add_potential_alias(kwargs, aliases, team, "FanDuelName")
+		__add_potential_alias(kwargs, aliases, team, "YahooName")
 
 		if aliases:
 			kwargs["aliases"] = list(set(aliases))
@@ -138,3 +152,13 @@ def DownloadAllTeams(league):
 		teams[key] = kwargs
 
 	return teams
+
+def __add_potential_alias(kwargs, aliases, team, key):
+	if team.get(key):
+		value = deunicode(team[key])
+		if value == "Scrambled": return
+		if value == kwargs["fullName"]: return
+		if value == kwargs["city"]: return
+		if value == kwargs["name"]: return
+		if value in aliases: return
+		aliases.append(value)

@@ -57,7 +57,7 @@ espn_subseason_flags_by_league = {
 
 __cached_schedule_dates = dict() # [league][yyyy][mm][dd] = True
 
-def GetSchedule(sched, teamKeys, teams, sport, league, season):
+def GetSchedule(sched, navigator, sport, league, season):
 	# Retrieve data from MLB API
 
 	processing = True
@@ -125,8 +125,12 @@ def GetSchedule(sched, teamKeys, teams, sport, league, season):
 									abbrev = espnapi_abbreviation_corrections[league][abbrev]
 								teams[key]["abbrev"] = abbrev
 								teams[key]["fullName"] = deunicode(competitor["team"]["displayName"])
-							homeTeamKey = teams["home"]["abbrev"]
-							awayTeamKey = teams["away"]["abbrev"]
+
+							homeTeam = navigator.GetTeam(season, teams["home"]["fullName"], abbreviation=teams["home"]["abbrev"])
+							awayTeam = navigator.GetTeam(season, teams["away"]["fullName"], abbreviation=teams["away"]["abbrev"])
+
+							homeTeamKey = homeTeam.key if homeTeam else create_scannable_key(teams["home"]["fullName"])
+							awayTeamKey = awayTeam.key if awayTeam else create_scannable_key(teams["away"]["fullName"])
 
 
 							(xsubseason, playoffRound, eventIndicator, xtitle) = __get_playoffRound(league, subseason, title, competition)

@@ -11,10 +11,11 @@ MLBAPI_BASE_URL = "http://statsapi.mlb.com/api/v1/"
 MLBAPI_GET_ALL_TEAMS = "teams?sportId=1&fields=%s" # ([field1,field2])
 MLBAPI_GET_TEAMS_FOR_SEASON = "teams?sportId=1&season=%s" # (season)
 MLBAPI_GET_TEAMS_HISTORY = "teams/history?teamIds=%s&fields=%s" # ([TeamID, TeamID], [field1,field2])
+MLBAPI_GET_TEAM_DETAILS = "teams?sportId=1&teamId=%s" # ([TeamID, TeamID])
 MLBAPI_GET_LEAGUES = "league?sportId=1&seasons=%s" # ([season,season, season])
 MLBAPI_GET_ALL_SEASONS = "seasons/all?sportId=1"
 MLBAPI_GET_SEASON = "seasons/%s?sportId=1" # (season)
-MLBAPI_GET_SCHEDULE = "schedule/games/?sportId=1&startDate=%s&endDate=%s" # (season)
+MLBAPI_GET_SCHEDULE = "schedule/games/?sportId=1&startDate=%s&endDate=%s" # (season.preSeasonStartDate, season.postSeasonStartDate | season.regularSeasonStartDate)
 MLBAPI_GET_GAME_CONTENT = "game/%s/content" # (gamePk)
 
 mlb_api_headers = {
@@ -41,6 +42,13 @@ def DownloadTeamHistories(teamIds, fields=None):
 	urlTemplate = MLBAPI_BASE_URL + MLBAPI_GET_TEAMS_HISTORY
 	return GetResultFromNetwork(
 		urlTemplate % (",".join(teamIds), ",".join(fields) if fields else ""),
+		mlb_api_headers, cacheExtension=EXTENSION_JSON)
+
+def DownloadTeamsByID(teamIds):
+	print("Getting team details from MLB API ...")
+	urlTemplate = MLBAPI_BASE_URL + MLBAPI_GET_TEAM_DETAILS
+	return GetResultFromNetwork(
+		urlTemplate % (",".join(teamIds)),
 		mlb_api_headers, cacheExtension=EXTENSION_JSON)
 
 def DownloadSeasonInfo(season):

@@ -111,13 +111,21 @@ class FranchiseDict(dict):
 		dict.__init__(self, iterable or {})
 
 		self.__abbrevlookup = dict()
+		self.__teamKeyLookup = dict()
 
 	def __hydrate_abbreviations(self):
 		for franchise in dict.values(self):
 			for team in franchise.teams.values():
+				abbreviation = team.abbreviation
+				if not abbreviation: continue
+				self.__abbrevlookup.setdefault(abbreviation, team)
+
+	def __hydrate_teamKeys(self):
+		for franchise in dict.values(self):
+			for team in franchise.teams.values():
 				key = team.key
 				if not key: continue
-				self.__abbrevlookup.setdefault(key, team)
+				self.__teamKeyLookup.setdefault(key, team)
 
 	def get(self, key):
 		return self.__find(key)[1]
@@ -134,9 +142,14 @@ class FranchiseDict(dict):
 			return (key, dict.get(self, key))
 		if not self.__abbrevlookup:
 			self.__hydrate_abbreviations()
+		if not self.__teamKeyLookup:
+			self.__hydrate_teamKeys()
 
 		if key in self.__abbrevlookup.keys():
 			return (key, self.__abbrevlookup[key])
+
+		if key in self.__teamKeyLookup.keys():
+			return (key, self.__teamKeyLookup[key])
 
 		return (None, None)
 
@@ -150,6 +163,7 @@ class FranchiseDict(dict):
 
 	def invalidate(self):
 		self.__abbrevlookup.clear()
+		self.__teamKeyLookup.clear()
 
 
 	def __repr__(self):

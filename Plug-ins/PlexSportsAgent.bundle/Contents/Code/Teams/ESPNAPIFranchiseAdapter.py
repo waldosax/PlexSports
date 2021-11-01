@@ -1,5 +1,6 @@
 # ESPN.com API
 # TEAMS
+import uuid
 import json
 from datetime import datetime, date, time
 
@@ -31,13 +32,33 @@ def DownloadAllTeams(league):
 	except: pass
 
 	teams = dict()
-	for apiTeamWrapper in response["sports"][0]["leagues"][0]["teams"]:
+	
+	apiTeams = response["sports"][0]["leagues"][0]["teams"]
+
+	allStarTeams = []
+	if league in [LEAGUE_MLB, LEAGUE_NBA, LEAGUE_NFL, LEAGUE_NHL]: allStarTeams = [31, 32] # All-Star Teams
+
+	for teamId in allStarTeams:
+		apiTeam = None
+		teamJson = DownloadTeamDetailsForLeague(league, teamId)
+		try: apiTeam = json.loads(teamJson)
+		except: pass
+		if apiTeam:
+			apiTeam["isActive"] = True
+			apiTeam.setdefault("isAllStar", True)
+			apiTeams.append(apiTeam)
+
+
+
+	for apiTeamWrapper in apiTeams:
 		apiTeam = apiTeamWrapper["team"]
 
 		teamId = deunicode(apiTeam["id"])
 
 		isActive = apiTeam["isActive"]
-		key = abbrev = deunicode(apiTeam["abbreviation"])
+		isAllStar = apiTeam.get("isAllStar") == True or apiTeam.get("isAllStar") == None
+		key = uuid.uuid4()
+		abbrev = deunicode(apiTeam["abbreviation"])
 		fullName = deunicode(apiTeam["displayName"])
 		name = deunicode(apiTeam.get("name"))
 		city = deunicode(apiTeam["location"])
@@ -45,9 +66,9 @@ def DownloadAllTeams(league):
 		aliases = []
 
 		if league in espnapi_abbreviation_corrections.keys():
-			if key in espnapi_abbreviation_corrections[league].keys():
-				aliases.append(key)
-				key = abbrev = espnapi_abbreviation_corrections[league][key]
+			if abbrev in espnapi_abbreviation_corrections[league].keys():
+				aliases.append(abbrev)
+				abbrev = espnapi_abbreviation_corrections[league][abbrev]
 
 		if league == LEAGUE_NFL:
 			if city == "Washington" and name == None:
@@ -58,6 +79,7 @@ def DownloadAllTeams(league):
 			"key": key,
 			"ESPNAPIID": teamId,
 			"active": isActive,
+			"allStar": isAllStar,
 			"fullName": fullName,
 			"name": name,
 			"city": city,

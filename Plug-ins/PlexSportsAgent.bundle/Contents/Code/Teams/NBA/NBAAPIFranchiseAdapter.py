@@ -2,6 +2,7 @@
 # TEAMS
 
 import json
+import uuid
 from datetime import datetime, date, time
 
 from Constants import *
@@ -117,7 +118,7 @@ def DownloadAllFranchises(league):
 				if lastTeamID != None and currentFranchise != None and len(currentFranchise["teams"]) == 0:
 					lastFullName = currentFranchise["name"]
 					team = __synthesize_team_from_franchise(currentFranchise, spaLookup)
-					team.setdefault("key", team["abbreviation"] if team.get("abbreviation") else str(lastTeamID))
+					team.setdefault("key", uuid.uuid4())
 					supplementalTeam = __supplement_team(team, supplement, str(lastTeamID), None)
 					currentFranchise["teams"][lastFullName] = team
 
@@ -159,7 +160,7 @@ def DownloadAllFranchises(league):
 
 
 
-					team.setdefault("key", team["abbreviation"] if team.get("abbreviation") else str(teamID))
+					team.setdefault("key", uuid.uuid4())
 
 					currentFranchise["teams"][fullName] = team
 
@@ -185,7 +186,7 @@ def DownloadAllFranchises(league):
 			# Franchise did not have any child teams, so synthesize one
 			lastFullName = currentFranchise["name"]
 			team = __synthesize_team_from_franchise(currentFranchise, spaLookup)
-			team.setdefault("key", team["abbreviation"] if team.get("abbreviation") else str(teamID))
+			team.setdefault("key", uuid.uuid4())
 			supplementalTeam = __supplement_team(team, supplement, teamID, team.get("abbreviation"))
 			currentFranchise["teams"][lastFullName] = team
 
@@ -210,6 +211,7 @@ def DownloadAllFranchises(league):
 			
 		team = {
 				"active": active,
+				"allStar": True,
 				"abbreviation": abbrev,
 				"fullName": fullName,
 				"city": city,
@@ -227,7 +229,7 @@ def DownloadAllFranchises(league):
 
 		if supplementalTeam:
 			altCityName = deunicode(supplementalTeam.get("altCityName") or "")
-			if altCityName and altCityName != team["city"] and altCityName != team["fullName"] and altCityName not in team["aliases"]:
+			if altCityName and altCityName != "Team" and altCityName != team["city"] and altCityName != team["fullName"] and altCityName not in team["aliases"]:
 				team["aliases"].append(altCityName)
 
 		__fold_in_spa_team(team, allStarTeam)
@@ -280,8 +282,6 @@ def __fold_in_spa_team(team, spaTeam):
 
 	team["aliases"] = list(set(aliases))
 
-	if not "key" in team.keys() and team.get("abbreviation"):
-		team["key"] = team["abbreviation"]
 	pass
 
 def __find_spa_team(spaLookup, teamID=None, abbrev=None, fullName=None):

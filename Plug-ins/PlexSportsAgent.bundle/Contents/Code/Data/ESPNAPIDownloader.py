@@ -12,6 +12,7 @@ ESPN_COREAPI_BASE_URL = "https://sports.core.api.espn.com/v2/"
 
 ESPN_SITEAPI_LEAGUE_FILTER = "sports/%s/%s/" # (sport.lower(), league.lower())
 ESPNAPI_GET_ACTIVE_TEAMS = "teams?limit=900"
+ESPNAPI_GET_TEAM = "teams/%s" # teamID
 ESPNAPI_GET_SCHEDULE = "scoreboard?dates=%s" # (season)
 
 ESPN_COREEAPI_LEAGUE_FILTER = "sports/%s/leagues/%s/" # (sport.lower(), league.lower())
@@ -29,6 +30,16 @@ def DownloadAllTeamsForLeague(league):
 	urlTemplate = ESPN_SITEAPI_BASE_URL + ESPN_SITEAPI_LEAGUE_FILTER + ESPNAPI_GET_ACTIVE_TEAMS
 	return GetResultFromNetwork(
 		urlTemplate % (sport.lower(), league.lower()),
+		espn_api_headers, cacheExtension=EXTENSION_JSON)
+
+def DownloadTeamDetailsForLeague(league, teamID):
+	if not league in known_leagues.keys(): return None # TODO: Throw
+	print("Getting %s team details with ID %s from ESPN API ..." % (league, teamID))
+	(leagueName, sport) = known_leagues[league]
+	urlTemplate = ESPN_SITEAPI_BASE_URL + ESPN_SITEAPI_LEAGUE_FILTER + ESPNAPI_GET_TEAM
+	url = urlTemplate % (sport.lower(), league.lower(), teamID)
+	return GetResultFromNetwork(
+		url,
 		espn_api_headers, cacheExtension=EXTENSION_JSON)
 
 def DownloadTeamForLeagueInSeason(league, season, teamID, teamName):
