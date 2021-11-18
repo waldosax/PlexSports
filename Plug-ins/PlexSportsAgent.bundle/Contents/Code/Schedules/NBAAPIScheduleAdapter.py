@@ -57,9 +57,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 				awayTeam = navigator.GetTeam(season, awayTeamFullName, awayTeamName, awayTeamAbbrev, awayTeamCity)
 				awayTeamKey = awayTeam.key if awayTeam else None
 
-				if not homeTeamKey or not awayTeamKey:
-					print("  Skipping NBA game from NBA API %s, %s." % (date.strftime("%Y-%m-%d"), vs))
-					continue
+				#if not homeTeamKey or not awayTeamKey:
+				#	print("  Skipping NBA game from NBA API %s, %s." % (date.strftime("%Y-%m-%d"), vs))
+				#	continue
 
 				networks = []
 				for b in game["bd"]["b"]:
@@ -89,7 +89,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"date": date,
 					"NBAAPIID": id,
 					"homeTeam": homeTeamKey,
+					"homeTeamName": homeTeamFullName if not homeTeamKey else None,
 					"awayTeam": awayTeamKey,
+					"awayTeamName": awayTeamFullName if not awayTeamKey else None,
 					"vs": vs,
 					"subseason": subseason,
 					"playoffround": playoffRound,
@@ -171,10 +173,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 				homeTeamDisp = None
 				if homeTeamAbbrev not in ["EST", "WST"]:
 					homeTeamID = supplementalGame["hTeam"]["teamId"]
-					homeTeam = __find_team_by_nbaapiid(teams, homeTeamID)
-				if not homeTeam: homeTeam = teams.get(teamKeys.get(homeTeamAbbrev.lower()))
+					homeTeam = __find_team(navigator, season, homeTeamAbbrev, homeTeamID)
 				if homeTeam:
-					homeTeamKey = homeTeam.key or homeTeam.abbreviation
+					homeTeamKey = homeTeam.key or None
 					homeTeamDisp = homeTeam.fullName
 				else:
 					homeTeamDisp = homeTeamAbbrev
@@ -184,10 +185,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 				awayTeamDisp = None
 				if awayTeamAbbrev not in ["EST", "WST"]:
 					awayTeamID = supplementalGame["vTeam"]["teamId"]
-					awayTeam = __find_team_by_nbaapiid(teams, awayTeamID)
-				if not awayTeam: awayTeam = teams.get(teamKeys.get(awayTeamAbbrev.lower()))
+					awayTeam = __find_team(navigator, season, awayTeamAbbrev, awayTeamID)
 				if awayTeam:
-					awayTeamKey = awayTeam.key or awayTeam.abbreviation
+					awayTeamKey = awayTeam.key or None
 					awayTeamDisp = awayTeam.fullName
 				else:
 					awayTeamDisp = awayTeamAbbrev
@@ -205,7 +205,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"date": date,
 					"NBAAPIID": id,
 					"homeTeam": homeTeamKey,
+					"homeTeamName": homeTeamDisp if not homeTeamKey else None,
 					"awayTeam": awayTeamKey,
+					"awayTeamName": awayTeamDisp if not awayTeamKey else None,
 					"vs": vs,
 					"subseason": subseason,
 					"playoffround": playoffRound,
@@ -313,10 +315,12 @@ def GetSchedule(sched, navigator, sport, league, season):
 
 	pass
 
-def __find_team_by_nbaapiid(teams, nbaapiid):
-	for franchise in teams.values():
-		team = franchise.FindTeam(None, identity={"NBAAPIID": nbaapiid})
-		if team: return team
+def __find_team(navigator, season, abbreviation, nbaapiid):
+	team = navigator.GetTeam(season, None, None, abbreviation, None, **{"NBAAPIID": nbaapiid})
+	return team
+	#for franchise in teams.values():
+	#	team = franchise.FindTeam(None, identity={"NBAAPIID": nbaapiid})
+	#	if team: return team
 
 def __is_game_id_all_star(gameID):
 	return gameID[2] == "3"

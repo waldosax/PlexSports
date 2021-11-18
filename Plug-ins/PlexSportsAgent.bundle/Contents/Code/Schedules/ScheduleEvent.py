@@ -26,7 +26,9 @@ class ScheduleEvent:
 		self.game = kwargs.get("game")
 
 		self.homeTeam = deunicode(kwargs.get("homeTeam"))
+		self.homeTeamName = deunicode(kwargs.get("homeTeamName"))
 		self.awayTeam = deunicode(kwargs.get("awayTeam"))
+		self.awayTeamName = deunicode(kwargs.get("awayTeamName"))
 		# TODO: fields for non team-based sports, like Boxing
 
 		# Additional metadata items (if provided)
@@ -83,7 +85,9 @@ class ScheduleEvent:
 		if not self.game and kwargs.get("game"): self.game = kwargs.get("game")
 		
 		if not self.homeTeam: self.homeTeam = deunicode(kwargs.get("homeTeam"))
+		if not self.homeTeamName: self.homeTeamName = deunicode(kwargs.get("homeTeamName"))
 		if not self.awayTeam: self.awayTeam = deunicode(kwargs.get("awayTeam"))
+		if not self.awayTeamName: self.awayTeam = deunicode(kwargs.get("awayTeamName"))
 		# TODO: fields for non team-based sports, like Boxing
 
 		# Additional metadata items (if provided)

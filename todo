@@ -8,6 +8,7 @@ ESPN API (NHL) 2006 Season (Internal server error)
 Scrape defunct NHL teams from hockey-reference.com
 WHO tf are FBC, SHA? ESPNAPI serving inter-league play
 	+ Assimiliate 'Unknown' franchises/teams
+Baseball: Get those defunct franchises from MLB API
 Generate Franchise report
 Generate schedule report
 ESPNAPI for teams and schedules
@@ -19,7 +20,10 @@ ScheduleAdapterFactory (Threads in tiers)
 	+ Definitive
 	+ Authoritative
 	+ Supplemental
-	
+
+NHL Franchises (Canadian) between 1920-1925
+NHL All-Star teams variations
+
 Only cache if historical (year/day)
 Scheme to serialize this season, but also keep this week's events freshly downloaded.
 If today is in season, pull from cache, but also pull a fresh copy for season of for up to today. Recache

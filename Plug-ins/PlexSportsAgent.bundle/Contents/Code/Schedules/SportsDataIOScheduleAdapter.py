@@ -16,6 +16,9 @@ SPORTS_DATA_IO_SEASON_TYPE_ALLSTAR = 5
 
 
 def GetSchedule(sched, navigator, sport, league, season):
+	if league == LEAGUE_MLB and int(season) < 2017: return
+	if league == LEAGUE_NBA and int(season) < 2017: return
+	if league == LEAGUE_NHL and int(season) < 2017: return
 	if league == LEAGUE_NFL and int(season) < 2017: return
 
 	# Augment/replace with data from SportsData.io
@@ -39,12 +42,12 @@ def GetSchedule(sched, navigator, sport, league, season):
 				# Teams from this API are abbreviations
 				homeTeamAbbrev = deunicode(schedEvent["HomeTeam"])
 				homeTeam = navigator.GetTeam(season, abbreviation=homeTeamAbbrev)
-				homeTeamKey = homeTeam.key if homeTeam else homeTeamAbbrev
+				homeTeamKey = homeTeam.key if homeTeam else None
 				homeTeamFullName = homeTeam.fullName if homeTeam else homeTeamAbbrev
 
 				awayTeamAbbrev = deunicode(schedEvent["AwayTeam"])
 				awayTeam = navigator.GetTeam(season, abbreviation=awayTeamAbbrev)
-				awayTeamKey = awayTeam.key if awayTeam else awayTeamAbbrev
+				awayTeamKey = awayTeam.key if awayTeam else None
 				awayTeamFullName = awayTeam.fullName if awayTeam else awayTeamAbbrev
 
 				date = None
@@ -71,7 +74,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"SportsDataIOID": gameID,
 					"vs": "%s vs %s" % (homeTeamFullName, awayTeamFullName),
 					"homeTeam": homeTeamKey,
+					"homeTeamName": homeTeamFullName if not homeTeamKey else None,
 					"awayTeam": awayTeamKey,
+					"awayTeamName": awayTeamFullName if not awayTeamKey else None,
 					"networks": splitAndTrim(deunicode(schedEvent.get("Channel"))),
 					}
 

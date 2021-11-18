@@ -27,7 +27,16 @@ if __name__ == "__main__":
 		LEAGUE_NHL: 1920
 		}
 
-	for league in known_leagues.keys():
+	#leagues_to_do = known_leagues.keys()
+	leagues_to_do = [
+		LEAGUE_NFL,
+		#LEAGUE_NBA,
+		#LEAGUE_MLB,
+		#LEAGUE_NHL
+		]
+
+
+	for league in leagues_to_do:
 		(leagueName, sport) = known_leagues[league]
 	
 		franchises = PlexSportsAgent.Teams.GetFranchises(league)

@@ -126,11 +126,12 @@ def GetSchedule(sched, navigator, sport, league, season):
 								teams[key]["abbrev"] = abbrev
 								teams[key]["fullName"] = deunicode(competitor["team"]["displayName"])
 
-							homeTeam = navigator.GetTeam(season, teams["home"]["fullName"], abbreviation=teams["home"]["abbrev"])
-							awayTeam = navigator.GetTeam(season, teams["away"]["fullName"], abbreviation=teams["away"]["abbrev"])
-
-							homeTeamKey = homeTeam.key if homeTeam else create_scannable_key(teams["home"]["fullName"])
-							awayTeamKey = awayTeam.key if awayTeam else create_scannable_key(teams["away"]["fullName"])
+							homeTeamName = teams["home"]["fullName"]
+							awayTeamName = teams["away"]["fullName"]
+							homeTeam = navigator.GetTeam(season, homeTeamName, abbreviation=teams["home"]["abbrev"])
+							awayTeam = navigator.GetTeam(season, awayTeamName, abbreviation=teams["away"]["abbrev"])
+							homeTeamKey = homeTeam.key if homeTeam else None
+							awayTeamKey = awayTeam.key if awayTeam else None
 
 
 							(xsubseason, playoffRound, eventIndicator, xtitle) = __get_playoffRound(league, subseason, title, competition)
@@ -174,7 +175,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 								#"altTitle": altTitle,
 								"description": description,
 								"homeTeam": homeTeamKey,
+								"homeTeamName": homeTeamName if not homeTeamKey else None,
 								"awayTeam": awayTeamKey,
+								"awayTeamName": awayTeamName if not awayTeamKey else None,
 								"subseason": xsubseason,
 								"week": week,
 								"playoffround": playoffRound,

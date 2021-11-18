@@ -118,28 +118,43 @@ class FranchiseDict(dict):
 			for team in franchise.teams.values():
 				abbreviation = team.abbreviation
 				if not abbreviation: continue
-				self.__abbrevlookup.setdefault(abbreviation, team)
+				self.__abbrevlookup.setdefault(abbreviation, (franchise, team))
 
 	def __hydrate_teamKeys(self):
 		for franchise in dict.values(self):
 			for team in franchise.teams.values():
 				key = team.key
 				if not key: continue
-				self.__teamKeyLookup.setdefault(key, team)
+				self.__teamKeyLookup.setdefault(key, (franchise, team))
 
 	def get(self, key):
-		return self.__find(key)[1]
+		return self.__find_franchise_and_team(key)[1][0]
+
+	def getFranchise(self, key):
+		return self.__find_franchise_and_team(key)[1][0]
+
+	def getTeam(self, key):
+		return self.__find_franchise_and_team(key)[1][1]
+
+	def getFranchiseAndTeam(self, key):
+		franchiseAndTeam = self.__find_franchise_and_team(key)
+		if franchiseAndTeam == None:
+			print("getFranchiseAndTeam yielded None for %s" % key)
+		return franchiseAndTeam[1]
 
 	def __getitem__(self, key):
-		(foundKey, value) = self.__find(key)
+		(foundKey, value) = self.__find_franchise_and_team(key)
 		if foundKey == None:
 			# TODO: Throw
 			pass
-		return value
+		return value[0]
 
-	def __find(self, key):
+	def __find_franchise_and_team(self, key):
 		if key in dict.keys(self):
-			return (key, dict.get(self, key))
+			franchise = dict.get(self, key)
+			activeTeam = franchise.teams[key]
+			return (key, (franchise, activeTeam))
+
 		if not self.__abbrevlookup:
 			self.__hydrate_abbreviations()
 		if not self.__teamKeyLookup:

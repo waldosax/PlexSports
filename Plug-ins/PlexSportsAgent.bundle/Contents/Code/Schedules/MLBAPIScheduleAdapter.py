@@ -44,14 +44,14 @@ def GetSchedule(sched, navigator, sport, league, season):
 					date = ParseISO8601Date(dateGroup)
 
 				# Teams from this API are full names
-				homeTeamName = schedEvent["teams"]["home"]["team"]["name"]
-				awayTeamName = schedEvent["teams"]["away"]["team"]["name"]
+				homeTeamName = deunicode(schedEvent["teams"]["home"]["team"]["name"])
+				awayTeamName = deunicode(schedEvent["teams"]["away"]["team"]["name"])
 
 				homeTeam = navigator.GetTeam(season, homeTeamName)
 				awayTeam = navigator.GetTeam(season, awayTeamName)
 
-				homeTeamKey = homeTeam.key if homeTeam else create_scannable_key(homeTeamName)
-				awayTeamKey = awayTeam.key if awayTeam else create_scannable_key(awayTeamName)
+				homeTeamKey = homeTeam.key if homeTeam else None
+				awayTeamKey = awayTeam.key if awayTeam else None
 
 				subseason = None
 				playoffRound = None
@@ -87,7 +87,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"title": schedEvent.get("description"),
 					"subseasonTitle": schedEvent.get("seriesDescription"),
 					"homeTeam": homeTeamKey,
+					"homeTeamName": homeTeamName if not homeTeamKey else None,
 					"awayTeam": awayTeamKey,
+					"awayTeamName": awayTeamName if not awayTeamKey else None,
 					"vs": "%s vs. %s" % (homeTeamName, awayTeamName),
 					"subseason": subseason,
 					"playoffround": playoffRound,

@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLBFRANCHISES", 
-        "CachedOn": "2021-11-01T18:32:45", 
-        "ExpiresOn": "2022-03-16T18:32:45", 
+        "CachedOn": "2021-11-03T11:44:31", 
+        "ExpiresOn": "2022-03-18T11:44:31", 
         "Version": "1"
     }, 
     "Items": [
@@ -15,7 +15,11 @@
                     "AL All-Stars": {
                         "abbreviation": "AL", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "American League All-Stars", 
+                            "American All-Stars", 
+                            "AL All-Stars"
+                        ], 
                         "allStar": true, 
                         "assets": {
                             "badge": [], 
@@ -39,7 +43,7 @@
                             "MLBAPIID": 159, 
                             "SportsDataIOID": "27"
                         }, 
-                        "key": "2a8a1352-f999-4402-8783-9e5ab26b16af", 
+                        "key": "0d05197e-f039-4693-861f-55c48a41af37", 
                         "name": "All-Stars", 
                         "years": []
                     }
@@ -55,7 +59,9 @@
                         "abbreviation": "ARI", 
                         "active": true, 
                         "aliases": [
+                            "D-backs", 
                             "D-Backs", 
+                            "Arizona D-backs", 
                             "ARI"
                         ], 
                         "allStar": false, 
@@ -142,7 +148,7 @@
                             "SportsDBID": "135267", 
                             "SportsDataIOID": "14"
                         }, 
-                        "key": "f3e056bf-1607-45a1-9252-d30eed283d1c", 
+                        "key": "4bbae692-598c-47d0-8e72-99061273c65c", 
                         "name": "Diamondbacks", 
                         "years": [
                             {
@@ -240,7 +246,7 @@
                             "SportsDBID": "135268", 
                             "SportsDataIOID": "26"
                         }, 
-                        "key": "eabdc9ee-f771-4945-a878-b8224e615e1f", 
+                        "key": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
                         "name": "Braves", 
                         "years": [
                             {
@@ -249,7 +255,7 @@
                         ]
                     }, 
                     "Boston Beaneaters": {
-                        "abbreviation": "", 
+                        "abbreviation": "BSN", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -263,10 +269,12 @@
                             "wordmark": []
                         }, 
                         "city": "Boston", 
+                        "conference": "National League", 
                         "fullName": "Boston Beaneaters", 
                         "identity": {
                             "MLBAPIID": "144.bsn.4eb9f3"
                         }, 
+                        "key": "51b4941e-ff7b-4e56-8148-a2759d53dd07", 
                         "name": "Beaneaters", 
                         "years": [
                             {
@@ -276,9 +284,11 @@
                         ]
                     }, 
                     "Boston Bees": {
-                        "abbreviation": "", 
+                        "abbreviation": "BSN", 
                         "active": false, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Bsn. Bees"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [], 
@@ -290,10 +300,12 @@
                             "wordmark": []
                         }, 
                         "city": "Boston", 
+                        "conference": "National League", 
                         "fullName": "Boston Bees", 
                         "identity": {
                             "MLBAPIID": "144.bsn.003dde"
                         }, 
+                        "key": "a73689f9-7ab6-4a22-a053-4e5f5e3310fd", 
                         "name": "Bees", 
                         "years": [
                             {
@@ -303,9 +315,11 @@
                         ]
                     }, 
                     "Boston Braves": {
-                        "abbreviation": "", 
+                        "abbreviation": "BSN", 
                         "active": false, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Bsn. Braves"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [], 
@@ -317,10 +331,12 @@
                             "wordmark": []
                         }, 
                         "city": "Boston", 
+                        "conference": "National League", 
                         "fullName": "Boston Braves", 
                         "identity": {
                             "MLBAPIID": "144.bsn.bff676"
                         }, 
+                        "key": "1ffc0453-11c0-409f-9d7b-7507f1e68ecd", 
                         "name": "Braves", 
                         "years": [
                             {
@@ -330,9 +346,11 @@
                         ]
                     }, 
                     "Boston Doves": {
-                        "abbreviation": "", 
+                        "abbreviation": "BSN", 
                         "active": false, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Bsn. Doves"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [], 
@@ -344,10 +362,12 @@
                             "wordmark": []
                         }, 
                         "city": "Boston", 
+                        "conference": "National League", 
                         "fullName": "Boston Doves", 
                         "identity": {
                             "MLBAPIID": "144.bsn.21e471"
                         }, 
+                        "key": "9097274e-760d-4e3e-9cf6-433b5c31960a", 
                         "name": "Doves", 
                         "years": [
                             {
@@ -357,7 +377,7 @@
                         ]
                     }, 
                     "Boston Red Caps": {
-                        "abbreviation": "", 
+                        "abbreviation": "BSN", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -371,10 +391,12 @@
                             "wordmark": []
                         }, 
                         "city": "Boston", 
+                        "conference": "National League", 
                         "fullName": "Boston Red Caps", 
                         "identity": {
                             "MLBAPIID": "144.bsn.5f6def"
                         }, 
+                        "key": "a5f5602f-ebef-4c91-af21-bcc583271b85", 
                         "name": "Red Caps", 
                         "years": [
                             {
@@ -384,9 +406,11 @@
                         ]
                     }, 
                     "Boston Rustlers": {
-                        "abbreviation": "", 
+                        "abbreviation": "BSN", 
                         "active": false, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Bsn. Rustlers"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [], 
@@ -398,10 +422,12 @@
                             "wordmark": []
                         }, 
                         "city": "Boston", 
+                        "conference": "National League", 
                         "fullName": "Boston Rustlers", 
                         "identity": {
                             "MLBAPIID": "144.bsn.f5705b"
                         }, 
+                        "key": "a665077a-e810-40b7-80ed-84db1c8aa4c3", 
                         "name": "Rustlers", 
                         "years": [
                             {
@@ -411,7 +437,7 @@
                         ]
                     }, 
                     "Milwaukee Braves": {
-                        "abbreviation": "", 
+                        "abbreviation": "MIL", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -425,10 +451,12 @@
                             "wordmark": []
                         }, 
                         "city": "Milwaukee", 
+                        "conference": "National League", 
                         "fullName": "Milwaukee Braves", 
                         "identity": {
                             "MLBAPIID": "144.ml1.4b2fc4"
                         }, 
+                        "key": "d54ed420-fe47-4697-8c7e-fde057884c5f", 
                         "name": "Braves", 
                         "years": [
                             {
@@ -532,7 +560,7 @@
                             "SportsDBID": "135251", 
                             "SportsDataIOID": "19"
                         }, 
-                        "key": "463aa0bf-0c5f-465c-87e3-ca0d99241069", 
+                        "key": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
                         "name": "Orioles", 
                         "years": [
                             {
@@ -541,7 +569,7 @@
                         ]
                     }, 
                     "Milwaukee Brewers": {
-                        "abbreviation": "", 
+                        "abbreviation": "MIL", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -555,10 +583,12 @@
                             "wordmark": []
                         }, 
                         "city": "Milwaukee", 
+                        "conference": "American League", 
                         "fullName": "Milwaukee Brewers", 
                         "identity": {
                             "MLBAPIID": "110.mla.6362d2"
                         }, 
+                        "key": "405618c0-3c7b-4d5d-b814-3d9b217adf0a", 
                         "name": "Brewers", 
                         "years": [
                             {
@@ -568,9 +598,11 @@
                         ]
                     }, 
                     "St. Louis Browns": {
-                        "abbreviation": "", 
+                        "abbreviation": "SLB", 
                         "active": false, 
-                        "aliases": [], 
+                        "aliases": [
+                            "StL Browns"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [], 
@@ -582,10 +614,12 @@
                             "wordmark": []
                         }, 
                         "city": "St. Louis", 
+                        "conference": "American League", 
                         "fullName": "St. Louis Browns", 
                         "identity": {
                             "MLBAPIID": "110.sla.7024e9"
                         }, 
+                        "key": "5d0fb061-6295-4f65-80f9-b837ef215816", 
                         "name": "Browns", 
                         "years": [
                             {
@@ -602,7 +636,7 @@
                 "name": "Boston Red Sox", 
                 "teams": {
                     "Boston Americans": {
-                        "abbreviation": "", 
+                        "abbreviation": "BOS", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -616,10 +650,12 @@
                             "wordmark": []
                         }, 
                         "city": "Boston", 
+                        "conference": "American League", 
                         "fullName": "Boston Americans", 
                         "identity": {
                             "MLBAPIID": "111.bos.883e57"
                         }, 
+                        "key": "b0bd452e-db4a-48b8-83ce-6a1ccafd44be", 
                         "name": "Americans", 
                         "years": [
                             {
@@ -711,7 +747,7 @@
                             "SportsDBID": "135252", 
                             "SportsDataIOID": "25"
                         }, 
-                        "key": "c9fd3679-0e0a-4f4d-b32c-8a4fa54ad552", 
+                        "key": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
                         "name": "Red Sox", 
                         "years": [
                             {
@@ -727,9 +763,11 @@
                 "name": "Chicago Cubs", 
                 "teams": {
                     "Chicago Colts": {
-                        "abbreviation": "", 
+                        "abbreviation": "CHI", 
                         "active": false, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Chi. Colts"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [], 
@@ -741,10 +779,12 @@
                             "wordmark": []
                         }, 
                         "city": "Chicago", 
+                        "conference": "National League", 
                         "fullName": "Chicago Colts", 
                         "identity": {
                             "MLBAPIID": "112.chn.bb33da"
                         }, 
+                        "key": "15053d5b-81f0-4472-abde-fb2837396033", 
                         "name": "Colts", 
                         "years": [
                             {
@@ -756,7 +796,9 @@
                     "Chicago Cubs": {
                         "abbreviation": "CHC", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Chi Cubs"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [
@@ -836,7 +878,7 @@
                             "SportsDBID": "135269", 
                             "SportsDataIOID": "9"
                         }, 
-                        "key": "5f74267d-36f1-4fa8-8251-9d16cffd2321", 
+                        "key": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
                         "name": "Cubs", 
                         "years": [
                             {
@@ -845,9 +887,11 @@
                         ]
                     }, 
                     "Chicago Orphans": {
-                        "abbreviation": "", 
+                        "abbreviation": "CHI", 
                         "active": false, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Chi. Orphans"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [], 
@@ -859,10 +903,12 @@
                             "wordmark": []
                         }, 
                         "city": "Chicago", 
+                        "conference": "National League", 
                         "fullName": "Chicago Orphans", 
                         "identity": {
                             "MLBAPIID": "112.chn.8073fe"
                         }, 
+                        "key": "158b3613-1d4d-4d03-8d1e-79e103f22526", 
                         "name": "Orphans", 
                         "years": [
                             {
@@ -872,9 +918,11 @@
                         ]
                     }, 
                     "Chicago White Stockings": {
-                        "abbreviation": "", 
+                        "abbreviation": "CHI", 
                         "active": false, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Chi. White Stockings"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [], 
@@ -886,10 +934,12 @@
                             "wordmark": []
                         }, 
                         "city": "Chicago", 
+                        "conference": "National League", 
                         "fullName": "Chicago White Stockings", 
                         "identity": {
                             "MLBAPIID": "112.chn.8f8176"
                         }, 
+                        "key": "67af7f45-d2a3-4880-afca-ea7902385e08", 
                         "name": "White Stockings", 
                         "years": [
                             {
@@ -909,6 +959,7 @@
                         "abbreviation": "CWS", 
                         "active": true, 
                         "aliases": [
+                            "Chi White Sox", 
                             "CHW"
                         ], 
                         "allStar": false, 
@@ -990,7 +1041,7 @@
                             "SportsDBID": "135253", 
                             "SportsDataIOID": "16"
                         }, 
-                        "key": "39370f2b-70db-4dbe-9fd3-e6a2f2341cc1", 
+                        "key": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
                         "name": "White Sox", 
                         "years": [
                             {
@@ -1006,7 +1057,7 @@
                 "name": "Cincinnati Reds", 
                 "teams": {
                     "Cincinnati Red Stockings": {
-                        "abbreviation": "", 
+                        "abbreviation": "CIN", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -1020,10 +1071,12 @@
                             "wordmark": []
                         }, 
                         "city": "Cincinnati", 
+                        "conference": "American Association", 
                         "fullName": "Cincinnati Red Stockings", 
                         "identity": {
                             "MLBAPIID": "113.cn2.b3ca94"
                         }, 
+                        "key": "4d0c5dea-5729-4056-82ab-f8f01d0c9e63", 
                         "name": "Red Stockings", 
                         "years": [
                             {
@@ -1033,7 +1086,7 @@
                         ]
                     }, 
                     "Cincinnati Redlegs": {
-                        "abbreviation": "", 
+                        "abbreviation": "CIN", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -1047,10 +1100,12 @@
                             "wordmark": []
                         }, 
                         "city": "Cincinnati", 
+                        "conference": "National League", 
                         "fullName": "Cincinnati Redlegs", 
                         "identity": {
                             "MLBAPIID": "113.cin.c8a250"
                         }, 
+                        "key": "8bc634db-0234-4ba6-a95f-e3cf5b54d076", 
                         "name": "Redlegs", 
                         "years": [
                             {
@@ -1142,7 +1197,7 @@
                             "SportsDBID": "135270", 
                             "SportsDataIOID": "2"
                         }, 
-                        "key": "8f7715d9-80c4-4101-a3d4-20bad49eea75", 
+                        "key": "65406cdf-45f7-4c86-b615-76813bcde88d", 
                         "name": "Reds", 
                         "years": [
                             {
@@ -1162,7 +1217,7 @@
                 "name": "Cleveland Indians", 
                 "teams": {
                     "Cleveland Blues": {
-                        "abbreviation": "", 
+                        "abbreviation": "CLE", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -1176,10 +1231,12 @@
                             "wordmark": []
                         }, 
                         "city": "Cleveland", 
+                        "conference": "American League", 
                         "fullName": "Cleveland Blues", 
                         "identity": {
                             "MLBAPIID": "114.cle.1e54fd"
                         }, 
+                        "key": "46172c97-3d1c-4457-8932-893c21dd925b", 
                         "name": "Blues", 
                         "years": [
                             {
@@ -1189,7 +1246,7 @@
                         ]
                     }, 
                     "Cleveland Bronchos": {
-                        "abbreviation": "", 
+                        "abbreviation": "CLE", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -1203,10 +1260,12 @@
                             "wordmark": []
                         }, 
                         "city": "Cleveland", 
+                        "conference": "American League", 
                         "fullName": "Cleveland Bronchos", 
                         "identity": {
                             "MLBAPIID": "114.cle.f2ec67"
                         }, 
+                        "key": "f5be0652-9d8a-424d-ae6a-a7a57b65f3d8", 
                         "name": "Bronchos", 
                         "years": [
                             {
@@ -1216,7 +1275,7 @@
                         ]
                     }, 
                     "Cleveland Guardians": {
-                        "abbreviation": "", 
+                        "abbreviation": "CLE", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -1230,10 +1289,12 @@
                             "wordmark": []
                         }, 
                         "city": "Cleveland", 
+                        "conference": "American League", 
                         "fullName": "Cleveland Guardians", 
                         "identity": {
                             "MLBAPIID": "114.cle.3114dc"
                         }, 
+                        "key": "8ed7ccc3-3da8-4fbe-99b6-08e0e3d7b5eb", 
                         "name": "Guardians", 
                         "years": []
                     }, 
@@ -1320,7 +1381,7 @@
                             "SportsDBID": "135254", 
                             "SportsDataIOID": "10"
                         }, 
-                        "key": "2818f87a-98dd-4a90-82be-abcf0c056b59", 
+                        "key": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
                         "name": "Indians", 
                         "years": [
                             {
@@ -1329,7 +1390,7 @@
                         ]
                     }, 
                     "Cleveland Naps": {
-                        "abbreviation": "", 
+                        "abbreviation": "CLE", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -1343,10 +1404,12 @@
                             "wordmark": []
                         }, 
                         "city": "Cleveland", 
+                        "conference": "American League", 
                         "fullName": "Cleveland Naps", 
                         "identity": {
                             "MLBAPIID": "114.cle.18887e"
                         }, 
+                        "key": "0f421e81-2f6d-4f04-8ed5-2bfdc3c4d377", 
                         "name": "Naps", 
                         "years": [
                             {
@@ -1445,7 +1508,7 @@
                             "SportsDBID": "135271", 
                             "SportsDataIOID": "23"
                         }, 
-                        "key": "0944cf68-0a57-4b16-8e23-b798ab3f345d", 
+                        "key": "46c817ab-e9bc-4644-881e-7ca785082326", 
                         "name": "Rockies", 
                         "years": [
                             {
@@ -1543,7 +1606,7 @@
                             "SportsDBID": "135255", 
                             "SportsDataIOID": "17"
                         }, 
-                        "key": "06912783-7021-481f-b7e6-4257bf41b13c", 
+                        "key": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
                         "name": "Tigers", 
                         "years": [
                             {
@@ -1552,6 +1615,37 @@
                         ]
                     }
                 }
+            }, 
+            "Hartford Dark Blues": {
+                "active": false, 
+                "name": "Hartford Dark Blues", 
+                "teams": {
+                    "Hartford Dark Blues": {
+                        "abbreviation": "HAR", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Hartford", 
+                        "conference": "National League", 
+                        "fullName": "Hartford Dark Blues", 
+                        "identity": {
+                            "MLBAPIID": 123
+                        }, 
+                        "key": "2deba751-8951-4bc9-b179-8803ecde8192", 
+                        "name": "Dark Blues", 
+                        "years": []
+                    }
+                }, 
+                "toYear": 1876
             }, 
             "Houston Astros": {
                 "active": true, 
@@ -1641,7 +1735,7 @@
                             "SportsDBID": "135256", 
                             "SportsDataIOID": "30"
                         }, 
-                        "key": "e8d28221-d596-463f-9bfc-d88083158556", 
+                        "key": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
                         "name": "Astros", 
                         "years": [
                             {
@@ -1650,7 +1744,7 @@
                         ]
                     }, 
                     "Houston Colt 45's": {
-                        "abbreviation": "", 
+                        "abbreviation": "HOU", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -1664,10 +1758,12 @@
                             "wordmark": []
                         }, 
                         "city": "Houston", 
+                        "conference": "National League", 
                         "fullName": "Houston Colt 45's", 
                         "identity": {
                             "MLBAPIID": "117.hou.30d84c"
                         }, 
+                        "key": "190a4d7a-f98b-46cc-96d5-63585164773b", 
                         "name": "Colt 45's", 
                         "years": [
                             {
@@ -1677,6 +1773,161 @@
                         ]
                     }
                 }
+            }, 
+            "Indianapolis Blues": {
+                "active": false, 
+                "name": "Indianapolis Blues", 
+                "teams": {
+                    "Indianapolis Blues": {
+                        "abbreviation": "IND", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Indianapolis", 
+                        "conference": "American Association", 
+                        "fullName": "Indianapolis Blues", 
+                        "identity": {
+                            "MLBAPIID": 125
+                        }, 
+                        "key": "6ccf273a-b9f0-4578-b9a8-e040fcac1505", 
+                        "name": "Blues", 
+                        "years": []
+                    }
+                }, 
+                "toYear": 1884
+            }, 
+            "Indianapolis Hoosiers": {
+                "active": false, 
+                "name": "Indianapolis Hoosiers", 
+                "teams": {
+                    "Indianapolis Hoosiers": {
+                        "abbreviation": "IND", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Indianapolis", 
+                        "conference": "National League", 
+                        "fullName": "Indianapolis Hoosiers", 
+                        "identity": {
+                            "MLBAPIID": 126
+                        }, 
+                        "key": "3ab1c01e-ebe3-4126-a7d7-dc7ee4566aef", 
+                        "name": "Hoosiers", 
+                        "years": []
+                    }
+                }, 
+                "toYear": 1887
+            }, 
+            "Kansas City Blues": {
+                "active": false, 
+                "name": "Kansas City Blues", 
+                "teams": {
+                    "Kansas City Blues": {
+                        "abbreviation": "KC", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Kansas City", 
+                        "conference": "American Association", 
+                        "fullName": "Kansas City Blues", 
+                        "identity": {
+                            "MLBAPIID": 127
+                        }, 
+                        "key": "7abeeba2-74e2-4ec1-877e-deac9ab27da6", 
+                        "name": "Blues", 
+                        "years": []
+                    }
+                }, 
+                "toYear": 1888
+            }, 
+            "Kansas City Cowboys": {
+                "active": false, 
+                "name": "Kansas City Cowboys", 
+                "teams": {
+                    "Kansas City Cowboys": {
+                        "abbreviation": "KC", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Kansas City", 
+                        "conference": "National League", 
+                        "fullName": "Kansas City Cowboys", 
+                        "identity": {
+                            "MLBAPIID": 129
+                        }, 
+                        "key": "cbbd5d8b-2223-4fe9-a0bd-67a91eeaf309", 
+                        "name": "Cowboys", 
+                        "years": []
+                    }
+                }, 
+                "toYear": 1886
+            }, 
+            "Kansas City Packers": {
+                "active": false, 
+                "name": "Kansas City Packers", 
+                "teams": {
+                    "Kansas City Packers": {
+                        "abbreviation": "KC", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Kansas City", 
+                        "conference": "Federal League", 
+                        "fullName": "Kansas City Packers", 
+                        "identity": {
+                            "MLBAPIID": 128
+                        }, 
+                        "key": "b535d1dd-6c3a-45a3-bca7-7c6642d84d4e", 
+                        "name": "Packers", 
+                        "years": []
+                    }
+                }, 
+                "toYear": 1914
             }, 
             "Kansas City Royals": {
                 "active": true, 
@@ -1771,7 +2022,7 @@
                             "SportsDBID": "135257", 
                             "SportsDataIOID": "5"
                         }, 
-                        "key": "c8bca004-3c7f-4d88-bafc-702370b5b72f", 
+                        "key": "03312867-f650-42f8-af9c-ae543384957e", 
                         "name": "Royals", 
                         "years": [
                             {
@@ -1781,13 +2032,44 @@
                     }
                 }
             }, 
+            "Kansas City Unions": {
+                "active": false, 
+                "name": "Kansas City Unions", 
+                "teams": {
+                    "Kansas City Unions": {
+                        "abbreviation": "KC", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Kansas City", 
+                        "conference": "Union Association", 
+                        "fullName": "Kansas City Unions", 
+                        "identity": {
+                            "MLBAPIID": 130
+                        }, 
+                        "key": "095c67f1-4b01-4721-866e-ae0c0109fbba", 
+                        "name": "Unions", 
+                        "years": []
+                    }
+                }, 
+                "toYear": 1884
+            }, 
             "Los Angeles Angels": {
                 "active": true, 
                 "fromYear": 1961, 
                 "name": "Los Angeles Angels", 
                 "teams": {
                     "Anaheim Angels": {
-                        "abbreviation": "", 
+                        "abbreviation": "ANA", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -1801,10 +2083,12 @@
                             "wordmark": []
                         }, 
                         "city": "Anaheim", 
+                        "conference": "American League", 
                         "fullName": "Anaheim Angels", 
                         "identity": {
                             "MLBAPIID": "108.ana.c2369b"
                         }, 
+                        "key": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
                         "name": "Angels", 
                         "years": [
                             {
@@ -1814,7 +2098,7 @@
                         ]
                     }, 
                     "California Angels": {
-                        "abbreviation": "", 
+                        "abbreviation": "CAL", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -1828,10 +2112,12 @@
                             "wordmark": []
                         }, 
                         "city": "California", 
+                        "conference": "American League", 
                         "fullName": "California Angels", 
                         "identity": {
                             "MLBAPIID": "108.cal.037d55"
                         }, 
+                        "key": "879411bb-f30e-4a60-ae79-a75756fa8b87", 
                         "name": "Angels", 
                         "years": [
                             {
@@ -1843,7 +2129,9 @@
                     "Los Angeles Angels": {
                         "abbreviation": "LAA", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "LA Angels"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [
@@ -1923,7 +2211,7 @@
                             "SportsDBID": "135258", 
                             "SportsDataIOID": "21"
                         }, 
-                        "key": "436369cb-ff50-46f5-9433-077ab5b20020", 
+                        "key": "ddc4d9a5-b941-49bf-acfc-f867fdc4776e", 
                         "name": "Angels", 
                         "years": [
                             {
@@ -1943,7 +2231,7 @@
                 "name": "Los Angeles Dodgers", 
                 "teams": {
                     "Brooklyn Atlantics": {
-                        "abbreviation": "", 
+                        "abbreviation": "BRO", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -1957,10 +2245,12 @@
                             "wordmark": []
                         }, 
                         "city": "Brooklyn", 
+                        "conference": "American Association", 
                         "fullName": "Brooklyn Atlantics", 
                         "identity": {
                             "MLBAPIID": "119.br3.aee6e1"
                         }, 
+                        "key": "930698ab-b150-4dbe-b45f-d9f1323e360c", 
                         "name": "Atlantics", 
                         "years": [
                             {
@@ -1970,7 +2260,7 @@
                         ]
                     }, 
                     "Brooklyn Bridegrooms": {
-                        "abbreviation": "", 
+                        "abbreviation": "BRO", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -1984,10 +2274,12 @@
                             "wordmark": []
                         }, 
                         "city": "Brooklyn", 
+                        "conference": "American Association", 
                         "fullName": "Brooklyn Bridegrooms", 
                         "identity": {
                             "MLBAPIID": "119.br3.86e004"
                         }, 
+                        "key": "7c71ace3-c25d-44f6-88a6-15f14708f1e7", 
                         "name": "Bridegrooms", 
                         "years": [
                             {
@@ -1997,7 +2289,7 @@
                         ]
                     }, 
                     "Brooklyn Dodgers": {
-                        "abbreviation": "", 
+                        "abbreviation": "BRO", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -2011,10 +2303,12 @@
                             "wordmark": []
                         }, 
                         "city": "Brooklyn", 
+                        "conference": "National League", 
                         "fullName": "Brooklyn Dodgers", 
                         "identity": {
                             "MLBAPIID": "119.bro.c8602a"
                         }, 
+                        "key": "bb961d79-f947-4bae-a113-61fc023d31a9", 
                         "name": "Dodgers", 
                         "years": [
                             {
@@ -2028,7 +2322,7 @@
                         ]
                     }, 
                     "Brooklyn Grays": {
-                        "abbreviation": "", 
+                        "abbreviation": "BRO", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -2042,10 +2336,12 @@
                             "wordmark": []
                         }, 
                         "city": "Brooklyn", 
+                        "conference": "American Association", 
                         "fullName": "Brooklyn Grays", 
                         "identity": {
                             "MLBAPIID": "119.br3.0d7d05"
                         }, 
+                        "key": "e108fb2f-cf3e-4a80-bfae-a1c28b0aaaee", 
                         "name": "Grays", 
                         "years": [
                             {
@@ -2055,7 +2351,7 @@
                         ]
                     }, 
                     "Brooklyn Grooms": {
-                        "abbreviation": "", 
+                        "abbreviation": "BRO", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -2069,10 +2365,12 @@
                             "wordmark": []
                         }, 
                         "city": "Brooklyn", 
+                        "conference": "National League", 
                         "fullName": "Brooklyn Grooms", 
                         "identity": {
                             "MLBAPIID": "119.bro.d1ef33"
                         }, 
+                        "key": "0a40d16e-6fae-41fe-8f8d-653f932f870b", 
                         "name": "Grooms", 
                         "years": [
                             {
@@ -2082,7 +2380,7 @@
                         ]
                     }, 
                     "Brooklyn Robins": {
-                        "abbreviation": "", 
+                        "abbreviation": "BRO", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -2096,10 +2394,12 @@
                             "wordmark": []
                         }, 
                         "city": "Brooklyn", 
+                        "conference": "National League", 
                         "fullName": "Brooklyn Robins", 
                         "identity": {
                             "MLBAPIID": "119.bro.a41b86"
                         }, 
+                        "key": "42c623cf-b6c8-4114-ad54-997a40b521f3", 
                         "name": "Robins", 
                         "years": [
                             {
@@ -2109,7 +2409,7 @@
                         ]
                     }, 
                     "Brooklyn Superbas": {
-                        "abbreviation": "", 
+                        "abbreviation": "BRO", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -2123,10 +2423,12 @@
                             "wordmark": []
                         }, 
                         "city": "Brooklyn", 
+                        "conference": "National League", 
                         "fullName": "Brooklyn Superbas", 
                         "identity": {
                             "MLBAPIID": "119.bro.6f66b2"
                         }, 
+                        "key": "b94d9602-9020-4d08-a78e-2482ea1a5063", 
                         "name": "Superbas", 
                         "years": [
                             {
@@ -2142,7 +2444,9 @@
                     "Los Angeles Dodgers": {
                         "abbreviation": "LAD", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "LA Dodgers"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [
@@ -2222,7 +2526,7 @@
                             "SportsDBID": "135272", 
                             "SportsDataIOID": "1"
                         }, 
-                        "key": "2e06bbeb-e1f5-467f-ac6b-d5d9b7a0a7ea", 
+                        "key": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
                         "name": "Dodgers", 
                         "years": [
                             {
@@ -2232,13 +2536,81 @@
                     }
                 }
             }, 
+            "Louisville Colonels": {
+                "active": false, 
+                "fromYear": 1882, 
+                "name": "Louisville Colonels", 
+                "teams": {
+                    "Louisville Colonels": {
+                        "abbreviation": "LOU", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Louisville", 
+                        "conference": "National League", 
+                        "fullName": "Louisville Colonels", 
+                        "identity": {
+                            "MLBAPIID": 148
+                        }, 
+                        "key": "a0f540a5-48c6-4dd3-a646-b43be3dea835", 
+                        "name": "Colonels", 
+                        "years": [
+                            {
+                                "fromYear": 1882, 
+                                "toYear": 1892
+                            }
+                        ]
+                    }
+                }, 
+                "toYear": 1892
+            }, 
+            "Louisville Grays": {
+                "active": false, 
+                "name": "Louisville Grays", 
+                "teams": {
+                    "Louisville Grays": {
+                        "abbreviation": "LOU", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Louisville", 
+                        "conference": "National League", 
+                        "fullName": "Louisville Grays", 
+                        "identity": {
+                            "MLBAPIID": 132
+                        }, 
+                        "key": "1e8d710e-ae55-4d5a-9df3-912bc943169b", 
+                        "name": "Grays", 
+                        "years": []
+                    }
+                }, 
+                "toYear": 1876
+            }, 
             "Miami Marlins": {
                 "active": true, 
                 "fromYear": 1993, 
                 "name": "Miami Marlins", 
                 "teams": {
                     "Florida Marlins": {
-                        "abbreviation": "", 
+                        "abbreviation": "FLA", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -2252,10 +2624,12 @@
                             "wordmark": []
                         }, 
                         "city": "Florida", 
+                        "conference": "National League", 
                         "fullName": "Florida Marlins", 
                         "identity": {
                             "MLBAPIID": "146.flo.64dded"
                         }, 
+                        "key": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
                         "name": "Marlins", 
                         "years": [
                             {
@@ -2352,7 +2726,7 @@
                             "SportsDBID": "135273", 
                             "SportsDataIOID": "22"
                         }, 
-                        "key": "3de627e3-9b8a-44a7-98b4-63daccbc79e9", 
+                        "key": "9c207bf5-edfd-4bdb-90ab-79cdeae2b0dd", 
                         "name": "Marlins", 
                         "years": [
                             {
@@ -2364,7 +2738,6 @@
             }, 
             "Milwaukee Brewers": {
                 "active": true, 
-                "fromYear": 1969, 
                 "name": "Milwaukee Brewers", 
                 "teams": {
                     "Milwaukee Brewers": {
@@ -2441,25 +2814,26 @@
                             ]
                         }, 
                         "city": "Milwaukee", 
-                        "conference": "National League", 
-                        "division": "National League Central", 
+                        "conference": "NL", 
+                        "division": "Central", 
                         "fullName": "Milwaukee Brewers", 
                         "identity": {
                             "ESPNAPIID": "8", 
-                            "MLBAPIID": 158, 
                             "SportsDBID": "135274", 
                             "SportsDataIOID": "32"
                         }, 
-                        "key": "aa989062-fad0-43fa-b05a-7c25e8e57f75", 
+                        "key": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
                         "name": "Brewers", 
-                        "years": [
-                            {
-                                "fromYear": 1970
-                            }
-                        ]
-                    }, 
-                    "Seattle Pilots": {
-                        "abbreviation": "", 
+                        "years": []
+                    }
+                }
+            }, 
+            "Milwaukee Cream Citys": {
+                "active": false, 
+                "name": "Milwaukee Cream Citys", 
+                "teams": {
+                    "Milwaukee Cream Citys": {
+                        "abbreviation": "MIL", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -2472,20 +2846,49 @@
                             "logo": [], 
                             "wordmark": []
                         }, 
-                        "city": "Seattle", 
-                        "fullName": "Seattle Pilots", 
+                        "city": "Milwaukee", 
+                        "conference": "National League", 
+                        "fullName": "Milwaukee Cream Citys", 
                         "identity": {
-                            "MLBAPIID": "158.se1.ed1833"
+                            "MLBAPIID": 150
                         }, 
-                        "name": "Pilots", 
-                        "years": [
-                            {
-                                "fromYear": 1969, 
-                                "toYear": 1969
-                            }
-                        ]
+                        "key": "e946fbd4-5f79-4edf-acae-cd870a010970", 
+                        "name": "Cream Citys", 
+                        "years": []
                     }
-                }
+                }, 
+                "toYear": 1878
+            }, 
+            "Milwaukee Unions": {
+                "active": false, 
+                "name": "Milwaukee Unions", 
+                "teams": {
+                    "Milwaukee Unions": {
+                        "abbreviation": "MIL", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Milwaukee", 
+                        "conference": "Union Association", 
+                        "fullName": "Milwaukee Unions", 
+                        "identity": {
+                            "MLBAPIID": 152
+                        }, 
+                        "key": "d6e6000b-ba69-4aed-8161-1cc6f0d3258c", 
+                        "name": "Unions", 
+                        "years": []
+                    }
+                }, 
+                "toYear": 1884
             }, 
             "Minnesota Twins": {
                 "active": true, 
@@ -2580,7 +2983,7 @@
                             "SportsDBID": "135259", 
                             "SportsDataIOID": "20"
                         }, 
-                        "key": "bdd5a800-5568-42c5-b51a-44ba02358d8f", 
+                        "key": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
                         "name": "Twins", 
                         "years": [
                             {
@@ -2589,7 +2992,7 @@
                         ]
                     }, 
                     "Washington Senators": {
-                        "abbreviation": "", 
+                        "abbreviation": "WAS", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -2603,10 +3006,12 @@
                             "wordmark": []
                         }, 
                         "city": "Washington", 
+                        "conference": "American League", 
                         "fullName": "Washington Senators", 
                         "identity": {
                             "MLBAPIID": "142.ws1.2e893b"
                         }, 
+                        "key": "15bc02a8-e954-4f2a-8e84-abacb02e52cc", 
                         "name": "Senators", 
                         "years": [
                             {
@@ -2617,14 +3022,19 @@
                     }
                 }
             }, 
-            "National All-Stars": {
+            "NL All-Stars": {
                 "active": true, 
-                "name": "National All-Stars", 
+                "fromYear": 1933, 
+                "name": "NL All-Stars", 
                 "teams": {
-                    "National All-Stars": {
+                    "NL All-Stars": {
                         "abbreviation": "NL", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "National League All-Stars", 
+                            "National All-Stars", 
+                            "NL All-Stars"
+                        ], 
                         "allStar": true, 
                         "assets": {
                             "badge": [], 
@@ -2640,18 +3050,82 @@
                             ], 
                             "wordmark": []
                         }, 
-                        "city": "National", 
-                        "conference": "NL", 
-                        "fullName": "National All-Stars", 
+                        "city": "National League", 
+                        "conference": "National League", 
+                        "fullName": "NL All-Stars", 
                         "identity": {
                             "ESPNAPIID": "32", 
+                            "MLBAPIID": 160, 
                             "SportsDataIOID": "7"
                         }, 
-                        "key": "17355c0d-44c3-4b07-b5ed-0d2d3dd8aa3a", 
+                        "key": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
                         "name": "All-Stars", 
                         "years": []
                     }
-                }
+                }, 
+                "toYear": 2021
+            }, 
+            "New York Giants": {
+                "active": false, 
+                "name": "New York Giants", 
+                "teams": {
+                    "New York Giants": {
+                        "abbreviation": "NYK", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "New York", 
+                        "conference": "Players League", 
+                        "fullName": "New York Giants", 
+                        "identity": {
+                            "MLBAPIID": 157
+                        }, 
+                        "key": "a5de2b99-45a0-44d9-9189-9ac75f82f73c", 
+                        "name": "Giants", 
+                        "years": []
+                    }
+                }, 
+                "toYear": 1890
+            }, 
+            "New York Metropolitans": {
+                "active": false, 
+                "name": "New York Metropolitans", 
+                "teams": {
+                    "New York Metropolitans": {
+                        "abbreviation": "NYM", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "New York", 
+                        "conference": "American Association", 
+                        "fullName": "New York Metropolitans", 
+                        "identity": {
+                            "MLBAPIID": 156
+                        }, 
+                        "key": "7d10e097-55bf-4aef-86cf-90efd774d792", 
+                        "name": "Metropolitans", 
+                        "years": []
+                    }
+                }, 
+                "toYear": 1883
             }, 
             "New York Mets": {
                 "active": true, 
@@ -2661,7 +3135,9 @@
                     "New York Mets": {
                         "abbreviation": "NYM", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "NY Mets"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [
@@ -2741,7 +3217,7 @@
                             "SportsDBID": "135275", 
                             "SportsDataIOID": "18"
                         }, 
-                        "key": "ffacfb53-8562-42fe-bc0e-15f73ad7c961", 
+                        "key": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
                         "name": "Mets", 
                         "years": [
                             {
@@ -2751,13 +3227,12 @@
                     }
                 }
             }, 
-            "New York Yankees": {
-                "active": true, 
-                "fromYear": 1903, 
-                "name": "New York Yankees", 
+            "New York Mutuals": {
+                "active": false, 
+                "name": "New York Mutuals", 
                 "teams": {
-                    "New York Highlanders": {
-                        "abbreviation": "", 
+                    "New York Mutuals": {
+                        "abbreviation": "NYM", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -2771,10 +3246,46 @@
                             "wordmark": []
                         }, 
                         "city": "New York", 
+                        "conference": "National League", 
+                        "fullName": "New York Mutuals", 
+                        "identity": {
+                            "MLBAPIID": 155
+                        }, 
+                        "key": "0332738d-0ea2-4645-a1d5-efdc0e1f4eee", 
+                        "name": "Mutuals", 
+                        "years": []
+                    }
+                }, 
+                "toYear": 1876
+            }, 
+            "New York Yankees": {
+                "active": true, 
+                "fromYear": 1903, 
+                "name": "New York Yankees", 
+                "teams": {
+                    "New York Highlanders": {
+                        "abbreviation": "NYH", 
+                        "active": false, 
+                        "aliases": [
+                            "NY Yankees"
+                        ], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "New York", 
+                        "conference": "American League", 
                         "fullName": "New York Highlanders", 
                         "identity": {
                             "MLBAPIID": "147.nya.02a69b"
                         }, 
+                        "key": "1dbd2893-6c28-4225-b29f-dbbb15faa7c2", 
                         "name": "Highlanders", 
                         "years": [
                             {
@@ -2786,7 +3297,9 @@
                     "New York Yankees": {
                         "abbreviation": "NYY", 
                         "active": true, 
-                        "aliases": [], 
+                        "aliases": [
+                            "NY Yankees"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [
@@ -2866,7 +3379,7 @@
                             "SportsDBID": "135260", 
                             "SportsDataIOID": "29"
                         }, 
-                        "key": "1c8ab820-f78a-4f7a-b1fd-275561b54167", 
+                        "key": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
                         "name": "Yankees", 
                         "years": [
                             {
@@ -2876,13 +3389,74 @@
                     }
                 }
             }, 
+            "Newark Peppers": {
+                "active": false, 
+                "fromYear": 1914, 
+                "name": "Newark Peppers", 
+                "teams": {
+                    "Indianapolis Hoosier-Feds": {
+                        "abbreviation": "IND", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Indianapolis", 
+                        "conference": "Federal League", 
+                        "fullName": "Indianapolis Hoosier-Feds", 
+                        "identity": {
+                            "MLBAPIID": "153.ind.649e1c"
+                        }, 
+                        "key": "54b0818d-0bce-41d8-9ecb-afad86c02de0", 
+                        "name": "Hoosier-Feds", 
+                        "years": [
+                            {
+                                "fromYear": 1914, 
+                                "toYear": 1915
+                            }
+                        ]
+                    }, 
+                    "Newark Peppers": {
+                        "abbreviation": "NWK", 
+                        "active": false, 
+                        "aliases": [], 
+                        "allStar": false, 
+                        "assets": {
+                            "badge": [], 
+                            "banner": [], 
+                            "colors": [], 
+                            "fanArt": [], 
+                            "jersey": [], 
+                            "logo": [], 
+                            "wordmark": []
+                        }, 
+                        "city": "Newark", 
+                        "conference": "Federal League", 
+                        "fullName": "Newark Peppers", 
+                        "identity": {
+                            "MLBAPIID": 153
+                        }, 
+                        "key": "e66b1a62-696a-4308-afad-84f6dc0049b4", 
+                        "name": "Peppers", 
+                        "years": []
+                    }
+                }, 
+                "toYear": 1915
+            }, 
             "Oakland Athletics": {
                 "active": true, 
                 "fromYear": 1901, 
                 "name": "Oakland Athletics", 
                 "teams": {
                     "Kansas City Athletics": {
-                        "abbreviation": "", 
+                        "abbreviation": "KCA", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -2896,10 +3470,12 @@
                             "wordmark": []
                         }, 
                         "city": "Kansas City", 
+                        "conference": "American League", 
                         "fullName": "Kansas City Athletics", 
                         "identity": {
                             "MLBAPIID": "133.kc1.58b5c5"
                         }, 
+                        "key": "ff3a400a-7ea2-4c82-a6ed-6fcd81897ff3", 
                         "name": "Athletics", 
                         "years": [
                             {
@@ -2991,7 +3567,7 @@
                             "SportsDBID": "135261", 
                             "SportsDataIOID": "24"
                         }, 
-                        "key": "bc929120-3b4c-4487-bc96-d52b970d88e4", 
+                        "key": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
                         "name": "Athletics", 
                         "years": [
                             {
@@ -3000,9 +3576,11 @@
                         ]
                     }, 
                     "Philadelphia Athletics": {
-                        "abbreviation": "", 
+                        "abbreviation": "PHA", 
                         "active": false, 
-                        "aliases": [], 
+                        "aliases": [
+                            "Phi. Athletics"
+                        ], 
                         "allStar": false, 
                         "assets": {
                             "badge": [], 
@@ -3014,10 +3592,12 @@
                             "wordmark": []
                         }, 
                         "city": "Philadelphia", 
+                        "conference": "American League", 
                         "fullName": "Philadelphia Athletics", 
                         "identity": {
                             "MLBAPIID": "133.pha.8e87c4"
                         }, 
+                        "key": "3a2a643b-d074-4b14-818a-73a1bc19b068", 
                         "name": "Athletics", 
                         "years": [
                             {
@@ -3116,7 +3696,7 @@
                             "SportsDBID": "135276", 
                             "SportsDataIOID": "12"
                         }, 
-                        "key": "633ed07b-4301-4056-bd26-9a9f8ddba600", 
+                        "key": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
                         "name": "Phillies", 
                         "years": [
                             {
@@ -3214,7 +3794,7 @@
                             "SportsDBID": "135277", 
                             "SportsDataIOID": "4"
                         }, 
-                        "key": "71e3e343-4c13-4567-91af-542d7a478f27", 
+                        "key": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
                         "name": "Pirates", 
                         "years": [
                             {
@@ -3312,7 +3892,7 @@
                             "SportsDBID": "135278", 
                             "SportsDataIOID": "33"
                         }, 
-                        "key": "4d15bca0-843f-4ed1-b11e-e724f138c807", 
+                        "key": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
                         "name": "Padres", 
                         "years": [
                             {
@@ -3328,7 +3908,7 @@
                 "name": "San Francisco Giants", 
                 "teams": {
                     "New York Giants": {
-                        "abbreviation": "", 
+                        "abbreviation": "NYG", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -3342,10 +3922,12 @@
                             "wordmark": []
                         }, 
                         "city": "New York", 
+                        "conference": "National League", 
                         "fullName": "New York Giants", 
                         "identity": {
                             "MLBAPIID": "137.ny1.5f3127"
                         }, 
+                        "key": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
                         "name": "Giants", 
                         "years": [
                             {
@@ -3355,7 +3937,7 @@
                         ]
                     }, 
                     "New York Gothams": {
-                        "abbreviation": "", 
+                        "abbreviation": "NYG", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -3369,10 +3951,12 @@
                             "wordmark": []
                         }, 
                         "city": "New York", 
+                        "conference": "National League", 
                         "fullName": "New York Gothams", 
                         "identity": {
                             "MLBAPIID": "137.ny0.e64a49"
                         }, 
+                        "key": "c4e3f880-e17b-40b0-a974-4cbd55c0dede", 
                         "name": "Gothams", 
                         "years": [
                             {
@@ -3469,7 +4053,7 @@
                             "SportsDBID": "135279", 
                             "SportsDataIOID": "15"
                         }, 
-                        "key": "e01c73e5-6996-4dca-9f1a-3235faf7d104", 
+                        "key": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
                         "name": "Giants", 
                         "years": [
                             {
@@ -3572,7 +4156,7 @@
                             "SportsDBID": "135262", 
                             "SportsDataIOID": "13"
                         }, 
-                        "key": "4ae71ff3-cab0-4eec-9ba4-9be73658f677", 
+                        "key": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
                         "name": "Mariners", 
                         "years": [
                             {
@@ -3677,7 +4261,7 @@
                             "SportsDBID": "135280", 
                             "SportsDataIOID": "31"
                         }, 
-                        "key": "bae6b3ba-d3b0-4901-be2e-980dde704cf0", 
+                        "key": "18d872e9-e574-4da1-9298-51c25597dce8", 
                         "name": "Cardinals", 
                         "years": [
                             {
@@ -3693,7 +4277,7 @@
                 "name": "Tampa Bay Rays", 
                 "teams": {
                     "Tampa Bay Devil Rays": {
-                        "abbreviation": "", 
+                        "abbreviation": "TB", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -3707,10 +4291,12 @@
                             "wordmark": []
                         }, 
                         "city": "Tampa Bay", 
+                        "conference": "American League", 
                         "fullName": "Tampa Bay Devil Rays", 
                         "identity": {
                             "MLBAPIID": "139.tba.77fa12"
                         }, 
+                        "key": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
                         "name": "Devil Rays", 
                         "years": [
                             {
@@ -3807,7 +4393,7 @@
                             "SportsDBID": "135263", 
                             "SportsDataIOID": "11"
                         }, 
-                        "key": "cca746ca-dddf-4390-a158-f6a1825de5e3", 
+                        "key": "9e466da8-b1bb-4fba-b6ba-931be31cb749", 
                         "name": "Rays", 
                         "years": [
                             {
@@ -3905,7 +4491,7 @@
                             "SportsDBID": "135264", 
                             "SportsDataIOID": "28"
                         }, 
-                        "key": "33684502-9f2c-4c41-9ad4-1e29a1391fe3", 
+                        "key": "89d7f782-b1e6-45b0-9d00-199387510737", 
                         "name": "Rangers", 
                         "years": [
                             {
@@ -3914,7 +4500,7 @@
                         ]
                     }, 
                     "Washington Senators": {
-                        "abbreviation": "", 
+                        "abbreviation": "WAS", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -3928,10 +4514,12 @@
                             "wordmark": []
                         }, 
                         "city": "Washington", 
+                        "conference": "American League", 
                         "fullName": "Washington Senators", 
                         "identity": {
                             "MLBAPIID": "140.ws2.2e893b"
                         }, 
+                        "key": "9690bb0e-eb37-40e6-8c33-2bb25986de3f", 
                         "name": "Senators", 
                         "years": [
                             {
@@ -4035,7 +4623,7 @@
                             "SportsDBID": "135265", 
                             "SportsDataIOID": "3"
                         }, 
-                        "key": "8cf4fecb-f53f-4cfa-8c28-182a2db28e7a", 
+                        "key": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
                         "name": "Blue Jays", 
                         "years": [
                             {
@@ -4051,7 +4639,7 @@
                 "name": "Washington Nationals", 
                 "teams": {
                     "Montreal Expos": {
-                        "abbreviation": "", 
+                        "abbreviation": "MON", 
                         "active": false, 
                         "aliases": [], 
                         "allStar": false, 
@@ -4065,10 +4653,12 @@
                             "wordmark": []
                         }, 
                         "city": "Montreal", 
+                        "conference": "National League", 
                         "fullName": "Montreal Expos", 
                         "identity": {
                             "MLBAPIID": "120.mon.91f8f8"
                         }, 
+                        "key": "6deed658-5618-43e6-9a93-c7071da7708c", 
                         "name": "Expos", 
                         "years": [
                             {
@@ -4162,7 +4752,7 @@
                             "SportsDBID": "135281", 
                             "SportsDataIOID": "35"
                         }, 
-                        "key": "a383b687-0df5-4e11-b98c-cd8a1cf70b5a", 
+                        "key": "ec8c5a9a-7437-45f7-baf1-892a0ed5810b", 
                         "name": "Nationals", 
                         "years": [
                             {

@@ -85,7 +85,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"vs": vs,
 					"description": deunicode(normalize(schedEvent["strDescriptionEN"])),
 					"homeTeam": homeTeamKey,
+					"homeTeamName": homeTeamFullName if not homeTeamKey else None,
 					"awayTeam": awayTeamKey,
+					"awayTeamName": awayTeamFullName if not awayTeamKey else None,
 					"networks": splitAndTrim(deunicode(schedEvent["strTVStation"]))
 					}
 
@@ -251,7 +253,9 @@ def __get_event_date(league, schedEvent):
 		dateStr = schedEvent["dateEvent"]
 		timeStr = schedEvent["strTime"]
 
-		if league == LEAGUE_NFL:
+		if league == LEAGUE_MLB:
+			if re.match(r"^\d{2}:\d{2}$", timeStr): timeStr = "00:" + timeStr
+		elif league == LEAGUE_NFL:
 			if timeStr == "17:00:00": timeStr = "00:00:00"
 
 		if re.match(r"\d{1,2}:\d{2}:\d{2}", timeStr):

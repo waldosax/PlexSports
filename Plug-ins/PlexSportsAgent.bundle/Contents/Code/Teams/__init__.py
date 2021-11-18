@@ -202,7 +202,7 @@ def __find_team(franchises, franchiseName, teamName, identity=None, active=None,
 	if franchiseName:
 		for fn in franchises.keys():
 			if fn == franchiseName: # TODO: Strip Diacritics
-				franchise = franchises[fn]
+				(franchise, activeTeam) = franchises.getFranchiseAndTeam(fn)
 				fs = [franchise]
 				break
 
@@ -424,6 +424,12 @@ def __get_teams_keys(league, franchises, multi_team_city_keys):
 						keys.setdefault(prefix + city + create_scannable_key(alias), key)
 
 
+				identity = team.identity.__dict__
+				for source in identity.keys():
+					id = identity.get(source)
+					if not id: continue
+					keys.setdefault(prefix + create_scannable_key(source) + ":" + create_scannable_key(str(id)), key)
+
 				keys.setdefault(prefix + abbrev, key)
 
 
@@ -441,21 +447,48 @@ class TeamNavigator:
 		pass
 
 
-	def GetTeam(self, season, fullName=None, name=None, abbreviation=None, city=None):
+	def GetTeam(self, season, fullName=None, name=None, abbreviation=None, city=None, **identity):
 
 		vectors = []
+		if identity:
+			for source in identity.keys():
+				id = identity.get(source)
+				if not id: continue
+				if season: vectors.append(create_scannable_key(str(season) + "." + create_scannable_key(source) + ":" + create_scannable_key(str(id))))
+				vectors.append(create_scannable_key(create_scannable_key(source) + ":" + create_scannable_key(str(id))))
+
 		if season:
 			if fullName: vectors.append("%s.%s" % (season, create_scannable_key(fullName)))
 			if name: vectors.append("%s.%s" % (season, create_scannable_key(name)))
 			if abbreviation: vectors.append("%s.%s" % (season, create_scannable_key(abbreviation)))
+
 		if fullName: vectors.append(create_scannable_key(fullName))
 		if name: vectors.append(create_scannable_key(name))
 		if abbreviation: vectors.append(create_scannable_key(abbreviation))
 		if city: vectors.append(create_scannable_key(city))
 
+
 		for vector in vectors:
 			teamKey = self.__teamKeys.get(vector)
-			team = self.__franchises.get(teamKey) if teamKey else None
-			if team: return team
+			(franchise, team) = (None, None)
+			x = self.__franchises
+			if teamKey:
+				y = x.getFranchiseAndTeam(teamKey)
+				if y == None:
+					print("TeamNavigator.GetTeam -> getFranchiseAndTeam yielded None for %s" % teamKey)
+					y = x.getFranchiseAndTeam(teamKey)
+				franchise = y[0]
+				team = y[1]
+			if team:
+				if indexOf(vector, ".") >= 0:
+					return team
+				else:
+					foundTeam = team
+					if foundTeam.fullName == franchise.name:
+						for team in franchise.teams.values():
+							for span in team.years:
+								if int(season) >= span.fromYear and int(season) <= (span.toYear or datetime.datetime.utcnow().year):
+									return team
+					return foundTeam
 
 		return None

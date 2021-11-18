@@ -15,9 +15,7 @@ MLBAPI_SPORTID_MLB = 1
 
 
 mlbapi_abbreviation_corrections = {
-	LEAGUE_MLB: {
-		"CHW": "CWS"
-		}
+	"CHW": "CWS"
 	}
 
 
@@ -77,165 +75,181 @@ def DownloadAllFranchises(league):
 			histories[teamHistory["id"]][teamHistory["season"]] = teamHistory
 
 
-
-
-	# Shape teams for current season into top-level franchises
-	franchises = dict()
-	activeTeamIds = []
-
-	apiTeams = mlbapiAllTeams["teams"]
-
 	mlbapiAllStarTeams = dict()
 	mlbapiAllStarTeamsJson = DownloadTeamsByID(["159", "160"])
 	try: mlbapiAllStarTeams = json.loads(mlbapiAllStarTeamsJson)
 	except: pass
-	if mlbapiAllStarTeams: apiTeams = apiTeams + mlbapiAllStarTeams["teams"]
 
+
+
+
+	franchises = dict()
+	apiTeams =mlbapiAllTeams["teams"]
+	activeTeamIds = [] 
+
+	# Shape teams for current season into top-level franchises
 	for apiTeam in apiTeams:
-
-		currentSeason = maxSeason = apiTeam["season"]
-		minSeason = 0
-		seasonTracking = dict()
-
-		aliases = []
-		key = uuid.uuid4()
-		abbrev = deunicode(apiTeam["abbreviation"])
-		if mlbapi_abbreviation_corrections.get(league):
-			if mlbapi_abbreviation_corrections[league].get(abbrev):
-				aliases.append(abbrev)
-				abbrev = sdio_abbreviation_corrections[league][abbrev]
-		
-		allStar = apiTeam.get("allStarStatus") == "Y"
-		active = apiTeam["active"]
-
-		# name:				Arizona Diamondbacks
-		# teamName:			D-backs
-		# shortName:		Arizona
-		# franchiseName:	Arizona
-		# clubName:			Diamondbacks
-		# locationName:		Phoenix
-
-		# name:				(None)
-		# teamName:			NL All-Stars
-		# shortName:		NL All-Stars
-		# franchiseName:	National
-		# clubName:			National
-		# locationName:		Washington
-
-		fullName = None
-		city = None
-		name = None
-		teamName = None
-		conference = None
-		division = None
-
-		if allStar:
-			teamName = deunicode(apiTeam["teamName"])
-			fullName = teamName
-			city = deunicode(apiTeam["franchiseName"]) + " League"
-			team = fullName[len(abbrev):].lstrip()
-			conference = deunicode(apiTeam["league"]["name"])
-			aliases.append("%s %s" % (city, team))
-		else:
-			teamName = deunicode(apiTeam["teamName"])
-			fullName = deunicode(apiTeam["name"])
-			name = deunicode(apiTeam["clubName"])
-			city = deunicode(name[:-len(apiTeam["clubName"])].rstrip())
-			conference = deunicode(apiTeam["league"]["name"])
-			division = deunicode(apiTeam["division"]["name"])
-			if teamName != name:
-				aliases + [teamName, "%s %s" % (city, teamName)]
-
-		franchise = {
-			"name": fullName,
-			"active": active,
-			}
-
-		teamId = apiTeam["id"]
-		activeTeamIds.append(teamId)
-		team = {
-			"MLBAPIID": teamId,
-			"active": True,
-			"allStar": allStar,
-			"fullName": fullName,
-			"name": name,
-			"city": city,
-			"abbreviation": abbrev,
-			"key": key,
-			"conference": conference,
-			"division": division,
-			"years": []
-			}
-
-		if apiTeam["shortName"] != team["city"]: aliases.append(deunicode(apiTeam["shortName"]))
-		if apiTeam["teamName"] != apiTeam["clubName"]: aliases.append(deunicode(apiTeam["teamName"]))
-		if aliases: team["alisases"] = list(set(aliases))
-
-		teams = dict()
-		teams[name] = team
-
-		# Collect inactive variants on active teams
-		if teamId in histories.keys():
-			for historySeason in sorted(histories[teamId].keys()):
-				if historySeason == currentSeason: continue
-
-				historicalTeam = histories[teamId][historySeason]
-				fullName = deunicode(historicalTeam["name"])
-				teamName = deunicode(historicalTeam["teamName"])
-				seasonTracking.setdefault(int(historySeason), fullName)
-
-				if fullName in teams.keys(): continue
-				teamCode = deunicode(historicalTeam["teamCode"])
-				inactiveID = "%s.%s.%s" % (teamId, teamCode, hashlib.md5(fullName.encode()).hexdigest()[:6])
-				team = {
-					"MLBAPIID": inactiveID,
-					"active": False,
-					"fullName": fullName,
-					"name": teamName,
-					"city": deunicode(fullName[:-len(teamName)].rstrip()),
-					"years": []
-					}
-				teams.setdefault(fullName, team)
+		franchise = __process(apiTeam, histories, True)
+		franchises[franchise["name"]] = franchise
+		activeTeamIds.append(franchise["_MLBAPIID"])
 
 
+	# Create franchise dictionaries for All-Star teams
+	if mlbapiAllStarTeams:
+		apiTeams = mlbapiAllStarTeams["teams"]
+		for apiTeam in apiTeams:
+			franchise = __process(apiTeam, histories, True)
+			franchises[franchise["name"]] = franchise
+			activeTeamIds.append(franchise["_MLBAPIID"])
 
 
-		# BackFill Years
-		# Doing it this way should roll up venue changes as well.
-		seasonTracking.setdefault(currentSeason, name)
-		seasons = list(sorted(seasonTracking.keys()))
-		for i in range(1, len(seasonTracking)):
-			toYear = int(seasons[i])
-			if toYear < maxSeason: toYear = toYear - 1
-			fromYear = int(seasons[i-1])
-			key = seasonTracking[seasons[i-1]]
-			teams[key]["years"].append({"fromYear": fromYear, "toYear": toYear})
-			if minSeason == 0: minSeason = fromYear
-			elif fromYear < minSeason: minSeason = fromYear
-		if minSeason == 0: minSeason = int(apiTeam["firstYearOfPlay"])
-		franchise["fromYear"] = minSeason
-		franchise["toYear"] = maxSeason
+	# Create franchise dictionaries for remaining inactive franchises
+	for teamId in sorted(histories.keys()):
+		if teamId in activeTeamIds: continue
 
-
-
-
-
-
-		franchise["teams"] = teams
-		franchises[name] = franchise
-
-
-		# *****************************************************
-		# SCREW THIS
-		# All of these inactive franchises are from before THE INVENTION OF THE TELEVISION
-		#
-		# FUCKEM.
-		# *****************************************************
-		## Create franchise dictionaries for inactive franchises
-		##inactiveHistory = dict()
-		##for historicalFranchiseId in sorted(histories.keys()):
-		##	if historicalFranchiseId in activeTeamIds: continue
-		##	inactiveHistory.setdefault(historicalFranchiseId, histories[historicalFranchiseId])
-
+		historyTeams = histories[teamId]
+		apiTeam = historyTeams[historyTeams.keys()[-1]]
+		franchise = __process(apiTeam, histories, False)
+		franchises[franchise["name"]] = franchise
 
 	return franchises
+
+
+def __process(apiTeam, histories, active):
+
+	currentSeason = maxSeason = apiTeam["season"]
+	minSeason = 0
+	seasonTracking = dict() # [season] = team.fullName
+
+	parsedTeam = __parse(apiTeam)
+
+	franchiseName = parsedTeam.fullName
+
+	franchise = __create_franchise(parsedTeam)
+	team = __create_team(parsedTeam, active)
+
+
+	teams = dict()
+	teams[franchiseName] = team
+
+	# Collect inactive variants on active teams
+	if parsedTeam.teamId in histories.keys():
+		for historySeason in sorted(histories[parsedTeam.teamId].keys()):
+			if historySeason == currentSeason: continue
+
+			historicalTeam = histories[parsedTeam.teamId][historySeason]
+			parsedHistorical = __parse(historicalTeam)
+
+			seasonTracking.setdefault(int(historySeason), parsedHistorical.fullName)
+
+			if parsedHistorical.fullName in teams.keys(): continue
+			inactiveID = "%s.%s.%s" % (parsedHistorical.teamId, parsedHistorical.teamCode, hashlib.md5(parsedHistorical.fullName.encode()).hexdigest()[:6])
+
+			team = __create_team(parsedHistorical, False)
+			team["MLBAPIID"] = inactiveID
+			teams.setdefault(parsedHistorical.fullName, team)
+
+
+
+
+	# BackFill Years
+	# Doing it this way should roll up venue changes as well.
+	seasonTracking.setdefault(currentSeason, franchiseName)
+	seasons = list(sorted(seasonTracking.keys()))
+	for i in range(1, len(seasonTracking)):
+		toYear = int(seasons[i])
+		if toYear < maxSeason: toYear = toYear - 1
+		fromYear = int(seasons[i-1])
+		key = seasonTracking[seasons[i-1]]
+
+		teams[key]["years"].append({"fromYear": fromYear, "toYear": toYear})
+
+		if minSeason == 0: minSeason = fromYear
+		elif fromYear < minSeason: minSeason = fromYear
+	if minSeason == 0: minSeason = int(apiTeam["firstYearOfPlay"] if apiTeam.get("firstYearOfPlay") else 0)
+
+	franchise["fromYear"] = minSeason
+	franchise["toYear"] = maxSeason
+
+	franchise["teams"] = teams
+
+	return franchise
+
+
+def __parse(apiTeam):
+	class ParsedTeam:
+		def __init__(self, apiTeam):
+			self.teamId = apiTeam["id"]
+			self.teamCode = apiTeam["teamCode"]
+			self.season = apiTeam["season"]
+			self.abbrev = deunicode(apiTeam["abbreviation"])
+			self.allStar = apiTeam.get("allStarStatus") == "Y"
+			self.active = apiTeam["active"]
+			self.aliases = []
+
+			if self.allStar:
+				# name:				(None)
+				# teamName:			NL All-Stars
+				# shortName:		NL All-Stars
+				# franchiseName:	National
+				# clubName:			National
+				# locationName:		Washington
+				self.teamName = deunicode(apiTeam["teamName"])
+				self.fullName = self.teamName
+				self.city = deunicode(apiTeam["franchiseName"]) + " League"
+				self.name = self.fullName[len(self.abbrev):].lstrip()
+				self.conference = deunicode(apiTeam["league"]["name"])
+				self.division = None
+				self.aliases.append("%s %s" % (self.city, self.name))
+			else:
+				# name:				Arizona Diamondbacks
+				# teamName:			D-backs
+				# shortName:		Arizona
+				# franchiseName:	Arizona
+				# clubName:			Diamondbacks
+				# locationName:		Phoenix
+				self.teamName = deunicode(apiTeam["teamName"])
+				self.fullName = deunicode(apiTeam["name"])
+				self.name = deunicode(apiTeam["clubName"])
+				self.city = deunicode(self.fullName[:-len(apiTeam["clubName"])].rstrip())
+				self.conference = deunicode(apiTeam["league"]["name"])
+				self.division = deunicode(apiTeam["division"]["name"]) if apiTeam.get("division") else None
+				if self.teamName != self.name:
+					self.aliases = self.aliases + [self.teamName, "%s %s" % (self.city, self.teamName)]
+
+			if apiTeam["shortName"] != self.city: self.aliases.append(deunicode(apiTeam["shortName"]))
+			if self.name and apiTeam["teamName"] != self.name: self.aliases.append(deunicode(apiTeam["teamName"]))
+			self.aliases = list(set(self.aliases))
+
+	return ParsedTeam(apiTeam)
+
+def __create_franchise(parsedTeam):
+	return {
+		"name": parsedTeam.fullName,
+		"active": parsedTeam.active,
+		"_MLBAPIID": parsedTeam.teamId,
+		}
+
+def __create_team(parsedTeam, active):
+	abbrev = parsedTeam.abbrev
+	aliases = parsedTeam.aliases or []
+	if mlbapi_abbreviation_corrections.get(abbrev):
+		aliases.append(abbrev)
+		abbrev = sdio_abbreviation_corrections[abbrev]
+
+	team = {
+		"MLBAPIID": parsedTeam.teamId,
+		"active": active,
+		"allStar": parsedTeam.allStar,
+		"fullName": parsedTeam.fullName,
+		"name": parsedTeam.name,
+		"city": parsedTeam.city,
+		"abbreviation": abbrev,
+		"key": uuid.uuid4(),
+		"conference": parsedTeam.conference,
+		"division": parsedTeam.division,
+		"years": [],
+		"aliases": list(set(aliases))
+		}
+	
+	return team
