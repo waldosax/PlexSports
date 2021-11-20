@@ -126,12 +126,18 @@ def GetSchedule(sched, navigator, sport, league, season):
 								teams[key]["abbrev"] = abbrev
 								teams[key]["fullName"] = deunicode(competitor["team"]["displayName"])
 
+							homeTeamKey = None
+							awayTeamKey = None
 							homeTeamName = teams["home"]["fullName"]
 							awayTeamName = teams["away"]["fullName"]
 							homeTeam = navigator.GetTeam(season, homeTeamName, abbreviation=teams["home"]["abbrev"])
 							awayTeam = navigator.GetTeam(season, awayTeamName, abbreviation=teams["away"]["abbrev"])
-							homeTeamKey = homeTeam.key if homeTeam else None
-							awayTeamKey = awayTeam.key if awayTeam else None
+							if homeTeam:
+								homeTeamKey = homeTeam.key
+								homeTeamName = homeTeam.fullName
+							if awayTeam:
+								awayTeamKey = awayTeam.key
+								awayTeamName = awayTeam.fullName
 
 
 							(xsubseason, playoffRound, eventIndicator, xtitle) = __get_playoffRound(league, subseason, title, competition)
@@ -184,7 +190,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 								"eventindicator": eventIndicator,
 								"game": gameNumber,
 								"networks": networks,
-								"vs": "%s vs. %s" % (teams["home"]["fullName"], teams["away"]["fullName"])
+								"vs": "%s vs. %s" % (homeTeamName, awayTeamName)
 								}
 
 							event = ScheduleEvent(**kwargs)
@@ -397,19 +403,25 @@ def __get_playoffRound(league, subseason, title, competition):
 	
 	if league == LEAGUE_MLB and subseason == MLB_SUBSEASON_FLAG_POSTSEASON:
 		pass # TODO
-	elif league == LEAGUE_NBA and subseason == NBA_SUBSEASON_FLAG_POSTSEASON:
-		if typeAbbrev == "FINAL":
-			subseason = NBA_SUBSEASON_FLAG_POSTSEASON
-			playoffRound = NBA_PLAYOFF_ROUND_FINALS
-		elif typeAbbrev == "SEMI":
-			subseason = NBA_SUBSEASON_FLAG_POSTSEASON
-			playoffRound = NBA_PLAYOFF_ROUND_SEMIFINALS
-		elif typeAbbrev == "QTR":
-			subseason = NBA_SUBSEASON_FLAG_POSTSEASON
-			playoffRound = NBA_PLAYOFF_ROUND_QUARTERFINALS
-		elif typeAbbrev == "RD16":
-			subseason = NBA_SUBSEASON_FLAG_POSTSEASON
-			playoffRound = NBA_PLAYOFF_1ST_ROUND
+	elif league == LEAGUE_NBA:
+		if subseason == NBA_SUBSEASON_FLAG_POSTSEASON:
+			if typeAbbrev == "FINAL":
+				subseason = NBA_SUBSEASON_FLAG_POSTSEASON
+				playoffRound = NBA_PLAYOFF_ROUND_FINALS
+			elif typeAbbrev == "SEMI":
+				subseason = NBA_SUBSEASON_FLAG_POSTSEASON
+				playoffRound = NBA_PLAYOFF_ROUND_SEMIFINALS
+			elif typeAbbrev == "QTR":
+				subseason = NBA_SUBSEASON_FLAG_POSTSEASON
+				playoffRound = NBA_PLAYOFF_ROUND_QUARTERFINALS
+			elif typeAbbrev == "RD16":
+				subseason = NBA_SUBSEASON_FLAG_POSTSEASON
+				playoffRound = NBA_PLAYOFF_1ST_ROUND
+		elif subseason == NBA_SUBSEASON_FLAG_REGULAR_SEASON:
+			if title and title.upper() == "NBA ALL-STAR GAME":
+				eventIndicator = NBA_EVENT_FLAG_ALL_STAR_GAME
+			if title and title.upper() == "RISING STARS":
+				eventIndicator = NBA_EVENT_FLAG_RISING_STARS_GAME
 	elif league == LEAGUE_NFL:
 		if indexOf(title.lower(), "hall of fame") >= 0:
 			subseason = NFL_SUBSEASON_FLAG_PRESEASON

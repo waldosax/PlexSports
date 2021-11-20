@@ -43,11 +43,15 @@ def GetSchedule(sched, navigator, sport, league, season):
 				homeTeamAbbrev = deunicode(game["h"]["ta"])
 				homeTeamCity = deunicode(game["h"]["tc"])
 				homeTeamName = deunicode(game["h"]["tn"])
+				if homeTeamCity == homeTeamName:
+					homeTeamCity = "Team"
 				homeTeamFullName = "%s %s" % (homeTeamCity, homeTeamName)
 
 				awayTeamAbbrev = deunicode(game["v"]["ta"])
 				awayTeamCity = deunicode(game["v"]["tc"])
 				awayTeamName = deunicode(game["v"]["tn"])
+				if awayTeamCity == awayTeamName:
+					awayTeamCity = "Team"
 				awayTeamFullName = "%s %s" % (awayTeamCity, awayTeamName)
 
 				vs = "%s vs. %s" % (homeTeamFullName, awayTeamFullName)

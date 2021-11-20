@@ -242,7 +242,7 @@ def DownloadAllFranchises(league):
 				}
 			}
 
-		team.setdefault("key", teamID)
+		team.setdefault("key", uuid.uuid4())
 		franchises[fullName] = franchise
 
 
