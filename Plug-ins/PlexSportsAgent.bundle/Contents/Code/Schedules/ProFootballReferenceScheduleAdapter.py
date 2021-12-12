@@ -71,8 +71,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 								"vs": deunicode(schedEvent["vs"]),
 								"subseason": schedEvent["subseason"],
 								"subseasonTitle": deunicode(schedEvent.get("subseasonTitle")),
-								"playoffround": schedEvent.get("week") if subseason == NFL_SUBSEASON_FLAG_POSTSEASON else None,
-								"eventindicator": schedEvent.get("eventindicator") or NFL_EVENT_FLAG_SUPERBOWL if subseason == NFL_SUBSEASON_FLAG_POSTSEASON and week == NFL_PLAYOFF_ROUND_SUPERBOWL else None,
+								"week": schedEvent.get("week") if schedEvent["subseason"] != NFL_SUBSEASON_FLAG_POSTSEASON else None,
+								"playoffround": schedEvent.get("week") if schedEvent["subseason"] == NFL_SUBSEASON_FLAG_POSTSEASON else None,
+								"eventindicator": schedEvent.get("eventindicator") or NFL_EVENT_FLAG_SUPERBOWL if schedEvent["subseason"] == NFL_SUBSEASON_FLAG_POSTSEASON and schedEvent.get("week") == NFL_PLAYOFF_ROUND_SUPERBOWL else None,
 								"eventTitle": deunicode(schedEvent.get("alias")),
 								}
 

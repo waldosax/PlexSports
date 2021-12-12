@@ -21,6 +21,7 @@ class PlexSportsAgent(Agent.TV_Shows):
 		self.languages = ['en']
 	
 	def search(self, results, media, lang, manual):
+		"""Resolve the show"""
 
 		meta = media.meta   # This is really the divining test. To see if meta persists from Scanner to Agent
 		pprint(meta)
@@ -35,9 +36,16 @@ class PlexSportsAgent(Agent.TV_Shows):
 				)
 			results.append(result)
 			#pprint(result.__dict__)
+	
+		
+			
 		pass
 
-	def update(self, metadata, media, lang):
+
+
+
+	def update(self, metadata, media, lang, force):
+		"""Resolve the show and episode metadata"""
 
 
 

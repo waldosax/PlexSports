@@ -84,7 +84,7 @@ def DownloadScheduleForLeagueAndSeason(league, season, subseason=None):
 		subseasons.append(SPORTS_DATA_IO_SUBSEASON_REGULARSEASON)
 
 
-	def get_and_append_data(suffix, results):
+	def get_and_append_data(season, suffix, results):
 		print("Getting %s %s%s schedule data from SportsData.io ..." % (league, season, suffix))
 		json = GetResultFromNetwork(sports_data_io_schedule_url_fragments[league] % (league, str(season) + suffix, sports_data_io_api_keys[league]), headers, True, cacheExtension=EXTENSION_JSON)
 		results.append (json)
@@ -93,7 +93,9 @@ def DownloadScheduleForLeagueAndSeason(league, season, subseason=None):
 	results = []
 	threads = []
 	for suffix in subseasons:
-		t = threading.Thread(target=get_and_append_data, kwargs={"suffix": suffix, "results": results})
+		s = season
+		if league == LEAGUE_NBA and suffix == SPORTS_DATA_IO_SUBSEASON_ALLSTAR: s = int(season)+1
+		t = threading.Thread(target=get_and_append_data, kwargs={"suffix": suffix, "season": s, "results": results})
 		threads.append(t)
 		t.start()
 		

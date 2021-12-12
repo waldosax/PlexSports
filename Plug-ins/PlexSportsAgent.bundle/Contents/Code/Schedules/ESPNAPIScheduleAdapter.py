@@ -105,7 +105,11 @@ def GetSchedule(sched, navigator, sport, league, season):
 
 						for competition in schedEvent["competitions"]:
 				
-							id = competition["id"]
+							id = deunicode(competition["id"])
+
+							# Errant data
+							if id in ["170501031", "170429031"] : continue
+
 							date = __hashedDateParse(deunicode(competition["date"]))
 
 							title = None
@@ -165,6 +169,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 										elif headline.get("shortLinkText"):
 											description = deunicode(normalize(headline["shortLinkText"]))
 										# TODO Date strings as headlines
+							while description and description[:1] == '\u2014': description = description[1:]
+							while description and description[:3] == "\xe2\x80\x94": description = description[3:]
+							if description: description = description.strip()
 
 							networks = []
 							if competition.get("broadcasts"):
@@ -418,9 +425,11 @@ def __get_playoffRound(league, subseason, title, competition):
 				subseason = NBA_SUBSEASON_FLAG_POSTSEASON
 				playoffRound = NBA_PLAYOFF_1ST_ROUND
 		elif subseason == NBA_SUBSEASON_FLAG_REGULAR_SEASON:
-			if title and title.upper() == "NBA ALL-STAR GAME":
+			if title and title.upper().find("ALL-STAR GAME") >= 0:
 				eventIndicator = NBA_EVENT_FLAG_ALL_STAR_GAME
-			if title and title.upper() == "RISING STARS":
+			elif competition["type"]["id"] == 4 or competition["type"].get("abbreviation") == "ALLSTAR":
+				eventIndicator = NBA_EVENT_FLAG_ALL_STAR_GAME
+			elif title and title.upper() == "RISING STARS":
 				eventIndicator = NBA_EVENT_FLAG_RISING_STARS_GAME
 	elif league == LEAGUE_NFL:
 		if indexOf(title.lower(), "hall of fame") >= 0:

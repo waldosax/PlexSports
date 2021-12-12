@@ -3,8 +3,10 @@
 METADATA_PATH_KEY = "path"
 METADATA_FILENAME_KEY = "filename"
 METADATA_FOLDER_KEY = "folder"
+
 METADATA_SPORT_KEY = "sport"
 METADATA_LEAGUE_KEY = "league"
+
 METADATA_SEASON_KEY = "season"
 METADATA_SEASON_BEGIN_YEAR_KEY = "season begin year"
 METADATA_SEASON_END_YEAR_KEY = "season end year"

@@ -272,13 +272,15 @@ def __download_all_schedule_data(sport, league, season):
 		MLBAPIScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
 	elif league == LEAGUE_NBA:
 		NBAAPIScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
-	elif league == LEAGUE_NFL:
-		ProFootballReferenceScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
 	elif league == LEAGUE_NHL:
 		NHLAPIScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
 
 	
 	ESPNAPIScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
+
+	
+	if league == LEAGUE_NFL:
+		ProFootballReferenceScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
 
 
 	# The only reason I'm continuing to use this trashbucket API is for the free imagery.
