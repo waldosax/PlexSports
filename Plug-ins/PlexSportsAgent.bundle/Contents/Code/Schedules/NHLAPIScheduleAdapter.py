@@ -29,7 +29,8 @@ def GetSchedule(sched, navigator, sport, league, season):
 		for eventDate in nhlApiSchedule["dates"]:
 			dateGroup = eventDate["date"]
 			for schedEvent in eventDate["games"]:
-		
+				id = schedEvent["gamePk"]
+
 				date = None
 				if schedEvent.get("gameDate"):
 					date = ParseISO8601Date(schedEvent["gameDate"])
@@ -73,7 +74,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"league": league,
 					"season": season,
 					"date": date,
-					"NHLAPIID": schedEvent["gamePk"],
+					"NHLAPIID": id,
 					"homeTeam": homeTeamKey,
 					"homeTeamName": homeTeamFullName if not homeTeamKey else None,
 					"awayTeam": awayTeamKey,

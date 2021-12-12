@@ -89,7 +89,14 @@ def DownloadScheduleForSeason(season):
 	elif parse(endDate) > now:
 		shouldCache = False
 
+	if int(season) >= 1949 and int(season) <= 1965:
+		# Back up the startDate by a week to try and catch the All-Star game for that season
+		startDate = (parse(startDate) + datetime.timedelta(days=-7)).strftime("%Y-%m-%d")
+		pass
 
+	return __downloadScheduleForDateRange(startDate, endDate, shouldCache)
+
+def __downloadScheduleForDateRange(startDate, endDate, shouldCache=True):
 	urlTemplate = NHLAPI_BASE_URL + NHLAPI_GET_SCHEDULE
 	return GetResultFromNetwork(
 		urlTemplate % (startDate, endDate),
