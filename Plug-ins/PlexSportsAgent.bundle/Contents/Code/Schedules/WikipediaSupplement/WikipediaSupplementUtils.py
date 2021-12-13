@@ -1,0 +1,161 @@
+from bs4 import BeautifulSoup
+import bs4
+from pprint import pprint
+
+from Constants import *
+
+
+
+
+__basic_info_box_selectors = {
+	"info-box": "table.infobox.vevent",
+	"caption": "caption.infobox-title.summary",
+	"section": "tr",
+	"big-section": "td.infobox-image",
+	"logo": "a.image img",
+	"boxscore": "td.infobox-full-data",
+	"boxscore-row": "table > tbody > tr",
+	"small-section-header": "th.infobox-header",
+	"small-section-label": "th.infobox-label",
+	"small-section-value": "td.infobox-data",
+}
+
+
+
+def merge_dictionaries(dct, into):
+	if into == None or not dct: return into
+
+	# TODO: Maybe recurse?
+	for key in dct.keys():
+		value = dct[key]
+		if not key in into.keys(): into.setdefault(key, value)
+		elif into[key] == None: into[key] = value
+
+	return into
+
+
+
+def process_all_star_basic_info_box(markup):
+	processed_info = dict()
+
+	selectors = __basic_info_box_selectors
+	if not markup: return processed_info
+	soup = BeautifulSoup(markup, "html5lib")
+
+	
+	infobox = None
+	infoboxes = soup.select(selectors["info-box"])
+	if infoboxes: infobox = infoboxes[0]
+
+	if infobox:
+		caption = infobox.select(selectors["caption"])
+		if caption: processed_info["caption"] = caption[0].text
+		
+		# Find boxscore
+		boxscoreNode = None
+		boxscoreNodes = infobox.select(selectors["boxscore"]) # td.infobox-full-data
+		if boxscoreNodes:
+			boxscoreNode = boxscoreNodes[0]
+
+		sectionNodes = infobox.select(selectors["section"]) # tr
+		bigSectionNodes = infobox.select(selectors["big-section"]) # td.infobox-image
+		if bigSectionNodes:
+			for i in range(0, len(bigSectionNodes)):
+				bigSectionNode = bigSectionNodes[i]
+
+				# Find Logo
+				logoNodes = bigSectionNode.select(selectors["logo"])
+				if logoNodes:
+					logoNode = logoNodes[0]
+					logoThumbSrc = logoNode.attrs["src"]
+					logoUrl = __extract_image_url(logoThumbSrc)
+					processed_info.setdefault("logo", logoUrl)
+					continue
+
+				# Find boxscore
+				if not boxscoreNode: # Because Pro Bowl gotta be different
+					if i == (len(bigSectionNodes) - 1):
+						boxscoreNode = bigSectionNode
+
+
+		sectionHeaderLabel = ""
+		for sectionNode in sectionNodes: #tr (including big sections)
+			sectionHeaderNodes = sectionNode.select(selectors["small-section-header"])
+			if sectionHeaderNodes:
+				sectionHeaderLabel = sectionHeaderNodes[0].text;
+				continue
+
+			labelNodes = sectionNode.select(selectors["small-section-label"])
+			if labelNodes:
+				label = labelNodes[0].text
+				valueNode = None
+				value = None
+				valueNodes = sectionNode.select(selectors["small-section-value"])
+				if valueNodes:
+					valueNode = valueNodes[0]
+
+					if (label == "Date"):
+						value = valueNode.text
+						processed_info.setdefault("date", datetime.datetime.strptime(value, "%B %d, %Y").date)
+					if (label == "Television" or (label == "Network" and ((not sectionHeaderLabel) or sectionHeaderLabel.find("TV") >= 0))):
+						networks = []
+						parenState = 0
+						for contentNode in valueNode.contents:
+							nodeText = ""
+							if isinstance(contentNode, bs4.Tag):
+								if contentNode.name == "a" and parenState == 0:
+									networks.append(contentNode.text)
+									continue
+								else:
+									nodeText = contentNode.text
+							elif isinstance(contentNode, basestring):
+								nodeText = str(contentNode)
+
+							# For now, we're going to assume that all networks are hyperlinked
+							if nodeText: # Scan characters, tracking open and closed parens
+								for c in nodeText:
+									if c == "(": parenState = parenState + 1
+									elif c == ")": parenState = parenState - 1
+									# TODO: We'll do more sophisticated parsing later
+
+						processed_info.setdefault("networks", list(set(networks)))
+
+					processed_info.setdefault(("inspected:%s" % label), valueNode.text)
+		
+		pass			
+					
+		if boxscoreNode:
+			awayTeam = None
+			homeTeam = None
+
+			for boxscoreRow in boxscoreNode.select(selectors["boxscore-row"]):
+				for boxscoreContent in boxscoreRow.contents:
+					if not isinstance(boxscoreContent, (bs4.Tag)): continue
+					if boxscoreContent.name != "td": break
+
+					teamName = boxscoreContent.text
+					if awayTeam == None:
+						awayTeam = teamName
+						break
+					if homeTeam == None:
+						homeTeam = teamName
+						break
+
+			processed_info.setdefault("homeTeam", homeTeam)
+			processed_info.setdefault("awayTeam", awayTeam)
+			
+			pass
+
+
+	return processed_info
+
+
+def __extract_image_url(thumbUrl):
+	imgUrl = thumbUrl[0:]
+
+	imgUrl = "/".join(imgUrl.split("/")[0:-1])
+	imgUrl = imgUrl.replace("/thumb/", "/")
+	if imgUrl[0:2] == "//": imgUrl = "https:" + imgUrl
+	if imgUrl[0:1] == "/": imgUrl = "https://upload.wikimedia.org" + imgUrl
+
+	return imgUrl

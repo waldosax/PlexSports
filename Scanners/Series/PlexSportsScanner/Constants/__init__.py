@@ -1,10 +1,10 @@
 import datetime
 from Extensions import *
 from MetadataKeys import *
-from MLB import *
-from NBA import *
-from NFL import *
-from NHL import *
+from MLBConstants import *
+from NBAConstants import *
+from NFLConstants import *
+from NHLConstants import *
 
 THIS_YEAR = datetime.datetime.now().year
 LAST_YEAR = THIS_YEAR - 1

@@ -91,6 +91,7 @@ def DownloadScheduleForSeason(season):
 
 	if int(season) >= 1949 and int(season) <= 1965:
 		# Back up the startDate by a week to try and catch the All-Star game for that season
+		# https://en.wikipedia.org/wiki/NHL_All-Star_Game#Official_games
 		startDate = (parse(startDate) + datetime.timedelta(days=-7)).strftime("%Y-%m-%d")
 		pass
 

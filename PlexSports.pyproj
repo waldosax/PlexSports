@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{f216b525-ee0a-4921-960d-102021d785a7}</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pre-warm-caches.py</StartupFile>
+    <StartupFile>debug-supplement.py</StartupFile>
     <SearchPath>Backups;Debug;Scanners\Series;Scanners\Series\PlexSportsScanner;Plug-ins\PlexSportsAgent.bundle\Contents\Code</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -34,14 +34,12 @@
     <Compile Include="debug-scanner.py" />
     <Compile Include="localscanner.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\Assets.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\Extensions.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\Extensions.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\MetadataKeys.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\MLB.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\NBA.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\NFL.py" />
-    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\NHL.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\MLBConstants.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\NBAConstants.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\NFLConstants.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\NHLConstants.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Constants\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\CacheContainer.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\Caching.py" />
@@ -50,6 +48,7 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\MLBAPIDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NBA\NBAAPIDownloader.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NBA\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\ProFootballReferenceDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\__init__.py">
       <SubType>Code</SubType>
@@ -61,6 +60,9 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\SportsDataIODownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\TheSportsDBDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\UserAgent.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\WikipediaDownloader.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Matching.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\PathUtils.py" />
@@ -84,6 +86,37 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ScheduleEvent.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\SportsDataIOScheduleAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\TheSportsDBScheduleAdapter.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\MLB\MLBScraper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\MLB\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\NBA\AllStarGamePost2000Processor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\NBA\NBAScraper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\NBA\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\NFL\NFLScraper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\NFL\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\NHL\NHLScraper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\NHL\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\ScheduleAdapter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\Scraper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\WikipediaSupplementUtils.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Serialization.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\StringUtils.py" />
@@ -111,6 +144,7 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\TimeZoneUtils.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Vectors.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\__init__.py" />
+    <Compile Include="debug-supplement.py" />
     <Compile Include="pre-warm-caches.py">
       <SubType>Code</SubType>
     </Compile>
@@ -118,10 +152,10 @@
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\Assets.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\Extensions.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\MetadataKeys.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Constants\MLB.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Constants\NBA.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Constants\NFL.py" />
-    <Compile Include="Scanners\Series\PlexSportsScanner\Constants\NHL.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Constants\MLBConstants.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Constants\NBAConstants.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Constants\NFLConstants.py" />
+    <Compile Include="Scanners\Series\PlexSportsScanner\Constants\NHLConstants.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Constants\__init__.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Matching.py" />
     <Compile Include="Scanners\Series\PlexSportsScanner\Metadata\MLB.py" />
@@ -142,10 +176,10 @@
     </Compile>
     <Compile Include="Shared\Constants\Extensions.py" />
     <Compile Include="Shared\Constants\MetadataKeys.py" />
-    <Compile Include="Shared\Constants\MLB.py" />
-    <Compile Include="Shared\Constants\NBA.py" />
-    <Compile Include="Shared\Constants\NFL.py" />
-    <Compile Include="Shared\Constants\NHL.py" />
+    <Compile Include="Shared\Constants\MLBConstants.py" />
+    <Compile Include="Shared\Constants\NBAConstants.py" />
+    <Compile Include="Shared\Constants\NFLConstants.py" />
+    <Compile Include="Shared\Constants\NHLConstants.py" />
     <Compile Include="Shared\Constants\__init__.py" />
     <Compile Include="Shared\Matching.py" />
     <Compile Include="Shared\PathUtils.py" />
@@ -176,6 +210,11 @@
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NBA\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NHL\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\NBA\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\MLB\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\NHL\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\NFL\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Teams\MLB\" />

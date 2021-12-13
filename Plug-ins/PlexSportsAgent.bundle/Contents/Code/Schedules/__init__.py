@@ -15,6 +15,7 @@ from ..Data.CacheContainer import *
 import Teams
 import TheSportsDBScheduleAdapter, SportsDataIOScheduleAdapter
 import ProFootballReferenceScheduleAdapter
+import WikipediaSupplement
 import MLBAPIScheduleAdapter
 import NBAAPIScheduleAdapter
 import NHLAPIScheduleAdapter

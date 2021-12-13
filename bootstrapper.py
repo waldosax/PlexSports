@@ -6,6 +6,7 @@ from pprint import pprint
 # pip install python-dateutil
 # pip install html5lib
 # pip install beautifulsoup4
+# pip install bs4
 #sys.path.append(os.path.abspath("Backups\\Framework.bundle\\Contents\\Resources\\Platforms\\Shared\\Libraries"))
 #sys.path.append(os.path.abspath("C:\\Python27\\Lib\\site-packages"))
 # sys.path.append(os.path.abspath("PlexSportsAgent.bundle\\Contents\\Libraries\\Shared"))
