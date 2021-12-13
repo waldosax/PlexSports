@@ -84,7 +84,7 @@ def process_all_star_basic_info_box(markup):
 
 					if (label == "Date"):
 						value = valueNode.text
-						processed_info.setdefault("date", datetime.datetime.strptime(value, "%B %d, %Y").date)
+						processed_info.setdefault("date", datetime.datetime.strptime(value, "%B %d, %Y").date())
 					if (label == "Television" or (label == "Network" and ((not sectionHeaderLabel) or sectionHeaderLabel.find("TV") >= 0))):
 						networks = []
 						parenState = 0
@@ -166,6 +166,13 @@ def get_toc_link_text(a):
 	tocTextNodes = a.select("span.toctext")
 	if tocTextNodes: tocText = tocTextNodes[0].text
 	return tocText
+
+
+def get_section_caption(soup, anchorID):
+	anchorPoint = soup.select_one("#%s" % anchorID)
+	if anchorPoint:
+		return anchorPoint.text
+	return None
 
 
 def get_blurb(soup, anchorID):

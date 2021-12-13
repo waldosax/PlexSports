@@ -15,7 +15,8 @@ PlexSportsAgent = bootstrapper.BootstrapAgent()
 if __name__ == "__main__":
 	
 	#PlexSportsAgent.Schedules.WikipediaSupplement.Scraper.ScrapeAllStarGame(SPORT_BASEBALL, LEAGUE_MLB, 2017)
-	PlexSportsAgent.Schedules.WikipediaSupplement.Scraper.ScrapeAllStarGame(SPORT_BASKETBALL, LEAGUE_NBA, 2011)
+	#PlexSportsAgent.Schedules.WikipediaSupplement.Scraper.ScrapeAllStarGame(SPORT_BASKETBALL, LEAGUE_NBA, 2011)
+	PlexSportsAgent.Schedules.WikipediaSupplement.Scraper.ScrapeAllStarGame(SPORT_BASKETBALL, LEAGUE_NBA, 1996)
 	#PlexSportsAgent.Schedules.WikipediaSupplement.Scraper.ScrapeAllStarGame(SPORT_FOOTBALL, LEAGUE_NFL, 2019)
 	#PlexSportsAgent.Schedules.WikipediaSupplement.Scraper.ScrapeAllStarGame(SPORT_HOCKEY, LEAGUE_NHL, 2019)
 
