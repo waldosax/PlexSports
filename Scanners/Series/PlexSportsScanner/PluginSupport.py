@@ -2,7 +2,7 @@ import os
 
 APP_IDENTIFIER = "com.mayosolutions.plexsports"
 
-PLEX_HOME = "F:\\Code\\Plex\\PlexSports\\"
+PLEX_HOME = "C:\\Code\\Plex\\PlexSports\\"
 #TODO: Try to figure out how to consistently get this without hard-coding
 #PLEX_HOME = os.path.expandvars("%PLEX_HOME%")
 

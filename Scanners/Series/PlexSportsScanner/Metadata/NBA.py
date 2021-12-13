@@ -82,17 +82,39 @@ nba_event_expressions = [
 	(__expressions_from_literal("All Star Game"), NBA_EVENT_FLAG_ALL_STAR_GAME),
 	([r"All%sStar%sGame" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR)], NBA_EVENT_FLAG_ALL_STAR_GAME),
 	(__expressions_from_literal("All-Star Game"), NBA_EVENT_FLAG_ALL_STAR_GAME),
+
 	(__expressions_from_literal("3 Point Shootout"), NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
 	(__expressions_from_literal("3 Point Competition"), NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
+	(__expressions_from_literal("3 Point Contest"), NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
 	([r"3%sPoint%sShootout" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR)], NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
 	([r"3%sPoint%sCompetition" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR)], NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
+	([r"3%sPoint%sContest" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR)], NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
+	(__expressions_from_literal("Three Point Shootout"), NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
+	(__expressions_from_literal("Three Point Competition"), NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
+	(__expressions_from_literal("Three Point Contest"), NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
+	([r"Three%sPoint%sShootout" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR)], NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
+	([r"Three%sPoint%sCompetition" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR)], NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
+	([r"Three%sPoint%sContest" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR)], NBA_EVENT_FLAG_3_POINT_SHOOTOUT),
+
 	(__expressions_from_literal("Slam Dunk Competition"), NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION),
 	(__expressions_from_literal("Slam Dunk Contest"), NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION),
 	(__expressions_from_literal("AT&T Slam Dunk"), NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION),
-	(__expressions_from_literal("Skills Challenge"), NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION),
-	(__expressions_from_literal("Skill Challenge"), NBA_EVENT_FLAG_SKILLS_CHALLENGE)
+
+	(__expressions_from_literal("Skills Challenge"), NBA_EVENT_FLAG_SKILLS_CHALLENGE),
+	(__expressions_from_literal("Skill Challenge"), NBA_EVENT_FLAG_SKILLS_CHALLENGE),
+
+	(__expressions_from_literal("Rising Stars Challenge"), NBA_EVENT_FLAG_RISING_STARS_GAME),
+	(__expressions_from_literal("Rising Stars Game"), NBA_EVENT_FLAG_RISING_STARS_GAME),
+	(__expressions_from_literal("Rising Stars"), NBA_EVENT_FLAG_RISING_STARS_GAME),
+
+	(__expressions_from_literal("Shooting Stars Competition"), NBA_EVENT_FLAG_SHOOTING_STARS_COMPETITION),
+	(__expressions_from_literal("Shooting Stars Contest"), NBA_EVENT_FLAG_SHOOTING_STARS_COMPETITION),
+	(__expressions_from_literal("Shooting Stars"), NBA_EVENT_FLAG_SHOOTING_STARS_COMPETITION),
+
+	([r"All-Star%sCelebrity%sGame" % (EXPRESSION_SEPARATOR, EXPRESSION_SEPARATOR)], NBA_EVENT_FLAG_ALL_STAR_CELEBRITY_GAME),
+	(__expressions_from_literal("All Star Celebrity Game"), NBA_EVENT_FLAG_ALL_STAR_CELEBRITY_GAME),
+	(__expressions_from_literal("Celebrity Game"), NBA_EVENT_FLAG_ALL_STAR_CELEBRITY_GAME),
 	]
-# TODO: more variations on all-star weekend event names
 
 
 

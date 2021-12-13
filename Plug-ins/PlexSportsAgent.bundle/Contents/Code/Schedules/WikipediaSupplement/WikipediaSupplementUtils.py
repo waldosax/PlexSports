@@ -6,7 +6,6 @@ from Constants import *
 
 
 
-
 __basic_info_box_selectors = {
 	"info-box": "table.infobox.vevent",
 	"caption": "caption.infobox-title.summary",
@@ -21,17 +20,6 @@ __basic_info_box_selectors = {
 }
 
 
-
-def merge_dictionaries(dct, into):
-	if into == None or not dct: return into
-
-	# TODO: Maybe recurse?
-	for key in dct.keys():
-		value = dct[key]
-		if not key in into.keys(): into.setdefault(key, value)
-		elif into[key] == None: into[key] = value
-
-	return into
 
 
 
@@ -68,7 +56,7 @@ def process_all_star_basic_info_box(markup):
 				if logoNodes:
 					logoNode = logoNodes[0]
 					logoThumbSrc = logoNode.attrs["src"]
-					logoUrl = __extract_image_url(logoThumbSrc)
+					logoUrl = extract_image_url(logoThumbSrc)
 					processed_info.setdefault("logo", logoUrl)
 					continue
 
@@ -150,7 +138,7 @@ def process_all_star_basic_info_box(markup):
 	return processed_info
 
 
-def __extract_image_url(thumbUrl):
+def extract_image_url(thumbUrl):
 	imgUrl = thumbUrl[0:]
 
 	imgUrl = "/".join(imgUrl.split("/")[0:-1])
@@ -159,3 +147,48 @@ def __extract_image_url(thumbUrl):
 	if imgUrl[0:1] == "/": imgUrl = "https://upload.wikimedia.org" + imgUrl
 
 	return imgUrl
+
+
+def merge_dictionaries(dct, into):
+	if into == None or not dct: return into
+
+	for key in dct.keys():
+		value = dct[key]
+		if not key in into.keys(): into.setdefault(key, value)
+		elif into[key] == None: into[key] = value
+		if isinstance(into[key], (dict)): merge_dictionaries(value, into[key])
+
+	return into
+
+
+def get_toc_link_text(a):
+	tocText = a.text
+	tocTextNodes = a.select("span.toctext")
+	if tocTextNodes: tocText = tocTextNodes[0].text
+	return tocText
+
+
+def get_blurb(soup, anchorID):
+	blurbNode = None
+	anchorPoint = soup.select_one("#%s" % anchorID)
+	blurbNode = anchorPoint.parent.find_next_sibling("p")
+	if blurbNode:
+		return strip_citations(blurbNode).strip().replace("  ", " ")
+	return None
+
+
+def strip_citations(el):
+	elementText = ""
+
+	for child in el.children:
+		if isinstance(child, (basestring)):
+			elementText += child
+			continue;
+
+		if isinstance(child, (bs4.Tag)):
+			if child.name == "sup" and child.attrs.get("class") and "reference" in child.attrs["class"]:
+				continue
+
+			elementText += strip_citations(child)
+
+	return elementText
