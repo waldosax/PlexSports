@@ -6,6 +6,7 @@ from .GetResultFromNetwork import *
 WIKIPEDIA_BASE_URL = "https://en.wikipedia.org/wiki/"
 
 WIKIPEDIA_MLB_ALL_STAR_GAME_PATH = "%s_Major_League_Baseball_All-Star_Game" # (calendarYear)
+WIKIPEDIA_MLB_HOME_RUN_DERBY_PATH = "%s_Major_League_Baseball_Home_Run_Derby" # (calendarYear)
 WIKIPEDIA_NBA_ALL_STAR_GAME_PATH = "%s_NBA_All-Star_Game" # (calendarYear)
 WIKIPEDIA_NFL_PRO_BOWL_PATH = "%s_Pro_Bowl" # (calendarYear)
 WIKIPEDIA_NHL_ALL_STAR_GAME_PATH = "%s_National_Hockey_League_All-Star_Game" # (nth)
@@ -39,6 +40,15 @@ def __downloadMLBAllStarGameSupplement(sport, league, season):
 	calendarYear = int(season)
 
 	urlTemplate = WIKIPEDIA_BASE_URL + WIKIPEDIA_MLB_ALL_STAR_GAME_PATH
+	return GetResultFromNetwork(
+		urlTemplate % (calendarYear),
+		wikipedia_headers, cacheExtension=EXTENSION_HTML)
+	pass
+
+def DownloadMLBHomeRunDerbySupplement(sport, league, season):
+	calendarYear = int(season)
+
+	urlTemplate = WIKIPEDIA_BASE_URL + WIKIPEDIA_MLB_HOME_RUN_DERBY_PATH
 	return GetResultFromNetwork(
 		urlTemplate % (calendarYear),
 		wikipedia_headers, cacheExtension=EXTENSION_HTML)
