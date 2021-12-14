@@ -7,7 +7,7 @@ from Constants import *
 
 
 __basic_info_box_selectors = {
-	"info-box": "table.infobox.vevent",
+	"info-box": "table.infobox",
 	"caption": "caption.infobox-title.summary",
 	"section": "tr",
 	"big-section": "td.infobox-image",
@@ -23,13 +23,10 @@ __basic_info_box_selectors = {
 
 
 
-def process_all_star_basic_info_box(markup):
+def process_all_star_basic_info_box(soup):
 	processed_info = dict()
 
 	selectors = __basic_info_box_selectors
-	if not markup: return processed_info
-	soup = BeautifulSoup(markup, "html5lib")
-
 	
 	infobox = None
 	infoboxes = soup.select(selectors["info-box"])
@@ -136,6 +133,16 @@ def process_all_star_basic_info_box(markup):
 
 
 	return processed_info
+
+
+def get_first_paragraph(soup):
+	blurbNode = None
+	infoBox = soup.select_one(__basic_info_box_selectors["info-box"])
+	if infoBox:
+		blurbNode = infoBox.find_next_sibling("p")
+	if blurbNode:
+		return strip_citations(blurbNode).strip().replace("  ", " ")
+	return None
 
 
 def extract_image_url(thumbUrl):

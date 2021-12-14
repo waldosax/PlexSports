@@ -15,8 +15,7 @@ import NHL
 
 
 
-EXPORT_SUPPLEMENT_FILENAME = "wikipedia.%.%s.supplement.json" # (league, item)
-
+EXPORT_SUPPLEMENT_FILENAME = "wikipedia.%s.supplement.json" # type
 EXPORT_SUPPLEMENT_TYPE_MLB_ALL_STAR_GAME = "all-star-game"
 EXPORT_SUPPLEMENT_TYPE_NBA_ALL_STAR_GAME = "all-star-game"
 EXPORT_SUPPLEMENT_TYPE_NFL_PRO_BOWL = "pro-bowl"

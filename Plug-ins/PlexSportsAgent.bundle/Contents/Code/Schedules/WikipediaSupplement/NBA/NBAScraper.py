@@ -9,6 +9,7 @@ from pprint import pprint
 
 from Constants import *
 from Matching import __expressions_from_literal
+from TimeZoneUtils import *
 
 from ....Data.WikipediaDownloader import *
 from ..WikipediaSupplementUtils import *
@@ -67,25 +68,25 @@ def ScrapeAllStarGame(season):
 
 	markup = DownloadAllStarGameSupplement(SPORT_BASKETBALL, LEAGUE_NBA, season)
 	if markup:
-		basicInfo = process_all_star_basic_info_box(markup)
+		soup = BeautifulSoup(markup, "html5lib")
+		basicInfo = process_all_star_basic_info_box(soup)
 		if basicInfo:
 			supplement.setdefault(NBA_EVENT_FLAG_ALL_STAR_GAME, dict())
 			merge_dictionaries(basicInfo, supplement[NBA_EVENT_FLAG_ALL_STAR_GAME])
 
 		supplement.setdefault(NBA_EVENT_FLAG_ALL_STAR_GAME, dict())
-		extendedInfo = __process_page(markup)
+		extendedInfo = __process_page(soup, supplement[NBA_EVENT_FLAG_ALL_STAR_GAME].get("date"))
 		merge_dictionaries(extendedInfo, supplement)
+		if extendedInfo[NBA_EVENT_FLAG_ALL_STAR_GAME].get("date"): supplement[NBA_EVENT_FLAG_ALL_STAR_GAME]["date"] = extendedInfo[NBA_EVENT_FLAG_ALL_STAR_GAME]["date"]
 
 	return supplement
 
 
 
-def __process_page(markup):
+def __process_page(soup, allStarGameDate):
 	processed_info = dict()
 
 	selectors = __selectors
-	if not markup: return processed_info
-	soup = BeautifulSoup(markup, "html5lib")
 
 	# Capture the IDs of known blocks to process
 	tocIDs = __get_toc_ids(soup)
@@ -93,14 +94,20 @@ def __process_page(markup):
 
 
 	# Get the blurb (1st paragraph) of the All-Star Game recap
+	# TODO: time-aware synthesized datetime
 	anchorID = None
+	blurb = None
 	if tocIDs.get(NBA_EVENT_NAME_ALL_STAR_GAME + ":Game"): anchorID = tocIDs[NBA_EVENT_NAME_ALL_STAR_GAME + ":Game"]
 	elif tocIDs.get(NBA_EVENT_NAME_ALL_STAR_GAME): anchorID = tocIDs[NBA_EVENT_NAME_ALL_STAR_GAME]
 	if anchorID:
 		blurb = get_blurb(soup, anchorID)
-		if blurb:
-			processed_info.setdefault(NBA_EVENT_FLAG_ALL_STAR_GAME, dict())
-			processed_info[NBA_EVENT_FLAG_ALL_STAR_GAME]["description"] = blurb
+	if not blurb:
+		blurb = get_first_paragraph(soup)
+	if blurb:
+		processed_info.setdefault(NBA_EVENT_FLAG_ALL_STAR_GAME, dict())
+		processed_info[NBA_EVENT_FLAG_ALL_STAR_GAME]["description"] = blurb
+		eventDate = __synthesize_event_date_time(allStarGameDate, NBA_EVENT_FLAG_ALL_STAR_GAME)
+		processed_info[NBA_EVENT_FLAG_ALL_STAR_GAME]["date"] = eventDate
 
 
 	# Get anything we can about the All-Star Weekend subsections
@@ -110,54 +117,66 @@ def __process_page(markup):
 	if anchorID:
 		caption = get_section_caption(soup, anchorID)
 		blurb = get_blurb(soup, anchorID)
+		eventDate = __synthesize_event_date_time(allStarGameDate, NBA_EVENT_FLAG_3_POINT_SHOOTOUT)
 		if caption or blurb: processed_info.setdefault(NBA_EVENT_FLAG_3_POINT_SHOOTOUT, dict())
 		if caption: processed_info[NBA_EVENT_FLAG_3_POINT_SHOOTOUT]["caption"] = caption
 		if blurb: processed_info[NBA_EVENT_FLAG_3_POINT_SHOOTOUT]["description"] = blurb
+		if len(processed_info[NBA_EVENT_FLAG_3_POINT_SHOOTOUT]) > 0 and eventDate: processed_info[NBA_EVENT_FLAG_3_POINT_SHOOTOUT]["date"] = eventDate
 
 	# Get the blurb (1st paragraph) of the Slam Dunk Competition recap
 	anchorID = tocIDs.get("%s:%s" % (NBA_EVENT_NAME_ALL_STAR_WEEKEND, NBA_EVENT_NAME_SLAM_DUNK_COMPETITION))
 	if anchorID:
 		caption = get_section_caption(soup, anchorID)
 		blurb = get_blurb(soup, anchorID)
+		eventDate = __synthesize_event_date_time(allStarGameDate, NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION)
 		if caption or blurb: processed_info.setdefault(NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION, dict())
 		if caption: processed_info[NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION]["caption"] = caption
 		if blurb: processed_info[NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION]["description"] = blurb
+		if len(processed_info[NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION]) > 0 and eventDate: processed_info[NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION]["date"] = eventDate
 
 	# Get the blurb (1st paragraph) of the Skills Challenge recap
 	anchorID = tocIDs.get("%s:%s" % (NBA_EVENT_NAME_ALL_STAR_WEEKEND, NBA_EVENT_NAME_SKILLS_CHALLENGE))
 	if anchorID:
 		caption = get_section_caption(soup, anchorID)
 		blurb = get_blurb(soup, anchorID)
+		eventDate = __synthesize_event_date_time(allStarGameDate, NBA_EVENT_FLAG_SKILLS_CHALLENGE)
 		if caption or blurb: processed_info.setdefault(NBA_EVENT_FLAG_SKILLS_CHALLENGE, dict())
 		if caption: processed_info[NBA_EVENT_FLAG_SKILLS_CHALLENGE]["caption"] = caption
 		if blurb: processed_info[NBA_EVENT_FLAG_SKILLS_CHALLENGE]["description"] = blurb
+		if len(processed_info[NBA_EVENT_FLAG_SKILLS_CHALLENGE]) > 0 and eventDate: processed_info[NBA_EVENT_FLAG_SKILLS_CHALLENGE]["date"] = eventDate
 
 	# Get the blurb (1st paragraph) of the Rising Stars Game recap
 	anchorID = tocIDs.get("%s:%s" % (NBA_EVENT_NAME_ALL_STAR_WEEKEND, NBA_EVENT_NAME_RISING_STARS_CHALLENGE))
 	if anchorID:
 		caption = get_section_caption(soup, anchorID)
 		blurb = get_blurb(soup, anchorID)
+		eventDate = __synthesize_event_date_time(allStarGameDate, NBA_EVENT_FLAG_RISING_STARS_GAME)
 		if caption or blurb: processed_info.setdefault(NBA_EVENT_FLAG_RISING_STARS_GAME, dict())
 		if caption: processed_info[NBA_EVENT_FLAG_RISING_STARS_GAME]["caption"] = caption
 		if blurb: processed_info[NBA_EVENT_FLAG_RISING_STARS_GAME]["description"] = blurb
+		if len(processed_info[NBA_EVENT_FLAG_RISING_STARS_GAME]) > 0 and eventDate: processed_info[NBA_EVENT_FLAG_RISING_STARS_GAME]["date"] = eventDate
 
 	# Get the blurb (1st paragraph) of the Shooting Stars Competition recap
 	anchorID = tocIDs.get("%s:%s" % (NBA_EVENT_NAME_ALL_STAR_WEEKEND, NBA_EVENT_NAME_SHOOTING_STARS_COMPETITION))
 	if anchorID:
 		caption = get_section_caption(soup, anchorID)
 		blurb = get_blurb(soup, anchorID)
+		eventDate = __synthesize_event_date_time(allStarGameDate, NBA_EVENT_FLAG_SHOOTING_STARS_COMPETITION)
 		if caption or blurb: processed_info.setdefault(NBA_EVENT_FLAG_SHOOTING_STARS_COMPETITION, dict())
 		if caption: processed_info[NBA_EVENT_FLAG_SHOOTING_STARS_COMPETITION]["caption"] = caption
 		if blurb: processed_info[NBA_EVENT_FLAG_SHOOTING_STARS_COMPETITION]["description"] = blurb
+		if len(processed_info[NBA_EVENT_FLAG_SHOOTING_STARS_COMPETITION]) > 0 and eventDate: processed_info[NBA_EVENT_FLAG_SHOOTING_STARS_COMPETITION]["date"] = eventDate
 
 	# Get the blurb (1st paragraph) of the All-Star Celebrity Game recap
 	anchorID = tocIDs.get("%s:%s" % (NBA_EVENT_NAME_ALL_STAR_WEEKEND, NBA_EVENT_NAME_ALL_STAR_CELEBRITY_GAME))
 	if anchorID:
 		caption = get_section_caption(soup, anchorID)
 		blurb = get_blurb(soup, anchorID)
+		eventDate = __synthesize_event_date_time(allStarGameDate, NBA_EVENT_FLAG_ALL_STAR_CELEBRITY_GAME)
 		if caption or blurb: processed_info.setdefault(NBA_EVENT_FLAG_ALL_STAR_CELEBRITY_GAME, dict())
 		if caption: processed_info[NBA_EVENT_FLAG_ALL_STAR_CELEBRITY_GAME]["caption"] = caption
 		if blurb: processed_info[NBA_EVENT_FLAG_ALL_STAR_CELEBRITY_GAME]["description"] = blurb
+		if len(processed_info[NBA_EVENT_FLAG_ALL_STAR_CELEBRITY_GAME]) > 0 and eventDate: processed_info[NBA_EVENT_FLAG_ALL_STAR_CELEBRITY_GAME]["date"] = eventDate
 
 
 	return processed_info
@@ -211,3 +230,40 @@ def __get_toc_ids(soup):
 										break
 
 	return tocIDs
+
+
+def __synthesize_event_date_time(allStarGameDate, eventIndicator):
+	if allStarGameDate == None: return None
+
+	# Friday:
+	#	7PM: All-Star Celebrity	(Need shedules that provide this and teams that provide this ID)
+	#	8PM: Shooting Stars Competition	(Need shedules that provide this and teams that provide this ID)
+	#	9PM: Rising Stars		(Need shedules that provide this and teams that provide this ID)
+	# Saturday:
+	#	8PM: Skills Challenge
+	#	9PM: 3-Point Contest
+	#	10PM: Slam Dunk Contest
+	# Sunday
+	#	8PM: All-Star Game	(covered by actual data point, no need to synthesize)
+
+	event_dow_and_times = {
+		NBA_EVENT_FLAG_ALL_STAR_GAME: (6, 20),
+		NBA_EVENT_FLAG_SKILLS_CHALLENGE: (5, 20),
+		NBA_EVENT_FLAG_3_POINT_SHOOTOUT: (5, 21),
+		NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION: (5, 22),
+		NBA_EVENT_FLAG_ALL_STAR_CELEBRITY_GAME: (4, 19),
+		NBA_EVENT_FLAG_RISING_STARS_GAME: (4, 21),
+		NBA_EVENT_FLAG_SHOOTING_STARS_COMPETITION: (4, 20),
+		}
+
+	if eventIndicator == NBA_EVENT_FLAG_ALL_STAR_GAME:
+		if isinstance(allStarGameDate, date): return datetime.datetime.combine(allStarGameDate, datetime.time(event_dow_and_times[eventIndicator][1], 0, 0, tzinfo=EasternTime)).astimezone(UTC)
+	else:
+		# Rewind to day of week and assign arbitrary time
+		stamp = event_dow_and_times[eventIndicator]
+		relativeDate = allStarGameDate
+		while relativeDate.weekday() != stamp[0]: relativeDate = relativeDate - datetime.timedelta(days=1)
+		return datetime.datetime.combine(relativeDate, datetime.time(stamp[1], 0, 0, tzinfo=EasternTime)).astimezone(UTC)
+
+
+	return None

@@ -233,6 +233,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 				#
 				# Friday:
 				#	7PM: All-Star Celebrity	(Need shedules that provide this and teams that provide this ID)
+				#	8PM: Shooting Stars Competition	(Need shedules that provide this and teams that provide this ID)
 				#	9PM: Rising Stars		(Need shedules that provide this and teams that provide this ID)
 				# Saturday:
 				#	8PM: Skills Challenge
@@ -246,7 +247,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 				skillsChallenge.awayTeam = None
 				skillsChallenge.vs = None
 				skillsChallenge.eventindicator = NBA_EVENT_FLAG_SKILLS_CHALLENGE
-				skillsChallenge.eventTitle = "NBA Skills Challenge"
+				skillsChallenge.eventTitle = NBA_EVENT_NAME_SKILLS_CHALLENGE
 				skillsChallenge.date = event.date.astimezone(tz=UTC).replace(hour=20, minute=0, tzinfo=EasternTime).astimezone(tz=UTC)
 				skillsChallenge.identity.NBAAPIID = "%s.%s" % (event.identity.NBAAPIID, NBA_EVENT_FLAG_SKILLS_CHALLENGE)
 				newEvent = AddOrAugmentEvent(sched, skillsChallenge, timeSensitivity=0)
@@ -257,7 +258,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 				threePointContest.awayTeam = None
 				threePointContest.vs = None
 				threePointContest.eventindicator = NBA_EVENT_FLAG_3_POINT_SHOOTOUT
-				threePointContest.eventTitle = "3-Point Shootout"
+				threePointContest.eventTitle = NBA_EVENT_NAME_3_POINT_SHOOTOUT
 				threePointContest.date = event.date.astimezone(tz=UTC).replace(hour=21, minute=0, tzinfo=EasternTime).astimezone(tz=UTC)
 				threePointContest.identity.NBAAPIID = "%s.%s" % (event.identity.NBAAPIID, NBA_EVENT_FLAG_3_POINT_SHOOTOUT)
 				newEvent = AddOrAugmentEvent(sched, threePointContest, timeSensitivity=0)
@@ -268,7 +269,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 				slamDunkContest.awayTeam = None
 				slamDunkContest.vs = None
 				slamDunkContest.eventindicator = NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION
-				slamDunkContest.eventTitle = "Slam Dunk Contest"
+				slamDunkContest.eventTitle = NBA_EVENT_NAME_SLAM_DUNK_COMPETITION
 				slamDunkContest.date = event.date.astimezone(tz=UTC).replace(hour=22, minute=0, tzinfo=EasternTime).astimezone(tz=UTC)
 				slamDunkContest.identity.NBAAPIID = "%s.%s" % (event.identity.NBAAPIID, NBA_EVENT_FLAG_SLAM_DUNK_COMPETITION)
 				newEvent = AddOrAugmentEvent(sched, slamDunkContest, timeSensitivity=0)
