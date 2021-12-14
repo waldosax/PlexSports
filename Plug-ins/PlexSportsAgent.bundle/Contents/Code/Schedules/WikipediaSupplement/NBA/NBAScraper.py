@@ -77,7 +77,7 @@ def ScrapeAllStarGame(season):
 		supplement.setdefault(NBA_EVENT_FLAG_ALL_STAR_GAME, dict())
 		extendedInfo = __process_page(soup, supplement[NBA_EVENT_FLAG_ALL_STAR_GAME].get("date"))
 		merge_dictionaries(extendedInfo, supplement)
-		if extendedInfo[NBA_EVENT_FLAG_ALL_STAR_GAME].get("date"): supplement[NBA_EVENT_FLAG_ALL_STAR_GAME]["date"] = extendedInfo[NBA_EVENT_FLAG_ALL_STAR_GAME]["date"]
+		if extendedInfo and extendedInfo.get(NBA_EVENT_FLAG_ALL_STAR_GAME) and extendedInfo[NBA_EVENT_FLAG_ALL_STAR_GAME].get("date"): supplement[NBA_EVENT_FLAG_ALL_STAR_GAME]["date"] = extendedInfo[NBA_EVENT_FLAG_ALL_STAR_GAME]["date"]
 
 	return supplement
 
@@ -185,9 +185,8 @@ def __get_toc_ids(soup):
 
 	selectors = __selectors
 
-	toc = None
-	tocNodes = soup.select(selectors["toc"])
-	if tocNodes: toc = tocNodes[0]
+	toc = soup.select_one(selectors["toc"])
+	if not toc: return tocIDs
 
 	toc1Nodes = toc.select(selectors["toc-first-level"]) # li.toclevel-1
 	for i in range(0, len(toc1Nodes)):

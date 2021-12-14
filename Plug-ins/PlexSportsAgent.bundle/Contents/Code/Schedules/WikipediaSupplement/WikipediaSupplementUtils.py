@@ -80,8 +80,17 @@ def process_all_star_basic_info_box(soup):
 					valueNode = valueNodes[0]
 
 					if (label == "Date"):
-						value = valueNode.text
-						processed_info.setdefault("date", datetime.datetime.strptime(value, "%B %d, %Y").date())
+						value = valueNode.text.strip()
+						eventDate = None
+						try: eventDate = datetime.datetime.strptime(value, "%B %d, %Y").date()
+						except ValueError:
+							try: eventDate = datetime.datetime.strptime(value, "%a, %B %d, %Y").date()
+							except ValueError:
+								try: eventDate = datetime.datetime.strptime(value, "%A, %B %d, %Y").date()
+								except ValueError: pass
+
+						if eventDate:
+							processed_info.setdefault("date", eventDate)
 					if (label == "Television" or (label == "Network" and ((not sectionHeaderLabel) or sectionHeaderLabel.find("TV") >= 0))):
 						networks = []
 						parenState = 0
@@ -177,15 +186,20 @@ def get_toc_link_text(a):
 
 
 def get_section_caption(soup, anchorID):
-	anchorPoint = soup.select_one("#%s" % anchorID)
+	anchorPoint = soup.find(id=anchorID)
+	#anchorPoint = soup.select_one("#%s" % anchorID.strip())
 	if anchorPoint:
 		return anchorPoint.text
 	return None
 
+#SelectorSyntaxError
+
+
 
 def get_blurb(soup, anchorID):
 	blurbNode = None
-	anchorPoint = soup.select_one("#%s" % anchorID)
+	anchorPoint = soup.find(id=anchorID)
+	#anchorPoint = soup.select_one("#%s" % anchorID.strip())
 	heading = anchorPoint.parent
 	for sibling in heading.find_next_siblings():
 		if not isinstance(sibling, bs4.Tag): continue

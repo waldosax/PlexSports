@@ -29,22 +29,23 @@ if __name__ == "__main__":
 
 	#leagues_to_do = known_leagues.keys()
 	leagues_to_do = [
-		#LEAGUE_NFL,
+		LEAGUE_NFL,
 		#LEAGUE_NBA,
 		#LEAGUE_MLB,
-		LEAGUE_NHL
+		#LEAGUE_NHL
 		]
 
 
 	for league in leagues_to_do:
 		(leagueName, sport) = known_leagues[league]
 	
-		franchises = PlexSportsAgent.Teams.GetFranchises(league)
+		#franchises = PlexSportsAgent.Teams.GetFranchises(league)
 		maxyear = datetime.datetime.now().year + 2
 
 		for y in range(league_mins[league], maxyear):
 			season = str(y)
-			PlexSportsAgent.Schedules.GetSchedule(sport, league, season, computeHashes=False, noLoad=True)
+			#PlexSportsAgent.Schedules.GetSchedule(sport, league, season, computeHashes=False, noLoad=True)
+			PlexSportsAgent.Schedules.WikipediaSupplement.Scraper.ScrapeAllStarGame(sport, league, season)
 			pass
 
 	pass
