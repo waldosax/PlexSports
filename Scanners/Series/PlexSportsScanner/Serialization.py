@@ -27,7 +27,7 @@ def SerializationDefaults(item):
 	if serializableDict:
 		d = dict()
 		for key in serializableDict.keys():
-			if key[:2] == "__": continue
+			if str(key)[:2] == "__": continue
 			v = SerializationDefaults(serializableDict[key])
 			if v != None: d[key] = v
 		return d

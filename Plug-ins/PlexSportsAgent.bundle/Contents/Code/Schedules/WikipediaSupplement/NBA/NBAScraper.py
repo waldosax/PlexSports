@@ -92,9 +92,7 @@ def __process_page(soup, allStarGameDate):
 	tocIDs = __get_toc_ids(soup)
 
 
-
 	# Get the blurb (1st paragraph) of the All-Star Game recap
-	# TODO: time-aware synthesized datetime
 	anchorID = None
 	blurb = None
 	if tocIDs.get(NBA_EVENT_NAME_ALL_STAR_GAME + ":Game"): anchorID = tocIDs[NBA_EVENT_NAME_ALL_STAR_GAME + ":Game"]

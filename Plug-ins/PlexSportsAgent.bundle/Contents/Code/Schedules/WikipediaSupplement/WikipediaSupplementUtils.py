@@ -85,7 +85,8 @@ def process_all_star_basic_info_box(soup):
 					if (label == "Television" or (label == "Network" and ((not sectionHeaderLabel) or sectionHeaderLabel.find("TV") >= 0))):
 						networks = []
 						parenState = 0
-						for contentNode in valueNode.contents:
+						contents = flatten_children(valueNode)
+						for contentNode in contents:
 							nodeText = ""
 							if isinstance(contentNode, bs4.Tag):
 								if contentNode.name == "a" and parenState == 0:
@@ -185,7 +186,13 @@ def get_section_caption(soup, anchorID):
 def get_blurb(soup, anchorID):
 	blurbNode = None
 	anchorPoint = soup.select_one("#%s" % anchorID)
-	blurbNode = anchorPoint.parent.find_next_sibling("p")
+	heading = anchorPoint.parent
+	for sibling in heading.find_next_siblings():
+		if not isinstance(sibling, bs4.Tag): continue
+		if sibling.name == heading.name: break;
+		if sibling.name == "p":
+			blurbNode = sibling
+			break
 	if blurbNode:
 		return strip_citations(blurbNode).strip().replace("  ", " ")
 	return None
@@ -206,3 +213,14 @@ def strip_citations(el):
 			elementText += strip_citations(child)
 
 	return elementText
+
+
+def flatten_children(el, lst=None):
+	if el == None: return lst
+	if lst == None: lst = list()
+
+	for child in el.children:
+		lst.append(child)
+		if isinstance(child, (bs4.Tag)): flatten_children(child, lst)
+
+	return lst
