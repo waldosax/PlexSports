@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1955SCHEDULE", 
-        "CachedOn": "2021-11-19T15:29:25", 
-        "ExpiresOn": "2021-11-26T15:29:25", 
+        "CachedOn": "2021-12-15T09:42:54", 
+        "ExpiresOn": "2021-12-22T09:42:54", 
         "Version": "2"
     }, 
     "Items": [
@@ -13196,17 +13196,27 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/5/54/1955_Major_League_Baseball_All-Star_Game_logo.gif"
+                    }
+                ]
             }, 
             "awayTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "date": "1955-07-12T03:33:00+00:00", 
+            "description": "The 1955 Major League Baseball All-Star Game was the 22nd playing of the midsummer classic between the all-stars of the American League (AL) and National League (NL), the two leagues comprising Major League Baseball. The game was held on July 12, 1955, at Milwaukee County Stadium, the home of the Milwaukee Braves of the National League.", 
+            "eventTitle": "1955 Major League Baseball All-Star Game", 
             "eventindicator": 2, 
             "homeTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "identity": {
-                "MLBAPIID": "67170"
+                "MLBAPIID": "67170", 
+                "WikipediaID": "MLB.1955.2"
             }, 
             "league": "MLB", 
-            "networks": [], 
+            "networks": [
+                "NBC Sports"
+            ], 
             "season": "1955", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 

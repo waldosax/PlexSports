@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1992SCHEDULE", 
-        "CachedOn": "2021-11-19T05:03:25", 
-        "ExpiresOn": "2021-11-26T05:03:25", 
+        "CachedOn": "2021-12-15T16:46:09", 
+        "ExpiresOn": "2021-12-22T16:46:09", 
         "Version": "2"
     }, 
     "Items": [
@@ -7209,28 +7209,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
-            "date": "1992-12-08T00:30:00+00:00", 
-            "homeTeam": "31369cfa-93b8-4425-b379-199033912506", 
-            "identity": {
-                "NHLAPIID": 1992020328
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1992", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Quebec Nordiques vs. Buffalo Sabres"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "date": "1992-12-08T00:30:00+00:00", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
@@ -7265,6 +7243,28 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Ottawa Senators vs. Washington Capitals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
+            "date": "1992-12-08T00:30:00+00:00", 
+            "homeTeam": "31369cfa-93b8-4425-b379-199033912506", 
+            "identity": {
+                "NHLAPIID": 1992020328
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1992", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Quebec Nordiques vs. Buffalo Sabres"
         }, 
         {
             "assets": {
@@ -14225,14 +14225,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/e/ea/1993_All-Star_Game.gif"
+                    }
+                ]
             }, 
             "awayTeamName": "Wales Conference All-Stars", 
             "date": "1993-02-07T01:00:00+00:00", 
+            "description": "The 44th National Hockey League All-Star Game was the last NHL All-Star Game to take place at the Montreal Forum on February 6, 1993. Before the start of the Game, there was a tribute to Mario Lemieux, who was in attendance but could not play due to his treatments for Hodgkin's Disease. The Tampa Bay Lightning sent their first representatives to an All-Star Game. Mike Gartner would take Mark Messier's place in the All-Star lineup and ended up becoming the fourth player in All-Star history to score four goals in one game, earning All-Star MVP honours. The final score was Wales Conference 16, Campbell Conference 6.", 
+            "eventTitle": "44th NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeamName": "Campbell Conference All-Stars", 
             "identity": {
-                "NHLAPIID": 1992040044
+                "NHLAPIID": 1992040044, 
+                "WikipediaID": "NHL.1992.1"
             }, 
             "league": "NHL", 
             "networks": [], 

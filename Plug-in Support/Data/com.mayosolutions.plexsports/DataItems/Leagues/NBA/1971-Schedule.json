@@ -1,11 +1,36 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1971SCHEDULE", 
-        "CachedOn": "2021-11-19T01:00:09", 
-        "ExpiresOn": "2021-11-26T01:00:09", 
+        "CachedOn": "2021-12-15T07:16:24", 
+        "ExpiresOn": "2021-12-22T07:16:24", 
         "Version": "2"
     }, 
     "Items": [
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "37bf52c1-a35d-4736-bfe2-304ff04237a1", 
+            "date": "1972-01-19T01:00:00+00:00", 
+            "description": "The 22nd NBA All-Star Game was played on January 18, 1972, at The Forum.", 
+            "eventTitle": "1972 NBA All-Star Game", 
+            "eventindicator": 1, 
+            "homeTeam": "bfbf954e-0fca-4055-ad61-b323da58fd44", 
+            "identity": {
+                "WikipediaID": "NBA.1971.1"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "ABC"
+            ], 
+            "season": "1971", 
+            "sport": "Basketball"
+        }, 
         {
             "assets": {
                 "banner": [], 
@@ -360,29 +385,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
-            "date": "1972-04-06T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
-            "identity": {
-                "ESPNAPIID": "2020406015"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1971", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Milwaukee Bucks vs. Golden State Warriors"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "4cccfa9d-8175-4bbd-a761-13ea4841bf4a", 
             "date": "1972-04-06T05:00:00+00:00", 
             "eventTitle": "", 
@@ -396,6 +398,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "New York Knicks vs. Baltimore Bullets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
+            "date": "1972-04-06T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
+            "identity": {
+                "ESPNAPIID": "2020406015"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1971", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Milwaukee Bucks vs. Golden State Warriors"
         }, 
         {
             "assets": {

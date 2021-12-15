@@ -474,7 +474,7 @@ class TeamNavigator:
 			x = self.__franchises
 			if teamKey:
 				y = x.getFranchiseAndTeam(teamKey)
-				if y == None:
+				while y == None:
 					print("TeamNavigator.GetTeam -> getFranchiseAndTeam yielded None for %s" % teamKey)
 					y = x.getFranchiseAndTeam(teamKey)
 				franchise = y[0]

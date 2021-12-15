@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1984SCHEDULE", 
-        "CachedOn": "2021-11-19T04:46:19", 
-        "ExpiresOn": "2021-11-26T04:46:19", 
+        "CachedOn": "2021-12-15T16:41:02", 
+        "ExpiresOn": "2021-12-22T16:41:02", 
         "Version": "2"
     }, 
     "Items": [
@@ -2259,28 +2259,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "31369cfa-93b8-4425-b379-199033912506", 
-            "date": "1984-11-02T00:30:00+00:00", 
-            "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
-            "identity": {
-                "NHLAPIID": 1984020102
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1984", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Boston Bruins vs. Quebec Nordiques"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "date": "1984-11-02T00:30:00+00:00", 
             "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
@@ -2293,6 +2271,28 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Detroit Red Wings vs. Calgary Flames"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "31369cfa-93b8-4425-b379-199033912506", 
+            "date": "1984-11-02T00:30:00+00:00", 
+            "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
+            "identity": {
+                "NHLAPIID": 1984020102
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1984", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Boston Bruins vs. Quebec Nordiques"
         }, 
         {
             "assets": {
@@ -6483,28 +6483,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
-            "date": "1984-12-14T00:30:00+00:00", 
-            "homeTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
-            "identity": {
-                "NHLAPIID": 1984020296
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1984", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Montr\u00e9al Canadiens vs. Vancouver Canucks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "date": "1984-12-14T00:30:00+00:00", 
             "homeTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
@@ -6539,6 +6517,28 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Boston Bruins vs. Quebec Nordiques"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
+            "date": "1984-12-14T00:30:00+00:00", 
+            "homeTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
+            "identity": {
+                "NHLAPIID": 1984020296
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1984", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Montr\u00e9al Canadiens vs. Vancouver Canucks"
         }, 
         {
             "assets": {
@@ -12751,14 +12751,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/c/c1/37th_NHL_All_Star_Game.gif"
+                    }
+                ]
             }, 
             "awayTeamName": "Wales Conference All-Stars", 
             "date": "1985-02-13T01:00:00+00:00", 
+            "description": "The 37th National Hockey League All-Star Game was held in the Olympic Saddledome in Calgary, home of the Calgary Flames, on February 12, 1985. The Wales Conference defeated the Campbell Conference 6\u20134. The game's most valuable player was Mario Lemieux, who became the first rookie to win All-Star MVP honours, a feat that would not be repeated until 33 years later by Vancouver Canuck Brock Boeser in 2018.", 
+            "eventTitle": "37th NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeamName": "Campbell Conference All-Stars", 
             "identity": {
-                "NHLAPIID": 1984040037
+                "NHLAPIID": 1984040037, 
+                "WikipediaID": "NHL.1984.1"
             }, 
             "league": "NHL", 
             "networks": [], 

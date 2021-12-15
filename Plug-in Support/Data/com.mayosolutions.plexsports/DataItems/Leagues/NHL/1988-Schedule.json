@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1988SCHEDULE", 
-        "CachedOn": "2021-11-19T04:54:45", 
-        "ExpiresOn": "2021-11-26T04:54:45", 
+        "CachedOn": "2021-12-15T16:43:31", 
+        "ExpiresOn": "2021-12-22T16:43:31", 
         "Version": "2"
     }, 
     "Items": [
@@ -12597,14 +12597,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/6/6a/1989_All-Star_Game.gif"
+                    }
+                ]
             }, 
             "awayTeamName": "Campbell Conference All-Stars", 
             "date": "1989-02-08T01:00:00+00:00", 
+            "description": "The 40th National Hockey League All-Star Game was held at Northlands Coliseum in Edmonton, home to the Edmonton Oilers, on February 7, 1989.", 
+            "eventTitle": "40th NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeamName": "Wales Conference All-Stars", 
             "identity": {
-                "NHLAPIID": 1988040040
+                "NHLAPIID": 1988040040, 
+                "WikipediaID": "NHL.1988.1"
             }, 
             "league": "NHL", 
             "networks": [], 

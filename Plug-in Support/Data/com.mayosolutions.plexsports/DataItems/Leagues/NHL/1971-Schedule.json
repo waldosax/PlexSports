@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1971SCHEDULE", 
-        "CachedOn": "2021-11-19T04:23:38", 
-        "ExpiresOn": "2021-11-26T04:23:38", 
+        "CachedOn": "2021-12-15T16:31:17", 
+        "ExpiresOn": "2021-12-22T16:31:17", 
         "Version": "2"
     }, 
     "Items": [
@@ -5933,28 +5933,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
-            "date": "1972-01-07T01:00:00+00:00", 
-            "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
-            "identity": {
-                "NHLAPIID": 1971020270
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1971", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Buffalo Sabres vs. Boston Bruins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "date": "1972-01-07T01:00:00+00:00", 
             "homeTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
@@ -5967,6 +5945,28 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Philadelphia Flyers vs. St. Louis Blues"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
+            "date": "1972-01-07T01:00:00+00:00", 
+            "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
+            "identity": {
+                "NHLAPIID": 1971020270
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1971", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Buffalo Sabres vs. Boston Bruins"
         }, 
         {
             "assets": {
@@ -7211,10 +7211,13 @@
             }, 
             "awayTeamName": "All-Stars East", 
             "date": "1972-01-26T01:00:00+00:00", 
+            "description": "The 25th National Hockey League All-Star Game was held in the Metropolitan Sports Center in Bloomington, home of the Minnesota North Stars, on January 25, 1972. It was the first and only time the All-Star Game was held at the Metropolitan Sports Center. The East Division All-Stars defeated the West Division All-Stars 3\u20132. Bobby Orr was named the game's most valuable player.", 
+            "eventTitle": "25th NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeamName": "All-Stars West", 
             "identity": {
-                "NHLAPIID": 1971040025
+                "NHLAPIID": 1971040025, 
+                "WikipediaID": "NHL.1971.1"
             }, 
             "league": "NHL", 
             "networks": [], 

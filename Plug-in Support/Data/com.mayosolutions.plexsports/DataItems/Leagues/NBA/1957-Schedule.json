@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1957SCHEDULE", 
-        "CachedOn": "2021-11-19T00:50:10", 
-        "ExpiresOn": "2021-11-26T00:50:10", 
+        "CachedOn": "2021-12-15T07:13:53", 
+        "ExpiresOn": "2021-12-22T07:13:53", 
         "Version": "2"
     }, 
     "Items": [
@@ -442,6 +442,34 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Boston Celtics vs. St. Louis Hawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Bob_Pettit_1958_NBA_All-Star_Game.jpeg"
+                    }
+                ]
+            }, 
+            "awayTeam": "bfbf954e-0fca-4055-ad61-b323da58fd44", 
+            "date": "1958-01-22T01:00:00+00:00", 
+            "description": "The 1958 NBA All Star Game was the eighth NBA All-Star Game.", 
+            "eventTitle": "1958 NBA All-Star Game", 
+            "eventindicator": 1, 
+            "homeTeam": "37bf52c1-a35d-4736-bfe2-304ff04237a1", 
+            "identity": {
+                "WikipediaID": "NBA.1957.1"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1957", 
+            "sport": "Basketball"
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1990SCHEDULE", 
-        "CachedOn": "2021-11-19T04:59:04", 
-        "ExpiresOn": "2021-11-26T04:59:04", 
+        "CachedOn": "2021-12-15T16:44:48", 
+        "ExpiresOn": "2021-12-22T16:44:48", 
         "Version": "2"
     }, 
     "Items": [
@@ -10991,14 +10991,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/1/17/1991_All-Star_Game.gif"
+                    }
+                ]
             }, 
             "awayTeamName": "Campbell Conference All-Stars", 
             "date": "1991-01-20T01:00:00+00:00", 
+            "description": "The 42nd National Hockey League All-Star Game took place in Chicago Stadium, home of the Chicago Blackhawks, on January 19, 1991.", 
+            "eventTitle": "42nd NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeamName": "Wales Conference All-Stars", 
             "identity": {
-                "NHLAPIID": 1990040042
+                "NHLAPIID": 1990040042, 
+                "WikipediaID": "NHL.1990.1"
             }, 
             "league": "NHL", 
             "networks": [], 
@@ -16339,6 +16347,28 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
+            "date": "1991-03-15T00:30:00+00:00", 
+            "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
+            "identity": {
+                "NHLAPIID": 1990020751
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1990", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Boston Bruins vs. Montr\u00e9al Canadiens"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "date": "1991-03-15T00:30:00+00:00", 
             "homeTeam": "a2e0e8fc-835f-48ad-bc56-3b7554998a73", 
@@ -16373,28 +16403,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Washington Capitals vs. Quebec Nordiques"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
-            "date": "1991-03-15T00:30:00+00:00", 
-            "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
-            "identity": {
-                "NHLAPIID": 1990020751
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1990", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Boston Bruins vs. Montr\u00e9al Canadiens"
         }, 
         {
             "assets": {

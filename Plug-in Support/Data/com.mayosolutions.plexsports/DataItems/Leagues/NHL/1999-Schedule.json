@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1999SCHEDULE", 
-        "CachedOn": "2021-11-19T05:24:50", 
-        "ExpiresOn": "2021-11-26T05:24:50", 
+        "CachedOn": "2021-12-15T16:54:19", 
+        "ExpiresOn": "2021-12-22T16:54:19", 
         "Version": "2"
     }, 
     "Items": [
@@ -15478,51 +15478,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
-            "date": "2000-01-17T20:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
-            "identity": {
-                "ESPNAPIID": "200117004"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Chicago Blackhawks vs. San Jose Sharks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
-            "date": "2000-01-18T01:30:00+00:00", 
-            "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
-            "identity": {
-                "NHLAPIID": 1999020624
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Chicago Blackhawks vs. San Jose Sharks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
             "date": "2000-01-17T20:00:00+00:00", 
             "eventTitle": "", 
@@ -15589,6 +15544,51 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "New Jersey Devils vs. Carolina Hurricanes"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
+            "date": "2000-01-17T20:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
+            "identity": {
+                "ESPNAPIID": "200117004"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Chicago Blackhawks vs. San Jose Sharks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
+            "date": "2000-01-18T01:30:00+00:00", 
+            "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
+            "identity": {
+                "NHLAPIID": 1999020624
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Chicago Blackhawks vs. San Jose Sharks"
         }, 
         {
             "assets": {
@@ -18429,14 +18429,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/NHL_AllStar_2000.png"
+                    }
+                ]
             }, 
             "awayTeamName": "World All-Stars", 
             "date": "2000-02-07T01:00:00+00:00", 
+            "description": "The 2000 NHL All-Star Game was the 50th All-Star Game in the National Hockey League. It took place on February 6, 2000, at Air Canada Centre in Toronto, home to the Toronto Maple Leafs. The 1st NHL All-Star Game took place in 1947 and was also hosted by Toronto.", 
+            "eventTitle": "2000 NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeamName": "North America All-Stars", 
             "identity": {
-                "NHLAPIID": 1999040050
+                "NHLAPIID": 1999040050, 
+                "WikipediaID": "NHL.1999.1"
             }, 
             "league": "NHL", 
             "networks": [], 

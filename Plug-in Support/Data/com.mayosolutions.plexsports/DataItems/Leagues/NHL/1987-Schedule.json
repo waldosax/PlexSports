@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1987SCHEDULE", 
-        "CachedOn": "2021-11-19T04:52:35", 
-        "ExpiresOn": "2021-11-26T04:52:35", 
+        "CachedOn": "2021-12-15T16:42:52", 
+        "ExpiresOn": "2021-12-22T16:42:52", 
         "Version": "2"
     }, 
     "Items": [
@@ -12817,14 +12817,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/c/c0/1988_All-Star_Game.gif"
+                    }
+                ]
             }, 
             "awayTeamName": "Wales Conference All-Stars", 
             "date": "1988-02-10T01:00:00+00:00", 
+            "description": "The 39th National Hockey League All-Star Game was held in the St. Louis Arena in St. Louis, home to the St. Louis Blues, on February 9, 1988.", 
+            "eventTitle": "39th NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeamName": "Campbell Conference All-Stars", 
             "identity": {
-                "NHLAPIID": 1987040039
+                "NHLAPIID": 1987040039, 
+                "WikipediaID": "NHL.1987.1"
             }, 
             "league": "NHL", 
             "networks": [], 

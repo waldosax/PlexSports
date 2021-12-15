@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1954SCHEDULE", 
-        "CachedOn": "2021-11-19T15:27:53", 
-        "ExpiresOn": "2021-11-26T15:27:53", 
+        "CachedOn": "2021-12-15T09:41:00", 
+        "ExpiresOn": "2021-12-22T09:41:00", 
         "Version": "2"
     }, 
     "Items": [
@@ -13141,17 +13141,27 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/9/96/1954_MLB_All-Star_Game.gif"
+                    }
+                ]
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "1954-07-13T03:33:00+00:00", 
+            "description": "The 1954 Major League Baseball All-Star Game was the 21st playing of the midsummer classic between the all-stars of the American League (AL) and National League (NL), the two leagues comprising Major League Baseball. The game was held on July 13, 1954, at Cleveland Municipal Stadium in Cleveland, Ohio, the home of the Cleveland Indians of the American League.", 
+            "eventTitle": "1954 Major League Baseball All-Star Game", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "identity": {
-                "MLBAPIID": "67169"
+                "MLBAPIID": "67169", 
+                "WikipediaID": "MLB.1954.2"
             }, 
             "league": "MLB", 
-            "networks": [], 
+            "networks": [
+                "NBC Sports"
+            ], 
             "season": "1954", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
@@ -23487,29 +23497,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "d54ed420-fe47-4697-8c7e-fde057884c5f", 
-            "date": "1954-09-19T03:33:00+00:00", 
-            "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "identity": {
-                "MLBAPIID": "136392"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1954", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "subseasonTitle": "Regular Season", 
-            "vs": "St. Louis Cardinals vs. Milwaukee Braves"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "date": "1954-09-19T03:33:00+00:00", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
@@ -23569,6 +23556,29 @@
             "subseason": 0, 
             "subseasonTitle": "Regular Season", 
             "vs": "Cincinnati Redlegs vs. Chicago Cubs"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "d54ed420-fe47-4697-8c7e-fde057884c5f", 
+            "date": "1954-09-19T03:33:00+00:00", 
+            "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
+            "identity": {
+                "MLBAPIID": "136392"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1954", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "subseasonTitle": "Regular Season", 
+            "vs": "St. Louis Cardinals vs. Milwaukee Braves"
         }, 
         {
             "assets": {

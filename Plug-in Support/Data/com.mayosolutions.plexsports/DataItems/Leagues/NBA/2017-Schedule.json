@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA2017SCHEDULE", 
-        "CachedOn": "2021-11-19T03:39:42", 
-        "ExpiresOn": "2021-11-26T03:39:42", 
+        "CachedOn": "2021-12-15T07:35:10", 
+        "ExpiresOn": "2021-12-22T07:35:10", 
         "Version": "2"
     }, 
     "Items": [
@@ -30886,6 +30886,27 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": []
+            }, 
+            "date": "2018-02-17T00:00:00+00:00", 
+            "description": "The 2018 NBA All-Star Celebrity Game presented by Ruffles was played on Friday, February 16, 2018 at the Los Angeles Convention Center. Since the All-Star Weekend was held in Los Angeles, the competition was represented by the two NBA teams in the city with the Los Angeles Lakers (Team Lakers) and the Los Angeles Clippers (Team Clippers) instead of the typical West Vs. East affair like in previous years.", 
+            "eventTitle": "Celebrity Game", 
+            "eventindicator": 7, 
+            "identity": {
+                "WikipediaID": "NBA.2017.7"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": [
                     {
                         "source": "nbaapi", 
@@ -30896,12 +30917,13 @@
             "awayTeam": "d62ba5ac-6544-4a5f-854e-110911272eb4", 
             "date": "2018-02-17T02:00:00+00:00", 
             "description": "Bogdan Bogdanovic wins MVP with 26 points and 6 assists for the World squad's win in the Mtn Dew Kickstart Rising Stars.", 
-            "eventTitle": "RISING STARS", 
+            "eventTitle": "Mountain Dew KickStart Rising Stars Challenge", 
             "eventindicator": 6, 
             "homeTeam": "19a1dafd-0276-4b87-a3a2-b544e2f1eb4c", 
             "identity": {
                 "ESPNAPIID": "401018033", 
-                "NBAAPIID": "0031700002"
+                "NBAAPIID": "0031700002", 
+                "WikipediaID": "NBA.2017.6"
             }, 
             "league": "NBA", 
             "networks": [
@@ -30910,6 +30932,66 @@
             "season": "2017", 
             "sport": "Basketball", 
             "vs": "Team USA vs. Team World"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "date": "2018-02-18T01:00:00+00:00", 
+            "eventTitle": "Skills Challenge", 
+            "eventindicator": 5, 
+            "identity": {
+                "WikipediaID": "NBA.2017.5"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "date": "2018-02-18T02:00:00+00:00", 
+            "eventTitle": "Three-Point Contest", 
+            "eventindicator": 3, 
+            "identity": {
+                "WikipediaID": "NBA.2017.3"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "date": "2018-02-18T03:00:00+00:00", 
+            "eventTitle": "Slam Dunk Contest", 
+            "eventindicator": 4, 
+            "identity": {
+                "WikipediaID": "NBA.2017.4"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Basketball"
         }, 
         {
             "altTitle": "LeBron James wins Kia All-Star MVP", 
@@ -30923,22 +31005,28 @@
                     {
                         "source": "nbaapi", 
                         "url": "https://cdn.nba.com/manage/2020/09/20200831_thunder_game.jpg"
+                    }, 
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/f/fe/NBA_All-Star_2018.png"
                     }
                 ]
             }, 
             "awayTeam": "803735b6-ae07-4b6b-b428-a1c0d22f770c", 
             "date": "2018-02-19T01:00:00+00:00", 
             "description": "LeBron James scores 29 points and wins All-Star Game MVP as Team LeBron comes out with the win in the 2018 NBA All-Star Game.", 
-            "eventTitle": "NBA ALL-STAR GAME", 
+            "eventTitle": "2018 NBA All Star Game", 
             "eventindicator": 1, 
             "homeTeam": "a1147077-5371-458f-883b-28eb3833f33e", 
             "identity": {
                 "ESPNAPIID": "401001760", 
-                "NBAAPIID": "0031700001"
+                "NBAAPIID": "0031700001", 
+                "WikipediaID": "NBA.2017.1"
             }, 
             "league": "NBA", 
             "networks": [
-                "TNT"
+                "TNT", 
+                "TBS"
             ], 
             "season": "2017", 
             "sport": "Basketball", 

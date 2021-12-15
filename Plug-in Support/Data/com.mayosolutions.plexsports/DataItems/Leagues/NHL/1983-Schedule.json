@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1983SCHEDULE", 
-        "CachedOn": "2021-11-19T04:44:16", 
-        "ExpiresOn": "2021-11-26T04:44:16", 
+        "CachedOn": "2021-12-15T16:40:25", 
+        "ExpiresOn": "2021-12-22T16:40:25", 
         "Version": "2"
     }, 
     "Items": [
@@ -11893,14 +11893,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/6/6f/36th_NHL_All_Star_Game.gif"
+                    }
+                ]
             }, 
             "awayTeamName": "Wales Conference All-Stars", 
             "date": "1984-02-01T01:00:00+00:00", 
+            "description": "The 36th National Hockey League All-Star Game was held in Brendan Byrne Arena in East Rutherford, home to the New Jersey Devils, on January 31, 1984.", 
+            "eventTitle": "36th NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeamName": "Campbell Conference All-Stars", 
             "identity": {
-                "NHLAPIID": 1983040036
+                "NHLAPIID": 1983040036, 
+                "WikipediaID": "NHL.1983.1"
             }, 
             "league": "NHL", 
             "networks": [], 

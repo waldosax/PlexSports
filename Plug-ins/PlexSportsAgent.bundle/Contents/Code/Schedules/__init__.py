@@ -374,7 +374,7 @@ def __refresh_schedule_cache(sport, league, season, computeHashes=False):
 	def get_sortable_days_event_key(daysEvents):
 		return get_sortable_event_key(sorted(daysEvents.values())[0])
 	def get_sortable_event_key(event):
-		return FormatISO8601Date(event.date)
+		return "" if event.date == None else FormatISO8601Date(event.date)
 	def get_sortable_event_key2(event):
 		return event.homeTeam
 

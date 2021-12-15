@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1948SCHEDULE", 
-        "CachedOn": "2021-11-19T15:14:58", 
-        "ExpiresOn": "2021-11-26T15:14:58", 
+        "CachedOn": "2021-12-15T09:25:00", 
+        "ExpiresOn": "2021-12-22T09:25:00", 
         "Version": "2"
     }, 
     "Items": [
@@ -12255,14 +12255,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/7/70"
+                    }
+                ]
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "1948-07-14T00:05:00+00:00", 
+            "description": "The 1948 Major League Baseball All-Star Game was the 15th playing of the midsummer classic between the all-stars of the American League (AL) and National League (NL), the two leagues comprising Major League Baseball. The game was held on July 13, 1948, at Sportsman's Park in St. Louis, Missouri, the home of both the St. Louis Browns of the American League (who were the designated host team) and the St. Louis Cardinals of the National League. The game resulted in the American League defeating the National League 5\u20132.", 
+            "eventTitle": "1948 Major League Baseball All-Star Game", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "identity": {
-                "MLBAPIID": "67163"
+                "MLBAPIID": "67163", 
+                "WikipediaID": "MLB.1948.2"
             }, 
             "league": "MLB", 
             "networks": [], 
@@ -16856,6 +16864,29 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
+            "date": "1948-08-14T03:33:00+00:00", 
+            "homeTeam": "5d0fb061-6295-4f65-80f9-b837ef215816", 
+            "identity": {
+                "MLBAPIID": "128621"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1948", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "subseasonTitle": "Regular Season", 
+            "vs": "St. Louis Browns vs. Detroit Tigers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "3a2a643b-d074-4b14-818a-73a1bc19b068", 
             "date": "1948-08-14T03:33:00+00:00", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
@@ -16915,29 +16946,6 @@
             "subseason": 0, 
             "subseasonTitle": "Regular Season", 
             "vs": "Boston Braves vs. Brooklyn Dodgers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1948-08-14T03:33:00+00:00", 
-            "homeTeam": "5d0fb061-6295-4f65-80f9-b837ef215816", 
-            "identity": {
-                "MLBAPIID": "128621"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1948", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "subseasonTitle": "Regular Season", 
-            "vs": "St. Louis Browns vs. Detroit Tigers"
         }, 
         {
             "assets": {
@@ -22674,30 +22682,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "date": "1948-09-22T03:33:00+00:00", 
-            "game": 1, 
-            "homeTeam": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
-            "identity": {
-                "MLBAPIID": "128935"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1948", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "subseasonTitle": "Regular Season", 
-            "vs": "New York Giants vs. Chicago Cubs"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "15bc02a8-e954-4f2a-8e84-abacb02e52cc", 
             "date": "1948-09-22T03:33:00+00:00", 
             "homeTeam": "5d0fb061-6295-4f65-80f9-b837ef215816", 
@@ -22803,6 +22787,30 @@
             "subseason": 0, 
             "subseasonTitle": "Regular Season", 
             "vs": "Chicago White Sox vs. New York Yankees"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
+            "date": "1948-09-22T03:33:00+00:00", 
+            "game": 1, 
+            "homeTeam": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
+            "identity": {
+                "MLBAPIID": "128935"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1948", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "subseasonTitle": "Regular Season", 
+            "vs": "New York Giants vs. Chicago Cubs"
         }, 
         {
             "assets": {

@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1979SCHEDULE", 
-        "CachedOn": "2021-11-19T01:05:48", 
-        "ExpiresOn": "2021-11-26T01:05:48", 
+        "CachedOn": "2021-12-15T07:16:42", 
+        "ExpiresOn": "2021-12-22T07:16:42", 
         "Version": "2"
     }, 
     "Items": [
@@ -314,6 +314,29 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
+            "date": "1979-04-17T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "0e785969-e37c-4d50-98ea-744fc9b1dcf3", 
+            "identity": {
+                "ESPNAPIID": "2090417027"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1979", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Washington Bullets vs. Atlanta Hawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "1979-04-17T05:00:00+00:00", 
             "eventTitle": "", 
@@ -350,29 +373,6 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Phoenix Suns vs. Kansas City Kings"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
-            "date": "1979-04-17T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "0e785969-e37c-4d50-98ea-744fc9b1dcf3", 
-            "identity": {
-                "ESPNAPIID": "2090417027"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1979", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Washington Bullets vs. Atlanta Hawks"
         }, 
         {
             "assets": {
@@ -1224,6 +1224,31 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Washington Bullets vs. Seattle SuperSonics"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "37bf52c1-a35d-4736-bfe2-304ff04237a1", 
+            "date": "1980-02-04T01:00:00+00:00", 
+            "description": "The 1980 NBA All-Star Game was an exhibition basketball game which was played at the Capital Centre in Landover, Maryland, on February 3, 1980.", 
+            "eventTitle": "1980 NBA All-Star Game", 
+            "eventindicator": 1, 
+            "homeTeam": "bfbf954e-0fca-4055-ad61-b323da58fd44", 
+            "identity": {
+                "WikipediaID": "NBA.1979.1"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "1979", 
+            "sport": "Basketball"
         }
     ]
 }

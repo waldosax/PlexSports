@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1981SCHEDULE", 
-        "CachedOn": "2021-11-19T04:40:06", 
-        "ExpiresOn": "2021-11-26T04:40:06", 
+        "CachedOn": "2021-12-15T16:39:11", 
+        "ExpiresOn": "2021-12-22T16:39:11", 
         "Version": "2"
     }, 
     "Items": [
@@ -7011,28 +7011,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "9e4d9b57-da53-438c-a557-9bd2352a0b99", 
-            "date": "1981-12-17T00:30:00+00:00", 
-            "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
-            "identity": {
-                "NHLAPIID": 1981020322
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1981", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Penguins vs. Los Angeles Kings"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
             "date": "1981-12-17T00:30:00+00:00", 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
@@ -7045,6 +7023,28 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "New York Rangers vs. Philadelphia Flyers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "9e4d9b57-da53-438c-a557-9bd2352a0b99", 
+            "date": "1981-12-17T00:30:00+00:00", 
+            "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
+            "identity": {
+                "NHLAPIID": 1981020322
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1981", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Penguins vs. Los Angeles Kings"
         }, 
         {
             "assets": {
@@ -12729,14 +12729,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/5/54/1982_NHL_All-Star.gif"
+                    }
+                ]
             }, 
             "awayTeamName": "Wales Conference All-Stars", 
             "date": "1982-02-10T01:00:00+00:00", 
+            "description": "The 34th National Hockey League All-Star Game was held in Capital Centre in Landover, home to the Washington Capitals, on February 9, 1982. This was the first All-Star game played with geographically-aligned rosters following the NHL's realignment before the season started.", 
+            "eventTitle": "34th NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeamName": "Campbell Conference All-Stars", 
             "identity": {
-                "NHLAPIID": 1981040034
+                "NHLAPIID": 1981040034, 
+                "WikipediaID": "NHL.1981.1"
             }, 
             "league": "NHL", 
             "networks": [], 

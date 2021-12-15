@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1952SCHEDULE", 
-        "CachedOn": "2021-11-19T15:25:35", 
-        "ExpiresOn": "2021-11-26T15:25:35", 
+        "CachedOn": "2021-12-15T09:38:04", 
+        "ExpiresOn": "2021-12-22T09:38:04", 
         "Version": "2"
     }, 
     "Items": [
@@ -12083,17 +12083,27 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/e/e8/1952_Major_League_Baseball_All-Star_Game_logo.gif"
+                    }
+                ]
             }, 
             "awayTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "date": "1952-07-08T03:33:00+00:00", 
+            "description": "Al Barlick (NL)(home), Charlie Berry (AL) (first base), Dusty Boggess (NL)(second base), Bill Summers (AL)(third base), Lon Warneke (NL)(left field), Hank Soar (AL) (right field)", 
+            "eventTitle": "1952 Major League Baseball All-Star Game", 
             "eventindicator": 2, 
             "homeTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "identity": {
-                "MLBAPIID": "67167"
+                "MLBAPIID": "67167", 
+                "WikipediaID": "MLB.1952.2"
             }, 
             "league": "MLB", 
-            "networks": [], 
+            "networks": [
+                "NBC"
+            ], 
             "season": "1952", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 

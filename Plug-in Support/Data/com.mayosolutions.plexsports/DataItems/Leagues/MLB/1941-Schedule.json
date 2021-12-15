@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1941SCHEDULE", 
-        "CachedOn": "2021-11-19T14:50:11", 
-        "ExpiresOn": "2021-11-26T14:50:11", 
+        "CachedOn": "2021-12-15T08:39:57", 
+        "ExpiresOn": "2021-12-22T08:39:57", 
         "Version": "2"
     }, 
     "Items": [
@@ -12334,14 +12334,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/5/57/1941_Major_League_Baseball_All-Star_Game_logo.png"
+                    }
+                ]
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "1941-07-08T03:33:00+00:00", 
+            "description": "The umpires changed assignments in the middle of the fifth inning \u2013 Summers and Pinelli swapped positions, also Jorda and Grieve swapped positions.", 
+            "eventTitle": "1941 Major League Baseball All-Star Game", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "identity": {
-                "MLBAPIID": "67157"
+                "MLBAPIID": "67157", 
+                "WikipediaID": "MLB.1941.2"
             }, 
             "league": "MLB", 
             "networks": [], 

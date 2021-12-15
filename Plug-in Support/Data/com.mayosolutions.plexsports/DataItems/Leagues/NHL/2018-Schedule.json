@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL2018SCHEDULE", 
-        "CachedOn": "2021-11-19T08:25:08", 
-        "ExpiresOn": "2021-11-26T08:25:08", 
+        "CachedOn": "2021-12-15T17:05:04", 
+        "ExpiresOn": "2021-12-22T17:05:04", 
         "Version": "2"
     }, 
     "Items": [
@@ -32948,15 +32948,23 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/3/35"
+                    }
+                ]
             }, 
             "awayTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "date": "2019-01-01T18:00:00+00:00", 
+            "description": "The 2019 NHL Winter Classic (officially the 2019 Bridgestone NHL Winter Classic) was an outdoor regular season National Hockey League (NHL) game, part of the Winter Classic series, that was played on January 1, 2019. The game featured the Chicago Blackhawks taking on the Boston Bruins at Notre Dame Stadium in Notre Dame, Indiana, home of the University of Notre Dame's Fighting Irish football team. This was the fourth Winter Classic for the Blackhawks (2009, 2015, 2017, sixth outdoor appearance overall and fifth in six years) and the third for the Bruins (2010, 2016). The game was the Bruins' first Winter Classic as the visiting team, and the first time the NHL hosted an outdoor game outside a team's immediate media market (Chicago, the host team, is in an adjacent media market to the South Bend market where Notre Dame is located).", 
             "eventTitle": "WINTER CLASSIC", 
+            "eventindicator": 2, 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
                 "ESPNAPIID": "401044932", 
-                "NHLAPIID": 2018020612
+                "NHLAPIID": 2018020612, 
+                "WikipediaID": "NHL.2018.2"
             }, 
             "league": "NHL", 
             "networks": [
@@ -40806,14 +40814,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/c/c2/2019_NHL_All-Star_Game_logo.png"
+                    }
+                ]
             }, 
             "awayTeamName": "Team Central", 
             "date": "2019-01-27T01:15:00+00:00", 
+            "description": "The 2019 National Hockey League All-Star Game was held at SAP Center in San Jose, home of the San Jose Sharks on January 26, 2019. San Jose last held the NHL All Star Game in 1997. This was the fourth consecutive All-Star Game that used a four-team, 3-on-3, single elimination format, with one team representing each of the league's four divisions. After years of being held on a Sunday, the 2019 All-Star Game was played on a Saturday, January 26, at 5:00\u00a0p.m. PST / 8:00\u00a0p.m. EST, while the Skills Competition was also moved from its traditional Saturday night to Friday, January 25, 2019.", 
+            "eventTitle": "2019 NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeamName": "Team Pacific", 
             "identity": {
-                "NHLAPIID": 2018040643
+                "NHLAPIID": 2018040643, 
+                "WikipediaID": "NHL.2018.1"
             }, 
             "league": "NHL", 
             "networks": [], 

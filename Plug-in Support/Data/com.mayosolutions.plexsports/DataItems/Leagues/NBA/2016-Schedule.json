@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA2016SCHEDULE", 
-        "CachedOn": "2021-11-19T03:39:02", 
-        "ExpiresOn": "2021-11-26T03:39:02", 
+        "CachedOn": "2021-12-15T07:34:32", 
+        "ExpiresOn": "2021-12-22T07:34:32", 
         "Version": "2"
     }, 
     "Items": [
@@ -4894,11 +4894,16 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2016/11/GettyImages-620695198-scaled.jpg"
+                    }
+                ]
             }, 
             "awayTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "date": "2016-11-03T02:30:00+00:00", 
-            "description": "Russell Westbrook hit a jumper with 18.7 seconds left, finishing with 35 points as the Oklahoma City Thunder remained unbeaten with an 85-83 victory over the Los Angeles Clippers on Wednesday.", 
+            "description": "Russell Westbrook scores 35 points as the Thunder defeat the Clippers 85-83.", 
             "eventTitle": "", 
             "homeTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "identity": {
@@ -4923,16 +4928,11 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2016/11/Kings-vs-Magic-2.jpg"
-                    }
-                ]
+                "thumbnail": []
             }, 
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2016-11-03T23:00:00+00:00", 
-            "description": "Evan Fournier scores 29 points as the Magic top the Kings 102-94 on Thursday.", 
+            "description": "Evan Fournier scored 29 points and Serge Ibaka added 17 to lead the Orlando Magic to a 102-94 victory over the Sacramento Kings on Thursday night.", 
             "eventTitle": "", 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
@@ -30260,6 +30260,47 @@
             "vs": "Chicago Bulls vs. Boston Celtics"
         }, 
         {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "date": "2017-02-18T00:00:00+00:00", 
+            "description": "The 2017 NBA All-Star Celebrity Game was played on Friday, February 17, 2017 at the Mercedes-Benz Superdome.", 
+            "eventTitle": "Celebrity Game", 
+            "eventindicator": 7, 
+            "identity": {
+                "WikipediaID": "NBA.2016.7"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "date": "2017-02-18T02:00:00+00:00", 
+            "eventTitle": "Rising Stars Challenge", 
+            "eventindicator": 6, 
+            "identity": {
+                "WikipediaID": "NBA.2016.6"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Basketball"
+        }, 
+        {
             "altTitle": "", 
             "assets": {
                 "banner": [], 
@@ -30290,6 +30331,66 @@
             "vs": "Team USA vs. Team World"
         }, 
         {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "date": "2017-02-19T01:00:00+00:00", 
+            "eventTitle": "Skills Challenge", 
+            "eventindicator": 5, 
+            "identity": {
+                "WikipediaID": "NBA.2016.5"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "date": "2017-02-19T02:00:00+00:00", 
+            "eventTitle": "Three-Point Contest", 
+            "eventindicator": 3, 
+            "identity": {
+                "WikipediaID": "NBA.2016.3"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "date": "2017-02-19T03:00:00+00:00", 
+            "eventTitle": "Slam Dunk Contest", 
+            "eventindicator": 4, 
+            "identity": {
+                "WikipediaID": "NBA.2016.4"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Basketball"
+        }, 
+        {
             "altTitle": "Davis scores record 52, named Kia MVP", 
             "assets": {
                 "banner": [], 
@@ -30301,22 +30402,29 @@
                     {
                         "source": "nbaapi", 
                         "url": "https://cdn.nba.com/manage/2017/02/GettyImages-642989146-scaled.jpg"
+                    }, 
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/d/d1/2017_NBA_All-Star_Game_logo.png"
                     }
                 ]
             }, 
             "awayTeam": "bfbf954e-0fca-4055-ad61-b323da58fd44", 
             "date": "2017-02-20T01:00:00+00:00", 
             "description": "Anthony Davis scored a record 52 points to lead the West over the East 192-182 in the 66th NBA All-Star Game.", 
-            "eventTitle": "NBA ALL-STAR GAME", 
+            "eventTitle": "2017 NBA All-Star Game", 
             "eventindicator": 1, 
             "homeTeam": "37bf52c1-a35d-4736-bfe2-304ff04237a1", 
             "identity": {
                 "ESPNAPIID": "400935635", 
-                "NBAAPIID": "0031600001"
+                "NBAAPIID": "0031600001", 
+                "WikipediaID": "NBA.2016.1"
             }, 
             "league": "NBA", 
             "networks": [
-                "TNT"
+                "TNT", 
+                "TBS", 
+                "Sportsnet"
             ], 
             "season": "2016", 
             "sport": "Basketball", 

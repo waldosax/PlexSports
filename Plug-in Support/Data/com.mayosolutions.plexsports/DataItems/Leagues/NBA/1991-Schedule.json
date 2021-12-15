@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1991SCHEDULE", 
-        "CachedOn": "2021-11-19T01:08:27", 
-        "ExpiresOn": "2021-11-26T01:08:27", 
+        "CachedOn": "2021-12-15T07:19:44", 
+        "ExpiresOn": "2021-12-22T07:19:44", 
         "Version": "2"
     }, 
     "Items": [
@@ -521,29 +521,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
-            "date": "1991-05-01T04:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
-            "identity": {
-                "ESPNAPIID": "110501009"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1991", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Golden State Warriors vs. San Antonio Spurs"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "1991-05-01T04:00:00+00:00", 
             "eventTitle": "", 
@@ -557,6 +534,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Indiana Pacers vs. Boston Celtics"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
+            "date": "1991-05-01T04:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
+            "identity": {
+                "ESPNAPIID": "110501009"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1991", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Golden State Warriors vs. San Antonio Spurs"
         }, 
         {
             "assets": {
@@ -1569,6 +1569,37 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Chicago Bulls"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/3/36/1992_NBA_All-Star_Game_Logo.gif"
+                    }
+                ]
+            }, 
+            "awayTeam": "37bf52c1-a35d-4736-bfe2-304ff04237a1", 
+            "date": "1992-02-10T01:00:00+00:00", 
+            "description": "The 1992 NBA All-Star Game was the 42nd edition of the All-Star Game. It was hosted at the Orlando Arena in Orlando, Florida on February 9, 1992, where the West defeated the East, 153\u2013113. The game is memorable for the return of Los Angeles Lakers guard Magic Johnson, who retired before the 1991\u201392 NBA season after contracting HIV. Johnson was given the MVP award. He also took the final shot of the game, a three-pointer, and the final 14\u00bd seconds of the game were not played. The game was broadcast by NBC for the second consecutive year.", 
+            "eventTitle": "1992 NBA All-Star Game", 
+            "eventindicator": 1, 
+            "homeTeam": "bfbf954e-0fca-4055-ad61-b323da58fd44", 
+            "identity": {
+                "WikipediaID": "NBA.1991.1"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "NBC", 
+                "TNT"
+            ], 
+            "season": "1991", 
+            "sport": "Basketball"
         }
     ]
 }

@@ -1,11 +1,36 @@
 {
     "CacheContainer": {
         "CacheType": "NHL2017SCHEDULE", 
-        "CachedOn": "2021-11-19T08:23:38", 
-        "ExpiresOn": "2021-11-26T08:23:38", 
+        "CachedOn": "2021-12-15T17:04:33", 
+        "ExpiresOn": "2021-12-22T17:04:33", 
         "Version": "2"
     }, 
     "Items": [
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/6/67/2018_NHL_All-Star_Game_logo.png"
+                    }
+                ]
+            }, 
+            "description": "The 2018 National Hockey League All-Star Game took place at Amalie Arena in Tampa, home of the Tampa Bay Lightning on January 28, 2018. Tampa last held the NHL All-Star Game in 1999. The All-Star Game was played in lieu of NHL participation in the 2018 Winter Olympics, as the NHL Board of Governors ruled against interrupting the season to send players to Pyeongchang from February 10 to 25.", 
+            "eventTitle": "2018 NHL All-Star Game", 
+            "eventindicator": 1, 
+            "identity": {
+                "WikipediaID": "NHL.2017.1"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "2017", 
+            "sport": "Hockey"
+        }, 
         {
             "assets": {
                 "banner": [], 
@@ -18751,16 +18776,23 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/9/9c/2018_NHL_Winter_Classic_logo.png"
+                    }
+                ]
             }, 
             "awayTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "date": "2018-01-01T18:25:00+00:00", 
             "description": "J.T. Miller scored a power-play goal 2:43 into overtime to lift the New York Rangers to a 3-2 victory over the Buffalo Sabres on Monday in the NHL's 10th Winter Classic at Citi Field.", 
             "eventTitle": "WINTER CLASSIC AT CITI FIELD", 
+            "eventindicator": 2, 
             "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "identity": {
                 "ESPNAPIID": "400962204", 
-                "TheSportsDBID": "569617"
+                "TheSportsDBID": "569617", 
+                "WikipediaID": "NHL.2017.2"
             }, 
             "league": "NHL", 
             "networks": [

@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1990SCHEDULE", 
-        "CachedOn": "2021-11-19T01:08:25", 
-        "ExpiresOn": "2021-11-26T01:08:25", 
+        "CachedOn": "2021-12-15T07:19:42", 
+        "ExpiresOn": "2021-12-22T07:19:42", 
         "Version": "2"
     }, 
     "Items": [
@@ -429,29 +429,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
-            "date": "1990-05-01T04:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
-            "identity": {
-                "ESPNAPIID": "100501015"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1990", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Milwaukee Bucks vs. Chicago Bulls"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "date": "1990-05-01T04:00:00+00:00", 
             "eventTitle": "", 
@@ -465,6 +442,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Philadelphia 76ers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
+            "date": "1990-05-01T04:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
+            "identity": {
+                "ESPNAPIID": "100501015"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1990", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Milwaukee Bucks vs. Chicago Bulls"
         }, 
         {
             "assets": {
@@ -1661,6 +1661,79 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Detroit Pistons vs. Portland Trail Blazers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "date": "1991-02-10T02:00:00+00:00", 
+            "description": "The American Airlines\u2013ITT Sheraton Three-Point Shootout saw Craig Hodges repeat as champion, by defeating Portland's Terry Porter in the final round. Players begin shooting from one corner of the court, and move from station to station along the three-point arc until they reach the other corner. Each station has four standard balls, worth one point each, plus one specially colored \"money ball\", worth two points.", 
+            "eventTitle": "Three-Point Shootout", 
+            "eventindicator": 3, 
+            "identity": {
+                "WikipediaID": "NBA.1990.3"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1990", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "date": "1991-02-10T03:00:00+00:00", 
+            "description": "The Gatorade Slam Dunk Contest had three of the previous year's contestants, with the notable absence of defending champion Dominique Wilkins. Dee Brown took home the trophy after defeating Shawn Kemp in the final, performing a dunk while covering his eyes with one arm. The scoring system consisted of the total of the two dunks, and in the final round the two best out of three dunks.", 
+            "eventTitle": "Slam Dunk Contest", 
+            "eventindicator": 4, 
+            "identity": {
+                "WikipediaID": "NBA.1990.4"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1990", 
+            "sport": "Basketball"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/e/e0/1991_NBA_All-Star_Game.gif"
+                    }
+                ]
+            }, 
+            "awayTeam": "37bf52c1-a35d-4736-bfe2-304ff04237a1", 
+            "date": "1991-02-11T01:00:00+00:00", 
+            "description": "The West could have won, but Kevin Johnson's potential game-winning three-pointer was nullified by a basket interference call on Karl Malone.", 
+            "eventTitle": "1991 NBA All-Star Game", 
+            "eventindicator": 1, 
+            "homeTeam": "bfbf954e-0fca-4055-ad61-b323da58fd44", 
+            "identity": {
+                "WikipediaID": "NBA.1990.1"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "NBC", 
+                "TNT"
+            ], 
+            "season": "1990", 
+            "sport": "Basketball"
         }
     ]
 }
