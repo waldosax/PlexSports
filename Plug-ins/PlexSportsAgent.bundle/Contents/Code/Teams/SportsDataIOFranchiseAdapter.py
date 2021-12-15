@@ -38,6 +38,14 @@ sdio_data_corrections = {
 			"aliases": ["TB"]
 			},
 		}
+	LEAGUE_NHL: {
+		"TAM": {
+			"aliases": ["TB"]
+			},
+		"TB": {
+			"aliases": ["TB"]
+			},
+		}
 	}
 
 def DownloadAllTeams(league):
