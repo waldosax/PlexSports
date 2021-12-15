@@ -37,7 +37,7 @@ sdio_data_corrections = {
 		"TB": {
 			"aliases": ["TB"]
 			},
-		}
+		},
 	}
 
 def DownloadAllTeams(league):
