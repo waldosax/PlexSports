@@ -75,6 +75,10 @@ def DownloadAllTeams(league):
 				name = "Football Team"
 				fullName = "Washington Football Team"
 
+		if league == LEAGUE_NHL:
+			if city == "Tampa Bay" and name == "Lightning":
+				aliases.append("TB")
+
 		team = {
 			"key": key,
 			"ESPNAPIID": teamId,

@@ -98,6 +98,7 @@ def DownloadAllFranchises(league):
 
 			aliases = []
 			if nhlapiTeam.get("shortName") and nhlapiTeam["shortName"] != city: aliases.append(deunicode(strip_diacritics(nhlapiTeam["shortName"])))
+			if fullName == "Tampa Bay Lightning": aliases.append("TB")
 			if aliases: team["aliases"] = list(set(aliases))
 
 		franchisesById[franchiseId]["teams"][fullName] = team
