@@ -8,7 +8,7 @@ from Constants import *
 
 __basic_info_box_selectors = {
 	"info-box": "table.infobox",
-	"caption": "caption.infobox-title.summary",
+	"caption": "caption.infobox-title",
 	"section": "tr",
 	"big-section": "td.infobox-image",
 	"logo": "a.image img",
@@ -23,7 +23,7 @@ __basic_info_box_selectors = {
 
 
 
-def process_all_star_basic_info_box(soup):
+def process_basic_info_box(soup):
 	processed_info = dict()
 
 	selectors = __basic_info_box_selectors

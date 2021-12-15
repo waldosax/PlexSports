@@ -29,7 +29,7 @@ def ScrapeAllStarGame(season):
 	markup = DownloadAllStarGameSupplement(SPORT_BASEBALL, LEAGUE_MLB, season)
 	if markup:
 		soup = BeautifulSoup(markup, "html5lib")
-		basicInfo = process_all_star_basic_info_box(soup)
+		basicInfo = process_basic_info_box(soup)
 		if basicInfo:
 			supplement.setdefault(MLB_EVENT_FLAG_ALL_STAR_GAME, dict())
 			merge_dictionaries(basicInfo, supplement[MLB_EVENT_FLAG_ALL_STAR_GAME])
@@ -42,7 +42,7 @@ def ScrapeAllStarGame(season):
 	markup = DownloadMLBHomeRunDerbySupplement(SPORT_BASEBALL, LEAGUE_MLB, season)
 	if markup:
 		soup = BeautifulSoup(markup, "html5lib")
-		basicInfo = process_all_star_basic_info_box(soup)
+		basicInfo = process_basic_info_box(soup)
 		if basicInfo:
 			supplement.setdefault(MLB_EVENT_FLAG_HOME_RUN_DERBY, dict())
 			merge_dictionaries(basicInfo, supplement[MLB_EVENT_FLAG_HOME_RUN_DERBY])

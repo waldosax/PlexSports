@@ -29,7 +29,7 @@ def ScrapeProBowl(season):
 	markup = DownloadAllStarGameSupplement(SPORT_FOOTBALL, LEAGUE_NFL, season)
 	if markup:
 		soup = BeautifulSoup(markup, "html5lib")
-		basicInfo = process_all_star_basic_info_box(soup)
+		basicInfo = process_basic_info_box(soup)
 		if basicInfo:
 			supplement.setdefault(NFL_EVENT_FLAG_PRO_BOWL, dict())
 			merge_dictionaries(basicInfo, supplement[NFL_EVENT_FLAG_PRO_BOWL])
