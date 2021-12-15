@@ -30,6 +30,14 @@ sdio_data_corrections = {
 			"fullName": "LA Clippers",
 			}
 		}
+	LEAGUE_NHL: {
+		"TAM": {
+			"aliases": ["TB"]
+			},
+		"TB": {
+			"aliases": ["TB"]
+			},
+		}
 	}
 
 def DownloadAllTeams(league):
@@ -101,6 +109,8 @@ def DownloadAllTeams(league):
 				if sdio_data_corrections[league][abbrev].get("abbreviation"):
 					aliases.append(abbrev)
 					abbrev = sdio_data_corrections[league][abbrev]["abbreviation"]
+				if sdio_data_corrections[league][abbrev].get("aliases"):
+					aliases = list(set(aliases = sdio_data_corrections[league][abbrev]["aliases"]))
 
 		conference = deunicode(team.get("Conference") or team.get("League"))
 		if conference == "None": conference = None

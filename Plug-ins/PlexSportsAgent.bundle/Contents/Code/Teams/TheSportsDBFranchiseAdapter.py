@@ -63,6 +63,9 @@ def DownloadAllTeams(league):
 				fullName = deunicode(team["strAlternate"])
 				city = name
 				name = fullName[len(city):].strip()
+		elif league == LEAGUE_NHL:
+			if fullName == "Tampa Bay Lightning":
+				aliases.append("TB")
 
 		alternate = deunicode(team["strAlternate"]) if team.get("strAlternate") != abbrev else None
 		if alternate: aliases += splitAndTrim(alternate)
