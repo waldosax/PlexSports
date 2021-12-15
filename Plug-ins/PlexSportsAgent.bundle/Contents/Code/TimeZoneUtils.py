@@ -27,5 +27,8 @@ def FormatISO8601Time(dt):
 def IsISO8601Date(s):
 	return not re.match("^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:[+\-]\d{2,4})?$", s) == None
 
+def IsISO8601DateWithoutTime(s):
+	return not re.match("^\d{4}-\d{2}-\d{2}$", s) == None
+
 def IsISO8601Time(s):
 	return not re.match("^\d{2}:\d{2}:\d{2}(?:[+\-]\d{2,4})?$", s) == None

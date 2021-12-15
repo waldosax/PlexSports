@@ -15,11 +15,12 @@ from ..Data.CacheContainer import *
 import Teams
 import TheSportsDBScheduleAdapter, SportsDataIOScheduleAdapter
 import ProFootballReferenceScheduleAdapter
-import WikipediaSupplement
 import MLBAPIScheduleAdapter
 import NBAAPIScheduleAdapter
 import NHLAPIScheduleAdapter
 import ESPNAPIScheduleAdapter
+import WikipediaSupplement
+
 from ScheduleEvent import *
 
 CACHE_DURATION = 7
@@ -289,6 +290,8 @@ def __download_all_schedule_data(sport, league, season):
 	
 	
 	SportsDataIOScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
+
+	WikipediaSupplement.Adapt(sched, navigator, sport, league, season)
 		
 	return sched
 

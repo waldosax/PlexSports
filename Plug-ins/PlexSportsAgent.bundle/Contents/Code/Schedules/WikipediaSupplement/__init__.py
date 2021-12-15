@@ -1,4 +1,4 @@
 import Scraper
-import ScheduleAdapter
+from ScheduleAdapter import SupplementSchedule as Adapt
 
-import WikipediaSupplementUtils
+#import WikipediaSupplementUtils

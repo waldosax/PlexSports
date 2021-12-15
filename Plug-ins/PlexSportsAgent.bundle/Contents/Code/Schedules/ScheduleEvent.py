@@ -221,6 +221,7 @@ class ScheduleEventIdentity:
 		self.NHLAPIID = kwargs.get("NHLAPIID")
 		self.ESPNAPIID = kwargs.get("ESPNAPIID")
 		self.ProFootballReferenceID = kwargs.get("ProFootballReferenceID")
+		self.WikipediaID = kwargs.get("WikipediaID")
 		pass
 
 	def Augment(self, **kwargs):
@@ -231,6 +232,7 @@ class ScheduleEventIdentity:
 		if kwargs.get("NHLAPIID"): self.NHLAPIID = kwargs["NHLAPIID"]
 		if kwargs.get("ESPNAPIID"): self.ESPNAPIID = kwargs["ESPNAPIID"]
 		if kwargs.get("ProFootballReferenceID"): self.ProFootballReferenceID = kwargs["ProFootballReferenceID"]
+		if kwargs.get("WikipediaID"): self.WikipediaID = kwargs["WikipediaID"]
 		pass
 
 class EventAsset():
