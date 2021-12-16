@@ -28,19 +28,17 @@ def process_basic_info_box(soup):
 
 	selectors = __basic_info_box_selectors
 	
-	infobox = None
-	infoboxes = soup.select(selectors["info-box"])
-	if infoboxes: infobox = infoboxes[0]
+
+	infobox = soup.select_one(selectors["info-box"])
 
 	if infobox:
-		caption = infobox.select(selectors["caption"])
-		if caption: processed_info["caption"] = caption[0].text
+		eventDate = None
+
+		caption = infobox.select_one(selectors["caption"])
+		if caption: processed_info["caption"] = caption.text
 		
 		# Find boxscore
-		boxscoreNode = None
-		boxscoreNodes = infobox.select(selectors["boxscore"]) # td.infobox-full-data
-		if boxscoreNodes:
-			boxscoreNode = boxscoreNodes[0]
+		boxscoreNode = infobox.select_one(selectors["boxscore"]) # td.infobox-full-data
 
 		sectionNodes = infobox.select(selectors["section"]) # tr
 		bigSectionNodes = infobox.select(selectors["big-section"]) # td.infobox-image
@@ -81,16 +79,8 @@ def process_basic_info_box(soup):
 
 					if (label == "Date"):
 						value = valueNode.text.strip()
-						eventDate = None
-						try: eventDate = datetime.datetime.strptime(value, "%B %d, %Y").date()
-						except ValueError:
-							try: eventDate = datetime.datetime.strptime(value, "%a, %B %d, %Y").date()
-							except ValueError:
-								try: eventDate = datetime.datetime.strptime(value, "%A, %B %d, %Y").date()
-								except ValueError: pass
+						eventDate = __parse_date(value)
 
-						if eventDate:
-							processed_info.setdefault("date", eventDate)
 					if (label == "Television" or (label == "Network" and ((not sectionHeaderLabel) or sectionHeaderLabel.find("TV") >= 0))):
 						networks = []
 						parenState = 0
@@ -120,6 +110,8 @@ def process_basic_info_box(soup):
 		pass			
 					
 		if boxscoreNode:
+			if not eventDate: eventDate = __parse_date(boxscoreNode.text.strip())
+
 			awayTeam = None
 			homeTeam = None
 
@@ -129,6 +121,8 @@ def process_basic_info_box(soup):
 					if boxscoreContent.name != "td": break
 
 					teamName = boxscoreContent.text
+					if not teamName: continue
+					if teamName[:1] == "<": continue
 					if awayTeam == None:
 						awayTeam = teamName
 						break
@@ -141,8 +135,20 @@ def process_basic_info_box(soup):
 			
 			pass
 
+		if eventDate:
+			processed_info.setdefault("date", eventDate)
 
 	return processed_info
+
+def __parse_date(value):
+	eventDate = None
+	try: eventDate = datetime.datetime.strptime(value, "%B %d, %Y").date()
+	except ValueError:
+		try: eventDate = datetime.datetime.strptime(value, "%a, %B %d, %Y").date()
+		except ValueError:
+			try: eventDate = datetime.datetime.strptime(value, "%A, %B %d, %Y").date()
+			except ValueError: pass
+	return eventDate
 
 
 def get_first_paragraph(soup):

@@ -37,6 +37,21 @@ sdio_data_corrections = {
 		"TB": {
 			"aliases": ["TB"]
 			},
+		"MON": {
+			"abbreviation": "MTL",
+			},
+		"NAS": {
+			"abbreviation": "NSH",
+			},
+		"SJ": {
+			"abbreviation": "SJS",
+			},
+		"VEG": {
+			"abbreviation": "VGK",
+			},
+		"WAS": {
+			"abbreviation": "WSH",
+			},
 		},
 	}
 

@@ -6,7 +6,7 @@ from StringUtils import *
 from UserAgent import *
 from Data.GetResultFromNetwork import *
 
-#THE_SPORTS_DB_API_KEY = "1" # TODO: Read from settings file?
+#THE_SPORTS_DB_API_KEY = "2" # TODO: Read from settings file?
 THE_SPORTS_DB_API_KEY = "8123456712556"
 THE_SPORTS_DB_BASE_URL = "https://www.thesportsdb.com/api/v1/json/%s/"
 

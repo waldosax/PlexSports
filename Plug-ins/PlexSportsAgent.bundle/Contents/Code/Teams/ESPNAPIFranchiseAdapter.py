@@ -20,6 +20,9 @@ espnapi_abbreviation_corrections = {
 		},
 	LEAGUE_NFL: {
 		"WSH": "WAS",
+		},
+	LEAGUE_NHL: {
+		"SJ": "SJS",
 		}
 	}
 

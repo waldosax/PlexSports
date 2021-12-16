@@ -28,6 +28,7 @@ def SupplementSchedule(sched, navigator, sport, league, season):
         else:
             # Add Event
             newEvent = __convert_supplement(navigator, sport, league, season, augmentEvent, eventId)
+            if not newEvent.get("date"): continue
             AddOrAugmentEvent(sched, ScheduleEvent(**newEvent), 0)
 
     pass
