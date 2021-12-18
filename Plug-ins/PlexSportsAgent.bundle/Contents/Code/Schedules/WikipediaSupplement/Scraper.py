@@ -123,11 +123,11 @@ def __supplement_cache_file_exists(sport, league, season):
 
 def __read_supplement_cache_file(sport, league, season):
 	path = __get_supplement_cache_file_path(sport, league, season)
-	print("Reading %s %s supplement from disk cache ..." % (league, season))
+	print("Reading %s %s all-star game supplement from disk cache ..." % (league, season))
 	return open(path, "r").read() # TODO: Invalidate cache
 
 def __write_supplement_cache_file(sport, league, season, json):
-	print("Writing %s %s supplements cache to disk ..." % (league, season))
+	print("Writing %s %s all-star game supplement cache to disk ..." % (league, season))
 	path = __get_supplement_cache_file_path(sport, league, season)
 	dir = os.path.dirname(path)
 	EnsureDirectory(dir)
