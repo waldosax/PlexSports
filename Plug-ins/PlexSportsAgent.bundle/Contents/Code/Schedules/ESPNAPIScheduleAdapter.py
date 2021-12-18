@@ -460,20 +460,30 @@ def __get_playoffRound(league, subseason, title, competition):
 			# TODO: Only week out if date string
 			title = ""
 
-	elif league == LEAGUE_NHL and subseason == NHL_SUBSEASON_FLAG_POSTSEASON:
-		if indexOf(title.lower(), "1st round") >= 0:
-			subseason = NHL_SUBSEASON_FLAG_POSTSEASON
-			playoffRound = NHL_PLAYOFF_ROUND_1
-		elif indexOf(title.lower(), "2nd round") >= 0:
-			subseason = NHL_SUBSEASON_FLAG_POSTSEASON
-			playoffRound = NHL_PLAYOFF_ROUND_2
-		elif indexOf(title.lower(), "stanley cup final") >= 0:
-			subseason = NHL_SUBSEASON_FLAG_POSTSEASON
-			playoffRound = NHL_PLAYOFF_ROUND_3
-		elif indexOf(title.lower(), " finals") >= 0:
-			subseason = NHL_SUBSEASON_FLAG_POSTSEASON
-			playoffRound = NHL_PLAYOFF_ROUND_3
-
+	elif league == LEAGUE_NHL:
+		if subseason == NHL_SUBSEASON_FLAG_POSTSEASON:
+			if indexOf(title.lower(), "1st round") >= 0:
+				subseason = NHL_SUBSEASON_FLAG_POSTSEASON
+				playoffRound = NHL_PLAYOFF_ROUND_1
+			elif indexOf(title.lower(), "2nd round") >= 0:
+				subseason = NHL_SUBSEASON_FLAG_POSTSEASON
+				playoffRound = NHL_PLAYOFF_ROUND_2
+			elif indexOf(title.lower(), "stanley cup final") >= 0:
+				subseason = NHL_SUBSEASON_FLAG_POSTSEASON
+				playoffRound = NHL_PLAYOFF_ROUND_3
+			elif indexOf(title.lower(), " finals") >= 0:
+				subseason = NHL_SUBSEASON_FLAG_POSTSEASON
+				playoffRound = NHL_PLAYOFF_ROUND_3
+		else:
+			if title and title.find("ALL-STAR") >= 0:
+				if title.find("SEMIFINAL") >= 0:
+					eventIndicator = NHL_EVENT_FLAG_ALL_STAR_SEMIFINAL
+				elif title.find("FINAL") >= 0:
+					eventIndicator = NHL_EVENT_FLAG_ALL_STAR_GAME
+				else:
+					eventIndicator = NHL_EVENT_FLAG_ALL_STAR_GAME
+			elif competition.get("type") and competition["type"].get("id") == "4":
+				eventIndicator = NHL_EVENT_FLAG_ALL_STAR_GAME
 
 	return (subseason, playoffRound, eventIndicator, title)
 

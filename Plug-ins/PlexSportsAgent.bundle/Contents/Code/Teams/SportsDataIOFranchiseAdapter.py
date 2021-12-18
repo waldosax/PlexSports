@@ -98,6 +98,7 @@ def DownloadAllTeams(league):
 		if league == LEAGUE_MLB: allStar = abbrev.upper() in ["AL", "NL"]
 		elif league == LEAGUE_NBA: allStar = city == "Team"
 		elif league == LEAGUE_NFL: allStar = abbrev.upper() in ["AFC", "NFC"]
+		elif league == LEAGUE_NHL: allStar = allStar = (name.find("All Star") >= 0)
 		active = allStar or abbrev.upper() in activeTeamKeys
 
 
@@ -111,6 +112,9 @@ def DownloadAllTeams(league):
 			city = "All Stars"
 			fullName = "%s %s" % (city, name)
 
+		if league == LEAGUE_NHL and allStar:
+			aliases.append("Team %s" % city)
+
 		if sdio_data_corrections.get(league):
 			if sdio_data_corrections[league].get(abbrev):
 				if sdio_data_corrections[league][abbrev].get("city"):
@@ -123,9 +127,9 @@ def DownloadAllTeams(league):
 					nbaDotComTeamID = sdio_data_corrections[league][abbrev]["nbaDotComTeamID"]
 				if sdio_data_corrections[league][abbrev].get("abbreviation"):
 					aliases.append(abbrev)
+					if sdio_data_corrections[league][abbrev].get("aliases"):
+						aliases = list(set(aliases + sdio_data_corrections[league][abbrev]["aliases"]))
 					abbrev = sdio_data_corrections[league][abbrev]["abbreviation"]
-				if sdio_data_corrections[league][abbrev].get("aliases"):
-					aliases = list(set(aliases = sdio_data_corrections[league][abbrev]["aliases"]))
 
 		conference = deunicode(team.get("Conference") or team.get("League"))
 		if conference == "None": conference = None

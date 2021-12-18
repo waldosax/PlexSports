@@ -1,3 +1,4 @@
+import re
 from bs4 import BeautifulSoup
 import bs4
 from pprint import pprint
@@ -21,6 +22,12 @@ __basic_info_box_selectors = {
 
 
 
+
+
+def is_redirected(soup):
+	redirectedFrom = soup.select_one(".mw-redirectedfrom")
+	if redirectedFrom: return True
+	return False
 
 
 def process_basic_info_box(soup):
@@ -47,9 +54,8 @@ def process_basic_info_box(soup):
 				bigSectionNode = bigSectionNodes[i]
 
 				# Find Logo
-				logoNodes = bigSectionNode.select(selectors["logo"])
-				if logoNodes:
-					logoNode = logoNodes[0]
+				logoNode = bigSectionNode.select_one(selectors["logo"])
+				if logoNode:
 					logoThumbSrc = logoNode.attrs["src"]
 					logoUrl = extract_image_url(logoThumbSrc)
 					processed_info.setdefault("logo", logoUrl)
@@ -68,18 +74,16 @@ def process_basic_info_box(soup):
 				sectionHeaderLabel = sectionHeaderNodes[0].text;
 				continue
 
-			labelNodes = sectionNode.select(selectors["small-section-label"])
-			if labelNodes:
-				label = labelNodes[0].text
-				valueNode = None
+			labelNode = sectionNode.select_one(selectors["small-section-label"])
+			if labelNode:
+				label = labelNode.text
 				value = None
-				valueNodes = sectionNode.select(selectors["small-section-value"])
-				if valueNodes:
-					valueNode = valueNodes[0]
+				valueNode = sectionNode.select_one(selectors["small-section-value"])
+				if valueNode:
 
 					if (label == "Date"):
 						value = valueNode.text.strip()
-						eventDate = __parse_date(value)
+						eventDate = extract_date(value)
 
 					if (label == "Television" or (label == "Network" and ((not sectionHeaderLabel) or sectionHeaderLabel.find("TV") >= 0))):
 						networks = []
@@ -110,7 +114,7 @@ def process_basic_info_box(soup):
 		pass			
 					
 		if boxscoreNode:
-			if not eventDate: eventDate = __parse_date(boxscoreNode.text.strip())
+			if not eventDate: eventDate = extract_date(strip_citations(boxscoreNode).strip())
 
 			awayTeam = None
 			homeTeam = None
@@ -122,7 +126,8 @@ def process_basic_info_box(soup):
 
 					teamName = boxscoreContent.text
 					if not teamName: continue
-					if teamName[:1] == "<": continue
+					if teamName[:1] == "<": continue # skip pager at bottom
+					if teamName[-1] == ">": continue # skip pager at bottom
 					if awayTeam == None:
 						awayTeam = teamName
 						break
@@ -139,16 +144,6 @@ def process_basic_info_box(soup):
 			processed_info.setdefault("date", eventDate)
 
 	return processed_info
-
-def __parse_date(value):
-	eventDate = None
-	try: eventDate = datetime.datetime.strptime(value, "%B %d, %Y").date()
-	except ValueError:
-		try: eventDate = datetime.datetime.strptime(value, "%a, %B %d, %Y").date()
-		except ValueError:
-			try: eventDate = datetime.datetime.strptime(value, "%A, %B %d, %Y").date()
-			except ValueError: pass
-	return eventDate
 
 
 def get_first_paragraph(soup):
@@ -244,3 +239,28 @@ def flatten_children(el, lst=None):
 		if isinstance(child, (bs4.Tag)): flatten_children(child, lst)
 
 	return lst
+
+
+def extract_date(value):
+	eventDate = __parse_date(value)
+
+	weekday_expression = r"(?:(Sun(day)?)|(Mon(day)?)|(Tue(sday)?)|(Wed(nesday)?)|(Thu(rsday)?)|(Fri(day)?)|(Sat(urday)?))"
+	month_expression = r"(?:(January)|(February)|(March)|(April)|(May)|(June)|(July)|(August)|(September)|(October)|(Novermber)|(December))"
+
+	if not eventDate:
+		expr = r"((?:%s, )?%s\s\d{1,2},\s\d{2,4})" % (weekday_expression, month_expression)
+		m = re.search(expr, value, re.IGNORECASE)
+		if m:
+			eventDate = __parse_date(m.group(0))
+
+	return eventDate
+
+def __parse_date(value):
+	eventDate = None
+	try: eventDate = datetime.datetime.strptime(value, "%B %d, %Y").date()
+	except ValueError:
+		try: eventDate = datetime.datetime.strptime(value, "%a, %B %d, %Y").date()
+		except ValueError:
+			try: eventDate = datetime.datetime.strptime(value, "%A, %B %d, %Y").date()
+			except ValueError: pass
+	return eventDate

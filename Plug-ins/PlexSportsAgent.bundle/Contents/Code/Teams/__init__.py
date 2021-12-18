@@ -388,6 +388,8 @@ def __get_teams_keys(league, franchises, multi_team_city_keys):
 			key = team.key
 			if not key: continue
 
+			keys.setdefault(key, key)
+
 			seasonRange = []
 			for span in team.years:
 				seasonRange = seasonRange + list(range(span.toYear if span.toYear else datetime.datetime.utcnow().year + 1, span.fromYear - 1, -1))
@@ -447,9 +449,11 @@ class TeamNavigator:
 		pass
 
 
-	def GetTeam(self, season, fullName=None, name=None, abbreviation=None, city=None, **identity):
+	def GetTeam(self, season, fullName=None, name=None, abbreviation=None, city=None, key=None, **identity):
 
 		vectors = []
+		if key: vectors.append(key)
+
 		if identity:
 			for source in identity.keys():
 				id = identity.get(source)
@@ -461,6 +465,7 @@ class TeamNavigator:
 			if fullName: vectors.append("%s.%s" % (season, create_scannable_key(fullName)))
 			if name: vectors.append("%s.%s" % (season, create_scannable_key(name)))
 			if abbreviation: vectors.append("%s.%s" % (season, create_scannable_key(abbreviation)))
+
 
 		if fullName: vectors.append(create_scannable_key(fullName))
 		if name: vectors.append(create_scannable_key(name))

@@ -14,32 +14,73 @@ from .Scraper import *
 
 def SupplementSchedule(sched, navigator, sport, league, season):
 
-    augment = ScrapeAllStarGame(sport, league, season)
+    supplement = ScrapeAllStarGame(sport, league, season)
 
-    for eventId in augment.keys():
-        augmentEvent = augment[eventId]
-        if not augmentEvent: continue
+    for key in supplement.keys():
+        supplementalEvent = supplement[key]
+        if not supplementalEvent: continue
+
+        eventId = int(key)
+        if key > 100: eventId = int(key) // 100
 
         # Find event in original schedule
         eligible = __find_events(sched, eventId)
         if eligible:
-            for evt in eligible:
-                __merge_events(navigator, sport, league, season, evt, augmentEvent, eventId)
+            foundEligible = False
+            for eligibleEvent in eligible:
+                if league == LEAGUE_NHL and eventId == NHL_EVENT_FLAG_ALL_STAR_SEMIFINAL:
+                    isMatching = __is_matching_nhl_all_star_semifinal(season, eligibleEvent, supplementalEvent, navigator)
+                    if isMatching:
+                        foundEligible = True
+                        __merge_events(navigator, sport, league, season, eligibleEvent, supplementalEvent, eventId)
+                else:
+                    __merge_events(navigator, sport, league, season, eligibleEvent, supplementalEvent, eventId)
+                    foundEligible = True
+                    pass
+                pass
+
+            if not foundEligible:
+                # Add Event
+                __create_and_add_event(sched, navigator, sport, league, season, supplementalEvent, eventId)
         else:
             # Add Event
-            newEvent = __convert_supplement(navigator, sport, league, season, augmentEvent, eventId)
-            if not newEvent.get("date"): continue
-            AddOrAugmentEvent(sched, ScheduleEvent(**newEvent), 0)
+            __create_and_add_event(sched, navigator, sport, league, season, supplementalEvent, eventId)
 
     pass
 
 
+def __is_matching_nhl_all_star_semifinal(season, eligibleEvent, supplementalEvent, navigator):
+    if supplementalEvent.get("game") and eligibleEvent.game and supplementalEvent["game"] == eligibleEvent.game:
+       return True
+
+    homeTeam = navigator.GetTeam(season, fullName=eligibleEvent.homeTeamName, key=eligibleEvent.homeTeam)
+    awayTeam = navigator.GetTeam(season, fullName=eligibleEvent.awayTeamName, key=eligibleEvent.awayTeam)
+    
+    winner = navigator.GetTeam(season, fullName=supplementalEvent.get("winner"), name=supplementalEvent.get("winner"), abbreviation=supplementalEvent.get("winner"), city=supplementalEvent.get("winner"))
+    loser = navigator.GetTeam(season, fullName=supplementalEvent.get("loser"), name=supplementalEvent.get("loser"), abbreviation=supplementalEvent.get("loser"), city=supplementalEvent.get("loser"))
+
+    if homeTeam and winner and homeTeam.key == winner.key:
+        if awayTeam and loser and awayTeam.key == loser.key:
+            return True
+
+    if homeTeam and loser and homeTeam.key == loser.key:
+        if awayTeam and winner and awayTeam.key == winner.key:
+            return True
+
+    return False
+
+def __create_and_add_event(sched, navigator, sport, league, season, supplementalEvent, eventId):
+    newEvent = __convert_supplement(navigator, sport, league, season, supplementalEvent, eventId)
+    if not newEvent.get("date"): return
+    AddOrAugmentEvent(sched, ScheduleEvent(**newEvent), 0)
+    pass
+
 def __find_events(sched, eventId):
     qualifyingEvents = []
 
-    for key1 in sched.keys():
-        for key2 in sched[key1].keys():
-            evt = sched[key1][key2]
+    for augmentationKey in sched.keys(): # Hashed augmentation keys
+        for subkey in sched[augmentationKey].keys(): # Augmentation subkeys (hours)
+            evt = sched[augmentationKey][subkey]
 
             if evt.eventindicator == eventId:
                 qualifyingEvents.append(evt)
@@ -54,24 +95,33 @@ def __convert_supplement(navigator, sport, league, season, augmentEvent, eventId
         if IsISO8601DateWithoutTime(date): date = ParseISO8601Date(date).date()
         elif IsISO8601Date(date): date = ParseISO8601Date(date)
 
-    augmentHomeTeam = deunicode(augmentEvent.get("homeTeam"))
+    augmentHomeTeam = deunicode(augmentEvent.get("homeTeam") if augmentEvent.get("homeTeam") else augmentEvent.get("loser"))
     homeTeamKey = None
     homeTeamName = None
+    homeTeamDisplay = None
     if augmentHomeTeam:
-        discoveredHomeTeam = navigator.GetTeam(season, fullName=augmentHomeTeam, name=augmentHomeTeam, abbreviation=augmentHomeTeam)
-        if discoveredHomeTeam: homeTeamKey = discoveredHomeTeam.key
-        else: homeTeamName = augmentHomeTeam
+        discoveredHomeTeam = navigator.GetTeam(season, fullName=augmentHomeTeam, name=augmentHomeTeam, abbreviation=augmentHomeTeam, city=augmentHomeTeam)
+        if discoveredHomeTeam:
+            homeTeamKey = discoveredHomeTeam.key
+            homeTeamDisplay = discoveredHomeTeam.fullName
+        else:
+            homeTeamName = augmentHomeTeam
+            homeTeamDisplay = augmentHomeTeam
 
-    augmentAwayTeam = deunicode(augmentEvent.get("awayTeam"))
+    augmentAwayTeam = deunicode(augmentEvent.get("awayTeam") if augmentEvent.get("awayTeam") else augmentEvent.get("winner"))
     awayTeamKey = None
     awayTeamName = None
-    awayTeamKey = None
-    awayTeamName = None
+    awayTeamDisplay = None
     if augmentAwayTeam:
-        discoveredAwayTeam = navigator.GetTeam(season, fullName=augmentAwayTeam, name=augmentAwayTeam, abbreviation=augmentAwayTeam)
-        if discoveredAwayTeam: awayTeamKey = discoveredAwayTeam.key
-        else: awayTeamName = augmentAwayTeam
+        discoveredAwayTeam = navigator.GetTeam(season, fullName=augmentAwayTeam, name=augmentAwayTeam, abbreviation=augmentAwayTeam, city=augmentHomeTeam)
+        if discoveredAwayTeam:
+            awayTeamKey = discoveredAwayTeam.key
+            awayTeamDisplay = discoveredAwayTeam.fullName
+        else:
+            awayTeamName = augmentAwayTeam
+            awayTeamDisplay = augmentAwayTeam
 
+    game = augmentEvent.get("game")
 
     enhancedEvent = {
         "sport": sport,
@@ -81,12 +131,16 @@ def __convert_supplement(navigator, sport, league, season, augmentEvent, eventId
         "eventTitle": deunicode(augmentEvent.get("caption")),
         "description": augmentEvent.get("description"),
         "date": date,
+        "game": game
         }
 
     if homeTeamKey: enhancedEvent["homeTeam"] = homeTeamKey
     if homeTeamName: enhancedEvent["homeTeamName"] = homeTeamName
     if awayTeamKey: enhancedEvent["awayTeam"] = awayTeamKey
     if awayTeamName: enhancedEvent["awayTeamName"] = awayTeamName
+
+    vs = "%s vs. %s" % (homeTeamDisplay, awayTeamDisplay)
+    enhancedEvent.setdefault("vs", vs)
 
     assets = {}
     if augmentEvent.get("logo"):
@@ -102,7 +156,8 @@ def __convert_supplement(navigator, sport, league, season, augmentEvent, eventId
     if networks:
         enhancedEvent.setdefault("networks", networks)
 
-    enhancedEvent["identity"] = {"WikipediaID": "%s.%s.%s" % (league, season, eventId)}
+    gameKeyPart = (".%s" % game) if game else ""
+    enhancedEvent["identity"] = {"WikipediaID": "%s.%s.%s%s" % (league, season, eventId, gameKeyPart)}
 
     return enhancedEvent
 

@@ -1,37 +1,11 @@
 {
     "CacheContainer": {
         "CacheType": "NHL2017SCHEDULE", 
-        "CachedOn": "2021-12-15T17:04:33", 
-        "ExpiresOn": "2021-12-22T17:04:33", 
+        "CachedOn": "2021-12-18T08:12:57", 
+        "ExpiresOn": "2021-12-25T08:12:57", 
         "Version": "2"
     }, 
     "Items": [
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "wikipedia", 
-                        "url": "https://upload.wikimedia.org/wikipedia/en/6/67/2018_NHL_All-Star_Game_logo.png"
-                    }
-                ]
-            }, 
-            "date": "2018-01-28T00:00:00+00:00", 
-            "description": "The 2018 National Hockey League All-Star Game took place at Amalie Arena in Tampa, home of the Tampa Bay Lightning on January 28, 2018. Tampa last held the NHL All-Star Game in 1999. The All-Star Game was played in lieu of NHL participation in the 2018 Winter Olympics, as the NHL Board of Governors ruled against interrupting the season to send players to Pyeongchang from February 10 to 25.", 
-            "eventTitle": "2018 NHL All-Star Game", 
-            "eventindicator": 1, 
-            "identity": {
-                "WikipediaID": "NHL.2017.1"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "2017", 
-            "sport": "Hockey"
-        }, 
         {
             "assets": {
                 "banner": [], 
@@ -23079,14 +23053,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/6/67/2018_NHL_All-Star_Game_logo.png"
+                    }
+                ]
             }, 
             "awayTeam": "c728ffbb-270c-481e-b6f7-a6b7f8115d88", 
             "date": "2018-01-28T20:30:00+00:00", 
-            "eventTitle": "NHL ALL-STAR - SEMIFINAL", 
+            "eventTitle": "2018 NHL All-Star Game", 
+            "eventindicator": 3, 
+            "game": 1, 
             "homeTeam": "8a47ba16-8f07-4a4c-b25d-377a627a8a25", 
             "identity": {
-                "ESPNAPIID": "401003510"
+                "ESPNAPIID": "401003510", 
+                "WikipediaID": "NHL.2017.3.1"
             }, 
             "league": "NHL", 
             "networks": [
@@ -23104,14 +23086,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/6/67/2018_NHL_All-Star_Game_logo.png"
+                    }
+                ]
             }, 
             "awayTeam": "b04fc33e-1bf7-4e14-9d9f-52a49a8811f6", 
             "date": "2018-01-28T21:30:00+00:00", 
-            "eventTitle": "NHL ALL-STAR - SEMIFINAL", 
+            "eventTitle": "2018 NHL All-Star Game", 
+            "eventindicator": 3, 
+            "game": 2, 
             "homeTeam": "aca20d51-b990-4d8e-84a6-9353d7365c91", 
             "identity": {
-                "ESPNAPIID": "401003511"
+                "ESPNAPIID": "401003511", 
+                "WikipediaID": "NHL.2017.3.2"
             }, 
             "league": "NHL", 
             "networks": [
@@ -23129,14 +23119,23 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/6/67/2018_NHL_All-Star_Game_logo.png"
+                    }
+                ]
             }, 
             "awayTeam": "8a47ba16-8f07-4a4c-b25d-377a627a8a25", 
             "date": "2018-01-28T23:00:00+00:00", 
-            "eventTitle": "NHL ALL-STAR - FINAL", 
+            "description": "The 2018 National Hockey League All-Star Game took place at Amalie Arena in Tampa, home of the Tampa Bay Lightning on January 28, 2018. Tampa last held the NHL All-Star Game in 1999. The All-Star Game was played in lieu of NHL participation in the 2018 Winter Olympics, as the NHL Board of Governors ruled against interrupting the season to send players to Pyeongchang from February 10 to 25.", 
+            "eventTitle": "2018 NHL All-Star Game", 
+            "eventindicator": 1, 
+            "game": 3, 
             "homeTeam": "aca20d51-b990-4d8e-84a6-9353d7365c91", 
             "identity": {
-                "ESPNAPIID": "401003512"
+                "ESPNAPIID": "401003512", 
+                "WikipediaID": "NHL.2017.1.3"
             }, 
             "league": "NHL", 
             "networks": [

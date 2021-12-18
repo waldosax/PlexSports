@@ -371,17 +371,23 @@ def __refresh_schedule_cache(sport, league, season, computeHashes=False):
 	schedule = __download_all_schedule_data(sport, league, season)
 	cached_schedules[sport][league][season] = schedule
 
-	def get_sortable_days_event_key(daysEvents):
+	def get_sortable_days_event_key(daysEvents):	# daysEvents is a dict of hour/Event pairs
+													# retrieve a sort key (date, homeTeam, game) from the earliest event
 		return get_sortable_event_key(sorted(daysEvents.values())[0])
-	def get_sortable_event_key(event):
-		return "" if event.date == None else FormatISO8601Date(event.date)
-	def get_sortable_event_key2(event):
-		return event.homeTeam
+
+	def get_sortable_event_key(event):	# Sort by date, then homeTeam[, then game]
+		key = "0000-00-00T00:00:00+00:00" if event.date == None else FormatISO8601Date(event.date)
+		key = key + event.vs or event.homeTeamName or event.homeTeam or ""
+		if event.game: key = key + str(event.game)
+		return key
+	
 
 	# Persist Cache
+
+	# Flatten hierarchy into a simple sorted list
 	jsonEvents = []
-	for daysEvents in sorted(schedule.values(), key=get_sortable_days_event_key):
-		for event in sorted(sorted(daysEvents.values(), key=get_sortable_event_key), key=get_sortable_event_key2):
+	for daysEvents in sorted(schedule.values(), key=get_sortable_days_event_key): # Primary augmentation keys (date + teams)
+		for event in sorted(daysEvents.values(), key=get_sortable_event_key):
 			jsonEvents.append(event)
 	if len(jsonEvents) > 0:
 		cacheContainer = CacheContainer(jsonEvents, CacheType="%s%sSCHEDULE" % (league, season), Version=CACHE_VERSION, Duration=CACHE_DURATION)

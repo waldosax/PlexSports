@@ -84,6 +84,7 @@ wikipedia_nhl_allstar_season_map = {
 	2017: 63,
 	2018: 64,
 	2019: 65,
+	2020: None,
 	}
 
 
@@ -145,6 +146,7 @@ def __downloadNHLAllStarGameSupplement(sport, league, season):
 		return None
 	if key in wikipedia_nhl_allstar_season_map.keys():
 		inst = wikipedia_nhl_allstar_season_map[key]
+		if inst == None: return None
 		suffix = "th"
 		if inst % 10 == 1 and inst // 10 != 1: suffix = "st"
 		if inst % 10 == 2 and inst // 10 != 1: suffix = "nd"
@@ -162,6 +164,8 @@ def __downloadNHLAllStarGameSupplement(sport, league, season):
 
 def DownloadNHLWinterClassicSupplement(sport, league, season):
 	calendarYear = int(season) + 1
+
+	if calendarYear == 2021: return None
 
 	urlTemplate = WIKIPEDIA_BASE_URL + WIKIPEDIA_NHL_WINTER_CLASSIC_PATH
 	return GetResultFromNetwork(

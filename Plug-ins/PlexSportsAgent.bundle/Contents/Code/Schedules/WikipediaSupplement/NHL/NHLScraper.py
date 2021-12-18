@@ -9,10 +9,12 @@ from pprint import pprint
 
 from Constants import *
 from Matching import __expressions_from_literal
+from StringUtils import *
 from TimeZoneUtils import *
 
 from ....Data.WikipediaDownloader import *
 from ..WikipediaSupplementUtils import *
+from ..WikipediaSupplementUtils import __basic_info_box_selectors
 
 
 
@@ -36,6 +38,12 @@ def ScrapeAllStarGame(season):
 
 		supplement.setdefault(NHL_EVENT_FLAG_ALL_STAR_GAME, dict())
 		extendedInfo = __process_page(soup, NHL_EVENT_FLAG_ALL_STAR_GAME)
+
+		if basicInfo:
+			for key in extendedInfo.keys():
+				toBackfill = extendedInfo[key]
+				merge_dictionaries(basicInfo, toBackfill)
+
 		merge_dictionaries(extendedInfo, supplement)
 		if extendedInfo and extendedInfo.get(NHL_EVENT_FLAG_ALL_STAR_GAME) and extendedInfo[NHL_EVENT_FLAG_ALL_STAR_GAME].get("date"): supplement[NHL_EVENT_FLAG_ALL_STAR_GAME]["date"] = extendedInfo[NHL_EVENT_FLAG_ALL_STAR_GAME]["date"]
 
@@ -59,6 +67,17 @@ def __process_page(soup, ind):
 	processed_info = dict()
 
 	selectors = __selectors
+
+
+	# For NHL All-Star Games in the new format (3-3 tournament),
+	#  capture the games/teams and subdivide them.
+	if ind == NHL_EVENT_FLAG_ALL_STAR_GAME:
+		games = __get_all_star_game_tournament(soup)
+		if games:
+			merge_dictionaries(games, processed_info)
+		pass
+
+
 
 	key = ""
 	if ind == NHL_EVENT_FLAG_ALL_STAR_GAME : key = "All-Star Game"
@@ -119,3 +138,55 @@ def __get_toc_ids(soup, key):
 
 	return tocIDs
 
+
+def __get_all_star_game_tournament(soup):
+	games = dict()
+
+	infobox = soup.select_one(__basic_info_box_selectors["info-box"])
+	if infobox:
+		rows = infobox.select(__basic_info_box_selectors["section"])
+		for row in rows:
+			label = row.select_one(__basic_info_box_selectors["small-section-label"])
+			if not label or not label.text or not label.text.strip(): continue
+
+			labelText = label.text.strip()
+			if labelText.find("Game ") < 0: continue;
+			gameNumberLiteral = labelText[5:]
+			gameNumber = converTextToInt(gameNumberLiteral)
+
+			teamsNode = row.select_one(__basic_info_box_selectors["small-section-value"])
+			if not teamsNode: continue
+			teams = teamsNode.text
+
+			# Since the layout of the table is Winner/Loser instead of Away/Home,
+			#  organize them as team1, team2
+			winnerLoser = teams.split(unichr(0x2013))
+			if not winnerLoser or len(winnerLoser) < 1: continue
+
+			winner = winnerLoser[0].strip()
+			while winner and winner[-1].isdigit(): winner = winner[:-1].strip()
+			while winner and winner[0].isdigit(): winner = winner[1:].strip()
+
+			loser = winnerLoser[1].strip()
+			while loser and loser[-1].isdigit(): loser = loser[:-1].strip()
+			while loser and loser[0].isdigit(): loser = loser[1:].strip()
+
+			if gameNumber == 3:
+				games.setdefault(NHL_EVENT_FLAG_ALL_STAR_GAME, dict())
+				games[NHL_EVENT_FLAG_ALL_STAR_GAME]["eventindicator"] = NHL_EVENT_FLAG_ALL_STAR_GAME
+				games[NHL_EVENT_FLAG_ALL_STAR_GAME]["game"] = gameNumber
+				games[NHL_EVENT_FLAG_ALL_STAR_GAME]["winner"] = winner
+				games[NHL_EVENT_FLAG_ALL_STAR_GAME]["loser"] = loser
+			else:
+				key = (NHL_EVENT_FLAG_ALL_STAR_SEMIFINAL * 100) + gameNumber
+				games.setdefault(key, dict())
+				games[key]["eventindicator"] = NHL_EVENT_FLAG_ALL_STAR_SEMIFINAL
+				games[key]["game"] = gameNumber
+				games[key]["winner"] = winner
+				games[key]["loser"] = loser
+	
+	# Now if I really want to go beyond the pale,
+	#  Scrape the bracket to find out home/away teams
+
+
+	return games
