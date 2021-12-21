@@ -1,52 +1,31 @@
 NBAAPI:
 	Allow intl play (Teams)
+	WHO tf are FBC, SHA? ESPNAPI serving inter-league play
+		+ Assimiliate 'Unknown' franchises/teams
 
 Known aliases (Mighty Ducks)
 NHL API 2004 season
 ESPN API Exclude international play from NBA
 ESPN API (NHL) 2006 Season (Internal server error)
-Scrape defunct NHL teams from hockey-reference.com
-WHO tf are FBC, SHA? ESPNAPI serving inter-league play
-	+ Assimiliate 'Unknown' franchises/teams
-Baseball: Get those defunct franchises from MLB API
+
 Generate Franchise report
 Generate schedule report
+
 ESPNAPI for teams and schedules
-	+ cache aggregated API data
 	+ double headers & reschedules DOUBLEHEADER - GAME 2 - MOVED FROM SEPT 4
 	+ Exhibition is EXH
-ScheduleAdapterFactory (Threads in tiers)
-	+ Official
-	+ Definitive
-	+ Authoritative
-	+ Supplemental
 
-NHL Franchises (Canadian) between 1920-1925
-NHL All-Star teams variations
-
+HTTP Cache invalidation
 Only cache if historical (year/day)
-Scheme to serialize this season, but also keep this week's events freshly downloaded.
-If today is in season, pull from cache, but also pull a fresh copy for season of for up to today. Recache
-NHLAPI, Game 6 (eventTitle) vs. ESPNAPI, Game6 (MLB, title)
-Is time offset inconsistency in trashbucket only an NFL phenomenon?
-Fix data errors (time offset) in trashbucket
-MLB exhibition games, subseason (MLBAPI)
-Maybe parse matches myself instead of generating regular expresstions (overcomplicating)
-NHL has an all-star TOURNAMENT (3-on-3)
+
 "RescheduledGameID": (MLB, Sportsdataio)
-PlayoffRound, Game# from SportsDataIO (MLB, NHL, NBA)
-Normalize Conference/Division
-Normalize playoff round event titles
-Match solely by season & event ind (Wrong date for superbowl)
-scrape nfl.com (for assets)
-Cache 401's from sportsdataio.
+
 SVG Logos from NFL.com
 Grafx generation
 Known aliases: Minnesota Win Twins, Phightin Phillies
-MLBAPI Game COntent?
-Try/Catch and null safety
+
 Logger
-HTTP Cache invalidation
+
 
 Cast=Roster/Leaders
 	+ Scrape [pro-]{{sport}}-reference.com for photos

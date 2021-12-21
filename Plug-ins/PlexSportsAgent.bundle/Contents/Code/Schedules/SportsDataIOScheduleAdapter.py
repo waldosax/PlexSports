@@ -36,7 +36,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 			for schedEvent in sportsDataIOSchedule:
 				if schedEvent["AwayTeam"] == "BYE":
 					continue
-				if schedEvent.get("Canceled") == True or schedEvent["Status"] != "Final":
+				if schedEvent.get("Canceled") == True or (schedEvent["Status"] != "Final" and schedEvent["Status"] != "Postponed"):
 					continue
 
 				# Teams from this API are abbreviations
@@ -64,6 +64,8 @@ def GetSchedule(sched, navigator, sport, league, season):
 				gameID = str(schedEvent["GlobalGameID"])
 
 				week = schedEvent.get("Week")
+
+				vs = "%s vs %s" % (homeTeamFullName, awayTeamFullName)
 					
 				kwargs = {
 					"sport": sport,
@@ -72,7 +74,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"date": date,
 					"week": week,
 					"SportsDataIOID": gameID,
-					"vs": "%s vs %s" % (homeTeamFullName, awayTeamFullName),
+					"vs": vs,
 					"homeTeam": homeTeamKey,
 					"homeTeamName": homeTeamFullName if not homeTeamKey else None,
 					"awayTeam": awayTeamKey,
@@ -83,8 +85,40 @@ def GetSchedule(sched, navigator, sport, league, season):
 				SupplementScheduleEvent(league, schedEvent, kwargs)
 
 				event = ScheduleEvent(**kwargs)
+				event = __event_lookaround(sched, event)
 
 				AddOrAugmentEvent(sched, event)
+
+
+# Because even SportsData.io gets home/away teams backwards sometimes
+def __event_lookaround(sched, event):
+
+	origHash = sched_compute_augmentation_hash(event)
+	if origHash in sched.keys(): return event
+
+	homeaway = [
+		[event.homeTeam, event.awayTeam, event.homeTeamName, event.awayTeamName],
+		[event.awayTeam, event.homeTeam, event.awayTeamName, event.homeTeamName]
+		]
+
+	for teams in homeaway:
+		altEvent = __clone_event(event, homeTeam=teams[0], awayTeam=teams[1], homeTeamName=teams[2], awayTeamName=teams[3])
+		hash = sched_compute_augmentation_hash(altEvent)
+		if hash in sched.keys(): return altEvent
+
+	return event
+
+def __clone_event(event, **kwargs):
+
+	srcdict = event.__dict__
+
+	if kwargs:
+		for key in kwargs.keys():
+			if key in srcdict.keys():
+				srcdict[key] = kwargs[key]
+
+	altEvent = ScheduleEvent(**srcdict)
+	return altEvent
 
 
 def SupplementScheduleEvent(league, schedEvent, kwargs):

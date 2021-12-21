@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
 		for y in range(league_mins[league], maxyear):
 			season = str(y)
-			PlexSportsAgent.Schedules.WikipediaSupplement.Scraper.ScrapeAllStarGame(sport, league, season)
+			#PlexSportsAgent.Schedules.WikipediaSupplement.Scraper.ScrapeAllStarGame(sport, league, season)
 			PlexSportsAgent.Schedules.GetSchedule(sport, league, season, computeHashes=False, noLoad=True)
 			pass
 

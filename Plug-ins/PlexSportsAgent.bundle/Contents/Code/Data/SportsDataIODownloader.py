@@ -94,7 +94,7 @@ def DownloadScheduleForLeagueAndSeason(league, season, subseason=None):
 	threads = []
 	for suffix in subseasons:
 		s = season
-		if league == LEAGUE_NBA and suffix == SPORTS_DATA_IO_SUBSEASON_ALLSTAR: s = int(season)+1
+		if league == LEAGUE_NBA: s = int(season)+1
 		t = threading.Thread(target=get_and_append_data, kwargs={"suffix": suffix, "season": s, "results": results})
 		threads.append(t)
 		t.start()
