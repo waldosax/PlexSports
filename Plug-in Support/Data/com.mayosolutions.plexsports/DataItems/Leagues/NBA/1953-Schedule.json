@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1953SCHEDULE", 
-        "CachedOn": "2021-12-15T07:13:46", 
-        "ExpiresOn": "2021-12-22T07:13:46", 
+        "CachedOn": "2021-12-18T15:22:53", 
+        "ExpiresOn": "2021-12-25T15:22:53", 
         "Version": "2"
     }, 
     "Items": [
@@ -291,29 +291,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
-            "date": "1953-03-28T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "e2ae64b9-a7ad-4d40-b72b-988046b6f537", 
-            "identity": {
-                "ESPNAPIID": "1830328018"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1953", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "New York Knicks vs. Boston Celtics"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "abc26616-2502-4db7-8b85-c018e16a6ed4", 
             "date": "1953-03-28T05:00:00+00:00", 
             "eventTitle": "", 
@@ -327,6 +304,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Minneapolis Lakers vs. Ft. Wayne Zollner Pistons"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
+            "date": "1953-03-28T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "e2ae64b9-a7ad-4d40-b72b-988046b6f537", 
+            "identity": {
+                "ESPNAPIID": "1830328018"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1953", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "New York Knicks vs. Boston Celtics"
         }, 
         {
             "assets": {
@@ -556,7 +556,8 @@
             "league": "NBA", 
             "networks": [], 
             "season": "1953", 
-            "sport": "Basketball"
+            "sport": "Basketball", 
+            "vs": "Western Conf All-Stars vs. Eastern Conf All-Stars"
         }
     ]
 }

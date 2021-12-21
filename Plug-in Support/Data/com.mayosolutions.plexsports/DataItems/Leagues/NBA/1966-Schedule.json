@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1966SCHEDULE", 
-        "CachedOn": "2021-12-15T07:16:14", 
-        "ExpiresOn": "2021-12-22T07:16:14", 
+        "CachedOn": "2021-12-18T15:23:20", 
+        "ExpiresOn": "2021-12-25T15:23:20", 
         "Version": "2"
     }, 
     "Items": [
@@ -84,29 +84,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "d6a85563-a9d6-41fb-99d3-a8593f04f967", 
-            "date": "1966-03-27T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
-            "identity": {
-                "ESPNAPIID": "1960327002"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1966", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Boston Celtics vs. Cincinnati Royals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "104c5485-019c-4480-ad0e-81bd32abf2db", 
             "date": "1966-03-27T05:00:00+00:00", 
             "eventTitle": "", 
@@ -120,6 +97,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Baltimore Bullets vs. St. Louis Hawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "d6a85563-a9d6-41fb-99d3-a8593f04f967", 
+            "date": "1966-03-27T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
+            "identity": {
+                "ESPNAPIID": "1960327002"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1966", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Boston Celtics vs. Cincinnati Royals"
         }, 
         {
             "assets": {
@@ -176,29 +176,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "104c5485-019c-4480-ad0e-81bd32abf2db", 
-            "date": "1966-04-01T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
-            "identity": {
-                "ESPNAPIID": "1960401013"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1966", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Los Angeles Lakers vs. St. Louis Hawks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "d6a85563-a9d6-41fb-99d3-a8593f04f967", 
             "date": "1966-04-01T05:00:00+00:00", 
             "eventTitle": "", 
@@ -222,19 +199,19 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
-            "date": "1966-04-03T05:00:00+00:00", 
+            "awayTeam": "104c5485-019c-4480-ad0e-81bd32abf2db", 
+            "date": "1966-04-01T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
+            "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
-                "ESPNAPIID": "1960403020"
+                "ESPNAPIID": "1960401013"
             }, 
             "league": "NBA", 
             "networks": [], 
             "season": "1966", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "Philadelphia 76ers vs. Boston Celtics"
+            "vs": "Los Angeles Lakers vs. St. Louis Hawks"
         }, 
         {
             "assets": {
@@ -258,6 +235,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Los Angeles Lakers vs. St. Louis Hawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
+            "date": "1966-04-03T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
+            "identity": {
+                "ESPNAPIID": "1960403020"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1966", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Philadelphia 76ers vs. Boston Celtics"
         }, 
         {
             "assets": {
@@ -650,7 +650,8 @@
                 "SNI"
             ], 
             "season": "1966", 
-            "sport": "Basketball"
+            "sport": "Basketball", 
+            "vs": "Eastern Conf All-Stars vs. Western Conf All-Stars"
         }
     ]
 }

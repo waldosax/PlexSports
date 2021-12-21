@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1959SCHEDULE", 
-        "CachedOn": "2021-12-15T07:14:54", 
-        "ExpiresOn": "2021-12-22T07:14:54", 
+        "CachedOn": "2021-12-18T15:23:05", 
+        "ExpiresOn": "2021-12-25T15:23:05", 
         "Version": "2"
     }, 
     "Items": [
@@ -107,29 +107,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
-            "date": "1959-03-18T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "3660efe0-0d68-49df-a4c7-035071a37ce7", 
-            "identity": {
-                "ESPNAPIID": "1890318013"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1959", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Minneapolis Lakers vs. Detroit Pistons"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "54f5659f-82e5-4037-8d6b-15fa391eba45", 
             "date": "1959-03-18T05:00:00+00:00", 
             "eventTitle": "", 
@@ -143,6 +120,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Boston Celtics vs. Syracuse Nationals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
+            "date": "1959-03-18T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "3660efe0-0d68-49df-a4c7-035071a37ce7", 
+            "identity": {
+                "ESPNAPIID": "1890318013"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1959", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Minneapolis Lakers vs. Detroit Pistons"
         }, 
         {
             "assets": {
@@ -314,29 +314,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "3660efe0-0d68-49df-a4c7-035071a37ce7", 
-            "date": "1959-03-28T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "104c5485-019c-4480-ad0e-81bd32abf2db", 
-            "identity": {
-                "ESPNAPIID": "1890328001"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1959", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "St. Louis Hawks vs. Minneapolis Lakers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "54f5659f-82e5-4037-8d6b-15fa391eba45", 
             "date": "1959-03-28T05:00:00+00:00", 
             "eventTitle": "", 
@@ -360,19 +337,19 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
-            "date": "1959-03-29T05:00:00+00:00", 
+            "awayTeam": "3660efe0-0d68-49df-a4c7-035071a37ce7", 
+            "date": "1959-03-28T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "54f5659f-82e5-4037-8d6b-15fa391eba45", 
+            "homeTeam": "104c5485-019c-4480-ad0e-81bd32abf2db", 
             "identity": {
-                "ESPNAPIID": "1890329020"
+                "ESPNAPIID": "1890328001"
             }, 
             "league": "NBA", 
             "networks": [], 
             "season": "1959", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "Syracuse Nationals vs. Boston Celtics"
+            "vs": "St. Louis Hawks vs. Minneapolis Lakers"
         }, 
         {
             "assets": {
@@ -396,6 +373,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Minneapolis Lakers vs. St. Louis Hawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
+            "date": "1959-03-29T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "54f5659f-82e5-4037-8d6b-15fa391eba45", 
+            "identity": {
+                "ESPNAPIID": "1890329020"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1959", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Syracuse Nationals vs. Boston Celtics"
         }, 
         {
             "assets": {
@@ -533,7 +533,8 @@
             "league": "NBA", 
             "networks": [], 
             "season": "1959", 
-            "sport": "Basketball"
+            "sport": "Basketball", 
+            "vs": "Eastern Conf All-Stars vs. Western Conf All-Stars"
         }
     ]
 }

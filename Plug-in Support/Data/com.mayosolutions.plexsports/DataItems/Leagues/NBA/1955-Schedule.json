@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1955SCHEDULE", 
-        "CachedOn": "2021-12-15T07:13:49", 
-        "ExpiresOn": "2021-12-22T07:13:49", 
+        "CachedOn": "2021-12-18T15:22:56", 
+        "ExpiresOn": "2021-12-25T15:22:56", 
         "Version": "2"
     }, 
     "Items": [
@@ -38,29 +38,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
-            "date": "1955-03-16T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "e2ae64b9-a7ad-4d40-b72b-988046b6f537", 
-            "identity": {
-                "ESPNAPIID": "1850316018"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1955", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "New York Knicks vs. Boston Celtics"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "fd6e7fbc-7a21-4e87-9072-e92d027d80bd", 
             "date": "1955-03-16T05:00:00+00:00", 
             "eventTitle": "", 
@@ -74,6 +51,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Minneapolis Lakers vs. Rochester Royals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
+            "date": "1955-03-16T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "e2ae64b9-a7ad-4d40-b72b-988046b6f537", 
+            "identity": {
+                "ESPNAPIID": "1850316018"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1955", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "New York Knicks vs. Boston Celtics"
         }, 
         {
             "assets": {
@@ -107,29 +107,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
-            "date": "1955-03-19T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "e2ae64b9-a7ad-4d40-b72b-988046b6f537", 
-            "identity": {
-                "ESPNAPIID": "1850319018"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1955", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "New York Knicks vs. Boston Celtics"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "fd6e7fbc-7a21-4e87-9072-e92d027d80bd", 
             "date": "1955-03-19T05:00:00+00:00", 
             "eventTitle": "", 
@@ -143,6 +120,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Minneapolis Lakers vs. Rochester Royals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
+            "date": "1955-03-19T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "e2ae64b9-a7ad-4d40-b72b-988046b6f537", 
+            "identity": {
+                "ESPNAPIID": "1850319018"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1955", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "New York Knicks vs. Boston Celtics"
         }, 
         {
             "assets": {
@@ -510,7 +510,8 @@
             "league": "NBA", 
             "networks": [], 
             "season": "1955", 
-            "sport": "Basketball"
+            "sport": "Basketball", 
+            "vs": "Eastern Conf All-Stars vs. Western Conf All-Stars"
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1957SCHEDULE", 
-        "CachedOn": "2021-12-15T07:13:53", 
-        "ExpiresOn": "2021-12-22T07:13:53", 
+        "CachedOn": "2021-12-18T15:23:00", 
+        "ExpiresOn": "2021-12-25T15:23:00", 
         "Version": "2"
     }, 
     "Items": [
@@ -38,29 +38,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "3660efe0-0d68-49df-a4c7-035071a37ce7", 
-            "date": "1957-03-16T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "104c5485-019c-4480-ad0e-81bd32abf2db", 
-            "identity": {
-                "ESPNAPIID": "1870316001"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1957", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "St. Louis Hawks vs. Minneapolis Lakers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "54f5659f-82e5-4037-8d6b-15fa391eba45", 
             "date": "1957-03-16T05:00:00+00:00", 
             "eventTitle": "", 
@@ -74,6 +51,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Philadelphia Warriors vs. Syracuse Nationals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "3660efe0-0d68-49df-a4c7-035071a37ce7", 
+            "date": "1957-03-16T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "104c5485-019c-4480-ad0e-81bd32abf2db", 
+            "identity": {
+                "ESPNAPIID": "1870316001"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1957", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "St. Louis Hawks vs. Minneapolis Lakers"
         }, 
         {
             "assets": {
@@ -222,29 +222,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "3660efe0-0d68-49df-a4c7-035071a37ce7", 
-            "date": "1957-03-24T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "104c5485-019c-4480-ad0e-81bd32abf2db", 
-            "identity": {
-                "ESPNAPIID": "1870324001"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1957", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "St. Louis Hawks vs. Minneapolis Lakers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "54f5659f-82e5-4037-8d6b-15fa391eba45", 
             "date": "1957-03-24T05:00:00+00:00", 
             "eventTitle": "", 
@@ -258,6 +235,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Boston Celtics vs. Syracuse Nationals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "3660efe0-0d68-49df-a4c7-035071a37ce7", 
+            "date": "1957-03-24T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "104c5485-019c-4480-ad0e-81bd32abf2db", 
+            "identity": {
+                "ESPNAPIID": "1870324001"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1957", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "St. Louis Hawks vs. Minneapolis Lakers"
         }, 
         {
             "assets": {
@@ -469,7 +469,8 @@
             "league": "NBA", 
             "networks": [], 
             "season": "1957", 
-            "sport": "Basketball"
+            "sport": "Basketball", 
+            "vs": "Western Conf All-Stars vs. Eastern Conf All-Stars"
         }
     ]
 }

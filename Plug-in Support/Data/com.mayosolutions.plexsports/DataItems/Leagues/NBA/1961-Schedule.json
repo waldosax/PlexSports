@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1961SCHEDULE", 
-        "CachedOn": "2021-12-15T07:14:58", 
-        "ExpiresOn": "2021-12-22T07:14:58", 
+        "CachedOn": "2021-12-18T15:23:09", 
+        "ExpiresOn": "2021-12-25T15:23:09", 
         "Version": "2"
     }, 
     "Items": [
@@ -130,29 +130,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "54f5659f-82e5-4037-8d6b-15fa391eba45", 
-            "date": "1961-03-18T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "3308a410-90ab-42ef-8ab0-aece16c7d579", 
-            "identity": {
-                "ESPNAPIID": "1910318009"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1961", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Philadelphia Warriors vs. Syracuse Nationals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "1961-03-18T05:00:00+00:00", 
             "eventTitle": "", 
@@ -176,19 +153,19 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
-            "date": "1961-03-19T05:00:00+00:00", 
+            "awayTeam": "54f5659f-82e5-4037-8d6b-15fa391eba45", 
+            "date": "1961-03-18T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
+            "homeTeam": "3308a410-90ab-42ef-8ab0-aece16c7d579", 
             "identity": {
-                "ESPNAPIID": "1910319013"
+                "ESPNAPIID": "1910318009"
             }, 
             "league": "NBA", 
             "networks": [], 
             "season": "1961", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "Los Angeles Lakers vs. Detroit Pistons"
+            "vs": "Philadelphia Warriors vs. Syracuse Nationals"
         }, 
         {
             "assets": {
@@ -222,19 +199,19 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
-            "date": "1961-03-21T05:00:00+00:00", 
+            "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
+            "date": "1961-03-19T05:00:00+00:00", 
             "eventTitle": "", 
-            "homeTeam": "54f5659f-82e5-4037-8d6b-15fa391eba45", 
+            "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
-                "ESPNAPIID": "1910321020"
+                "ESPNAPIID": "1910319013"
             }, 
             "league": "NBA", 
             "networks": [], 
             "season": "1961", 
             "sport": "Basketball", 
             "subseason": 1, 
-            "vs": "Syracuse Nationals vs. Boston Celtics"
+            "vs": "Los Angeles Lakers vs. Detroit Pistons"
         }, 
         {
             "assets": {
@@ -258,6 +235,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "St. Louis Hawks vs. Los Angeles Lakers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
+            "date": "1961-03-21T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "54f5659f-82e5-4037-8d6b-15fa391eba45", 
+            "identity": {
+                "ESPNAPIID": "1910321020"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1961", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Syracuse Nationals vs. Boston Celtics"
         }, 
         {
             "assets": {
@@ -602,7 +602,8 @@
             "league": "NBA", 
             "networks": [], 
             "season": "1961", 
-            "sport": "Basketball"
+            "sport": "Basketball", 
+            "vs": "Western Conf All-Stars vs. Eastern Conf All-Stars"
         }
     ]
 }

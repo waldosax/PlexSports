@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA1952SCHEDULE", 
-        "CachedOn": "2021-12-15T07:13:44", 
-        "ExpiresOn": "2021-12-22T07:13:44", 
+        "CachedOn": "2021-12-18T15:22:51", 
+        "ExpiresOn": "2021-12-25T15:22:51", 
         "Version": "2"
     }, 
     "Items": [
@@ -61,29 +61,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "3308a410-90ab-42ef-8ab0-aece16c7d579", 
-            "date": "1952-03-20T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "54f5659f-82e5-4037-8d6b-15fa391eba45", 
-            "identity": {
-                "ESPNAPIID": "1820320020"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1952", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Syracuse Nationals vs. Philadelphia Warriors"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "fd6e7fbc-7a21-4e87-9072-e92d027d80bd", 
             "date": "1952-03-20T05:00:00+00:00", 
             "eventTitle": "", 
@@ -97,6 +74,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Ft. Wayne Zollner Pistons vs. Rochester Royals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "3308a410-90ab-42ef-8ab0-aece16c7d579", 
+            "date": "1952-03-20T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "54f5659f-82e5-4037-8d6b-15fa391eba45", 
+            "identity": {
+                "ESPNAPIID": "1820320020"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1952", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Syracuse Nationals vs. Philadelphia Warriors"
         }, 
         {
             "assets": {
@@ -130,29 +130,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
-            "date": "1952-03-23T05:00:00+00:00", 
-            "eventTitle": "", 
-            "homeTeam": "e2ae64b9-a7ad-4d40-b72b-988046b6f537", 
-            "identity": {
-                "ESPNAPIID": "1820323018"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "1952", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "New York Knicks vs. Boston Celtics"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "00199ed5-649c-4e84-b1b8-41f43b56311c", 
             "date": "1952-03-23T05:00:00+00:00", 
             "eventTitle": "", 
@@ -166,6 +143,29 @@
             "sport": "Basketball", 
             "subseason": 1, 
             "vs": "Minneapolis Lakers vs. Indianapolis Olympians"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
+            "date": "1952-03-23T05:00:00+00:00", 
+            "eventTitle": "", 
+            "homeTeam": "e2ae64b9-a7ad-4d40-b72b-988046b6f537", 
+            "identity": {
+                "ESPNAPIID": "1820323018"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "1952", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "New York Knicks vs. Boston Celtics"
         }, 
         {
             "assets": {
@@ -602,7 +602,8 @@
             "league": "NBA", 
             "networks": [], 
             "season": "1952", 
-            "sport": "Basketball"
+            "sport": "Basketball", 
+            "vs": "Western Conf All-Stars vs. Eastern Conf All-Stars"
         }
     ]
 }
