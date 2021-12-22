@@ -333,6 +333,8 @@ def __download_all_schedule_data(sport, league, season):
 				eventTitle = titlecase(altTitle.lower())
 
 			if eventTitle:
+				expr = r"\b%s\b" % league
+				eventTitle = re.sub(expr, league.upper(), eventTitle, 0, re.IGNORECASE)
 				if event.eventTitle and eventTitle != event.eventTitle:
 					event.eventTitle = eventTitle + " - " + event.eventTitle
 				else:
