@@ -73,6 +73,7 @@ nba_playoff_round_expressions = [
 	(__expressions_from_literal("Semifinals"), None, NBA_PLAYOFF_ROUND_SEMIFINALS),
 
 	(__expressions_from_literal("Championship"), None, NBA_PLAYOFF_ROUND_FINALS),
+	(__expressions_from_literal("NBA Finals"), None, NBA_PLAYOFF_ROUND_FINALS),
 	(__expressions_from_literal("Finals"), None, NBA_PLAYOFF_ROUND_FINALS)
 	]
 
