@@ -116,9 +116,13 @@ def GetSchedule(sched, navigator, sport, league, season):
 							altTitle = None
 							for note in competition["notes"]:
 								if note.get("type") == "event":
-									if not title: title = deunicode(note["headline"])
-									#elif not altTitle: altTitle = deunicode(note["headline"])
+									if not altTitle: altTitle = deunicode(note["headline"])
+									elif not title: title = deunicode(note["headline"])
 									else: break
+							if altTitle == "*": altTitle = None
+							if altTitle == "FINA": altTitle = None
+							if altTitle == "PPD": altTitle = None
+							if altTitle and unicode(altTitle).isnumeric(): altTitle = None
 
 							teams = dict()
 							for competitor in competition["competitors"]:
@@ -149,9 +153,15 @@ def GetSchedule(sched, navigator, sport, league, season):
 							# TODO: Normalize title (Title Case)
 
 							gameNumber = None
-							if title:
-								indexOfGame = indexOf(title.lower(), " - game ")
-								if indexOfGame >= 0: gameNumber = int(title[indexOfGame+8:indexOfGame+9].strip())
+							if altTitle:
+								foundGame = False
+								for expr in [r"(?:^|\b)(?:Game\s+(?P<game_number>\d+))(?:\b|$)"]:
+									if foundGame: break
+									m = re.search(expr, altTitle, re.IGNORECASE)
+									if m:
+										gameNumber = int(m.group("game_number"))
+										foundGame = True
+										break
 
 							ysubseason = None
 							week = None
@@ -185,7 +195,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 								"date": date,
 								"ESPNAPIID": id,
 								"eventTitle": title,
-								#"altTitle": altTitle,
+								"altTitle": altTitle,
 								"description": description,
 								"homeTeam": homeTeamKey,
 								"homeTeamName": homeTeamName if not homeTeamKey else None,
@@ -201,8 +211,10 @@ def GetSchedule(sched, navigator, sport, league, season):
 								}
 
 							event = ScheduleEvent(**kwargs)
+							if gameNumber != None and event.game == None: print("FAILED TO SET GAME FROM '%s'" % altTitle)
 
-							AddOrAugmentEvent(sched, event)
+							event = AddOrAugmentEvent(sched, event)
+							if gameNumber != None and event.game == None: print("FAILED TO SET GAME FROM '%s'" % altTitle)
 	
 
 

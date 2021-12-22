@@ -77,6 +77,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 				elif subseason == MLB_SUBSEASON_FLAG_POSTSEASON and schedEvent.get("gamesInSeries") > 1:
 					gameNumber = schedEvent["seriesGameNumber"]
 
+				subseasonTitle = deunicode(schedEvent.get("seriesDescription"))
+				if subseasonTitle == "Regular Season": subseasonTitle = None
+
 
 				kwargs = {
 					"sport": sport,
@@ -85,7 +88,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"date": date,
 					"MLBAPIID": str(schedEvent["gamePk"]),
 					"title": schedEvent.get("description"),
-					"subseasonTitle": schedEvent.get("seriesDescription"),
+					"subseasonTitle": subseasonTitle,
 					"homeTeam": homeTeamKey,
 					"homeTeamName": homeTeamName if not homeTeamKey else None,
 					"awayTeam": awayTeamKey,

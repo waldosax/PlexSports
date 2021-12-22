@@ -82,7 +82,7 @@ class ScheduleEvent:
 		if self.eventindicator == None and kwargs.get("eventindicator"): self.eventindicator = kwargs.get("eventindicator")
 		if not self.eventTitle: self.eventTitle = deunicode(kwargs.get("eventTitle"))
 		if self.week == None and kwargs.get("week"): self.week = kwargs.get("week")
-		if not self.game and kwargs.get("game"): self.game = kwargs.get("game")
+		if self.game == None and kwargs.get("game"): self.game = kwargs.get("game")
 		
 		if not self.homeTeam: self.homeTeam = deunicode(kwargs.get("homeTeam"))
 		if not self.homeTeamName: self.homeTeamName = deunicode(kwargs.get("homeTeamName"))
