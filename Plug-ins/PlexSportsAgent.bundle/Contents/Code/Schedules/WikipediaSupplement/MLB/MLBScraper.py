@@ -191,21 +191,23 @@ def __process_hof_game_page(soup):
 	if tocIDs.get("HOF Game:Results"): anchorID = tocIDs["HOF Game:Results"]
 
 	anchorPoint = None
+	heading = None
 	legend = None
 	resultsTable = None
 	if anchorID: anchorPoint = soup.find(id=anchorID)
-	heading = anchorPoint.parent
-	for sibling in heading.find_next_siblings():
-		if not isinstance(sibling, bs4.Tag): continue
-		if sibling.name == heading.name: break;
-		if sibling.name == "table":
-			if not sibling.attrs["class"] or "wikitable" not in sibling.attrs["class"]: continue
-			if legend == None:
-				legend = sibling
-				continue
-			if legend != None:
-				resultsTable = sibling
-				break
+	if anchorPoint: heading = anchorPoint.parent
+	if heading:
+		for sibling in heading.find_next_siblings():
+			if not isinstance(sibling, bs4.Tag): continue
+			if sibling.name == heading.name: break;
+			if sibling.name == "table":
+				if not sibling.attrs["class"] or "wikitable" not in sibling.attrs["class"]: continue
+				if legend == None:
+					legend = sibling
+					continue
+				if legend != None:
+					resultsTable = sibling
+					break
 
 	if resultsTable:
 		for tr in resultsTable.select("tr"):

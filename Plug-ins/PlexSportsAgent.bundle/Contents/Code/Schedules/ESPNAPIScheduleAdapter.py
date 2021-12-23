@@ -149,9 +149,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 								awayTeamName = awayTeam.fullName
 
 
-							(xsubseason, playoffRound, eventIndicator, xtitle) = __get_playoffRound(league, subseason, title, competition)
-							if xtitle != None and xtitle != title: title = xtitle
-							# TODO: Normalize title (Title Case)
+							(xsubseason, playoffRound, eventIndicator) = __get_playoffRound(league, subseason, title, altTitle, competition)
 
 							gameNumber = None
 							if altTitle:
@@ -411,7 +409,7 @@ def __get_subseason(league, seasonType):
 		subseason = espn_subseason_flags_by_league[league].get(seasonType)
 	return subseason
 
-def __get_playoffRound(league, subseason, title, competition):
+def __get_playoffRound(league, subseason, title, altTitle, competition):
 	"""League-specific analysis."""
 	
 	playoffRound = None
@@ -419,6 +417,7 @@ def __get_playoffRound(league, subseason, title, competition):
 
 	subseason = subseason or 0
 	title = title or ""
+	altTitle = title or ""
 	typeAbbrev = competition["type"]["abbreviation"] if competition.get("type") and competition["type"].get("abbreviation") else None
 	
 	if league == LEAGUE_MLB and subseason == MLB_SUBSEASON_FLAG_POSTSEASON:
@@ -438,67 +437,64 @@ def __get_playoffRound(league, subseason, title, competition):
 				subseason = NBA_SUBSEASON_FLAG_POSTSEASON
 				playoffRound = NBA_PLAYOFF_1ST_ROUND
 		elif subseason == NBA_SUBSEASON_FLAG_REGULAR_SEASON:
-			if title and title.upper().find("ALL-STAR GAME") >= 0:
+			if altTitle and altTitle.upper().find("ALL-STAR GAME") >= 0:
 				eventIndicator = NBA_EVENT_FLAG_ALL_STAR_GAME
 			elif competition["type"]["id"] == 4 or competition["type"].get("abbreviation") == "ALLSTAR":
 				eventIndicator = NBA_EVENT_FLAG_ALL_STAR_GAME
-			elif title and title.upper() == "RISING STARS":
+			elif altTitle and altTitle.upper() == "RISING STARS":
 				eventIndicator = NBA_EVENT_FLAG_RISING_STARS_GAME
 	elif league == LEAGUE_NFL:
-		if indexOf(title.lower(), "hall of fame") >= 0:
+		if indexOf(altTitle.lower(), "hall of fame") >= 0:
 			subseason = NFL_SUBSEASON_FLAG_PRESEASON
 			eventIndicator = NFL_EVENT_FLAG_HALL_OF_FAME
 
-		elif indexOf(title.lower(), "wild card") >= 0 or indexOf(title.lower(), "wildcard") >= 0 or typeAbbrev == "RD16":
+		elif indexOf(altTitle.lower(), "wild card") >= 0 or indexOf(altTitle.lower(), "wildcard") >= 0 or typeAbbrev == "RD16":
 			subseason = NFL_SUBSEASON_FLAG_POSTSEASON
 			playoffRound = NFL_PLAYOFF_ROUND_WILDCARD
 
-		elif indexOf(title.lower(), "division") >= 0 or typeAbbrev == "QTR":
+		elif indexOf(altTitle.lower(), "division") >= 0 or typeAbbrev == "QTR":
 			subseason = NFL_SUBSEASON_FLAG_POSTSEASON
 			playoffRound = NFL_PLAYOFF_ROUND_DIVISION
 
-		elif indexOf(title.lower(), "championship") >= 0 or indexOf(title.lower(), "conference") >= 0 or typeAbbrev == "SEMI":
+		elif indexOf(altTitle.lower(), "championship") >= 0 or indexOf(altTitle.lower(), "conference") >= 0 or typeAbbrev == "SEMI":
 			subseason = NFL_SUBSEASON_FLAG_POSTSEASON
 			playoffRound = NFL_PLAYOFF_ROUND_CHAMPIONSHIP
 
-		elif indexOf(title.lower(), "super") >= 0 or typeAbbrev == "FINAL":
+		elif indexOf(altTitle.lower(), "super") >= 0 or typeAbbrev == "FINAL":
 			subseason = NFL_SUBSEASON_FLAG_POSTSEASON
 			playoffRound = NFL_PLAYOFF_ROUND_SUPERBOWL
 			eventIndicator = NFL_EVENT_FLAG_SUPERBOWL
 
-		elif indexOf(title.lower(), "pro bowl") >= 0 or typeAbbrev == "ALLSTAR":
+		elif indexOf(altTitle.lower(), "pro bowl") >= 0 or typeAbbrev == "ALLSTAR":
 			eventIndicator = NFL_EVENT_FLAG_PRO_BOWL
 
-		else:
-			# TODO: Only week out if date string
-			title = ""
 
 	elif league == LEAGUE_NHL:
 		if subseason == NHL_SUBSEASON_FLAG_POSTSEASON:
-			if indexOf(title.lower(), "1st round") >= 0:
+			if indexOf(altTitle.lower(), "1st round") >= 0:
 				subseason = NHL_SUBSEASON_FLAG_POSTSEASON
 				playoffRound = NHL_PLAYOFF_ROUND_1
-			elif indexOf(title.lower(), "2nd round") >= 0:
+			elif indexOf(altTitle.lower(), "2nd round") >= 0:
 				subseason = NHL_SUBSEASON_FLAG_POSTSEASON
 				playoffRound = NHL_PLAYOFF_ROUND_2
-			elif indexOf(title.lower(), "stanley cup final") >= 0:
+			elif indexOf(altTitle.lower(), "stanley cup final") >= 0:
 				subseason = NHL_SUBSEASON_FLAG_POSTSEASON
 				playoffRound = NHL_PLAYOFF_ROUND_3
-			elif indexOf(title.lower(), " finals") >= 0:
+			elif indexOf(altTitle.lower(), " finals") >= 0:
 				subseason = NHL_SUBSEASON_FLAG_POSTSEASON
 				playoffRound = NHL_PLAYOFF_ROUND_3
 		else:
-			if title and title.find("ALL-STAR") >= 0:
-				if title.find("SEMIFINAL") >= 0:
+			if altTitle and altTitle.find("ALL-STAR") >= 0:
+				if altTitle.find("SEMIFINAL") >= 0:
 					eventIndicator = NHL_EVENT_FLAG_ALL_STAR_SEMIFINAL
-				elif title.find("FINAL") >= 0:
+				elif altTitle.find("FINAL") >= 0:
 					eventIndicator = NHL_EVENT_FLAG_ALL_STAR_GAME
 				else:
 					eventIndicator = NHL_EVENT_FLAG_ALL_STAR_GAME
 			elif competition.get("type") and competition["type"].get("id") == "4":
 				eventIndicator = NHL_EVENT_FLAG_ALL_STAR_GAME
 
-	return (subseason, playoffRound, eventIndicator, title)
+	return (subseason, playoffRound, eventIndicator)
 
 
 __nfl_week_title_expr = re.compile(r"(?P<preseason>(?:Preseason)\s)?Week\s(?P<week>\d+)", re.IGNORECASE)
