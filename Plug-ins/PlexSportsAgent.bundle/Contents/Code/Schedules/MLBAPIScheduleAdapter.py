@@ -59,6 +59,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 				gameNumber = None
 	
 				gameType = schedEvent["gameType"]
+				title = deunicode(schedEvent.get("description"))
 				if gameType == MLBAPI_GAMETYPE_SPRING_TRAINING: subseason = MLB_SUBSEASON_FLAG_PRESEASON
 				elif gameType == MLBAPI_GAMETYPE_REGULAR_SEASON: subseason = MLB_SUBSEASON_FLAG_REGULAR_SEASON
 				elif gameType in [MLBAPI_GAMETYPE_WILDCARD_GAME, MLBAPI_GAMETYPE_DIVISION_SERIES, MLBAPI_GAMETYPE_LEAGUE_CHAMPIONSHIP_SERIES, MLBAPI_GAMETYPE_WORLD_SERIES]:
@@ -71,11 +72,13 @@ def GetSchedule(sched, navigator, sport, league, season):
 					# TODO: MLBAPI_GAMETYPE_CHAMPIONSHIP?
 				elif gameType == MLBAPI_GAMETYPE_ALL_STAR_GAME:
 					eventIndicator = MLB_EVENT_FLAG_ALL_STAR_GAME
+				elif gameType == MLBAPI_GAMETYPE_ALL_STAR_GAME:
+					eventIndicator = MLB_EVENT_FLAG_ALL_STAR_GAME
 
 				if schedEvent.get("doubleHeader") == "Y":
 					gameNumber = schedEvent["gameNumber"]
-				elif subseason == MLB_SUBSEASON_FLAG_POSTSEASON and schedEvent.get("gamesInSeries") > 1:
-					gameNumber = schedEvent["seriesGameNumber"]
+				elif title and title.find("Hall of Fame Game") >= 0:
+					eventIndicator = MLB_EVENT_FLAG_HALL_OF_FAME
 
 				subseasonTitle = deunicode(schedEvent.get("seriesDescription"))
 				if subseasonTitle == "Regular Season": subseasonTitle = None
@@ -87,7 +90,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"season": season,
 					"date": date,
 					"MLBAPIID": str(schedEvent["gamePk"]),
-					"title": schedEvent.get("description"),
+					"title": title,
 					"subseasonTitle": subseasonTitle,
 					"homeTeam": homeTeamKey,
 					"homeTeamName": homeTeamName if not homeTeamKey else None,

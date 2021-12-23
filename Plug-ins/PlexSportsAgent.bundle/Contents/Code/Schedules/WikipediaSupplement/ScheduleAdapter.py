@@ -28,16 +28,10 @@ def SupplementSchedule(sched, navigator, sport, league, season):
         if eligible:
             foundEligible = False
             for eligibleEvent in eligible:
-                if league == LEAGUE_NHL and eventId == NHL_EVENT_FLAG_ALL_STAR_SEMIFINAL:
-                    isMatching = __is_matching_nhl_all_star_semifinal(season, eligibleEvent, supplementalEvent, navigator)
-                    if isMatching:
-                        foundEligible = True
-                        __merge_events(navigator, sport, league, season, eligibleEvent, supplementalEvent, eventId)
-                else:
-                    __merge_events(navigator, sport, league, season, eligibleEvent, supplementalEvent, eventId)
+                isMatching = __is_matching_game(season, eligibleEvent, supplementalEvent, navigator)
+                if isMatching:
                     foundEligible = True
-                    pass
-                pass
+                    __merge_events(navigator, sport, league, season, eligibleEvent, supplementalEvent, eventId)
 
             if not foundEligible:
                 # Add Event
@@ -49,7 +43,7 @@ def SupplementSchedule(sched, navigator, sport, league, season):
     pass
 
 
-def __is_matching_nhl_all_star_semifinal(season, eligibleEvent, supplementalEvent, navigator):
+def __is_matching_game(season, eligibleEvent, supplementalEvent, navigator):
     if supplementalEvent.get("game") and eligibleEvent.game and supplementalEvent["game"] == eligibleEvent.game:
        return True
 
