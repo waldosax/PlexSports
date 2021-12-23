@@ -149,7 +149,8 @@ def GetSchedule(sched, navigator, sport, league, season):
 								awayTeamName = awayTeam.fullName
 
 
-							(xsubseason, playoffRound, eventIndicator) = __get_playoffRound(league, subseason, title, altTitle, competition)
+							(xsubseason, playoffRound, eventIndicator, xaltTitle) = __get_playoffRound(league, subseason, title, altTitle, competition)
+							if xaltTitle and xaltTitle != altTitle: altTitle = xaltTitle
 
 							gameNumber = None
 							if altTitle:
@@ -464,6 +465,7 @@ def __get_playoffRound(league, subseason, title, altTitle, competition):
 			subseason = NFL_SUBSEASON_FLAG_POSTSEASON
 			playoffRound = NFL_PLAYOFF_ROUND_SUPERBOWL
 			eventIndicator = NFL_EVENT_FLAG_SUPERBOWL
+			altTitle = altTitle.upper().replace("SUPER BOWL", "SUPERBOWL")
 
 		elif indexOf(altTitle.lower(), "pro bowl") >= 0 or typeAbbrev == "ALLSTAR":
 			eventIndicator = NFL_EVENT_FLAG_PRO_BOWL
@@ -494,7 +496,7 @@ def __get_playoffRound(league, subseason, title, altTitle, competition):
 			elif competition.get("type") and competition["type"].get("id") == "4":
 				eventIndicator = NHL_EVENT_FLAG_ALL_STAR_GAME
 
-	return (subseason, playoffRound, eventIndicator)
+	return (subseason, playoffRound, eventIndicator, altTitle)
 
 
 __nfl_week_title_expr = re.compile(r"(?P<preseason>(?:Preseason)\s)?Week\s(?P<week>\d+)", re.IGNORECASE)

@@ -1,3 +1,4 @@
+import re
 import json
 
 from Constants import *
@@ -60,6 +61,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 	
 				gameType = schedEvent["gameType"]
 				title = deunicode(schedEvent.get("description"))
+				altDescription = None
 				if gameType == MLBAPI_GAMETYPE_SPRING_TRAINING: subseason = MLB_SUBSEASON_FLAG_PRESEASON
 				elif gameType == MLBAPI_GAMETYPE_REGULAR_SEASON: subseason = MLB_SUBSEASON_FLAG_REGULAR_SEASON
 				elif gameType in [MLBAPI_GAMETYPE_WILDCARD_GAME, MLBAPI_GAMETYPE_DIVISION_SERIES, MLBAPI_GAMETYPE_LEAGUE_CHAMPIONSHIP_SERIES, MLBAPI_GAMETYPE_WORLD_SERIES]:
@@ -77,8 +79,20 @@ def GetSchedule(sched, navigator, sport, league, season):
 
 				if schedEvent.get("doubleHeader") == "Y":
 					gameNumber = schedEvent["gameNumber"]
-				elif title and title.find("Hall of Fame Game") >= 0:
+				
+				if title and title.find("Hall of Fame Game") >= 0:
 					eventIndicator = MLB_EVENT_FLAG_HALL_OF_FAME
+				if title and title.find(" - ") >= 0:
+					altDescription = title[title.find(" - ")+3:]
+					title = title[:title.find(" - ")]
+				
+				if not gameNumber and title and subseason == MLB_SUBSEASON_FLAG_POSTSEASON:
+					for expr in game_number_expressions:
+						m = re.search(expr, title, re.IGNORECASE)
+						if m:
+							gameNumber = int(m.group("game_number"))
+							title = (m.string[:m.start()] + m.string[m.end():]).strip()
+							break
 
 				subseasonTitle = deunicode(schedEvent.get("seriesDescription"))
 				if subseasonTitle == "Regular Season": subseasonTitle = None
@@ -92,6 +106,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"MLBAPIID": str(schedEvent["gamePk"]),
 					"title": title,
 					"subseasonTitle": subseasonTitle,
+					"altDescription": altDescription,
 					"homeTeam": homeTeamKey,
 					"homeTeamName": homeTeamName if not homeTeamKey else None,
 					"awayTeam": awayTeamKey,

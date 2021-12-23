@@ -89,7 +89,7 @@ def __correct_abbreviation(abbrev):
 		return pfr_abbreviation_corrections[abbrev.upper()]
 	return abbrev.upper()
 
-# Because ProFootballReference can home/away teams backwards sometimes
+# Because ProFootballReference can get home/away teams backwards sometimes
 def __event_lookaround(sched, event):
 
 	origHash = sched_compute_augmentation_hash(event)

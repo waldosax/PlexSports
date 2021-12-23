@@ -21,6 +21,7 @@ import NBAAPIScheduleAdapter
 import NHLAPIScheduleAdapter
 import ESPNAPIScheduleAdapter
 import WikipediaSupplement
+import TitleManicurist
 
 from ScheduleEvent import *
 
@@ -294,55 +295,10 @@ def __download_all_schedule_data(sport, league, season):
 
 	WikipediaSupplement.Adapt(sched, navigator, sport, league, season)
 
-
 	for daysEvents in sched.values():
 		for event in daysEvents.values():
-			title = event.title
-			altTitle = event.altTitle
-			subseasonTitle = event.subseasonTitle
-			description = event.description
+			TitleManicurist.Polish(sport, league, season, event)
 
-			eventTitle = None
-
-			if subseasonTitle and title and title[:len(subseasonTitle)].upper() != subseasonTitle.upper():
-				title = "%s %s" % (subseasonTitle, title)
-				
-			location = ""
-			if altTitle:
-				if altTitle.upper()[:3] == "IN " or altTitle.upper()[:3] == "AT ":
-					location = titlecase(altTitle[3:].lower())
-					m = re.search(r",?\s(?P<state>[A-Z]{2})$", location, re.IGNORECASE)
-					if m:
-						location = location[:m.start(0)] + ", " + m.group("state").upper()
-						pass
-					altTitle = altTitle[:3].lower() + location
-				else:
-					altTitle = titlecase(altTitle.lower())
-
-			if title:
-				if title.upper()[:3] == "IN " or title.upper()[:3] == "AT ":
-					eventTitle = "Regular Season game played " + title.lower()[:3] + titlecase(title[3:])
-				else:
-					eventTitle = titlecase(title)
-
-				if location and (title.replace(",", "").upper()[-len(location.replace(",", "")):] != location.replace(",", "").upper() and title.upper().find(location.upper()) < 0):
-					eventTitle = eventTitle + " at " + location
-				elif not location and altTitle:
-					eventTitle = eventTitle + " " + altTitle
-			elif altTitle:
-				eventTitle = titlecase(altTitle.lower())
-
-			if eventTitle:
-				expr = r"\b%s\b" % league
-				eventTitle = re.sub(expr, league.upper(), eventTitle, 0, re.IGNORECASE)
-				if event.eventTitle and eventTitle != event.eventTitle:
-					event.eventTitle = eventTitle + " - " + event.eventTitle
-				else:
-					event.eventTitle = eventTitle
-
-			if eventTitle and not event.description:
-				event.eventTitle = None
-				event.description = eventTitle
 	return sched
 
 

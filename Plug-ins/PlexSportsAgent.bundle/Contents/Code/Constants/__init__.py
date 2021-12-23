@@ -109,7 +109,8 @@ week_expressions = [
 
 
 game_number_expressions = [
-	r"Game%s?(?P<game_number>(\d+))" % EXPRESSION_SEPARATOR
+	r"Game%s?(?P<game_number>(\d+))" % EXPRESSION_SEPARATOR,
+	r"Gm\.?%s?(?P<game_number>(\d+))" % EXPRESSION_SEPARATOR,
 ]
 
 
