@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1948SCHEDULE", 
-        "CachedOn": "2021-12-18T22:21:56", 
-        "ExpiresOn": "2021-12-25T22:21:56", 
+        "CachedOn": "2021-12-23T19:24:42", 
+        "ExpiresOn": "2021-12-30T19:24:42", 
         "Version": "2"
     }, 
     "Items": [
@@ -434,15 +434,35 @@
                 "thumbnail": []
             }, 
             "awayTeam": "c728ffbb-270c-481e-b6f7-a6b7f8115d88", 
-            "awayTeamName": "NHL All-Stars", 
-            "date": "1948-11-04T01:00:00+00:00", 
+            "date": "1948-11-03T00:00:00", 
             "description": "The 2nd National Hockey League All-Star Game took place at Chicago Stadium, home of the Chicago Black Hawks, on November 3, 1948. For the second year in a row, the game saw the Toronto Maple Leafs play a team of NHL all-stars. The All-Stars won the game 3\u20131.", 
             "eventTitle": "2nd NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
-                "NHLAPIID": 1948040002, 
                 "WikipediaID": "NHL.1948.1"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1948", 
+            "sport": "Hockey", 
+            "vs": "Toronto Maple Leafs vs. Central All Stars"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeamName": "NHL All-Stars", 
+            "date": "1948-11-04T01:00:00+00:00", 
+            "eventindicator": 1, 
+            "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
+            "identity": {
+                "NHLAPIID": 1948040002
             }, 
             "league": "NHL", 
             "networks": [], 

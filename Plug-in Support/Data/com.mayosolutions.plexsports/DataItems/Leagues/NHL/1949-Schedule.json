@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1949SCHEDULE", 
-        "CachedOn": "2021-12-18T22:23:30", 
-        "ExpiresOn": "2021-12-25T22:23:30", 
+        "CachedOn": "2021-12-23T19:24:43", 
+        "ExpiresOn": "2021-12-30T19:24:43", 
         "Version": "2"
     }, 
     "Items": [
@@ -16,15 +16,35 @@
                 "thumbnail": []
             }, 
             "awayTeam": "c728ffbb-270c-481e-b6f7-a6b7f8115d88", 
-            "awayTeamName": "NHL All-Stars", 
-            "date": "1949-10-11T01:00:00+00:00", 
+            "date": "1949-10-10T00:00:00", 
             "description": "The 3rd National Hockey League All-Star Game took place at Maple Leaf Gardens, home of the Toronto Maple Leafs, on October 10, 1949. For the third year in a row, the game saw the Maple Leafs play a team of NHL all-stars. The All-Stars won the game by a score of 3\u20131, the same as the previous game.", 
             "eventTitle": "3rd NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
-                "NHLAPIID": 1949040003, 
                 "WikipediaID": "NHL.1949.1"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1949", 
+            "sport": "Hockey", 
+            "vs": "Toronto Maple Leafs vs. Central All Stars"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeamName": "NHL All-Stars", 
+            "date": "1949-10-11T01:00:00+00:00", 
+            "eventindicator": 1, 
+            "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
+            "identity": {
+                "NHLAPIID": 1949040003
             }, 
             "league": "NHL", 
             "networks": [], 

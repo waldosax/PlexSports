@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1954SCHEDULE", 
-        "CachedOn": "2021-12-18T22:32:05", 
-        "ExpiresOn": "2021-12-25T22:32:05", 
+        "CachedOn": "2021-12-23T19:24:49", 
+        "ExpiresOn": "2021-12-30T19:24:49", 
         "Version": "2"
     }, 
     "Items": [
@@ -16,15 +16,35 @@
                 "thumbnail": []
             }, 
             "awayTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
-            "awayTeamName": "NHL All-Stars", 
-            "date": "1954-10-03T01:00:00+00:00", 
+            "date": "1954-10-02T00:00:00", 
             "description": "The 8th National Hockey League All-Star Game took place at the Detroit Olympia, home of the Detroit Red Wings, on October 2, 1954. The Red Wings, winner of the 1954 Stanley Cup Finals, played a team of All-Stars, with the game ending in a 2\u20132 tie.", 
             "eventTitle": "8th NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "identity": {
-                "NHLAPIID": 1954040008, 
                 "WikipediaID": "NHL.1954.1"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1954", 
+            "sport": "Hockey", 
+            "vs": "Detroit Red Wings vs. Detroit Red Wings"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeamName": "NHL All-Stars", 
+            "date": "1954-10-03T01:00:00+00:00", 
+            "eventindicator": 1, 
+            "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
+            "identity": {
+                "NHLAPIID": 1954040008
             }, 
             "league": "NHL", 
             "networks": [], 

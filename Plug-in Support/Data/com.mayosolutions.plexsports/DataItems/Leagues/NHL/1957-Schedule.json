@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1957SCHEDULE", 
-        "CachedOn": "2021-12-18T22:38:12", 
-        "ExpiresOn": "2021-12-25T22:38:12", 
+        "CachedOn": "2021-12-23T19:24:52", 
+        "ExpiresOn": "2021-12-30T19:24:52", 
         "Version": "2"
     }, 
     "Items": [
@@ -16,15 +16,35 @@
                 "thumbnail": []
             }, 
             "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
-            "awayTeamName": "NHL All-Stars", 
-            "date": "1957-10-06T00:00:00+00:00", 
+            "date": "1957-10-05T00:00:00", 
             "description": "The 11th National Hockey League All-Star Game took place at the Montreal Forum, home of the Montreal Canadiens, on October 5, 1957. The Canadiens, winner of the 1957 Stanley Cup Finals, played a team of All-Stars for the second consecutive year, with the All-Stars winning by a 5\u20133 score.", 
             "eventTitle": "11th NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "identity": {
-                "NHLAPIID": 1957040011, 
                 "WikipediaID": "NHL.1957.1"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1957", 
+            "sport": "Hockey", 
+            "vs": "Montreal Canadiens vs. Montreal Canadiens"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeamName": "NHL All-Stars", 
+            "date": "1957-10-06T00:00:00+00:00", 
+            "eventindicator": 1, 
+            "homeTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
+            "identity": {
+                "NHLAPIID": 1957040011
             }, 
             "league": "NHL", 
             "networks": [], 
