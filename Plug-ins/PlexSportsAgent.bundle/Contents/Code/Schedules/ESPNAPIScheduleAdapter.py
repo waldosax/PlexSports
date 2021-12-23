@@ -72,6 +72,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 				threadpool.append(t)
 				t.start()
 
+			if not threadpool: break
 			for t in threadpool:
 				t.join()
 
