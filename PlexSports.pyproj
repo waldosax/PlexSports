@@ -86,6 +86,9 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ScheduleEvent.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\SportsDataIOScheduleAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\TheSportsDBScheduleAdapter.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\TitleManicurist.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\MLB\MLBScraper.py">
       <SubType>Code</SubType>
     </Compile>

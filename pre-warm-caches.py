@@ -40,12 +40,14 @@ if __name__ == "__main__":
 		(leagueName, sport) = known_leagues[league]
 	
 		#franchises = PlexSportsAgent.Teams.GetFranchises(league)
-		maxyear = datetime.datetime.now().year + 2
+		maxyear = datetime.datetime.now().year + 1
 
 		for y in range(league_mins[league], maxyear):
 			season = str(y)
 			#PlexSportsAgent.Schedules.WikipediaSupplement.Scraper.ScrapeAllStarGame(sport, league, season)
 			PlexSportsAgent.Schedules.GetSchedule(sport, league, season, computeHashes=False, noLoad=True)
+			PlexSportsAgent.Schedules.cached_schedules = dict()
+			PlexSportsAgent.Schedules.event_scan = dict()
 			pass
 
 	pass
