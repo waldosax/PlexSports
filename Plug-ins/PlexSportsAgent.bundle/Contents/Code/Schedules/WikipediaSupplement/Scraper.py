@@ -56,12 +56,11 @@ def __get_supplement_from_cache(sport, league, season):
 
 	supplement = dict()
 
+	items = []
 	if not __supplement_cache_file_exists(sport, league, season):
-		__refresh_supplement_cache(sport, league, season)
-		pass
+		items = __refresh_supplement_cache(sport, league, season)
 	else:
 
-		items = []
 		cachedJson = __read_supplement_cache_file(sport, league, season) #TODO: Try/Catch
 		cacheContainer = CacheContainer.Deserialize(cachedJson, itemTransform=__supplement_deserialization_item_transform)
 
@@ -75,12 +74,12 @@ def __get_supplement_from_cache(sport, league, season):
 			items = __refresh_supplement_cache(sport, league, season)
 			pass
 
-		if items: supplement = items[0]
+	if items: supplement = items[0]
 
-		if supplement:
-			for s in supplement.values():
-				if "date" in s.keys() and isinstance(s["date"], basestring):
-					s["date"] = ParseISO8601Date(s["date"])
+	if supplement:
+		for s in supplement.values():
+			if "date" in s.keys() and isinstance(s["date"], basestring):
+				s["date"] = ParseISO8601Date(s["date"])
 
 	return supplement
 
