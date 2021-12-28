@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1937SCHEDULE", 
-        "CachedOn": "2021-12-23T18:12:47", 
-        "ExpiresOn": "2021-12-30T18:12:47", 
+        "CachedOn": "2021-12-27T16:16:11", 
+        "ExpiresOn": "2022-01-03T16:16:11", 
         "Version": "2"
     }, 
     "Items": [
@@ -10605,6 +10605,7 @@
             "vs": "AL All-Stars vs. NL All-Stars"
         }, 
         {
+            "altDescription": "Star Game, at Griffith Stadium", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -10615,7 +10616,8 @@
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "1937-07-07T03:33:00+00:00", 
-            "description": "All-Star Game 5th All-Star Game, at Griffith Stadium", 
+            "description": "Star Game, at Griffith Stadium", 
+            "eventTitle": "All-star Game 5th All", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "identity": {
@@ -10623,10 +10625,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "All-Star Game, 5th All, Star Game, at Griffith Stadium", 
             "season": "1937", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "5th All-Star Game, at Griffith Stadium", 
+            "title": "5th All", 
             "vs": "American League All-Stars vs. National League All-Stars"
         }, 
         {
@@ -22976,7 +22979,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
-            "date": "1937-10-06T03:33:00+00:00", 
+            "date": "1937-10-06T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 1, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67413"
@@ -22988,6 +22993,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. New York Giants"
         }, 
         {
@@ -23000,7 +23006,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
-            "date": "1937-10-07T03:33:00+00:00", 
+            "date": "1937-10-07T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 2, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67414"
@@ -23012,6 +23020,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. New York Giants"
         }, 
         {
@@ -23024,7 +23033,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1937-10-08T03:33:00+00:00", 
+            "date": "1937-10-08T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 3, 
             "homeTeam": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
             "identity": {
                 "MLBAPIID": "67415"
@@ -23036,6 +23047,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Giants vs. New York Yankees"
         }, 
         {
@@ -23048,7 +23060,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1937-10-09T03:33:00+00:00", 
+            "date": "1937-10-09T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 4, 
             "homeTeam": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
             "identity": {
                 "MLBAPIID": "67416"
@@ -23060,6 +23074,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Giants vs. New York Yankees"
         }, 
         {
@@ -23072,7 +23087,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1937-10-10T03:33:00+00:00", 
+            "date": "1937-10-10T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 5, 
             "homeTeam": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
             "identity": {
                 "MLBAPIID": "67417"
@@ -23084,6 +23101,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Giants vs. New York Yankees"
         }
     ]

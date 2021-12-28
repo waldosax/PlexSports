@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1953SCHEDULE", 
-        "CachedOn": "2021-12-23T18:14:35", 
-        "ExpiresOn": "2021-12-30T18:14:35", 
+        "CachedOn": "2021-12-27T16:18:17", 
+        "ExpiresOn": "2022-01-03T16:18:17", 
         "Version": "2"
     }, 
     "Items": [
@@ -12679,6 +12679,7 @@
             "vs": "NL All-Stars vs. AL All-Stars"
         }, 
         {
+            "altDescription": "th All-Star Game, at Crosley Field", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -12689,7 +12690,8 @@
             }, 
             "awayTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "date": "1953-07-14T03:33:00+00:00", 
-            "description": "All-Star Game 20th All-Star Game, at Crosley Field", 
+            "description": "th All-Star Game, at Crosley Field", 
+            "eventTitle": "All-star Game 2", 
             "eventindicator": 2, 
             "homeTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "identity": {
@@ -12697,10 +12699,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "All-Star Game, 2, th All-Star Game, at Crosley Field", 
             "season": "1953", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "20th All-Star Game, at Crosley Field", 
+            "title": "2", 
             "vs": "National League All-Stars vs. American League All-Stars"
         }, 
         {
@@ -23177,7 +23180,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
-            "date": "1953-09-30T03:33:00+00:00", 
+            "date": "1953-09-30T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 1, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67503"
@@ -23189,6 +23194,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. Brooklyn Dodgers"
         }, 
         {
@@ -23201,7 +23207,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
-            "date": "1953-10-01T03:33:00+00:00", 
+            "date": "1953-10-01T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 2, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67504"
@@ -23213,6 +23221,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. Brooklyn Dodgers"
         }, 
         {
@@ -23225,7 +23234,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1953-10-02T03:33:00+00:00", 
+            "date": "1953-10-02T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 3, 
             "homeTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
             "identity": {
                 "MLBAPIID": "67505"
@@ -23237,6 +23248,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Brooklyn Dodgers vs. New York Yankees"
         }, 
         {
@@ -23249,7 +23261,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1953-10-03T03:33:00+00:00", 
+            "date": "1953-10-03T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 4, 
             "homeTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
             "identity": {
                 "MLBAPIID": "67506"
@@ -23261,6 +23275,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Brooklyn Dodgers vs. New York Yankees"
         }, 
         {
@@ -23273,7 +23288,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1953-10-04T03:33:00+00:00", 
+            "date": "1953-10-04T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 5, 
             "homeTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
             "identity": {
                 "MLBAPIID": "67507"
@@ -23285,9 +23302,11 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Brooklyn Dodgers vs. New York Yankees"
         }, 
         {
+            "altDescription": "", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -23297,7 +23316,8 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
-            "date": "1953-10-05T03:33:00+00:00", 
+            "date": "1953-10-05T08:33:00+00:00", 
+            "eventTitle": "World Series Game", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67508"
@@ -23309,6 +23329,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series Game", 
             "vs": "New York Yankees vs. Brooklyn Dodgers"
         }
     ]

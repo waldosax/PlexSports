@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL2019SCHEDULE", 
-        "CachedOn": "2021-12-23T19:40:13", 
-        "ExpiresOn": "2021-12-30T19:40:13", 
+        "CachedOn": "2021-12-24T04:07:44", 
+        "ExpiresOn": "2021-12-31T04:07:44", 
         "Version": "2"
     }, 
     "Items": [
@@ -27,50 +27,6 @@
             "sport": "Hockey", 
             "subseason": -1, 
             "vs": "Vegas Golden Knights vs. Arizona Coyotes"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
-            "date": "2019-09-16T20:30:00+00:00", 
-            "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
-            "identity": {
-                "ESPNAPIID": "401155580"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Hockey", 
-            "subseason": -1, 
-            "vs": "Nashville Predators vs. Florida Panthers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
-            "date": "2019-09-17T00:00:00+00:00", 
-            "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
-            "identity": {
-                "ESPNAPIID": "401155581"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Hockey", 
-            "subseason": -1, 
-            "vs": "Nashville Predators vs. Florida Panthers"
         }, 
         {
             "assets": {
@@ -181,6 +137,50 @@
             "sport": "Hockey", 
             "subseason": -1, 
             "vs": "Washington Capitals vs. Chicago Blackhawks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
+            "date": "2019-09-16T20:30:00+00:00", 
+            "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
+            "identity": {
+                "ESPNAPIID": "401155580"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Hockey", 
+            "subseason": -1, 
+            "vs": "Nashville Predators vs. Florida Panthers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
+            "date": "2019-09-17T00:00:00+00:00", 
+            "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
+            "identity": {
+                "ESPNAPIID": "401155581"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "2019", 
+            "sport": "Hockey", 
+            "subseason": -1, 
+            "vs": "Nashville Predators vs. Florida Panthers"
         }, 
         {
             "assets": {
@@ -22249,7 +22249,7 @@
             "awayTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
             "date": "2020-01-01T19:00:00+00:00", 
             "description": "The 2020 NHL Winter Classic was an outdoor regular season National Hockey League (NHL) game, part of the Winter Classic series, that was played on January 1, 2020, at the Cotton Bowl in Dallas, Texas. The Dallas Stars defeated the Nashville Predators by a score of 4\u20132. This was the first NHL outdoor game for both teams. With a sold-out crowd of 85,630, it was the second-most attended game in NHL history.", 
-            "eventTitle": "Winter Classic - 2020 NHL Winter Classic", 
+            "eventTitle": "2020 NHL Winter Classic", 
             "eventindicator": 2, 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
@@ -26429,35 +26429,6 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "wikipedia", 
-                        "url": "https://upload.wikimedia.org/wikipedia/en/c/ca/2020_NHL_All_Star_Game_Logo.png"
-                    }
-                ]
-            }, 
-            "awayTeam": "aca20d51-b990-4d8e-84a6-9353d7365c91", 
-            "date": "2020-01-25T00:00:00", 
-            "eventTitle": "2020 NHL All\u2013Star Game", 
-            "eventindicator": 3, 
-            "game": 1, 
-            "homeTeam": "b04fc33e-1bf7-4e14-9d9f-52a49a8811f6", 
-            "identity": {
-                "WikipediaID": "NHL.2019.3.1"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "2019", 
-            "sport": "Hockey", 
-            "vs": "Metropolitan All Stars vs. Atlantic All Stars"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeamName": "Canadian All-Stars", 
@@ -26480,15 +26451,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/c/ca/2020_NHL_All_Star_Game_Logo.png"
+                    }
+                ]
             }, 
             "awayTeam": "b04fc33e-1bf7-4e14-9d9f-52a49a8811f6", 
             "date": "2020-01-26T01:15:00+00:00", 
             "description": "NHL All-star - Semifinal", 
-            "eventindicator": 1, 
+            "eventindicator": 3, 
+            "game": 1, 
             "homeTeam": "aca20d51-b990-4d8e-84a6-9353d7365c91", 
             "identity": {
-                "ESPNAPIID": "401197993"
+                "ESPNAPIID": "401197993", 
+                "WikipediaID": "NHL.2019.3.1"
             }, 
             "league": "NHL", 
             "networks": [
@@ -26539,7 +26517,7 @@
             "awayTeam": "8a47ba16-8f07-4a4c-b25d-377a627a8a25", 
             "date": "2020-01-26T02:15:00+00:00", 
             "description": "NHL All-star - Semifinal", 
-            "eventindicator": 1, 
+            "eventindicator": 3, 
             "game": 2, 
             "homeTeam": "c728ffbb-270c-481e-b6f7-a6b7f8115d88", 
             "identity": {
@@ -26573,7 +26551,7 @@
             "awayTeam": "aca20d51-b990-4d8e-84a6-9353d7365c91", 
             "date": "2020-01-26T03:15:00+00:00", 
             "description": "The 2020 National Hockey League All-Star Game was held on January 25, 2020, at the Enterprise Center in St. Louis, Missouri, the home of the St. Louis Blues. The city previously hosted the NHL All-Star Game in 1970 and 1988 at the former St. Louis Arena. For the fifth year, the All-Star Game used a 3-on-3 format, with teams representing each of the league's four divisions competing in a single-elimination tournament.", 
-            "eventTitle": "NHL All-star - Final - 2020 NHL All\u2013Star Game", 
+            "eventTitle": "2020 NHL All\u2013Star Game", 
             "eventindicator": 1, 
             "game": 3, 
             "homeTeam": "8a47ba16-8f07-4a4c-b25d-377a627a8a25", 
@@ -42015,6 +41993,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42044,6 +42023,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42073,6 +42053,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42104,6 +42085,7 @@
                 "FSS", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42135,6 +42117,7 @@
                 "NBCSN", 
                 "CSNB"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42166,6 +42149,7 @@
                 "ALT", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42196,6 +42180,7 @@
                 "CSN", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42226,6 +42211,7 @@
                 "FSMW", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42257,6 +42243,7 @@
                 "SUN", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42286,6 +42273,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42317,6 +42305,7 @@
                 "FSS", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42347,6 +42336,7 @@
                 "FSSW", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42378,6 +42368,7 @@
                 "NHL", 
                 "ALT"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42408,6 +42399,7 @@
                 "CSN", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42438,6 +42430,7 @@
                 "NHL", 
                 "FSMW"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42469,6 +42462,7 @@
                 "NBCSN", 
                 "CSNB"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42499,6 +42493,7 @@
                 "FSSW", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42528,6 +42523,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42559,6 +42555,7 @@
                 "CNBC", 
                 "ALT"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42590,6 +42587,7 @@
                 "SUN", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42620,6 +42618,7 @@
                 "AT&TSN", 
                 "CSNC"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42651,6 +42650,7 @@
                 "USA", 
                 "CSNB"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42681,6 +42681,7 @@
                 "CNBC", 
                 "FSSW"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42712,6 +42713,7 @@
                 "NBCSN", 
                 "CSNC"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42741,6 +42743,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42771,6 +42774,7 @@
                 "FSMW", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42802,6 +42806,7 @@
                 "SUN", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42833,6 +42838,7 @@
                 "ALT", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42864,6 +42870,7 @@
                 "FSS", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42894,6 +42901,7 @@
                 "FSMW", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42924,6 +42932,7 @@
                 "CSN", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42954,6 +42963,7 @@
                 "FSSW", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -42985,6 +42995,7 @@
                 "NBCSN", 
                 "CSNB"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43016,6 +43027,7 @@
                 "NBCSN", 
                 "CSNC"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43047,6 +43059,7 @@
                 "SUN", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43078,6 +43091,7 @@
                 "FSS", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43109,6 +43123,7 @@
                 "ALT", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43139,6 +43154,7 @@
                 "CSN", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43169,6 +43185,7 @@
                 "FSMW", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43200,6 +43217,7 @@
                 "NBCSN", 
                 "CSNB"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43229,6 +43247,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43259,6 +43278,7 @@
                 "CSN", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43289,6 +43309,7 @@
                 "FSMW", 
                 "NBCSN"
             ], 
+            "playoffround": 1, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43318,6 +43339,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43347,6 +43369,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43376,6 +43399,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43405,6 +43429,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43434,6 +43459,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43463,6 +43489,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43492,6 +43519,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43521,6 +43549,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43550,6 +43579,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43579,6 +43609,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43606,6 +43637,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43633,6 +43665,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43660,6 +43693,7 @@
             "networks": [
                 "USA"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43687,6 +43721,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43716,6 +43751,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43745,6 +43781,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43774,6 +43811,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43803,6 +43841,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43832,6 +43871,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43861,6 +43901,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43889,6 +43930,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43917,6 +43959,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43945,6 +43988,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -43973,6 +44017,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44001,6 +44046,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44029,6 +44075,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44057,6 +44104,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44085,6 +44133,7 @@
             "networks": [
                 "USA"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44113,6 +44162,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44141,6 +44191,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 2, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44169,6 +44220,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44197,6 +44249,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44225,6 +44278,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44253,6 +44307,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44281,6 +44336,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44309,6 +44365,7 @@
             "networks": [
                 "USA"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44337,6 +44394,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44365,6 +44423,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44393,6 +44452,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44421,6 +44481,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44449,6 +44510,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44499,6 +44561,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44549,6 +44612,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44579,6 +44643,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44630,6 +44695,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44659,6 +44725,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -44688,6 +44755,7 @@
             "networks": [
                 "NBC"
             ], 
+            "playoffround": 3, 
             "season": "2019", 
             "sport": "Hockey", 
             "subseason": 1, 

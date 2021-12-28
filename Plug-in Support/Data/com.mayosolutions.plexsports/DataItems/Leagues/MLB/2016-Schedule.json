@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB2016SCHEDULE", 
-        "CachedOn": "2021-12-23T18:47:33", 
-        "ExpiresOn": "2021-12-30T18:47:33", 
+        "CachedOn": "2021-12-27T19:41:40", 
+        "ExpiresOn": "2022-01-03T19:41:40", 
         "Version": "2"
     }, 
     "Items": [
@@ -62,30 +62,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeamName": "Florida Southern College Mocs", 
-            "date": "2016-02-29T18:05:00+00:00", 
-            "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "identity": {
-                "ESPNAPIID": "360229106", 
-                "MLBAPIID": "470385"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": -1, 
-            "subseasonTitle": "Exhibition", 
-            "vs": "Detroit Tigers vs. Florida Southern College Mocs"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeamName": "Boston College Eagles", 
             "date": "2016-02-29T18:05:00+00:00", 
             "game": 1, 
@@ -123,6 +99,30 @@
             "sport": "Baseball", 
             "subseason": -1, 
             "vs": "Boston Red Sox vs. Northeastern Huskies"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeamName": "Florida Southern College Mocs", 
+            "date": "2016-02-29T18:05:00+00:00", 
+            "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
+            "identity": {
+                "ESPNAPIID": "360229106", 
+                "MLBAPIID": "470385"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": -1, 
+            "subseasonTitle": "Exhibition", 
+            "vs": "Detroit Tigers vs. Florida Southern College Mocs"
         }, 
         {
             "assets": {
@@ -259,7 +259,7 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeamName": "University of Arizona Wildcats", 
+            "awayTeamName": "Arizona Wildcats", 
             "date": "2016-03-01T22:10:00+00:00", 
             "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "identity": {
@@ -272,7 +272,7 @@
             "sport": "Baseball", 
             "subseason": -1, 
             "subseasonTitle": "Exhibition", 
-            "vs": "Arizona Diamondbacks vs. University of Arizona Wildcats"
+            "vs": "Arizona Diamondbacks vs. Arizona Wildcats"
         }, 
         {
             "assets": {
@@ -6874,7 +6874,6 @@
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "date": "2016-03-19T00:00:00+00:00", 
             "description": "Lewis Brinson hit a three-run walkoff homer over the Alamodome's short porch in right field and the Texas Rangers beat the Kansas City Royals 7-5 on Friday night in a split-squad game.", 
-            "eventTitle": "Spring Training at Alamodome at San Antonio", 
             "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "identity": {
                 "ESPNAPIID": "360318113", 
@@ -6882,6 +6881,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Alamodome, AT SAN ANTONIO", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -7104,7 +7104,6 @@
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "date": "2016-03-19T19:00:00+00:00", 
             "description": "Robinson Chirinos homered over the right-field fence 272 feet away and the Rangers overcame home runs by Kansas City stars Eric Hosmer, Salvador Perez and Lorenzo Cain to beat the Royals 13-6.", 
-            "eventTitle": "Spring Training at Alamodome at San Antonio", 
             "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "identity": {
                 "ESPNAPIID": "360319113", 
@@ -7112,6 +7111,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Alamodome, AT SAN ANTONIO", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -8216,7 +8216,7 @@
             }, 
             "awayTeam": "9e466da8-b1bb-4fba-b6ba-931be31cb749", 
             "date": "2016-03-22T18:00:00+00:00", 
-            "description": "Exhibition in Havana, Cuba Exhibition at Havana", 
+            "description": "Exhibition in Havana, Cuba, EXHIBITION AT HAVANA", 
             "homeTeamName": "Cuba", 
             "identity": {
                 "ESPNAPIID": "360322339", 
@@ -8226,6 +8226,7 @@
             "networks": [
                 "ESPN"
             ], 
+            "notes": "Exhibition in Havana, Cuba, EXHIBITION AT HAVANA", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -8376,6 +8377,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Exhibition in Salt Lake City, UT", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseasonTitle": "Exhibition", 
@@ -9960,6 +9962,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training in Mexico City", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -9979,7 +9982,6 @@
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "date": "2016-03-27T01:00:00+00:00", 
-            "description": "At Mexico City", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "ESPNAPIID": "360326125"
@@ -10206,7 +10208,6 @@
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "date": "2016-03-27T19:00:00+00:00", 
             "description": "Jabari Blash, Adam Rosales and Jon Jay homered during a nine-run first inning and the Padres routed the Astros 21-6 in a split-squad game Sunday, the first MLB series in Mexico City in 12 years.", 
-            "eventTitle": "Spring Training in Mexico City", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "ESPNAPIID": "360327325", 
@@ -10214,6 +10215,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training in Mexico City, AT MEXICO CITY", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -11621,6 +11623,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Exhibition in Sacramento, CA", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -11815,7 +11818,7 @@
             }, 
             "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "date": "2016-03-31T22:05:00+00:00", 
-            "description": "Exhibition in Reading, PA", 
+            "description": "Exhibition in Reading, PA, AT READING PA", 
             "homeTeamName": "Philadelphia Phillies Futures", 
             "identity": {
                 "ESPNAPIID": "360331357", 
@@ -11823,6 +11826,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Exhibition in Reading, PA, AT READING PA", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -11843,7 +11847,6 @@
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2016-04-01T00:05:00+00:00", 
             "description": "Ben Zobrist had two hits, including an RBI single in Chicago's three-run fifth inning, and the Cubs beat the New York Mets 5-1 on Thursday in an exhibition at Las Vegas.", 
-            "eventTitle": "Spring Training in Las Vegas, NV", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "ESPNAPIID": "360331121", 
@@ -11851,6 +11854,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training in Las Vegas, NV, AT LAS VEGAS", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -11870,7 +11874,6 @@
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "date": "2016-04-01T00:10:00+00:00", 
             "description": "Ryan Braun homered and Jonathan Lucroy had three hits, leading the Milwaukee Brewers to a 6-1 exhibition victory over the Houston Astros on Thursday night.", 
-            "eventTitle": "Spring Training at Minute Maid Park", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "ESPNAPIID": "360331118", 
@@ -11878,6 +11881,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Minute Maid Park", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -11904,6 +11908,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Exhibition in El Paso, TX", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -11923,7 +11928,6 @@
             "awayTeam": "ddc4d9a5-b941-49bf-acfc-f867fdc4776e", 
             "date": "2016-04-01T02:10:00+00:00", 
             "description": "Todd Cunningham singled home the go-ahead run in the eighth inning, Andrew Heaney pitched six sharp innings and the Los Angeles Angels beat the Dodgers 2-1 Thursday night.", 
-            "eventTitle": "Spring Training at Dodger Stadium", 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
                 "ESPNAPIID": "360331119", 
@@ -11931,6 +11935,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Dodger Stadium", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -11950,7 +11955,6 @@
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "date": "2016-04-01T02:15:00+00:00", 
             "description": "Jeff Samardzija retired 15 consecutive batters after allowing a triple on his third pitch of the game, and the San Francisco Giants beat the Oakland Athletics 3-1 on Thursday night.", 
-            "eventTitle": "Spring Training at AT&T Park", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "ESPNAPIID": "360331126", 
@@ -11958,6 +11962,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at AT&T Park", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12029,7 +12034,6 @@
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "date": "2016-04-01T18:10:00+00:00", 
             "description": "Milwaukee starter Matt Garza left after 3 1/3 innings because right shoulder tightness, and the Brewers completed spring training with a 4-2 loss to the Houston Astros on Friday.", 
-            "eventTitle": "Spring Training at Minute Maid Park", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "ESPNAPIID": "360401118", 
@@ -12038,6 +12042,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Minute Maid Park", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12058,7 +12063,6 @@
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "2016-04-01T20:05:00+00:00", 
             "description": "Steven Matz didn't allow a hit over five innings and Yoenis Cespedes hit his first spring homer to lead the New York Mets past the Chicago Cubs 8-1 Friday and end a 14-game winless streak.", 
-            "eventTitle": "Spring Training in Las Vegas, NV", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "ESPNAPIID": "360401116", 
@@ -12067,6 +12071,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training in Las Vegas, NV, AT LAS VEGAS", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12086,7 +12091,6 @@
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "date": "2016-04-01T22:05:00+00:00", 
             "description": "Phillies third baseman Maikel Franco hit his major league-leading ninth homer of spring training, but Rosa Garabez hit a tying homer in the ninth inning in Baltimore's 8-7 win on Friday.", 
-            "eventTitle": "Spring Training at Citizens Bank Park", 
             "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "identity": {
                 "ESPNAPIID": "360401122", 
@@ -12097,6 +12101,7 @@
             "networks": [
                 "CSN"
             ], 
+            "notes": "Spring Training at Citizens Bank Park", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12116,7 +12121,6 @@
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
             "date": "2016-04-01T22:05:00+00:00", 
             "description": "Nationals closer Jonathan Papelbon was greeted with a mix of boos and cheers when he entered in the ninth inning to help Washington beat the Twins 4-3 in an exhibition game Friday night.", 
-            "eventTitle": "Spring Training at Nationals Park", 
             "homeTeam": "ec8c5a9a-7437-45f7-baf1-892a0ed5810b", 
             "identity": {
                 "ESPNAPIID": "360401120", 
@@ -12125,6 +12129,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Nationals Park", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12145,7 +12150,6 @@
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "2016-04-01T23:05:00+00:00", 
             "description": "Outfielder Ryan LaMarre drove in two runs with a two-out double in the top of the 10th to lift the Boston Red Sox to a 4-2 victory over the Toronto Blue Jays on Friday night at Olympic Stadium.", 
-            "eventTitle": "Spring Training at Olympic Stadium at Montreal", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "ESPNAPIID": "360401114", 
@@ -12154,6 +12158,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Olympic Stadium, AT MONTREAL", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12173,7 +12178,6 @@
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "2016-04-01T23:10:00+00:00", 
             "description": "Jose Fernandez struck out seven and allowed one run in four innings for the Miami Marlins in a 3-2 loss to the New York Yankees on Friday night.", 
-            "eventTitle": "Spring Training at Marlins Park", 
             "homeTeam": "9c207bf5-edfd-4bdb-90ab-79cdeae2b0dd", 
             "identity": {
                 "ESPNAPIID": "360401128", 
@@ -12182,6 +12186,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Marlins Park", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12201,7 +12206,6 @@
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2016-04-02T00:05:00+00:00", 
             "description": "Cody Anderson allowed only three hits in 6 2/3 innings, four Cleveland teammates homered and the Indians beat the Texas Rangers 9-1 on Friday night.", 
-            "eventTitle": "Spring Training at Globe Life Park in Arlington", 
             "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "identity": {
                 "ESPNAPIID": "360401113", 
@@ -12210,6 +12214,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Globe Life Park in Arlington", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12229,7 +12234,6 @@
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "date": "2016-04-02T01:40:00+00:00", 
             "description": "Arizona's All-Star center fielder A.J. Pollock doubled in a run then re-injured his right elbow in a head-first slide across home plate in the D-backs' 7-4 exhibition victory over the Royals.", 
-            "eventTitle": "Spring Training at Chase Field", 
             "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "identity": {
                 "ESPNAPIID": "360401129", 
@@ -12238,6 +12242,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Chase Field", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12257,7 +12262,6 @@
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "date": "2016-04-02T02:00:00+00:00", 
             "description": "Jerry Sands, told hours earlier that he'd won the final roster spot, singled in the go-ahead run in the eighth inning and the Chicago White Sox beat the San Diego Padres 5-3 Friday night.", 
-            "eventTitle": "Spring Training at Petco Park", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "ESPNAPIID": "360401125", 
@@ -12266,6 +12270,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Petco Park", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12285,7 +12290,6 @@
             "awayTeam": "ddc4d9a5-b941-49bf-acfc-f867fdc4776e", 
             "date": "2016-04-02T02:10:00+00:00", 
             "description": "Hector Santiago allowed three hits and no walks over five scoreless innings, Yunel Escobar had a pair of RBI singles and the Los Angeles Angels beat the Los Angeles Dodgers 5-1 Friday night.", 
-            "eventTitle": "Spring Training at Dodger Stadium", 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
                 "ESPNAPIID": "360401119", 
@@ -12294,6 +12298,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Dodger Stadium", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12339,7 +12344,6 @@
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "date": "2016-04-02T02:15:00+00:00", 
             "description": "Buster Posey drove in a pair of runs, Jake Peavy pitched five scoreless innings and the San Francisco Giants beat the Oakland Athletics 3-0 on Friday night.", 
-            "eventTitle": "Spring Training at AT&T Park", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "ESPNAPIID": "360401126", 
@@ -12348,6 +12352,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at AT&T Park", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12367,7 +12372,6 @@
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
             "date": "2016-04-02T16:05:00+00:00", 
             "description": "Daniel Murphy hit his first homer in a Nationals uniform, one of four deep shots allowed by Twins starter Ricky Nolasco, and Washington tied 8-8 against the Minnesota Twins on Saturday.", 
-            "eventTitle": "Spring Training at Nationals Park", 
             "homeTeam": "ec8c5a9a-7437-45f7-baf1-892a0ed5810b", 
             "identity": {
                 "ESPNAPIID": "360402120", 
@@ -12375,6 +12379,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Nationals Park", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12425,6 +12430,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Exhibition at Citizens Bank Park", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12445,7 +12451,6 @@
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "2016-04-02T17:05:00+00:00", 
             "description": "Ryan Hanigan homered during a five-run fifth inning and the Boston Red Sox swept a two-game exhibition series from the Toronto Blue Jays with a 7-4 victory Saturday at Olympic Stadium.", 
-            "eventTitle": "Spring Training at Olympic Stadium at Montreal", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "ESPNAPIID": "360402114", 
@@ -12454,6 +12459,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Olympic Stadium, AT MONTREAL", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12473,7 +12479,6 @@
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "2016-04-02T17:10:00+00:00", 
             "description": "Giancarlo Stanton drove in two runs and Miami beat the New York Yankees 2-1 Saturday at Marlins Park in the final spring training game for both clubs.", 
-            "eventTitle": "Spring Training at Marlins Park", 
             "homeTeam": "9c207bf5-edfd-4bdb-90ab-79cdeae2b0dd", 
             "identity": {
                 "ESPNAPIID": "360402128", 
@@ -12482,6 +12487,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Marlins Park", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12502,7 +12508,6 @@
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "date": "2016-04-02T17:35:00+00:00", 
             "description": "Tucker Barnhart got three hits and the Cincinnati Reds took advantage of the windy conditions to beat the Pittsburgh Pirates 13-6 Saturday in a spring training wrapup.", 
-            "eventTitle": "Spring Training in Indianapolis, In", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
                 "ESPNAPIID": "360402123", 
@@ -12511,6 +12516,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training in Indianapolis, IN, AT INDIANAPOLIS", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12530,7 +12536,6 @@
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2016-04-02T18:05:00+00:00", 
             "description": "Rajai Davis hit his first homer this spring, a three-run drive that sent the Cleveland Indians over the Texas Rangers 3-1 Saturday.", 
-            "eventTitle": "Spring Training at Globe Life Park in Arlington", 
             "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "identity": {
                 "ESPNAPIID": "360402113", 
@@ -12539,6 +12544,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Globe Life Park in Arlington", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12565,6 +12571,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Exhibition in Biloxi, MS", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12584,7 +12591,6 @@
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "date": "2016-04-02T19:10:00+00:00", 
             "description": "Chris Owings, in his first full game playing center field in professional baseball, hit a three-run homer to lead the Arizona Diamondbacks over the Kansas City Royals 4-2 on Saturday.", 
-            "eventTitle": "Spring Training at Chase Field", 
             "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "identity": {
                 "ESPNAPIID": "360402129", 
@@ -12592,6 +12598,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Chase Field", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12637,7 +12644,6 @@
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "date": "2016-04-02T20:00:00+00:00", 
             "description": "Drew Pomeranz pitched four shutout innings in the San Diego Padres' 10-2 loss to the Chicago White Sox on Saturday in the final exhibition game for both teams.", 
-            "eventTitle": "Spring Training at Petco Park", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "ESPNAPIID": "360402125", 
@@ -12646,6 +12652,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Petco Park", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12665,7 +12672,6 @@
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "date": "2016-04-02T20:05:00+00:00", 
             "description": "Khris Davis homered in his first appearance before the Oakland home crowd and the Athletics concluded their spring training schedule by beating the San Francisco Giants 4-1 Saturday.", 
-            "eventTitle": "Spring Training at Oakland Coliseum", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "ESPNAPIID": "360402111", 
@@ -12674,6 +12680,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Oakland Coliseum", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12714,7 +12721,6 @@
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "date": "2016-04-03T01:05:00+00:00", 
             "description": "Albert Pujols hit a three-run homer, Mike Trout had a tiebreaking three-run double and the Los Angeles Angels beat the Los Angeles Dodgers 8-1 Saturday night.", 
-            "eventTitle": "Spring Training at Angel Stadium", 
             "homeTeam": "ddc4d9a5-b941-49bf-acfc-f867fdc4776e", 
             "identity": {
                 "ESPNAPIID": "360402103", 
@@ -12723,6 +12729,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Angel Stadium", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12773,7 +12780,6 @@
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2016-04-03T19:05:00+00:00", 
             "description": "David Fletcher and Gregorio Petit hit two-run singles in the eighth inning, and the Angels rallied for a 6-4 victory over the Cubs on Sunday in the major leagues' final spring training game.", 
-            "eventTitle": "Spring Training at Angel Stadium (Spring Training)", 
             "homeTeam": "ddc4d9a5-b941-49bf-acfc-f867fdc4776e", 
             "identity": {
                 "ESPNAPIID": "360403103", 
@@ -12781,6 +12787,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Spring Training at Angel Stadium (spring training), SPRING TRAINING", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": -1, 
@@ -12858,7 +12865,7 @@
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "date": "2016-04-04T17:05:00+00:00", 
-            "description": "Yankees Home Opener", 
+            "eventTitle": "Yankees Home Opener", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "ESPNAPIID": "360404110", 
@@ -13104,6 +13111,7 @@
             "vs": "Tampa Bay Rays vs. Toronto Blue Jays"
         }, 
         {
+            "altDescription": "backs Home Opener", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -13114,8 +13122,8 @@
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "date": "2016-04-05T01:40:00+00:00", 
-            "description": "Trevor Story became the first player to hit two home runs in his major league debut on Opening Day, and the Colorado Rockies spoiled Zack Greinke's much-heralded Arizona debut.", 
-            "eventTitle": "D-backs Home Opener", 
+            "description": "Trevor Story became the first player to hit two home runs in his major league debut on Opening Day, and the Colorado Rockies spoiled Zack Greinke's much-heralded Arizona debut., backs Home Opener", 
+            "eventTitle": "D", 
             "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "identity": {
                 "ESPNAPIID": "360404129", 
@@ -13126,10 +13134,11 @@
             "networks": [
                 "FSAZ"
             ], 
+            "notes": "D, backs Home Opener", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
-            "title": "D-backs Home Opener", 
+            "title": "D", 
             "vs": "Arizona Diamondbacks vs. Colorado Rockies"
         }, 
         {
@@ -14282,7 +14291,7 @@
             "description": "Starling Marte hit his first career grand slam, connecting off new Reds closer J.J. Hoover and lifting the unbeaten Pittsburgh Pirates over Cincinnati 6-5 on a blustery Friday night.", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
-                "ESPNAPIID": "360408117", 
+                "ESPNAPIID": "400836011", 
                 "MLBAPIID": "446922", 
                 "TheSportsDBID": "541906"
             }, 
@@ -14655,6 +14664,7 @@
             "networks": [
                 "MAS2"
             ], 
+            "notes": "Makeup 6/25", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -16210,7 +16220,7 @@
             "description": "Domingo Santana hit a go-ahead two-run homer in the ninth inning, Chase Anderson threw six innings without an earned run and the Brewers beat the St. Louis Cardinals 6-4 on Wednesday.", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
-                "ESPNAPIID": "360413124", 
+                "ESPNAPIID": "400836079", 
                 "MLBAPIID": "446975", 
                 "TheSportsDBID": "541982"
             }, 
@@ -17048,7 +17058,7 @@
             "description": "Oswaldo Arcia and Byung Ho Park homered in the eighth inning to lift Minnesota over the Los Angeles Angels 6-4 on Saturday, giving the Twins their second consecutive comeback victory.", 
             "homeTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
             "identity": {
-                "ESPNAPIID": "360416109", 
+                "ESPNAPIID": "400836111", 
                 "MLBAPIID": "447030", 
                 "TheSportsDBID": "542006"
             }, 
@@ -17601,7 +17611,7 @@
             "description": "Jose Altuve led off Houston's first inning with a solo home run and had three RBI, and George Springer also hit a solo homer to help the Astros defeat the Detroit Tigers 5-4 Sunday.", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
-                "ESPNAPIID": "360417118", 
+                "ESPNAPIID": "400836133", 
                 "MLBAPIID": "447043", 
                 "TheSportsDBID": "542027"
             }, 
@@ -21243,7 +21253,6 @@
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "date": "2016-04-28T00:05:00+00:00", 
             "description": "Jake Arrieta will have to wait another day for his chance to match Johnny Vander Meer.", 
-            "eventTitle": "Makeup 8/16", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "ESPNAPIID": "360427116", 
@@ -21251,6 +21260,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "makeup 8/16", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -21506,7 +21516,7 @@
             }, 
             "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "date": "2016-04-28T19:10:00+00:00", 
-            "description": "Makeup 6/9", 
+            "description": "makeup 6/9", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "ESPNAPIID": "360428127", 
@@ -21516,6 +21526,7 @@
             "networks": [
                 "ROOT"
             ], 
+            "notes": "makeup 6/9", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -22124,6 +22135,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup 7/7", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -24758,7 +24770,6 @@
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "date": "2016-05-07T17:05:00+00:00", 
             "description": "Marcus Semien homered and drove in three runs, and the Oakland Athletics snapped a four-game losing streak by beating the Baltimore Orioles 8-4 Saturday in the opener of a split doubleheader.", 
-            "eventTitle": "American League - Game 1", 
             "game": 1, 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
@@ -24770,6 +24781,7 @@
             "networks": [
                 "MASN"
             ], 
+            "notes": "AMERICAN LEAGUE - GAME 1", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -24788,7 +24800,6 @@
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "date": "2016-05-07T23:05:00+00:00", 
             "description": "Chris Davis homered, Ubaldo Jimenez pitched eight effective innings and the Baltimore Orioles beat the Oakland Athletics 5-2 on Saturday night for a doubleheader split.", 
-            "eventTitle": "American League - Game 2", 
             "game": 2, 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
@@ -24799,6 +24810,7 @@
             "networks": [
                 "MASN"
             ], 
+            "notes": "AMERICAN LEAGUE - GAME 2", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -25420,7 +25432,7 @@
             "description": "Moments after Bryce Harper was ejected from the dugout, pinch hitter Clint Robinson hit a game-ending homer to give the Washington Nationals a 5-4 victory over the Detroit Tigers on Monday.", 
             "homeTeam": "ec8c5a9a-7437-45f7-baf1-892a0ed5810b", 
             "identity": {
-                "ESPNAPIID": "360509120", 
+                "ESPNAPIID": "400836433", 
                 "MLBAPIID": "447344", 
                 "TheSportsDBID": "542317"
             }, 
@@ -25837,7 +25849,6 @@
             "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "date": "2016-05-10T23:10:00+00:00", 
             "description": "Tuesday's game between the Cincinnati Reds and Pittsburgh Pirates was postponed after a 55-minute wait because of steady rain.", 
-            "eventTitle": "Makeup TBD", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "ESPNAPIID": "360510117", 
@@ -25847,6 +25858,7 @@
             "networks": [
                 "FSOH"
             ], 
+            "notes": "makeup TBD", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -26112,56 +26124,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "San Francisco Giants vs. Toronto Blue Jays"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "2016-05-11T17:05:00+00:00", 
-            "description": "Brett Wallace hit a three-run homer in San Diego's four-run seventh inning, and the Padres stopped the Chicago Cubs' eight-game win streak with a 7-4 victory in Wednesday's doubleheader opener.", 
-            "eventTitle": "Makeup of 5/9 Ppd", 
-            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "identity": {
-                "ESPNAPIID": "360511216", 
-                "MLBAPIID": "447350"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "title": "Makeup of 5/9 ppd", 
-            "vs": "Chicago Cubs vs. San Diego Padres"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "2016-05-12T00:05:00+00:00", 
-            "description": "Drew Pomeranz tied a career high with 10 strikeouts in six innings and Christian Bethancourt hit a solo home run to give the San Diego Padres a 1-0 victory over the Chicago Cubs Wednesday.", 
-            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "identity": {
-                "ESPNAPIID": "360511316", 
-                "MLBAPIID": "447379"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Chicago Cubs vs. San Diego Padres"
         }, 
         {
             "assets": {
@@ -26474,6 +26436,56 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Miami Marlins vs. Milwaukee Brewers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
+            "date": "2016-05-11T17:05:00+00:00", 
+            "description": "Brett Wallace hit a three-run homer in San Diego's four-run seventh inning, and the Padres stopped the Chicago Cubs' eight-game win streak with a 7-4 victory in Wednesday's doubleheader opener.", 
+            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
+            "identity": {
+                "ESPNAPIID": "360511216", 
+                "MLBAPIID": "447350"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "notes": "Makeup of 5/9 ppd", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "title": "Makeup of 5/9 ppd", 
+            "vs": "Chicago Cubs vs. San Diego Padres"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
+            "date": "2016-05-12T00:05:00+00:00", 
+            "description": "Drew Pomeranz tied a career high with 10 strikeouts in six innings and Christian Bethancourt hit a solo home run to give the San Diego Padres a 1-0 victory over the Chicago Cubs Wednesday.", 
+            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
+            "identity": {
+                "ESPNAPIID": "360511316", 
+                "MLBAPIID": "447379"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago Cubs vs. San Diego Padres"
         }, 
         {
             "assets": {
@@ -28080,7 +28092,7 @@
             "description": "Curt Casali hit a three-run homer, Tim Beckham and Steve Pearce each hit two-run blasts and the Tampa Bay Rays had four homers while beating the Toronto Blue Jays 13-2 on Monday night.", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
-                "ESPNAPIID": "360516114", 
+                "ESPNAPIID": "400836532", 
                 "MLBAPIID": "447442", 
                 "TheSportsDBID": "542412"
             }, 
@@ -28865,7 +28877,6 @@
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "2016-05-18T18:15:00+00:00", 
             "description": "Eric Hosmer homered, the Royals turned their first three hits off Boston's Steven Wright into runs and Kansas City held off the Red Sox 3-2 on Wednesday to open a split-doubleheader.", 
-            "eventTitle": "American League - Game 1", 
             "game": 1, 
             "homeTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "identity": {
@@ -28875,6 +28886,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "AMERICAN LEAGUE - GAME 1", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -28893,7 +28905,6 @@
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "2016-05-19T00:15:00+00:00", 
             "description": "Jackie Bradley Jr. and Mookie Betts homered to back a strong start by David Price, and the Boston Red Sox beat the Kansas City Royals 5-2 on Wednesday to salvage a split of their doubleheader.", 
-            "eventTitle": "Makeup of 5/16 PPD American League - Game 2", 
             "game": 2, 
             "homeTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "identity": {
@@ -28902,6 +28913,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 5/16 PPD, AMERICAN LEAGUE - GAME 2", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -30260,7 +30272,6 @@
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "date": "2016-05-22T17:35:00+00:00", 
             "description": "The game between the Colorado Rockies and Pittsburgh Pirates on Sunday was postponed because of rain after one inning.", 
-            "eventTitle": "Makeup TBD", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
                 "ESPNAPIID": "360522123", 
@@ -30271,6 +30282,7 @@
             "networks": [
                 "ROOT"
             ], 
+            "notes": "Makeup TBD", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -30517,7 +30529,6 @@
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "date": "2016-05-23T16:35:00+00:00", 
             "description": "Pittsburgh Pirates starter Ryan Vogelsong was carted off the field after getting struck in the head by a pitch in the second inning of a 6-3 win over the Colorado Rockies on Monday.", 
-            "eventTitle": "Makeup of 5/22 PPD", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
                 "ESPNAPIID": "360523123", 
@@ -30527,65 +30538,12 @@
             "networks": [
                 "ROOT"
             ], 
+            "notes": "Makeup of 5/22 PPD", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
             "title": "Makeup of 5/22 PPD", 
             "vs": "Pittsburgh Pirates vs. Colorado Rockies"
-        }, 
-        {
-            "altTitle": "AMERICAN LEAGUE - GAME 1", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "date": "2016-05-23T21:10:00+00:00", 
-            "description": "Brett Lawrie broke a fifth-inning tie with a three-run homer and the Chicago White Sox held on for a 7-6 victory over the Cleveland Indians on Monday in the opener of a doubleheader.", 
-            "eventTitle": "American League - Game 1", 
-            "game": 1, 
-            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "identity": {
-                "ESPNAPIID": "360523204", 
-                "MLBAPIID": "447533", 
-                "TheSportsDBID": "542503"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Chicago White Sox vs. Cleveland Indians"
-        }, 
-        {
-            "altTitle": "AMERICAN LEAGUE - GAME 2", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "date": "2016-05-24T01:00:00+00:00", 
-            "description": "Rajai Davis' two-run homer in the fifth inning put Cleveland ahead to stay, leading the Indians to a 5-1 victory over the Chicago White Sox and a doubleheader split Monday night.", 
-            "eventTitle": "American League - Game 2", 
-            "game": 2, 
-            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "identity": {
-                "ESPNAPIID": "360523304"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Chicago White Sox vs. Cleveland Indians"
         }, 
         {
             "assets": {
@@ -30744,6 +30702,60 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "St. Louis Cardinals vs. Chicago Cubs"
+        }, 
+        {
+            "altTitle": "AMERICAN LEAGUE - GAME 1", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
+            "date": "2016-05-23T21:10:00+00:00", 
+            "description": "Brett Lawrie broke a fifth-inning tie with a three-run homer and the Chicago White Sox held on for a 7-6 victory over the Cleveland Indians on Monday in the opener of a doubleheader.", 
+            "game": 1, 
+            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "identity": {
+                "ESPNAPIID": "360523204", 
+                "MLBAPIID": "447533", 
+                "TheSportsDBID": "542503"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "notes": "AMERICAN LEAGUE - GAME 1", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago White Sox vs. Cleveland Indians"
+        }, 
+        {
+            "altTitle": "AMERICAN LEAGUE - GAME 2", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
+            "date": "2016-05-24T01:00:00+00:00", 
+            "description": "Rajai Davis' two-run homer in the fifth inning put Cleveland ahead to stay, leading the Indians to a 5-1 victory over the Chicago White Sox and a doubleheader split Monday night.", 
+            "game": 2, 
+            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "identity": {
+                "ESPNAPIID": "360523304"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "notes": "AMERICAN LEAGUE - GAME 2", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago White Sox vs. Cleveland Indians"
         }, 
         {
             "assets": {
@@ -31204,7 +31216,7 @@
             "description": "Brandon Crawford drove in four runs and Jarrett Parker homered to lead Jeff Samardzija and the streaking San Francisco Giants past the San Diego Padres 8-2 on Tuesday night.", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
-                "ESPNAPIID": "360524126", 
+                "ESPNAPIID": "400836642", 
                 "MLBAPIID": "447552", 
                 "TheSportsDBID": "542534"
             }, 
@@ -31808,6 +31820,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup TBD", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -32559,7 +32572,7 @@
             "description": "Paul Goldschmidt homered during a five-run second inning, Michael Bourn had three hits and the Arizona Diamondbacks beat the San Diego Padres 8-7 on Saturday night to end a four-game skid.", 
             "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "identity": {
-                "ESPNAPIID": "360528129", 
+                "ESPNAPIID": "400836695", 
                 "MLBAPIID": "447606", 
                 "TheSportsDBID": "542579"
             }, 
@@ -32874,7 +32887,7 @@
             "description": "Archie Bradley struck out a career-high nine in 7 1/3 innings, Arizona had its second straight five-run second inning and the Diamondbacks beat the San Diego Padres 6-3 Sunday,", 
             "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "identity": {
-                "ESPNAPIID": "360529129", 
+                "ESPNAPIID": "400836710", 
                 "MLBAPIID": "447621", 
                 "TheSportsDBID": "542591"
             }, 
@@ -34368,7 +34381,6 @@
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "2016-06-02T23:40:00+00:00", 
             "description": "Yankees closer Aroldis Chapman pitched out of his own bases-loaded, no-out jam in the ninth inning, helped by a slick double play and New York held off the Detroit Tigers 5-4 Thursday night.", 
-            "eventTitle": "Makeup of 4/10 PPD", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "ESPNAPIID": "360602106", 
@@ -34377,6 +34389,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 4/10 PPD", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -35729,6 +35742,58 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "date": "2016-06-06T23:05:00+00:00", 
+            "description": "Neil Walker's homecoming will have to wait one more day.", 
+            "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
+            "identity": {
+                "ESPNAPIID": "360606123", 
+                "MLBAPIID": "447731"
+            }, 
+            "league": "MLB", 
+            "networks": [
+                "ROOT"
+            ], 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Pirates vs. New York Mets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "date": "2016-06-07T03:33:00+00:00", 
+            "description": "Makeup of 6/6 PPD", 
+            "game": 2, 
+            "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
+            "identity": {
+                "MLBAPIID": "447731"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "notes": "Makeup of 6/6 PPD", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "title": "Makeup of 6/6 PPD", 
+            "vs": "Pittsburgh Pirates vs. New York Mets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "date": "2016-06-06T23:10:00+00:00", 
             "description": "Michael Fulmer allowed two hits over six innings, and Justin Upton and James McCann homered to lift the Detroit Tigers to an 11-0 victory over the Toronto Blue Jays on Monday night.", 
@@ -35887,116 +35952,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "2016-06-06T23:05:00+00:00", 
-            "description": "Neil Walker's homecoming will have to wait one more day.", 
-            "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "identity": {
-                "ESPNAPIID": "360606123", 
-                "MLBAPIID": "447731"
-            }, 
-            "league": "MLB", 
-            "networks": [
-                "ROOT"
-            ], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Pirates vs. New York Mets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "2016-06-07T03:33:00+00:00", 
-            "description": "Makeup of 6/6 PPD", 
-            "game": 2, 
-            "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "identity": {
-                "MLBAPIID": "447731"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "title": "Makeup of 6/6 PPD", 
-            "vs": "Pittsburgh Pirates vs. New York Mets"
-        }, 
-        {
-            "altTitle": "NATIONAL LEAGUE - GAME 1", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "2016-06-07T20:05:00+00:00", 
-            "description": "Jon Niese pitched seven scoreless innings against his former team and Josh Harrison had three hits as the Pittsburgh Pirates beat the Mets 3-1 on Tuesday in the first game of a doubleheader.", 
-            "eventTitle": "National League - Game 1", 
-            "game": 1, 
-            "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "identity": {
-                "ESPNAPIID": "360607223", 
-                "MLBAPIID": "447743", 
-                "TheSportsDBID": "542705"
-            }, 
-            "league": "MLB", 
-            "networks": [
-                "ESPN2", 
-                "ROOT"
-            ], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Pirates vs. New York Mets"
-        }, 
-        {
-            "altTitle": "NATIONAL LEAGUE - GAME 2", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "2016-06-07T23:20:00+00:00", 
-            "description": "Juan Nicasio retired his first 12 batters and got his second win in six starts, and the Pittsburgh Pirates beat the New York Mets 3-1 on Tuesday night to complete a doubleheader sweep.", 
-            "eventTitle": "National League - Game 2", 
-            "game": 2, 
-            "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "identity": {
-                "ESPNAPIID": "360607323"
-            }, 
-            "league": "MLB", 
-            "networks": [
-                "ROOT"
-            ], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Pirates vs. New York Mets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "date": "2016-06-07T23:05:00+00:00", 
             "description": "Kansas City right-hander Yordano Ventura hit Manny Machado with a pitch to spark a bench-emptying fray , and the Baltimore Orioles beat the Royals 9-1 Tuesday night.", 
@@ -36120,6 +36075,65 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Detroit Tigers vs. Toronto Blue Jays"
+        }, 
+        {
+            "altTitle": "NATIONAL LEAGUE - GAME 1", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "date": "2016-06-07T20:05:00+00:00", 
+            "description": "Jon Niese pitched seven scoreless innings against his former team and Josh Harrison had three hits as the Pittsburgh Pirates beat the Mets 3-1 on Tuesday in the first game of a doubleheader.", 
+            "game": 1, 
+            "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
+            "identity": {
+                "ESPNAPIID": "360607223", 
+                "MLBAPIID": "447743", 
+                "TheSportsDBID": "542705"
+            }, 
+            "league": "MLB", 
+            "networks": [
+                "ESPN2", 
+                "ROOT"
+            ], 
+            "notes": "NATIONAL LEAGUE - GAME 1", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Pirates vs. New York Mets"
+        }, 
+        {
+            "altTitle": "NATIONAL LEAGUE - GAME 2", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "date": "2016-06-07T23:20:00+00:00", 
+            "description": "Juan Nicasio retired his first 12 batters and got his second win in six starts, and the Pittsburgh Pirates beat the New York Mets 3-1 on Tuesday night to complete a doubleheader sweep.", 
+            "game": 2, 
+            "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
+            "identity": {
+                "ESPNAPIID": "360607323"
+            }, 
+            "league": "MLB", 
+            "networks": [
+                "ROOT"
+            ], 
+            "notes": "NATIONAL LEAGUE - GAME 2", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Pirates vs. New York Mets"
         }, 
         {
             "assets": {
@@ -36787,7 +36801,6 @@
             "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "date": "2016-06-09T21:10:00+00:00", 
             "description": "DJ LeMahieu homered, doubled and drove in three runs, reliever Jorge De La Rosa settled down a slugfest with four perfect innings and the Colorado Rockies beat the Pittsburgh Pirates 11-5.", 
-            "eventTitle": "Makeup of 4/28 PPD", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "ESPNAPIID": "360609127", 
@@ -36798,6 +36811,7 @@
             "networks": [
                 "ROOT"
             ], 
+            "notes": "makeup of 4/28 PPD", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -37371,7 +37385,7 @@
             "description": "Clayton Kershaw struck out 13 in eight innings, Justin Turner hit a go-ahead homer in the top of the ninth and the Los Angeles Dodgers beat the San Francisco Giants 3-2 on Friday night.", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
-                "ESPNAPIID": "360610126", 
+                "ESPNAPIID": "400836868", 
                 "MLBAPIID": "447779", 
                 "TheSportsDBID": "542758"
             }, 
@@ -38130,7 +38144,7 @@
             "description": "Matt Holliday and Randal Grichuk homered, and the surging St. Louis Cardinals completed a three-game sweep of the Pittsburgh Pirates with an 8-3 victory Sunday.", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
-                "ESPNAPIID": "360612123", 
+                "ESPNAPIID": "400836904", 
                 "MLBAPIID": "447815", 
                 "TheSportsDBID": "542787"
             }, 
@@ -40831,7 +40845,6 @@
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "date": "2016-06-21T00:05:00+00:00", 
             "description": "Shin-Soo Choo hit a go-ahead two-run single, Ian Desmond homered halfway up the hill in center field and the Rangers beat the Baltimore Orioles 4-3 on Monday night.", 
-            "eventTitle": "Makeup of 4/17 Ppd", 
             "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "identity": {
                 "ESPNAPIID": "360620113", 
@@ -40842,6 +40855,7 @@
             "networks": [
                 "FSSW"
             ], 
+            "notes": "makeup of 4/17 ppd", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -42072,7 +42086,7 @@
             "description": "Rookie Willson Contreras homered and drove in three runs to help the Cubs break their longest losing streak of the season at four games by beating the Marlins 5-4 on Friday night.", 
             "homeTeam": "9c207bf5-edfd-4bdb-90ab-79cdeae2b0dd", 
             "identity": {
-                "ESPNAPIID": "360624128", 
+                "ESPNAPIID": "400837051", 
                 "MLBAPIID": "447962", 
                 "TheSportsDBID": "542936"
             }, 
@@ -42257,7 +42271,7 @@
             "description": "Khris Davis hit a tiebreaking three-run homer in the eighth inning and the Oakland Athletics beat the Los Angeles Angels 7-4 on Friday night.", 
             "homeTeam": "ddc4d9a5-b941-49bf-acfc-f867fdc4776e", 
             "identity": {
-                "ESPNAPIID": "360624103", 
+                "ESPNAPIID": "400837057", 
                 "MLBAPIID": "447968", 
                 "TheSportsDBID": "542945"
             }, 
@@ -42321,6 +42335,66 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "San Francisco Giants vs. Philadelphia Phillies"
+        }, 
+        {
+            "altTitle": "AMERICAN LEAGUE - GAME 1", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "9e466da8-b1bb-4fba-b6ba-931be31cb749", 
+            "date": "2016-06-25T17:05:00+00:00", 
+            "description": "Kevin Gausman took a two-hitter into the eighth inning to earn his first win of the season, and Baltimore extended Tampa Bay's losing streak to nine games with a 5-0 victory Saturday.", 
+            "game": 1, 
+            "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
+            "identity": {
+                "ESPNAPIID": "360625201", 
+                "MLBAPIID": "446940", 
+                "TheSportsDBID": "542949"
+            }, 
+            "league": "MLB", 
+            "networks": [
+                "MASN"
+            ], 
+            "notes": "Makeup of 4/9 ppd, AMERICAN LEAGUE - GAME 1", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "title": "Makeup of 4/9 ppd", 
+            "vs": "Baltimore Orioles vs. Tampa Bay Rays"
+        }, 
+        {
+            "altTitle": "AMERICAN LEAGUE - GAME 2", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "9e466da8-b1bb-4fba-b6ba-931be31cb749", 
+            "date": "2016-06-25T23:05:00+00:00", 
+            "description": "Matt Wieters hit two homers, and the Baltimore Orioles rallied from a four-run deficit to beat the Tampa Bay Rays 8-6 Saturday night for a doubleheader sweep.", 
+            "game": 2, 
+            "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
+            "identity": {
+                "ESPNAPIID": "360625301", 
+                "MLBAPIID": "447987"
+            }, 
+            "league": "MLB", 
+            "networks": [
+                "MASN"
+            ], 
+            "notes": "AMERICAN LEAGUE - GAME 2", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Baltimore Orioles vs. Tampa Bay Rays"
         }, 
         {
             "assets": {
@@ -42504,66 +42578,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Milwaukee Brewers vs. Washington Nationals"
-        }, 
-        {
-            "altTitle": "AMERICAN LEAGUE - GAME 1", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "9e466da8-b1bb-4fba-b6ba-931be31cb749", 
-            "date": "2016-06-25T17:05:00+00:00", 
-            "description": "Kevin Gausman took a two-hitter into the eighth inning to earn his first win of the season, and Baltimore extended Tampa Bay's losing streak to nine games with a 5-0 victory Saturday.", 
-            "eventTitle": "Makeup of 4/9 Ppd American League - Game 1", 
-            "game": 1, 
-            "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "identity": {
-                "ESPNAPIID": "360625201", 
-                "MLBAPIID": "446940", 
-                "TheSportsDBID": "542949"
-            }, 
-            "league": "MLB", 
-            "networks": [
-                "MASN"
-            ], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "title": "Makeup of 4/9 ppd", 
-            "vs": "Baltimore Orioles vs. Tampa Bay Rays"
-        }, 
-        {
-            "altTitle": "AMERICAN LEAGUE - GAME 2", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "9e466da8-b1bb-4fba-b6ba-931be31cb749", 
-            "date": "2016-06-25T23:05:00+00:00", 
-            "description": "Matt Wieters hit two homers, and the Baltimore Orioles rallied from a four-run deficit to beat the Tampa Bay Rays 8-6 Saturday night for a doubleheader sweep.", 
-            "eventTitle": "American League - Game 2", 
-            "game": 2, 
-            "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "identity": {
-                "ESPNAPIID": "360625301", 
-                "MLBAPIID": "447987"
-            }, 
-            "league": "MLB", 
-            "networks": [
-                "MASN"
-            ], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Baltimore Orioles vs. Tampa Bay Rays"
         }, 
         {
             "assets": {
@@ -45021,7 +45035,7 @@
             "description": "Chicago White Sox star Chris Sale settled down after a shaky start against the Houston Astros to become the first pitcher to win 14 games before the All-Star break since Ubaldo Jime\u0301nez in 2010.", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
-                "ESPNAPIID": "360702118", 
+                "ESPNAPIID": "400837163", 
                 "MLBAPIID": "448074", 
                 "TheSportsDBID": "543048"
             }, 
@@ -45669,7 +45683,6 @@
             "awayTeam": "9c207bf5-edfd-4bdb-90ab-79cdeae2b0dd", 
             "date": "2016-07-04T00:05:00+00:00", 
             "description": "J.T. Realmuto homered and drove in two runs, Adam Conley pitched six strong innings and the Miami Marlins beat the Atlanta Braves 5-2 on Sunday night in a game played on a U.S. Army post.", 
-            "eventTitle": "Regular Season game played in Fort Bragg, NC", 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "ESPNAPIID": "360703115", 
@@ -45680,6 +45693,7 @@
             "networks": [
                 "ESPN"
             ], 
+            "notes": "Regular Season game played  in Fort Bragg, NC, AT FORT BRAGG NC", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -46870,7 +46884,7 @@
             "description": "Johnny Cueto pitched a five-hitter to become the NL's first 13-game winner, and the San Francisco Giants beat the Colorado Rockies 5-1 on Wednesday night to move atop the major league standings.", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
-                "ESPNAPIID": "360706126", 
+                "ESPNAPIID": "400837225", 
                 "MLBAPIID": "448135", 
                 "TheSportsDBID": "543119"
             }, 
@@ -47022,7 +47036,6 @@
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "date": "2016-07-08T00:05:00+00:00", 
             "description": "Nick Markakis homered twice, including a tying solo shot in the ninth inning, and Tyler Flowers' two-out single in the 11th gave the Atlanta Braves a 4-3 victory over the slumping Chicago Cubs.", 
-            "eventTitle": "Makeup of 4/30 PPD", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "ESPNAPIID": "360707116", 
@@ -47031,6 +47044,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 4/30 PPD", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -48366,6 +48380,7 @@
             "vs": "None vs. None"
         }, 
         {
+            "altDescription": "Star Game, at Petco Park", 
             "altTitle": "MLB ALL-STAR GAME AT SAN DIEGO", 
             "assets": {
                 "banner": [], 
@@ -48382,8 +48397,8 @@
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "2016-07-13T00:00:00+00:00", 
-            "description": "Eric Hosmer was named All-Star Game MVP, as he and Kansas City Royals teammate Salvador Perez delivered home runs to help lift the AL over the NL and to home-field advantage in the World Series.", 
-            "eventTitle": "All-Star Game 87th All-Star Game, at Petco Park MLB All-star Game at San Diego - 2016 Major League Baseball All-Star Game", 
+            "description": "Eric Hosmer was named All-Star Game MVP, as he and Kansas City Royals teammate Salvador Perez delivered home runs to help lift the AL over the NL and to home-field advantage in the World Series., Star Game, at Petco Park", 
+            "eventTitle": "2016 Major League Baseball All-Star Game", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "identity": {
@@ -48397,10 +48412,11 @@
                 "MLB International", 
                 "FOX"
             ], 
+            "notes": "2016 Major League Baseball All-Star Game, All-Star Game, 87th All, MLB ALL-STAR GAME AT SAN DIEGO, Star Game, at Petco Park", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "87th All-Star Game, at Petco Park", 
+            "title": "87th All", 
             "vs": "American League All-Stars vs. National League All-Stars"
         }, 
         {
@@ -48812,7 +48828,7 @@
             "description": "Yu Darvish returned from the DL to strike out nine but was inefficient and wild at times, and Anthony Rizzo's two-run double helped lead the Chicago Cubs past the Texas Rangers 3-1 on Saturday.", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
-                "ESPNAPIID": "360716116", 
+                "ESPNAPIID": "400837319", 
                 "MLBAPIID": "448231", 
                 "TheSportsDBID": "543191"
             }, 
@@ -50372,7 +50388,7 @@
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "date": "2016-07-20T18:15:00+00:00", 
             "description": "Carlos Martinez was dominant after a shaky first inning and a nosebleed in the second, and the Cardinals beat the Padres 4-2 Wednesday in the opener of a day-night doubleheader.", 
-            "eventTitle": "Makeup of 7/19 PPD National League \u0096 Game 1", 
+            "eventTitle": "National League \u0096 Game 1", 
             "game": 1, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
@@ -50384,6 +50400,7 @@
             "networks": [
                 "FSMW"
             ], 
+            "notes": "Makeup of 7/19 PPD, NATIONAL LEAGUE \u0096 GAME 1", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -52249,6 +52266,58 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
+            "date": "2016-07-25T23:10:00+00:00", 
+            "description": "At last year's trade deadline, Sandy Alderson fed a big meal to New York Mets fans hungry for a title, acquiring Yoenis Cespedes. This year, the GM is more likely to add a side of fries.", 
+            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "identity": {
+                "ESPNAPIID": "360725121", 
+                "MLBAPIID": "448354"
+            }, 
+            "league": "MLB", 
+            "networks": [
+                "SNNY"
+            ], 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "New York Mets vs. St. Louis Cardinals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
+            "date": "2016-07-26T03:33:00+00:00", 
+            "description": "Makeup of 7/25 ppd", 
+            "game": 2, 
+            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "identity": {
+                "MLBAPIID": "448354"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "notes": "Makeup of 7/25 ppd", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "title": "Makeup of 7/25 ppd", 
+            "vs": "New York Mets vs. St. Louis Cardinals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "date": "2016-07-25T23:20:00+00:00", 
             "description": "Martin Maldonado hit a three-run homer and the Milwaukee Brewers went deep four times Monday, spoiling the major league debut of Arizona Diamondbacks prospect Braden Shipley in a 7-2 victory.", 
@@ -52395,57 +52464,6 @@
             "vs": "San Francisco Giants vs. Cincinnati Reds"
         }, 
         {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "2016-07-25T23:10:00+00:00", 
-            "description": "At last year's trade deadline, Sandy Alderson fed a big meal to New York Mets fans hungry for a title, acquiring Yoenis Cespedes. This year, the GM is more likely to add a side of fries.", 
-            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "identity": {
-                "ESPNAPIID": "360725121", 
-                "MLBAPIID": "448354"
-            }, 
-            "league": "MLB", 
-            "networks": [
-                "SNNY"
-            ], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "New York Mets vs. St. Louis Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "2016-07-26T03:33:00+00:00", 
-            "description": "Makeup of 7/25 Ppd", 
-            "game": 2, 
-            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "identity": {
-                "MLBAPIID": "448354"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "title": "Makeup of 7/25 ppd", 
-            "vs": "New York Mets vs. St. Louis Cardinals"
-        }, 
-        {
             "altTitle": "NATIONAL LEAGUE GAME 1", 
             "assets": {
                 "banner": [], 
@@ -52458,7 +52476,6 @@
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "date": "2016-07-26T20:10:00+00:00", 
             "description": "Jedd Gyorko homered again, hitting a two-run drive off Noah Syndergaard that sent the St. Louis Cardinals over the New York Mets 3-2 Tuesday in the first game of a doubleheader.", 
-            "eventTitle": "National League Game 1", 
             "game": 1, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
@@ -52470,6 +52487,7 @@
             "networks": [
                 "SNNY"
             ], 
+            "notes": "NATIONAL LEAGUE GAME 1", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -52488,7 +52506,6 @@
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "date": "2016-07-27T00:00:00+00:00", 
             "description": "Bartolo Colon pitched three-hit ball for seven sharp innings and the Mets overcame another home run by Jedd Gyorko to beat the St. Louis Cardinals 3-1 Tuesday night for a doubleheader split.", 
-            "eventTitle": "National League Game 2", 
             "game": 2, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
@@ -52498,6 +52515,7 @@
             "networks": [
                 "SNNY"
             ], 
+            "notes": "NATIONAL LEAGUE GAME 2", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -52846,7 +52864,7 @@
             "description": "Matt Cain hit a three-run homer during his first win in more than two months, and the San Francisco Giants beat the Cincinnati Reds 9-7 on Tuedsday night.", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
-                "ESPNAPIID": "360726126", 
+                "ESPNAPIID": "400837446", 
                 "MLBAPIID": "448358"
             }, 
             "league": "MLB", 
@@ -53344,7 +53362,6 @@
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "date": "2016-07-28T23:10:00+00:00", 
             "description": "Rookie Max Kepler continued his midseason surge with a game-tying home run among two hits and two RBI as the Minnesota Twins rallied to beat the Baltimore Orioles 6-2 on Thursday night.", 
-            "eventTitle": "Makeup of PPD on 5/9", 
             "homeTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
             "identity": {
                 "ESPNAPIID": "360728109", 
@@ -53352,6 +53369,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of PPD on 5/9", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -56425,7 +56443,7 @@
             "description": "J.D. Martinez threw Jay Bruce out at the plate on the final play of the game, enabling the Detroit Tigers to hold on for a pulsating 6-5 victory over the New York Mets on Saturday night.", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
-                "ESPNAPIID": "360806106", 
+                "ESPNAPIID": "400837600", 
                 "MLBAPIID": "448513"
             }, 
             "league": "MLB", 
@@ -57258,7 +57276,7 @@
             "description": "Gregory Polanco hit a tiebreaking three-run homer and Chad Kuhl pitched six innings for the win as the Pittsburgh Pirates defeated the San Diego Padres 6-4 on Tuesday night.", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
-                "ESPNAPIID": "360809123", 
+                "ESPNAPIID": "400837640", 
                 "MLBAPIID": "448552"
             }, 
             "league": "MLB", 
@@ -58026,6 +58044,61 @@
             "vs": "Pittsburgh Pirates vs. San Diego Padres"
         }, 
         {
+            "altTitle": "AMERICAN LEAGUE - GAME 1", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
+            "date": "2016-08-11T17:10:00+00:00", 
+            "description": "MLB batting leader Jose Altuve got four hits, drove in three runs and scored three, sending the Houston Astros past the Minnesota Twins 15-7 Thursday in the first game of a split doubleheader.", 
+            "game": 1, 
+            "homeTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
+            "identity": {
+                "ESPNAPIID": "360811209", 
+                "MLBAPIID": "448576"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "notes": "AMERICAN LEAGUE - GAME 1", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Minnesota Twins vs. Houston Astros"
+        }, 
+        {
+            "altTitle": "AMERICAN LEAGUE - GAME 2", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
+            "date": "2016-08-11T23:10:00+00:00", 
+            "description": "Evan Gattis homered and had four RBIs, Carlos Correa went deep for the third straight game and the Houston Astros beat the Minnesota Twins 10-2 Thursday night to sweep a doubleheader.", 
+            "game": 2, 
+            "homeTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
+            "identity": {
+                "ESPNAPIID": "360811309", 
+                "MLBAPIID": "448564"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "notes": "Makeup of 8/10 PPD, AMERICAN LEAGUE - GAME 2", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "title": "Makeup of 8/10 PPD", 
+            "vs": "Minnesota Twins vs. Houston Astros"
+        }, 
+        {
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -58150,61 +58223,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Cleveland Indians vs. Los Angeles Angels"
-        }, 
-        {
-            "altTitle": "AMERICAN LEAGUE - GAME 1", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "date": "2016-08-11T17:10:00+00:00", 
-            "description": "MLB batting leader Jose Altuve got four hits, drove in three runs and scored three, sending the Houston Astros past the Minnesota Twins 15-7 Thursday in the first game of a split doubleheader.", 
-            "eventTitle": "American League - Game 1", 
-            "game": 1, 
-            "homeTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "identity": {
-                "ESPNAPIID": "360811209", 
-                "MLBAPIID": "448576"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Minnesota Twins vs. Houston Astros"
-        }, 
-        {
-            "altTitle": "AMERICAN LEAGUE - GAME 2", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "date": "2016-08-11T23:10:00+00:00", 
-            "description": "Evan Gattis homered and had four RBIs, Carlos Correa went deep for the third straight game and the Houston Astros beat the Minnesota Twins 10-2 Thursday night to sweep a doubleheader.", 
-            "eventTitle": "Makeup of 8/10 PPD American League - Game 2", 
-            "game": 2, 
-            "homeTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "identity": {
-                "ESPNAPIID": "360811309", 
-                "MLBAPIID": "448564"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "title": "Makeup of 8/10 PPD", 
-            "vs": "Minnesota Twins vs. Houston Astros"
         }, 
         {
             "assets": {
@@ -58624,7 +58642,7 @@
             "description": "Mark Trumbo regained the major league lead with his 33rd home run and the Baltimore Orioles moved back into first place in the AL East with a 5-2 victory over the San Francisco Giants on Friday.", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
-                "ESPNAPIID": "360812126", 
+                "ESPNAPIID": "400837672", 
                 "MLBAPIID": "448584"
             }, 
             "league": "MLB", 
@@ -58645,7 +58663,7 @@
             }, 
             "awayTeam": "9e466da8-b1bb-4fba-b6ba-931be31cb749", 
             "date": "2016-08-13T17:05:00+00:00", 
-            "description": "Tyler Austin and Aaron Judge became the first teammates to hit home runs in the first at-bats of their major league debuts in the same game, sparking the  Yankees to an 8-4 win over Tampa Bay.", 
+            "description": "Tyler Austin and Aaron Judge became the first teammates to hit home runs in the first at-bats of their major league debuts in the same game, sparking the Yankees to an 8-4 win over Tampa Bay.", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "ESPNAPIID": "360813110", 
@@ -58671,7 +58689,7 @@
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "date": "2016-08-13T17:07:00+00:00", 
-            "description": "Russell Martin hit a go-ahead three-run home run in the sixth inning, Aaron Sanchez pitched seven innings to get his first win in his last three starts and the  Blue Jays beat the Astros 4-2.", 
+            "description": "Russell Martin hit a go-ahead three-run home run in the sixth inning, Aaron Sanchez pitched seven innings to get his first win in his last three starts and the Blue Jays beat the Astros 4-2.", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "ESPNAPIID": "360813114", 
@@ -59403,7 +59421,6 @@
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "2016-08-15T17:10:00+00:00", 
             "description": "David Ortiz hit a go-ahead, two-run homer in a three-run sixth inning, and the Boston Red Sox defeated the Cleveland Indians 3-2 on Monday to extend their winning streak to four.", 
-            "eventTitle": "Makeup of 4/7 PPD", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "ESPNAPIID": "360815105", 
@@ -59413,6 +59430,7 @@
             "networks": [
                 "STOH"
             ], 
+            "notes": "Makeup of 4/7 PPD", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -59564,7 +59582,7 @@
             "description": "Jayson Werth and Wilson Ramos homered, Bryce Harper doubled in the go-ahead run in the seventh inning and the Washington Nationals beat the Colorado Rockies 5-4 on Monday.", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
-                "ESPNAPIID": "360815127", 
+                "ESPNAPIID": "400837722", 
                 "MLBAPIID": "448634"
             }, 
             "league": "MLB", 
@@ -59820,7 +59838,7 @@
             "description": "Danny Duffy allowed one run in 7 2/3 innings and the Kansas City Royals hit four homers in a 6-1 victory over the Detroit Tigers on Tuesday night.", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
-                "ESPNAPIID": "360816106", 
+                "ESPNAPIID": "400837725", 
                 "MLBAPIID": "448637"
             }, 
             "league": "MLB", 
@@ -59871,7 +59889,6 @@
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "date": "2016-08-16T17:20:00+00:00", 
             "description": "Trevor Cahill came off the disabled list to throw five innings of two-hit ball, and the Chicago Cubs beat the Milwaukee Brewers 4-0 Tuesday in the opener of a day-night doubleheader.", 
-            "eventTitle": "Makeup of 4/27 PPD National League - Game 1", 
             "game": 1, 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
@@ -59880,6 +59897,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "makeup of 4/27 PPD, NATIONAL LEAGUE - GAME 1", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -59899,7 +59917,6 @@
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "date": "2016-08-17T00:05:00+00:00", 
             "description": "Jason Hammel threw seven innings of two-hit ball, Anthony Rizzo jumped onto a wall to make a remarkable catch of a foul ball and the Chicago Cubs beat the Milwaukee Brewers 4-1 on Tuesday.", 
-            "eventTitle": "National League - Game 2", 
             "game": 2, 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
@@ -59908,6 +59925,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "NATIONAL LEAGUE - GAME 2", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -60353,7 +60371,7 @@
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "date": "2016-08-18T00:05:00+00:00", 
-            "description": "Jorge Soler hit a three-run homer during a five-run first inning, Jon Lester pitched into the seventh and the Cubs beat the  Brewers 6-1 on Wednesday night for their 17th win in 20 games.", 
+            "description": "Jorge Soler hit a three-run homer during a five-run first inning, Jon Lester pitched into the seventh and the Cubs beat the Brewers 6-1 on Wednesday night for their 17th win in 20 games.", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "ESPNAPIID": "360817116", 
@@ -60707,7 +60725,7 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "2016-08-19T02:15:00+00:00", 
-            "description": "Madison Bumgarner hit a two-run homer off Jacob deGrom in the fourth inning -- moments after giving up a grand slam -- and the Giants came back from four runs down  to beat the Mets 10-7.", 
+            "description": "Madison Bumgarner hit a two-run homer off Jacob deGrom in the fourth inning -- moments after giving up a grand slam -- and the Giants came back from four runs down to beat the Mets 10-7.", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "ESPNAPIID": "360818126", 
@@ -61040,7 +61058,7 @@
             "description": "Kyle Seager got Seattle started with a solo home run, and Robinson Cano added a two-run shot, and the Mariners continued their surge at home with a 7-6 win over the Milwaukee Brewers on Friday.", 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
-                "ESPNAPIID": "360819112", 
+                "ESPNAPIID": "400837770", 
                 "MLBAPIID": "448683"
             }, 
             "league": "MLB", 
@@ -61493,16 +61511,12 @@
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "date": "2016-08-21T17:10:00+00:00", 
-            "description": "Chase Utley homered on the fourth pitch of the game, 20-year-old Julio Urias won his third straight decision and the Los Angeles Dodgers beat the Cincinnati Reds 4-0 on Sunday.", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
-                "ESPNAPIID": "360821117", 
                 "MLBAPIID": "448711"
             }, 
             "league": "MLB", 
-            "networks": [
-                "FSOH"
-            ], 
+            "networks": [], 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -61519,16 +61533,12 @@
             }, 
             "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "date": "2016-08-21T17:10:00+00:00", 
-            "description": "Jose Ramirez hit a two-run homer off Brett Cecil in the eighth inning, and the Cleveland Indians rallied past the Toronto Blue Jays 3-2 Sunday to win the series.", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
-                "ESPNAPIID": "360821105", 
                 "MLBAPIID": "448720"
             }, 
             "league": "MLB", 
-            "networks": [
-                "STOH"
-            ], 
+            "networks": [], 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -61545,17 +61555,12 @@
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "2016-08-21T17:10:00+00:00", 
-            "description": "Justin Upton hit a pair of three-run homers and the struggling Detroit Tigers finished their homestand with a 10-5 win over the Boston Red Sox on Sunday.", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
-                "ESPNAPIID": "360821106", 
                 "MLBAPIID": "448708"
             }, 
             "league": "MLB", 
-            "networks": [
-                "TBS", 
-                "FSDT"
-            ], 
+            "networks": [], 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -61572,16 +61577,12 @@
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "date": "2016-08-21T17:10:00+00:00", 
-            "description": "Logan Forsythe homered after missing four games due to back spasms, and the Tampa Bay Rays took two of three from the AL West-leading Texas Rangers with an 8-4 victory on Sunday.", 
             "homeTeam": "9e466da8-b1bb-4fba-b6ba-931be31cb749", 
             "identity": {
-                "ESPNAPIID": "360821130", 
                 "MLBAPIID": "448719"
             }, 
             "league": "MLB", 
-            "networks": [
-                "SUN"
-            ], 
+            "networks": [], 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -61598,16 +61599,12 @@
             }, 
             "awayTeam": "ec8c5a9a-7437-45f7-baf1-892a0ed5810b", 
             "date": "2016-08-21T17:35:00+00:00", 
-            "description": "Jace Peterson hit a tiebreaking homer in the 10th inning off Shawn Kelley, giving the Atlanta Braves a 7-6 victory over the Washington Nationals on Sunday.", 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
-                "ESPNAPIID": "360821115", 
                 "MLBAPIID": "448721"
             }, 
             "league": "MLB", 
-            "networks": [
-                "FSS"
-            ], 
+            "networks": [], 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -61644,43 +61641,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "date": "2016-08-21T21:35:00+00:00", 
-            "description": "Dallas Keuchel was solid through eight innings, Yulieski Gurriel got a hit in his major league debut and the Houston Astros beat the Baltimore Orioles 5-3 in a rain-delayed victory Sunday.", 
-            "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "identity": {
-                "ESPNAPIID": "360821101"
-            }, 
-            "league": "MLB", 
-            "networks": [
-                "MAS2"
-            ], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Baltimore Orioles vs. Houston Astros"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "date": "2016-08-21T17:35:00+00:00", 
-            "description": "Mike Leake pitched seven strong innings and hit a two-run single, and the St. Louis Cardinals homered four times Sunday to beat the Philadelphia Phillies 9-0.", 
             "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "identity": {
-                "ESPNAPIID": "360821122", 
                 "MLBAPIID": "448718"
             }, 
             "league": "MLB", 
-            "networks": [
-                "CSN"
-            ], 
+            "networks": [], 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -61697,16 +61665,12 @@
             }, 
             "awayTeam": "9c207bf5-edfd-4bdb-90ab-79cdeae2b0dd", 
             "date": "2016-08-21T17:35:00+00:00", 
-            "description": "Christian Yelich homered in the first inning, Miami added a pair of unearned runs and the Marlins rallied past the Pittsburgh Pirates 3-2 Sunday to complete a three-game sweep.", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
-                "ESPNAPIID": "360821123", 
                 "MLBAPIID": "448712"
             }, 
             "league": "MLB", 
-            "networks": [
-                "ROOT"
-            ], 
+            "networks": [], 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -61723,10 +61687,8 @@
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "date": "2016-08-21T18:10:00+00:00", 
-            "description": "Jose Quintana pitched seven strong innings and Jose Abreu homered for the second straight game to lead the Chicago White Sox to a 4-2 victory over the Oakland Athletics on Sunday.", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
-                "ESPNAPIID": "360821104", 
                 "MLBAPIID": "448717"
             }, 
             "league": "MLB", 
@@ -61747,10 +61709,8 @@
             }, 
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
             "date": "2016-08-21T18:15:00+00:00", 
-            "description": "Danny Duffy won his 10th straight decision, Eric Hosmer doubled in the go-ahead run and the Kansas City Royals beat the Minnesota Twins 2-1 Sunday for their eighth consecutive win.", 
             "homeTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "identity": {
-                "ESPNAPIID": "360821107", 
                 "MLBAPIID": "448714"
             }, 
             "league": "MLB", 
@@ -61771,10 +61731,8 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "2016-08-21T19:35:00+00:00", 
-            "description": "Albert Pujols had three hits and scored twice on singles by Andrelton Simmons, leading the Los Angeles Angels over the New York Yankees 2-0 Sunday.", 
             "homeTeam": "ddc4d9a5-b941-49bf-acfc-f867fdc4776e", 
             "identity": {
-                "ESPNAPIID": "360821103", 
                 "MLBAPIID": "448716"
             }, 
             "league": "MLB", 
@@ -61795,16 +61753,12 @@
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2016-08-21T20:10:00+00:00", 
-            "description": "Nolan Arenado broke out of a slump in a big way, hitting two homers and driving in six runs Sunday to boost the Colorado Rockies over the Chicago Cubs 11-4.", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
-                "ESPNAPIID": "360821127", 
                 "MLBAPIID": "448709"
             }, 
             "league": "MLB", 
-            "networks": [
-                "ROOT"
-            ], 
+            "networks": [], 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -61821,16 +61775,12 @@
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "date": "2016-08-21T20:10:00+00:00", 
-            "description": "Keon Broxton and Chris Carter homered and Scooter Gennett had an RBI single during a four-run ninth inning, lifting the Milwaukee Brewers over the Seattle Mariners 7-6 on Sunday.", 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
-                "ESPNAPIID": "360821112", 
                 "MLBAPIID": "448713"
             }, 
             "league": "MLB", 
-            "networks": [
-                "ROOT"
-            ], 
+            "networks": [], 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -61847,10 +61797,8 @@
             }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "date": "2016-08-21T20:40:00+00:00", 
-            "description": "Luis Perdomo ended a three-start losing streak, Travis Jankowski and Alex Dickerson homered and the San Diego Padres defeated the Arizona Diamondbacks 9-1 Sunday for a four-game split.", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
-                "ESPNAPIID": "360821125", 
                 "MLBAPIID": "448707"
             }, 
             "league": "MLB", 
@@ -61871,16 +61819,12 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "2016-08-22T00:05:00+00:00", 
-            "description": "Noah Syndergaard and Jeurys Familia combined on a three-hitter and Yoenis Cespedes homered off Jeff Samardzija, leading the New York Mets over the San Francisco Giants 2-0 on Sunday night.", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
-                "ESPNAPIID": "360821126", 
                 "MLBAPIID": "448715"
             }, 
             "league": "MLB", 
-            "networks": [
-                "ESPN"
-            ], 
+            "networks": [], 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -63393,7 +63337,7 @@
             "description": "Carlos Correa and Evan Gattis hit back-to-back homers in the ninth inning to lift the Houston Astros to a 5-4 victory over the Tampa Bay Rays on Friday night.", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
-                "ESPNAPIID": "360826118", 
+                "ESPNAPIID": "400837873", 
                 "MLBAPIID": "448786"
             }, 
             "league": "MLB", 
@@ -64099,7 +64043,7 @@
             "description": "Chris Archer struck out 10 in seven innings, Corey Dickerson hit a three-run homer and the Tampa Bay Rays beat the Houston Astros 10-4 on Sunday.", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
-                "ESPNAPIID": "360828118", 
+                "ESPNAPIID": "400837903", 
                 "MLBAPIID": "448816"
             }, 
             "league": "MLB", 
@@ -65107,6 +65051,63 @@
             "vs": "Houston Astros vs. Oakland Athletics"
         }, 
         {
+            "altTitle": "NATIONAL LEAGUE - GAME 1", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
+            "date": "2016-08-31T19:10:00+00:00", 
+            "description": "Tyler Anderson pitched efficiently into the seventh, Nolan Arenado kept up his torrid August with another RBI and the Rockies beat the Los Angeles Dodgers 7-0 in the opener of a doubleheader.", 
+            "game": 1, 
+            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
+            "identity": {
+                "ESPNAPIID": "360831227", 
+                "MLBAPIID": "448848"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "notes": "NATIONAL LEAGUE - GAME 1", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Colorado Rockies vs. Los Angeles Dodgers"
+        }, 
+        {
+            "altTitle": "NATIONAL LEAGUE - GAME 2", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
+            "date": "2016-09-01T00:10:00+00:00", 
+            "description": "Andrew Toles hit a grand slam with two outs in the ninth inning, helping the Los Angeles Dodgers get a 10-8 win over the Colorado Rockies on Wednesday night for a doubleheader split.", 
+            "game": 2, 
+            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
+            "identity": {
+                "ESPNAPIID": "360831327", 
+                "MLBAPIID": "448833"
+            }, 
+            "league": "MLB", 
+            "networks": [
+                "ROOT"
+            ], 
+            "notes": "Makeup of 8/30 ppd, NATIONAL LEAGUE - GAME 2", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "title": "Makeup of 8/30 ppd", 
+            "vs": "Colorado Rockies vs. Los Angeles Dodgers"
+        }, 
+        {
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -65222,7 +65223,7 @@
             "description": "Matt Wisler set a career high with 10 strikeouts in six innings, Gordon Beckham drove in two runs with a pinch-hit bases-loaded double and the Braves beat the Padres 8-1 on Wednesday.", 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
-                "ESPNAPIID": "360831115", 
+                "ESPNAPIID": "400837941", 
                 "MLBAPIID": "448854"
             }, 
             "league": "MLB", 
@@ -65309,63 +65310,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Chicago Cubs vs. Pittsburgh Pirates"
-        }, 
-        {
-            "altTitle": "NATIONAL LEAGUE - GAME 1", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "2016-08-31T19:10:00+00:00", 
-            "description": "Tyler Anderson pitched efficiently into the seventh, Nolan Arenado kept up his torrid August with another RBI and the Rockies beat the Los Angeles Dodgers 7-0 in the opener of a doubleheader.", 
-            "eventTitle": "National League - Game 1", 
-            "game": 1, 
-            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "identity": {
-                "ESPNAPIID": "360831227", 
-                "MLBAPIID": "448848"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Colorado Rockies vs. Los Angeles Dodgers"
-        }, 
-        {
-            "altTitle": "NATIONAL LEAGUE - GAME 2", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "2016-09-01T00:10:00+00:00", 
-            "description": "Andrew Toles hit a grand slam with two outs in the ninth inning, helping the Los Angeles Dodgers get a 10-8 win over the Colorado Rockies on Wednesday night for a doubleheader split.", 
-            "eventTitle": "Makeup of 8/30 Ppd National League - Game 2", 
-            "game": 2, 
-            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "identity": {
-                "ESPNAPIID": "360831327", 
-                "MLBAPIID": "448833"
-            }, 
-            "league": "MLB", 
-            "networks": [
-                "ROOT"
-            ], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "title": "Makeup of 8/30 ppd", 
-            "vs": "Colorado Rockies vs. Los Angeles Dodgers"
         }, 
         {
             "assets": {
@@ -66521,7 +66465,7 @@
             "description": "Eduardo Rodriguez's no-hit bid for Boston was broken up after a replay reversal with two outs in the eighth, and Khris Davis hit a game-ending double in the ninth that gave Oakland the 1-0 win.", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
-                "ESPNAPIID": "360904111", 
+                "ESPNAPIID": "400837984", 
                 "MLBAPIID": "448896"
             }, 
             "league": "MLB", 
@@ -68270,7 +68214,7 @@
             "description": "Kelby Tomlinson's one-out single in the 12th inning drove in Brandon Belt with the go-ahead run, and the Giants held on for a 7-6 victory over the Diamondbacks on Friday night.", 
             "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "identity": {
-                "ESPNAPIID": "360909129", 
+                "ESPNAPIID": "400838060", 
                 "MLBAPIID": "448972"
             }, 
             "league": "MLB", 
@@ -68322,7 +68266,7 @@
             "description": "Hisashi Iwakuma pitched into the seventh inning to match his career high with 15 wins, and the Seattle Mariners beat the Oakland Athletics 3-2 on Friday night.", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
-                "ESPNAPIID": "360909111", 
+                "ESPNAPIID": "400838059", 
                 "MLBAPIID": "448973"
             }, 
             "league": "MLB", 
@@ -69377,7 +69321,7 @@
             "description": "Rougned Odor had three hits and three RBIs, including a solo homer in the 12th inning that lifted the Texas Rangers to a 4-3 victory over the Houston Astros on Monday night.", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
-                "ESPNAPIID": "360912118", 
+                "ESPNAPIID": "400838107", 
                 "MLBAPIID": "449020"
             }, 
             "league": "MLB", 
@@ -70185,7 +70129,7 @@
             "description": "Jose Altuve and Alex Bregman both left with injuries, but George Springer and Teoscar Hernandez homered, helping the Astros keep their playoff hopes alive with an 8-4 win over the Rangers.", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
-                "ESPNAPIID": "360914118", 
+                "ESPNAPIID": "400838137", 
                 "MLBAPIID": "449050"
             }, 
             "league": "MLB", 
@@ -70262,7 +70206,7 @@
             "description": "Brian Dozier's two-run single highlighted a four-run second inning and the Minnesota Twins handed the Detroit Tigers a crucial loss, beating them 5-1 on Thursday.", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
-                "ESPNAPIID": "360915106", 
+                "ESPNAPIID": "400838141", 
                 "MLBAPIID": "449054"
             }, 
             "league": "MLB", 
@@ -70288,7 +70232,7 @@
             "description": "Jose Abreu continued his torrid streak with a home run and single and Carlos Sanchez drove in the winning run in the ninth inning in the White Sox's 2-1 victory over the Indians on Thursday.", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
-                "ESPNAPIID": "360915104", 
+                "ESPNAPIID": "400838138", 
                 "MLBAPIID": "449051"
             }, 
             "league": "MLB", 
@@ -70885,65 +70829,6 @@
             "vs": "San Francisco Giants vs. St. Louis Cardinals"
         }, 
         {
-            "altTitle": "NATIONAL LEAGUE - GAME 1", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "date": "2016-09-17T16:10:00+00:00", 
-            "description": "Pitcher Jameson Taillon singled for his first major league RBI and Andrew McCutchen drove in three runs, leading the Pirates over the Reds 10-4 Saturday in the first game of a doubleheader.", 
-            "eventTitle": "Makeup of 5/10 PPD National League - Game 1", 
-            "game": 1, 
-            "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "identity": {
-                "ESPNAPIID": "360917217", 
-                "MLBAPIID": "447363"
-            }, 
-            "league": "MLB", 
-            "networks": [
-                "FSOH"
-            ], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "title": "Makeup of 5/10 PPD", 
-            "vs": "Cincinnati Reds vs. Pittsburgh Pirates"
-        }, 
-        {
-            "altTitle": "NATIONAL LEAGUE - GAME 2", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "date": "2016-09-17T22:10:00+00:00", 
-            "description": "Sean Rodriguez homered in both games, and Andrew McCutchen had a bases-loaded single as the Pittsburgh Pirates beat the Cincinnati Reds 7-3 on Saturday night for a doubleheader sweep.", 
-            "eventTitle": "National League - Game 2", 
-            "game": 2, 
-            "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "identity": {
-                "ESPNAPIID": "360917317", 
-                "MLBAPIID": "449085"
-            }, 
-            "league": "MLB", 
-            "networks": [
-                "FSOH"
-            ], 
-            "season": "2016", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Cincinnati Reds vs. Pittsburgh Pirates"
-        }, 
-        {
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -71038,6 +70923,65 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Cleveland Indians vs. Detroit Tigers"
+        }, 
+        {
+            "altTitle": "NATIONAL LEAGUE - GAME 1", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
+            "date": "2016-09-17T16:10:00+00:00", 
+            "description": "Pitcher Jameson Taillon singled for his first major league RBI and Andrew McCutchen drove in three runs, leading the Pirates over the Reds 10-4 Saturday in the first game of a doubleheader.", 
+            "game": 1, 
+            "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
+            "identity": {
+                "ESPNAPIID": "360917217", 
+                "MLBAPIID": "447363"
+            }, 
+            "league": "MLB", 
+            "networks": [
+                "FSOH"
+            ], 
+            "notes": "Makeup of 5/10 PPD, NATIONAL LEAGUE - GAME 1", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "title": "Makeup of 5/10 PPD", 
+            "vs": "Cincinnati Reds vs. Pittsburgh Pirates"
+        }, 
+        {
+            "altTitle": "NATIONAL LEAGUE - GAME 2", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
+            "date": "2016-09-17T22:10:00+00:00", 
+            "description": "Sean Rodriguez homered in both games, and Andrew McCutchen had a bases-loaded single as the Pittsburgh Pirates beat the Cincinnati Reds 7-3 on Saturday night for a doubleheader sweep.", 
+            "game": 2, 
+            "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
+            "identity": {
+                "ESPNAPIID": "360917317", 
+                "MLBAPIID": "449085"
+            }, 
+            "league": "MLB", 
+            "networks": [
+                "FSOH"
+            ], 
+            "notes": "NATIONAL LEAGUE - GAME 2", 
+            "season": "2016", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Cincinnati Reds vs. Pittsburgh Pirates"
         }, 
         {
             "assets": {
@@ -71256,7 +71200,7 @@
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "date": "2016-09-18T01:05:00+00:00", 
-            "description": "Kolten Wong hit a sacrifice fly that capped a two-run comeback in the ninth inning and the Cardinals rallied for a big win in their playoff chase, beating the  Giants 3-2 on Saturday night.", 
+            "description": "Kolten Wong hit a sacrifice fly that capped a two-run comeback in the ninth inning and the Cardinals rallied for a big win in their playoff chase, beating the Giants 3-2 on Saturday night.", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "ESPNAPIID": "360917126", 
@@ -71564,7 +71508,7 @@
             "description": "Alex Reyes pitched seven dominant innings in his third major league start, Alemys Diaz hit a two-run homer and the Cardinals moved up in the NL wild-card race, blanking the Giants 3-0 on Sunday.", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
-                "ESPNAPIID": "360918126", 
+                "ESPNAPIID": "400838189", 
                 "MLBAPIID": "449102"
             }, 
             "league": "MLB", 
@@ -71690,7 +71634,6 @@
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "date": "2016-09-19T18:15:00+00:00", 
             "description": "Yordano Ventura picked up his first complete-game victory, Kendrys Morales hit a three-run homer and the Kansas City Royals defeated the Chicago White Sox 8-3 Monday.", 
-            "eventTitle": "Makeup of 5/26 PPD", 
             "homeTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "identity": {
                 "ESPNAPIID": "360919107", 
@@ -71698,6 +71641,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 5/26 PPD", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -72023,7 +71967,7 @@
             "description": "Pinch-hitter Brandon Guyer doubled in a run with two outs in the ninth, helping the Cleveland Indians move closer to an AL Central title with a 2-1 victory over the Kansas City Royals on Tuesday.", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
-                "ESPNAPIID": "360920105", 
+                "ESPNAPIID": "400838211", 
                 "MLBAPIID": "449123"
             }, 
             "league": "MLB", 
@@ -72733,7 +72677,7 @@
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "date": "2016-09-22T18:10:00+00:00", 
             "description": "Justin Upton and Victor Martinez homered as the Detroit Tigers picked up another win in the AL wild-card chase, beating the Minnesota Twins 9-2 Thursday in the opener of a day-night doubleheader.", 
-            "eventTitle": "Makeup of 9/21 PPD American League \u0096 Game 1", 
+            "eventTitle": "American League \u0096 Game 1", 
             "game": 1, 
             "homeTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
             "identity": {
@@ -72742,6 +72686,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 9/21 PPD, AMERICAN LEAGUE \u0096 GAME 1", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -72841,7 +72786,7 @@
             "description": "Matt Kemp hit two home runs to power the Atlanta Braves to a 6-3 win over the Miami Marlins on Thursday night.", 
             "homeTeam": "9c207bf5-edfd-4bdb-90ab-79cdeae2b0dd", 
             "identity": {
-                "ESPNAPIID": "360922128", 
+                "ESPNAPIID": "400838234", 
                 "MLBAPIID": "449146"
             }, 
             "league": "MLB", 
@@ -74431,7 +74376,7 @@
             "description": "Chris Coghlan hit a three-run triple and John Lackey worked in and out of trouble over five innings, helping the Chicago Cubs beat the reeling Pittsburgh Pirates 6-4 on Tuesday night.", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
-                "ESPNAPIID": "360927123", 
+                "ESPNAPIID": "400838301", 
                 "MLBAPIID": "449214"
             }, 
             "league": "MLB", 
@@ -74733,7 +74678,7 @@
             "description": "Rookie Hunter Renfroe hit his first career grand slam and also had a three-run shot to drive in all the runs in the San Diego Padres' 7-1 victory against the Los Angeles Dodgers on Tuesday.", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
-                "ESPNAPIID": "360927125", 
+                "ESPNAPIID": "400838305", 
                 "MLBAPIID": "449218"
             }, 
             "league": "MLB", 
@@ -75182,7 +75127,6 @@
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2016-09-29T17:10:00+00:00", 
             "description": "Thursday's game between the Tigers and Indians has been postponed because of bad weather, a move that could force the teams to squeeze in a makeup game next week if it needs to be played.", 
-            "eventTitle": "Makeup on 10/3", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "ESPNAPIID": "360929106", 
@@ -75193,6 +75137,7 @@
                 "FSDT", 
                 "ESPN"
             ], 
+            "notes": "Makeup on 10/3", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -76614,6 +76559,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of PPD on 9/29", 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -76633,7 +76579,7 @@
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "date": "2016-10-05T00:00:00+00:00", 
             "description": "Edwin Encarnacion hit a three-run homer in the 11th inning off Ubaldo Jimenez, and Toronto beat Baltimore 5-2 in Tuesday night's AL wild-card game to advance to the ALDS.", 
-            "eventTitle": "Wild Card Game AL Wild Card Game American League Wild Card Game", 
+            "eventTitle": "AL Wild Card Game", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "ESPNAPIID": "361004114", 
@@ -76643,6 +76589,7 @@
             "networks": [
                 "TBS"
             ], 
+            "notes": "AL Wild Card Game, AMERICAN LEAGUE WILD CARD GAME", 
             "playoffround": 1, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -76664,7 +76611,7 @@
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "date": "2016-10-06T00:00:00+00:00", 
             "description": "Madison Bumgarner pitched a four-hitter in his latest postseason gem, Conor Gillaspie hit a three-run homer off Jeurys Familia and the San Francisco Giants beat the defending NL champion Mets.", 
-            "eventTitle": "Wild Card Game NL Wild Card Game National League Wild Card Game", 
+            "eventTitle": "NL Wild Card Game", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "ESPNAPIID": "361005121", 
@@ -76674,6 +76621,7 @@
             "networks": [
                 "ESPN"
             ], 
+            "notes": "NL Wild Card Game, NATIONAL LEAGUE WILD CARD GAME", 
             "playoffround": 1, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -76695,7 +76643,7 @@
             "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "date": "2016-10-06T20:30:00+00:00", 
             "description": "Marco Estrada took a shutout into the ninth inning, Jose Bautista hit a punctuating three-run homer and the Blue Jays opened their AL Division Series rematch with a 10-1 romp over the Rangers.", 
-            "eventTitle": "Division Series ALDS 'A' ALDS - Game 1", 
+            "eventTitle": "ALDS", 
             "game": 1, 
             "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "identity": {
@@ -76706,6 +76654,7 @@
             "networks": [
                 "TBS"
             ], 
+            "notes": "Division Series, ALDS 'A', ALDS - GAME 1", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -76727,7 +76676,7 @@
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "2016-10-07T00:00:00+00:00", 
             "description": "Francisco Lindor's homer capped Cleveland's three-homer rampage in the third inning off Rick Porcello, and the Indians held on for a 5-4 win over the Red Sox on Thursday in their ALDS opener.", 
-            "eventTitle": "Division Series ALDS 'B' ALDS - Game 1", 
+            "eventTitle": "ALDS", 
             "game": 1, 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
@@ -76738,6 +76687,7 @@
             "networks": [
                 "TBS"
             ], 
+            "notes": "Division Series, ALDS 'B', ALDS - GAME 1", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -76759,7 +76709,7 @@
             "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "date": "2016-10-07T17:00:00+00:00", 
             "description": "Edwin Encarnacion capped a three-homer burst in the fifth inning off Yu Darvish and the Toronto Blue Jays beat the Texas Rangers 5-3 Friday to take a 2-0 lead in the AL Division Series.", 
-            "eventTitle": "Division Series ALDS 'A' ALDS - Game 2", 
+            "eventTitle": "ALDS", 
             "game": 2, 
             "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "identity": {
@@ -76770,6 +76720,7 @@
             "networks": [
                 "TBS"
             ], 
+            "notes": "Division Series, ALDS 'A', ALDS - GAME 2", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -76791,7 +76742,7 @@
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "2016-10-07T20:30:00+00:00", 
             "description": "Corey Kluber took a shutout into the eighth, and Lonnie Chisenhall hit a three-run homer off David Price, giving the Indians a 6-0 win Friday over the Red Sox and a 2-0 lead in the ALDS.", 
-            "eventTitle": "Division Series ALDS 'B' ALDS - Game 2", 
+            "eventTitle": "ALDS", 
             "game": 2, 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
@@ -76802,6 +76753,7 @@
             "networks": [
                 "TBS"
             ], 
+            "notes": "Division Series, ALDS 'B', ALDS - GAME 2", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -76823,7 +76775,7 @@
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "date": "2016-10-07T21:30:00+00:00", 
             "description": "Clayton Kershaw earned a rare postseason victory, and Corey Seager and Justin Turner homered off Max Scherzer on Friday, giving the Los Angeles Dodgers a 4-3 win over the Washington Nationals.", 
-            "eventTitle": "Division Series NLDS 'B' NLDS - Game 1", 
+            "eventTitle": "NLDS", 
             "game": 1, 
             "homeTeam": "ec8c5a9a-7437-45f7-baf1-892a0ed5810b", 
             "identity": {
@@ -76834,6 +76786,7 @@
             "networks": [
                 "FS1"
             ], 
+            "notes": "Division Series, NLDS 'B', NLDS - GAME 1", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -76855,7 +76808,7 @@
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "date": "2016-10-08T01:00:00+00:00", 
             "description": "Jon Lester outpitched Johnny Cueto with eight sparkling innings, Javier Baez homered in the eighth and the Chicago Cubs beat the San Francisco Giants 1-0 in a tense NLDS Game 1.", 
-            "eventTitle": "Division Series NLDS 'A' NLDS - Game 1", 
+            "eventTitle": "NLDS", 
             "game": 1, 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
@@ -76866,6 +76819,7 @@
             "networks": [
                 "FS1"
             ], 
+            "notes": "Division Series, NLDS 'A', NLDS - GAME 1", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -76885,7 +76839,8 @@
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "date": "2016-10-08T20:00:00+00:00", 
-            "description": "Division Series NLDS 'B'", 
+            "description": "Division Series, NLDS 'B'", 
+            "eventTitle": "NLDS", 
             "game": 2, 
             "homeTeam": "ec8c5a9a-7437-45f7-baf1-892a0ed5810b", 
             "identity": {
@@ -76893,6 +76848,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'B'", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -76914,7 +76870,7 @@
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "date": "2016-10-09T00:00:00+00:00", 
             "description": "Travis Wood took over when starter Kyle Hendricks got hurt and became the first relief pitcher since 1924 to hit a postseason home run, as the Chicago Cubs beat the San Francisco Giants 5-2.", 
-            "eventTitle": "Division Series NLDS 'A' NLDS - Game 2", 
+            "eventTitle": "NLDS", 
             "game": 2, 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
@@ -76925,6 +76881,7 @@
             "networks": [
                 "MLBN"
             ], 
+            "notes": "Division Series, NLDS 'A', NLDS - GAME 2", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -76946,7 +76903,7 @@
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "date": "2016-10-09T17:00:00+00:00", 
             "description": "Jose Lobaton hit a three-run homer, Daniel Murphy drove in two runs, Washington's bullpen threw 4 2/3 scoreless innings, and the Nationals beat the Dodgers 5-2 in Game 2 of the NLDS on Sunday.", 
-            "eventTitle": "Division Series NLDS 'B' , Makeup of 10/8 PPD NLDS - Game 2", 
+            "eventTitle": "NLDS", 
             "game": 2, 
             "homeTeam": "ec8c5a9a-7437-45f7-baf1-892a0ed5810b", 
             "identity": {
@@ -76957,12 +76914,13 @@
             "networks": [
                 "FS1"
             ], 
+            "notes": "Division Series, NLDS 'B', NLDS - GAME 2", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "NLDS 'B' , makeup of 10/8 PPD", 
+            "title": "NLDS 'B'", 
             "vs": "Washington Nationals vs. Los Angeles Dodgers"
         }, 
         {
@@ -76976,7 +76934,8 @@
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2016-10-09T20:00:00+00:00", 
-            "description": "Division Series ALDS 'B'", 
+            "description": "Division Series, ALDS 'B'", 
+            "eventTitle": "ALDS", 
             "game": 3, 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
@@ -76987,6 +76946,7 @@
             "networks": [
                 "TBS"
             ], 
+            "notes": "Division Series, ALDS 'B'", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77008,7 +76968,7 @@
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "date": "2016-10-09T23:30:00+00:00", 
             "description": "Josh Donaldson raced home from second base after Rougned Odor bounced a double-play relay in the 10th inning and the Toronto Blue Jays beat the Texas Rangers 7-6 to sweep their ALDS on Sunday.", 
-            "eventTitle": "Division Series ALDS 'A' ALDS - Game 3", 
+            "eventTitle": "ALDS", 
             "game": 3, 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
@@ -77019,6 +76979,7 @@
             "networks": [
                 "TBS"
             ], 
+            "notes": "Division Series, ALDS 'A', ALDS - GAME 3", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77040,7 +77001,7 @@
             "awayTeam": "ec8c5a9a-7437-45f7-baf1-892a0ed5810b", 
             "date": "2016-10-10T20:00:00+00:00", 
             "description": "Anthony Rendon and Jayson Werth homered, and the Nationals moved within one victory of winning a postseason series for the first time, beating the Dodgers 8-3 Monday for a 2-1 lead in the NLDS.", 
-            "eventTitle": "Division Series NLDS 'B' NLDS - Game 3", 
+            "eventTitle": "NLDS", 
             "game": 3, 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
@@ -77051,6 +77012,7 @@
             "networks": [
                 "MLBN"
             ], 
+            "notes": "Division Series, NLDS 'B', NLDS - GAME 3", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77072,7 +77034,7 @@
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2016-10-10T22:00:00+00:00", 
             "description": "Cleveland closer Cody Allen hung on in the last two innings, and the Indians beat the Boston Red Sox 4-3 Monday to complete a three-game sweep of their AL Division Series.", 
-            "eventTitle": "Division Series ALDS 'B' ALDS - Game 3", 
+            "eventTitle": "ALDS", 
             "game": 3, 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
@@ -77083,6 +77045,7 @@
             "networks": [
                 "TBS"
             ], 
+            "notes": "Division Series, ALDS 'B', ALDS - GAME 3", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77104,7 +77067,7 @@
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2016-10-11T01:30:00+00:00", 
             "description": "Joe Panik doubled off the wall in right-center to drive in the winning run in the 13th inning, and the San Francisco Giants staved off elimination with a 6-5 win over the Chicago Cubs on Monday.", 
-            "eventTitle": "Division Series NLDS 'A' NLDS - Game 3", 
+            "eventTitle": "NLDS", 
             "game": 3, 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
@@ -77115,6 +77078,7 @@
             "networks": [
                 "FS1"
             ], 
+            "notes": "Division Series, NLDS 'A', NLDS - GAME 3", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77136,7 +77100,7 @@
             "awayTeam": "ec8c5a9a-7437-45f7-baf1-892a0ed5810b", 
             "date": "2016-10-11T21:00:00+00:00", 
             "description": "Chase Utley singled home the tiebreaking run with two outs in the eighth inning after the Dodgers' bullpen faltered, and Los Angeles avoided elimination with a 6-5 win over the Nationals.", 
-            "eventTitle": "Division Series NLDS 'B' NLDS - Game 4", 
+            "eventTitle": "NLDS", 
             "game": 4, 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
@@ -77147,6 +77111,7 @@
             "networks": [
                 "FS1"
             ], 
+            "notes": "Division Series, NLDS 'B', NLDS - GAME 4", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77168,7 +77133,7 @@
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2016-10-12T00:30:00+00:00", 
             "description": "Javier Baez's tiebreaking single capped a four-run rally in the ninth inning, and the Chicago Cubs beat the San Francisco Giants 6-5 on Tuesday night in Game 4 to win their NL Division Series.", 
-            "eventTitle": "Division Series NLDS 'A' NLDS - Game 4", 
+            "eventTitle": "NLDS", 
             "game": 4, 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
@@ -77179,6 +77144,7 @@
             "networks": [
                 "FS1"
             ], 
+            "notes": "Division Series, NLDS 'A', NLDS - GAME 4", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77200,7 +77166,7 @@
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "date": "2016-10-14T00:00:00+00:00", 
             "description": "Clayton Kershaw got the final two outs to earn his first major league save and finish the Los Angeles Dodgers' 4-3 victory over the Washington Nationals in Game 5 to win their NL Division Series.", 
-            "eventTitle": "Division Series NLDS 'B' NLDS - Game 5", 
+            "eventTitle": "NLDS", 
             "game": 5, 
             "homeTeam": "ec8c5a9a-7437-45f7-baf1-892a0ed5810b", 
             "identity": {
@@ -77211,6 +77177,7 @@
             "networks": [
                 "FS1"
             ], 
+            "notes": "Division Series, NLDS 'B', NLDS - GAME 5", 
             "playoffround": 2, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77232,7 +77199,7 @@
             "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "date": "2016-10-15T00:00:00+00:00", 
             "description": "Francisco Lindor hit a two-run homer and Corey Kluber silenced Toronto's booming bats, giving the Cleveland Indians a 2-0 win over the Blue Jays in Game 1 of the ALCS on Friday night.", 
-            "eventTitle": "League Championship Series ALCS ALCS - Game 1", 
+            "eventTitle": "ALCS", 
             "game": 1, 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
@@ -77243,6 +77210,7 @@
             "networks": [
                 "TBS"
             ], 
+            "notes": "League Championship Series, ALCS, ALCS - GAME 1", 
             "playoffround": 3, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77264,7 +77232,7 @@
             "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "date": "2016-10-15T20:00:00+00:00", 
             "description": "Josh Tomlin baffled Blue Jays batters for nearly six innings and Andrew Miller blew them away as the Cleveland Indians edged Toronto 2-1 on Saturday to take 2-0 lead in the ALCS.", 
-            "eventTitle": "League Championship Series ALCS ALCS - Game 2", 
+            "eventTitle": "ALCS", 
             "game": 2, 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
@@ -77275,6 +77243,7 @@
             "networks": [
                 "TBS"
             ], 
+            "notes": "League Championship Series, ALCS, ALCS - GAME 2", 
             "playoffround": 3, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77296,7 +77265,7 @@
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "date": "2016-10-16T00:00:00+00:00", 
             "description": "Miguel Montero snapped an eighth-inning tie with the third pinch-hit grand slam in postseason history as the Chicago Cubs beat the Los Angeles Dodgers 8-4 in their NL Championship Series opener.", 
-            "eventTitle": "League Championship Series NLCS NLCS - Game 1", 
+            "eventTitle": "NLCS", 
             "game": 1, 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
@@ -77307,6 +77276,7 @@
             "networks": [
                 "FS1"
             ], 
+            "notes": "League Championship Series, NLCS, NLCS - GAME 1", 
             "playoffround": 3, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77328,7 +77298,7 @@
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "date": "2016-10-17T00:00:00+00:00", 
             "description": "Clayton Kershaw pitched seven sparkling innings, Adrian Gonzalez homered and the Los Angeles Dodgers beat the Chicago Cubs 1-0 on Sunday night to tie the NL Championship Series at a game apiece.", 
-            "eventTitle": "League Championship Series NLCS NLCS - Game 2", 
+            "eventTitle": "NLCS", 
             "game": 2, 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
@@ -77339,6 +77309,7 @@
             "networks": [
                 "FS1"
             ], 
+            "notes": "League Championship Series, NLCS, NLCS - GAME 2", 
             "playoffround": 3, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77360,7 +77331,7 @@
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2016-10-18T00:00:00+00:00", 
             "description": "Jason Kipnis and Mike Napoli homered, and Cleveland's bullpen pitched 8 2/3 innings as the Indians won Game 3 of the ALCS 4-2 over the Blue Jays to pull within one win of the pennant.", 
-            "eventTitle": "League Championship Series ALCS ALCS - Game 3", 
+            "eventTitle": "ALCS", 
             "game": 3, 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
@@ -77371,6 +77342,7 @@
             "networks": [
                 "TBS"
             ], 
+            "notes": "League Championship Series, ALCS, ALCS - GAME 3", 
             "playoffround": 3, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77392,7 +77364,7 @@
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2016-10-18T20:00:00+00:00", 
             "description": "The Blue Jays finally broke through with the bats, beating the Cleveland Indians 5-1 on Tuesday to avert a sweep in the AL Championship Series.", 
-            "eventTitle": "League Championship Series ALCS ALCS - Game 4", 
+            "eventTitle": "ALCS", 
             "game": 4, 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
@@ -77403,6 +77375,7 @@
             "networks": [
                 "TBS"
             ], 
+            "notes": "League Championship Series, ALCS, ALCS - GAME 4", 
             "playoffround": 3, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77424,7 +77397,7 @@
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2016-10-19T00:00:00+00:00", 
             "description": "Rich Hill outpitched reigning Cy Young Award winner Jake Arrieta, Yasmani Grandal hit a two-run homer in the fourth inning and the Los Angeles Dodgers beat the Chicago Cubs 6-0 Tuesday night.", 
-            "eventTitle": "League Championship Series NLCS NLCS - Game 3", 
+            "eventTitle": "NLCS", 
             "game": 3, 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
@@ -77435,6 +77408,7 @@
             "networks": [
                 "FS1"
             ], 
+            "notes": "League Championship Series, NLCS, NLCS - GAME 3", 
             "playoffround": 3, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77456,7 +77430,7 @@
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2016-10-19T20:00:00+00:00", 
             "description": "A most unlikely pitching performance helped put a most unexpected team into the World Series.", 
-            "eventTitle": "League Championship Series ALCS ALCS - Game 5", 
+            "eventTitle": "ALCS", 
             "game": 5, 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
@@ -77467,6 +77441,7 @@
             "networks": [
                 "TBS"
             ], 
+            "notes": "League Championship Series, ALCS, ALCS - GAME 5", 
             "playoffround": 3, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77488,7 +77463,7 @@
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2016-10-20T00:00:00+00:00", 
             "description": "Anthony Rizzo, Addison Russell and the rest of the Chicago Cubs' bats broke out in a big way.", 
-            "eventTitle": "League Championship Series NLCS NLCS - Game 4", 
+            "eventTitle": "NLCS", 
             "game": 4, 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
@@ -77499,6 +77474,7 @@
             "networks": [
                 "FS1"
             ], 
+            "notes": "League Championship Series, NLCS, NLCS - GAME 4", 
             "playoffround": 3, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77520,7 +77496,7 @@
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2016-10-21T00:00:00+00:00", 
             "description": "Jon Lester pitched seven sharp innings, Addison Russell hit a tiebreaking homer and the Chicago Cubs moved one win from their first World Series in 71 years by beating the Los Angeles Dodgers.", 
-            "eventTitle": "League Championship Series NLCS NLCS - Game 5", 
+            "eventTitle": "NLCS", 
             "game": 5, 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
@@ -77531,6 +77507,7 @@
             "networks": [
                 "FS1"
             ], 
+            "notes": "League Championship Series, NLCS, NLCS - GAME 5", 
             "playoffround": 3, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77552,7 +77529,7 @@
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "date": "2016-10-23T00:00:00+00:00", 
             "description": "Cursed by a Billy Goat, bedeviled by Bartman and crushed by decades of disappointment, the Chicago Cubs are at long last headed back to the World Series.", 
-            "eventTitle": "League Championship Series NLCS NLCS - Game 6", 
+            "eventTitle": "NLCS", 
             "game": 6, 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
@@ -77563,6 +77540,7 @@
             "networks": [
                 "FS1"
             ], 
+            "notes": "League Championship Series, NLCS, NLCS - GAME 6", 
             "playoffround": 3, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77584,7 +77562,7 @@
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2016-10-26T00:00:00+00:00", 
             "description": "Corey Kluber pitched neatly into the seventh inning, Roberto Perez hit two home runs and the Cleveland Indians beat the Chicago Cubs 6-0 Tuesday night in the World Series opener.", 
-            "eventTitle": "World Series World Series - Game 1", 
+            "eventTitle": "World Series", 
             "game": 1, 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
@@ -77595,6 +77573,7 @@
             "networks": [
                 "FOX"
             ], 
+            "notes": "World Series, World Series - GAME 1", 
             "playoffround": 4, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77616,7 +77595,7 @@
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2016-10-26T23:00:00+00:00", 
             "description": "Jake Arrieta made a teasing run at history, Kyle Schwarber drove in two runs and the Cubs brushed off a shutout to even the World Series with their first Fall Classic win in 71 years.", 
-            "eventTitle": "World Series World Series - Game 2", 
+            "eventTitle": "World Series", 
             "game": 2, 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
@@ -77627,6 +77606,7 @@
             "networks": [
                 "FOX"
             ], 
+            "notes": "World Series, World Series - GAME 2", 
             "playoffround": 4, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77648,7 +77628,7 @@
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2016-10-29T00:00:00+00:00", 
             "description": "Coco Crisp got a pinch-hit RBI, and Cody Allen escaped a ninth-inning jam as the Indians pitched their fifth shutout this postseason and beat the Cubs 1-0 for a 2-1 lead in the World Series.", 
-            "eventTitle": "World Series World Series - Game 3", 
+            "eventTitle": "World Series", 
             "game": 3, 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
@@ -77659,6 +77639,7 @@
             "networks": [
                 "FOX"
             ], 
+            "notes": "World Series, World Series - GAME 3", 
             "playoffround": 4, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77680,7 +77661,7 @@
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2016-10-30T00:00:00+00:00", 
             "description": "Corey Kluber earned his second win in this World Series and the Cleveland Indians moved within one victory of their first championship since 1948, routing the Chicago Cubs 7-2 Saturday night.", 
-            "eventTitle": "World Series World Series - Game 4", 
+            "eventTitle": "World Series", 
             "game": 4, 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
@@ -77691,6 +77672,7 @@
             "networks": [
                 "FOX"
             ], 
+            "notes": "World Series, World Series - GAME 4", 
             "playoffround": 4, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77712,7 +77694,7 @@
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2016-10-31T00:00:00+00:00", 
             "description": "Aroldis Chapman got eight outs in the longest relief appearance of his career and the Chicago Cubs held off Cleveland Sunday night, cutting the Indians' lead in the World Series 3-2.", 
-            "eventTitle": "World Series World Series - Game 5", 
+            "eventTitle": "World Series", 
             "game": 5, 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
@@ -77723,6 +77705,7 @@
             "networks": [
                 "FOX"
             ], 
+            "notes": "World Series, World Series - GAME 5", 
             "playoffround": 4, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77744,7 +77727,7 @@
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2016-11-02T00:00:00+00:00", 
             "description": "Addison Russell hit a grand slam and drove in a record-tying six runs, leading the Chicago Cubs over the Cleveland Indians 9-3 Tuesday night and forcing the World Series to a deciding Game 7.", 
-            "eventTitle": "World Series World Series - Game 6", 
+            "eventTitle": "World Series", 
             "game": 6, 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
@@ -77755,6 +77738,7 @@
             "networks": [
                 "FOX"
             ], 
+            "notes": "World Series, World Series - GAME 6", 
             "playoffround": 4, 
             "season": "2016", 
             "sport": "Baseball", 
@@ -77776,7 +77760,7 @@
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2016-11-03T00:00:00+00:00", 
             "description": "The Chicago Cubs won their first World Series championship since 1908 after Ben Zobrist hit a go-ahead double in the 10th inning to beat the Cleveland Indians 8-7 in a thrilling Game 7.", 
-            "eventTitle": "World Series World Series - Game 7", 
+            "eventTitle": "World Series", 
             "game": 7, 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
@@ -77787,6 +77771,7 @@
             "networks": [
                 "FOX"
             ], 
+            "notes": "World Series, World Series - GAME 7", 
             "playoffround": 4, 
             "season": "2016", 
             "sport": "Baseball", 

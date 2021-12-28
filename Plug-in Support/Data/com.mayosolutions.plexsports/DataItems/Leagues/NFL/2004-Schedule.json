@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2004SCHEDULE", 
-        "CachedOn": "2021-12-23T19:00:28", 
-        "ExpiresOn": "2021-12-30T19:00:28", 
+        "CachedOn": "2021-12-24T04:13:18", 
+        "ExpiresOn": "2021-12-31T04:13:18", 
         "Version": "2"
     }, 
     "Items": [
@@ -18,9 +18,12 @@
             "awayTeam": "2d139855-67ee-42e1-9077-c806bdb35a89", 
             "date": "2004-08-10T00:00:00+00:00", 
             "description": "While his Washington Redskins beat the Denver Broncos 20-17 on a last-second 39-yard field goal by Ola Kimrin on Monday night in the Hall of Fame game, Joe Gibbs saw enough mistakes to fill an entire preseason. And then some.", 
+            "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
             "homeTeam": "68c43b1e-6b93-4503-be86-57fceeca5a21", 
             "identity": {
-                "ESPNAPIID": "240809028"
+                "ESPNAPIID": "240809028", 
+                "WikipediaID": "NFL.2004.-1"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -8548,7 +8551,7 @@
             "vs": "Pittsburgh Steelers vs. New England Patriots"
         }, 
         {
-            "altTitle": "SUPER BOWL", 
+            "altTitle": "SUPERBOWL", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -8559,7 +8562,7 @@
             }, 
             "awayTeam": "11368151-3316-40fa-bb2d-cbf196b2c750", 
             "date": "2005-02-06T23:30:00+00:00", 
-            "description": "Super Bowl", 
+            "description": "Superbowl", 
             "eventindicator": 1, 
             "homeTeam": "7aeb2edd-3ed3-4c13-93db-66dadb2b9348", 
             "identity": {
@@ -8584,14 +8587,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/4/46/2005_Pro_Bowl.svg"
+                    }
+                ]
             }, 
             "awayTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
             "date": "2005-02-14T00:30:00+00:00", 
-            "description": "Pro Bowl at Honolulu Hi", 
+            "description": "The game started off slowly. The AFC was forced to punt away its first possession, and the NFC missed a field goal from 43 yards out. Two plays later, the AFC opened up scoring with a 62-yard pass from Peyton Manning to his Indianapolis Colts teammate, Marvin Harrison. The NFC drove back quickly, but Donovan McNabb's pass was intercepted by Joey Porter. Manning then hooked up with Hines Ward for a 41-yard score, and the AFC led 14\u20130. The NFC came back with a time consuming drive that spanned the end of the first quarter to the beginning of the second, and ended with a 12-yard run by Brian Westbrook to bring the NFC within 7. However, David Akers' attempted onside kick would prove costly, as Ward recovered the kick and returned it 39 yards for a score, the first ever kickoff return for a touchdown in Pro Bowl history. Daunte Culpepper attempted to bring the NFC back, but was intercepted by Takeo Spikes. That interception led to another Manning touchdown, this time a 12-yard pass to Antonio Gates which gave the AFC a comfortable 28\u20137 lead. The NFC once again came down the field, led by Culpepper, but the drive was not without problems. On the second play, Torry Holt caught a pass but was hit by Tory James, causing a fumble. John Lynch recovered the fumble for the AFC, but the play was negated after a penalty on Marcus Stroud. Akers ended up kicking a 33-yard field goal to bring the score to 28\u201310, which is how the first half ended.", 
+            "eventTitle": "2005 NFL Pro Bowl", 
+            "eventindicator": 2, 
             "homeTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
             "identity": {
-                "ESPNAPIID": "250213031"
+                "ESPNAPIID": "250213031", 
+                "WikipediaID": "NFL.2004.2"
             }, 
             "league": "NFL", 
             "networks": [

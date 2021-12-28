@@ -101,7 +101,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"playoffround": playoffRound,
 					"game": game,
 					"networks": list(set(networks)),
-					"altTitle": seriesDescriptor	# For reference later. If no good description, set description to this.
+					"altDescription": seriesDescriptor	# For reference later. If no good description, set description to this.
 					}
 
 				event = ScheduleEvent(**kwargs)

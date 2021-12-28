@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB2000SCHEDULE", 
-        "CachedOn": "2021-12-23T18:29:05", 
-        "ExpiresOn": "2021-12-30T18:29:05", 
+        "CachedOn": "2021-12-27T19:22:35", 
+        "ExpiresOn": "2022-01-03T19:22:35", 
         "Version": "2"
     }, 
     "Items": [
@@ -11183,6 +11183,7 @@
             "vs": "St. Louis Cardinals vs Chicago Cubs"
         }, 
         {
+            "altDescription": "up of 4/3/00 Rainout", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -11198,7 +11199,8 @@
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "date": "2000-04-04T23:05:00+00:00", 
-            "description": "Make-up of 4/3/00 Rainout", 
+            "description": "up of 4/3/00 Rainout", 
+            "eventTitle": "Make", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "ESPNAPIID": "200404117", 
@@ -11207,10 +11209,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Make, up of 4/3/00 Rainout", 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 0, 
-            "title": "Make-up of 4/3/00 Rainout", 
+            "title": "Make", 
             "vs": "Cincinnati Reds vs. Milwaukee Brewers"
         }, 
         {
@@ -11272,6 +11275,7 @@
             "vs": "Montreal Expos vs. Los Angeles Dodgers"
         }, 
         {
+            "altDescription": "up of 4/3 Rainout", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -11282,7 +11286,8 @@
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "date": "2000-04-04T23:05:00+00:00", 
-            "description": "Make-up of 4/3 Rainout", 
+            "description": "up of 4/3 Rainout", 
+            "eventTitle": "Make", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
                 "ESPNAPIID": "200404123", 
@@ -11291,10 +11296,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Make, up of 4/3 Rainout", 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 0, 
-            "title": "Make-up of 4/3 Rainout", 
+            "title": "Make", 
             "vs": "Pittsburgh Pirates vs. Houston Astros"
         }, 
         {
@@ -21710,50 +21716,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "2000-04-27T18:05:00+00:00", 
-            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "identity": {
-                "ESPNAPIID": "200427104"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Chicago White Sox vs. Baltimore Orioles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "2000-04-28T00:05:00+00:00", 
-            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "identity": {
-                "MLBAPIID": "3433"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Chicago White Sox vs. Baltimore Orioles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "date": "2000-04-27T19:05:00+00:00", 
             "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
@@ -22129,6 +22091,50 @@
             "season": "2000", 
             "sport": "Baseball", 
             "vs": "San Francisco Giants vs Washington Nationals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
+            "date": "2000-04-27T18:05:00+00:00", 
+            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "identity": {
+                "ESPNAPIID": "200427104"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago White Sox vs. Baltimore Orioles"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
+            "date": "2000-04-28T00:05:00+00:00", 
+            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "identity": {
+                "MLBAPIID": "3433"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago White Sox vs. Baltimore Orioles"
         }, 
         {
             "assets": {
@@ -41222,7 +41228,7 @@
             }, 
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "date": "2000-06-08T23:10:00+00:00", 
-            "description": "Makeup of 06/06 Rainout", 
+            "description": "Makeup of 06/06 rainout", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "ESPNAPIID": "200608121", 
@@ -41230,6 +41236,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 06/06 rainout", 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -41956,7 +41963,7 @@
             "date": "2000-06-10T23:10:00+00:00", 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
-                "ESPNAPIID": "200610115", 
+                "ESPNAPIID": "400700011", 
                 "MLBAPIID": "4786", 
                 "TheSportsDBID": "1206835"
             }, 
@@ -45583,6 +45590,50 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
+            "date": "2000-06-18T20:10:00+00:00", 
+            "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
+            "identity": {
+                "MLBAPIID": "4294"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Los Angeles Dodgers vs. St. Louis Cardinals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
+            "date": "2000-06-19T00:05:00+00:00", 
+            "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
+            "identity": {
+                "ESPNAPIID": "200618119"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Los Angeles Dodgers vs. St. Louis Cardinals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
@@ -45747,50 +45798,6 @@
             "season": "2000", 
             "sport": "Baseball", 
             "vs": "Washington Nationals vs Pittsburgh Pirates"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "2000-06-18T20:10:00+00:00", 
-            "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "identity": {
-                "MLBAPIID": "4294"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Los Angeles Dodgers vs. St. Louis Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "2000-06-19T00:05:00+00:00", 
-            "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "identity": {
-                "ESPNAPIID": "200618119"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Los Angeles Dodgers vs. St. Louis Cardinals"
         }, 
         {
             "assets": {
@@ -48120,6 +48127,60 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/q6x5w01617545684.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
+            "date": "2000-06-24T17:05:00+00:00", 
+            "game": 1, 
+            "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
+            "identity": {
+                "ESPNAPIID": "200624205", 
+                "MLBAPIID": "5420", 
+                "TheSportsDBID": "1206651"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Cleveland Indians vs. Detroit Tigers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
+            "date": "2000-06-24T23:05:00+00:00", 
+            "game": 2, 
+            "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
+            "identity": {
+                "ESPNAPIID": "200624305", 
+                "MLBAPIID": "5252"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Cleveland Indians vs. Detroit Tigers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
@@ -48321,60 +48382,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Cincinnati Reds vs. San Diego Padres"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/q6x5w01617545684.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "2000-06-24T17:05:00+00:00", 
-            "game": 1, 
-            "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "identity": {
-                "ESPNAPIID": "200624205", 
-                "MLBAPIID": "5420", 
-                "TheSportsDBID": "1206651"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Cleveland Indians vs. Detroit Tigers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "2000-06-24T23:05:00+00:00", 
-            "game": 2, 
-            "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "identity": {
-                "ESPNAPIID": "200624305", 
-                "MLBAPIID": "5252"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Cleveland Indians vs. Detroit Tigers"
         }, 
         {
             "assets": {
@@ -51534,56 +51541,6 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/pxm8671556829420.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "2000-07-01T17:15:00+00:00", 
-            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "identity": {
-                "ESPNAPIID": "200701104", 
-                "TheSportsDBID": "1206553"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Chicago White Sox vs. Boston Red Sox"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "2000-07-01T23:05:00+00:00", 
-            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "identity": {
-                "MLBAPIID": "5517"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Chicago White Sox vs. Boston Red Sox"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.thesportsdb.com/images/media/event/thumb/qp97k31617549269.jpg"
                     }
                 ]
@@ -51747,6 +51704,56 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Baltimore Orioles vs. Toronto Blue Jays"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/pxm8671556829420.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
+            "date": "2000-07-01T17:15:00+00:00", 
+            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "identity": {
+                "ESPNAPIID": "200701104", 
+                "TheSportsDBID": "1206553"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago White Sox vs. Boston Red Sox"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
+            "date": "2000-07-01T23:05:00+00:00", 
+            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "identity": {
+                "MLBAPIID": "5517"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago White Sox vs. Boston Red Sox"
         }, 
         {
             "assets": {
@@ -55426,50 +55433,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "2000-07-09T17:10:00+00:00", 
-            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "identity": {
-                "MLBAPIID": "4871"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "New York Mets vs. New York Yankees"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "2000-07-10T00:10:00+00:00", 
-            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "identity": {
-                "ESPNAPIID": "200709121"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "New York Mets vs. New York Yankees"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2000-07-09T17:15:00+00:00", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
@@ -55767,6 +55730,51 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
+            "date": "2000-07-09T17:10:00+00:00", 
+            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "identity": {
+                "MLBAPIID": "4871"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "New York Mets vs. New York Yankees"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
+            "date": "2000-07-10T00:10:00+00:00", 
+            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "identity": {
+                "ESPNAPIID": "200709121"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "New York Mets vs. New York Yankees"
+        }, 
+        {
+            "altDescription": "Star Game, at Turner Field", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": [
                     {
                         "source": "wikipedia", 
@@ -55776,8 +55784,8 @@
             }, 
             "awayTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "date": "2000-07-12T00:35:00+00:00", 
-            "description": "The 2000 Major League Baseball All-Star Game was the 71st playing of the midsummer classic between the all-stars of the American League (AL) and National League (NL), the two leagues comprising Major League Baseball. The game was held on July 11, 2000 at Turner Field in Atlanta, Georgia, home of the Atlanta Braves of the National League.", 
-            "eventTitle": "All-Star Game 71st All-Star Game, at Turner Field - 2000 Major League Baseball All-Star Game", 
+            "description": "The 2000 Major League Baseball All-Star Game was the 71st playing of the midsummer classic between the all-stars of the American League (AL) and National League (NL), the two leagues comprising Major League Baseball. The game was held on July 11, 2000 at Turner Field in Atlanta, Georgia, home of the Atlanta Braves of the National League., Star Game, at Turner Field", 
+            "eventTitle": "2000 Major League Baseball All-Star Game", 
             "eventindicator": 2, 
             "homeTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "identity": {
@@ -55790,10 +55798,11 @@
                 "NBC", 
                 "MLB International"
             ], 
+            "notes": "2000 Major League Baseball All-Star Game, All-Star Game, 71st All, Star Game, at Turner Field", 
             "season": "2000", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "71st All-Star Game, at Turner Field", 
+            "title": "71st All", 
             "vs": "National League All-Stars vs. American League All-Stars"
         }, 
         {
@@ -57173,50 +57182,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "2000-07-15T20:15:00+00:00", 
-            "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
-            "identity": {
-                "ESPNAPIID": "200715129"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Arizona Diamondbacks vs. Texas Rangers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "2000-07-16T02:05:00+00:00", 
-            "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
-            "identity": {
-                "MLBAPIID": "4747"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Arizona Diamondbacks vs. Texas Rangers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "date": "2000-07-15T20:15:00+00:00", 
             "homeTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
@@ -57677,6 +57642,50 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Kansas City Royals vs. Milwaukee Brewers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
+            "date": "2000-07-15T20:15:00+00:00", 
+            "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
+            "identity": {
+                "ESPNAPIID": "200715129"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Arizona Diamondbacks vs. Texas Rangers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
+            "date": "2000-07-16T02:05:00+00:00", 
+            "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
+            "identity": {
+                "MLBAPIID": "4747"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Arizona Diamondbacks vs. Texas Rangers"
         }, 
         {
             "assets": {
@@ -59740,6 +59749,54 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
+            "date": "2000-07-20T17:35:00+00:00", 
+            "game": 1, 
+            "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
+            "identity": {
+                "ESPNAPIID": "200720201", 
+                "MLBAPIID": "5592"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Baltimore Orioles vs. Boston Red Sox"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
+            "date": "2000-07-20T23:35:00+00:00", 
+            "game": 2, 
+            "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
+            "identity": {
+                "ESPNAPIID": "200720301", 
+                "MLBAPIID": "5593"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Baltimore Orioles vs. Boston Red Sox"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "2000-07-20T17:35:00+00:00", 
             "homeTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
@@ -60362,54 +60419,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "2000-07-20T17:35:00+00:00", 
-            "game": 1, 
-            "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "identity": {
-                "ESPNAPIID": "200720201", 
-                "MLBAPIID": "5592"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Baltimore Orioles vs. Boston Red Sox"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "2000-07-20T23:35:00+00:00", 
-            "game": 2, 
-            "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "identity": {
-                "ESPNAPIID": "200720301", 
-                "MLBAPIID": "5593"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Baltimore Orioles vs. Boston Red Sox"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "date": "2000-07-21T00:05:00+00:00", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
@@ -60915,56 +60924,6 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/rx6nf61617545783.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "2000-07-22T17:05:00+00:00", 
-            "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "identity": {
-                "MLBAPIID": "5602", 
-                "TheSportsDBID": "1206290"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Boston Red Sox vs. Chicago White Sox"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "2000-07-22T21:05:00+00:00", 
-            "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "identity": {
-                "ESPNAPIID": "200722102"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Boston Red Sox vs. Chicago White Sox"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.thesportsdb.com/images/media/event/thumb/f91ddo1617546137.jpg"
                     }
                 ]
@@ -61306,6 +61265,56 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/rx6nf61617545783.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "date": "2000-07-22T17:05:00+00:00", 
+            "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
+            "identity": {
+                "MLBAPIID": "5602", 
+                "TheSportsDBID": "1206290"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Boston Red Sox vs. Chicago White Sox"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "date": "2000-07-22T21:05:00+00:00", 
+            "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
+            "identity": {
+                "ESPNAPIID": "200722102"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Boston Red Sox vs. Chicago White Sox"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.thesportsdb.com/images/media/event/thumb/gf3mfw1617545489.jpg"
                     }
                 ]
@@ -61498,50 +61507,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Toronto Blue Jays vs. Baltimore Orioles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "2000-07-23T17:10:00+00:00", 
-            "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
-            "identity": {
-                "MLBAPIID": "4477"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Atlanta Braves vs. New York Mets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "2000-07-24T00:05:00+00:00", 
-            "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
-            "identity": {
-                "ESPNAPIID": "200723115"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Atlanta Braves vs. New York Mets"
         }, 
         {
             "assets": {
@@ -62006,6 +61971,50 @@
             "season": "2000", 
             "sport": "Baseball", 
             "vs": "Cleveland Indians vs. Arizona Diamondbacks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "date": "2000-07-23T17:10:00+00:00", 
+            "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
+            "identity": {
+                "MLBAPIID": "4477"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Atlanta Braves vs. New York Mets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "date": "2000-07-24T00:05:00+00:00", 
+            "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
+            "identity": {
+                "ESPNAPIID": "200723115"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Atlanta Braves vs. New York Mets"
         }, 
         {
             "assets": {
@@ -62930,6 +62939,50 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
+            "date": "2000-07-26T20:05:00+00:00", 
+            "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
+            "identity": {
+                "ESPNAPIID": "200726112"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Seattle Mariners vs. Oakland Athletics"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
+            "date": "2000-07-27T02:05:00+00:00", 
+            "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
+            "identity": {
+                "MLBAPIID": "3737"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Seattle Mariners vs. Oakland Athletics"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
@@ -63286,50 +63339,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "2000-07-26T20:05:00+00:00", 
-            "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "identity": {
-                "ESPNAPIID": "200726112"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Seattle Mariners vs. Oakland Athletics"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "2000-07-27T02:05:00+00:00", 
-            "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "identity": {
-                "MLBAPIID": "3737"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Seattle Mariners vs. Oakland Athletics"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "date": "2000-07-27T16:10:00+00:00", 
             "game": 1, 
@@ -63356,7 +63365,7 @@
             }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "date": "2000-07-27T20:10:00+00:00", 
-            "description": "Makeup of 7/26 Rainout", 
+            "description": "Makeup of 7/26 rainout", 
             "game": 2, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
@@ -63365,6 +63374,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 7/26 rainout", 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -72908,52 +72918,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "2000-08-26T20:05:00+00:00", 
-            "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "identity": {
-                "ESPNAPIID": "200826111", 
-                "MLBAPIID": "5841"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Oakland Athletics vs. New York Yankees"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "date": "2000-08-26T20:05:00+00:00", 
-            "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "identity": {
-                "ESPNAPIID": "200826122", 
-                "MLBAPIID": "4437"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Philadelphia Phillies vs. San Francisco Giants"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
             "date": "2000-08-26T17:35:00+00:00", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
@@ -72990,6 +72954,52 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Baltimore Orioles vs. Tampa Bay Devil Rays"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
+            "date": "2000-08-26T20:05:00+00:00", 
+            "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
+            "identity": {
+                "ESPNAPIID": "200826111", 
+                "MLBAPIID": "5841"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Oakland Athletics vs. New York Yankees"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
+            "date": "2000-08-26T20:05:00+00:00", 
+            "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
+            "identity": {
+                "ESPNAPIID": "200826122", 
+                "MLBAPIID": "4437"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Philadelphia Phillies vs. San Francisco Giants"
         }, 
         {
             "assets": {
@@ -75096,7 +75106,6 @@
             "date": "2000-09-02T17:05:00+00:00", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
-                "ESPNAPIID": "200902105", 
                 "MLBAPIID": "5761"
             }, 
             "league": "MLB", 
@@ -75119,7 +75128,6 @@
             "date": "2000-09-02T17:15:00+00:00", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
-                "ESPNAPIID": "200902102", 
                 "MLBAPIID": "3834"
             }, 
             "league": "MLB", 
@@ -75142,7 +75150,6 @@
             "date": "2000-09-02T17:15:00+00:00", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
-                "ESPNAPIID": "200902124", 
                 "MLBAPIID": "4509"
             }, 
             "league": "MLB", 
@@ -75165,7 +75172,6 @@
             "date": "2000-09-02T19:05:00+00:00", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
-                "ESPNAPIID": "200902127", 
                 "MLBAPIID": "4510"
             }, 
             "league": "MLB", 
@@ -75188,7 +75194,6 @@
             "date": "2000-09-02T20:05:00+00:00", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
-                "ESPNAPIID": "200902126", 
                 "MLBAPIID": "4511"
             }, 
             "league": "MLB", 
@@ -75211,7 +75216,6 @@
             "date": "2000-09-02T20:05:00+00:00", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
-                "ESPNAPIID": "200902114", 
                 "MLBAPIID": "3899"
             }, 
             "league": "MLB", 
@@ -75234,7 +75238,6 @@
             "date": "2000-09-02T20:15:00+00:00", 
             "homeTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
             "identity": {
-                "ESPNAPIID": "200902130", 
                 "MLBAPIID": "5762"
             }, 
             "league": "MLB", 
@@ -75257,7 +75260,6 @@
             "date": "2000-09-02T20:35:00+00:00", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
-                "ESPNAPIID": "200902110", 
                 "MLBAPIID": "5760"
             }, 
             "league": "MLB", 
@@ -75280,7 +75282,6 @@
             "date": "2000-09-02T21:05:00+00:00", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
-                "ESPNAPIID": "200902106", 
                 "MLBAPIID": "3900"
             }, 
             "league": "MLB", 
@@ -75303,7 +75304,6 @@
             "date": "2000-09-02T23:05:00+00:00", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
-                "ESPNAPIID": "200902104", 
                 "MLBAPIID": "3901"
             }, 
             "league": "MLB", 
@@ -75326,7 +75326,6 @@
             "date": "2000-09-02T23:05:00+00:00", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
-                "ESPNAPIID": "200902117", 
                 "MLBAPIID": "4512"
             }, 
             "league": "MLB", 
@@ -75349,7 +75348,6 @@
             "date": "2000-09-03T00:05:00+00:00", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
-                "ESPNAPIID": "200902118", 
                 "MLBAPIID": "5804"
             }, 
             "league": "MLB", 
@@ -75372,7 +75370,6 @@
             "date": "2000-09-03T02:05:00+00:00", 
             "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "identity": {
-                "ESPNAPIID": "200902129", 
                 "MLBAPIID": "4577"
             }, 
             "league": "MLB", 
@@ -75395,7 +75392,6 @@
             "date": "2000-09-03T02:05:00+00:00", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
-                "ESPNAPIID": "200902125", 
                 "MLBAPIID": "4578"
             }, 
             "league": "MLB", 
@@ -75418,7 +75414,6 @@
             "date": "2000-09-03T02:10:00+00:00", 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
-                "ESPNAPIID": "200902119", 
                 "MLBAPIID": "5805"
             }, 
             "league": "MLB", 
@@ -76796,7 +76791,7 @@
             }, 
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
             "date": "2000-09-07T17:05:00+00:00", 
-            "description": "Makeup of Rainout", 
+            "description": "Makeup of rainout", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "ESPNAPIID": "200907102", 
@@ -76804,6 +76799,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of rainout", 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -78157,6 +78153,51 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
+            "date": "2000-09-11T23:05:00+00:00", 
+            "homeTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
+            "identity": {
+                "ESPNAPIID": "400639967"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Anaheim Angels vs. Baltimore Orioles"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
+            "date": "2000-09-12T02:05:00+00:00", 
+            "homeTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
+            "identity": {
+                "ESPNAPIID": "200911103", 
+                "MLBAPIID": "3793"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Anaheim Angels vs. Baltimore Orioles"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2000-09-11T23:05:00+00:00", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
@@ -78295,51 +78336,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "2000-09-11T23:05:00+00:00", 
-            "homeTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "identity": {
-                "ESPNAPIID": "400639967"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Anaheim Angels vs. Baltimore Orioles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "2000-09-12T02:05:00+00:00", 
-            "homeTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "identity": {
-                "ESPNAPIID": "200911103", 
-                "MLBAPIID": "3793"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Anaheim Angels vs. Baltimore Orioles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
             "date": "2000-09-12T02:05:00+00:00", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
@@ -78399,54 +78395,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Seattle Mariners vs. Kansas City Royals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "2000-09-12T22:35:00+00:00", 
-            "game": 1, 
-            "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "identity": {
-                "ESPNAPIID": "200912213", 
-                "MLBAPIID": "3796"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Texas Rangers vs. Baltimore Orioles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "2000-09-13T02:00:00+00:00", 
-            "game": 2, 
-            "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "identity": {
-                "ESPNAPIID": "200912313", 
-                "MLBAPIID": "5867"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Texas Rangers vs. Baltimore Orioles"
         }, 
         {
             "assets": {
@@ -78677,6 +78625,54 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Arizona Diamondbacks vs. Los Angeles Dodgers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
+            "date": "2000-09-12T22:35:00+00:00", 
+            "game": 1, 
+            "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
+            "identity": {
+                "ESPNAPIID": "200912213", 
+                "MLBAPIID": "3796"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Texas Rangers vs. Baltimore Orioles"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
+            "date": "2000-09-13T02:00:00+00:00", 
+            "game": 2, 
+            "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
+            "identity": {
+                "ESPNAPIID": "200912313", 
+                "MLBAPIID": "5867"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Texas Rangers vs. Baltimore Orioles"
         }, 
         {
             "assets": {
@@ -79722,54 +79718,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "2000-09-16T17:15:00+00:00", 
-            "game": 1, 
-            "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "identity": {
-                "ESPNAPIID": "200916206", 
-                "MLBAPIID": "3944"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Detroit Tigers vs. Boston Red Sox"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "2000-09-16T23:05:00+00:00", 
-            "game": 2, 
-            "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "identity": {
-                "ESPNAPIID": "200916306", 
-                "MLBAPIID": "5814"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Detroit Tigers vs. Boston Red Sox"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "2000-09-16T17:15:00+00:00", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
@@ -79875,6 +79823,54 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Chicago White Sox vs. Toronto Blue Jays"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
+            "date": "2000-09-16T17:15:00+00:00", 
+            "game": 1, 
+            "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
+            "identity": {
+                "ESPNAPIID": "200916206", 
+                "MLBAPIID": "3944"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Detroit Tigers vs. Boston Red Sox"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
+            "date": "2000-09-16T23:05:00+00:00", 
+            "game": 2, 
+            "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
+            "identity": {
+                "ESPNAPIID": "200916306", 
+                "MLBAPIID": "5814"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Detroit Tigers vs. Boston Red Sox"
         }, 
         {
             "assets": {
@@ -80646,7 +80642,7 @@
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "date": "2000-09-19T17:35:00+00:00", 
-            "description": "Makeup of 5/28 Rainout", 
+            "description": "Makeup of 5/28 rainout", 
             "game": 1, 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
@@ -80655,6 +80651,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 5/28 rainout", 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -81027,6 +81024,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 9/19 Rainout", 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -81068,7 +81066,7 @@
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2000-09-20T17:05:00+00:00", 
-            "description": "Makeup of Rainout", 
+            "description": "Makeup of rainout", 
             "game": 1, 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
@@ -81077,6 +81075,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of rainout", 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -81486,7 +81485,7 @@
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2000-09-21T17:05:00+00:00", 
-            "description": "Makeup of Rainout", 
+            "description": "Makeup of rainout", 
             "game": 1, 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
@@ -81495,6 +81494,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of rainout", 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -81512,7 +81512,7 @@
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "2000-09-21T23:05:00+00:00", 
-            "description": "Brian Tallet pitched six shutout innings in his\r\nmajor league debut and Travis Fryman hit a three-run homer to lift\r\nthe Tribe.", 
+            "description": "Brian Tallet pitched six shutout innings in his major league debut and Travis Fryman hit a three-run homer to lift the Tribe.", 
             "game": 2, 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
@@ -82252,7 +82252,7 @@
             }, 
             "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "date": "2000-09-23T20:35:00+00:00", 
-            "description": "Makeup of 9/22 Rainout", 
+            "description": "Makeup of 9/22 rainout", 
             "game": 1, 
             "homeTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "identity": {
@@ -82261,6 +82261,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 9/22 rainout", 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -82785,7 +82786,7 @@
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "date": "2000-09-25T17:05:00+00:00", 
-            "description": "Makeup of 9/10 Rainout", 
+            "description": "Makeup of 9/10 rainout", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "ESPNAPIID": "200925205", 
@@ -82793,6 +82794,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 9/10 rainout", 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -85063,6 +85065,9 @@
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "date": "2000-10-03T17:00:00+00:00", 
+            "description": "Division Series, NLDS 'B'", 
+            "eventTitle": "NLDS", 
+            "game": 1, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "ESPNAPIID": "201003124", 
@@ -85070,11 +85075,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'B'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "NLDS 'B'", 
             "vs": "St. Louis Cardinals vs. Atlanta Braves"
         }, 
         {
@@ -85088,6 +85095,9 @@
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "date": "2000-10-03T20:00:00+00:00", 
+            "description": "Division Series, ALDS 'A'", 
+            "eventTitle": "ALDS", 
+            "game": 1, 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
                 "ESPNAPIID": "201003104", 
@@ -85095,11 +85105,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'A'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "ALDS 'A'", 
             "vs": "Chicago White Sox vs. Seattle Mariners"
         }, 
         {
@@ -85113,6 +85125,9 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "2000-10-04T00:00:00+00:00", 
+            "description": "Division Series, ALDS 'B'", 
+            "eventTitle": "ALDS", 
+            "game": 1, 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "ESPNAPIID": "201003111", 
@@ -85120,11 +85135,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'B'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "ALDS 'B'", 
             "vs": "Oakland Athletics vs. New York Yankees"
         }, 
         {
@@ -85138,6 +85155,9 @@
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "date": "2000-10-04T17:00:00+00:00", 
+            "description": "Division Series, ALDS 'A'", 
+            "eventTitle": "ALDS", 
+            "game": 2, 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
                 "ESPNAPIID": "201004104", 
@@ -85145,11 +85165,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'A'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "ALDS 'A'", 
             "vs": "Chicago White Sox vs. Seattle Mariners"
         }, 
         {
@@ -85163,6 +85185,9 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "2000-10-04T20:00:00+00:00", 
+            "description": "Division Series, NLDS 'A'", 
+            "eventTitle": "NLDS", 
+            "game": 1, 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "ESPNAPIID": "201004126", 
@@ -85170,11 +85195,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'A'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "NLDS 'A'", 
             "vs": "San Francisco Giants vs. New York Mets"
         }, 
         {
@@ -85188,6 +85215,9 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "2000-10-05T00:00:00+00:00", 
+            "description": "Division Series, ALDS 'B'", 
+            "eventTitle": "ALDS", 
+            "game": 2, 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "ESPNAPIID": "201004111", 
@@ -85195,11 +85225,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'B'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "ALDS 'B'", 
             "vs": "Oakland Athletics vs. New York Yankees"
         }, 
         {
@@ -85213,6 +85245,9 @@
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "date": "2000-10-05T20:00:00+00:00", 
+            "description": "Division Series, NLDS 'B'", 
+            "eventTitle": "NLDS", 
+            "game": 2, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "ESPNAPIID": "201005124", 
@@ -85220,11 +85255,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'B'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "NLDS 'B'", 
             "vs": "St. Louis Cardinals vs. Atlanta Braves"
         }, 
         {
@@ -85238,6 +85275,9 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "2000-10-06T00:05:00+00:00", 
+            "description": "Division Series, NLDS 'A'", 
+            "eventTitle": "NLDS", 
+            "game": 2, 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "ESPNAPIID": "201005126", 
@@ -85245,11 +85285,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'A'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "NLDS 'A'", 
             "vs": "San Francisco Giants vs. New York Mets"
         }, 
         {
@@ -85263,6 +85305,9 @@
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "date": "2000-10-06T20:00:00+00:00", 
+            "description": "Division Series, ALDS 'A'", 
+            "eventTitle": "ALDS", 
+            "game": 3, 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
                 "ESPNAPIID": "201006112", 
@@ -85270,11 +85315,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'A'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "ALDS 'A'", 
             "vs": "Seattle Mariners vs. Chicago White Sox"
         }, 
         {
@@ -85288,6 +85335,9 @@
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "date": "2000-10-07T00:05:00+00:00", 
+            "description": "Division Series, ALDS 'B'", 
+            "eventTitle": "ALDS", 
+            "game": 3, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "ESPNAPIID": "201006110", 
@@ -85295,11 +85345,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'B'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "ALDS 'B'", 
             "vs": "New York Yankees vs. Oakland Athletics"
         }, 
         {
@@ -85313,6 +85365,9 @@
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "date": "2000-10-07T17:07:00+00:00", 
+            "description": "Division Series, NLDS 'B'", 
+            "eventTitle": "NLDS", 
+            "game": 3, 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "ESPNAPIID": "201007115", 
@@ -85320,11 +85375,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'B'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "NLDS 'B'", 
             "vs": "Atlanta Braves vs. St. Louis Cardinals"
         }, 
         {
@@ -85338,6 +85395,9 @@
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "date": "2000-10-07T20:18:00+00:00", 
+            "description": "Division Series, NLDS 'A'", 
+            "eventTitle": "NLDS", 
+            "game": 3, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "ESPNAPIID": "201007121", 
@@ -85345,11 +85405,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'A'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "NLDS 'A'", 
             "vs": "New York Mets vs. San Francisco Giants"
         }, 
         {
@@ -85363,6 +85425,9 @@
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "date": "2000-10-07T23:38:00+00:00", 
+            "description": "Division Series, ALDS 'B'", 
+            "eventTitle": "ALDS", 
+            "game": 4, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "ESPNAPIID": "201007110", 
@@ -85370,11 +85435,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'B'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "ALDS 'B'", 
             "vs": "New York Yankees vs. Oakland Athletics"
         }, 
         {
@@ -85388,6 +85455,9 @@
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "date": "2000-10-08T20:07:00+00:00", 
+            "description": "Division Series, NLDS 'A'", 
+            "eventTitle": "NLDS", 
+            "game": 4, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "ESPNAPIID": "201008121", 
@@ -85395,11 +85465,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'A'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "NLDS 'A'", 
             "vs": "New York Mets vs. San Francisco Giants"
         }, 
         {
@@ -85413,6 +85485,9 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "2000-10-08T23:30:00+00:00", 
+            "description": "Division Series, ALDS 'B'", 
+            "eventTitle": "ALDS", 
+            "game": 5, 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "ESPNAPIID": "201008111", 
@@ -85420,11 +85495,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'B'", 
             "playoffround": 2, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
+            "title": "ALDS 'B'", 
             "vs": "Oakland Athletics vs. New York Yankees"
         }, 
         {
@@ -85438,6 +85515,9 @@
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "date": "2000-10-11T00:15:00+00:00", 
+            "description": "League Championship Series, ALCS", 
+            "eventTitle": "ALCS", 
+            "game": 1, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "ESPNAPIID": "201010110", 
@@ -85445,11 +85525,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, ALCS", 
             "playoffround": 3, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
+            "title": "ALCS", 
             "vs": "New York Yankees vs. Seattle Mariners"
         }, 
         {
@@ -85463,6 +85545,9 @@
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "date": "2000-10-11T20:00:00+00:00", 
+            "description": "League Championship Series, ALCS", 
+            "eventTitle": "ALCS", 
+            "game": 2, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "ESPNAPIID": "201011110", 
@@ -85470,11 +85555,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, ALCS", 
             "playoffround": 3, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
+            "title": "ALCS", 
             "vs": "New York Yankees vs. Seattle Mariners"
         }, 
         {
@@ -85488,6 +85575,9 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "2000-10-12T00:05:00+00:00", 
+            "description": "League Championship Series, NLCS", 
+            "eventTitle": "NLCS", 
+            "game": 1, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "ESPNAPIID": "201011124", 
@@ -85495,11 +85585,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, NLCS", 
             "playoffround": 3, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
+            "title": "NLCS", 
             "vs": "St. Louis Cardinals vs. New York Mets"
         }, 
         {
@@ -85513,7 +85605,8 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "2000-10-13T00:05:00+00:00", 
-            "description": "League Championship Series 2000 NLCS", 
+            "description": "League Championship Series, NLCS", 
+            "eventTitle": "NLCS", 
             "game": 2, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
@@ -85522,12 +85615,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, NLCS", 
             "playoffround": 3, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "2000 NLCS", 
+            "title": "NLCS", 
             "vs": "St. Louis Cardinals vs. New York Mets"
         }, 
         {
@@ -85541,7 +85635,8 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "2000-10-14T00:15:00+00:00", 
-            "description": "League Championship Series 2000 ALCS", 
+            "description": "League Championship Series, ALCS", 
+            "eventTitle": "ALCS", 
             "game": 3, 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
@@ -85550,12 +85645,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, ALCS", 
             "playoffround": 3, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "2000 ALCS", 
+            "title": "ALCS", 
             "vs": "Seattle Mariners vs. New York Yankees"
         }, 
         {
@@ -85569,7 +85665,8 @@
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "date": "2000-10-14T20:00:00+00:00", 
-            "description": "League Championship Series 2000 NLCS", 
+            "description": "League Championship Series, NLCS", 
+            "eventTitle": "NLCS", 
             "game": 3, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
@@ -85578,12 +85675,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, NLCS", 
             "playoffround": 3, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "2000 NLCS", 
+            "title": "NLCS", 
             "vs": "New York Mets vs. St. Louis Cardinals"
         }, 
         {
@@ -85597,7 +85695,8 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "2000-10-14T23:30:00+00:00", 
-            "description": "League Championship Series 2000 ALCS", 
+            "description": "League Championship Series, ALCS", 
+            "eventTitle": "ALCS", 
             "game": 4, 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
@@ -85606,12 +85705,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, ALCS", 
             "playoffround": 3, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "2000 ALCS", 
+            "title": "ALCS", 
             "vs": "Seattle Mariners vs. New York Yankees"
         }, 
         {
@@ -85625,7 +85725,8 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "2000-10-15T20:00:00+00:00", 
-            "description": "League Championship Series 2000 ALCS", 
+            "description": "League Championship Series, ALCS", 
+            "eventTitle": "ALCS", 
             "game": 5, 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
@@ -85634,12 +85735,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, ALCS", 
             "playoffround": 3, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "2000 ALCS", 
+            "title": "ALCS", 
             "vs": "Seattle Mariners vs. New York Yankees"
         }, 
         {
@@ -85653,7 +85755,8 @@
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "date": "2000-10-15T23:30:00+00:00", 
-            "description": "League Championship Series 2000 NLCS", 
+            "description": "League Championship Series, NLCS", 
+            "eventTitle": "NLCS", 
             "game": 4, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
@@ -85662,12 +85765,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, NLCS", 
             "playoffround": 3, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "2000 NLCS", 
+            "title": "NLCS", 
             "vs": "New York Mets vs. St. Louis Cardinals"
         }, 
         {
@@ -85681,7 +85785,8 @@
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "date": "2000-10-17T00:05:00+00:00", 
-            "description": "League Championship Series 2000 NLCS", 
+            "description": "League Championship Series, NLCS", 
+            "eventTitle": "NLCS", 
             "game": 5, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
@@ -85690,12 +85795,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, NLCS", 
             "playoffround": 3, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "2000 NLCS", 
+            "title": "NLCS", 
             "vs": "New York Mets vs. St. Louis Cardinals"
         }, 
         {
@@ -85709,7 +85815,8 @@
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "date": "2000-10-18T00:15:00+00:00", 
-            "description": "League Championship Series 2000 ALCS", 
+            "description": "League Championship Series, ALCS", 
+            "eventTitle": "ALCS", 
             "game": 6, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
@@ -85718,12 +85825,13 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, ALCS", 
             "playoffround": 3, 
             "season": "2000", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "2000 ALCS", 
+            "title": "ALCS", 
             "vs": "New York Yankees vs. Seattle Mariners"
         }, 
         {
@@ -85737,6 +85845,8 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "2000-10-21T23:55:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 1, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "ESPNAPIID": "201021110", 
@@ -85749,6 +85859,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. New York Mets"
         }, 
         {
@@ -85762,6 +85873,8 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "2000-10-22T23:55:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 2, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "ESPNAPIID": "201022110", 
@@ -85774,6 +85887,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. New York Mets"
         }, 
         {
@@ -85787,6 +85901,8 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "2000-10-25T00:25:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 3, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "ESPNAPIID": "201024121", 
@@ -85799,6 +85915,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Mets vs. New York Yankees"
         }, 
         {
@@ -85812,6 +85929,8 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "2000-10-26T00:15:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 4, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "ESPNAPIID": "201025121", 
@@ -85824,6 +85943,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Mets vs. New York Yankees"
         }, 
         {
@@ -85837,6 +85957,8 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "2000-10-27T00:05:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 5, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "ESPNAPIID": "201026121", 
@@ -85849,6 +85971,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Mets vs. New York Yankees"
         }
     ]

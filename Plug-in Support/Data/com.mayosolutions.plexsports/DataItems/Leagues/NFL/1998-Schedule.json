@@ -1,11 +1,34 @@
 {
     "CacheContainer": {
         "CacheType": "NFL1998SCHEDULE", 
-        "CachedOn": "2021-12-23T18:59:06", 
-        "ExpiresOn": "2021-12-30T18:59:06", 
+        "CachedOn": "2021-12-24T04:12:16", 
+        "ExpiresOn": "2021-12-31T04:12:16", 
         "Version": "2"
     }, 
     "Items": [
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "139ac55b-2299-4632-b50c-b82660196eff", 
+            "date": "1998-08-01T00:00:00", 
+            "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
+            "homeTeam": "38876b90-c71e-4db3-bbe0-8add641f9f30", 
+            "identity": {
+                "WikipediaID": "NFL.1998.-1"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Football", 
+            "vs": "Tampa Bay Buccaneers vs. Pittsburgh Steelers"
+        }, 
         {
             "assets": {
                 "banner": [], 
@@ -5791,6 +5814,37 @@
             "subseason": 1, 
             "subseasonTitle": "Superbowl XXXIII", 
             "vs": "Denver Broncos vs. Atlanta Falcons"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/c/c2/1999_Pro_Bowl_logo.gif"
+                    }
+                ]
+            }, 
+            "awayTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
+            "date": "1999-02-07T00:00:00", 
+            "description": "The 1999 Pro Bowl was the NFL's all-star game for the 1998 season. The game was played on February 7, 1999, at Aloha Stadium in Honolulu. For the fourth time in the past five years, the AFC beat the NFC, doing so 23-10. Keyshawn Johnson of the New York Jets and Ty Law of the New England Patriots were the game's MVPs. This game was also the last game in the career of Denver Broncos quarterback John Elway, and Detroit Lions running back Barry Sanders. The referee was Dick Hantak.", 
+            "eventTitle": "1999 NFL Pro Bowl", 
+            "eventindicator": 2, 
+            "homeTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
+            "identity": {
+                "WikipediaID": "NFL.1998.2"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "ABC"
+            ], 
+            "season": "1998", 
+            "sport": "Football", 
+            "vs": "AFC vs. NFC"
         }
     ]
 }

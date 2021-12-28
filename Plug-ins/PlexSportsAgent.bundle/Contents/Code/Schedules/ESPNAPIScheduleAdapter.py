@@ -290,6 +290,12 @@ def __process_calendar(league, season, isWhitelist = False):
 		if startDate and endDate:
 			startDate = startDate.astimezone(tz=EasternTime).date()
 			endDate = endDate.astimezone(tz=EasternTime).date()
+
+			if endDate < startDate:
+				x = startDate
+				startDate = endDate
+				endDate = x
+
 			current = startDate
 			while current <= endDate:
 				dates.append(current)
@@ -327,7 +333,7 @@ def __process_calendar(league, season, isWhitelist = False):
 		for x in apiCalendar:
 			blacklist.append(ParseISO8601Date(x).date())
 		blacklist = list(set(sorted(blacklist)))
-		for i in range(len(dates), -1, -1):
+		for i in range(len(dates)-1, -1, -1):
 			if dates[i] == blacklist[-1]:
 				del(dates[i])
 		calendar["dates"] = dates
@@ -418,7 +424,7 @@ def __get_playoffRound(league, subseason, title, altTitle, competition):
 
 	subseason = subseason or 0
 	title = title or ""
-	altTitle = title or ""
+	altTitle = altTitle or ""
 	typeAbbrev = competition["type"]["abbreviation"] if competition.get("type") and competition["type"].get("abbreviation") else None
 	
 	if league == LEAGUE_MLB and subseason == MLB_SUBSEASON_FLAG_POSTSEASON:

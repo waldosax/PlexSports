@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2015SCHEDULE", 
-        "CachedOn": "2021-12-23T19:03:07", 
-        "ExpiresOn": "2021-12-30T19:03:07", 
+        "CachedOn": "2021-12-24T04:15:22", 
+        "ExpiresOn": "2021-12-31T04:15:22", 
         "Version": "2"
     }, 
     "Items": [
@@ -20,9 +20,11 @@
             "date": "2015-08-10T00:00:00+00:00", 
             "description": "Teddy Bridgewater's only series in a 14-3 victory over Pittsburgh in the Hall of Fame game Sunday ended up with the Vikings getting stuffed on fourth down.", 
             "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
             "homeTeam": "19940097-b794-4f20-8a69-d6edf7bab691", 
             "identity": {
-                "ESPNAPIID": "400761517"
+                "ESPNAPIID": "400761517", 
+                "WikipediaID": "NFL.2015.-1"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9110,15 +9112,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/0/08/2016_Pro_Bowl_logo.png"
+                    }
+                ]
             }, 
             "awayTeamName": "Team Rice", 
             "date": "2016-02-01T00:00:00+00:00", 
-            "description": "Pro Bowl", 
+            "description": "The 2016 Pro Bowl (branded as the 2016 Pro Bowl presented by USAA for sponsorship reasons) was the National Football League's all-star game for the 2015 season, which was played at Aloha Stadium in Honolulu, Hawaii on January 31, 2016.", 
+            "eventTitle": "2016 NFL Pro Bowl", 
             "eventindicator": 2, 
             "homeTeamName": "Team Irvin", 
             "identity": {
-                "ESPNAPIID": "400858208"
+                "ESPNAPIID": "400858208", 
+                "WikipediaID": "NFL.2015.2"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9130,7 +9139,7 @@
             "vs": "Team Irvin vs. Team Rice"
         }, 
         {
-            "altTitle": "SUPER BOWL 50", 
+            "altTitle": "SUPERBOWL 50", 
             "assets": {
                 "banner": [], 
                 "fanArt": [
@@ -9157,7 +9166,6 @@
             "awayTeam": "d0d5fe8b-df77-408d-8717-83d3eb76fe68", 
             "date": "2016-02-07T23:30:00+00:00", 
             "description": "Von Miller forced two fumbles to set up Denver's two touchdowns, and the Broncos' defense frustrated Cam Newton all game to carry Peyton Manning to his second Super Bowl win in a 24-10 victory.", 
-            "eventTitle": "Super Bowl 50 - Superbowl L", 
             "eventindicator": 1, 
             "homeTeam": "2d139855-67ee-42e1-9077-c806bdb35a89", 
             "identity": {

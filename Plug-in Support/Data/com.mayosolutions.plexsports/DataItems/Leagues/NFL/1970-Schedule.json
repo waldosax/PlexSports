@@ -1,11 +1,34 @@
 {
     "CacheContainer": {
         "CacheType": "NFL1970SCHEDULE", 
-        "CachedOn": "2021-12-23T18:57:02", 
-        "ExpiresOn": "2021-12-30T18:57:02", 
+        "CachedOn": "2021-12-24T04:10:50", 
+        "ExpiresOn": "2021-12-31T04:10:50", 
         "Version": "2"
     }, 
     "Items": [
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "4ba9c6f7-9a81-4617-a65b-bb412e1c0c2e", 
+            "date": "1970-08-08T00:00:00", 
+            "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
+            "homeTeam": "19940097-b794-4f20-8a69-d6edf7bab691", 
+            "identity": {
+                "WikipediaID": "NFL.1970.-1"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1970", 
+            "sport": "Football", 
+            "vs": "Minnesota Vikings vs. New Orleans Saints"
+        }, 
         {
             "assets": {
                 "banner": [], 
@@ -4362,6 +4385,32 @@
             "subseason": 1, 
             "subseasonTitle": "Superbowl V", 
             "vs": "Baltimore Colts vs. Dallas Cowboys"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
+            "date": "1971-01-24T00:00:00", 
+            "description": "The 1971 Pro Bowl was the NFL's 21st annual all-star game which featured the outstanding performers from the 1970 season. The game was played on January 24, 1971, at Los Angeles Memorial Coliseum in Los Angeles, California. The final score was NFC 27, AFC 6. Mel Renfro of the Dallas Cowboys was named the game's offensive Most Valuable Player (MVP) and Fred Carr of the Green Bay Packers was selected as the defensive MVP.[better\u00a0source\u00a0needed]", 
+            "eventTitle": "1971 NFL Pro Bowl", 
+            "eventindicator": 2, 
+            "homeTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
+            "identity": {
+                "WikipediaID": "NFL.1970.2"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "1970", 
+            "sport": "Football", 
+            "vs": "NFC vs. AFC"
         }
     ]
 }

@@ -1,11 +1,34 @@
 {
     "CacheContainer": {
         "CacheType": "NFL1993SCHEDULE", 
-        "CachedOn": "2021-12-23T18:58:40", 
-        "ExpiresOn": "2021-12-30T18:58:40", 
+        "CachedOn": "2021-12-24T04:11:59", 
+        "ExpiresOn": "2021-12-31T04:11:59", 
         "Version": "2"
     }, 
     "Items": [
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "fb788305-9796-4234-b247-f33353da992f", 
+            "date": "1993-07-31T00:00:00", 
+            "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
+            "homeTeam": "708b772f-ab48-44c9-b4a3-51f0b648df05", 
+            "identity": {
+                "WikipediaID": "NFL.1993.-1"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1993", 
+            "sport": "Football", 
+            "vs": "Los Angeles Raiders vs. Green Bay Packers"
+        }, 
         {
             "assets": {
                 "banner": [], 
@@ -5423,6 +5446,30 @@
             "subseason": 1, 
             "subseasonTitle": "Superbowl XXVIII", 
             "vs": "Dallas Cowboys vs. Buffalo Bills"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
+            "date": "1994-02-06T00:00:00", 
+            "description": "The 1994 Pro Bowl was the NFL's all-star game for the 1993 season. The game was played on February 6, 1994, at Aloha Stadium in Honolulu, Hawaii. The final Score was NFC 17, AFC 3. Andre Rison of the Atlanta Falcons was the game's MVP. This was also Joe Montana's last Pro Bowl appearance (coincidentally, the coaches for this game were from both teams that Montana played for in his career: Kansas City's Marty Schottenheimer and San Francisco's George Seifert). The referee was Gordon McCarter.", 
+            "eventTitle": "1994 NFL Pro Bowl", 
+            "eventindicator": 2, 
+            "homeTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
+            "identity": {
+                "WikipediaID": "NFL.1993.2"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1993", 
+            "sport": "Football", 
+            "vs": "AFC vs. NFC"
         }
     ]
 }

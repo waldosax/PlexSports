@@ -1,4 +1,9 @@
-HOF Games (MLB, NFL) from Wikipedia
+Make sure you distinguish where nomalized playoff rounds are 'Conference' or 'Championship'
+
+eventTitle: 2014 MLB All-Star Game
+	MLB Little League Classic
+	9/23/20 - Salute to the Negro Leagues
+	
 
 NBAAPI:
 	Allow intl play (Teams)
@@ -6,6 +11,8 @@ NBAAPI:
 		+ Assimiliate 'Unknown' franchises/teams
 
 Known aliases (Mighty Ducks)
+Known aliases: Minnesota Win Twins, Phightin Phillies
+
 NHL API 2004 season
 ESPN API Exclude international play from NBA
 ESPN API (NHL) 2006 Season (Internal server error)
@@ -14,17 +21,13 @@ Generate Franchise report
 Generate schedule report
 
 ESPNAPI for teams and schedules
-	+ double headers & reschedules DOUBLEHEADER - GAME 2 - MOVED FROM SEPT 4
 	+ Exhibition is EXH
 
 HTTP Cache invalidation
 Only cache if historical (year/day)
 
-"RescheduledGameID": (MLB, Sportsdataio)
-
 SVG Logos from NFL.com
 Grafx generation
-Known aliases: Minnesota Win Twins, Phightin Phillies
 
 Logger
 

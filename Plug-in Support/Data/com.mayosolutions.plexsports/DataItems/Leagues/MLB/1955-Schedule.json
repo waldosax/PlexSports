@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1955SCHEDULE", 
-        "CachedOn": "2021-12-23T18:14:48", 
-        "ExpiresOn": "2021-12-30T18:14:48", 
+        "CachedOn": "2021-12-27T16:18:32", 
+        "ExpiresOn": "2022-01-03T16:18:32", 
         "Version": "2"
     }, 
     "Items": [
@@ -12652,6 +12652,7 @@
             "vs": "NL All-Stars vs. AL All-Stars"
         }, 
         {
+            "altDescription": "Star Game, at County Stadium", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -12662,7 +12663,8 @@
             }, 
             "awayTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "date": "1955-07-12T03:33:00+00:00", 
-            "description": "All-Star Game 22nd All-Star Game, at County Stadium", 
+            "description": "Star Game, at County Stadium", 
+            "eventTitle": "All-star Game 22nd All", 
             "eventindicator": 2, 
             "homeTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "identity": {
@@ -12670,10 +12672,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "All-Star Game, 22nd All, Star Game, at County Stadium", 
             "season": "1955", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "22nd All-Star Game, at County Stadium", 
+            "title": "22nd All", 
             "vs": "National League All-Stars vs. American League All-Stars"
         }, 
         {
@@ -23301,7 +23304,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
-            "date": "1955-09-28T03:33:00+00:00", 
+            "date": "1955-09-28T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 1, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67513"
@@ -23313,6 +23318,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. Brooklyn Dodgers"
         }, 
         {
@@ -23325,7 +23331,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
-            "date": "1955-09-29T03:33:00+00:00", 
+            "date": "1955-09-29T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 2, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67514"
@@ -23337,6 +23345,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. Brooklyn Dodgers"
         }, 
         {
@@ -23349,7 +23358,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1955-09-30T03:33:00+00:00", 
+            "date": "1955-09-30T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 3, 
             "homeTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
             "identity": {
                 "MLBAPIID": "67515"
@@ -23361,6 +23372,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Brooklyn Dodgers vs. New York Yankees"
         }, 
         {
@@ -23373,7 +23385,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1955-10-01T03:33:00+00:00", 
+            "date": "1955-10-01T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 4, 
             "homeTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
             "identity": {
                 "MLBAPIID": "67516"
@@ -23385,6 +23399,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Brooklyn Dodgers vs. New York Yankees"
         }, 
         {
@@ -23397,7 +23412,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1955-10-02T03:33:00+00:00", 
+            "date": "1955-10-02T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 5, 
             "homeTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
             "identity": {
                 "MLBAPIID": "67517"
@@ -23409,9 +23426,11 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Brooklyn Dodgers vs. New York Yankees"
         }, 
         {
+            "altDescription": "", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -23421,7 +23440,8 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
-            "date": "1955-10-03T03:33:00+00:00", 
+            "date": "1955-10-03T07:33:00+00:00", 
+            "eventTitle": "World Series Game", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67518"
@@ -23433,6 +23453,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series Game", 
             "vs": "New York Yankees vs. Brooklyn Dodgers"
         }, 
         {
@@ -23445,7 +23466,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
-            "date": "1955-10-04T03:33:00+00:00", 
+            "date": "1955-10-04T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 7, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67519"
@@ -23457,6 +23480,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. Brooklyn Dodgers"
         }
     ]

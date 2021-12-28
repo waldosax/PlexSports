@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2010SCHEDULE", 
-        "CachedOn": "2021-12-23T19:01:55", 
-        "ExpiresOn": "2021-12-30T19:01:55", 
+        "CachedOn": "2021-12-24T04:14:26", 
+        "ExpiresOn": "2021-12-31T04:14:26", 
         "Version": "2"
     }, 
     "Items": [
@@ -20,9 +20,11 @@
             "date": "2010-08-09T00:00:00+00:00", 
             "description": "The Dallas Cowboys forced four turnovers, got three field goals from David Buehler and an interception return for a touchdown by Brandon Sharpe for a 16-7 victory over Cincinnati in the Hall of Fame game Sunday night.", 
             "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
             "homeTeam": "9c74d85c-4d08-4935-ae4c-d60633fdc86d", 
             "identity": {
-                "ESPNAPIID": "300808004"
+                "ESPNAPIID": "300808004", 
+                "WikipediaID": "NFL.2010.-1"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9083,18 +9085,26 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/2/2d/2011_Pro_Bowl_logo.jpg"
+                    }
+                ]
             }, 
             "awayTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
             "date": "2011-01-31T00:00:00+00:00", 
             "description": "MVP DeAngelo Hall had one of his team's five interceptions and returned a fumble 34 yards for a touchdown to help the NFC match a Pro Bowl scoring record in a 55-41 victory over turnover-prone AFC.", 
-            "eventTitle": "Pro Bowl", 
+            "eventTitle": "2011 NFL Pro Bowl", 
+            "eventindicator": 2, 
             "homeTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
             "identity": {
-                "ESPNAPIID": "310130032"
+                "ESPNAPIID": "310130032", 
+                "WikipediaID": "NFL.2010.2"
             }, 
             "league": "NFL", 
             "networks": [
+                "Fox", 
                 "FOX"
             ], 
             "season": "2010", 
@@ -9103,7 +9113,7 @@
             "vs": "NFC vs. AFC"
         }, 
         {
-            "altTitle": "SUPER BOWL XLV", 
+            "altTitle": "SUPERBOWL XLV", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 

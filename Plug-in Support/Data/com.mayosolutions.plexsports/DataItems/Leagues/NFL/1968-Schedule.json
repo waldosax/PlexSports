@@ -1,11 +1,34 @@
 {
     "CacheContainer": {
         "CacheType": "NFL1968SCHEDULE", 
-        "CachedOn": "2021-12-23T18:56:56", 
-        "ExpiresOn": "2021-12-30T18:56:56", 
+        "CachedOn": "2021-12-24T04:10:46", 
+        "ExpiresOn": "2021-12-31T04:10:46", 
         "Version": "2"
     }, 
     "Items": [
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "91dd349b-b066-470e-b3a3-87389db5813e", 
+            "date": "1968-08-03T00:00:00", 
+            "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
+            "homeTeam": "b2c95ff2-0528-4d93-90c4-54a85e6e0a39", 
+            "identity": {
+                "WikipediaID": "NFL.1968.-1"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1968", 
+            "sport": "Football", 
+            "vs": "Chicago Bears vs. Dallas Cowboys"
+        }, 
         {
             "assets": {
                 "banner": [], 
@@ -2680,6 +2703,32 @@
             "subseason": 1, 
             "subseasonTitle": "Superbowl III", 
             "vs": "New York Jets vs. Baltimore Colts"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeamName": "Eastern Conference", 
+            "date": "1969-01-19T00:00:00", 
+            "description": "The 1969 Pro Bowl was the NFL's nineteenth annual all-star game which featured the outstanding performers from the 1968 season. The game was played on Sunday, January 19, 1969, at Los Angeles Memorial Coliseum in Los Angeles, California. The final score was West 10, East 7. Merlin Olsen of the Los Angeles Rams was selected as lineman for the game. Roman Gabriel of the Rams received the back of the game award.", 
+            "eventTitle": "1969 East\u2013West Pro Bowl", 
+            "eventindicator": 2, 
+            "homeTeamName": "Western Conference", 
+            "identity": {
+                "WikipediaID": "NFL.1968.2"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "1968", 
+            "sport": "Football", 
+            "vs": "Western Conference vs. Eastern Conference"
         }
     ]
 }

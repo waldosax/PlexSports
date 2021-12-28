@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1933SCHEDULE", 
-        "CachedOn": "2021-12-23T18:12:22", 
-        "ExpiresOn": "2021-12-30T18:12:22", 
+        "CachedOn": "2021-12-27T16:15:41", 
+        "ExpiresOn": "2022-01-03T16:15:41", 
         "Version": "2"
     }, 
     "Items": [
@@ -11150,6 +11150,7 @@
             "vs": "AL All-Stars vs. NL All-Stars"
         }, 
         {
+            "altDescription": "Star Game, at Comiskey Park", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -11160,7 +11161,8 @@
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "1933-07-06T03:33:00+00:00", 
-            "description": "All-Star Game 1st All-Star Game, at Comiskey Park", 
+            "description": "Star Game, at Comiskey Park", 
+            "eventTitle": "All-star Game 1st All", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "identity": {
@@ -11168,10 +11170,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "All-Star Game, 1st All, Star Game, at Comiskey Park", 
             "season": "1933", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "1st All-Star Game, at Comiskey Park", 
+            "title": "1st All", 
             "vs": "American League All-Stars vs. National League All-Stars"
         }, 
         {
@@ -22123,7 +22126,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "15bc02a8-e954-4f2a-8e84-abacb02e52cc", 
-            "date": "1933-10-03T03:33:00+00:00", 
+            "date": "1933-10-03T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 1, 
             "homeTeam": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
             "identity": {
                 "MLBAPIID": "67389"
@@ -22135,6 +22140,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Giants vs. Washington Senators"
         }, 
         {
@@ -22147,7 +22153,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "15bc02a8-e954-4f2a-8e84-abacb02e52cc", 
-            "date": "1933-10-04T03:33:00+00:00", 
+            "date": "1933-10-04T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 2, 
             "homeTeam": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
             "identity": {
                 "MLBAPIID": "67390"
@@ -22159,6 +22167,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Giants vs. Washington Senators"
         }, 
         {
@@ -22171,7 +22180,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
-            "date": "1933-10-05T03:33:00+00:00", 
+            "date": "1933-10-05T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 3, 
             "homeTeam": "15bc02a8-e954-4f2a-8e84-abacb02e52cc", 
             "identity": {
                 "MLBAPIID": "67391"
@@ -22183,6 +22194,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Washington Senators vs. New York Giants"
         }, 
         {
@@ -22195,7 +22207,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
-            "date": "1933-10-06T03:33:00+00:00", 
+            "date": "1933-10-06T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 4, 
             "homeTeam": "15bc02a8-e954-4f2a-8e84-abacb02e52cc", 
             "identity": {
                 "MLBAPIID": "67392"
@@ -22207,6 +22221,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Washington Senators vs. New York Giants"
         }, 
         {
@@ -22219,7 +22234,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
-            "date": "1933-10-07T03:33:00+00:00", 
+            "date": "1933-10-07T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 5, 
             "homeTeam": "15bc02a8-e954-4f2a-8e84-abacb02e52cc", 
             "identity": {
                 "MLBAPIID": "67393"
@@ -22231,6 +22248,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Washington Senators vs. New York Giants"
         }
     ]

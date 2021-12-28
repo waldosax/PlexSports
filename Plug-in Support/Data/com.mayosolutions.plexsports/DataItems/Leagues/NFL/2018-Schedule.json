@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2018SCHEDULE", 
-        "CachedOn": "2021-12-23T19:03:59", 
-        "ExpiresOn": "2021-12-30T19:03:59", 
+        "CachedOn": "2021-12-24T04:16:04", 
+        "ExpiresOn": "2021-12-31T04:16:04", 
         "Version": "2"
     }, 
     "Items": [
@@ -20,9 +20,11 @@
             "date": "2018-08-03T00:00:00+00:00", 
             "description": "The Ravens and Bears honored their great linebackers Ray Lewis and Brian Urlacher with some defense to make them proud in the Hall of Fame game that opened the NFL's preseason Thursday night.", 
             "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
             "homeTeam": "90f37acc-c488-4613-b105-5b2999c49835", 
             "identity": {
-                "ESPNAPIID": "401029218"
+                "ESPNAPIID": "401029218", 
+                "WikipediaID": "NFL.2018.-1"
             }, 
             "league": "NFL", 
             "networks": [
@@ -4261,6 +4263,55 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "5cd0058b-b817-47b6-b0f8-623f370366f3", 
+            "date": "2018-10-21T13:30:00+00:00", 
+            "description": "Philip Rivers threw for 306 yards with two touchdown passes and the Los Angeles Chargers held on for a 20-19 victory on Sunday in London after the Tennessee Titans failed twice on a go-ahead 2-point conversion with 31 seconds remaining.", 
+            "homeTeam": "fe38d76d-17bb-403e-938b-3b687682db3a", 
+            "identity": {
+                "ESPNAPIID": "401030792", 
+                "ProFootballReferenceID": "201810210sdg"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "CBS"
+            ], 
+            "season": "2018", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Los Angeles Chargers vs. Tennessee Titans", 
+            "week": 7
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "5cd0058b-b817-47b6-b0f8-623f370366f3", 
+            "date": "2018-10-22T00:00:00+00:00", 
+            "description": "", 
+            "homeTeam": "fe38d76d-17bb-403e-938b-3b687682db3a", 
+            "identity": {
+                "TheSportsDBID": "583969"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2018", 
+            "sport": "Football", 
+            "vs": "Los Angeles Chargers vs Tennessee Titans"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "11368151-3316-40fa-bb2d-cbf196b2c750", 
             "date": "2018-10-21T17:00:00+00:00", 
             "description": "Tom Brady threw for three touchdowns and the New England Patriots hung on to beat the Chicago Bears 38-31 Sunday when Kevin White got stopped at the 1 on a 54-yard pass from Mitchell Trubisky.", 
@@ -4531,55 +4582,6 @@
             "subseason": 0, 
             "vs": "Washington Redskins vs. Dallas Cowboys", 
             "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "5cd0058b-b817-47b6-b0f8-623f370366f3", 
-            "date": "2018-10-21T13:30:00+00:00", 
-            "description": "Philip Rivers threw for 306 yards with two touchdown passes and the Los Angeles Chargers held on for a 20-19 victory on Sunday in London after the Tennessee Titans failed twice on a go-ahead 2-point conversion with 31 seconds remaining.", 
-            "homeTeam": "fe38d76d-17bb-403e-938b-3b687682db3a", 
-            "identity": {
-                "ESPNAPIID": "401030792", 
-                "ProFootballReferenceID": "201810210sdg"
-            }, 
-            "league": "NFL", 
-            "networks": [
-                "CBS"
-            ], 
-            "season": "2018", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Los Angeles Chargers vs. Tennessee Titans", 
-            "week": 7
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "5cd0058b-b817-47b6-b0f8-623f370366f3", 
-            "date": "2018-10-22T00:00:00+00:00", 
-            "description": "", 
-            "homeTeam": "fe38d76d-17bb-403e-938b-3b687682db3a", 
-            "identity": {
-                "TheSportsDBID": "583969"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2018", 
-            "sport": "Football", 
-            "vs": "Los Angeles Chargers vs Tennessee Titans"
         }, 
         {
             "assets": {
@@ -9300,16 +9302,19 @@
             "awayTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
             "date": "2019-01-27T20:00:00+00:00", 
             "description": "Patrick Mahomes completed an 18-yard touchdown pass to Eric Ebron, and the AFC beat the NFC 26-7 in steady rain in the Pro Bowl on Sunday.", 
-            "eventTitle": "Pro Bowl Pres. By Verizon", 
+            "eventTitle": "2019 NFL Pro Bowl", 
             "eventindicator": 2, 
             "homeTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
             "identity": {
-                "ESPNAPIID": "401038851"
+                "ESPNAPIID": "401038851", 
+                "WikipediaID": "NFL.2018.2"
             }, 
             "league": "NFL", 
             "networks": [
                 "ABC", 
-                "ESPN"
+                "Disney XD", 
+                "ESPN", 
+                "ESPN Deportes"
             ], 
             "season": "2018", 
             "sport": "Football", 
@@ -9317,7 +9322,7 @@
             "vs": "NFC vs. AFC"
         }, 
         {
-            "altTitle": "SUPER BOWL LIII", 
+            "altTitle": "SUPERBOWL LIII", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 

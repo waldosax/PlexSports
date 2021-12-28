@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2017SCHEDULE", 
-        "CachedOn": "2021-12-23T19:03:41", 
-        "ExpiresOn": "2021-12-30T19:03:41", 
+        "CachedOn": "2021-12-24T04:15:49", 
+        "ExpiresOn": "2021-12-31T04:15:49", 
         "Version": "2"
     }, 
     "Items": [
@@ -20,9 +20,11 @@
             "date": "2017-08-04T00:00:00+00:00", 
             "description": "The NFL is back, sort of.", 
             "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
             "homeTeam": "91dd349b-b066-470e-b3a3-87389db5813e", 
             "identity": {
-                "ESPNAPIID": "400944346"
+                "ESPNAPIID": "400944346", 
+                "WikipediaID": "NFL.2017.-1"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9285,16 +9287,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/e/e3/2018_Pro_Bowl.jpg"
+                    }
+                ]
             }, 
             "awayTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
             "date": "2018-01-28T19:50:00+00:00", 
             "description": "Tennessee's Delanie Walker caught two touchdown passes, including an 18-yarder with 1:31 remaining, and the AFC beat the NFC 24-23 in a rain-soaked Pro Bowl on Sunday.", 
-            "eventTitle": "Pro Bowl", 
+            "eventTitle": "2018 Pro Bowl", 
             "eventindicator": 2, 
             "homeTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
             "identity": {
-                "ESPNAPIID": "400999088"
+                "ESPNAPIID": "400999088", 
+                "WikipediaID": "NFL.2017.2"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9307,7 +9315,7 @@
             "vs": "AFC vs. NFC"
         }, 
         {
-            "altTitle": "SUPER BOWL LII", 
+            "altTitle": "SUPERBOWL LII", 
             "assets": {
                 "banner": [
                     {

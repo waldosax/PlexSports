@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2003SCHEDULE", 
-        "CachedOn": "2021-12-23T19:00:13", 
-        "ExpiresOn": "2021-12-30T19:00:13", 
+        "CachedOn": "2021-12-24T04:13:07", 
+        "ExpiresOn": "2021-12-31T04:13:07", 
         "Version": "2"
     }, 
     "Items": [
@@ -39,9 +39,12 @@
             }, 
             "awayTeam": "fb788305-9796-4234-b247-f33353da992f", 
             "date": "2003-08-05T00:00:00+00:00", 
+            "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
             "homeTeam": "fde27089-5434-4242-9554-f0e503eee399", 
             "identity": {
-                "ESPNAPIID": "230804012"
+                "ESPNAPIID": "230804012", 
+                "WikipediaID": "NFL.2003.-1"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -8527,7 +8530,7 @@
             "vs": "Philadelphia Eagles vs. Carolina Panthers"
         }, 
         {
-            "altTitle": "SUPER BOWL AT HOUSTON", 
+            "altTitle": "SUPERBOWL AT HOUSTON", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -8539,7 +8542,6 @@
             "awayTeam": "d0d5fe8b-df77-408d-8717-83d3eb76fe68", 
             "date": "2004-02-01T23:25:00+00:00", 
             "description": "Adam Vinatieri gave New England its second NFL championship in three seasons with a 41-yard field goal with four seconds left for a thrilling 32-29 victory over the Carolina Panthers on Sunday night.", 
-            "eventTitle": "Super Bowl at Houston - Superbowl XXXVIII", 
             "eventindicator": 1, 
             "homeTeam": "11368151-3316-40fa-bb2d-cbf196b2c750", 
             "identity": {
@@ -8564,18 +8566,27 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/d/d2/2004_Pro_Bowl.svg"
+                    }
+                ]
             }, 
             "awayTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
             "date": "2004-02-09T00:30:00+00:00", 
             "description": "NFC 55, AFC 52", 
-            "eventTitle": "Pro Bowl at Honolulu Hi", 
+            "eventTitle": "2004 NFL Pro Bowl", 
+            "eventindicator": 2, 
             "homeTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
             "identity": {
-                "ESPNAPIID": "240208032"
+                "ESPNAPIID": "240208032", 
+                "WikipediaID": "NFL.2003.2"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "ESPN"
+            ], 
             "season": "2003", 
             "sport": "Football", 
             "subseason": 1, 

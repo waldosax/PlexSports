@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1940SCHEDULE", 
-        "CachedOn": "2021-12-23T18:13:11", 
-        "ExpiresOn": "2021-12-30T18:13:11", 
+        "CachedOn": "2021-12-27T16:16:36", 
+        "ExpiresOn": "2022-01-03T16:16:36", 
         "Version": "2"
     }, 
     "Items": [
@@ -11039,6 +11039,7 @@
             "vs": "NL All-Stars vs. AL All-Stars"
         }, 
         {
+            "altDescription": "Star Game, at Sportsman's Park", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -11049,7 +11050,8 @@
             }, 
             "awayTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "date": "1940-07-09T03:33:00+00:00", 
-            "description": "All-Star Game 8th All-Star Game, at Sportsman's Park", 
+            "description": "Star Game, at Sportsman's Park", 
+            "eventTitle": "All-star Game 8th All", 
             "eventindicator": 2, 
             "homeTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "identity": {
@@ -11057,10 +11059,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "All-Star Game, 8th All, Star Game, at Sportsman's Park", 
             "season": "1940", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "8th All-Star Game, at Sportsman's Park", 
+            "title": "8th All", 
             "vs": "National League All-Stars vs. American League All-Stars"
         }, 
         {
@@ -22660,7 +22663,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1940-10-02T03:33:00+00:00", 
+            "date": "1940-10-02T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 1, 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "67426"
@@ -22672,6 +22677,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Cincinnati Reds vs. Detroit Tigers"
         }, 
         {
@@ -22684,7 +22690,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1940-10-03T03:33:00+00:00", 
+            "date": "1940-10-03T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 2, 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "67427"
@@ -22696,6 +22704,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Cincinnati Reds vs. Detroit Tigers"
         }, 
         {
@@ -22708,7 +22717,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1940-10-04T03:33:00+00:00", 
+            "date": "1940-10-04T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 3, 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "67428"
@@ -22720,6 +22731,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Detroit Tigers vs. Cincinnati Reds"
         }, 
         {
@@ -22732,7 +22744,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1940-10-05T03:33:00+00:00", 
+            "date": "1940-10-05T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 4, 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "67429"
@@ -22744,6 +22758,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Detroit Tigers vs. Cincinnati Reds"
         }, 
         {
@@ -22756,7 +22771,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1940-10-06T03:33:00+00:00", 
+            "date": "1940-10-06T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 5, 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "67430"
@@ -22768,9 +22785,11 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Detroit Tigers vs. Cincinnati Reds"
         }, 
         {
+            "altDescription": "", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -22780,7 +22799,8 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1940-10-07T03:33:00+00:00", 
+            "date": "1940-10-07T08:33:00+00:00", 
+            "eventTitle": "World Series Game", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "67431"
@@ -22792,6 +22812,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series Game", 
             "vs": "Cincinnati Reds vs. Detroit Tigers"
         }, 
         {
@@ -22804,7 +22825,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1940-10-08T03:33:00+00:00", 
+            "date": "1940-10-08T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 7, 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "67432"
@@ -22816,6 +22839,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Cincinnati Reds vs. Detroit Tigers"
         }
     ]

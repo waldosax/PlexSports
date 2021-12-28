@@ -1,11 +1,34 @@
 {
     "CacheContainer": {
         "CacheType": "NFL1980SCHEDULE", 
-        "CachedOn": "2021-12-23T18:57:42", 
-        "ExpiresOn": "2021-12-30T18:57:42", 
+        "CachedOn": "2021-12-24T04:11:19", 
+        "ExpiresOn": "2021-12-31T04:11:19", 
         "Version": "2"
     }, 
     "Items": [
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "56901a7a-58be-4222-a48f-d71a0aa30830", 
+            "date": "1980-08-02T00:00:00", 
+            "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
+            "homeTeam": "fb788305-9796-4234-b247-f33353da992f", 
+            "identity": {
+                "WikipediaID": "NFL.1980.-1"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1980", 
+            "sport": "Football", 
+            "vs": "Green Bay Packers vs. San Diego Chargers"
+        }, 
         {
             "assets": {
                 "banner": [], 
@@ -5376,6 +5399,37 @@
             "subseason": 1, 
             "subseasonTitle": "Superbowl XV", 
             "vs": "Oakland Raiders vs. Philadelphia Eagles"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/0/08/1981_Pro_Bowl_logo.gif"
+                    }
+                ]
+            }, 
+            "awayTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
+            "date": "1981-02-01T00:00:00", 
+            "description": "The 1981 Pro Bowl was the NFL's 31st annual all-star game which featured the outstanding performers from the 1980 season. The game was played on Sunday, February 1, 1981, at Aloha Stadium in Honolulu, Hawaii. The final score was NFC 21, AFC 7.", 
+            "eventTitle": "1981 NFL Pro Bowl", 
+            "eventindicator": 2, 
+            "homeTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
+            "identity": {
+                "WikipediaID": "NFL.1980.2"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "ABC"
+            ], 
+            "season": "1980", 
+            "sport": "Football", 
+            "vs": "NFC vs. AFC"
         }
     ]
 }

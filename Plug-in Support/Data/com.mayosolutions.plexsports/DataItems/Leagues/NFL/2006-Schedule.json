@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2006SCHEDULE", 
-        "CachedOn": "2021-12-23T19:00:57", 
-        "ExpiresOn": "2021-12-30T19:00:57", 
+        "CachedOn": "2021-12-24T04:13:41", 
+        "ExpiresOn": "2021-12-31T04:13:41", 
         "Version": "2"
     }, 
     "Items": [
@@ -20,9 +20,11 @@
             "date": "2006-08-07T00:00:00+00:00", 
             "description": "Sebastian Janikowski made field goals of 50, 51 and 24 yards\r\nSunday night, lifting the Oakland Raiders past the Philadelphia\r\nEagles 16-10 in the Hall of Fame game to open the NFL preseason.", 
             "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
             "homeTeam": "7aeb2edd-3ed3-4c13-93db-66dadb2b9348", 
             "identity": {
-                "ESPNAPIID": "260806021"
+                "ESPNAPIID": "260806021", 
+                "WikipediaID": "NFL.2006.-1"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9067,7 +9069,7 @@
             "vs": "Indianapolis Colts vs. New England Patriots"
         }, 
         {
-            "altTitle": "SUPER BOWL", 
+            "altTitle": "SUPERBOWL", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -9079,7 +9081,6 @@
             "awayTeam": "7052c633-a550-4b53-8eab-cec3fb522490", 
             "date": "2007-02-04T23:00:00+00:00", 
             "description": "Chicago's Devin Hester returned the opening kick of Super Bowl XLI for a touchdown, but Indianapolis bounced back to win 29-17.", 
-            "eventTitle": "Super Bowl - Superbowl XLI", 
             "eventindicator": 1, 
             "homeTeam": "b2c95ff2-0528-4d93-90c4-54a85e6e0a39", 
             "identity": {
@@ -9106,14 +9107,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/5/50/2007_Pro_Bowl.svg"
+                    }
+                ]
             }, 
             "awayTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
             "date": "2007-02-10T23:00:00+00:00", 
-            "description": "At Hawaii", 
+            "description": "The 2007 Pro Bowl was the National Football League's all-star game for the 2006 season. The game took place on February 10, 2007, at Aloha Stadium in Honolulu, Hawaii. The game was held on a Saturday instead of the usual Sunday after the Super Bowl because of a request by broadcaster CBS.\nThe 2007 Pro Bowl marked the 28th consecutive time that the National Football League's all-star game was held in Honolulu. The NFC was coached by Sean Payton of the New Orleans Saints. The AFC was coached by Bill Belichick of the New England Patriots.", 
+            "eventTitle": "2007 NFL Pro Bowl", 
+            "eventindicator": 2, 
             "homeTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
             "identity": {
-                "ESPNAPIID": "270210031"
+                "ESPNAPIID": "270210031", 
+                "WikipediaID": "NFL.2006.2"
             }, 
             "league": "NFL", 
             "networks": [

@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2019SCHEDULE", 
-        "CachedOn": "2021-12-23T19:04:15", 
-        "ExpiresOn": "2021-12-30T19:04:15", 
+        "CachedOn": "2021-12-24T04:16:17", 
+        "ExpiresOn": "2021-12-31T04:16:17", 
         "Version": "2"
     }, 
     "Items": [
@@ -30,7 +30,8 @@
             "identity": {
                 "ESPNAPIID": "401123243", 
                 "SportsDataIOID": "16922", 
-                "TheSportsDBID": "600748"
+                "TheSportsDBID": "600748", 
+                "WikipediaID": "NFL.2019.-1"
             }, 
             "league": "NFL", 
             "networks": [
@@ -11638,7 +11639,12 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/a/ab/2020_Pro_Bowl_logo.png"
+                    }
+                ]
             }, 
             "awayTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
             "date": "2020-01-26T20:00:00+00:00", 
@@ -11648,12 +11654,15 @@
             "homeTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
             "identity": {
                 "ESPNAPIID": "401131046", 
-                "SportsDataIOID": "17243"
+                "SportsDataIOID": "17243", 
+                "WikipediaID": "NFL.2019.2"
             }, 
             "league": "NFL", 
             "networks": [
                 "ABC", 
-                "ESPN"
+                "Disney XD", 
+                "ESPN", 
+                "ESPN Deportes"
             ], 
             "season": "2019", 
             "sport": "Football", 
@@ -11661,7 +11670,7 @@
             "vs": "AFC vs. NFC"
         }, 
         {
-            "altTitle": "SUPER BOWL LIV", 
+            "altTitle": "SUPERBOWL LIV", 
             "assets": {
                 "banner": [
                     {

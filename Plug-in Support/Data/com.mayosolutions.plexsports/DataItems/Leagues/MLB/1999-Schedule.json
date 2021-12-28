@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1999SCHEDULE", 
-        "CachedOn": "2021-12-23T18:23:03", 
-        "ExpiresOn": "2021-12-30T18:23:03", 
+        "CachedOn": "2021-12-27T19:16:46", 
+        "ExpiresOn": "2022-01-03T19:16:46", 
         "Version": "2"
     }, 
     "Items": [
@@ -309,7 +309,7 @@
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "date": "1999-04-05T00:05:00+00:00", 
-            "description": "Colorado Rockies vs. San Diego Padres", 
+            "eventTitle": "Colorado Rockies vs. San Diego Padres", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "MLBAPIID": "2236"
@@ -333,7 +333,7 @@
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "1999-04-05T17:35:00+00:00", 
-            "description": "Boston Red Sox vs. Kansas City Royals", 
+            "eventTitle": "Boston Red Sox vs. Kansas City Royals", 
             "homeTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "identity": {
                 "MLBAPIID": "349"
@@ -362,7 +362,7 @@
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "date": "1999-04-05T18:05:00+00:00", 
-            "description": "San Francisco Giants vs. Cincinnati Reds", 
+            "eventTitle": "San Francisco Giants vs. Cincinnati Reds", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "4765", 
@@ -387,7 +387,7 @@
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "date": "1999-04-05T18:35:00+00:00", 
-            "description": "Detroit Tigers vs. Texas Rangers", 
+            "eventTitle": "Detroit Tigers vs. Texas Rangers", 
             "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "identity": {
                 "MLBAPIID": "871", 
@@ -412,7 +412,7 @@
             }, 
             "awayTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
             "date": "1999-04-05T19:05:00+00:00", 
-            "description": "Tampa Bay Devil Rays vs. Baltimore Orioles", 
+            "eventTitle": "Tampa Bay Devil Rays vs. Baltimore Orioles", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "1061"
@@ -441,7 +441,7 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "1999-04-05T20:05:00+00:00", 
-            "description": "New York Mets vs. Florida Marlins", 
+            "eventTitle": "New York Mets vs. Florida Marlins", 
             "homeTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
             "identity": {
                 "MLBAPIID": "1426", 
@@ -471,7 +471,7 @@
             }, 
             "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "date": "1999-04-05T20:10:00+00:00", 
-            "description": "Philadelphia Phillies vs. Atlanta Braves", 
+            "eventTitle": "Philadelphia Phillies vs. Atlanta Braves", 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "MLBAPIID": "1344", 
@@ -501,7 +501,7 @@
             }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "date": "1999-04-05T20:10:00+00:00", 
-            "description": "Arizona Diamondbacks vs. Los Angeles Dodgers", 
+            "eventTitle": "Arizona Diamondbacks vs. Los Angeles Dodgers", 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
                 "MLBAPIID": "915", 
@@ -625,7 +625,7 @@
             }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "date": "1999-04-05T23:05:00+00:00", 
-            "description": "Montreal Expos vs. Pittsburgh Pirates", 
+            "eventTitle": "Montreal Expos vs. Pittsburgh Pirates", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
                 "MLBAPIID": "1381", 
@@ -657,6 +657,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Milwaukee Brewers vs. St. Louis Cardinals", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -674,7 +675,7 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "1999-04-06T02:35:00+00:00", 
-            "description": "New York Yankees vs. Oakland Athletics", 
+            "eventTitle": "New York Yankees vs. Oakland Athletics", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "599", 
@@ -704,7 +705,7 @@
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "date": "1999-04-06T02:35:00+00:00", 
-            "description": "Chicago White Sox vs. Seattle Mariners", 
+            "eventTitle": "Chicago White Sox vs. Seattle Mariners", 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
                 "MLBAPIID": "1519", 
@@ -807,7 +808,7 @@
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "date": "1999-04-06T22:05:00+00:00", 
-            "description": "Colorado Rockies vs. San Diego Padres", 
+            "eventTitle": "Colorado Rockies vs. San Diego Padres", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "MLBAPIID": "1340", 
@@ -837,7 +838,7 @@
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "date": "1999-04-06T23:05:00+00:00", 
-            "description": "San Francisco Giants vs. Cincinnati Reds", 
+            "eventTitle": "San Francisco Giants vs. Cincinnati Reds", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "357", 
@@ -867,7 +868,7 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "1999-04-06T23:05:00+00:00", 
-            "description": "New York Mets vs. Florida Marlins", 
+            "eventTitle": "New York Mets vs. Florida Marlins", 
             "homeTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
             "identity": {
                 "MLBAPIID": "187", 
@@ -892,7 +893,7 @@
             }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "date": "1999-04-06T23:05:00+00:00", 
-            "description": "Montreal Expos vs. Pittsburgh Pirates", 
+            "eventTitle": "Montreal Expos vs. Pittsburgh Pirates", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
                 "MLBAPIID": "853", 
@@ -922,7 +923,7 @@
             }, 
             "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "date": "1999-04-06T23:40:00+00:00", 
-            "description": "Philadelphia Phillies vs. Atlanta Braves", 
+            "eventTitle": "Philadelphia Phillies vs. Atlanta Braves", 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "MLBAPIID": "985", 
@@ -947,7 +948,7 @@
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "1999-04-07T00:05:00+00:00", 
-            "description": "Chicago Cubs vs. Houston Astros", 
+            "eventTitle": "Chicago Cubs vs. Houston Astros", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "MLBAPIID": "558", 
@@ -977,7 +978,7 @@
             }, 
             "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "date": "1999-04-07T00:05:00+00:00", 
-            "description": "Toronto Blue Jays vs. Minnesota Twins", 
+            "eventTitle": "Toronto Blue Jays vs. Minnesota Twins", 
             "homeTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
             "identity": {
                 "MLBAPIID": "362", 
@@ -1002,7 +1003,7 @@
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "date": "1999-04-07T00:35:00+00:00", 
-            "description": "Detroit Tigers vs. Texas Rangers", 
+            "eventTitle": "Detroit Tigers vs. Texas Rangers", 
             "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "identity": {
                 "MLBAPIID": "872", 
@@ -1032,7 +1033,7 @@
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "1999-04-07T02:05:00+00:00", 
-            "description": "Cleveland Indians vs. Anaheim Angels", 
+            "eventTitle": "Cleveland Indians vs. Anaheim Angels", 
             "homeTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
             "identity": {
                 "MLBAPIID": "134", 
@@ -1057,7 +1058,7 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "1999-04-07T02:05:00+00:00", 
-            "description": "New York Yankees vs. Oakland Athletics", 
+            "eventTitle": "New York Yankees vs. Oakland Athletics", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "1445", 
@@ -1087,7 +1088,7 @@
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "date": "1999-04-07T02:05:00+00:00", 
-            "description": "Chicago White Sox vs. Seattle Mariners", 
+            "eventTitle": "Chicago White Sox vs. Seattle Mariners", 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
                 "MLBAPIID": "566", 
@@ -1117,7 +1118,7 @@
             }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "date": "1999-04-07T02:10:00+00:00", 
-            "description": "Arizona Diamondbacks vs. Los Angeles Dodgers", 
+            "eventTitle": "Arizona Diamondbacks vs. Los Angeles Dodgers", 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
                 "MLBAPIID": "916", 
@@ -5675,62 +5676,6 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/nbne3a1617549169.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "date": "1999-04-17T17:05:00+00:00", 
-            "description": "Minnesota Twins vs. Cleveland Indians -- Game 1", 
-            "game": 1, 
-            "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "identity": {
-                "MLBAPIID": "637", 
-                "TheSportsDBID": "1210006"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "title": "Minnesota Twins vs. Cleveland Indians -- Game 1", 
-            "vs": "Cleveland Indians vs. Minnesota Twins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "date": "1999-04-17T23:05:00+00:00", 
-            "description": "Minnesota Twins vs. Cleveland Indians -- Game 2", 
-            "game": 2, 
-            "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "identity": {
-                "MLBAPIID": "1965"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "title": "Minnesota Twins vs. Cleveland Indians -- Game 2", 
-            "vs": "Cleveland Indians vs. Minnesota Twins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.thesportsdb.com/images/media/event/thumb/12yl6w1617549273.jpg"
                     }
                 ]
@@ -5967,6 +5912,68 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Toronto Blue Jays vs. Baltimore Orioles"
+        }, 
+        {
+            "altDescription": "- Game 1", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/nbne3a1617549169.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
+            "date": "1999-04-17T17:05:00+00:00", 
+            "description": "- Game 1", 
+            "eventTitle": "Minnesota Twins vs. Cleveland Indians", 
+            "game": 1, 
+            "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
+            "identity": {
+                "MLBAPIID": "637", 
+                "TheSportsDBID": "1210006"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "notes": "Minnesota Twins vs. Cleveland Indians, - Game 1", 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "title": "Minnesota Twins vs. Cleveland Indians", 
+            "vs": "Cleveland Indians vs. Minnesota Twins"
+        }, 
+        {
+            "altDescription": "- Game 2", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
+            "date": "1999-04-17T23:05:00+00:00", 
+            "description": "- Game 2", 
+            "eventTitle": "Minnesota Twins vs. Cleveland Indians", 
+            "game": 2, 
+            "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
+            "identity": {
+                "MLBAPIID": "1965"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "notes": "Minnesota Twins vs. Cleveland Indians, - Game 2", 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "title": "Minnesota Twins vs. Cleveland Indians", 
+            "vs": "Cleveland Indians vs. Minnesota Twins"
         }, 
         {
             "assets": {
@@ -7193,7 +7200,7 @@
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "date": "1999-04-21T00:05:00+00:00", 
-            "description": "Seattle Mariners vs. Chicago White Sox", 
+            "eventTitle": "Seattle Mariners vs. Chicago White Sox", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
                 "MLBAPIID": "1970", 
@@ -7618,7 +7625,7 @@
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "date": "1999-04-22T00:05:00+00:00", 
-            "description": "Seattle Mariners vs. Chicago White Sox", 
+            "eventTitle": "Seattle Mariners vs. Chicago White Sox", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
                 "MLBAPIID": "1968"
@@ -10285,6 +10292,58 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/p2w7l81617549516.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
+            "date": "1999-04-28T22:05:00+00:00", 
+            "game": 1, 
+            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "identity": {
+                "MLBAPIID": "372", 
+                "TheSportsDBID": "1209868"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago White Sox vs. Tampa Bay Devil Rays"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
+            "date": "1999-04-29T01:05:00+00:00", 
+            "game": 2, 
+            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "identity": {
+                "MLBAPIID": "2132"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago White Sox vs. Tampa Bay Devil Rays"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
@@ -10547,58 +10606,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Texas Rangers vs. New York Yankees"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/p2w7l81617549516.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
-            "date": "1999-04-28T22:05:00+00:00", 
-            "game": 1, 
-            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "identity": {
-                "MLBAPIID": "372", 
-                "TheSportsDBID": "1209868"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Chicago White Sox vs. Tampa Bay Devil Rays"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
-            "date": "1999-04-29T01:05:00+00:00", 
-            "game": 2, 
-            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "identity": {
-                "MLBAPIID": "2132"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Chicago White Sox vs. Tampa Bay Devil Rays"
         }, 
         {
             "assets": {
@@ -20048,6 +20055,52 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
+            "date": "1999-05-20T20:10:00+00:00", 
+            "game": 1, 
+            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "identity": {
+                "MLBAPIID": "519"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "New York Mets vs. Milwaukee Brewers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
+            "date": "1999-05-20T23:30:00+00:00", 
+            "game": 2, 
+            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "identity": {
+                "MLBAPIID": "2058"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "New York Mets vs. Milwaukee Brewers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "date": "1999-05-20T21:05:00+00:00", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
@@ -20441,52 +20494,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Toronto Blue Jays vs. Detroit Tigers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1999-05-20T20:10:00+00:00", 
-            "game": 1, 
-            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "identity": {
-                "MLBAPIID": "519"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "New York Mets vs. Milwaukee Brewers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1999-05-20T23:30:00+00:00", 
-            "game": 2, 
-            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "identity": {
-                "MLBAPIID": "2058"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "New York Mets vs. Milwaukee Brewers"
         }, 
         {
             "assets": {
@@ -21125,6 +21132,53 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
+            "date": "1999-05-22T20:05:00+00:00", 
+            "game": 1, 
+            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "identity": {
+                "MLBAPIID": "4818", 
+                "TheSportsDBID": "1209546"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago White Sox vs. New York Yankees"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
+            "date": "1999-05-23T00:05:00+00:00", 
+            "game": 2, 
+            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "identity": {
+                "MLBAPIID": "2158"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago White Sox vs. New York Yankees"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "date": "1999-05-22T20:05:00+00:00", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
@@ -21240,53 +21294,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Atlanta Braves vs. Chicago Cubs"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1999-05-22T20:05:00+00:00", 
-            "game": 1, 
-            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "identity": {
-                "MLBAPIID": "4818", 
-                "TheSportsDBID": "1209546"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Chicago White Sox vs. New York Yankees"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1999-05-23T00:05:00+00:00", 
-            "game": 2, 
-            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "identity": {
-                "MLBAPIID": "2158"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Chicago White Sox vs. New York Yankees"
         }, 
         {
             "assets": {
@@ -28614,6 +28621,58 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/e9o8fn1617545810.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
+            "date": "1999-06-08T20:05:00+00:00", 
+            "game": 1, 
+            "homeTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
+            "identity": {
+                "MLBAPIID": "238", 
+                "TheSportsDBID": "1209322"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Florida Marlins vs. Baltimore Orioles"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
+            "date": "1999-06-08T23:05:00+00:00", 
+            "game": 2, 
+            "homeTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
+            "identity": {
+                "MLBAPIID": "2105"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Florida Marlins vs. Baltimore Orioles"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.thesportsdb.com/images/media/event/thumb/qb18mu1617549313.jpg"
                     }
                 ]
@@ -28687,58 +28746,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Detroit Tigers vs. Pittsburgh Pirates"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/e9o8fn1617545810.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "1999-06-08T20:05:00+00:00", 
-            "game": 1, 
-            "homeTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "identity": {
-                "MLBAPIID": "238", 
-                "TheSportsDBID": "1209322"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Florida Marlins vs. Baltimore Orioles"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "1999-06-08T23:05:00+00:00", 
-            "game": 2, 
-            "homeTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "identity": {
-                "MLBAPIID": "2105"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Florida Marlins vs. Baltimore Orioles"
         }, 
         {
             "assets": {
@@ -39847,7 +39854,8 @@
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "date": "1999-07-03T17:05:00+00:00", 
-            "description": "Cleveland Indians vs. Kansas City Royals", 
+            "description": "Game 1", 
+            "eventTitle": "Cleveland Indians vs. Kansas City Royals", 
             "game": 1, 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
@@ -39856,6 +39864,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Cleveland Indians vs. Kansas City Royals, Game 1", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -39874,7 +39883,8 @@
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "date": "1999-07-03T23:05:00+00:00", 
-            "description": "Cleveland Indians vs. Kansas City Royals", 
+            "description": "Game 2", 
+            "eventTitle": "Cleveland Indians vs. Kansas City Royals", 
             "game": 2, 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
@@ -39882,6 +39892,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Cleveland Indians vs. Kansas City Royals, Game 2", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -39943,6 +39954,65 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Chicago White Sox vs. Boston Red Sox"
+        }, 
+        {
+            "altDescription": "- Game 1", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/pcrz8c1617549514.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
+            "date": "1999-07-03T19:05:00+00:00", 
+            "description": "- Game 1", 
+            "eventTitle": "San Diego Padres vs. Colorado Rockies", 
+            "game": 1, 
+            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
+            "identity": {
+                "MLBAPIID": "2470", 
+                "TheSportsDBID": "1208982"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "notes": "San Diego Padres vs. Colorado Rockies, - Game 1", 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "title": "San Diego Padres vs. Colorado Rockies", 
+            "vs": "Colorado Rockies vs. San Diego Padres"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
+            "date": "1999-07-04T01:05:00+00:00", 
+            "eventTitle": "San Diego Padres vs. Colorado Rockies", 
+            "game": 2, 
+            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
+            "identity": {
+                "MLBAPIID": "1966"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "title": "San Diego Padres vs. Colorado Rockies", 
+            "vs": "Colorado Rockies vs. San Diego Padres"
         }, 
         {
             "assets": {
@@ -40203,62 +40273,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Texas Rangers vs. Seattle Mariners"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/pcrz8c1617549514.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1999-07-03T19:05:00+00:00", 
-            "description": "San Diego Padres vs. Colorado Rockies -- Game 1", 
-            "game": 1, 
-            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "identity": {
-                "MLBAPIID": "2470", 
-                "TheSportsDBID": "1208982"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "title": "San Diego Padres vs. Colorado Rockies -- Game 1", 
-            "vs": "Colorado Rockies vs. San Diego Padres"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1999-07-04T01:05:00+00:00", 
-            "description": "San Diego Padres vs. Colorado Rockies", 
-            "game": 2, 
-            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "identity": {
-                "MLBAPIID": "1966"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "title": "San Diego Padres vs. Colorado Rockies", 
-            "vs": "Colorado Rockies vs. San Diego Padres"
         }, 
         {
             "assets": {
@@ -43848,6 +43862,7 @@
             "vs": "Chicago White Sox vs. Chicago Cubs"
         }, 
         {
+            "altDescription": "Star Game, at Fenway Park", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43863,8 +43878,8 @@
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "1999-07-14T00:00:00+00:00", 
-            "description": "This was the last All-Star Game with umpires from separate leagues. In 2000, Major League Baseball unified the umpiring staffs under its control. Five of the umpires in this game (Evans, Tata, Ford, Johnson, and Vanover) lost their jobs less than two months later as part of the 1999 Major League Umpires Association mass resignation. However, through an arbitration process, Vanover was rehired before the 2002 season.", 
-            "eventTitle": "All-Star Game 70th All-Star Game, at Fenway Park - 1999 Major League Baseball All-Star Game", 
+            "description": "This was the last All-Star Game with umpires from separate leagues. In 2000, Major League Baseball unified the umpiring staffs under its control. Five of the umpires in this game (Evans, Tata, Ford, Johnson, and Vanover) lost their jobs less than two months later as part of the 1999 Major League Umpires Association mass resignation. However, through an arbitration process, Vanover was rehired before the 2002 season., Star Game, at Fenway Park", 
+            "eventTitle": "1999 Major League Baseball All-Star Game", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "identity": {
@@ -43876,10 +43891,11 @@
                 "MLB International", 
                 "Fox"
             ], 
+            "notes": "1999 Major League Baseball All-Star Game, All-Star Game, 70th All, Star Game, at Fenway Park", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "70th All-Star Game, at Fenway Park", 
+            "title": "70th All", 
             "vs": "American League All-Stars vs. National League All-Stars"
         }, 
         {
@@ -55277,7 +55293,7 @@
             }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "date": "1999-08-13T19:05:00+00:00", 
-            "description": "Montreal Expos vs. Colorado Rockies (Game 1)", 
+            "eventTitle": "Montreal Expos vs. Colorado Rockies (Game 1)", 
             "game": 1, 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
@@ -55325,7 +55341,7 @@
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "date": "1999-08-13T21:05:00+00:00", 
-            "description": "Texas Rangers vs. Chicago White Sox (Game One)", 
+            "eventTitle": "Texas Rangers vs. Chicago White Sox (Game One)", 
             "game": 1, 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
@@ -55350,7 +55366,7 @@
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "date": "1999-08-14T00:05:00+00:00", 
-            "description": "Texas Rangers vs Chicago White Sox (Game Two)", 
+            "eventTitle": "Texas Rangers vs Chicago White Sox (Game Two)", 
             "game": 2, 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
@@ -56189,7 +56205,7 @@
             }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "date": "1999-08-15T19:05:00+00:00", 
-            "description": "Montreal Expos vs. Colorado Rockies (Game 1)", 
+            "eventTitle": "Montreal Expos vs. Colorado Rockies (Game 1)", 
             "game": 1, 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
@@ -56214,7 +56230,7 @@
             }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "date": "1999-08-16T01:05:00+00:00", 
-            "description": "Montreal Expos vs. Colorado Rockies (Game 2)", 
+            "eventTitle": "Montreal Expos vs. Colorado Rockies (Game 2)", 
             "game": 2, 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
@@ -57405,7 +57421,7 @@
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "date": "1999-08-19T21:05:00+00:00", 
-            "description": "Atlanta Braves vs. Colorado Rockies  (From 4/17)", 
+            "eventTitle": "Atlanta Braves vs. Colorado Rockies (From 4/17)", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "1967"
@@ -57771,6 +57787,7 @@
             "vs": "Oakland Athletics vs. Toronto Blue Jays"
         }, 
         {
+            "altDescription": "20-99 rainout", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -57781,7 +57798,7 @@
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "date": "1999-08-21T17:05:00+00:00", 
-            "description": "Makeup of 8-20-99 Rainout", 
+            "description": "20-99 rainout", 
             "game": 1, 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
@@ -57789,10 +57806,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 8, 20-99 rainout", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 0, 
-            "title": "Makeup of 8-20-99 rainout", 
+            "title": "Makeup of 8", 
             "vs": "Baltimore Orioles vs. Chicago White Sox"
         }, 
         {
@@ -58127,6 +58145,7 @@
             "vs": "Oakland Athletics vs. Toronto Blue Jays"
         }, 
         {
+            "altDescription": "20-99 rainout", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -58137,7 +58156,7 @@
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "date": "1999-08-22T16:10:00+00:00", 
-            "description": "Makeup of 8-20-99 Rainout", 
+            "description": "20-99 rainout", 
             "game": 1, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
@@ -58145,10 +58164,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 8, 20-99 rainout", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 0, 
-            "title": "Makeup of 8-20-99 rainout", 
+            "title": "Makeup of 8", 
             "vs": "New York Mets vs. St. Louis Cardinals"
         }, 
         {
@@ -59615,52 +59635,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1999-08-27T21:05:00+00:00", 
-            "game": 1, 
-            "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "identity": {
-                "MLBAPIID": "2703"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Houston Astros vs. Florida Marlins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1999-08-28T00:05:00+00:00", 
-            "game": 2, 
-            "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "identity": {
-                "MLBAPIID": "2702"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1999", 
-            "sport": "Baseball", 
-            "subseason": 0, 
-            "vs": "Houston Astros vs. Florida Marlins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
             "date": "1999-08-27T23:05:00+00:00", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
@@ -59805,6 +59779,52 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Chicago White Sox vs. Oakland Athletics"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
+            "date": "1999-08-27T21:05:00+00:00", 
+            "game": 1, 
+            "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
+            "identity": {
+                "MLBAPIID": "2703"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Houston Astros vs. Florida Marlins"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
+            "date": "1999-08-28T00:05:00+00:00", 
+            "game": 2, 
+            "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
+            "identity": {
+                "MLBAPIID": "2702"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1999", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Houston Astros vs. Florida Marlins"
         }, 
         {
             "assets": {
@@ -60633,7 +60653,7 @@
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "date": "1999-08-30T21:05:00+00:00", 
-            "description": "Seattle Mariners vs. Chicago White Sox (Game 1)", 
+            "eventTitle": "Seattle Mariners vs. Chicago White Sox (Game 1)", 
             "game": 1, 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
@@ -60658,7 +60678,7 @@
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "date": "1999-08-31T00:05:00+00:00", 
-            "description": "Seattle Mariners vs. Chicago White Sox (Game 2)", 
+            "eventTitle": "Seattle Mariners vs. Chicago White Sox (Game 2)", 
             "game": 2, 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
@@ -62972,7 +62992,7 @@
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "date": "1999-09-07T00:05:00+00:00", 
-            "description": "Makeup of 9/5/99 Rainout", 
+            "description": "Makeup of 9/5/99 rainout", 
             "game": 2, 
             "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "identity": {
@@ -62980,6 +63000,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 9/5/99 rainout", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -67899,6 +67920,7 @@
             "vs": "Milwaukee Brewers vs. Philadelphia Phillies"
         }, 
         {
+            "altDescription": "16 rainout", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -67909,7 +67931,7 @@
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "date": "1999-09-23T20:05:00+00:00", 
-            "description": "Makeup of 9-16 Rainout", 
+            "description": "16 rainout", 
             "game": 1, 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
@@ -67917,13 +67939,15 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 9, 16 rainout", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 0, 
-            "title": "Makeup of 9-16 rainout", 
+            "title": "Makeup of 9", 
             "vs": "Baltimore Orioles vs. Oakland Athletics"
         }, 
         {
+            "altDescription": "17 rainout", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -67934,7 +67958,7 @@
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "date": "1999-09-23T23:05:00+00:00", 
-            "description": "Makeup of 9-17 Rainout", 
+            "description": "17 rainout", 
             "game": 2, 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
@@ -67942,10 +67966,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 9, 17 rainout", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 0, 
-            "title": "Makeup of 9-17 rainout", 
+            "title": "Makeup of 9", 
             "vs": "Baltimore Orioles vs. Oakland Athletics"
         }, 
         {
@@ -69522,7 +69547,7 @@
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "1999-09-30T00:05:00+00:00", 
-            "description": "Makeup of 9/28 Rainout", 
+            "description": "Makeup of 9/28 rainout", 
             "game": 2, 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
@@ -69530,6 +69555,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 9/28 rainout", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -69570,7 +69596,7 @@
             }, 
             "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "date": "1999-09-30T00:05:00+00:00", 
-            "description": "Makeup of 9/28 Rainout", 
+            "description": "Makeup of 9/28 rainout", 
             "game": 2, 
             "homeTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "identity": {
@@ -69578,6 +69604,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 9/28 rainout", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -69794,7 +69821,7 @@
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "date": "1999-09-30T00:10:00+00:00", 
-            "description": "Makeup of 9/28 Game", 
+            "description": "Makeup of 9/28 game", 
             "game": 2, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
@@ -69802,6 +69829,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 9/28 game", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -69908,7 +69936,7 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "1999-09-30T23:05:00+00:00", 
-            "description": "Makeup of 9/29 Rainout", 
+            "description": "Makeup of 9/29 rainout", 
             "game": 2, 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
@@ -69916,6 +69944,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Makeup of 9/29 rainout", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 0, 
@@ -71133,6 +71162,7 @@
             "vs": "Oakland Athletics vs. Seattle Mariners"
         }, 
         {
+            "altDescription": "Game Playoff for NL Wildcard Berth", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -71143,17 +71173,19 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "1999-10-04T23:05:00+00:00", 
-            "description": "Single-Game Playoff for NL Wildcard Berth", 
+            "description": "Game Playoff for NL Wildcard Berth", 
+            "eventTitle": "Single", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "4835"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Single, Game Playoff for NL Wildcard Berth", 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 0, 
-            "title": "Single-Game Playoff for NL Wildcard Berth", 
+            "title": "Single", 
             "vs": "Cincinnati Reds vs. New York Mets"
         }, 
         {
@@ -71167,19 +71199,22 @@
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "date": "1999-10-05T20:00:00+00:00", 
-            "description": "Division Series NL Division Series (HOU-ATL), Game One", 
+            "description": "Division Series, NLDS 'A'", 
+            "eventTitle": "NLDS", 
+            "game": 1, 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "MLBAPIID": "2698"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'A'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "NL Division Series (HOU-ATL), Game One", 
+            "title": "NLDS 'A'", 
             "vs": "Atlanta Braves vs. Houston Astros"
         }, 
         {
@@ -71193,23 +71228,25 @@
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "date": "1999-10-06T00:00:00+00:00", 
-            "description": "Division Series AL Division Series (TEX-NYA), Game One", 
+            "description": "Division Series, ALDS 'A'", 
+            "eventTitle": "ALDS", 
+            "game": 1, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "2812"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'A'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "AL Division Series (TEX-NYA), Game One", 
+            "title": "ALDS 'A'", 
             "vs": "New York Yankees vs. Texas Rangers"
         }, 
         {
-            "altDescription": "ARI), Game One", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -71220,23 +71257,25 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "1999-10-06T03:00:00+00:00", 
-            "description": "Division Series NL Division Series (NYN", 
+            "description": "Division Series, NLDS 'B'", 
+            "eventTitle": "NLDS", 
+            "game": 1, 
             "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "identity": {
                 "MLBAPIID": "2773"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'B'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "NL Division Series (NYN", 
+            "title": "NLDS 'B'", 
             "vs": "Arizona Diamondbacks vs. New York Mets"
         }, 
         {
-            "altDescription": "ATL), Game Two", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -71247,19 +71286,22 @@
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "date": "1999-10-06T20:00:00+00:00", 
-            "description": "Division Series NL Division Series (HOU", 
+            "description": "Division Series, NLDS 'A'", 
+            "eventTitle": "NLDS", 
+            "game": 2, 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "MLBAPIID": "2774"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'A'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "NL Division Series (HOU", 
+            "title": "NLDS 'A'", 
             "vs": "Atlanta Braves vs. Houston Astros"
         }, 
         {
@@ -71273,23 +71315,25 @@
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "1999-10-07T00:00:00+00:00", 
-            "description": "Division Series AL Division Series (BOS-CLE), Game One", 
+            "description": "Division Series, ALDS 'B'", 
+            "eventTitle": "ALDS", 
+            "game": 1, 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "2813"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'B'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "AL Division Series (BOS-CLE), Game One", 
+            "title": "ALDS 'B'", 
             "vs": "Cleveland Indians vs. Boston Red Sox"
         }, 
         {
-            "altDescription": "ARI), Game Two", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -71300,19 +71344,22 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "1999-10-07T03:00:00+00:00", 
-            "description": "Division Series NL Division Series (NYN", 
+            "description": "Division Series, NLDS 'B'", 
+            "eventTitle": "NLDS", 
+            "game": 2, 
             "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "identity": {
                 "MLBAPIID": "2775"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'B'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "NL Division Series (NYN", 
+            "title": "NLDS 'B'", 
             "vs": "Arizona Diamondbacks vs. New York Mets"
         }, 
         {
@@ -71326,19 +71373,22 @@
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "1999-10-07T20:00:00+00:00", 
-            "description": "Division Series AL Division Series (BOS-CLE), Game Two", 
+            "description": "Division Series, ALDS 'B'", 
+            "eventTitle": "ALDS", 
+            "game": 2, 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "2814"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'B'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "AL Division Series (BOS-CLE), Game Two", 
+            "title": "ALDS 'B'", 
             "vs": "Cleveland Indians vs. Boston Red Sox"
         }, 
         {
@@ -71352,23 +71402,25 @@
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "date": "1999-10-08T00:00:00+00:00", 
-            "description": "Division Series AL Division Series (TEX-NYA), Game Two", 
+            "description": "Division Series, ALDS 'A'", 
+            "eventTitle": "ALDS", 
+            "game": 2, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "2815"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'A'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "AL Division Series (TEX-NYA), Game Two", 
+            "title": "ALDS 'A'", 
             "vs": "New York Yankees vs. Texas Rangers"
         }, 
         {
-            "altDescription": "ATL), Game Three", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -71379,23 +71431,25 @@
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "date": "1999-10-08T20:00:00+00:00", 
-            "description": "Division Series NL Division Series (HOU", 
+            "description": "Division Series, NLDS 'A'", 
+            "eventTitle": "NLDS", 
+            "game": 3, 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "MLBAPIID": "2776"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'A'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "NL Division Series (HOU", 
+            "title": "NLDS 'A'", 
             "vs": "Houston Astros vs. Atlanta Braves"
         }, 
         {
-            "altDescription": "ARI), Game Three", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -71406,23 +71460,25 @@
             }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "date": "1999-10-09T00:00:00+00:00", 
-            "description": "Division Series NL Division Series (NYN", 
+            "description": "Division Series, NLDS 'B'", 
+            "eventTitle": "NLDS", 
+            "game": 3, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "2777"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'B'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "NL Division Series (NYN", 
+            "title": "NLDS 'B'", 
             "vs": "New York Mets vs. Arizona Diamondbacks"
         }, 
         {
-            "altDescription": "ATL), Game Four", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -71433,23 +71489,25 @@
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "date": "1999-10-09T17:00:00+00:00", 
-            "description": "Division Series NL Division Series (HOU", 
+            "description": "Division Series, NLDS 'A'", 
+            "eventTitle": "NLDS", 
+            "game": 4, 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "MLBAPIID": "2778"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'A'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "NL Division Series (HOU", 
+            "title": "NLDS 'A'", 
             "vs": "Houston Astros vs. Atlanta Braves"
         }, 
         {
-            "altDescription": "ARI), Game Four", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -71460,19 +71518,22 @@
             }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "date": "1999-10-09T17:00:00+00:00", 
-            "description": "Division Series NL Division Series (NYN", 
+            "description": "Division Series, NLDS 'B'", 
+            "eventTitle": "NLDS", 
+            "game": 4, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "2779"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, NLDS 'B'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "NL Division Series (NYN", 
+            "title": "NLDS 'B'", 
             "vs": "New York Mets vs. Arizona Diamondbacks"
         }, 
         {
@@ -71486,19 +71547,22 @@
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "1999-10-09T20:00:00+00:00", 
-            "description": "Division Series AL Division Series (BOS-CLE), Game Three", 
+            "description": "Division Series, ALDS 'B'", 
+            "eventTitle": "ALDS", 
+            "game": 3, 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "2821"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'B'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "AL Division Series (BOS-CLE), Game Three", 
+            "title": "ALDS 'B'", 
             "vs": "Boston Red Sox vs. Cleveland Indians"
         }, 
         {
@@ -71512,23 +71576,25 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "1999-10-09T23:30:00+00:00", 
-            "description": "Division Series AL Division Series (TEX-NYA), Game Three", 
+            "description": "Division Series, ALDS 'A'", 
+            "eventTitle": "ALDS", 
+            "game": 3, 
             "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "identity": {
                 "MLBAPIID": "2971"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'A'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "AL Division Series (TEX-NYA), Game Three", 
+            "title": "ALDS 'A'", 
             "vs": "Texas Rangers vs. New York Yankees"
         }, 
         {
-            "altDescription": "CLE), Game Four", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -71539,23 +71605,25 @@
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "1999-10-10T23:30:00+00:00", 
-            "description": "Division Series AL Division Series (BOS", 
+            "description": "Division Series, ALDS 'B'", 
+            "eventTitle": "ALDS", 
+            "game": 4, 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "2818"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'B'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "AL Division Series (BOS", 
+            "title": "ALDS 'B'", 
             "vs": "Boston Red Sox vs. Cleveland Indians"
         }, 
         {
-            "altDescription": "CLE), Game Five", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -71566,19 +71634,22 @@
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "1999-10-12T00:00:00+00:00", 
-            "description": "Division Series AL Division Series (BOS", 
+            "description": "Division Series, ALDS 'B'", 
+            "eventTitle": "ALDS", 
+            "game": 5, 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "2820"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "Division Series, ALDS 'B'", 
             "playoffround": 2, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "Division Series", 
-            "title": "AL Division Series (BOS", 
+            "title": "ALDS 'B'", 
             "vs": "Cleveland Indians vs. Boston Red Sox"
         }, 
         {
@@ -71592,19 +71663,22 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "1999-10-13T00:00:00+00:00", 
-            "description": "League Championship Series NLCS Game One", 
+            "description": "League Championship Series, NLCS", 
+            "eventTitle": "NLCS", 
+            "game": 1, 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "MLBAPIID": "2780"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, NLCS", 
             "playoffround": 3, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "NLCS Game One", 
+            "title": "NLCS", 
             "vs": "Atlanta Braves vs. New York Mets"
         }, 
         {
@@ -71618,7 +71692,8 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "1999-10-13T20:00:00+00:00", 
-            "description": "League Championship Series NLCS", 
+            "description": "League Championship Series, NLCS", 
+            "eventTitle": "NLCS", 
             "game": 2, 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
@@ -71626,6 +71701,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, NLCS", 
             "playoffround": 3, 
             "season": "1999", 
             "sport": "Baseball", 
@@ -71645,19 +71721,22 @@
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "1999-10-14T00:00:00+00:00", 
-            "description": "League Championship Series ALCS Game One", 
+            "description": "League Championship Series, ALCS", 
+            "eventTitle": "ALCS", 
+            "game": 1, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "2822"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, ALCS", 
             "playoffround": 3, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "ALCS Game One", 
+            "title": "ALCS", 
             "vs": "New York Yankees vs. Boston Red Sox"
         }, 
         {
@@ -71671,19 +71750,22 @@
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "1999-10-15T00:00:00+00:00", 
-            "description": "League Championship Series ALCS Game Two", 
+            "description": "League Championship Series, ALCS", 
+            "eventTitle": "ALCS", 
+            "game": 2, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "2823"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, ALCS", 
             "playoffround": 3, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "ALCS Game Two", 
+            "title": "ALCS", 
             "vs": "New York Yankees vs. Boston Red Sox"
         }, 
         {
@@ -71697,19 +71779,22 @@
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "date": "1999-10-16T00:00:00+00:00", 
-            "description": "League Championship Series NLCS Game Three", 
+            "description": "League Championship Series, NLCS", 
+            "eventTitle": "NLCS", 
+            "game": 3, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "2817"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, NLCS", 
             "playoffround": 3, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "NLCS Game Three", 
+            "title": "NLCS", 
             "vs": "New York Mets vs. Atlanta Braves"
         }, 
         {
@@ -71723,19 +71808,22 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "1999-10-16T20:00:00+00:00", 
-            "description": "League Championship Series ALCS Game Three", 
+            "description": "League Championship Series, ALCS", 
+            "eventTitle": "ALCS", 
+            "game": 3, 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "2890"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, ALCS", 
             "playoffround": 3, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "ALCS Game Three", 
+            "title": "ALCS", 
             "vs": "Boston Red Sox vs. New York Yankees"
         }, 
         {
@@ -71749,19 +71837,22 @@
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "date": "1999-10-17T00:00:00+00:00", 
-            "description": "League Championship Series NLCS Game Four", 
+            "description": "League Championship Series, NLCS", 
+            "eventTitle": "NLCS", 
+            "game": 4, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "2819"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, NLCS", 
             "playoffround": 3, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "NLCS Game Four", 
+            "title": "NLCS", 
             "vs": "New York Mets vs. Atlanta Braves"
         }, 
         {
@@ -71775,7 +71866,8 @@
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "date": "1999-10-17T20:00:00+00:00", 
-            "description": "League Championship Series NLCS", 
+            "description": "League Championship Series, NLCS", 
+            "eventTitle": "NLCS", 
             "game": 5, 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
@@ -71783,6 +71875,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, NLCS", 
             "playoffround": 3, 
             "season": "1999", 
             "sport": "Baseball", 
@@ -71802,19 +71895,22 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "1999-10-17T23:50:00+00:00", 
-            "description": "League Championship Series ALCS Game Four", 
+            "description": "League Championship Series, ALCS", 
+            "eventTitle": "ALCS", 
+            "game": 4, 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "2891"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, ALCS", 
             "playoffround": 3, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "ALCS Game Four", 
+            "title": "ALCS", 
             "vs": "Boston Red Sox vs. New York Yankees"
         }, 
         {
@@ -71828,7 +71924,8 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "1999-10-19T00:17:00+00:00", 
-            "description": "League Championship Series ALCS", 
+            "description": "League Championship Series, ALCS", 
+            "eventTitle": "ALCS", 
             "game": 5, 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
@@ -71836,6 +71933,7 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, ALCS", 
             "playoffround": 3, 
             "season": "1999", 
             "sport": "Baseball", 
@@ -71855,19 +71953,22 @@
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "date": "1999-10-20T00:12:00+00:00", 
-            "description": "League Championship Series NLCS Game Six", 
+            "description": "League Championship Series, NLCS", 
+            "eventTitle": "NLCS", 
+            "game": 6, 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "MLBAPIID": "2894"
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "League Championship Series, NLCS", 
             "playoffround": 3, 
             "season": "1999", 
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "League Championship Series", 
-            "title": "NLCS Game Six", 
+            "title": "NLCS", 
             "vs": "Atlanta Braves vs. New York Mets"
         }, 
         {
@@ -71881,7 +71982,8 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "1999-10-24T00:05:00+00:00", 
-            "description": "World Series Game One", 
+            "eventTitle": "World Series", 
+            "game": 1, 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "MLBAPIID": "2895"
@@ -71893,7 +71995,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
-            "title": "World Series Game One", 
+            "title": "World Series", 
             "vs": "Atlanta Braves vs. New York Yankees"
         }, 
         {
@@ -71907,7 +72009,8 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "1999-10-25T00:05:00+00:00", 
-            "description": "World Series Game Two", 
+            "eventTitle": "World Series", 
+            "game": 2, 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "MLBAPIID": "2896"
@@ -71919,7 +72022,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
-            "title": "World Series Game Two", 
+            "title": "World Series", 
             "vs": "Atlanta Braves vs. New York Yankees"
         }, 
         {
@@ -71933,7 +72036,8 @@
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "date": "1999-10-27T00:20:00+00:00", 
-            "description": "World Series Game Three", 
+            "eventTitle": "World Series", 
+            "game": 3, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "2897"
@@ -71945,7 +72049,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
-            "title": "World Series Game Three", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. Atlanta Braves"
         }, 
         {
@@ -71959,7 +72063,8 @@
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "date": "1999-10-28T00:20:00+00:00", 
-            "description": "World Series Game Four", 
+            "eventTitle": "World Series", 
+            "game": 4, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "3043"
@@ -71971,7 +72076,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
-            "title": "World Series Game Four", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. Atlanta Braves"
         }
     ]

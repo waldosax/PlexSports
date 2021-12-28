@@ -1,11 +1,34 @@
 {
     "CacheContainer": {
         "CacheType": "NFL1977SCHEDULE", 
-        "CachedOn": "2021-12-23T18:57:29", 
-        "ExpiresOn": "2021-12-30T18:57:29", 
+        "CachedOn": "2021-12-24T04:11:09", 
+        "ExpiresOn": "2021-12-31T04:11:09", 
         "Version": "2"
     }, 
     "Items": [
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "b2c95ff2-0528-4d93-90c4-54a85e6e0a39", 
+            "date": "1977-07-30T00:00:00", 
+            "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
+            "homeTeam": "338584ec-a15e-454d-a91d-8268bd33329a", 
+            "identity": {
+                "WikipediaID": "NFL.1977.-1"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1977", 
+            "sport": "Football", 
+            "vs": "New York Jets vs. Chicago Bears"
+        }, 
         {
             "assets": {
                 "banner": [], 
@@ -4684,6 +4707,32 @@
             "subseason": 1, 
             "subseasonTitle": "Superbowl XII", 
             "vs": "Dallas Cowboys vs. Denver Broncos"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
+            "date": "1978-01-23T00:00:00", 
+            "description": "The 1978 Pro Bowl was the NFL's 28th annual all-star game which featured the outstanding performers from the 1977 season. The game was played on Monday, January 23, 1978, at Tampa Stadium in Tampa, Florida before a crowd of 50,716. The final score was NFC 14, AFC 13.", 
+            "eventTitle": "1978 NFL Pro Bowl", 
+            "eventindicator": 2, 
+            "homeTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
+            "identity": {
+                "WikipediaID": "NFL.1977.2"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "ABC"
+            ], 
+            "season": "1977", 
+            "sport": "Football", 
+            "vs": "NFC vs. AFC"
         }
     ]
 }

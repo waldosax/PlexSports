@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2012SCHEDULE", 
-        "CachedOn": "2021-12-23T19:02:25", 
-        "ExpiresOn": "2021-12-30T19:02:25", 
+        "CachedOn": "2021-12-24T04:14:49", 
+        "ExpiresOn": "2021-12-31T04:14:49", 
         "Version": "2"
     }, 
     "Items": [
@@ -20,9 +20,11 @@
             "date": "2012-08-06T00:00:00+00:00", 
             "description": "Drew Brees smoothly led a touchdown drive on his only series Sunday night, and the Saints beat the Arizona Cardinals 17-10 in the Hall of Fame game, officiated by a crew with college experience.", 
             "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
             "homeTeam": "4ba9c6f7-9a81-4617-a65b-bb412e1c0c2e", 
             "identity": {
-                "ESPNAPIID": "320805018"
+                "ESPNAPIID": "320805018", 
+                "WikipediaID": "NFL.2012.-1"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9101,15 +9103,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/4/4e/2013_Pro_Bowl_logo.jpg"
+                    }
+                ]
             }, 
             "awayTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
             "date": "2013-01-28T00:30:00+00:00", 
             "description": "Sack-happy defensive end J.J. Watt went out for a pass as a wide receiver, retiring center Jeff Saturday snapped to two Mannings on opposite teams and the NFC blew past the AFC 62-35 in a Pro Bowl that could be the could be the league's last.", 
-            "eventTitle": "Pro Bowl", 
+            "eventTitle": "2013 NFL Pro Bowl", 
+            "eventindicator": 2, 
             "homeTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
             "identity": {
-                "ESPNAPIID": "330127032"
+                "ESPNAPIID": "330127032", 
+                "WikipediaID": "NFL.2012.2"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9121,7 +9130,7 @@
             "vs": "NFC vs. AFC"
         }, 
         {
-            "altTitle": "SUPER BOWL XLVII", 
+            "altTitle": "SUPERBOWL XLVII", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 

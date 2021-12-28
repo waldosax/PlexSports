@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1941SCHEDULE", 
-        "CachedOn": "2021-12-23T18:13:17", 
-        "ExpiresOn": "2021-12-30T18:13:17", 
+        "CachedOn": "2021-12-27T16:16:45", 
+        "ExpiresOn": "2022-01-03T16:16:45", 
         "Version": "2"
     }, 
     "Items": [
@@ -11847,6 +11847,7 @@
             "vs": "AL All-Stars vs. NL All-Stars"
         }, 
         {
+            "altDescription": "th All-Star Game, at Briggs Stadium", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -11857,7 +11858,7 @@
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "1941-07-08T03:33:00+00:00", 
-            "description": "All-Star Game 9th All-Star Game, at Briggs Stadium", 
+            "description": "th All-Star Game, at Briggs Stadium", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "identity": {
@@ -11865,10 +11866,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "All-Star Game, th All-Star Game, at Briggs Stadium", 
             "season": "1941", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "9th All-Star Game, at Briggs Stadium", 
+            "title": "", 
             "vs": "American League All-Stars vs. National League All-Stars"
         }, 
         {
@@ -23261,7 +23263,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
-            "date": "1941-10-01T03:33:00+00:00", 
+            "date": "1941-10-01T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 1, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67433"
@@ -23273,6 +23277,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. Brooklyn Dodgers"
         }, 
         {
@@ -23285,7 +23290,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
-            "date": "1941-10-02T03:33:00+00:00", 
+            "date": "1941-10-02T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 2, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67434"
@@ -23297,6 +23304,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. Brooklyn Dodgers"
         }, 
         {
@@ -23309,7 +23317,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1941-10-04T03:33:00+00:00", 
+            "date": "1941-10-04T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 3, 
             "homeTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
             "identity": {
                 "MLBAPIID": "67435"
@@ -23321,6 +23331,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Brooklyn Dodgers vs. New York Yankees"
         }, 
         {
@@ -23333,7 +23344,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1941-10-05T03:33:00+00:00", 
+            "date": "1941-10-05T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 4, 
             "homeTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
             "identity": {
                 "MLBAPIID": "67436"
@@ -23345,6 +23358,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Brooklyn Dodgers vs. New York Yankees"
         }, 
         {
@@ -23357,7 +23371,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1941-10-06T03:33:00+00:00", 
+            "date": "1941-10-06T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 5, 
             "homeTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
             "identity": {
                 "MLBAPIID": "67437"
@@ -23369,6 +23385,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Brooklyn Dodgers vs. New York Yankees"
         }
     ]

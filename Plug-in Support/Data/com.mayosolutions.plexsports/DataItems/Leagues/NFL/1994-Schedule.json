@@ -1,11 +1,34 @@
 {
     "CacheContainer": {
         "CacheType": "NFL1994SCHEDULE", 
-        "CachedOn": "2021-12-23T18:58:44", 
-        "ExpiresOn": "2021-12-30T18:58:44", 
+        "CachedOn": "2021-12-24T04:12:02", 
+        "ExpiresOn": "2021-12-31T04:12:02", 
         "Version": "2"
     }, 
     "Items": [
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "56901a7a-58be-4222-a48f-d71a0aa30830", 
+            "date": "1994-07-30T00:00:00", 
+            "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
+            "homeTeam": "1ca0280b-fc4e-4db7-8fa9-1d58b177ccaa", 
+            "identity": {
+                "WikipediaID": "NFL.1994.-1"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1994", 
+            "sport": "Football", 
+            "vs": "Atlanta Falcons vs. San Diego Chargers"
+        }, 
         {
             "assets": {
                 "banner": [], 
@@ -5423,6 +5446,32 @@
             "subseason": 1, 
             "subseasonTitle": "Superbowl XXIX", 
             "vs": "San Francisco 49ers vs. San Diego Chargers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
+            "date": "1995-02-05T00:00:00", 
+            "description": "The 1995 Pro Bowl was the NFL's all-star game for the 1994 season. The game was played on February 5, 1995, at Aloha Stadium in Honolulu, Hawaii. The final Score was AFC 41, NFC 13. This was the AFC's largest margin of victory since the AFL-NFL merger. Rookie Marshall Faulk of the Indianapolis Colts rushed for a Pro Bowl record 180 yards and was the game's MVP. Chris Warren of the Seattle Seahawks added 127 yards rushing as the AFC posted records for rushing yards (400) and total yards (552). Both Warren and Faulk broke the Pro Bowl rushing record, formerly held by O. J. Simpson.", 
+            "eventTitle": "1995 NFL Pro Bowl", 
+            "eventindicator": 2, 
+            "homeTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
+            "identity": {
+                "WikipediaID": "NFL.1994.2"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "ABC"
+            ], 
+            "season": "1994", 
+            "sport": "Football", 
+            "vs": "NFC vs. AFC"
         }
     ]
 }

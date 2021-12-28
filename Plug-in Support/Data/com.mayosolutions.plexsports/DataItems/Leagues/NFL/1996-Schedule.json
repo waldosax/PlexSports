@@ -1,11 +1,34 @@
 {
     "CacheContainer": {
         "CacheType": "NFL1996SCHEDULE", 
-        "CachedOn": "2021-12-23T18:58:55", 
-        "ExpiresOn": "2021-12-30T18:58:55", 
+        "CachedOn": "2021-12-24T04:12:09", 
+        "ExpiresOn": "2021-12-31T04:12:09", 
         "Version": "2"
     }, 
     "Items": [
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "7052c633-a550-4b53-8eab-cec3fb522490", 
+            "date": "1996-07-27T00:00:00", 
+            "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
+            "homeTeam": "4ba9c6f7-9a81-4617-a65b-bb412e1c0c2e", 
+            "identity": {
+                "WikipediaID": "NFL.1996.-1"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1996", 
+            "sport": "Football", 
+            "vs": "New Orleans Saints vs. Indianapolis Colts"
+        }, 
         {
             "assets": {
                 "banner": [], 
@@ -5791,6 +5814,37 @@
             "subseason": 1, 
             "subseasonTitle": "Superbowl XXXI", 
             "vs": "Green Bay Packers vs. New England Patriots"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/1997_Pro_Bowl_logo.gif"
+                    }
+                ]
+            }, 
+            "awayTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
+            "date": "1997-02-02T00:00:00", 
+            "description": "The 1997 Pro Bowl was the NFL's all-star game for the 1996 season. The game was played on February 2, 1997, at Aloha Stadium in Honolulu, Hawaii. The final score was AFC 26, NFC 23. Mark Brunell of the Jacksonville Jaguars was the game's MVP. In the game, Brunell threw for 236 yards. He connected with the Oakland Raiders Tim Brown for an 80-yard touchdown to tie the game at 23 with only 44 seconds to go.", 
+            "eventTitle": "1997 NFL Pro Bowl", 
+            "eventindicator": 2, 
+            "homeTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
+            "identity": {
+                "WikipediaID": "NFL.1996.2"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "ABC"
+            ], 
+            "season": "1996", 
+            "sport": "Football", 
+            "vs": "NFC vs. AFC"
         }
     ]
 }

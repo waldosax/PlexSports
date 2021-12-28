@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1942SCHEDULE", 
-        "CachedOn": "2021-12-23T18:13:23", 
-        "ExpiresOn": "2021-12-30T18:13:23", 
+        "CachedOn": "2021-12-27T16:16:54", 
+        "ExpiresOn": "2022-01-03T16:16:54", 
         "Version": "2"
     }, 
     "Items": [
@@ -11442,6 +11442,7 @@
             "vs": "Washington Senators vs. Boston Red Sox"
         }, 
         {
+            "altDescription": "th All-Star Game, at Polo Grounds", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -11452,8 +11453,8 @@
             }, 
             "awayTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "date": "1942-07-07T00:05:00+00:00", 
-            "description": "The umpires changed assignments in the middle of the fifth inning \u2013 Ballanfant and McGowan swapped positions, also Stewart and Barlick swapped positions.", 
-            "eventTitle": "All-Star Game 10th All-Star Game, at Polo Grounds - 1942 Major League Baseball All-Star Game", 
+            "description": "The umpires changed assignments in the middle of the fifth inning \u2013 Ballanfant and McGowan swapped positions, also Stewart and Barlick swapped positions., th All-Star Game, at Polo Grounds", 
+            "eventTitle": "1942 Major League Baseball All-Star Game", 
             "eventindicator": 2, 
             "homeTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "identity": {
@@ -11462,10 +11463,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "1942 Major League Baseball All-Star Game, All-Star Game, 1, th All-Star Game, at Polo Grounds", 
             "season": "1942", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "10th All-Star Game, at Polo Grounds", 
+            "title": "1", 
             "vs": "National League All-Stars vs. American League All-Stars"
         }, 
         {
@@ -21807,7 +21809,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1942-09-30T03:33:00+00:00", 
+            "date": "1942-09-30T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 1, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "67438"
@@ -21819,6 +21823,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "St. Louis Cardinals vs. New York Yankees"
         }, 
         {
@@ -21831,7 +21836,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1942-10-01T03:33:00+00:00", 
+            "date": "1942-10-01T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 2, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "67439"
@@ -21843,6 +21850,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "St. Louis Cardinals vs. New York Yankees"
         }, 
         {
@@ -21855,7 +21863,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1942-10-03T03:33:00+00:00", 
+            "date": "1942-10-03T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 3, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67440"
@@ -21867,6 +21877,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. St. Louis Cardinals"
         }, 
         {
@@ -21879,7 +21890,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1942-10-04T03:33:00+00:00", 
+            "date": "1942-10-04T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 4, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67441"
@@ -21891,6 +21904,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. St. Louis Cardinals"
         }, 
         {
@@ -21903,7 +21917,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1942-10-05T03:33:00+00:00", 
+            "date": "1942-10-05T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 5, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67442"
@@ -21915,6 +21931,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. St. Louis Cardinals"
         }
     ]

@@ -36,7 +36,8 @@ class ScheduleEvent:
 		self.title = deunicode(kwargs.get("title"))
 		self.altTitle = deunicode(kwargs.get("altTitle"))
 		self.description = kwargs.get("description")
-		self.altDescription = deunicode(kwargs.get("altDescription"))
+		self.altDescription = kwargs.get("altDescription")
+		self.notes = deunicode(kwargs.get("notes"))
 		self.networks = []
 		if kwargs.get("networks"):
 			self.networks = list(set(self.networks + kwargs["networks"]))
@@ -97,6 +98,7 @@ class ScheduleEvent:
 		if not self.altTitle: self.altTitle = deunicode(kwargs.get("altTitle"))
 		if not self.description: self.description = deunicode(kwargs.get("description"))
 		if not self.altDescription: self.altDescription = deunicode(kwargs.get("altDescription"))
+		if not self.notes: self.notes = deunicode(kwargs.get("notes"))
 		if kwargs.get("networks"): self.networks = list(set(self.networks + kwargs["networks"]))
 		if kwargs.get("network"): self.networks = list(set(self.networks + splitAndTrim(deunicode(kwargs["network"]))))
 		

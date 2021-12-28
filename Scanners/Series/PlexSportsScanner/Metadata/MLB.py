@@ -44,7 +44,10 @@ mlb_playoff_round_expressions = [
 	(__expressions_from_literal("%s Wildcard Round" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
 	(__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_AL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
 	(__expressions_from_literal("%s Wildcard Series" % MLB_LEAGUE_NL) + __expressions_from_literal("%s Wildcard" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
-
+	
+	(__expressions_from_literal("%sWC" % MLB_LEAGUE_AL), MLB_LEAGUE_AL, MLB_PLAYOFF_ROUND_WILDCARD),
+	(__expressions_from_literal("%sWC" % MLB_LEAGUE_NL), MLB_LEAGUE_NL, MLB_PLAYOFF_ROUND_WILDCARD),
+	
 	(__expressions_from_literal("Wild card Round") +__expressions_from_literal("Wild card Series") + __expressions_from_literal("Wild card"), None, MLB_PLAYOFF_ROUND_WILDCARD),
 	(__expressions_from_literal("Wildcard Round") +__expressions_from_literal("Wildcard Series") + __expressions_from_literal("Wildcard"), None, MLB_PLAYOFF_ROUND_WILDCARD),
 

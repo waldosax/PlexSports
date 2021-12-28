@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1943SCHEDULE", 
-        "CachedOn": "2021-12-23T18:13:29", 
-        "ExpiresOn": "2021-12-30T18:13:29", 
+        "CachedOn": "2021-12-27T16:17:02", 
+        "ExpiresOn": "2022-01-03T16:17:02", 
         "Version": "2"
     }, 
     "Items": [
@@ -10480,6 +10480,7 @@
             "vs": "St. Louis Browns vs. Boston Red Sox"
         }, 
         {
+            "altDescription": "Star Game, at Shibe Park", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -10490,8 +10491,8 @@
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "1943-07-14T00:05:00+00:00", 
-            "description": "The 1943 Major League Baseball All-Star Game was the 11th playing of the midsummer classic between the all-stars of the American League (AL) and National League (NL), the two leagues comprising Major League Baseball. The game was held on July 13, 1943, at Shibe Park in Philadelphia, the home of the Philadelphia Athletics of the American League. The game resulted in the American League defeating the National League 5\u20133.", 
-            "eventTitle": "All-Star Game 11th All-Star Game, at Shibe Park - 1943 Major League Baseball All-Star Game", 
+            "description": "The 1943 Major League Baseball All-Star Game was the 11th playing of the midsummer classic between the all-stars of the American League (AL) and National League (NL), the two leagues comprising Major League Baseball. The game was held on July 13, 1943, at Shibe Park in Philadelphia, the home of the Philadelphia Athletics of the American League. The game resulted in the American League defeating the National League 5\u20133., Star Game, at Shibe Park", 
+            "eventTitle": "1943 Major League Baseball All-Star Game", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "identity": {
@@ -10500,10 +10501,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "1943 Major League Baseball All-Star Game, All-Star Game, 11th All, Star Game, at Shibe Park", 
             "season": "1943", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "11th All-Star Game, at Shibe Park", 
+            "title": "11th All", 
             "vs": "American League All-Stars vs. National League All-Stars"
         }, 
         {
@@ -21026,7 +21028,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1943-10-05T03:33:00+00:00", 
+            "date": "1943-10-05T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 1, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67443"
@@ -21038,6 +21042,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. St. Louis Cardinals"
         }, 
         {
@@ -21050,7 +21055,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1943-10-06T03:33:00+00:00", 
+            "date": "1943-10-06T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 2, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67444"
@@ -21062,6 +21069,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. St. Louis Cardinals"
         }, 
         {
@@ -21074,7 +21082,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1943-10-07T03:33:00+00:00", 
+            "date": "1943-10-07T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 3, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67445"
@@ -21086,6 +21096,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. St. Louis Cardinals"
         }, 
         {
@@ -21098,7 +21109,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1943-10-10T03:33:00+00:00", 
+            "date": "1943-10-10T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 4, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "67446"
@@ -21110,6 +21123,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "St. Louis Cardinals vs. New York Yankees"
         }, 
         {
@@ -21122,7 +21136,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1943-10-11T03:33:00+00:00", 
+            "date": "1943-10-11T07:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 5, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "67447"
@@ -21134,6 +21150,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "St. Louis Cardinals vs. New York Yankees"
         }
     ]

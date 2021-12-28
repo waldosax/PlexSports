@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2005SCHEDULE", 
-        "CachedOn": "2021-12-23T19:00:42", 
-        "ExpiresOn": "2021-12-30T19:00:42", 
+        "CachedOn": "2021-12-24T04:13:30", 
+        "ExpiresOn": "2021-12-31T04:13:30", 
         "Version": "2"
     }, 
     "Items": [
@@ -44,9 +44,11 @@
             "date": "2005-08-09T00:00:00+00:00", 
             "description": "Ricky Williams' return to the NFL wasn't a stellar one, but Bears rookie Kyle Orton turned heads with a stellar debut.", 
             "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
             "homeTeam": "27720d60-5672-4894-81bd-80669b048ce6", 
             "identity": {
-                "ESPNAPIID": "250808015"
+                "ESPNAPIID": "250808015", 
+                "WikipediaID": "NFL.2005.-1"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -8552,7 +8554,7 @@
             "vs": "Seattle Seahawks vs. Carolina Panthers"
         }, 
         {
-            "altTitle": "SUPER BOWL", 
+            "altTitle": "SUPERBOWL", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -8564,7 +8566,6 @@
             "awayTeam": "d888db18-fc7c-4996-8f5e-51bbeb51346e", 
             "date": "2006-02-05T23:30:00+00:00", 
             "description": "Super Bowl XL was an American football game between the National Football Conference (NFC) champion Seattle Seahawks and the American Football Conference (AFC) champion Pittsburgh Steelers to decide the National Football League (NFL) champion for the 2005 season. The Steelers defeated the Seahawks by the score of 21\u201310. The game was played on February 5, 2006, at Ford Field in Detroit, Michigan. It is currently the last Super Bowl broadcast on ABC and the first where all aspects of the game itself were aired in HD.\r\n\r\nWith the win, the Steelers tied the San Francisco 49ers and the Dallas Cowboys with the then-record five Super Bowls. The Steelers' victory was their first Super Bowl victory since Super Bowl XIV. Pittsburgh, who finished the regular season with an 11\u20135 record, also became the fourth wild card team, the third in nine years, and the first ever number 6 seed in the NFL playoffs, to win a Super Bowl. The Seahawks, on the other hand, in their 30th season, were making their first ever Super Bowl appearance after posting an NFC-best 13\u20133 regular season record.\r\n\r\nPittsburgh capitalized on two big plays that were converted into touchdowns. The Steelers jumped to a 14\u20133 lead early in the third quarter with running back Willie Parker's Super Bowl record 75-yard touchdown run. Seahawks defensive back Kelly Herndon's Super Bowl record 76-yard interception return set up a Seattle touchdown to cut the lead 14\u201310. But Pittsburgh responded with Antwaan Randle El's 43-yard touchdown pass to Hines Ward, the first time a wide receiver threw a touchdown pass in a Super Bowl, to clinch the game in the fourth quarter. Ward, who caught 5 passes for 123 yards and a touchdown, while also rushing for 18 yards, was named Super Bowl MVP.\r\n\r\nThe officiating in Super Bowl XL was met with criticism from members of the media soon after the game, leading NFL Films to rank it as one of the top ten controversial calls of all time.", 
-            "eventTitle": "Super Bowl - Superbowl XL", 
             "eventindicator": 1, 
             "homeTeam": "139ac55b-2299-4632-b50c-b82660196eff", 
             "identity": {
@@ -8589,15 +8590,22 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/5/58"
+                    }
+                ]
             }, 
             "awayTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
             "date": "2006-02-12T23:00:00+00:00", 
             "description": "Derrick Brooks returned an interception 59 yards for a touchdown, the AFC committed six of the Pro Bowl's 10 turnovers, and the NFC rallied for a sloppy 23-17 victory Sunday in a game that didn't turn out to be the offensive show most expected.", 
-            "eventTitle": "Pro Bowl", 
+            "eventTitle": "2006 NFL Pro Bowl", 
+            "eventindicator": 2, 
             "homeTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
             "identity": {
-                "ESPNAPIID": "260212032"
+                "ESPNAPIID": "260212032", 
+                "WikipediaID": "NFL.2005.2"
             }, 
             "league": "NFL", 
             "networks": [

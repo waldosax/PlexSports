@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2008SCHEDULE", 
-        "CachedOn": "2021-12-23T19:01:27", 
-        "ExpiresOn": "2021-12-30T19:01:27", 
+        "CachedOn": "2021-12-24T04:14:03", 
+        "ExpiresOn": "2021-12-31T04:14:03", 
         "Version": "2"
     }, 
     "Items": [
@@ -20,9 +20,11 @@
             "date": "2008-08-04T00:00:00+00:00", 
             "description": "Washington's Colt Brennan threw two touchdown passes in the second half, and Matterral Richardson returned an interception 38 yards for a touchdown to rally the Redskins for a 30-16 victory in Sunday's Hall of Fame Game.", 
             "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
             "homeTeam": "68c43b1e-6b93-4503-be86-57fceeca5a21", 
             "identity": {
-                "ESPNAPIID": "280803028"
+                "ESPNAPIID": "280803028", 
+                "WikipediaID": "NFL.2008.-1"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9204,7 +9206,7 @@
             "vs": "Pittsburgh Steelers vs. Baltimore Ravens"
         }, 
         {
-            "altTitle": "SUPER BOWL XLIII", 
+            "altTitle": "SUPERBOWL XLIII", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -9242,18 +9244,27 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/d/db/2009_Pro_Bowl_logo.svg"
+                    }
+                ]
             }, 
             "awayTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
             "date": "2009-02-08T21:30:00+00:00", 
             "description": "Larry Fitzgerald caught five passes for 81 yards and two touchdowns, 44-year-old John Carney kicked two fourth-quarter field goals, and the NFC rallied to a 30-21 victory over the AFC.", 
-            "eventTitle": "Pro Bowl", 
+            "eventTitle": "2009 NFL Pro Bowl", 
+            "eventindicator": 2, 
             "homeTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
             "identity": {
-                "ESPNAPIID": "290208031"
+                "ESPNAPIID": "290208031", 
+                "WikipediaID": "NFL.2008.2"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "NBC"
+            ], 
             "season": "2008", 
             "sport": "Football", 
             "subseason": 1, 

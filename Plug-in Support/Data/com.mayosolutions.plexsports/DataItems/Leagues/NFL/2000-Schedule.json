@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2000SCHEDULE", 
-        "CachedOn": "2021-12-23T18:59:29", 
-        "ExpiresOn": "2021-12-30T18:59:29", 
+        "CachedOn": "2021-12-24T04:12:34", 
+        "ExpiresOn": "2021-12-31T04:12:34", 
         "Version": "2"
     }, 
     "Items": [
@@ -105,9 +105,12 @@
             }, 
             "awayTeam": "11368151-3316-40fa-bb2d-cbf196b2c750", 
             "date": "2000-07-31T23:00:00+00:00", 
+            "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
             "homeTeam": "a1875c99-53ba-4056-ba03-1db817d486da", 
             "identity": {
-                "ESPNAPIID": "200731025"
+                "ESPNAPIID": "200731025", 
+                "WikipediaID": "NFL.2000.-1"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -2366,53 +2369,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "56901a7a-58be-4222-a48f-d71a0aa30830", 
-            "date": "2000-09-17T17:00:00+00:00", 
-            "homeTeam": "fde27089-5434-4242-9554-f0e503eee399", 
-            "identity": {
-                "ESPNAPIID": "200917012", 
-                "TheSportsDBID": "492621"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Kansas City Chiefs vs. San Diego Chargers", 
-            "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "56901a7a-58be-4222-a48f-d71a0aa30830", 
-            "date": "2000-09-17T20:05:00+00:00", 
-            "homeTeam": "fde27089-5434-4242-9554-f0e503eee399", 
-            "identity": {
-                "ProFootballReferenceID": "200009170kan"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "2000", 
-            "sport": "Football", 
-            "subseason": 0, 
-            "vs": "Kansas City Chiefs vs. San Diego Chargers", 
-            "week": 3
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "0b5e7299-4350-41fa-995c-3b6242f2111c", 
             "date": "2000-09-17T17:00:00+00:00", 
             "homeTeam": "338584ec-a15e-454d-a91d-8268bd33329a", 
@@ -2452,6 +2408,53 @@
             "sport": "Football", 
             "subseason": 0, 
             "vs": "St. Louis Rams vs. San Francisco 49ers", 
+            "week": 3
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "56901a7a-58be-4222-a48f-d71a0aa30830", 
+            "date": "2000-09-17T17:00:00+00:00", 
+            "homeTeam": "fde27089-5434-4242-9554-f0e503eee399", 
+            "identity": {
+                "ESPNAPIID": "200917012", 
+                "TheSportsDBID": "492621"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Kansas City Chiefs vs. San Diego Chargers", 
+            "week": 3
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "56901a7a-58be-4222-a48f-d71a0aa30830", 
+            "date": "2000-09-17T20:05:00+00:00", 
+            "homeTeam": "fde27089-5434-4242-9554-f0e503eee399", 
+            "identity": {
+                "ProFootballReferenceID": "200009170kan"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "2000", 
+            "sport": "Football", 
+            "subseason": 0, 
+            "vs": "Kansas City Chiefs vs. San Diego Chargers", 
             "week": 3
         }, 
         {
@@ -8014,6 +8017,37 @@
             "subseason": 1, 
             "subseasonTitle": "Superbowl XXXV", 
             "vs": "New York Giants vs. Baltimore Ravens"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/2/21/2001_Pro_Bowl_logo.gif"
+                    }
+                ]
+            }, 
+            "awayTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
+            "date": "2001-02-04T00:00:00", 
+            "description": "The 2001 Pro Bowl was the NFL's all-star game for the 2000 season. The game was played on February 4, 2001, at Aloha Stadium in Honolulu, Hawaii. The final score was AFC 38, NFC 17. Rich Gannon of the Oakland Raiders was the game's MVP.", 
+            "eventTitle": "2001 NFL Pro Bowl", 
+            "eventindicator": 2, 
+            "homeTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
+            "identity": {
+                "WikipediaID": "NFL.2000.2"
+            }, 
+            "league": "NFL", 
+            "networks": [
+                "ABC"
+            ], 
+            "season": "2000", 
+            "sport": "Football", 
+            "vs": "AFC vs. NFC"
         }
     ]
 }

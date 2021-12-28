@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1946SCHEDULE", 
-        "CachedOn": "2021-12-23T18:13:47", 
-        "ExpiresOn": "2021-12-30T18:13:47", 
+        "CachedOn": "2021-12-27T16:17:24", 
+        "ExpiresOn": "2022-01-03T16:17:24", 
         "Version": "2"
     }, 
     "Items": [
@@ -11091,6 +11091,7 @@
             "vs": "AL All-Stars vs. NL All-Stars"
         }, 
         {
+            "altDescription": "Star Game, at Fenway Park", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -11101,7 +11102,8 @@
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "1946-07-09T03:33:00+00:00", 
-            "description": "All-Star Game 13th All-Star Game, at Fenway Park", 
+            "description": "Star Game, at Fenway Park", 
+            "eventTitle": "All-star Game 13th All", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "identity": {
@@ -11109,10 +11111,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "All-Star Game, 13th All, Star Game, at Fenway Park", 
             "season": "1946", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "13th All-Star Game, at Fenway Park", 
+            "title": "13th All", 
             "vs": "American League All-Stars vs. National League All-Stars"
         }, 
         {
@@ -22692,7 +22695,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "1946-10-06T03:33:00+00:00", 
+            "date": "1946-10-06T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 1, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "67461"
@@ -22704,6 +22709,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "St. Louis Cardinals vs. Boston Red Sox"
         }, 
         {
@@ -22716,7 +22722,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "1946-10-07T03:33:00+00:00", 
+            "date": "1946-10-07T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 2, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "67462"
@@ -22728,6 +22736,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "St. Louis Cardinals vs. Boston Red Sox"
         }, 
         {
@@ -22740,7 +22749,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1946-10-09T03:33:00+00:00", 
+            "date": "1946-10-09T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 3, 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "67463"
@@ -22752,6 +22763,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Boston Red Sox vs. St. Louis Cardinals"
         }, 
         {
@@ -22764,7 +22776,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1946-10-10T03:33:00+00:00", 
+            "date": "1946-10-10T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 4, 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "67464"
@@ -22776,6 +22790,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Boston Red Sox vs. St. Louis Cardinals"
         }, 
         {
@@ -22788,7 +22803,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1946-10-11T03:33:00+00:00", 
+            "date": "1946-10-11T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 5, 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "67465"
@@ -22800,9 +22817,11 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Boston Red Sox vs. St. Louis Cardinals"
         }, 
         {
+            "altDescription": "", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -22812,7 +22831,8 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "1946-10-13T03:33:00+00:00", 
+            "date": "1946-10-13T08:33:00+00:00", 
+            "eventTitle": "World Series Game", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "67466"
@@ -22824,6 +22844,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series Game", 
             "vs": "St. Louis Cardinals vs. Boston Red Sox"
         }, 
         {
@@ -22836,7 +22857,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "1946-10-15T03:33:00+00:00", 
+            "date": "1946-10-15T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 7, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "67467"
@@ -22848,6 +22871,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "St. Louis Cardinals vs. Boston Red Sox"
         }
     ]

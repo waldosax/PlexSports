@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1950SCHEDULE", 
-        "CachedOn": "2021-12-23T18:14:17", 
-        "ExpiresOn": "2021-12-30T18:14:17", 
+        "CachedOn": "2021-12-27T16:17:54", 
+        "ExpiresOn": "2022-01-03T16:17:54", 
         "Version": "2"
     }, 
     "Items": [
@@ -11431,6 +11431,7 @@
             "vs": "AL All-Stars vs. NL All-Stars"
         }, 
         {
+            "altDescription": "Star Game, at Comiskey Park", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -11441,7 +11442,8 @@
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "1950-07-11T03:33:00+00:00", 
-            "description": "All-Star Game 17th All-Star Game, at Comiskey Park", 
+            "description": "Star Game, at Comiskey Park", 
+            "eventTitle": "All-star Game 17th All", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "identity": {
@@ -11449,10 +11451,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "All-Star Game, 17th All, Star Game, at Comiskey Park", 
             "season": "1950", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "17th All-Star Game, at Comiskey Park", 
+            "title": "17th All", 
             "vs": "American League All-Stars vs. National League All-Stars"
         }, 
         {
@@ -23127,7 +23130,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1950-10-04T03:33:00+00:00", 
+            "date": "1950-10-04T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 1, 
             "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "identity": {
                 "MLBAPIID": "67486"
@@ -23139,6 +23144,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Philadelphia Phillies vs. New York Yankees"
         }, 
         {
@@ -23151,7 +23157,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1950-10-05T03:33:00+00:00", 
+            "date": "1950-10-05T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 2, 
             "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "identity": {
                 "MLBAPIID": "67487"
@@ -23163,6 +23171,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Philadelphia Phillies vs. New York Yankees"
         }, 
         {
@@ -23175,7 +23184,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "date": "1950-10-06T03:33:00+00:00", 
+            "date": "1950-10-06T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 3, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67488"
@@ -23187,6 +23198,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. Philadelphia Phillies"
         }, 
         {
@@ -23199,7 +23211,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "date": "1950-10-07T03:33:00+00:00", 
+            "date": "1950-10-07T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 4, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67489"
@@ -23211,6 +23225,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. Philadelphia Phillies"
         }
     ]

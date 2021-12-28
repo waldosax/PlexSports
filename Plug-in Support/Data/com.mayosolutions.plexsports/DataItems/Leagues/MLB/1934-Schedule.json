@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1934SCHEDULE", 
-        "CachedOn": "2021-12-23T18:12:29", 
-        "ExpiresOn": "2021-12-30T18:12:29", 
+        "CachedOn": "2021-12-27T16:15:48", 
+        "ExpiresOn": "2022-01-03T16:15:48", 
         "Version": "2"
     }, 
     "Items": [
@@ -12015,6 +12015,7 @@
             "vs": "NL All-Stars vs. AL All-Stars"
         }, 
         {
+            "altDescription": "Star Game, at Polo Grounds", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -12025,7 +12026,8 @@
             }, 
             "awayTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "date": "1934-07-10T03:33:00+00:00", 
-            "description": "All-Star Game 2nd All-Star Game, at Polo Grounds", 
+            "description": "Star Game, at Polo Grounds", 
+            "eventTitle": "All-star Game 2nd All", 
             "eventindicator": 2, 
             "homeTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "identity": {
@@ -12033,10 +12035,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
+            "notes": "All-Star Game, 2nd All, Star Game, at Polo Grounds", 
             "season": "1934", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "2nd All-Star Game, at Polo Grounds", 
+            "title": "2nd All", 
             "vs": "National League All-Stars vs. American League All-Stars"
         }, 
         {
@@ -22897,7 +22900,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1934-10-03T03:33:00+00:00", 
+            "date": "1934-10-03T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 1, 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "67394"
@@ -22909,6 +22914,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Detroit Tigers vs. St. Louis Cardinals"
         }, 
         {
@@ -22921,7 +22927,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1934-10-04T03:33:00+00:00", 
+            "date": "1934-10-04T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 2, 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "67395"
@@ -22933,6 +22941,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Detroit Tigers vs. St. Louis Cardinals"
         }, 
         {
@@ -22945,7 +22954,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1934-10-05T03:33:00+00:00", 
+            "date": "1934-10-05T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 3, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "67396"
@@ -22957,6 +22968,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "St. Louis Cardinals vs. Detroit Tigers"
         }, 
         {
@@ -22969,7 +22981,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1934-10-06T03:33:00+00:00", 
+            "date": "1934-10-06T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 4, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "67397"
@@ -22981,6 +22995,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "St. Louis Cardinals vs. Detroit Tigers"
         }, 
         {
@@ -22993,7 +23008,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1934-10-07T03:33:00+00:00", 
+            "date": "1934-10-07T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 5, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "67398"
@@ -23005,9 +23022,11 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "St. Louis Cardinals vs. Detroit Tigers"
         }, 
         {
+            "altDescription": "", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -23017,7 +23036,8 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1934-10-08T03:33:00+00:00", 
+            "date": "1934-10-08T08:33:00+00:00", 
+            "eventTitle": "World Series Game", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "67399"
@@ -23029,6 +23049,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series Game", 
             "vs": "Detroit Tigers vs. St. Louis Cardinals"
         }, 
         {
@@ -23041,7 +23062,9 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1934-10-09T03:33:00+00:00", 
+            "date": "1934-10-09T08:33:00+00:00", 
+            "eventTitle": "World Series", 
+            "game": 7, 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "67400"
@@ -23053,6 +23076,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
+            "title": "World Series", 
             "vs": "Detroit Tigers vs. St. Louis Cardinals"
         }
     ]

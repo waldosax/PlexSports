@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2007SCHEDULE", 
-        "CachedOn": "2021-12-23T19:01:13", 
-        "ExpiresOn": "2021-12-30T19:01:13", 
+        "CachedOn": "2021-12-24T04:13:52", 
+        "ExpiresOn": "2021-12-31T04:13:52", 
         "Version": "2"
     }, 
     "Items": [
@@ -19,9 +19,11 @@
             "awayTeam": "4ba9c6f7-9a81-4617-a65b-bb412e1c0c2e", 
             "date": "2007-08-06T00:00:00+00:00", 
             "description": "Hall of Fame Game", 
+            "eventindicator": -1, 
             "homeTeam": "139ac55b-2299-4632-b50c-b82660196eff", 
             "identity": {
-                "ESPNAPIID": "270805023"
+                "ESPNAPIID": "270805023", 
+                "WikipediaID": "NFL.2007.-1"
             }, 
             "league": "NFL", 
             "networks": [
@@ -9055,7 +9057,7 @@
             "vs": "Green Bay Packers vs. New York Giants"
         }, 
         {
-            "altTitle": "Super Bowl XLII", 
+            "altTitle": "SUPERBOWL XLII", 
             "assets": {
                 "banner": [], 
                 "fanArt": [
@@ -9108,18 +9110,26 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/c/c7/2008_Pro_Bowl.png"
+                    }
+                ]
             }, 
             "awayTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
             "date": "2008-02-10T21:30:00+00:00", 
             "description": "Terrell Owens caught two touchdowns passes, including a 6-yarder from Tampa Bay's Jeff Garcia for the winning points in the NFC's comeback 42-30 victory over the AFC on Sunday.", 
-            "eventTitle": "Pro Bowl", 
+            "eventTitle": "2008 NFL Pro Bowl", 
+            "eventindicator": 2, 
             "homeTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
             "identity": {
-                "ESPNAPIID": "280210032"
+                "ESPNAPIID": "280210032", 
+                "WikipediaID": "NFL.2007.2"
             }, 
             "league": "NFL", 
             "networks": [
+                "Fox", 
                 "FOX"
             ], 
             "season": "2007", 

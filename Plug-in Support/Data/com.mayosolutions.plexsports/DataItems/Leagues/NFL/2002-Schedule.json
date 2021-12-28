@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL2002SCHEDULE", 
-        "CachedOn": "2021-12-23T18:59:58", 
-        "ExpiresOn": "2021-12-30T18:59:58", 
+        "CachedOn": "2021-12-24T04:12:56", 
+        "ExpiresOn": "2021-12-31T04:12:56", 
         "Version": "2"
     }, 
     "Items": [
@@ -39,9 +39,12 @@
             }, 
             "awayTeam": "f0faa55b-7d58-466e-914d-02e539b4d344", 
             "date": "2002-08-06T00:00:00+00:00", 
+            "eventTitle": "Hall of Fame Game", 
+            "eventindicator": -1, 
             "homeTeam": "4996703b-535c-4e1e-8fc8-cb3a6958215f", 
             "identity": {
-                "ESPNAPIID": "220805019"
+                "ESPNAPIID": "220805019", 
+                "WikipediaID": "NFL.2002.-1"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -8924,16 +8927,27 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "wikipedia", 
+                        "url": "https://upload.wikimedia.org/wikipedia/en/4/49/2003_Pro_Bowl.svg"
+                    }
+                ]
             }, 
             "awayTeam": "022d6111-18f6-4eb5-b0da-375183830d55", 
             "date": "2003-02-02T22:30:00+00:00", 
+            "description": "The 2003 Pro Bowl was the NFL's all-star game for the 2002 season. The game was played on February 2, 2003, at Aloha Stadium in Honolulu, Hawaii. The final Score was AFC 45, NFC 20. Ricky Williams of the Miami Dolphins was the game's MVP.", 
+            "eventTitle": "2003 NFL Pro Bowl", 
+            "eventindicator": 2, 
             "homeTeam": "7228be8c-38ba-424b-95b8-9fc9cf8596f3", 
             "identity": {
-                "ESPNAPIID": "230202031"
+                "ESPNAPIID": "230202031", 
+                "WikipediaID": "NFL.2002.2"
             }, 
             "league": "NFL", 
-            "networks": [], 
+            "networks": [
+                "ABC"
+            ], 
             "season": "2002", 
             "sport": "Football", 
             "subseason": 1, 
