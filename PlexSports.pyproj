@@ -57,6 +57,9 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NHL\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\PathUtils.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\PlugInSupport.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\ScoresAndStatsDownloader.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\SportsDataIODownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\TheSportsDBDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\UserAgent.py" />
@@ -84,6 +87,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ScheduleEvent.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ScoresAndStatsSupplement\RecapProcessor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ScoresAndStatsSupplement\ScheduleAdapter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ScoresAndStatsSupplement\Scraper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ScoresAndStatsSupplement\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\SportsDataIOScheduleAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\TheSportsDBScheduleAdapter.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\TitleManicurist.py">
@@ -210,6 +225,7 @@
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NBA\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NHL\" />
+    <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ScoresAndStatsSupplement\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\NBA\" />
     <Folder Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\WikipediaSupplement\MLB\" />

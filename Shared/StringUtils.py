@@ -70,12 +70,12 @@ def converTextToInt(textnum, numwords={}):
 
 
 
-def splitAndTrim(s, delimiter=",", removeEmptyEntries=True):
+def splitAndTrim(s, separator=",", maxsplit=-1, removeEmptyEntries=True):
 	"""Splits a string into a list, each value having been stripped of leading and trailing whitespace."""
 	if s == None: return None
 	values = []
 	if not s: return values
-	for x in s.split(delimiter):
+	for x in s.split(separator, maxsplit):
 		y = x.strip()
 		if y or y == "" and not removeEmptyEntries:
 			values.append(y)

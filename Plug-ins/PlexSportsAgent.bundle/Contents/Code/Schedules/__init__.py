@@ -21,6 +21,7 @@ import NBAAPIScheduleAdapter
 import NHLAPIScheduleAdapter
 import ESPNAPIScheduleAdapter
 import WikipediaSupplement
+import ScoresAndStatsSupplement
 import TitleManicurist
 
 from ScheduleEvent import *
@@ -293,7 +294,12 @@ def __download_all_schedule_data(sport, league, season):
 	
 	SportsDataIOScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
 
+
 	WikipediaSupplement.Adapt(sched, navigator, sport, league, season)
+
+	#ScoresAndStatsSupplement.Adapt(sched, navigator, sport, league, season)
+
+
 
 	for daysEvents in sched.values():
 		for event in daysEvents.values():

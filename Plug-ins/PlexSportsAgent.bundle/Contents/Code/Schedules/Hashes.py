@@ -346,7 +346,7 @@ def sched_compute_augmentation_hash(event):
 	molecules.append(date)
 	
 	# TODO: Modify when taking on non-team sports, like Boxing
-	home = sched_compute_team_hash(event.homeTeam) or ""
+	home = sched_compute_team_hash(event.homeTeam) or "" # These should be .homeTeamName/.awayTeamName when kwy is not present
 	away = sched_compute_team_hash(event.awayTeam) or ""
 	molecules.append(home)
 	molecules.append(away)
@@ -468,7 +468,7 @@ def sched_compute_time_hash(event):
 
 	return eventDate.strftime("%H")
 
-def sched_compute_team_hash(abbrev):
-	return create_scannable_key(abbrev)
+def sched_compute_team_hash(key):
+	return create_scannable_key(key)
 
 

@@ -169,7 +169,7 @@ def __split_on_paren_groups(s):
 
 def __split_on_semicolon(s):
 	if not s: return []
-	return splitAndTrim(s, ";", True)
+	return splitAndTrim(s, ";")
 
 def __eligible_value(sport, league, season, s):
 	if not s: return s

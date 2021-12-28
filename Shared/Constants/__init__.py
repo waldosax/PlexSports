@@ -92,6 +92,7 @@ air_date_expressions = [
 
 
 versus_expressions = [
+  r"(?:^|\b|\W)(at)(?:\b|\W|$)",
   r"(?:^|\b|\W)(@)(?:\b|\W|$)",
   r"(?:^|\b|\W)(versus)(?:\b|\W|$)",
   r"(?:^|\b|\W)(vs?(?:\.|(?:\b|\W|$)))"
