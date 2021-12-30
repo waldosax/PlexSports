@@ -11,7 +11,16 @@ from titlecase import *
 
 from ScheduleEvent import *
 
+__us_state_abbreviations = [
+	'AK', 'AL', 'AR', 'AZ', 'CA', 'CO', 'CT', 'DC', 'DE', 'FL', 'GA',
+	'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 'LA', 'MA', 'MD', 'ME',
+	'MI', 'MN', 'MO', 'MS', 'MT', 'NC', 'ND', 'NE', 'NH', 'NJ', 'NM',
+	'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX',
+	'UT', 'VA', 'VT', 'WA', 'WI', 'WV', 'WY'
+	]
+
 __keep_uppercase_expressions = [
+	"ESPN",
 	LEAGUE_MLB,
 	MLB_LEAGUE_AL + "CS",
 	MLB_LEAGUE_AL + "DS",
@@ -32,10 +41,11 @@ __keep_uppercase_expressions = [
 	"MST", "MDT", "PST", "PDT",
 	roman_numerals_expression + "$",
 	"JFK",
-	"RFK"
-	"US"
-	r"U\.S\.\s*"
-	]
+	"RFK",
+	"US",
+	r"U\.S\.\s*",
+	r"C\.C\.\s*",
+	] + __us_state_abbreviations
 
 __venue_suffix_words = [
 	"PARK",
@@ -75,6 +85,9 @@ __box_score_expressions = [
 	]
 
 __ineligble_keyword_expressions = [
+	r"FOX",
+	r"FS1",
+
 	r"TBD",
 	r"PPD",
 	r"FOLLOWING",
@@ -101,6 +114,7 @@ __ineligble_keyword_expressions = [
 	r"MAEKUP",	# Deliberate because some numbnuts at ESPN can't spell
 	r"MAKEUP",
 	r"MAKE[\s\.\-_]+UP",
+	r"FROM",
 	r"RESCHEDULE(?:D?)",
 	r"SCHEDULED\sGAME$",
 	r"ORIGINALLY[\s\.\-_]+SCHEDULE(?:D?)",
@@ -117,6 +131,8 @@ __ineligble_keyword_expressions = [
 	r"^(?:(?:AMERICAN|NATIONAL)\sLEAGUE[\s\-\u0096]*GAME\s\d)$",
 	r"^PUERTO\sRICO$",
 	r"^TOKYO,\sJAPAN$",
+
+	r"Will(?:\s+Not)?\s+Start",
 	]
 
 # \u0096 - Unicode hyphen
@@ -230,13 +246,13 @@ def __isolate_location(s):
 
 	mloc = re.search(r"(?:^|\b)(?:((?:at)|(?:in))\b(.+))$", s, re.IGNORECASE)
 	if mloc:
-		firstPart = s[:mloc.start(0)].strip(", ")
+		firstPart = s[:mloc.start(0)].rstrip("(").strip(", ")
 
-		location = s[mloc.start(0):mloc.end(0)].lower() + s[mloc.start(1):]
-		if location:
-			mstate = re.search(r",?\s(?P<state>[A-Z]{2})$", location, re.IGNORECASE)
-			if mstate:
-				location = location[:mstate.start(0)] + ", " + mstate.group("state").upper()
+		location = (s[mloc.start(1):mloc.end(1)].lower() + s[mloc.end(1):]).strip(", ()")
+		#if location:
+		#	mstate = re.search(r",?\s(?P<state>[A-Z]{2})$", location, re.IGNORECASE)
+		#	if mstate:
+		#		location = location[:mstate.start(0)] + ", " + mstate.group("state").upper()
 	else:
 		firstPart = s
 
@@ -421,8 +437,8 @@ def Polish(sport, league, season, event):
 		description = notes
 
 
-	if not event.eventTitle: event.eventTitle = eventTitle
-	event.subseasonTitle = subseasonTitle
+	if not event.eventTitle: event.eventTitle = deunicode(eventTitle)
+	#event.subseasonTitle = subseasonTitle
 	event.description = description
 	event.notes = notes
 

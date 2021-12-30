@@ -123,6 +123,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 							if altTitle == "*": altTitle = None
 							if altTitle == "FINA": altTitle = None
 							if altTitle == "PPD": altTitle = None
+							if altTitle == "IF NECESSARY": altTitle = None
 							if altTitle and unicode(altTitle).isnumeric(): altTitle = None
 
 							teams = dict()

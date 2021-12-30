@@ -33,6 +33,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 		for eventDate in mlbApiSchedule["dates"]:
 			dateGroup = eventDate["date"]
 			for schedEvent in eventDate["games"]:
+				id = schedEvent["gamePk"]
 
 				date = None
 				if schedEvent.get("gameDate"):
@@ -82,8 +83,23 @@ def GetSchedule(sched, navigator, sport, league, season):
 				
 				if title and title.find("Hall of Fame Game") >= 0:
 					eventIndicator = MLB_EVENT_FLAG_HALL_OF_FAME
-				if title:
-					m = re.search(ur"(?:(?:\([\w]+\s*(?:[\-%s])\s*[\w]+\))|(?:\s*[\-%s]\s*))" % (unichr(0x0096), unichr(0x0096)), title, re.IGNORECASE + re.UNICODE)
+
+				if title and title == "Night":
+					title = None
+				elif title and title.upper().find("ALL-STAR") >= 0:
+					pass
+				elif title and title.upper().find("D-BACK") >= 0:
+					pass
+				elif title and title.upper().find("SINGLE-GAME") >= 0:
+					pass
+				elif title and title.upper().find("OLD-TIMER") >= 0:
+					pass
+				elif title and title.upper().find("MAKE-UP") >= 0:
+					pass
+				elif title and title.upper().find("DAY-NIGHT") >= 0:
+					pass
+				elif title:
+					m = re.search(ur"(?:(?:\([\w]+\s*(?:[\-])\s*[\w]+\))|(?:\s*[\-]\s*))", title.replace(unichr(0x0096), "-"), re.IGNORECASE)
 					if m:
 						altDescription = title[m.end():].strip(", ")
 						title = title[:m.start()].strip(", ")
@@ -99,16 +115,26 @@ def GetSchedule(sched, navigator, sport, league, season):
 				subseasonTitle = deunicode(schedEvent.get("seriesDescription"))
 				if subseasonTitle == "Regular Season": subseasonTitle = None
 
+				description = None
+				thumbnail = None
+				if int(season) >= 2021 and schedEvent.get("content") and schedEvent["content"].get("link"):
+					contentJson = DownloadGameContentData(id)
+					if contentJson:
+						try: content = json.loads(contentJson)
+						except ValueError: pass
+						(description, thumbnail) = __process_content(schedEvent, content)
+
 
 				kwargs = {
 					"sport": sport,
 					"league": league,
 					"season": season,
 					"date": date,
-					"MLBAPIID": str(schedEvent["gamePk"]),
+					"MLBAPIID": str(id),
 					"title": title,
 					"subseasonTitle": subseasonTitle,
 					"altDescription": altDescription,
+					"description": description,
 					"homeTeam": homeTeamKey,
 					"homeTeamName": homeTeamName if not homeTeamKey else None,
 					"awayTeam": awayTeamKey,
@@ -119,9 +145,101 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"eventindicator": eventIndicator,
 					"game": gameNumber}
 
+				assets = {}
+
+				if thumbnail:
+					assets["thumbnail"] = [{"source": ASSET_SOURCE_MLBAPI, "url": deunicode(thumbnail)}]
+
+				if assets:
+					kwargs["assets"] = assets
+
 				event = ScheduleEvent(**kwargs)
 
 				AddOrAugmentEvent(sched, event)
 
 
+def __process_content(schedEvent, content):
+	description = None
+	thumbnail = None
 
+	if not content: return (None, None)
+
+	if content.get("editorial"):
+		if content["editorial"].get("recap"):
+			if content["editorial"]["recap"].get("mlb"):
+				mlbRecap = content["editorial"]["recap"]["mlb"]
+				
+				if not description: description = mlbRecap.get("blurb")
+				if not description: description = mlbRecap.get("headline")
+				if not description: description = mlbRecap.get("seoTitle")
+	pass
+
+	if content.get("highlights"):
+		if content["highlights"].get("highlights"):
+			if content["highlights"]["highlights"].get("items"):
+				highlightItems = content["highlights"]["highlights"]["items"]
+				for highlightItem in highlightItems:
+				
+					if not description: description = highlightItem.get("description")
+					if not description: description = highlightItem.get("blurb")
+					if description: break
+	pass
+	
+	cuts = []
+	if content.get("editorial"):
+		if content["editorial"].get("recap"):
+			if content["editorial"]["recap"].get("mlb"):
+				mlbRecap = content["editorial"]["recap"]["mlb"]
+				if not thumbnail and mlbRecap.get("photo"):
+					cuts = mlbRecap["photo"]["cuts"]
+					bestCut = __select_best_cut(cuts)
+					if bestCut: thumbnail = bestCut["src"]
+				if not thumbnail and mlbRecap.get("image"):
+					cuts = mlbRecap["image"]["cuts"]
+					bestCut = __select_best_cut(cuts)
+					if bestCut: thumbnail = bestCut["src"]
+	pass
+
+	if content.get("highlights"):
+		if content["highlights"].get("highlights"):
+			if content["highlights"]["highlights"].get("items"):
+				highlightItems = content["highlights"]["highlights"]["items"]
+				for highlightItem in highlightItems:
+				
+					if not thumbnail and highlightItem.get("photo"):
+						cuts = highlightItem["photo"]["cuts"]
+						bestCut = __select_best_cut(cuts)
+						if bestCut: thumbnail = bestCut["src"]
+					if not thumbnail and highlightItem.get("image"):
+						cuts = highlightItem["image"]["cuts"]
+						bestCut = __select_best_cut(cuts)
+						if bestCut: thumbnail = bestCut["src"]
+	pass
+
+
+	return (description, thumbnail)
+
+def __select_best_cut(cuts):
+	
+	__ranked_ratios = {
+		"16:9": 4,
+		"4:3": 3,
+		"64:27": 2,
+		}
+
+	def __get_sortable_event_key(cut):	# ratio, pixels
+		key = ""
+
+		aspectRatio = cut["aspectRatio"]
+		key = key + ("%d2" % (__ranked_ratios[aspectRatio] if __ranked_ratios.get(aspectRatio) else 0))
+		width = cut["width"]
+		height = cut["height"]
+		pixels = width * height
+		key = key + "%d8" % (pixels)
+
+		return key
+
+	for cut in sorted(cuts, key=__get_sortable_event_key):
+		return cut
+
+	return None
