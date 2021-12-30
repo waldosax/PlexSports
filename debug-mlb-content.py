@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
 	__leagues = [ LEAGUE_MLB, LEAGUE_NHL ]
 	
-	for league in __league:
+	for league in __leagues:
 		(leagueName, sport) = known_leagues[league]
 
 		minSeason = None
