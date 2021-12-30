@@ -12,7 +12,7 @@ class ScheduleEvent:
 		self.league = deunicode(kwargs.get("league"))
 		self.season = deunicode(str(kwargs.get("season")))
 		date = kwargs.get("date")
-		if isinstance(kwargs["date"], basestring) and IsISO8601Date(kwargs["date"]):
+		if isinstance(kwargs.get("date"), basestring) and IsISO8601Date(kwargs["date"]):
 			date = ParseISO8601Date(kwargs["date"]).replace(tzinfo=UTC)
 		self.date = date
 
@@ -69,7 +69,7 @@ class ScheduleEvent:
 		if not self.season and kwargs.get("season"): self.season = deunicode(str(kwargs.get("season")))
 
 		date = kwargs.get("date")
-		if isinstance(kwargs["date"], basestring) and IsISO8601Date(kwargs["date"]):
+		if isinstance(kwargs.get("date"), basestring) and IsISO8601Date(kwargs["date"]):
 			date = ParseISO8601Date(kwargs["date"]).replace(tzinfo=UTC)
 
 		# Augment date if missing or missing time
