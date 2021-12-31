@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA2009SCHEDULE", 
-        "CachedOn": "2021-12-24T03:13:15", 
-        "ExpiresOn": "2021-12-31T03:13:15", 
+        "CachedOn": "2021-12-31T14:41:57", 
+        "ExpiresOn": "2022-01-07T14:41:57", 
         "Version": "2"
     }, 
     "Items": [
@@ -77,7 +77,7 @@
             "vs": "Denver Nuggets vs. Partizan"
         }, 
         {
-            "altTitle": "at Albany, NY", 
+            "altDescription": "at Albany, NY", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -88,8 +88,7 @@
             }, 
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2009-10-04T18:00:00+00:00", 
-            "description": "Knicks 115, Nets 107", 
-            "eventTitle": "At Albany, Ny", 
+            "description": "Knicks 115, Nets 107, At Albany, NY", 
             "homeTeam": "e2ae64b9-a7ad-4d40-b72b-988046b6f537", 
             "identity": {
                 "ESPNAPIID": "291004018"
@@ -98,6 +97,7 @@
             "networks": [
                 "MSG"
             ], 
+            "notes": "at Albany, NY", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -199,7 +199,7 @@
             "vs": "Dallas Mavericks vs. Orlando Magic"
         }, 
         {
-            "altTitle": "AT LONDON ENGLAND", 
+            "altDescription": "AT LONDON ENGLAND", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -210,16 +210,16 @@
             }, 
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2009-10-06T18:30:00+00:00", 
-            "description": "James Johnson sank a fade-away jump shot from the baseline at the buzzer Tuesday to give the Bulls a 102-101 win over the Jazz.", 
-            "eventTitle": "At London England", 
+            "description": "James Johnson sank a fade-away jump shot from the baseline at the buzzer Tuesday to give the Bulls a 102-101 win over the Jazz. At London England", 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "291006004"
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV"
+                "NBA TV"
             ], 
+            "notes": "AT LONDON ENGLAND", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -251,7 +251,7 @@
             "vs": "Cleveland Cavaliers vs. Charlotte Bobcats"
         }, 
         {
-            "altTitle": "at Richmond, VA", 
+            "altDescription": "at Richmond, VA", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -262,21 +262,21 @@
             }, 
             "awayTeam": "bd748cfb-cc40-46bf-b710-558022a68cad", 
             "date": "2009-10-06T23:00:00+00:00", 
-            "description": "Wizards 101, Grizzlies 92", 
-            "eventTitle": "At Richmond, Va", 
+            "description": "Wizards 101, Grizzlies 92, At Richmond, VA", 
             "homeTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "identity": {
                 "ESPNAPIID": "291006027"
             }, 
             "league": "NBA", 
             "networks": [], 
+            "notes": "at Richmond, VA", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
             "vs": "Washington Wizards vs. Memphis Grizzlies"
         }, 
         {
-            "altTitle": "at London, ON", 
+            "altDescription": "at London, ON", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -287,8 +287,7 @@
             }, 
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2009-10-06T23:30:00+00:00", 
-            "description": "76ers 107, Raptors 98", 
-            "eventTitle": "At London, On", 
+            "description": "76ers 107, Raptors 98, At London, On", 
             "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "identity": {
                 "ESPNAPIID": "291006020"
@@ -297,6 +296,7 @@
             "networks": [
                 "RAPT"
             ], 
+            "notes": "at London, ON", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -491,7 +491,7 @@
             "vs": "Memphis Grizzlies vs. Oklahoma City Thunder"
         }, 
         {
-            "altTitle": "at Hidalgo, TX", 
+            "altDescription": "at Hidalgo, TX", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -502,8 +502,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2009-10-08T00:30:00+00:00", 
-            "description": "Kevin Garnett scored six points and grabbed five rebounds in his first action since aggravating a right knee injury last March 25 as the Celtics couldn't hold the lead in the fourth against the Houston Rockets in a 96-90 loss Wednesday night.", 
-            "eventTitle": "At Hidalgo, Tx", 
+            "description": "Kevin Garnett scored six points and grabbed five rebounds in his first action since aggravating a right knee injury last March 25 as the Celtics couldn't hold the lead in the fourth against the Houston Rockets in a 96-90 loss Wednesday night. At Hidalgo, TX", 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
                 "ESPNAPIID": "291007010"
@@ -513,13 +512,14 @@
                 "CSNN", 
                 "FSHO"
             ], 
+            "notes": "at Hidalgo, TX", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
             "vs": "Houston Rockets vs. Boston Celtics"
         }, 
         {
-            "altTitle": "AT ANAHEIM CA", 
+            "altDescription": "AT ANAHEIM CA", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -530,14 +530,14 @@
             }, 
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2009-10-08T02:00:00+00:00", 
-            "description": "Kobe Bryant and Andrew Bynum shined and Ron Artest was solid as the champion Lakers opened the preseason with a win.", 
-            "eventTitle": "At Anaheim, Ca", 
+            "description": "Kobe Bryant and Andrew Bynum shined and Ron Artest was solid as the champion Lakers opened the preseason with a win. At Anaheim CA", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "291007013"
             }, 
             "league": "NBA", 
             "networks": [], 
+            "notes": "AT ANAHEIM CA", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -567,7 +567,7 @@
             "vs": "Sacramento Kings vs. Portland Trail Blazers"
         }, 
         {
-            "altTitle": "at Taipei, Taiwan", 
+            "altDescription": "at Taipei, Taiwan", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -578,8 +578,7 @@
             }, 
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2009-10-08T11:30:00+00:00", 
-            "description": "Pacers 126, Nuggets 104", 
-            "eventTitle": "At Taipei, Taiwan", 
+            "description": "Pacers 126, Nuggets 104, At Taipei, Taiwan", 
             "homeTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "identity": {
                 "ESPNAPIID": "291008011"
@@ -587,15 +586,16 @@
             "league": "NBA", 
             "networks": [
                 "FSMW", 
-                "NBATV"
+                "NBA TV"
             ], 
+            "notes": "at Taipei, Taiwan", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
             "vs": "Indiana Pacers vs. Denver Nuggets"
         }, 
         {
-            "altTitle": "at Madrid, Spain", 
+            "altDescription": "at Madrid, Spain", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -619,7 +619,7 @@
             "vs": "Real Madrid vs. Utah Jazz"
         }, 
         {
-            "altTitle": "AT GREENSBORO NC", 
+            "altDescription": "AT GREENSBORO NC", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -630,8 +630,7 @@
             }, 
             "awayTeam": "641b85ae-2f63-4918-8204-12cb69d62de2", 
             "date": "2009-10-08T23:30:00+00:00", 
-            "description": "Bobcats 108, Hornets 101", 
-            "eventTitle": "At Greensboro, Nc", 
+            "description": "Bobcats 108, Hornets 101, At Greensboro NC", 
             "homeTeam": "21bdfc78-f107-49fe-92aa-50514dd35bfe", 
             "identity": {
                 "ESPNAPIID": "291008030"
@@ -640,6 +639,7 @@
             "networks": [
                 "FSCR"
             ], 
+            "notes": "AT GREENSBORO NC", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -711,7 +711,7 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -791,7 +791,7 @@
             "vs": "San Antonio Spurs vs. Olympiacos"
         }, 
         {
-            "altTitle": "at Inglewood, CA", 
+            "altDescription": "at Inglewood, CA", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -802,14 +802,14 @@
             }, 
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2009-10-10T02:00:00+00:00", 
-            "description": "Warriors 110, Lakers 91", 
-            "eventTitle": "At Inglewood, Ca", 
+            "description": "Warriors 110, Lakers 91, At Inglewood, CA", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "291009013"
             }, 
             "league": "NBA", 
             "networks": [], 
+            "notes": "at Inglewood, CA", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -862,7 +862,7 @@
             "vs": "New Orleans Hornets vs. Oklahoma City Thunder"
         }, 
         {
-            "altTitle": "at North Charleston, NC", 
+            "altDescription": "at North Charleston, NC", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -873,8 +873,7 @@
             }, 
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2009-10-10T23:30:00+00:00", 
-            "description": "LeBron James scored 11 points and had five assists and Shaquille O'Neal had 12 points in a 102-96 win over the Bobcats on Saturday night.", 
-            "eventTitle": "At North Charleston, Nc", 
+            "description": "LeBron James scored 11 points and had five assists and Shaquille O'Neal had 12 points in a 102-96 win over the Bobcats on Saturday night. At North Charleston, NC", 
             "homeTeam": "21bdfc78-f107-49fe-92aa-50514dd35bfe", 
             "identity": {
                 "ESPNAPIID": "291010030"
@@ -883,13 +882,14 @@
             "networks": [
                 "SSN"
             ], 
+            "notes": "at North Charleston, NC", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
             "vs": "Charlotte Bobcats vs. Cleveland Cavaliers"
         }, 
         {
-            "altTitle": "at Green Bay, WI", 
+            "altDescription": "at Green Bay, WI", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -900,8 +900,7 @@
             }, 
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2009-10-11T00:30:00+00:00", 
-            "description": "Bucks 98, Bulls 86", 
-            "eventTitle": "At Green Bay, Wi", 
+            "description": "Bucks 98, Bulls 86, At Green Bay, WI", 
             "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "identity": {
                 "ESPNAPIID": "291010015"
@@ -910,13 +909,14 @@
             "networks": [
                 "WGN"
             ], 
+            "notes": "at Green Bay, WI", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
             "vs": "Milwaukee Bucks vs. Chicago Bulls"
         }, 
         {
-            "altTitle": "at Palm Springs, CA", 
+            "altDescription": "at Palm Springs, CA", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -927,8 +927,7 @@
             }, 
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2009-10-11T01:30:00+00:00", 
-            "description": "Anthony Morrow scored 30 points off the bench and the Golden State Warriors defeated the Phoenix Suns 104-101 in an outdoor exhibition game on Saturday night at the Indian Wells Tennis Garden.", 
-            "eventTitle": "At Palm Springs, Ca", 
+            "description": "Anthony Morrow scored 30 points off the bench and the Golden State Warriors defeated the Phoenix Suns 104-101 in an outdoor exhibition game on Saturday night at the Indian Wells Tennis Garden. At Palm Springs, CA", 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "291010021"
@@ -937,13 +936,14 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "at Palm Springs, CA", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
             "vs": "Phoenix Suns vs. Golden State Warriors"
         }, 
         {
-            "altTitle": "at Beijing, China", 
+            "altDescription": "at Beijing, China", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -954,8 +954,7 @@
             }, 
             "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "date": "2009-10-11T04:00:00+00:00", 
-            "description": "Nuggets 128, Pacers 112", 
-            "eventTitle": "At Beijing, China", 
+            "description": "Nuggets 128, Pacers 112, At Beijing, China", 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "291011007"
@@ -963,8 +962,9 @@
             "league": "NBA", 
             "networks": [
                 "ALT", 
-                "NBATV"
+                "NBA TV"
             ], 
+            "notes": "at Beijing, China", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -1236,7 +1236,7 @@
             "vs": "Los Angeles Clippers vs. Golden State Warriors"
         }, 
         {
-            "altTitle": "AT GRAND RAPIDS MI", 
+            "altDescription": "AT GRAND RAPIDS MI", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -1247,21 +1247,21 @@
             }, 
             "awayTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "date": "2009-10-13T23:00:00+00:00", 
-            "description": "Flip Saunders faced the Pistons for the first time since being fired by the team he led to the Eastern Conference finals three straight seasons.", 
-            "eventTitle": "At Grand Rapids, MI", 
+            "description": "Flip Saunders faced the Pistons for the first time since being fired by the team he led to the Eastern Conference finals three straight seasons. At Grand Rapids MI", 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "291013008"
             }, 
             "league": "NBA", 
             "networks": [], 
+            "notes": "AT GRAND RAPIDS MI", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
             "vs": "Detroit Pistons vs. Washington Wizards"
         }, 
         {
-            "altTitle": "AT NEWARK NJ", 
+            "altDescription": "AT NEWARK NJ", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -1272,8 +1272,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2009-10-13T23:00:00+00:00", 
-            "description": "Celtics 91, Nets 88", 
-            "eventTitle": "At Newark, Nj", 
+            "description": "Celtics 91, Nets 88, At Newark NJ", 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "291013017"
@@ -1283,6 +1282,7 @@
                 "YES", 
                 "CSNN"
             ], 
+            "notes": "AT NEWARK NJ", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -1339,7 +1339,7 @@
             "vs": "Chicago Bulls vs. Milwaukee Bucks"
         }, 
         {
-            "altTitle": "AT WICHITA KS", 
+            "altDescription": "AT WICHITA KS", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -1350,14 +1350,14 @@
             }, 
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2009-10-14T00:00:00+00:00", 
-            "description": "Magic 121, Hornets 86", 
-            "eventTitle": "At Wichita, Ks", 
+            "description": "Magic 121, Hornets 86, At Wichita KS", 
             "homeTeam": "641b85ae-2f63-4918-8204-12cb69d62de2", 
             "identity": {
                 "ESPNAPIID": "291013003"
             }, 
             "league": "NBA", 
             "networks": [], 
+            "notes": "AT WICHITA KS", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -1381,7 +1381,7 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -1389,7 +1389,7 @@
             "vs": "Cleveland Cavaliers vs. Washington Wizards"
         }, 
         {
-            "altTitle": "at Hartford, CT", 
+            "altDescription": "at Hartford, CT", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -1400,8 +1400,7 @@
             }, 
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2009-10-14T23:30:00+00:00", 
-            "description": "Celtics 106, Raptors 90", 
-            "eventTitle": "At Hartford, Ct", 
+            "description": "Celtics 106, Raptors 90, At Hartford, CT", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "291014002"
@@ -1410,6 +1409,7 @@
             "networks": [
                 "CSNN"
             ], 
+            "notes": "at Hartford, CT", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -1464,7 +1464,7 @@
             "vs": "Minnesota Timberwolves vs. Chicago Bulls"
         }, 
         {
-            "altTitle": "at Tulsa, OK", 
+            "altDescription": "at Tulsa, OK", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -1475,8 +1475,7 @@
             }, 
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2009-10-15T00:00:00+00:00", 
-            "description": "Kevin Durant scored 18 of his 30 points in the fourth quarter to help the Oklahoma City Thunder rally for a 96-91 preseason win over the Miami Heat on Wednesday night.", 
-            "eventTitle": "At Tulsa, Ok", 
+            "description": "Kevin Durant scored 18 of his 30 points in the fourth quarter to help the Oklahoma City Thunder rally for a 96-91 preseason win over the Miami Heat on Wednesday night. At Tulsa, OK", 
             "homeTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "identity": {
                 "ESPNAPIID": "291014025"
@@ -1485,6 +1484,7 @@
             "networks": [
                 "KSBI"
             ], 
+            "notes": "at Tulsa, OK", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -1581,7 +1581,7 @@
             "league": "NBA", 
             "networks": [
                 "HDNET", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -1589,7 +1589,7 @@
             "vs": "Dallas Mavericks vs. Detroit Pistons"
         }, 
         {
-            "altTitle": "at Kansas City, MO", 
+            "altDescription": "at Kansas City, MO", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -1600,14 +1600,14 @@
             }, 
             "awayTeam": "641b85ae-2f63-4918-8204-12cb69d62de2", 
             "date": "2009-10-16T00:30:00+00:00", 
-            "description": "Heat 97, Hornets 81", 
-            "eventTitle": "At Kansas City, Mo", 
+            "description": "Heat 97, Hornets 81, At Kansas City, MO", 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "291015014"
             }, 
             "league": "NBA", 
             "networks": [], 
+            "notes": "at Kansas City, MO", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -1637,7 +1637,7 @@
             "vs": "Utah Jazz vs. Portland Trail Blazers"
         }, 
         {
-            "altTitle": "at Las Vegas, NV", 
+            "altDescription": "at Las Vegas, NV", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -1648,14 +1648,14 @@
             }, 
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2009-10-16T02:00:00+00:00", 
-            "description": "Lakers 98, Kings 92", 
-            "eventTitle": "At Las Vegas, Nv", 
+            "description": "Lakers 98, Kings 92, At Las Vegas, NV", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "291015013"
             }, 
             "league": "NBA", 
             "networks": [], 
+            "notes": "at Las Vegas, NV", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -1998,7 +1998,7 @@
             "vs": "Toronto Raptors vs. Boston Celtics"
         }, 
         {
-            "altTitle": "at Monterrey, Mexico", 
+            "altDescription": "at Monterrey, Mexico", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -2016,7 +2016,7 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -2134,7 +2134,7 @@
             "league": "NBA", 
             "networks": [
                 "CSCHD", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -2266,7 +2266,7 @@
             "vs": "New York Knicks vs. Boston Celtics"
         }, 
         {
-            "altTitle": "at Austin, TX", 
+            "altDescription": "at Austin, TX", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -2277,8 +2277,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2009-10-21T00:30:00+00:00", 
-            "description": "Spurs 119, Thunder 102", 
-            "eventTitle": "At Austin, Tx", 
+            "description": "Spurs 119, Thunder 102, At Austin, TX", 
             "homeTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "identity": {
                 "ESPNAPIID": "291020025"
@@ -2287,6 +2286,7 @@
             "networks": [
                 "KSBI"
             ], 
+            "notes": "at Austin, TX", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -2316,7 +2316,7 @@
             "vs": "Denver Nuggets vs. Minnesota Timberwolves"
         }, 
         {
-            "altTitle": "at Ontatio, CA", 
+            "altDescription": "at Ontatio, CA", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -2327,14 +2327,14 @@
             }, 
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2009-10-21T02:00:00+00:00", 
-            "description": "Lakers 113, Warriors 107", 
-            "eventTitle": "At Ontatio, Ca", 
+            "description": "Lakers 113, Warriors 107, At Ontatio, CA", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "291020013"
             }, 
             "league": "NBA", 
             "networks": [], 
+            "notes": "at Ontatio, CA", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -2409,7 +2409,7 @@
             "vs": "Los Angeles Clippers vs. Maccabi Elite Maccabi"
         }, 
         {
-            "altTitle": "at Columbus, OH", 
+            "altDescription": "at Columbus, OH", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -2420,8 +2420,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2009-10-21T23:00:00+00:00", 
-            "description": "Celtics 96, Cavaliers 82", 
-            "eventTitle": "At Columbus, Oh", 
+            "description": "Celtics 96, Cavaliers 82, At Columbus, OH", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "291021005"
@@ -2430,13 +2429,14 @@
             "networks": [
                 "CSNN"
             ], 
+            "notes": "at Columbus, OH", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
             "vs": "Cleveland Cavaliers vs. Boston Celtics"
         }, 
         {
-            "altTitle": "AT NEWARK NJ", 
+            "altDescription": "AT NEWARK NJ", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -2447,8 +2447,7 @@
             }, 
             "awayTeam": "e2ae64b9-a7ad-4d40-b72b-988046b6f537", 
             "date": "2009-10-21T23:00:00+00:00", 
-            "description": "Knicks 94, Nets 92", 
-            "eventTitle": "At Newark, Nj", 
+            "description": "Knicks 94, Nets 92, At Newark NJ", 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "291021017"
@@ -2457,6 +2456,7 @@
             "networks": [
                 "MSG"
             ], 
+            "notes": "AT NEWARK NJ", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -2509,7 +2509,7 @@
             "vs": "Miami Heat vs. Memphis Grizzlies"
         }, 
         {
-            "altTitle": "AT JACKSONVILLE FL", 
+            "altDescription": "AT JACKSONVILLE FL", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -2520,14 +2520,14 @@
             }, 
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2009-10-22T23:00:00+00:00", 
-            "description": "Hawks 92, Heat 87", 
-            "eventTitle": "At Jacksonville, Fl", 
+            "description": "Hawks 92, Heat 87, At Jacksonville FL", 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "291022014"
             }, 
             "league": "NBA", 
             "networks": [], 
+            "notes": "AT JACKSONVILLE FL", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -2580,7 +2580,7 @@
             "vs": "Oklahoma City Thunder vs. Sacramento Kings"
         }, 
         {
-            "altTitle": "AT ANAHEIM CA", 
+            "altDescription": "AT ANAHEIM CA", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -2591,8 +2591,7 @@
             }, 
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2009-10-23T02:00:00+00:00", 
-            "description": "Lakers 106, Nuggets 89", 
-            "eventTitle": "At Anaheim, Ca", 
+            "description": "Lakers 106, Nuggets 89, At Anaheim CA", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "291022013"
@@ -2601,13 +2600,14 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "AT ANAHEIM CA", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
             "vs": "Los Angeles Lakers vs. Denver Nuggets"
         }, 
         {
-            "altTitle": "at Vancouver, BC", 
+            "altDescription": "at Vancouver, BC", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -2618,14 +2618,14 @@
             }, 
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2009-10-23T02:00:00+00:00", 
-            "description": "Trail Blazers 113, Suns 93", 
-            "eventTitle": "At Vancouver, Bc", 
+            "description": "Trail Blazers 113, Suns 93, At Vancouver, Bc", 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "291022021"
             }, 
             "league": "NBA", 
             "networks": [], 
+            "notes": "at Vancouver, BC", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -2678,7 +2678,7 @@
             "vs": "Charlotte Bobcats vs. Memphis Grizzlies"
         }, 
         {
-            "altTitle": "at Bloomington, IN", 
+            "altDescription": "at Bloomington, IN", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -2689,14 +2689,14 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2009-10-23T23:00:00+00:00", 
-            "description": "Danny Granger scored 10 of his 29 points in the fourth quarter, and the Indiana Pacers defeated the San Antonio Spurs 114-112 on Friday night in the preseason finale for both teams.", 
-            "eventTitle": "At Bloomington, In", 
+            "description": "Danny Granger scored 10 of his 29 points in the fourth quarter, and the Indiana Pacers defeated the San Antonio Spurs 114-112 on Friday night in the preseason finale for both teams. At Bloomington, In", 
             "homeTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "identity": {
                 "ESPNAPIID": "291023011"
             }, 
             "league": "NBA", 
             "networks": [], 
+            "notes": "at Bloomington, IN", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -2728,7 +2728,7 @@
             "vs": "Chicago Bulls vs. Washington Wizards"
         }, 
         {
-            "altTitle": "at Sioux Falls, SD", 
+            "altDescription": "at Sioux Falls, SD", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -2739,21 +2739,21 @@
             }, 
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2009-10-24T00:00:00+00:00", 
-            "description": "Timberwolves 98, Raptors 90", 
-            "eventTitle": "At Sioux Falls, Sd", 
+            "description": "Timberwolves 98, Raptors 90, At Sioux Falls, SD", 
             "homeTeam": "86a37a58-337c-4ab8-9379-472d38bd7dd0", 
             "identity": {
                 "ESPNAPIID": "291023016"
             }, 
             "league": "NBA", 
             "networks": [], 
+            "notes": "at Sioux Falls, SD", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
             "vs": "Minnesota Timberwolves vs. Toronto Raptors"
         }, 
         {
-            "altTitle": "at Queens, NY", 
+            "altDescription": "at Queens, NY", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -2764,8 +2764,7 @@
             }, 
             "awayTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "date": "2009-10-24T00:00:00+00:00", 
-            "description": "Nets 110, 76ers 88", 
-            "eventTitle": "At Queens, Ny", 
+            "description": "Nets 110, 76ers 88, At Queens, NY", 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "291023017"
@@ -2774,6 +2773,7 @@
             "networks": [
                 "YES"
             ], 
+            "notes": "at Queens, NY", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -2902,7 +2902,7 @@
             "vs": "Los Angeles Clippers vs. New Orleans Hornets"
         }, 
         {
-            "altTitle": "AT SAN DIEGO CA", 
+            "altDescription": "AT SAN DIEGO CA", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -2913,8 +2913,7 @@
             }, 
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2009-10-24T02:30:00+00:00", 
-            "description": "Nuggets 119, Lakers 105", 
-            "eventTitle": "At San Diego, Ca", 
+            "description": "Nuggets 119, Lakers 105, At San Diego CA", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "291023013"
@@ -2923,6 +2922,7 @@
             "networks": [
                 "ESPN"
             ], 
+            "notes": "AT SAN DIEGO CA", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": -1, 
@@ -3995,7 +3995,7 @@
             "league": "NBA", 
             "networks": [
                 "CSNN", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -4209,7 +4209,7 @@
             "league": "NBA", 
             "networks": [
                 "FSRM", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -4452,7 +4452,7 @@
             "league": "NBA", 
             "networks": [
                 "FSOK", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -5201,7 +5201,7 @@
             "league": "NBA", 
             "networks": [
                 "SSN", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -5495,8 +5495,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "CSNS"
+                "CSNS", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -5550,7 +5550,7 @@
             "league": "NBA", 
             "networks": [
                 "CSN", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -5738,8 +5738,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "CSNC"
+                "CSNC", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -6510,7 +6510,7 @@
             "league": "NBA", 
             "networks": [
                 "FSCR", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -6777,7 +6777,7 @@
             "league": "NBA", 
             "networks": [
                 "FSOK", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -6910,7 +6910,7 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -6937,7 +6937,7 @@
             "league": "NBA", 
             "networks": [
                 "FSOHHD", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -7957,7 +7957,7 @@
             "league": "NBA", 
             "networks": [
                 "KRRT", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -8163,7 +8163,7 @@
             "league": "NBA", 
             "networks": [
                 "FSAZHD", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -8264,7 +8264,7 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -8418,7 +8418,7 @@
             "league": "NBA", 
             "networks": [
                 "FSRM", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -9159,7 +9159,7 @@
             "league": "NBA", 
             "networks": [
                 "CSNB", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -9279,266 +9279,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
-            "date": "2009-11-29T18:00:00+00:00", 
-            "description": "Ben Wallace had 18 rebounds, including 11 offensive boards, to help the undermanned Detroit Pistons end a seven-game losing streak with a 94-88 victory over the Atlanta Hawks on Sunday.", 
-            "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
-            "identity": {
-                "ESPNAPIID": "291129008"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "FSS", 
-                "FSDT"
-            ], 
-            "season": "2009", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Detroit Pistons vs. Atlanta Hawks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
-            "date": "2009-11-29T18:00:00+00:00", 
-            "description": "Steve Nash had 20 points and 16 assists, Jason Richardson scored 22 points and the Phoenix Suns won their fourth straight game, 113-94 over the Toronto Raptors on Sunday.", 
-            "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
-            "identity": {
-                "ESPNAPIID": "291129028"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "CBC", 
-                "KUTP"
-            ], 
-            "season": "2009", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Toronto Raptors vs. Phoenix Suns"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "bd748cfb-cc40-46bf-b710-558022a68cad", 
-            "date": "2009-11-29T20:30:00+00:00", 
-            "description": "Eric Gordon scored 29 points and the Los Angeles Clippers rallied from a 20-point deficit to beat the Memphis Grizzlies 98-88 on Sunday, giving coach Mike Dunleavy his 600th regular-season victory.", 
-            "homeTeam": "4a3655dd-e9b8-40b9-a485-a54d308aa180", 
-            "identity": {
-                "ESPNAPIID": "291129012"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "FSW2", 
-                "FSTN"
-            ], 
-            "season": "2009", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Los Angeles Clippers vs. Memphis Grizzlies"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
-            "date": "2009-11-29T23:00:00+00:00", 
-            "description": "Kevin Garnett scored 24 points on 11 of 12 shooting, Ray Allen delivered the big blow with a 3-pointer with 1:38 left and the Boston Celtics rallied to beat the Miami Heat 92-85 on Sunday night.", 
-            "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
-            "identity": {
-                "ESPNAPIID": "291129014"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "SUN", 
-                "NBATV"
-            ], 
-            "season": "2009", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Miami Heat vs. Boston Celtics"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
-            "date": "2009-11-29T23:00:00+00:00", 
-            "description": "Rashard Lewis scored 13 of his season-high 26 points in the third quarter, and the Orlando Magic beat the New York Knicks 114-102 on Sunday night for their sixth straight road victory.", 
-            "homeTeam": "e2ae64b9-a7ad-4d40-b72b-988046b6f537", 
-            "identity": {
-                "ESPNAPIID": "291129018"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "MSG", 
-                "SUN"
-            ], 
-            "season": "2009", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "New York Knicks vs. Orlando Magic"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
-            "date": "2009-11-30T00:00:00+00:00", 
-            "description": "Aaron Brooks scored 18 of his 21 points in the second half, Carl Landry had 21 points and 10 rebounds after replacing injured Luis Scola and the Houston Rockets beat the Oklahoma City Thunder 100-91 on Sunday night.", 
-            "homeTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
-            "identity": {
-                "ESPNAPIID": "291129025"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "FSHO", 
-                "FSOK"
-            ], 
-            "season": "2009", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Oklahoma City Thunder vs. Houston Rockets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
-            "date": "2009-11-30T00:00:00+00:00", 
-            "description": "Tim Duncan scored 22 points and the San Antonio Spurs won their fifth straight with a 97-89 victory over the Philadelphia 76ers on Sunday night.", 
-            "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
-            "identity": {
-                "ESPNAPIID": "291129024"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "FSSW", 
-                "CSN"
-            ], 
-            "season": "2009", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "San Antonio Spurs vs. Philadelphia 76ers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "86a37a58-337c-4ab8-9379-472d38bd7dd0", 
-            "date": "2009-11-30T01:00:00+00:00", 
-            "description": "Ryan Gomes scored 27 points, the most by a Timberwolves player this season, and Minnesota snapped a 15-game losing streak by beating the Denver Nuggets 106-100 Sunday night.", 
-            "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
-            "identity": {
-                "ESPNAPIID": "291129007"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "ALT", 
-                "FSN"
-            ], 
-            "season": "2009", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Denver Nuggets vs. Minnesota Timberwolves"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "641b85ae-2f63-4918-8204-12cb69d62de2", 
-            "date": "2009-11-30T02:00:00+00:00", 
-            "description": "Sergio Rodriguez scored a career-high 24 points, Jason Thompson had 22 points and 14 rebounds and the Sacramento Kings won their third straight game with a 112-96 victory Sunday over the New Orleans Hornets.", 
-            "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
-            "identity": {
-                "ESPNAPIID": "291129023"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "COX", 
-                "CSNS"
-            ], 
-            "season": "2009", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Sacramento Kings vs. New Orleans Hornets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
-            "date": "2009-11-30T02:30:00+00:00", 
-            "description": "The New Jersey Nets matched the worst start to an NBA season with their 17th straight loss Sunday night, with Kobe Bryant scoring 30 points in the Los Angeles Lakers' 106-87 victory.", 
-            "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
-            "identity": {
-                "ESPNAPIID": "291129013"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "YES", 
-                "FSW"
-            ], 
-            "season": "2009", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Los Angeles Lakers vs. New Jersey Nets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2009-12-01T01:00:00+00:00", 
             "description": "Andrew Bogut returned from injury with 22 points, 15 rebounds and two big late blocks to lead the Bucks past the Bulls on Monday.", 
@@ -9627,7 +9367,7 @@
             "league": "NBA", 
             "networks": [
                 "CBHD", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -9781,8 +9521,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "FSW"
+                "FSW", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -9990,7 +9730,7 @@
             "league": "NBA", 
             "networks": [
                 "KSBI", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -10042,7 +9782,7 @@
             "league": "NBA", 
             "networks": [
                 "FSW2", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -10060,7 +9800,6 @@
             }, 
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2009-12-04T00:00:00+00:00", 
-            "description": "", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "TheSportsDBID": "673868"
@@ -10502,7 +10241,7 @@
             "league": "NBA", 
             "networks": [
                 "KENS", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -10709,7 +10448,7 @@
             "league": "NBA", 
             "networks": [
                 "FSDE+", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -10787,7 +10526,7 @@
             "league": "NBA", 
             "networks": [
                 "CSN", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -10991,8 +10730,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "FSTN"
+                "FSTN", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -11738,8 +11477,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "CSNC"
+                "CSNC", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -11998,7 +11737,7 @@
             "league": "NBA", 
             "networks": [
                 "FSW2", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -12100,7 +11839,7 @@
             "league": "NBA", 
             "networks": [
                 "KTXA", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -12229,7 +11968,7 @@
             "league": "NBA", 
             "networks": [
                 "FSOHHD", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -13083,8 +12822,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "FSFL"
+                "FSFL", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -13418,7 +13157,7 @@
             "league": "NBA", 
             "networks": [
                 "KTXA", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -13574,7 +13313,7 @@
             "league": "NBA", 
             "networks": [
                 "FSAZHD", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -13828,8 +13567,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "FSFL"
+                "FSFL", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -14317,7 +14056,7 @@
             "league": "NBA", 
             "networks": [
                 "KSTC", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -14550,7 +14289,7 @@
             "league": "NBA", 
             "networks": [
                 "MSG", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -14678,7 +14417,7 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -15171,7 +14910,7 @@
             "league": "NBA", 
             "networks": [
                 "FSAZHD", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -15376,7 +15115,7 @@
             "league": "NBA", 
             "networks": [
                 "FSS", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -15634,8 +15373,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "FSWIHD"
+                "FSWIHD", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -15814,7 +15553,7 @@
             "league": "NBA", 
             "networks": [
                 "SCOR", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -15892,7 +15631,7 @@
             "league": "NBA", 
             "networks": [
                 "SUN", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -16484,7 +16223,7 @@
             "league": "NBA", 
             "networks": [
                 "MSG", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -17231,7 +16970,7 @@
             "league": "NBA", 
             "networks": [
                 "CSNN", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -17489,7 +17228,7 @@
             "league": "NBA", 
             "networks": [
                 "KRRT", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -17748,7 +17487,7 @@
             "league": "NBA", 
             "networks": [
                 "ALT", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -18237,7 +17976,7 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -18495,7 +18234,7 @@
             "league": "NBA", 
             "networks": [
                 "CSNB", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -18778,7 +18517,7 @@
             "league": "NBA", 
             "networks": [
                 "FSOHHD", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -19678,7 +19417,7 @@
             "league": "NBA", 
             "networks": [
                 "FSHO", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -19903,7 +19642,7 @@
             }, 
             "awayTeam": "4a3655dd-e9b8-40b9-a485-a54d308aa180", 
             "date": "2010-01-26T00:30:00+00:00", 
-            "description": "Paul Pierce scored 22 points and Rajon Rondo had\n16 points and 12 assists, leading the Celtics to a 95-89 win over the Clippers on Monday night.", 
+            "description": "Paul Pierce scored 22 points and Rajon Rondo had 16 points and 12 assists, leading the Celtics to a 95-89 win over the Clippers on Monday night.", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300125002"
@@ -19937,7 +19676,7 @@
             "league": "NBA", 
             "networks": [
                 "SUN", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -20007,7 +19746,7 @@
             }, 
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2010-01-26T01:30:00+00:00", 
-            "description": "Derrick Rose shook off flulike symptoms to\nscore 27 points and the Bulls won their third straight, 98-93 over the Spurs on Monday night.", 
+            "description": "Derrick Rose shook off flulike symptoms to score 27 points and the Bulls won their third straight, 98-93 over the Spurs on Monday night.", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "300125024"
@@ -20118,7 +19857,7 @@
             "league": "NBA", 
             "networks": [
                 "CSNB", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -20272,7 +20011,7 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -20658,7 +20397,7 @@
             "league": "NBA", 
             "networks": [
                 "SSN", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -20916,7 +20655,7 @@
             "league": "NBA", 
             "networks": [
                 "SUN", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -21223,7 +20962,7 @@
             "league": "NBA", 
             "networks": [
                 "FSHO", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -21378,7 +21117,7 @@
             "league": "NBA", 
             "networks": [
                 "COX", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -22358,8 +22097,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "WGNS"
+                "WGNS", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -22922,7 +22661,7 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -23127,7 +22866,7 @@
             "league": "NBA", 
             "networks": [
                 "COX", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -23394,7 +23133,7 @@
             "vs": "None vs. None"
         }, 
         {
-            "altTitle": "NBA ALL-STAR GAME AT ARLINGTON TX", 
+            "altDescription": "NBA ALL-STAR GAME AT ARLINGTON TX", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -23410,7 +23149,7 @@
             }, 
             "awayTeam": "bfbf954e-0fca-4055-ad61-b323da58fd44", 
             "date": "2010-02-15T01:00:00+00:00", 
-            "description": "The East slipped past the West in the All-Star Game before the biggest crowd ever to watch a basketball game.", 
+            "description": "The East slipped past the West in the All-Star Game before the biggest crowd ever to watch a basketball game. NBA All-star Game at Arlington TX", 
             "eventTitle": "2010 NBA All-Star Game", 
             "eventindicator": 1, 
             "homeTeam": "37bf52c1-a35d-4736-bfe2-304ff04237a1", 
@@ -23422,6 +23161,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "2010 NBA All-Star Game, NBA ALL-STAR GAME AT ARLINGTON TX", 
             "season": "2009", 
             "sport": "Basketball", 
             "subseason": 0, 
@@ -23549,8 +23289,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "FSTN"
+                "FSTN", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -24429,7 +24169,7 @@
             "league": "NBA", 
             "networks": [
                 "FSSW", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -24839,7 +24579,7 @@
             "league": "NBA", 
             "networks": [
                 "FSRM", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -24993,8 +24733,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "FSTN"
+                "FSTN", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -25893,7 +25633,7 @@
             "league": "NBA", 
             "networks": [
                 "FSRM", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -26201,7 +25941,7 @@
             "league": "NBA", 
             "networks": [
                 "CSN", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -26382,7 +26122,7 @@
             "league": "NBA", 
             "networks": [
                 "FSDT", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -26511,7 +26251,7 @@
             "league": "NBA", 
             "networks": [
                 "SUN", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -27206,7 +26946,7 @@
             "league": "NBA", 
             "networks": [
                 "MSG", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -27542,7 +27282,7 @@
             "league": "NBA", 
             "networks": [
                 "FSOHHD", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -27852,8 +27592,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "FSW"
+                "FSW", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -27931,7 +27671,7 @@
             "league": "NBA", 
             "networks": [
                 "FSDT", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -28369,7 +28109,7 @@
             "league": "NBA", 
             "networks": [
                 "COX", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -28524,7 +28264,7 @@
             "league": "NBA", 
             "networks": [
                 "CSNB", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -28831,7 +28571,7 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -29089,7 +28829,7 @@
             "league": "NBA", 
             "networks": [
                 "SUN", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -29707,7 +29447,7 @@
             "league": "NBA", 
             "networks": [
                 "FSHO", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -30016,7 +29756,7 @@
             "league": "NBA", 
             "networks": [
                 "FSRM", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -30353,7 +30093,7 @@
             "league": "NBA", 
             "networks": [
                 "COX", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -30535,7 +30275,7 @@
             "league": "NBA", 
             "networks": [
                 "MSG", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -31154,8 +30894,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "FSWIHD"
+                "FSWIHD", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -31285,7 +31025,7 @@
             "league": "NBA", 
             "networks": [
                 "COX", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -31698,7 +31438,7 @@
             "league": "NBA", 
             "networks": [
                 "KTXA", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -31802,7 +31542,7 @@
             "league": "NBA", 
             "networks": [
                 "WCIU", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -32602,8 +32342,8 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV", 
-                "WGNS"
+                "WGNS", 
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -33734,7 +33474,7 @@
             "league": "NBA", 
             "networks": [
                 "SUN", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -33913,7 +33653,7 @@
             }, 
             "league": "NBA", 
             "networks": [
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -34069,7 +33809,7 @@
             "league": "NBA", 
             "networks": [
                 "ALT", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -34223,7 +33963,7 @@
             "league": "NBA", 
             "networks": [
                 "TSNT", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -34379,7 +34119,7 @@
             "league": "NBA", 
             "networks": [
                 "FSDT", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -34584,7 +34324,7 @@
             "league": "NBA", 
             "networks": [
                 "FSW2", 
-                "NBATV"
+                "NBA TV"
             ], 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35060,7 +34800,7 @@
             "vs": "Utah Jazz vs. Phoenix Suns"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35071,9 +34811,7 @@
             }, 
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2010-04-17T19:00:00+00:00", 
-            "description": "United for only one goal, LeBron James and Shaquille O'Neal took their first step together toward an NBA title.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 1", 
-            "game": 1, 
+            "description": "United for only one goal, LeBron James and Shaquille O'Neal took their first step together toward an NBA title. Eastern Conference 1st Round - Game 1", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "300417005"
@@ -35082,6 +34820,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 1", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35089,7 +34828,7 @@
             "vs": "Cleveland Cavaliers vs. Chicago Bulls"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35100,9 +34839,7 @@
             }, 
             "awayTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "date": "2010-04-17T21:30:00+00:00", 
-            "description": "Led by Joe Johnson and getting production from all their key players, the Hawks blitzed the Bucks early, survived a lackluster showing after halftime and held off Milwaukee 102-92 in Game 1 of the Eastern Conference playoffs Saturday.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 1", 
-            "game": 1, 
+            "description": "Led by Joe Johnson and getting production from all their key players, the Hawks blitzed the Bucks early, survived a lackluster showing after halftime and held off Milwaukee 102-92 in Game 1 of the Eastern Conference playoffs Saturday. Eastern Conference 1st Round - Game 1", 
             "homeTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "identity": {
                 "ESPNAPIID": "300417001"
@@ -35113,6 +34850,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 1", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35120,7 +34858,7 @@
             "vs": "Atlanta Hawks vs. Milwaukee Bucks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35131,9 +34869,7 @@
             }, 
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2010-04-18T00:00:00+00:00", 
-            "description": "Kevin Garnett had 15 points and nine rebounds and the Boston Celtics played Miami-style defense to beat the Heat 85-76 in the opener of their playoff series Saturday night.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 1", 
-            "game": 1, 
+            "description": "Kevin Garnett had 15 points and nine rebounds and the Boston Celtics played Miami-style defense to beat the Heat 85-76 in the opener of their playoff series Saturday night. Eastern Conference 1st Round - Game 1", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300417002"
@@ -35144,6 +34880,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 1", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35151,7 +34888,7 @@
             "vs": "Boston Celtics vs. Miami Heat"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35162,9 +34899,7 @@
             }, 
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2010-04-18T02:30:00+00:00", 
-            "description": "Carmelo Anthony scored a playoff career-high 42 points and J.R. Smith's fourth-quarter flurry of 3-pointers helped the Denver Nuggets beat the Utah Jazz 126-113 on Saturday night in Game 1 of the playoff series.", 
-            "eventTitle": "Western Conference 1st Round - Game 1", 
-            "game": 1, 
+            "description": "Carmelo Anthony scored a playoff career-high 42 points and J.R. Smith's fourth-quarter flurry of 3-pointers helped the Denver Nuggets beat the Utah Jazz 126-113 on Saturday night in Game 1 of the playoff series. Western Conference 1st Round - Game 1", 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "300417007"
@@ -35175,6 +34910,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 1", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35182,7 +34918,7 @@
             "vs": "Denver Nuggets vs. Utah Jazz"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35193,9 +34929,7 @@
             }, 
             "awayTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "date": "2010-04-18T19:00:00+00:00", 
-            "description": "Pau Gasol scored 19 points, Andrew Bynum added 13 and the Los Angeles Lakers used their twin 7-footers to dominate inside against the Oklahoma City Thunder, winning 87-79 Sunday in the opener of their playoff series.", 
-            "eventTitle": "Western Conference 1st Round - Game 1", 
-            "game": 1, 
+            "description": "Pau Gasol scored 19 points, Andrew Bynum added 13 and the Los Angeles Lakers used their twin 7-footers to dominate inside against the Oklahoma City Thunder, winning 87-79 Sunday in the opener of their playoff series. Western Conference 1st Round - Game 1", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300418013"
@@ -35204,6 +34938,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 1", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35211,7 +34946,7 @@
             "vs": "Los Angeles Lakers vs. Oklahoma City Thunder"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35222,9 +34957,7 @@
             }, 
             "awayTeam": "21bdfc78-f107-49fe-92aa-50514dd35bfe", 
             "date": "2010-04-18T21:30:00+00:00", 
-            "description": "Jameer Nelson scored 24 of his 32 points in the first half, and the Orlando Magic nearly blew a 22-point lead before beating the Charlotte Bobcats 98-89 in Game 1 of their first-round playoff series Sunday.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 1", 
-            "game": 1, 
+            "description": "Jameer Nelson scored 24 of his 32 points in the first half, and the Orlando Magic nearly blew a 22-point lead before beating the Charlotte Bobcats 98-89 in Game 1 of their first-round playoff series Sunday. Eastern Conference 1st Round - Game 1", 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "300418019"
@@ -35234,6 +34967,7 @@
                 "TNT", 
                 "SUN"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 1", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35241,7 +34975,7 @@
             "vs": "Orlando Magic vs. Charlotte Bobcats"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35252,9 +34986,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2010-04-19T00:00:00+00:00", 
-            "description": "Dirk Nowitzki opened the playoffs in a high gear, making 12 of 14 shots and scoring 36 points to lead the Dallas Mavericks to a 100-94 victory over the San Antonio Spurs on Sunday night.", 
-            "eventTitle": "Western Conference 1st Round - Game 1", 
-            "game": 1, 
+            "description": "Dirk Nowitzki opened the playoffs in a high gear, making 12 of 14 shots and scoring 36 points to lead the Dallas Mavericks to a 100-94 victory over the San Antonio Spurs on Sunday night. Western Conference 1st Round - Game 1", 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "300418006"
@@ -35264,6 +34996,7 @@
                 "KTXA", 
                 "TNT"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 1", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35271,7 +35004,7 @@
             "vs": "Dallas Mavericks vs. San Antonio Spurs"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35282,9 +35015,7 @@
             }, 
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2010-04-19T02:30:00+00:00", 
-            "description": "Andre Miller scored 15 points in the fourth quarter and tied his career playoff high with 31 points as the short-handed Portland Trail Blazers stole homecourt advantage from Phoenix with a 105-100 victory over the Suns on Sunday night.", 
-            "eventTitle": "Western Conference 1st Round - Game 1", 
-            "game": 1, 
+            "description": "Andre Miller scored 15 points in the fourth quarter and tied his career playoff high with 31 points as the short-handed Portland Trail Blazers stole homecourt advantage from Phoenix with a 105-100 victory over the Suns on Sunday night. Western Conference 1st Round - Game 1", 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "300418021"
@@ -35294,6 +35025,7 @@
                 "TNT", 
                 "FSAZHD"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 1", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35301,7 +35033,7 @@
             "vs": "Phoenix Suns vs. Portland Trail Blazers"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35312,9 +35044,7 @@
             }, 
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2010-04-20T00:00:00+00:00", 
-            "description": "LeBron James scored 40 points and took over in the fourth quarter as the Cleveland Cavaliers maintained home-court advantage by beating the Bulls 112-102 on Monday night to take a 2-0 lead in the Eastern Conference playoffs.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 2", 
-            "game": 2, 
+            "description": "LeBron James scored 40 points and took over in the fourth quarter as the Cleveland Cavaliers maintained home-court advantage by beating the Bulls 112-102 on Monday night to take a 2-0 lead in the Eastern Conference playoffs. Eastern Conference 1st Round - Game 2", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "300419005"
@@ -35324,6 +35054,7 @@
                 "TNT", 
                 "FSOHHD"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 2", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35331,7 +35062,7 @@
             "vs": "Cleveland Cavaliers vs. Chicago Bulls"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35342,9 +35073,7 @@
             }, 
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2010-04-20T02:30:00+00:00", 
-            "description": "With Utah running out of big bodies, Deron Williams carried an even bigger load in leading the Jazz to a 114-111 victory over the Denver Nuggets on Monday night in Game 2 of their Western Conference playoffs.", 
-            "eventTitle": "Western Conference 1st Round - Game 2", 
-            "game": 2, 
+            "description": "With Utah running out of big bodies, Deron Williams carried an even bigger load in leading the Jazz to a 114-111 victory over the Denver Nuggets on Monday night in Game 2 of their Western Conference playoffs. Western Conference 1st Round - Game 2", 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "300419007"
@@ -35354,6 +35083,7 @@
                 "TNT", 
                 "ALT"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 2", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35361,7 +35091,7 @@
             "vs": "Denver Nuggets vs. Utah Jazz"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35372,9 +35102,7 @@
             }, 
             "awayTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "date": "2010-04-20T23:00:00+00:00", 
-            "description": "With Joe Johnson and high-flying Josh Smith leading the way, the Atlanta Hawks avoided another Game 2 letdown.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 2", 
-            "game": 2, 
+            "description": "With Joe Johnson and high-flying Josh Smith leading the way, the Atlanta Hawks avoided another Game 2 letdown. Eastern Conference 1st Round - Game 2", 
             "homeTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "identity": {
                 "ESPNAPIID": "300420001"
@@ -35382,8 +35110,9 @@
             "league": "NBA", 
             "networks": [
                 "FSS", 
-                "NBATV"
+                "NBA TV"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 2", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35391,7 +35120,7 @@
             "vs": "Atlanta Hawks vs. Milwaukee Bucks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35402,9 +35131,7 @@
             }, 
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2010-04-21T00:00:00+00:00", 
-            "description": "The Boston Celtics didn't miss Kevin Garnett at all, not the way Glen Davis filled in to lead them to a 106-77 victory over the Miami Heat on Tuesday night and a 2-0 lead in their playoff series.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 2", 
-            "game": 2, 
+            "description": "The Boston Celtics didn't miss Kevin Garnett at all, not the way Glen Davis filled in to lead them to a 106-77 victory over the Miami Heat on Tuesday night and a 2-0 lead in their playoff series. Eastern Conference 1st Round - Game 2", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300420002"
@@ -35414,6 +35141,7 @@
                 "TNT", 
                 "CSNN"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 2", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35421,7 +35149,7 @@
             "vs": "Boston Celtics vs. Miami Heat"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35432,9 +35160,7 @@
             }, 
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2010-04-21T02:00:00+00:00", 
-            "description": "The Phoenix Suns rediscovered their high-energy game in a 119-90 rout of the Portland Trail Blazers on Tuesday night to square their first-round playoff series at one game apiece.", 
-            "eventTitle": "Western Conference 1st Round - Game 2", 
-            "game": 2, 
+            "description": "The Phoenix Suns rediscovered their high-energy game in a 119-90 rout of the Portland Trail Blazers on Tuesday night to square their first-round playoff series at one game apiece. Western Conference 1st Round - Game 2", 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "300420021"
@@ -35442,8 +35168,9 @@
             "league": "NBA", 
             "networks": [
                 "FSAZHD", 
-                "NBATV"
+                "NBA TV"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 2", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35451,7 +35178,7 @@
             "vs": "Phoenix Suns vs. Portland Trail Blazers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35462,9 +35189,7 @@
             }, 
             "awayTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "date": "2010-04-21T02:30:00+00:00", 
-            "description": "Kobe Bryant scored 39 points, carrying the Lakers in the fourth quarter when they lost the lead three times, and Los Angeles beat the Oklahoma City Thunder 95-92 on Tuesday night to take a 2-0 lead in its playoff series.", 
-            "eventTitle": "Western Conference 1st Round - Game 2", 
-            "game": 2, 
+            "description": "Kobe Bryant scored 39 points, carrying the Lakers in the fourth quarter when they lost the lead three times, and Los Angeles beat the Oklahoma City Thunder 95-92 on Tuesday night to take a 2-0 lead in its playoff series. Western Conference 1st Round - Game 2", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300420013"
@@ -35474,6 +35199,7 @@
                 "TNT", 
                 "FSW"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 2", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35481,7 +35207,7 @@
             "vs": "Los Angeles Lakers vs. Oklahoma City Thunder"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35492,9 +35218,7 @@
             }, 
             "awayTeam": "21bdfc78-f107-49fe-92aa-50514dd35bfe", 
             "date": "2010-04-21T23:00:00+00:00", 
-            "description": "Vince Carter finished with 19 points, Dwight Howard scored 15 and the Orlando Magic took a 2-0 series lead with a 92-77 victory over the Charlotte Bobcats on Wednesday night.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 2", 
-            "game": 2, 
+            "description": "Vince Carter finished with 19 points, Dwight Howard scored 15 and the Orlando Magic took a 2-0 series lead with a 92-77 victory over the Charlotte Bobcats on Wednesday night. Eastern Conference 1st Round - Game 2", 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "300421019"
@@ -35504,6 +35228,7 @@
                 "TNT", 
                 "FSFL"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 2", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35511,7 +35236,7 @@
             "vs": "Orlando Magic vs. Charlotte Bobcats"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35522,9 +35247,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2010-04-22T01:30:00+00:00", 
-            "description": "Richard Jefferson rebounded from a miserable performance in the opener to score 19 points, helping the San Antonio Spurs beat the Dallas Mavericks 102-88 on Wednesday night and tie their first-round series at one game apiece.", 
-            "eventTitle": "Western Conference 1st Round - Game 2", 
-            "game": 2, 
+            "description": "Richard Jefferson rebounded from a miserable performance in the opener to score 19 points, helping the San Antonio Spurs beat the Dallas Mavericks 102-88 on Wednesday night and tie their first-round series at one game apiece. Western Conference 1st Round - Game 2", 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "300421006"
@@ -35534,6 +35257,7 @@
                 "KTXA", 
                 "TNT"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 2", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35541,7 +35265,7 @@
             "vs": "Dallas Mavericks vs. San Antonio Spurs"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35552,9 +35276,7 @@
             }, 
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2010-04-22T23:00:00+00:00", 
-            "description": "Derrick Rose scored 31 points, Kirk Hinrich added 27 and Chicago hung on to beat the top-seeded Cavaliers 108-106 Thursday night in Game 3 of their first-round series after watching a 21-point lead dwindle to one.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 3", 
-            "game": 3, 
+            "description": "Derrick Rose scored 31 points, Kirk Hinrich added 27 and Chicago hung on to beat the top-seeded Cavaliers 108-106 Thursday night in Game 3 of their first-round series after watching a 21-point lead dwindle to one. Eastern Conference 1st Round - Game 3", 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "300422004"
@@ -35564,6 +35286,7 @@
                 "TNT", 
                 "CSNC"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 3", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35571,7 +35294,7 @@
             "vs": "Chicago Bulls vs. Cleveland Cavaliers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35582,9 +35305,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-04-23T01:30:00+00:00", 
-            "description": "Kevin Durant had 29 points and 19 rebounds, and snapped out of a shooting funk just in time to lead the decisive run in the first playoff game played in Oklahoma City, lifting the Thunder to a 101-96 victory over the Los Angeles Lakers.", 
-            "eventTitle": "Western Conference 1st Round - Game 3", 
-            "game": 3, 
+            "description": "Kevin Durant had 29 points and 19 rebounds, and snapped out of a shooting funk just in time to lead the decisive run in the first playoff game played in Oklahoma City, lifting the Thunder to a 101-96 victory over the Los Angeles Lakers. Western Conference 1st Round - Game 3", 
             "homeTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "identity": {
                 "ESPNAPIID": "300422025"
@@ -35594,6 +35315,7 @@
                 "TNT", 
                 "FSOK"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 3", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35601,7 +35323,7 @@
             "vs": "Oklahoma City Thunder vs. Los Angeles Lakers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35612,9 +35334,7 @@
             }, 
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2010-04-23T02:00:00+00:00", 
-            "description": "Jason Richardson scored a playoff career-high 42 points and the Phoenix Suns dominated from the start in a 108-89 victory over the Portland Trail Blazers that gave them a 2-1 lead in their first-round series.", 
-            "eventTitle": "Western Conference 1st Round - Game 3", 
-            "game": 3, 
+            "description": "Jason Richardson scored a playoff career-high 42 points and the Phoenix Suns dominated from the start in a 108-89 victory over the Portland Trail Blazers that gave them a 2-1 lead in their first-round series. Western Conference 1st Round - Game 3", 
             "homeTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "identity": {
                 "ESPNAPIID": "300422022"
@@ -35622,8 +35342,9 @@
             "league": "NBA", 
             "networks": [
                 "KGW", 
-                "NBATV"
+                "NBA TV"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 3", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35631,7 +35352,7 @@
             "vs": "Portland Trail Blazers vs. Phoenix Suns"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35642,9 +35363,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-04-23T23:00:00+00:00", 
-            "description": "Paul Pierce hit a 21-foot jumper at the buzzer as an injured Dwyane Wade watched from the Miami bench, and the Boston Celtics took complete command of their Eastern Conference first-round series with a 100-98 victory over the Heat on Friday night.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 3", 
-            "game": 3, 
+            "description": "Paul Pierce hit a 21-foot jumper at the buzzer as an injured Dwyane Wade watched from the Miami bench, and the Boston Celtics took complete command of their Eastern Conference first-round series with a 100-98 victory over the Heat on Friday night. Eastern Conference 1st Round - Game 3", 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "300423014"
@@ -35655,6 +35374,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 3", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35662,7 +35382,7 @@
             "vs": "Miami Heat vs. Boston Celtics"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35673,9 +35393,7 @@
             }, 
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2010-04-24T01:30:00+00:00", 
-            "description": "Playing with a bandage across his nose after getting popped by Dirk Nowitzki's elbow, Manu Ginobili returned to the game and helped the San Antonio Spurs hold on in a wild fourth quarter for a 94-90 win over Dallas on Friday night.", 
-            "eventTitle": "Western Conference 1st Round - Game 3", 
-            "game": 3, 
+            "description": "Playing with a bandage across his nose after getting popped by Dirk Nowitzki's elbow, Manu Ginobili returned to the game and helped the San Antonio Spurs hold on in a wild fourth quarter for a 94-90 win over Dallas on Friday night. Western Conference 1st Round - Game 3", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "300423024"
@@ -35686,6 +35404,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 3", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35693,7 +35412,7 @@
             "vs": "San Antonio Spurs vs. Dallas Mavericks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35704,9 +35423,7 @@
             }, 
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2010-04-24T02:30:00+00:00", 
-            "description": "Paul Millsap had career-highs of 22 points and 19 rebounds, rallying the Utah Jazz from a disastrous start in a 105-93 win over the Denver Nuggets in Game 3 of their Western Conference playoff series Friday night.", 
-            "eventTitle": "Western Conference 1st Round - Game 3", 
-            "game": 3, 
+            "description": "Paul Millsap had career-highs of 22 points and 19 rebounds, rallying the Utah Jazz from a disastrous start in a 105-93 win over the Denver Nuggets in Game 3 of their Western Conference playoff series Friday night. Western Conference 1st Round - Game 3", 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "300423026"
@@ -35716,6 +35433,7 @@
                 "ESPN2", 
                 "FSRM"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 3", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35723,7 +35441,7 @@
             "vs": "Utah Jazz vs. Denver Nuggets"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35734,9 +35452,7 @@
             }, 
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2010-04-24T18:00:00+00:00", 
-            "description": "Jameer Nelson scored 32 points and the Magic overcame Dwight Howard's continuing foul trouble and a loud, towel-waving crowd in Charlotte to beat the Bobcats, 90-86, taking a commanding 3-0 lead in their first-round series.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 3", 
-            "game": 3, 
+            "description": "Jameer Nelson scored 32 points and the Magic overcame Dwight Howard's continuing foul trouble and a loud, towel-waving crowd in Charlotte to beat the Bobcats, 90-86, taking a commanding 3-0 lead in their first-round series. Eastern Conference 1st Round - Game 3", 
             "homeTeam": "21bdfc78-f107-49fe-92aa-50514dd35bfe", 
             "identity": {
                 "ESPNAPIID": "300424030"
@@ -35746,6 +35462,7 @@
                 "TNT", 
                 "FSCR"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 3", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35753,7 +35470,7 @@
             "vs": "Charlotte Bobcats vs. Orlando Magic"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35764,9 +35481,7 @@
             }, 
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2010-04-24T20:30:00+00:00", 
-            "description": "Brandon Roy made a surprising return from knee surgery and scored 10 points, and the Portland Trail Blazers evened their playoff series with the Phoenix Suns at two games apiece with a 96-87 victory on Saturday.", 
-            "eventTitle": "Western Conference 1st Round - Game 4", 
-            "game": 4, 
+            "description": "Brandon Roy made a surprising return from knee surgery and scored 10 points, and the Portland Trail Blazers evened their playoff series with the Phoenix Suns at two games apiece with a 96-87 victory on Saturday. Western Conference 1st Round - Game 4", 
             "homeTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "identity": {
                 "ESPNAPIID": "300424022"
@@ -35776,6 +35491,7 @@
                 "TNT", 
                 "KGW"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 4", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35783,7 +35499,7 @@
             "vs": "Portland Trail Blazers vs. Phoenix Suns"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35794,9 +35510,7 @@
             }, 
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2010-04-24T23:00:00+00:00", 
-            "description": "John Salmons scored 22 points on 9-of-11 shooting and the Milwaukee Bucks never let up after a hot start in a 107-89 victory over the Atlanta Hawks on Saturday night.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 3", 
-            "game": 3, 
+            "description": "John Salmons scored 22 points on 9-of-11 shooting and the Milwaukee Bucks never let up after a hot start in a 107-89 victory over the Atlanta Hawks on Saturday night. Eastern Conference 1st Round - Game 3", 
             "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "identity": {
                 "ESPNAPIID": "300424015"
@@ -35807,6 +35521,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 3", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35814,7 +35529,7 @@
             "vs": "Milwaukee Bucks vs. Atlanta Hawks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35825,9 +35540,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-04-25T01:30:00+00:00", 
-            "description": "Kevin Durant scored 22 points, Russell Westbrook added 18 points and eight assists, and the Oklahoma City Thunder evened their first-round series against the Los Angeles Lakers with a resounding 110-89 victory in Game 4.", 
-            "eventTitle": "Western Conference 1st Round - Game 4", 
-            "game": 4, 
+            "description": "Kevin Durant scored 22 points, Russell Westbrook added 18 points and eight assists, and the Oklahoma City Thunder evened their first-round series against the Los Angeles Lakers with a resounding 110-89 victory in Game 4. Western Conference 1st Round - Game 4", 
             "homeTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "identity": {
                 "ESPNAPIID": "300424025"
@@ -35838,6 +35551,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 4", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35845,7 +35559,7 @@
             "vs": "Oklahoma City Thunder vs. Los Angeles Lakers"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35856,9 +35570,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-04-25T17:00:00+00:00", 
-            "description": "Dwyane Wade set franchise playoff records with 46 points, 30 in the second half, and the Miami Heat staved off elimination by rallying to beat the Boston Celtics 101-92 in Game 4 of their Eastern Conference first-round series Sunday afternoon.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 4", 
-            "game": 4, 
+            "description": "Dwyane Wade set franchise playoff records with 46 points, 30 in the second half, and the Miami Heat staved off elimination by rallying to beat the Boston Celtics 101-92 in Game 4 of their Eastern Conference first-round series Sunday afternoon. Eastern Conference 1st Round - Game 4", 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "300425014"
@@ -35867,6 +35579,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 4", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35874,7 +35587,7 @@
             "vs": "Miami Heat vs. Boston Celtics"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35885,9 +35598,7 @@
             }, 
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2010-04-25T19:30:00+00:00", 
-            "description": "LeBron James had 37 points, 11 assists and 12 rebounds, Antawn Jamison added 24 points and the Cleveland Cavaliers beat the Chicago Bulls 121-98 Sunday afternoon to go up 3-1 in their first-round series.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 4", 
-            "game": 4, 
+            "description": "LeBron James had 37 points, 11 assists and 12 rebounds, Antawn Jamison added 24 points and the Cleveland Cavaliers beat the Chicago Bulls 121-98 Sunday afternoon to go up 3-1 in their first-round series. Eastern Conference 1st Round - Game 4", 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "300425004"
@@ -35896,6 +35607,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 4", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35903,7 +35615,7 @@
             "vs": "Chicago Bulls vs. Cleveland Cavaliers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35914,9 +35626,7 @@
             }, 
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2010-04-25T23:00:00+00:00", 
-            "description": "George Hill scored 29 points and San Antonio beat the Mavs 92-89 on Sunday night to take a 3-1 lead in their first-round series.", 
-            "eventTitle": "Western Conference 1st Round - Game 4", 
-            "game": 4, 
+            "description": "George Hill scored 29 points and San Antonio beat the Mavs 92-89 on Sunday night to take a 3-1 lead in their first-round series. Western Conference 1st Round - Game 4", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "300425024"
@@ -35926,6 +35636,7 @@
                 "TNT", 
                 "FSSW"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 4", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35933,7 +35644,7 @@
             "vs": "San Antonio Spurs vs. Dallas Mavericks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35944,9 +35655,7 @@
             }, 
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2010-04-26T01:30:00+00:00", 
-            "description": "Carlos Boozer had 31 points and 13 rebounds, Deron Williams added 24 points and 13 assists, and the Utah Jazz held off a late charge to beat the Denver Nuggets 117-106 on Sunday night for a 3-1 lead in the Western Conference playoff series.", 
-            "eventTitle": "Western Conference 1st Round - Game 4", 
-            "game": 4, 
+            "description": "Carlos Boozer had 31 points and 13 rebounds, Deron Williams added 24 points and 13 assists, and the Utah Jazz held off a late charge to beat the Denver Nuggets 117-106 on Sunday night for a 3-1 lead in the Western Conference playoff series. Western Conference 1st Round - Game 4", 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "300425026"
@@ -35956,6 +35665,7 @@
                 "TNT", 
                 "FSRM"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 4", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35963,7 +35673,7 @@
             "vs": "Utah Jazz vs. Denver Nuggets"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -35974,9 +35684,7 @@
             }, 
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2010-04-27T00:00:00+00:00", 
-            "description": "Dwight Howard kept collecting fouls, and all the Orlando Magic did was become the first team to advance in the NBA playoffs.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 4", 
-            "game": 4, 
+            "description": "Dwight Howard kept collecting fouls, and all the Orlando Magic did was become the first team to advance in the NBA playoffs. Eastern Conference 1st Round - Game 4", 
             "homeTeam": "21bdfc78-f107-49fe-92aa-50514dd35bfe", 
             "identity": {
                 "ESPNAPIID": "300426030"
@@ -35986,6 +35694,7 @@
                 "TNT", 
                 "FSCR"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 4", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -35993,7 +35702,7 @@
             "vs": "Charlotte Bobcats vs. Orlando Magic"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36004,9 +35713,7 @@
             }, 
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2010-04-27T00:30:00+00:00", 
-            "description": "Carlos Delfino scored 22 points with six 3-pointers and the Milwaukee Bucks pulled off their second straight playoff surprise, beating the Atlanta Hawks 111-104 Monday night to draw even in the first-round series.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 4", 
-            "game": 4, 
+            "description": "Carlos Delfino scored 22 points with six 3-pointers and the Milwaukee Bucks pulled off their second straight playoff surprise, beating the Atlanta Hawks 111-104 Monday night to draw even in the first-round series. Eastern Conference 1st Round - Game 4", 
             "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "identity": {
                 "ESPNAPIID": "300426015"
@@ -36015,8 +35722,9 @@
             "networks": [
                 "FSWI", 
                 "FSS", 
-                "NBATV"
+                "NBA TV"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 4", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36024,7 +35732,7 @@
             "vs": "Milwaukee Bucks vs. Atlanta Hawks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 5", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36035,9 +35743,7 @@
             }, 
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2010-04-27T02:30:00+00:00", 
-            "description": "The Phoenix Suns overcame an early 14-point deficit to rout the Portland Trail Blazers 107-88 on Monday night and take a 3-2 lead in their first-round playoff series.", 
-            "eventTitle": "Western Conference 1st Round - Game 5", 
-            "game": 5, 
+            "description": "The Phoenix Suns overcame an early 14-point deficit to rout the Portland Trail Blazers 107-88 on Monday night and take a 3-2 lead in their first-round playoff series. Western Conference 1st Round - Game 5", 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "300426021"
@@ -36048,6 +35754,7 @@
                 "KGW", 
                 "FSAZHD"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 5", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36055,7 +35762,7 @@
             "vs": "Phoenix Suns vs. Portland Trail Blazers"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 5", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36066,9 +35773,7 @@
             }, 
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2010-04-27T23:00:00+00:00", 
-            "description": "The Boston Celtics are heading to the second round of the NBA playoffs and a potential matchup with LeBron James and the Cleveland Cavaliers.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 5", 
-            "game": 5, 
+            "description": "The Boston Celtics are heading to the second round of the NBA playoffs and a potential matchup with LeBron James and the Cleveland Cavaliers. Eastern Conference 1st Round - Game 5", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300427002"
@@ -36076,8 +35781,9 @@
             "league": "NBA", 
             "networks": [
                 "CSNN", 
-                "NBATV"
+                "NBA TV"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 5", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36085,7 +35791,7 @@
             "vs": "Boston Celtics vs. Miami Heat"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 5", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36096,9 +35802,7 @@
             }, 
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2010-04-28T00:00:00+00:00", 
-            "description": "Antawn Jamison scored 25 points, LeBron James just missed a triple-double and the Cleveland Cavaliers advanced to a playoff date with Boston by beating Chicago 96-94 in Game 5 on Tuesday night in perhaps Vinny Del Negro's final game as Bulls coach.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 5", 
-            "game": 5, 
+            "description": "Antawn Jamison scored 25 points, LeBron James just missed a triple-double and the Cleveland Cavaliers advanced to a playoff date with Boston by beating Chicago 96-94 in Game 5 on Tuesday night in perhaps Vinny Del Negro's final game as Bulls coach. Eastern Conference 1st Round - Game 5", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "300427005"
@@ -36109,6 +35813,7 @@
                 "FSOHHD", 
                 "CSNC"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 5", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36116,7 +35821,7 @@
             "vs": "Cleveland Cavaliers vs. Chicago Bulls"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 5", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36127,9 +35832,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2010-04-28T01:30:00+00:00", 
-            "description": "Caron Butler and Brendan Haywood gave the Dallas Mavericks the energy, toughness and scoring they needed -- in other words, everything the Mavs expected when they traded for them a few months ago.", 
-            "eventTitle": "Western Conference 1st Round - Game 5", 
-            "game": 5, 
+            "description": "Caron Butler and Brendan Haywood gave the Dallas Mavericks the energy, toughness and scoring they needed -- in other words, everything the Mavs expected when they traded for them a few months ago. Western Conference 1st Round - Game 5", 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "300427006"
@@ -36138,8 +35841,9 @@
             "networks": [
                 "KTXA", 
                 "FSSW", 
-                "NBATV"
+                "NBA TV"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 5", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36147,7 +35851,7 @@
             "vs": "Dallas Mavericks vs. San Antonio Spurs"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 5", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36158,9 +35862,7 @@
             }, 
             "awayTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "date": "2010-04-28T02:30:00+00:00", 
-            "description": "Lakers 111, Thunder 87", 
-            "eventTitle": "Western Conference 1st Round - Game 5", 
-            "game": 5, 
+            "description": "Lakers 111, Thunder 87, Western Conference 1st Round - Game 5", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300427013"
@@ -36170,6 +35872,7 @@
                 "TNT", 
                 "FSW"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 5", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36177,7 +35880,7 @@
             "vs": "Los Angeles Lakers vs. Oklahoma City Thunder"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 5", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36188,9 +35891,7 @@
             }, 
             "awayTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "date": "2010-04-29T00:00:00+00:00", 
-            "description": "With Andrew Bogut cheering from the bench while Brandon Jennings teamed with Kurt Thomas in a duo for the ages, the Milwaukee Bucks pulled within one win of an improbable first-round upset.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 5", 
-            "game": 5, 
+            "description": "With Andrew Bogut cheering from the bench while Brandon Jennings teamed with Kurt Thomas in a duo for the ages, the Milwaukee Bucks pulled within one win of an improbable first-round upset. Eastern Conference 1st Round - Game 5", 
             "homeTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "identity": {
                 "ESPNAPIID": "300428001"
@@ -36200,6 +35901,7 @@
                 "TNT", 
                 "FSS"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 5", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36207,7 +35909,7 @@
             "vs": "Atlanta Hawks vs. Milwaukee Bucks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 5", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36218,9 +35920,7 @@
             }, 
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2010-04-29T02:30:00+00:00", 
-            "description": "The Denver Nuggets avoided elimination with a 116-102 victory over the Utah Jazz on Wednesday night.", 
-            "eventTitle": "Western Conference 1st Round - Game 5", 
-            "game": 5, 
+            "description": "The Denver Nuggets avoided elimination with a 116-102 victory over the Utah Jazz on Wednesday night. Western Conference 1st Round - Game 5", 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "300428007"
@@ -36232,6 +35932,7 @@
                 "FSRM", 
                 "ESPNM"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 5", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36239,7 +35940,7 @@
             "vs": "Denver Nuggets vs. Utah Jazz"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 6", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36250,9 +35951,7 @@
             }, 
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2010-04-30T00:00:00+00:00", 
-            "description": "Manu Ginobili scored 26 points and San Antonio survived blowing a 22-point lead to beat the Mavericks 97-87 in Game 6 on Thursday night, handing Dirk Nowitzki and second-seeded Dallas another first-round exit.", 
-            "eventTitle": "Western Conference 1st Round - Game 6", 
-            "game": 6, 
+            "description": "Manu Ginobili scored 26 points and San Antonio survived blowing a 22-point lead to beat the Mavericks 97-87 in Game 6 on Thursday night, handing Dirk Nowitzki and second-seeded Dallas another first-round exit. Western Conference 1st Round - Game 6", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "300429024"
@@ -36263,6 +35962,7 @@
                 "TNT", 
                 "FSSW"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 6", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36270,7 +35970,7 @@
             "vs": "San Antonio Spurs vs. Dallas Mavericks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 6", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36281,9 +35981,7 @@
             }, 
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2010-04-30T02:30:00+00:00", 
-            "description": "Jason Richardson scored 28 points, including five 3-pointers, and the Phoenix Suns advanced to the second round of the playoffs with a 99-90 victory over the Portland Trail Blazers in Game 6 on Thursday night.", 
-            "eventTitle": "Western Conference 1st Round - Game 6", 
-            "game": 6, 
+            "description": "Jason Richardson scored 28 points, including five 3-pointers, and the Phoenix Suns advanced to the second round of the playoffs with a 99-90 victory over the Portland Trail Blazers in Game 6 on Thursday night. Western Conference 1st Round - Game 6", 
             "homeTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "identity": {
                 "ESPNAPIID": "300429022"
@@ -36295,6 +35993,7 @@
                 "KGW", 
                 "ESPNM"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 6", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36302,7 +36001,7 @@
             "vs": "Portland Trail Blazers vs. Phoenix Suns"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 6", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36313,9 +36012,7 @@
             }, 
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2010-04-30T23:00:00+00:00", 
-            "description": "Jamal Crawford broke out of a slump with 24 points, Joe Johnson added 22 points and the Atlanta Hawks beat the Milwaukee Bucks 83-69 on Friday night to force a seventh game in the first-round series.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 6", 
-            "game": 6, 
+            "description": "Jamal Crawford broke out of a slump with 24 points, Joe Johnson added 22 points and the Atlanta Hawks beat the Milwaukee Bucks 83-69 on Friday night to force a seventh game in the first-round series. Eastern Conference 1st Round - Game 6", 
             "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "identity": {
                 "ESPNAPIID": "300430015"
@@ -36327,6 +36024,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 6", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36334,7 +36032,7 @@
             "vs": "Milwaukee Bucks vs. Atlanta Hawks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 6", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36345,9 +36043,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-05-01T01:30:00+00:00", 
-            "description": "Pau Gasol tipped in a missed jumper by Kobe Bryant with a half-second left and the Los Angeles Lakers survived a late comeback effort by Oklahoma City and eliminated the Thunder 95-94 in Game 6 of the first-round playoff series on Friday night.", 
-            "eventTitle": "Western Conference 1st Round - Game 6", 
-            "game": 6, 
+            "description": "Pau Gasol tipped in a missed jumper by Kobe Bryant with a half-second left and the Los Angeles Lakers survived a late comeback effort by Oklahoma City and eliminated the Thunder 95-94 in Game 6 of the first-round playoff series on Friday night. Western Conference 1st Round - Game 6", 
             "homeTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "identity": {
                 "ESPNAPIID": "300430025"
@@ -36358,6 +36054,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 6", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36365,7 +36062,7 @@
             "vs": "Oklahoma City Thunder vs. Los Angeles Lakers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE 1st ROUND - GAME 6", 
+            "altDescription": "WESTERN CONFERENCE 1st ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36376,9 +36073,7 @@
             }, 
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2010-05-01T02:00:00+00:00", 
-            "description": "Carlos Boozer had 22 points and 20 rebounds, rookie Wesley Matthews scored 23 and made a key block, and Utah pulled away late in the fourth quarter and beat the Denver Nuggets 112-104 on Friday night, winning the playoff series in six games.", 
-            "eventTitle": "Western Conference 1st Round - Game 6", 
-            "game": 6, 
+            "description": "Carlos Boozer had 22 points and 20 rebounds, rookie Wesley Matthews scored 23 and made a key block, and Utah pulled away late in the fourth quarter and beat the Denver Nuggets 112-104 on Friday night, winning the playoff series in six games. Western Conference 1st Round - Game 6", 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "300430026"
@@ -36389,6 +36084,7 @@
                 "ALT", 
                 "FSRM"
             ], 
+            "notes": "WESTERN CONFERENCE 1st ROUND - GAME 6", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36396,7 +36092,7 @@
             "vs": "Utah Jazz vs. Denver Nuggets"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE SEMIFINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36407,9 +36103,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-05-02T00:00:00+00:00", 
-            "description": "LeBron James scored 35 points and Mo Williams added 20 as the Cleveland Cavaliers stormed back in the second half to beat the Boston Celtics 101-93 on Saturday night in Game 1 of their Eastern Conference semifinal series.", 
-            "eventTitle": "Eastern Conference Semifinals - Game 1", 
-            "game": 1, 
+            "description": "LeBron James scored 35 points and Mo Williams added 20 as the Cleveland Cavaliers stormed back in the second half to beat the Boston Celtics 101-93 on Saturday night in Game 1 of their Eastern Conference semifinal series. Eastern Conference Semifinals - Game 1", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "300501005"
@@ -36419,6 +36113,7 @@
                 "TNT", 
                 "FSOHHD"
             ], 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 1", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36426,7 +36121,7 @@
             "vs": "Cleveland Cavaliers vs. Boston Celtics"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE 1st ROUND - GAME 7", 
+            "altDescription": "EASTERN CONFERENCE 1st ROUND - GAME 7", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36437,9 +36132,7 @@
             }, 
             "awayTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "date": "2010-05-02T17:00:00+00:00", 
-            "description": "Jamal Crawford scored 22 points, Al Horford put up a double-double and Atlanta pulled away for a 95-74 win Sunday that gave the Hawks a 4-3 triumph in the tougher-than-expected series. It was the only series to go the distance in the opening round.", 
-            "eventTitle": "Eastern Conference 1st Round - Game 7", 
-            "game": 7, 
+            "description": "Jamal Crawford scored 22 points, Al Horford put up a double-double and Atlanta pulled away for a 95-74 win Sunday that gave the Hawks a 4-3 triumph in the tougher-than-expected series. It was the only series to go the distance in the opening round. Eastern Conference 1st Round - Game 7", 
             "homeTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "identity": {
                 "ESPNAPIID": "300502001"
@@ -36448,6 +36141,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "EASTERN CONFERENCE 1st ROUND - GAME 7", 
             "playoffround": 1, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36455,7 +36149,7 @@
             "vs": "Atlanta Hawks vs. Milwaukee Bucks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE SEMIFINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36466,9 +36160,7 @@
             }, 
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2010-05-02T19:30:00+00:00", 
-            "description": "Kobe Bryant scored 11 of his 31 points in the final four minutes, and the Los Angeles Lakers blew a fourth-quarter lead before rallying for a 104-99 victory over the Utah Jazz in their second-round playoff series opener Sunday.", 
-            "eventTitle": "Western Conference Semifinals - Game 1", 
-            "game": 1, 
+            "description": "Kobe Bryant scored 11 of his 31 points in the final four minutes, and the Los Angeles Lakers blew a fourth-quarter lead before rallying for a 104-99 victory over the Utah Jazz in their second-round playoff series opener Sunday. Western Conference Semifinals - Game 1", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300502013"
@@ -36477,6 +36169,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 1", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36484,7 +36177,7 @@
             "vs": "Los Angeles Lakers vs. Utah Jazz"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE SEMIFINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36495,9 +36188,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-05-04T00:00:00+00:00", 
-            "description": "Rajon Rondo tied a team playoff record with 19 assists, Ray Allen scored 22 points and the Celtics, showing they're still very dangerous despite their years, opened a 25-point lead in the fourth and then survived Cleveland's comeback for a 104-86 win.", 
-            "eventTitle": "Eastern Conference Semifinals - Game 2", 
-            "game": 2, 
+            "description": "Rajon Rondo tied a team playoff record with 19 assists, Ray Allen scored 22 points and the Celtics, showing they're still very dangerous despite their years, opened a 25-point lead in the fourth and then survived Cleveland's comeback for a 104-86 win. Eastern Conference Semifinals - Game 2", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "300503005"
@@ -36506,6 +36197,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 2", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36513,7 +36205,7 @@
             "vs": "Cleveland Cavaliers vs. Boston Celtics"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE SEMIFINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36524,9 +36216,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2010-05-04T02:30:00+00:00", 
-            "description": "Steve Nash had 33 points and 10 assists, and the Suns fought off third- and fourth-quarter rallies to beat the Spurs 111-102 Monday night in the opener of their Western Conference semifinal series.", 
-            "eventTitle": "Western Conference Semifinals - Game 1", 
-            "game": 1, 
+            "description": "Steve Nash had 33 points and 10 assists, and the Suns fought off third- and fourth-quarter rallies to beat the Spurs 111-102 Monday night in the opener of their Western Conference semifinal series. Western Conference Semifinals - Game 1", 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "300503021"
@@ -36535,6 +36225,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 1", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36542,7 +36233,7 @@
             "vs": "Phoenix Suns vs. San Antonio Spurs"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE SEMIFINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36553,9 +36244,7 @@
             }, 
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2010-05-05T00:00:00+00:00", 
-            "description": "The Orlando Magic showed they could survive with Dwight Howard in chronic foul trouble. With him on the floor, they looked dominant.", 
-            "eventTitle": "Eastern Conference Semifinals - Game 1", 
-            "game": 1, 
+            "description": "The Orlando Magic showed they could survive with Dwight Howard in chronic foul trouble. With him on the floor, they looked dominant. Eastern Conference Semifinals - Game 1", 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "300504019"
@@ -36564,6 +36253,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 1", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36571,7 +36261,7 @@
             "vs": "Orlando Magic vs. Atlanta Hawks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE SEMIFINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36582,9 +36272,7 @@
             }, 
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2010-05-05T02:30:00+00:00", 
-            "description": "Kobe Bryant scored 30 points, Pau Gasol added 22 points and 15 rebounds, and the Los Angeles Lakers methodically pounded the ball inside for a no-nonsense 111-103 victory over the Utah Jazz on Tuesday night.", 
-            "eventTitle": "Western Conference Semifinals - Game 2", 
-            "game": 2, 
+            "description": "Kobe Bryant scored 30 points, Pau Gasol added 22 points and 15 rebounds, and the Los Angeles Lakers methodically pounded the ball inside for a no-nonsense 111-103 victory over the Utah Jazz on Tuesday night. Western Conference Semifinals - Game 2", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300504013"
@@ -36593,6 +36281,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 2", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36600,7 +36289,7 @@
             "vs": "Los Angeles Lakers vs. Utah Jazz"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE SEMIFINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36611,9 +36300,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2010-05-06T01:00:00+00:00", 
-            "description": "Amare Stoudemire had 23 points and 11 rebounds, Channing Frye made 5 of 6 3-pointers, and Phoenix, wearing its orange \"Los Suns\" jerseys in part to protest Arizona's new anti-immigration law, pulled away for a 110-102 victory over the San Antonio Spurs.", 
-            "eventTitle": "Western Conference Semifinals - Game 2", 
-            "game": 2, 
+            "description": "Amare Stoudemire had 23 points and 11 rebounds, Channing Frye made 5 of 6 3-pointers, and Phoenix, wearing its orange \"Los Suns\" jerseys in part to protest Arizona's new anti-immigration law, pulled away for a 110-102 victory over the San Antonio Spurs. Western Conference Semifinals - Game 2", 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "300505021"
@@ -36622,6 +36309,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 2", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36629,7 +36317,7 @@
             "vs": "Phoenix Suns vs. San Antonio Spurs"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE SEMIFINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36640,9 +36328,7 @@
             }, 
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2010-05-07T00:00:00+00:00", 
-            "description": "Dwight Howard came back from a bloody nose to finish with 29 points and 17 rebounds, and the Magic beat the Atlanta Hawks 112-98 on Thursday night to take a 2-0 lead in the Eastern Conference semifinal series.", 
-            "eventTitle": "Eastern Conference Semifinals - Game 2", 
-            "game": 2, 
+            "description": "Dwight Howard came back from a bloody nose to finish with 29 points and 17 rebounds, and the Magic beat the Atlanta Hawks 112-98 on Thursday night to take a 2-0 lead in the Eastern Conference semifinal series. Eastern Conference Semifinals - Game 2", 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "300506019"
@@ -36652,6 +36338,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 2", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36659,7 +36346,7 @@
             "vs": "Orlando Magic vs. Atlanta Hawks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE SEMIFINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36670,9 +36357,7 @@
             }, 
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2010-05-07T23:00:00+00:00", 
-            "description": "LeBron James scored 21 of his 38 points in the first quarter to help the Cleveland Cavaliers beat Boston 124-95 on Friday night, handing the Celtics their worst home playoff loss ever and taking a 2-1 lead in the Eastern Conference semifinals.", 
-            "eventTitle": "Eastern Conference Semifinals - Game 3", 
-            "game": 3, 
+            "description": "LeBron James scored 21 of his 38 points in the first quarter to help the Cleveland Cavaliers beat Boston 124-95 on Friday night, handing the Celtics their worst home playoff loss ever and taking a 2-1 lead in the Eastern Conference semifinals. Eastern Conference Semifinals - Game 3", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300507002"
@@ -36682,6 +36367,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 3", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36689,7 +36375,7 @@
             "vs": "Boston Celtics vs. Cleveland Cavaliers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE SEMIFINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36700,9 +36386,7 @@
             }, 
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2010-05-08T01:30:00+00:00", 
-            "description": "Goran Dragic scored 23 of his 26 points in the fourth quarter and the Suns took a stunning 3-0 lead over San Antonio in the Western Conference semifinals with a 110-96 on Friday night, putting the Spurs in a historically irreparable hole.", 
-            "eventTitle": "Western Conference Semifinals - Game 3", 
-            "game": 3, 
+            "description": "Goran Dragic scored 23 of his 26 points in the fourth quarter and the Suns took a stunning 3-0 lead over San Antonio in the Western Conference semifinals with a 110-96 on Friday night, putting the Spurs in a historically irreparable hole. Western Conference Semifinals - Game 3", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "300507024"
@@ -36712,6 +36396,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 3", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36719,7 +36404,7 @@
             "vs": "San Antonio Spurs vs. Phoenix Suns"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE SEMIFINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36730,9 +36415,7 @@
             }, 
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2010-05-08T21:00:00+00:00", 
-            "description": "Rashard Lewis scored 22 points and the backups helped Orlando pull away early with Howard on the bench as the Magic romped to another playoff blowout, moving to the brink of their second straight sweep with a 105-75 victory over the Hawks on Saturday.", 
-            "eventTitle": "Eastern Conference Semifinals - Game 3", 
-            "game": 3, 
+            "description": "Rashard Lewis scored 22 points and the backups helped Orlando pull away early with Howard on the bench as the Magic romped to another playoff blowout, moving to the brink of their second straight sweep with a 105-75 victory over the Hawks on Saturday. Eastern Conference Semifinals - Game 3", 
             "homeTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "identity": {
                 "ESPNAPIID": "300508001"
@@ -36742,6 +36425,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 3", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36749,7 +36433,7 @@
             "vs": "Atlanta Hawks vs. Orlando Magic"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE SEMIFINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36760,9 +36444,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-05-09T00:00:00+00:00", 
-            "description": "Kobe Bryant and Derek Fisher hit back-to-back 3-pointers during an 8-2 run in the final minute and the Lakers held on for a 111-110 victory over the Utah Jazz that put Los Angeles on the verge of clinching the Western Conference playoff series.", 
-            "eventTitle": "Western Conference Semifinals - Game 3", 
-            "game": 3, 
+            "description": "Kobe Bryant and Derek Fisher hit back-to-back 3-pointers during an 8-2 run in the final minute and the Lakers held on for a 111-110 victory over the Utah Jazz that put Los Angeles on the verge of clinching the Western Conference playoff series. Western Conference Semifinals - Game 3", 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "300508026"
@@ -36771,6 +36453,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 3", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36778,7 +36461,7 @@
             "vs": "Utah Jazz vs. Los Angeles Lakers"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE SEMIFINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36789,9 +36472,7 @@
             }, 
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2010-05-09T19:30:00+00:00", 
-            "description": "Rajon Rondo had 29 points, 18 rebounds and 13 assists, and the Boston Celtics beat the Cleveland Cavaliers 97-87 on Sunday to even the Eastern Conference semifinals at two games apiece.", 
-            "eventTitle": "Eastern Conference Semifinals - Game 4", 
-            "game": 4, 
+            "description": "Rajon Rondo had 29 points, 18 rebounds and 13 assists, and the Boston Celtics beat the Cleveland Cavaliers 97-87 on Sunday to even the Eastern Conference semifinals at two games apiece. Eastern Conference Semifinals - Game 4", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300509002"
@@ -36800,6 +36481,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 4", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36807,7 +36489,7 @@
             "vs": "Boston Celtics vs. Cleveland Cavaliers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE SEMIFINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36818,9 +36500,7 @@
             }, 
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2010-05-10T00:00:00+00:00", 
-            "description": "Steve Nash scored 20 points and played with a right eye that was swollen shut as Phoenix swept San Antonio from the Western Conference semifinals with a 107-101 win Sunday night.", 
-            "eventTitle": "Western Conference Semifinals - Game 4", 
-            "game": 4, 
+            "description": "Steve Nash scored 20 points and played with a right eye that was swollen shut as Phoenix swept San Antonio from the Western Conference semifinals with a 107-101 win Sunday night. Western Conference Semifinals - Game 4", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "300509024"
@@ -36829,6 +36509,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 4", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36836,7 +36517,7 @@
             "vs": "San Antonio Spurs vs. Phoenix Suns"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE SEMIFINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36847,9 +36528,7 @@
             }, 
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2010-05-11T00:00:00+00:00", 
-            "description": "The Orlando Magic are playing like a team that will settle for nothing less than its first NBA championship.", 
-            "eventTitle": "Eastern Conference Semifinals - Game 4", 
-            "game": 4, 
+            "description": "The Orlando Magic are playing like a team that will settle for nothing less than its first NBA championship. Eastern Conference Semifinals - Game 4", 
             "homeTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "identity": {
                 "ESPNAPIID": "300510001"
@@ -36858,6 +36537,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 4", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36865,7 +36545,7 @@
             "vs": "Atlanta Hawks vs. Orlando Magic"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE SEMIFINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36876,9 +36556,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-05-11T02:30:00+00:00", 
-            "description": "Kobe Bryant scored 32 points, Pau Gasol added 33 points and 14 rebounds, and the Los Angeles Lakers completed a four-game sweep of the Utah Jazz with a 111-96 victory on Monday night, advancing to the Western Conference finals for the third straight year.", 
-            "eventTitle": "Western Conference Semifinals - Game 4", 
-            "game": 4, 
+            "description": "Kobe Bryant scored 32 points, Pau Gasol added 33 points and 14 rebounds, and the Los Angeles Lakers completed a four-game sweep of the Utah Jazz with a 111-96 victory on Monday night, advancing to the Western Conference finals for the third straight year. Western Conference Semifinals - Game 4", 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "300510026"
@@ -36887,6 +36565,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 4", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36894,7 +36573,7 @@
             "vs": "Utah Jazz vs. Los Angeles Lakers"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 5", 
+            "altDescription": "EASTERN CONFERENCE SEMIFINALS - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36905,9 +36584,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-05-12T00:00:00+00:00", 
-            "description": "The Boston Celtics have put the Cleveland Cavaliers dangerously close to an early start to the Summer of LeBron.", 
-            "eventTitle": "Eastern Conference Semifinals - Game 5", 
-            "game": 5, 
+            "description": "The Boston Celtics have put the Cleveland Cavaliers dangerously close to an early start to the Summer of LeBron. Eastern Conference Semifinals - Game 5", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "300511005"
@@ -36916,6 +36593,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 5", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36923,7 +36601,7 @@
             "vs": "Cleveland Cavaliers vs. Boston Celtics"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 6", 
+            "altDescription": "EASTERN CONFERENCE SEMIFINALS - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36934,9 +36612,7 @@
             }, 
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2010-05-14T00:00:00+00:00", 
-            "description": "The Boston Celtics advanced to the Eastern Conference finals with a 94-85 victory over Cleveland in Game 6 on Thursday night, sending LeBron James and the Cavaliers into an early offseason destined to define the future of the franchise.", 
-            "eventTitle": "Eastern Conference Semifinals - Game 6", 
-            "game": 6, 
+            "description": "The Boston Celtics advanced to the Eastern Conference finals with a 94-85 victory over Cleveland in Game 6 on Thursday night, sending LeBron James and the Cavaliers into an early offseason destined to define the future of the franchise. Eastern Conference Semifinals - Game 6", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300513002"
@@ -36946,6 +36622,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 6", 
             "playoffround": 2, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36953,7 +36630,7 @@
             "vs": "Boston Celtics vs. Cleveland Cavaliers"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FINALS - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE FINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36964,9 +36641,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-05-16T19:30:00+00:00", 
-            "description": "Ray Allen scored 25 points, Paul Pierce had 22 and the Boston Celtics used smothering defense to beat the Magic 92-88 on Sunday in the Eastern Conference finals opener.", 
-            "eventTitle": "Eastern Conference Finals - Game 1", 
-            "game": 1, 
+            "description": "Ray Allen scored 25 points, Paul Pierce had 22 and the Boston Celtics used smothering defense to beat the Magic 92-88 on Sunday in the Eastern Conference finals opener. Eastern Conference Finals - Game 1", 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "300516019"
@@ -36975,6 +36650,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 1", 
             "playoffround": 3, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -36982,7 +36658,7 @@
             "vs": "Orlando Magic vs. Boston Celtics"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FINALS - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE FINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36993,9 +36669,7 @@
             }, 
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2010-05-18T01:00:00+00:00", 
-            "description": "Kobe Bryant scored 40 points, Lamar Odom added 19 points and 19 rebounds, and the Los Angeles Lakers opened the Western Conference finals with ruthless offensive efficiency in a 128-107 victory over the Phoenix Suns on Monday night.", 
-            "eventTitle": "Western Conference Finals - Game 1", 
-            "game": 1, 
+            "description": "Kobe Bryant scored 40 points, Lamar Odom added 19 points and 19 rebounds, and the Los Angeles Lakers opened the Western Conference finals with ruthless offensive efficiency in a 128-107 victory over the Phoenix Suns on Monday night. Western Conference Finals - Game 1", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300517013"
@@ -37004,6 +36678,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 1", 
             "playoffround": 3, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37011,7 +36686,7 @@
             "vs": "Los Angeles Lakers vs. Phoenix Suns"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FINALS - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE FINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37022,9 +36697,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-05-19T00:30:00+00:00", 
-            "description": "Paul Pierce scored 28 points, Rajon Rondo had 25 and the Boston Celtics again avoided a late collapse to take a commanding lead in the Eastern Conference finals with a 95-92 victory over the Orlando Magic on Tuesday night.", 
-            "eventTitle": "Eastern Conference Finals - Game 2", 
-            "game": 2, 
+            "description": "Paul Pierce scored 28 points, Rajon Rondo had 25 and the Boston Celtics again avoided a late collapse to take a commanding lead in the Eastern Conference finals with a 95-92 victory over the Orlando Magic on Tuesday night. Eastern Conference Finals - Game 2", 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "300518019"
@@ -37034,6 +36707,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 2", 
             "playoffround": 3, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37041,7 +36715,7 @@
             "vs": "Orlando Magic vs. Boston Celtics"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FINALS - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE FINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37052,9 +36726,7 @@
             }, 
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2010-05-20T01:00:00+00:00", 
-            "description": "Pau Gasol scored 14 of his 29 points in the fourth quarter, Kobe Bryant had 21 points and 13 assists, and the Los Angeles Lakers roared away in the final minutes for a 124-112 victory over the Phoenix Suns on Wednesday night.", 
-            "eventTitle": "Western Conference Finals - Game 2", 
-            "game": 2, 
+            "description": "Pau Gasol scored 14 of his 29 points in the fourth quarter, Kobe Bryant had 21 points and 13 assists, and the Los Angeles Lakers roared away in the final minutes for a 124-112 victory over the Phoenix Suns on Wednesday night. Western Conference Finals - Game 2", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300519013"
@@ -37063,6 +36735,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 2", 
             "playoffround": 3, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37070,7 +36743,7 @@
             "vs": "Los Angeles Lakers vs. Phoenix Suns"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FINALS - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE FINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37081,9 +36754,7 @@
             }, 
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2010-05-23T00:30:00+00:00", 
-            "description": "Backup Glen \"Big Baby\" Davis scored 17 points and Rajon Rondo added 11 points and 12 assists on Saturday night to lead the Celtics to a 94-71 victory over the Orlando Magic and a 3-0 lead in the best-of-seven East finals.", 
-            "eventTitle": "Eastern Conference Finals - Game 3", 
-            "game": 3, 
+            "description": "Backup Glen \"Big Baby\" Davis scored 17 points and Rajon Rondo added 11 points and 12 assists on Saturday night to lead the Celtics to a 94-71 victory over the Orlando Magic and a 3-0 lead in the best-of-seven East finals. Eastern Conference Finals - Game 3", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300522002"
@@ -37093,6 +36764,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 3", 
             "playoffround": 3, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37100,7 +36772,7 @@
             "vs": "Boston Celtics vs. Orlando Magic"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FINALS - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE FINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37111,9 +36783,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-05-24T00:30:00+00:00", 
-            "description": "Amare Stoudemire matched his career playoff high with 42 points, 29 in the second half, and grabbed 11 rebounds to power the Phoenix Suns to a 118-109 victory Sunday night that cut the Los Angeles Lakers' lead in the series to 2-1.", 
-            "eventTitle": "Western Conference Finals - Game 3", 
-            "game": 3, 
+            "description": "Amare Stoudemire matched his career playoff high with 42 points, 29 in the second half, and grabbed 11 rebounds to power the Phoenix Suns to a 118-109 victory Sunday night that cut the Los Angeles Lakers' lead in the series to 2-1. Western Conference Finals - Game 3", 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "300523021"
@@ -37122,6 +36792,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 3", 
             "playoffround": 3, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37129,7 +36800,7 @@
             "vs": "Phoenix Suns vs. Los Angeles Lakers"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FINALS - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE FINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37140,9 +36811,7 @@
             }, 
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2010-05-25T00:30:00+00:00", 
-            "description": "Jameer Nelson made back-to-back 3-pointers in overtime, Dwight Howard had 32 points and 16 rebounds, and the Orlando Magic beat the Boston Celtics 96-92 on Monday night to avoid a four-game sweep in the Eastern Conference finals.", 
-            "eventTitle": "Eastern Conference Finals - Game 4", 
-            "game": 4, 
+            "description": "Jameer Nelson made back-to-back 3-pointers in overtime, Dwight Howard had 32 points and 16 rebounds, and the Orlando Magic beat the Boston Celtics 96-92 on Monday night to avoid a four-game sweep in the Eastern Conference finals. Eastern Conference Finals - Game 4", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300524002"
@@ -37152,6 +36821,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 4", 
             "playoffround": 3, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37159,7 +36829,7 @@
             "vs": "Boston Celtics vs. Orlando Magic"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FINALS - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE FINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37170,9 +36840,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-05-26T01:00:00+00:00", 
-            "description": "Channing Frye broke out of a horrendous shooting slump by making four 3-pointers for 14 points, and the Suns pulled away in the fourth quarter for the second game in a row to beat the Los Angeles Lakers 115-106 on Tuesday night.", 
-            "eventTitle": "Western Conference Finals - Game 4", 
-            "game": 4, 
+            "description": "Channing Frye broke out of a horrendous shooting slump by making four 3-pointers for 14 points, and the Suns pulled away in the fourth quarter for the second game in a row to beat the Los Angeles Lakers 115-106 on Tuesday night. Western Conference Finals - Game 4", 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "300525021"
@@ -37181,6 +36849,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 4", 
             "playoffround": 3, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37188,7 +36857,7 @@
             "vs": "Phoenix Suns vs. Los Angeles Lakers"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FINALS - GAME 5", 
+            "altDescription": "EASTERN CONFERENCE FINALS - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37199,9 +36868,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-05-27T00:30:00+00:00", 
-            "description": "Taking another step toward overcoming an improbable 3-0 series deficit, Dwight Howard had 21 points and 10 rebounds to lead the Magic to a 113-92 victory over the Celtics on Wednesday night in Game 5 of the Eastern Conference finals.", 
-            "eventTitle": "Eastern Conference Finals - Game 5", 
-            "game": 5, 
+            "description": "Taking another step toward overcoming an improbable 3-0 series deficit, Dwight Howard had 21 points and 10 rebounds to lead the Magic to a 113-92 victory over the Celtics on Wednesday night in Game 5 of the Eastern Conference finals. Eastern Conference Finals - Game 5", 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "300526019"
@@ -37211,6 +36878,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 5", 
             "playoffround": 3, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37218,7 +36886,7 @@
             "vs": "Orlando Magic vs. Boston Celtics"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FINALS - GAME 5", 
+            "altDescription": "WESTERN CONFERENCE FINALS - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37229,9 +36897,7 @@
             }, 
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2010-05-28T01:00:00+00:00", 
-            "description": "Ron Artest beat the buzzer with a wild bank shot after rebounding Kobe Bryant's miss, and the Los Angeles Lakers beat the Phoenix Suns 103-101 on Thursday night to take a 3-2 lead in the Western Conference finals.", 
-            "eventTitle": "Western Conference Finals - Game 5", 
-            "game": 5, 
+            "description": "Ron Artest beat the buzzer with a wild bank shot after rebounding Kobe Bryant's miss, and the Los Angeles Lakers beat the Phoenix Suns 103-101 on Thursday night to take a 3-2 lead in the Western Conference finals. Western Conference Finals - Game 5", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300527013"
@@ -37240,6 +36906,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 5", 
             "playoffround": 3, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37247,7 +36914,7 @@
             "vs": "Los Angeles Lakers vs. Phoenix Suns"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FINALS - GAME 6", 
+            "altDescription": "EASTERN CONFERENCE FINALS - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37258,9 +36925,7 @@
             }, 
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2010-05-29T00:30:00+00:00", 
-            "description": "The NBA's most-decorated team avoided the biggest playoff collapse in league history and earned a chance to hang an unprecedented 18th championship banner from the rafters.", 
-            "eventTitle": "Eastern Conference Finals - Game 6", 
-            "game": 6, 
+            "description": "The NBA's most-decorated team avoided the biggest playoff collapse in league history and earned a chance to hang an unprecedented 18th championship banner from the rafters. Eastern Conference Finals - Game 6", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300528002"
@@ -37270,6 +36935,7 @@
                 "ESPNM", 
                 "ESPN"
             ], 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 6", 
             "playoffround": 3, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37277,7 +36943,7 @@
             "vs": "Boston Celtics vs. Orlando Magic"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FINALS - GAME 6", 
+            "altDescription": "WESTERN CONFERENCE FINALS - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37288,9 +36954,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-05-30T00:30:00+00:00", 
-            "description": "Kobe Bryant wrapped up a magnificent series with 37 points, Ron Artest added 25 and the Lakers held off the Phoenix Suns 111-103 on Saturday night to win the Western Conference finals 4-2.", 
-            "eventTitle": "Western Conference Finals - Game 6", 
-            "game": 6, 
+            "description": "Kobe Bryant wrapped up a magnificent series with 37 points, Ron Artest added 25 and the Lakers held off the Phoenix Suns 111-103 on Saturday night to win the Western Conference finals 4-2. Western Conference Finals - Game 6", 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "300529021"
@@ -37299,6 +36963,7 @@
             "networks": [
                 "TNT"
             ], 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 6", 
             "playoffround": 3, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37306,7 +36971,7 @@
             "vs": "Phoenix Suns vs. Los Angeles Lakers"
         }, 
         {
-            "altTitle": "NBA FINALS - GAME 1", 
+            "altDescription": "NBA FINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37317,9 +36982,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-06-04T01:00:00+00:00", 
-            "description": "Kobe Bryant scored 30 points, Pau Gasol had 23 points and 14 rebounds, and the Los Angeles Lakers got tough in a 102-89 victory over the Boston Celtics in the NBA Finals opener Thursday night.", 
-            "eventTitle": "NBA Finals - Game 1", 
-            "game": 1, 
+            "description": "Kobe Bryant scored 30 points, Pau Gasol had 23 points and 14 rebounds, and the Los Angeles Lakers got tough in a 102-89 victory over the Boston Celtics in the NBA Finals opener Thursday night. NBA Finals - Game 1", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300603013"
@@ -37328,6 +36991,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "NBA FINALS - GAME 1", 
             "playoffround": 4, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37335,7 +36999,7 @@
             "vs": "Los Angeles Lakers vs. Boston Celtics"
         }, 
         {
-            "altTitle": "NBA FINALS - GAME 2", 
+            "altDescription": "NBA FINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37346,9 +37010,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-06-07T00:00:00+00:00", 
-            "description": "Ray Allen scored 27 of his 32 points in the first half with a record-setting 3-point shooting display and the Boston Celtics evened the NBA finals with a 103-94 victory over the Los Angeles Lakers in Game 2 Sunday night.", 
-            "eventTitle": "NBA Finals - Game 2", 
-            "game": 2, 
+            "description": "Ray Allen scored 27 of his 32 points in the first half with a record-setting 3-point shooting display and the Boston Celtics evened the NBA finals with a 103-94 victory over the Los Angeles Lakers in Game 2 Sunday night. NBA Finals - Game 2", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300606013"
@@ -37357,6 +37019,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "NBA FINALS - GAME 2", 
             "playoffround": 4, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37364,7 +37027,7 @@
             "vs": "Los Angeles Lakers vs. Boston Celtics"
         }, 
         {
-            "altTitle": "NBA FINALS - GAME 3", 
+            "altDescription": "NBA FINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37375,9 +37038,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-06-09T01:00:00+00:00", 
-            "description": "Kobe Bryant scored 29 points and Derek Fisher added 16 to lead Los Angeles to a 91-84 victory over the Boston Celtics on Tuesday night and give the Lakers a 2-1 lead in the NBA Finals.", 
-            "eventTitle": "NBA Finals - Game 3", 
-            "game": 3, 
+            "description": "Kobe Bryant scored 29 points and Derek Fisher added 16 to lead Los Angeles to a 91-84 victory over the Boston Celtics on Tuesday night and give the Lakers a 2-1 lead in the NBA Finals. NBA Finals - Game 3", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300608002"
@@ -37386,6 +37047,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "NBA FINALS - GAME 3", 
             "playoffround": 4, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37393,7 +37055,7 @@
             "vs": "Boston Celtics vs. Los Angeles Lakers"
         }, 
         {
-            "altTitle": "NBA FINALS - GAME 4", 
+            "altDescription": "NBA FINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37404,9 +37066,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-06-11T01:00:00+00:00", 
-            "description": "The Boston Celtics have tied up the NBA finals, and they owe it more to \"Big Baby\" than the Big Three.", 
-            "eventTitle": "NBA Finals - Game 4", 
-            "game": 4, 
+            "description": "The Boston Celtics have tied up the NBA finals, and they owe it more to \"Big Baby\" than the Big Three. NBA Finals - Game 4", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300610002"
@@ -37415,6 +37075,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "NBA FINALS - GAME 4", 
             "playoffround": 4, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37422,7 +37083,7 @@
             "vs": "Boston Celtics vs. Los Angeles Lakers"
         }, 
         {
-            "altTitle": "NBA FINALS - GAME 5", 
+            "altDescription": "NBA FINALS - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37433,9 +37094,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-06-14T00:00:00+00:00", 
-            "description": "It's looking a lot like 2008 again, with Paul Pierce carrying the Boston Celtics to victory in the NBA Finals and leading them to the brink of yet another title.", 
-            "eventTitle": "NBA Finals - Game 5", 
-            "game": 5, 
+            "description": "It's looking a lot like 2008 again, with Paul Pierce carrying the Boston Celtics to victory in the NBA Finals and leading them to the brink of yet another title. NBA Finals - Game 5", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300613002"
@@ -37444,6 +37103,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "NBA FINALS - GAME 5", 
             "playoffround": 4, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37451,7 +37111,7 @@
             "vs": "Boston Celtics vs. Los Angeles Lakers"
         }, 
         {
-            "altTitle": "NBA FINALS - GAME 6", 
+            "altDescription": "NBA FINALS - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37462,9 +37122,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-06-16T01:00:00+00:00", 
-            "description": "Kobe  Bryant scored 26 points, Pau Gasol added 17 points and 13 rebounds, and the Lakers emphatically extended the NBA Finals to a decisive seventh game with a 89-67 victory over the Celtics in Game 6 on Tuesday night.", 
-            "eventTitle": "NBA Finals - Game 6", 
-            "game": 6, 
+            "description": "Kobe Bryant scored 26 points, Pau Gasol added 17 points and 13 rebounds, and the Lakers emphatically extended the NBA Finals to a decisive seventh game with a 89-67 victory over the Celtics in Game 6 on Tuesday night. NBA Finals - Game 6", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300615013"
@@ -37473,6 +37131,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "NBA FINALS - GAME 6", 
             "playoffround": 4, 
             "season": "2009", 
             "sport": "Basketball", 
@@ -37480,7 +37139,7 @@
             "vs": "Los Angeles Lakers vs. Boston Celtics"
         }, 
         {
-            "altTitle": "NBA FINALS - GAME 7", 
+            "altDescription": "NBA FINALS - GAME 7", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -37491,9 +37150,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-06-18T01:00:00+00:00", 
-            "description": "The Los Angeles Lakers have won their 16th NBA championship, dramatically rallying from a fourth-quarter deficit to beat the Boston Celtics 83-79 Thursday night in Game 7 of the NBA Finals.", 
-            "eventTitle": "NBA Finals - Game 7", 
-            "game": 7, 
+            "description": "The Los Angeles Lakers have won their 16th NBA championship, dramatically rallying from a fourth-quarter deficit to beat the Boston Celtics 83-79 Thursday night in Game 7 of the NBA Finals. NBA Finals - Game 7", 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300617013"
@@ -37502,6 +37159,7 @@
             "networks": [
                 "ABC"
             ], 
+            "notes": "NBA FINALS - GAME 7", 
             "playoffround": 4, 
             "season": "2009", 
             "sport": "Basketball", 

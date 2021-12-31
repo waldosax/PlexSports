@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1948SCHEDULE", 
-        "CachedOn": "2021-12-27T16:17:39", 
-        "ExpiresOn": "2022-01-03T16:17:39", 
+        "CachedOn": "2021-12-29T18:44:02", 
+        "ExpiresOn": "2022-01-05T18:44:02", 
         "Version": "2"
     }, 
     "Items": [
@@ -11743,7 +11743,6 @@
             "vs": "Philadelphia Phillies vs. St. Louis Browns"
         }, 
         {
-            "altDescription": "Star Game, at Sportsman's Park", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -11759,7 +11758,7 @@
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "1948-07-14T00:05:00+00:00", 
-            "description": "The 1948 Major League Baseball All-Star Game was the 15th playing of the midsummer classic between the all-stars of the American League (AL) and National League (NL), the two leagues comprising Major League Baseball. The game was held on July 13, 1948, at Sportsman's Park in St. Louis, Missouri, the home of both the St. Louis Browns of the American League (who were the designated host team) and the St. Louis Cardinals of the National League. The game resulted in the American League defeating the National League 5\u20132., Star Game, at Sportsman's Park", 
+            "description": "The 1948 Major League Baseball All-Star Game was the 15th playing of the midsummer classic between the all-stars of the American League (AL) and National League (NL), the two leagues comprising Major League Baseball. The game was held on July 13, 1948, at Sportsman's Park in St. Louis, Missouri, the home of both the St. Louis Browns of the American League (who were the designated host team) and the St. Louis Cardinals of the National League. The game resulted in the American League defeating the National League 5\u20132.", 
             "eventTitle": "1948 Major League Baseball All-Star Game", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
@@ -11769,11 +11768,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
-            "notes": "1948 Major League Baseball All-Star Game, All-Star Game, 15th All, Star Game, at Sportsman's Park", 
+            "notes": "1948 Major League Baseball All-Star Game, 15th All-Star Game, at Sportsman's Park", 
             "season": "1948", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "15th All", 
+            "title": "15th All-Star Game, at Sportsman's Park", 
             "vs": "American League All-Stars vs. National League All-Stars"
         }, 
         {
@@ -23409,7 +23408,6 @@
             "vs": "Cleveland Indians vs. Boston Braves"
         }, 
         {
-            "altDescription": "", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -23420,7 +23418,8 @@
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "1948-10-11T08:33:00+00:00", 
-            "eventTitle": "World Series Game", 
+            "eventTitle": "World Series", 
+            "game": 6, 
             "homeTeam": "1ffc0453-11c0-409f-9d7b-7507f1e68ecd", 
             "identity": {
                 "MLBAPIID": "67480"
@@ -23432,7 +23431,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
-            "title": "World Series Game", 
+            "title": "World Series", 
             "vs": "Boston Braves vs. Cleveland Indians"
         }
     ]

@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1935SCHEDULE", 
-        "CachedOn": "2021-12-27T16:15:55", 
-        "ExpiresOn": "2022-01-03T16:15:55", 
+        "CachedOn": "2021-12-29T18:42:41", 
+        "ExpiresOn": "2022-01-05T18:42:41", 
         "Version": "2"
     }, 
     "Items": [
@@ -10937,7 +10937,6 @@
             "vs": "AL All-Stars vs. NL All-Stars"
         }, 
         {
-            "altDescription": "Star Game, at Cleveland Stadium", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -10948,8 +10947,8 @@
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "1935-07-08T03:33:00+00:00", 
-            "description": "Star Game, at Cleveland Stadium", 
-            "eventTitle": "All-star Game 3rd All", 
+            "description": "3rd All-Star Game, at Cleveland Stadium", 
+            "eventTitle": "3rd All-star Game", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "identity": {
@@ -10957,11 +10956,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
-            "notes": "All-Star Game, 3rd All, Star Game, at Cleveland Stadium", 
+            "notes": "3rd All-Star Game, at Cleveland Stadium", 
             "season": "1935", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "3rd All", 
+            "title": "3rd All-Star Game, at Cleveland Stadium", 
             "vs": "American League All-Stars vs. National League All-Stars"
         }, 
         {
@@ -22296,7 +22295,6 @@
             "vs": "Chicago Cubs vs. Detroit Tigers"
         }, 
         {
-            "altDescription": "", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -22307,7 +22305,8 @@
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "date": "1935-10-07T08:33:00+00:00", 
-            "eventTitle": "World Series Game", 
+            "eventTitle": "World Series", 
+            "game": 6, 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "67406"
@@ -22319,7 +22318,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
-            "title": "World Series Game", 
+            "title": "World Series", 
             "vs": "Detroit Tigers vs. Chicago Cubs"
         }
     ]

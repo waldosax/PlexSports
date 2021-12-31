@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1947SCHEDULE", 
-        "CachedOn": "2021-12-27T16:17:32", 
-        "ExpiresOn": "2022-01-03T16:17:32", 
+        "CachedOn": "2021-12-29T18:43:55", 
+        "ExpiresOn": "2022-01-05T18:43:55", 
         "Version": "2"
     }, 
     "Items": [
@@ -10808,7 +10808,6 @@
             "vs": "NL All-Stars vs. AL All-Stars"
         }, 
         {
-            "altDescription": "Star Game, at Wrigley Field", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -10819,8 +10818,8 @@
             }, 
             "awayTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "date": "1947-07-08T03:33:00+00:00", 
-            "description": "Star Game, at Wrigley Field", 
-            "eventTitle": "All-star Game 14th All", 
+            "description": "14th All-Star Game, at Wrigley Field", 
+            "eventTitle": "14th All-star Game", 
             "eventindicator": 2, 
             "homeTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "identity": {
@@ -10828,11 +10827,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
-            "notes": "All-Star Game, 14th All, Star Game, at Wrigley Field", 
+            "notes": "14th All-Star Game, at Wrigley Field", 
             "season": "1947", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "14th All", 
+            "title": "14th All-Star Game, at Wrigley Field", 
             "vs": "National League All-Stars vs. American League All-Stars"
         }, 
         {
@@ -23049,7 +23048,6 @@
             "vs": "Brooklyn Dodgers vs. New York Yankees"
         }, 
         {
-            "altDescription": "", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -23060,7 +23058,8 @@
             }, 
             "awayTeam": "bb961d79-f947-4bae-a113-61fc023d31a9", 
             "date": "1947-10-05T08:33:00+00:00", 
-            "eventTitle": "World Series Game", 
+            "eventTitle": "World Series", 
+            "game": 6, 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "67473"
@@ -23072,7 +23071,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
-            "title": "World Series Game", 
+            "title": "World Series", 
             "vs": "New York Yankees vs. Brooklyn Dodgers"
         }, 
         {

@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1946SCHEDULE", 
-        "CachedOn": "2021-12-27T16:17:24", 
-        "ExpiresOn": "2022-01-03T16:17:24", 
+        "CachedOn": "2021-12-29T18:43:49", 
+        "ExpiresOn": "2022-01-05T18:43:49", 
         "Version": "2"
     }, 
     "Items": [
@@ -11091,7 +11091,6 @@
             "vs": "AL All-Stars vs. NL All-Stars"
         }, 
         {
-            "altDescription": "Star Game, at Fenway Park", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -11102,8 +11101,8 @@
             }, 
             "awayTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "date": "1946-07-09T03:33:00+00:00", 
-            "description": "Star Game, at Fenway Park", 
-            "eventTitle": "All-star Game 13th All", 
+            "description": "13th All-Star Game, at Fenway Park", 
+            "eventTitle": "13th All-star Game", 
             "eventindicator": 2, 
             "homeTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "identity": {
@@ -11111,11 +11110,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
-            "notes": "All-Star Game, 13th All, Star Game, at Fenway Park", 
+            "notes": "13th All-Star Game, at Fenway Park", 
             "season": "1946", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "13th All", 
+            "title": "13th All-Star Game, at Fenway Park", 
             "vs": "American League All-Stars vs. National League All-Stars"
         }, 
         {
@@ -22821,7 +22820,6 @@
             "vs": "Boston Red Sox vs. St. Louis Cardinals"
         }, 
         {
-            "altDescription": "", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -22832,7 +22830,8 @@
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "date": "1946-10-13T08:33:00+00:00", 
-            "eventTitle": "World Series Game", 
+            "eventTitle": "World Series", 
+            "game": 6, 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "67466"
@@ -22844,7 +22843,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
-            "title": "World Series Game", 
+            "title": "World Series", 
             "vs": "St. Louis Cardinals vs. Boston Red Sox"
         }, 
         {

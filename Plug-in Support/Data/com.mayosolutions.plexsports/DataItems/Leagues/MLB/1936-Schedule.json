@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1936SCHEDULE", 
-        "CachedOn": "2021-12-27T16:16:04", 
-        "ExpiresOn": "2022-01-03T16:16:04", 
+        "CachedOn": "2021-12-29T18:42:47", 
+        "ExpiresOn": "2022-01-05T18:42:47", 
         "Version": "2"
     }, 
     "Items": [
@@ -11835,7 +11835,6 @@
             "vs": "NL All-Stars vs. AL All-Stars"
         }, 
         {
-            "altDescription": "Star Game, at Braves Field", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -11846,8 +11845,8 @@
             }, 
             "awayTeam": "0d05197e-f039-4693-861f-55c48a41af37", 
             "date": "1936-07-07T03:33:00+00:00", 
-            "description": "Star Game, at Braves Field", 
-            "eventTitle": "All-star Game 4th All", 
+            "description": "4th All-Star Game, at Braves Field", 
+            "eventTitle": "4th All-star Game", 
             "eventindicator": 2, 
             "homeTeam": "56f4feb1-04ff-47fd-aa88-c0521f64d5e0", 
             "identity": {
@@ -11855,11 +11854,11 @@
             }, 
             "league": "MLB", 
             "networks": [], 
-            "notes": "All-Star Game, 4th All, Star Game, at Braves Field", 
+            "notes": "4th All-Star Game, at Braves Field", 
             "season": "1936", 
             "sport": "Baseball", 
             "subseasonTitle": "All-Star Game", 
-            "title": "4th All", 
+            "title": "4th All-Star Game, at Braves Field", 
             "vs": "National League All-Stars vs. American League All-Stars"
         }, 
         {
@@ -23440,7 +23439,6 @@
             "vs": "New York Yankees vs. New York Giants"
         }, 
         {
-            "altDescription": "", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -23451,7 +23449,8 @@
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "date": "1936-10-06T08:33:00+00:00", 
-            "eventTitle": "World Series Game", 
+            "eventTitle": "World Series", 
+            "game": 6, 
             "homeTeam": "2eee5887-ed60-45dd-9d0c-387e5f281858", 
             "identity": {
                 "MLBAPIID": "67412"
@@ -23463,7 +23462,7 @@
             "sport": "Baseball", 
             "subseason": 1, 
             "subseasonTitle": "World Series", 
-            "title": "World Series Game", 
+            "title": "World Series", 
             "vs": "New York Giants vs. New York Yankees"
         }
     ]

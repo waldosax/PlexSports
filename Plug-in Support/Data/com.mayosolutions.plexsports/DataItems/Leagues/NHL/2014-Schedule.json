@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL2014SCHEDULE", 
-        "CachedOn": "2021-12-24T04:04:59", 
-        "ExpiresOn": "2021-12-31T04:04:59", 
+        "CachedOn": "2021-12-31T05:21:32", 
+        "ExpiresOn": "2022-01-07T05:21:32", 
         "Version": "2"
     }, 
     "Items": [
@@ -1136,7 +1136,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL"
+                "NHL NET"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -1879,7 +1879,6 @@
             }, 
             "awayTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "date": "2014-09-27T00:00:00", 
-            "description": "", 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
                 "TheSportsDBID": "482037"
@@ -1901,7 +1900,6 @@
             }, 
             "awayTeam": "8414abb5-0f73-4598-a99c-d65ea20595c0", 
             "date": "2014-09-27T00:00:00", 
-            "description": "", 
             "homeTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "identity": {
                 "TheSportsDBID": "482039"
@@ -1923,7 +1921,6 @@
             }, 
             "awayTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "date": "2014-09-27T00:00:00", 
-            "description": "", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "TheSportsDBID": "482036"
@@ -1945,7 +1942,6 @@
             }, 
             "awayTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "date": "2014-09-27T00:00:00", 
-            "description": "", 
             "homeTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
             "identity": {
                 "TheSportsDBID": "482038"
@@ -2034,51 +2030,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
-            "date": "2014-09-27T20:00:00+00:00", 
-            "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
-            "identity": {
-                "ESPNAPIID": "400567155"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Hockey", 
-            "subseason": -1, 
-            "vs": "Nashville Predators vs. Florida Panthers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
-            "date": "2014-09-28T00:00:00+00:00", 
-            "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
-            "identity": {
-                "ESPNAPIID": "400567114", 
-                "TheSportsDBID": "482041"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Hockey", 
-            "subseason": -1, 
-            "vs": "Nashville Predators vs. Florida Panthers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "f802bc86-6026-413b-bf0c-6584ebde85ef", 
             "date": "2014-09-27T20:00:00+00:00", 
             "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
@@ -2137,6 +2088,51 @@
             "sport": "Hockey", 
             "subseason": -1, 
             "vs": "Minnesota Wild vs. Winnipeg Jets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
+            "date": "2014-09-27T20:00:00+00:00", 
+            "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
+            "identity": {
+                "ESPNAPIID": "400567155"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Hockey", 
+            "subseason": -1, 
+            "vs": "Nashville Predators vs. Florida Panthers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
+            "date": "2014-09-28T00:00:00+00:00", 
+            "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
+            "identity": {
+                "ESPNAPIID": "400567114", 
+                "TheSportsDBID": "482041"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Hockey", 
+            "subseason": -1, 
+            "vs": "Nashville Predators vs. Florida Panthers"
         }, 
         {
             "assets": {
@@ -2733,7 +2729,6 @@
             }, 
             "awayTeam": "f802bc86-6026-413b-bf0c-6584ebde85ef", 
             "date": "2014-09-30T00:00:00", 
-            "description": "", 
             "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
             "identity": {
                 "TheSportsDBID": "482056"
@@ -5051,7 +5046,6 @@
             }, 
             "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "date": "2014-10-10T00:00:00", 
-            "description": "", 
             "homeTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "identity": {
                 "TheSportsDBID": "482101"
@@ -5201,7 +5195,6 @@
             }, 
             "awayTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "date": "2014-10-11T00:00:00", 
-            "description": "", 
             "homeTeam": "25ab3229-ef68-41e3-9a09-53b567734239", 
             "identity": {
                 "TheSportsDBID": "482113"
@@ -5211,6 +5204,53 @@
             "season": "2014", 
             "sport": "Hockey", 
             "vs": "Carolina Hurricanes vs New York Islanders"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
+            "date": "2014-10-11T20:00:00+00:00", 
+            "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
+            "identity": {
+                "ESPNAPIID": "400564086"
+            }, 
+            "league": "NHL", 
+            "networks": [
+                "FSW2", 
+                "FSDT"
+            ], 
+            "season": "2014", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Detroit Red Wings vs. Anaheim Ducks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
+            "date": "2014-10-11T23:00:00+00:00", 
+            "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
+            "identity": {
+                "NHLAPIID": 2014020020
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Detroit Red Wings vs. Anaheim Ducks"
         }, 
         {
             "assets": {
@@ -5265,53 +5305,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Columbus Blue Jackets vs. New York Rangers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
-            "date": "2014-10-11T20:00:00+00:00", 
-            "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
-            "identity": {
-                "ESPNAPIID": "400564086"
-            }, 
-            "league": "NHL", 
-            "networks": [
-                "FSW2", 
-                "FSDT"
-            ], 
-            "season": "2014", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Detroit Red Wings vs. Anaheim Ducks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
-            "date": "2014-10-11T23:00:00+00:00", 
-            "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
-            "identity": {
-                "NHLAPIID": 2014020020
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Detroit Red Wings vs. Anaheim Ducks"
         }, 
         {
             "assets": {
@@ -5465,7 +5458,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "AT&TSN"
             ], 
             "season": "2014", 
@@ -5967,8 +5960,8 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "MSG", 
-                "NHL"
+                "NHL NET", 
+                "MSG"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -6183,7 +6176,6 @@
             }, 
             "awayTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "date": "2014-10-14T00:00:00", 
-            "description": "", 
             "homeTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
             "identity": {
                 "TheSportsDBID": "482134"
@@ -6205,7 +6197,6 @@
             }, 
             "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "date": "2014-10-14T00:00:00", 
-            "description": "", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "TheSportsDBID": "482133"
@@ -6986,54 +6977,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
-            "date": "2014-10-16T23:30:00+00:00", 
-            "description": "Jonathan Quick tied the Kings' franchise record with his 32nd career shutout, making 43 saves and stopping all three St. Louis shootout attempts in Los Angeles' 1-0 victory over the Blues on Thursday night.", 
-            "homeTeam": "9e4d9b57-da53-438c-a557-9bd2352a0b99", 
-            "identity": {
-                "ESPNAPIID": "400564649"
-            }, 
-            "league": "NHL", 
-            "networks": [
-                "FSMW", 
-                "FSWHD"
-            ], 
-            "season": "2014", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Los Angeles Kings vs. St. Louis Blues"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
-            "date": "2014-10-17T02:30:00+00:00", 
-            "homeTeam": "9e4d9b57-da53-438c-a557-9bd2352a0b99", 
-            "identity": {
-                "NHLAPIID": 2014020055
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "2014", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Los Angeles Kings vs. St. Louis Blues"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "date": "2014-10-16T20:30:00+00:00", 
             "description": "Brendan Gallagher and P.A. Parenteau each had two goals and the Montreal Canadiens won their home opener, 6-4 over the Boston Bruins on Thursday night.", 
@@ -7043,8 +6986,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "NESN", 
-                "NHL", 
                 "RDS"
             ], 
             "season": "2014", 
@@ -7277,6 +7220,54 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
+            "date": "2014-10-16T23:30:00+00:00", 
+            "description": "Jonathan Quick tied the Kings' franchise record with his 32nd career shutout, making 43 saves and stopping all three St. Louis shootout attempts in Los Angeles' 1-0 victory over the Blues on Thursday night.", 
+            "homeTeam": "9e4d9b57-da53-438c-a557-9bd2352a0b99", 
+            "identity": {
+                "ESPNAPIID": "400564649"
+            }, 
+            "league": "NHL", 
+            "networks": [
+                "FSMW", 
+                "FSWHD"
+            ], 
+            "season": "2014", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Los Angeles Kings vs. St. Louis Blues"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
+            "date": "2014-10-17T02:30:00+00:00", 
+            "homeTeam": "9e4d9b57-da53-438c-a557-9bd2352a0b99", 
+            "identity": {
+                "NHLAPIID": 2014020055
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "2014", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Los Angeles Kings vs. St. Louis Blues"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
             "date": "2014-10-17T23:00:00+00:00", 
             "description": "Roberto Luongo stopped 26 shots for his 67th career shutout, leading the Florida Panthers to a 1-0 win over the Buffalo Sabres on Friday night for their first victory of the season.", 
@@ -7405,7 +7396,6 @@
             }, 
             "awayTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
             "date": "2014-10-18T00:00:00", 
-            "description": "", 
             "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "identity": {
                 "TheSportsDBID": "482250"
@@ -7427,7 +7417,6 @@
             }, 
             "awayTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "date": "2014-10-18T00:00:00", 
-            "description": "", 
             "homeTeam": "f802bc86-6026-413b-bf0c-6584ebde85ef", 
             "identity": {
                 "TheSportsDBID": "482249"
@@ -7470,7 +7459,6 @@
             }, 
             "awayTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "date": "2014-10-18T00:00:00", 
-            "description": "", 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
                 "TheSportsDBID": "482251"
@@ -7598,7 +7586,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSDT"
             ], 
             "season": "2014", 
@@ -7861,7 +7849,6 @@
             }, 
             "awayTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "date": "2014-10-19T00:00:00", 
-            "description": "", 
             "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "identity": {
                 "TheSportsDBID": "482255"
@@ -7925,7 +7912,6 @@
             }, 
             "awayTeam": "f802bc86-6026-413b-bf0c-6584ebde85ef", 
             "date": "2014-10-19T00:00:00", 
-            "description": "", 
             "homeTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "identity": {
                 "TheSportsDBID": "482256"
@@ -8764,41 +8750,14 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
-            "date": "2014-10-22T23:00:00+00:00", 
-            "homeTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
-            "identity": {
-                "ESPNAPIID": "400563885"
-            }, 
-            "league": "NHL", 
-            "networks": [
-                "SNO"
-            ], 
-            "season": "2014", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Ottawa Senators vs. Toronto Maple Leafs"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
             "date": "2014-10-23T00:00:00+00:00", 
             "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "identity": {
-                "ESPNAPIID": "400564418", 
                 "NHLAPIID": 2014020090
             }, 
             "league": "NHL", 
-            "networks": [
-                "NBCSN"
-            ], 
+            "networks": [], 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -8878,17 +8837,12 @@
             }, 
             "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "date": "2014-10-23T01:30:00+00:00", 
-            "description": "Scrivens makes 32 saves, Oilers beat Capitals 3-2", 
             "homeTeam": "06ccc107-ad45-4a8a-bea9-2f59bc9e4bd8", 
             "identity": {
-                "ESPNAPIID": "400564502", 
                 "NHLAPIID": 2014020091
             }, 
             "league": "NHL", 
-            "networks": [
-                "SNO", 
-                "CSNB"
-            ], 
+            "networks": [], 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -8905,17 +8859,12 @@
             }, 
             "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "date": "2014-10-23T02:30:00+00:00", 
-            "description": "Corey Perry had his second hat trick of the season, and the Anaheim Ducks beat the Buffalo Sabres 4-1 on Wednesday night for their sixth straight victory.", 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
-                "ESPNAPIID": "400563805", 
                 "NHLAPIID": 2014020092
             }, 
             "league": "NHL", 
-            "networks": [
-                "FSW2", 
-                "MSGB"
-            ], 
+            "networks": [], 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -9047,7 +8996,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSMW"
             ], 
             "season": "2014", 
@@ -9692,8 +9641,8 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NESN", 
-                "NHL"
+                "NHL NET", 
+                "NESN"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -9948,7 +9897,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "WGN"
             ], 
             "season": "2014", 
@@ -9993,7 +9942,6 @@
             }, 
             "awayTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
             "date": "2014-10-27T00:00:00", 
-            "description": "", 
             "homeTeam": "8414abb5-0f73-4598-a99c-d65ea20595c0", 
             "identity": {
                 "TheSportsDBID": "482305"
@@ -10015,7 +9963,6 @@
             }, 
             "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "date": "2014-10-27T00:00:00", 
-            "description": "", 
             "homeTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "identity": {
                 "TheSportsDBID": "482309"
@@ -10058,7 +10005,6 @@
             }, 
             "awayTeam": "f802bc86-6026-413b-bf0c-6584ebde85ef", 
             "date": "2014-10-27T00:00:00", 
-            "description": "", 
             "homeTeam": "9e4d9b57-da53-438c-a557-9bd2352a0b99", 
             "identity": {
                 "TheSportsDBID": "482311"
@@ -10080,7 +10026,6 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2014-10-27T00:00:00", 
-            "description": "", 
             "homeTeam": "5143a40b-0e18-4141-b23d-85c64bb38206", 
             "identity": {
                 "TheSportsDBID": "482306"
@@ -10102,7 +10047,6 @@
             }, 
             "awayTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "date": "2014-10-27T00:00:00", 
-            "description": "", 
             "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
             "identity": {
                 "TheSportsDBID": "482307"
@@ -10124,7 +10068,6 @@
             }, 
             "awayTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "date": "2014-10-27T00:00:00", 
-            "description": "", 
             "homeTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "identity": {
                 "TheSportsDBID": "482304"
@@ -10146,7 +10089,6 @@
             }, 
             "awayTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "date": "2014-10-27T00:00:00", 
-            "description": "", 
             "homeTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
             "identity": {
                 "TheSportsDBID": "482303"
@@ -10168,7 +10110,6 @@
             }, 
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2014-10-27T00:00:00", 
-            "description": "", 
             "homeTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "identity": {
                 "TheSportsDBID": "482308"
@@ -10190,7 +10131,6 @@
             }, 
             "awayTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "date": "2014-10-27T00:00:00", 
-            "description": "", 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
                 "TheSportsDBID": "482302"
@@ -10212,7 +10152,6 @@
             }, 
             "awayTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "date": "2014-10-27T00:00:00", 
-            "description": "", 
             "homeTeam": "c5813df8-7693-4261-9383-bf212609a8aa", 
             "identity": {
                 "TheSportsDBID": "482310"
@@ -10288,7 +10227,6 @@
             }, 
             "awayTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "date": "2014-10-28T00:00:00", 
-            "description": "", 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
                 "TheSportsDBID": "482313"
@@ -10331,7 +10269,6 @@
             }, 
             "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "date": "2014-10-28T00:00:00", 
-            "description": "", 
             "homeTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
             "identity": {
                 "TheSportsDBID": "482314"
@@ -10588,7 +10525,6 @@
             }, 
             "awayTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "date": "2014-10-29T00:00:00", 
-            "description": "", 
             "homeTeam": "f802bc86-6026-413b-bf0c-6584ebde85ef", 
             "identity": {
                 "TheSportsDBID": "482317"
@@ -10610,7 +10546,6 @@
             }, 
             "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "date": "2014-10-29T00:00:00", 
-            "description": "", 
             "homeTeam": "06ccc107-ad45-4a8a-bea9-2f59bc9e4bd8", 
             "identity": {
                 "TheSportsDBID": "482316"
@@ -10632,7 +10567,6 @@
             }, 
             "awayTeam": "c5813df8-7693-4261-9383-bf212609a8aa", 
             "date": "2014-10-29T00:00:00", 
-            "description": "", 
             "homeTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "identity": {
                 "TheSportsDBID": "482318"
@@ -10897,7 +10831,6 @@
             }, 
             "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "date": "2014-10-30T00:00:00", 
-            "description": "", 
             "homeTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "identity": {
                 "TheSportsDBID": "482326"
@@ -10919,7 +10852,6 @@
             }, 
             "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "date": "2014-10-30T00:00:00", 
-            "description": "", 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
                 "TheSportsDBID": "482325"
@@ -10941,7 +10873,6 @@
             }, 
             "awayTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "date": "2014-10-30T00:00:00", 
-            "description": "", 
             "homeTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "identity": {
                 "TheSportsDBID": "482327"
@@ -10963,7 +10894,6 @@
             }, 
             "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "date": "2014-10-30T00:00:00", 
-            "description": "", 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
                 "TheSportsDBID": "482324"
@@ -10985,7 +10915,6 @@
             }, 
             "awayTeam": "25ab3229-ef68-41e3-9a09-53b567734239", 
             "date": "2014-10-30T00:00:00", 
-            "description": "", 
             "homeTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
             "identity": {
                 "TheSportsDBID": "482328"
@@ -11115,7 +11044,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "AT&TSN", 
                 "FSWHD"
             ], 
@@ -11899,7 +11828,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "CSNC"
             ], 
             "season": "2014", 
@@ -13409,7 +13338,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "CSN", 
                 "FSFL"
             ], 
@@ -14180,7 +14109,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSN"
             ], 
             "season": "2014", 
@@ -14676,8 +14605,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "RSNW", 
-                "NHL", 
                 "MSG"
             ], 
             "season": "2014", 
@@ -15125,7 +15054,6 @@
             }, 
             "awayTeam": "5143a40b-0e18-4141-b23d-85c64bb38206", 
             "date": "2014-11-12T00:00:00", 
-            "description": "", 
             "homeTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
             "identity": {
                 "TheSportsDBID": "482546"
@@ -15147,7 +15075,6 @@
             }, 
             "awayTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "date": "2014-11-12T00:00:00", 
-            "description": "", 
             "homeTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "identity": {
                 "TheSportsDBID": "482545"
@@ -15169,7 +15096,6 @@
             }, 
             "awayTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "date": "2014-11-12T00:00:00", 
-            "description": "", 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
                 "TheSportsDBID": "482544"
@@ -15233,7 +15159,6 @@
             }, 
             "awayTeam": "f802bc86-6026-413b-bf0c-6584ebde85ef", 
             "date": "2014-11-12T00:00:00", 
-            "description": "", 
             "homeTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "identity": {
                 "TheSportsDBID": "482543"
@@ -15563,8 +15488,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "MSG", 
-                "NHL", 
                 "ALT"
             ], 
             "season": "2014", 
@@ -16467,8 +16392,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "MSG", 
-                "NHL", 
                 "AT&TSN"
             ], 
             "season": "2014", 
@@ -17678,7 +17603,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "CSN", 
                 "FSN"
             ], 
@@ -18397,8 +18322,8 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NESN", 
-                "NHL"
+                "NHL NET", 
+                "NESN"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -18988,8 +18913,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "MSG", 
-                "NHL", 
                 "RDS"
             ], 
             "season": "2014", 
@@ -20329,7 +20254,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSS", 
                 "AT&TSN"
             ], 
@@ -20659,7 +20584,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "MSGB"
             ], 
             "season": "2014", 
@@ -21103,7 +21028,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "WGN", 
                 "FSWHD"
             ], 
@@ -21211,8 +21136,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "MSG", 
-                "NHL", 
                 "SUN"
             ], 
             "season": "2014", 
@@ -22376,7 +22301,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSSW", 
                 "FSDT"
             ], 
@@ -22870,8 +22795,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "MSG", 
-                "NHL", 
                 "FSDT"
             ], 
             "season": "2014", 
@@ -23326,7 +23251,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL"
+                "NHL NET"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -24139,8 +24064,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "NESN", 
-                "NHL", 
                 "CSNC"
             ], 
             "season": "2014", 
@@ -24945,7 +24870,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSDT"
             ], 
             "season": "2014", 
@@ -25309,9 +25234,9 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
-                "ALT", 
-                "FSMW"
+                "NHL NET", 
+                "FSMW", 
+                "ALT"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -25461,7 +25386,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "CSNC"
             ], 
             "season": "2014", 
@@ -26052,9 +25977,9 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
-                "FSWHD", 
-                "FSMW"
+                "NHL NET", 
+                "FSMW", 
+                "FSWHD"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -26410,7 +26335,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "ALT", 
                 "AT&TSN"
             ], 
@@ -27013,7 +26938,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL"
+                "NHL NET"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -27535,7 +27460,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "WGN"
             ], 
             "season": "2014", 
@@ -27933,8 +27858,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "FSAZ", 
-                "NHL", 
                 "RSNP"
             ], 
             "season": "2014", 
@@ -30412,7 +30337,7 @@
             "vs": "Calgary Flames vs. Edmonton Oilers"
         }, 
         {
-            "altTitle": "WINTER CLASSIC", 
+            "altDescription": "WINTER CLASSIC", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -30428,7 +30353,7 @@
             }, 
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2015-01-01T18:00:00+00:00", 
-            "description": "Capitals top Blackhawks 3-2 in Winter Classic", 
+            "description": "Capitals top Blackhawks 3-2 in Winter Classic, Winter Classic", 
             "eventTitle": "2015 NHL Winter Classic", 
             "eventindicator": 2, 
             "homeTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
@@ -30442,6 +30367,7 @@
             "networks": [
                 "NBC"
             ], 
+            "notes": "2015 NHL Winter Classic, WINTER CLASSIC", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -30945,7 +30871,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "CSN", 
                 "MSG+"
             ], 
@@ -32615,7 +32541,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSN", 
                 "CSNC"
             ], 
@@ -32777,8 +32703,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "MSG", 
-                "NHL", 
                 "FSWHD"
             ], 
             "season": "2014", 
@@ -33046,8 +32972,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "NESN", 
-                "NHL", 
                 "CSN"
             ], 
             "season": "2014", 
@@ -33181,7 +33107,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "AT&TSN"
             ], 
             "season": "2014", 
@@ -33647,9 +33573,9 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
-                "CSN", 
-                "SUN"
+                "NHL NET", 
+                "SUN", 
+                "CSN"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -34517,7 +34443,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "CSN", 
                 "RSNP"
             ], 
@@ -35146,8 +35072,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "CNSW", 
-                "NHL", 
                 "FSSM"
             ], 
             "season": "2014", 
@@ -35379,7 +35305,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSMW"
             ], 
             "season": "2014", 
@@ -35735,7 +35661,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSWHD"
             ], 
             "season": "2014", 
@@ -35936,8 +35862,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "CN8PHI", 
-                "NHL", 
                 "MSG+"
             ], 
             "season": "2014", 
@@ -36889,7 +36815,7 @@
             "vs": "San Jose Sharks vs. Los Angeles Kings"
         }, 
         {
-            "altTitle": "NHL ALL-STAR GAME", 
+            "altDescription": "NHL ALL-STAR GAME", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -36905,7 +36831,7 @@
             }, 
             "awayTeamName": "Team Toews", 
             "date": "2015-01-25T22:00:00+00:00", 
-            "description": "John Tavares of the New York Islanders matched a record with four goals, and Team Toews beat Team Foligno 17-12 on Sunday night in the highest-scoring NHL All-Star Game.", 
+            "description": "John Tavares of the New York Islanders matched a record with four goals, and Team Toews beat Team Foligno 17-12 on Sunday night in the highest-scoring NHL All-Star Game. NHL All-star Game", 
             "eventTitle": "2015 NHL All-Star Game", 
             "eventindicator": 1, 
             "homeTeamName": "Team Foligno", 
@@ -36918,6 +36844,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "2015 NHL All-Star Game, NHL ALL-STAR GAME", 
             "season": "2014", 
             "sport": "Hockey", 
             "vs": "Team Foligno vs. Team Toews"
@@ -38345,7 +38272,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "MSGB", 
                 "RSNP"
             ], 
@@ -38455,8 +38382,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "NESN", 
-                "NHL", 
                 "FSWHD"
             ], 
             "season": "2014", 
@@ -39208,7 +39135,6 @@
             }, 
             "awayTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "date": "2015-02-04T00:00:00", 
-            "description": "", 
             "homeTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "identity": {
                 "TheSportsDBID": "453904"
@@ -40394,7 +40320,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "CSNC"
             ], 
             "season": "2014", 
@@ -40850,7 +40776,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "ALT", 
                 "FSN"
             ], 
@@ -41414,8 +41340,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "NESN", 
-                "NHL", 
                 "FSSW"
             ], 
             "season": "2014", 
@@ -42283,7 +42209,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSMW", 
                 "SUN"
             ], 
@@ -42705,7 +42631,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL"
+                "NHL NET"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -43304,8 +43230,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "MSG", 
-                "NHL", 
                 "MSG+"
             ], 
             "season": "2014", 
@@ -44888,7 +44814,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "ALT", 
                 "CSNC"
             ], 
@@ -44998,9 +44924,9 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
-                "CSN", 
-                "FSSM"
+                "NHL NET", 
+                "FSSM", 
+                "CSN"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -45406,7 +45332,7 @@
             "vs": "St. Louis Blues vs. Pittsburgh Penguins"
         }, 
         {
-            "altTitle": "COORS LIGHT STADIUM SERIES", 
+            "altDescription": "COORS LIGHT STADIUM SERIES", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45417,8 +45343,7 @@
             }, 
             "awayTeam": "9e4d9b57-da53-438c-a557-9bd2352a0b99", 
             "date": "2015-02-22T03:00:00+00:00", 
-            "description": "Marian Gaborik scored the tiebreaking goal early in the third period and the Los Angeles Kings spoiled San Jose's outdoor party with a 2-1 victory over the Sharks on Saturday night.", 
-            "eventTitle": "Coors Light Stadium Series", 
+            "description": "Marian Gaborik scored the tiebreaking goal early in the third period and the Los Angeles Kings spoiled San Jose's outdoor party with a 2-1 victory over the Sharks on Saturday night. Coors Light Stadium Series", 
             "homeTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "identity": {
                 "ESPNAPIID": "400564946", 
@@ -45429,6 +45354,7 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "COORS LIGHT STADIUM SERIES", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -45802,7 +45728,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSDT", 
                 "FSWHD"
             ], 
@@ -47331,7 +47257,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL"
+                "NHL NET"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -48627,9 +48553,9 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
-                "CSN", 
-                "FSMW"
+                "NHL NET", 
+                "FSMW", 
+                "CSN"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -49263,8 +49189,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "NESN", 
-                "NHL", 
                 "CSN"
             ], 
             "season": "2014", 
@@ -49423,7 +49349,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSMW"
             ], 
             "season": "2014", 
@@ -50799,8 +50725,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "FSOH", 
-                "NHL", 
                 "FSDT"
             ], 
             "season": "2014", 
@@ -51147,7 +51073,6 @@
             }, 
             "awayTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
             "date": "2015-03-13T02:30:00+00:00", 
-            "description": "", 
             "homeTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "identity": {
                 "ESPNAPIID": "400564724", 
@@ -51512,8 +51437,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "NESN", 
-                "NHL", 
                 "AT&TSN"
             ], 
             "season": "2014", 
@@ -51541,7 +51466,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "CSNCAL", 
                 "WGN"
             ], 
@@ -51675,7 +51600,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL"
+                "NHL NET"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -52698,7 +52623,6 @@
             }, 
             "awayTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "date": "2015-03-18T00:00:00+00:00", 
-            "description": "", 
             "homeTeam": "c5813df8-7693-4261-9383-bf212609a8aa", 
             "identity": {
                 "ESPNAPIID": "400564820", 
@@ -53195,7 +53119,6 @@
             }, 
             "awayTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "date": "2015-03-19T23:30:00+00:00", 
-            "description": "", 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
                 "ESPNAPIID": "400563943", 
@@ -53432,7 +53355,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSSW", 
                 "AT&TSN"
             ], 
@@ -53768,9 +53691,9 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
-                "FSN", 
-                "FSMW"
+                "NHL NET", 
+                "FSMW", 
+                "FSN"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -53904,7 +53827,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "CSNCAL"
             ], 
             "season": "2014", 
@@ -54839,7 +54762,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "ALT"
             ], 
             "season": "2014", 
@@ -55418,8 +55341,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "NESN", 
-                "NHL", 
                 "FSW2"
             ], 
             "season": "2014", 
@@ -56114,8 +56037,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "NESN", 
-                "NHL", 
                 "MSG"
             ], 
             "season": "2014", 
@@ -56161,7 +56084,6 @@
             }, 
             "awayTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "date": "2015-03-28T17:00:00+00:00", 
-            "description": "", 
             "homeTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
             "identity": {
                 "ESPNAPIID": "400564456", 
@@ -56327,7 +56249,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSWHD", 
                 "FSN"
             ], 
@@ -57215,7 +57137,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "FSS", 
                 "CSNB"
             ], 
@@ -57710,7 +57632,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "MSGB", 
                 "CSNC"
             ], 
@@ -57730,7 +57652,6 @@
             }, 
             "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "date": "2015-04-03T23:00:00+00:00", 
-            "description": "", 
             "homeTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
             "identity": {
                 "ESPNAPIID": "400564018", 
@@ -57881,8 +57802,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "FSOH", 
-                "NHL", 
                 "AT&TSN"
             ], 
             "season": "2014", 
@@ -58011,7 +57932,6 @@
             }, 
             "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "date": "2015-04-04T23:00:00+00:00", 
-            "description": "", 
             "homeTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "identity": {
                 "ESPNAPIID": "400563874", 
@@ -58039,7 +57959,6 @@
             }, 
             "awayTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
             "date": "2015-04-04T23:00:00+00:00", 
-            "description": "", 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
                 "ESPNAPIID": "400564310", 
@@ -58067,7 +57986,6 @@
             }, 
             "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "date": "2015-04-04T23:00:00+00:00", 
-            "description": "", 
             "homeTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "identity": {
                 "ESPNAPIID": "400564082", 
@@ -58076,7 +57994,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL", 
+                "NHL NET", 
                 "CSNB"
             ], 
             "season": "2014", 
@@ -58259,7 +58177,6 @@
             }, 
             "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "date": "2015-04-05T21:00:00+00:00", 
-            "description": "", 
             "homeTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
             "identity": {
                 "ESPNAPIID": "400564019", 
@@ -58377,8 +58294,8 @@
             }, 
             "league": "NHL", 
             "networks": [
+                "NHL NET", 
                 "MSG", 
-                "NHL", 
                 "FSOH"
             ], 
             "season": "2014", 
@@ -59569,7 +59486,7 @@
             "vs": "Vancouver Canucks vs. Edmonton Oilers"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59581,7 +59498,6 @@
             "awayTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "date": "2015-04-15T23:00:00+00:00", 
             "description": "Eastern Conference First Round - Game 1", 
-            "game": 1, 
             "homeTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "identity": {
                 "ESPNAPIID": "400790481", 
@@ -59589,7 +59505,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL"
+                "NHL NET"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -59597,7 +59513,7 @@
             "vs": "Montr\u00e9al Canadiens vs. Ottawa Senators"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59608,9 +59524,7 @@
             }, 
             "awayTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "date": "2015-04-15T23:00:00+00:00", 
-            "description": "Young forwards, Halak lift Islanders past Caps 4-1 in Game 1", 
-            "eventTitle": "Eastern Conference First Round - Game 1", 
-            "game": 1, 
+            "description": "Young forwards, Halak lift Islanders past Caps 4-1 in Game 1, Eastern Conference First Round - Game 1", 
             "homeTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "identity": {
                 "ESPNAPIID": "400790524", 
@@ -59619,16 +59533,17 @@
             "league": "NHL", 
             "networks": [
                 "MSG", 
-                "USA", 
-                "CSNB"
+                "CSNB", 
+                "USA Net"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 1", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Washington Capitals vs. New York Islanders"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59640,7 +59555,6 @@
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2015-04-16T00:30:00+00:00", 
             "description": "Western Conference First Round - Game 1", 
-            "game": 1, 
             "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
             "identity": {
                 "ESPNAPIID": "400790493", 
@@ -59657,7 +59571,7 @@
             "vs": "Nashville Predators vs. Chicago Blackhawks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59668,9 +59582,7 @@
             }, 
             "awayTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "date": "2015-04-16T02:00:00+00:00", 
-            "description": "Russell scores late to lift Flames over Canucks 2-1", 
-            "eventTitle": "Western Conference First Round - Game 1", 
-            "game": 1, 
+            "description": "Russell scores late to lift Flames over Canucks 2-1, Western Conference First Round - Game 1", 
             "homeTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
             "identity": {
                 "ESPNAPIID": "400790501", 
@@ -59678,15 +59590,16 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "USA"
+                "USA Net"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 1", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Vancouver Canucks vs. Calgary Flames"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59697,9 +59610,7 @@
             }, 
             "awayTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "date": "2015-04-16T23:00:00+00:00", 
-            "description": "Derick Brassard and Ryan McDonough scored in the first period, and Henrik Lundqvist made the goals stand up as the New York Rangers won the opener of their playoff series with Pittsburgh.", 
-            "eventTitle": "Eastern Conference First Round - Game 1", 
-            "game": 1, 
+            "description": "Derick Brassard and Ryan McDonough scored in the first period, and Henrik Lundqvist made the goals stand up as the New York Rangers won the opener of their playoff series with Pittsburgh. Eastern Conference First Round - Game 1", 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
                 "ESPNAPIID": "400790515", 
@@ -59710,13 +59621,14 @@
                 "MSG", 
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 1", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "New York Rangers vs. Pittsburgh Penguins"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59728,7 +59640,6 @@
             "awayTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "date": "2015-04-16T23:30:00+00:00", 
             "description": "Eastern Conference First Round - Game 1", 
-            "game": 1, 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "ESPNAPIID": "400790522", 
@@ -59744,7 +59655,7 @@
             "vs": "Tampa Bay Lightning vs. Detroit Red Wings"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59755,9 +59666,7 @@
             }, 
             "awayTeam": "5143a40b-0e18-4141-b23d-85c64bb38206", 
             "date": "2015-04-17T01:30:00+00:00", 
-            "description": "Jason Zucker and Matt Dumba gave Minnesota a two-goal lead through two periods and the Wild kept chances to a minimum for Devan Dubnyk, opening the playoffs with a 4-2 victory over the Blues.", 
-            "eventTitle": "Western Conference First Round - Game 1", 
-            "game": 1, 
+            "description": "Jason Zucker and Matt Dumba gave Minnesota a two-goal lead through two periods and the Wild kept chances to a minimum for Devan Dubnyk, opening the playoffs with a 4-2 victory over the Blues. Western Conference First Round - Game 1", 
             "homeTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "identity": {
                 "ESPNAPIID": "400790482", 
@@ -59767,13 +59676,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 1", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "St. Louis Blues vs. Minnesota Wild"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59785,7 +59695,6 @@
             "awayTeam": "c5813df8-7693-4261-9383-bf212609a8aa", 
             "date": "2015-04-17T02:30:00+00:00", 
             "description": "Western Conference First Round - Game 1", 
-            "game": 1, 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
                 "ESPNAPIID": "400790508", 
@@ -59801,7 +59710,7 @@
             "vs": "Anaheim Ducks vs. Winnipeg Jets"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59812,9 +59721,7 @@
             }, 
             "awayTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "date": "2015-04-17T23:00:00+00:00", 
-            "description": "Alex Galchenyuk scored 3:40 into overtime, leading Montreal to a 3-2 victory over the Ottawa Senators on Friday night that gave the Canadiens a 2-0 lead in their first-round playoff series.", 
-            "eventTitle": "Eastern Conference First Round - Game 2", 
-            "game": 2, 
+            "description": "Alex Galchenyuk scored 3:40 into overtime, leading Montreal to a 3-2 victory over the Ottawa Senators on Friday night that gave the Canadiens a 2-0 lead in their first-round playoff series. Eastern Conference First Round - Game 2", 
             "homeTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "identity": {
                 "ESPNAPIID": "400790487", 
@@ -59824,13 +59731,14 @@
             "networks": [
                 "CNBC"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 2", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Montr\u00e9al Canadiens vs. Ottawa Senators"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59842,7 +59750,6 @@
             "awayTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "date": "2015-04-17T23:00:00+00:00", 
             "description": "Eastern Conference First Round - Game 2", 
-            "game": 2, 
             "homeTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "identity": {
                 "ESPNAPIID": "400790526", 
@@ -59860,7 +59767,7 @@
             "vs": "Washington Capitals vs. New York Islanders"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59872,7 +59779,6 @@
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2015-04-18T01:30:00+00:00", 
             "description": "Western Conference First Round - Game 2", 
-            "game": 2, 
             "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
             "identity": {
                 "ESPNAPIID": "400790495", 
@@ -59889,7 +59795,7 @@
             "vs": "Nashville Predators vs. Chicago Blackhawks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59900,9 +59806,7 @@
             }, 
             "awayTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "date": "2015-04-18T02:00:00+00:00", 
-            "description": "Eddie Lack made 22 saves to help the Canucks tie their first-round series with the Flames.", 
-            "eventTitle": "Western Conference First Round - Game 2", 
-            "game": 2, 
+            "description": "Eddie Lack made 22 saves to help the Canucks tie their first-round series with the Flames. Western Conference First Round - Game 2", 
             "homeTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
             "identity": {
                 "ESPNAPIID": "400790502", 
@@ -59912,13 +59816,14 @@
             "networks": [
                 "CNBC"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 2", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Vancouver Canucks vs. Calgary Flames"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59929,9 +59834,7 @@
             }, 
             "awayTeam": "5143a40b-0e18-4141-b23d-85c64bb38206", 
             "date": "2015-04-18T19:00:00+00:00", 
-            "description": "Blues whip Wild 4-1, even series at game apiece", 
-            "eventTitle": "Western Conference First Round - Game 2", 
-            "game": 2, 
+            "description": "Blues whip Wild 4-1, even series at game apiece, Western Conference First Round - Game 2", 
             "homeTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "identity": {
                 "ESPNAPIID": "400790483", 
@@ -59941,13 +59844,14 @@
             "networks": [
                 "NBC"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 2", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "St. Louis Blues vs. Minnesota Wild"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59958,9 +59862,7 @@
             }, 
             "awayTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "date": "2015-04-18T19:00:00+00:00", 
-            "description": "Lightning rebound to even series against Red Wings", 
-            "eventTitle": "Eastern Conference First Round - Game 2", 
-            "game": 2, 
+            "description": "Lightning rebound to even series against Red Wings, Eastern Conference First Round - Game 2", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "ESPNAPIID": "400790523", 
@@ -59970,13 +59872,14 @@
             "networks": [
                 "NBC"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 2", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Tampa Bay Lightning vs. Detroit Red Wings"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -59988,7 +59891,6 @@
             "awayTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "date": "2015-04-19T00:00:00+00:00", 
             "description": "Eastern Conference First Round - Game 2", 
-            "game": 2, 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
                 "ESPNAPIID": "400790516", 
@@ -60004,7 +59906,7 @@
             "vs": "New York Rangers vs. Pittsburgh Penguins"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60016,7 +59918,6 @@
             "awayTeam": "c5813df8-7693-4261-9383-bf212609a8aa", 
             "date": "2015-04-19T02:30:00+00:00", 
             "description": "Western Conference First Round - Game 2", 
-            "game": 2, 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
                 "ESPNAPIID": "400790509", 
@@ -60032,7 +59933,7 @@
             "vs": "Anaheim Ducks vs. Winnipeg Jets"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60043,9 +59944,7 @@
             }, 
             "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "date": "2015-04-19T16:00:00+00:00", 
-            "description": "Tavares scores early in OT in Isles' 2-1 win over Caps", 
-            "eventTitle": "Eastern Conference First Round - Game 3", 
-            "game": 3, 
+            "description": "Tavares scores early in OT in Isles' 2-1 win over Caps, Eastern Conference First Round - Game 3", 
             "homeTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "identity": {
                 "ESPNAPIID": "400790527", 
@@ -60055,13 +59954,14 @@
             "networks": [
                 "NBC"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "New York Islanders vs. Washington Capitals"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60072,9 +59972,7 @@
             }, 
             "awayTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
             "date": "2015-04-19T19:00:00+00:00", 
-            "description": "Jonathan Toews had a goal and an assist, and the Chicago Blackhawks used a three-goal second period to beat the Nashville Predators 4-2 on Sunday for a 2-1 series lead.", 
-            "eventTitle": "Western Conference First Round - Game 3", 
-            "game": 3, 
+            "description": "Jonathan Toews had a goal and an assist, and the Chicago Blackhawks used a three-goal second period to beat the Nashville Predators 4-2 on Sunday for a 2-1 series lead. Western Conference First Round - Game 3", 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
                 "ESPNAPIID": "400790497", 
@@ -60084,13 +59982,14 @@
             "networks": [
                 "NBC"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Chicago Blackhawks vs. Nashville Predators"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60101,9 +60000,7 @@
             }, 
             "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "date": "2015-04-19T23:00:00+00:00", 
-            "description": "Weise lifts Canadiens over Senators 2-1 in OT", 
-            "eventTitle": "Eastern Conference First Round - Game 3", 
-            "game": 3, 
+            "description": "Weise lifts Canadiens over Senators 2-1 in OT, Eastern Conference First Round - Game 3", 
             "homeTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "identity": {
                 "ESPNAPIID": "400790490", 
@@ -60113,13 +60010,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Ottawa Senators vs. Montr\u00e9al Canadiens"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60130,9 +60028,7 @@
             }, 
             "awayTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
             "date": "2015-04-20T02:00:00+00:00", 
-            "description": "Brodie leads Flames past Canucks 4-2 in Game 3", 
-            "eventTitle": "Western Conference First Round - Game 3", 
-            "game": 3, 
+            "description": "Brodie leads Flames past Canucks 4-2 in Game 3, Western Conference First Round - Game 3", 
             "homeTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "identity": {
                 "ESPNAPIID": "400790503", 
@@ -60142,13 +60038,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Calgary Flames vs. Vancouver Canucks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60159,9 +60056,7 @@
             }, 
             "awayTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "date": "2015-04-20T23:00:00+00:00", 
-            "description": "Henrik Lundqvist stopped 23 shots, and the New York Rangers regained control of their first-round series against the Pittsburgh Penguins with a 2-1 win in Game 3 on Monday night.", 
-            "eventTitle": "Eastern Conference First Round - Game 3", 
-            "game": 3, 
+            "description": "Henrik Lundqvist stopped 23 shots, and the New York Rangers regained control of their first-round series against the Pittsburgh Penguins with a 2-1 win in Game 3 on Monday night. Eastern Conference First Round - Game 3", 
             "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "identity": {
                 "ESPNAPIID": "400790517"
@@ -60171,13 +60066,14 @@
                 "MSG", 
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Pittsburgh Penguins vs. New York Rangers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60188,9 +60084,7 @@
             }, 
             "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "date": "2015-04-21T00:00:00+00:00", 
-            "description": "Devan Dubnyk shut out the Blues with 17 saves and was supported by the offense to give the Wild a 2-1 series lead.", 
-            "eventTitle": "Western Conference First Round - Game 3", 
-            "game": 3, 
+            "description": "Devan Dubnyk shut out the Blues with 17 saves and was supported by the offense to give the Wild a 2-1 series lead. Western Conference First Round - Game 3", 
             "homeTeam": "5143a40b-0e18-4141-b23d-85c64bb38206", 
             "identity": {
                 "ESPNAPIID": "400790484"
@@ -60199,13 +60093,14 @@
             "networks": [
                 "CNBC"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Minnesota Wild vs. St. Louis Blues"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60216,24 +60111,23 @@
             }, 
             "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "date": "2015-04-21T01:00:00+00:00", 
-            "description": "Rickard Rakell scored in overtime to lift the Anaheim Ducks over the Winnipeg Jets 5-4 on Monday in Game 3 of their playoff series.", 
-            "eventTitle": "Western Conference First Round - Game 3", 
-            "game": 3, 
+            "description": "Rickard Rakell scored in overtime to lift the Anaheim Ducks over the Winnipeg Jets 5-4 on Monday in Game 3 of their playoff series. Western Conference First Round - Game 3", 
             "homeTeam": "c5813df8-7693-4261-9383-bf212609a8aa", 
             "identity": {
                 "ESPNAPIID": "400790510"
             }, 
             "league": "NHL", 
             "networks": [
-                "NHL"
+                "NHL NET"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Winnipeg Jets vs. Anaheim Ducks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60244,9 +60138,7 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2015-04-21T23:00:00+00:00", 
-            "description": "Petr Mrazek's first career playoff shutout and balanced scoring give the Red Wings a 3-0 Game 3 win and a 2-1 series lead over the Lightning.", 
-            "eventTitle": "Eastern Conference First Round - Game 3", 
-            "game": 3, 
+            "description": "Petr Mrazek's first career playoff shutout and balanced scoring give the Red Wings a 3-0 Game 3 win and a 2-1 series lead over the Lightning. Eastern Conference First Round - Game 3", 
             "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "identity": {
                 "ESPNAPIID": "400790525", 
@@ -60256,13 +60148,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Detroit Red Wings vs. Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60274,7 +60167,6 @@
             "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "date": "2015-04-21T23:30:00+00:00", 
             "description": "Eastern Conference First Round - Game 4", 
-            "game": 4, 
             "homeTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "identity": {
                 "ESPNAPIID": "400790530", 
@@ -60283,8 +60175,8 @@
             "league": "NHL", 
             "networks": [
                 "MSG", 
-                "USA", 
-                "CSNB"
+                "CSNB", 
+                "USA Net"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -60292,7 +60184,7 @@
             "vs": "New York Islanders vs. Washington Capitals"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60303,9 +60195,7 @@
             }, 
             "awayTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
             "date": "2015-04-22T01:30:00+00:00", 
-            "description": "Brent Seabrook scored on a booming slap shot 1 minute into the third overtime, and the Blackhawks beat the Predators 3-2 in Game 4 of their first-round playoff series to take a 3-1 series lead.", 
-            "eventTitle": "Western Conference First Round - Game 4", 
-            "game": 4, 
+            "description": "Brent Seabrook scored on a booming slap shot 1 minute into the third overtime, and the Blackhawks beat the Predators 3-2 in Game 4 of their first-round playoff series to take a 3-1 series lead. Western Conference First Round - Game 4", 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
                 "ESPNAPIID": "400790498", 
@@ -60316,13 +60206,14 @@
                 "NBCSN", 
                 "CSNC"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 4", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Chicago Blackhawks vs. Nashville Predators"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60333,9 +60224,7 @@
             }, 
             "awayTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
             "date": "2015-04-22T02:00:00+00:00", 
-            "description": "Jiri Hudler had a goal and an assist, and the Calgary Flames earned a 3-1 win over the Vancouver Canucks on Tuesday.", 
-            "eventTitle": "Western Conference First Round - Game 4", 
-            "game": 4, 
+            "description": "Jiri Hudler had a goal and an assist, and the Calgary Flames earned a 3-1 win over the Vancouver Canucks on Tuesday. Western Conference First Round - Game 4", 
             "homeTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "identity": {
                 "ESPNAPIID": "400790504", 
@@ -60343,15 +60232,16 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "USA"
+                "USA Net"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 4", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Calgary Flames vs. Vancouver Canucks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60362,9 +60252,7 @@
             }, 
             "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "date": "2015-04-22T23:00:00+00:00", 
-            "description": "Mike Hoffman scored midway through the third period, and the Ottawa Senators beat the Montreal Canadiens 1-0 on Wednesday night to avoid elimination.", 
-            "eventTitle": "Eastern Conference First Round - Game 4", 
-            "game": 4, 
+            "description": "Mike Hoffman scored midway through the third period, and the Ottawa Senators beat the Montreal Canadiens 1-0 on Wednesday night to avoid elimination. Eastern Conference First Round - Game 4", 
             "homeTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "identity": {
                 "ESPNAPIID": "400790491", 
@@ -60372,15 +60260,16 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "USA"
+                "USA Net"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 4", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Ottawa Senators vs. Montr\u00e9al Canadiens"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60391,9 +60280,7 @@
             }, 
             "awayTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "date": "2015-04-22T23:00:00+00:00", 
-            "description": "Kevin Hayes scored at 3:14 of overtime to give the New York Rangers a 2-1 victory over the Pittsburgh Penguins on Wednesday night in Game 4 of the Eastern Conference first-round series.", 
-            "eventTitle": "Eastern Conference First Round - Game 4", 
-            "game": 4, 
+            "description": "Kevin Hayes scored at 3:14 of overtime to give the New York Rangers a 2-1 victory over the Pittsburgh Penguins on Wednesday night in Game 4 of the Eastern Conference first-round series. Eastern Conference First Round - Game 4", 
             "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "identity": {
                 "ESPNAPIID": "400790518", 
@@ -60404,13 +60291,14 @@
                 "MSG", 
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 4", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Pittsburgh Penguins vs. New York Rangers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60421,9 +60309,7 @@
             }, 
             "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "date": "2015-04-23T01:30:00+00:00", 
-            "description": "Vladimir Tarasenko scored twice and the revived St. Louis Blues sent Minnesota goalie Devan Dubnyk to an early exit in a 6-1 victory in Game 4 to even the Western Conference quarterfinal series.", 
-            "eventTitle": "Western Conference First Round - Game 4", 
-            "game": 4, 
+            "description": "Vladimir Tarasenko scored twice and the revived St. Louis Blues sent Minnesota goalie Devan Dubnyk to an early exit in a 6-1 victory in Game 4 to even the Western Conference quarterfinal series. Western Conference First Round - Game 4", 
             "homeTeam": "5143a40b-0e18-4141-b23d-85c64bb38206", 
             "identity": {
                 "ESPNAPIID": "400790485", 
@@ -60433,13 +60319,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 4", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Minnesota Wild vs. St. Louis Blues"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60451,7 +60338,6 @@
             "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "date": "2015-04-23T01:30:00+00:00", 
             "description": "Western Conference First Round - Game 4", 
-            "game": 4, 
             "homeTeam": "c5813df8-7693-4261-9383-bf212609a8aa", 
             "identity": {
                 "ESPNAPIID": "400790511", 
@@ -60459,7 +60345,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "USA"
+                "USA Net"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -60467,7 +60353,7 @@
             "vs": "Winnipeg Jets vs. Anaheim Ducks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60478,9 +60364,7 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2015-04-23T23:00:00+00:00", 
-            "description": "Tyler Johnson led a stirring Tampa Bay rally late in regulation, then scored 2:25 into overtime to lift the Lightning to a 3-2 victory over the Detroit Red Wings on Thursday night.", 
-            "eventTitle": "Eastern Conference First Round - Game 4", 
-            "game": 4, 
+            "description": "Tyler Johnson led a stirring Tampa Bay rally late in regulation, then scored 2:25 into overtime to lift the Lightning to a 3-2 victory over the Detroit Red Wings on Thursday night. Eastern Conference First Round - Game 4", 
             "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "identity": {
                 "ESPNAPIID": "400790528", 
@@ -60490,13 +60374,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 4", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Detroit Red Wings vs. Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 5", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60507,9 +60392,7 @@
             }, 
             "awayTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "date": "2015-04-23T23:00:00+00:00", 
-            "description": "Rookie Evgeny Kuznetsov scored twice, Karl Alzner added a goal and an assist, and the Washington Capitals beat the New York Islanders 5-1 Thursday night for a 3-2 lead in their first-round series", 
-            "eventTitle": "Eastern Conference First Round - Game 5", 
-            "game": 5, 
+            "description": "Rookie Evgeny Kuznetsov scored twice, Karl Alzner added a goal and an assist, and the Washington Capitals beat the New York Islanders 5-1 Thursday night for a 3-2 lead in their first-round series, Eastern Conference First Round - Game 5", 
             "homeTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "identity": {
                 "ESPNAPIID": "400790533", 
@@ -60521,13 +60404,14 @@
                 "CNBC", 
                 "CSNB"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 5", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Washington Capitals vs. New York Islanders"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 5", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60538,9 +60422,7 @@
             }, 
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2015-04-24T01:30:00+00:00", 
-            "description": "Rookie Filip Forsberg had his first career hat trick, and the Predators forced a sixth game in their first-round Western Conference series by beating the Blackhawks 5-2 on Thursday night.", 
-            "eventTitle": "Western Conference First Round - Game 5", 
-            "game": 5, 
+            "description": "Rookie Filip Forsberg had his first career hat trick, and the Predators forced a sixth game in their first-round Western Conference series by beating the Blackhawks 5-2 on Thursday night. Western Conference First Round - Game 5", 
             "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
             "identity": {
                 "ESPNAPIID": "400790499", 
@@ -60551,13 +60433,14 @@
                 "NBCSN", 
                 "CSNC"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 5", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Nashville Predators vs. Chicago Blackhawks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 5", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60568,9 +60451,7 @@
             }, 
             "awayTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "date": "2015-04-24T02:00:00+00:00", 
-            "description": "Daniel Sedin's tiebreaking goal early in the third helped Vancouver avoid elimination with a 2-1 victory over the Calgary Flames in Game 5 of their Western Conference quarterfinal series.", 
-            "eventTitle": "Western Conference First Round - Game 5", 
-            "game": 5, 
+            "description": "Daniel Sedin's tiebreaking goal early in the third helped Vancouver avoid elimination with a 2-1 victory over the Calgary Flames in Game 5 of their Western Conference quarterfinal series. Western Conference First Round - Game 5", 
             "homeTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
             "identity": {
                 "ESPNAPIID": "400790505", 
@@ -60580,13 +60461,14 @@
             "networks": [
                 "CNBC"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 5", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Vancouver Canucks vs. Calgary Flames"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 5", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60597,9 +60479,7 @@
             }, 
             "awayTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "date": "2015-04-24T23:00:00+00:00", 
-            "description": "Craig Anderson made 45 saves and the Ottawa Senators avoided elimination with a 5-1 victory over the Montreal Canadiens on Friday night in Game 5 of the Eastern Conference first-round series.", 
-            "eventTitle": "Eastern Conference First Round - Game 5", 
-            "game": 5, 
+            "description": "Craig Anderson made 45 saves and the Ottawa Senators avoided elimination with a 5-1 victory over the Montreal Canadiens on Friday night in Game 5 of the Eastern Conference first-round series. Eastern Conference First Round - Game 5", 
             "homeTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "identity": {
                 "ESPNAPIID": "400790492", 
@@ -60609,13 +60489,14 @@
             "networks": [
                 "CNBC"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 5", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Montr\u00e9al Canadiens vs. Ottawa Senators"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 5", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60626,9 +60507,7 @@
             }, 
             "awayTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "date": "2015-04-24T23:00:00+00:00", 
-            "description": "The New York Rangers used Carl Hagelin's overtime goal and spectacular goaltending by Henrik Lundqvist for a 2-1 win over Pittsburgh on Friday night to advance in the Eastern Conference playoffs.", 
-            "eventTitle": "Eastern Conference First Round - Game 5", 
-            "game": 5, 
+            "description": "The New York Rangers used Carl Hagelin's overtime goal and spectacular goaltending by Henrik Lundqvist for a 2-1 win over Pittsburgh on Friday night to advance in the Eastern Conference playoffs. Eastern Conference First Round - Game 5", 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
                 "ESPNAPIID": "400790519", 
@@ -60639,13 +60518,14 @@
                 "MSG", 
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 5", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "New York Rangers vs. Pittsburgh Penguins"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 5", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60657,7 +60537,6 @@
             "awayTeam": "5143a40b-0e18-4141-b23d-85c64bb38206", 
             "date": "2015-04-25T01:30:00+00:00", 
             "description": "Western Conference First Round - Game 5", 
-            "game": 5, 
             "homeTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "identity": {
                 "ESPNAPIID": "400790486", 
@@ -60673,7 +60552,7 @@
             "vs": "St. Louis Blues vs. Minnesota Wild"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 6", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60685,7 +60564,6 @@
             "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "date": "2015-04-25T19:00:00+00:00", 
             "description": "Eastern Conference First Round - Game 6", 
-            "game": 6, 
             "homeTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "identity": {
                 "ESPNAPIID": "400792441"
@@ -60700,7 +60578,7 @@
             "vs": "New York Islanders vs. Washington Capitals"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 5", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60711,9 +60589,7 @@
             }, 
             "awayTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "date": "2015-04-25T22:00:00+00:00", 
-            "description": "Petr Mrazek stopped 28 shots and the Detroit Red Wings rebounded from a disappointing loss to shut down the Tampa Bay Lightning 4-0 and take a 3-2 lead in the first-round NHL playoff series.", 
-            "eventTitle": "Eastern Conference First Round - Game 5", 
-            "game": 5, 
+            "description": "Petr Mrazek stopped 28 shots and the Detroit Red Wings rebounded from a disappointing loss to shut down the Tampa Bay Lightning 4-0 and take a 3-2 lead in the first-round NHL playoff series. Eastern Conference First Round - Game 5", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "ESPNAPIID": "400790529"
@@ -60724,13 +60600,14 @@
                 "NBCSN", 
                 "FSDT"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 5", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Tampa Bay Lightning vs. Detroit Red Wings"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 6", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60741,9 +60618,7 @@
             }, 
             "awayTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
             "date": "2015-04-26T00:00:00+00:00", 
-            "description": "Duncan Keith scored at 16:12 of the third, and the Chicago Blackhawks beat the Nashville Predators 4-3 on Saturday night to win their first-round playoff series 4-2.", 
-            "eventTitle": "Western Conference First Round - Game 6", 
-            "game": 6, 
+            "description": "Duncan Keith scored at 16:12 of the third, and the Chicago Blackhawks beat the Nashville Predators 4-3 on Saturday night to win their first-round playoff series 4-2. Western Conference First Round - Game 6", 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
                 "ESPNAPIID": "400790500"
@@ -60752,13 +60627,14 @@
             "networks": [
                 "NBC"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 6", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Chicago Blackhawks vs. Nashville Predators"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 6", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60769,9 +60645,7 @@
             }, 
             "awayTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
             "date": "2015-04-26T01:00:00+00:00", 
-            "description": "The Flames used a seven-goal effort to put the Canucks away in Game 6 of their first-round playoff series to advance to the second round against the Anaheim Ducks.", 
-            "eventTitle": "Western Conference First Round - Game 6", 
-            "game": 6, 
+            "description": "The Flames used a seven-goal effort to put the Canucks away in Game 6 of their first-round playoff series to advance to the second round against the Anaheim Ducks. Western Conference First Round - Game 6", 
             "homeTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "identity": {
                 "ESPNAPIID": "400790506"
@@ -60780,13 +60654,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 6", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Calgary Flames vs. Vancouver Canucks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FIRST ROUND - GAME 6", 
+            "altDescription": "WESTERN CONFERENCE FIRST ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60797,9 +60672,7 @@
             }, 
             "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "date": "2015-04-26T19:00:00+00:00", 
-            "description": "Parise, Wild advance with 4-1 win over Blues", 
-            "eventTitle": "Western Conference First Round - Game 6", 
-            "game": 6, 
+            "description": "Parise, Wild advance with 4-1 win over Blues, Western Conference First Round - Game 6", 
             "homeTeam": "5143a40b-0e18-4141-b23d-85c64bb38206", 
             "identity": {
                 "ESPNAPIID": "400790488", 
@@ -60809,13 +60682,14 @@
             "networks": [
                 "NBC"
             ], 
+            "notes": "WESTERN CONFERENCE FIRST ROUND - GAME 6", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Minnesota Wild vs. St. Louis Blues"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 6", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60826,9 +60700,7 @@
             }, 
             "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "date": "2015-04-26T22:00:00+00:00", 
-            "description": "Carey Price made 43 saves, Brendan Gallagher scored in the first period and the Canadiens defeated the Senators to advance to the second round of the NHL playoffs.", 
-            "eventTitle": "Eastern Conference First Round - Game 6", 
-            "game": 6, 
+            "description": "Carey Price made 43 saves, Brendan Gallagher scored in the first period and the Canadiens defeated the Senators to advance to the second round of the NHL playoffs. Eastern Conference First Round - Game 6", 
             "homeTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "identity": {
                 "ESPNAPIID": "400790494", 
@@ -60838,13 +60710,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 6", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Ottawa Senators vs. Montr\u00e9al Canadiens"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 6", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60855,9 +60728,7 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2015-04-27T23:00:00+00:00", 
-            "description": "Tyler Johnson scored two goals in his latest stellar performance and the Tampa Bay Lightning held on for a 5-2 victory over the Detroit Red Wings on Monday night, forcing a Game 7.", 
-            "eventTitle": "Eastern Conference First Round - Game 6", 
-            "game": 6, 
+            "description": "Tyler Johnson scored two goals in his latest stellar performance and the Tampa Bay Lightning held on for a 5-2 victory over the Detroit Red Wings on Monday night, forcing a Game 7. Eastern Conference First Round - Game 6", 
             "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "identity": {
                 "ESPNAPIID": "400790531", 
@@ -60867,13 +60738,14 @@
             "networks": [
                 "CNBC"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 6", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Detroit Red Wings vs. Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 7", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 7", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60884,9 +60756,7 @@
             }, 
             "awayTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "date": "2015-04-27T23:30:00+00:00", 
-            "description": "Rookie Evgeny Kuznetsov scored the go-ahead goal and Braden Holtby only needed to make 10 saves, lifting the Capitals past the Islanders 2-1 in the first round of the Eastern Conference playoffs.", 
-            "eventTitle": "Eastern Conference First Round - Game 7", 
-            "game": 7, 
+            "description": "Rookie Evgeny Kuznetsov scored the go-ahead goal and Braden Holtby only needed to make 10 saves, lifting the Capitals past the Islanders 2-1 in the first round of the Eastern Conference playoffs. Eastern Conference First Round - Game 7", 
             "homeTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "identity": {
                 "ESPNAPIID": "400792442", 
@@ -60898,13 +60768,14 @@
                 "NBCSN", 
                 "MSG+"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 7", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Washington Capitals vs. New York Islanders"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FIRST ROUND - GAME 7", 
+            "altDescription": "EASTERN CONFERENCE FIRST ROUND - GAME 7", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60915,9 +60786,7 @@
             }, 
             "awayTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "date": "2015-04-29T23:30:00+00:00", 
-            "description": "The Lightning completed their comeback from a 3-2 series deficit to shut out the Red Wings in Game 7 and advance to the Eastern Conference semifinals against the Canadiens.", 
-            "eventTitle": "Eastern Conference First Round - Game 7", 
-            "game": 7, 
+            "description": "The Lightning completed their comeback from a 3-2 series deficit to shut out the Red Wings in Game 7 and advance to the Eastern Conference semifinals against the Canadiens. Eastern Conference First Round - Game 7", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "ESPNAPIID": "400790532", 
@@ -60927,13 +60796,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE FIRST ROUND - GAME 7", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Tampa Bay Lightning vs. Detroit Red Wings"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SECOND ROUND - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE SECOND ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60944,9 +60814,7 @@
             }, 
             "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "date": "2015-04-30T23:30:00+00:00", 
-            "description": "Joel Ward scores with 1.3 seconds left to break a 1-1 tie and give the Capitals a 2-1 win over the Rangers to open their Eastern Conference semifinal series.", 
-            "eventTitle": "Eastern Conference Second Round - Game 1", 
-            "game": 1, 
+            "description": "Joel Ward scores with 1.3 seconds left to break a 1-1 tie and give the Capitals a 2-1 win over the Rangers to open their Eastern Conference semifinal series. Eastern Conference Second Round - Game 1", 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
                 "ESPNAPIID": "400792783"
@@ -60955,13 +60823,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE SECOND ROUND - GAME 1", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "New York Rangers vs. Washington Capitals"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SECOND ROUND - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE SECOND ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -60972,9 +60841,7 @@
             }, 
             "awayTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "date": "2015-05-01T02:00:00+00:00", 
-            "description": "Playing against former goalie Jonas Hiller and the Flames, the Ducks ran up six goals in a Game 1 blowout to begin the Western Conference semifinal series.", 
-            "eventTitle": "Western Conference Second Round - Game 1", 
-            "game": 1, 
+            "description": "Playing against former goalie Jonas Hiller and the Flames, the Ducks ran up six goals in a Game 1 blowout to begin the Western Conference semifinal series. Western Conference Second Round - Game 1", 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
                 "ESPNAPIID": "400792790"
@@ -60983,13 +60850,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "WESTERN CONFERENCE SECOND ROUND - GAME 1", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Anaheim Ducks vs. Calgary Flames"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SECOND ROUND - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE SECOND ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61000,9 +60868,7 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2015-05-01T23:00:00+00:00", 
-            "description": "Nikita Kucherov scored at 2:06 of the second overtime to give the Tampa Bay Lightning a 2-1 victory over the Montreal Canadiens on Friday in Game 1 of the Eastern Conference semifinal series.", 
-            "eventTitle": "Eastern Conference Second Round - Game 1", 
-            "game": 1, 
+            "description": "Nikita Kucherov scored at 2:06 of the second overtime to give the Tampa Bay Lightning a 2-1 victory over the Montreal Canadiens on Friday in Game 1 of the Eastern Conference semifinal series. Eastern Conference Second Round - Game 1", 
             "homeTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "identity": {
                 "ESPNAPIID": "400792881", 
@@ -61012,13 +60878,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE SECOND ROUND - GAME 1", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Montr\u00e9al Canadiens vs. Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SECOND ROUND - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE SECOND ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61029,9 +60896,7 @@
             }, 
             "awayTeam": "5143a40b-0e18-4141-b23d-85c64bb38206", 
             "date": "2015-05-02T01:30:00+00:00", 
-            "description": "Teuvo Teravainen broke a tie with his first playoff goal and the Chicago Blackhawks beat the Minnesota Wild 4-3 on Friday night in Game 1 of the Western Conference semifinal series.", 
-            "eventTitle": "Western Conference Second Round - Game 1", 
-            "game": 1, 
+            "description": "Teuvo Teravainen broke a tie with his first playoff goal and the Chicago Blackhawks beat the Minnesota Wild 4-3 on Friday night in Game 1 of the Western Conference semifinal series. Western Conference Second Round - Game 1", 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
                 "ESPNAPIID": "400792797", 
@@ -61041,13 +60906,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "WESTERN CONFERENCE SECOND ROUND - GAME 1", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Chicago Blackhawks vs. Minnesota Wild"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SECOND ROUND - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE SECOND ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61058,9 +60924,7 @@
             }, 
             "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "date": "2015-05-02T16:30:00+00:00", 
-            "description": "Chris Kreider scored 38 seconds after the opening faceoff and the New York Rangers bounced back from a tough, last-second loss and defeated the Washington Capitals 3-2 Saturday.", 
-            "eventTitle": "Eastern Conference Second Round - Game 2", 
-            "game": 2, 
+            "description": "Chris Kreider scored 38 seconds after the opening faceoff and the New York Rangers bounced back from a tough, last-second loss and defeated the Washington Capitals 3-2 Saturday. Eastern Conference Second Round - Game 2", 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
                 "ESPNAPIID": "400792784", 
@@ -61070,13 +60934,14 @@
             "networks": [
                 "NBC"
             ], 
+            "notes": "EASTERN CONFERENCE SECOND ROUND - GAME 2", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "New York Rangers vs. Washington Capitals"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SECOND ROUND - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE SECOND ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61087,9 +60952,7 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2015-05-03T22:00:00+00:00", 
-            "description": "Steven Stamkos scored his first goal of the playoffs and the Lightning beat the Canadiens 6-2 on Sunday night to take a 2-0 lead in the East semifinals.", 
-            "eventTitle": "Eastern Conference Second Round - Game 2", 
-            "game": 2, 
+            "description": "Steven Stamkos scored his first goal of the playoffs and the Lightning beat the Canadiens 6-2 on Sunday night to take a 2-0 lead in the East semifinals. Eastern Conference Second Round - Game 2", 
             "homeTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "identity": {
                 "ESPNAPIID": "400792882", 
@@ -61099,13 +60962,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE SECOND ROUND - GAME 2", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Montr\u00e9al Canadiens vs. Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SECOND ROUND - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE SECOND ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61116,9 +60980,7 @@
             }, 
             "awayTeam": "5143a40b-0e18-4141-b23d-85c64bb38206", 
             "date": "2015-05-04T00:30:00+00:00", 
-            "description": "Patrick Kane scored two goals, Corey Crawford made 30 saves and the Chicago Blackhawks beat the Minnesota Wild 4-1 on Sunday night to take a 2-0 lead in the Western Conference semifinals.", 
-            "eventTitle": "Western Conference Second Round - Game 2", 
-            "game": 2, 
+            "description": "Patrick Kane scored two goals, Corey Crawford made 30 saves and the Chicago Blackhawks beat the Minnesota Wild 4-1 on Sunday night to take a 2-0 lead in the Western Conference semifinals. Western Conference Second Round - Game 2", 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
                 "ESPNAPIID": "400792798", 
@@ -61128,13 +60990,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "WESTERN CONFERENCE SECOND ROUND - GAME 2", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Chicago Blackhawks vs. Minnesota Wild"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SECOND ROUND - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE SECOND ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61145,9 +61008,7 @@
             }, 
             "awayTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "date": "2015-05-04T02:00:00+00:00", 
-            "description": "Frederik Andersen made 30 saves in his first career postseason shutout, Matt Beleskey scored in the first period and the Ducks remained unbeaten in the playoffs with a 3-0 win over the Flames.", 
-            "eventTitle": "Western Conference Second Round - Game 2", 
-            "game": 2, 
+            "description": "Frederik Andersen made 30 saves in his first career postseason shutout, Matt Beleskey scored in the first period and the Ducks remained unbeaten in the playoffs with a 3-0 win over the Flames. Western Conference Second Round - Game 2", 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
                 "ESPNAPIID": "400792791", 
@@ -61157,13 +61018,14 @@
             "networks": [
                 "CNBC"
             ], 
+            "notes": "WESTERN CONFERENCE SECOND ROUND - GAME 2", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Anaheim Ducks vs. Calgary Flames"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SECOND ROUND - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE SECOND ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61174,9 +61036,7 @@
             }, 
             "awayTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "date": "2015-05-04T23:30:00+00:00", 
-            "description": "Braden Holtby made 30 saves Monday night for his second career playoff shutout and Jay Beagle scored his first goal of this postseason, giving the Capitals a 1-0 victory over the Rangers.", 
-            "eventTitle": "Eastern Conference Second Round - Game 3", 
-            "game": 3, 
+            "description": "Braden Holtby made 30 saves Monday night for his second career playoff shutout and Jay Beagle scored his first goal of this postseason, giving the Capitals a 1-0 victory over the Rangers. Eastern Conference Second Round - Game 3", 
             "homeTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "identity": {
                 "ESPNAPIID": "400792785", 
@@ -61186,13 +61046,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE SECOND ROUND - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Washington Capitals vs. New York Rangers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SECOND ROUND - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE SECOND ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61203,9 +61064,7 @@
             }, 
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2015-05-06T00:00:00+00:00", 
-            "description": "Patrick Kane scored in the first period for Chicago, and Corey Crawford and the Blackhawks made the superstar's goal stand up for a 1-0 win over the Minnesota Wild on Tuesday.", 
-            "eventTitle": "Western Conference Second Round - Game 3", 
-            "game": 3, 
+            "description": "Patrick Kane scored in the first period for Chicago, and Corey Crawford and the Blackhawks made the superstar's goal stand up for a 1-0 win over the Minnesota Wild on Tuesday. Western Conference Second Round - Game 3", 
             "homeTeam": "5143a40b-0e18-4141-b23d-85c64bb38206", 
             "identity": {
                 "ESPNAPIID": "400792799", 
@@ -61215,13 +61074,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "WESTERN CONFERENCE SECOND ROUND - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Minnesota Wild vs. Chicago Blackhawks"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SECOND ROUND - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE SECOND ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61233,7 +61093,6 @@
             "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "date": "2015-05-06T01:30:00+00:00", 
             "description": "Western Conference Second Round - Game 3", 
-            "game": 3, 
             "homeTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "identity": {
                 "ESPNAPIID": "400792792", 
@@ -61241,7 +61100,7 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "USA"
+                "USA Net"
             ], 
             "season": "2014", 
             "sport": "Hockey", 
@@ -61249,7 +61108,7 @@
             "vs": "Calgary Flames vs. Anaheim Ducks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SECOND ROUND - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE SECOND ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61260,9 +61119,7 @@
             }, 
             "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "date": "2015-05-06T23:00:00+00:00", 
-            "description": "Tyler Johnson's goal with 1.1 seconds remaining Wednesday night gave the Lightning a 2-1 victory over the Canadiens and a 3-0 lead in their NHL playoff series.", 
-            "eventTitle": "Eastern Conference Second Round - Game 3", 
-            "game": 3, 
+            "description": "Tyler Johnson's goal with 1.1 seconds remaining Wednesday night gave the Lightning a 2-1 victory over the Canadiens and a 3-0 lead in their NHL playoff series. Eastern Conference Second Round - Game 3", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "ESPNAPIID": "400792883", 
@@ -61270,15 +61127,16 @@
             }, 
             "league": "NHL", 
             "networks": [
-                "USA"
+                "USA Net"
             ], 
+            "notes": "EASTERN CONFERENCE SECOND ROUND - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Tampa Bay Lightning vs. Montr\u00e9al Canadiens"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SECOND ROUND - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE SECOND ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61289,9 +61147,7 @@
             }, 
             "awayTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "date": "2015-05-06T23:30:00+00:00", 
-            "description": "Rookie Andre Burakovsky scored his first two playoff goals and Braden Holtby saved a penalty shot, giving the Washington Capitals a 2-1 victory over the New York Rangers on Wednesday night.", 
-            "eventTitle": "Eastern Conference Second Round - Game 4", 
-            "game": 4, 
+            "description": "Rookie Andre Burakovsky scored his first two playoff goals and Braden Holtby saved a penalty shot, giving the Washington Capitals a 2-1 victory over the New York Rangers on Wednesday night. Eastern Conference Second Round - Game 4", 
             "homeTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "identity": {
                 "ESPNAPIID": "400792786", 
@@ -61301,13 +61157,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE SECOND ROUND - GAME 4", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Washington Capitals vs. New York Rangers"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SECOND ROUND - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE SECOND ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61318,9 +61175,7 @@
             }, 
             "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "date": "2015-05-07T23:00:00+00:00", 
-            "description": "Carey Price stopped 22 shots, Max Pacioretty had a goal and two assists, and the Canadiens beat the Lighting 6-2 on Thursday night to stay alive in their second-round playoff series.", 
-            "eventTitle": "Eastern Conference Second Round - Game 4", 
-            "game": 4, 
+            "description": "Carey Price stopped 22 shots, Max Pacioretty had a goal and two assists, and the Canadiens beat the Lighting 6-2 on Thursday night to stay alive in their second-round playoff series. Eastern Conference Second Round - Game 4", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "ESPNAPIID": "400792884", 
@@ -61330,13 +61185,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE SECOND ROUND - GAME 4", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Tampa Bay Lightning vs. Montr\u00e9al Canadiens"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SECOND ROUND - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE SECOND ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61348,7 +61204,6 @@
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2015-05-08T01:30:00+00:00", 
             "description": "Western Conference Second Round - Game 4", 
-            "game": 4, 
             "homeTeam": "5143a40b-0e18-4141-b23d-85c64bb38206", 
             "identity": {
                 "ESPNAPIID": "400792800", 
@@ -61364,7 +61219,7 @@
             "vs": "Minnesota Wild vs. Chicago Blackhawks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SECOND ROUND - GAME 5", 
+            "altDescription": "EASTERN CONFERENCE SECOND ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61376,7 +61231,6 @@
             "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "date": "2015-05-08T23:00:00+00:00", 
             "description": "Eastern Conference Second Round - Game 5", 
-            "game": 5, 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
                 "ESPNAPIID": "400792787"
@@ -61391,7 +61245,7 @@
             "vs": "New York Rangers vs. Washington Capitals"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SECOND ROUND - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE SECOND ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61402,9 +61256,7 @@
             }, 
             "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "date": "2015-05-09T01:30:00+00:00", 
-            "description": "Matt Beleskey broke a tie on a power play early in the third period and the Anaheim Ducks beat the Calgary Flames 4-2 on Friday night in Game 4 of the Western Conference semifinal.", 
-            "eventTitle": "Western Conference Second Round - Game 4", 
-            "game": 4, 
+            "description": "Matt Beleskey broke a tie on a power play early in the third period and the Anaheim Ducks beat the Calgary Flames 4-2 on Friday night in Game 4 of the Western Conference semifinal. Western Conference Second Round - Game 4", 
             "homeTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "identity": {
                 "ESPNAPIID": "400792793"
@@ -61413,13 +61265,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "WESTERN CONFERENCE SECOND ROUND - GAME 4", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Calgary Flames vs. Anaheim Ducks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SECOND ROUND - GAME 5", 
+            "altDescription": "EASTERN CONFERENCE SECOND ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61430,9 +61283,7 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2015-05-09T23:00:00+00:00", 
-            "description": "Pierre-Alexandre Parenteau broke a tie with 4:07 left and the Canadiens beat the Lightning 2-1 on Saturday night to force a sixth game in the Eastern Conference semifinal series.", 
-            "eventTitle": "Eastern Conference Second Round - Game 5", 
-            "game": 5, 
+            "description": "Pierre-Alexandre Parenteau broke a tie with 4:07 left and the Canadiens beat the Lightning 2-1 on Saturday night to force a sixth game in the Eastern Conference semifinal series. Eastern Conference Second Round - Game 5", 
             "homeTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "identity": {
                 "ESPNAPIID": "400792885", 
@@ -61442,13 +61293,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE SECOND ROUND - GAME 5", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Montr\u00e9al Canadiens vs. Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SECOND ROUND - GAME 6", 
+            "altDescription": "EASTERN CONFERENCE SECOND ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61459,9 +61311,7 @@
             }, 
             "awayTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "date": "2015-05-10T23:00:00+00:00", 
-            "description": "Chris Kreider scored in the first minute and final second of the opening period, Rick Nash and Dan Boyle added goals in the third, and the Rangers held on to edge the Capitals 4-3 in Game 6.", 
-            "eventTitle": "Eastern Conference Second Round - Game 6", 
-            "game": 6, 
+            "description": "Chris Kreider scored in the first minute and final second of the opening period, Rick Nash and Dan Boyle added goals in the third, and the Rangers held on to edge the Capitals 4-3 in Game 6. Eastern Conference Second Round - Game 6", 
             "homeTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "identity": {
                 "ESPNAPIID": "400792788"
@@ -61470,13 +61320,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE SECOND ROUND - GAME 6", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Washington Capitals vs. New York Rangers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE SECOND ROUND - GAME 5", 
+            "altDescription": "WESTERN CONFERENCE SECOND ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61487,9 +61338,7 @@
             }, 
             "awayTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "date": "2015-05-11T02:00:00+00:00", 
-            "description": "Corey Perry scored on a goalmouth scramble 2:26 into OT and the Ducks advanced to the Western Conference finals with a 3-2 victory over the Flames in Game 5 of their second-round series.", 
-            "eventTitle": "Western Conference Second Round - Game 5", 
-            "game": 5, 
+            "description": "Corey Perry scored on a goalmouth scramble 2:26 into OT and the Ducks advanced to the Western Conference finals with a 3-2 victory over the Flames in Game 5 of their second-round series. Western Conference Second Round - Game 5", 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
                 "ESPNAPIID": "400792794"
@@ -61498,13 +61347,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "WESTERN CONFERENCE SECOND ROUND - GAME 5", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Anaheim Ducks vs. Calgary Flames"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SECOND ROUND - GAME 6", 
+            "altDescription": "EASTERN CONFERENCE SECOND ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61515,9 +61365,7 @@
             }, 
             "awayTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "date": "2015-05-12T23:30:00+00:00", 
-            "description": "Nikita Kucherov had two goals and an assist and the Tampa Bay Lightning advanced to the Eastern Conference finals with a 4-1 victory over the Montreal Canadiens on Tuesday night.", 
-            "eventTitle": "Eastern Conference Second Round - Game 6", 
-            "game": 6, 
+            "description": "Nikita Kucherov had two goals and an assist and the Tampa Bay Lightning advanced to the Eastern Conference finals with a 4-1 victory over the Montreal Canadiens on Tuesday night. Eastern Conference Second Round - Game 6", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "ESPNAPIID": "400792886", 
@@ -61527,13 +61375,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE SECOND ROUND - GAME 6", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Tampa Bay Lightning vs. Montr\u00e9al Canadiens"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE SECOND ROUND - GAME 7", 
+            "altDescription": "EASTERN CONFERENCE SECOND ROUND - GAME 7", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61544,9 +61393,7 @@
             }, 
             "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "date": "2015-05-13T23:30:00+00:00", 
-            "description": "Derek Stepan scored 11:24 in overtime, lifting the New York Rangers past the Washington Capitals 2-1 and into the Eastern Conference finals Wednesday night.", 
-            "eventTitle": "Eastern Conference Second Round - Game 7", 
-            "game": 7, 
+            "description": "Derek Stepan scored 11:24 in overtime, lifting the New York Rangers past the Washington Capitals 2-1 and into the Eastern Conference finals Wednesday night. Eastern Conference Second Round - Game 7", 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
                 "ESPNAPIID": "400792789"
@@ -61555,13 +61402,14 @@
             "networks": [
                 "NBCSN"
             ], 
+            "notes": "EASTERN CONFERENCE SECOND ROUND - GAME 7", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "New York Rangers vs. Washington Capitals"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FINALS - GAME 1", 
+            "altDescription": "EASTERN CONFERENCE FINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61572,9 +61420,7 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2015-05-16T17:00:00+00:00", 
-            "description": "Dominic Moore scored with 2:25 to play to cap another nail-biter for the Rangers, who have played 15 consecutive one-goal games in the postseason.", 
-            "eventTitle": "Eastern Conference Finals - Game 1", 
-            "game": 1, 
+            "description": "Dominic Moore scored with 2:25 to play to cap another nail-biter for the Rangers, who have played 15 consecutive one-goal games in the postseason. Eastern Conference Finals - Game 1", 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
                 "ESPNAPIID": "400795929", 
@@ -61584,14 +61430,14 @@
             "networks": [
                 "NBC"
             ], 
-            "playoffround": 3, 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 1", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "New York Rangers vs. Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FINALS - GAME 1", 
+            "altDescription": "WESTERN CONFERENCE FINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61602,9 +61448,7 @@
             }, 
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2015-05-17T19:00:00+00:00", 
-            "description": "The Anaheim Ducks opened the Western Conference finals with a 4-1 victory over the Chicago Blackhawks on Sunday.", 
-            "eventTitle": "Western Conference Finals - Game 1", 
-            "game": 1, 
+            "description": "The Anaheim Ducks opened the Western Conference finals with a 4-1 victory over the Chicago Blackhawks on Sunday. Western Conference Finals - Game 1", 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
                 "ESPNAPIID": "400795930", 
@@ -61614,14 +61458,14 @@
             "networks": [
                 "NBC"
             ], 
-            "playoffround": 3, 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 1", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Anaheim Ducks vs. Chicago Blackhawks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FINALS - GAME 2", 
+            "altDescription": "EASTERN CONFERENCE FINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61632,9 +61476,7 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2015-05-19T00:00:00+00:00", 
-            "description": "Tyler Johnson scored the first playoff hat trick in Lightning history, enabling Tampa Bay to right its high-scoring offense in a 6-2 win over the Rangers to tie the Eastern Conference finals.", 
-            "eventTitle": "Eastern Conference Finals - Game 2", 
-            "game": 2, 
+            "description": "Tyler Johnson scored the first playoff hat trick in Lightning history, enabling Tampa Bay to right its high-scoring offense in a 6-2 win over the Rangers to tie the Eastern Conference finals. Eastern Conference Finals - Game 2", 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
                 "ESPNAPIID": "400795931", 
@@ -61644,14 +61486,14 @@
             "networks": [
                 "NBCSN"
             ], 
-            "playoffround": 3, 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 2", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "New York Rangers vs. Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FINALS - GAME 2", 
+            "altDescription": "WESTERN CONFERENCE FINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61662,9 +61504,7 @@
             }, 
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2015-05-20T01:00:00+00:00", 
-            "description": "Marcus Kruger deflected Brent Seabrook's shot 16:12 into the third overtime and the Chicago Blackhawks evened the Western Conference finals with a 3-2 victory over the Anaheim Ducks in Game 2.", 
-            "eventTitle": "Western Conference Finals - Game 2", 
-            "game": 2, 
+            "description": "Marcus Kruger deflected Brent Seabrook's shot 16:12 into the third overtime and the Chicago Blackhawks evened the Western Conference finals with a 3-2 victory over the Anaheim Ducks in Game 2. Western Conference Finals - Game 2", 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
                 "ESPNAPIID": "400795932", 
@@ -61674,14 +61514,14 @@
             "networks": [
                 "NBCSN"
             ], 
-            "playoffround": 3, 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 2", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Anaheim Ducks vs. Chicago Blackhawks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FINALS - GAME 3", 
+            "altDescription": "EASTERN CONFERENCE FINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61692,9 +61532,7 @@
             }, 
             "awayTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "date": "2015-05-21T00:00:00+00:00", 
-            "description": "Nikita Kucherov scored 3:33 into overtime to give the Tampa Bay Lightning a 6-5 victory over the New York Rangers on Wednesday night in Game 3 of the Eastern Conference finals.", 
-            "eventTitle": "Eastern Conference Finals - Game 3", 
-            "game": 3, 
+            "description": "Nikita Kucherov scored 3:33 into overtime to give the Tampa Bay Lightning a 6-5 victory over the New York Rangers on Wednesday night in Game 3 of the Eastern Conference finals. Eastern Conference Finals - Game 3", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "ESPNAPIID": "400795933", 
@@ -61704,14 +61542,14 @@
             "networks": [
                 "NBCSN"
             ], 
-            "playoffround": 3, 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Tampa Bay Lightning vs. New York Rangers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FINALS - GAME 3", 
+            "altDescription": "WESTERN CONFERENCE FINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61722,9 +61560,7 @@
             }, 
             "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "date": "2015-05-22T00:00:00+00:00", 
-            "description": "Frederik Andersen made 27 saves, helping Anaheim kill off five power plays, and the Ducks beat the Blackhawks 2-1 on Thursday night for a 2-1 lead in the Western Conference finals.", 
-            "eventTitle": "Western Conference Finals - Game 3", 
-            "game": 3, 
+            "description": "Frederik Andersen made 27 saves, helping Anaheim kill off five power plays, and the Ducks beat the Blackhawks 2-1 on Thursday night for a 2-1 lead in the Western Conference finals. Western Conference Finals - Game 3", 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
                 "ESPNAPIID": "400795934", 
@@ -61734,14 +61570,14 @@
             "networks": [
                 "NBCSN"
             ], 
-            "playoffround": 3, 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Chicago Blackhawks vs. Anaheim Ducks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FINALS - GAME 4", 
+            "altDescription": "EASTERN CONFERENCE FINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61752,9 +61588,7 @@
             }, 
             "awayTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "date": "2015-05-23T00:00:00+00:00", 
-            "description": "Henrik Lundqvist stopped 38 shots to rebound from two subpar performances and help the New York Rangers shut down the Tampa Bay Lightning on Friday in Game 4 of the Eastern Conference finals.", 
-            "eventTitle": "Eastern Conference Finals - Game 4", 
-            "game": 4, 
+            "description": "Henrik Lundqvist stopped 38 shots to rebound from two subpar performances and help the New York Rangers shut down the Tampa Bay Lightning on Friday in Game 4 of the Eastern Conference finals. Eastern Conference Finals - Game 4", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "ESPNAPIID": "400795935", 
@@ -61764,14 +61598,14 @@
             "networks": [
                 "NBCSN"
             ], 
-            "playoffround": 3, 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 4", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Tampa Bay Lightning vs. New York Rangers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FINALS - GAME 4", 
+            "altDescription": "WESTERN CONFERENCE FINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61782,9 +61616,7 @@
             }, 
             "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "date": "2015-05-24T00:00:00+00:00", 
-            "description": "The Blackhawks prevailed in overtime yet again when Antoine Vermette scored early in double overtime to beat the Ducks and even the Western Conference finals at 2-2.", 
-            "eventTitle": "Western Conference Finals - Game 4", 
-            "game": 4, 
+            "description": "The Blackhawks prevailed in overtime yet again when Antoine Vermette scored early in double overtime to beat the Ducks and even the Western Conference finals at 2-2. Western Conference Finals - Game 4", 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
                 "ESPNAPIID": "400795936"
@@ -61793,14 +61625,14 @@
             "networks": [
                 "NBC"
             ], 
-            "playoffround": 3, 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 4", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Chicago Blackhawks vs. Anaheim Ducks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FINALS - GAME 5", 
+            "altDescription": "EASTERN CONFERENCE FINALS - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61811,9 +61643,7 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2015-05-25T01:00:00+00:00", 
-            "description": "The Lightning scored twice in the second period and Ben Bishop saved all 26 Rangers shots to push Tampa Bay to a 3-2 Eastern Conference finals lead and within one win of the Stanley Cup finals.", 
-            "eventTitle": "Eastern Conference Finals - Game 5", 
-            "game": 5, 
+            "description": "The Lightning scored twice in the second period and Ben Bishop saved all 26 Rangers shots to push Tampa Bay to a 3-2 Eastern Conference finals lead and within one win of the Stanley Cup finals. Eastern Conference Finals - Game 5", 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
                 "ESPNAPIID": "400795937", 
@@ -61824,14 +61654,14 @@
             "networks": [
                 "NBCSN"
             ], 
-            "playoffround": 3, 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 5", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "New York Rangers vs. Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FINALS - GAME 5", 
+            "altDescription": "WESTERN CONFERENCE FINALS - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61843,7 +61673,6 @@
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2015-05-26T01:00:00+00:00", 
             "description": "Western Conference Finals - Game 5", 
-            "game": 5, 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
                 "ESPNAPIID": "400795938", 
@@ -61853,14 +61682,13 @@
             "networks": [
                 "NBCSN"
             ], 
-            "playoffround": 3, 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Anaheim Ducks vs. Chicago Blackhawks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FINALS - GAME 6", 
+            "altDescription": "EASTERN CONFERENCE FINALS - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61871,9 +61699,7 @@
             }, 
             "awayTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "date": "2015-05-27T00:00:00+00:00", 
-            "description": "TAMPA, Fla. --  Derek Brassard had a hat trick and Henrik Lundqvist stopped 36 shots in another season-saving performance as the New York Rangers beat the Tampa Bay Lightning 7-3 Tuesday night to", 
-            "eventTitle": "Eastern Conference Finals - Game 6", 
-            "game": 6, 
+            "description": "TAMPA, Fla. -- Derek Brassard had a hat trick and Henrik Lundqvist stopped 36 shots in another season-saving performance as the New York Rangers beat the Tampa Bay Lightning 7-3 Tuesday night to, Eastern Conference Finals - Game 6", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "ESPNAPIID": "400795939", 
@@ -61883,14 +61709,13 @@
             "networks": [
                 "NBCSN"
             ], 
-            "playoffround": 3, 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 6", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Tampa Bay Lightning vs. New York Rangers"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FINALS - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61901,27 +61726,20 @@
             }, 
             "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "date": "2015-05-28T01:00:00+00:00", 
-            "description": "Duncan Keith had three assists and saved a goal in the third period, and the Chicago Blackhawks beat the Anaheim Ducks 5-2 on Wednesday night to force a Game 7.", 
-            "eventTitle": "Western Conference Finals - Game 6", 
-            "game": 6, 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
-                "ESPNAPIID": "400795940", 
                 "NHLAPIID": 2014030326, 
                 "TheSportsDBID": "484628"
             }, 
             "league": "NHL", 
-            "networks": [
-                "NBCSN"
-            ], 
-            "playoffround": 3, 
+            "networks": [], 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Chicago Blackhawks vs. Anaheim Ducks"
         }, 
         {
-            "altTitle": "EASTERN CONFERENCE FINALS - GAME 7", 
+            "altDescription": "EASTERN CONFERENCE FINALS - GAME 7", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61932,9 +61750,7 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2015-05-30T00:00:00+00:00", 
-            "description": "The Lightning will play for the Stanley Cup, winning their third straight game at Madison Square Garden 2-0 on Friday night to beat the Rangers in Game 7 of the Eastern Conference finals.", 
-            "eventTitle": "Eastern Conference Finals - Game 7", 
-            "game": 7, 
+            "description": "The Lightning will play for the Stanley Cup, winning their third straight game at Madison Square Garden 2-0 on Friday night to beat the Rangers in Game 7 of the Eastern Conference finals. Eastern Conference Finals - Game 7", 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
                 "ESPNAPIID": "400795941"
@@ -61943,14 +61759,14 @@
             "networks": [
                 "NBCSN"
             ], 
-            "playoffround": 3, 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 7", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "New York Rangers vs. Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "WESTERN CONFERENCE FINALS - GAME 7", 
+            "altDescription": "WESTERN CONFERENCE FINALS - GAME 7", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61961,9 +61777,7 @@
             }, 
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2015-05-31T00:00:00+00:00", 
-            "description": "Jonathan Toews scored two goals in the opening minutes, Corey Crawford made 35 saves and the Chicago Blackhawks roared into the Stanley Cup finals with a Game 7 victory over the Anaheim Ducks.", 
-            "eventTitle": "Western Conference Finals - Game 7", 
-            "game": 7, 
+            "description": "Jonathan Toews scored two goals in the opening minutes, Corey Crawford made 35 saves and the Chicago Blackhawks roared into the Stanley Cup finals with a Game 7 victory over the Anaheim Ducks. Western Conference Finals - Game 7", 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
                 "ESPNAPIID": "400795942", 
@@ -61973,14 +61787,14 @@
             "networks": [
                 "NBC"
             ], 
-            "playoffround": 3, 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 7", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Anaheim Ducks vs. Chicago Blackhawks"
         }, 
         {
-            "altTitle": "STANLEY CUP FINAL - GAME 1", 
+            "altDescription": "STANLEY CUP FINAL - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -61991,9 +61805,7 @@
             }, 
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2015-06-04T00:00:00+00:00", 
-            "description": "After 53 minutes of scoreless frustration, the Chicago Blackhawks needed less than two minutes to roar back on top in the Stanley Cup finals opener.", 
-            "eventTitle": "Stanley Cup Final - Game 1", 
-            "game": 1, 
+            "description": "After 53 minutes of scoreless frustration, the Chicago Blackhawks needed less than two minutes to roar back on top in the Stanley Cup finals opener. Stanley Cup Final - Game 1", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "ESPNAPIID": "400798777", 
@@ -62003,14 +61815,14 @@
             "networks": [
                 "NBC"
             ], 
-            "playoffround": 3, 
+            "notes": "STANLEY CUP FINAL - GAME 1", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Tampa Bay Lightning vs. Chicago Blackhawks"
         }, 
         {
-            "altTitle": "STANLEY CUP FINAL - GAME 2", 
+            "altDescription": "STANLEY CUP FINAL - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -62022,7 +61834,6 @@
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2015-06-06T23:15:00+00:00", 
             "description": "Stanley Cup Final - Game 2", 
-            "game": 2, 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "ESPNAPIID": "400798778", 
@@ -62032,7 +61843,6 @@
             "networks": [
                 "NBC"
             ], 
-            "playoffround": 3, 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -62060,7 +61870,7 @@
             "vs": "Chicago Blackhawks vs Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "STANLEY CUP FINAL - GAME 3", 
+            "altDescription": "STANLEY CUP FINAL - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -62071,9 +61881,7 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2015-06-09T00:00:00+00:00", 
-            "description": "Victor Hedman had two assists for Tampa Bay while playing stout defense on Chicago's top forwards, and the Lightning beat the Blackhawks 3-2 in Game 3 of the Stanley Cup finals Monday night.", 
-            "eventTitle": "Stanley Cup Final - Game 3", 
-            "game": 3, 
+            "description": "Victor Hedman had two assists for Tampa Bay while playing stout defense on Chicago's top forwards, and the Lightning beat the Blackhawks 3-2 in Game 3 of the Stanley Cup finals Monday night. Stanley Cup Final - Game 3", 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
                 "ESPNAPIID": "400798779", 
@@ -62083,7 +61891,7 @@
             "networks": [
                 "NBCSN"
             ], 
-            "playoffround": 3, 
+            "notes": "STANLEY CUP FINAL - GAME 3", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -62111,7 +61919,7 @@
             "vs": "Chicago Blackhawks vs Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "STANLEY CUP FINAL - GAME 4", 
+            "altDescription": "STANLEY CUP FINAL - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -62122,9 +61930,7 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2015-06-11T00:00:00+00:00", 
-            "description": "Brandon Saad and the Chicago Blackhawks finally broke through Tampa Bay's rookie goalie and then barely hung on to even up the Stanley Cup finals.", 
-            "eventTitle": "Stanley Cup Final - Game 4", 
-            "game": 4, 
+            "description": "Brandon Saad and the Chicago Blackhawks finally broke through Tampa Bay's rookie goalie and then barely hung on to even up the Stanley Cup finals. Stanley Cup Final - Game 4", 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
                 "ESPNAPIID": "400798780"
@@ -62133,14 +61939,14 @@
             "networks": [
                 "NBCSN"
             ], 
-            "playoffround": 3, 
+            "notes": "STANLEY CUP FINAL - GAME 4", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
             "vs": "Chicago Blackhawks vs. Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "STANLEY CUP FINAL - GAME 5", 
+            "altDescription": "STANLEY CUP FINAL - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -62151,9 +61957,7 @@
             }, 
             "awayTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "date": "2015-06-14T00:00:00+00:00", 
-            "description": "With another tenacious road victory in this agonizingly close Stanley Cup Final, the Chicago Blackhawks earned an opportunity to raise that silver trophy on their home ice.", 
-            "eventTitle": "Stanley Cup Final - Game 5", 
-            "game": 5, 
+            "description": "With another tenacious road victory in this agonizingly close Stanley Cup Final, the Chicago Blackhawks earned an opportunity to raise that silver trophy on their home ice. Stanley Cup Final - Game 5", 
             "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "identity": {
                 "ESPNAPIID": "400798781", 
@@ -62163,7 +61967,7 @@
             "networks": [
                 "NBC"
             ], 
-            "playoffround": 3, 
+            "notes": "STANLEY CUP FINAL - GAME 5", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
@@ -62191,7 +61995,7 @@
             "vs": "Chicago Blackhawks vs Tampa Bay Lightning"
         }, 
         {
-            "altTitle": "STANLEY CUP FINAL - GAME 6", 
+            "altDescription": "STANLEY CUP FINAL - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -62202,9 +62006,7 @@
             }, 
             "awayTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
             "date": "2015-06-16T00:00:00+00:00", 
-            "description": "Showing off their grit and determination, the Chicago Blackhawks finally put away the Tampa Bay Lightning in the Stanley Cup finals.", 
-            "eventTitle": "Stanley Cup Final - Game 6", 
-            "game": 6, 
+            "description": "Showing off their grit and determination, the Chicago Blackhawks finally put away the Tampa Bay Lightning in the Stanley Cup finals. Stanley Cup Final - Game 6", 
             "homeTeam": "f3c276a2-865f-4709-9630-90587f8cc2c1", 
             "identity": {
                 "ESPNAPIID": "400798782", 
@@ -62214,7 +62016,7 @@
             "networks": [
                 "NBC"
             ], 
-            "playoffround": 3, 
+            "notes": "STANLEY CUP FINAL - GAME 6", 
             "season": "2014", 
             "sport": "Hockey", 
             "subseason": 1, 
