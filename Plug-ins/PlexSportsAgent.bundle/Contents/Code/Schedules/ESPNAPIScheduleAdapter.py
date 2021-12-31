@@ -115,16 +115,25 @@ def GetSchedule(sched, navigator, sport, league, season):
 
 							title = None
 							altTitle = None
+							altDescription = None
 							for note in competition["notes"]:
 								if note.get("type") == "event":
 									if not altTitle: altTitle = deunicode(note["headline"])
 									elif not title: title = deunicode(note["headline"])
 									else: break
 							if altTitle == "*": altTitle = None
-							if altTitle == "FINA": altTitle = None
-							if altTitle == "PPD": altTitle = None
-							if altTitle == "IF NECESSARY": altTitle = None
-							if altTitle and unicode(altTitle).isnumeric(): altTitle = None
+							elif altTitle == "FINA": altTitle = None
+							elif altTitle == "PPD": altTitle = None
+							elif altTitle == "IF NECESSARY": altTitle = None
+							elif altTitle and unicode(altTitle).isnumeric(): altTitle = None
+							elif altTitle and altTitle.upper() == ("%s%s" % (date.astimezone(tz=EasternTime).strftime("%A, %b. "), date.astimezone(tz=EasternTime).day)).upper():
+								altTitle = None
+							elif altTitle and altTitle.upper().find("HURRICANE IRMA"):
+								altDescription = altTitle[0:]
+								altTitle = None
+							elif altTitle and altTitle.upper().find("NFL PRESEASON"):
+								altDescription = altTitle[0:]
+								altTitle = None
 
 							teams = dict()
 							for competitor in competition["competitors"]:
@@ -198,6 +207,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 								"eventTitle": title,
 								"altTitle": altTitle,
 								"description": description,
+								"altDescription": altDescription,
 								"homeTeam": homeTeamKey,
 								"homeTeamName": homeTeamName if not homeTeamKey else None,
 								"awayTeam": awayTeamKey,
@@ -328,15 +338,23 @@ def __process_calendar(league, season, isWhitelist = False):
 		"endDate": ParseISO8601Date(apiLeague["calendarEndDate"]) if apiLeague.get("calendarEndDate") else None,
 		}
 
-	if apiLeague.get("calendarIsWhitelist") == False:
+	#apiLeague["calendarType]: 'list'/'day'
+	if apiLeague.get("calendarIsWhitelist") == False and apiLeague.get("calendarType") == "day":
 		dates = project_dates(calendar)
 		blacklist = []
 		for x in apiCalendar:
 			blacklist.append(ParseISO8601Date(x).date())
-		blacklist = list(set(sorted(blacklist)))
-		for i in range(len(dates)-1, -1, -1):
-			if dates[i] == blacklist[-1]:
-				del(dates[i])
+		if blacklist:
+			blacklist = list(set(sorted(blacklist)))
+			for i in range(len(dates)-1, -1, -1):
+				
+				# I'm not sure this works
+				#	(in fact I'm pretty sure it doesn't do what i wanted it to),
+				#	but I don't think I mind.
+				# The worst that would happen is it looks at more empty dates.
+				if dates[i] == blacklist[-1]:
+					del(dates[i])
+
 		calendar["dates"] = dates
 	else:
 

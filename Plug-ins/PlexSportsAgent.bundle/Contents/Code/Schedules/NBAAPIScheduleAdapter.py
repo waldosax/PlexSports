@@ -153,7 +153,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 				# Augment with supplemental data
 				event = tracking[id]
 
-				if nugget: event.altTitle = nugget
+				if nugget and nugget != "Preseason": event.altDescription = nugget
 				if subseason: event.subseason = subseason
 				if playoffRound: event.playoffround = playoffRound
 				if game: event.game = game
@@ -218,7 +218,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"game": game,
 					"eventindicator": eventIndicator,
 					"eventTitle": eventTitle,
-					"altTitle": nugget or seriesDescriptor	# For reference later. If no good description, set description to this.
+					"altDescription": nugget or seriesDescriptor
 					}
 
 				event = ScheduleEvent(**kwargs)

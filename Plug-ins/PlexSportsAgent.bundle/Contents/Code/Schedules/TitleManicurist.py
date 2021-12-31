@@ -307,7 +307,9 @@ def __polish_eventTitle(sport, league, season, event):
 			title = __titlecase_x(isot)
 
 	if subseasonTitle and title:
-		if __comparable_string(title).find(__comparable_string(subseasonTitle)) >= 0:
+		xsubseasonTitle = subseasonTitle
+		if subseasonTitle.upper()[-5:] == " GAME": xsubseasonTitle = subseasonTitle[:-5]
+		if __comparable_string(title).find(__comparable_string(xsubseasonTitle)) >= 0:
 			pass
 		elif __comparable_string(subseasonTitle).find(__comparable_string(title)) >= 0:
 			title = subseasonTitle
@@ -341,8 +343,8 @@ def __polish_eventTitle(sport, league, season, event):
 def __polish_description(sport, league, season, event):
 	description = event.description
 	altDescription = event.altDescription
-	if not description: description = altDescription
-	elif altDescription: description = description + ", " + altDescription
+	if not description: description = __titlecase_x(altDescription)
+	elif altDescription: description = description + ("" if description[-1] == "." else ",") + " " + __titlecase_x(altDescription)
 	if not description: return None
 
 	description = description.replace("\r\n", " ")

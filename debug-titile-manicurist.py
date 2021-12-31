@@ -24,14 +24,14 @@ if __name__ == "__main__":
 		"sport": sport,
 		"league": league,
 		"season": season,
-		"date": datetime.datetime(1999, 7, 6, 14, 0, 0),
-		"altTitle": None,
+		"date": datetime.datetime(2020, 9, 30, 14, 0, 0),
+		"altTitle": "NLWC - GAME 1",
 		"altDescription": None,
-		"description": None,
+		"description": "Freddie Freeman singled home the winning run in the 13th inning, finally ending the longest scoreless duel in postseason history as the Atlanta Braves defeated the Cincinnati Reds 1-0 in the opener of their NL wild-card series on Wednesday.",
 		"eventTitle": None,
-		"subseasonTItle": "League Championship Series",
-		"title": "ALCS  (FOX and FS1)",
-		"vs": "Houston Astros vs. Boston Red Sox"
+		"subseasonTitle": "Wild Card Game",
+		"title": "NL Wild Card 'B'",
+		"vs": "Atlanta Braves vs. Cincinnati Reds"
 		}
 
 	event = ScheduleEvent(**kwargs)

@@ -50,14 +50,15 @@ def ScrapeAllStarGame(season):
 	markup = DownloadNHLWinterClassicSupplement(SPORT_HOCKEY, LEAGUE_NHL, season)
 	if markup:
 		soup = BeautifulSoup(markup, "html5lib")
-		basicInfo = process_basic_info_box(soup)
-		if basicInfo:
-			supplement.setdefault(NHL_EVENT_FLAG_WINTER_CLASSIC, dict())
-			merge_dictionaries(basicInfo, supplement[NHL_EVENT_FLAG_WINTER_CLASSIC])
+		if not is_redirected(soup):
+			basicInfo = process_basic_info_box(soup)
+			if basicInfo:
+				supplement.setdefault(NHL_EVENT_FLAG_WINTER_CLASSIC, dict())
+				merge_dictionaries(basicInfo, supplement[NHL_EVENT_FLAG_WINTER_CLASSIC])
 
-		supplement.setdefault(NHL_EVENT_FLAG_WINTER_CLASSIC, dict())
-		extendedInfo = __process_page(soup, NHL_EVENT_FLAG_WINTER_CLASSIC)
-		merge_dictionaries(extendedInfo, supplement)
+			supplement.setdefault(NHL_EVENT_FLAG_WINTER_CLASSIC, dict())
+			extendedInfo = __process_page(soup, NHL_EVENT_FLAG_WINTER_CLASSIC)
+			merge_dictionaries(extendedInfo, supplement)
 
 	return supplement
 
