@@ -57,9 +57,17 @@ def DownloadCalendarForLeagueAndSeason(league, season, isWhitelist = False):
 	if not league in known_leagues.keys(): return None # TODO: Throw
 	print("Getting %s calendar for %s season from ESPN API ..." % (league, season))
 	(leagueName, sport) = known_leagues[league]
-	urlTemplate = ESPN_SITEAPI_BASE_URL + ESPN_SITEAPI_LEAGUE_FILTER + ESPNAPI_GET_SCHEDULE + "%s"
+
+	if league in [ LEAGUE_NBA, LEAGUE_NHL ]:
+		szn = str(int(season) + 1)
+		mmdd = "" # "0000"
+	else:
+		szn = season
+		mmdd = "" # "1231"
+
+	urlTemplate = ESPN_SITEAPI_BASE_URL + ESPN_SITEAPI_LEAGUE_FILTER + ESPNAPI_GET_SCHEDULE + "&limit=1%s"
 	return GetResultFromNetwork(
-		urlTemplate % (sport.lower(), league.lower(), ("%s0000" % season), ("&calendartype=whitelist" if isWhitelist == True else "")),
+		urlTemplate % (sport.lower(), league.lower(), ("%s%s" % (szn, mmdd)), ("&calendartype=whitelist" if isWhitelist == True else "")),
 		espn_api_headers, cacheExtension=EXTENSION_JSON)
 
 

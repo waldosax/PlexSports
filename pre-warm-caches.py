@@ -40,7 +40,7 @@ if __name__ == "__main__":
 		(leagueName, sport) = known_leagues[league]
 	
 		#franchises = PlexSportsAgent.Teams.GetFranchises(league)
-		maxyear = datetime.datetime.now().year + 1
+		maxyear = THIS_YEAR
 
 		for y in range(league_mins[league], maxyear):
 			season = str(y)

@@ -366,7 +366,7 @@ def __get_cities_with_multiple_teams(league, franchises):
 			ret.append(cityKey)
 	return ret
 
-def __get_city_variants(cityKey):
+def __get_city_variant_keys(cityKey):
 	variants = []
 
 	for c in known_city_aliases:
@@ -384,6 +384,9 @@ def __get_teams_keys(league, franchises, multi_team_city_keys):
 	print("Calculating team hashes ...")
 
 	for franchise in franchises.values():
+
+		franchiseName = create_scannable_key(franchise.name)
+
 		for team in franchise.teams.values():
 			key = team.key
 			if not key: continue
@@ -405,6 +408,10 @@ def __get_teams_keys(league, franchises, multi_team_city_keys):
 
 				if fullName:
 					keys.setdefault(prefix + fullName, key)
+
+					#if season and fullName != franchiseName:
+					#	keys.setdefault(prefix + franchiseName, key)
+
 				if name:
 					keys.setdefault(prefix + name, key)
 
@@ -412,18 +419,19 @@ def __get_teams_keys(league, franchises, multi_team_city_keys):
 					keys.setdefault(prefix + create_scannable_key(alias), key)
 
 				if city:
-					cityVariants = __get_city_variants(city)
+					cityVariants = __get_city_variant_keys(city)
 					if (cityVariants):
-						for v in cityVariants:
-							keys.setdefault(prefix + v + name, key)
-							if v not in multi_team_city_keys:
-								keys.setdefault(prefix + v, key)
+						for cv in cityVariants:
+							keys.setdefault(prefix + cv + name, key)
+							if cv not in multi_team_city_keys:
+								keys.setdefault(prefix + cv, key)
 								for alias in team.aliases:
-									keys.setdefault(prefix + v + create_scannable_key(alias), key)
+									keys.setdefault(prefix + cv + create_scannable_key(alias), key)
+
 					if city not in multi_team_city_keys:
-						keys.setdefault(prefix + city, key)
+						keys.setdefault(prefix + create_scannable_key(city), key)
 					for alias in team.aliases:
-						keys.setdefault(prefix + city + create_scannable_key(alias), key)
+						keys.setdefault(prefix + create_scannable_key(city) + create_scannable_key(alias), key)
 
 
 				identity = team.identity.__dict__
@@ -432,7 +440,9 @@ def __get_teams_keys(league, franchises, multi_team_city_keys):
 					if not id: continue
 					keys.setdefault(prefix + create_scannable_key(source) + ":" + create_scannable_key(str(id)), key)
 
-				keys.setdefault(prefix + abbrev, key)
+
+				if abbrev:
+					keys.setdefault(prefix + abbrev, key)
 
 
 	print("Finished calculating team hashes.")
@@ -458,13 +468,14 @@ class TeamNavigator:
 			for source in identity.keys():
 				id = identity.get(source)
 				if not id: continue
-				if season: vectors.append(create_scannable_key(str(season) + "." + create_scannable_key(source) + ":" + create_scannable_key(str(id))))
-				vectors.append(create_scannable_key(create_scannable_key(source) + ":" + create_scannable_key(str(id))))
+				if season: vectors.append(str(season) + "." + create_scannable_key(source) + ":" + create_scannable_key(str(id)))
+				vectors.append(create_scannable_key(source) + ":" + create_scannable_key(str(id)))
 
 		if season:
 			if fullName: vectors.append("%s.%s" % (season, create_scannable_key(fullName)))
 			if name: vectors.append("%s.%s" % (season, create_scannable_key(name)))
 			if abbreviation: vectors.append("%s.%s" % (season, create_scannable_key(abbreviation)))
+			if city: vectors.append("%s.%s" % (season, create_scannable_key(city)))
 
 
 		if fullName: vectors.append(create_scannable_key(fullName))

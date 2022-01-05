@@ -126,12 +126,11 @@ def GetSchedule(sched, navigator, sport, league, season):
 							elif altTitle == "PPD": altTitle = None
 							elif altTitle == "IF NECESSARY": altTitle = None
 							elif altTitle and unicode(altTitle).isnumeric(): altTitle = None
-							elif altTitle and altTitle.upper() == ("%s%s" % (date.astimezone(tz=EasternTime).strftime("%A, %b. "), date.astimezone(tz=EasternTime).day)).upper():
-								altTitle = None
-							elif altTitle and altTitle.upper().find("HURRICANE IRMA"):
+							elif altTitle and altTitle.upper() == ("%s%s" % (date.astimezone(tz=EasternTime).strftime("%A, %b. "), date.astimezone(tz=EasternTime).day)).upper(): altTitle = None
+							elif altTitle and altTitle.upper().find("HURRICANE IRMA") >= 0:
 								altDescription = altTitle[0:]
 								altTitle = None
-							elif altTitle and altTitle.upper().find("NFL PRESEASON"):
+							elif altTitle and altTitle.upper().find("NFL PRESEASON") >= 0:
 								altDescription = altTitle[0:]
 								altTitle = None
 
@@ -243,20 +242,18 @@ def GetSchedule(sched, navigator, sport, league, season):
 
 	# Verify Calendar matches season requested
 	year = int(season)
-	xyear = int(season)
-	if league in year_boundary_leagues:
-		xyear += 1
-	calendar = __process_calendar(league, str(xyear), True)
-	if calendar:
-		shouldIncrementYear = False
-		if calendar["dates"] and calendar["dates"][0].year < year:
-			shouldIncrementYear = True
-		elif calendar.get("startDate") and calendar["startDate"].year < year:
-			shouldIncrementYear = True
 
-		if shouldIncrementYear:
-			xyear += 1
-			calendar = __process_calendar(league, str(xyear), True)
+	calendar = __process_calendar(league, season)
+	if calendar:
+	#	shouldIncrementYear = False
+	#	if calendar["dates"] and calendar["dates"][0].year < year:
+	#		shouldIncrementYear = True
+	#	elif calendar.get("startDate") and calendar["startDate"].year < year:
+	#		shouldIncrementYear = True
+
+	#	if shouldIncrementYear:
+	#		xyear += 1
+	#		calendar = __process_calendar(league, str(xyear), True)
 
 		calendarsToProcess.append(calendar)
 
@@ -345,15 +342,12 @@ def __process_calendar(league, season, isWhitelist = False):
 		for x in apiCalendar:
 			blacklist.append(ParseISO8601Date(x).date())
 		if blacklist:
-			blacklist = list(set(sorted(blacklist)))
+			bl = list(sorted(set(blacklist)))
 			for i in range(len(dates)-1, -1, -1):
-				
-				# I'm not sure this works
-				#	(in fact I'm pretty sure it doesn't do what i wanted it to),
-				#	but I don't think I mind.
-				# The worst that would happen is it looks at more empty dates.
-				if dates[i] == blacklist[-1]:
+				if not bl: break
+				if dates[i] == bl[-1]:
 					del(dates[i])
+					del(bl[-1])
 
 		calendar["dates"] = dates
 	else:
@@ -534,6 +528,10 @@ def __hashedDateParse(str):
 	# Date-aware in zulu time
 	date = ParseISO8601Date(str)
 	if date: date = date.astimezone(tz=UTC)
+
+	if date.time() == datetime.time(5,0,0):
+		date = date.date()
+
 	__calendar_parse_hashes[str] = date
 	return date
 

@@ -70,8 +70,8 @@ def DownloadScheduleForSeason(season):
 			if dct.get(key): return dct[key]
 
 	seasonInfo = seasons["seasons"][0]
-	startDate = get_property(seasonInfo, ["preSeasonStartDate", "regularSeasonStartDate"])
-	endDate = get_property(seasonInfo, ["postSeasonEndDate", "regularSeasonEndDate"])
+	startDate = get_property(seasonInfo, ["preSeasonStartDate", "regularSeasonStartDate", "seasonStartDate"])
+	endDate = get_property(seasonInfo, ["postSeasonEndDate", "regularSeasonEndDate", "seasonEndDate"])
 
 	now = datetime.datetime.now()
 	if int(season) >= now.year:

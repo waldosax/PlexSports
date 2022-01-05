@@ -78,7 +78,8 @@ def GetSchedule(sched, navigator, sport, league, season):
 				elif gameType == MLBAPI_GAMETYPE_ALL_STAR_GAME:
 					eventIndicator = MLB_EVENT_FLAG_ALL_STAR_GAME
 
-				if schedEvent.get("doubleHeader") == "Y":
+				if schedEvent.get("doubleHeader") == "Y" or \
+					schedEvent.get("doubleHeader") == "S":
 					gameNumber = schedEvent["gameNumber"]
 				
 				if title and title.find("Hall of Fame Game") >= 0:
@@ -153,10 +154,51 @@ def GetSchedule(sched, navigator, sport, league, season):
 				if assets:
 					kwargs["assets"] = assets
 
-				event = ScheduleEvent(**kwargs)
+				handled = False
+				if date.time() == datetime.time(3, 33):
 
-				AddOrAugmentEvent(sched, event)
+					augmentationKey = __get_matching_active_record_key(sched, kwargs)
+					if augmentationKey:
+						# Supplement active record with any additional info from the inactive event
+						activeEvent = sched[augmentationKey].values()[0]
+						if activeEvent:
+							activeEvent.augment(**kwargs)
+							handled = True
+					kwargs["date"] = datetime.datetime(date.year, date.month, date.day)
 
+
+				if handled == False:
+					event = ScheduleEvent(**kwargs)
+					AddOrAugmentEvent(sched, event)
+
+def __get_matching_active_record_key(sched, kwargs):
+	event = ScheduleEvent(**kwargs)
+	augmentationKey = sched_compute_augmentation_hash(event)
+	if augmentationKey in sched.keys(): return augmentationKey
+
+	x = event.homeTeam
+	event.homeTeam = event.awayTeam
+	event.awayTeam = x
+	augmentationKey = sched_compute_augmentation_hash(event)
+	if augmentationKey in sched.keys(): return augmentationKey
+
+	event = ScheduleEvent(**kwargs)
+	event.date = event.date + timedelta(days=1)
+	augmentationKey = sched_compute_augmentation_hash(event)
+	if augmentationKey in sched.keys(): return augmentationKey
+
+	x = event.homeTeam
+	event.homeTeam = event.awayTeam
+	event.awayTeam = x
+	augmentationKey = sched_compute_augmentation_hash(event)
+	if augmentationKey in sched.keys(): return augmentationKey
+
+	return None
+
+def __has_matching_active_record(sched, kwargs):
+	augmentationKey = __get_matching_active_record_key(sched, kwargs)
+	if augmentationKey: return True
+	return False
 
 def __process_content(schedEvent, content):
 	description = None

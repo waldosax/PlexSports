@@ -75,8 +75,12 @@ class ScheduleEvent:
 		# Augment date if missing or missing time
 		if not self.date and date:
 			self.date = date
-		elif self.date and not self.date.time() and date and date.time():
-			self.date = date
+		elif self.date:
+			if type(self.date) == datetime.date and isinstance(date, datetime.datetime):
+				self.date = date
+			elif isinstance(self.date, (datetime.datetime)) and isinstance(date, datetime.datetime):
+				if not self.date.time() and date and date.time():
+					self.date = date
 		
 		if self.subseason == None and kwargs.get("subseason"): self.subseason = kwargs.get("subseason")
 		if not self.subseasonTitle: self.subseasonTitle = deunicode(kwargs.get("subseasonTitle"))
@@ -171,6 +175,8 @@ def AddOrAugmentEvent(sched, event, timeSensitivity=2):
 	else:
 		evdict = dict()
 		sched[hash] = evdict
+		evdict.setdefault(subhash, event)
+		return event
 
 	if not subhash: # Time-naive
 		if evdict.keys() and not None in evdict.keys(): # If any time-aware, augment the 1st
