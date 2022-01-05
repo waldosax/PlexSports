@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1998SCHEDULE", 
-        "CachedOn": "2021-12-31T04:27:45", 
-        "ExpiresOn": "2022-01-07T04:27:45", 
+        "CachedOn": "2022-01-04T19:38:12", 
+        "ExpiresOn": "2022-01-11T19:38:12", 
         "Version": "2"
     }, 
     "Items": [
@@ -3727,6 +3727,31 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
+            "date": "1998-11-07T18:30:00+00:00", 
+            "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
+            "identity": {
+                "ESPNAPIID": "181107016", 
+                "NHLAPIID": 1998020159
+            }, 
+            "league": "NHL", 
+            "networks": [
+                "FSPI"
+            ], 
+            "season": "1998", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Penguins vs. Boston Bruins"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
             "date": "1998-11-07T18:30:00+00:00", 
             "homeTeam": "678f865c-3eae-4f37-b29c-a9d9f03a38e1", 
@@ -3763,31 +3788,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Florida Panthers vs. New Jersey Devils"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
-            "date": "1998-11-07T18:30:00+00:00", 
-            "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
-            "identity": {
-                "ESPNAPIID": "181107016", 
-                "NHLAPIID": 1998020159
-            }, 
-            "league": "NHL", 
-            "networks": [
-                "FSPI"
-            ], 
-            "season": "1998", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Pittsburgh Penguins vs. Boston Bruins"
         }, 
         {
             "assets": {
@@ -11984,10 +11984,13 @@
             "date": "1999-01-08T00:00:00+00:00", 
             "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "identity": {
+                "ESPNAPIID": "190107001", 
                 "NHLAPIID": 1998020502
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "NESN"
+            ], 
             "season": "1998", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -12006,10 +12009,13 @@
             "date": "1999-01-08T00:00:00+00:00", 
             "homeTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "identity": {
+                "ESPNAPIID": "190107010", 
                 "NHLAPIID": 1998020503
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "RDS"
+            ], 
             "season": "1998", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -12028,10 +12034,13 @@
             "date": "1999-01-08T00:00:00+00:00", 
             "homeTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "identity": {
+                "ESPNAPIID": "190107023", 
                 "NHLAPIID": 1998020506
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "CSN"
+            ], 
             "season": "1998", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -12050,10 +12059,13 @@
             "date": "1999-01-08T00:30:00+00:00", 
             "homeTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
             "identity": {
+                "ESPNAPIID": "190107015", 
                 "NHLAPIID": 1998020504
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "CSN"
+            ], 
             "season": "1998", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -12072,10 +12084,13 @@
             "date": "1999-01-08T00:30:00+00:00", 
             "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "identity": {
+                "ESPNAPIID": "190107016", 
                 "NHLAPIID": 1998020505
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "FSPI"
+            ], 
             "season": "1998", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -12094,6 +12109,7 @@
             "date": "1999-01-08T01:00:00+00:00", 
             "homeTeam": "27194eda-e3be-476f-8470-2ee8b47859e1", 
             "identity": {
+                "ESPNAPIID": "190107027", 
                 "NHLAPIID": 1998020508
             }, 
             "league": "NHL", 
@@ -12116,6 +12132,7 @@
             "date": "1999-01-08T01:00:00+00:00", 
             "homeTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "identity": {
+                "ESPNAPIID": "190107019", 
                 "NHLAPIID": 1998020507
             }, 
             "league": "NHL", 
@@ -12138,6 +12155,7 @@
             "date": "1999-01-08T02:00:00+00:00", 
             "homeTeam": "78b9f99b-3f2f-4ac8-9557-683951a8bd0c", 
             "identity": {
+                "ESPNAPIID": "190107024", 
                 "NHLAPIID": 1998020509
             }, 
             "league": "NHL", 
@@ -12160,10 +12178,13 @@
             "date": "1999-01-08T03:30:00+00:00", 
             "homeTeam": "9e4d9b57-da53-438c-a557-9bd2352a0b99", 
             "identity": {
+                "ESPNAPIID": "190107008", 
                 "NHLAPIID": 1998020510
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "FSN"
+            ], 
             "season": "1998", 
             "sport": "Hockey", 
             "subseason": 0, 

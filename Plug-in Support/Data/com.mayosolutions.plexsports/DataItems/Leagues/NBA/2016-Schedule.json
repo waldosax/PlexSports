@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA2016SCHEDULE", 
-        "CachedOn": "2021-12-31T14:46:19", 
-        "ExpiresOn": "2022-01-07T14:46:19", 
+        "CachedOn": "2022-01-04T15:43:49", 
+        "ExpiresOn": "2022-01-11T15:43:49", 
         "Version": "2"
     }, 
     "Items": [
@@ -55,7 +55,6 @@
             "vs": "New Orleans Pelicans vs. Dallas Mavericks"
         }, 
         {
-            "altDescription": "", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -68,6 +67,7 @@
             "date": "2016-10-03T00:00:00+00:00", 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
+                "ESPNAPIID": "400899175", 
                 "NBAAPIID": "0011600003"
             }, 
             "league": "NBA", 
@@ -11267,7 +11267,7 @@
             "vs": "Utah Jazz vs. Houston Rockets"
         }, 
         {
-            "altDescription": "POSTPONED DUE TO CONDENSATION ON THE COURT", 
+            "altTitle": "POSTPONED DUE TO CONDENSATION ON THE COURT", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -11278,7 +11278,7 @@
             }, 
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2016-12-01T00:00:00+00:00", 
-            "description": "A scheduled game between the Sacramento Kings and Philadelphia 76ers was postponed Wednesday night by the NBA because of condensation on the court at the Wells Fargo Center. Postponed Due to Condensation on the Court", 
+            "description": "A scheduled game between the Sacramento Kings and Philadelphia 76ers was postponed Wednesday night by the NBA because of condensation on the court at the Wells Fargo Center.", 
             "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "identity": {
                 "ESPNAPIID": "400899716"
@@ -30731,6 +30731,7 @@
         }, 
         {
             "altDescription": "Davis scores record 52, named Kia MVP", 
+            "altTitle": "NBA ALL-STAR GAME", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -30765,7 +30766,7 @@
                 "TBS", 
                 "Sportsnet"
             ], 
-            "notes": "2017 NBA All-Star Game, Davis scores record 52, named Kia MVP", 
+            "notes": "2017 NBA All-Star Game, NBA ALL-STAR GAME, Davis scores record 52, named Kia MVP", 
             "season": "2016", 
             "sport": "Basketball", 
             "vs": "West NBA All Stars West vs. East NBA All Stars East"
@@ -32654,29 +32655,6 @@
             "vs": "Sacramento Kings vs. Brooklyn Nets"
         }, 
         {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "bd748cfb-cc40-46bf-b710-558022a68cad", 
-            "date": "2017-03-03T00:00:00+00:00", 
-            "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
-            "identity": {
-                "TheSportsDBID": "522100"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "playoffround": 1, 
-            "season": "2016", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Dallas Mavericks vs Memphis Grizzlies"
-        }, 
-        {
             "altDescription": "Warriors: First back-to-back losses since 4/9/15", 
             "assets": {
                 "banner": [], 
@@ -32958,14 +32936,17 @@
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "400900309", 
-                "NBAAPIID": "0021600914"
+                "NBAAPIID": "0021600914", 
+                "TheSportsDBID": "522100"
             }, 
             "league": "NBA", 
             "networks": [
                 "FSSW"
             ], 
+            "playoffround": 1, 
             "season": "2016", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. Memphis Grizzlies"
         }, 
         {
@@ -33131,29 +33112,6 @@
             "season": "2016", 
             "sport": "Basketball", 
             "vs": "Philadelphia 76ers vs. Detroit Pistons"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
-            "date": "2017-03-05T00:00:00+00:00", 
-            "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
-            "identity": {
-                "TheSportsDBID": "522141"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "playoffround": 1, 
-            "season": "2016", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Dallas Mavericks vs Oklahoma City Thunder"
         }, 
         {
             "altDescription": "Heat outscore Cavs by 28 over final 3Q", 
@@ -33578,7 +33536,8 @@
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "400900327", 
-                "NBAAPIID": "0021600932"
+                "NBAAPIID": "0021600932", 
+                "TheSportsDBID": "522141"
             }, 
             "league": "NBA", 
             "networks": [
@@ -33587,8 +33546,10 @@
                 "ESPN"
             ], 
             "notes": "Westbrook scoreless in 2nd, 4th quarters", 
+            "playoffround": 1, 
             "season": "2016", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. Oklahoma City Thunder"
         }, 
         {
@@ -33861,7 +33822,7 @@
             "vs": "Memphis Grizzlies vs. Brooklyn Nets"
         }, 
         {
-            "altDescription": "POSTPONED DUE TO CONDENSATION ON THE COURT", 
+            "altTitle": "POSTPONED DUE TO CONDENSATION ON THE COURT", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -33872,7 +33833,7 @@
             }, 
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2017-03-07T01:00:00+00:00", 
-            "description": "Postponed Due to Condensation on the Court", 
+            "description": "POSTPONED DUE TO CONDENSATION ON THE COURT", 
             "homeTeam": "86a37a58-337c-4ab8-9379-472d38bd7dd0", 
             "identity": {
                 "ESPNAPIID": "400900335"
@@ -33882,6 +33843,7 @@
                 "CSNN", 
                 "FSN"
             ], 
+            "notes": "POSTPONED DUE TO CONDENSATION ON THE COURT", 
             "season": "2016", 
             "sport": "Basketball", 
             "subseason": 0, 
@@ -43535,6 +43497,7 @@
         }, 
         {
             "altDescription": "James: 32 points, 6 rebounds, 13 assists", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43551,6 +43514,7 @@
             "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "date": "2017-04-15T19:00:00+00:00", 
             "description": "The Pacers and Cavaliers go back and forth late in the fourth quarter, but the Cavaliers hang on to win 109-108 behind Lebron James' 32 points. James: 32 Points, 6 Rebounds, 13 Assists", 
+            "eventTitle": "Eastern Conference 1st Round - Game 1", 
             "game": "1", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
@@ -43562,7 +43526,7 @@
             "networks": [
                 "ABC"
             ], 
-            "notes": "James: 32 points, 6 rebounds, 13 assists", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 1, James: 32 points, 6 rebounds, 13 assists", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -43571,6 +43535,7 @@
         }, 
         {
             "altDescription": "Bucks outscore Raptors by 19 in second half", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43587,6 +43552,7 @@
             "awayTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "date": "2017-04-15T21:30:00+00:00", 
             "description": "Giannis Antetokounmpo scores 28 points with eight rebounds to lead the Bucks to the road win and a 1-0 series lead, 97-83. Bucks Outscore Raptors by 19 IN Second Half", 
+            "eventTitle": "Eastern Conference 1st Round - Game 1", 
             "game": "1", 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
@@ -43600,7 +43566,7 @@
                 "Sportsnet One", 
                 "ESPN"
             ], 
-            "notes": "Bucks outscore Raptors by 19 in second half", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 1, Bucks outscore Raptors by 19 in second half", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -43609,6 +43575,7 @@
         }, 
         {
             "altDescription": " Leonard ties postseason high with 32 points", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43625,6 +43592,7 @@
             "awayTeam": "bd748cfb-cc40-46bf-b710-558022a68cad", 
             "date": "2017-04-16T00:00:00+00:00", 
             "description": "Kawhi Leonard scores 32 points with five assists and Tony Parker adds 18 points to help the Spurs beat the Grizzlies in Game 1, 111-82. Marc Gasol scores 32 points in the loss. Leonard Ties Postseason High With 32 Points", 
+            "eventTitle": "Western Conference 1st Round - Game 1", 
             "game": "1", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
@@ -43637,7 +43605,7 @@
                 "FSSW", 
                 "ESPN"
             ], 
-            "notes": " Leonard ties postseason high with 32 points", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 1,  Leonard ties postseason high with 32 points", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -43646,6 +43614,7 @@
         }, 
         {
             "altDescription": "Johnson beats buzzer with floater", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43662,6 +43631,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2017-04-16T02:30:00+00:00", 
             "description": "Joe Johnson scores 21 points, including the game-winner as time expires, to lead the Jazz past the Clippers, 97-95. Chris Paul scores 25 and Blake Griffin adds 26 points for the Clippers in the loss. Johnson Beats Buzzer With Floater", 
+            "eventTitle": "Western Conference 1st Round - Game 1", 
             "game": "1", 
             "homeTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "identity": {
@@ -43675,7 +43645,7 @@
                 "ROOT", 
                 "ESPN"
             ], 
-            "notes": "Johnson beats buzzer with floater", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 1, Johnson beats buzzer with floater", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -43684,6 +43654,7 @@
         }, 
         {
             "altDescription": "Wall: 32 points, 14 assists", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43700,6 +43671,7 @@
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2017-04-16T17:00:00+00:00", 
             "description": "John Wall posts a double-double of 32 points and 14 assists to lead the Wizards to a 114-107 win and gain 1-0 series lead against the Hawks. Wall: 32 Points, 14 Assists", 
+            "eventTitle": "Eastern Conference 1st Round - Game 1", 
             "game": "1", 
             "homeTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "identity": {
@@ -43712,7 +43684,7 @@
                 "TNT", 
                 "CSNB"
             ], 
-            "notes": "Wall: 32 points, 14 assists", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 1, Wall: 32 points, 14 assists", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -43721,6 +43693,7 @@
         }, 
         {
             "altDescription": "Green: 19 points, 12 rebounds, 9 assists", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43737,6 +43710,7 @@
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2017-04-16T19:30:00+00:00", 
             "description": "The Warriors grab a 1-0 series lead over the Trail Blazers despite CJ McCollum scoring 41. Kevin Durant gets 32 points and 10 rebounds while Stephen Curry adds 29 as Golden State wins, 121-109. Green: 19 Points, 12 Rebounds, 9 Assists", 
+            "eventTitle": "Western Conference 1st Round - Game 1", 
             "game": "1", 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
@@ -43748,7 +43722,7 @@
             "networks": [
                 "ABC"
             ], 
-            "notes": "Green: 19 points, 12 rebounds, 9 assists", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 1, Green: 19 points, 12 rebounds, 9 assists", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -43757,6 +43731,7 @@
         }, 
         {
             "altDescription": "Bulls take control with late 8-0 run", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43773,6 +43748,7 @@
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2017-04-16T22:30:00+00:00", 
             "description": "Jimmy butler records 30 points and nine rebounds, Robin Lopez adds a double-double as the Bulls defeat the Celtics in Game 1. Bulls Take Control With Late 8-0 Run", 
+            "eventTitle": "Eastern Conference 1st Round - Game 1", 
             "game": "1", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
@@ -43786,7 +43762,7 @@
                 "CSNN", 
                 "CSNC"
             ], 
-            "notes": "Bulls take control with late 8-0 run", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 1, Bulls take control with late 8-0 run", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -43795,6 +43771,7 @@
         }, 
         {
             "altDescription": "Harden outscores Westbrook 37-22", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43806,6 +43783,7 @@
             "awayTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "date": "2017-04-17T01:00:00+00:00", 
             "description": "James Harden scored 37 points to outshine Russell Westbrook, and the Houston Rockets pulled away in the third quarter to coast to a 118-87 victory over the Oklahoma City Thunder on Sunday night. Harden Outscores Westbrook 37-22", 
+            "eventTitle": "Western Conference 1st Round - Game 1", 
             "game": "1", 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
@@ -43818,7 +43796,7 @@
                 "TNT", 
                 "FSOK"
             ], 
-            "notes": "Harden outscores Westbrook 37-22", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 1, Harden outscores Westbrook 37-22", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -43827,6 +43805,7 @@
         }, 
         {
             "altDescription": "Irving, James, Love combine for 89 points", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43843,6 +43822,7 @@
             "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "date": "2017-04-17T23:00:00+00:00", 
             "description": "Kyrie Irving scores 37 points, LeBron James and Kevin Love each add a double-double as the Cavaliers defeat the Pacers to take a 2-0 lead in the series. Irving, James, Love Combine for 89 Points", 
+            "eventTitle": "Eastern Conference 1st Round - Game 2", 
             "game": "2", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
@@ -43855,7 +43835,7 @@
                 "FSOH", 
                 "TNT"
             ], 
-            "notes": "Irving, James, Love combine for 89 points", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 2, Irving, James, Love combine for 89 points", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -43864,6 +43844,7 @@
         }, 
         {
             "altDescription": "Leonard: 37 points (19-19 FTs), 11 rebounds", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43880,6 +43861,7 @@
             "awayTeam": "bd748cfb-cc40-46bf-b710-558022a68cad", 
             "date": "2017-04-18T01:30:00+00:00", 
             "description": "Kawhi Leonard records a Playoffs career-high 37 points and 11 rebounds, Tony Parker adds 15 points as the Spurs defeat the Grizzlies to take a 2-0 series lead. Leonard: 37 Points (19-19 Fts), 11 Rebounds", 
+            "eventTitle": "Western Conference 1st Round - Game 2", 
             "game": "2", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
@@ -43892,7 +43874,7 @@
                 "FSOH", 
                 "TNT"
             ], 
-            "notes": "Leonard: 37 points (19-19 FTs), 11 rebounds", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 2, Leonard: 37 points (19-19 FTs), 11 rebounds", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -43901,6 +43883,7 @@
         }, 
         {
             "altDescription": "Lowry, DeRozan combine for 45 points", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43917,6 +43900,7 @@
             "awayTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "date": "2017-04-18T23:00:00+00:00", 
             "description": "DeMar DeRozans scores 23 points and Kyle Lowry adds 22 as the Raptors win 106-100 and even the playoff series with the Bucks, 1-1, as they head to Milwaukee for Game 3. Lowry, Derozan Combine for 45 Points", 
+            "eventTitle": "Eastern Conference 1st Round - Game 2", 
             "game": "2", 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
@@ -43930,7 +43914,7 @@
                 "FSWI", 
                 "NBA TV"
             ], 
-            "notes": "Lowry, DeRozan combine for 45 points", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 2, Lowry, DeRozan combine for 45 points", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -43939,6 +43923,7 @@
         }, 
         {
             "altDescription": "Rondo: 11 points, 14 assists, 9 rebounds", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43955,6 +43940,7 @@
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2017-04-19T00:00:00+00:00", 
             "description": "Jimmy Butler and Dwyane Wade each score 22 points, Rajon Rondo adds a near triple-double as the Bulls take a 2-0 lead over the Celtics. Rondo: 11 Points, 14 Assists, 9 Rebounds", 
+            "eventTitle": "Eastern Conference 1st Round - Game 2", 
             "game": "2", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
@@ -43968,7 +43954,7 @@
                 "CSNN", 
                 "CSNC"
             ], 
-            "notes": "Rondo: 11 points, 14 assists, 9 rebounds", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 2, Rondo: 11 points, 14 assists, 9 rebounds", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -43977,6 +43963,7 @@
         }, 
         {
             "altDescription": "Clippers outrebound Jazz 60-38", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -43993,6 +43980,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2017-04-19T02:30:00+00:00", 
             "description": "Chris Paul scores 21 points and dishes out 10 assists, DeAndre Jordan adds a double-double as the Clippers even the series 1-1 with a Game 2 win over the Jazz. Clippers Outrebound Jazz 60-38", 
+            "eventTitle": "Western Conference 1st Round - Game 2", 
             "game": "2", 
             "homeTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "identity": {
@@ -44006,7 +43994,7 @@
                 "FSW2", 
                 "ROOT"
             ], 
-            "notes": "Clippers outrebound Jazz 60-38", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 2, Clippers outrebound Jazz 60-38", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44015,6 +44003,7 @@
         }, 
         {
             "altDescription": "Beal scores 16 of 31 points in fourth quarter", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44031,6 +44020,7 @@
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2017-04-19T23:00:00+00:00", 
             "description": "John Wall scores 32 points with nine assists and Bradley Beal scores 31 points to lead the Wizards to the Game 2 victory over the Hawks, 109-101. Paul Millsap scores 27 in the loss for the Hawks. Beal Scores 16 of 31 Points IN Fourth Quarter", 
+            "eventTitle": "Eastern Conference 1st Round - Game 2", 
             "game": "2", 
             "homeTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "identity": {
@@ -44043,7 +44033,7 @@
                 "CSNB", 
                 "NBA TV"
             ], 
-            "notes": "Beal scores 16 of 31 points in fourth quarter", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 2, Beal scores 16 of 31 points in fourth quarter", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44052,6 +44042,7 @@
         }, 
         {
             "altDescription": "Westbrook: 51 points, 10 rebounds, 13 assists", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44068,6 +44059,7 @@
             "awayTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "date": "2017-04-20T00:00:00+00:00", 
             "description": "James Harden scores 35 points with eight rebounds and four assists to lead Houston over Oklahoma City, 115-111. Westbrook: 51 Points, 10 Rebounds, 13 Assists", 
+            "eventTitle": "Western Conference 1st Round - Game 2", 
             "game": "2", 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
@@ -44080,7 +44072,7 @@
                 "TNT", 
                 "FSOK"
             ], 
-            "notes": "Westbrook: 51 points, 10 rebounds, 13 assists", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 2, Westbrook: 51 points, 10 rebounds, 13 assists", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44089,6 +44081,7 @@
         }, 
         {
             "altDescription": "Warriors hold Blazers to 33 percent shooting", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44105,6 +44098,7 @@
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2017-04-20T02:30:00+00:00", 
             "description": "Stephen Curry scores 19 points, hands out six assists and grabs six rebounds to lead the Warriors rout of the Trail Blazers in Game 2, 110-81. Warriors Hold Blazers to 33 Percent Shooting", 
+            "eventTitle": "Western Conference 1st Round - Game 2", 
             "game": "2", 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
@@ -44118,7 +44112,7 @@
                 "CSNB", 
                 "KGW"
             ], 
-            "notes": "Warriors hold Blazers to 33 percent shooting", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 2, Warriors hold Blazers to 33 percent shooting", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44127,6 +44121,7 @@
         }, 
         {
             "altDescription": "Cavs set record with 25-point halftime rally", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44143,6 +44138,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2017-04-20T23:00:00+00:00", 
             "description": "LeBron James scores 41 points, grabs 13 rebounds and dishes out 12 assists as the Cavaliers defeat the Pacers, 119-114 to take a 3-0 lead in the series. Cavs Set Record With 25-point Halftime Rally", 
+            "eventTitle": "Eastern Conference 1st Round - Game 3", 
             "game": "3", 
             "homeTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "identity": {
@@ -44155,7 +44151,7 @@
                 "FSOH", 
                 "TNT"
             ], 
-            "notes": "Cavs set record with 25-point halftime rally", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 3, Cavs set record with 25-point halftime rally", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44164,6 +44160,7 @@
         }, 
         {
             "altDescription": " Bucks limit Raptors to 33.8 pct shooting", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44180,6 +44177,7 @@
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2017-04-21T00:00:00+00:00", 
             "description": "Giannis Antetokounmpo scores 20 points and grabs 8 rebounds as the Bucks demolish the Raptors, 104-77 to take a 2-1 lead in the series. Bucks Limit Raptors to 33.8 Pct Shooting", 
+            "eventTitle": "Eastern Conference 1st Round - Game 3", 
             "game": "3", 
             "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "identity": {
@@ -44193,7 +44191,7 @@
                 "FSWI", 
                 "NBA TV"
             ], 
-            "notes": " Bucks limit Raptors to 33.8 pct shooting", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 3,  Bucks limit Raptors to 33.8 pct shooting", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44202,6 +44200,7 @@
         }, 
         {
             "altDescription": "Conley, Gasol, Randolph combine for 66 points", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44218,6 +44217,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2017-04-21T01:30:00+00:00", 
             "description": "Mike Conley and Marc Gasol combine for 45 points as the Grizzlies defeat the Spurs,105-94. Conley, Gasol, Randolph Combine for 66 Points", 
+            "eventTitle": "Western Conference 1st Round - Game 3", 
             "game": "3", 
             "homeTeam": "bd748cfb-cc40-46bf-b710-558022a68cad", 
             "identity": {
@@ -44230,7 +44230,7 @@
                 "TNT", 
                 "FSSW"
             ], 
-            "notes": "Conley, Gasol, Randolph combine for 66 points", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 3, Conley, Gasol, Randolph combine for 66 points", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44239,6 +44239,7 @@
         }, 
         {
             "altDescription": "Celtics earn 34 assists on 41 field goals", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44255,6 +44256,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2017-04-21T23:00:00+00:00", 
             "description": "Isaiah Thomas scores 16 points and dishes out 9 assists as the Celtics defeat the Bulls, 104-87. Celtics Earn 34 Assists on 41 Field Goals", 
+            "eventTitle": "Eastern Conference 1st Round - Game 3", 
             "game": "3", 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
@@ -44268,7 +44270,7 @@
                 "ESPN", 
                 "CSNC"
             ], 
-            "notes": "Celtics earn 34 assists on 41 field goals", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 3, Celtics earn 34 assists on 41 field goals", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44277,6 +44279,7 @@
         }, 
         {
             "altDescription": "Westbrook: 32 points, 13 rebounds, 11 assists", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44293,6 +44296,7 @@
             "awayTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "date": "2017-04-22T01:30:00+00:00", 
             "description": "Russell Westbrook scores 32 points, grabs 13 rebounds and dishes out 11 assists as the Thunder defeat the Rockets, 115-113. Westbrook: 32 Points, 13 Rebounds, 11 Assists", 
+            "eventTitle": "Western Conference 1st Round - Game 3", 
             "game": "3", 
             "homeTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "identity": {
@@ -44305,7 +44309,7 @@
                 "FSOK", 
                 "ESPN"
             ], 
-            "notes": "Westbrook: 32 points, 13 rebounds, 11 assists", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 3, Westbrook: 32 points, 13 rebounds, 11 assists", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44314,6 +44318,7 @@
         }, 
         {
             "altDescription": "Paul scores 24 of 34 points in second half", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44330,6 +44335,7 @@
             "awayTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "date": "2017-04-22T02:00:00+00:00", 
             "description": "Chris Paul scores 34 points and dishes out 10 assists as the Clippers defeat the Jazz in Game 3, 111-106. Paul Scores 24 of 34 Points IN Second Half", 
+            "eventTitle": "Western Conference 1st Round - Game 3", 
             "game": "3", 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
@@ -44343,7 +44349,7 @@
                 "FSW2", 
                 "ROOT"
             ], 
-            "notes": "Paul scores 24 of 34 points in second half", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 3, Paul scores 24 of 34 points in second half", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44352,6 +44358,7 @@
         }, 
         {
             "altDescription": "DeRozan: 33 points, 9 rebounds", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44368,6 +44375,7 @@
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2017-04-22T19:00:00+00:00", 
             "description": "DeMar DeRozan scores 33 points with nine rebounds and five assists to lead the Raptors over the Bucks, 87-76.. Derozan: 33 Points, 9 Rebounds", 
+            "eventTitle": "Eastern Conference 1st Round - Game 4", 
             "game": "4", 
             "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "identity": {
@@ -44381,7 +44389,7 @@
                 "Sportsnet One", 
                 "FSWI"
             ], 
-            "notes": "DeRozan: 33 points, 9 rebounds", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 4, DeRozan: 33 points, 9 rebounds", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44390,6 +44398,7 @@
         }, 
         {
             "altDescription": "Hawks never trail, lead by as many as 25", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44406,6 +44415,7 @@
             "awayTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "date": "2017-04-22T21:30:00+00:00", 
             "description": "Paul Millsap scores 29 points with 14 rebounds and Dennis Schroder adds 27 to lead the Hawks past the Wizards in Game 3 of their Eastern Conference first round series, 116-98. John Wall scores 29 points for the Wizards in the loss. Hawks Never Trail, Lead by as Many as 25", 
+            "eventTitle": "Eastern Conference 1st Round - Game 3", 
             "game": "3", 
             "homeTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "identity": {
@@ -44418,7 +44428,7 @@
                 "TNT", 
                 "CSNB"
             ], 
-            "notes": "Hawks never trail, lead by as many as 25", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 3, Hawks never trail, lead by as many as 25", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44427,6 +44437,7 @@
         }, 
         {
             "altDescription": "Gasol scores game-winner with 0.7 left in OT", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44443,6 +44454,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2017-04-23T00:00:00+00:00", 
             "description": "Mike Conley scores 35 points, grabs nine rebounds and hands out eight assists to lead the Grizzlies to the Game 4, overtime victory over the Spurs, 110-108. Kawhi Leonard scores 43 points, including the final 16 points for the Spurs in the fourth quarter, in the loss. Gasol Scores Game-winner With 0.7 Left IN Ot", 
+            "eventTitle": "Western Conference 1st Round - Game 4", 
             "game": "4", 
             "homeTeam": "bd748cfb-cc40-46bf-b710-558022a68cad", 
             "identity": {
@@ -44455,7 +44467,7 @@
                 "FSSW", 
                 "ESPN"
             ], 
-            "notes": "Gasol scores game-winner with 0.7 left in OT", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 4, Gasol scores game-winner with 0.7 left in OT", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44464,6 +44476,7 @@
         }, 
         {
             "altDescription": "Warriors erase 16-point deficit in second half", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44480,6 +44493,7 @@
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2017-04-23T02:30:00+00:00", 
             "description": "Stephen Curry scores 33 points and Klay Thompson adds 24 as the Warriors rally to take Game 3 of their Western Conference first-round series against the Trail Blazers, 119-113. Damian Lillard scores 31 and CJ McCollum adds 32 in the loss for the Trail Blazers. Warriors Erase 16-point Deficit IN Second Half", 
+            "eventTitle": "Western Conference 1st Round - Game 3", 
             "game": "3", 
             "homeTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "identity": {
@@ -44493,7 +44507,7 @@
                 "KGW", 
                 "ESPN"
             ], 
-            "notes": "Warriors erase 16-point deficit in second half", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 3, Warriors erase 16-point deficit in second half", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44502,6 +44516,7 @@
         }, 
         {
             "altDescription": "James: 33 points, 10 rebounds", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44518,6 +44533,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2017-04-23T17:00:00+00:00", 
             "description": "LeBron James scores 33 points and grabs 10 rebounds and Kyrie Irving adds 28 points as the Cleveland Cavaliers finish off the Indiana Pacers 106-102. James: 33 Points, 10 Rebounds", 
+            "eventTitle": "Eastern Conference 1st Round - Game 4", 
             "game": "4", 
             "homeTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "identity": {
@@ -44529,7 +44545,7 @@
             "networks": [
                 "ABC"
             ], 
-            "notes": "James: 33 points, 10 rebounds", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 4, James: 33 points, 10 rebounds", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44538,6 +44554,7 @@
         }, 
         {
             "altDescription": "Nene: 28 points (12-12 FGs), 10 rebounds", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44554,6 +44571,7 @@
             "awayTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "date": "2017-04-23T19:30:00+00:00", 
             "description": "James Harden and Nene combine for 44 points as the Houston Rockets grab a commanding 3-1 series lead over OKC. Nene: 28 Points (12-12 Fgs), 10 Rebounds", 
+            "eventTitle": "Western Conference 1st Round - Game 4", 
             "game": "4", 
             "homeTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "identity": {
@@ -44565,7 +44583,7 @@
             "networks": [
                 "ABC"
             ], 
-            "notes": "Nene: 28 points (12-12 FGs), 10 rebounds", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 4, Nene: 28 points (12-12 FGs), 10 rebounds", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44574,6 +44592,7 @@
         }, 
         {
             "altDescription": "Road team has won all four games in series", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44590,6 +44609,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2017-04-23T22:30:00+00:00", 
             "description": "Isaiah Thomas records 33 points and seven assists, Al Horford adds a double-double as the Celtics win Game 4 to even the series. Road Team Has Won All Four Games IN Series", 
+            "eventTitle": "Eastern Conference 1st Round - Game 4", 
             "game": "4", 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
@@ -44603,7 +44623,7 @@
                 "CSNN", 
                 "CSNC"
             ], 
-            "notes": "Road team has won all four games in series", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 4, Road team has won all four games in series", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44612,6 +44632,7 @@
         }, 
         {
             "altDescription": "Jazz outscore Clippers by 14 over final 6:56", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44628,6 +44649,7 @@
             "awayTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "date": "2017-04-24T01:00:00+00:00", 
             "description": "Joe Johnson scores 28 points, Rudy Gobert adds a double-double as the Jazz even the series 2-2 with the Game 4 win over the Clippers. Jazz Outscore Clippers by 14 Over Final 6:56", 
+            "eventTitle": "Western Conference 1st Round - Game 4", 
             "game": "4", 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
@@ -44641,7 +44663,7 @@
                 "FSW2", 
                 "ROOT"
             ], 
-            "notes": "Jazz outscore Clippers by 14 over final 6:56", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 4, Jazz outscore Clippers by 14 over final 6:56", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44650,6 +44672,7 @@
         }, 
         {
             "altDescription": "Powell: Playoff career-high 25 points", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44666,6 +44689,7 @@
             "awayTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "date": "2017-04-24T23:00:00+00:00", 
             "description": "Norman Powell scores 25 points, DeMar DeRozan and Kyle Lowry each add 18 points as the Raptors take Game 5 and 3-2 series lead over the Bucks. Powell: Playoff Career-high 25 Points", 
+            "eventTitle": "Eastern Conference 1st Round - Game 5", 
             "game": "5", 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
@@ -44679,7 +44703,7 @@
                 "FSWI", 
                 "NBA TV"
             ], 
-            "notes": "Powell: Playoff career-high 25 points", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 5, Powell: Playoff career-high 25 points", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44688,6 +44712,7 @@
         }, 
         {
             "altDescription": "Howard: 16 points, 15 rebounds", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44704,6 +44729,7 @@
             "awayTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "date": "2017-04-25T00:00:00+00:00", 
             "description": "Dwight Howard records 16 points and 15 rebounds, Paul Millsap adds 19 points and Dennis Schroder adds 18 points as the Hawks even the series with the Game 4 win over the Wizards. Howard: 16 Points, 15 Rebounds", 
+            "eventTitle": "Eastern Conference 1st Round - Game 4", 
             "game": "4", 
             "homeTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "identity": {
@@ -44716,7 +44742,7 @@
                 "TNT", 
                 "CSNB"
             ], 
-            "notes": "Howard: 16 points, 15 rebounds", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 4, Howard: 16 points, 15 rebounds", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44725,6 +44751,7 @@
         }, 
         {
             "altDescription": "Curry: 37 points (7-for-11 on 3s)", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44741,6 +44768,7 @@
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2017-04-25T02:30:00+00:00", 
             "description": "Stephen Curry records 37 points, seven rebounds and eight assists, Draymond green adds 21 points as the Warriors take Game 4 and sweep the Blazers. Curry: 37 Points (7-for-11 on 3s)", 
+            "eventTitle": "Western Conference 1st Round - Game 4", 
             "game": "4", 
             "homeTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "identity": {
@@ -44754,7 +44782,7 @@
                 "CSNB", 
                 "KGW"
             ], 
-            "notes": "Curry: 37 points (7-for-11 on 3s)", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 4, Curry: 37 points (7-for-11 on 3s)", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44763,6 +44791,7 @@
         }, 
         {
             "altDescription": "Harden: 34 points, 8 rebounds", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44779,6 +44808,7 @@
             "awayTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "date": "2017-04-26T00:00:00+00:00", 
             "description": "James Harden scores 34 as the Rockets take Game 5, 105-99 for a 4-1 series win despite Russell Westbrook putting up 47 points, 11 rebounds and nine assists. Harden: 34 Points, 8 Rebounds", 
+            "eventTitle": "Western Conference 1st Round - Game 5", 
             "game": "5", 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
@@ -44791,7 +44821,7 @@
                 "TNT", 
                 "FSOK"
             ], 
-            "notes": "Harden: 34 points, 8 rebounds", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 5, Harden: 34 points, 8 rebounds", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44800,6 +44830,7 @@
         }, 
         {
             "altDescription": "Mills: Playoff career-high 20 points", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44816,6 +44847,7 @@
             "awayTeam": "bd748cfb-cc40-46bf-b710-558022a68cad", 
             "date": "2017-04-26T01:00:00+00:00", 
             "description": "Kawhi Leonard scores 28 points, Patty Mills adds 20 as the Spurs win it 116-103. Mills: Playoff Career-high 20 Points", 
+            "eventTitle": "Western Conference 1st Round - Game 5", 
             "game": "5", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
@@ -44828,7 +44860,7 @@
                 "FSSW", 
                 "NBA TV"
             ], 
-            "notes": "Mills: Playoff career-high 20 points", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 5, Mills: Playoff career-high 20 points", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44837,6 +44869,7 @@
         }, 
         {
             "altDescription": "Hayward: 27 points, 8 rebounds", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44853,6 +44886,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2017-04-26T02:30:00+00:00", 
             "description": "Gordon Hayward leads a balanced attack scoring 27 points with eight rebounds and four assists to lead the Jazz over the Clippers, 96-92. Hayward: 27 Points, 8 Rebounds", 
+            "eventTitle": "Western Conference 1st Round - Game 5", 
             "game": "5", 
             "homeTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "identity": {
@@ -44866,7 +44900,7 @@
                 "FSW2", 
                 "ROOT"
             ], 
-            "notes": "Hayward: 27 points, 8 rebounds", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 5, Hayward: 27 points, 8 rebounds", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44875,6 +44909,7 @@
         }, 
         {
             "altDescription": "Wall: 20 points, 14 assists", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44891,6 +44926,7 @@
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2017-04-26T22:00:00+00:00", 
             "description": "John Wall scores 20 points with 14 assists and Bradley Beal adds 27 as the Wizards take Game 5 of the Eastern Conference first-round series against the Hawks, 103-99. Dennis Schroder scores 29 points in the loss for the Hawks. Wall: 20 Points, 14 Assists", 
+            "eventTitle": "Eastern Conference 1st Round - Game 5", 
             "game": "5", 
             "homeTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "identity": {
@@ -44903,7 +44939,7 @@
                 "TNT", 
                 "CSNB"
             ], 
-            "notes": "Wall: 20 points, 14 assists", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 5, Wall: 20 points, 14 assists", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44912,6 +44948,7 @@
         }, 
         {
             "altDescription": "Celtics outscore Bulls 29-16 in fourth quarter", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44928,6 +44965,7 @@
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2017-04-27T00:30:00+00:00", 
             "description": "Isaiah Thomas scores 24 points with four assists and Avery Bradley adds 24 points to lead the Celtics to the Game 5 victory over Chicago, 108-97. Dwyane Wade scores 26 points, grabs 11 rebounds and hands out eight assists in the loss. Celtics Outscore Bulls 29-16 IN Fourth Quarter", 
+            "eventTitle": "Eastern Conference 1st Round - Game 5", 
             "game": "5", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
@@ -44941,7 +44979,7 @@
                 "CSNN", 
                 "CSNC"
             ], 
-            "notes": "Celtics outscore Bulls 29-16 in fourth quarter", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 5, Celtics outscore Bulls 29-16 in fourth quarter", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44950,6 +44988,7 @@
         }, 
         {
             "altDescription": "Raptors withstand 25-point comeback", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -44966,6 +45005,7 @@
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2017-04-27T23:00:00+00:00", 
             "description": "DeMar DeRozan scores 32 points as the Raptors defeat the Bucks, 92-89 and win the series 4-2. Raptors Withstand 25-point Comeback", 
+            "eventTitle": "Eastern Conference 1st Round - Game 6", 
             "game": "6", 
             "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "identity": {
@@ -44978,7 +45018,7 @@
                 "Sportsnet One", 
                 "FSWI"
             ], 
-            "notes": "Raptors withstand 25-point comeback", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 6, Raptors withstand 25-point comeback", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -44987,6 +45027,7 @@
         }, 
         {
             "altDescription": "Leonard, Parker combine for 56 points", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45003,6 +45044,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2017-04-28T01:30:00+00:00", 
             "description": "Kawhi Leonard scores 29 points and grabs 9 rebounds as the Spurs defeat the Grizzlies, 103-96 and win the series 4-2. Leonard, Parker Combine for 56 Points", 
+            "eventTitle": "Western Conference 1st Round - Game 6", 
             "game": "6", 
             "homeTeam": "bd748cfb-cc40-46bf-b710-558022a68cad", 
             "identity": {
@@ -45014,7 +45056,7 @@
                 "TNT", 
                 "FSSW"
             ], 
-            "notes": "Leonard, Parker combine for 56 points", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 6, Leonard, Parker combine for 56 points", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45023,6 +45065,7 @@
         }, 
         {
             "altDescription": "Wall: 42 points, including 19 in 4th quarter", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45039,6 +45082,7 @@
             "awayTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "date": "2017-04-28T23:30:00+00:00", 
             "description": "John Wall scores 42 points as the Wizards defeat the Hawks, 115-99 to close out the series 4-2. Wall: 42 Points, Including 19 IN 4th Quarter", 
+            "eventTitle": "Eastern Conference 1st Round - Game 6", 
             "game": "6", 
             "homeTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "identity": {
@@ -45051,7 +45095,7 @@
                 "CSNB", 
                 "ESPNU/NBA TV"
             ], 
-            "notes": "Wall: 42 points, including 19 in 4th quarter", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 6, Wall: 42 points, including 19 in 4th quarter", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45060,6 +45104,7 @@
         }, 
         {
             "altDescription": "Celtics never trail, lead by as many as 30", 
+            "altTitle": "EASTERN CONFERENCE 1ST ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45076,6 +45121,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2017-04-29T00:00:00+00:00", 
             "description": "Avery Bradley scores 23 points as the Celtics defeat the Hawks, 105-83 to win the series 4-2. Celtics Never Trail, Lead by as Many as 30", 
+            "eventTitle": "Eastern Conference 1st Round - Game 6", 
             "game": "6", 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
@@ -45088,7 +45134,7 @@
                 "ESPN", 
                 "CSNC"
             ], 
-            "notes": "Celtics never trail, lead by as many as 30", 
+            "notes": "EASTERN CONFERENCE 1ST ROUND - GAME 6, Celtics never trail, lead by as many as 30", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45097,6 +45143,7 @@
         }, 
         {
             "altDescription": "Paul: 29 points (10-20 FGs), 8 assists", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45113,6 +45160,7 @@
             "awayTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "date": "2017-04-29T02:30:00+00:00", 
             "description": "Chris Paul scores 29 points and dishes out 8 assists as the Clippers defeat the Jazz, 98-93 to even the series 3-3. Paul: 29 Points (10-20 Fgs), 8 Assists", 
+            "eventTitle": "Western Conference 1st Round - Game 6", 
             "game": "6", 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
@@ -45123,7 +45171,7 @@
             "networks": [
                 "ESPN"
             ], 
-            "notes": "Paul: 29 points (10-20 FGs), 8 assists", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 6, Paul: 29 points (10-20 FGs), 8 assists", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45132,6 +45180,7 @@
         }, 
         {
             "altDescription": "Thomas: 33 points, 9 assists", 
+            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45148,6 +45197,7 @@
             "awayTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "date": "2017-04-30T17:00:00+00:00", 
             "description": "Isaiah Thomas scores 33 points as the Celtics made 19 3-pointers to defeat the Wizards 123-111 to take a 1-0 lead in their Eastern Conference semifinal matchup. Thomas: 33 Points, 9 Assists", 
+            "eventTitle": "Eastern Conference Semifinals - Game 1", 
             "game": "1", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
@@ -45158,7 +45208,7 @@
             "networks": [
                 "ABC"
             ], 
-            "notes": "Thomas: 33 points, 9 assists", 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 1, Thomas: 33 points, 9 assists", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45167,6 +45217,7 @@
         }, 
         {
             "altDescription": "Utah's first playoff series win since 2010", 
+            "altTitle": "WESTERN CONFERENCE 1ST ROUND - GAME 7", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45183,6 +45234,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2017-04-30T19:30:00+00:00", 
             "description": "Gordon Hayward scores 26 points as the Jazz eliminate the Clippers 104-91 victory, winning the first-round playoff series 4-3. Utah's First Playoff Series Win Since 2010", 
+            "eventTitle": "Western Conference 1st Round - Game 7", 
             "game": "7", 
             "homeTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "identity": {
@@ -45193,7 +45245,7 @@
             "networks": [
                 "ABC"
             ], 
-            "notes": "Utah's first playoff series win since 2010", 
+            "notes": "WESTERN CONFERENCE 1ST ROUND - GAME 7, Utah's first playoff series win since 2010", 
             "playoffround": "1", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45202,6 +45254,7 @@
         }, 
         {
             "altDescription": "James: 35 points, 10 rebounds", 
+            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45218,6 +45271,7 @@
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2017-05-01T23:00:00+00:00", 
             "description": "LeBron James records 35 points and 10 rebounds, Kyrie Irving adds 24 points and 10 assists as the Cavaliers defeat the Raptors in Game 1. James: 35 Points, 10 Rebounds", 
+            "eventTitle": "Eastern Conference Semifinals - Game 1", 
             "game": "1", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
@@ -45228,7 +45282,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "James: 35 points, 10 rebounds", 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 1, James: 35 points, 10 rebounds", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45237,6 +45291,7 @@
         }, 
         {
             "altDescription": "Rockets: 22-for-50 on 3-pointers", 
+            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45253,6 +45308,7 @@
             "awayTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "date": "2017-05-02T01:30:00+00:00", 
             "description": "James Harden records 20 points and 14 assists, Clint Capela adds a double-double and the Rockets sink 22 3-pointers to take Game 1 from the Spurs in San Antonio. Rockets: 22-for-50 on 3-pointers", 
+            "eventTitle": "Western Conference Semifinals - Game 1", 
             "game": "1", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
@@ -45263,7 +45319,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Rockets: 22-for-50 on 3-pointers", 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 1, Rockets: 22-for-50 on 3-pointers", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45272,6 +45328,7 @@
         }, 
         {
             "altDescription": "Thomas: Playoff career-high 53 points", 
+            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45288,6 +45345,7 @@
             "awayTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "date": "2017-05-03T00:00:00+00:00", 
             "description": "Isaiah Thomas scores a playoff career-high notching 53 points to lead a balanced Celtics attack as Boston wins in overtime 129-119. Thomas: Playoff Career-high 53 Points", 
+            "eventTitle": "Eastern Conference Semifinals - Game 2", 
             "game": "2", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
@@ -45298,7 +45356,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Thomas: Playoff career-high 53 points", 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 2, Thomas: Playoff career-high 53 points", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45307,6 +45365,7 @@
         }, 
         {
             "altDescription": "Warriors: Franchise playoff-low 7 turnovers", 
+            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45323,6 +45382,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2017-05-03T02:30:00+00:00", 
             "description": "Stephen Curry scores 22 points, Draymond Green and Kevin Durant add 17 a piece as the Warriors take Game 1, 106-94. Warriors: Franchise Playoff-low 7 Turnovers", 
+            "eventTitle": "Western Conference Semifinals - Game 1", 
             "game": "1", 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
@@ -45333,7 +45393,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Warriors: Franchise playoff-low 7 turnovers", 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 1, Warriors: Franchise playoff-low 7 turnovers", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45342,6 +45402,7 @@
         }, 
         {
             "altDescription": "James: 39 points (10-for-14 FG)", 
+            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45358,6 +45419,7 @@
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2017-05-03T23:00:00+00:00", 
             "description": "LeBron James scores 39 points, passing Kareem Abdul-Jabbar for 2nd on the All-Time Playoff scoring list and the Cavaliers beat the Raptors, in Game 2 of the Eastern Conference semifinals. James: 39 Points (10-for-14 Fg)", 
+            "eventTitle": "Eastern Conference Semifinals - Game 2", 
             "game": "2", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
@@ -45368,7 +45430,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "James: 39 points (10-for-14 FG)", 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 2, James: 39 points (10-for-14 FG)", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45377,6 +45439,7 @@
         }, 
         {
             "altDescription": "Leonard: 34 points, 8 assists", 
+            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45393,6 +45456,7 @@
             "awayTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "date": "2017-05-04T01:30:00+00:00", 
             "description": "Kawhi Leonard scores 34 points, grabs seven rebounds and hands out eight assists to lead the Spurs past the Rockets in Game 2 of the Western Conference semifinals. Ryan Anderson scores 18 for the Rockets in the loss. Leonard: 34 Points, 8 Assists", 
+            "eventTitle": "Western Conference Semifinals - Game 2", 
             "game": "2", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
@@ -45403,7 +45467,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Leonard: 34 points, 8 assists", 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 2, Leonard: 34 points, 8 assists", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45412,6 +45476,7 @@
         }, 
         {
             "altDescription": "Wizards reel off 22-0 scoring run", 
+            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45428,6 +45493,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2017-05-05T00:00:00+00:00", 
             "description": "John Wall scores 24 points and dishes out 8 assists as the Wizards defeat the Celtics, 116-89 in Game 3 of the Eastern Conference Semifinals. Wizards Reel Off 22-0 Scoring Run", 
+            "eventTitle": "Eastern Conference Semifinals - Game 3", 
             "game": "3", 
             "homeTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "identity": {
@@ -45438,7 +45504,7 @@
             "networks": [
                 "ESPN"
             ], 
-            "notes": "Wizards reel off 22-0 scoring run", 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 3, Wizards reel off 22-0 scoring run", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45447,6 +45513,7 @@
         }, 
         {
             "altDescription": "Warriors improve to 6-0 in postseason", 
+            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45463,6 +45530,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2017-05-05T02:30:00+00:00", 
             "description": "Kevin Durant scores 25 points and grabs 11 rebounds as the Warriors defeat the Jazz, 115-104 in Game 3 of the Western Conference Semifinals. Warriors Improve to 6-0 IN Postseason", 
+            "eventTitle": "Western Conference Semifinals - Game 2", 
             "game": "2", 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
@@ -45473,7 +45541,7 @@
             "networks": [
                 "ESPN"
             ], 
-            "notes": "Warriors improve to 6-0 in postseason", 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 2, Warriors improve to 6-0 in postseason", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45482,6 +45550,7 @@
         }, 
         {
             "altDescription": "Cavs open fourth quarter with 20-3 run", 
+            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45498,6 +45567,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2017-05-05T23:00:00+00:00", 
             "description": "LeBron James scores 35 points, grabs 8 rebounds, and dished out 7 assists as the Cavaliers defeat the Raptors, 115-94 in Game 3 of the Eastern Conference Semifinals. Cavs Open Fourth Quarter With 20-3 Run", 
+            "eventTitle": "Eastern Conference Semifinals - Game 3", 
             "game": "3", 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
@@ -45508,7 +45578,7 @@
             "networks": [
                 "ESPN"
             ], 
-            "notes": "Cavs open fourth quarter with 20-3 run", 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 3, Cavs open fourth quarter with 20-3 run", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45517,6 +45587,7 @@
         }, 
         {
             "altDescription": "Aldridge, Leonard combine for 52 points", 
+            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45533,6 +45604,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2017-05-06T01:30:00+00:00", 
             "description": "Kawhi Leonard and LaMarcus Aldridge combined for 52 points as the Spurs defeat the Rockets, 103-92 in Game 3 of the Western Conference Semifinals. Aldridge, Leonard Combine for 52 Points", 
+            "eventTitle": "Western Conference Semifinals - Game 3", 
             "game": "3", 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
@@ -45543,7 +45615,7 @@
             "networks": [
                 "ESPN"
             ], 
-            "notes": "Aldridge, Leonard combine for 52 points", 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 3, Aldridge, Leonard combine for 52 points", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45552,6 +45624,7 @@
         }, 
         {
             "altDescription": "Durant: 38 points (15-26 FGs), 13 rebounds", 
+            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45568,6 +45641,7 @@
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2017-05-07T00:30:00+00:00", 
             "description": "Kevin Durant scores 38 points and grabs 13 rebounds to lead the Warriors to victory in Game 3 of the Western Conference semifinals against the Jazz. Rudy Gobert scores 21 points with 15 rebounds in the loss. Durant: 38 Points (15-26 Fgs), 13 Rebounds", 
+            "eventTitle": "Western Conference Semifinals - Game 3", 
             "game": "3", 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
@@ -45578,7 +45652,7 @@
             "networks": [
                 "ABC"
             ], 
-            "notes": "Durant: 38 points (15-26 FGs), 13 rebounds", 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 3, Durant: 38 points (15-26 FGs), 13 rebounds", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45587,6 +45661,7 @@
         }, 
         {
             "altDescription": "Cavs remain unbeaten in playoffs", 
+            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45603,6 +45678,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2017-05-07T19:30:00+00:00", 
             "description": "LeBron James records 35 points, nine rebounds and six assists, Kyrie Irving adds 27 points as the Cavaliers take Game 4 and sweep the Raptors. Cavs Remain Unbeaten IN Playoffs", 
+            "eventTitle": "Eastern Conference Semifinals - Game 4", 
             "game": "4", 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
@@ -45613,7 +45689,7 @@
             "networks": [
                 "ABC"
             ], 
-            "notes": "Cavs remain unbeaten in playoffs", 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 4, Cavs remain unbeaten in playoffs", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45622,6 +45698,7 @@
         }, 
         {
             "altDescription": "Wizards score 26 straight in 3rd quarter", 
+            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45638,6 +45715,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2017-05-07T22:30:00+00:00", 
             "description": "Washington Wizards use a 26-0 third-quarter run to beat the Boston Celtics 121-102 and tie the second-round series at two games apiece. Wizards Score 26 Straight IN 3rd Quarter", 
+            "eventTitle": "Eastern Conference Semifinals - Game 4", 
             "game": "4", 
             "homeTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "identity": {
@@ -45648,7 +45726,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Wizards score 26 straight in 3rd quarter", 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 4, Wizards score 26 straight in 3rd quarter", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45657,6 +45735,7 @@
         }, 
         {
             "altDescription": "Rockets never trail, lead by as many as 25", 
+            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45673,6 +45752,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2017-05-08T01:00:00+00:00", 
             "description": "James Harden scores 28 points, Eric Gordon adds 22 as the Houston Rockets rebounded from consecutive losses to beat the San Antonio Spurs to tie the series. Rockets Never Trail, Lead by as Many as 25", 
+            "eventTitle": "Western Conference Semifinals - Game 4", 
             "game": "4", 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
@@ -45683,7 +45763,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Rockets never trail, lead by as many as 25", 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 4, Rockets never trail, lead by as many as 25", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45692,6 +45772,7 @@
         }, 
         {
             "altDescription": "Green: 17 points, 10 rebounds, 11 assists", 
+            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45708,6 +45789,7 @@
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2017-05-09T01:00:00+00:00", 
             "description": "Draymond Green records a triple-double, Stephen Curry adds 30 points as the Warriors take Game 4 and sweep the Jazz to advance on to the Western Conference Finals. Green: 17 Points, 10 Rebounds, 11 Assists", 
+            "eventTitle": "Western Conference Semifinals - Game 4", 
             "game": "4", 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
@@ -45718,7 +45800,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Green: 17 points, 10 rebounds, 11 assists", 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 4, Green: 17 points, 10 rebounds, 11 assists", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45727,6 +45809,7 @@
         }, 
         {
             "altDescription": "Green: Seven of his 16 points in overtime", 
+            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45743,6 +45826,7 @@
             "awayTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "date": "2017-05-10T00:00:00+00:00", 
             "description": "Kawhi Leonard scores 22 points with 15 rebounds to top James Harden's triple-double as the Spurs win it in overtime, 110-107. Green: Seven of His 16 Points IN Overtime", 
+            "eventTitle": "Western Conference Semifinals - Game 5", 
             "game": "5", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
@@ -45753,7 +45837,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Green: Seven of his 16 points in overtime", 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 5, Green: Seven of his 16 points in overtime", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45762,6 +45846,7 @@
         }, 
         {
             "altDescription": "Celtics' Bradley: Playoff career-high 29 pts", 
+            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45778,6 +45863,7 @@
             "awayTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "date": "2017-05-11T00:00:00+00:00", 
             "description": "Avery Bradley scores 29 points and grabs 6 rebounds as the Celtics defeat the Wizards, 123-101 in Game 5 of the Eastern Conference Semifinals. Celtics' Bradley: Playoff Career-high 29 Pts", 
+            "eventTitle": "Eastern Conference Semifinals - Game 5", 
             "game": "5", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
@@ -45788,7 +45874,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Celtics' Bradley: Playoff career-high 29 pts", 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 5, Celtics' Bradley: Playoff career-high 29 pts", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45797,6 +45883,7 @@
         }, 
         {
             "altDescription": "Aldridge: 34 points, 12 rebounds", 
+            "altTitle": "WESTERN CONFERENCE SEMIFINALS - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45813,6 +45900,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2017-05-12T00:00:00+00:00", 
             "description": "LaMarcus Aldridge scores 34 points with 12 rebounds, Jonathan Simmons adds 18 as the Spurs win the series over Houston, 114-75. Aldridge: 34 Points, 12 Rebounds", 
+            "eventTitle": "Western Conference Semifinals - Game 6", 
             "game": "6", 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
@@ -45823,7 +45911,7 @@
             "networks": [
                 "ESPN"
             ], 
-            "notes": "Aldridge: 34 points, 12 rebounds", 
+            "notes": "WESTERN CONFERENCE SEMIFINALS - GAME 6, Aldridge: 34 points, 12 rebounds", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45832,6 +45920,7 @@
         }, 
         {
             "altDescription": "Wall sinks winning 3 with 3.9 seconds left", 
+            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 6", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45848,6 +45937,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2017-05-13T00:00:00+00:00", 
             "description": "Bradley Beal scores 33 points and John Wall adds 26, including the game-winning three, to lead the Wizards to victory over the Celtics and force a Game 7 in their Eastern Conference semifinals series. Isaiah Thomas scores 27 in the loss for the Celtics. Wall Sinks Winning 3 With 3.9 Seconds Left", 
+            "eventTitle": "Eastern Conference Semifinals - Game 6", 
             "game": "6", 
             "homeTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "identity": {
@@ -45858,7 +45948,7 @@
             "networks": [
                 "ESPN"
             ], 
-            "notes": "Wall sinks winning 3 with 3.9 seconds left", 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 6, Wall sinks winning 3 with 3.9 seconds left", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45867,6 +45957,7 @@
         }, 
         {
             "altDescription": "Warriors rally from 25-point deficit", 
+            "altTitle": "WESTERN CONFERENCE FINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45883,6 +45974,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2017-05-14T19:30:00+00:00", 
             "description": "Stephen Curry scores 40 points to lead the Warriors back from a 25 point deficit and past the Spurs in Game 1 of the Western Conference finals, 113-111. Kawhi Leonard scores 26 points before leaving the game with an injury. Warriors Rally From 25-point Deficit", 
+            "eventTitle": "Western Conference Finals - Game 1", 
             "game": "1", 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
@@ -45893,7 +45985,7 @@
             "networks": [
                 "ABC"
             ], 
-            "notes": "Warriors rally from 25-point deficit", 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 1, Warriors rally from 25-point deficit", 
             "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45902,6 +45994,7 @@
         }, 
         {
             "altDescription": "Olynyk: 14 of 26 points in 4th quarter", 
+            "altTitle": "EASTERN CONFERENCE SEMIFINALS - GAME 7", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45918,6 +46011,7 @@
             "awayTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "date": "2017-05-16T00:00:00+00:00", 
             "description": "Bradley Beal scores 38 points but Isaiah Thomas's double-double and Kelly Olynyk's 26 points leads the Celtics over the Wizards in Game 7 and advance to the Eastern Conference Finals. Olynyk: 14 of 26 Points IN 4th Quarter", 
+            "eventTitle": "Eastern Conference Semifinals - Game 7", 
             "game": "7", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
@@ -45928,7 +46022,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Olynyk: 14 of 26 points in 4th quarter", 
+            "notes": "EASTERN CONFERENCE SEMIFINALS - GAME 7, Olynyk: 14 of 26 points in 4th quarter", 
             "playoffround": "2", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45937,6 +46031,7 @@
         }, 
         {
             "altDescription": "Curry: 29 points, 7 rebounds, 7 assists", 
+            "altTitle": "WESTERN CONFERENCE FINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45953,6 +46048,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2017-05-17T01:00:00+00:00", 
             "description": "Stephen Curry records 29 points and seven assists, Kevin Durant adds 16 points as the Warriors defeat the Spurs in Game 2. Curry: 29 Points, 7 Rebounds, 7 Assists", 
+            "eventTitle": "Western Conference Finals - Game 2", 
             "game": "2", 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
@@ -45963,7 +46059,7 @@
             "networks": [
                 "ESPN"
             ], 
-            "notes": "Curry: 29 points, 7 rebounds, 7 assists", 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 2, Curry: 29 points, 7 rebounds, 7 assists", 
             "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -45972,6 +46068,7 @@
         }, 
         {
             "altDescription": "James, Love combine for 70 points (23-40 FGs)", 
+            "altTitle": "EASTERN CONFERENCE FINALS - GAME 1", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -45988,6 +46085,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2017-05-18T00:30:00+00:00", 
             "description": "LeBron James scores 38 points, grabs nine rebounds and hands out seven assist to lead the Cavaliers to the Game 1 victory over the Celtics in the Eastern Conference finals, 117-104. Kevin Love added 32 points and 12 rebounds in the victory. James, Love Combine for 70 Points (23-40 Fgs)", 
+            "eventTitle": "Eastern Conference Finals - Game 1", 
             "game": "1", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
@@ -45998,7 +46096,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "James, Love combine for 70 points (23-40 FGs)", 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 1, James, Love combine for 70 points (23-40 FGs)", 
             "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -46007,6 +46105,7 @@
         }, 
         {
             "altDescription": "Cavs set record with 41-point lead at half", 
+            "altTitle": "EASTERN CONFERENCE FINALS - GAME 2", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -46023,6 +46122,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2017-05-20T00:30:00+00:00", 
             "description": "LeBron James scores 30 points and dishes out 7 assists as the Cavaliers defeat the Celtics, 130-86 in Game 2 of the Eastern Conference Finals. Cavs Set Record With 41-point Lead at Half", 
+            "eventTitle": "Eastern Conference Finals - Game 2", 
             "game": "2", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
@@ -46033,7 +46133,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Cavs set record with 41-point lead at half", 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 2, Cavs set record with 41-point lead at half", 
             "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -46042,6 +46142,7 @@
         }, 
         {
             "altDescription": "Durant: 19 of 33 points in third quarter", 
+            "altTitle": "WESTERN CONFERENCE FINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -46058,6 +46159,7 @@
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2017-05-21T01:00:00+00:00", 
             "description": "Kevin Durant scores 33 points with 10 rebounds, Stephen Curry adds 21 as the Warriors top San Antonio in Game 3, 120-108. Durant: 19 of 33 Points IN Third Quarter", 
+            "eventTitle": "Western Conference Finals - Game 3", 
             "game": "3", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
@@ -46068,7 +46170,7 @@
             "networks": [
                 "ESPN"
             ], 
-            "notes": "Durant: 19 of 33 points in third quarter", 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 3, Durant: 19 of 33 points in third quarter", 
             "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -46077,6 +46179,7 @@
         }, 
         {
             "altDescription": "Bradley sinks winning 3 with 0.1 second left", 
+            "altTitle": "EASTERN CONFERENCE FINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -46093,6 +46196,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2017-05-22T00:30:00+00:00", 
             "description": "Avery Bradley sinks the game-winning bucket and records 20 points, Marcus Smart adds 27 points as the Celtics take Game 3 in Cleveland. Bradley Sinks Winning 3 With 0.1 Second Left", 
+            "eventTitle": "Eastern Conference Finals - Game 3", 
             "game": "3", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
@@ -46103,7 +46207,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Bradley sinks winning 3 with 0.1 second left", 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 3, Bradley sinks winning 3 with 0.1 second left", 
             "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -46112,6 +46216,7 @@
         }, 
         {
             "altDescription": "Curry, Durant combine for 65 points", 
+            "altTitle": "WESTERN CONFERENCE FINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -46123,6 +46228,7 @@
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2017-05-23T01:00:00+00:00", 
             "description": "Stephen Curry scored 36 points and the Golden State Warriors closed out the Western Conference Final against the injury-ravaged San Antonio Spurs with a 129-115 victory Monday night, becoming the first team in league history to start the playoffs 12-0. Curry, Durant Combine for 65 Points", 
+            "eventTitle": "Western Conference Finals - Game 4", 
             "game": "4", 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
@@ -46133,7 +46239,7 @@
             "networks": [
                 "ESPN"
             ], 
-            "notes": "Curry, Durant combine for 65 points", 
+            "notes": "WESTERN CONFERENCE FINALS - GAME 4, Curry, Durant combine for 65 points", 
             "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -46142,6 +46248,7 @@
         }, 
         {
             "altDescription": "Irving: 21 of playoff career-high 42 in 3rd", 
+            "altTitle": "EASTERN CONFERENCE FINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -46158,6 +46265,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2017-05-24T00:30:00+00:00", 
             "description": "Kyrie Irving and LeBron James combined for 76 points as the Cavaliers defeat the Celtics, 112-99 in Game 4 of the Eastern Conference Finals. Irving: 21 of Playoff Career-high 42 IN 3rd", 
+            "eventTitle": "Eastern Conference Finals - Game 4", 
             "game": "4", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
@@ -46168,7 +46276,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Irving: 21 of playoff career-high 42 in 3rd", 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 4, Irving: 21 of playoff career-high 42 in 3rd", 
             "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -46177,6 +46285,7 @@
         }, 
         {
             "altDescription": "Cavaliers advance to 2017 NBA Finals", 
+            "altTitle": "EASTERN CONFERENCE FINALS - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -46193,6 +46302,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2017-05-26T00:30:00+00:00", 
             "description": "LeBron James scores 35 points and passes Michael Jordan to become all-time playoff scoring leader, as the Cavaliers defeat the Celtics, in Game 5 of the Eastern Conference Finals. Cavaliers Advance to 2017 NBA Finals", 
+            "eventTitle": "Eastern Conference Finals - Game 5", 
             "game": "5", 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
@@ -46203,7 +46313,7 @@
             "networks": [
                 "TNT"
             ], 
-            "notes": "Cavaliers advance to 2017 NBA Finals", 
+            "notes": "EASTERN CONFERENCE FINALS - GAME 5, Cavaliers advance to 2017 NBA Finals", 
             "playoffround": "3", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -46211,7 +46321,6 @@
             "vs": "Boston Celtics vs. Cleveland Cavaliers"
         }, 
         {
-            "altDescription": "Durant: 38 points, 8 rebounds, 8 assists", 
             "assets": {
                 "banner": [], 
                 "fanArt": [
@@ -46220,6 +46329,29 @@
                         "url": "https://www.thesportsdb.com/images/media/event/fanart/bosnzo1496662076.jpg"
                     }
                 ], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
+            "date": "2017-06-01T18:00:00+00:00", 
+            "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
+            "identity": {
+                "TheSportsDBID": "523699"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Basketball", 
+            "vs": "Golden State Warriors vs Cleveland Cavaliers"
+        }, 
+        {
+            "altDescription": "Durant: 38 points, 8 rebounds, 8 assists", 
+            "altTitle": "NBA FINALS - GAME 1", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
@@ -46233,18 +46365,18 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2017-06-02T01:00:00+00:00", 
             "description": "Kevin Durant and Stephen Curry combined for 66 points as the Warriors defeat the Cavaliers, 113-91 in Game 1 of the 2017 NBA Finals. Durant: 38 Points, 8 Rebounds, 8 Assists", 
+            "eventTitle": "NBA Finals - Game 1", 
             "game": "1", 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
                 "ESPNAPIID": "400954510", 
-                "NBAAPIID": "0041600401", 
-                "TheSportsDBID": "523699"
+                "NBAAPIID": "0041600401"
             }, 
             "league": "NBA", 
             "networks": [
                 "ABC"
             ], 
-            "notes": "Durant: 38 points, 8 rebounds, 8 assists", 
+            "notes": "NBA FINALS - GAME 1, Durant: 38 points, 8 rebounds, 8 assists", 
             "playoffround": "4", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -46252,7 +46384,6 @@
             "vs": "Golden State Warriors vs. Cleveland Cavaliers"
         }, 
         {
-            "altDescription": "Durant: 33 points, 13 boards, 8 steals/blocks", 
             "assets": {
                 "banner": [], 
                 "fanArt": [
@@ -46264,6 +46395,29 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
+            "date": "2017-06-04T17:00:00+00:00", 
+            "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
+            "identity": {
+                "TheSportsDBID": "523700"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2016", 
+            "sport": "Basketball", 
+            "vs": "Golden State Warriors vs Cleveland Cavaliers"
+        }, 
+        {
+            "altDescription": "Durant: 33 points, 13 boards, 8 steals/blocks", 
+            "altTitle": "NBA FINALS - GAME 2", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": [
                     {
                         "source": "nbaapi", 
@@ -46272,20 +46426,20 @@
                 ]
             }, 
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
-            "date": "2017-06-04T17:00:00+00:00", 
+            "date": "2017-06-05T00:00:00+00:00", 
             "description": "Stephen Curry won the battle of triple-doubles with LeBron James and Kevin Durant boosted the attack that pushed Cleveland into a 2-0 Finals deficit. Durant: 33 Points, 13 Boards, 8 Steals/blocks", 
+            "eventTitle": "NBA Finals - Game 2", 
             "game": "2", 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
                 "ESPNAPIID": "400954511", 
-                "NBAAPIID": "0041600402", 
-                "TheSportsDBID": "523700"
+                "NBAAPIID": "0041600402"
             }, 
             "league": "NBA", 
             "networks": [
                 "ABC"
             ], 
-            "notes": "Durant: 33 points, 13 boards, 8 steals/blocks", 
+            "notes": "NBA FINALS - GAME 2, Durant: 33 points, 13 boards, 8 steals/blocks", 
             "playoffround": "4", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -46294,6 +46448,7 @@
         }, 
         {
             "altDescription": "Warriors finish game with 11-0 run", 
+            "altTitle": "NBA FINALS - GAME 3", 
             "assets": {
                 "banner": [], 
                 "fanArt": [
@@ -46315,6 +46470,7 @@
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2017-06-08T01:00:00+00:00", 
             "description": "Kevin Durant scores 31 points, Klay Thompson adds 30 with Stephen Curry chipping in 26 to lead the Warriors over the Cavaliers in Game 3, 118-113. Warriors Finish Game With 11-0 Run", 
+            "eventTitle": "NBA Finals - Game 3", 
             "game": "3", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
@@ -46326,7 +46482,7 @@
             "networks": [
                 "ABC"
             ], 
-            "notes": "Warriors finish game with 11-0 run", 
+            "notes": "NBA FINALS - GAME 3, Warriors finish game with 11-0 run", 
             "playoffround": "4", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -46335,6 +46491,7 @@
         }, 
         {
             "altDescription": "Kyrie scores 40, LeBron grabs triple-double", 
+            "altTitle": "NBA FINALS - GAME 4", 
             "assets": {
                 "banner": [], 
                 "fanArt": [
@@ -46356,6 +46513,7 @@
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2017-06-10T01:00:00+00:00", 
             "description": "Kyrie Irving scores 40 points and LeBron James posts a triple-double (31 points, 11 assists and 10 rebounds) as the Cavaliers beat the Warriors. Kyrie Scores 40, Lebron Grabs Triple-double", 
+            "eventTitle": "NBA Finals - Game 4", 
             "game": "4", 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
@@ -46367,7 +46525,7 @@
             "networks": [
                 "ABC"
             ], 
-            "notes": "Kyrie scores 40, LeBron grabs triple-double", 
+            "notes": "NBA FINALS - GAME 4, Kyrie scores 40, LeBron grabs triple-double", 
             "playoffround": "4", 
             "season": "2016", 
             "sport": "Basketball", 
@@ -46376,6 +46534,7 @@
         }, 
         {
             "altDescription": "Durant scores 39, named Finals MVP", 
+            "altTitle": "NBA FINALS - GAME 5", 
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -46392,6 +46551,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2017-06-13T01:00:00+00:00", 
             "description": "Kevin Durant scores 39 points, Stephen Curry adds 34 with 10 assists to top LeBron James 41-point triple-double, as the Warriors win it 129-120 and become the 2017 NBA Champions. Durant Scores 39, Named Finals Mvp", 
+            "eventTitle": "NBA Finals - Game 5", 
             "game": "5", 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
@@ -46402,7 +46562,7 @@
             "networks": [
                 "ABC"
             ], 
-            "notes": "Durant scores 39, named Finals MVP", 
+            "notes": "NBA FINALS - GAME 5, Durant scores 39, named Finals MVP", 
             "playoffround": "4", 
             "season": "2016", 
             "sport": "Basketball", 

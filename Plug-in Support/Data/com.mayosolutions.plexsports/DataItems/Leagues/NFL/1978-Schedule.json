@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NFL1978SCHEDULE", 
-        "CachedOn": "2021-12-30T23:55:16", 
-        "ExpiresOn": "2022-01-06T23:55:16", 
+        "CachedOn": "2022-01-04T15:55:12", 
+        "ExpiresOn": "2022-01-11T15:55:12", 
         "Version": "2"
     }, 
     "Items": [
@@ -5194,8 +5194,7 @@
             "date": "1978-12-24T17:30:00+00:00", 
             "homeTeam": "7aeb2edd-3ed3-4c13-93db-66dadb2b9348", 
             "identity": {
-                "ProFootballReferenceID": "197812240atl", 
-                "TheSportsDBID": "1083436"
+                "ProFootballReferenceID": "197812240atl"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -5215,11 +5214,33 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "1ca0280b-fc4e-4db7-8fa9-1d58b177ccaa", 
+            "date": "1978-12-25T00:00:00+00:00", 
+            "homeTeam": "7aeb2edd-3ed3-4c13-93db-66dadb2b9348", 
+            "identity": {
+                "TheSportsDBID": "1083436"
+            }, 
+            "league": "NFL", 
+            "networks": [], 
+            "season": "1978", 
+            "sport": "Football", 
+            "vs": "Atlanta Falcons vs Philadelphia Eagles"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "27720d60-5672-4894-81bd-80669b048ce6", 
             "date": "1978-12-24T21:00:00+00:00", 
             "homeTeam": "95170893-8e2c-4d99-8c13-e43d6bda9294", 
             "identity": {
-                "ProFootballReferenceID": "197812240mia"
+                "ProFootballReferenceID": "197812240mia", 
+                "TheSportsDBID": "1083435"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -5239,17 +5260,20 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "27720d60-5672-4894-81bd-80669b048ce6", 
-            "date": "1978-12-26T00:00:00+00:00", 
-            "homeTeam": "f0faa55b-7d58-466e-914d-02e539b4d344", 
+            "awayTeam": "139ac55b-2299-4632-b50c-b82660196eff", 
+            "date": "1978-12-30T17:30:00+00:00", 
+            "homeTeam": "2d139855-67ee-42e1-9077-c806bdb35a89", 
             "identity": {
-                "TheSportsDBID": "1083435"
+                "ProFootballReferenceID": "197812300pit"
             }, 
             "league": "NFL", 
             "networks": [], 
+            "playoffround": 2, 
             "season": "1978", 
             "sport": "Football", 
-            "vs": "Miami Dolphins vs Houston Texans"
+            "subseason": 1, 
+            "subseasonTitle": "AFC Divisional Round", 
+            "vs": "Pittsburgh Steelers vs. Denver Broncos"
         }, 
         {
             "assets": {
@@ -5261,20 +5285,16 @@
                 "thumbnail": []
             }, 
             "awayTeam": "139ac55b-2299-4632-b50c-b82660196eff", 
-            "date": "1978-12-30T17:30:00+00:00", 
+            "date": "1978-12-31T00:00:00+00:00", 
             "homeTeam": "2d139855-67ee-42e1-9077-c806bdb35a89", 
             "identity": {
-                "ProFootballReferenceID": "197812300pit", 
                 "TheSportsDBID": "1083439"
             }, 
             "league": "NFL", 
             "networks": [], 
-            "playoffround": 2, 
             "season": "1978", 
             "sport": "Football", 
-            "subseason": 1, 
-            "subseasonTitle": "AFC Divisional Round", 
-            "vs": "Pittsburgh Steelers vs. Denver Broncos"
+            "vs": "Pittsburgh Steelers vs Denver Broncos"
         }, 
         {
             "assets": {
@@ -5314,7 +5334,8 @@
             "date": "1978-12-31T18:00:00+00:00", 
             "homeTeam": "95170893-8e2c-4d99-8c13-e43d6bda9294", 
             "identity": {
-                "ProFootballReferenceID": "197812310nwe"
+                "ProFootballReferenceID": "197812310nwe", 
+                "TheSportsDBID": "1083438"
             }, 
             "league": "NFL", 
             "networks": [], 
@@ -5349,27 +5370,6 @@
             "subseason": 1, 
             "subseasonTitle": "NFC Divisional Round", 
             "vs": "Los Angeles Rams vs. Minnesota Vikings"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "11368151-3316-40fa-bb2d-cbf196b2c750", 
-            "date": "1979-01-02T00:00:00+00:00", 
-            "homeTeam": "f0faa55b-7d58-466e-914d-02e539b4d344", 
-            "identity": {
-                "TheSportsDBID": "1083438"
-            }, 
-            "league": "NFL", 
-            "networks": [], 
-            "season": "1978", 
-            "sport": "Football", 
-            "vs": "New England Patriots vs Houston Texans"
         }, 
         {
             "assets": {
@@ -5498,9 +5498,9 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "cfa492ee-94b0-44c8-a543-6a5284d55685", 
-            "date": "1979-12-09T00:00:00+00:00", 
-            "homeTeam": "91dd349b-b066-470e-b3a3-87389db5813e", 
+            "awayTeam": "91dd349b-b066-470e-b3a3-87389db5813e", 
+            "date": "1979-12-07T00:00:00+00:00", 
+            "homeTeam": "cfa492ee-94b0-44c8-a543-6a5284d55685", 
             "identity": {
                 "TheSportsDBID": "1083443"
             }, 
@@ -5519,9 +5519,9 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "139ac55b-2299-4632-b50c-b82660196eff", 
-            "date": "1979-12-09T00:00:00+00:00", 
-            "homeTeam": "f0faa55b-7d58-466e-914d-02e539b4d344", 
+            "awayTeam": "f0faa55b-7d58-466e-914d-02e539b4d344", 
+            "date": "1979-12-07T00:00:00+00:00", 
+            "homeTeam": "139ac55b-2299-4632-b50c-b82660196eff", 
             "identity": {
                 "TheSportsDBID": "1083442"
             }, 

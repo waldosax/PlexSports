@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1997SCHEDULE", 
-        "CachedOn": "2021-12-31T04:24:09", 
-        "ExpiresOn": "2022-01-07T04:24:09", 
+        "CachedOn": "2022-01-04T19:37:41", 
+        "ExpiresOn": "2022-01-11T19:37:41", 
         "Version": "2"
     }, 
     "Items": [
@@ -2694,6 +2694,7 @@
             "date": "1997-10-22T23:00:00+00:00", 
             "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "identity": {
+                "ESPNAPIID": "171022002", 
                 "NHLAPIID": 1997020115
             }, 
             "league": "NHL", 
@@ -2716,6 +2717,7 @@
             "date": "1997-10-22T23:30:00+00:00", 
             "homeTeam": "25ab3229-ef68-41e3-9a09-53b567734239", 
             "identity": {
+                "ESPNAPIID": "171022007", 
                 "NHLAPIID": 1997020114
             }, 
             "league": "NHL", 
@@ -2738,10 +2740,13 @@
             "date": "1997-10-22T23:30:00+00:00", 
             "homeTeam": "dc58caa2-87ee-45b1-acdf-399fe3c48666", 
             "identity": {
+                "ESPNAPIID": "171022010", 
                 "NHLAPIID": 1997020116
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "TQS"
+            ], 
             "season": "1997", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -2760,10 +2765,13 @@
             "date": "1997-10-22T23:30:00+00:00", 
             "homeTeam": "8eec0532-a4e0-4302-8140-c35e7a8b92f3", 
             "identity": {
+                "ESPNAPIID": "171022013", 
                 "NHLAPIID": 1997020117
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "MSG"
+            ], 
             "season": "1997", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -2782,6 +2790,7 @@
             "date": "1997-10-22T23:30:00+00:00", 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
+                "ESPNAPIID": "171022021", 
                 "NHLAPIID": 1997020118
             }, 
             "league": "NHL", 
@@ -2804,10 +2813,13 @@
             "date": "1997-10-23T01:00:00+00:00", 
             "homeTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "identity": {
+                "ESPNAPIID": "171022017", 
                 "NHLAPIID": 1997020119
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "FSN"
+            ], 
             "season": "1997", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -2826,6 +2838,7 @@
             "date": "1997-10-23T02:30:00+00:00", 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
+                "ESPNAPIID": "171022025", 
                 "NHLAPIID": 1997020121
             }, 
             "league": "NHL", 
@@ -2848,10 +2861,13 @@
             "date": "1997-10-23T02:30:00+00:00", 
             "homeTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "identity": {
+                "ESPNAPIID": "171022018", 
                 "NHLAPIID": 1997020120
             }, 
             "league": "NHL", 
-            "networks": [], 
+            "networks": [
+                "FSBAY"
+            ], 
             "season": "1997", 
             "sport": "Hockey", 
             "subseason": 0, 
@@ -7737,52 +7753,6 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
-            "date": "1997-11-28T17:00:00+00:00", 
-            "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
-            "identity": {
-                "ESPNAPIID": "171128001"
-            }, 
-            "league": "NHL", 
-            "networks": [
-                "NESN"
-            ], 
-            "season": "1997", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Boston Bruins vs. Vancouver Canucks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
-            "date": "1997-11-29T00:30:00+00:00", 
-            "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
-            "identity": {
-                "NHLAPIID": 1997020327
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Boston Bruins vs. Vancouver Canucks"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "9a77b535-5110-466d-bc0f-876766367484", 
             "date": "1997-11-28T18:00:00+00:00", 
             "homeTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
@@ -7823,6 +7793,52 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Florida Panthers vs. Colorado Avalanche"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
+            "date": "1997-11-28T17:00:00+00:00", 
+            "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
+            "identity": {
+                "ESPNAPIID": "171128001"
+            }, 
+            "league": "NHL", 
+            "networks": [
+                "NESN"
+            ], 
+            "season": "1997", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Boston Bruins vs. Vancouver Canucks"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "239b4dc3-2243-4bf4-8377-3837219fa09e", 
+            "date": "1997-11-29T00:30:00+00:00", 
+            "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
+            "identity": {
+                "NHLAPIID": 1997020327
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Boston Bruins vs. Vancouver Canucks"
         }, 
         {
             "assets": {
@@ -24940,6 +24956,50 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "9a77b535-5110-466d-bc0f-876766367484", 
+            "date": "1998-04-18T16:00:00+00:00", 
+            "homeTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
+            "identity": {
+                "ESPNAPIID": "180418011"
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "New Jersey Devils vs. New York Islanders"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "9a77b535-5110-466d-bc0f-876766367484", 
+            "date": "1998-04-18T23:30:00+00:00", 
+            "homeTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
+            "identity": {
+                "NHLAPIID": 1997021053
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "New Jersey Devils vs. New York Islanders"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
             "date": "1998-04-18T17:30:00+00:00", 
             "homeTeam": "25ab3229-ef68-41e3-9a09-53b567734239", 
@@ -25091,50 +25151,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Montr\u00e9al Canadiens vs. Buffalo Sabres"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "9a77b535-5110-466d-bc0f-876766367484", 
-            "date": "1998-04-18T16:00:00+00:00", 
-            "homeTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
-            "identity": {
-                "ESPNAPIID": "180418011"
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "New Jersey Devils vs. New York Islanders"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "9a77b535-5110-466d-bc0f-876766367484", 
-            "date": "1998-04-18T23:30:00+00:00", 
-            "homeTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
-            "identity": {
-                "NHLAPIID": 1997021053
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "New Jersey Devils vs. New York Islanders"
         }, 
         {
             "assets": {
