@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NHL1998SCHEDULE", 
-        "CachedOn": "2022-01-04T19:38:12", 
-        "ExpiresOn": "2022-01-11T19:38:12", 
+        "CachedOn": "2022-01-06T19:59:41", 
+        "ExpiresOn": "2022-01-13T19:59:41", 
         "Version": "2"
     }, 
     "Items": [
@@ -1155,6 +1155,29 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
+            "date": "1998-10-18T23:00:00+00:00", 
+            "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
+            "identity": {
+                "ESPNAPIID": "181018020", 
+                "NHLAPIID": 1998020049
+            }, 
+            "league": "NHL", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Hockey", 
+            "subseason": 0, 
+            "vs": "Tampa Bay Lightning vs. Washington Capitals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "ff442c3b-89ca-494a-9642-3f2cf905f573", 
             "date": "1998-10-18T19:00:00+00:00", 
             "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
@@ -1191,29 +1214,6 @@
             "sport": "Hockey", 
             "subseason": 0, 
             "vs": "Detroit Red Wings vs. Calgary Flames"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "4d4725cc-47af-408d-88c8-1919c090f4ed", 
-            "date": "1998-10-18T23:00:00+00:00", 
-            "homeTeam": "fde86631-7fbc-4184-bb5b-7566f04db90c", 
-            "identity": {
-                "ESPNAPIID": "181018020", 
-                "NHLAPIID": 1998020049
-            }, 
-            "league": "NHL", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Hockey", 
-            "subseason": 0, 
-            "vs": "Tampa Bay Lightning vs. Washington Capitals"
         }, 
         {
             "assets": {
@@ -26429,6 +26429,7 @@
             }, 
             "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "date": "1999-04-21T23:00:00+00:00", 
+            "game": 1, 
             "homeTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "identity": {
                 "ESPNAPIID": "190421014", 
@@ -26452,6 +26453,7 @@
             }, 
             "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "date": "1999-04-21T23:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "identity": {
                 "ESPNAPIID": "190421005", 
@@ -26477,6 +26479,7 @@
             }, 
             "awayTeam": "06ccc107-ad45-4a8a-bea9-2f59bc9e4bd8", 
             "date": "1999-04-22T00:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
                 "ESPNAPIID": "190421009", 
@@ -26502,6 +26505,7 @@
             }, 
             "awayTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
             "date": "1999-04-22T23:00:00+00:00", 
+            "game": 1, 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
                 "ESPNAPIID": "190422021", 
@@ -26525,6 +26529,7 @@
             }, 
             "awayTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "date": "1999-04-22T23:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "25ab3229-ef68-41e3-9a09-53b567734239", 
             "identity": {
                 "ESPNAPIID": "190422007", 
@@ -26548,6 +26553,7 @@
             }, 
             "awayTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "date": "1999-04-22T23:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
             "identity": {
                 "ESPNAPIID": "190422011", 
@@ -26571,6 +26577,7 @@
             }, 
             "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "date": "1999-04-23T02:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "78b9f99b-3f2f-4ac8-9557-683951a8bd0c", 
             "identity": {
                 "ESPNAPIID": "190422024", 
@@ -26594,6 +26601,7 @@
             }, 
             "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "date": "1999-04-23T23:00:00+00:00", 
+            "game": 2, 
             "homeTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "identity": {
                 "ESPNAPIID": "190423014", 
@@ -26617,6 +26625,7 @@
             }, 
             "awayTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "date": "1999-04-23T23:30:00+00:00", 
+            "game": 2, 
             "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "identity": {
                 "ESPNAPIID": "190423005", 
@@ -26642,6 +26651,7 @@
             }, 
             "awayTeam": "06ccc107-ad45-4a8a-bea9-2f59bc9e4bd8", 
             "date": "1999-04-24T00:30:00+00:00", 
+            "game": 2, 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
                 "ESPNAPIID": "190423009", 
@@ -26665,6 +26675,7 @@
             }, 
             "awayTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "date": "1999-04-24T18:00:00+00:00", 
+            "game": 2, 
             "homeTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
             "identity": {
                 "ESPNAPIID": "190424011", 
@@ -26688,6 +26699,7 @@
             }, 
             "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "date": "1999-04-24T19:00:00+00:00", 
+            "game": 2, 
             "homeTeam": "78b9f99b-3f2f-4ac8-9557-683951a8bd0c", 
             "identity": {
                 "ESPNAPIID": "190424024", 
@@ -26711,6 +26723,7 @@
             }, 
             "awayTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "date": "1999-04-24T23:30:00+00:00", 
+            "game": 2, 
             "homeTeam": "25ab3229-ef68-41e3-9a09-53b567734239", 
             "identity": {
                 "ESPNAPIID": "190424007", 
@@ -26734,6 +26747,7 @@
             }, 
             "awayTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
             "date": "1999-04-24T23:30:00+00:00", 
+            "game": 2, 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
                 "ESPNAPIID": "190424021", 
@@ -26759,6 +26773,7 @@
             }, 
             "awayTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "date": "1999-04-25T02:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "identity": {
                 "ESPNAPIID": "190424018", 
@@ -26784,6 +26799,7 @@
             }, 
             "awayTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
             "date": "1999-04-25T18:00:00+00:00", 
+            "game": 3, 
             "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "identity": {
                 "ESPNAPIID": "190425016", 
@@ -26807,6 +26823,7 @@
             }, 
             "awayTeam": "78b9f99b-3f2f-4ac8-9557-683951a8bd0c", 
             "date": "1999-04-25T18:00:00+00:00", 
+            "game": 3, 
             "homeTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "identity": {
                 "ESPNAPIID": "190425019", 
@@ -26830,6 +26847,7 @@
             }, 
             "awayTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "date": "1999-04-25T19:00:00+00:00", 
+            "game": 3, 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
                 "ESPNAPIID": "190425025", 
@@ -26853,6 +26871,7 @@
             }, 
             "awayTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "date": "1999-04-25T22:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "identity": {
                 "ESPNAPIID": "190425002", 
@@ -26878,6 +26897,7 @@
             }, 
             "awayTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "date": "1999-04-26T01:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "06ccc107-ad45-4a8a-bea9-2f59bc9e4bd8", 
             "identity": {
                 "ESPNAPIID": "190425006", 
@@ -26901,6 +26921,7 @@
             }, 
             "awayTeam": "25ab3229-ef68-41e3-9a09-53b567734239", 
             "date": "1999-04-26T23:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "identity": {
                 "ESPNAPIID": "190426001", 
@@ -26926,6 +26947,7 @@
             }, 
             "awayTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "date": "1999-04-26T23:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
             "identity": {
                 "ESPNAPIID": "190426015", 
@@ -26951,6 +26973,7 @@
             }, 
             "awayTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "date": "1999-04-27T02:30:00+00:00", 
+            "game": 2, 
             "homeTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "identity": {
                 "ESPNAPIID": "190426018", 
@@ -26974,6 +26997,7 @@
             }, 
             "awayTeam": "745080d7-e5ae-485a-bdf5-9c63e28a0e05", 
             "date": "1999-04-27T23:00:00+00:00", 
+            "game": 4, 
             "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "identity": {
                 "ESPNAPIID": "190427002", 
@@ -26999,6 +27023,7 @@
             }, 
             "awayTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
             "date": "1999-04-27T23:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "identity": {
                 "ESPNAPIID": "190427016", 
@@ -27024,6 +27049,7 @@
             }, 
             "awayTeam": "78b9f99b-3f2f-4ac8-9557-683951a8bd0c", 
             "date": "1999-04-27T23:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "identity": {
                 "ESPNAPIID": "190427019", 
@@ -27047,6 +27073,7 @@
             }, 
             "awayTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "date": "1999-04-28T01:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "06ccc107-ad45-4a8a-bea9-2f59bc9e4bd8", 
             "identity": {
                 "ESPNAPIID": "190427006", 
@@ -27070,6 +27097,7 @@
             }, 
             "awayTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "date": "1999-04-28T02:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "b8b48e2b-8888-4c5d-b035-1cc53a947327", 
             "identity": {
                 "ESPNAPIID": "190427025", 
@@ -27093,6 +27121,7 @@
             }, 
             "awayTeam": "25ab3229-ef68-41e3-9a09-53b567734239", 
             "date": "1999-04-28T23:00:00+00:00", 
+            "game": 4, 
             "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "identity": {
                 "ESPNAPIID": "190428001", 
@@ -27118,6 +27147,7 @@
             }, 
             "awayTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "date": "1999-04-28T23:00:00+00:00", 
+            "game": 4, 
             "homeTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
             "identity": {
                 "ESPNAPIID": "190428015", 
@@ -27141,6 +27171,7 @@
             }, 
             "awayTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "date": "1999-04-29T02:00:00+00:00", 
+            "game": 3, 
             "homeTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "identity": {
                 "ESPNAPIID": "190428017", 
@@ -27166,6 +27197,7 @@
             }, 
             "awayTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
             "date": "1999-04-30T23:00:00+00:00", 
+            "game": 5, 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
                 "ESPNAPIID": "190430021", 
@@ -27189,6 +27221,7 @@
             }, 
             "awayTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "date": "1999-04-30T23:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "25ab3229-ef68-41e3-9a09-53b567734239", 
             "identity": {
                 "ESPNAPIID": "190430007", 
@@ -27212,6 +27245,7 @@
             }, 
             "awayTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "date": "1999-04-30T23:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "identity": {
                 "ESPNAPIID": "190430017", 
@@ -27237,6 +27271,7 @@
             }, 
             "awayTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "date": "1999-04-30T23:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
             "identity": {
                 "ESPNAPIID": "190430011", 
@@ -27260,6 +27295,7 @@
             }, 
             "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "date": "1999-05-01T02:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "78b9f99b-3f2f-4ac8-9557-683951a8bd0c", 
             "identity": {
                 "ESPNAPIID": "190430024", 
@@ -27283,6 +27319,7 @@
             }, 
             "awayTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "date": "1999-05-01T23:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "identity": {
                 "ESPNAPIID": "190501017", 
@@ -27308,6 +27345,7 @@
             }, 
             "awayTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
             "date": "1999-05-02T18:00:00+00:00", 
+            "game": 6, 
             "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "identity": {
                 "ESPNAPIID": "190502016", 
@@ -27331,6 +27369,7 @@
             }, 
             "awayTeam": "78b9f99b-3f2f-4ac8-9557-683951a8bd0c", 
             "date": "1999-05-02T18:00:00+00:00", 
+            "game": 6, 
             "homeTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "identity": {
                 "ESPNAPIID": "190502019", 
@@ -27354,6 +27393,7 @@
             }, 
             "awayTeam": "25ab3229-ef68-41e3-9a09-53b567734239", 
             "date": "1999-05-02T23:30:00+00:00", 
+            "game": 6, 
             "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "identity": {
                 "ESPNAPIID": "190502001", 
@@ -27379,6 +27419,7 @@
             }, 
             "awayTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "date": "1999-05-02T23:30:00+00:00", 
+            "game": 6, 
             "homeTeam": "4697f30c-9dd5-4778-81a0-4a11f348a33f", 
             "identity": {
                 "ESPNAPIID": "190502015", 
@@ -27404,6 +27445,7 @@
             }, 
             "awayTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "date": "1999-05-04T02:30:00+00:00", 
+            "game": 6, 
             "homeTeam": "47791711-bc9f-4782-a476-f45f6ab447c8", 
             "identity": {
                 "ESPNAPIID": "190503018", 
@@ -27429,6 +27471,7 @@
             }, 
             "awayTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "date": "1999-05-04T23:30:00+00:00", 
+            "game": 7, 
             "homeTeam": "7df09ccb-6b95-4388-989a-1889cbd500c7", 
             "identity": {
                 "ESPNAPIID": "190504011", 
@@ -27452,6 +27495,7 @@
             }, 
             "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "date": "1999-05-05T02:30:00+00:00", 
+            "game": 7, 
             "homeTeam": "78b9f99b-3f2f-4ac8-9557-683951a8bd0c", 
             "identity": {
                 "ESPNAPIID": "190504024", 
@@ -27475,6 +27519,7 @@
             }, 
             "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "date": "1999-05-06T23:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "identity": {
                 "ESPNAPIID": "190506001", 
@@ -27500,6 +27545,7 @@
             }, 
             "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "date": "1999-05-07T00:00:00+00:00", 
+            "game": 1, 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
                 "ESPNAPIID": "190506009", 
@@ -27523,6 +27569,7 @@
             }, 
             "awayTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "date": "1999-05-07T23:00:00+00:00", 
+            "game": 1, 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
                 "ESPNAPIID": "190507021", 
@@ -27546,6 +27593,7 @@
             }, 
             "awayTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "date": "1999-05-07T23:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "identity": {
                 "ESPNAPIID": "190507017", 
@@ -27571,6 +27619,7 @@
             }, 
             "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "date": "1999-05-08T23:30:00+00:00", 
+            "game": 2, 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
                 "ESPNAPIID": "190508009", 
@@ -27594,6 +27643,7 @@
             }, 
             "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "date": "1999-05-09T18:00:00+00:00", 
+            "game": 2, 
             "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "identity": {
                 "ESPNAPIID": "190509001", 
@@ -27617,6 +27667,7 @@
             }, 
             "awayTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "date": "1999-05-09T18:00:00+00:00", 
+            "game": 2, 
             "homeTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "identity": {
                 "ESPNAPIID": "190509017", 
@@ -27640,6 +27691,7 @@
             }, 
             "awayTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "date": "1999-05-09T23:00:00+00:00", 
+            "game": 2, 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
                 "ESPNAPIID": "190509021", 
@@ -27663,6 +27715,7 @@
             }, 
             "awayTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "date": "1999-05-10T23:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "identity": {
                 "ESPNAPIID": "190510019", 
@@ -27686,6 +27739,7 @@
             }, 
             "awayTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "date": "1999-05-11T23:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "identity": {
                 "ESPNAPIID": "190511005", 
@@ -27709,6 +27763,7 @@
             }, 
             "awayTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "date": "1999-05-11T23:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "identity": {
                 "ESPNAPIID": "190511016", 
@@ -27734,6 +27789,7 @@
             }, 
             "awayTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "date": "1999-05-12T23:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "identity": {
                 "ESPNAPIID": "190512002", 
@@ -27757,6 +27813,7 @@
             }, 
             "awayTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "date": "1999-05-12T23:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "identity": {
                 "ESPNAPIID": "190512019", 
@@ -27780,6 +27837,7 @@
             }, 
             "awayTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "date": "1999-05-13T23:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "identity": {
                 "ESPNAPIID": "190513005", 
@@ -27803,6 +27861,7 @@
             }, 
             "awayTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "date": "1999-05-13T23:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "identity": {
                 "ESPNAPIID": "190513016", 
@@ -27828,6 +27887,7 @@
             }, 
             "awayTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "date": "1999-05-14T23:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "identity": {
                 "ESPNAPIID": "190514002", 
@@ -27851,6 +27911,7 @@
             }, 
             "awayTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "date": "1999-05-15T23:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
                 "ESPNAPIID": "190515009", 
@@ -27874,6 +27935,7 @@
             }, 
             "awayTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "date": "1999-05-15T23:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
                 "ESPNAPIID": "190515021", 
@@ -27897,6 +27959,7 @@
             }, 
             "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "date": "1999-05-16T18:00:00+00:00", 
+            "game": 5, 
             "homeTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "identity": {
                 "ESPNAPIID": "190516001", 
@@ -27920,6 +27983,7 @@
             }, 
             "awayTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "date": "1999-05-16T18:00:00+00:00", 
+            "game": 5, 
             "homeTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "identity": {
                 "ESPNAPIID": "190516017", 
@@ -27943,6 +28007,7 @@
             }, 
             "awayTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "date": "1999-05-17T23:30:00+00:00", 
+            "game": 6, 
             "homeTeam": "ebdae8cb-7c1a-4cab-93f1-f8d30796845e", 
             "identity": {
                 "ESPNAPIID": "190517016", 
@@ -27968,6 +28033,7 @@
             }, 
             "awayTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "date": "1999-05-17T23:30:00+00:00", 
+            "game": 6, 
             "homeTeam": "95125f89-218a-486e-8002-96d8909cb168", 
             "identity": {
                 "ESPNAPIID": "190517019", 
@@ -27991,6 +28057,7 @@
             }, 
             "awayTeam": "d17739d3-d356-4a61-a47a-ff86951278b8", 
             "date": "1999-05-18T23:30:00+00:00", 
+            "game": 6, 
             "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "identity": {
                 "ESPNAPIID": "190518002", 
@@ -28014,6 +28081,7 @@
             }, 
             "awayTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "date": "1999-05-18T23:30:00+00:00", 
+            "game": 6, 
             "homeTeam": "68a57e1b-773f-46ac-a8e4-5f4eff4d1aa1", 
             "identity": {
                 "ESPNAPIID": "190518005", 
@@ -28037,6 +28105,7 @@
             }, 
             "awayTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "date": "1999-05-22T23:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
                 "ESPNAPIID": "190522009", 
@@ -28060,6 +28129,7 @@
             }, 
             "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "date": "1999-05-23T18:00:00+00:00", 
+            "game": 1, 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
                 "ESPNAPIID": "190523021", 
@@ -28083,6 +28153,7 @@
             }, 
             "awayTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "date": "1999-05-24T23:30:00+00:00", 
+            "game": 2, 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
                 "ESPNAPIID": "190524009", 
@@ -28106,6 +28177,7 @@
             }, 
             "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "date": "1999-05-25T23:30:00+00:00", 
+            "game": 2, 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
                 "ESPNAPIID": "190525021", 
@@ -28129,6 +28201,7 @@
             }, 
             "awayTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "date": "1999-05-26T23:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "identity": {
                 "ESPNAPIID": "190526017", 
@@ -28152,6 +28225,7 @@
             }, 
             "awayTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "date": "1999-05-27T23:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "identity": {
                 "ESPNAPIID": "190527002", 
@@ -28175,6 +28249,7 @@
             }, 
             "awayTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "date": "1999-05-28T23:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "identity": {
                 "ESPNAPIID": "190528017", 
@@ -28198,6 +28273,7 @@
             }, 
             "awayTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "date": "1999-05-29T23:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "identity": {
                 "ESPNAPIID": "190529002", 
@@ -28221,6 +28297,7 @@
             }, 
             "awayTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "date": "1999-05-30T18:00:00+00:00", 
+            "game": 5, 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
                 "ESPNAPIID": "190530009", 
@@ -28244,6 +28321,7 @@
             }, 
             "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "date": "1999-05-31T23:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "90f75020-9144-4bed-97a8-060bf1e61d01", 
             "identity": {
                 "ESPNAPIID": "190531021", 
@@ -28267,6 +28345,7 @@
             }, 
             "awayTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "date": "1999-06-01T23:30:00+00:00", 
+            "game": 6, 
             "homeTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "identity": {
                 "ESPNAPIID": "190601017", 
@@ -28290,6 +28369,7 @@
             }, 
             "awayTeam": "80ed3b1a-3ba8-49fd-8ddd-eda48dcd5ddd", 
             "date": "1999-06-04T23:30:00+00:00", 
+            "game": 7, 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
                 "ESPNAPIID": "190604009", 
@@ -28313,6 +28393,7 @@
             }, 
             "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "date": "1999-06-09T00:00:00+00:00", 
+            "game": 1, 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
                 "ESPNAPIID": "190608009", 
@@ -28336,6 +28417,7 @@
             }, 
             "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "date": "1999-06-11T00:00:00+00:00", 
+            "game": 2, 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
                 "ESPNAPIID": "190610009", 
@@ -28359,6 +28441,7 @@
             }, 
             "awayTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "date": "1999-06-13T00:00:00+00:00", 
+            "game": 3, 
             "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "identity": {
                 "ESPNAPIID": "190612002", 
@@ -28382,6 +28465,7 @@
             }, 
             "awayTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "date": "1999-06-16T00:00:00+00:00", 
+            "game": 4, 
             "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "identity": {
                 "ESPNAPIID": "190615002", 
@@ -28405,6 +28489,7 @@
             }, 
             "awayTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "date": "1999-06-18T00:00:00+00:00", 
+            "game": 5, 
             "homeTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "identity": {
                 "ESPNAPIID": "190617009", 
@@ -28428,6 +28513,7 @@
             }, 
             "awayTeam": "23c2bfaf-47a7-42c9-9665-8a2dc50986a5", 
             "date": "1999-06-20T00:00:00+00:00", 
+            "game": 6, 
             "homeTeam": "99488b6d-b4e9-46b4-a4e7-d2c0a9fe8501", 
             "identity": {
                 "ESPNAPIID": "190619002", 

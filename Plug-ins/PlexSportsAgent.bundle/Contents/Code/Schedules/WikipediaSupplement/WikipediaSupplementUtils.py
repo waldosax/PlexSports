@@ -245,10 +245,10 @@ def extract_date(value):
 	eventDate = __parse_date(value)
 
 	weekday_expression = r"(?:(Sun(day)?)|(Mon(day)?)|(Tue(sday)?)|(Wed(nesday)?)|(Thu(rsday)?)|(Fri(day)?)|(Sat(urday)?))"
-	month_expression = r"(?:(January)|(February)|(March)|(April)|(May)|(June)|(July)|(August)|(September)|(October)|(Novermber)|(December))"
+	month_expression = r"(?:(January)|(February)|(March)|(April)|(May)|(June)|(July)|(August)|(September)|(October)|(November)|(December))"
 
 	if not eventDate:
-		expr = r"((?:%s, )?%s\s\d{1,2},\s\d{2,4})" % (weekday_expression, month_expression)
+		expr = r"((?:%s,\s)?%s\s\d{1,2},\s\d{2,4})" % (weekday_expression, month_expression)
 		m = re.search(expr, value, re.IGNORECASE)
 		if m:
 			eventDate = __parse_date(m.group(0))

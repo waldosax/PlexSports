@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA2006SCHEDULE", 
-        "CachedOn": "2022-01-04T15:35:34", 
-        "ExpiresOn": "2022-01-11T15:35:34", 
+        "CachedOn": "2022-01-06T19:34:50", 
+        "ExpiresOn": "2022-01-13T19:34:50", 
         "Version": "2"
     }, 
     "Items": [
@@ -666,6 +666,7 @@
             "awayTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "date": "2006-10-14T23:30:00+00:00", 
             "description": "WASHINGTON 93, CLEVELAND 89", 
+            "game": 4, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "261014005"
@@ -762,6 +763,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2006-10-15T17:00:00+00:00", 
             "description": "P.J. Tucker had 18 points and six other Raptors reached double figures in Toronto's 119-110 victory over the New Jersey Nets on Sunday in a game delayed six minutes by a power outage.", 
+            "game": 6, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "261015028"
@@ -786,6 +788,7 @@
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2006-10-15T22:30:00+00:00", 
             "description": "Phoenix 99, Los Angeles 91", 
+            "game": 5, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "261015013"
@@ -1834,6 +1837,7 @@
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2006-10-22T22:30:00+00:00", 
             "description": "Los Angeles 94, Phoenix 91", 
+            "game": 5, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "261022013"
@@ -2657,6 +2661,7 @@
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2006-11-01T00:30:00+00:00", 
             "description": "Even without Kobe Bryant, the Lakers rallied to beat the Suns on Tuesday night.", 
+            "game": 5, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "261031013", 
@@ -2668,7 +2673,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Phoenix Suns"
         }, 
         {
@@ -2688,6 +2693,7 @@
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2006-11-01T01:00:00+00:00", 
             "description": "Kirk Hinrich and the Chicago Bulls ruined the party for the defending champs, beating the Miami Heat by 42 on Tuesday.", 
+            "game": 4, 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "261031014", 
@@ -2699,7 +2705,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Chicago Bulls"
         }, 
         {
@@ -2907,6 +2913,7 @@
             "awayTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "date": "2006-11-01T21:55:00+00:00", 
             "description": "Utah 107, Houston 97", 
+            "game": 7, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "261101026", 
@@ -2919,7 +2926,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Houston Rockets"
         }, 
         {
@@ -3006,6 +3013,7 @@
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2006-11-02T00:30:00+00:00", 
             "description": "The New Jersey Nets had the perfect answer for the Toronto Raptors' new run-and-gun game: Jason Kidd and Vince Carter.", 
+            "game": 6, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "261101017", 
@@ -3015,7 +3023,7 @@
             "networks": [], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "New Jersey Nets vs. Toronto Raptors"
         }, 
         {
@@ -3035,6 +3043,7 @@
             "awayTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "date": "2006-11-02T01:00:00+00:00", 
             "description": "Six months later, the Cleveland Cavaliers still have the Washington Wizards' number.", 
+            "game": 4, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "261101005", 
@@ -3047,7 +3056,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Washington Wizards"
         }, 
         {
@@ -3353,6 +3362,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2006-11-03T21:55:00+00:00", 
             "description": "LeBron James scored 35 points, and the Cavaliers held off the Spurs on Friday night.", 
+            "game": 4, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "261103024", 
@@ -3365,7 +3375,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Cleveland Cavaliers"
         }, 
         {
@@ -3662,6 +3672,7 @@
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2006-11-04T21:55:00+00:00", 
             "description": "Carlos Boozer had 17 points and 14 rebounds for his third double-double in three games this season, and Utah remained unbeaten with a 106-82 win over Golden State.", 
+            "game": 5, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "261104026", 
@@ -3674,7 +3685,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Golden State Warriors"
         }, 
         {
@@ -4144,6 +4155,7 @@
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2006-11-07T00:30:00+00:00", 
             "description": "Don Nelson made a triumphant return to Dallas -- barely, and in one of the wild finishes that remind him how stressful coaching can be.", 
+            "game": 6, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "261106006", 
@@ -4156,7 +4168,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. Golden State Warriors"
         }, 
         {
@@ -4549,6 +4561,7 @@
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2006-11-08T21:55:00+00:00", 
             "description": "Tony Parker scored 29 points and Fabricio Oberto added 22 on 11-of-11 shooting to lead the San Antonio Spurs to a 111-106 overtime victory over the struggling Phoenix Suns on Wednesday.", 
+            "game": 6, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "261108024", 
@@ -4561,7 +4574,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Phoenix Suns"
         }, 
         {
@@ -6778,6 +6791,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2006-11-18T21:55:00+00:00", 
             "description": "Gilbert Arenas scored 45 points to outduel LeBron James in the Wizards' win over the Cavs on Saturday night.", 
+            "game": 4, 
             "homeTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "identity": {
                 "ESPNAPIID": "261118027", 
@@ -6789,7 +6803,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Washington Wizards vs. Cleveland Cavaliers"
         }, 
         {
@@ -8534,6 +8548,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2006-11-26T00:30:00+00:00", 
             "description": "Matt Barnes scored a career-high 24 points and the Warriors handed the Jazz their second loss of the season.", 
+            "game": 5, 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
                 "ESPNAPIID": "261125009", 
@@ -8546,7 +8561,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Utah Jazz"
         }, 
         {
@@ -9348,6 +9363,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2006-11-29T21:55:00+00:00", 
             "description": "Carlos Boozer had 23 points and 16 rebounds, Matt Harpring added 13 points and 12 boards, and the Utah Jazz beat the San Antonio Spurs 83-75 on Wednesday night to snap their two-game losing streak.", 
+            "game": 5, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "261129026", 
@@ -9360,7 +9376,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. San Antonio Spurs"
         }, 
         {
@@ -11213,6 +11229,7 @@
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2006-12-08T21:55:00+00:00", 
             "description": "Chauncey Billups scored a season-high 31 points on 11-of-16 shooting, leading the Detroit Pistons to an 87-83 victory over the Orlando Magic on Friday night in a matchup of the top teams in the Eastern Conference.", 
+            "game": 4, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "261208019", 
@@ -11224,7 +11241,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Detroit Pistons"
         }, 
         {
@@ -12980,6 +12997,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2006-12-15T21:55:00+00:00", 
             "description": "T.J. Ford had 17 points and nine rebounds to lead the Toronto Raptors to their second straight without Chris Bosh, 90-78 over the New Jersey Nets.", 
+            "game": 6, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "261215028", 
@@ -12989,7 +13007,7 @@
             "networks": [], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. New Jersey Nets"
         }, 
         {
@@ -14249,6 +14267,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2006-12-21T01:00:00+00:00", 
             "description": "Vince Carter scored 38 points to outduel LeBron James and the Cavs in a Nets win on Wednesday night.", 
+            "game": 6, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "261220017", 
@@ -14260,7 +14279,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "New Jersey Nets vs. Cleveland Cavaliers"
         }, 
         {
@@ -14311,6 +14330,7 @@
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2006-12-22T01:00:00+00:00", 
             "description": "Detroit 87, Cleveland 71", 
+            "game": 6, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "261221005", 
@@ -14322,7 +14342,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Detroit Pistons"
         }, 
         {
@@ -15685,6 +15705,7 @@
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2006-12-28T00:30:00+00:00", 
             "description": "Ben Gordon scored a career-high 40 points off the bench to lead the Chicago Bulls to a 109-103 victory Wednesday night over the short-handed Miami Heat.", 
+            "game": 4, 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "261227004", 
@@ -15696,7 +15717,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs. Miami Heat"
         }, 
         {
@@ -15839,6 +15860,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2006-12-28T21:55:00+00:00", 
             "description": "Tony Parker scored 22 points and Tim Duncan added 20 as San Antonio easily defeated Utah 106-83 on Thursday night, the Spurs' 15th consecutive home victory over the Jazz.", 
+            "game": 5, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "261228024", 
@@ -15851,7 +15873,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Utah Jazz"
         }, 
         {
@@ -16856,6 +16878,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2007-01-02T21:55:00+00:00", 
             "description": "LeBron James scored 19 points, but the Cavaliers' defense stopped the Spurs on Tuesday night.", 
+            "game": 4, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270102005", 
@@ -16867,7 +16890,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. San Antonio Spurs"
         }, 
         {
@@ -17634,6 +17657,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2007-01-06T00:30:00+00:00", 
             "description": "Tracy McGrady scored a season-high 44 points, Dikembe Mutombo</a> grabbed a season-best 19 rebounds and the Houston Rockets beat the Utah Jazz 100-86 on Friday night for their fifth straight victory.", 
+            "game": 7, 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
                 "ESPNAPIID": "270105010", 
@@ -17646,7 +17670,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Utah Jazz"
         }, 
         {
@@ -17957,6 +17981,7 @@
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2007-01-07T00:30:00+00:00", 
             "description": "Luol Deng scored 30, Ben Wallace finished with 12 points and 14 rebounds in his first game against his former team, and the Chicago Bulls beat the Detroit Pistons 106-89.", 
+            "game": 6, 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "270106004", 
@@ -17968,7 +17993,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs. Detroit Pistons"
         }, 
         {
@@ -17988,6 +18013,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2007-01-07T00:30:00+00:00", 
             "description": "LeBron James scored 19 points, helping the Cleveland Cavaliers cap their most successful week in nearly 14 years with a 96-91 victory over the New Jersey Nets.", 
+            "game": 6, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270106005", 
@@ -17997,7 +18023,7 @@
             "networks": [], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. New Jersey Nets"
         }, 
         {
@@ -18574,6 +18600,7 @@
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2007-01-10T00:30:00+00:00", 
             "description": "Vince Carter scored 32 points and the Nets beat the Raptors on Tuesday in a battle of Atlantic Division leaders.", 
+            "game": 6, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "270109017", 
@@ -18583,7 +18610,7 @@
             "networks": [], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "New Jersey Nets vs. Toronto Raptors"
         }, 
         {
@@ -18635,6 +18662,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2007-01-10T21:55:00+00:00", 
             "description": "Tony Parker scored 26 points and Tim Duncan had 19 to help the San Antonio Spurs stave off the Denver Nuggets 92-83 on Wednesday night.", 
+            "game": 5, 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "270110007", 
@@ -18647,7 +18675,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. San Antonio Spurs"
         }, 
         {
@@ -22776,6 +22804,7 @@
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2007-01-28T00:30:00+00:00", 
             "description": "Ben Gordon had 34 points and seven assists, Kirk Hinrich scored 26 points, and the Chicago Bulls beat the Miami Heat 100-97.", 
+            "game": 4, 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "270127004", 
@@ -22787,7 +22816,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs. Miami Heat"
         }, 
         {
@@ -23746,6 +23775,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2007-01-31T21:55:00+00:00", 
             "description": "Mehmet Okur scored 14 of his 31 points in the fourth quarter, including eight in the final minute to lead the Utah Jazz over the San Antonio Spurs 97-93 Wednesday night.", 
+            "game": 5, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "270131026", 
@@ -23758,7 +23788,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. San Antonio Spurs"
         }, 
         {
@@ -23932,6 +23962,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2007-02-02T01:30:00+00:00", 
             "description": "Amare Stoudemire had 24 points and 23 rebounds as the Suns rallied to beat the Spurs on Thursday night.", 
+            "game": 6, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "270201021", 
@@ -23943,7 +23974,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Phoenix Suns vs. San Antonio Spurs"
         }, 
         {
@@ -24636,6 +24667,7 @@
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2007-02-04T19:30:00+00:00", 
             "description": "Chauncey Billups scored 18 points, Chris Webber and Rasheed Wallace had 15 apiece and the Detroit Pistons reminded Cleveland who's the boss in the NBA Central with a 90-78 win over the Cavaliers on Sunday.", 
+            "game": 6, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270204005", 
@@ -24647,7 +24679,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Detroit Pistons"
         }, 
         {
@@ -26852,6 +26884,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2007-02-14T21:55:00+00:00", 
             "description": "Chris Bosh had 25 points and the Atlantic Division-leading Raptors gained ground on New Jersey with a 120-109 victory over the injury-plagued Nets.", 
+            "game": 6, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "270214028", 
@@ -26861,7 +26894,7 @@
             "networks": [], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. New Jersey Nets"
         }, 
         {
@@ -27360,6 +27393,7 @@
             }, 
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2007-02-20T21:55:00+00:00", 
+            "game": 5, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270220024", 
@@ -27371,7 +27405,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Denver Nuggets"
         }, 
         {
@@ -27726,6 +27760,7 @@
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2007-02-22T00:30:00+00:00", 
             "description": "Chris Webber and Richard Hamilton each scored 18 points and the Pistons beat the Magic 110-88 for their ninth win in 10 games.", 
+            "game": 4, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270221008", 
@@ -27737,7 +27772,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs. Orlando Magic"
         }, 
         {
@@ -28104,6 +28139,7 @@
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2007-02-23T21:55:00+00:00", 
             "description": "Pistons 94, Magic 89", 
+            "game": 4, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "270223019", 
@@ -28115,7 +28151,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Detroit Pistons"
         }, 
         {
@@ -28547,6 +28583,7 @@
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2007-02-25T18:00:00+00:00", 
             "description": "Pistons 95, Bulls 93", 
+            "game": 6, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270225008", 
@@ -28558,7 +28595,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs. Chicago Bulls"
         }, 
         {
@@ -30306,6 +30343,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2007-03-04T18:30:00+00:00", 
             "description": "Steve Nash scored 18 of his 23 points in the second half to help the Sun survive Kobe Bryant and the Lakers on Sunday.", 
+            "game": 5, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "270304021", 
@@ -30317,7 +30355,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Phoenix Suns vs. Los Angeles Lakers"
         }, 
         {
@@ -31077,6 +31115,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2007-03-08T00:30:00+00:00", 
             "description": "LeBron James scored a season-high 41 points, leading the Cleveland Cavaliers to a 101-97 overtime victory over the Detroit Pistons on Wednesday night.", 
+            "game": 6, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270307008", 
@@ -31089,7 +31128,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs. Cleveland Cavaliers"
         }, 
         {
@@ -31141,6 +31180,7 @@
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2007-03-08T00:30:00+00:00", 
             "description": "Shaquille O'Neal had 24 points, nine rebounds and a season-high eight assists, Eddie Jones added 23 points, and the Miami Heat put together a huge second-half run to beat the Chicago Bulls 103-70.", 
+            "game": 4, 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "270307014", 
@@ -31152,7 +31192,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Chicago Bulls"
         }, 
         {
@@ -32097,6 +32137,7 @@
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2007-03-12T23:30:00+00:00", 
             "description": "Mickael Pietrus scored 20 points and the Golden State Warriors emphatically snapped the Dallas Mavericks' 17-game winning streak, dominating the league leaders throughout a 117-100 victory Monday night.", 
+            "game": 6, 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
                 "ESPNAPIID": "270312009", 
@@ -32108,7 +32149,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Dallas Mavericks"
         }, 
         {
@@ -33815,6 +33856,7 @@
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2007-03-20T23:00:00+00:00", 
             "description": "Carlos Boozer had 25 points and tied his career high with 21 rebounds, and the Utah Jazz snapped a four-game losing streak by beating the Golden State Warriors 104-100 Tuesday night.", 
+            "game": 5, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "270320026", 
@@ -33827,7 +33869,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Golden State Warriors"
         }, 
         {
@@ -35881,6 +35923,7 @@
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2007-03-29T23:00:00+00:00", 
             "description": "Two Kirk Hinrich free-throws with 2 seconds left in the game proved the difference as the Chicago Bulls won only their third home game against the Detroit Pistons since 1998.", 
+            "game": 6, 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "270329004", 
@@ -35893,7 +35936,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs. Detroit Pistons"
         }, 
         {
@@ -36167,6 +36210,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2007-03-30T23:00:00+00:00", 
             "description": "Manu Ginobili came off the bench for 25 points and led the Spurs to their sixth straight victory overall, and 16th straight home win over the Utah Jazz Friday night.", 
+            "game": 5, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270330024", 
@@ -36179,7 +36223,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Utah Jazz"
         }, 
         {
@@ -36631,6 +36675,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2007-04-01T21:00:00+00:00", 
             "description": "Mehmet Okur scored 20 points and Carlos Boozer added 13 as the Utah Jazz overcame a late deficit for an 86-83 victory over the Houston Rockets on Sunday.", 
+            "game": 7, 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
                 "ESPNAPIID": "270401010", 
@@ -36643,7 +36688,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Utah Jazz"
         }, 
         {
@@ -37309,6 +37354,7 @@
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2007-04-04T23:30:00+00:00", 
             "description": "Kirk Hinrich scored 29 points and the Bulls made up for the absence of Ben Wallace (sinus infection) to beat the Pistons.", 
+            "game": 6, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270404008", 
@@ -37320,7 +37366,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs. Chicago Bulls"
         }, 
         {
@@ -37491,6 +37537,7 @@
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2007-04-06T00:30:00+00:00", 
             "description": "Tony Parker scored a season-high 35 points to lead the San Antonio Spurs past the Phoenix Suns with a 92-85 victory Thursday night.", 
+            "game": 6, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270405024", 
@@ -37502,7 +37549,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Phoenix Suns"
         }, 
         {
@@ -37522,6 +37569,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2007-04-06T21:55:00+00:00", 
             "description": "LeBron James overcame a poor shooting game to score 14 of his 25 points in the fourth, and the Cavaliers held on for a 99-94 victory Friday night over the Wizards.", 
+            "game": 4, 
             "homeTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "identity": {
                 "ESPNAPIID": "270406027", 
@@ -37533,7 +37581,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Washington Wizards vs. Cleveland Cavaliers"
         }, 
         {
@@ -38212,6 +38260,7 @@
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2007-04-08T16:30:00+00:00", 
             "description": "Steve Nash had 25 points and 11 assists for his career-best 50th double-double, and the Suns beat the Los Angeles Lakers 115-107 Sunday to move two games ahead of San Antonio for the No. 2 seed in the Western Conference.", 
+            "game": 5, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "270408013", 
@@ -38223,7 +38272,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Phoenix Suns"
         }, 
         {
@@ -38243,6 +38292,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2007-04-08T17:00:00+00:00", 
             "description": "Richard Hamilton scored 21 points and Chauncey Billups had 14 points and 12 assists, directing a balanced attack that gave Detroit an 87-82 win over the Cleveland Cavaliers on Sunday.", 
+            "game": 6, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270408008", 
@@ -38254,7 +38304,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs. Cleveland Cavaliers"
         }, 
         {
@@ -38602,6 +38652,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2007-04-09T23:30:00+00:00", 
             "description": "Stephen Jackson scored 28 points, Baron Davis had 19 and the long-suffering Golden State Warriors climbed into the playoff picture with a 126-102 victory over the Utah Jazz on Monday night.", 
+            "game": 5, 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
                 "ESPNAPIID": "270409009", 
@@ -38614,7 +38665,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Utah Jazz"
         }, 
         {
@@ -38888,6 +38939,7 @@
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2007-04-11T21:55:00+00:00", 
             "description": "Tayshaun Prince's short jumper broke a late tie, and the Detroit Pistons locked up home-court advantage throughout the Eastern Conference playoffs with a 104-99 victory over the Orlando Magic on Wednesday night.", 
+            "game": 4, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270411008", 
@@ -38899,7 +38951,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs. Orlando Magic"
         }, 
         {
@@ -39175,6 +39227,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2007-04-12T21:55:00+00:00", 
             "description": "LeBron James looked playoff ready. The New Jersey Nets aren't quite there yet.", 
+            "game": 6, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270412005", 
@@ -39187,7 +39240,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. New Jersey Nets"
         }, 
         {
@@ -39580,6 +39633,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2007-04-13T23:30:00+00:00", 
             "description": "Suns 93, Lakers 85", 
+            "game": 5, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "270413021", 
@@ -39591,7 +39645,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Phoenix Suns vs. Los Angeles Lakers"
         }, 
         {
@@ -40510,6 +40564,7 @@
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2007-04-17T23:30:00+00:00", 
             "description": "The Golden State Warriors have waited nearly 13 years to get back in the playoffs -- and despite yet another win, they must wait one last night.", 
+            "game": 6, 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
                 "ESPNAPIID": "270417009", 
@@ -40521,7 +40576,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Golden State Warriors vs. Dallas Mavericks"
         }, 
         {
@@ -40758,6 +40813,7 @@
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2007-04-18T23:00:00+00:00", 
             "description": "Reggie Evans had 19 points and 20 rebounds Wednesday to help the Denver Nuggets beat the San Antonio Spurs 100-77 Wednesday in a game that was more of a tuneup than a playoff preview.", 
+            "game": 5, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270418024", 
@@ -40770,7 +40826,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Denver Nuggets"
         }, 
         {
@@ -40850,6 +40906,7 @@
             "awayTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "date": "2007-04-18T23:00:00+00:00", 
             "description": "Jazz 101, Rockets 91", 
+            "game": 7, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "270418026", 
@@ -40862,7 +40919,7 @@
             ], 
             "season": "2006", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Houston Rockets"
         }, 
         {
@@ -40982,6 +41039,7 @@
             "date": "2007-04-21T16:30:00+00:00", 
             "description": "Richard Jefferson scored 28 points, Jason Kidd had 15 assists and 10 rebounds, and the New Jersey Nets held off a fourth-quarter rally to beat the Raptors 96-91 in Game 1 of their first-round series on Saturday.", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "270421028", 
@@ -41016,6 +41074,7 @@
             "date": "2007-04-21T18:00:00+00:00", 
             "description": "Luol Deng scored 33 points, and Ben Gordon and Andres Nocioni each hit two free throws in the final 19 seconds as the Chicago Bulls held off the Heat 96-91 Saturday in Game 1 of their opening-round rematch.", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "270421004", 
@@ -41050,6 +41109,7 @@
             "date": "2007-04-21T23:00:00+00:00", 
             "description": "The Pistons never trailed in a 100-92 victory, while the Magic _ the only playoff team with a losing record _ turned the ball over 21 times, missed 18 free throws and never really threatened to win.", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270421008", 
@@ -41085,6 +41145,7 @@
             "date": "2007-04-22T00:30:00+00:00", 
             "description": "Playing with homecourt advantage for the first time in his career, Tracy McGrady had just one point at halftime before scoring 16 points in the third quarter to lead the Houston Rockets to 84-75 win over the Utah Jazz on Saturday night in Gam", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
                 "ESPNAPIID": "270421010", 
@@ -41120,6 +41181,7 @@
             "date": "2007-04-22T16:00:00+00:00", 
             "description": "The \"Brazilian Blur\" breathed life into the Phoenix offense, and Kobe Bryant went from awesome to awful.", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "270422021", 
@@ -41154,6 +41216,7 @@
             "date": "2007-04-22T16:30:00+00:00", 
             "description": "LeBron James stayed in the game despite a sprain to score 23 points and Larry Hughes had 27, lifting the Cavaliers to a 97-82 win over the Wizards in Game 1 of their Eastern Conference series Sunday.", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270422005", 
@@ -41189,6 +41252,7 @@
             "date": "2007-04-22T22:00:00+00:00", 
             "description": "This is what the Denver Nuggets had in mind when they acquired Allen Iverson to go with Carmelo Anthony.", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270422024", 
@@ -41224,6 +41288,7 @@
             "date": "2007-04-23T00:30:00+00:00", 
             "description": "Warriors 97, Mavericks 85", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "270422006", 
@@ -41258,6 +41323,7 @@
             "date": "2007-04-23T23:00:00+00:00", 
             "description": "Richard Hamilton scored 22 points, one of four Pistons with at least 17, to lead Detroit to a 98-90 victory over the Magic on Monday night and a 2-0 lead in their first-round series.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270423008", 
@@ -41293,6 +41359,7 @@
             "date": "2007-04-24T00:30:00+00:00", 
             "description": "Tracy McGrady scored 31 points and the Houston Rockets had an exceptional night at the free throw line to overcome Carlos Boozer's huge game.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
                 "ESPNAPIID": "270423010", 
@@ -41328,6 +41395,7 @@
             "date": "2007-04-24T23:00:00+00:00", 
             "description": "The Miami Heat climbed out of their last 2-0 playoff deficit. They'll need more from Shaquille O'Neal and Dwyane Wade to perform similar magic this time.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "270424004", 
@@ -41368,6 +41436,7 @@
             "date": "2007-04-24T23:00:00+00:00", 
             "description": "Anthony Parker scored 26 points, Chris Bosh added 25 points and 13 rebounds, and the Toronto Raptors beat the New Jersey Nets 89-83 on Tuesday night.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "270424028", 
@@ -41402,6 +41471,7 @@
             "date": "2007-04-24T23:30:00+00:00", 
             "description": "The Suns revved up their frenetic style to near perfection on Tuesday night in a 126-98 rout of the Los Angeles Lakers that put Phoenix up 2-0 in the best-of-seven first-round series.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "270424021", 
@@ -41436,6 +41506,7 @@
             "date": "2007-04-25T21:55:00+00:00", 
             "description": "Drew Gooden scored 19 of his 24 points before halftime, powering Cleveland to a 109-102 win over Washington on Wednesday night and a 2-0 series lead.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270425005", 
@@ -41471,6 +41542,7 @@
             "date": "2007-04-25T22:00:00+00:00", 
             "description": "The <a href=\"http://www.espn.com/nba/clubhouse?team=sas\">San Antonio Spurs</a> nearly headed to Denver down 0-2.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270425024", 
@@ -41506,6 +41578,7 @@
             "date": "2007-04-26T00:30:00+00:00", 
             "description": "Jason Terry scored 28 points, Dirk Nowitzki had 23 and Josh Howard led a 15-2 run in the third quarter that sent the Mavericks to a 112-99 victory over the Warriors.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "270425006", 
@@ -41540,6 +41613,7 @@
             "date": "2007-04-26T21:55:00+00:00", 
             "description": "Pistons 93, Magic 77", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "270426019", 
@@ -41574,6 +41648,7 @@
             "date": "2007-04-26T23:00:00+00:00", 
             "description": "Jazz 81, Rockets 67", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "270426026", 
@@ -41609,6 +41684,7 @@
             "date": "2007-04-26T23:30:00+00:00", 
             "description": "The Lakers are back in their series against the Phoenix Suns thanks to another big game from Kobe Bryant and, believe it or not, Kwame Brown.", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "270426013", 
@@ -41644,6 +41720,7 @@
             "date": "2007-04-27T21:55:00+00:00", 
             "description": "Ben Gordon scored 27 points, Luol Deng added 24 points and 11 rebounds and the Bulls used a 15-2 fourth-quarter run to seize control of a 104-96 victory in Game 3 of their Eastern Conference first-round series.", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "270427014", 
@@ -41683,6 +41760,7 @@
             "date": "2007-04-27T23:00:00+00:00", 
             "description": "Nets 102, Raptors 89", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "270427017", 
@@ -41716,6 +41794,7 @@
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2007-04-27T23:30:00+00:00", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
                 "ESPNAPIID": "270427009", 
@@ -41750,6 +41829,7 @@
             "date": "2007-04-28T19:00:00+00:00", 
             "description": "The Detroit-Orlando postseason series ended just like the regular-season series: with a sweep.", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "270428019", 
@@ -41784,6 +41864,7 @@
             "date": "2007-04-28T21:30:00+00:00", 
             "description": "The undermanned Wizards rallied from a 17-point third-quarter deficit, but again couldn't finish the job in the final period. The Cleveland Cavaliers, mastering the art of doing just enough to win, held on for a 98-92 victory Saturday to take a 3-0 le", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "identity": {
                 "ESPNAPIID": "270428027", 
@@ -41819,6 +41900,7 @@
             "date": "2007-04-28T22:00:00+00:00", 
             "description": "Tim Duncan had 20 points and 13 rebounds, and Manu Ginobili and Tony Parker sliced their way through Denver's defense in a 96-91 victory over the Nuggets on Saturday night.", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "270428007", 
@@ -41854,6 +41936,7 @@
             "date": "2007-04-29T00:30:00+00:00", 
             "description": "Jazz 98, Rockets 85", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "270428026", 
@@ -41889,6 +41972,7 @@
             "date": "2007-04-29T16:30:00+00:00", 
             "description": "Steve Nash had 23 assists -- one shy of the NBA playoff record -- and the Suns raced to a 113-100 victory Sunday for a 3-1 lead in the first-round playoff series.", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "270429013", 
@@ -41923,6 +42007,7 @@
             "date": "2007-04-29T17:00:00+00:00", 
             "description": "The Chicago Bulls swept the defending NBA champion Miami Heat out of the playoffs, winning a postseason series for the first time since the Michael Jordan era.", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "270429014", 
@@ -41957,6 +42042,7 @@
             "date": "2007-04-29T23:00:00+00:00", 
             "description": "Baron Davis bedeviled the Mavericks one more time _ and now his crazy, carefree Golden State Warriors are one win away from a historic playoff upset.", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
                 "ESPNAPIID": "270429009", 
@@ -41997,6 +42083,7 @@
             "date": "2007-04-29T23:30:00+00:00", 
             "description": "Vince Carter scored 27 points, Richard Jefferson added 23, and the Nets took a 3-1 lead over the Atlantic Division champions Sunday night with a 102-81 victory -- their second-biggest ever in a playoff game.", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "270429017", 
@@ -42031,6 +42118,7 @@
             "date": "2007-04-30T23:00:00+00:00", 
             "description": "A change of scenery was just what the Houston Rockets needed to regain control of their playoff series with Utah. Rockets 96, Jazz 92", 
             "eventTitle": "Playoffs", 
+            "game": 5, 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
                 "ESPNAPIID": "270430010", 
@@ -42066,6 +42154,7 @@
             "date": "2007-04-30T23:00:00+00:00", 
             "description": "It's sweeps week in the NBA. Even the Cleveland Cavaliers got in on the act.", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "b5ff775f-f725-45c4-8382-6e5a56b0a1e5", 
             "identity": {
                 "ESPNAPIID": "270430027", 
@@ -42101,6 +42190,7 @@
             "date": "2007-05-01T00:30:00+00:00", 
             "description": "Spurs 96, Nuggets 89", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "270430007", 
@@ -42141,6 +42231,7 @@
             "date": "2007-05-01T23:00:00+00:00", 
             "description": "Jose Calderon scored a career-high 25 points and Andrea Bargnani added 18 as the Toronto Raptors rebounded from two double-digit losses to stave off elimination and beat the New Jersey Nets 98-96 on Tuesday night.", 
             "eventTitle": "Playoffs", 
+            "game": 5, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "270501028", 
@@ -42175,6 +42266,7 @@
             "date": "2007-05-02T00:30:00+00:00", 
             "description": "Don't count out the Dallas Mavericks just yet, no matter how tempting they're making it.", 
             "eventTitle": "Playoffs", 
+            "game": 5, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "270501006", 
@@ -42209,6 +42301,7 @@
             "date": "2007-05-02T23:00:00+00:00", 
             "description": "Michael Finley set a San Antonio playoff record with eight 3-pointers Wednesday night and the Spurs advanced to the Western Conference semifinals with a 93-78 victory over the Denver Nuggets.", 
             "eventTitle": "Playoffs", 
+            "game": 5, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270502024", 
@@ -42244,6 +42337,7 @@
             "date": "2007-05-02T23:30:00+00:00", 
             "description": "Amare Stoudemire scored 27 points and Shawn Marion added 26, and the Suns overcame an inspired performance by Lamar Odom and a late scoring binge by Kobe Bryant to beat the Lakers 119-110 on Wednesday night.", 
             "eventTitle": "Playoffs", 
+            "game": 5, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "270502021", 
@@ -42278,6 +42372,7 @@
             "date": "2007-05-03T22:00:00+00:00", 
             "description": "Jazz 94, Rockets 82", 
             "eventTitle": "Playoffs", 
+            "game": 6, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "270503026", 
@@ -42313,6 +42408,7 @@
             "date": "2007-05-03T23:30:00+00:00", 
             "description": "Warriors 111, Mavericks 86", 
             "eventTitle": "Playoffs", 
+            "game": 6, 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
                 "ESPNAPIID": "270503009", 
@@ -42352,6 +42448,7 @@
             "date": "2007-05-04T21:55:00+00:00", 
             "description": "Richard Jefferson made the go-ahead basket with 8.3 seconds left, stole a pass on the next possession, and New Jersey beat the Raptors 98-97 Friday night to win the first-round series 4-2.", 
             "eventTitle": "Playoffs", 
+            "game": 6, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "270504017", 
@@ -42386,6 +42483,7 @@
             "date": "2007-05-05T23:00:00+00:00", 
             "description": "Chauncey Billups and Richard Hamilton each scored 20 points, leading the Pistons to a 95-69 rout over Chicago in Game 1 of the Eastern Conference semifinals Saturday night.", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270505008", 
@@ -42420,6 +42518,7 @@
             "date": "2007-05-06T00:30:00+00:00", 
             "description": "Tracy McGrady leaned over in front of his bench as time ran out, his hands on his knees as he absorbed one more playoff failure.", 
             "eventTitle": "Playoffs", 
+            "game": 7, 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
                 "ESPNAPIID": "270505010", 
@@ -42454,6 +42553,7 @@
             "date": "2007-05-06T16:30:00+00:00", 
             "description": "The San Antonio Spurs left the Phoenix Suns bloodied and beaten in Game 1 of the Western Conference semifinals.", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "270506021", 
@@ -42488,6 +42588,7 @@
             "date": "2007-05-06T17:00:00+00:00", 
             "description": "Cleveland's defense kept New Jersey's Big 3 from getting into an offensive flow and James sniffled his way to 21 points as the Cavaliers opened the Eastern Conference semifinals with an 81-77 victory over the Nets on Sunday.", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270506005", 
@@ -42522,6 +42623,7 @@
             "date": "2007-05-07T21:55:00+00:00", 
             "description": "Tayshaun Prince scored 25 points on an array of mid-range shots, a dunk in traffic and 3-pointers to lead Detroit to a 108-87 victory and a 2-0 lead in the Eastern Conference semifinals.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270507008", 
@@ -42555,6 +42657,7 @@
             "awayTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "date": "2007-05-08T00:30:00+00:00", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "270507026", 
@@ -42589,6 +42692,7 @@
             "date": "2007-05-08T21:55:00+00:00", 
             "description": "LeBron James scored 25 of his 36 points in the second half and the Cavaliers, drawing from tough lessons learned in last year's playoffs, beat the New Jersey Nets 102-92 on Tuesday night to open a 2-0 lead in the Eastern Conference semifinals.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270508005", 
@@ -42623,6 +42727,7 @@
             "date": "2007-05-08T23:30:00+00:00", 
             "description": "With most of the crowd wearing nose bandages in honor of Steve Nash, the Suns blew out the San Antonio Spurs 101-81 on Tuesday night to even the best-of-seven series at a game apiece.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "270508021", 
@@ -42657,6 +42762,7 @@
             "date": "2007-05-09T23:00:00+00:00", 
             "description": "Derek Fisher missed most of the first three quarters because of a family illness, then scored all five of his points in overtime to lead Utah to a 127-117 victory over the Golden State Warriors and a 2-0 lead in the Western Conference semifinals.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "270509026", 
@@ -42691,6 +42797,7 @@
             "date": "2007-05-10T21:55:00+00:00", 
             "description": "Tayshaun Prince and Chauncey Billups stepped up at just the right time and the Detroit Pistons are on the verge of another series sweep.", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "270510004", 
@@ -42726,6 +42833,7 @@
             "date": "2007-05-11T22:00:00+00:00", 
             "description": "From the first 3-pointer to the last dramatic dunk, Baron Davis and his Warriors are still golden at home in the playoffs.", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
                 "ESPNAPIID": "270511009", 
@@ -42761,6 +42869,7 @@
             "date": "2007-05-12T21:00:00+00:00", 
             "description": "Jason Kidd got the Nets back into the Eastern Conference semifinals by doing what he does best: a bit of everything.", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "270512017", 
@@ -42790,6 +42899,7 @@
             "date": "2007-05-12T23:00:00+00:00", 
             "description": "Tim Duncan had 33 points -- 13 in the fourth quarter -- and 19 rebounds to lead the San Antonio Spurs to a 108-101 victory over the Phoenix Suns on Saturday night and a 2-1 lead in the second-round series.", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270512024", 
@@ -42824,6 +42934,7 @@
             "date": "2007-05-13T18:30:00+00:00", 
             "description": "The Detroit Pistons wanted a sweep. The Chicago Bulls refused to let them get it.", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "270513004", 
@@ -42858,6 +42969,7 @@
             "date": "2007-05-13T22:00:00+00:00", 
             "description": "The Utah Jazz had seen enough of the Golden State Warriors' beautiful game. \t  Carlos Boozer and the Jazz shoved and scraped to slow down the Warriors _ and then Derek Fisher put a sweet finish on a victory that put Utah on the brink of the Western C", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "ec671e8f-c734-4370-a016-6b344f9d6227", 
             "identity": {
                 "ESPNAPIID": "270513009", 
@@ -42892,6 +43004,7 @@
             "date": "2007-05-14T23:00:00+00:00", 
             "description": "LeBron James had 30 points, nine rebounds and seven assists, and the Cavaliers moved one victory from their first conference finals appearance in 15 years by beating the Nets 87-85 on Monday night", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "270514017", 
@@ -42921,6 +43034,7 @@
             "date": "2007-05-15T00:30:00+00:00", 
             "description": "The Phoenix Suns' 12-1 run to end Game 4 of the Western Conference semifinals gave them a 104-98 victory Monday night that evened the series with the San Antonio Spurs.", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270514024", 
@@ -42955,6 +43069,7 @@
             "date": "2007-05-15T21:55:00+00:00", 
             "description": "Ben Gordon scored 28 points and the hot-shooting Chicago Bulls beat the Detroit Pistons 108-92 Tuesday night in Game 5 of the Eastern Conference semifinals, pulling to 3-2 in the series.", 
             "eventTitle": "Playoffs", 
+            "game": 5, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270515008", 
@@ -42989,6 +43104,7 @@
             "date": "2007-05-16T00:30:00+00:00", 
             "description": "Andrei Kirilenko had 21 points, 15 rebounds and three steals to lead the Jazz to a 100-87 victory over the Warriors on Tuesday night, wrapping up the Western Conference semifinal series in five games.", 
             "eventTitle": "Playoffs", 
+            "game": 5, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "270515026", 
@@ -43023,6 +43139,7 @@
             "date": "2007-05-16T21:55:00+00:00", 
             "description": "Nets 83, Cavaliers 72", 
             "eventTitle": "Playoffs", 
+            "game": 5, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270516005", 
@@ -43057,6 +43174,7 @@
             "date": "2007-05-16T23:30:00+00:00", 
             "description": "The severely short-handed Phoenix Suns almost pulled it off. Instead, it was heartbreak in the desert, and the San Antonio Spurs moved within one win of the Western Conference finals with an 88-85 victory.", 
             "eventTitle": "Playoffs", 
+            "game": 5, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "270516021", 
@@ -43091,6 +43209,7 @@
             "date": "2007-05-17T23:00:00+00:00", 
             "description": "The Detroit Pistons can breathe a little easier. There won't be a Game 7, after all.", 
             "eventTitle": "Playoffs", 
+            "game": 6, 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "270517004", 
@@ -43126,6 +43245,7 @@
             "date": "2007-05-18T23:00:00+00:00", 
             "description": "LeBron James came back just in time to make sure the New Jersey Nets couldn't.", 
             "eventTitle": "Playoffs", 
+            "game": 6, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "270518017", 
@@ -43155,6 +43275,7 @@
             "date": "2007-05-19T00:30:00+00:00", 
             "description": "Instead of a trip back to Phoenix for a Game 7, the San Antonio Spurs closed out their contentious series with the Suns with a 114-106 victory in Game 6 on Friday night.", 
             "eventTitle": "Playoffs", 
+            "game": 6, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270518024", 
@@ -43190,6 +43311,7 @@
             "date": "2007-05-20T18:30:00+00:00", 
             "description": "By the time Tony Parker started a fast break with a bounce pass through Mehmet Okur's legs, the San Antonio Spurs already were starting to do pretty much whatever they wanted against the Utah Jazz.", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270520024", 
@@ -43224,6 +43346,7 @@
             "date": "2007-05-21T21:55:00+00:00", 
             "description": "LeBron James might have deferred to his teammates one too many times.", 
             "eventTitle": "Playoffs", 
+            "game": 1, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270521008", 
@@ -43258,6 +43381,7 @@
             "date": "2007-05-22T21:55:00+00:00", 
             "description": "Tim Duncan and Tony Parker are making the Western Conference finals look way too easy.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270522024", 
@@ -43292,6 +43416,7 @@
             "date": "2007-05-24T21:55:00+00:00", 
             "description": "LeBron James rolled his eyes, slumped his shoulders and looked toward his coaches and teammates.", 
             "eventTitle": "Playoffs", 
+            "game": 2, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270524008", 
@@ -43326,6 +43451,7 @@
             "date": "2007-05-26T22:30:00+00:00", 
             "description": "Back in the comfort of home, the Utah Jazz found some things they didn't have the first two games of the Western Conference finals: Confidence, defense and scorers other than Carlos Boozer and Deron Williams.", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "270526026", 
@@ -43360,6 +43486,7 @@
             "date": "2007-05-28T00:30:00+00:00", 
             "description": "LeBron James didn't wait for the last play. He did all he needed to do before the clock got anywhere near zero.", 
             "eventTitle": "Playoffs", 
+            "game": 3, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270527005", 
@@ -43394,6 +43521,7 @@
             "date": "2007-05-28T23:00:00+00:00", 
             "description": "Foul after foul, free throw after free throw, the <a href=\"http://www.espn.com/nba/clubhouse?team=sas\">San Antonio Spurs</a> won Game 3 of the Western Conference finals the hard way.", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "270528026", 
@@ -43428,6 +43556,7 @@
             "date": "2007-05-29T21:55:00+00:00", 
             "description": "With a helping hand from a teammate even younger than him, LeBron James pushed the Cleveland Cavaliers as close as they've ever been to an NBA title.", 
             "eventTitle": "Playoffs", 
+            "game": 4, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270529005", 
@@ -43462,6 +43591,7 @@
             "date": "2007-05-30T21:55:00+00:00", 
             "description": "Tim Duncan and Tony Parker wasted no time showing how serious the San Antonio Spurs were about getting back into the NBA finals -- immediately.", 
             "eventTitle": "Playoffs", 
+            "game": 5, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270530024", 
@@ -43496,6 +43626,7 @@
             "date": "2007-05-31T21:55:00+00:00", 
             "description": "LeBron James lifted the Cleveland Cavaliers within a win of the NBA finals for the first time in franchise history.", 
             "eventTitle": "Playoffs", 
+            "game": 5, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "270531008", 
@@ -43530,6 +43661,7 @@
             "date": "2007-06-03T00:30:00+00:00", 
             "description": "Lugging an entire region's hopes with him on every trip to the basket, LeBron James had 20 points and 14 rebounds, and rookie Daniel Gibson added 31 points --19 in the fourth quarter -- to give the Cavaliers a 98-82 win in Game 6 against Detroit.", 
             "eventTitle": "Playoffs", 
+            "game": 6, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270602005", 
@@ -43564,6 +43696,7 @@
             "date": "2007-06-07T21:55:00+00:00", 
             "description": "One of the most anticipated debuts in NBA finals history was way, way off the mark.", 
             "eventTitle": "Finals", 
+            "game": 1, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270607024", 
@@ -43598,6 +43731,7 @@
             "date": "2007-06-10T21:55:00+00:00", 
             "description": "Two down, two to go. The San Antonio Spurs are halfway to a fourth title and a chance to state their case as an NBA dynasty.", 
             "eventTitle": "Finals", 
+            "game": 2, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "270610024", 
@@ -43632,6 +43766,7 @@
             "date": "2007-06-13T01:00:00+00:00", 
             "description": "Bruce Bowen, the defensive stopper, emerged as an unlikely offensive star as the Spurs moved within one win of their fourth championship in nine years with a 75-72 win over the Cavaliers on Tuesday night to take a commanding 3-0 lead in the series.", 
             "eventTitle": "Finals", 
+            "game": 3, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270612005", 
@@ -43666,6 +43801,7 @@
             "date": "2007-06-15T01:00:00+00:00", 
             "description": "True roundball royalty, the San Antonio Spurs are once again wearing the crown.", 
             "eventTitle": "Finals", 
+            "game": 4, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "270614005", 

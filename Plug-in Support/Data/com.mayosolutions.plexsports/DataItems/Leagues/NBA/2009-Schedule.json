@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA2009SCHEDULE", 
-        "CachedOn": "2022-01-04T15:38:13", 
-        "ExpiresOn": "2022-01-11T15:38:13", 
+        "CachedOn": "2022-01-06T19:37:48", 
+        "ExpiresOn": "2022-01-13T19:37:48", 
         "Version": "2"
     }, 
     "Items": [
@@ -18,6 +18,7 @@
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2009-10-02T01:00:00+00:00", 
             "description": "Jazz 103, Nuggets 87", 
+            "game": 6, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "291001026"
@@ -1506,6 +1507,7 @@
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2009-10-15T02:00:00+00:00", 
             "description": "Suns 110, Trail Blazers 104", 
+            "game": 6, 
             "homeTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "identity": {
                 "ESPNAPIID": "291014022"
@@ -2397,6 +2399,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2009-10-21T23:00:00+00:00", 
             "description": "Celtics 96, Cavaliers 82", 
+            "game": 6, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "291021005"
@@ -2591,6 +2594,7 @@
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2009-10-23T02:00:00+00:00", 
             "description": "Trail Blazers 113, Suns 93", 
+            "game": 6, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "291022021"
@@ -2759,6 +2763,7 @@
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2009-10-24T00:00:00+00:00", 
             "description": "Vince Carter was 9-of-10 from the field and scored 26 points to lead the Orlando Magic to a 123-86 victory over the Atlanta Hawks on Friday night to cap the NBA's only unbeaten preseason.", 
+            "game": 4, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "291023019"
@@ -2907,6 +2912,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2009-10-27T23:30:00+00:00", 
             "description": "The Celtics beat Cleveland 95-89 on Tuesday night in the NBA season opener.", 
+            "game": 6, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "291027005", 
@@ -2918,7 +2924,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Boston Celtics"
         }, 
         {
@@ -3256,6 +3262,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2009-10-29T02:30:00+00:00", 
             "description": "Carmelo Anthony had a game-high 30 points and rookie Ty Lawson scored seven of his 17 points in a pivotal fourth-quarter run, lifting the Denver Nuggets to a season-opening 114-105 win over the Utah Jazz on Wednesday night.", 
+            "game": 6, 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "291028007", 
@@ -3268,7 +3275,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. Utah Jazz"
         }, 
         {
@@ -4411,6 +4418,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2009-11-04T01:00:00+00:00", 
             "description": "Kobe Bryant scored 31 points and hit the go-ahead jumper in overtime as the Los Angeles Lakers got tested in their first road game of the season, beating the Oklahoma City Thunder 101-98 on Tuesday night.", 
+            "game": 6, 
             "homeTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "identity": {
                 "ESPNAPIID": "291103025", 
@@ -4423,7 +4431,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Oklahoma City Thunder vs. Los Angeles Lakers"
         }, 
         {
@@ -4759,6 +4767,7 @@
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2009-11-06T01:00:00+00:00", 
             "description": "Luol Deng scored 15 points and helped stop LeBron James on a drive in the final seconds as the Chicago Bulls ended Cleveland's three-game winning streak with an 86-85 win over the Cavaliers on Thursday night.", 
+            "game": 5, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "291105005", 
@@ -4770,7 +4779,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Chicago Bulls"
         }, 
         {
@@ -5644,6 +5653,7 @@
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2009-11-11T00:00:00+00:00", 
             "description": "Dwight Howard had 15 points and 10 rebounds, Vince Carter scored 15 points in his return from a sprained ankle, and the Orlando Magic bounced back from an ugly loss to beat the Charlotte Bobcats 93-81 on Tuesday night.", 
+            "game": 4, 
             "homeTeam": "21bdfc78-f107-49fe-92aa-50514dd35bfe", 
             "identity": {
                 "ESPNAPIID": "291110030", 
@@ -5656,7 +5666,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Charlotte Bobcats vs. Orlando Magic"
         }, 
         {
@@ -6071,6 +6081,7 @@
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2009-11-12T01:30:00+00:00", 
             "description": "Richard Jefferson scored 29 as the Spurs beat the Mavs on Wednesday.", 
+            "game": 6, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "291111024", 
@@ -6083,7 +6094,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Dallas Mavericks"
         }, 
         {
@@ -6178,6 +6189,7 @@
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2009-11-13T03:30:00+00:00", 
             "description": "Kobe Bryant scored 29 points, Andrew Bynum had 26 points and 15 rebounds in his return from injury, and the Lakers put the brakes on the Phoenix Suns' fast start with a 121-102 victory Thursday night.", 
+            "game": 6, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "291112013", 
@@ -6190,7 +6202,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Phoenix Suns"
         }, 
         {
@@ -6843,6 +6855,7 @@
             "awayTeam": "21bdfc78-f107-49fe-92aa-50514dd35bfe", 
             "date": "2009-11-17T00:00:00+00:00", 
             "description": "Rashard Lewis had 10 points in his first game back from a suspension and the Magic beat the Bobcats 97-91.", 
+            "game": 4, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "291116019", 
@@ -6855,7 +6868,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Charlotte Bobcats"
         }, 
         {
@@ -7381,6 +7394,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2009-11-19T02:30:00+00:00", 
             "description": "Dirk Nowitzki scored 41 points to lead the short-handed Mavs past the Spurs in overtime on Wednesday.", 
+            "game": 6, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "291118006", 
@@ -7393,7 +7407,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. San Antonio Spurs"
         }, 
         {
@@ -7620,6 +7634,7 @@
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2009-11-21T01:00:00+00:00", 
             "description": "Vince Carter scored 26 points, Rashard Lewis had 16 points and 10 rebounds, and the Orlando Magic beat the Boston Celtics 83-78 on Friday night.", 
+            "game": 6, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "291120002", 
@@ -7632,7 +7647,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Orlando Magic"
         }, 
         {
@@ -8149,6 +8164,7 @@
             "awayTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "date": "2009-11-23T02:30:00+00:00", 
             "description": "Kobe Bryant scored 26 points and made a circus shot to lead the Lakers past the Thunder on Sunday.", 
+            "game": 6, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "291122013"
@@ -8159,7 +8175,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Oklahoma City Thunder"
         }, 
         {
@@ -8751,6 +8767,7 @@
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2009-11-27T01:00:00+00:00", 
             "description": "Dwight Howard had 22 points and 17 rebounds, Vince Carter added 21 points and the Orlando Magic beat the Atlanta Hawks 93-76 on Thursday night.", 
+            "game": 4, 
             "homeTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "identity": {
                 "ESPNAPIID": "291126001", 
@@ -8762,7 +8779,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Atlanta Hawks vs. Orlando Magic"
         }, 
         {
@@ -9327,6 +9344,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2009-11-29T23:00:00+00:00", 
             "description": "Kevin Garnett scored 24 points on 11 of 12 shooting, Ray Allen delivered the big blow with a 3-pointer with 1:38 left and the Boston Celtics rallied to beat the Miami Heat 92-85 on Sunday night.", 
+            "game": 5, 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "291129014"
@@ -9338,7 +9356,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Boston Celtics"
         }, 
         {
@@ -10156,6 +10174,7 @@
             "awayTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "date": "2009-12-05T01:00:00+00:00", 
             "description": "LeBron James had 23 points and 11 assists and busted out every one of his dance moves as the Cleveland Cavaliers won for the 11th time in 13 games, beating the slumping Chicago Bulls 101-87 on Friday night.", 
+            "game": 5, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "291204005"
@@ -10167,7 +10186,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Chicago Bulls"
         }, 
         {
@@ -10700,6 +10719,7 @@
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2009-12-07T02:30:00+00:00", 
             "description": "Kobe Bryant scored 26 points, Ron Artest added 15 points and five steals, and the Los Angeles Lakers raced away from the Phoenix Suns in the second half of their ninth straight victory, 108-88 Sunday night.", 
+            "game": 6, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "291206013"
@@ -10711,7 +10731,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Phoenix Suns"
         }, 
         {
@@ -11241,6 +11261,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2009-12-10T03:30:00+00:00", 
             "description": "Kobe Bryant scored 27 points, Pau Gasol had 19 points and 12 rebounds, and the Los Angeles Lakers rolled off 19 consecutive points in the fourth quarter of their 10th straight victory, 101-77 over the Utah Jazz on Wednesday night.", 
+            "game": 4, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "291209013"
@@ -11252,7 +11273,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Utah Jazz"
         }, 
         {
@@ -11781,6 +11802,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2009-12-13T02:00:00+00:00", 
             "description": "Deron Williams scored eight straight points to start the fourth quarter and finished with 21 points and 11 assists to help the Utah Jazz end the Lakers' 11-game winning streak by beating Los Angeles 102-94 Saturday night.", 
+            "game": 4, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "291212026"
@@ -11792,7 +11814,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Los Angeles Lakers"
         }, 
         {
@@ -12272,6 +12294,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2009-12-16T02:00:00+00:00", 
             "description": "The Suns ended a three-game skid and remained perfect at home with a win over the Spurs on Tuesday.", 
+            "game": 4, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "291215021"
@@ -12283,7 +12306,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Phoenix Suns vs. San Antonio Spurs"
         }, 
         {
@@ -12687,6 +12710,7 @@
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2009-12-18T03:30:00+00:00", 
             "description": "Jerryd Bayless had a career-high 29 points and made three free throws in the final 9 seconds, and the Portland Trail Blazers overcame a 15-point third-quarter deficit to beat the Phoenix Suns 105-102 on Thursday night.", 
+            "game": 6, 
             "homeTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "identity": {
                 "ESPNAPIID": "291217022"
@@ -12697,7 +12721,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs. Phoenix Suns"
         }, 
         {
@@ -13742,6 +13766,7 @@
             "awayTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "date": "2009-12-23T03:30:00+00:00", 
             "description": "Kobe Bryant scored 40 points for the sixth time this season, and the NBA-leading Los Angeles Lakers shook off a rough first half before hanging on for their 16th victory in 17 games.", 
+            "game": 6, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "291222013"
@@ -13753,7 +13778,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Oklahoma City Thunder"
         }, 
         {
@@ -14051,6 +14076,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2009-12-25T19:30:00+00:00", 
             "description": "The Celtics' defense shut down the Magic on Friday, but at a cost as Kevin Garnett took a hard fall.", 
+            "game": 6, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "291225019"
@@ -14061,7 +14087,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Boston Celtics"
         }, 
         {
@@ -14643,6 +14669,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2009-12-29T02:00:00+00:00", 
             "description": "Amare Stoudemire scored 26 points, Jared Dudley matched his career best with 19 and the Phoenix Suns sent the Los Angeles Lakers to their second loss in three games with a surprising 118-103 rout on Monday night.", 
+            "game": 6, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "291228021"
@@ -14654,7 +14681,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Phoenix Suns vs. Los Angeles Lakers"
         }, 
         {
@@ -15626,6 +15653,7 @@
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2010-01-03T02:00:00+00:00", 
             "description": "Ty Lawson had 23 points and nine assists and the Denver Nuggets ended a three-game losing streak despite playing without injured stars Carmelo Anthony and Chauncey Billups, beating the Utah Jazz 105-95 on Saturday night", 
+            "game": 6, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "300102026"
@@ -15637,7 +15665,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Denver Nuggets"
         }, 
         {
@@ -16242,6 +16270,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-01-07T00:30:00+00:00", 
             "description": "The Celtics rallied in the fourth quarter to tie and then beat the Heat in overtime on Wednesday.", 
+            "game": 5, 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "300106014"
@@ -16253,7 +16282,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Boston Celtics"
         }, 
         {
@@ -16627,6 +16656,7 @@
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2010-01-09T01:30:00+00:00", 
             "description": "Dirk Nowitzki scored 26 points, including 16 in the fourth quarter, to rally the Dallas Mavericks to a 112-103 victory over the San Antonio Spurs on Friday night.", 
+            "game": 6, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "300108024"
@@ -16638,7 +16668,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Dallas Mavericks"
         }, 
         {
@@ -16781,6 +16811,7 @@
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2010-01-10T00:00:00+00:00", 
             "description": "J.J. Redick scored 17 points in place of an injured Vince Carter, and the Orlando Magic ended a four-game losing streak with a 113-81 victory over the Atlanta Hawks.", 
+            "game": 4, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "300109019"
@@ -16792,7 +16823,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Atlanta Hawks"
         }, 
         {
@@ -18383,6 +18414,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2010-01-18T02:00:00+00:00", 
             "description": "Carmelo Anthony scored 37 points and Chauncey Billups added 29 in the Nuggets' 119-112 win over Utah.", 
+            "game": 6, 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "300117007"
@@ -18394,7 +18426,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. Utah Jazz"
         }, 
         {
@@ -19489,6 +19521,7 @@
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2010-01-24T00:00:00+00:00", 
             "description": "Jameer Nelson scored six of his 21 points in overtime and the Orlando Magic recovered after blowing a big lead to beat the Charlotte Bobcats 106-95 on Saturday night for their third straight victory.", 
+            "game": 4, 
             "homeTeam": "21bdfc78-f107-49fe-92aa-50514dd35bfe", 
             "identity": {
                 "ESPNAPIID": "300123030"
@@ -19500,7 +19533,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Charlotte Bobcats vs. Orlando Magic"
         }, 
         {
@@ -20496,6 +20529,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-01-29T01:00:00+00:00", 
             "description": "Rashard Lewis made the go-ahead layup with 1.3 seconds remaining, and the Orlando Magic overcame a 16-point deficit to beat the Boston Celtics 96-94 on Thursday night.", 
+            "game": 6, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "300128019"
@@ -20506,7 +20540,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Boston Celtics"
         }, 
         {
@@ -20855,6 +20889,7 @@
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2010-01-31T00:00:00+00:00", 
             "description": "Dwight Howard had 31 points and 19 rebounds and the Orlando Magic coasted to a 104-86 victory over the Atlanta Hawks on Saturday.", 
+            "game": 4, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "300130019"
@@ -20866,7 +20901,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Atlanta Hawks"
         }, 
         {
@@ -21034,6 +21069,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-01-31T20:30:00+00:00", 
             "description": "Kobe Bryant sank a go-ahead fallaway jumper with 7.3 seconds left to give the Lakers a 90-89 victory over Boston.", 
+            "game": 7, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300131002"
@@ -21044,7 +21080,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Los Angeles Lakers"
         }, 
         {
@@ -21704,6 +21740,7 @@
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2010-02-04T01:00:00+00:00", 
             "description": "Rajon Rondo had 22 points and 14 assists in his second straight outstanding game against the Miami Heat, leading the Boston Celtics to a 107-102 victory Wednesday night.", 
+            "game": 5, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300203002"
@@ -21715,7 +21752,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Miami Heat"
         }, 
         {
@@ -22401,6 +22438,7 @@
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2010-02-07T02:00:00+00:00", 
             "description": "Andrei Kirilenko had 22 points and five steals and Carlos Boozer finished with 19 points and 13 rebounds in his return to the lineup as the Utah Jazz won their eighth straight, beating the short-handed Denver Nuggets.", 
+            "game": 6, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "300206026"
@@ -22412,7 +22450,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Denver Nuggets"
         }, 
         {
@@ -22531,6 +22569,7 @@
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2010-02-07T19:30:00+00:00", 
             "description": "Vince Carter led a 19-0 surge in the third quarter and finished with 20 points as the Magic beat Boston 96-89 on Sunday.", 
+            "game": 6, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300207002"
@@ -22541,7 +22580,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Orlando Magic"
         }, 
         {
@@ -23092,6 +23131,7 @@
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2010-02-11T02:00:00+00:00", 
             "description": "Steve Blake had 20 points and 12 assists, both season highs, and the depleted Portland Trail Blazers held off a late rally by Phoenix to snap the Suns' five-game winning streak 108-101 on Wednesday night.", 
+            "game": 6, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "300210021"
@@ -23102,7 +23142,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Phoenix Suns vs. Portland Trail Blazers"
         }, 
         {
@@ -23117,6 +23157,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-02-11T02:00:00+00:00", 
             "description": "Pau Gasol had 22 points and 19 rebounds and the Los Angeles Lakers won their third straight without Kobe Bryant, beating Utah 96-81 on Wednesday night and ending the Jazz's nine-game winning streak.", 
+            "game": 4, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "300210026"
@@ -23128,7 +23169,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Los Angeles Lakers"
         }, 
         {
@@ -23956,6 +23997,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-02-19T03:30:00+00:00", 
             "description": "Ray Allen scored 12 of his 24 points in the third quarter and made 10 of his first 11 shots, leading the Boston Celtics to a 87-86 victory over the Los Angeles Lakers on Thursday night.", 
+            "game": 7, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300218013"
@@ -23966,7 +24008,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Boston Celtics"
         }, 
         {
@@ -25348,6 +25390,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2010-02-26T01:00:00+00:00", 
             "description": "LeBron James had 36 points, nine assists and seven rebounds, Mo Williams scored 14 of his 19 points in the fourth quarter, and the Cleveland Cavaliers surged past the Boston Celtics 108-88 on Thursday night.", 
+            "game": 6, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300225002"
@@ -25358,7 +25401,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Cleveland Cavaliers"
         }, 
         {
@@ -25884,6 +25927,7 @@
             "awayTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "date": "2010-02-28T18:00:00+00:00", 
             "description": "Richard Jefferson scored 20 points in his best game since losing his starting job, and the San Antonio Spurs beat Phoenix 113-110 on Sunday to end the Suns' five-game winning streak.", 
+            "game": 4, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "300228024"
@@ -25894,7 +25938,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Phoenix Suns"
         }, 
         {
@@ -25934,6 +25978,7 @@
             "awayTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "date": "2010-02-28T23:00:00+00:00", 
             "description": "Joe Johnson scored nine of his 24 points in overtime, Josh Smith had 22 points and 15 rebounds, and the Atlanta Hawks ended Milwaukee's winning streak at six with a 106-102 victory Sunday night.", 
+            "game": 7, 
             "homeTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "identity": {
                 "ESPNAPIID": "300228001"
@@ -25945,7 +25990,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Atlanta Hawks vs. Milwaukee Bucks"
         }, 
         {
@@ -28387,6 +28432,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-03-13T02:00:00+00:00", 
             "description": "Kobe Bryant had 20 points, 10 rebounds and eight assists -- along with seven turnovers -- but it was the all-around game of the Los Angeles Lakers that led to an intense 102-96 victory over the Phoenix Suns on Friday night.", 
+            "game": 6, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "300312021"
@@ -28398,7 +28444,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Phoenix Suns vs. Los Angeles Lakers"
         }, 
         {
@@ -28643,6 +28689,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2010-03-14T19:30:00+00:00", 
             "description": "LeBron James scored 30 points, 24 in the second half, and Cleveland wore down the aging Boston Celtics for a 104-93 victory on Sunday, the Cavaliers' second decisive win over one of the East's premier teams in less than a month.", 
+            "game": 6, 
             "homeTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "identity": {
                 "ESPNAPIID": "300314005"
@@ -28653,7 +28700,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Cleveland Cavaliers vs. Boston Celtics"
         }, 
         {
@@ -28694,6 +28741,7 @@
             "awayTeam": "21bdfc78-f107-49fe-92aa-50514dd35bfe", 
             "date": "2010-03-14T22:00:00+00:00", 
             "description": "Stephen Jackson scored 28 points, Raymond Felton had 16 and the Charlotte Bobcats held on for their sixth straight victory, 96-89 over the Orlando Magic on Sunday night.", 
+            "game": 4, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "300314019"
@@ -28705,7 +28753,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Charlotte Bobcats"
         }, 
         {
@@ -29621,6 +29669,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2010-03-20T00:00:00+00:00", 
             "description": "LeBron James became the youngest player to score 15,000 career points, breaking Kobe Bryant's mark by about two years, and the Cleveland Cavaliers pulled away late to beat the Chicago Bulls 92-85 on Friday night for their 12th win in 13 games.", 
+            "game": 5, 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "300319004"
@@ -29632,7 +29681,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs. Cleveland Cavaliers"
         }, 
         {
@@ -30137,6 +30186,7 @@
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2010-03-22T02:30:00+00:00", 
             "description": "Jared Dudley scored all 10 of his points in the fourth quarter and Grant Hill hit two key baskets, lifting the Phoenix Suns to a 93-87 victory over the Portland Trail Blazers on Sunday night for their fourth straight win.", 
+            "game": 6, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "300321021"
@@ -30148,7 +30198,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Phoenix Suns vs. Portland Trail Blazers"
         }, 
         {
@@ -30241,6 +30291,7 @@
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2010-03-23T00:00:00+00:00", 
             "description": "John Salmons scored 32 points, including the tiebreaking free throws with 21.8 seconds remaining, to lead the Milwaukee Bucks to a come-from-behind 98-95 victory over the Atlanta Hawks on Monday night.", 
+            "game": 7, 
             "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "identity": {
                 "ESPNAPIID": "300322015"
@@ -30252,7 +30303,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Atlanta Hawks"
         }, 
         {
@@ -30527,6 +30578,7 @@
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2010-03-24T23:00:00+00:00", 
             "description": "Josh Smith swooped in to slam through Joe Johnson's missed shot just ahead of the buzzer and the Atlanta Hawks finally beat the Orlando Magic, clinching a third straight trip to the playoffs with an 86-84 victory Wednesday night.", 
+            "game": 4, 
             "homeTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "identity": {
                 "ESPNAPIID": "300324001"
@@ -30538,7 +30590,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Atlanta Hawks vs. Orlando Magic"
         }, 
         {
@@ -31069,6 +31121,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2010-03-27T00:00:00+00:00", 
             "description": "Kevin Durant scored 26 points, Russell Westbrook added 23 and the Oklahoma City Thunder snapped the Los Angeles Lakers' seven-game winning streak with a resounding 91-75 victory Friday on a turnover-filled night for Kobe Bryant.", 
+            "game": 6, 
             "homeTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "identity": {
                 "ESPNAPIID": "300326025"
@@ -31080,7 +31133,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Oklahoma City Thunder vs. Los Angeles Lakers"
         }, 
         {
@@ -32439,6 +32492,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2010-04-03T02:30:00+00:00", 
             "description": "Lamar Odom and Kobe Bryant triggered an offensive burst in the fourth quarter to help the Los Angeles Lakers beat the Utah Jazz 106-92 Friday night and avoid a third straight loss.", 
+            "game": 4, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "300402013"
@@ -32450,7 +32504,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Utah Jazz"
         }, 
         {
@@ -32698,6 +32752,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2010-04-04T17:00:00+00:00", 
             "description": "Ray Allen scored a season-high 33 points, hitting his sixth 3-pointer to give the Celtics a four-point lead with 48 seconds left, and Boston held on despite 42 points from LeBron James to beat the Cleveland Cavaliers 117-113 on Sunday.", 
+            "game": 6, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "300404002"
@@ -32708,7 +32763,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Cleveland Cavaliers"
         }, 
         {
@@ -33443,6 +33498,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2010-04-08T02:30:00+00:00", 
             "description": "Amare Stoudemire scored 29 points and Phoenix dominated San Antonio most of Wednesday night in a 112-101 victory that snapped the Spurs' four-game winning streak and kept the Suns tied for second in the Western Conference.", 
+            "game": 4, 
             "homeTeam": "3a05ae7f-6698-4b29-96f2-190d7a27a53e", 
             "identity": {
                 "ESPNAPIID": "300407021"
@@ -33454,7 +33510,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Phoenix Suns vs. San Antonio Spurs"
         }, 
         {
@@ -33469,6 +33525,7 @@
             "awayTeam": "150b8ff5-e3b2-472a-94dd-1a2c650a596d", 
             "date": "2010-04-09T00:00:00+00:00", 
             "description": "Derrick Rose scored 24 points, Kirk Hinrich had 23 and the Chicago Bulls survived some shaky free-throw shooting down the stretch to beat the Cleveland Cavaliers 109-108 with LeBron James on the sideline on Thursday night.", 
+            "game": 5, 
             "homeTeam": "c81875e4-5406-495f-ab4e-0b525d398fe2", 
             "identity": {
                 "ESPNAPIID": "300408004"
@@ -33479,7 +33536,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Chicago Bulls vs. Cleveland Cavaliers"
         }, 
         {
@@ -34396,6 +34453,7 @@
             "awayTeam": "d65ce893-5016-4911-a135-dfd483d237dc", 
             "date": "2010-04-13T00:00:00+00:00", 
             "description": "Joe Johnson scored 31 points to help the Atlanta Hawks beat the Milwaukee Bucks 104-96 in a matchup between potential first-round playoff opponents Monday night.", 
+            "game": 7, 
             "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "identity": {
                 "ESPNAPIID": "300412015"
@@ -34407,7 +34465,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Atlanta Hawks"
         }, 
         {
@@ -34730,6 +34788,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2010-04-15T00:00:00+00:00", 
             "description": "Jason Kidd and Jason Terry led a 16-2 run at the end of the first quarter, putting the Dallas Mavericks ahead for good on their way to a 96-89 victory over the San Antonio Spurs on Wednesday night.", 
+            "game": 6, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "300414006"
@@ -34741,7 +34800,7 @@
             ], 
             "season": "2009", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. San Antonio Spurs"
         }, 
         {

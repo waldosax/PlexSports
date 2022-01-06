@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA2001SCHEDULE", 
-        "CachedOn": "2022-01-04T15:31:30", 
-        "ExpiresOn": "2022-01-11T15:31:30", 
+        "CachedOn": "2022-01-06T19:30:19", 
+        "ExpiresOn": "2022-01-13T19:30:19", 
         "Version": "2"
     }, 
     "Items": [
@@ -85,6 +85,7 @@
             }, 
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2001-10-09T23:00:00+00:00", 
+            "game": 4, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "211009026"
@@ -151,6 +152,7 @@
             }, 
             "awayTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "date": "2001-10-09T23:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "211009017"
@@ -487,6 +489,7 @@
             }, 
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2001-10-12T23:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "identity": {
                 "ESPNAPIID": "211012003"
@@ -755,6 +758,7 @@
             }, 
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2001-10-14T22:00:00+00:00", 
+            "game": 5, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "211014023"
@@ -1155,6 +1159,7 @@
             }, 
             "awayTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "date": "2001-10-17T23:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "211017019"
@@ -1553,6 +1558,7 @@
             }, 
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2001-10-20T23:30:00+00:00", 
+            "game": 7, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "211020013"
@@ -2683,6 +2689,7 @@
             }, 
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2001-10-31T00:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "211030013", 
@@ -2694,7 +2701,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Portland Trail Blazers"
         }, 
         {
@@ -2713,6 +2720,7 @@
             }, 
             "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "date": "2001-10-31T00:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "211030017", 
@@ -2722,7 +2730,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "New Jersey Nets vs. Indiana Pacers"
         }, 
         {
@@ -2829,6 +2837,7 @@
             }, 
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2001-10-31T21:50:00+00:00", 
+            "game": 6, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "211031002", 
@@ -2838,7 +2847,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. New Jersey Nets"
         }, 
         {
@@ -3057,6 +3066,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2001-11-01T21:50:00+00:00", 
+            "game": 5, 
             "homeTeam": "ecfd5b18-92ca-4000-abf1-6b736303fdc6", 
             "identity": {
                 "ESPNAPIID": "211101025", 
@@ -3068,7 +3078,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Seattle SuperSonics vs. San Antonio Spurs"
         }, 
         {
@@ -3694,6 +3704,7 @@
             }, 
             "awayTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "date": "2001-11-04T01:00:00+00:00", 
+            "game": 5, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "211103017", 
@@ -3705,7 +3716,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "New Jersey Nets vs. Charlotte Hornets"
         }, 
         {
@@ -4013,56 +4024,6 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/7tqqi11608815780.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
-            "date": "2001-11-06T07:30:00+00:00", 
-            "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
-            "identity": {
-                "TheSportsDBID": "1240154"
-            }, 
-            "league": "NBA", 
-            "networks": [], 
-            "season": "2001", 
-            "sport": "Basketball", 
-            "vs": "Philadelphia 76ers vs Indiana Pacers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
-            "date": "2001-11-07T00:00:00+00:00", 
-            "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
-            "identity": {
-                "ESPNAPIID": "211106020"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "CSN"
-            ], 
-            "season": "2001", 
-            "sport": "Basketball", 
-            "subseason": 0, 
-            "vs": "Philadelphia 76ers vs. Indiana Pacers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
                         "url": "https://www.thesportsdb.com/images/media/event/thumb/q0xok01615491467.jpg"
                     }
                 ]
@@ -4200,6 +4161,56 @@
             "sport": "Basketball", 
             "subseason": 0, 
             "vs": "San Antonio Spurs vs. Orlando Magic"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/7tqqi11608815780.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
+            "date": "2001-11-06T07:30:00+00:00", 
+            "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
+            "identity": {
+                "TheSportsDBID": "1240154"
+            }, 
+            "league": "NBA", 
+            "networks": [], 
+            "season": "2001", 
+            "sport": "Basketball", 
+            "vs": "Philadelphia 76ers vs Indiana Pacers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
+            "date": "2001-11-07T00:00:00+00:00", 
+            "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
+            "identity": {
+                "ESPNAPIID": "211106020"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "CSN"
+            ], 
+            "season": "2001", 
+            "sport": "Basketball", 
+            "subseason": 0, 
+            "vs": "Philadelphia 76ers vs. Indiana Pacers"
         }, 
         {
             "assets": {
@@ -5422,6 +5433,7 @@
             }, 
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2001-11-13T21:55:00+00:00", 
+            "game": 5, 
             "homeTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "identity": {
                 "ESPNAPIID": "211113011", 
@@ -5433,7 +5445,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Indiana Pacers vs. New Jersey Nets"
         }, 
         {
@@ -6648,6 +6660,7 @@
             }, 
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2001-11-18T23:30:00+00:00", 
+            "game": 7, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "211118013", 
@@ -6659,7 +6672,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Sacramento Kings"
         }, 
         {
@@ -6794,6 +6807,7 @@
             }, 
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2001-11-20T23:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "211120028", 
@@ -6803,7 +6817,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Detroit Pistons"
         }, 
         {
@@ -7283,6 +7297,7 @@
             }, 
             "awayTeam": "ecfd5b18-92ca-4000-abf1-6b736303fdc6", 
             "date": "2001-11-22T00:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "211121024", 
@@ -7294,7 +7309,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Seattle SuperSonics"
         }, 
         {
@@ -7612,6 +7627,7 @@
             }, 
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2001-11-24T00:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "identity": {
                 "ESPNAPIID": "211123003", 
@@ -7621,7 +7637,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Charlotte Hornets vs. Orlando Magic"
         }, 
         {
@@ -7925,6 +7941,7 @@
             }, 
             "awayTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "date": "2001-11-25T00:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "211124019", 
@@ -7936,7 +7953,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Charlotte Hornets"
         }, 
         {
@@ -8822,6 +8839,7 @@
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2001-11-30T00:30:00+00:00", 
             "description": "Peja Stojakovic scored 32 points, including a pair of key late jumpers, as the Sacramento Kings posted a 110-98 victory over the Dallas Mavericks.", 
+            "game": 5, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "211129006", 
@@ -8833,7 +8851,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. Sacramento Kings"
         }, 
         {
@@ -9125,6 +9143,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2001-12-01T18:00:00+00:00", 
             "description": "Paul Pierce scored a career-high 48 points despite going just 1-for-16 in the first half and led the Boston Celtics past New Jersey 105-98 in overtime Saturday.", 
+            "game": 6, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "211201017", 
@@ -9134,7 +9153,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "New Jersey Nets vs. Boston Celtics"
         }, 
         {
@@ -9551,6 +9570,7 @@
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2001-12-02T23:00:00+00:00", 
             "description": "If Peja Stojakovic could have made a free throw with two-tenths of a second remaining, the Sacramento Kings would have been celebrating a thrilling comeback victory.", 
+            "game": 5, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "211202023", 
@@ -9562,7 +9582,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Sacramento Kings vs. Dallas Mavericks"
         }, 
         {
@@ -10329,6 +10349,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2001-12-07T21:55:00+00:00", 
             "description": "Peja Stojakovic scored 15 of his 25 points in the fourth quarter, and Mike Bibby had 21 points and six assists as the Sacramento Kings handed the Los Angeles Lakers their second loss of the season, 97-91 Friday night.", 
+            "game": 7, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "211207023", 
@@ -10338,7 +10359,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Sacramento Kings vs. Los Angeles Lakers"
         }, 
         {
@@ -12131,6 +12152,7 @@
             "awayTeam": "86a37a58-337c-4ab8-9379-472d38bd7dd0", 
             "date": "2001-12-16T00:30:00+00:00", 
             "description": "Michael Finley scored 12 of his 30 points during a breakout third quarter, leading the Dallas Mavericks past Minnesota 125-117 on Saturday night and ending the Timberwolves' six-game winning streak.", 
+            "game": 3, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "211215006", 
@@ -12142,7 +12164,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. Minnesota Timberwolves"
         }, 
         {
@@ -12469,6 +12491,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2001-12-17T21:55:00+00:00", 
+            "game": 5, 
             "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "identity": {
                 "ESPNAPIID": "211217020", 
@@ -12480,7 +12503,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Philadelphia 76ers vs. Boston Celtics"
         }, 
         {
@@ -12622,6 +12645,7 @@
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2001-12-18T21:55:00+00:00", 
             "description": "Dallas 107, Minnesota 103", 
+            "game": 3, 
             "homeTeam": "86a37a58-337c-4ab8-9379-472d38bd7dd0", 
             "identity": {
                 "ESPNAPIID": "211218016", 
@@ -12633,7 +12657,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Minnesota Timberwolves vs. Dallas Mavericks"
         }, 
         {
@@ -13197,6 +13221,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2001-12-21T21:55:00+00:00", 
             "description": "Jermaine O'Neal scored a season-high 29 points and grabbed nine rebounds and Reggie Miller reached another milestone with 16 points as the Pacers defeated the Nets for the first time in three tries this season, 100-94.", 
+            "game": 5, 
             "homeTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "identity": {
                 "ESPNAPIID": "211221011", 
@@ -13208,7 +13233,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Indiana Pacers vs. New Jersey Nets"
         }, 
         {
@@ -15061,6 +15086,7 @@
             "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "date": "2001-12-30T00:30:00+00:00", 
             "description": "Kerry Kittles sent the game to overtime with a clutch 3-pointer and made two huge baskets in the final two minutes of the extra period to lead the Nets to a 98-93 victory over the Indiana Pacers.", 
+            "game": 5, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "211229017", 
@@ -15070,7 +15096,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "New Jersey Nets vs. Indiana Pacers"
         }, 
         {
@@ -16171,6 +16197,7 @@
             }, 
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2002-01-06T00:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "identity": {
                 "ESPNAPIID": "220105003", 
@@ -16180,7 +16207,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Charlotte Hornets vs. New Jersey Nets"
         }, 
         {
@@ -17495,6 +17522,7 @@
             }, 
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2002-01-12T00:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "220111002", 
@@ -17504,7 +17532,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Detroit Pistons"
         }, 
         {
@@ -18307,6 +18335,7 @@
             }, 
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2002-01-16T00:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "220115008", 
@@ -18316,7 +18345,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs. Toronto Raptors"
         }, 
         {
@@ -19067,6 +19096,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-01-19T17:00:00+00:00", 
             "description": "Kobe Bryant scored 17 of his 28 points in the second half Saturday to lead the Shaq-less Los Angeles Lakers to a 98-81 victory over the San Antonio Spurs.", 
+            "game": 5, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "220119024", 
@@ -19076,7 +19106,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Los Angeles Lakers"
         }, 
         {
@@ -19241,6 +19271,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2002-01-20T00:30:00+00:00", 
             "description": "After his mistake allowed Kenny Anderson to scored the go-ahead layup, Chucky Atkins responded with a jumper with three seconds left as the Detroit Pistons rallied for a 94-91 victory over the Boston Celtics.", 
+            "game": 5, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "220119008", 
@@ -19250,7 +19281,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs. Boston Celtics"
         }, 
         {
@@ -20380,6 +20411,7 @@
             }, 
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2002-01-24T23:00:00+00:00", 
+            "game": 4, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "220124023", 
@@ -20391,7 +20423,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Sacramento Kings vs. Utah Jazz"
         }, 
         {
@@ -20589,6 +20621,7 @@
             }, 
             "awayTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "date": "2002-01-26T00:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "220125002", 
@@ -20600,7 +20633,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Philadelphia 76ers"
         }, 
         {
@@ -20619,6 +20652,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2002-01-26T00:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220125013", 
@@ -20631,7 +20665,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. San Antonio Spurs"
         }, 
         {
@@ -20706,6 +20740,7 @@
             }, 
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2002-01-26T20:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "220126026", 
@@ -20715,7 +20750,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Sacramento Kings"
         }, 
         {
@@ -24518,6 +24553,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-02-17T18:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "identity": {
                 "ESPNAPIID": "220217022", 
@@ -24527,7 +24563,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs. Los Angeles Lakers"
         }, 
         {
@@ -24899,6 +24935,7 @@
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2002-02-19T00:30:00+00:00", 
             "description": "Jerry Stackhouse scored 20 points, and Ben Wallace added 13 points and 13 rebounds to help the surging Detroit Pistons beat the injury-depleted Toronto Raptors 89-76 Monday night.", 
+            "game": 5, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "220218008", 
@@ -24908,7 +24945,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs. Toronto Raptors"
         }, 
         {
@@ -24986,6 +25023,7 @@
             "awayTeam": "86a37a58-337c-4ab8-9379-472d38bd7dd0", 
             "date": "2002-02-19T21:55:00+00:00", 
             "description": "Chauncey Billups scored 24 of his career-high 36 points in the third quarter, and Wally Szczerbiak added 31 as the Minnesota Timberwolves beat the Dallas Mavericks 117-100 on Tuesday night.", 
+            "game": 3, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "220219006", 
@@ -24997,7 +25035,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. Minnesota Timberwolves"
         }, 
         {
@@ -25714,6 +25752,7 @@
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2002-02-22T21:55:00+00:00", 
             "description": "Clifford Robinson had 21 points, and Corliss Williamson collected 12 of his 17 points off the bench in the fourth quarter as the Detroit Pistons registered a franchise-record seventh straight road victory, 80-72 over the Toronto Raptors.", 
+            "game": 5, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "220222028", 
@@ -25723,7 +25762,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Detroit Pistons"
         }, 
         {
@@ -25859,6 +25898,7 @@
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2002-02-23T21:30:00+00:00", 
             "description": "Steve Nash scored 28 points and Dirk Nowitzki had 26 points and 21 rebounds, and Dallas got plenty of help from its newcomers, as the Mavericks beat the Sacramento Kings 111-97 Saturday in a battle of division leaders.", 
+            "game": 5, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "220223006", 
@@ -25868,7 +25908,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. Sacramento Kings"
         }, 
         {
@@ -26153,6 +26193,7 @@
             "awayTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "date": "2002-02-24T20:00:00+00:00", 
             "description": "Lucious Harris hit a go-ahead layup with 46 seconds to play and the New Jersey Nets rallied from a 23-point deficit in the second half to defeat the Charlotte Hornets 95-93 on Sunday.", 
+            "game": 5, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220224017", 
@@ -26164,7 +26205,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "New Jersey Nets vs. Charlotte Hornets"
         }, 
         {
@@ -26604,6 +26645,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2002-02-27T00:30:00+00:00", 
             "description": "Reserve Bobby Jackson scored 17 points to lead six players in double in figures as the Sacramento Kings rolled to a 107-81 victory over the Jazz, who had their season-high six-game winning streak snapped.", 
+            "game": 4, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "220226023", 
@@ -26616,7 +26658,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Sacramento Kings vs. Utah Jazz"
         }, 
         {
@@ -26691,6 +26733,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2002-02-27T21:55:00+00:00", 
             "description": "Jamal Mashburn scored 19 of his 37 points in the first quarter as the Hornets jumped out to a big lead on the New Jersey Nets for the second time in four days, this time easily holding on for a 104-85 victory.", 
+            "game": 5, 
             "homeTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "identity": {
                 "ESPNAPIID": "220227003", 
@@ -26700,7 +26743,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Charlotte Hornets vs. New Jersey Nets"
         }, 
         {
@@ -27833,6 +27876,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2002-03-04T21:55:00+00:00", 
             "description": "Paul Pierce scored 28 points and Antoine Walker added 17, leading the Boston Celtics to a 100-94 victory over Philadelphia.", 
+            "game": 5, 
             "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "identity": {
                 "ESPNAPIID": "220304020", 
@@ -27844,7 +27888,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Philadelphia 76ers vs. Boston Celtics"
         }, 
         {
@@ -28112,6 +28156,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2002-03-06T00:30:00+00:00", 
             "description": "Los Angeles 101, New Jersey 92", 
+            "game": 4, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220305013", 
@@ -28124,7 +28169,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. New Jersey Nets"
         }, 
         {
@@ -28805,6 +28850,7 @@
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2002-03-09T00:30:00+00:00", 
             "description": "Paul Pierce has a simple explanation for the Boston Celtics' three-game winning streak.", 
+            "game": 5, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "220308002", 
@@ -28814,7 +28860,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Detroit Pistons"
         }, 
         {
@@ -29849,6 +29895,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2002-03-13T21:55:00+00:00", 
             "description": "Paul Pierce scored 32 points and Antoine Walker added 30 as the Celtics inched closer to the Nets atop the Atlantic Division with a 97-89 victory, their season-high sixth straight triumph.", 
+            "game": 6, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "220313002", 
@@ -29858,7 +29905,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. New Jersey Nets"
         }, 
         {
@@ -31510,6 +31557,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-03-20T21:55:00+00:00", 
             "description": "Tim Duncan scored 25 points and a spirited San Antonio defense held Shaquille O'Neal to only two baskets as the Spurs defeated the Los Angeles Lakers 108-90 Wednesday night.", 
+            "game": 5, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "220320024", 
@@ -31521,7 +31569,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Los Angeles Lakers"
         }, 
         {
@@ -31818,6 +31866,7 @@
             }, 
             "awayTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "date": "2002-03-23T00:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "220322002", 
@@ -31829,7 +31878,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Philadelphia 76ers"
         }, 
         {
@@ -31999,6 +32048,7 @@
             "awayTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "date": "2002-03-23T00:30:00+00:00", 
             "description": "Tracy McGrady was carted off on a stretcher after going down with severe back spasms early in Orlando's 106-92 loss to the Charlotte Hornets on Friday night.", 
+            "game": 4, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "220322019", 
@@ -32010,7 +32060,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Charlotte Hornets"
         }, 
         {
@@ -32243,6 +32293,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2002-03-24T17:00:00+00:00", 
             "description": "Ben Wallace set an NBA season high with 28 rebounds, scored 13 points and blocked six shots as the Detroit Pistons beat the Boston Celtics 109-101 Sunday.", 
+            "game": 5, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "220324008", 
@@ -32252,7 +32303,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Detroit Pistons vs. Boston Celtics"
         }, 
         {
@@ -32367,6 +32418,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-03-24T20:30:00+00:00", 
             "description": "Kobe Bryant scored eight of his team's final 10 points and carried the Lakers after Shaquille O'Neal fouled out, leading Los Angeles to a 97-96 victory Sunday over the league's toughest home team.", 
+            "game": 7, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "220324023", 
@@ -32376,7 +32428,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Sacramento Kings vs. Los Angeles Lakers"
         }, 
         {
@@ -32984,6 +33036,7 @@
             }, 
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2002-03-27T21:55:00+00:00", 
+            "game": 4, 
             "homeTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "identity": {
                 "ESPNAPIID": "220327003", 
@@ -32995,7 +33048,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Charlotte Hornets vs. Orlando Magic"
         }, 
         {
@@ -33218,6 +33271,7 @@
             }, 
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2002-03-28T21:55:00+00:00", 
+            "game": 3, 
             "homeTeam": "86a37a58-337c-4ab8-9379-472d38bd7dd0", 
             "identity": {
                 "ESPNAPIID": "220328016", 
@@ -33229,7 +33283,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Minnesota Timberwolves vs. Dallas Mavericks"
         }, 
         {
@@ -33396,6 +33450,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2002-03-29T21:55:00+00:00", 
+            "game": 5, 
             "homeTeam": "ecfd5b18-92ca-4000-abf1-6b736303fdc6", 
             "identity": {
                 "ESPNAPIID": "220329025", 
@@ -33407,7 +33462,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Seattle SuperSonics vs. San Antonio Spurs"
         }, 
         {
@@ -33519,6 +33574,7 @@
             }, 
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2002-03-30T00:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220329013", 
@@ -33530,7 +33586,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Portland Trail Blazers"
         }, 
         {
@@ -33922,6 +33978,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2002-03-31T19:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220331013", 
@@ -33931,7 +33988,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. San Antonio Spurs"
         }, 
         {
@@ -34632,6 +34689,7 @@
             "awayTeam": "ecfd5b18-92ca-4000-abf1-6b736303fdc6", 
             "date": "2002-04-04T00:30:00+00:00", 
             "description": "Tony Parker connected on his only basket of the game, a 16-foot jump shot with 7.1 seconds to play, giving the San Antonio Spurs a 90-88 victory over the Seattle SuperSonics on Wednesday night.", 
+            "game": 5, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "220403024", 
@@ -34643,7 +34701,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "San Antonio Spurs vs. Seattle SuperSonics"
         }, 
         {
@@ -34663,6 +34721,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-04-04T01:00:00+00:00", 
             "description": "After blowing an early 19-point lead and falling behind by eight in the fourth quarter, New Jersey scored 16 of the game's final 22 points to defeat the Los Angeles Lakers 94-92 Wednesday night.", 
+            "game": 4, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220403017", 
@@ -34672,7 +34731,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "New Jersey Nets vs. Los Angeles Lakers"
         }, 
         {
@@ -35002,6 +35061,7 @@
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2002-04-05T20:50:00+00:00", 
             "description": "Chris Webber scored 28 points and Peja Stojakovic had 23 in his return from an eight-game absence as the Sacramento Kings beat the Utah Jazz 117-109 on Friday night.", 
+            "game": 4, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "220405026", 
@@ -35013,7 +35073,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Sacramento Kings"
         }, 
         {
@@ -35493,6 +35553,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2002-04-07T21:55:00+00:00", 
             "description": "The Boston Celtics put the New Jersey Nets' bid for their first NBA division title on hold for a couple of days, and made a little statement in the process.", 
+            "game": 6, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220407017", 
@@ -35502,7 +35563,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "New Jersey Nets vs. Boston Celtics"
         }, 
         {
@@ -37129,6 +37190,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-04-14T18:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "identity": {
                 "ESPNAPIID": "220414022", 
@@ -37138,7 +37200,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs. Los Angeles Lakers"
         }, 
         {
@@ -37220,6 +37282,7 @@
             }, 
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2002-04-14T22:00:00+00:00", 
+            "game": 5, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "220414023", 
@@ -37229,7 +37292,7 @@
             "networks": [], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Sacramento Kings vs. Dallas Mavericks"
         }, 
         {
@@ -38011,6 +38074,7 @@
             }, 
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2002-04-17T23:30:00+00:00", 
+            "game": 7, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220417013", 
@@ -38022,7 +38086,7 @@
             ], 
             "season": "2001", 
             "sport": "Basketball", 
-            "subseason": 0, 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Sacramento Kings"
         }, 
         {
@@ -38099,6 +38163,7 @@
             }, 
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2002-04-20T16:00:00+00:00", 
+            "game": 1, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "220420023", 
@@ -38127,6 +38192,7 @@
             }, 
             "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "date": "2002-04-20T16:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220420017", 
@@ -38155,6 +38221,7 @@
             }, 
             "awayTeam": "ecfd5b18-92ca-4000-abf1-6b736303fdc6", 
             "date": "2002-04-20T23:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "220420024", 
@@ -38183,6 +38250,7 @@
             }, 
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2002-04-21T00:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "identity": {
                 "ESPNAPIID": "220420003", 
@@ -38216,6 +38284,7 @@
             }, 
             "awayTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "date": "2002-04-21T16:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "220421002", 
@@ -38244,6 +38313,7 @@
             }, 
             "awayTeam": "86a37a58-337c-4ab8-9379-472d38bd7dd0", 
             "date": "2002-04-21T18:00:00+00:00", 
+            "game": 1, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "220421006", 
@@ -38277,6 +38347,7 @@
             }, 
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2002-04-21T18:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220421013", 
@@ -38305,6 +38376,7 @@
             }, 
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2002-04-22T00:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "220421008", 
@@ -38335,6 +38407,7 @@
             }, 
             "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "date": "2002-04-22T23:00:00+00:00", 
+            "game": 2, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220422017", 
@@ -38363,6 +38436,7 @@
             }, 
             "awayTeam": "ecfd5b18-92ca-4000-abf1-6b736303fdc6", 
             "date": "2002-04-23T00:30:00+00:00", 
+            "game": 2, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "220422024", 
@@ -38393,6 +38467,7 @@
             }, 
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2002-04-23T21:55:00+00:00", 
+            "game": 2, 
             "homeTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "identity": {
                 "ESPNAPIID": "220423003", 
@@ -38421,6 +38496,7 @@
             }, 
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2002-04-23T23:30:00+00:00", 
+            "game": 2, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "220423023", 
@@ -38449,6 +38525,7 @@
             }, 
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2002-04-24T23:00:00+00:00", 
+            "game": 2, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "220424008", 
@@ -38477,6 +38554,7 @@
             }, 
             "awayTeam": "86a37a58-337c-4ab8-9379-472d38bd7dd0", 
             "date": "2002-04-25T00:30:00+00:00", 
+            "game": 2, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "220424006", 
@@ -38510,6 +38588,7 @@
             }, 
             "awayTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "date": "2002-04-25T21:55:00+00:00", 
+            "game": 2, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "220425002", 
@@ -38543,6 +38622,7 @@
             }, 
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2002-04-25T23:30:00+00:00", 
+            "game": 2, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220425013", 
@@ -38573,6 +38653,7 @@
             }, 
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2002-04-26T23:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "identity": {
                 "ESPNAPIID": "220426011", 
@@ -38601,6 +38682,7 @@
             }, 
             "awayTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "date": "2002-04-27T16:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "220427019", 
@@ -38629,6 +38711,7 @@
             }, 
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2002-04-27T17:00:00+00:00", 
+            "game": 3, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "220427026", 
@@ -38657,6 +38740,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2002-04-27T18:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "ecfd5b18-92ca-4000-abf1-6b736303fdc6", 
             "identity": {
                 "ESPNAPIID": "220427025", 
@@ -38685,6 +38769,7 @@
             }, 
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2002-04-28T00:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "220427028", 
@@ -38718,6 +38803,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2002-04-28T16:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "identity": {
                 "ESPNAPIID": "220428020", 
@@ -38746,6 +38832,7 @@
             }, 
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2002-04-28T18:00:00+00:00", 
+            "game": 3, 
             "homeTeam": "86a37a58-337c-4ab8-9379-472d38bd7dd0", 
             "identity": {
                 "ESPNAPIID": "220428016", 
@@ -38779,6 +38866,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-04-28T18:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "identity": {
                 "ESPNAPIID": "220428022", 
@@ -38807,6 +38895,7 @@
             }, 
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2002-04-29T21:55:00+00:00", 
+            "game": 4, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "220429026", 
@@ -38837,6 +38926,7 @@
             }, 
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2002-04-29T23:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "220429028", 
@@ -38865,6 +38955,7 @@
             }, 
             "awayTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "date": "2002-04-30T23:00:00+00:00", 
+            "game": 4, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "220430019", 
@@ -38893,6 +38984,7 @@
             }, 
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2002-05-01T00:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "identity": {
                 "ESPNAPIID": "220430011", 
@@ -38926,6 +39018,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2002-05-01T21:55:00+00:00", 
+            "game": 4, 
             "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "identity": {
                 "ESPNAPIID": "220501020", 
@@ -38956,6 +39049,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2002-05-01T23:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "ecfd5b18-92ca-4000-abf1-6b736303fdc6", 
             "identity": {
                 "ESPNAPIID": "220501025", 
@@ -38985,6 +39079,7 @@
             "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "date": "2002-05-02T23:00:00+00:00", 
             "description": "In a game certain to become a classic, the Nets survived another heroic effort by Reggie Miller and outlasted the Indiana Pacers in double overtime, 120-109, in Game Five of their Eastern Conference first-round series.", 
+            "game": 5, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220502017", 
@@ -39015,6 +39110,7 @@
             }, 
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2002-05-03T00:30:00+00:00", 
+            "game": 5, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "220502008", 
@@ -39049,6 +39145,7 @@
             "awayTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "date": "2002-05-03T23:00:00+00:00", 
             "description": "Paul Pierce scored 29 of his playoff career-high 46 points in the first half and decisively outdueled Allen Iverson as the Celtics routed the Philadelphia 76ers, 120-87, in Game Five of their Eastern Conference first-round series.", 
+            "game": 5, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "220503002", 
@@ -39078,6 +39175,7 @@
             "awayTeam": "ecfd5b18-92ca-4000-abf1-6b736303fdc6", 
             "date": "2002-05-04T00:30:00+00:00", 
             "description": "Tim Duncan returned and the San Antonio Spurs are headed back to the Western Conference semifinals.", 
+            "game": 5, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "220503024", 
@@ -39108,6 +39206,7 @@
             }, 
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2002-05-04T19:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "220504023", 
@@ -39136,6 +39235,7 @@
             }, 
             "awayTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "date": "2002-05-05T16:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220505017", 
@@ -39164,6 +39264,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2002-05-05T18:30:00+00:00", 
+            "game": 1, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220505013", 
@@ -39192,6 +39293,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2002-05-05T19:00:00+00:00", 
+            "game": 1, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "220505008", 
@@ -39220,6 +39322,7 @@
             }, 
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2002-05-06T22:00:00+00:00", 
+            "game": 2, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "220506023", 
@@ -39248,6 +39351,7 @@
             }, 
             "awayTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "date": "2002-05-07T21:55:00+00:00", 
+            "game": 2, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220507017", 
@@ -39276,6 +39380,7 @@
             }, 
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2002-05-07T23:30:00+00:00", 
+            "game": 2, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220507013", 
@@ -39306,6 +39411,7 @@
             }, 
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2002-05-08T21:55:00+00:00", 
+            "game": 2, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "220508008", 
@@ -39337,6 +39443,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2002-05-09T23:00:00+00:00", 
             "description": "Charlotte 115, New Jersey 97", 
+            "game": 3, 
             "homeTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "identity": {
                 "ESPNAPIID": "220509003", 
@@ -39366,6 +39473,7 @@
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2002-05-10T00:30:00+00:00", 
             "description": "Sacramento 125, Dallas 119", 
+            "game": 3, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "220509006", 
@@ -39394,6 +39502,7 @@
             }, 
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2002-05-10T23:00:00+00:00", 
+            "game": 3, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "220510002", 
@@ -39422,6 +39531,7 @@
             }, 
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-05-11T00:30:00+00:00", 
+            "game": 3, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "220510024", 
@@ -39452,6 +39562,7 @@
             }, 
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2002-05-11T18:30:00+00:00", 
+            "game": 4, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "220511006", 
@@ -39481,6 +39592,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2002-05-12T16:30:00+00:00", 
             "description": "New Jersey 89, Charlotte 79", 
+            "game": 4, 
             "homeTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "identity": {
                 "ESPNAPIID": "220512003", 
@@ -39510,6 +39622,7 @@
             "awayTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "date": "2002-05-12T19:00:00+00:00", 
             "description": "Boston 90, Detroit 79", 
+            "game": 4, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "220512002", 
@@ -39539,6 +39652,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-05-12T20:30:00+00:00", 
             "description": "Los Angeles 87, San Antonio 85", 
+            "game": 4, 
             "homeTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "identity": {
                 "ESPNAPIID": "220512024", 
@@ -39568,6 +39682,7 @@
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2002-05-13T22:00:00+00:00", 
             "description": "Sacramento 114, Dallas 101", 
+            "game": 5, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "220513023", 
@@ -39597,6 +39712,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2002-05-14T21:55:00+00:00", 
             "description": "Boston 90, Detroit 81", 
+            "game": 5, 
             "homeTeam": "5f385057-4fb5-4905-80eb-3686f2ac4591", 
             "identity": {
                 "ESPNAPIID": "220514008", 
@@ -39626,6 +39742,7 @@
             "awayTeam": "4702b00e-07c0-48f5-865e-4f048872b6b2", 
             "date": "2002-05-14T23:30:00+00:00", 
             "description": "Los Angeles 93, San Antonio 87", 
+            "game": 5, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220514013", 
@@ -39657,6 +39774,7 @@
             "awayTeam": "328d31c9-6c76-4b91-93d9-73792b9c33ff", 
             "date": "2002-05-15T21:55:00+00:00", 
             "description": "Jason Kidd scored 23 points and made several plays in the fourth quarter that swung the momentum New Jersey's way as the Nets defeated the Hornets 103-95 Wednesday night, ending the Hornets' 14-year existence in Charlotte.", 
+            "game": 5, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220515017", 
@@ -39686,6 +39804,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-05-18T19:30:00+00:00", 
             "description": "Los Angeles 106, Sacramento 99", 
+            "game": 1, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "220518023", 
@@ -39715,6 +39834,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2002-05-19T21:30:00+00:00", 
             "description": "They ran at every opportunity, scored with ease and never trailed. And with Jason Kidd doing everything he has done all season, the New Jersey Nets showed exactly why they're the No. 1 team in the East.", 
+            "game": 1, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220519017", 
@@ -39744,6 +39864,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-05-20T22:30:00+00:00", 
             "description": "After their first road playoff loss in nearly two years, the Los Angeles Lakers finally might have a challenge on their hands.", 
+            "game": 2, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "220520023", 
@@ -39773,6 +39894,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2002-05-22T00:30:00+00:00", 
             "description": "Stopping the Nets from running and remembering how to rebound, the Celtics made a defensive stand while taking control in the third quarter and defeated New Jersey 93-86 on Tuesday night to even the Eastern Conference finals at one game apiece.", 
+            "game": 2, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220521017", 
@@ -39802,6 +39924,7 @@
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2002-05-24T22:00:00+00:00", 
             "description": "Chris Webber had 26 points and nine rebounds and Mike Bibby scored 24 points as the Kings rolled to a 103-90 victory over the Los Angeles Lakers in Game Three of the Western Conference finals.", 
+            "game": 3, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220524013", 
@@ -39831,6 +39954,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2002-05-25T21:30:00+00:00", 
             "description": "Paul Pierce and the Boston Celtics pulled off the greatest fourth-quarter comeback in NBA playoff history.", 
+            "game": 3, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "220525002", 
@@ -39860,6 +39984,7 @@
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2002-05-26T18:30:00+00:00", 
             "description": "Robert Horry and the Los Angeles Lakers seem determined to make their third championship run as cinematic as possible.", 
+            "game": 4, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220526013", 
@@ -39889,6 +40014,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2002-05-27T21:30:00+00:00", 
             "description": "New Jersey 94, Boston 92", 
+            "game": 4, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "220527002", 
@@ -39918,6 +40044,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-05-28T22:00:00+00:00", 
             "description": "Sacramento 92, Los Angeles 91", 
+            "game": 5, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "220528023", 
@@ -39947,6 +40074,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2002-05-30T01:00:00+00:00", 
             "description": "With each game that passes, the New Jersey Nets respond even more impressively to the Boston Celtics' frantic comebacks.", 
+            "game": 5, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220529017", 
@@ -39976,6 +40104,7 @@
             "awayTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "date": "2002-05-31T22:30:00+00:00", 
             "description": "Shaquille O'Neal manhandled his way to 41 points and 17 rebounds as the two-time defending champion Los Angeles Lakers staved off elimination with a 106-102 victory over the Sacramento Kings.", 
+            "game": 6, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220531013", 
@@ -40005,6 +40134,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2002-05-31T23:00:00+00:00", 
             "description": "For the first time in NBA history, the road to the Larry O'Brien Trophy will require a stop at Exit 16W off the Jersey Turnpike.", 
+            "game": 6, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "220531002", 
@@ -40034,6 +40164,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-06-02T20:30:00+00:00", 
             "description": "Shaquille O'Neal and Derek Fisher came through in the clutch for the Lakers on a night when Kobe Bryant didn't make a basket in either the fourth quarter or overtime, sending the Lakers back to the championship round with a 112-106 victory over the Kings.", 
+            "game": 7, 
             "homeTeam": "8e86fbdd-5af1-4aa9-9896-b9d42f3f5cec", 
             "identity": {
                 "ESPNAPIID": "220602023", 
@@ -40068,6 +40199,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2002-06-05T22:00:00+00:00", 
             "description": "Shaquille O'Neal powered his way to 36 points, 16 rebounds and four blocks as he lifted the Lakers to a 99-94 victory and delivered another very rude introduction to the upstarts from the Eastern Conference.", 
+            "game": 1, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220605013", 
@@ -40102,6 +40234,7 @@
             "awayTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "date": "2002-06-07T22:00:00+00:00", 
             "description": "Shaquille O'Neal again overwhelmed the Nets with 40 points, 12 rebounds and eight assists as the Los Angeles Lakers took command of the NBA Finals with a front-running 106-83 victory.", 
+            "game": 2, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "220607013", 
@@ -40131,6 +40264,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-06-10T00:30:00+00:00", 
             "description": "During his pregame news conference, New Jersey Nets coach Byron Scott offered his thoughts on just how dominant Shaquille O'Neal is.", 
+            "game": 3, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220609017", 
@@ -40160,6 +40294,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2002-06-13T01:00:00+00:00", 
             "description": "Phil Jackson tied Red Auerbach for most NBA titles Wednesday when his Lakers won their third straight championship -- and Jackson's ninth as an NBA head coach -- with a 113-107 victory over the Nets.", 
+            "game": 4, 
             "homeTeam": "51147c34-3c84-4a50-813e-7c186a3b7997", 
             "identity": {
                 "ESPNAPIID": "220612017", 

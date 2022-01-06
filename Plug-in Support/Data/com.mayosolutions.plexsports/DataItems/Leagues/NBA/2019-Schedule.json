@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "NBA2019SCHEDULE", 
-        "CachedOn": "2022-01-04T15:46:53", 
-        "ExpiresOn": "2022-01-11T15:46:53", 
+        "CachedOn": "2022-01-06T19:47:05", 
+        "ExpiresOn": "2022-01-13T19:47:05", 
         "Version": "2"
     }, 
     "Items": [
@@ -1349,6 +1349,7 @@
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2019-10-11T02:30:00+00:00", 
             "description": "Nikola Jokic racks up a double-double with 10 points and 11 rebounds as Denver tops Los Angeles. Jokic: 10 Pts, 11 Reb, 3 Ast, 3 Stl", 
+            "game": 7, 
             "homeTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "identity": {
                 "ESPNAPIID": "401163148", 
@@ -2747,6 +2748,7 @@
             "awayTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "date": "2019-10-18T02:30:00+00:00", 
             "description": "Kristaps Porzingis scores 18 points as the Mavericks get the win over the Clippers in Vancouver, 102-87. Porzingis: 18 Pts, 13 Reb | Doncic: 15 Pts", 
+            "game": 6, 
             "homeTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "identity": {
                 "ESPNAPIID": "401163185", 
@@ -2830,6 +2832,7 @@
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2019-10-18T23:30:00+00:00", 
             "description": "Kyrie Irving returns from injury and scores a game-high 19 points as the Nets fall to the Raptors 123-107. Anunoby: 18 Pts | Irving: 19 Pts, 25 Min", 
+            "game": 4, 
             "homeTeam": "e719a308-7fd2-4ea0-aaf6-961f27b5ee77", 
             "identity": {
                 "ESPNAPIID": "401163187", 
@@ -3339,6 +3342,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2019-10-23T23:30:00+00:00", 
             "description": "Philadelphia handles Boston as Ben Simmons scores 24 points, 8 rebounds and 9 assists. Simmons: 24 Pts, 9 Ast | Harris: 15 Pts, 15 Reb", 
+            "game": 4, 
             "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "identity": {
                 "ESPNAPIID": "401160630", 
@@ -3716,6 +3720,52 @@
             "vs": "Golden State Warriors vs. LA Clippers"
         }, 
         {
+            "altDescription": "Brown, Tatum: 25 points | Siakam: 33 points", 
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.youtube.com/watch?v=hC1QUAu4_Ms"
+                    }
+                ], 
+                "thumbnail": [
+                    {
+                        "source": "nbaapi", 
+                        "url": "https://cdn.nba.com/manage/2019/10/0021900017_BOS_BROWN_REX-scaled.jpg"
+                    }, 
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/y1kjnw1585936951.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
+            "date": "2019-10-25T23:00:00+00:00", 
+            "description": "Jaylen Brown scores 25 points and grabs 9 rebounds as the Celtics beat the Raptors 112-106, Brown, Tatum: 25 Points | Siakam: 33 Points", 
+            "game": 7, 
+            "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
+            "identity": {
+                "ESPNAPIID": "401160659", 
+                "NBAAPIID": "0021900017", 
+                "TheSportsDBID": "611733"
+            }, 
+            "league": "NBA", 
+            "networks": [
+                "TSN", 
+                "CSNN"
+            ], 
+            "notes": "Brown, Tatum: 25 points | Siakam: 33 points", 
+            "playoffround": 1, 
+            "season": "2019", 
+            "sport": "Basketball", 
+            "subseason": 1, 
+            "vs": "Boston Celtics vs. Toronto Raptors"
+        }, 
+        {
             "assets": {
                 "banner": [], 
                 "fanArt": [], 
@@ -3845,51 +3895,6 @@
             "season": "2019", 
             "sport": "Basketball", 
             "vs": "Brooklyn Nets vs. New York Knicks"
-        }, 
-        {
-            "altDescription": "Brown, Tatum: 25 points | Siakam: 33 points", 
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.youtube.com/watch?v=hC1QUAu4_Ms"
-                    }
-                ], 
-                "thumbnail": [
-                    {
-                        "source": "nbaapi", 
-                        "url": "https://cdn.nba.com/manage/2019/10/0021900017_BOS_BROWN_REX-scaled.jpg"
-                    }, 
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/y1kjnw1585936951.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
-            "date": "2019-10-25T23:00:00+00:00", 
-            "description": "Jaylen Brown scores 25 points and grabs 9 rebounds as the Celtics beat the Raptors 112-106, Brown, Tatum: 25 Points | Siakam: 33 Points", 
-            "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
-            "identity": {
-                "ESPNAPIID": "401160659", 
-                "NBAAPIID": "0021900017", 
-                "TheSportsDBID": "611733"
-            }, 
-            "league": "NBA", 
-            "networks": [
-                "TSN", 
-                "CSNN"
-            ], 
-            "notes": "Brown, Tatum: 25 points | Siakam: 33 points", 
-            "playoffround": 1, 
-            "season": "2019", 
-            "sport": "Basketball", 
-            "subseason": 1, 
-            "vs": "Boston Celtics vs. Toronto Raptors"
         }, 
         {
             "altDescription": "LaVine: 37 points | White: 25 points", 
@@ -4179,6 +4184,7 @@
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2019-10-26T21:00:00+00:00", 
             "description": "Goran Dragic scores 25 points and grabs 6 rebounds as the Heat beat the Bucks 131-126. Adebayo: 19 Points, 13 Rebounds, 8 Assists", 
+            "game": 5, 
             "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "identity": {
                 "ESPNAPIID": "401160668", 
@@ -4193,6 +4199,7 @@
             "notes": "Adebayo: 19 points, 13 rebounds, 8 assists", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Miami Heat"
         }, 
         {
@@ -4984,6 +4991,7 @@
             "awayTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "date": "2019-10-29T00:00:00+00:00", 
             "description": "James Harden scores 40 points and records 7 assists as the Rockets beat the Thunder 116-112. Harden: 40 Points, 7 Assists, 3 Rebounds", 
+            "game": 7, 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
                 "ESPNAPIID": "401160687", 
@@ -4997,6 +5005,7 @@
             "notes": "Harden: 40 points, 7 assists, 3 rebounds", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Oklahoma City Thunder"
         }, 
         {
@@ -6034,6 +6043,7 @@
             "awayTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "date": "2019-11-01T23:00:00+00:00", 
             "description": "Giannis Antetokounmpo led the way for Milwaukee with 29 points and 14 rebounds as the Bucks beat the Magic, 123-91. Giannis: 29 Pts, 14 Reb, 6 Ast", 
+            "game": 5, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "401160713", 
@@ -6048,6 +6058,7 @@
             "notes": "Giannis: 29 pts, 14 reb, 6 ast", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Milwaukee Bucks"
         }, 
         {
@@ -8048,6 +8059,7 @@
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2019-11-09T03:30:00+00:00", 
             "description": "Anthony Davis scores 26 points and grabs 8 rebounds as the Lakers beat the Heat 95-80. Davis: 26 Pts, 8 Reb, 7 Ast, 2 Stl, 3 Blk", 
+            "game": 6, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "401160768", 
@@ -8063,6 +8075,7 @@
             "notes": "Davis: 26 pts, 8 reb, 7 ast, 2 stl, 3 blk", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Miami Heat"
         }, 
         {
@@ -12539,6 +12552,7 @@
             "awayTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "date": "2019-11-27T01:30:00+00:00", 
             "description": "Kawhi Leonard and Paul George combine for 54 points as Los Angeles cruises past Dallas, 114-99. Leonard: 28 Pts, 8 Reb | Doncic: 22 Pts (0-8 3fg)", 
+            "game": 6, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "401160893", 
@@ -12554,6 +12568,7 @@
             "notes": "Leonard: 28 pts, 8 reb | Doncic: 22 pts (0-8 3FG)", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. LA Clippers"
         }, 
         {
@@ -14382,6 +14397,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2019-12-04T02:00:00+00:00", 
             "description": "Anthony Davis scores 25 points and grabs 10 rebounds as the Lakers beat the Nuggets 105-96. James: 25 Pts, 9 Ast | Davis: 25 Pts, 10 Reb", 
+            "game": 5, 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "401160946", 
@@ -14396,6 +14412,7 @@
             "notes": " James: 25 pts, 9 ast | Davis: 25 pts, 10 reb", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. Los Angeles Lakers"
         }, 
         {
@@ -14583,6 +14600,7 @@
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2019-12-05T00:30:00+00:00", 
             "description": "Jaylen Brown led Boston with 31 points as the Celtics beat the Heat, 112-93. Brown: 31 Pts (Season High) | Walker: 28 Pts, 7 Ast", 
+            "game": 6, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "401160952", 
@@ -14597,6 +14615,7 @@
             "notes": "Brown: 31 pts (season high) | Walker: 28 pts, 7 ast", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Miami Heat"
         }, 
         {
@@ -15243,6 +15262,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2019-12-07T03:30:00+00:00", 
             "description": "Anthony Davis scores 39 points and grabs 9 rebounds as the Lakers beat the Blazers, 136-113. Davis: 39 Points | James: 31 Points, 8 Assists", 
+            "game": 5, 
             "homeTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "identity": {
                 "ESPNAPIID": "401160971", 
@@ -15258,6 +15278,7 @@
             "notes": "Davis: 39 points | James: 31 points, 8 assists", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs. Los Angeles Lakers"
         }, 
         {
@@ -15863,6 +15884,7 @@
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2019-12-10T01:00:00+00:00", 
             "description": "Milwaukee extends its win streak with a 110-101 win over Orlando as Giannis Antetokounmpo puts up 32 points and 15 rebounds. Giannis: 32 Pts, 15 Reb, 8 Ast | Mil: 15th Straight Win", 
+            "game": 5, 
             "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "identity": {
                 "ESPNAPIID": "401160989", 
@@ -15878,6 +15900,7 @@
             "notes": "Giannis: 32 pts, 15 reb, 8 ast | MIL: 15th straight win", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Orlando Magic"
         }, 
         {
@@ -16561,6 +16584,7 @@
             "awayTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "date": "2019-12-13T01:00:00+00:00", 
             "description": "Joel Embiid scores 38 points, grabs 13 rebounds, and 6 assists as Sixers beat the Celtics 115-109. Embiid: Season-high 38 Points, 13 Rebounds", 
+            "game": 4, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "401161009", 
@@ -16575,6 +16599,7 @@
             "notes": "Embiid: Season-high 38 points, 13 rebounds", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Philadelphia 76ers"
         }, 
         {
@@ -16706,6 +16731,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2019-12-14T00:00:00+00:00", 
             "description": "Anthony Davis leads Los Angeles past Miami for the win on a Friday night, 113-110, Lebron: 28 Points, 12 Assists | Davis: 33 Points, 10 Rebounds", 
+            "game": 6, 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "401161016", 
@@ -16720,6 +16746,7 @@
             "notes": "LeBron: 28 points, 12 assists | Davis: 33 points, 10 rebounds", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Los Angeles Lakers"
         }, 
         {
@@ -17055,6 +17082,7 @@
             "awayTeam": "e719a308-7fd2-4ea0-aaf6-961f27b5ee77", 
             "date": "2019-12-15T00:30:00+00:00", 
             "description": "Pascal Siakam scores 30 points grabs 10 rebounds, and 5 assists as the Raptors beat the Nets 110-102. Siakam: 30 Pts | Dinwiddie: 24 Pts", 
+            "game": 4, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "401161023", 
@@ -17070,6 +17098,7 @@
             "notes": "Siakam: 30 pts | Dinwiddie: 24 pts", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Brooklyn Nets"
         }, 
         {
@@ -19197,6 +19226,7 @@
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2019-12-23T02:30:00+00:00", 
             "description": "Paul Millsap leads a balanced Nuggets attack scoring 21 points, Nikola Jokic adds 18 points and six rebounds as the Nuggets top the Lakers, 128-104. Millsap: 21 Points | Davis: 32 Points, 11 Rebounds", 
+            "game": 5, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "401161085", 
@@ -19212,6 +19242,7 @@
             "notes": "Millsap: 21 points | Davis: 32 points, 11 rebounds", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Denver Nuggets"
         }, 
         {
@@ -19617,6 +19648,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2019-12-25T17:00:00+00:00", 
             "description": "Jaylen Brown leads Boston past Toronto on Christmas day. Brown: 30 Points on 10-of-13 Shooting", 
+            "game": 7, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "401161097", 
@@ -19632,6 +19664,7 @@
             "notes": "Brown: 30 points on 10-of-13 shooting", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Boston Celtics"
         }, 
         {
@@ -20133,6 +20166,7 @@
             "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "date": "2019-12-28T01:00:00+00:00", 
             "description": "Goran Dragic scored in the lane with 6.8 seconds remaining to cap a wild finish, and the Miami Heat improved the NBA\u2019s best home record to 14-1 by defeating the Indiana Pacers 113-112 on Friday night. Adebayo: 18 Points, 15 Rebounds, 6 Assists", 
+            "game": 4, 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "401161112", 
@@ -20147,6 +20181,7 @@
             "notes": "Adebayo: 18 points, 15 rebounds, 6 assists", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Indiana Pacers"
         }, 
         {
@@ -20239,6 +20274,7 @@
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2019-12-29T00:00:00+00:00", 
             "description": "Kyle Lowry scores 30 points and hands out seven assists to lead Toronto past Boston, 113-97. Lowry: 30 Points | Ibaka: 20 Points, 10 Rebounds", 
+            "game": 7, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "401161115", 
@@ -20253,6 +20289,7 @@
             "notes": "Lowry: 30 points | Ibaka: 20 points, 10 rebounds", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Toronto Raptors"
         }, 
         {
@@ -20513,6 +20550,7 @@
             "awayTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "date": "2019-12-29T01:30:00+00:00", 
             "description": "Kris Middleton leads Milwaukee past Orlando on Saturday night. Middleton: 21 Points | Isaac: 19 Pts, 8 Reb, 8 Stl", 
+            "game": 5, 
             "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "identity": {
                 "ESPNAPIID": "401161122", 
@@ -20527,6 +20565,7 @@
             "notes": "Middleton: 21 points | Isaac: 19 pts, 8 reb, 8 stl", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Orlando Magic"
         }, 
         {
@@ -20619,6 +20658,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2019-12-29T03:00:00+00:00", 
             "description": "Lebron James leads the Lakers past Portland on Saturday night. James: 21 Points, 16 Assists | Lillard: 31 Points", 
+            "game": 5, 
             "homeTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "identity": {
                 "ESPNAPIID": "401161126", 
@@ -20633,6 +20673,7 @@
             "notes": "James: 21 points, 16 assists | Lillard: 31 points", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Portland Trail Blazers vs. Los Angeles Lakers"
         }, 
         {
@@ -22035,6 +22076,7 @@
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2020-01-04T23:00:00+00:00", 
             "description": "Fred VanVleet leads Toronto to the win over Brooklyn, 121-102, Dinwiddie: 23 Points | Vanvleet: 29 Pts, 11 Ast", 
+            "game": 4, 
             "homeTeam": "e719a308-7fd2-4ea0-aaf6-961f27b5ee77", 
             "identity": {
                 "ESPNAPIID": "401161166", 
@@ -22049,6 +22091,7 @@
             "notes": "Dinwiddie: 23 points | VanVleet: 29 pts, 11 ast", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Brooklyn Nets vs. Toronto Raptors"
         }, 
         {
@@ -23191,6 +23234,7 @@
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2020-01-09T00:00:00+00:00", 
             "description": "Miami gets the victory against Indiana Bam Adebayo leads the Heat with 18 points and 9 rebounds, 122-108, Adebayo: 18 Pts, 9 Reb | Sabonis: 27 Pts, 14 Reb", 
+            "game": 4, 
             "homeTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "identity": {
                 "ESPNAPIID": "401161198", 
@@ -23205,6 +23249,7 @@
             "notes": "Adebayo: 18 pts, 9 reb | Sabonis: 27 pts, 14 reb", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Indiana Pacers vs. Miami Heat"
         }, 
         {
@@ -23483,6 +23528,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2020-01-09T23:00:00+00:00", 
             "description": "Josh Richardson scores 29 points, 7 assists, and grabs 3 rebounds as the Sixers beat the Celtics 109-98. Richardson: 29 Points, 7 Assists, 3 Rebounds", 
+            "game": 4, 
             "homeTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "identity": {
                 "ESPNAPIID": "401161206", 
@@ -23497,6 +23543,7 @@
             "notes": "Richardson: 29 points, 7 assists, 3 rebounds", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Philadelphia 76ers vs. Boston Celtics"
         }, 
         {
@@ -23551,6 +23598,7 @@
             "awayTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "date": "2020-01-10T02:30:00+00:00", 
             "description": "Danilo Gallinari scores 23 points, grabs 11 rebounds, and 4 assists as the Thunder beat the Rockets 113-92. Gallinari: 23 Points, 11 Rebounds, 4 Assists", 
+            "game": 7, 
             "homeTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "identity": {
                 "ESPNAPIID": "401161208", 
@@ -23564,6 +23612,7 @@
             "notes": "Gallinari: 23 points, 11 rebounds, 4 assists", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Oklahoma City Thunder vs. Houston Rockets"
         }, 
         {
@@ -24347,6 +24396,7 @@
             "awayTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "date": "2020-01-13T01:00:00+00:00", 
             "description": "Nikola Jokic scores 20 points, grabs 15 rebounds, and six assists as the Nuggets beat the Clippers 114-104. Jokic: 20 Points, 15 Rebounds | Leonard: 30 Pts", 
+            "game": 7, 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "401161231", 
@@ -24361,6 +24411,7 @@
             "notes": "Jokic: 20 points, 15 rebounds | Leonard: 30 pts", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. LA Clippers"
         }, 
         {
@@ -25961,6 +26012,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2020-01-19T01:30:00+00:00", 
             "description": "LeBron James and Los Angeles secure the win against Houston, 124-115. Lebron: 31 Points, 12 Assists | Westbrook: 35 Pts", 
+            "game": 5, 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
                 "ESPNAPIID": "401161275", 
@@ -25974,6 +26026,7 @@
             "notes": "LeBron: 31 points, 12 assists | Westbrook: 35 pts", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Los Angeles Lakers"
         }, 
         {
@@ -26306,6 +26359,7 @@
             "awayTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "date": "2020-01-20T22:00:00+00:00", 
             "description": "Danilo Gallinari scores 25 points as the Thunder get the win over the Rockets, 112-107. Paul: 28 Pts | Westbrook: 32 Pts, 11 Reb, 12 Ast", 
+            "game": 7, 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
                 "ESPNAPIID": "401161287", 
@@ -26319,6 +26373,7 @@
             "notes": "Paul: 28 pts | Westbrook: 32 pts, 11 reb, 12 ast", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Oklahoma City Thunder"
         }, 
         {
@@ -26609,6 +26664,7 @@
             "awayTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "date": "2020-01-22T01:30:00+00:00", 
             "description": "Kawhi Leonard scores 36 points with 11 rebounds, three steals and two blocks to lead the Clippers over the Mavericks, 110-107. Leonard: 36 Pts, 11 Reb | Doncic: 36 Pts, 9 Ast", 
+            "game": 6, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "401161295", 
@@ -26624,6 +26680,7 @@
             "notes": "Leonard: 36 pts, 11 reb | Doncic: 36 pts, 9 ast", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. LA Clippers"
         }, 
         {
@@ -28351,6 +28408,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2020-01-29T01:00:00+00:00", 
             "description": "Gordon Hayward leads Boston past Miami with 29 points and 9 rebounds on Tuesday night. Hayward: 29 Pts, 9 Reb | Brown: 25 Pts", 
+            "game": 6, 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "401161343", 
@@ -28364,6 +28422,7 @@
             "notes": "Hayward: 29 pts, 9 reb | Brown: 25 pts", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Boston Celtics"
         }, 
         {
@@ -28824,6 +28883,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2020-01-31T03:30:00+00:00", 
             "description": "The Nuggets beat the Jazz 106-100 thanks to Nikola Jokic's 28 points and 10 assists.", 
+            "game": 7, 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "401161360", 
@@ -28836,6 +28896,7 @@
             ], 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. Utah Jazz"
         }, 
         {
@@ -29134,6 +29195,7 @@
             "awayTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "date": "2020-02-01T03:30:00+00:00", 
             "description": "Damian Lillard drops a game-high 48 points and adds 9 rebounds and 10 assists as Portland comes out on top against LA, 127-119. Lillard: 48 Points, 9 Rebounds, 10 Assists", 
+            "game": 5, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "401161368", 
@@ -29149,6 +29211,7 @@
             "notes": "Lillard: 48 points, 9 rebounds, 10 assists", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Portland Trail Blazers"
         }, 
         {
@@ -29367,6 +29430,7 @@
             "awayTeam": "90cd92a1-05a8-489a-9d74-a78aa82afc00", 
             "date": "2020-02-02T01:30:00+00:00", 
             "description": "Jaylen Brown leads the way with 32 points and nine boards as Boston beat Philadelphia, 116-95. Brown: 32 Points, 9 Rebounds | Tatum: 25 Points", 
+            "game": 4, 
             "homeTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "identity": {
                 "ESPNAPIID": "401161374", 
@@ -29380,6 +29444,7 @@
             "notes": "Brown: 32 points, 9 rebounds | Tatum: 25 points", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Boston Celtics vs. Philadelphia 76ers"
         }, 
         {
@@ -30468,6 +30533,7 @@
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2020-02-06T02:00:00+00:00", 
             "description": "Jamal Murray had a game-high 31 points in the Nuggets 98-95 win over the Jazz. Jokic: 30 Points, 21 Rebounds, 10 Assists", 
+            "game": 7, 
             "homeTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "identity": {
                 "ESPNAPIID": "401161404", 
@@ -30482,6 +30548,7 @@
             "notes": "Jokic: 30 points, 21 rebounds, 10 assists", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Utah Jazz vs. Denver Nuggets"
         }, 
         {
@@ -30709,6 +30776,7 @@
             "awayTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "date": "2020-02-07T03:30:00+00:00", 
             "description": "Russell Westbrook leads all scorers with 41 points to go along with 8 rebounds and 5 assists in Houston's 121-111 victory against LA. Westbrook: 41 Points, Surpasses 20,000 for Career", 
+            "game": 5, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "401161410", 
@@ -30722,6 +30790,7 @@
             "notes": "Westbrook: 41 points, surpasses 20,000 for career", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Houston Rockets"
         }, 
         {
@@ -31046,6 +31115,7 @@
             "awayTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "date": "2020-02-08T22:00:00+00:00", 
             "description": "Giannis Antetokounmpo scores 19 points and grabs 18 rebounds to lead Milwaukee past Orlando, 111-95. Antetokounmpo: 19 Points, 18 Rebounds, 9 Assists", 
+            "game": 5, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "401161419", 
@@ -31060,6 +31130,7 @@
             "notes": "Antetokounmpo: 19 points, 18 rebounds, 9 assists", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Orlando Magic vs. Milwaukee Bucks"
         }, 
         {
@@ -31181,6 +31252,7 @@
             "awayTeam": "e719a308-7fd2-4ea0-aaf6-961f27b5ee77", 
             "date": "2020-02-09T00:30:00+00:00", 
             "description": "Fred VanVleet scores 29 points as Toronto beat Brooklyn, 119-118. Vanvleet: 29 Points | Levert: Career-high 37 Pts", 
+            "game": 4, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "401161423", 
@@ -31195,6 +31267,7 @@
             "notes": "VanVleet: 29 points | LeVert: Career-high 37 pts", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Brooklyn Nets"
         }, 
         {
@@ -32176,6 +32249,7 @@
             "awayTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "date": "2020-02-13T00:30:00+00:00", 
             "description": "Caris LeVert leads with 20 points as Brooklyn beat Toronto, 101-91. Nets Snap Raptors' Win Streak at 15", 
+            "game": 4, 
             "homeTeam": "e719a308-7fd2-4ea0-aaf6-961f27b5ee77", 
             "identity": {
                 "ESPNAPIID": "401161451", 
@@ -32190,6 +32264,7 @@
             "notes": "Nets snap Raptors' win streak at 15", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Brooklyn Nets vs. Toronto Raptors"
         }, 
         {
@@ -32470,6 +32545,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2020-02-13T03:00:00+00:00", 
             "description": "The Lakers edge the Nuggets in overtime, 120-116, as LeBron James puts up a triple-double with 32 points, 12 rebounds and 14 assists. James: 32 Pts, 12 Reb, 14 Ast | Davis: 33 Points", 
+            "game": 5, 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "401161459", 
@@ -32485,6 +32561,7 @@
             "notes": "James: 32 pts, 12 reb, 14 ast | Davis: 33 points", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. Los Angeles Lakers"
         }, 
         {
@@ -35017,6 +35094,7 @@
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2020-02-29T03:30:00+00:00", 
             "description": "Paul George scores 24 as the Clippers get the win over the Nuggets, 132-103. George: 24 Pts | Harrell: 18 Pts, 10 Reb", 
+            "game": 7, 
             "homeTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "identity": {
                 "ESPNAPIID": "401161528", 
@@ -35032,6 +35110,7 @@
             "notes": "George: 24 pts | Harrell: 18 pts, 10 reb", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "LA Clippers vs. Denver Nuggets"
         }, 
         {
@@ -35727,6 +35806,7 @@
             "awayTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "date": "2020-03-03T00:30:00+00:00", 
             "description": "Miami grabs the win at home against Milwaukee with Jimmy Butler leading them to victory, 105-89. Butler: 18 Pts, 7 Ast | Mil: 20.4 3fg% (7-for-34)", 
+            "game": 5, 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "401161548", 
@@ -35742,6 +35822,7 @@
             "notes": "Butler: 18 pts, 7 ast | MIL: 20.4 3FG% (7-for-34)", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Milwaukee Bucks"
         }, 
         {
@@ -40977,6 +41058,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2020-08-04T22:30:00+00:00", 
             "description": "Bam Adebayo scores a double-double of 21 points and 12 rebounds as Miami beat Boston, 111-106. Adebayo: 21 Points, 12 Rebounds", 
+            "game": 6, 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "401224735", 
@@ -40992,6 +41074,7 @@
             "notes": "Adebayo: 21 points, 12 rebounds", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Boston Celtics"
         }, 
         {
@@ -41366,6 +41449,7 @@
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2020-08-06T20:00:00+00:00", 
             "description": "Giannis Antetokounmpo and Khris Middleton both finish with 33 points as the Bucks put out the Heat. Antetokounmpo, Middleton Combine for 66 Pts", 
+            "game": 5, 
             "homeTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "identity": {
                 "ESPNAPIID": "401224744", 
@@ -41381,6 +41465,7 @@
             "notes": "Antetokounmpo, Middleton combine for 66 pts", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Milwaukee Bucks vs. Miami Heat"
         }, 
         {
@@ -41453,6 +41538,7 @@
             "awayTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "date": "2020-08-06T22:30:00+00:00", 
             "description": "Kawhi Leonard and Paul George combine for 53 points as LA takes it against Dallas. Leonard: 29 Pts | Porzingis: 30 Pts", 
+            "game": 6, 
             "homeTeam": "5035430e-9edc-43c2-a84a-c07af9a305ce", 
             "identity": {
                 "ESPNAPIID": "401224746", 
@@ -41468,6 +41554,7 @@
             "notes": "Leonard: 29 pts | Porzingis: 30 pts", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Dallas Mavericks vs. LA Clippers"
         }, 
         {
@@ -41540,6 +41627,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2020-08-07T01:00:00+00:00", 
             "description": "James Harden notches a double-double with 39 points and 12 assists as Houston beats Los Angeles. Harden: 39 Pts, 12 Ast, 8 Reb", 
+            "game": 5, 
             "homeTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "identity": {
                 "ESPNAPIID": "401224748", 
@@ -41554,6 +41642,7 @@
             "notes": "Harden: 39 pts, 12 ast, 8 reb", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Houston Rockets vs. Los Angeles Lakers"
         }, 
         {
@@ -41797,6 +41886,7 @@
             "awayTeam": "090e6a55-4265-422d-9f2a-35694171ccb5", 
             "date": "2020-08-08T01:00:00+00:00", 
             "description": "Jaylen Brown scores 20 points as the Celtics get the win over the Raptors, 112-100. Brown: 20 Points | Tatum: 18 Points", 
+            "game": 7, 
             "homeTeam": "b0e19fee-ac7c-4a74-9428-fae2831c1f5a", 
             "identity": {
                 "ESPNAPIID": "401224754", 
@@ -41812,6 +41902,7 @@
             "notes": "Brown: 20 points | Tatum: 18 points", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Toronto Raptors vs. Boston Celtics"
         }, 
         {
@@ -41885,6 +41976,7 @@
             "awayTeam": "8529ce41-30bd-4e26-b970-b9b7be6fc565", 
             "date": "2020-08-08T19:30:00+00:00", 
             "description": "Nikola Jokic led the way with 30 points and 11 rebounds as the Nuggets outlast the Jazz 134-132 in double overtime. Donovan Mitchell had 35 points for the Utah in the loss. Jokic: 30 Pts, 11 Reb | Murray: 23 Pts (Restart Debut)", 
+            "game": 7, 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "401224756", 
@@ -41900,6 +41992,7 @@
             "notes": "Jokic: 30 pts, 11 reb | Murray: 23 pts (restart debut)", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. Utah Jazz"
         }, 
         {
@@ -42492,6 +42585,7 @@
             "awayTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "date": "2020-08-11T00:00:00+00:00", 
             "description": "Jimmy Butler led with 19 points and 11 rebounds as Miami beat Indiana, 114-92. Butler: 19 Pts, 11 Reb | Warren: 12 Pts, 5 Reb", 
+            "game": 4, 
             "homeTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "identity": {
                 "ESPNAPIID": "401224770", 
@@ -42506,6 +42600,7 @@
             "notes": "Butler: 19 pts, 11 reb | Warren: 12 pts, 5 reb", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Miami Heat vs. Indiana Pacers"
         }, 
         {
@@ -42535,6 +42630,7 @@
             "awayTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "date": "2020-08-11T01:00:00+00:00", 
             "description": "LeBron James scores 29 points and 12 assists as Los Angeles beat Denver, 124-121. Kuzma: 25 Pts (Game-winning 3 With 0.4)", 
+            "game": 5, 
             "homeTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "identity": {
                 "ESPNAPIID": "401224771", 
@@ -42550,6 +42646,7 @@
             "notes": "Kuzma: 25 pts (game-winning 3 with 0.4)", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Los Angeles Lakers vs. Denver Nuggets"
         }, 
         {
@@ -43010,6 +43107,7 @@
             "awayTeam": "a16b4437-ba19-4b3c-a757-e512305ed4f8", 
             "date": "2020-08-13T01:00:00+00:00", 
             "description": "Kawhi Leonard and Paul George combine for 53 points in LA's 124-111 win over Denver. George: 23 Points, 7 Assists | Leonard: 26 Points", 
+            "game": 7, 
             "homeTeam": "1ea793b0-c30a-498b-9454-422a882aa343", 
             "identity": {
                 "ESPNAPIID": "401224782", 
@@ -43025,6 +43123,7 @@
             "notes": "George: 23 points, 7 assists | Leonard: 26 points", 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Denver Nuggets vs. LA Clippers"
         }, 
         {
@@ -43398,6 +43497,7 @@
             "awayTeam": "96e7c642-349e-4ba3-846c-5a4808c0d41e", 
             "date": "2020-08-14T20:00:00+00:00", 
             "description": "Doug McDermott led the way with 23 points for the Pacers as they defeated the Heat 109-92. Kendrick Nunn had 23 points for Miami in the loss.", 
+            "game": 4, 
             "homeTeam": "99ddd0ef-f210-471f-8c8c-75a571c96b86", 
             "identity": {
                 "ESPNAPIID": "401224791", 
@@ -43412,6 +43512,7 @@
             ], 
             "season": "2019", 
             "sport": "Basketball", 
+            "subseason": 1, 
             "vs": "Indiana Pacers vs. Miami Heat"
         }, 
         {
@@ -45567,6 +45668,7 @@
             "awayTeam": "0310b2d0-1f80-483c-93c0-b01868866753", 
             "date": "2020-08-28T20:00:00+00:00", 
             "eventTitle": "East 1st Round", 
+            "game": 4, 
             "homeTeam": "d473d414-5c50-4a81-b130-adb8ca560c59", 
             "identity": {
                 "ESPNAPIID": "401236259"
@@ -45595,6 +45697,7 @@
             "awayTeam": "b0a4b456-1728-4b7b-9f2c-6ba2c2da0c1b", 
             "date": "2020-08-28T22:30:00+00:00", 
             "eventTitle": "West 1st Round", 
+            "game": 4, 
             "homeTeam": "75b2645f-1631-44ac-a0f4-e96b222502b3", 
             "identity": {
                 "ESPNAPIID": "401236299"
@@ -45623,6 +45726,7 @@
             "awayTeam": "2eb29537-1bc9-4e4c-9a25-2ebb113e2cec", 
             "date": "2020-08-29T01:00:00+00:00", 
             "eventTitle": "West 1st Round", 
+            "game": 4, 
             "homeTeam": "6957d96b-806b-448b-b78b-590c894a70cd", 
             "identity": {
                 "ESPNAPIID": "401236292"

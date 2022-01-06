@@ -126,7 +126,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 							elif altTitle == "PPD": altTitle = None
 							elif altTitle == "IF NECESSARY": altTitle = None
 							elif altTitle and unicode(altTitle).isnumeric(): altTitle = None
-							elif altTitle and altTitle.upper() == ("%s%s" % (date.astimezone(tz=EasternTime).strftime("%A, %b. "), date.astimezone(tz=EasternTime).day)).upper(): altTitle = None
+							elif altTitle and type(date) == datetime.datetime and altTitle.upper() == ("%s%s" % (date.astimezone(tz=EasternTime).strftime("%A, %b. "), date.astimezone(tz=EasternTime).day)).upper(): altTitle = None
 							elif altTitle and altTitle.upper().find("HURRICANE IRMA") >= 0:
 								altDescription = altTitle[0:]
 								altTitle = None
@@ -177,6 +177,21 @@ def GetSchedule(sched, navigator, sport, league, season):
 							if league == LEAGUE_NFL:
 								(ysubseason, week) = __get_nfl_week(league, date, seasonType, calendar)
 							if ysubseason != None and ysubseason != xsubseason: xsubseason = ysubseason
+
+							if not gameNumber and league in [LEAGUE_MLB, LEAGUE_NBA, LEAGUE_NHL]:
+								if competition.get("series") and competition["series"].get("type") == "playoff":
+									if not xsubseason:
+										if league == LEAGUE_MLB:
+											xsubseason = MLB_SUBSEASON_FLAG_POSTSEASON
+										elif league == LEAGUE_NBA:
+											xsubseason = NBA_SUBSEASON_FLAG_POSTSEASON
+										elif league == LEAGUE_NHL:
+											xsubseason = NHL_SUBSEASON_FLAG_POSTSEASON
+									seriesSummary = competition["series"]["summary"]
+									mss = re.search(r"(?:^|\b)(?P<wins>\d+)\s*[\-]\s*(?P<losses>\d+)(?:\b|$)", seriesSummary, re.IGNORECASE)
+									if mss:
+										gameNumber = int(mss.group("wins")) + int(mss.group("losses"))
+
 
 
 							description = None
