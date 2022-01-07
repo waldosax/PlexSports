@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
 	league_mins = {
 		LEAGUE_MLB: 1920,
-		LEAGUE_NBA: 1947,
+		LEAGUE_NBA: 1946,
 		LEAGUE_NFL: 1922,
 		LEAGUE_NHL: 1920
 		}
@@ -44,10 +44,15 @@ if __name__ == "__main__":
 
 		for y in range(league_mins[league], maxyear):
 			season = str(y)
+			#if league == LEAGUE_NBA:
+			#	PlexSportsAgent.Schedules.BasketballReferenceScheduleScraper.ScrapeScheduleForSeason(season)
+
 			#PlexSportsAgent.Schedules.WikipediaSupplement.Scraper.ScrapeAllStarGame(sport, league, season)
+
 			PlexSportsAgent.Schedules.GetSchedule(sport, league, season, computeHashes=False, noLoad=True)
 			PlexSportsAgent.Schedules.cached_schedules = dict()
 			PlexSportsAgent.Schedules.event_scan = dict()
+
 			pass
 
 	pass

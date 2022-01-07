@@ -16,6 +16,7 @@ from ..Data.CacheContainer import *
 import Teams
 import TheSportsDBScheduleAdapter, SportsDataIOScheduleAdapter
 import ProFootballReferenceScheduleAdapter
+import BasketballReferenceScheduleAdapter
 import MLBAPIScheduleAdapter
 import NBAAPIScheduleAdapter
 import NHLAPIScheduleAdapter
@@ -286,6 +287,8 @@ def __download_all_schedule_data(sport, league, season):
 	
 	if league == LEAGUE_NFL:
 		ProFootballReferenceScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
+	elif league == LEAGUE_NBA:
+		BasketballReferenceScheduleAdapter.GetSchedule(sched, navigator, sport, league, season)
 
 
 	# The only reason I'm continuing to use this trashbucket API is for the free imagery.

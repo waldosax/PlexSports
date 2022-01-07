@@ -48,6 +48,9 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\GetResultFromNetwork.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\MLBAPIDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\MLB\__init__.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NBA\BasketballReferenceDownloader.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NBA\NBAAPIDownloader.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NBA\__init__.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Data\NFL\ProFootballReferenceDownloader.py" />
@@ -72,11 +75,17 @@
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\PathUtils.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\PluginSupport.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\RomanNumerals.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\BasketballReferenceScheduleScraper.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\ESPNAPIScheduleAdapter.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\Hashes.py" />
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\MLBAPIScheduleAdapter.py" />
+    <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\BasketballReferenceScheduleAdapter.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Plug-ins\PlexSportsAgent.bundle\Contents\Code\Schedules\NBAAPIScheduleAdapter.py">
       <SubType>Code</SubType>
     </Compile>

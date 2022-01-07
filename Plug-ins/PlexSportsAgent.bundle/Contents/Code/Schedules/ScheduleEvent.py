@@ -184,6 +184,10 @@ def AddOrAugmentEvent(sched, event, timeSensitivity=2):
 				repl = evdict[subhash]
 				repl.augment(**event.__dict__)
 				return repl;
+		elif evdict.keys() and None in evdict.keys(): # Augment the time-naive
+			repl = evdict[None]
+			repl.augment(**event.__dict__)
+			return repl;
 		else: # Otherwise, add the time-naive
 			evdict[None] = event
 			return event
@@ -231,6 +235,7 @@ class ScheduleEventIdentity:
 		self.NHLAPIID = kwargs.get("NHLAPIID")
 		self.ESPNAPIID = kwargs.get("ESPNAPIID")
 		self.ProFootballReferenceID = kwargs.get("ProFootballReferenceID")
+		self.BasketballReferenceID = kwargs.get("BasketballReferenceID")
 		self.WikipediaID = kwargs.get("WikipediaID")
 		pass
 
@@ -242,6 +247,7 @@ class ScheduleEventIdentity:
 		if kwargs.get("NHLAPIID"): self.NHLAPIID = kwargs["NHLAPIID"]
 		if kwargs.get("ESPNAPIID"): self.ESPNAPIID = kwargs["ESPNAPIID"]
 		if kwargs.get("ProFootballReferenceID"): self.ProFootballReferenceID = kwargs["ProFootballReferenceID"]
+		if kwargs.get("BasketballReferenceID"): self.BasketballReferenceID = kwargs["BasketballReferenceID"]
 		if kwargs.get("WikipediaID"): self.WikipediaID = kwargs["WikipediaID"]
 		pass
 

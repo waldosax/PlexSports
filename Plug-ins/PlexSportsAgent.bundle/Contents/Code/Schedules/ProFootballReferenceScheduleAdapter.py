@@ -29,7 +29,7 @@ pfr_abbreviation_corrections = {
 
 
 def GetSchedule(sched, navigator, sport, league, season):
-	# Retrieve data from MLB API
+	# Retrieve data from pro-foorball-reference
 	pfrSchedule = ScrapeScheduleForSeason(season)
 	
 	if pfrSchedule and pfrSchedule.get("subseasons"):
