@@ -31,10 +31,13 @@ def GetSchedule(sched, navigator, sport, league, season):
 				awayTeam = navigator.GetTeam(season, awayTeamFullName)
 				awayTeamKey = awayTeam.key if awayTeam else None
 
-				if not homeTeam:
-					print("Could not resolve team %s." % homeTeamFullName)
-				if not awayTeam:
-					print("Could not resolve team %s." % awayTeamFullName)
+				altTitle = None
+				altDescription = None
+				notes = deunicode(schedEvent.get("notes"))
+				if notes and (notes[:3] == "at " or notes[:3] == "in "):
+					altTitle = notes
+				else:
+					altDescription = notes
 
 				kwargs = {
 					"sport": sport,
@@ -51,12 +54,14 @@ def GetSchedule(sched, navigator, sport, league, season):
 					"subseasonTitle": deunicode(schedEvent.get("subseasonTitle")),
 					"playoffround": schedEvent.get("playoffround"),
 					"game": schedEvent.get("game"),
+					"altTitle": altTitle,
+					"altDescription": altDescription,
 					}
 
 				event = ScheduleEvent(**kwargs)
 				event = __event_lookaround(sched, event)
 
-				AddOrAugmentEvent(sched, event)
+				AddOrAugmentEvent(sched, event, 4)
 
 
 
@@ -65,7 +70,7 @@ def __correct_abbreviation(abbrev):
 		return br_abbreviation_corrections[abbrev.upper()]
 	return abbrev.upper()
 
-# Because ProFootballReference can get home/away teams backwards sometimes
+# Because BasketballReference can get home/away teams backwards sometimes
 def __event_lookaround(sched, event):
 
 	origHash = sched_compute_augmentation_hash(event)

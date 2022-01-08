@@ -39,6 +39,7 @@ br_season_subdivision_schedule_selectors = {	# /leagues/NBA_2020_games-december.
 	"game-time": "td[data-stat='game_start_time']",
 	"away-team": "td[data-stat='visitor_team_name'] a",
 	"home-team": "td[data-stat='home_team_name'] a",
+	"notes": "td[data-stat='game_remarks']",
 	"box-score": "td[data-stat='box_score_text'] a"
 	}
 
@@ -229,6 +230,8 @@ def __process_league_season_schedule_page(league, season):
 	return scheduledict
 
 def __process_league_season_subdivision_schedule_page(league, season, subdivision):
+	now = datetime.datetime.now().date()
+
 	selectors = br_season_subdivision_schedule_selectors
 	markup = DownloadSchedulePage(league, season, subdivision)
 	if not markup: return None
@@ -253,6 +256,7 @@ def __process_league_season_subdivision_schedule_page(league, season, subdivisio
 		homeTeam = None
 		awayTeam = None
 		href = None
+		notes = None
 
 		airDate = None
 		airDateDisp = None
@@ -281,12 +285,19 @@ def __process_league_season_subdivision_schedule_page(league, season, subdivisio
 		if boxscoreLink:
 			href = boxscoreLink.attrs["href"]
 
+		notesCell = daterow.select_one(selectors["notes"])
+		if notesCell:
+			notes = notesCell.text.strip()
+			if notes == "": notes = None
+
 		if not dateDisp: continue
 
 		date = extract_date(dateDisp)
 		airDateDisp = dateDisp
 
 		if not date:
+			continue
+		if date > now:
 			continue
 
 		dateKey = date.strftime("%Y-%m-%d")
@@ -309,6 +320,9 @@ def __process_league_season_subdivision_schedule_page(league, season, subdivisio
 			"awayTeam": awayTeam,
 			"vs": "%s vs. %s" % (homeTeam, awayTeam),
 			}
+
+		if notes:
+			event["notes"] = notes
 
 
 		if eventsByDate.get(dateKey):
@@ -552,11 +566,6 @@ def __scrape_schedule_from_cache(season):
 			if not jsonschedules:
 				jsonschedules = __refresh_schedule_cache(season)
 
-			if br_cached_schedules.get(season):
-				br_cached_schedules[season].clear()
-			else:
-				br_cached_schedules.setdefault(season, dict())
-
 			br_cached_schedules[season] = jsonschedules
 	return br_cached_schedules[season]
 
@@ -573,16 +582,10 @@ def __refresh_schedule_cache(season):
 	print("Refreshing NBA schedules cache from basketball-reference.com ...")
 	schedule = __scrape_schedule(season, download=True)
 
-
 	allEvents = []
 	for dateKey in schedule.keys():
 		allEvents = allEvents + schedule[dateKey]
 	allEvents.sort(key=get_sort_key)
-
-	if br_cached_schedules.get(season):
-		br_cached_schedules[season].clear()
-	else:
-		br_cached_schedules.setdefault(season, dict())
 
 	jsonschedule = json.dumps(allEvents, default=SerializationDefaults, sort_keys=True, indent=4)
 	__write_schedule_cache_file(season, jsonschedule)

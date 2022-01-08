@@ -9,6 +9,8 @@ CentralTime = gettz("CST")
 MountainTime = gettz("MST")
 PacificTime = gettz("PST")
 
+JapanStandardTime = gettz("Asia/Tokyo")
+
 
 def ParseISO8601Date(dateStr):
 	if isinstance(dateStr, (datetime.datetime, datetime.date)): return dateStr

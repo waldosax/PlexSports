@@ -46,6 +46,7 @@ if __name__ == "__main__":
 			season = str(y)
 			#if league == LEAGUE_NBA:
 			#	PlexSportsAgent.Schedules.BasketballReferenceScheduleScraper.ScrapeScheduleForSeason(season)
+			#	PlexSportsAgent.Schedules.BasketballReferenceScheduleScraper.br_cached_schedules.clear()
 
 			#PlexSportsAgent.Schedules.WikipediaSupplement.Scraper.ScrapeAllStarGame(sport, league, season)
 

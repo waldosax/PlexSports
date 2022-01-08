@@ -112,6 +112,12 @@ def GetSchedule(sched, navigator, sport, league, season):
 							if id in ["170501031", "170429031"] : continue
 
 							date = __hashedDateParse(deunicode(competition["date"]))
+							if id in ["250326006"]:
+								date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
+							elif id in ["231030025"]: # 00:30Z, it's actually 00:30 EST
+								date = date.replace(tzinfo=JapanStandardTime, month=10, day=30, hour=19).astimezone(tz=UTC)
+							elif id in ["231031012"]: # 17:00Z, it's actually 22:00 EST (12:00 JST)
+								date = date.replace(tzinfo=JapanStandardTime, month=11, day=1, hour=12).astimezone(tz=UTC)
 
 							title = None
 							altTitle = None
@@ -540,7 +546,7 @@ def __hashedDateParse(str):
 	if str in __calendar_parse_hashes.keys():
 		return __calendar_parse_hashes[str]
 
-	# Date-aware in zulu time
+	# Time-aware in zulu time
 	date = ParseISO8601Date(str)
 	if date: date = date.astimezone(tz=UTC)
 

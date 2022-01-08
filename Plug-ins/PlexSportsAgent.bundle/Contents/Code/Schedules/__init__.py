@@ -390,10 +390,18 @@ def __refresh_schedule_cache(sport, league, season, computeHashes=False):
 													# retrieve a sort key (date, homeTeam, game) from the earliest event
 		return get_sortable_event_key(sorted(daysEvents.values())[0])
 
-	def get_sortable_event_key(event):	# Sort by date, then homeTeam[, then game]
-		key = "0000-00-00T00:00:00+00:00" if event.date == None else FormatISO8601Date(event.date)
+	def get_sortable_event_key(event):	# Sort by date, then homeTeam, then game
+		key = ""
+		if event.date:
+			key = key + event.date.strftime("%Y-%m-%d")
+			if type(event.date) == datetime.datetime:
+				key = key + "T" + event.date.strftime("%H:%M:%S")
+			elif type(event.date) == datetime.date:
+				key = key + "T00:00:00"
+		else:
+			key = key + "0000-00-00T00:00:00+00:00"
 		key = key + event.vs or event.homeTeamName or event.homeTeam or ""
-		if event.game: key = key + str(event.game)
+		key = key + str(event.game or 0)
 		return key
 	
 
