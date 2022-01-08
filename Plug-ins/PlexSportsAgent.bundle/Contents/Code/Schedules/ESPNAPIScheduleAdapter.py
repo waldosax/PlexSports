@@ -184,7 +184,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 								(ysubseason, week) = __get_nfl_week(league, date, seasonType, calendar)
 							if ysubseason != None and ysubseason != xsubseason: xsubseason = ysubseason
 
-							if not gameNumber and league in [LEAGUE_MLB, LEAGUE_NBA, LEAGUE_NHL]:
+							if not gameNumber and \
+								id not in ["400899377"] and \
+								league in [LEAGUE_MLB, LEAGUE_NBA, LEAGUE_NHL]:
 								if competition.get("series") and competition["series"].get("type") == "playoff":
 									if not xsubseason:
 										if league == LEAGUE_MLB:
