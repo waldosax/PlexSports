@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1997SCHEDULE", 
-        "CachedOn": "2022-01-06T20:40:04", 
-        "ExpiresOn": "2022-01-13T20:40:04", 
+        "CachedOn": "2022-01-11T13:26:33", 
+        "ExpiresOn": "2022-01-18T13:26:33", 
         "Version": "2"
     }, 
     "Items": [
@@ -24,39 +24,15 @@
             "date": "1997-04-01", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
+                "MLBAPIID": "213200", 
                 "TheSportsDBID": "1214842"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1997", 
             "sport": "Baseball", 
-            "vs": "Cincinnati Reds vs Colorado Rockies"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/frc41b1617549526.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "date": "1997-04-01", 
-            "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "identity": {
-                "TheSportsDBID": "1214845"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Baseball", 
-            "vs": "Los Angeles Dodgers vs Philadelphia Phillies"
+            "subseason": 0, 
+            "vs": "Cincinnati Reds vs. Colorado Rockies"
         }, 
         {
             "assets": {
@@ -81,13 +57,15 @@
             "date": "1997-04-01", 
             "homeTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
             "identity": {
+                "MLBAPIID": "213199", 
                 "TheSportsDBID": "1214846"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1997", 
             "sport": "Baseball", 
-            "vs": "Miami Marlins vs Chicago Cubs"
+            "subseason": 0, 
+            "vs": "Florida Marlins vs. Chicago Cubs"
         }, 
         {
             "assets": {
@@ -99,94 +77,23 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/5f02r61617549370.jpg"
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/frc41b1617549526.jpg"
                     }
                 ]
             }, 
-            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "date": "1997-04-01", 
-            "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
+            "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
-                "TheSportsDBID": "1214849"
+                "MLBAPIID": "213205", 
+                "TheSportsDBID": "1214845"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1997", 
             "sport": "Baseball", 
-            "vs": "San Diego Padres vs New York Mets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "date": "1997-04-01", 
-            "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "identity": {
-                "TheSportsDBID": "1214839"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Baseball", 
-            "vs": "San Francisco Giants vs Pittsburgh Pirates"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/a93g0a1617545557.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1997-04-01", 
-            "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "identity": {
-                "TheSportsDBID": "1214861"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Baseball", 
-            "vs": "Texas Rangers vs Milwaukee Brewers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/69i1yt1557525817.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1997-04-01", 
-            "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
-            "identity": {
-                "TheSportsDBID": "1214851"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Baseball", 
-            "vs": "Toronto Blue Jays vs Chicago White Sox"
+            "subseason": 0, 
+            "vs": "Los Angeles Dodgers vs. Philadelphia Phillies"
         }, 
         {
             "assets": {
@@ -206,13 +113,122 @@
             "date": "1997-04-01", 
             "homeTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "identity": {
+                "MLBAPIID": "213207", 
                 "TheSportsDBID": "1214852"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1997", 
             "sport": "Baseball", 
-            "vs": "Washington Nationals vs St. Louis Cardinals"
+            "subseason": 0, 
+            "vs": "Montreal Expos vs. St. Louis Cardinals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/5f02r61617549370.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "date": "1997-04-01", 
+            "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
+            "identity": {
+                "MLBAPIID": "213204", 
+                "TheSportsDBID": "1214849"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "San Diego Padres vs. New York Mets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
+            "date": "1997-04-01", 
+            "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
+            "identity": {
+                "MLBAPIID": "213206", 
+                "TheSportsDBID": "1214839"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "San Francisco Giants vs. Pittsburgh Pirates"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/a93g0a1617545557.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
+            "date": "1997-04-01", 
+            "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
+            "identity": {
+                "MLBAPIID": "213202", 
+                "TheSportsDBID": "1214861"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Texas Rangers vs. Milwaukee Brewers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/69i1yt1557525817.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "date": "1997-04-01", 
+            "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
+            "identity": {
+                "MLBAPIID": "213198", 
+                "TheSportsDBID": "1214851"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Toronto Blue Jays vs. Chicago White Sox"
         }, 
         {
             "assets": {
@@ -227,13 +243,15 @@
             "date": "1997-04-02", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
+                "MLBAPIID": "213215", 
                 "TheSportsDBID": "1214830"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1997", 
             "sport": "Baseball", 
-            "vs": "Baltimore Orioles vs Kansas City Royals"
+            "subseason": 0, 
+            "vs": "Baltimore Orioles vs. Kansas City Royals"
         }, 
         {
             "assets": {
@@ -589,32 +607,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Seattle Mariners vs. New York Yankees"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/p7exvl1617549379.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1997-04-04", 
-            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "identity": {
-                "TheSportsDBID": "1214789"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1997", 
-            "sport": "Baseball", 
-            "vs": "Chicago White Sox vs Detroit Tigers"
         }, 
         {
             "assets": {
@@ -1133,10 +1125,38 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/p7exvl1617549379.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
+            "date": "1997-04-05T03:33:00+00:00", 
+            "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "identity": {
+                "MLBAPIID": "213251", 
+                "TheSportsDBID": "1214789"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1997", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago White Sox vs. Detroit Tigers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1997-04-06T00:00:00", 
+            "date": "1997-04-06", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
                 "MLBAPIID": "213265"
@@ -1158,7 +1178,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "date": "1997-04-06T00:00:00", 
+            "date": "1997-04-06", 
             "homeTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "identity": {
                 "MLBAPIID": "213264"
@@ -1180,7 +1200,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1997-04-06T00:00:00", 
+            "date": "1997-04-06", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "213268"
@@ -1202,7 +1222,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1997-04-06T00:00:00", 
+            "date": "1997-04-06", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "213269"
@@ -1224,7 +1244,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1997-04-06T00:00:00", 
+            "date": "1997-04-06", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "213267"
@@ -1831,7 +1851,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1997-04-09T00:00:00", 
+            "date": "1997-04-09", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "213294"
@@ -2067,7 +2087,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1997-04-10T00:00:00", 
+            "date": "1997-04-10", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "213303"
@@ -2515,7 +2535,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1997-04-13T00:00:00", 
+            "date": "1997-04-13", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "213338"
@@ -2537,7 +2557,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "date": "1997-04-13T00:00:00", 
+            "date": "1997-04-13", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "213335"
@@ -2559,7 +2579,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1997-04-13T00:00:00", 
+            "date": "1997-04-13", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "213327"
@@ -2581,7 +2601,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1997-04-13T00:00:00", 
+            "date": "1997-04-13", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "213323"
@@ -2603,7 +2623,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1997-04-13T00:00:00", 
+            "date": "1997-04-13", 
             "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "identity": {
                 "MLBAPIID": "213334"
@@ -2625,7 +2645,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1997-04-13T00:00:00", 
+            "date": "1997-04-13", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
                 "MLBAPIID": "213329"
@@ -2819,7 +2839,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
-            "date": "1997-04-14T00:00:00", 
+            "date": "1997-04-14", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "213347"
@@ -4098,7 +4118,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1997-04-20T00:00:00", 
+            "date": "1997-04-20", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "213421"
@@ -4120,7 +4140,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
-            "date": "1997-04-20T00:00:00", 
+            "date": "1997-04-20", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "213413"
@@ -4142,7 +4162,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "1997-04-20T00:00:00", 
+            "date": "1997-04-20", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "213425"
@@ -4164,7 +4184,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1997-04-20T00:00:00", 
+            "date": "1997-04-20", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
                 "MLBAPIID": "213417"
@@ -4186,7 +4206,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1997-04-20T00:00:00", 
+            "date": "1997-04-20", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "213418"
@@ -4396,7 +4416,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "date": "1997-04-21T00:00:00", 
+            "date": "1997-04-21", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "213429"
@@ -5572,7 +5592,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "1997-04-27T00:00:00", 
+            "date": "1997-04-27", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "213494"
@@ -5594,7 +5614,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1997-04-27T00:00:00", 
+            "date": "1997-04-27", 
             "homeTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "identity": {
                 "MLBAPIID": "213501"
@@ -5616,7 +5636,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1997-04-27T00:00:00", 
+            "date": "1997-04-27", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "213495"
@@ -5638,7 +5658,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
-            "date": "1997-04-27T00:00:00", 
+            "date": "1997-04-27", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "213499"
@@ -5660,7 +5680,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "date": "1997-04-27T00:00:00", 
+            "date": "1997-04-27", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "213497"
@@ -5682,7 +5702,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "date": "1997-04-27T00:00:00", 
+            "date": "1997-04-27", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "213504"
@@ -7163,7 +7183,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "1997-05-04T00:00:00", 
+            "date": "1997-05-04", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "213591"
@@ -7185,7 +7205,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "date": "1997-05-04T00:00:00", 
+            "date": "1997-05-04", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "213592"
@@ -7207,7 +7227,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1997-05-04T00:00:00", 
+            "date": "1997-05-04", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "213594"
@@ -7229,7 +7249,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1997-05-04T00:00:00", 
+            "date": "1997-05-04", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "213584"
@@ -9008,7 +9028,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "date": "1997-05-11T00:00:00", 
+            "date": "1997-05-11", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "213683"
@@ -9030,7 +9050,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1997-05-11T00:00:00", 
+            "date": "1997-05-11", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "213684"
@@ -9052,7 +9072,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1997-05-11T00:00:00", 
+            "date": "1997-05-11", 
             "homeTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "identity": {
                 "MLBAPIID": "213672"
@@ -9074,7 +9094,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
-            "date": "1997-05-11T00:00:00", 
+            "date": "1997-05-11", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "213679"
@@ -9096,7 +9116,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "date": "1997-05-11T00:00:00", 
+            "date": "1997-05-11", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "213674"
@@ -10672,7 +10692,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1997-05-18T00:00:00", 
+            "date": "1997-05-18", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "213760"
@@ -10694,7 +10714,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "date": "1997-05-18T00:00:00", 
+            "date": "1997-05-18", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "213761"
@@ -10940,7 +10960,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "date": "1997-05-19T00:00:00", 
+            "date": "1997-05-19", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "213777"
@@ -10962,7 +10982,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1997-05-19T00:00:00", 
+            "date": "1997-05-19", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "213775"
@@ -10984,7 +11004,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1997-05-19T00:00:00", 
+            "date": "1997-05-19", 
             "homeTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "identity": {
                 "MLBAPIID": "213774"
@@ -11560,7 +11580,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "date": "1997-05-22T00:00:00", 
+            "date": "1997-05-22", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "213808"
@@ -12271,7 +12291,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "1997-05-25T00:00:00", 
+            "date": "1997-05-25", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "213844"
@@ -12293,7 +12313,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "date": "1997-05-25T00:00:00", 
+            "date": "1997-05-25", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "213847"
@@ -12315,7 +12335,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1997-05-25T00:00:00", 
+            "date": "1997-05-25", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "213852"
@@ -12337,7 +12357,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1997-05-25T00:00:00", 
+            "date": "1997-05-25", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "213842"
@@ -14010,7 +14030,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "date": "1997-06-01T00:00:00", 
+            "date": "1997-06-01", 
             "homeTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
             "identity": {
                 "MLBAPIID": "213933"
@@ -14032,7 +14052,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
-            "date": "1997-06-01T00:00:00", 
+            "date": "1997-06-01", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "213943"
@@ -14054,7 +14074,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1997-06-01T00:00:00", 
+            "date": "1997-06-01", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "213936"
@@ -15634,7 +15654,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1997-06-08T00:00:00", 
+            "date": "1997-06-08", 
             "homeTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "identity": {
                 "MLBAPIID": "214033"
@@ -15656,7 +15676,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1997-06-08T00:00:00", 
+            "date": "1997-06-08", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "214028"
@@ -15678,7 +15698,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
-            "date": "1997-06-08T00:00:00", 
+            "date": "1997-06-08", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "214021"
@@ -15700,7 +15720,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "1997-06-08T00:00:00", 
+            "date": "1997-06-08", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "214029"
@@ -16260,7 +16280,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1997-06-11T00:00:00", 
+            "date": "1997-06-11", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "214061"
@@ -17221,7 +17241,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "1997-06-15T00:00:00", 
+            "date": "1997-06-15", 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "MLBAPIID": "214104"
@@ -17243,7 +17263,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1997-06-15T00:00:00", 
+            "date": "1997-06-15", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "214113"
@@ -18862,7 +18882,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1997-06-22T00:00:00", 
+            "date": "1997-06-22", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "214199"
@@ -18884,7 +18904,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "date": "1997-06-22T00:00:00", 
+            "date": "1997-06-22", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "MLBAPIID": "214192"
@@ -18906,7 +18926,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
-            "date": "1997-06-22T00:00:00", 
+            "date": "1997-06-22", 
             "homeTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "identity": {
                 "MLBAPIID": "214196"
@@ -18928,7 +18948,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1997-06-22T00:00:00", 
+            "date": "1997-06-22", 
             "homeTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "identity": {
                 "MLBAPIID": "214195"
@@ -18950,7 +18970,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "date": "1997-06-22T00:00:00", 
+            "date": "1997-06-22", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "214201"
@@ -18972,7 +18992,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "1997-06-22T00:00:00", 
+            "date": "1997-06-22", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "214190"
@@ -19722,7 +19742,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1997-06-25T00:00:00", 
+            "date": "1997-06-25", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "214243"
@@ -20838,7 +20858,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1997-06-29T00:00:00", 
+            "date": "1997-06-29", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "214295"
@@ -20860,7 +20880,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1997-06-29T00:00:00", 
+            "date": "1997-06-29", 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
                 "MLBAPIID": "214293"
@@ -20882,7 +20902,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "date": "1997-06-29T00:00:00", 
+            "date": "1997-06-29", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "214286"
@@ -21624,7 +21644,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
-            "date": "1997-07-02T00:00:00", 
+            "date": "1997-07-02", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "214331"
@@ -22655,7 +22675,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "1997-07-06T00:00:00", 
+            "date": "1997-07-06", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
                 "MLBAPIID": "214384"
@@ -22677,7 +22697,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
-            "date": "1997-07-06T00:00:00", 
+            "date": "1997-07-06", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "214389"
@@ -22699,7 +22719,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1997-07-06T00:00:00", 
+            "date": "1997-07-06", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "214388"
@@ -22721,7 +22741,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1997-07-06T00:00:00", 
+            "date": "1997-07-06", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "MLBAPIID": "214390"
@@ -22743,7 +22763,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "date": "1997-07-06T00:00:00", 
+            "date": "1997-07-06", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "214387"
@@ -22765,7 +22785,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1997-07-06T00:00:00", 
+            "date": "1997-07-06", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "214392"
@@ -23779,7 +23799,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1997-07-13T00:00:00", 
+            "date": "1997-07-13", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "214444"
@@ -23801,7 +23821,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1997-07-13T00:00:00", 
+            "date": "1997-07-13", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "214438"
@@ -23823,7 +23843,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1997-07-13T00:00:00", 
+            "date": "1997-07-13", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "214435"
@@ -23845,7 +23865,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1997-07-13T00:00:00", 
+            "date": "1997-07-13", 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
                 "MLBAPIID": "214447"
@@ -25619,7 +25639,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1997-07-20T00:00:00", 
+            "date": "1997-07-20", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "214534"
@@ -25641,7 +25661,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "date": "1997-07-20T00:00:00", 
+            "date": "1997-07-20", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "214541"
@@ -26600,7 +26620,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "date": "1997-07-24T00:00:00", 
+            "date": "1997-07-24", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "214591"
@@ -27341,7 +27361,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
-            "date": "1997-07-27T00:00:00", 
+            "date": "1997-07-27", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "214625"
@@ -27363,7 +27383,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "1997-07-27T00:00:00", 
+            "date": "1997-07-27", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "214633"
@@ -27385,7 +27405,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "date": "1997-07-27T00:00:00", 
+            "date": "1997-07-27", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "214637"
@@ -27407,7 +27427,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1997-07-27T00:00:00", 
+            "date": "1997-07-27", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "214628"
@@ -27429,7 +27449,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
-            "date": "1997-07-27T00:00:00", 
+            "date": "1997-07-27", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "214629"
@@ -29090,7 +29110,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "date": "1997-08-03T00:00:00", 
+            "date": "1997-08-03", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "214728"
@@ -29112,7 +29132,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1997-08-03T00:00:00", 
+            "date": "1997-08-03", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "MLBAPIID": "214725"
@@ -29134,7 +29154,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "1997-08-03T00:00:00", 
+            "date": "1997-08-03", 
             "homeTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "identity": {
                 "MLBAPIID": "214719"
@@ -29156,7 +29176,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "date": "1997-08-03T00:00:00", 
+            "date": "1997-08-03", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "214724"
@@ -29178,7 +29198,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "1997-08-03T00:00:00", 
+            "date": "1997-08-03", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "214718"
@@ -29200,7 +29220,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1997-08-03T00:00:00", 
+            "date": "1997-08-03", 
             "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "identity": {
                 "MLBAPIID": "214729"
@@ -29222,7 +29242,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "date": "1997-08-03T00:00:00", 
+            "date": "1997-08-03", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
                 "MLBAPIID": "214722"
@@ -29310,7 +29330,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1997-08-04T00:00:00", 
+            "date": "1997-08-04", 
             "eventTitle": "1997 Major League Baseball Hall of Fame Game", 
             "eventindicator": -1, 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
@@ -29531,7 +29551,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1997-08-05T00:00:00", 
+            "date": "1997-08-05", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "214744"
@@ -30037,7 +30057,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "date": "1997-08-07T00:00:00", 
+            "date": "1997-08-07", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "214780"
@@ -30059,7 +30079,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1997-08-07T00:00:00", 
+            "date": "1997-08-07", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "214777"
@@ -30743,7 +30763,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1997-08-10T00:00:00", 
+            "date": "1997-08-10", 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "MLBAPIID": "214813"
@@ -30765,7 +30785,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1997-08-10T00:00:00", 
+            "date": "1997-08-10", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "214822"
@@ -30787,7 +30807,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "date": "1997-08-10T00:00:00", 
+            "date": "1997-08-10", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "214821"
@@ -30809,7 +30829,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1997-08-10T00:00:00", 
+            "date": "1997-08-10", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "214812"
@@ -31537,7 +31557,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1997-08-14T00:00:00", 
+            "date": "1997-08-14", 
             "homeTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "identity": {
                 "MLBAPIID": "214862"
@@ -32198,7 +32218,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
-            "date": "1997-08-17T00:00:00", 
+            "date": "1997-08-17", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "214914"
@@ -32220,7 +32240,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "date": "1997-08-17T00:00:00", 
+            "date": "1997-08-17", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "MLBAPIID": "214909"
@@ -32242,7 +32262,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1997-08-17T00:00:00", 
+            "date": "1997-08-17", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "214913"
@@ -32264,7 +32284,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
-            "date": "1997-08-17T00:00:00", 
+            "date": "1997-08-17", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "214906"
@@ -33680,7 +33700,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "1997-08-24T00:00:00", 
+            "date": "1997-08-24", 
             "homeTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
             "identity": {
                 "MLBAPIID": "214990"
@@ -33702,7 +33722,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1997-08-24T00:00:00", 
+            "date": "1997-08-24", 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "MLBAPIID": "214992"
@@ -33724,7 +33744,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
-            "date": "1997-08-24T00:00:00", 
+            "date": "1997-08-24", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "214998"
@@ -33746,7 +33766,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "date": "1997-08-24T00:00:00", 
+            "date": "1997-08-24", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "MLBAPIID": "214994"
@@ -33768,7 +33788,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1997-08-24T00:00:00", 
+            "date": "1997-08-24", 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
                 "MLBAPIID": "214999"
@@ -33990,7 +34010,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1997-08-26T00:00:00", 
+            "date": "1997-08-26", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "215026"
@@ -34497,7 +34517,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1997-08-28T00:00:00", 
+            "date": "1997-08-28", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "215046"
@@ -34519,7 +34539,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1997-08-28T00:00:00", 
+            "date": "1997-08-28", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "MLBAPIID": "215044"
@@ -35069,7 +35089,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1997-08-31T00:00:00", 
+            "date": "1997-08-31", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "215088"
@@ -35091,7 +35111,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "date": "1997-08-31T00:00:00", 
+            "date": "1997-08-31", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "215083"
@@ -35113,7 +35133,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
-            "date": "1997-08-31T00:00:00", 
+            "date": "1997-08-31", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "215087"
@@ -35135,7 +35155,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1997-08-31T00:00:00", 
+            "date": "1997-08-31", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "215085"
@@ -35355,7 +35375,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "date": "1997-09-01T00:00:00", 
+            "date": "1997-09-01", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "215102"
@@ -35377,7 +35397,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
-            "date": "1997-09-01T00:00:00", 
+            "date": "1997-09-01", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "215101"
@@ -35399,7 +35419,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "1997-09-01T00:00:00", 
+            "date": "1997-09-01", 
             "homeTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
             "identity": {
                 "MLBAPIID": "215095"
@@ -35421,7 +35441,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1997-09-01T00:00:00", 
+            "date": "1997-09-01", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "MLBAPIID": "215103"
@@ -35443,7 +35463,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "1997-09-01T00:00:00", 
+            "date": "1997-09-01", 
             "homeTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "identity": {
                 "MLBAPIID": "215096"
@@ -35465,7 +35485,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
-            "date": "1997-09-01T00:00:00", 
+            "date": "1997-09-01", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "215107"
@@ -35487,7 +35507,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1997-09-01T00:00:00", 
+            "date": "1997-09-01", 
             "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "identity": {
                 "MLBAPIID": "215104"
@@ -35509,7 +35529,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "date": "1997-09-01T00:00:00", 
+            "date": "1997-09-01", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
                 "MLBAPIID": "215098"
@@ -35531,7 +35551,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1997-09-01T00:00:00", 
+            "date": "1997-09-01", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "215097"
@@ -36676,7 +36696,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1997-09-07T00:00:00", 
+            "date": "1997-09-07", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "215177"
@@ -36698,7 +36718,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1997-09-07T00:00:00", 
+            "date": "1997-09-07", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "215178"
@@ -36720,7 +36740,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "date": "1997-09-07T00:00:00", 
+            "date": "1997-09-07", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "215181"
@@ -36742,7 +36762,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1997-09-07T00:00:00", 
+            "date": "1997-09-07", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "215171"
@@ -36764,7 +36784,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1997-09-07T00:00:00", 
+            "date": "1997-09-07", 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
                 "MLBAPIID": "215175"
@@ -36786,7 +36806,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "1997-09-07T00:00:00", 
+            "date": "1997-09-07", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "215173"
@@ -36808,7 +36828,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "date": "1997-09-07T00:00:00", 
+            "date": "1997-09-07", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "215176"
@@ -36830,7 +36850,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1997-09-07T00:00:00", 
+            "date": "1997-09-07", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "215184"
@@ -38130,7 +38150,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
-            "date": "1997-09-14T00:00:00", 
+            "date": "1997-09-14", 
             "homeTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
             "identity": {
                 "MLBAPIID": "215262"
@@ -38152,7 +38172,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "date": "1997-09-14T00:00:00", 
+            "date": "1997-09-14", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
                 "MLBAPIID": "215259"
@@ -38174,7 +38194,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "date": "1997-09-14T00:00:00", 
+            "date": "1997-09-14", 
             "homeTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
             "identity": {
                 "MLBAPIID": "215268"
@@ -38196,7 +38216,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
-            "date": "1997-09-14T00:00:00", 
+            "date": "1997-09-14", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "215265"
@@ -38218,7 +38238,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1997-09-14T00:00:00", 
+            "date": "1997-09-14", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "215261"
@@ -38240,7 +38260,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1997-09-14T00:00:00", 
+            "date": "1997-09-14", 
             "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "identity": {
                 "MLBAPIID": "215258"
@@ -38262,7 +38282,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1997-09-14T00:00:00", 
+            "date": "1997-09-14", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "215267"
@@ -39786,7 +39806,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1997-09-21T00:00:00", 
+            "date": "1997-09-21", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "215361"
@@ -39808,7 +39828,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "date": "1997-09-21T00:00:00", 
+            "date": "1997-09-21", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "215366"
@@ -39830,7 +39850,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1997-09-21T00:00:00", 
+            "date": "1997-09-21", 
             "homeTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
             "identity": {
                 "MLBAPIID": "215365"
@@ -39852,7 +39872,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
-            "date": "1997-09-21T00:00:00", 
+            "date": "1997-09-21", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "215370"
@@ -39874,7 +39894,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "date": "1997-09-21T00:00:00", 
+            "date": "1997-09-21", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "215367"
@@ -39896,7 +39916,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "date": "1997-09-21T00:00:00", 
+            "date": "1997-09-21", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "MLBAPIID": "215368"
@@ -40138,7 +40158,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1997-09-23T00:00:00", 
+            "date": "1997-09-23", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "215394"
@@ -41373,7 +41393,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1997-09-28T00:00:00", 
+            "date": "1997-09-28", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "215456"
@@ -41395,7 +41415,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1997-09-28T00:00:00", 
+            "date": "1997-09-28", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "215458"
@@ -41417,7 +41437,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
-            "date": "1997-09-28T00:00:00", 
+            "date": "1997-09-28", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "215449"
@@ -41439,7 +41459,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1997-09-28T00:00:00", 
+            "date": "1997-09-28", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "215461"
@@ -41461,7 +41481,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "1997-09-28T00:00:00", 
+            "date": "1997-09-28", 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
                 "MLBAPIID": "215459"
@@ -41483,7 +41503,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "date": "1997-09-28T00:00:00", 
+            "date": "1997-09-28", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "215452"
@@ -41505,7 +41525,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "1997-09-28T00:00:00", 
+            "date": "1997-09-28", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "215451"

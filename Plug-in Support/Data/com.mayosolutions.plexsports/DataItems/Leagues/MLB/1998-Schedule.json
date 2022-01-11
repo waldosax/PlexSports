@@ -1,8 +1,8 @@
 {
     "CacheContainer": {
         "CacheType": "MLB1998SCHEDULE", 
-        "CachedOn": "2022-01-06T20:40:39", 
-        "ExpiresOn": "2022-01-13T20:40:39", 
+        "CachedOn": "2022-01-11T13:27:32", 
+        "ExpiresOn": "2022-01-18T13:27:32", 
         "Version": "2"
     }, 
     "Items": [
@@ -335,7 +335,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1998-04-02T00:00:00", 
+            "date": "1998-04-02", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "215491"
@@ -1233,57 +1233,10 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/puxm671617546328.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
-            "date": "1998-04-05", 
-            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "identity": {
-                "TheSportsDBID": "1212521"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Chicago Cubs vs Washington Nationals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "date": "1998-04-05", 
-            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "identity": {
-                "TheSportsDBID": "1212526"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "New York Mets vs Pittsburgh Pirates"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1998-04-05T00:00:00", 
+            "date": "1998-04-05", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "215532"
@@ -1305,7 +1258,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1998-04-05T00:00:00", 
+            "date": "1998-04-05", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "215534"
@@ -1327,7 +1280,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1998-04-05T00:00:00", 
+            "date": "1998-04-05", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "215540"
@@ -1349,7 +1302,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1998-04-05T00:00:00", 
+            "date": "1998-04-05", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "215542"
@@ -1588,13 +1541,15 @@
             "date": "1998-04-06", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
+                "MLBAPIID": "215550", 
                 "TheSportsDBID": "1212522"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Chicago White Sox vs Texas Rangers"
+            "subseason": 0, 
+            "vs": "Chicago White Sox vs. Texas Rangers"
         }, 
         {
             "assets": {
@@ -1606,7 +1561,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1998-04-06T00:00:00", 
+            "date": "1998-04-06", 
             "homeTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
             "identity": {
                 "MLBAPIID": "215546"
@@ -1628,7 +1583,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "date": "1998-04-06T00:00:00", 
+            "date": "1998-04-06", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "MLBAPIID": "215545"
@@ -1672,6 +1627,57 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/puxm671617546328.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
+            "date": "1998-04-06T03:33:00+00:00", 
+            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
+            "identity": {
+                "MLBAPIID": "215547", 
+                "TheSportsDBID": "1212521"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago Cubs vs. Montreal Expos"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
+            "date": "1998-04-06T03:33:00+00:00", 
+            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "identity": {
+                "MLBAPIID": "215549", 
+                "TheSportsDBID": "1212526"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "New York Mets vs. Pittsburgh Pirates"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.thesportsdb.com/images/media/event/thumb/r1zqoi1617545828.jpg"
                     }
                 ]
@@ -1680,13 +1686,15 @@
             "date": "1998-04-07", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
+                "MLBAPIID": "215560", 
                 "TheSportsDBID": "1212488"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Chicago Cubs vs New York Mets"
+            "subseason": 0, 
+            "vs": "Chicago Cubs vs. New York Mets"
         }, 
         {
             "assets": {
@@ -1701,13 +1709,15 @@
             "date": "1998-04-07", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
+                "MLBAPIID": "215561", 
                 "TheSportsDBID": "1212498"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Colorado Rockies vs St. Louis Cardinals"
+            "subseason": 0, 
+            "vs": "Colorado Rockies vs. St. Louis Cardinals"
         }, 
         {
             "assets": {
@@ -1727,13 +1737,15 @@
             "date": "1998-04-07", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
+                "MLBAPIID": "215562", 
                 "TheSportsDBID": "1212510"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Detroit Tigers vs Tampa Bay Rays"
+            "subseason": 0, 
+            "vs": "Detroit Tigers vs. Tampa Bay Devil Rays"
         }, 
         {
             "assets": {
@@ -1748,13 +1760,15 @@
             "date": "1998-04-07", 
             "homeTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "identity": {
+                "MLBAPIID": "215553", 
                 "TheSportsDBID": "1212491"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Kansas City Royals vs Baltimore Orioles"
+            "subseason": 0, 
+            "vs": "Kansas City Royals vs. Baltimore Orioles"
         }, 
         {
             "assets": {
@@ -1774,13 +1788,15 @@
             "date": "1998-04-07", 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
+                "MLBAPIID": "215551", 
                 "TheSportsDBID": "1212499"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Los Angeles Dodgers vs Arizona Diamondbacks"
+            "subseason": 0, 
+            "vs": "Los Angeles Dodgers vs. Arizona Diamondbacks"
         }, 
         {
             "assets": {
@@ -1800,13 +1816,15 @@
             "date": "1998-04-07", 
             "homeTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "identity": {
+                "MLBAPIID": "215558", 
                 "TheSportsDBID": "1212493"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Milwaukee Brewers vs Washington Nationals"
+            "subseason": 0, 
+            "vs": "Milwaukee Brewers vs. Montreal Expos"
         }, 
         {
             "assets": {
@@ -1826,13 +1844,15 @@
             "date": "1998-04-07", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
+                "MLBAPIID": "215555", 
                 "TheSportsDBID": "1212505"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "San Diego Padres vs Cincinnati Reds"
+            "subseason": 0, 
+            "vs": "San Diego Padres vs. Cincinnati Reds"
         }, 
         {
             "assets": {
@@ -1847,13 +1867,15 @@
             "date": "1998-04-07", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
+                "MLBAPIID": "215557", 
                 "TheSportsDBID": "1212506"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "San Francisco Giants vs Houston Astros"
+            "subseason": 0, 
+            "vs": "San Francisco Giants vs. Houston Astros"
         }, 
         {
             "assets": {
@@ -2138,6 +2160,28 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "date": "1998-04-09", 
+            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
+            "identity": {
+                "MLBAPIID": "215580"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago Cubs vs. New York Mets"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
@@ -2149,35 +2193,15 @@
             "date": "1998-04-09", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
+                "MLBAPIID": "215582", 
                 "TheSportsDBID": "1212489"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Chicago White Sox vs Texas Rangers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1998-04-09T00:00:00", 
-            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "identity": {
-                "MLBAPIID": "215580"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
             "subseason": 0, 
-            "vs": "Chicago Cubs vs. New York Mets"
+            "vs": "Chicago White Sox vs. Texas Rangers"
         }, 
         {
             "assets": {
@@ -2330,79 +2354,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "San Francisco Giants vs. Houston Astros"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/b3s1je1617545871.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "date": "1998-04-10", 
-            "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "identity": {
-                "TheSportsDBID": "1212443"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Boston Red Sox vs Seattle Mariners"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/h44b5m1617545260.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1998-04-10", 
-            "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "identity": {
-                "TheSportsDBID": "1212445"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Cleveland Indians vs Los Angeles Angels"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "1998-04-10", 
-            "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "identity": {
-                "TheSportsDBID": "1212451"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "New York Yankees vs Oakland Athletics"
         }, 
         {
             "assets": {
@@ -2862,6 +2813,85 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/b3s1je1617545871.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
+            "date": "1998-04-11T03:33:00+00:00", 
+            "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
+            "identity": {
+                "MLBAPIID": "215610", 
+                "TheSportsDBID": "1212443"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Boston Red Sox vs. Seattle Mariners"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/h44b5m1617545260.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
+            "date": "1998-04-11T03:33:00+00:00", 
+            "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
+            "identity": {
+                "MLBAPIID": "215599", 
+                "TheSportsDBID": "1212445"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Cleveland Indians vs. Anaheim Angels"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
+            "date": "1998-04-11T03:33:00+00:00", 
+            "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
+            "identity": {
+                "MLBAPIID": "215609", 
+                "TheSportsDBID": "1212451"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "New York Yankees vs. Oakland Athletics"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.thesportsdb.com/images/media/event/thumb/zej2zs1617549415.jpg"
                     }
                 ]
@@ -2887,83 +2917,10 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/nvpzwc1617546277.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1998-04-12", 
-            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "identity": {
-                "TheSportsDBID": "1212434"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Colorado Rockies vs Cincinnati Reds"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/y5shrw1617549382.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1998-04-12", 
-            "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "identity": {
-                "TheSportsDBID": "1212438"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Pittsburgh Pirates vs Miami Marlins"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1998-04-12", 
-            "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "identity": {
-                "TheSportsDBID": "1212440"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "San Francisco Giants vs St. Louis Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "date": "1998-04-12T00:00:00", 
+            "date": "1998-04-12", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "215625"
@@ -2985,7 +2942,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
-            "date": "1998-04-12T00:00:00", 
+            "date": "1998-04-12", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
                 "MLBAPIID": "215627"
@@ -3007,7 +2964,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1998-04-12T00:00:00", 
+            "date": "1998-04-12", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "215614"
@@ -3026,10 +2983,38 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/nvpzwc1617546277.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
+            "date": "1998-04-12", 
+            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
+            "identity": {
+                "MLBAPIID": "215619", 
+                "TheSportsDBID": "1212434"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Colorado Rockies vs. Cincinnati Reds"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "1998-04-12T00:00:00", 
+            "date": "1998-04-12", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "215617"
@@ -3051,7 +3036,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "date": "1998-04-12T00:00:00", 
+            "date": "1998-04-12", 
             "homeTeam": "03312867-f650-42f8-af9c-ae543384957e", 
             "identity": {
                 "MLBAPIID": "215622"
@@ -3073,7 +3058,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1998-04-12T00:00:00", 
+            "date": "1998-04-12", 
             "homeTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "identity": {
                 "MLBAPIID": "215623"
@@ -3095,7 +3080,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "date": "1998-04-12T00:00:00", 
+            "date": "1998-04-12", 
             "homeTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "identity": {
                 "MLBAPIID": "215618"
@@ -3117,7 +3102,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "1998-04-12T00:00:00", 
+            "date": "1998-04-12", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "215624"
@@ -3128,6 +3113,34 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "New York Yankees vs. Oakland Athletics"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/y5shrw1617549382.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
+            "date": "1998-04-12", 
+            "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
+            "identity": {
+                "MLBAPIID": "215620", 
+                "TheSportsDBID": "1212438"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Pittsburgh Pirates vs. Florida Marlins"
         }, 
         {
             "assets": {
@@ -3218,7 +3231,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
-            "date": "1998-04-13T00:00:00", 
+            "date": "1998-04-13", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "MLBAPIID": "215629"
@@ -3252,6 +3265,29 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Los Angeles Dodgers vs. Houston Astros"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
+            "date": "1998-04-13T03:33:00+00:00", 
+            "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
+            "identity": {
+                "MLBAPIID": "215638", 
+                "TheSportsDBID": "1212440"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "San Francisco Giants vs. St. Louis Cardinals"
         }, 
         {
             "assets": {
@@ -3674,13 +3710,15 @@
             "date": "1998-04-15", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
+                "MLBAPIID": "215652", 
                 "TheSportsDBID": "1212416"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "New York Yankees vs Los Angeles Angels"
+            "subseason": 0, 
+            "vs": "New York Yankees vs. Anaheim Angels"
         }, 
         {
             "assets": {
@@ -4024,7 +4062,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1998-04-16T00:00:00", 
+            "date": "1998-04-16", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "215670"
@@ -4146,32 +4184,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Cincinnati Reds vs. Houston Astros"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/qdftgx1617545999.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1998-04-17", 
-            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "identity": {
-                "TheSportsDBID": "1212356"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Chicago Cubs vs Los Angeles Dodgers"
         }, 
         {
             "assets": {
@@ -4386,27 +4398,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Toronto Blue Jays vs. Chicago White Sox"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
-            "date": "1998-04-18", 
-            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "identity": {
-                "TheSportsDBID": "1212358"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Colorado Rockies vs Atlanta Braves"
         }, 
         {
             "assets": {
@@ -4639,19 +4630,26 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/qdftgx1617545999.jpg"
+                    }
+                ]
             }, 
-            "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "date": "1998-04-19", 
-            "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
+            "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
+            "date": "1998-04-18T03:33:00+00:00", 
+            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
-                "TheSportsDBID": "1212348"
+                "MLBAPIID": "215696", 
+                "TheSportsDBID": "1212356"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Boston Red Sox vs Cleveland Indians"
+            "subseason": 0, 
+            "vs": "Chicago Cubs vs. Los Angeles Dodgers"
         }, 
         {
             "assets": {
@@ -4663,7 +4661,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1998-04-19T00:00:00", 
+            "date": "1998-04-19", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "215712"
@@ -4685,7 +4683,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1998-04-19T00:00:00", 
+            "date": "1998-04-19", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "215715"
@@ -4707,7 +4705,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1998-04-19T00:00:00", 
+            "date": "1998-04-19", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "215714"
@@ -4729,7 +4727,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "date": "1998-04-19T00:00:00", 
+            "date": "1998-04-19", 
             "homeTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "identity": {
                 "MLBAPIID": "215718"
@@ -4751,7 +4749,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
-            "date": "1998-04-19T00:00:00", 
+            "date": "1998-04-19", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "215711"
@@ -4773,7 +4771,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "date": "1998-04-19T00:00:00", 
+            "date": "1998-04-19", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "215716"
@@ -4795,7 +4793,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1998-04-19T00:00:00", 
+            "date": "1998-04-19", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "215708"
@@ -4929,6 +4927,30 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
+            "date": "1998-04-19T03:33:00+00:00", 
+            "game": 1, 
+            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
+            "identity": {
+                "MLBAPIID": "215705", 
+                "TheSportsDBID": "1212358"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Colorado Rockies vs. Atlanta Braves"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "date": "1998-04-20T01:05:00+00:00", 
             "game": 2, 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
@@ -4970,6 +4992,29 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Arizona Diamondbacks vs. Florida Marlins"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
+            "date": "1998-04-20T03:33:00+00:00", 
+            "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
+            "identity": {
+                "MLBAPIID": "215722", 
+                "TheSportsDBID": "1212348"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Boston Red Sox vs. Cleveland Indians"
         }, 
         {
             "assets": {
@@ -5710,7 +5755,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1998-04-23T00:00:00", 
+            "date": "1998-04-23", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "215760"
@@ -6482,7 +6527,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "1998-04-26T00:00:00", 
+            "date": "1998-04-26", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "215801"
@@ -6504,7 +6549,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1998-04-26T00:00:00", 
+            "date": "1998-04-26", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "215799"
@@ -6696,13 +6741,15 @@
             "date": "1998-04-27", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
+                "MLBAPIID": "215812", 
                 "TheSportsDBID": "1212262"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "New York Mets vs Houston Astros"
+            "subseason": 0, 
+            "vs": "New York Mets vs. Houston Astros"
         }, 
         {
             "assets": {
@@ -7157,7 +7204,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
-            "date": "1998-04-29T00:00:00", 
+            "date": "1998-04-29", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "215837"
@@ -7972,58 +8019,6 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/d3si5u1617549477.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1998-05-02", 
-            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "identity": {
-                "TheSportsDBID": "1212177"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Chicago Cubs vs St. Louis Cardinals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/1dxpss1617549235.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "date": "1998-05-02", 
-            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "identity": {
-                "TheSportsDBID": "1212183"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "New York Mets vs Colorado Rockies"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
@@ -8284,36 +8279,10 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/8pvuj51617546024.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
-            "date": "1998-05-03", 
-            "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "identity": {
-                "TheSportsDBID": "1212171"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Oakland Athletics vs Toronto Blue Jays"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "date": "1998-05-03T00:00:00", 
+            "date": "1998-05-03", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "215892"
@@ -8335,7 +8304,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1998-05-03T00:00:00", 
+            "date": "1998-05-03", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "215898"
@@ -8357,7 +8326,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
-            "date": "1998-05-03T00:00:00", 
+            "date": "1998-05-03", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "215897"
@@ -8379,7 +8348,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1998-05-03T00:00:00", 
+            "date": "1998-05-03", 
             "homeTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "identity": {
                 "MLBAPIID": "215887"
@@ -8390,6 +8359,34 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Milwaukee Brewers vs. Cincinnati Reds"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/8pvuj51617546024.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
+            "date": "1998-05-03", 
+            "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
+            "identity": {
+                "MLBAPIID": "215899", 
+                "TheSportsDBID": "1212171"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Oakland Athletics vs. Toronto Blue Jays"
         }, 
         {
             "assets": {
@@ -8469,6 +8466,62 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Seattle Mariners vs. Detroit Tigers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/d3si5u1617549477.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
+            "date": "1998-05-03T03:33:00+00:00", 
+            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
+            "identity": {
+                "MLBAPIID": "215896", 
+                "TheSportsDBID": "1212177"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago Cubs vs. St. Louis Cardinals"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/1dxpss1617549235.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
+            "date": "1998-05-03T03:33:00+00:00", 
+            "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
+            "identity": {
+                "MLBAPIID": "215888", 
+                "TheSportsDBID": "1212183"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "New York Mets vs. Colorado Rockies"
         }, 
         {
             "assets": {
@@ -8936,32 +8989,6 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/ognav91617545779.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1998-05-06", 
-            "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "identity": {
-                "TheSportsDBID": "1212131"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Oakland Athletics vs Detroit Tigers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
@@ -9345,6 +9372,34 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/ognav91617545779.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
+            "date": "1998-05-07T03:33:00+00:00", 
+            "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
+            "identity": {
+                "MLBAPIID": "215942", 
+                "TheSportsDBID": "1212131"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Oakland Athletics vs. Detroit Tigers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
@@ -9485,32 +9540,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Pittsburgh Pirates vs. Cincinnati Reds"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/9twxk21617545507.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "date": "1998-05-08", 
-            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "identity": {
-                "TheSportsDBID": "1212086"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Chicago Cubs vs San Francisco Giants"
         }, 
         {
             "assets": {
@@ -9939,6 +9968,35 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/9twxk21617545507.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
+            "date": "1998-05-09T03:33:00+00:00", 
+            "game": 1, 
+            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
+            "identity": {
+                "MLBAPIID": "215974", 
+                "TheSportsDBID": "1212086"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago Cubs vs. San Francisco Giants"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
@@ -10067,7 +10125,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "date": "1998-05-10T00:00:00", 
+            "date": "1998-05-10", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "215988"
@@ -10089,7 +10147,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1998-05-10T00:00:00", 
+            "date": "1998-05-10", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "215979"
@@ -10111,7 +10169,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
-            "date": "1998-05-10T00:00:00", 
+            "date": "1998-05-10", 
             "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "identity": {
                 "MLBAPIID": "215976"
@@ -10738,27 +10796,6 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
-            "date": "1998-05-13", 
-            "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "identity": {
-                "TheSportsDBID": "1212042"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "San Francisco Giants vs Washington Nationals"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
@@ -11265,6 +11302,30 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
+            "date": "1998-05-14T03:33:00+00:00", 
+            "game": 1, 
+            "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
+            "identity": {
+                "MLBAPIID": "216038", 
+                "TheSportsDBID": "1212042"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "San Francisco Giants vs. Montreal Expos"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "date": "1998-05-14T23:05:00+00:00", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
@@ -11715,24 +11776,21 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/hxe6nw1557436691.jpg"
-                    }
-                ]
+                "thumbnail": []
             }, 
-            "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
+            "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "date": "1998-05-16", 
-            "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
+            "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
-                "TheSportsDBID": "1211982"
+                "MLBAPIID": "216073", 
+                "TheSportsDBID": "1212000"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Detroit Tigers vs Los Angeles Angels"
+            "subseason": 0, 
+            "vs": "Toronto Blue Jays vs. Seattle Mariners"
         }, 
         {
             "assets": {
@@ -12007,55 +12065,8 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "date": "1998-05-16", 
-            "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
-            "identity": {
-                "TheSportsDBID": "1212000"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Toronto Blue Jays vs Seattle Mariners"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/xldkrh1617545189.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1998-05-17", 
-            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "identity": {
-                "TheSportsDBID": "1211981"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Colorado Rockies vs Milwaukee Brewers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
-            "date": "1998-05-17T00:00:00", 
+            "date": "1998-05-17", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "216080"
@@ -12077,7 +12088,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1998-05-17T00:00:00", 
+            "date": "1998-05-17", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "216090"
@@ -12096,10 +12107,38 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/xldkrh1617545189.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
+            "date": "1998-05-17", 
+            "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
+            "identity": {
+                "MLBAPIID": "216081", 
+                "TheSportsDBID": "1211981"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Colorado Rockies vs. Milwaukee Brewers"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "date": "1998-05-17T00:00:00", 
+            "date": "1998-05-17", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "216082"
@@ -12121,7 +12160,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1998-05-17T00:00:00", 
+            "date": "1998-05-17", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "216084"
@@ -12303,6 +12342,34 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/hxe6nw1557436691.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
+            "date": "1998-05-17T03:33:00+00:00", 
+            "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
+            "identity": {
+                "MLBAPIID": "216076", 
+                "TheSportsDBID": "1211982"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Detroit Tigers vs. Anaheim Angels"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
@@ -12329,7 +12396,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "1998-05-18T00:00:00", 
+            "date": "1998-05-18", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
                 "MLBAPIID": "216095"
@@ -12351,7 +12418,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
-            "date": "1998-05-18T00:00:00", 
+            "date": "1998-05-18", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "MLBAPIID": "216092"
@@ -12373,7 +12440,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1998-05-18T00:00:00", 
+            "date": "1998-05-18", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "216093"
@@ -13091,7 +13158,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1998-05-21T00:00:00", 
+            "date": "1998-05-21", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "216136"
@@ -13898,7 +13965,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1998-05-24T00:00:00", 
+            "date": "1998-05-24", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "216181"
@@ -13920,7 +13987,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "date": "1998-05-24T00:00:00", 
+            "date": "1998-05-24", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "216175"
@@ -13942,7 +14009,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
-            "date": "1998-05-24T00:00:00", 
+            "date": "1998-05-24", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "216187"
@@ -13964,7 +14031,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1998-05-24T00:00:00", 
+            "date": "1998-05-24", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "216179"
@@ -14208,13 +14275,15 @@
             "date": "1998-05-25", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
+                "MLBAPIID": "216200", 
                 "TheSportsDBID": "1211869"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Boston Red Sox vs Toronto Blue Jays"
+            "subseason": 0, 
+            "vs": "Boston Red Sox vs. Toronto Blue Jays"
         }, 
         {
             "assets": {
@@ -14234,13 +14303,15 @@
             "date": "1998-05-25", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
+                "MLBAPIID": "216198", 
                 "TheSportsDBID": "1211871"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Cincinnati Reds vs San Francisco Giants"
+            "subseason": 0, 
+            "vs": "Cincinnati Reds vs. San Francisco Giants"
         }, 
         {
             "assets": {
@@ -14260,13 +14331,15 @@
             "date": "1998-05-25", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
+                "MLBAPIID": "216191", 
                 "TheSportsDBID": "1211872"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Cleveland Indians vs Detroit Tigers"
+            "subseason": 0, 
+            "vs": "Cleveland Indians vs. Detroit Tigers"
         }, 
         {
             "assets": {
@@ -14286,39 +14359,15 @@
             "date": "1998-05-25", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
+                "MLBAPIID": "216193", 
                 "TheSportsDBID": "1211873"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Houston Astros vs Los Angeles Dodgers"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/2hcrrp1617546060.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
-            "date": "1998-05-25", 
-            "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "identity": {
-                "TheSportsDBID": "1211876"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Oakland Athletics vs Tampa Bay Rays"
+            "subseason": 0, 
+            "vs": "Houston Astros vs. Los Angeles Dodgers"
         }, 
         {
             "assets": {
@@ -14338,13 +14387,15 @@
             "date": "1998-05-25", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
+                "MLBAPIID": "216190", 
                 "TheSportsDBID": "1211865"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "St. Louis Cardinals vs Colorado Rockies"
+            "subseason": 0, 
+            "vs": "St. Louis Cardinals vs. Colorado Rockies"
         }, 
         {
             "assets": {
@@ -14596,6 +14647,34 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/2hcrrp1617546060.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
+            "date": "1998-05-26T03:33:00+00:00", 
+            "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
+            "identity": {
+                "MLBAPIID": "216210", 
+                "TheSportsDBID": "1211876"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Oakland Athletics vs. Tampa Bay Devil Rays"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.thesportsdb.com/images/media/event/thumb/cs07a71617549332.jpg"
                     }
                 ]
@@ -14723,29 +14802,8 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "date": "1998-05-27", 
-            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "identity": {
-                "TheSportsDBID": "1211848"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Chicago Cubs vs Philadelphia Phillies"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "date": "1998-05-27T00:00:00", 
+            "date": "1998-05-27", 
             "homeTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
             "identity": {
                 "MLBAPIID": "216215"
@@ -15061,6 +15119,29 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
+            "date": "1998-05-28T03:33:00+00:00", 
+            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
+            "identity": {
+                "MLBAPIID": "216230", 
+                "TheSportsDBID": "1211848"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago Cubs vs. Philadelphia Phillies"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "date": "1998-05-28T23:05:00+00:00", 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
@@ -15198,32 +15279,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Toronto Blue Jays vs. Cleveland Indians"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/njvu0z1617545782.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
-            "date": "1998-05-29", 
-            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "identity": {
-                "TheSportsDBID": "1211802"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Chicago Cubs vs Atlanta Braves"
         }, 
         {
             "assets": {
@@ -15660,6 +15715,34 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/njvu0z1617545782.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
+            "date": "1998-05-30T03:33:00+00:00", 
+            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
+            "identity": {
+                "MLBAPIID": "216250", 
+                "TheSportsDBID": "1211802"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago Cubs vs. Atlanta Braves"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
@@ -15788,7 +15871,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "date": "1998-05-31T00:00:00", 
+            "date": "1998-05-31", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "216271"
@@ -15810,7 +15893,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1998-05-31T00:00:00", 
+            "date": "1998-05-31", 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
                 "MLBAPIID": "216268"
@@ -15832,7 +15915,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "1998-05-31T00:00:00", 
+            "date": "1998-05-31", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "216266"
@@ -15854,7 +15937,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
-            "date": "1998-05-31T00:00:00", 
+            "date": "1998-05-31", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "216264"
@@ -15876,7 +15959,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "date": "1998-05-31T00:00:00", 
+            "date": "1998-05-31", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "216269"
@@ -16552,7 +16635,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1998-06-03T00:00:00", 
+            "date": "1998-06-03", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "216315"
@@ -17108,32 +17191,6 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/5f1jey1617545451.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1998-06-05", 
-            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "identity": {
-                "TheSportsDBID": "1211704"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Chicago Cubs vs Chicago White Sox"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
@@ -17575,6 +17632,34 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/5f1jey1617545451.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
+            "date": "1998-06-06T03:33:00+00:00", 
+            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
+            "identity": {
+                "MLBAPIID": "216349", 
+                "TheSportsDBID": "1211704"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago Cubs vs. Chicago White Sox"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.thesportsdb.com/images/media/event/thumb/uz7qf61617545773.jpg"
                     }
                 ]
@@ -17659,7 +17744,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
-            "date": "1998-06-07T00:00:00", 
+            "date": "1998-06-07", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "216363"
@@ -17681,7 +17766,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1998-06-07T00:00:00", 
+            "date": "1998-06-07", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "216364"
@@ -17703,7 +17788,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1998-06-07T00:00:00", 
+            "date": "1998-06-07", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "216368"
@@ -17725,7 +17810,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
-            "date": "1998-06-07T00:00:00", 
+            "date": "1998-06-07", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "216362"
@@ -17747,7 +17832,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1998-06-07T00:00:00", 
+            "date": "1998-06-07", 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
                 "MLBAPIID": "216370"
@@ -17769,7 +17854,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "date": "1998-06-07T00:00:00", 
+            "date": "1998-06-07", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "216374"
@@ -19585,29 +19670,8 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
-            "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "date": "1998-06-14", 
-            "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "identity": {
-                "TheSportsDBID": "1211621"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "New York Yankees vs Cleveland Indians"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1998-06-14T00:00:00", 
+            "date": "1998-06-14", 
             "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "identity": {
                 "MLBAPIID": "216464"
@@ -19628,8 +19692,31 @@
                 "preview": [], 
                 "thumbnail": []
             }, 
+            "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
+            "date": "1998-06-14", 
+            "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
+            "identity": {
+                "MLBAPIID": "216455", 
+                "TheSportsDBID": "1211621"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "New York Yankees vs. Cleveland Indians"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "date": "1998-06-14T00:00:00", 
+            "date": "1998-06-14", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "216462"
@@ -19651,7 +19738,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "date": "1998-06-14T00:00:00", 
+            "date": "1998-06-14", 
             "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "identity": {
                 "MLBAPIID": "216454"
@@ -20377,7 +20464,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1998-06-17T00:00:00", 
+            "date": "1998-06-17", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "216497"
@@ -20728,27 +20815,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Tampa Bay Devil Rays vs. Toronto Blue Jays"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": []
-            }, 
-            "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "date": "1998-06-18", 
-            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "identity": {
-                "TheSportsDBID": "1211529"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Chicago Cubs vs Philadelphia Phillies"
         }, 
         {
             "assets": {
@@ -21145,6 +21211,29 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "San Francisco Giants vs. San Diego Padres"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": []
+            }, 
+            "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
+            "date": "1998-06-19T03:33:00+00:00", 
+            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
+            "identity": {
+                "MLBAPIID": "216531", 
+                "TheSportsDBID": "1211529"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago Cubs vs. Philadelphia Phillies"
         }, 
         {
             "assets": {
@@ -21650,7 +21739,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1998-06-21T00:00:00", 
+            "date": "1998-06-21", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "MLBAPIID": "216554"
@@ -21672,7 +21761,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1998-06-21T00:00:00", 
+            "date": "1998-06-21", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "216555"
@@ -21694,7 +21783,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1998-06-21T00:00:00", 
+            "date": "1998-06-21", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "216563"
@@ -21716,7 +21805,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "1998-06-21T00:00:00", 
+            "date": "1998-06-21", 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
                 "MLBAPIID": "216560"
@@ -23684,7 +23773,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "date": "1998-06-28T00:00:00", 
+            "date": "1998-06-28", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "216661"
@@ -23706,7 +23795,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1998-06-28T00:00:00", 
+            "date": "1998-06-28", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "MLBAPIID": "216656"
@@ -23728,7 +23817,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1998-06-28T00:00:00", 
+            "date": "1998-06-28", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "216669"
@@ -23941,32 +24030,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Los Angeles Dodgers vs. Pittsburgh Pirates"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/d54zko1617545303.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1998-06-30", 
-            "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "identity": {
-                "TheSportsDBID": "1211371"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Oakland Athletics vs San Diego Padres"
         }, 
         {
             "assets": {
@@ -24337,6 +24400,34 @@
                 "logo": [], 
                 "poster": [], 
                 "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/d54zko1617545303.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
+            "date": "1998-07-01T03:33:00+00:00", 
+            "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
+            "identity": {
+                "MLBAPIID": "216699", 
+                "TheSportsDBID": "1211371"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Oakland Athletics vs. San Diego Padres"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
@@ -24493,7 +24584,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
-            "date": "1998-07-02T00:00:00", 
+            "date": "1998-07-02", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "216701"
@@ -24772,32 +24863,6 @@
             "sport": "Baseball", 
             "subseason": 0, 
             "vs": "Toronto Blue Jays vs. New York Mets"
-        }, 
-        {
-            "assets": {
-                "banner": [], 
-                "fanArt": [], 
-                "logo": [], 
-                "poster": [], 
-                "preview": [], 
-                "thumbnail": [
-                    {
-                        "source": "thesportsdb", 
-                        "url": "https://www.thesportsdb.com/images/media/event/thumb/a7zrud1617546064.jpg"
-                    }
-                ]
-            }, 
-            "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "date": "1998-07-03", 
-            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "identity": {
-                "TheSportsDBID": "1211320"
-            }, 
-            "league": "MLB", 
-            "networks": [], 
-            "season": "1998", 
-            "sport": "Baseball", 
-            "vs": "Chicago Cubs vs Pittsburgh Pirates"
         }, 
         {
             "assets": {
@@ -25323,6 +25388,34 @@
                 "thumbnail": [
                     {
                         "source": "thesportsdb", 
+                        "url": "https://www.thesportsdb.com/images/media/event/thumb/a7zrud1617546064.jpg"
+                    }
+                ]
+            }, 
+            "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
+            "date": "1998-07-04T03:33:00+00:00", 
+            "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
+            "identity": {
+                "MLBAPIID": "216742", 
+                "TheSportsDBID": "1211320"
+            }, 
+            "league": "MLB", 
+            "networks": [], 
+            "season": "1998", 
+            "sport": "Baseball", 
+            "subseason": 0, 
+            "vs": "Chicago Cubs vs. Pittsburgh Pirates"
+        }, 
+        {
+            "assets": {
+                "banner": [], 
+                "fanArt": [], 
+                "logo": [], 
+                "poster": [], 
+                "preview": [], 
+                "thumbnail": [
+                    {
+                        "source": "thesportsdb", 
                         "url": "https://www.thesportsdb.com/images/media/event/thumb/nn1jqz1617546304.jpg"
                     }
                 ]
@@ -25407,7 +25500,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1998-07-05T00:00:00", 
+            "date": "1998-07-05", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "216748"
@@ -25429,7 +25522,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "date": "1998-07-05T00:00:00", 
+            "date": "1998-07-05", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "216757"
@@ -25451,7 +25544,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1998-07-05T00:00:00", 
+            "date": "1998-07-05", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "216759"
@@ -25473,7 +25566,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "1998-07-05T00:00:00", 
+            "date": "1998-07-05", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "216747"
@@ -25495,7 +25588,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1998-07-05T00:00:00", 
+            "date": "1998-07-05", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "216753"
@@ -25517,7 +25610,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
-            "date": "1998-07-05T00:00:00", 
+            "date": "1998-07-05", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "216760"
@@ -25763,13 +25856,15 @@
             "date": "1998-07-09", 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
+                "MLBAPIID": "216770", 
                 "TheSportsDBID": "1211297"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Los Angeles Dodgers vs San Diego Padres"
+            "subseason": 0, 
+            "vs": "Los Angeles Dodgers vs. San Diego Padres"
         }, 
         {
             "assets": {
@@ -25789,13 +25884,15 @@
             "date": "1998-07-09", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
+                "MLBAPIID": "216771", 
                 "TheSportsDBID": "1211301"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Oakland Athletics vs Texas Rangers"
+            "subseason": 0, 
+            "vs": "Oakland Athletics vs. Texas Rangers"
         }, 
         {
             "assets": {
@@ -26647,7 +26744,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "1998-07-12T00:00:00", 
+            "date": "1998-07-12", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "216805"
@@ -26669,7 +26766,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "date": "1998-07-12T00:00:00", 
+            "date": "1998-07-12", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "216810"
@@ -26691,7 +26788,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "date": "1998-07-12T00:00:00", 
+            "date": "1998-07-12", 
             "homeTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
             "identity": {
                 "MLBAPIID": "216806"
@@ -26713,7 +26810,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1998-07-12T00:00:00", 
+            "date": "1998-07-12", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "216816"
@@ -26735,7 +26832,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1998-07-12T00:00:00", 
+            "date": "1998-07-12", 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
                 "MLBAPIID": "216803"
@@ -26757,7 +26854,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "date": "1998-07-12T00:00:00", 
+            "date": "1998-07-12", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "216808"
@@ -28730,13 +28827,15 @@
             "date": "1998-07-19", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
+                "MLBAPIID": "216907", 
                 "TheSportsDBID": "1211152"
             }, 
             "league": "MLB", 
             "networks": [], 
             "season": "1998", 
             "sport": "Baseball", 
-            "vs": "Chicago White Sox vs Cleveland Indians"
+            "subseason": 0, 
+            "vs": "Chicago White Sox vs. Cleveland Indians"
         }, 
         {
             "assets": {
@@ -28748,7 +28847,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "date": "1998-07-19T00:00:00", 
+            "date": "1998-07-19", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "MLBAPIID": "216917"
@@ -28770,7 +28869,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "date": "1998-07-19T00:00:00", 
+            "date": "1998-07-19", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "216914"
@@ -28792,7 +28891,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "date": "1998-07-19T00:00:00", 
+            "date": "1998-07-19", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "216912"
@@ -28814,7 +28913,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
-            "date": "1998-07-19T00:00:00", 
+            "date": "1998-07-19", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "216913"
@@ -30605,7 +30704,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "date": "1998-07-26T00:00:00", 
+            "date": "1998-07-26", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "217019"
@@ -30627,7 +30726,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1998-07-26T00:00:00", 
+            "date": "1998-07-26", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "217017"
@@ -30649,7 +30748,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1998-07-26T00:00:00", 
+            "date": "1998-07-26", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "217013"
@@ -30671,7 +30770,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1998-07-26T00:00:00", 
+            "date": "1998-07-26", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "217011"
@@ -30693,7 +30792,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1998-07-26T00:00:00", 
+            "date": "1998-07-26", 
             "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "identity": {
                 "MLBAPIID": "217014"
@@ -30715,7 +30814,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "date": "1998-07-26T00:00:00", 
+            "date": "1998-07-26", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "MLBAPIID": "217015"
@@ -30737,7 +30836,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1998-07-26T00:00:00", 
+            "date": "1998-07-26", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "217012"
@@ -30847,7 +30946,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "1998-07-27T00:00:00", 
+            "date": "1998-07-27", 
             "eventTitle": "1998 Major League Baseball Hall of Fame Game", 
             "eventindicator": -1, 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
@@ -32300,7 +32399,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
-            "date": "1998-08-02T00:00:00", 
+            "date": "1998-08-02", 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "MLBAPIID": "217115"
@@ -32322,7 +32421,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "date": "1998-08-02T00:00:00", 
+            "date": "1998-08-02", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "217108"
@@ -32344,7 +32443,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "date": "1998-08-02T00:00:00", 
+            "date": "1998-08-02", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "217107"
@@ -32366,7 +32465,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "date": "1998-08-02T00:00:00", 
+            "date": "1998-08-02", 
             "homeTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
             "identity": {
                 "MLBAPIID": "217110"
@@ -32476,7 +32575,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1998-08-03T00:00:00", 
+            "date": "1998-08-03", 
             "homeTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
             "identity": {
                 "MLBAPIID": "217125"
@@ -32498,7 +32597,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "date": "1998-08-03T00:00:00", 
+            "date": "1998-08-03", 
             "homeTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
             "identity": {
                 "MLBAPIID": "217126"
@@ -33756,7 +33855,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1998-08-09T00:00:00", 
+            "date": "1998-08-09", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "217206"
@@ -33778,7 +33877,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "date": "1998-08-09T00:00:00", 
+            "date": "1998-08-09", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "217210"
@@ -33800,7 +33899,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
-            "date": "1998-08-09T00:00:00", 
+            "date": "1998-08-09", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "217204"
@@ -33822,7 +33921,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1998-08-09T00:00:00", 
+            "date": "1998-08-09", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "MLBAPIID": "217203"
@@ -33844,7 +33943,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "date": "1998-08-09T00:00:00", 
+            "date": "1998-08-09", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "217201"
@@ -33866,7 +33965,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "1998-08-09T00:00:00", 
+            "date": "1998-08-09", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "217207"
@@ -34131,7 +34230,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1998-08-11T00:00:00", 
+            "date": "1998-08-11", 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
                 "MLBAPIID": "217225"
@@ -34461,7 +34560,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "date": "1998-08-12T00:00:00", 
+            "date": "1998-08-12", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "217239"
@@ -35407,7 +35506,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "date": "1998-08-16T00:00:00", 
+            "date": "1998-08-16", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
                 "MLBAPIID": "217302"
@@ -35429,7 +35528,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1998-08-16T00:00:00", 
+            "date": "1998-08-16", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "217304"
@@ -35451,7 +35550,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1998-08-16T00:00:00", 
+            "date": "1998-08-16", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "217293"
@@ -35473,7 +35572,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1998-08-16T00:00:00", 
+            "date": "1998-08-16", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "217289"
@@ -36048,7 +36147,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1998-08-19T00:00:00", 
+            "date": "1998-08-19", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "217331"
@@ -36931,7 +37030,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1998-08-22T00:00:00", 
+            "date": "1998-08-22", 
             "homeTeam": "ffe7fd7f-3df4-4101-88b6-9cd2b07d2c40", 
             "identity": {
                 "MLBAPIID": "217388"
@@ -37196,7 +37295,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "date": "1998-08-23T00:00:00", 
+            "date": "1998-08-23", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "217398"
@@ -37218,7 +37317,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1998-08-23T00:00:00", 
+            "date": "1998-08-23", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "217400"
@@ -37416,7 +37515,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "date": "1998-08-24T00:00:00", 
+            "date": "1998-08-24", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "217415"
@@ -37438,7 +37537,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "date": "1998-08-24T00:00:00", 
+            "date": "1998-08-24", 
             "homeTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
             "identity": {
                 "MLBAPIID": "217419"
@@ -37460,7 +37559,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
-            "date": "1998-08-24T00:00:00", 
+            "date": "1998-08-24", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "217410"
@@ -37482,7 +37581,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1998-08-24T00:00:00", 
+            "date": "1998-08-24", 
             "homeTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
             "identity": {
                 "MLBAPIID": "217411"
@@ -38144,7 +38243,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1998-08-27T00:00:00", 
+            "date": "1998-08-27", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "217461"
@@ -38961,7 +39060,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "89d7f782-b1e6-45b0-9d00-199387510737", 
-            "date": "1998-08-30T00:00:00", 
+            "date": "1998-08-30", 
             "homeTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
             "identity": {
                 "MLBAPIID": "217511"
@@ -38983,7 +39082,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
-            "date": "1998-08-30T00:00:00", 
+            "date": "1998-08-30", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "217506"
@@ -39005,7 +39104,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
-            "date": "1998-08-30T00:00:00", 
+            "date": "1998-08-30", 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
                 "MLBAPIID": "217505"
@@ -39027,7 +39126,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "883e5f95-dfa0-47ac-b5f6-5300738471a3", 
-            "date": "1998-08-30T00:00:00", 
+            "date": "1998-08-30", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "217509"
@@ -39049,7 +39148,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "63c7723e-52e2-4e2a-bb43-f95e90fe94e0", 
-            "date": "1998-08-30T00:00:00", 
+            "date": "1998-08-30", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "217507"
@@ -39071,7 +39170,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "date": "1998-08-30T00:00:00", 
+            "date": "1998-08-30", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "217503"
@@ -40545,7 +40644,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
-            "date": "1998-09-06T00:00:00", 
+            "date": "1998-09-06", 
             "homeTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
             "identity": {
                 "MLBAPIID": "217594"
@@ -40567,7 +40666,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
-            "date": "1998-09-06T00:00:00", 
+            "date": "1998-09-06", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "217600"
@@ -40589,7 +40688,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1998-09-06T00:00:00", 
+            "date": "1998-09-06", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "217592"
@@ -40611,7 +40710,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
-            "date": "1998-09-06T00:00:00", 
+            "date": "1998-09-06", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "217590"
@@ -40743,7 +40842,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1998-09-07T00:00:00", 
+            "date": "1998-09-07", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "217609"
@@ -40765,7 +40864,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1998-09-07T00:00:00", 
+            "date": "1998-09-07", 
             "homeTeam": "edf38c79-f8d0-4bba-befd-24ba8c380a39", 
             "identity": {
                 "MLBAPIID": "217606"
@@ -40787,7 +40886,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
-            "date": "1998-09-07T00:00:00", 
+            "date": "1998-09-07", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "217605"
@@ -40809,7 +40908,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
-            "date": "1998-09-07T00:00:00", 
+            "date": "1998-09-07", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "217607"
@@ -41139,7 +41238,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "date": "1998-09-09T00:00:00", 
+            "date": "1998-09-09", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "217640"
@@ -41491,7 +41590,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1998-09-10T00:00:00", 
+            "date": "1998-09-10", 
             "homeTeam": "ccd99177-70e7-4633-b85e-63d3a190cc8c", 
             "identity": {
                 "MLBAPIID": "217646"
@@ -42218,7 +42317,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1998-09-13T00:00:00", 
+            "date": "1998-09-13", 
             "homeTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
             "identity": {
                 "MLBAPIID": "217683"
@@ -42240,7 +42339,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1998-09-13T00:00:00", 
+            "date": "1998-09-13", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "217687"
@@ -42262,7 +42361,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1998-09-13T00:00:00", 
+            "date": "1998-09-13", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "217690"
@@ -42284,7 +42383,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "4bbae692-598c-47d0-8e72-99061273c65c", 
-            "date": "1998-09-13T00:00:00", 
+            "date": "1998-09-13", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "217684"
@@ -42306,7 +42405,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "076bac0d-38d4-4f48-9ca2-dcb265c3e68e", 
-            "date": "1998-09-13T00:00:00", 
+            "date": "1998-09-13", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "217685"
@@ -42328,7 +42427,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
-            "date": "1998-09-13T00:00:00", 
+            "date": "1998-09-13", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "217696"
@@ -42350,7 +42449,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
-            "date": "1998-09-13T00:00:00", 
+            "date": "1998-09-13", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "217686"
@@ -43937,7 +44036,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
-            "date": "1998-09-20T00:00:00", 
+            "date": "1998-09-20", 
             "homeTeam": "3642f46b-a363-4a4c-bf4b-65bd55f6c8b1", 
             "identity": {
                 "MLBAPIID": "217785"
@@ -43959,7 +44058,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "03312867-f650-42f8-af9c-ae543384957e", 
-            "date": "1998-09-20T00:00:00", 
+            "date": "1998-09-20", 
             "homeTeam": "c4377eb6-c53b-41c7-ad30-3e50ad710b71", 
             "identity": {
                 "MLBAPIID": "217789"
@@ -43981,7 +44080,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "826ed685-f5d3-4ce1-ba24-a93eaad1de26", 
-            "date": "1998-09-20T00:00:00", 
+            "date": "1998-09-20", 
             "homeTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
             "identity": {
                 "MLBAPIID": "217791"
@@ -44003,7 +44102,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "bb6d98f1-f9fa-4e4c-8e7e-2655ad95ff76", 
-            "date": "1998-09-20T00:00:00", 
+            "date": "1998-09-20", 
             "homeTeam": "44bb0c9e-b2b4-4787-9be6-b9599ff357d0", 
             "identity": {
                 "MLBAPIID": "217787"
@@ -44025,7 +44124,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
-            "date": "1998-09-20T00:00:00", 
+            "date": "1998-09-20", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "217790"
@@ -44886,7 +44985,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "date": "1998-09-24T00:00:00", 
+            "date": "1998-09-24", 
             "homeTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
             "identity": {
                 "MLBAPIID": "217845"
@@ -45591,7 +45690,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6a95215a-e189-4882-b9ee-6fc2b7384b73", 
-            "date": "1998-09-27T00:00:00", 
+            "date": "1998-09-27", 
             "homeTeam": "3f5b78f9-33bb-4ab6-b9df-74f88b00514a", 
             "identity": {
                 "MLBAPIID": "217879"
@@ -45613,7 +45712,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "90825f6d-d795-4e10-a03b-8dd87f39e670", 
-            "date": "1998-09-27T00:00:00", 
+            "date": "1998-09-27", 
             "homeTeam": "65406cdf-45f7-4c86-b615-76813bcde88d", 
             "identity": {
                 "MLBAPIID": "217889"
@@ -45635,7 +45734,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "3f55e347-b5ae-4da3-9bde-1c9c05a66dad", 
-            "date": "1998-09-27T00:00:00", 
+            "date": "1998-09-27", 
             "homeTeam": "46c817ab-e9bc-4644-881e-7ca785082326", 
             "identity": {
                 "MLBAPIID": "217891"
@@ -45657,7 +45756,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "e3abfb8d-2bbc-471d-9f5b-bcd0581c4978", 
-            "date": "1998-09-27T00:00:00", 
+            "date": "1998-09-27", 
             "homeTeam": "eb910acc-fcbd-4961-92d3-b7fbe715362c", 
             "identity": {
                 "MLBAPIID": "217884"
@@ -45679,7 +45778,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "715fdb68-e2d7-4e9a-873b-e89b4f957699", 
-            "date": "1998-09-27T00:00:00", 
+            "date": "1998-09-27", 
             "homeTeam": "49b0fe6d-3a21-4a54-ba22-1f7fe0b38ac4", 
             "identity": {
                 "MLBAPIID": "217892"
@@ -45701,7 +45800,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "78cf753c-b92b-4fd2-87ca-d5c538231f26", 
-            "date": "1998-09-27T00:00:00", 
+            "date": "1998-09-27", 
             "homeTeam": "8ca8bb48-7544-4fd6-97f1-fe7dbce8b6c5", 
             "identity": {
                 "MLBAPIID": "217878"
@@ -45723,7 +45822,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "6deed658-5618-43e6-9a93-c7071da7708c", 
-            "date": "1998-09-27T00:00:00", 
+            "date": "1998-09-27", 
             "homeTeam": "18d872e9-e574-4da1-9298-51c25597dce8", 
             "identity": {
                 "MLBAPIID": "217885"
@@ -45745,7 +45844,7 @@
                 "thumbnail": []
             }, 
             "awayTeam": "35be3f6f-53d5-47b9-b91b-719a8c4512a6", 
-            "date": "1998-09-27T00:00:00", 
+            "date": "1998-09-27", 
             "homeTeam": "ddbe70f7-d14a-469e-baa0-063e5cfcd8d9", 
             "identity": {
                 "MLBAPIID": "217883"
