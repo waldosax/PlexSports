@@ -46,7 +46,9 @@ def GetSchedule(sched, navigator, sport, league, season):
 								if isinstance(time, basestring) and IsISO8601Time(time):
 									time = ParseISO8601Time(time)
 								date = datetime.datetime.combine(date.date(), time)
-							date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
+								date = date.replace(tzinfo=EasternTime).astimezone(tz=UTC)
+							elif type(date) == datetime.datetime:
+								date = date.date()
 
 							homeTeamFullName = deunicode(schedEvent["homeTeam"])
 							homeTeamAbbrev = __correct_abbreviation(deunicode(schedEvent["homeTeamAbbrev"]))

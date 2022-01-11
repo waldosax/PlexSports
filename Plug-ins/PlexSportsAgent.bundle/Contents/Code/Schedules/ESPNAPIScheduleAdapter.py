@@ -594,5 +594,9 @@ def __get_nfl_week(league, date, seasonType, calendar):
 def __is_date_in_range(date, fromDate, toDate):
 	"""Does specified date lie betwen the ends of a given date range?"""
 	
+	x = date
+	if type(date) == datetime.date:
+		x = datetime.datetime(date.year, date.month, date.day, tzinfo=UTC)
+	
 	# toDate is up-to-the-minute (inclusive)
-	return date >= fromDate and date <= toDate
+	return x >= fromDate and x <= toDate

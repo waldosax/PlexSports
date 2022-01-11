@@ -79,7 +79,11 @@ def __get_supplement_from_cache(sport, league, season):
 	if supplement:
 		for s in supplement.values():
 			if "date" in s.keys() and isinstance(s["date"], basestring):
-				s["date"] = ParseISO8601Date(s["date"])
+				x = ParseISO8601Date(s["date"])
+				if not x.time():
+					x = x.date()
+				s["date"] = x
+
 
 	return supplement
 

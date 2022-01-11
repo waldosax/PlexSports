@@ -132,8 +132,10 @@ def __convert_supplement(navigator, sport, league, season, augmentEvent, eventId
     if awayTeamKey: enhancedEvent["awayTeam"] = awayTeamKey
     if awayTeamName: enhancedEvent["awayTeamName"] = awayTeamName
 
-    vs = "%s vs. %s" % (homeTeamDisplay, awayTeamDisplay)
-    enhancedEvent.setdefault("vs", vs)
+    vs = None
+    if homeTeamDisplay and awayTeamDisplay:
+        vs = "%s vs. %s" % (homeTeamDisplay, awayTeamDisplay)
+        enhancedEvent.setdefault("vs", vs)
 
     assets = {}
     if augmentEvent.get("logo"):

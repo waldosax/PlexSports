@@ -155,7 +155,8 @@ def GetSchedule(sched, navigator, sport, league, season):
 					kwargs["assets"] = assets
 
 				handled = False
-				if date.time() == datetime.time(3, 33):
+				if date.time() == datetime.time(3, 33) or \
+					date.time() == datetime.time(8, 33):
 
 					augmentationKey = __get_matching_active_record_key(sched, kwargs)
 					if augmentationKey:
@@ -164,8 +165,7 @@ def GetSchedule(sched, navigator, sport, league, season):
 						if activeEvent:
 							activeEvent.augment(**kwargs)
 							handled = True
-					kwargs["date"] = datetime.datetime(date.year, date.month, date.day)
-
+					kwargs["date"] = datetime.datetime(date.year, date.month, date.day).date()
 
 				if handled == False:
 					event = ScheduleEvent(**kwargs)
